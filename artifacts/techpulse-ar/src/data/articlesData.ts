@@ -20,7 +20,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-100-how-to-protect-your-accounts-from-hacking-in-2024/800/450',
     tags: ['Tech', 'Cybersecurity', '2024'],
-    youtubeVideoId: 'TX9qSaGXFyg',
     isFeatured: true,
     isTrending: true
   },
@@ -42,7 +41,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-101-best-free-antivirus-software/800/450',
     tags: ['Tech', 'Cybersecurity', '2024'],
-    youtubeVideoId: 'jfKfPfyJRdk',
     isFeatured: false,
     isTrending: false
   },
@@ -64,7 +62,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-102-what-is-a-vpn-and-why-do-you-need-it/800/450',
     tags: ['Tech', 'Cybersecurity', '2024'],
-    youtubeVideoId: 'DC9cFkSnKz8',
     isFeatured: false,
     isTrending: false
   },
@@ -86,7 +83,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-103-how-to-detect-if-your-phone-is-hacked/800/450',
     tags: ['Tech', 'Cybersecurity', '2024'],
-    youtubeVideoId: '8aGhZQkoFbQ',
     isFeatured: false,
     isTrending: false
   },
@@ -234,7 +230,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-110-the-danger-of-public-wifi-networks/800/450',
     tags: ['Tech', 'Cybersecurity', '2024'],
-    youtubeVideoId: 'kKSCDOSk4lk',
     isFeatured: false,
     isTrending: false
   },
@@ -256,7 +251,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-111-setting-up-two-factor-authentication-step-by-step/800/450',
     tags: ['Tech', 'Cybersecurity', '2024'],
-    youtubeVideoId: 'eIho2S0ZahI',
     isFeatured: false,
     isTrending: false
   },
@@ -278,7 +272,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-112-best-password-managers/800/450',
     tags: ['Tech', 'Cybersecurity', '2024'],
-    youtubeVideoId: '_Ql9cA5jF0I',
     isFeatured: false,
     isTrending: false
   },
@@ -300,7 +293,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-113-what-is-the-dark-web-and-how-it-works/800/450',
     tags: ['Tech', 'Cybersecurity', '2024'],
-    youtubeVideoId: 'jfKfPfyJRdk',
     isFeatured: false,
     isTrending: false
   },
@@ -448,7 +440,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-120-full-iphone-16-review/800/450',
     tags: ['Tech', 'Mobile', '2024'],
-    youtubeVideoId: 'ysEN5RaKOlA',
     isFeatured: false,
     isTrending: false
   },
@@ -470,7 +461,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-121-best-android-phones-in-2024/800/450',
     tags: ['Tech', 'Mobile', '2024'],
-    youtubeVideoId: 'UquP3gK1AuQ',
     isFeatured: false,
     isTrending: false
   },
@@ -492,7 +482,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-122-google-pixel-8-pro-review/800/450',
     tags: ['Tech', 'Mobile', '2024'],
-    youtubeVideoId: 'hvjmvJPCNpA',
     isFeatured: false,
     isTrending: false
   },
@@ -514,7 +503,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-123-samsung-vs-huawei-comparison/800/450',
     tags: ['Tech', 'Mobile', '2024'],
-    youtubeVideoId: 'zQnBQ4tB3ZA',
     isFeatured: false,
     isTrending: false
   },
@@ -662,7 +650,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-130-best-gaming-phone-in-2024/800/450',
     tags: ['Tech', 'Mobile', '2024'],
-    youtubeVideoId: 'TX9qSaGXFyg',
     isFeatured: true,
     isTrending: false
   },
@@ -684,7 +671,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-131-evolution-of-foldable-phones/800/450',
     tags: ['Tech', 'Mobile', '2024'],
-    youtubeVideoId: 'jfKfPfyJRdk',
     isFeatured: false,
     isTrending: false
   },
@@ -706,7 +692,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-132-oppo-find-x7-ultra-review/800/450',
     tags: ['Tech', 'Mobile', '2024'],
-    youtubeVideoId: 'DC9cFkSnKz8',
     isFeatured: false,
     isTrending: false
   },
@@ -728,7 +713,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-133-sony-xperia-1-vi-special-review/800/450',
     tags: ['Tech', 'Mobile', '2024'],
-    youtubeVideoId: '8aGhZQkoFbQ',
     isFeatured: false,
     isTrending: false
   },
@@ -876,7 +860,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-140-macbook-pro-m3-max-review/800/450',
     tags: ['Tech', 'Laptops', '2024'],
-    youtubeVideoId: 'kKSCDOSk4lk',
     isFeatured: false,
     isTrending: false
   },
@@ -898,7 +881,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-141-best-laptops-for-programmers/800/450',
     tags: ['Tech', 'Laptops', '2024'],
-    youtubeVideoId: 'eIho2S0ZahI',
     isFeatured: false,
     isTrending: false
   },
@@ -920,7 +902,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-142-dell-xps-15-2024-review/800/450',
     tags: ['Tech', 'Laptops', '2024'],
-    youtubeVideoId: '_Ql9cA5jF0I',
     isFeatured: false,
     isTrending: false
   },
@@ -942,7 +923,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-143-lenovo-thinkpad-x1-for-business/800/450',
     tags: ['Tech', 'Laptops', '2024'],
-    youtubeVideoId: 'jfKfPfyJRdk',
     isFeatured: false,
     isTrending: false
   },
@@ -1090,7 +1070,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-150-how-to-choose-the-right-ram-for-your-laptop/800/450',
     tags: ['Tech', 'Laptops', '2024'],
-    youtubeVideoId: 'ysEN5RaKOlA',
     isFeatured: false,
     isTrending: true
   },
@@ -1112,7 +1091,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-151-microsoft-surface-pro-10-review/800/450',
     tags: ['Tech', 'Laptops', '2024'],
-    youtubeVideoId: 'UquP3gK1AuQ',
     isFeatured: false,
     isTrending: false
   },
@@ -1134,7 +1112,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-152-laptops-under--500-worth-buying/800/450',
     tags: ['Tech', 'Laptops', '2024'],
-    youtubeVideoId: 'hvjmvJPCNpA',
     isFeatured: false,
     isTrending: false
   },
@@ -1156,7 +1133,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-153-upgrading-laptop-ssd--complete-guide/800/450',
     tags: ['Tech', 'Laptops', '2024'],
-    youtubeVideoId: 'zQnBQ4tB3ZA',
     isFeatured: false,
     isTrending: false
   },
@@ -1304,7 +1280,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-160-how-to-recover-deleted-files/800/450',
     tags: ['Tech', 'Howto', '2024'],
-    youtubeVideoId: 'TX9qSaGXFyg',
     isFeatured: true,
     isTrending: false
   },
@@ -1326,7 +1301,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-161-fix-a-slow-computer/800/450',
     tags: ['Tech', 'Howto', '2024'],
-    youtubeVideoId: 'jfKfPfyJRdk',
     isFeatured: false,
     isTrending: false
   },
@@ -1348,7 +1322,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-162-how-to-configure-router-for-faster-internet/800/450',
     tags: ['Tech', 'Howto', '2024'],
-    youtubeVideoId: 'DC9cFkSnKz8',
     isFeatured: false,
     isTrending: false
   },
@@ -1370,7 +1343,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-163-fixing-a-dead-laptop-screen/800/450',
     tags: ['Tech', 'Howto', '2024'],
-    youtubeVideoId: '8aGhZQkoFbQ',
     isFeatured: false,
     isTrending: false
   },
@@ -1518,7 +1490,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-170-how-to-create-a-home-vpn-network/800/450',
     tags: ['Tech', 'Howto', '2024'],
-    youtubeVideoId: 'kKSCDOSk4lk',
     isFeatured: false,
     isTrending: false
   },
@@ -1540,7 +1511,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-171-fix-corrupted-system-files-in-windows/800/450',
     tags: ['Tech', 'Howto', '2024'],
-    youtubeVideoId: 'eIho2S0ZahI',
     isFeatured: false,
     isTrending: false
   },
@@ -1562,7 +1532,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-172-how-to-convert-pdf-files-easily/800/450',
     tags: ['Tech', 'Howto', '2024'],
-    youtubeVideoId: '_Ql9cA5jF0I',
     isFeatured: false,
     isTrending: false
   },
@@ -1584,7 +1553,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-173-tips-for-organizing-your-digital-files/800/450',
     tags: ['Tech', 'Howto', '2024'],
-    youtubeVideoId: 'jfKfPfyJRdk',
     isFeatured: false,
     isTrending: false
   },
@@ -1732,7 +1700,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-180-how-ai-can-change-your-job/800/450',
     tags: ['Tech', 'Ai', '2024'],
-    youtubeVideoId: 'ysEN5RaKOlA',
     isFeatured: false,
     isTrending: false
   },
@@ -1754,7 +1721,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-181-best-ai-productivity-tools/800/450',
     tags: ['Tech', 'Ai', '2024'],
-    youtubeVideoId: 'UquP3gK1AuQ',
     isFeatured: false,
     isTrending: false
   },
@@ -1776,7 +1742,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-182-testing-copilot-in-windows-11/800/450',
     tags: ['Tech', 'Ai', '2024'],
-    youtubeVideoId: 'hvjmvJPCNpA',
     isFeatured: false,
     isTrending: false
   },
@@ -1798,7 +1763,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-183-how-to-use-chatgpt-for-work-and-study/800/450',
     tags: ['Tech', 'Ai', '2024'],
-    youtubeVideoId: 'zQnBQ4tB3ZA',
     isFeatured: false,
     isTrending: false
   },
@@ -1946,7 +1910,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-190-can-ai-truly-be-creative/800/450',
     tags: ['Tech', 'Ai', '2024'],
-    youtubeVideoId: 'TX9qSaGXFyg',
     isFeatured: true,
     isTrending: false
   },
@@ -1968,7 +1931,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-191-stable-diffusion-beginner-s-guide/800/450',
     tags: ['Tech', 'Ai', '2024'],
-    youtubeVideoId: 'jfKfPfyJRdk',
     isFeatured: false,
     isTrending: false
   },
@@ -1990,7 +1952,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-192-ai-ethics-and-risks/800/450',
     tags: ['Tech', 'Ai', '2024'],
-    youtubeVideoId: 'DC9cFkSnKz8',
     isFeatured: false,
     isTrending: false
   },
@@ -2012,7 +1973,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-193-how-ai-helps-in-language-learning/800/450',
     tags: ['Tech', 'Ai', '2024'],
-    youtubeVideoId: '8aGhZQkoFbQ',
     isFeatured: false,
     isTrending: false
   },
@@ -2160,7 +2120,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-200-apple-watch-series-10-review/800/450',
     tags: ['Tech', 'Reviews', '2024'],
-    youtubeVideoId: 'kKSCDOSk4lk',
     isFeatured: false,
     isTrending: true
   },
@@ -2182,7 +2141,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-201-sony-wh-1000xm5-headphones-review/800/450',
     tags: ['Tech', 'Reviews', '2024'],
-    youtubeVideoId: 'eIho2S0ZahI',
     isFeatured: false,
     isTrending: false
   },
@@ -2204,7 +2162,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-202-ipad-pro-m4-review/800/450',
     tags: ['Tech', 'Reviews', '2024'],
-    youtubeVideoId: '_Ql9cA5jF0I',
     isFeatured: false,
     isTrending: false
   },
@@ -2226,7 +2183,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-203-playstation-5-slim-review-after-one-year/800/450',
     tags: ['Tech', 'Reviews', '2024'],
-    youtubeVideoId: 'jfKfPfyJRdk',
     isFeatured: false,
     isTrending: false
   },
@@ -2374,7 +2330,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-210-lg-ultrawide-34--monitor-review/800/450',
     tags: ['Tech', 'Reviews', '2024'],
-    youtubeVideoId: 'ysEN5RaKOlA',
     isFeatured: false,
     isTrending: false
   },
@@ -2396,7 +2351,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-211-sony-a7-v-camera-review/800/450',
     tags: ['Tech', 'Reviews', '2024'],
-    youtubeVideoId: 'UquP3gK1AuQ',
     isFeatured: false,
     isTrending: false
   },
@@ -2418,7 +2372,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-212-new-xbox-series-x-controller-review/800/450',
     tags: ['Tech', 'Reviews', '2024'],
-    youtubeVideoId: 'hvjmvJPCNpA',
     isFeatured: false,
     isTrending: false
   },
@@ -2440,7 +2393,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-213-sonos-era-300-speaker-review/800/450',
     tags: ['Tech', 'Reviews', '2024'],
-    youtubeVideoId: 'zQnBQ4tB3ZA',
     isFeatured: false,
     isTrending: false
   },
@@ -2588,7 +2540,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-220-complete-windows-11-guide-for-beginners/800/450',
     tags: ['Tech', 'Windows', '2024'],
-    youtubeVideoId: 'TX9qSaGXFyg',
     isFeatured: true,
     isTrending: false
   },
@@ -2610,7 +2561,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-221-best-windows-11-settings-for-performance/800/450',
     tags: ['Tech', 'Windows', '2024'],
-    youtubeVideoId: 'jfKfPfyJRdk',
     isFeatured: false,
     isTrending: false
   },
@@ -2632,7 +2582,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-222-how-to-activate-hidden-windows-11-features/800/450',
     tags: ['Tech', 'Windows', '2024'],
-    youtubeVideoId: 'DC9cFkSnKz8',
     isFeatured: false,
     isTrending: false
   },
@@ -2654,7 +2603,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-223-windows-11-problems-and-solutions/800/450',
     tags: ['Tech', 'Windows', '2024'],
-    youtubeVideoId: '8aGhZQkoFbQ',
     isFeatured: false,
     isTrending: false
   },
@@ -2802,7 +2750,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-230-improving-windows-performance-on-old-devices/800/450',
     tags: ['Tech', 'Windows', '2024'],
-    youtubeVideoId: 'kKSCDOSk4lk',
     isFeatured: false,
     isTrending: false
   },
@@ -2824,7 +2771,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-231-ram-management-in-windows/800/450',
     tags: ['Tech', 'Windows', '2024'],
-    youtubeVideoId: 'eIho2S0ZahI',
     isFeatured: false,
     isTrending: false
   },
@@ -2846,7 +2792,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-232-wsl-features--linux-inside-windows/800/450',
     tags: ['Tech', 'Windows', '2024'],
-    youtubeVideoId: '_Ql9cA5jF0I',
     isFeatured: false,
     isTrending: false
   },
@@ -2868,7 +2813,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-233-securing-windows-against-hacking/800/450',
     tags: ['Tech', 'Windows', '2024'],
-    youtubeVideoId: 'jfKfPfyJRdk',
     isFeatured: false,
     isTrending: false
   },
@@ -3016,7 +2960,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-240-iphone-15-pro-vs-galaxy-s24-comparison/800/450',
     tags: ['Tech', 'Comparisons', '2024'],
-    youtubeVideoId: 'ysEN5RaKOlA',
     isFeatured: false,
     isTrending: false
   },
@@ -3038,7 +2981,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-241-which-to-choose--macbook-air-or-dell-xps-13/800/450',
     tags: ['Tech', 'Comparisons', '2024'],
-    youtubeVideoId: 'UquP3gK1AuQ',
     isFeatured: false,
     isTrending: false
   },
@@ -3060,7 +3002,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-242-ps5-vs-xbox-series-x-comparison-in-2024/800/450',
     tags: ['Tech', 'Comparisons', '2024'],
-    youtubeVideoId: 'hvjmvJPCNpA',
     isFeatured: false,
     isTrending: false
   },
@@ -3082,7 +3023,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-243-clash-of-watches--apple-watch-9-vs-galaxy-watch-6/800/450',
     tags: ['Tech', 'Comparisons', '2024'],
-    youtubeVideoId: 'zQnBQ4tB3ZA',
     isFeatured: false,
     isTrending: false
   },
@@ -3230,7 +3170,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-250-gpu-comparison--rtx-4080-vs-rx-7900-xtx/800/450',
     tags: ['Tech', 'Comparisons', '2024'],
-    youtubeVideoId: 'TX9qSaGXFyg',
     isFeatured: true,
     isTrending: true
   },
@@ -3252,7 +3191,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-251-which-cloud--google-drive-vs-onedrive/800/450',
     tags: ['Tech', 'Comparisons', '2024'],
-    youtubeVideoId: 'jfKfPfyJRdk',
     isFeatured: false,
     isTrending: false
   },
@@ -3274,7 +3212,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-252-ai-platforms--chatgpt-plus-vs-claude-pro/800/450',
     tags: ['Tech', 'Comparisons', '2024'],
-    youtubeVideoId: 'DC9cFkSnKz8',
     isFeatured: false,
     isTrending: false
   },
@@ -3296,7 +3233,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-253-web-browsers--chrome-vs-edge-vs-brave/800/450',
     tags: ['Tech', 'Comparisons', '2024'],
-    youtubeVideoId: '8aGhZQkoFbQ',
     isFeatured: false,
     isTrending: false
   },
@@ -3444,7 +3380,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-260-additional-tech-topic-about-cybersecurity-number-0/800/450',
     tags: ['Tech', 'Cybersecurity', '2024'],
-    youtubeVideoId: 'kKSCDOSk4lk',
     isFeatured: false,
     isTrending: false
   },
@@ -3466,7 +3401,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-261-additional-tech-topic-about-mobile-number-1/800/450',
     tags: ['Tech', 'Mobile', '2024'],
-    youtubeVideoId: 'eIho2S0ZahI',
     isFeatured: false,
     isTrending: false
   },
@@ -3488,7 +3422,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-262-additional-tech-topic-about-laptops-number-2/800/450',
     tags: ['Tech', 'Laptops', '2024'],
-    youtubeVideoId: '_Ql9cA5jF0I',
     isFeatured: false,
     isTrending: false
   },
@@ -3510,7 +3443,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-263-additional-tech-topic-about-howto-number-3/800/450',
     tags: ['Tech', 'Howto', '2024'],
-    youtubeVideoId: 'jfKfPfyJRdk',
     isFeatured: false,
     isTrending: false
   },
@@ -3658,7 +3590,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-270-additional-tech-topic-about-laptops-number-10/800/450',
     tags: ['Tech', 'Laptops', '2024'],
-    youtubeVideoId: 'ysEN5RaKOlA',
     isFeatured: false,
     isTrending: false
   },
@@ -3680,7 +3611,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-271-additional-tech-topic-about-howto-number-11/800/450',
     tags: ['Tech', 'Howto', '2024'],
-    youtubeVideoId: 'UquP3gK1AuQ',
     isFeatured: false,
     isTrending: false
   },
@@ -3702,7 +3632,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-272-additional-tech-topic-about-ai-number-12/800/450',
     tags: ['Tech', 'Ai', '2024'],
-    youtubeVideoId: 'hvjmvJPCNpA',
     isFeatured: false,
     isTrending: false
   },
@@ -3724,7 +3653,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-273-additional-tech-topic-about-reviews-number-13/800/450',
     tags: ['Tech', 'Reviews', '2024'],
-    youtubeVideoId: 'zQnBQ4tB3ZA',
     isFeatured: false,
     isTrending: false
   },
@@ -3872,7 +3800,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-280-additional-tech-topic-about-ai-number-20/800/450',
     tags: ['Tech', 'Ai', '2024'],
-    youtubeVideoId: 'TX9qSaGXFyg',
     isFeatured: true,
     isTrending: false
   },
@@ -3894,7 +3821,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-281-additional-tech-topic-about-reviews-number-21/800/450',
     tags: ['Tech', 'Reviews', '2024'],
-    youtubeVideoId: 'jfKfPfyJRdk',
     isFeatured: false,
     isTrending: false
   },
@@ -3916,7 +3842,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-282-additional-tech-topic-about-windows-number-22/800/450',
     tags: ['Tech', 'Windows', '2024'],
-    youtubeVideoId: 'DC9cFkSnKz8',
     isFeatured: false,
     isTrending: false
   },
@@ -3938,7 +3863,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-283-additional-tech-topic-about-comparisons-number-23/800/450',
     tags: ['Tech', 'Comparisons', '2024'],
-    youtubeVideoId: '8aGhZQkoFbQ',
     isFeatured: false,
     isTrending: false
   },
@@ -4086,7 +4010,6 @@ export const extendedArticles: Article[] = [
     readTime: 3,
     heroImage: 'https://picsum.photos/seed/article-290-additional-tech-topic-about-windows-number-30/800/450',
     tags: ['Tech', 'Windows', '2024'],
-    youtubeVideoId: 'kKSCDOSk4lk',
     isFeatured: false,
     isTrending: false
   },
@@ -4108,7 +4031,6 @@ export const extendedArticles: Article[] = [
     readTime: 4,
     heroImage: 'https://picsum.photos/seed/article-291-additional-tech-topic-about-comparisons-number-31/800/450',
     tags: ['Tech', 'Comparisons', '2024'],
-    youtubeVideoId: 'eIho2S0ZahI',
     isFeatured: false,
     isTrending: false
   },
@@ -4130,7 +4052,6 @@ export const extendedArticles: Article[] = [
     readTime: 5,
     heroImage: 'https://picsum.photos/seed/article-292-additional-tech-topic-about-cybersecurity-number-32/800/450',
     tags: ['Tech', 'Cybersecurity', '2024'],
-    youtubeVideoId: '_Ql9cA5jF0I',
     isFeatured: false,
     isTrending: false
   },
@@ -4152,7 +4073,6 @@ export const extendedArticles: Article[] = [
     readTime: 6,
     heroImage: 'https://picsum.photos/seed/article-293-additional-tech-topic-about-mobile-number-33/800/450',
     tags: ['Tech', 'Mobile', '2024'],
-    youtubeVideoId: 'jfKfPfyJRdk',
     isFeatured: false,
     isTrending: false
   },
