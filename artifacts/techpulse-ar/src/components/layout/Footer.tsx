@@ -1,6 +1,6 @@
 import { Link } from 'wouter';
 import { useLanguage } from '@/context/LanguageContext';
-import { Twitter, Facebook, Instagram, Youtube, ArrowUp } from 'lucide-react';
+import { Twitter, Facebook, Instagram, Youtube, ArrowUp, Settings } from 'lucide-react';
 
 export function Footer() {
   const { language, t } = useLanguage();
@@ -80,8 +80,11 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-muted-foreground">
+          <p className="text-sm text-muted-foreground flex items-center gap-2">
             © {new Date().getFullYear()} TechPulse. {t('allRightsReserved')}
+            <Link href="/admin" className="text-muted-foreground hover:text-primary transition-colors inline-block ml-4 opacity-50 hover:opacity-100">
+              <Settings className="h-4 w-4" />
+            </Link>
           </p>
           <button 
             onClick={scrollToTop}

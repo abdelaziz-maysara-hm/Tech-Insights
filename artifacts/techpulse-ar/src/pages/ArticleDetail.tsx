@@ -1,17 +1,18 @@
 import { useParams } from 'wouter';
-import { mockArticles } from '@/data/mockData';
 import { useLanguage } from '@/context/LanguageContext';
 import { Clock, Calendar, Tag, Share2, Facebook, Twitter } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { ArticleCard } from '@/components/ArticleCard';
 import { useSEO } from '@/hooks/useSEO';
+import { useAllArticles } from '@/hooks/useAllArticles';
 
 export default function ArticleDetail() {
   const { slug } = useParams();
   const { language, t } = useLanguage();
+  const { allArticles } = useAllArticles();
   const [activeHeading, setActiveHeading] = useState('');
   
-  const article = mockArticles.find(a => a.slug === slug);
+  const article = allArticles.find(a => a.slug === slug);
   
   useSEO(article ? { title: article.title[language], description: article.excerpt[language] } : {});
   
@@ -19,7 +20,7 @@ export default function ArticleDetail() {
     return <div className="container py-20 text-center text-2xl">Article not found</div>;
   }
 
-  const relatedArticles = mockArticles
+  const relatedArticles = allArticles
     .filter(a => a.id !== article.id && (a.categoryId === article.categoryId || a.tags.some(t => article.tags.includes(t))))
     .slice(0, 3);
 

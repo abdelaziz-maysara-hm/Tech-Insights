@@ -1,20 +1,26 @@
-import { mockArticles } from '@/data/mockData';
 import { useLanguage } from '@/context/LanguageContext';
 import { ArticleCard } from '@/components/ArticleCard';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Search as SearchIcon } from 'lucide-react';
-import { useSEO } from '@/hooks/useSEO';
+import { useAllArticles } from '@/hooks/useAllArticles';
 
 export default function Articles() {
   const { language, t } = useLanguage();
+  const { allArticles } = useAllArticles();
   const [activeTab, setActiveTab] = useState<string>('all');
   const [search, setSearch] = useState('');
 
-  useSEO({ title: t('articles') });
-
   const categories = ['all', 'cybersecurity', 'mobile', 'laptops', 'howto', 'ai', 'reviews', 'windows'];
 
-  const filteredArticles = mockArticles.filter(article => {
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const c = params.get('c');
+    if (c && categories.includes(c)) {
+      setActiveTab(c);
+    }
+  }, []);
+
+  const filteredArticles = allArticles.filter(article => {
     const matchesCat = activeTab === 'all' || article.categoryId === activeTab;
     const matchesSearch = article.title[language].toLowerCase().includes(search.toLowerCase()) || 
                           article.tags.some(tag => tag.toLowerCase().includes(search.toLowerCase()));

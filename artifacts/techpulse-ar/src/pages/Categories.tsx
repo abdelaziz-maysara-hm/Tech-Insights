@@ -1,10 +1,12 @@
 import { useLanguage } from '@/context/LanguageContext';
-import { mockArticles, Category } from '@/data/mockData';
+import { Category } from '@/data/mockData';
 import { Link } from 'wouter';
 import { useSEO } from '@/hooks/useSEO';
+import { useAllArticles } from '@/hooks/useAllArticles';
 
 export default function Categories() {
   const { language, t } = useLanguage();
+  const { allArticles } = useAllArticles();
 
   const categories: Category[] = ['cybersecurity', 'mobile', 'laptops', 'howto', 'ai', 'reviews', 'windows', 'comparisons'];
 
@@ -16,7 +18,7 @@ export default function Categories() {
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 max-w-5xl mx-auto">
         {categories.map(cat => {
-          const count = mockArticles.filter(a => a.categoryId === cat).length;
+          const count = allArticles.filter(a => a.categoryId === cat).length;
           
           return (
             <Link 

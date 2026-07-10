@@ -1,18 +1,20 @@
-import { mockArticles, mockComparisons } from '@/data/mockData';
+import { mockComparisons } from '@/data/mockData';
 import { useLanguage } from '@/context/LanguageContext';
 import { ArticleCard } from '@/components/ArticleCard';
 import { ComparisonCard } from '@/components/ComparisonCard';
 import { Link } from 'wouter';
 import { PlayCircle, ArrowLeft, ArrowRight } from 'lucide-react';
+import { useAllArticles } from '@/hooks/useAllArticles';
 
 export default function Home() {
   const { language, t } = useLanguage();
+  const { allArticles } = useAllArticles();
   const isRtl = language === 'ar';
   
-  const featuredArticle = mockArticles.find(a => a.isFeatured) || mockArticles[0];
-  const trendingArticles = mockArticles.filter(a => a.isTrending).slice(0, 3);
-  const latestArticles = mockArticles.filter(a => !a.isFeatured && !a.isTrending).slice(0, 6);
-  const videoArticles = mockArticles.filter(a => a.youtubeVideoId).slice(0, 3);
+  const featuredArticle = allArticles.find(a => a.isFeatured) || allArticles[0];
+  const trendingArticles = allArticles.filter(a => a.isTrending).slice(0, 3);
+  const latestArticles = allArticles.filter(a => !a.isFeatured && !a.isTrending).slice(0, 6);
+  const videoArticles = allArticles.filter(a => a.youtubeVideoId).slice(0, 3);
   const latestComparisons = mockComparisons.slice(0, 2);
 
   return (

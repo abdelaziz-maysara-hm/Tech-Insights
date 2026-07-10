@@ -1,13 +1,14 @@
-import { mockArticles } from '@/data/mockData';
 import { useLanguage } from '@/context/LanguageContext';
 import { PlayCircle } from 'lucide-react';
 import { Link } from 'wouter';
 import { useSEO } from '@/hooks/useSEO';
+import { useAllArticles } from '@/hooks/useAllArticles';
 
 export default function Videos() {
   const { language, t } = useLanguage();
+  const { allArticles } = useAllArticles();
 
-  const videoArticles = mockArticles.filter(a => a.youtubeVideoId);
+  const videoArticles = allArticles.filter(a => a.youtubeVideoId);
 
   useSEO({ title: t('videos') });
 

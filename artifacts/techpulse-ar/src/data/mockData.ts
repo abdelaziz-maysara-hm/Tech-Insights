@@ -57,28 +57,28 @@ export interface Comparison {
   heroImage: string;
 }
 
-const p1 = {
+export const p1 = {
   ar: `في عالم يتسارع فيه التطور التكنولوجي، أصبح من الصعب مواكبة كل ما هو جديد. لكن هنا في تيك بالس، نسعى جاهدين لنضعك في قلب الحدث. من خلال مراجعاتنا العميقة وتحليلاتنا الدقيقة، نضمن لك الحصول على المعلومة الصحيحة في الوقت المناسب. التكنولوجيا ليست مجرد أجهزة ذكية، بل هي أسلوب حياة يغير طريقة تواصلنا وعملنا وحتى ترفيهنا.`,
   en: `In a world where technological development is accelerating, it has become difficult to keep up with everything new. But here at TechPulse, we strive to put you in the heart of the event. Through our deep reviews and careful analysis, we ensure you get the right information at the right time. Technology is not just smart devices, but a lifestyle that changes the way we communicate, work, and even entertain ourselves.`
 };
-const p2 = {
+export const p2 = {
   ar: `تعتبر الهواتف الذكية اليوم المركز العصبي لحياتنا الرقمية. لا يمكننا تخيل يوم واحد دون استخدام هذه الأجهزة المتطورة التي تجمع بين قوة الحوسبة، دقة التصوير، وذكاء البرمجيات. الشركات الكبرى تتنافس بشراسة لتقديم أفضل تجربة مستخدم ممكنة، وهذا التنافس يصب في مصلحة المستهلك في النهاية.`,
   en: `Smartphones today are the nerve center of our digital lives. We cannot imagine a single day without using these advanced devices that combine computing power, imaging accuracy, and software intelligence. Major companies compete fiercely to provide the best possible user experience, and this competition ultimately benefits the consumer.`
 };
-const p3 = {
+export const p3 = {
   ar: `ومع تطور الذكاء الاصطناعي، بدأت ملامح المستقبل تتشكل بوضوح أكبر. الأجهزة أصبحت تفهم سلوكنا، تتوقع احتياجاتنا، وتقدم حلولاً استباقية لم نكن نتخيلها من قبل. هذا التطور المذهل يفتح أبواباً جديدة للإبداع والابتكار في شتى المجالات.`,
   en: `With the development of artificial intelligence, the features of the future have begun to take shape more clearly. Devices now understand our behavior, anticipate our needs, and offer proactive solutions we could never have imagined before. This amazing development opens new doors for creativity and innovation in various fields.`
 };
-const p4 = {
+export const p4 = {
   ar: `لكن هذا التطور لا يخلو من التحديات، خاصة فيما يتعلق بأمن المعلومات وحماية الخصوصية. كلما زاد اعتمادنا على التكنولوجيا، زادت أهمية تأمين بياناتنا الشخصية. ولذلك، نحرص في تغطيتنا على تقديم نصائح وإرشادات لمساعدتك على البقاء آمناً في العالم الرقمي.`,
   en: `But this development is not without challenges, especially regarding information security and privacy protection. The more we rely on technology, the more important it becomes to secure our personal data. Therefore, in our coverage, we are keen to provide tips and guidelines to help you stay safe in the digital world.`
 };
-const p5 = {
+export const p5 = {
   ar: `في النهاية، الخيار الأفضل يعتمد دائماً على احتياجاتك الشخصية وميزانيتك. لا يوجد جهاز مثالي للجميع، ولكن هناك دائماً الجهاز المثالي لك. ندعوك لاستكشاف مراجعاتنا ومقارناتنا لمساعدتك في اتخاذ القرار الصحيح.`,
   en: `In the end, the best choice always depends on your personal needs and budget. There is no perfect device for everyone, but there is always the perfect device for you. We invite you to explore our reviews and comparisons to help you make the right decision.`
 };
 
-const fullBody = {
+export const fullBody = {
   ar: `${p1.ar}\n\n## التطور السريع\n${p2.ar}\n\n## الذكاء الاصطناعي\n${p3.ar}\n\n## التحديات الأمنية\n${p4.ar}\n\n## الخلاصة\n${p5.ar}`,
   en: `${p1.en}\n\n## Rapid Evolution\n${p2.en}\n\n## Artificial Intelligence\n${p3.en}\n\n## Security Challenges\n${p4.en}\n\n## Conclusion\n${p5.en}`
 };

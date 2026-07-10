@@ -1,11 +1,12 @@
 import { useLanguage } from '@/context/LanguageContext';
-import { mockArticles } from '@/data/mockData';
 import { ArticleCard } from '@/components/ArticleCard';
 import { useEffect, useState } from 'react';
 import { useSEO } from '@/hooks/useSEO';
+import { useAllArticles } from '@/hooks/useAllArticles';
 
 export default function Search() {
   const { language, t } = useLanguage();
+  const { allArticles } = useAllArticles();
   const [query, setQuery] = useState('');
   
   useSEO({ title: t('search') });
@@ -16,7 +17,7 @@ export default function Search() {
   }, []);
 
   const results = query 
-    ? mockArticles.filter(a => 
+    ? allArticles.filter(a => 
         a.title[language].toLowerCase().includes(query.toLowerCase()) || 
         a.excerpt[language].toLowerCase().includes(query.toLowerCase()) ||
         a.tags.some(tag => tag.toLowerCase().includes(query.toLowerCase()))

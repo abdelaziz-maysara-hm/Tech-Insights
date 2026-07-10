@@ -3,17 +3,18 @@ import { Search, Menu, X, Moon, Sun, Globe } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import { useTheme } from '@/context/ThemeContext';
-import { mockArticles } from '@/data/mockData';
+import { useAllArticles } from '@/hooks/useAllArticles';
 
 export function Navbar() {
   const { language, setLanguage, t } = useLanguage();
   const { theme, setTheme } = useTheme();
+  const { allArticles } = useAllArticles();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearchFocused, setIsSearchFocused] = useState(false);
   
   const searchResults = searchQuery.trim() 
-    ? mockArticles.filter(a => 
+    ? allArticles.filter(a => 
         a.title[language].toLowerCase().includes(searchQuery.toLowerCase()) || 
         a.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()))
       ).slice(0, 5)
