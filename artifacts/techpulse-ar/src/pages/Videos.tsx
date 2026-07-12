@@ -3,6 +3,10 @@ import { PlayCircle } from 'lucide-react';
 import { Link } from 'wouter';
 import { useSEO } from '@/hooks/useSEO';
 import { useAllArticles } from '@/hooks/useAllArticles';
+import cmsVideosJson from '@/content/videos.json';
+import { CmsVideo } from '@/data/cmsTypes';
+
+const cmsVideos = cmsVideosJson as unknown as CmsVideo[];
 
 export default function Videos() {
   const { language, t } = useLanguage();
@@ -52,7 +56,44 @@ export default function Videos() {
             </div>
           </div>
         ))}
+
+        {cmsVideos.map(video => (
+          <a
+            key={video.id}
+            href={`https://www.youtube.com/watch?v=${video.youtubeId}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-card rounded-2xl overflow-hidden border border-border hover:shadow-xl transition-all group block"
+          >
+            <div className="relative aspect-video w-full overflow-hidden bg-black">
+              <img
+                src={`https://img.youtube.com/vi/${video.youtubeId}/maxresdefault.jpg`}
+                alt=""
+                className="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity duration-300"
+              />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center text-white shadow-lg transform group-hover:scale-110 transition-transform cursor-pointer">
+                  <PlayCircle className="w-8 h-8 ml-1" />
+                </div>
+              </div>
+            </div>
+            <div className="p-6">
+              <h3 className="text-lg font-bold mb-3 line-clamp-2 group-hover:text-primary transition-colors">
+                {video.title[language]}
+              </h3>
+              <p className="text-sm text-muted-foreground line-clamp-2">
+                {video.description[language]}
+              </p>
+            </div>
+          </a>
+        ))}
       </div>
+
+      {videoArticles.length === 0 && cmsVideos.length === 0 && (
+        <p className="text-center text-muted-foreground mt-12">
+          {language === 'ar' ? 'لا توجد فيديوهات حالياً.' : 'No videos yet.'}
+        </p>
+      )}
     </div>
   );
 }

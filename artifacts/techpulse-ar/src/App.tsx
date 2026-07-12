@@ -11,6 +11,7 @@ import Videos from '@/pages/Videos';
 import Categories from '@/pages/Categories';
 import Search from '@/pages/Search';
 import Admin from '@/pages/Admin';
+import PageDetail from '@/pages/PageDetail';
 import NotFound from '@/pages/not-found';
 import { LanguageProvider } from '@/context/LanguageContext';
 import { ThemeProvider } from '@/context/ThemeContext';
@@ -46,6 +47,7 @@ function Router() {
           <Route path="/categories" component={Categories} />
           <Route path="/search" component={Search} />
           <Route path="/admin" component={Admin} />
+          <Route path="/page/:slug" component={PageDetail} />
           <Route component={NotFound} />
         </Switch>
       </main>

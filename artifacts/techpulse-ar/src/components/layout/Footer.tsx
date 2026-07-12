@@ -1,6 +1,10 @@
 import { Link } from 'wouter';
 import { useLanguage } from '@/context/LanguageContext';
 import { Twitter, Facebook, Instagram, Youtube, ArrowUp, Settings } from 'lucide-react';
+import pagesJson from '@/content/pages.json';
+import { CmsPage } from '@/data/cmsTypes';
+
+const footerPages = (pagesJson as unknown as CmsPage[]).filter((p) => p.showInFooter);
 
 export function Footer() {
   const { language, t } = useLanguage();
@@ -55,6 +59,11 @@ export function Footer() {
               <li><Link href="/comparisons" className="hover:text-primary">{t('comparisons')}</Link></li>
               <li><Link href="/videos" className="hover:text-primary">{t('videos')}</Link></li>
               <li><Link href="/" className="hover:text-primary">{t('aboutUs')}</Link></li>
+              {footerPages.map((page) => (
+                <li key={page.id}>
+                  <Link href={`/page/${page.slug}`} className="hover:text-primary">{page.title[language]}</Link>
+                </li>
+              ))}
             </ul>
           </div>
 
