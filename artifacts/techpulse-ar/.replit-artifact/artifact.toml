@@ -1,6 +1,6 @@
 kind = "web"
 previewPath = "/"
-title = "TechPulse - موقع تقني"
+title = "Technical Insights - رؤى تقنية"
 version = "1.0.0"
 id = "artifacts/techpulse-ar"
 router = "path"
