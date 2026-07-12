@@ -103,7 +103,7 @@
   --radius: 0.5rem;
 }
 
-/* DARK MODE (TechPulse Default) */
+/* DARK MODE (Technical Insights Default) */
 .dark {
   --button-outline: rgba(255, 255, 255, 0.1);
   --badge-outline: rgba(255, 255, 255, 0.05);

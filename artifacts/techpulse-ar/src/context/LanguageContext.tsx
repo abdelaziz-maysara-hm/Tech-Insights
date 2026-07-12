@@ -52,7 +52,7 @@ const translations: Record<string, Record<Language, string>> = {
   
   // Footer
   aboutUs: { ar: 'من نحن', en: 'About Us' },
-  aboutText: { ar: 'تيك بالس هو دليلك العربي الأول في عالم التقنية، نقدم لك أحدث الأخبار، المراجعات، والمقارنات بحيادية واحترافية.', en: 'TechPulse is your premium tech guide, providing the latest news, reviews, and comparisons with deep expertise.' },
+  aboutText: { ar: 'رؤى تقنية هو دليلك العربي الأول في عالم التقنية، نقدم لك أحدث الأخبار، المراجعات، والمقارنات بحيادية واحترافية.', en: 'Technical Insights is your premium tech guide, providing the latest news, reviews, and comparisons with deep expertise.' },
   followUs: { ar: 'تابعنا', en: 'Follow Us' },
   allRightsReserved: { ar: 'جميع الحقوق محفوظة.', en: 'All rights reserved.' }
 };

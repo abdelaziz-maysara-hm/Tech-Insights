@@ -216,7 +216,7 @@ function ArticlesTab({ language }: { language: 'ar' | 'en' }) {
       body: { ar: arBody, en: enBody },
       categoryId: category,
       author: {
-        name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+        name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
         avatar: 'https://i.pravatar.cc/150?img=68',
       },
       date: new Date().toISOString().split('T')[0],

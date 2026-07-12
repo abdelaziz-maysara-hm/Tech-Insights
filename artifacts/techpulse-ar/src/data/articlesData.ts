@@ -36,7 +36,7 @@ Enable it on all important accounts; apps like Google Authenticator are safer th
 
 Regularly review active sessions and log out any unfamiliar device immediately.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-01-15',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-100-how-to-protect-your-accounts-from-hacking-in-2024/800/500`,
@@ -79,7 +79,7 @@ Among the most popular free options, offering real-time scanning and phishing pr
 
 Excellent as a second layer, specializing in removing spyware and malware.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-02-01',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-101-best-free-antivirus-software/800/500`,
@@ -120,7 +120,7 @@ Most free VPNs sell your data or throttle speed heavily; check the policy first.
 
 Pick a geographically close server to minimize the VPN's impact on your speed.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-02-20',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-102-best-vpn-services-2024/800/500`,
@@ -161,7 +161,7 @@ Finding an app you never installed is a serious sign of possible compromise.
 
 Factory reset after backing up your data, and change all your account passwords immediately.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-03-01',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-103-signs-your-phone-is-hacked/800/500`,
@@ -202,7 +202,7 @@ A simple extra step that reduces your network's visibility to nearby passersby.
 
 Manufacturers release periodic security patches closing newly discovered flaws.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-03-10',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-104-home-wifi-security-guide/800/500`,
@@ -243,7 +243,7 @@ Targeting trusted software used by thousands rather than attacking each victim i
 
 Using fake voices matching real people to deceive victims over the phone.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-03-18',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-105-top-5-cyber-threats-2024/800/500`,
@@ -285,7 +285,7 @@ Generates strong random passwords and stores them so you don't have to memorize 
 
 Sites like haveibeenpwned tell you if your password has leaked in a known breach.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-04-02',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-106-how-to-create-unbreakable-passwords/800/500`,
@@ -326,7 +326,7 @@ Hover over a link without clicking to see its real destination first.
 
 Official emails from major companies rarely contain obvious language mistakes.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-04-12',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-107-how-to-spot-phishing-emails/800/500`,
@@ -367,7 +367,7 @@ Security experts advise against it — there's no guarantee of file recovery and
 
 Regular backups on an offline external drive are the best insurance against ransomware.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-04-25',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-108-ransomware-explained/800/500`,
@@ -408,7 +408,7 @@ Manufacturers release patches closing discovered security holes — don't ignore
 
 Periodically check which apps or accounts have access to your cameras or smart locks.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-05',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-109-smart-home-security-tips/800/500`,
@@ -449,7 +449,7 @@ Always use a VPN on public networks and avoid banking apps unless necessary.
 
 Disable auto-connect to known Wi-Fi networks on your phone.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-15',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-110-dangers-of-public-wifi/800/500`,
@@ -490,7 +490,7 @@ Most services give backup codes at setup — store them somewhere safe, away fro
 
 Extend it to all sensitive accounts: banking, social media, and cloud storage.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-28',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-111-setting-up-two-factor-authentication/800/500`,
@@ -531,7 +531,7 @@ Includes a built-in VPN and data-breach monitoring in its paid plan.
 
 It generates complex random passwords per site and auto-fills them — nothing to memorize.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-06-08',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-112-best-password-managers-2024/800/500`,
@@ -572,7 +572,7 @@ Sites like haveibeenpwned let you search your email for free to check past breac
 
 Change the password everywhere you used it immediately, and enable two-factor authentication.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-06-20',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-113-what-is-the-dark-web/800/500`,
@@ -613,7 +613,7 @@ Apps like Discord and TikTok need extra privacy settings for younger accounts.
 
 Talking with your child about what they encounter online is sometimes more valuable than outright blocking.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-07-02',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-114-protecting-kids-online/800/500`,
@@ -654,7 +654,7 @@ No physical address, phone number, or clear return policy is a warning sign.
 
 Credit cards offer better fraud protection than direct bank transfers.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-07-15',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-115-how-to-verify-a-website-is-secure/800/500`,
@@ -695,7 +695,7 @@ Don't rely solely on service encryption — use an extra tool for highly sensiti
 
 Some apps request full access to your cloud account — grant it only to trusted ones.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-08-01',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-116-cloud-storage-security-tips/800/500`,
@@ -736,7 +736,7 @@ Leaving an infected USB drive in public, hoping a curious person plugs it into t
 
 Always verify the other party's identity through an independent channel before sharing sensitive info.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-08-18',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-117-social-engineering-attacks-explained/800/500`,
@@ -777,7 +777,7 @@ Enable instant transaction alerts, use a virtual card for online shopping, and i
 
 Call your bank immediately to freeze it, review recent transactions, and report anything suspicious.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-01',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-118-credit-card-theft-protection/800/500`,
@@ -818,7 +818,7 @@ DMs claiming your account will be deleted, containing links to fake login pages.
 
 Use "Forgot Password" to recover the account, and inform your friends immediately.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-10',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-119-social-media-account-security-tips/800/500`,
@@ -859,7 +859,7 @@ A 48MP main camera with improved low-light photography and new spatial video rec
 
 A sensible upgrade for iPhone 12 and earlier users, but not essential if you own an iPhone 15.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-25',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-120-iphone-16-full-review/800/500`,
@@ -902,7 +902,7 @@ The Pixel 9 Pro stands out with AI-powered photo processing.
 
 The Samsung Galaxy M55 offers a 5000mAh battery lasting two full days.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-08-10',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-121-best-android-phones-2024/800/500`,
@@ -944,7 +944,7 @@ The Tensor G3 chip is tuned for smart tasks more than heavy gaming, with 7 years
 
 A great choice for photography purists and fast Android updates.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-02-14',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-122-pixel-8-pro-review/800/500`,
@@ -985,7 +985,7 @@ The absence of Google Play on Huawei remains a major drawback outside China.
 
 Samsung is better for global use; Huawei suits those who prioritize the camera.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-20',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-123-samsung-vs-huawei-comparison/800/500`,
@@ -1026,7 +1026,7 @@ A renewed Hasselblad partnership noticeably improves color and contrast.
 
 A strong rival to the two big flagships at a much lower price.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-03-05',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-124-oneplus-12-review/800/500`,
@@ -1067,7 +1067,7 @@ A 5300mAh battery with 90W wired and 80W wireless charging.
 
 One of the best camera phones on the market for photography professionals.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-04-18',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-125-xiaomi-14-ultra-review/800/500`,
@@ -1108,7 +1108,7 @@ The S24 Ultra offers up to 10x optical zoom with excellent clarity.
 
 Xiaomi 14 delivers a near-flagship camera experience at a lower price.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-06-01',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-126-best-camera-phones-2024/800/500`,
@@ -1149,7 +1149,7 @@ Support for a separate S Pen and smooth two/three-window multitasking.
 
 The most mature foldable yet, though its high price remains a barrier for many.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-07-25',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-127-galaxy-z-fold-6-review/800/500`,
@@ -1190,7 +1190,7 @@ Snapdragon 8 Gen 3 with 120W fast charging, suited for long gaming sessions.
 
 Active cooling and high refresh rates prevent stutter in heavy games.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-08',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-128-best-gaming-phones-2024/800/500`,
@@ -1231,7 +1231,7 @@ Creases became nearly invisible, and prices began dropping as rivals like Huawei
 
 Tri-fold phones and unbreakable displays are expected by 2026.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-08-30',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-129-evolution-of-foldable-phones/800/500`,
@@ -1272,7 +1272,7 @@ A 5000mAh silicon-carbon battery offering longer life in a smaller footprint.
 
 An excellent choice for multi-level zoom photography without sacrificing quality.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-03-22',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-130-oppo-find-x7-ultra-review/800/500`,
@@ -1313,7 +1313,7 @@ The Cinema Pro app gives full manual control rivaling cinema cameras.
 
 Ideal for content creators who prioritize video quality above all else.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-06-15',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-131-sony-xperia-1-vi-review/800/500`,
@@ -1354,7 +1354,7 @@ Digital zoom significantly reduces quality — physically move closer instead.
 
 Side lighting in the morning or evening gives better depth than direct flash.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-05',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-132-mobile-photography-tips/800/500`,
@@ -1395,7 +1395,7 @@ Reduces screen brightness and background processes without major impact on daily
 
 Most modern phones show battery health percentage in settings — check it every few months.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-07-10',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-133-phone-battery-life-guide/800/500`,
@@ -1436,7 +1436,7 @@ Integrated features across writing, photos, and an upgraded voice assistant.
 
 Finer app permission controls and the ability to lock specific apps behind a passcode.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-16',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-134-ios-18-new-features/800/500`,
@@ -1478,7 +1478,7 @@ Major improvements to the multitasking experience on large screens.
 
 Stronger protection against malicious apps via instant scanning at install time.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-10-01',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-135-android-15-new-features/800/500`,
@@ -1519,7 +1519,7 @@ Much improved but still behind conventional phones, especially dust resistance.
 
 Suited to heavy productivity users, not those seeking the best value for money.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-08-05',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-136-are-foldable-phones-worth-it/800/500`,
@@ -1560,7 +1560,7 @@ Makes using navigation while driving safer and easier.
 
 Essential for long trips or heavy work days away from an outlet.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-11-12',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-137-must-have-phone-accessories/800/500`,
@@ -1601,7 +1601,7 @@ Modern apps constantly demand more resources that a 4-5 year old phone may strug
 
 A cracked screen or broken camera can sometimes cost nearly as much to repair as buying new.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-10-20',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-138-when-to-upgrade-your-phone/800/500`,
@@ -1642,7 +1642,7 @@ A notable drop in latency benefits cloud gaming and video calls.
 
 If your area has strong 5G coverage and you use heavy apps, the difference is genuinely noticeable.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-04-30',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-139-5g-vs-4g-explained/800/500`,
@@ -1683,7 +1683,7 @@ Lasts a full workday even under relatively heavy loads, thanks to Apple's chip e
 
 A worthy investment for editing and design professionals, overkill for casual users.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-01-20',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-140-macbook-pro-m3-max-review/800/500`,
@@ -1726,7 +1726,7 @@ Excellent for Windows and Linux users, with comfortable keyboards for long typin
 
 At least 512GB SSD is essential for large projects and multiple Docker environments.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-02-10',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-141-best-laptops-for-programmers/800/500`,
@@ -1767,7 +1767,7 @@ A 4K OLED option rivaling the best MacBook screens in sharpness and color.
 
 A very strong MacBook Pro rival for Windows users seeking premium build quality.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-03-15',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-142-dell-xps-15-review/800/500`,
@@ -1808,7 +1808,7 @@ Under 1.2kg despite its sturdy carbon-fiber chassis.
 
 A reliable choice for frequent travelers needing a machine that endures harsh daily use.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-04-08',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-143-thinkpad-x1-carbon-review/800/500`,
@@ -1849,7 +1849,7 @@ Very lightweight (under 1.2kg) and among the cheapest in the thin-and-light cate
 
 Look for at least a 2-year warranty, since student laptops see heavy daily use.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-08-20',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-144-best-student-laptops/800/500`,
@@ -1890,7 +1890,7 @@ An effective cooling system prevents throttling even under long, intensive loads
 
 One of the best compact gaming laptops for those avoiding a bulky, heavy machine.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-12',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-145-asus-rog-zephyrus-g14-review/800/500`,
@@ -1931,7 +1931,7 @@ Purpose-built for creatives with precise factory color calibration.
 
 Color accuracy and RAM (32GB+) matter more than raw CPU speed alone.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-06-25',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-146-best-laptops-for-creators/800/500`,
@@ -1972,7 +1972,7 @@ Modern Intel Core Ultra chips are enough for daily use and light design tasks.
 
 A great choice for those wanting laptop-and-tablet versatility in one elegant device.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-07-18',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-147-hp-spectre-x360-review/800/500`,
@@ -2013,7 +2013,7 @@ Fully competitive specs against traditional laptops in the same price range.
 
 An ideal choice for those who value sustainability and full long-term control over their device.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-02',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-148-framework-laptop-review/800/500`,
@@ -2054,7 +2054,7 @@ ASUS Zephyrus G14 suits those wanting portability without carrying a heavy gamin
 
 Don't overlook display quality (144Hz+ refresh rate) — it matters as much as the GPU itself.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-10-08',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-149-gaming-laptop-comparison-2024/800/500`,
@@ -2095,7 +2095,7 @@ Essential for professional video editing, 3D modeling, or running multiple virtu
 
 If possible, choose a device with upgradeable RAM rather than soldered, non-upgradeable memory.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-03-28',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-150-how-much-ram-do-you-need/800/500`,
@@ -2136,7 +2136,7 @@ Light weight and Surface Pen support make it a good choice for drawing and note-
 
 Great for genuine tablet-laptop flexibility, but accessories are sold separately at extra cost.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-30',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-151-surface-pro-10-review/800/500`,
@@ -2177,7 +2177,7 @@ Lower-resolution screens and plastic build materials instead of metal at this pr
 
 Make sure there's a USB-C port and upgradeable RAM if possible before buying.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-11-05',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-152-best-laptops-under-500/800/500`,
@@ -2218,7 +2218,7 @@ Unplug the device, carefully open the bottom cover, and swap the old drive for t
 
 Verify AHCI/NVMe mode is enabled in BIOS settings for maximum possible speed.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-06-10',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-153-how-to-upgrade-your-laptop-ssd/800/500`,
@@ -2259,7 +2259,7 @@ AMD's integrated Radeon graphics are generally stronger than Intel's integrated 
 
 An excellent alternative worth considering, often at a lower price than equivalent Intel machines.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-04-22',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-154-amd-ryzen-laptops-review/800/500`,
@@ -2300,7 +2300,7 @@ Fully unplug the device, use compressed air to gently blow dust out of the vents
 
 Don't open the internal cover if the warranty is still active unless the manufacturer permits it.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-08-14',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-155-laptop-cleaning-guide/800/500`,
@@ -2341,7 +2341,7 @@ Review the most power-hungry apps in settings and reduce screen brightness.
 
 Update drivers and check for a faulty memory stick.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-20',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-156-common-laptop-problems-and-fixes/800/500`,
@@ -2382,7 +2382,7 @@ Windows offers much greater freedom to customize both hardware and software.
 
 Choose based on your current ecosystem and daily software needs rather than OS preference alone.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-02-28',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-157-windows-vs-macos-which-is-better/800/500`,
@@ -2423,7 +2423,7 @@ Simple, effective protection from dust and spills, especially for devices used i
 
 Useful in public spaces like cafés and shared libraries to prevent theft.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-10-15',
     readTime: 4,
     heroImage: `https://picsum.photos/seed/article-158-best-laptop-bags-and-accessories/800/500`,
@@ -2464,7 +2464,7 @@ A battery lasting barely an hour means a replacement cost nearing that of a whol
 
 Compare repeated repair costs against a new machine with better specs before deciding.` },
     categoryId: 'laptops',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-11-20',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-159-when-to-replace-your-laptop/800/500`,
@@ -2505,7 +2505,7 @@ Any new write to the disk may overwrite the deleted file, making recovery imposs
 
 Services like Google Drive or Time Machine automatically keep previous versions.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-01-25',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-160-how-to-recover-deleted-files/800/500`,
@@ -2546,7 +2546,7 @@ Switching from a traditional hard drive to an SSD makes a huge difference in boo
 
 If your device only has 4GB RAM, upgrading to 8GB or 16GB dramatically improves performance.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-02-05',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-161-how-to-speed-up-a-slow-pc/800/500`,
@@ -2587,7 +2587,7 @@ Isolates visitor devices from your main network and sensitive devices.
 
 Manufacturer updates fix security holes and improve overall stability.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-03-12',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-162-how-to-configure-your-router/800/500`,
@@ -2628,7 +2628,7 @@ If you hear the fan and see lights but the screen is black, the likely culprit i
 
 If all steps fail, the issue is likely the motherboard and needs professional diagnosis.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-04-18',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-163-how-to-fix-a-dead-laptop-screen/800/500`,
@@ -2669,7 +2669,7 @@ Apple's official Move to iOS app transfers photos, contacts, and messages direct
 
 Google's Switch to Android tool makes the reverse transfer similarly easy.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-22',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-164-how-to-transfer-data-between-phones/800/500`,
@@ -2710,7 +2710,7 @@ Check the paper type and thickness used, and make sure tray guides are set corre
 
 Ensure the printer and computer are on the same Wi-Fi network, and reinstall the driver.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-06-14',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-165-how-to-fix-common-printer-problems/800/500`,
@@ -2751,7 +2751,7 @@ An external hard drive offers much faster recovery than a cloud download during 
 
 An untested backup could be corrupted without you knowing until you actually need it.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-07-08',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-166-how-to-backup-your-data-properly/800/500`,
@@ -2792,7 +2792,7 @@ Windows and Mac include automatic diagnostic tools that fix most common issues i
 
 Some apps have separate audio settings independent of overall system settings.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-08-02',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-167-how-to-fix-audio-problems-on-pc/800/500`,
@@ -2833,7 +2833,7 @@ No need for a 4000px image if it will only display at 800px on the site.
 
 Hidden EXIF data (location, camera) adds file size with no visual benefit.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-12',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-168-how-to-compress-images-without-losing-quality/800/500`,
@@ -2874,7 +2874,7 @@ Combining CSS and JavaScript files cuts the number of requests the browser needs
 
 Lets the browser store site elements locally instead of reloading them on every visit.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-10-05',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-169-how-to-speed-up-website-loading/800/500`,
@@ -2915,7 +2915,7 @@ Install the software on the host device, generate encryption keys, and forward t
 
 Verify it works over mobile data away from home before relying on it.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-11-08',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-170-how-to-set-up-a-home-vpn-server/800/500`,
@@ -2956,7 +2956,7 @@ Rolls the system back to a previously healthy saved state before the issue occur
 
 If all tools fail, reinstalling Windows while keeping personal files is the last resort.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-03-30',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-171-how-to-fix-corrupted-windows-files/800/500`,
@@ -2997,7 +2997,7 @@ Sites like Smallpdf and iLovePDF support conversion to and from most common form
 
 Most of these tools also let you merge several pages or files into a single document.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-04-15',
     readTime: 4,
     heroImage: `https://picsum.photos/seed/article-172-how-to-convert-files-to-pdf/800/500`,
@@ -3038,7 +3038,7 @@ Modern operating systems let you tag files with extra keywords for quick search.
 
 Set aside monthly time to move old unused files to an archive folder or cloud storage.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-18',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-173-how-to-organize-your-computer-files/800/500`,
@@ -3079,7 +3079,7 @@ Regularly check devices connected via WhatsApp Web and log out any unfamiliar on
 
 Messages claiming you won a prize contain phishing links that steal your data when clicked.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-06-25',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-174-how-to-secure-whatsapp-account/800/500`,
@@ -3120,7 +3120,7 @@ A damaged Ethernet or phone cable can cause recurring drops hard to diagnose wit
 
 If all steps fail, there may be an infrastructure issue outside your control.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-07-28',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-175-how-to-fix-internet-connection-issues/800/500`,
@@ -3161,7 +3161,7 @@ Reduce frame rate and video resolution to avoid a massive GIF file.
 
 Most free tools let you add simple animated text over the final GIF.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-08-22',
     readTime: 4,
     heroImage: `https://picsum.photos/seed/article-176-how-to-make-gifs-from-videos/800/500`,
@@ -3202,7 +3202,7 @@ Updates often include improved image processing algorithms with no hardware chan
 
 Gives you much more flexibility in later editing compared to standard JPEG.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-28',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-177-how-to-improve-phone-camera-quality/800/500`,
@@ -3243,7 +3243,7 @@ An Ethernet cable reduces lag far more than even the best Wi-Fi.
 
 Large downloads or video streaming on other devices eat into your game's available bandwidth.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-10-30',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-178-how-to-prioritize-gaming-on-your-network/800/500`,
@@ -3284,7 +3284,7 @@ Malwarebytes is excellent as a second layer catching what basic antivirus might 
 
 If symptoms persist (slowness, pop-ups), you may need a full system reset.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-11-25',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-179-how-to-remove-malware-from-your-computer/800/500`,
@@ -3325,7 +3325,7 @@ ChatGPT (especially GPT-4) remains the most popular choice among developers for 
 
 There's no absolute winner — the choice depends on your specific task more than overall superiority.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-06-05',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-180-chatgpt-vs-gemini-vs-claude/800/500`,
@@ -3368,7 +3368,7 @@ Goes beyond basic spelling to advanced AI-powered style suggestions.
 
 Automates repetitive tasks across different apps with no coding required.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-14',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-181-best-ai-productivity-tools/800/500`,
@@ -3409,7 +3409,7 @@ The enterprise version (Copilot for Microsoft 365) ensures company data isn't us
 
 Be specific in your prompts — more detail generally means better results.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-07-20',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-182-microsoft-copilot-full-guide/800/500`,
@@ -3450,7 +3450,7 @@ Flags like --ar for aspect ratio and --v for model version give finer control.
 
 Paid plans grant full commercial rights over the images you create.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-08-08',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-183-midjourney-beginners-guide/800/500`,
@@ -3491,7 +3491,7 @@ A later phase teaching the model to follow specific instructions and respond hel
 
 They can "hallucinate" — generate plausible-sounding but incorrect information.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-04-10',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-184-what-are-large-language-models/800/500`,
@@ -3532,7 +3532,7 @@ The ability to generate convincing fake videos and audio raises real concerns ab
 
 Growing calls for government regulation ensuring companies are accountable for their AI systems' decisions.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-02',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-185-ai-ethics-and-concerns/800/500`,
@@ -3573,7 +3573,7 @@ Purpose-built from the ground up to accelerate machine learning above any other 
 
 Modern phones and devices now include an NPU to run AI tasks locally without internet.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-06-18',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-186-how-ai-chips-work/800/500`,
@@ -3614,7 +3614,7 @@ An affordable option for small stores, easily combining chatbot and live chat.
 
 Evaluate how well the tool integrates with your existing systems (CRM, e-commerce) before deciding.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-07-30',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-187-ai-chatbots-comparison-for-business/800/500`,
@@ -3655,7 +3655,7 @@ Increasing integration into everyday work tools (Word, Photoshop) rather than be
 
 Deeply try one tool rather than superficially trying dozens to understand its real capabilities.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-03-08',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-188-generative-ai-explained-simply/800/500`,
@@ -3696,7 +3696,7 @@ Phone scams using a cloned voice of a family member to urgently request money.
 
 Agree on a verbal safe word with family to verify identity during unexpected emergency calls.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-14',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-189-ai-voice-cloning-risks/800/500`,
@@ -3737,7 +3737,7 @@ Widespread use of ChatGPT for homework pushed schools to redesign assessment met
 
 Optimal use is as a comprehension aid, not a full replacement for a student's critical thinking.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-10-12',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-190-how-ai-is-changing-education/800/500`,
@@ -3778,7 +3778,7 @@ Some platforms have begun adding invisible digital watermarks (C2PA) revealing a
 
 The technology evolves faster than detection tools, so don't rely on just one tool.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-11-15',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-191-ai-image-detection-tools/800/500`,
@@ -3819,7 +3819,7 @@ Filmmaking, advertising, and education could see a radical shift in visual conte
 
 The ability to generate video this realistic raises serious questions about deepfakes and misinformation.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-08-25',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-192-openai-sora-video-generation/800/500`,
@@ -3861,7 +3861,7 @@ Simple and fast for producing short marketing copy (headlines, social posts) in 
 
 If you need a general tool, choose ChatGPT; for specialized marketing work, Jasper or Copy.ai are more efficient.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-04-28',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-193-ai-writing-tools-comparison/800/500`,
@@ -3902,7 +3902,7 @@ Automatically summarizing patient notes saves significant time previously spent 
 
 Ensuring diagnostic accuracy and medical decision accountability remain open issues requiring constant human oversight.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-30',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-194-ai-in-healthcare-applications/800/500`,
@@ -3943,7 +3943,7 @@ Providing one or two examples of the desired style brings the result closer to y
 
 Don't settle for the first result — ask for specific edits like "make it shorter" or "more formal".` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-02-15',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-195-prompt-engineering-guide/800/500`,
@@ -3984,7 +3984,7 @@ Background music for YouTube videos and podcasts without traditional copyright c
 
 Many artists oppose training these models on their work without permission or fair compensation.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-10-25',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-196-ai-music-generation-tools/800/500`,
@@ -4025,7 +4025,7 @@ Reliability remains limited — an agent may make cascading errors a user might 
 
 Major companies are investing heavily in this area as the next step beyond traditional chatbots.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-11-18',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-197-ai-agents-explained/800/500`,
@@ -4066,7 +4066,7 @@ Requires relatively strong hardware (RAM, a good GPU) and remains less capable t
 
 Improving efficiency of smaller models is gradually narrowing the gap with massive cloud models.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-07-05',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-198-local-ai-models-vs-cloud/800/500`,
@@ -4107,7 +4107,7 @@ Focuses on controlling generated content and mandatory transparency about AI-gen
 
 Balancing innovation encouragement with protecting users from real risks remains an open global dilemma.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-12-01',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-199-ai-regulation-around-the-world/800/500`,
@@ -4148,7 +4148,7 @@ Noticeably faster charging, reaching 50% in just 30 minutes.
 
 A good upgrade for owners of Series 6 and earlier, unnecessary for Series 9 owners.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-20',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-200-apple-watch-series-10-review/800/500`,
@@ -4190,7 +4190,7 @@ Excellent balance between clarity and bass, suiting most music genres with no ma
 
 Still the best choice despite the passage of time — competitors haven't surpassed it in this price range.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-02-05',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-201-sony-wh-1000xm5-review/800/500`,
@@ -4232,7 +4232,7 @@ The M4 chip outperforms most laptops on the market, though iPadOS still limits f
 
 Hardware that outpaces its current available software, ideal only for specific tasks like drawing and light editing.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-15',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-202-ipad-pro-m4-review/800/500`,
@@ -4273,7 +4273,7 @@ Larger internal storage (1TB) compared to the original's 825GB.
 
 A better choice for new buyers; no need to upgrade if you already own the original.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-01-10',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-203-ps5-slim-review/800/500`,
@@ -4314,7 +4314,7 @@ Omnidirectional sensors make it among the safest drones in its price class.
 
 The best choice for beginner and professional photographers seeking easy portability without legal hassle.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-04-20',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-204-dji-mini-4-pro-review/800/500`,
@@ -4355,7 +4355,7 @@ The large screen real estate eliminates the need for two separate monitors for d
 
 A big investment worth it for serious gamers, though it requires a fairly large desk space.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-06-28',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-205-samsung-odyssey-g9-review/800/500`,
@@ -4396,7 +4396,7 @@ Rotating the pencil changes brush angle in supported drawing apps, adding creati
 
 Smart improvements worth it only for owners of the specific modern iPad Pro models that support these features.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-20',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-206-apple-pencil-pro-review/800/500`,
@@ -4437,7 +4437,7 @@ Slight improvement but still requires daily charging with heavy tracking feature
 
 A strong choice for Android users seeking a genuine alternative to the Apple Watch.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-07-15',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-207-galaxy-watch-7-review/800/500`,
@@ -4478,7 +4478,7 @@ Spatial Audio works seamlessly with other Apple devices.
 
 Still very expensive compared to rivals, but quality and integration justify the price for loyal Apple users.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-08-10',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-208-airpods-max-2-review/800/500`,
@@ -4519,7 +4519,7 @@ Connects to three devices at once and switches between them seamlessly with one 
 
 An investment worth it for anyone spending long daily hours at a computer.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-03-18',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-209-logitech-mx-master-3s-review/800/500`,
@@ -4560,7 +4560,7 @@ A 144Hz refresh rate and low response time also make it a good choice for gamers
 
 An excellent balance between productivity and entertainment in one device at a relatively fair price.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-08',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-210-lg-ultrawide-monitor-review/800/500`,
@@ -4601,7 +4601,7 @@ AI-powered eye and subject tracking, among the fastest and most accurate in its 
 
 An excellent choice for professional photographers seeking a versatile tool between stills and video.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-10-18',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-211-sony-a7-v-review/800/500`,
@@ -4642,7 +4642,7 @@ The Xbox Accessories app lets you save multiple custom profiles to switch betwee
 
 An investment worth it only for serious competitive gamers, overkill for casual players.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-04-05',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-212-xbox-elite-controller-review/800/500`,
@@ -4683,7 +4683,7 @@ Works seamlessly with other home systems via the unified Sonos app.
 
 A standout choice for audio enthusiasts seeking an experience beyond conventional speakers.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-06-12',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-213-sonos-era-300-review/800/500`,
@@ -4724,7 +4724,7 @@ Bluetooth and 2.4GHz support alongside wired USB-C, giving full connection flexi
 
 An excellent investment for mechanical keyboard enthusiasts seeking exceptional build quality.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-07-22',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-214-keychron-q1-pro-review/800/500`,
@@ -4765,7 +4765,7 @@ The AMS feature enables automatic printing with four different colors or materia
 
 One of the best entry points into 3D printing for any experience level.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-11-02',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-215-bambu-lab-3d-printer-review/800/500`,
@@ -4806,7 +4806,7 @@ Accurately remembers your home layout, letting you set no-go zones or clean spec
 
 Expensive, but it offers real convenience for owners of large homes or pets.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-08-28',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-216-roomba-j9-plus-review/800/500`,
@@ -4847,7 +4847,7 @@ Works with other Ring doorbells, cameras, and lights in a comprehensive home sec
 
 Some advanced features (like cloud recording) require a separate monthly subscription.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-25',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-217-ring-doorbell-pro-review/800/500`,
@@ -4888,7 +4888,7 @@ Noticeably improved for continuous use, especially during long 4K recording.
 
 Still the gold standard for action cameras despite strong competition from DJI and Insta360.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-25',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-218-gopro-hero-13-review/800/500`,
@@ -4929,7 +4929,7 @@ Direct support for OBS Studio and Streamlabs makes live control extremely smooth
 
 An investment worth it for any regular content creator who streams live or produces videos regularly.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-03-30',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-219-elgato-stream-deck-xl-review/800/500`,
@@ -4970,7 +4970,7 @@ Arranging windows into ready-made layouts greatly eases multitasking.
 
 The Microsoft Store now supports Android apps and traditional (exe) programs, not just UWP apps.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-01-08',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-220-windows-11-beginners-guide/800/500`,
@@ -5012,7 +5012,7 @@ Task Manager lets you disable unnecessary programs that slow down boot.
 
 Dedicates extra resources to the active game and reduces distracting notifications while playing.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-02-12',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-221-windows-11-performance-settings/800/500`,
@@ -5053,7 +5053,7 @@ You can route one app's audio to a speaker and another app's to different headph
 
 A built-in timer working with the Clock app to block notifications during focused work periods.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-03-20',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-222-hidden-windows-11-features/800/500`,
@@ -5094,7 +5094,7 @@ Updating the Wi-Fi adapter driver often resolves frequent disconnection issues a
 
 Compatibility Mode lets you run older programs designed for previous Windows versions.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-04-25',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-223-windows-11-common-problems/800/500`,
@@ -5135,7 +5135,7 @@ Old restore points can silently consume tens of gigabytes — safely delete the 
 
 Old photos and videos can be uploaded to a cloud service and removed locally.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-30',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-224-how-to-clean-up-windows-storage/800/500`,
@@ -5176,7 +5176,7 @@ An official Microsoft toolset adding advanced productivity features not built in
 
 An instant file search tool, far faster than Windows' built-in search.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-06-22',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-225-best-free-windows-software/800/500`,
@@ -5217,7 +5217,7 @@ Every background app consumes resources that could instead go to your game.
 
 The "Best Performance" power plan prevents automatic CPU throttling during heavy games.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-07-18',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-226-windows-11-gaming-optimization/800/500`,
@@ -5258,7 +5258,7 @@ If you have a full system image backup, restoring it is far faster than setting 
 
 If the internal recovery environment fails, a bootable Windows USB drive becomes necessary.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-08-24',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-227-windows-recovery-after-crash/800/500`,
@@ -5299,7 +5299,7 @@ The Designer feature automatically redesigns your slide with professional sugges
 
 Translate entire text passages directly within Word without copying to an external site.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-18',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-228-microsoft-365-hidden-features/800/500`,
@@ -5340,7 +5340,7 @@ Running Linux in a window on Windows via software like VirtualBox — safe and g
 
 WSL for developers who just need Linux tools; dual boot for those wanting full performance.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-10-10',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-229-running-linux-alongside-windows/800/500`,
@@ -5381,7 +5381,7 @@ Browsers like Edge in resource-saving mode use far less memory than Chrome on we
 
 Upgrading a traditional hard drive to an SSD is cheaper than a whole new device and makes a huge difference.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-11-14',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-230-improving-performance-on-old-devices/800/500`,
@@ -5422,7 +5422,7 @@ If you notice clear slowdowns running several programs together, that's a real s
 
 Task Manager shows a detailed breakdown of which program is currently consuming the most memory.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-03-05',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-231-understanding-ram-management-windows/800/500`,
@@ -5463,7 +5463,7 @@ You can access Windows files from within Linux and vice versa seamlessly with no
 
 Very close to native Linux performance, with a negligible gap compared to traditional dual boot.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-04-16',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-232-what-is-wsl-and-why-developers-use-it/800/500`,
@@ -5504,7 +5504,7 @@ Windows Defender Firewall is enough for most users if kept enabled and continuou
 
 The admin account should only be used when needed, minimizing potential damage from any breach.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-20',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-233-windows-security-against-hacking/800/500`,
@@ -5545,7 +5545,7 @@ After cloning, you need to point the device to boot from the new drive instead o
 
 Run from the new drive for several days before fully disposing of the old one as a temporary backup.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-06-28',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-234-migrating-windows-to-new-ssd/800/500`,
@@ -5586,7 +5586,7 @@ Automatically captures screenshots of every step you take, great for illustratin
 
 Pressing Win+. opens a panel with emoji, special symbols, and even animated GIFs.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-07-30',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-235-built-in-windows-tools-you-forgot-about/800/500`,
@@ -5627,7 +5627,7 @@ Windows Memory Diagnostic scans RAM sticks for actual faults.
 
 If the issue started after a recent update, rolling back the driver often fixes it immediately.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-08-15',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-236-how-to-fix-blue-screen-of-death/800/500`,
@@ -5668,7 +5668,7 @@ Windows 11 requires a TPM 2.0 chip that may be unavailable on devices older than
 
 Official Windows 10 support ends in October 2025, making the upgrade necessary in the medium term.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-22',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-237-windows-11-vs-windows-10-comparison/800/500`,
@@ -5709,7 +5709,7 @@ You can set an automatic switch between light and dark mode based on sunrise/sun
 
 Not every app supports dark mode automatically — some need a separate setting within the app itself.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-10-28',
     readTime: 4,
     heroImage: `https://picsum.photos/seed/article-238-windows-dark-mode-customization/800/500`,
@@ -5750,7 +5750,7 @@ The Widgets panel shows weather and news without needing to clutter the desktop 
 
 A simple, non-distracting wallpaper makes finding important icons visually faster.` },
     categoryId: 'windows',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-11-30',
     readTime: 4,
     heroImage: `https://picsum.photos/seed/article-239-organizing-your-desktop-efficiently/800/500`,
@@ -5791,7 +5791,7 @@ Galaxy AI's live translation features are currently more integrated than Apple's
 
 iPhone for those who prefer simplicity and integration, Galaxy for those wanting more flexibility and advanced camera features.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-02-20',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-240-iphone-15-pro-vs-galaxy-s24/800/500`,
@@ -5834,7 +5834,7 @@ Both offer excellent display quality, but the XPS wins with noticeably thinner b
 
 MacBook for those within the Apple ecosystem, XPS for those needing wider compatibility with specialized Windows software.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-03-15',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-241-macbook-air-vs-dell-xps-13/800/500`,
@@ -5875,7 +5875,7 @@ Very close capabilities in resolution and frame rate — differences are minor a
 
 PlayStation for cinematic story lovers, Xbox for those who value cost efficiency through the subscription.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-04-08',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-242-ps5-vs-xbox-series-x/800/500`,
@@ -5916,7 +5916,7 @@ Galaxy Watch lasts slightly longer in normal use compared to Apple Watch.
 
 Your choice here is determined more by your phone than any single feature of the watch itself.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-12',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-243-apple-watch-9-vs-galaxy-watch-6/800/500`,
@@ -5957,7 +5957,7 @@ Sony has a wider range of third-party lenses at better prices compared to Canon'
 
 Sony for those wanting flexibility and a broader lens ecosystem, Canon for those who value out-of-camera color and a familiar interface.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-06-20',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-244-sony-a7-iv-vs-canon-r6/800/500`,
@@ -5998,7 +5998,7 @@ iPhone gets system updates for a much longer period (5-6 years) compared to most
 
 Android for full customization lovers, iPhone for those who value strict privacy and long-term system support.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-07-25',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-245-ios-17-vs-android-14/800/500`,
@@ -6039,7 +6039,7 @@ Apple clearly wins on iPhone integration (auto-switching, spatial audio) not ava
 
 Apple for iPhone users, Sony for those seeking the best sound quality and noise cancellation regardless of phone OS.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-08-14',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-246-airpods-pro-2-vs-sony-wf-1000xm5/800/500`,
@@ -6080,7 +6080,7 @@ Both chips offer strong integrated graphics sufficient for most light-to-medium 
 
 M3 for those seeking the longest possible battery life, Intel for those needing full compatibility with specialized Windows software.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-10',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-247-apple-m3-vs-intel-core-ultra/800/500`,
@@ -6121,7 +6121,7 @@ Both support a dedicated pen (Apple Pencil and S Pen) with excellent writing and
 
 iPad for those wanting more optimized apps, Galaxy Tab for those preferring Android flexibility and multi-window support.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-10-05',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-248-ipad-air-vs-galaxy-tab-s9/800/500`,
@@ -6162,7 +6162,7 @@ Steam Deck generally lasts longer thanks to deeper hardware-software optimizatio
 
 Steam Deck for a simpler, more optimized experience, ROG Ally for those wanting higher performance and full Windows flexibility.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-11-08',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-249-steam-deck-vs-rog-ally/800/500`,
@@ -6203,7 +6203,7 @@ RX 7900 XTX offers more memory (24GB) versus RTX 4080's 16GB, an advantage at ve
 
 RTX 4080 for those valuing ray tracing quality and AI upscaling (DLSS), RX 7900 XTX for the best raw value for money.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-04-30',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-250-rtx-4080-vs-rx-7900-xtx/800/500`,
@@ -6244,7 +6244,7 @@ Both offer limited free storage (15GB for Google, 5GB for Microsoft) requiring a
 
 Choose based on the ecosystem you already use: OneDrive for Microsoft users, Drive for active Google users.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-05-18',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-251-google-drive-vs-onedrive/800/500`,
@@ -6285,7 +6285,7 @@ Claude generally excels at coherence in long texts and complex analytical tasks 
 
 ChatGPT Plus for those wanting multi-purpose tools, Claude Pro for those focused on writing and deep analysis.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-06-22',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-252-chatgpt-plus-vs-claude-pro/800/500`,
@@ -6326,7 +6326,7 @@ Chrome has the largest extension library, and Edge supports the same Chrome stor
 
 Brave for maximum privacy, Edge for a balance of performance and resource use, Chrome for the widest extension and site compatibility.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-07-16',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-253-chrome-vs-edge-vs-brave/800/500`,
@@ -6367,7 +6367,7 @@ Premiere runs on a recurring monthly subscription, while Final Cut is a one-time
 
 Final Cut for Mac users seeking performance and a fixed price, Premiere for those needing OS flexibility and collaboration with Windows-using teams.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-08-20',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-254-premiere-pro-vs-final-cut-pro/800/500`,
@@ -6408,7 +6408,7 @@ Alexa integrates deeply with Amazon for direct voice shopping, a feature not as 
 
 Alexa for those with a diverse smart home device setup, Google Assistant for those valuing answer accuracy and search.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-09-24',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-255-alexa-vs-google-assistant/800/500`,
@@ -6449,7 +6449,7 @@ Apple Music integrates more deeply with Apple devices (Siri, HomePod), while Spo
 
 Spotify for discovering new music and platform variety, Apple Music for higher sound quality and Apple integration.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-10-18',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-256-spotify-vs-apple-music/800/500`,
@@ -6490,7 +6490,7 @@ Both support a capable voice assistant (Siri and Google Assistant) for search an
 
 Apple TV for those wanting the best performance and not minding paying more, Chromecast for the best economic value.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-11-20',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-257-apple-tv-4k-vs-chromecast/800/500`,
@@ -6531,7 +6531,7 @@ Telegram wins with more features (massive channels, bots, large file sharing) un
 
 Signal for those who put privacy first, Telegram for those wanting broader social features while accepting slightly higher privacy risk.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-03-28',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-258-signal-vs-telegram/800/500`,
@@ -6572,7 +6572,7 @@ OLED is theoretically susceptible to burn-in with very long static content displ
 
 OLED for the best picture quality in relatively dark rooms, Mini-LED for use in strong daylight without burn-in worries.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2024-12-05',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-259-oled-vs-mini-led-monitors/800/500`,
@@ -6613,7 +6613,7 @@ Deeper integration of text, image, audio, and video into one unified model rathe
 
 No confirmed official date, but the company has confirmed it's working on substantial improvements, not just a cosmetic update.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-01-15',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-260-chatgpt-5-what-to-expect/800/500`,
@@ -6654,7 +6654,7 @@ If your current phone is under two years old with no noticeable battery or perfo
 
 Wait three months after launch for price drops, as the price often falls without spec sacrifice.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-01-20',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-261-best-phones-to-upgrade-to-in-2025/800/500`,
@@ -6695,7 +6695,7 @@ Discovering new drugs, optimizing complex financial algorithms, and theoreticall
 
 The technology is still in early stages, and today's machines are far from wide commercial use.` },
     categoryId: 'technology',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-01-25',
     readTime: 7,
     heroImage: `https://picsum.photos/seed/article-262-quantum-computing-explained/800/500`,
@@ -6736,7 +6736,7 @@ Tools like Otter.ai automatically record and summarize meetings with no need for
 
 Always use AI as a starting point, and review the output yourself before relying on it fully.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-02-01',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-263-productivity-with-ai-daily-routine/800/500`,
@@ -6777,7 +6777,7 @@ Dive tracking, mountain climbing, and precise GPS routes far exceeding the avera
 
 Ideal only for extreme sports and adventure enthusiasts, overkill for regular daily use.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-02-05',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-264-apple-watch-ultra-2-review/800/500`,
@@ -6818,7 +6818,7 @@ Focused on cinematic-style filters, very popular among social media content crea
 
 Specialized in portrait editing (skin, teeth) with high realism and no noticeable overdoing.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-02-10',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-265-best-photo-editing-apps-2025/800/500`,
@@ -6859,7 +6859,7 @@ Most industry forecasts point to commercial launch around 2030, still relatively
 
 Nations and major companies are racing for technological leadership and patents tied to this new generation.` },
     categoryId: 'technology',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-02-15',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-266-what-is-6g-network/800/500`,
@@ -6900,7 +6900,7 @@ Tools like ChatGPT and Copilot are great for explaining errors, but don't rely o
 
 Forums and groups like Stack Overflow and Discord greatly accelerate learning by solving real problems.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-02-20',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-267-learning-to-code-in-2025/800/500`,
@@ -6941,7 +6941,7 @@ Especially newer startups that may not follow strict data protection standards l
 
 Models running directly on your device (offline) offer the highest possible level of privacy.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-02-25',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-268-protecting-your-data-from-ai-training/800/500`,
@@ -6982,7 +6982,7 @@ Improvements in night photography and optical zoom, a clear evolutionary step fr
 
 An excellent upgrade for owners of older generations (S22 and earlier), not necessary for S24 Ultra owners.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-03-01',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-269-samsung-galaxy-s25-ultra-review/800/500`,
@@ -7024,7 +7024,7 @@ Check the speaker's compatibility with your existing devices (lights, locks, the
 
 Some users prefer speakers with a physical mute switch for extra privacy when needed.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-03-05',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-270-smart-speakers-buying-guide/800/500`,
@@ -7065,7 +7065,7 @@ Ensure support for trusted local and international payment gateways your target 
 
 Start building an audience on social media before actually launching the store to secure initial visitors.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-03-10',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-271-starting-online-store-beginners/800/500`,
@@ -7106,7 +7106,7 @@ Manual exposure and focus control gives more consistent results than auto mode.
 
 A small external microphone improves audio quality more than any improvement to the image itself.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-03-15',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-272-mobile-videography-tips/800/500`,
@@ -7147,7 +7147,7 @@ Notably faster page loads especially on unstable or high-latency mobile networks
 
 Major sites like Google and Facebook already use it, and modern browsers support it automatically with no extra setup.` },
     categoryId: 'technology',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-03-20',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-273-http3-and-web-speed/800/500`,
@@ -7188,7 +7188,7 @@ Now supports Apple Pencil Pro, adding new customization features unavailable in 
 
 An excellent choice for those who genuinely want a small iPad without sacrificing modern performance.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-03-25',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-274-ipad-mini-7-review/800/500`,
@@ -7229,7 +7229,7 @@ Excessive in-app ads, or requesting permissions that make no sense for a simple 
 
 Paid services with a documented, independently audited "no-log" policy.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-03-30',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-275-free-vpns-are-they-safe/800/500`,
@@ -7270,7 +7270,7 @@ Ads are a primary income source for many sites — full blocking can directly hu
 
 Manually whitelist small, trusted sites to support their continued operation.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-04-04',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-276-ad-blocking-guide/800/500`,
@@ -7311,7 +7311,7 @@ Demos of more advanced home assistant robots going beyond simple cleaning to bro
 
 Heavy focus on advanced self-driving systems and more interactive in-car screen experiences.` },
     categoryId: 'technology',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-01-10',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-277-ces-2025-highlights/800/500`,
@@ -7352,7 +7352,7 @@ Gaming: high refresh rate; design: accurate color; office work: just a screen si
 
 A matte screen reduces reflections in bright rooms, while glossy gives more vivid colors.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-04-10',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-278-monitor-buying-guide-2025/800/500`,
@@ -7393,7 +7393,7 @@ Seven years of OS and security updates, clearly the longest in the Android world
 
 An excellent choice for pure Android fans seeking the latest AI features straight from Google.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-04-15',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-279-google-pixel-9-pro-review/800/500`,
@@ -7434,7 +7434,7 @@ Requires a specifically supporting motherboard and CPU — not just a drop-in re
 
 When building an entirely new system from scratch, not as a standalone upgrade to a well-functioning DDR4 system.` },
     categoryId: 'technology',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-04-20',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-280-ddr4-vs-ddr5-ram/800/500`,
@@ -7475,7 +7475,7 @@ One excellent main camera beats four mediocre cameras that some companies add pu
 
 Compare real-world performance through independent reviews instead of relying on the chip name alone.` },
     categoryId: 'mobile',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-04-25',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-281-reading-phone-specs-like-a-pro/800/500`,
@@ -7516,7 +7516,7 @@ A simple app requesting microphone and camera access together for no clear reaso
 
 A factory reset permanently removes any spyware if all other checking methods fail.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-04-30',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-282-detecting-spyware-on-your-phone/800/500`,
@@ -7557,7 +7557,7 @@ An external hard drive gives a full copy independent of an ongoing cloud subscri
 
 Never rely on just one copy, no matter how trusted — spread your backups across at least two different services.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-05-05',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-283-automatic-photo-backup-methods/800/500`,
@@ -7598,7 +7598,7 @@ Good measurements but not quite matching flagship watch precision — acceptable
 
 Excellent value for money for those seeking long battery life without paying flagship prices.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-05-10',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-284-oneplus-watch-3-review/800/500`,
@@ -7639,7 +7639,7 @@ Tools generate accurate captions and even voice dubbing in multiple languages wi
 
 Automated results always need human review, especially for professional, high-budget projects.` },
     categoryId: 'ai',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-05-15',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-285-ai-video-editing-tools/800/500`,
@@ -7680,7 +7680,7 @@ Modern wireless tech is now practically indistinguishable from wired in response
 
 Actually test the mouse before buying if possible — the right shape matters more than any advertised spec.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-05-20',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-286-best-gaming-mice-2025/800/500`,
@@ -7721,7 +7721,7 @@ Most social platforms remove it automatically, but private messaging apps may no
 
 Free apps like ExifTool let you manually delete or edit this data before sending any sensitive photo.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-05-25',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-287-metadata-privacy-photos/800/500`,
@@ -7762,7 +7762,7 @@ DALL-E is more precise at executing specific details like in-image text or intri
 
 DALL-E for ease of use and precision, Midjourney for the best artistic and creative quality rivaling hand-drawn art.` },
     categoryId: 'comparisons',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-05-30',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-288-dalle-vs-midjourney-comparison/800/500`,
@@ -7803,7 +7803,7 @@ Excellent build quality as usual from the Surface family, a great display and co
 
 A good choice for office tasks and browsing, not suited for those relying on heavy professional software.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-06-04',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-289-surface-laptop-7-review/800/500`,
@@ -7844,7 +7844,7 @@ Tall buildings or tunnels block the signal, reducing the number of visible satel
 
 Combining GPS with mobile network and Wi-Fi data greatly improves accuracy in dense urban areas.` },
     categoryId: 'technology',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-06-09',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-290-how-gps-works-explained/800/500`,
@@ -7885,7 +7885,7 @@ Modern iPhone and Android both include a built-in screen recorder sufficient for
 
 Record at least at 1080p, and ensure clear audio free of background noise.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-06-14',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-291-best-screen-recording-apps/800/500`,
@@ -7926,7 +7926,7 @@ SSD has no moving parts, making it more resistant to physical shock compared to 
 
 SSD for the OS and programs, an additional HDD (if possible) for storing large, rarely used files.` },
     categoryId: 'technology',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-06-19',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-292-ssd-vs-hdd-which-to-choose/800/500`,
@@ -7967,7 +7967,7 @@ Even if the phone is stolen unlocked, an extra security layer protects your bank
 
 Helps when reporting to police and your carrier to permanently disable the stolen device from working on any network.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-06-24',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-293-anti-theft-phone-security/800/500`,
@@ -8008,7 +8008,7 @@ Extra touch-sensitive edge buttons mimicking traditional game controller buttons
 
 Ideal only for serious specialized gamers, clearly overkill for a regular user uninterested in gaming.` },
     categoryId: 'reviews',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-06-29',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-294-asus-rog-phone-9-review/800/500`,
@@ -8049,7 +8049,7 @@ An economical option for groups traveling together, sharing one connection acros
 
 Always use a VPN when connecting to unknown public networks to protect your data from snooping.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-07-04',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-295-free-internet-while-traveling/800/500`,
@@ -8090,7 +8090,7 @@ Combines note-taking and automatic flashcard creation from the same written text
 
 Review cards daily and regularly rather than only cramming intensively right before a test.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-07-06',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-296-best-flashcard-apps-for-studying/800/500`,
@@ -8131,7 +8131,7 @@ Fingerprint works more reliably in darkness, while 3D face recognition works eve
 
 Both are secure enough for daily use — the choice depends more on personal comfort than a major real security gap.` },
     categoryId: 'cybersecurity',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-07-08',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-297-face-id-vs-fingerprint-security/800/500`,
@@ -8172,7 +8172,7 @@ Merges all your open tabs into a single list, dramatically saving browser memory
 
 Sets a limited daily time for distracting sites (social media) to help you stay focused while working.` },
     categoryId: 'howto',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-07-10',
     readTime: 5,
     heroImage: `https://picsum.photos/seed/article-298-chrome-extensions-for-productivity/800/500`,
@@ -8213,7 +8213,7 @@ Virtual work meetings, simulated medical training, and immersive education expan
 
 High-quality content remains relatively limited, and price remains a barrier to wide mainstream adoption.` },
     categoryId: 'technology',
-    author: { name: { ar: `فريق تيك بالس`, en: `TechPulse Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    author: { name: { ar: `فريق رؤى تقنية`, en: `Technical Insights Team` }, avatar: 'https://i.pravatar.cc/150?img=68' },
     date: '2025-07-12',
     readTime: 6,
     heroImage: `https://picsum.photos/seed/article-299-future-of-virtual-reality/800/500`,

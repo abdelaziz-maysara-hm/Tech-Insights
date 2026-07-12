@@ -20,8 +20,8 @@ export function Footer() {
           
           <div className="md:col-span-1 space-y-4">
             <Link href="/" className="text-2xl font-bold text-gradient flex items-center gap-2">
-              <span className="bg-primary text-primary-foreground p-1 rounded-md text-xl">TP</span>
-              {language === 'ar' ? 'تيك بالس' : 'TechPulse'}
+              <span className="bg-primary text-primary-foreground p-1 rounded-md text-xl">TI</span>
+              {language === 'ar' ? 'رؤى تقنية' : 'Technical Insights'}
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed">
               {t('aboutText')}
@@ -90,7 +90,7 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground flex items-center gap-2">
-            © {new Date().getFullYear()} TechPulse. {t('allRightsReserved')}
+            © {new Date().getFullYear()} Technical Insights. {t('allRightsReserved')}
             <Link href="/admin" className="text-muted-foreground hover:text-primary transition-colors inline-block ml-4 opacity-50 hover:opacity-100">
               <Settings className="h-4 w-4" />
             </Link>

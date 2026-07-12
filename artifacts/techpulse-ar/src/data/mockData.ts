@@ -58,8 +58,8 @@ export interface Comparison {
 }
 
 export const p1 = {
-  ar: `في عالم يتسارع فيه التطور التكنولوجي، أصبح من الصعب مواكبة كل ما هو جديد. لكن هنا في تيك بالس، نسعى جاهدين لنضعك في قلب الحدث. من خلال مراجعاتنا العميقة وتحليلاتنا الدقيقة، نضمن لك الحصول على المعلومة الصحيحة في الوقت المناسب. التكنولوجيا ليست مجرد أجهزة ذكية، بل هي أسلوب حياة يغير طريقة تواصلنا وعملنا وحتى ترفيهنا.`,
-  en: `In a world where technological development is accelerating, it has become difficult to keep up with everything new. But here at TechPulse, we strive to put you in the heart of the event. Through our deep reviews and careful analysis, we ensure you get the right information at the right time. Technology is not just smart devices, but a lifestyle that changes the way we communicate, work, and even entertain ourselves.`
+  ar: `في عالم يتسارع فيه التطور التكنولوجي، أصبح من الصعب مواكبة كل ما هو جديد. لكن هنا في رؤى تقنية، نسعى جاهدين لنضعك في قلب الحدث. من خلال مراجعاتنا العميقة وتحليلاتنا الدقيقة، نضمن لك الحصول على المعلومة الصحيحة في الوقت المناسب. التكنولوجيا ليست مجرد أجهزة ذكية، بل هي أسلوب حياة يغير طريقة تواصلنا وعملنا وحتى ترفيهنا.`,
+  en: `In a world where technological development is accelerating, it has become difficult to keep up with everything new. But here at Technical Insights, we strive to put you in the heart of the event. Through our deep reviews and careful analysis, we ensure you get the right information at the right time. Technology is not just smart devices, but a lifestyle that changes the way we communicate, work, and even entertain ourselves.`
 };
 export const p2 = {
   ar: `تعتبر الهواتف الذكية اليوم المركز العصبي لحياتنا الرقمية. لا يمكننا تخيل يوم واحد دون استخدام هذه الأجهزة المتطورة التي تجمع بين قوة الحوسبة، دقة التصوير، وذكاء البرمجيات. الشركات الكبرى تتنافس بشراسة لتقديم أفضل تجربة مستخدم ممكنة، وهذا التنافس يصب في مصلحة المستهلك في النهاية.`,
@@ -98,7 +98,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'reviews',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=11'
     },
     date: '2024-02-15',
@@ -121,7 +121,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'mobile',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=5'
     },
     date: '2024-03-01',
@@ -144,7 +144,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'cybersecurity',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=33'
     },
     date: '2024-04-10',
@@ -166,7 +166,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'laptops',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=44'
     },
     date: '2024-03-20',
@@ -189,7 +189,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'ai',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=11'
     },
     date: '2024-04-05',
@@ -212,7 +212,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'windows',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=59'
     },
     date: '2024-04-12',
@@ -234,7 +234,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'howto',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=5'
     },
     date: '2024-02-28',
@@ -256,7 +256,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'reviews',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=33'
     },
     date: '2024-04-15',
@@ -279,7 +279,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'laptops',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=19'
     },
     date: '2024-04-10',
@@ -301,7 +301,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'howto',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=20'
     },
     date: '2024-04-11',
@@ -323,7 +323,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'ai',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=21'
     },
     date: '2024-04-12',
@@ -345,7 +345,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'reviews',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=22'
     },
     date: '2024-04-13',
@@ -367,7 +367,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'windows',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=23'
     },
     date: '2024-04-14',
@@ -389,7 +389,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'cybersecurity',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=24'
     },
     date: '2024-04-15',
@@ -411,7 +411,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'mobile',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=25'
     },
     date: '2024-04-16',
@@ -433,7 +433,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'laptops',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=26'
     },
     date: '2024-04-17',
@@ -455,7 +455,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'howto',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=27'
     },
     date: '2024-04-18',
@@ -477,7 +477,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'ai',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=28'
     },
     date: '2024-04-19',
@@ -499,7 +499,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'reviews',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=29'
     },
     date: '2024-04-20',
@@ -521,7 +521,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'windows',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=30'
     },
     date: '2024-04-21',
@@ -543,7 +543,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'cybersecurity',
     author: {
-      name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' },
+      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
       avatar: 'https://i.pravatar.cc/150?img=31'
     },
     date: '2024-04-22',

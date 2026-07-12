@@ -10,12 +10,12 @@ export function useSEO({ title, description }: SEOProps = {}) {
   const { language } = useLanguage();
 
   useEffect(() => {
-    const defaultTitle = language === 'ar' ? 'تيك بالس - موقع تقنى عربى' : 'TechPulse - Arabic Tech Magazine';
+    const defaultTitle = language === 'ar' ? 'رؤى تقنية - موقع تقنى عربى' : 'Technical Insights - Arabic Tech Magazine';
     const defaultDesc = language === 'ar' 
       ? 'دليلك الأول في عالم التقنية، مراجعات، أخبار، ومقارنات.' 
       : 'Your first guide in the tech world, reviews, news, and comparisons.';
 
-    document.title = title ? `${title} - TechPulse` : defaultTitle;
+    document.title = title ? `${title} - Technical Insights` : defaultTitle;
     document.documentElement.lang = language;
     document.documentElement.dir = language === 'ar' ? 'rtl' : 'ltr';
 

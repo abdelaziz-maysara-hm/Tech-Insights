@@ -39,8 +39,8 @@ export function Navbar() {
         {/* Logo */}
         <div className="flex-shrink-0 flex items-center">
           <Link href="/" className="text-2xl font-bold text-gradient flex items-center gap-2">
-            <span className="bg-primary text-primary-foreground p-1 rounded-md text-xl">TP</span>
-            {language === 'ar' ? 'تيك بالس' : 'TechPulse'}
+            <span className="bg-primary text-primary-foreground p-1 rounded-md text-xl">TI</span>
+            {language === 'ar' ? 'رؤى تقنية' : 'Technical Insights'}
           </Link>
         </div>
 
