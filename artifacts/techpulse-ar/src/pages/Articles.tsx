@@ -23,7 +23,7 @@ export default function Articles() {
   const filteredArticles = allArticles.filter(article => {
     const matchesCat = activeTab === 'all' || article.categoryId === activeTab;
     const matchesSearch = article.title[language].toLowerCase().includes(search.toLowerCase()) || 
-                          article.tags.some(tag => tag.toLowerCase().includes(search.toLowerCase()));
+                          (article.tags ?? []).some(tag => tag.toLowerCase().includes(search.toLowerCase()));
     return matchesCat && matchesSearch;
   });
 

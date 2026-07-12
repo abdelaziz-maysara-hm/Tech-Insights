@@ -16,7 +16,7 @@ export function Navbar() {
   const searchResults = searchQuery.trim() 
     ? allArticles.filter(a => 
         a.title[language].toLowerCase().includes(searchQuery.toLowerCase()) || 
-        a.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()))
+        (a.tags ?? []).some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()))
       ).slice(0, 5)
     : [];
 

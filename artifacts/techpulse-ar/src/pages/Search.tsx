@@ -20,7 +20,7 @@ export default function Search() {
     ? allArticles.filter(a => 
         a.title[language].toLowerCase().includes(query.toLowerCase()) || 
         a.excerpt[language].toLowerCase().includes(query.toLowerCase()) ||
-        a.tags.some(tag => tag.toLowerCase().includes(query.toLowerCase()))
+        (a.tags ?? []).some(tag => tag.toLowerCase().includes(query.toLowerCase()))
       )
     : [];
 

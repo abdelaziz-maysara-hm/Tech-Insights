@@ -30,15 +30,16 @@ _Populate as you build — non-obvious choices a reader couldn't infer from the 
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+- `artifacts/techpulse-ar` — TechPulse (تيك بالس), a bilingual Arabic/English tech magazine site. Includes a Git-based admin CMS at `/admin` (login-gated, 2 fixed users) for managing articles, videos, custom pages, and a JSON bulk-import. Admin actions write to `src/content/*.json` and commit directly to the GitHub repo (`GITHUB_REPO`/`GITHUB_BRANCH`); the site itself is also deployed on Netlify (via that same GitHub repo), which is the real production target — not Replit's own deploy.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- TechPulse admin panel: exactly 2 fixed admin users, direct-commit publishing (no PR review step), scope limited to articles/videos/pages/footer links — not arbitrary code/design changes.
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- TechPulse admin CMS (`artifacts/techpulse-ar/server/admin/*`) is a framework-agnostic handler shared between the Vite dev middleware (Replit preview, loaded via `server.ssrLoadModule` since Node can't `import()` `.ts` directly) and a Netlify Function (`netlify/functions/cms-api.ts`). Any env var used by it (`GITHUB_TOKEN`, `GITHUB_REPO`, `GITHUB_BRANCH`, `JWT_SECRET`, `ADMIN1_USERNAME`, `ADMIN1_PASSWORD`, `ADMIN2_USERNAME`, `ADMIN2_PASSWORD`) must be duplicated in Netlify's site environment variables — Netlify Functions read their own process env, not Replit's secrets.
+- Netlify's function filesystem is read-only, so on Netlify only the GitHub commit persists (no local disk write). Public pages read content via static JSON imports bundled at build time, so edits appear on the live site only after Netlify rebuilds; the admin panel itself talks to live API endpoints for immediate CRUD feedback.
 
 ## Pointers
 

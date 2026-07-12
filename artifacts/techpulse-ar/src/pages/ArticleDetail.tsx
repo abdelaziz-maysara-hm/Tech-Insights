@@ -18,7 +18,7 @@ export default function ArticleDetail() {
 
   const relatedArticles = article
     ? allArticles
-        .filter(a => a.id !== article.id && (a.categoryId === article.categoryId || a.tags.some(t => article.tags.includes(t))))
+        .filter(a => a.id !== article.id && (a.categoryId === article.categoryId || (a.tags ?? []).some(t => (article.tags ?? []).includes(t))))
         .slice(0, 3)
     : [];
 
@@ -154,7 +154,7 @@ export default function ArticleDetail() {
               <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
                 <div className="flex flex-wrap items-center gap-2">
                   <Tag className="w-4 h-4 text-muted-foreground mr-1" />
-                  {article.tags.map(tag => (
+                  {(article.tags ?? []).map(tag => (
                     <span key={tag} className="bg-muted text-muted-foreground text-xs font-medium px-3 py-1.5 rounded-md">
                       {tag}
                     </span>
