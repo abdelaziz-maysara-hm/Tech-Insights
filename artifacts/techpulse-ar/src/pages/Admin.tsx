@@ -249,7 +249,7 @@ export default function Admin() {
             <div>
               <label className="block text-sm font-medium mb-2">التصنيف / Category</label>
               <select value={category} onChange={e => setCategory(e.target.value as Category)} className="w-full bg-background border border-border rounded-md px-4 py-2">
-                {['cybersecurity', 'mobile', 'laptops', 'howto', 'ai', 'reviews', 'windows', 'comparisons'].map(c => (
+                {['cybersecurity', 'mobile', 'laptops', 'howto', 'ai', 'reviews', 'windows', 'comparisons', 'technology'].map(c => (
                   <option key={c} value={c}>{c}</option>
                 ))}
               </select>

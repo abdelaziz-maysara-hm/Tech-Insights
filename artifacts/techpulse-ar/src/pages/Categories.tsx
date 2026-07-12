@@ -8,7 +8,7 @@ export default function Categories() {
   const { language, t } = useLanguage();
   const { allArticles } = useAllArticles();
 
-  const categories: Category[] = ['cybersecurity', 'mobile', 'laptops', 'howto', 'ai', 'reviews', 'windows', 'comparisons'];
+  const categories: Category[] = ['cybersecurity', 'mobile', 'laptops', 'howto', 'ai', 'reviews', 'windows', 'comparisons', 'technology'];
 
   useSEO({ title: t('categories') });
 

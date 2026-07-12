@@ -15,18 +15,16 @@ export default function ArticleDetail() {
   const article = allArticles.find(a => a.slug === slug);
   
   useSEO(article ? { title: article.title[language], description: article.excerpt[language] } : {});
-  
-  if (!article) {
-    return <div className="container py-20 text-center text-2xl">Article not found</div>;
-  }
 
-  const relatedArticles = allArticles
-    .filter(a => a.id !== article.id && (a.categoryId === article.categoryId || a.tags.some(t => article.tags.includes(t))))
-    .slice(0, 3);
+  const relatedArticles = article
+    ? allArticles
+        .filter(a => a.id !== article.id && (a.categoryId === article.categoryId || a.tags.some(t => article.tags.includes(t))))
+        .slice(0, 3)
+    : [];
 
   // Parse markdown-like body to HTML and extract headings
-  const bodyText = article.body[language];
-  const paragraphs = bodyText.split('\n\n');
+  const bodyText = article ? article.body[language] : '';
+  const paragraphs = bodyText ? bodyText.split('\n\n') : [];
   const headings: { id: string, text: string }[] = [];
   
   const renderedBody = paragraphs.map((para, index) => {
@@ -67,6 +65,10 @@ export default function ArticleDetail() {
       window.scrollTo({ top: y, behavior: 'smooth' });
     }
   };
+
+  if (!article) {
+    return <div className="container py-20 text-center text-2xl">Article not found</div>;
+  }
 
   return (
     <>

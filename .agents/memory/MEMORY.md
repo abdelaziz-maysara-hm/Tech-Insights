@@ -1,0 +1,1 @@
+- [Conditional hooks after early return](conditional-hooks-early-return.md) — a component's `if (!x) return ...` placed before later hooks crashes on remount/nav; move all hooks above any early return.

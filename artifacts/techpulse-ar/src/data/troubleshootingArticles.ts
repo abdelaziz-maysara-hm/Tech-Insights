@@ -5,10 +5,10 @@ import { Article, Category } from './mockData';
 //  Beginner-friendly, step-by-step, bilingual (AR / EN)
 // =====================================================================
 
-const author1 = { name: { ar: 'أحمد محمود', en: 'Ahmed Mahmoud' }, avatar: 'https://i.pravatar.cc/150?img=11' };
-const author2 = { name: { ar: 'سارة خالد', en: 'Sarah Khaled' }, avatar: 'https://i.pravatar.cc/150?img=5' };
-const author3 = { name: { ar: 'محمد علي', en: 'Mohamed Ali' }, avatar: 'https://i.pravatar.cc/150?img=33' };
-const author4 = { name: { ar: 'نورا حسن', en: 'Nora Hassan' }, avatar: 'https://i.pravatar.cc/150?img=47' };
+const author1 = { name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' }, avatar: 'https://i.pravatar.cc/150?img=68' };
+const author2 = { name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' }, avatar: 'https://i.pravatar.cc/150?img=68' };
+const author3 = { name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' }, avatar: 'https://i.pravatar.cc/150?img=68' };
+const author4 = { name: { ar: 'فريق تيك بالس', en: 'TechPulse Team' }, avatar: 'https://i.pravatar.cc/150?img=68' };
 
 export const troubleshootingArticles: Article[] = [
   // -------------------------------------------------------

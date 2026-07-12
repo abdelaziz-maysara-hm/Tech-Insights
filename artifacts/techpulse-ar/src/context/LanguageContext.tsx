@@ -38,6 +38,7 @@ const translations: Record<string, Record<Language, string>> = {
   ai: { ar: 'الذكاء الاصطناعي', en: 'AI' },
   reviews: { ar: 'مراجعات', en: 'Reviews' },
   windows: { ar: 'ويندوز', en: 'Windows' },
+  technology: { ar: 'تقنية', en: 'Technology' },
   
   // Comparisons
   vs: { ar: 'ضد', en: 'VS' },
