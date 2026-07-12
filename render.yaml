@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: techpulse-admin
+    runtime: node
+    plan: free
+    rootDir: .
+    buildCommand: corepack enable && pnpm install --frozen-lockfile && pnpm --filter @workspace/techpulse-ar run build:render
+    startCommand: pnpm --filter @workspace/techpulse-ar run start:render
+    envVars:
+      - key: NODE_VERSION
+        value: 24
+      - key: GITHUB_REPO
+        sync: false
+      - key: GITHUB_BRANCH
+        sync: false
+      - key: GITHUB_TOKEN
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: ADMIN1_USERNAME
+        sync: false
+      - key: ADMIN1_PASSWORD
+        sync: false
+      - key: ADMIN2_USERNAME
+        sync: false
+      - key: ADMIN2_PASSWORD
+        sync: false
