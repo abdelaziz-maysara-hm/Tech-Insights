@@ -1,4 +1,4 @@
-"@vercel/node": "^3.2.0"
+
 {
   "name": "@workspace/techpulse-ar",
   "version": "0.0.0",
@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "esbuild": "catalog:",
+	"@vercel/node": "^3.2.0",
     "@hookform/resolvers": "^3.10.0",
     "@radix-ui/react-accordion": "^1.2.4",
     "@radix-ui/react-alert-dialog": "^1.1.7",
