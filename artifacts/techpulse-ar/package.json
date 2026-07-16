@@ -1,3 +1,4 @@
+"@vercel/node": "^3.2.0"
 {
   "name": "@workspace/techpulse-ar",
   "version": "0.0.0",
