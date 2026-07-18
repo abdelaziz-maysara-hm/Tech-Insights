@@ -265,7 +265,24 @@ async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
     const username = String(body?.username ?? '');
     const password = String(body?.password ?? '');
     const match = users.find((u) => safeCompare(u.username, username) && safeCompare(u.password, password));
-    if (!match) return { status: 401, body: { error: 'invalid_credentials' } };
+    if (!match) {
+      // TEMPORARY DEBUG - remove after diagnosing. No secret values are exposed,
+      // only lengths, so this is safe to leave in a response body briefly.
+      return {
+        status: 401,
+        body: {
+          error: 'invalid_credentials',
+          debug: {
+            receivedUsernameLen: username.length,
+            receivedPasswordLen: password.length,
+            configuredUsers: users.map((u) => ({
+              usernameLen: u.username.length,
+              passwordLen: u.password.length,
+            })),
+          },
+        },
+      };
+    }
 
     const token = createToken({ username: match.username }, getSecret());
     return {
