@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { handleCmsRequest, type CmsRequest } from '../../server/admin/router';
-import { parseCookies } from '../../server/admin/cookies';
+import { handleCmsRequest, type CmsRequest } from '../../server/admin/router.ts';
+import { parseCookies } from '../../server/admin/cookies.ts';
 
 // Vercel Serverless Function — ported from netlify/functions/cms-api.ts
 // The frontend calls /cms/api/*; vercel.json rewrites that to
