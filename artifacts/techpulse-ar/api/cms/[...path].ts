@@ -265,24 +265,7 @@ async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
     const username = String(body?.username ?? '');
     const password = String(body?.password ?? '');
     const match = users.find((u) => safeCompare(u.username, username) && safeCompare(u.password, password));
-    if (!match) {
-      // TEMPORARY DEBUG - remove after diagnosing. No secret values are exposed,
-      // only lengths, so this is safe to leave in a response body briefly.
-      return {
-        status: 401,
-        body: {
-          error: 'invalid_credentials',
-          debug: {
-            receivedUsernameLen: username.length,
-            receivedPasswordLen: password.length,
-            configuredUsers: users.map((u) => ({
-              usernameLen: u.username.length,
-              passwordLen: u.password.length,
-            })),
-          },
-        },
-      };
-    }
+    if (!match) return { status: 401, body: { error: 'invalid_credentials' } };
 
     const token = createToken({ username: match.username }, getSecret());
     return {
@@ -302,7 +285,7 @@ async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
   }
 
   const auth = requireAuth(req);
-  if (!auth) return { status: 401, body: { error: 'unauthorized', debugReqPath: reqPath, debugMethod: method } };
+  if (!auth) return { status: 401, body: { error: 'unauthorized' } };
 
   const collectionName = segments[0] as CollectionName;
   if (!COLLECTIONS.includes(collectionName)) {
@@ -380,9 +363,11 @@ async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
 
 // ----- Vercel handler ---------------------------------------------------------
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  const segments = req.query.path;
-  const pathArr = Array.isArray(segments) ? segments : segments ? [segments] : [];
-  const cmsPath = `/${pathArr.join('/')}`;
+  // Derive the sub-path directly from the raw request URL instead of
+  // req.query.path - the latter was not being populated reliably here.
+  const rawUrl = req.url || '/';
+  const pathname = rawUrl.split('?')[0];
+  const cmsPath = (pathname.replace(/^\/api\/cms/, '') || '/');
 
   const cmsReq: CmsRequest = {
     method: req.method || 'GET',
