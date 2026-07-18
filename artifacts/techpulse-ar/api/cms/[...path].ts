@@ -302,7 +302,7 @@ async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
   }
 
   const auth = requireAuth(req);
-  if (!auth) return { status: 401, body: { error: 'unauthorized' } };
+  if (!auth) return { status: 401, body: { error: 'unauthorized', debugReqPath: reqPath, debugMethod: method } };
 
   const collectionName = segments[0] as CollectionName;
   if (!COLLECTIONS.includes(collectionName)) {
