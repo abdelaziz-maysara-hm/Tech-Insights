@@ -1,6 +1,6 @@
 // Client for the admin CMS API. Same paths work in Replit dev (served by a
 // Vite middleware) and in Netlify production (served by a Netlify Function).
-const BASE = '/cms/api';
+const BASE = '/api/cms';
 
 export class AdminApiError extends Error {
   status: number;
