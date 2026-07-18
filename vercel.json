@@ -1,6 +1,7 @@
 {
-  "rewrites": [
-    { "source": "/cms/api/:path*", "destination": "/api/cms/:path*" },
-    { "source": "/(.*)", "destination": "/index.html" }
+  "routes": [
+    { "src": "/cms/api/(.*)", "dest": "/api/cms/$1" },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
