@@ -12,6 +12,7 @@ export interface Article {
   excerpt: BilingualText;
   body: BilingualText;
   categoryId: Category;
+  subcategoryId?: string;
   author: {
     name: BilingualText;
     avatar: string;

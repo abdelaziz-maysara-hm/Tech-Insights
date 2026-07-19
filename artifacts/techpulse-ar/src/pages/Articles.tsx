@@ -3,14 +3,18 @@ import { ArticleCard } from '@/components/ArticleCard';
 import { useState, useEffect } from 'react';
 import { Search as SearchIcon } from 'lucide-react';
 import { useAllArticles } from '@/hooks/useAllArticles';
+import { getSubcategories } from '@/data/subcategories';
+import { Category } from '@/data/mockData';
 
 export default function Articles() {
   const { language, t } = useLanguage();
   const { allArticles } = useAllArticles();
   const [activeTab, setActiveTab] = useState<string>('all');
+  const [activeSubTab, setActiveSubTab] = useState<string>('all');
   const [search, setSearch] = useState('');
 
   const categories = ['all', 'cybersecurity', 'mobile', 'laptops', 'howto', 'ai', 'reviews', 'windows'];
+  const subcategories = activeTab !== 'all' ? getSubcategories(activeTab as Category) : [];
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -20,11 +24,17 @@ export default function Articles() {
     }
   }, []);
 
+  useEffect(() => {
+    // Reset the subcategory filter whenever the main category changes
+    setActiveSubTab('all');
+  }, [activeTab]);
+
   const filteredArticles = allArticles.filter(article => {
     const matchesCat = activeTab === 'all' || article.categoryId === activeTab;
+    const matchesSubCat = activeSubTab === 'all' || article.subcategoryId === activeSubTab;
     const matchesSearch = article.title[language].toLowerCase().includes(search.toLowerCase()) || 
                           (article.tags ?? []).some(tag => tag.toLowerCase().includes(search.toLowerCase()));
-    return matchesCat && matchesSearch;
+    return matchesCat && matchesSubCat && matchesSearch;
   });
 
   return (
@@ -45,7 +55,7 @@ export default function Articles() {
         </div>
 
         {/* Tabs */}
-        <div className="flex flex-wrap justify-center gap-2 mb-10">
+        <div className="flex flex-wrap justify-center gap-2 mb-4">
           {categories.map(cat => (
             <button
               key={cat}
@@ -60,6 +70,35 @@ export default function Articles() {
             </button>
           ))}
         </div>
+
+        {/* Subcategory tabs - only shown once a specific category is active */}
+        {subcategories.length > 0 && (
+          <div className="flex flex-wrap justify-center gap-2 mb-10">
+            <button
+              onClick={() => setActiveSubTab('all')}
+              className={`px-3 py-1.5 rounded-full text-xs font-medium border transition-colors ${
+                activeSubTab === 'all'
+                  ? 'bg-secondary text-secondary-foreground border-secondary'
+                  : 'bg-transparent text-muted-foreground border-border hover:bg-muted/50'
+              }`}
+            >
+              {language === 'ar' ? 'كل الأقسام' : 'All Sections'}
+            </button>
+            {subcategories.map(sub => (
+              <button
+                key={sub.id}
+                onClick={() => setActiveSubTab(sub.id)}
+                className={`px-3 py-1.5 rounded-full text-xs font-medium border transition-colors ${
+                  activeSubTab === sub.id
+                    ? 'bg-secondary text-secondary-foreground border-secondary'
+                    : 'bg-transparent text-muted-foreground border-border hover:bg-muted/50'
+                }`}
+              >
+                {language === 'ar' ? sub.ar : sub.en}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
