@@ -196,10 +196,14 @@ async function writeCollection(
 // ----- router.ts --------------------------------------------------------------
 interface CmsRequest {
   method: string;
-  /** Path relative to /cms/api, e.g. "/articles" or "/articles/abc123" */
+  /** Path relative to /api/cms, e.g. "/articles" (collection name only) */
   path: string;
   body: any;
   cookies: Record<string, string>;
+  /** Item id, passed as ?id=... instead of an extra path segment */
+  itemId?: string;
+  /** Action, e.g. "bulk-import", passed as ?action=... */
+  action?: string;
 }
 
 interface CmsResponse {
@@ -246,7 +250,7 @@ function setCookieHeader(token: string | null): string {
 }
 
 async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
-  const { method, path: reqPath, body } = req;
+  const { method, path: reqPath, body, itemId, action } = req;
   const segments = reqPath.split('/').filter(Boolean);
 
   if (method === 'POST' && reqPath === '/login') {
@@ -292,7 +296,7 @@ async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
     return { status: 404, body: { error: 'not_found' } };
   }
 
-  const second = segments[1];
+  const second = action || itemId;
 
   try {
     if (method === 'GET' && !second) {
@@ -300,7 +304,7 @@ async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
       return { status: 200, body: { items } };
     }
 
-    if (method === 'POST' && second === 'bulk-import') {
+    if (method === 'POST' && action === 'bulk-import') {
       const incoming = Array.isArray(body?.items) ? body.items : [];
       if (!incoming.length) return { status: 400, body: { error: 'no_items' } };
       const existing = await readCollection(collectionName);
@@ -318,7 +322,7 @@ async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
       return { status: 200, body: { ok: true, added: withIds.length, ...result } };
     }
 
-    if (method === 'POST' && !second) {
+    if (method === 'POST' && !action && !itemId) {
       const existing = await readCollection(collectionName);
       const newItem = { ...body, id: body?.id ? String(body.id) : crypto.randomUUID() };
       const merged = [newItem, ...existing];
@@ -330,27 +334,27 @@ async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
       return { status: 200, body: { ok: true, item: newItem, ...result } };
     }
 
-    if (method === 'PUT' && second) {
+    if (method === 'PUT' && itemId) {
       const existing = await readCollection(collectionName);
-      const idx = existing.findIndex((i: any) => i.id === second);
+      const idx = existing.findIndex((i: any) => i.id === itemId);
       if (idx === -1) return { status: 404, body: { error: 'not_found' } };
-      existing[idx] = { ...existing[idx], ...body, id: second };
+      existing[idx] = { ...existing[idx], ...body, id: itemId };
       const result = await writeCollection(
         collectionName,
         existing,
-        `Update ${collectionName.slice(0, -1)} "${second}" by ${auth.username}`,
+        `Update ${collectionName.slice(0, -1)} "${itemId}" by ${auth.username}`,
       );
       return { status: 200, body: { ok: true, item: existing[idx], ...result } };
     }
 
-    if (method === 'DELETE' && second) {
+    if (method === 'DELETE' && itemId) {
       const existing = await readCollection(collectionName);
-      const filtered = existing.filter((i: any) => i.id !== second);
+      const filtered = existing.filter((i: any) => i.id !== itemId);
       if (filtered.length === existing.length) return { status: 404, body: { error: 'not_found' } };
       const result = await writeCollection(
         collectionName,
         filtered,
-        `Delete ${collectionName.slice(0, -1)} "${second}" by ${auth.username}`,
+        `Delete ${collectionName.slice(0, -1)} "${itemId}" by ${auth.username}`,
       );
       return { status: 200, body: { ok: true, ...result } };
     }
@@ -365,15 +369,22 @@ async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   // Derive the sub-path directly from the raw request URL instead of
   // req.query.path - the latter was not being populated reliably here.
+  // Only ONE path segment after /api/cms/ is used (Vercel's catch-all did
+  // not reliably route multi-segment paths in this project) - anything
+  // beyond the collection name (item id, bulk-import action) travels as a
+  // query parameter instead.
   const rawUrl = req.url || '/';
-  const pathname = rawUrl.split('?')[0];
+  const [pathname, queryString] = rawUrl.split('?');
   const cmsPath = (pathname.replace(/^\/api\/cms/, '') || '/');
+  const params = new URLSearchParams(queryString || '');
 
   const cmsReq: CmsRequest = {
     method: req.method || 'GET',
     path: cmsPath,
     body: req.method !== 'GET' && req.method !== 'HEAD' ? req.body : undefined,
     cookies: parseCookies(req.headers.cookie),
+    itemId: params.get('id') || undefined,
+    action: params.get('action') || undefined,
   };
 
   try {

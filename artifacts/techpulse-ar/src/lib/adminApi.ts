@@ -1,5 +1,7 @@
-// Client for the admin CMS API. Same paths work in Replit dev (served by a
-// Vite middleware) and in Netlify production (served by a Netlify Function).
+// Client for the admin CMS API. Every request keeps exactly one path
+// segment after /api/cms/ (Vercel's catch-all function did not reliably
+// route multi-segment paths like /articles/bulk-import or /articles/{id}),
+// so item id / action are passed as query parameters instead.
 const BASE = '/api/cms';
 
 export class AdminApiError extends Error {
@@ -58,20 +60,20 @@ export function createItem<T>(collection: Collection, item: Partial<T>) {
 }
 
 export function updateItem<T>(collection: Collection, id: string, item: Partial<T>) {
-  return request<{ ok: true; item: T; committedToGithub: boolean }>(`/${collection}/${id}`, {
+  return request<{ ok: true; item: T; committedToGithub: boolean }>(`/${collection}?id=${encodeURIComponent(id)}`, {
     method: 'PUT',
     body: JSON.stringify(item),
   });
 }
 
 export function deleteItem(collection: Collection, id: string) {
-  return request<{ ok: true; committedToGithub: boolean }>(`/${collection}/${id}`, {
+  return request<{ ok: true; committedToGithub: boolean }>(`/${collection}?id=${encodeURIComponent(id)}`, {
     method: 'DELETE',
   });
 }
 
 export function bulkImport<T>(collection: Collection, items: Partial<T>[]) {
-  return request<{ ok: true; added: number; committedToGithub: boolean }>(`/${collection}/bulk-import`, {
+  return request<{ ok: true; added: number; committedToGithub: boolean }>(`/${collection}?action=bulk-import`, {
     method: 'POST',
     body: JSON.stringify({ items }),
   });
