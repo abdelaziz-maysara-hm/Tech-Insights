@@ -1,1 +1,762 @@
-[]
+[
+  {
+    "id": "ti-201",
+    "slug": "phone-battery-draining-fast-fixes",
+    "title": {
+      "ar": "لماذا تنفد بطارية هاتفك بسرعة وكيف تحلها",
+      "en": "Why Your Phone Battery Drains Fast and How to Fix It"
+    },
+    "excerpt": {
+      "ar": "أسباب استنزاف البطارية السريع وخطوات عملية لإطالة عمرها اليومي.",
+      "en": "The real causes of fast battery drain and practical steps to extend daily battery life."
+    },
+    "body": {
+      "ar": "## افحص استهلاك التطبيقات\n\nمن إعدادات البطارية راجع أكثر التطبيقات استهلاكاً؛ غالباً تجد تطبيقاً واحداً يعمل في الخلفية بشكل غير طبيعي ويستنزف الشحن بسرعة.\n\n## قلل سطوع الشاشة والتحديث التلقائي\n\nالسطوع العالي ومعدل التحديث المرتفع للشاشة من أكبر مستهلكي الطاقة، فخفضهما يوفر ساعات إضافية من الاستخدام يومياً.\n\n## أوقف خدمات الموقع غير الضرورية\n\nبعض التطبيقات تستخدم GPS باستمرار حتى وهي مغلقة؛ قصر إذن الموقع على وضع الاستخدام فقط بدلاً من الدائم.\n\n## راقب صحة البطارية\n\nإذا كانت البطارية قد تجاوزت 500 دورة شحن أو انخفضت سعتها القصوى عن 80%، فقد يكون الحل الفعلي هو استبدالها لا ضبط الإعدادات.",
+      "en": "## Check App Usage\n\nOpen battery settings and check which apps consume the most power; often one app running abnormally in the background is the main culprit.\n\n## Lower Brightness and Auto-Refresh\n\nHigh brightness and high screen refresh rate are among the biggest power consumers; lowering both saves extra hours of daily use.\n\n## Disable Unnecessary Location Services\n\nSome apps keep using GPS even when closed; limit location permission to 'while using' instead of 'always'.\n\n## Monitor Battery Health\n\nIf the battery has passed around 500 charge cycles or its maximum capacity has dropped below 80%, the real fix may be a replacement, not settings tweaks."
+    },
+    "categoryId": "mobile",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-01-10",
+    "readTime": 5,
+    "heroImage": "https://picsum.photos/seed/phone-battery-draining-fast-fixes/800/500",
+    "tags": [
+      "بطارية",
+      "هاتف",
+      "أداء",
+      "Battery",
+      "Phone",
+      "Performance"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "guides-tips"
+  },
+  {
+    "id": "ti-202",
+    "slug": "phone-storage-full-free-space",
+    "title": {
+      "ar": "هاتفك يقول التخزين ممتلئ؟ إليك الحل خطوة بخطوة",
+      "en": "Phone Storage Full? Here's the Step-by-Step Fix"
+    },
+    "excerpt": {
+      "ar": "طرق عملية لتفريغ مساحة تخزين هاتفك دون حذف ما تحتاجه فعلاً.",
+      "en": "Practical ways to free up your phone's storage without deleting what you actually need."
+    },
+    "body": {
+      "ar": "## ابدأ بالصور والفيديوهات\n\nالوسائط غالباً أكبر مستهلك للمساحة؛ ارفع الصور القديمة لخدمة سحابية ثم احذفها محلياً بدلاً من الاحتفاظ بنسختين.\n\n## راجع ذاكرة التخزين المؤقت للتطبيقات\n\nبعض التطبيقات مثل المتصفحات ومواقع التواصل تجمع ذاكرة مؤقتة ضخمة بمرور الوقت؛ امسحها بشكل دوري من إعدادات كل تطبيق.\n\n## احذف التطبيقات غير المستخدمة\n\nالتطبيقات التي لم تفتحها منذ أشهر تشغل مساحة وتعمل أحياناً في الخلفية؛ احذفها ويمكنك إعادة تثبيتها لاحقاً إن احتجتها.\n\n## استخدم أداة إدارة التخزين المدمجة\n\nمعظم الهواتف توفر أداة تحلل التخزين وتقترح ملفات مكررة أو كبيرة للحذف، وهي أسرع طريقة لتحديد أكبر المستهلكين.",
+      "en": "## Start with Photos and Videos\n\nMedia is usually the biggest storage consumer; upload old photos to a cloud service then delete the local copies instead of keeping two versions.\n\n## Clear App Cache\n\nApps like browsers and social media accumulate large caches over time; clear them periodically from each app's settings.\n\n## Remove Unused Apps\n\nApps you haven't opened in months take up space and sometimes run in the background; remove them and reinstall later if needed.\n\n## Use the Built-in Storage Manager\n\nMost phones include a storage analyzer that suggests duplicate or large files to delete, the fastest way to spot the biggest space consumers."
+    },
+    "categoryId": "mobile",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-01-14",
+    "readTime": 4,
+    "heroImage": "https://picsum.photos/seed/phone-storage-full-free-space/800/500",
+    "tags": [
+      "تخزين",
+      "هاتف",
+      "أندرويد",
+      "Storage",
+      "Phone",
+      "Android"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "general"
+  },
+  {
+    "id": "ti-203",
+    "slug": "speed-up-slow-android-phone",
+    "title": {
+      "ar": "هاتفك الأندرويد بطيء؟ هذه الخطوات تعيده لسرعته",
+      "en": "Slow Android Phone? These Steps Bring Back Its Speed"
+    },
+    "excerpt": {
+      "ar": "لماذا يتباطأ الهاتف مع الوقت وكيف تسرّعه دون شراء جهاز جديد.",
+      "en": "Why phones slow down over time and how to speed yours up without buying a new device."
+    },
+    "body": {
+      "ar": "## أعد تشغيل الهاتف بانتظام\n\nترك الهاتف يعمل لأسابيع دون إعادة تشغيل يراكم عمليات معلقة في الذاكرة؛ إعادة التشغيل الأسبوعية تحل جزءاً كبيراً من البطء.\n\n## قلل الرسوم المتحركة في خيارات المطورين\n\nخفض مدة الرسوم المتحركة للنوافذ والانتقالات يجعل الهاتف يبدو أسرع فوراً حتى دون تغيير الأداء الفعلي.\n\n## تحقق من مساحة التخزين المتبقية\n\nعندما تتجاوز نسبة الامتلاء 90% يتباطأ النظام بشكل ملحوظ لأنه يحتاج مساحة فارغة للعمليات المؤقتة.\n\n## فكر في تحديث النظام أو إعادة الضبط\n\nإذا استمر البطء رغم كل الخطوات، فتحديث النظام لآخر إصدار أو إعادة الضبط الكامل (بعد نسخ احتياطي) غالباً يحل المشكلة نهائياً.",
+      "en": "## Restart Regularly\n\nLeaving a phone running for weeks without restarting builds up stuck background processes; a weekly restart solves much of the slowdown.\n\n## Reduce Animations in Developer Options\n\nReducing window and transition animation duration makes the phone feel instantly faster even without changing actual performance.\n\n## Check Remaining Storage\n\nOnce storage passes about 90% full, the system slows down noticeably because it needs free space for temporary operations.\n\n## Consider a System Update or Reset\n\nIf slowness persists despite everything, updating to the latest OS version or a full factory reset (after backing up) usually resolves it for good."
+    },
+    "categoryId": "mobile",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-01-18",
+    "readTime": 5,
+    "heroImage": "https://picsum.photos/seed/speed-up-slow-android-phone/800/500",
+    "tags": [
+      "أندرويد",
+      "أداء",
+      "هاتف",
+      "Android",
+      "Performance",
+      "Phone"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "general"
+  },
+  {
+    "id": "ti-204",
+    "slug": "phone-overheating-causes-fixes",
+    "title": {
+      "ar": "هاتفك يسخن بسرعة؟ إليك الأسباب والحلول",
+      "en": "Phone Overheating? Here Are the Causes and Fixes"
+    },
+    "excerpt": {
+      "ar": "الأسباب الشائعة لسخونة الهاتف المفرطة وكيف تحميه من التلف على المدى الطويل.",
+      "en": "Common causes of excessive phone heat and how to protect it from long-term damage."
+    },
+    "body": {
+      "ar": "## الشحن أثناء الاستخدام المكثف\n\nلعب الألعاب أو تصوير فيديو أثناء الشحن يرفع الحرارة بشكل كبير؛ افصل الشاحن إذا كنت تستخدم الهاتف بكثافة.\n\n## التعرض المباشر لأشعة الشمس\n\nترك الهاتف في الشمس أو داخل سيارة مغلقة يرفع حرارته بسرعة كبيرة وقد يؤثر على البطارية بشكل دائم.\n\n## التطبيقات التي تعمل في الخلفية باستمرار\n\nبعض التطبيقات تستهلك المعالج باستمرار حتى وهي مغلقة ظاهرياً؛ راجع قائمة التطبيقات النشطة في الخلفية وأوقف غير الضروري منها.\n\n## متى تقلق فعلاً\n\nالدفء الخفيف أثناء الشحن أو الألعاب طبيعي، لكن السخونة الشديدة المصحوبة بانطفاء مفاجئ أو انتفاخ في البطارية تستدعي زيارة فني فوراً.",
+      "en": "## Charging During Heavy Use\n\nGaming or recording video while charging raises temperature significantly; unplug the charger if you're using the phone heavily.\n\n## Direct Sun Exposure\n\nLeaving a phone in direct sunlight or inside a closed car raises its temperature quickly and can permanently affect the battery.\n\n## Apps Constantly Running in Background\n\nSome apps keep using the processor even when seemingly closed; check the active background apps list and stop unnecessary ones.\n\n## When to Actually Worry\n\nMild warmth during charging or gaming is normal, but severe heat combined with sudden shutdowns or a swollen battery needs a technician right away."
+    },
+    "categoryId": "mobile",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-01-22",
+    "readTime": 4,
+    "heroImage": "https://picsum.photos/seed/phone-overheating-causes-fixes/800/500",
+    "tags": [
+      "هاتف",
+      "حرارة",
+      "بطارية",
+      "Phone",
+      "Heat",
+      "Battery"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "guides-tips"
+  },
+  {
+    "id": "ti-205",
+    "slug": "phone-wifi-wont-connect-fix",
+    "title": {
+      "ar": "الواي فاي لا يعمل على هاتفك؟ جرب هذه الحلول بالترتيب",
+      "en": "Phone Won't Connect to WiFi? Try These Fixes in Order"
+    },
+    "excerpt": {
+      "ar": "خطوات منظمة لحل مشاكل اتصال الواي فاي على الهاتف من الأبسط للأعقد.",
+      "en": "An ordered troubleshooting checklist for phone WiFi connection issues, from simplest to most advanced."
+    },
+    "body": {
+      "ar": "## أعد تشغيل الواي فاي والراوتر\n\nأطفئ الواي فاي من الهاتف لمدة عشر ثوانٍ ثم شغّله، وإن لم يفلح أعد تشغيل الراوتر نفسه بفصله عن الكهرباء لدقيقة.\n\n## انسَ الشبكة وأعد الاتصال بها\n\nأحياناً تتلف إعدادات شبكة محفوظة؛ احذفها من قائمة الشبكات المحفوظة وأعد إدخال كلمة المرور من جديد.\n\n## تحقق من وضع توفير الطاقة\n\nبعض أوضاع توفير الطاقة تقيّد اتصال الواي فاي في الخلفية أو تبطئه؛ عطّل الوضع مؤقتاً وجرّب مرة أخرى.\n\n## جرب إعادة ضبط إعدادات الشبكة\n\nإذا استمرت المشكلة رغم كل ما سبق، فإعادة ضبط إعدادات الشبكة بالكامل من إعدادات الهاتف تحل معظم الحالات العنيدة.",
+      "en": "## Restart WiFi and the Router\n\nTurn WiFi off on the phone for ten seconds then back on; if that fails, restart the router itself by unplugging it for a minute.\n\n## Forget the Network and Reconnect\n\nSometimes a saved network's settings get corrupted; remove it from the saved networks list and re-enter the password fresh.\n\n## Check Battery Saver Mode\n\nSome battery saver modes restrict or slow background WiFi connectivity; temporarily disable it and try again.\n\n## Reset Network Settings\n\nIf the issue persists despite all the above, a full network settings reset from phone settings solves most stubborn cases."
+    },
+    "categoryId": "mobile",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-01-26",
+    "readTime": 4,
+    "heroImage": "https://picsum.photos/seed/phone-wifi-wont-connect-fix/800/500",
+    "tags": [
+      "واي فاي",
+      "هاتف",
+      "شبكات",
+      "WiFi",
+      "Phone",
+      "Networking"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "guides-tips"
+  },
+  {
+    "id": "ti-206",
+    "slug": "apps-keep-crashing-fix",
+    "title": {
+      "ar": "التطبيقات تغلق فجأة على هاتفك؟ إليك السبب والحل",
+      "en": "Apps Keep Crashing on Your Phone? Here's Why and the Fix"
+    },
+    "excerpt": {
+      "ar": "لماذا تنهار التطبيقات فجأة وخطوات مرتبة لحل المشكلة نهائياً.",
+      "en": "Why apps suddenly crash and an ordered set of steps to fix it for good."
+    },
+    "body": {
+      "ar": "## امسح ذاكرة التطبيق المؤقتة\n\nمن إعدادات التطبيق اختر مسح الذاكرة المؤقتة أولاً قبل أي خطوة أخرى؛ يحل هذا نسبة كبيرة من حالات التوقف المفاجئ.\n\n## تأكد من تحديث التطبيق\n\nالإصدارات القديمة من التطبيقات قد لا تتوافق مع تحديثات نظام التشغيل الحديثة؛ تحقق من وجود تحديث في المتجر.\n\n## أعد تثبيت التطبيق\n\nإذا استمر التوقف بعد التحديث والمسح، فحذف التطبيق وإعادة تثبيته من جديد يزيل أي ملفات تالفة متبقية.\n\n## راقب مساحة التخزين والذاكرة العشوائية\n\nالتطبيقات الثقيلة تتوقف أكثر عندما تكون الذاكرة العشوائية ممتلئة بتطبيقات أخرى تعمل في الخلفية؛ أغلق التطبيقات غير المستخدمة.",
+      "en": "## Clear the App's Cache\n\nFrom app settings, clear the cache first before anything else; this resolves a large portion of sudden crash cases.\n\n## Make Sure the App Is Updated\n\nOlder app versions may not be compatible with recent OS updates; check the store for an available update.\n\n## Reinstall the App\n\nIf crashes continue after updating and clearing cache, deleting and reinstalling the app removes any leftover corrupted files.\n\n## Watch Storage and RAM\n\nHeavy apps crash more often when RAM is filled with other background apps; close apps you're not actively using."
+    },
+    "categoryId": "mobile",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-01-30",
+    "readTime": 4,
+    "heroImage": "https://picsum.photos/seed/apps-keep-crashing-fix/800/500",
+    "tags": [
+      "تطبيقات",
+      "هاتف",
+      "أعطال",
+      "Apps",
+      "Phone",
+      "Troubleshooting"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "guides-tips"
+  },
+  {
+    "id": "ti-207",
+    "slug": "phone-charging-slowly-not-charging",
+    "title": {
+      "ar": "هاتفك يشحن ببطء أو لا يشحن إطلاقاً؟ إليك التشخيص الصحيح",
+      "en": "Phone Charging Slowly or Not at All? Here's the Right Diagnosis"
+    },
+    "excerpt": {
+      "ar": "دليل تشخيصي مرتب لمشاكل الشحن الشائعة، من الكابل حتى منفذ الشحن.",
+      "en": "An ordered diagnostic guide for common charging issues, from the cable to the charging port itself."
+    },
+    "body": {
+      "ar": "## جرب كابل ومنفذ كهرباء آخرين\n\nأكثر من نصف مشاكل الشحن سببها الكابل نفسه؛ جرب كابلاً آخر تعرف أنه يعمل قبل الشك في الهاتف.\n\n## نظف منفذ الشحن بعناية\n\nتراكم الغبار والوبر داخل منفذ الشحن يمنع التلامس الجيد؛ نظفه بفرشاة ناعمة جافة أو عود أسنان بلاستيكي برفق.\n\n## تحقق من شاحن أصلي بقدرة كافية\n\nالشواحن غير الأصلية منخفضة الجودة قد تشحن ببطء شديد أو لا تُتعرف عليها؛ استخدم شاحناً بقدرة واط تناسب هاتفك.\n\n## راقب سلوك الشحن أثناء الاستخدام\n\nإذا كان الهاتف يشحن جيداً وهو مغلق لكن ببطء أثناء الاستخدام، فالسبب طبيعي وهو استهلاك الشاشة والمعالج للطاقة أثناء الشحن.",
+      "en": "## Try a Different Cable and Outlet\n\nMore than half of charging issues are caused by the cable itself; try a cable you know works before suspecting the phone.\n\n## Clean the Charging Port Carefully\n\nDust and lint buildup inside the charging port prevents good contact; gently clean it with a soft dry brush or a plastic toothpick.\n\n## Check for an Original, Sufficiently Powered Charger\n\nLow-quality non-original chargers may charge very slowly or not be recognized at all; use a charger with wattage suited to your phone.\n\n## Monitor Charging Behavior While in Use\n\nIf the phone charges well while off but slowly while in use, that's normal — the screen and processor are consuming power during charging."
+    },
+    "categoryId": "mobile",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-02-03",
+    "readTime": 5,
+    "heroImage": "https://picsum.photos/seed/phone-charging-slowly-not-charging/800/500",
+    "tags": [
+      "شحن",
+      "هاتف",
+      "بطارية",
+      "Charging",
+      "Phone",
+      "Battery"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "general"
+  },
+  {
+    "id": "ti-208",
+    "slug": "cracked-phone-screen-repair-or-replace",
+    "title": {
+      "ar": "شاشة هاتفك مكسورة؟ كيف تقرر بين الإصلاح واستبدال الجهاز",
+      "en": "Cracked Phone Screen? How to Decide Between Repair and Replacement"
+    },
+    "excerpt": {
+      "ar": "معايير عملية تساعدك تقرر هل تستحق شاشتك المكسورة الإصلاح أم أن استبدال الهاتف أوفر.",
+      "en": "Practical criteria to help you decide whether a cracked screen is worth repairing or if replacing the phone is more cost-effective."
+    },
+    "body": {
+      "ar": "## قارن تكلفة الإصلاح بقيمة الجهاز\n\nإذا كانت تكلفة استبدال الشاشة تتجاوز 40% من سعر جهاز مستعمل مماثل، فغالباً استبدال الهاتف بالكامل خيار أوفر.\n\n## تحقق من عمر البطارية والأداء العام\n\nهاتف بشاشة مكسورة لكن بطاريته وأداءه ممتازان يستحق الإصلاح، أما جهاز قديم يعاني من مشاكل أخرى فقد يكون الوقت مناسباً للترقية.\n\n## افحص نوع الضرر بدقة\n\nتشقق زجاجي سطحي دون تأثير على اللمس يمكن العيش معه مؤقتاً، أما ظهور خطوط أو بقع سوداء فيعني تلف طبقة العرض ويحتاج إصلاحاً فورياً.\n\n## اختر فنياً موثوقاً أو مركز صيانة معتمداً\n\nالشاشات البديلة رديئة الجودة تسبب مشاكل لمس ولون؛ اسأل عن نوع القطعة المستخدمة قبل الموافقة على الإصلاح.",
+      "en": "## Compare Repair Cost to Device Value\n\nIf screen replacement cost exceeds about 40% of a similar used device's price, replacing the whole phone is usually the better value.\n\n## Check Battery Age and Overall Performance\n\nA phone with a cracked screen but excellent battery and performance deserves repair, while an old device with other issues might be time to upgrade.\n\n## Inspect the Damage Type Closely\n\nSurface glass cracking without affecting touch response is livable temporarily, but lines or black spots mean display layer damage needing immediate repair.\n\n## Choose a Trusted Technician or Authorized Center\n\nLow-quality replacement screens cause touch and color issues; ask about the part quality being used before approving the repair."
+    },
+    "categoryId": "howto",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-02-07",
+    "readTime": 5,
+    "heroImage": "https://picsum.photos/seed/cracked-phone-screen-repair-or-replace/800/500",
+    "tags": [
+      "شاشة",
+      "هاتف",
+      "إصلاح",
+      "Screen",
+      "Phone",
+      "Repair"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "guides-tips"
+  },
+  {
+    "id": "ti-209",
+    "slug": "laptop-wont-turn-on-troubleshooting",
+    "title": {
+      "ar": "لابتوبك لا يعمل إطلاقاً؟ خطوات التشخيص بالترتيب الصحيح",
+      "en": "Laptop Won't Turn On At All? The Correct Diagnostic Order"
+    },
+    "excerpt": {
+      "ar": "دليل تشخيصي مرتب لحالة انطفاء اللابتوب الكامل، من أبسط الأسباب لأكثرها تعقيداً.",
+      "en": "An ordered diagnostic guide for a completely dead laptop, from the simplest causes to the most complex."
+    },
+    "body": {
+      "ar": "## تحقق من مصدر الطاقة أولاً\n\nجرب منفذ كهرباء آخر وكابل شحن آخر إن أمكن؛ كثير من حالات 'اللابتوب لا يعمل' سببها محول شحن تالف وليس اللابتوب نفسه.\n\n## افصل البطارية وشغّله بالكهرباء مباشرة\n\nإن كانت البطارية قابلة للفصل، أزلها وشغّل الجهاز بالشاحن مباشرة؛ إذا عمل فالمشكلة في البطارية نفسها.\n\n## استمع لأصوات المروحة أو لمبات المؤشر\n\nإذا سمعت صوت مروحة أو رأيت لمبة مضيئة دون ظهور صورة على الشاشة، فالمشكلة على الأرجح في الشاشة أو كرت الشاشة وليست في تشغيل الجهاز.\n\n## جرب تفريغ الشحنات المتبقية\n\nافصل الشاحن والبطارية إن أمكن، واضغط زر التشغيل مطولاً لخمس عشرة ثانية لتفريغ أي شحنة كهربائية عالقة، ثم أعد التوصيل وشغّله.\n\n## متى تحتاج فنياً متخصصاً\n\nإذا لم تنجح كل الخطوات السابقة، فالمشكلة غالباً في اللوحة الأم أو الشاشة الداخلية وتحتاج فحصاً متخصصاً بمعدات مناسبة.",
+      "en": "## Check the Power Source First\n\nTry a different outlet and another charging cable if possible; many 'laptop won't turn on' cases are actually a dead power adapter, not the laptop.\n\n## Remove the Battery and Try Direct Power\n\nIf the battery is removable, take it out and try powering the laptop directly from the charger; if it works, the battery itself is the problem.\n\n## Listen for Fan Sounds or Indicator Lights\n\nIf you hear the fan spin or see an indicator light with no image on screen, the issue is likely the display or graphics card, not the boot itself.\n\n## Try a Hard Reset (Power Drain)\n\nUnplug the charger and remove the battery if possible, hold the power button for fifteen seconds to drain any residual charge, then reconnect and power on.\n\n## When You Need a Specialist\n\nIf none of the above steps work, the issue is likely the motherboard or internal display, requiring specialized diagnostic equipment."
+    },
+    "categoryId": "laptops",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-02-11",
+    "readTime": 6,
+    "heroImage": "https://picsum.photos/seed/laptop-wont-turn-on-troubleshooting/800/500",
+    "tags": [
+      "لابتوب",
+      "أعطال",
+      "صيانة",
+      "Laptop",
+      "Troubleshooting",
+      "Repair"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "general"
+  },
+  {
+    "id": "ti-210",
+    "slug": "speed-up-slow-windows-laptop",
+    "title": {
+      "ar": "لابتوب ويندوز بطيء؟ خطوات مضمونة لتسريعه فعلياً",
+      "en": "Slow Windows Laptop? Proven Steps to Actually Speed It Up"
+    },
+    "excerpt": {
+      "ar": "تشخيص أسباب بطء لابتوب ويندوز وحلول عملية تحسّن الأداء بدون شراء جهاز جديد.",
+      "en": "Diagnosing why a Windows laptop is slow and practical fixes that genuinely improve performance without buying a new device."
+    },
+    "body": {
+      "ar": "## راجع برامج بدء التشغيل\n\nافتح مدير المهام وتبويب بدء التشغيل، وعطّل كل برنامج لا تحتاجه فور تشغيل الجهاز؛ هذا وحده يقلل زمن الإقلاع بشكل ملحوظ.\n\n## تحقق من نوع القرص الصلب\n\nإذا كان اللابتوب لا يزال يستخدم قرصاً صلباً ميكانيكياً (HDD)، فترقيته لقرص SSD يُحدث فرقاً أكبر من أي إعداد برمجي آخر.\n\n## راقب استهلاك الذاكرة العشوائية\n\nافتح مدير المهام أثناء الاستخدام العادي؛ إذا كانت الذاكرة ممتلئة باستمرار فوق 90%، فترقية الرام تحل البطء بشكل مباشر.\n\n## نظف الملفات المؤقتة والتحديثات القديمة\n\nأداة تنظيف القرص المدمجة في ويندوز تزيل ملفات التحديثات القديمة والذاكرة المؤقتة التي تتراكم بمرور الوقت وتبطئ النظام.\n\n## افحص وجود برامج ضارة\n\nالبطء المفاجئ وغير المبرر أحياناً سببه برنامج خبيث يعمل في الخلفية؛ فحص كامل بأداة موثوقة يستبعد هذا الاحتمال.",
+      "en": "## Review Startup Programs\n\nOpen Task Manager's Startup tab and disable every program you don't need right at boot; this alone noticeably cuts boot time.\n\n## Check Your Drive Type\n\nIf the laptop still uses a mechanical hard drive (HDD), upgrading to an SSD makes a bigger difference than any other software tweak.\n\n## Monitor RAM Usage\n\nOpen Task Manager during normal use; if RAM is consistently above 90% full, upgrading memory directly solves the slowdown.\n\n## Clean Temporary Files and Old Updates\n\nWindows' built-in Disk Cleanup tool removes old update files and temporary caches that accumulate over time and slow the system.\n\n## Scan for Malware\n\nSudden unexplained slowness is sometimes caused by malware running in the background; a full scan with a trusted tool rules this out."
+    },
+    "categoryId": "windows",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-02-15",
+    "readTime": 6,
+    "heroImage": "https://picsum.photos/seed/speed-up-slow-windows-laptop/800/500",
+    "tags": [
+      "ويندوز",
+      "لابتوب",
+      "أداء",
+      "Windows",
+      "Laptop",
+      "Performance"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "general"
+  },
+  {
+    "id": "ti-211",
+    "slug": "laptop-overheating-fan-noise-fixes",
+    "title": {
+      "ar": "لابتوبك يسخن ومروحته صاخبة؟ إليك الأسباب والحلول",
+      "en": "Laptop Overheating and Fan Too Loud? Here Are the Causes and Fixes"
+    },
+    "excerpt": {
+      "ar": "لماذا يسخن اللابتوب وتصبح مروحته صاخبة، وخطوات عملية لخفض الحرارة وإطالة عمر الجهاز.",
+      "en": "Why laptops overheat and get loud fans, and practical steps to lower temperature and extend the device's lifespan."
+    },
+    "body": {
+      "ar": "## نظّف فتحات التهوية من الغبار\n\nتراكم الغبار داخل فتحات التهوية يعيق تدفق الهواء ويرفع الحرارة بشكل كبير؛ تنظيفها بهواء مضغوط كل بضعة أشهر يحل جزءاً كبيراً من المشكلة.\n\n## استخدم اللابتوب على سطح صلب ومستوٍ\n\nاستخدامه على السرير أو الأريكة يغطي فتحات التهوية السفلية تماماً؛ اختر طاولة صلبة أو قاعدة تبريد مخصصة.\n\n## راجع معجون التبريد الحراري إن كان الجهاز قديماً\n\nبعد سنوات من الاستخدام يجف معجون التبريد بين المعالج والمبرد؛ استبداله عند فني متخصص يخفض الحرارة بشكل ملحوظ.\n\n## قلل الأحمال الثقيلة المتزامنة\n\nتشغيل برامج ثقيلة متعددة في نفس الوقت يرفع الحرارة بسرعة؛ أغلق ما لا تحتاجه فعلياً أثناء المهام الثقيلة.",
+      "en": "## Clean the Vents of Dust\n\nDust buildup inside the vents blocks airflow and significantly raises temperature; cleaning them with compressed air every few months solves much of the issue.\n\n## Use the Laptop on a Hard, Flat Surface\n\nUsing it on a bed or couch completely blocks the bottom vents; choose a hard desk or a dedicated cooling pad instead.\n\n## Check the Thermal Paste on Older Devices\n\nAfter years of use, thermal paste between the processor and heatsink dries out; replacing it via a specialist noticeably lowers temperatures.\n\n## Reduce Simultaneous Heavy Loads\n\nRunning multiple heavy programs at once raises temperature quickly; close what you don't actively need during demanding tasks."
+    },
+    "categoryId": "laptops",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-02-19",
+    "readTime": 5,
+    "heroImage": "https://picsum.photos/seed/laptop-overheating-fan-noise-fixes/800/500",
+    "tags": [
+      "لابتوب",
+      "حرارة",
+      "صيانة",
+      "Laptop",
+      "Heat",
+      "Maintenance"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "guides-tips"
+  },
+  {
+    "id": "ti-212",
+    "slug": "laptop-battery-not-charging-draining-fast",
+    "title": {
+      "ar": "بطارية اللابتوب لا تشحن أو تفرغ بسرعة؟ التشخيص الصحيح",
+      "en": "Laptop Battery Not Charging or Draining Fast? The Right Diagnosis"
+    },
+    "excerpt": {
+      "ar": "كيف تفرّق بين مشكلة الشاحن ومشكلة البطارية نفسها، وخطوات عملية لكل حالة.",
+      "en": "How to tell a charger problem from an actual battery problem, with practical steps for each case."
+    },
+    "body": {
+      "ar": "## راجع تقرير صحة البطارية\n\nفي ويندوز يمكنك توليد تقرير طاقة مفصل يوضح السعة الحالية للبطارية مقابل سعتها الأصلية، وهو أدق مؤشر على حالتها الفعلية.\n\n## جرب شاحناً آخر لاستبعاد العطل فيه\n\nقبل الحكم على البطارية، جرب شاحناً آخر أصلياً بنفس القدرة؛ نسبة كبيرة من مشاكل الشحن سببها المحول لا البطارية.\n\n## لاحظ سلوك النسبة المئوية\n\nإذا كانت النسبة تقفز فجأة (مثلاً من 40% إلى 10%) فهذا مؤشر واضح على تلف داخلي في خلايا البطارية يستدعي الاستبدال.\n\n## تجنب الشحن الكامل الدائم\n\nإبقاء اللابتوب موصولاً بالكهرباء دائماً عند 100% يسرّع تدهور البطارية؛ حافظ على مستوى الشحن بين 20% و80% قدر الإمكان.",
+      "en": "## Check the Battery Health Report\n\nOn Windows you can generate a detailed power report showing the battery's current capacity versus its original design capacity — the most accurate health indicator.\n\n## Try a Different Charger to Rule It Out\n\nBefore blaming the battery, try another original charger with the same wattage; a large share of charging issues come from the adapter, not the battery.\n\n## Observe the Percentage Behavior\n\nIf the percentage suddenly jumps (e.g. from 40% to 10%), that's a clear sign of internal battery cell degradation requiring replacement.\n\n## Avoid Constant Full Charging\n\nKeeping the laptop plugged in constantly at 100% accelerates battery degradation; try to keep charge between 20% and 80% when possible."
+    },
+    "categoryId": "laptops",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-02-23",
+    "readTime": 5,
+    "heroImage": "https://picsum.photos/seed/laptop-battery-not-charging-draining-fast/800/500",
+    "tags": [
+      "بطارية",
+      "لابتوب",
+      "شحن",
+      "Battery",
+      "Laptop",
+      "Charging"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "general"
+  },
+  {
+    "id": "ti-213",
+    "slug": "blue-screen-of-death-causes-fixes",
+    "title": {
+      "ar": "الشاشة الزرقاء في ويندوز: الأسباب وطرق الحل",
+      "en": "Blue Screen of Death on Windows: Causes and Fixes"
+    },
+    "excerpt": {
+      "ar": "لماذا تظهر الشاشة الزرقاء المفاجئة في ويندوز، وخطوات منهجية لتشخيصها وحلها.",
+      "en": "Why the sudden blue screen appears on Windows, and a methodical approach to diagnosing and fixing it."
+    },
+    "body": {
+      "ar": "## اقرأ رمز الخطأ المذكور\n\nالشاشة الزرقاء تعرض رمزاً مثل MEMORY_MANAGEMENT أو IRQL_NOT_LESS_OR_EQUAL؛ هذا الرمز هو المفتاح لتحديد السبب الحقيقي وليس مجرد رسالة عامة.\n\n## حدّث تعريفات الأجهزة\n\nنسبة كبيرة من حالات الشاشة الزرقاء سببها تعريف كرت شاشة أو شبكة قديم أو متضارب؛ تحديث التعريفات من الموقع الرسمي للمصنّع يحل معظمها.\n\n## افحص الذاكرة العشوائية\n\nأداة تشخيص الذاكرة المدمجة في ويندوز تكشف عن قطعة رام تالفة، وهي سبب شائع جداً للشاشات الزرقاء المتكررة.\n\n## راجع آخر برنامج أو تحديث ثبّته\n\nإذا بدأت المشكلة بعد تثبيت برنامج أو تحديث معين، فالتراجع عنه أو إلغاء تثبيته يحل المشكلة غالباً بشكل فوري.\n\n## استخدم استعادة النظام كحل أخير\n\nإذا فشلت كل الخطوات، فاستعادة النظام لنقطة سابقة قبل ظهور المشكلة تعيد الجهاز لحالة مستقرة دون فقدان الملفات الشخصية.",
+      "en": "## Read the Error Code Shown\n\nThe blue screen displays a code like MEMORY_MANAGEMENT or IRQL_NOT_LESS_OR_EQUAL; this code is the key to identifying the real cause, not just a generic message.\n\n## Update Device Drivers\n\nA large share of blue screen cases are caused by an outdated or conflicting graphics or network driver; updating drivers from the manufacturer's official site fixes most of them.\n\n## Test Your RAM\n\nWindows' built-in memory diagnostic tool detects a faulty RAM stick, a very common cause of recurring blue screens.\n\n## Review the Last Program or Update Installed\n\nIf the issue started right after installing a specific program or update, rolling it back or uninstalling it often resolves the problem immediately.\n\n## Use System Restore as a Last Resort\n\nIf all steps fail, System Restore to a point before the issue appeared returns the machine to a stable state without losing personal files."
+    },
+    "categoryId": "windows",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-02-27",
+    "readTime": 6,
+    "heroImage": "https://picsum.photos/seed/blue-screen-of-death-causes-fixes/800/500",
+    "tags": [
+      "ويندوز",
+      "شاشة زرقاء",
+      "أعطال",
+      "Windows",
+      "BSOD",
+      "Troubleshooting"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "general"
+  },
+  {
+    "id": "ti-214",
+    "slug": "laptop-wifi-not-working-troubleshooting",
+    "title": {
+      "ar": "الواي فاي لا يعمل على اللابتوب؟ دليل تشخيص مرتب",
+      "en": "Laptop WiFi Not Working? An Ordered Diagnostic Guide"
+    },
+    "excerpt": {
+      "ar": "خطوات مرتبة لحل مشاكل اتصال الواي فاي على أجهزة الويندوز من الأبسط للأعمق.",
+      "en": "An ordered troubleshooting checklist for WiFi connection issues on Windows laptops, from simplest to deepest fixes."
+    },
+    "body": {
+      "ar": "## تأكد أن الواي فاي مفعّل فعلياً\n\nبعض أجهزة اللابتوب لها مفتاح فيزيائي أو اختصار لوحة مفاتيح لتشغيل الواي فاي؛ تأكد أنه غير مقفل بالخطأ قبل أي خطوة أخرى.\n\n## حدّث تعريف كرت الشبكة\n\nتعريف كرت الواي فاي القديم من أكثر الأسباب شيوعاً لانقطاع الاتصال المتكرر؛ حدّثه من موقع الشركة المصنّعة للابتوب.\n\n## أعد تعيين حزمة الشبكة بالكامل\n\nأمر إعادة تعيين إعدادات الشبكة في ويندوز يصلح مشاكل عميقة في بروتوكولات الاتصال لا يحلها إعادة التشغيل العادية.\n\n## تحقق من تعارض السلطة الجماعية للنطاق\n\nفي المناطق المزدحمة بالشبكات، جرب الاتصال بنطاق 5GHz بدلاً من 2.4GHz إن كان الراوتر يدعمه، فهو أقل ازدحاماً وأكثر ثباتاً.",
+      "en": "## Make Sure WiFi Is Actually Enabled\n\nSome laptops have a physical switch or keyboard shortcut for WiFi; make sure it isn't accidentally disabled before anything else.\n\n## Update the Network Adapter Driver\n\nAn outdated WiFi adapter driver is one of the most common causes of frequent disconnections; update it from the laptop manufacturer's site.\n\n## Reset the Network Stack Completely\n\nWindows' network reset command fixes deep protocol-level issues that a normal restart doesn't resolve.\n\n## Check for a Band or Channel Conflict\n\nIn densely networked areas, try connecting on the 5GHz band instead of 2.4GHz if the router supports it — it's less congested and more stable."
+    },
+    "categoryId": "laptops",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-03-03",
+    "readTime": 5,
+    "heroImage": "https://picsum.photos/seed/laptop-wifi-not-working-troubleshooting/800/500",
+    "tags": [
+      "واي فاي",
+      "لابتوب",
+      "شبكات",
+      "WiFi",
+      "Laptop",
+      "Networking"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "guides-tips"
+  },
+  {
+    "id": "ti-215",
+    "slug": "laptop-keyboard-not-working-fix",
+    "title": {
+      "ar": "لوحة مفاتيح اللابتوب لا تستجيب؟ إليك الحل",
+      "en": "Laptop Keyboard Not Responding? Here's the Fix"
+    },
+    "excerpt": {
+      "ar": "أسباب توقف لوحة مفاتيح اللابتوب عن الاستجابة وحلول مرتبة لكل حالة.",
+      "en": "Why a laptop keyboard stops responding and ordered solutions for each scenario."
+    },
+    "body": {
+      "ar": "## أعد تشغيل الجهاز أولاً\n\nأحياناً يكون السبب برمجياً بحتاً بسبب تعليق مؤقت في تعريف لوحة المفاتيح؛ إعادة التشغيل تحل نسبة كبيرة من الحالات فوراً.\n\n## تحقق من وجود مفاتيح عالقة فعلياً\n\nالفتات والغبار بين المفاتيح قد يجعل مفتاحاً معيناً عالقاً؛ اقلب اللابتوب برفق ونظفه بهواء مضغوط.\n\n## حدّث أو أعد تثبيت تعريف لوحة المفاتيح\n\nمن إدارة الأجهزة يمكنك إلغاء تثبيت تعريف لوحة المفاتيح ثم إعادة تشغيل الجهاز ليعيد ويندوز تثبيته تلقائياً بنسخة نظيفة.\n\n## استخدم لوحة مفاتيح خارجية للتأكد\n\nتوصيل لوحة مفاتيح USB خارجية يحدد فوراً هل المشكلة في البرمجيات أم في لوحة المفاتيح الداخلية نفسها التي قد تحتاج استبدالاً.",
+      "en": "## Restart the Device First\n\nSometimes the cause is purely software-related, a temporary keyboard driver freeze; a restart resolves a large share of cases immediately.\n\n## Check for Physically Stuck Keys\n\nCrumbs and dust between keys can make a specific key stuck; gently flip the laptop and clean it with compressed air.\n\n## Update or Reinstall the Keyboard Driver\n\nFrom Device Manager you can uninstall the keyboard driver then restart the machine so Windows automatically reinstalls a clean copy.\n\n## Use an External Keyboard to Confirm\n\nConnecting an external USB keyboard immediately tells you whether it's a software issue or the internal keyboard itself needing replacement."
+    },
+    "categoryId": "laptops",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-03-07",
+    "readTime": 4,
+    "heroImage": "https://picsum.photos/seed/laptop-keyboard-not-working-fix/800/500",
+    "tags": [
+      "لوحة مفاتيح",
+      "لابتوب",
+      "أعطال",
+      "Keyboard",
+      "Laptop",
+      "Troubleshooting"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "general"
+  },
+  {
+    "id": "ti-216",
+    "slug": "fix-slow-windows-boot-time",
+    "title": {
+      "ar": "لابتوبك يأخذ وقتاً طويلاً ليقلع؟ إليك كيف تسرّعه",
+      "en": "Laptop Taking Forever to Boot? Here's How to Speed It Up"
+    },
+    "excerpt": {
+      "ar": "أسباب بطء إقلاع ويندوز وخطوات عملية لتقليل الوقت من الضغط على زر التشغيل حتى جاهزية سطح المكتب.",
+      "en": "Why Windows boot is slow and practical steps to cut the time from power button to a usable desktop."
+    },
+    "body": {
+      "ar": "## فعّل الإقلاع السريع\n\nخاصية الإقلاع السريع في ويندوز تحفظ حالة النظام جزئياً عند الإغلاق لتسريع الإقلاع التالي؛ تأكد من تفعيلها من إعدادات الطاقة.\n\n## عطّل برامج بدء التشغيل الثقيلة\n\nكل برنامج يبدأ تلقائياً مع الجهاز يضيف ثواني للإقلاع؛ راجع القائمة وعطّل ما لا تحتاجه فور فتح الجهاز.\n\n## تأكد من نوع القرص المستخدم لنظام التشغيل\n\nإذا كان نظام التشغيل مثبتاً على قرص صلب ميكانيكي بدلاً من SSD، فهذا وحده يفسر معظم بطء الإقلاع، والترقية تحدث فرقاً هائلاً.\n\n## راقب عدد التحديثات المعلقة\n\nالتحديثات المتراكمة أحياناً تُثبَّت جزئياً أثناء الإقلاع مما يبطئه؛ تأكد من عدم وجود تحديثات معلقة تحتاج إكمالاً.",
+      "en": "## Enable Fast Startup\n\nWindows' Fast Startup feature partially hibernates system state on shutdown to speed up the next boot; make sure it's enabled in power settings.\n\n## Disable Heavy Startup Programs\n\nEvery program that auto-starts with the machine adds seconds to boot time; review the list and disable what you don't need right at startup.\n\n## Confirm the Drive Type Running the OS\n\nIf the OS is installed on a mechanical hard drive instead of an SSD, this alone explains most of the slow boot, and upgrading makes a massive difference.\n\n## Watch for Pending Updates\n\nAccumulated updates sometimes partially install during boot, slowing it down; make sure there are no pending updates needing completion."
+    },
+    "categoryId": "windows",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-03-11",
+    "readTime": 5,
+    "heroImage": "https://picsum.photos/seed/fix-slow-windows-boot-time/800/500",
+    "tags": [
+      "ويندوز",
+      "إقلاع",
+      "أداء",
+      "Windows",
+      "Boot",
+      "Performance"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "guides-tips"
+  },
+  {
+    "id": "ti-217",
+    "slug": "ssd-vs-hdd-upgrade-guide",
+    "title": {
+      "ar": "SSD أم HDD؟ دليلك الكامل لترقية تخزين لابتوبك",
+      "en": "SSD vs HDD: Your Complete Guide to Upgrading Laptop Storage"
+    },
+    "excerpt": {
+      "ar": "الفرق العملي بين نوعي التخزين وكيف تختار الترقية الأنسب لميزانيتك واحتياجك.",
+      "en": "The practical difference between the two storage types and how to pick the right upgrade for your budget and needs."
+    },
+    "body": {
+      "ar": "## الفرق الجوهري بين النوعين\n\nالقرص الصلب التقليدي HDD يستخدم أقراصاً دوارة ميكانيكية، بينما SSD يعتمد على ذاكرة فلاش بلا أجزاء متحركة، ما يجعله أسرع بأضعاف وأكثر متانة.\n\n## الفرق في الأداء اليومي\n\nالانتقال من HDD إلى SSD يقلل زمن إقلاع ويندوز من دقيقة كاملة إلى أقل من عشرين ثانية غالباً، وهو الترقية الأكثر تأثيراً محسوساً في أي لابتوب.\n\n## كيف تعرف نوع القرص الحالي\n\nمن مدير المهام تبويب الأداء، أو أداة معلومات النظام، يمكنك رؤية نوع القرص المُركّب فعلياً في جهازك قبل اتخاذ قرار الترقية.\n\n## متى تختار SSD خارجي بدلاً من الترقية الداخلية\n\nإذا كان اللابتوب لا يسمح بفتحه بسهولة أو كنت تحتاج مساحة إضافية فقط، فقرص SSD خارجي عبر USB خيار عملي وسريع التركيب.",
+      "en": "## The Core Difference Between the Two\n\nA traditional HDD uses spinning mechanical disks, while an SSD relies on flash memory with no moving parts, making it many times faster and more durable.\n\n## The Difference in Daily Performance\n\nMoving from HDD to SSD often cuts Windows boot time from a full minute to under twenty seconds, making it the most noticeably impactful upgrade for any laptop.\n\n## How to Check Your Current Drive Type\n\nFrom Task Manager's Performance tab, or System Information, you can see the actual drive type installed in your machine before deciding to upgrade.\n\n## When to Choose an External SSD Instead of an Internal Upgrade\n\nIf the laptop isn't easily opened or you just need extra space, an external USB SSD is a practical, quick-to-set-up option."
+    },
+    "categoryId": "howto",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-03-15",
+    "readTime": 6,
+    "heroImage": "https://picsum.photos/seed/ssd-vs-hdd-upgrade-guide/800/500",
+    "tags": [
+      "تخزين",
+      "ترقية",
+      "لابتوب",
+      "Storage",
+      "Upgrade",
+      "Laptop"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "guides-tips"
+  },
+  {
+    "id": "ti-218",
+    "slug": "how-to-backup-your-data-properly",
+    "title": {
+      "ar": "كيف تعمل نسخة احتياطية صحيحة لبياناتك ولا تخسر ملفاتك أبداً",
+      "en": "How to Properly Back Up Your Data and Never Lose Files Again"
+    },
+    "excerpt": {
+      "ar": "استراتيجية نسخ احتياطي بسيطة وعملية تحمي صورك وملفاتك من فقدانها المفاجئ.",
+      "en": "A simple, practical backup strategy that protects your photos and files from sudden loss."
+    },
+    "body": {
+      "ar": "## طبّق قاعدة 3-2-1\n\nاحتفظ بثلاث نسخ من بياناتك المهمة، على نوعين مختلفين من التخزين، مع نسخة واحدة على الأقل خارج المنزل أو في السحابة.\n\n## استخدم النسخ التلقائي بدل اليدوي\n\nخدمات النسخ السحابي التلقائي تلتقط أي ملف جديد فور إضافته دون أن تتذكر عمل النسخة بنفسك، وهذا يقلل احتمال النسيان.\n\n## اختبر النسخة الاحتياطية فعلياً\n\nنسخة احتياطية لم تُختبر استعادتها ليست مضمونة؛ جرّب استعادة ملف عشوائي كل بضعة أشهر للتأكد من سلامة النظام.\n\n## افصل نسخة احتياطية واحدة عن الشبكة\n\nبرامج الفدية الخبيثة يمكنها تشفير النسخ المتصلة بالشبكة أيضاً؛ قرص خارجي مفصول تماماً بعد كل نسخة يحميك من هذا السيناريو تحديداً.",
+      "en": "## Apply the 3-2-1 Rule\n\nKeep three copies of important data, on two different storage types, with at least one copy stored offsite or in the cloud.\n\n## Use Automatic Backup Instead of Manual\n\nAutomatic cloud backup services capture any new file the moment it's added without you having to remember to back up manually, reducing the chance of forgetting.\n\n## Actually Test Your Backup\n\nA backup that's never been tested for restoration isn't guaranteed; try restoring a random file every few months to confirm the system works.\n\n## Keep One Backup Offline\n\nRansomware can encrypt network-connected backups too; an external drive fully disconnected after each backup protects specifically against this scenario."
+    },
+    "categoryId": "howto",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-03-19",
+    "readTime": 5,
+    "heroImage": "https://picsum.photos/seed/how-to-backup-your-data-properly/800/500",
+    "tags": [
+      "نسخ احتياطي",
+      "بيانات",
+      "حماية",
+      "Backup",
+      "Data",
+      "Protection"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "guides-tips"
+  },
+  {
+    "id": "ti-219",
+    "slug": "password-manager-guide",
+    "title": {
+      "ar": "لماذا تحتاج مدير كلمات مرور وكيف تختار الأنسب لك",
+      "en": "Why You Need a Password Manager and How to Choose the Right One"
+    },
+    "excerpt": {
+      "ar": "دليل عملي لفهم فائدة مديري كلمات المرور ومعايير اختيار الأداة المناسبة لاستخدامك.",
+      "en": "A practical guide to understanding the value of password managers and criteria for choosing the right tool for your needs."
+    },
+    "body": {
+      "ar": "## لماذا تكرار كلمة المرور خطر حقيقي\n\nعندما يُخترق موقع واحد تستخدم فيه نفس كلمة المرور في مواقع أخرى، يستطيع المخترقون تجربتها على حساباتك الأخرى تلقائياً بأدوات آلية.\n\n## ما الذي يفعله مدير كلمات المرور فعلياً\n\nيولّد كلمة مرور عشوائية قوية ومختلفة لكل حساب، ويحفظها مشفّرة، وتحتاج أنت لتذكر كلمة مرور رئيسية واحدة فقط للوصول لها جميعاً.\n\n## معايير اختيار الأداة المناسبة\n\nابحث عن دعم التحقق بخطوتين، والتشفير من طرف لطرف، وتوافقه مع كل أجهزتك (هاتف ولابتوب ومتصفح) قبل الالتزام بأداة معينة.\n\n## خطوة أولى بسيطة للبدء\n\nلا تحتاج تغيير كل كلمات مرورك دفعة واحدة؛ ابدأ بأهم ثلاثة حسابات (البريد، البنك، التواصل الاجتماعي) ثم أضف الباقي تدريجياً.",
+      "en": "## Why Reusing Passwords Is a Real Danger\n\nWhen one site you use a password on gets breached, attackers can automatically try that same password on your other accounts using automated tools.\n\n## What a Password Manager Actually Does\n\nIt generates a strong, unique random password for every account, stores them encrypted, and you only need to remember one master password to access them all.\n\n## Criteria for Choosing the Right Tool\n\nLook for two-factor authentication support, end-to-end encryption, and compatibility across all your devices (phone, laptop, browser) before committing to a specific tool.\n\n## A Simple First Step to Start\n\nYou don't need to change every password at once; start with your three most important accounts (email, banking, social media) then gradually add the rest."
+    },
+    "categoryId": "cybersecurity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-03-23",
+    "readTime": 5,
+    "heroImage": "https://picsum.photos/seed/password-manager-guide/800/500",
+    "tags": [
+      "كلمات مرور",
+      "أمان",
+      "خصوصية",
+      "Passwords",
+      "Security",
+      "Privacy"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "guides-tips"
+  },
+  {
+    "id": "ti-220",
+    "slug": "factory-reset-guide-phone-laptop",
+    "title": {
+      "ar": "كيف تعمل إعادة ضبط مصنع صحيحة لهاتفك أو لابتوبك بدون خسارة بياناتك",
+      "en": "How to Properly Factory Reset Your Phone or Laptop Without Losing Data"
+    },
+    "excerpt": {
+      "ar": "خطوات آمنة ومرتبة لإعادة ضبط المصنع تحفظ بياناتك وتحل معظم المشاكل البرمجية العنيدة.",
+      "en": "Safe, ordered factory reset steps that preserve your data and resolve most stubborn software issues."
+    },
+    "body": {
+      "ar": "## متى تكون إعادة الضبط هي الحل الصحيح\n\nإذا استمرت مشاكل البطء أو التعليق المتكرر رغم كل محاولات الإصلاح الأخرى، فإعادة الضبط تعيد النظام لحالة نظيفة تشبه الجهاز الجديد.\n\n## خذ نسخة احتياطية كاملة أولاً\n\nقبل أي شيء، انسخ الصور والمستندات والتطبيقات المهمة لخدمة سحابية أو قرص خارجي؛ إعادة الضبط تمسح كل شيء بلا استثناء.\n\n## سجّل خروج من الحسابات المرتبطة بالجهاز\n\nالخروج من حساب جوجل أو آبل قبل إعادة الضبط يمنع مشاكل قفل التفعيل التي تمنعك من استخدام الجهاز بعد المسح مباشرة.\n\n## للابتوب: استخدم خيار الاحتفاظ بالملفات إن كان متاحاً\n\nويندوز يوفر خيار إعادة ضبط يحذف التطبيقات والإعدادات فقط مع الاحتفاظ بالملفات الشخصية، وهو خيار وسط جيد قبل اللجوء للمسح الكامل.\n\n## بعد إعادة الضبط\n\nأعد تثبيت التحديثات الأخيرة أولاً قبل أي تطبيق آخر، فهذا يضمن توافقاً أفضل ويقلل مشاكل ما بعد إعادة الضبط.",
+      "en": "## When a Factory Reset Is the Right Solution\n\nIf slowness or frequent freezing persists despite all other repair attempts, a factory reset returns the system to a clean, near-new state.\n\n## Take a Full Backup First\n\nBefore anything else, back up photos, documents, and important app data to a cloud service or external drive; a factory reset erases absolutely everything.\n\n## Sign Out of Accounts Linked to the Device\n\nSigning out of your Google or Apple account before resetting prevents activation lock issues that could block you from using the device right after wiping it.\n\n## For Laptops: Use the 'Keep My Files' Option If Available\n\nWindows offers a reset option that removes apps and settings while keeping personal files, a good middle-ground before going for a full wipe.\n\n## After the Reset\n\nReinstall the latest system updates first before any other app; this ensures better compatibility and reduces post-reset issues."
+    },
+    "categoryId": "howto",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2025-03-27",
+    "readTime": 6,
+    "heroImage": "https://picsum.photos/seed/factory-reset-guide-phone-laptop/800/500",
+    "tags": [
+      "إعادة ضبط",
+      "هاتف",
+      "لابتوب",
+      "Factory Reset",
+      "Phone",
+      "Laptop"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "subcategoryId": "guides-tips"
+  }
+]
