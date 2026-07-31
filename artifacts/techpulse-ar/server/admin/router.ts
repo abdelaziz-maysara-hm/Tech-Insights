@@ -9,6 +9,8 @@ export interface CmsRequest {
   path: string;
   body: any;
   cookies: Record<string, string>;
+  /** Optional client IP for rate limiting */
+  clientIp?: string;
 }
 
 export interface CmsResponse {
@@ -19,6 +21,28 @@ export interface CmsResponse {
 
 const SESSION_COOKIE = 'techpulse_admin_session';
 const COLLECTIONS: CollectionName[] = ['articles', 'videos', 'pages'];
+
+/** In-memory login rate limit: 10 attempts / 15 min per IP (resets on cold start). */
+const loginAttempts = new Map<string, { count: number; resetAt: number }>();
+const LOGIN_WINDOW_MS = 15 * 60 * 1000;
+const LOGIN_MAX = 10;
+
+function allowLoginAttempt(ip: string): boolean {
+  const key = ip || 'unknown';
+  const now = Date.now();
+  const entry = loginAttempts.get(key);
+  if (!entry || entry.resetAt < now) {
+    loginAttempts.set(key, { count: 1, resetAt: now + LOGIN_WINDOW_MS });
+    return true;
+  }
+  if (entry.count >= LOGIN_MAX) return false;
+  entry.count += 1;
+  return true;
+}
+
+function clearLoginAttempts(ip: string) {
+  loginAttempts.delete(ip || 'unknown');
+}
 
 function getAdminUsers(): { username: string; password: string }[] {
   const users: { username: string; password: string }[] = [];
@@ -71,6 +95,11 @@ export async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
   const segments = path.split('/').filter(Boolean);
 
   if (method === 'POST' && path === '/login') {
+    const ip = req.clientIp || 'unknown';
+    if (!allowLoginAttempt(ip)) {
+      return { status: 429, body: { error: 'too_many_attempts' } };
+    }
+
     const users = getAdminUsers();
     if (!users.length) {
       return { status: 500, body: { error: 'admin_not_configured' } };
@@ -88,6 +117,7 @@ export async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
     const match = users.find((u) => safeCompare(u.username, username) && safeCompare(u.password, password));
     if (!match) return { status: 401, body: { error: 'invalid_credentials' } };
 
+    clearLoginAttempts(ip);
     const token = createToken({ username: match.username }, getSecret());
     return {
       status: 200,
