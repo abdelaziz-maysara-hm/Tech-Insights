@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import { useLanguage } from '@/context/LanguageContext';
-import { Clock, Calendar, Tag, Share2, Facebook, Twitter } from 'lucide-react';
-import { useEffect, useState } from 'react';
+import { Clock, Calendar, Tag, Share2, Facebook, Twitter, Link2, Check } from 'lucide-react';
+import { useEffect, useMemo, useState } from 'react';
 import { ArticleCard } from '@/components/ArticleCard';
 import { useSEO } from '@/hooks/useSEO';
 import { useAllArticles } from '@/hooks/useAllArticles';
@@ -11,52 +11,79 @@ export default function ArticleDetail() {
   const { language, t } = useLanguage();
   const { allArticles } = useAllArticles();
   const [activeHeading, setActiveHeading] = useState('');
-  
-  const article = allArticles.find(a => a.slug === slug);
-  
-  useSEO(article ? { title: article.title[language], description: article.excerpt[language] } : {});
+  const [copied, setCopied] = useState(false);
+
+  const article = allArticles.find((a) => a.slug === slug);
+
+  useSEO(
+    article
+      ? {
+          title: article.title[language],
+          description: article.excerpt[language],
+          image: article.heroImage,
+          path: `/article/${article.slug}`,
+          type: 'article',
+        }
+      : {},
+  );
 
   const relatedArticles = article
     ? allArticles
-        .filter(a => a.id !== article.id && (a.categoryId === article.categoryId || (a.tags ?? []).some(t => (article.tags ?? []).includes(t))))
+        .filter(
+          (a) =>
+            a.id !== article.id &&
+            (a.categoryId === article.categoryId ||
+              (a.tags ?? []).some((tag) => (article.tags ?? []).includes(tag))),
+        )
         .slice(0, 3)
     : [];
 
-  // Parse markdown-like body to HTML and extract headings
   const bodyText = article ? article.body[language] : '';
   const paragraphs = bodyText ? bodyText.split('\n\n') : [];
-  const headings: { id: string, text: string }[] = [];
-  
+
+  const headings = useMemo(() => {
+    const list: { id: string; text: string }[] = [];
+    paragraphs.forEach((para, index) => {
+      if (para.startsWith('## ')) {
+        list.push({ id: `heading-${index}`, text: para.replace('## ', '') });
+      }
+    });
+    return list;
+  }, [bodyText]);
+
   const renderedBody = paragraphs.map((para, index) => {
     if (para.startsWith('## ')) {
       const text = para.replace('## ', '');
       const id = `heading-${index}`;
-      headings.push({ id, text });
-      return <h2 key={index} id={id} className="text-2xl md:text-3xl font-bold mt-10 mb-4 text-foreground">{text}</h2>;
+      return (
+        <h2 key={index} id={id} className="text-2xl md:text-3xl font-bold mt-10 mb-4 text-foreground">
+          {text}
+        </h2>
+      );
     }
-    return <p key={index} className="mb-6 text-lg text-muted-foreground leading-relaxed">{para}</p>;
+    if (!para.trim()) return null;
+    return (
+      <p key={index} className="mb-6 text-lg text-muted-foreground leading-relaxed">
+        {para}
+      </p>
+    );
   });
 
-  // Highlight TOC based on scroll
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            setActiveHeading(entry.target.id);
-          }
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) setActiveHeading(entry.target.id);
         });
       },
-      { rootMargin: '-20% 0px -80% 0px' }
+      { rootMargin: '-20% 0px -80% 0px' },
     );
-
-    headings.forEach(h => {
+    headings.forEach((h) => {
       const el = document.getElementById(h.id);
       if (el) observer.observe(el);
     });
-
     return () => observer.disconnect();
-  }, [headings, language]);
+  }, [headings]);
 
   const scrollToHeading = (id: string) => {
     const el = document.getElementById(id);
@@ -66,13 +93,56 @@ export default function ArticleDetail() {
     }
   };
 
+  const shareUrl =
+    typeof window !== 'undefined'
+      ? window.location.href
+      : `https://technical-insights.com/article/${slug}`;
+  const shareTitle = article?.title[language] || '';
+
+  const copyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(shareUrl);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      /* ignore */
+    }
+  };
+
+  const shareTwitter = () => {
+    window.open(
+      `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareTitle)}&url=${encodeURIComponent(shareUrl)}`,
+      '_blank',
+      'noopener,noreferrer',
+    );
+  };
+
+  const shareFacebook = () => {
+    window.open(
+      `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`,
+      '_blank',
+      'noopener,noreferrer',
+    );
+  };
+
+  const shareWhatsApp = () => {
+    window.open(
+      `https://wa.me/?text=${encodeURIComponent(`${shareTitle}\n${shareUrl}`)}`,
+      '_blank',
+      'noopener,noreferrer',
+    );
+  };
+
   if (!article) {
-    return <div className="container py-20 text-center text-2xl">Article not found</div>;
+    return (
+      <div className="container py-20 text-center text-2xl">
+        {language === 'ar' ? 'المقال غير موجود' : 'Article not found'}
+      </div>
+    );
   }
 
   return (
     <>
-      {/* Hero Image */}
       <div className="relative h-[50vh] md:h-[60vh] w-full">
         <div className="absolute inset-0 bg-black/50 z-10" />
         <img src={article.heroImage} alt="" className="w-full h-full object-cover" />
@@ -86,7 +156,11 @@ export default function ArticleDetail() {
             </h1>
             <div className="flex flex-wrap items-center gap-6 text-sm md:text-base text-gray-300">
               <div className="flex items-center gap-2">
-                <img src={article.author.avatar} alt="" className="w-8 h-8 rounded-full border-2 border-white/20" />
+                <img
+                  src={article.author.avatar}
+                  alt=""
+                  className="w-8 h-8 rounded-full border-2 border-white/20"
+                />
                 <span className="font-medium text-white">{article.author.name[language]}</span>
               </div>
               <div className="flex items-center gap-2">
@@ -95,7 +169,9 @@ export default function ArticleDetail() {
               </div>
               <div className="flex items-center gap-2">
                 <Clock className="w-4 h-4" />
-                <span>{article.readTime} {t('readTime')}</span>
+                <span>
+                  {article.readTime} {t('readTime')}
+                </span>
               </div>
             </div>
           </div>
@@ -104,72 +180,103 @@ export default function ArticleDetail() {
 
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
-          
-          {/* Sidebar TOC */}
           <div className="hidden lg:block lg:col-span-3">
-            <div className="sticky top-24 bg-card rounded-xl border border-border p-6 shadow-sm">
-              <h3 className="font-bold text-lg mb-4 pb-4 border-b border-border">{t('tableOfContents')}</h3>
-              <ul className="space-y-3">
-                {headings.map(h => (
-                  <li key={h.id}>
-                    <button 
-                      onClick={() => scrollToHeading(h.id)}
-                      className={`text-sm text-left ${language === 'ar' ? 'text-right' : ''} transition-colors ${
-                        activeHeading === h.id 
-                          ? 'text-primary font-bold' 
-                          : 'text-muted-foreground hover:text-foreground'
-                      }`}
-                    >
-                      {h.text}
-                    </button>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            {headings.length > 0 && (
+              <div className="sticky top-24 bg-card rounded-xl border border-border p-6 shadow-sm">
+                <h3 className="font-bold text-lg mb-4 pb-4 border-b border-border">
+                  {t('tableOfContents')}
+                </h3>
+                <ul className="space-y-3">
+                  {headings.map((h) => (
+                    <li key={h.id}>
+                      <button
+                        onClick={() => scrollToHeading(h.id)}
+                        className={`text-sm w-full ${language === 'ar' ? 'text-right' : 'text-left'} transition-colors ${
+                          activeHeading === h.id
+                            ? 'text-primary font-bold'
+                            : 'text-muted-foreground hover:text-foreground'
+                        }`}
+                      >
+                        {h.text}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
 
-          {/* Main Content */}
           <div className="lg:col-span-9 max-w-3xl">
             <div className="prose prose-lg dark:prose-invert max-w-none">
-              
               {article.youtubeVideoId && (
                 <div className="mb-10 rounded-2xl overflow-hidden shadow-lg aspect-video">
-                  <iframe 
-                    width="100%" 
-                    height="100%" 
-                    src={`https://www.youtube.com/embed/${article.youtubeVideoId}`} 
-                    title="YouTube video player" 
-                    frameBorder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src={`https://www.youtube.com/embed/${article.youtubeVideoId}`}
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                     className="w-full h-full"
                     loading="lazy"
-                  ></iframe>
+                  />
                 </div>
               )}
 
               {renderedBody}
 
-              {/* Tags & Share */}
-              <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+              <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-start md:items-center justify-between gap-6 not-prose">
                 <div className="flex flex-wrap items-center gap-2">
-                  <Tag className="w-4 h-4 text-muted-foreground mr-1" />
-                  {(article.tags ?? []).map(tag => (
-                    <span key={tag} className="bg-muted text-muted-foreground text-xs font-medium px-3 py-1.5 rounded-md">
+                  <Tag className="w-4 h-4 text-muted-foreground" />
+                  {(article.tags ?? []).map((tag) => (
+                    <span
+                      key={tag}
+                      className="bg-muted text-muted-foreground text-xs font-medium px-3 py-1.5 rounded-md"
+                    >
                       {tag}
                     </span>
                   ))}
                 </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-sm font-medium text-muted-foreground mr-2">{language === 'ar' ? 'شارك المقال:' : 'Share:'}</span>
-                  <button className="w-10 h-10 rounded-full bg-muted flex items-center justify-center hover:bg-[#1DA1F2] hover:text-white transition-colors">
+                <div className="flex items-center gap-2">
+                  <span className="text-sm font-medium text-muted-foreground me-1">
+                    {language === 'ar' ? 'شارك:' : 'Share:'}
+                  </span>
+                  <button
+                    type="button"
+                    onClick={shareWhatsApp}
+                    className="w-10 h-10 rounded-full bg-muted flex items-center justify-center hover:bg-[#25D366] hover:text-white transition-colors"
+                    title="WhatsApp"
+                    aria-label="WhatsApp"
+                  >
+                    <Share2 className="w-4 h-4" />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={shareTwitter}
+                    className="w-10 h-10 rounded-full bg-muted flex items-center justify-center hover:bg-[#1DA1F2] hover:text-white transition-colors"
+                    title="X / Twitter"
+                    aria-label="Twitter"
+                  >
                     <Twitter className="w-4 h-4" />
                   </button>
-                  <button className="w-10 h-10 rounded-full bg-muted flex items-center justify-center hover:bg-[#4267B2] hover:text-white transition-colors">
+                  <button
+                    type="button"
+                    onClick={shareFacebook}
+                    className="w-10 h-10 rounded-full bg-muted flex items-center justify-center hover:bg-[#4267B2] hover:text-white transition-colors"
+                    title="Facebook"
+                    aria-label="Facebook"
+                  >
                     <Facebook className="w-4 h-4" />
                   </button>
-                  <button className="w-10 h-10 rounded-full bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors">
-                    <Share2 className="w-4 h-4" />
+                  <button
+                    type="button"
+                    onClick={copyLink}
+                    className="w-10 h-10 rounded-full bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
+                    title={language === 'ar' ? 'نسخ الرابط' : 'Copy link'}
+                    aria-label="Copy link"
+                  >
+                    {copied ? <Check className="w-4 h-4 text-green-500" /> : <Link2 className="w-4 h-4" />}
                   </button>
                 </div>
               </div>
@@ -178,13 +285,12 @@ export default function ArticleDetail() {
         </div>
       </div>
 
-      {/* Related Articles */}
       {relatedArticles.length > 0 && (
         <div className="bg-muted/30 border-t border-border py-16">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 text-center">{t('relatedArticles')}</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {relatedArticles.map(a => (
+              {relatedArticles.map((a) => (
                 <ArticleCard key={a.id} article={a} />
               ))}
             </div>
