@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "page-about",
+    "slug": "about",
+    "title": {
+      "ar": "من نحن",
+      "en": "About Us"
+    },
+    "content": {
+      "ar": "## رؤى تقنية\n\nموقع تقني عربي/إنجليزي يقدّم مراجعات، شروحات، ومقارنات بأسلوب واضح وعملي.\n\n## مهمتنا\n\nمساعدة القارئ على فهم التقنية واتخاذ قرارات أفضل بخصوص الهواتف، اللابتوبات، الأمان، والذكاء الاصطناعي.\n\n## المحتوى\n\nنكتب بالعربية والإنجليزية، مع تركيز على الحلول العملية والمشاكل اليومية التي يواجهها المستخدم.",
+      "en": "## Technical Insights\n\nAn Arabic/English tech site offering reviews, how-tos, and comparisons in a clear, practical style.\n\n## Our mission\n\nHelp readers understand technology and make better decisions about phones, laptops, security, and AI.\n\n## Content\n\nWe publish in Arabic and English, focusing on practical solutions to everyday tech problems."
+    },
+    "updatedAt": "2026-07-30",
+    "showInFooter": true
+  },
+  {
+    "id": "page-contact",
+    "slug": "contact",
+    "title": {
+      "ar": "تواصل معنا",
+      "en": "Contact"
+    },
+    "content": {
+      "ar": "## تواصل معنا\n\nللاقتراحات والشراكات والبلاغات عن أخطاء في المحتوى، راسلنا عبر البريد أو منصات التواصل المرتبطة بالموقع.\n\nنرحّب بملاحظاتكم لتحسين تجربة القراءة والمحتوى التقني.",
+      "en": "## Contact us\n\nFor suggestions, partnerships, or content corrections, reach us via email or the social channels linked on the site.\n\nWe welcome feedback to improve reading experience and technical coverage."
+    },
+    "updatedAt": "2026-07-30",
+    "showInFooter": true
+  }
+]
