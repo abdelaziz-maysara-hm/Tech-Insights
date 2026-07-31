@@ -1,6 +1,7 @@
 import crypto from 'node:crypto';
 import { readCollection, writeCollection, type CollectionName } from './store.ts';
 import { createToken, verifyToken, safeCompare } from './token.ts';
+import { validateCollectionItem, validateCollectionItems } from './validate.ts';
 
 export interface CmsRequest {
   method: string;
@@ -51,6 +52,18 @@ function setCookieHeader(token: string | null): string {
     return `${SESSION_COOKIE}=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`;
   }
   return `${SESSION_COOKIE}=${token}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=43200`;
+}
+
+function assignIds(
+  items: Record<string, unknown>[],
+  existingIds: Set<string>,
+): Record<string, unknown>[] {
+  return items.map((item) => {
+    const rawId = item.id != null ? String(item.id) : '';
+    const id = rawId && !existingIds.has(rawId) ? rawId : crypto.randomUUID();
+    existingIds.add(id);
+    return { ...item, id };
+  });
 }
 
 export async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
@@ -111,12 +124,15 @@ export async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
     if (method === 'POST' && second === 'bulk-import') {
       const incoming = Array.isArray(body?.items) ? body.items : [];
       if (!incoming.length) return { status: 400, body: { error: 'no_items' } };
+
+      const validated = validateCollectionItems(collectionName, incoming);
+      if (!validated.ok) {
+        return { status: 400, body: { error: 'validation_failed', details: validated.errors } };
+      }
+
       const existing = await readCollection(collectionName);
-      const existingIds = new Set(existing.map((i: any) => i.id));
-      const withIds = incoming.map((item: any) => ({
-        ...item,
-        id: item.id && !existingIds.has(item.id) ? String(item.id) : crypto.randomUUID(),
-      }));
+      const existingIds = new Set(existing.map((i: any) => String(i.id)));
+      const withIds = assignIds(validated.items, existingIds);
       const merged = [...withIds, ...existing];
       const result = await writeCollection(
         collectionName,
@@ -127,13 +143,19 @@ export async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
     }
 
     if (method === 'POST' && !second) {
+      const validated = validateCollectionItem(collectionName, body);
+      if (!validated.ok || !validated.item) {
+        return { status: 400, body: { error: 'validation_failed', details: validated.errors } };
+      }
+
       const existing = await readCollection(collectionName);
-      const newItem = { ...body, id: body?.id ? String(body.id) : crypto.randomUUID() };
+      const existingIds = new Set(existing.map((i: any) => String(i.id)));
+      const [newItem] = assignIds([validated.item], existingIds);
       const merged = [newItem, ...existing];
       const result = await writeCollection(
         collectionName,
         merged,
-        `Add ${collectionName.slice(0, -1)} "${newItem.id}" by ${auth.username}`,
+        `Add ${collectionName.slice(0, -1)} "${newItem!.id}" by ${auth.username}`,
       );
       return { status: 200, body: { ok: true, item: newItem, ...result } };
     }
@@ -142,7 +164,14 @@ export async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
       const existing = await readCollection(collectionName);
       const idx = existing.findIndex((i: any) => i.id === second);
       if (idx === -1) return { status: 404, body: { error: 'not_found' } };
-      existing[idx] = { ...existing[idx], ...body, id: second };
+
+      const mergedBody = { ...existing[idx], ...body, id: second };
+      const validated = validateCollectionItem(collectionName, mergedBody);
+      if (!validated.ok || !validated.item) {
+        return { status: 400, body: { error: 'validation_failed', details: validated.errors } };
+      }
+
+      existing[idx] = { ...validated.item, id: second };
       const result = await writeCollection(
         collectionName,
         existing,
