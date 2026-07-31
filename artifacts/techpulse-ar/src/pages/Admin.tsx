@@ -1,12 +1,12 @@
 import { useState, useEffect, FormEvent, useRef } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
-import { Category } from '@/data/mockData';
-import { Article } from '@/data/mockData';
-import { CmsVideo, CmsPage } from '@/data/cmsTypes';
+import { Category, Article } from '@/data/mockData';
 import * as adminApi from '@/lib/adminApi';
 import { extractYouTubeId } from '@/lib/mediaUrls';
+import { ArticlePreview } from '@/components/admin/ArticlePreview';
+import { VideosTab, PagesTab, PublishNote, ItemsTable } from '@/pages/adminTabs';
 import {
-  Lock, Plus, List, Upload, Trash2, LogOut, Film, FileText, Loader2, FileJson, Pencil,
+  Lock, Plus, List, Upload, LogOut, Film, FileText, Loader2, FileJson, Pencil, Eye,
 } from 'lucide-react';
 
 type Tab = 'articles' | 'videos' | 'pages' | 'import';
@@ -65,11 +65,13 @@ export default function Admin() {
       setIsAuthenticated(true);
       setUsername(res.username);
     } catch (err) {
-      setLoginError(
-        err instanceof adminApi.AdminApiError && err.status === 500
-          ? (language === 'ar' ? 'لوحة الإدارة غير مُهيأة بعد (متغيرات البيئة ناقصة)' : 'Admin panel is not configured yet (missing env vars)')
-          : (language === 'ar' ? 'اسم المستخدم أو كلمة المرور غير صحيحة' : 'Incorrect username or password'),
-      );
+      if (err instanceof adminApi.AdminApiError && err.status === 429) {
+        setLoginError(language === 'ar' ? 'محاولات كثيرة — انتظر 15 دقيقة' : 'Too many attempts — wait 15 minutes');
+      } else if (err instanceof adminApi.AdminApiError && err.status === 500) {
+        setLoginError(language === 'ar' ? 'لوحة الإدارة غير مُهيأة بعد (متغيرات البيئة ناقصة)' : 'Admin panel is not configured yet (missing env vars)');
+      } else {
+        setLoginError(language === 'ar' ? 'اسم المستخدم أو كلمة المرور غير صحيحة' : 'Incorrect username or password');
+      }
     } finally {
       setLoginBusy(false);
     }
@@ -118,11 +120,6 @@ export default function Admin() {
           <p className="text-sm text-muted-foreground mt-1">
             {language === 'ar' ? `مسجل دخول كـ ${username}` : `Logged in as ${username}`}
           </p>
-          <p className="text-xs text-muted-foreground mt-1">
-            {language === 'ar'
-              ? 'الوسائط = روابط فقط (YouTube / صور https) — لا رفع ملفات على Vercel'
-              : 'Media = links only (YouTube / https images) — no file uploads on Vercel'}
-          </p>
         </div>
         <button onClick={handleLogout} className="flex items-center gap-2 text-muted-foreground hover:text-red-500 transition-colors">
           <LogOut className="w-5 h-5" />
@@ -153,26 +150,11 @@ function TabButton({ active, onClick, icon, children }: { active: boolean; onCli
   );
 }
 
-function PublishNote({ language, committedToGithub }: { language: 'ar' | 'en'; committedToGithub?: boolean }) {
-  if (committedToGithub === undefined) return null;
-  if (committedToGithub) {
-    return (
-      <p className="text-xs text-green-500 mt-2">
-        {language === 'ar' ? 'تم الحفظ على GitHub — يظهر بعد إعادة البناء (1–2 دقيقة).' : 'Saved to GitHub — appears after rebuild (1–2 min).'}
-      </p>
-    );
-  }
-  return (
-    <p className="text-xs text-yellow-500 mt-2">
-      {language === 'ar' ? 'حُفظ محلياً فقط — GitHub غير مربوط.' : 'Saved locally only — GitHub not connected.'}
-    </p>
-  );
-}
-
 function ArticlesTab({ language }: { language: 'ar' | 'en' }) {
   const [items, setItems] = useState<Article[]>([]);
   const [loading, setLoading] = useState(true);
   const [showForm, setShowForm] = useState(false);
+  const [showPreview, setShowPreview] = useState(false);
   const [editingId, setEditingId] = useState<string | null>(null);
   const [lastResult, setLastResult] = useState<boolean | undefined>(undefined);
   const [formError, setFormError] = useState('');
@@ -279,13 +261,10 @@ function ArticlesTab({ language }: { language: 'ar' | 'en' }) {
   return (
     <div className="space-y-6">
       <button
+        type="button"
         onClick={() => {
-          if (showForm && !editingId) {
-            setShowForm(false);
-          } else {
-            resetForm();
-            setShowForm(true);
-          }
+          if (showForm && !editingId) setShowForm(false);
+          else { resetForm(); setShowForm(true); }
         }}
         className="flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-md font-bold hover:bg-primary/90"
       >
@@ -295,9 +274,7 @@ function ArticlesTab({ language }: { language: 'ar' | 'en' }) {
       {showForm && (
         <form onSubmit={handleSubmit} className="bg-card p-6 md:p-8 rounded-xl border border-border space-y-6">
           <h3 className="text-lg font-bold">
-            {editingId
-              ? (language === 'ar' ? 'تعديل مقال' : 'Edit article')
-              : (language === 'ar' ? 'مقال جديد' : 'New article')}
+            {editingId ? (language === 'ar' ? 'تعديل مقال' : 'Edit article') : (language === 'ar' ? 'مقال جديد' : 'New article')}
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
@@ -356,9 +333,15 @@ function ArticlesTab({ language }: { language: 'ar' | 'en' }) {
           {formError && <p className="text-sm text-red-500">{formError}</p>}
           <div className="flex flex-wrap gap-3">
             <button type="submit" className="bg-primary text-primary-foreground px-8 py-3 rounded-md font-bold hover:bg-primary/90">
-              {editingId
-                ? (language === 'ar' ? 'حفظ التعديلات' : 'Save changes')
-                : (language === 'ar' ? 'نشر المقال' : 'Publish')}
+              {editingId ? (language === 'ar' ? 'حفظ التعديلات' : 'Save changes') : (language === 'ar' ? 'نشر المقال' : 'Publish')}
+            </button>
+            <button
+              type="button"
+              onClick={() => setShowPreview(true)}
+              className="flex items-center gap-2 px-6 py-3 rounded-md border border-border hover:bg-muted"
+            >
+              <Eye className="w-4 h-4" />
+              {language === 'ar' ? 'معاينة' : 'Preview'}
             </button>
             {editingId && (
               <button type="button" onClick={() => { resetForm(); setShowForm(false); }} className="px-6 py-3 rounded-md border border-border hover:bg-muted">
@@ -368,6 +351,18 @@ function ArticlesTab({ language }: { language: 'ar' | 'en' }) {
           </div>
         </form>
       )}
+
+      <ArticlePreview
+        language={language}
+        open={showPreview}
+        onClose={() => setShowPreview(false)}
+        title={language === 'ar' ? arTitle : enTitle}
+        excerpt={language === 'ar' ? arExcerpt : enExcerpt}
+        body={language === 'ar' ? arBody : enBody}
+        heroImage={heroImage || undefined}
+        category={category}
+        youtubeId={extractYouTubeId(youtubeInput) || undefined}
+      />
 
       <PublishNote language={language} committedToGithub={lastResult} />
       <ItemsTable
@@ -385,221 +380,6 @@ function ArticlesTab({ language }: { language: 'ar' | 'en' }) {
   );
 }
 
-function VideosTab({ language }: { language: 'ar' | 'en' }) {
-  const [items, setItems] = useState<CmsVideo[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [showForm, setShowForm] = useState(false);
-  const [lastResult, setLastResult] = useState<boolean | undefined>(undefined);
-  const [formError, setFormError] = useState('');
-  const [arTitle, setArTitle] = useState('');
-  const [enTitle, setEnTitle] = useState('');
-  const [arDesc, setArDesc] = useState('');
-  const [enDesc, setEnDesc] = useState('');
-  const [youtubeInput, setYoutubeInput] = useState('');
-
-  const load = () => {
-    setLoading(true);
-    adminApi.listItems<CmsVideo>('videos').then((res) => setItems(res.items)).finally(() => setLoading(false));
-  };
-  useEffect(load, []);
-
-  const handleAdd = async (e: FormEvent) => {
-    e.preventDefault();
-    setFormError('');
-    const yt = extractYouTubeId(youtubeInput);
-    if (!yt) {
-      setFormError(language === 'ar' ? 'رابط YouTube غير صالح' : 'Invalid YouTube URL or id');
-      return;
-    }
-    try {
-      const res = await adminApi.createItem<CmsVideo>('videos', {
-        title: { ar: arTitle, en: enTitle },
-        description: { ar: arDesc, en: enDesc },
-        youtubeId: yt,
-        date: new Date().toISOString().split('T')[0],
-      });
-      setLastResult(res.committedToGithub);
-      setArTitle(''); setEnTitle(''); setArDesc(''); setEnDesc(''); setYoutubeInput('');
-      setShowForm(false);
-      load();
-    } catch (err) {
-      setFormError(err instanceof Error ? err.message : String(err));
-    }
-  };
-
-  const handleDelete = async (id: string) => {
-    if (!confirm(language === 'ar' ? 'حذف؟' : 'Delete?')) return;
-    const res = await adminApi.deleteItem('videos', id);
-    setLastResult(res.committedToGithub);
-    load();
-  };
-
-  return (
-    <div className="space-y-6">
-      <button onClick={() => setShowForm((v) => !v)} className="flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-md font-bold hover:bg-primary/90">
-        <Plus className="w-5 h-5" /> {language === 'ar' ? 'إضافة فيديو (رابط)' : 'Add Video (link)'}
-      </button>
-
-      {showForm && (
-        <form onSubmit={handleAdd} className="bg-card p-6 md:p-8 rounded-xl border border-border space-y-6">
-          <p className="text-xs text-muted-foreground">
-            {language === 'ar'
-              ? 'لا يتم رفع فيديو — فقط رابط YouTube.'
-              : 'No video upload — YouTube link only.'}
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div>
-              <label className="block text-sm font-medium mb-2">العنوان (عربي) *</label>
-              <input required value={arTitle} onChange={(e) => setArTitle(e.target.value)} className="w-full bg-background border border-border rounded-md px-4 py-2" />
-            </div>
-            <div dir="ltr">
-              <label className="block text-sm font-medium mb-2 text-left">Title (English) *</label>
-              <input required value={enTitle} onChange={(e) => setEnTitle(e.target.value)} className="w-full bg-background border border-border rounded-md px-4 py-2" />
-            </div>
-            <div>
-              <label className="block text-sm font-medium mb-2">الوصف (عربي)</label>
-              <textarea value={arDesc} onChange={(e) => setArDesc(e.target.value)} className="w-full bg-background border border-border rounded-md px-4 py-2 h-24" />
-            </div>
-            <div dir="ltr">
-              <label className="block text-sm font-medium mb-2 text-left">Description (English)</label>
-              <textarea value={enDesc} onChange={(e) => setEnDesc(e.target.value)} className="w-full bg-background border border-border rounded-md px-4 py-2 h-24" />
-            </div>
-            <div className="md:col-span-2">
-              <label className="block text-sm font-medium mb-2">YouTube URL أو ID *</label>
-              <input required value={youtubeInput} onChange={(e) => setYoutubeInput(e.target.value)} placeholder="https://youtu.be/..." className="w-full bg-background border border-border rounded-md px-4 py-2" dir="ltr" />
-            </div>
-          </div>
-          {formError && <p className="text-sm text-red-500">{formError}</p>}
-          <button type="submit" className="bg-primary text-primary-foreground px-8 py-3 rounded-md font-bold">{language === 'ar' ? 'نشر الفيديو' : 'Publish Video'}</button>
-        </form>
-      )}
-
-      <PublishNote language={language} committedToGithub={lastResult} />
-      <ItemsTable language={language} loading={loading} empty={language === 'ar' ? 'لا توجد فيديوهات' : 'No videos'} items={items.map((v) => ({ id: v.id, col1: v.title[language], col2: v.youtubeId, col3: v.date }))} onDelete={handleDelete} />
-    </div>
-  );
-}
-
-function PagesTab({ language }: { language: 'ar' | 'en' }) {
-  const [items, setItems] = useState<CmsPage[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [showForm, setShowForm] = useState(false);
-  const [lastResult, setLastResult] = useState<boolean | undefined>(undefined);
-  const [arTitle, setArTitle] = useState('');
-  const [enTitle, setEnTitle] = useState('');
-  const [slug, setSlug] = useState('');
-  const [arContent, setArContent] = useState('');
-  const [enContent, setEnContent] = useState('');
-  const [showInFooter, setShowInFooter] = useState(true);
-
-  const load = () => {
-    setLoading(true);
-    adminApi.listItems<CmsPage>('pages').then((res) => setItems(res.items)).finally(() => setLoading(false));
-  };
-  useEffect(load, []);
-
-  const handleAdd = async (e: FormEvent) => {
-    e.preventDefault();
-    const finalSlug = (slug || enTitle).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-    const res = await adminApi.createItem<CmsPage>('pages', {
-      slug: finalSlug,
-      title: { ar: arTitle, en: enTitle },
-      content: { ar: arContent, en: enContent },
-      updatedAt: new Date().toISOString().split('T')[0],
-      showInFooter,
-    });
-    setLastResult(res.committedToGithub);
-    setArTitle(''); setEnTitle(''); setSlug(''); setArContent(''); setEnContent('');
-    setShowForm(false);
-    load();
-  };
-
-  const handleDelete = async (id: string) => {
-    if (!confirm(language === 'ar' ? 'حذف؟' : 'Delete?')) return;
-    const res = await adminApi.deleteItem('pages', id);
-    setLastResult(res.committedToGithub);
-    load();
-  };
-
-  return (
-    <div className="space-y-6">
-      <button onClick={() => setShowForm((v) => !v)} className="flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-md font-bold">
-        <Plus className="w-5 h-5" /> {language === 'ar' ? 'إضافة صفحة' : 'Add Page'}
-      </button>
-      {showForm && (
-        <form onSubmit={handleAdd} className="bg-card p-6 rounded-xl border border-border space-y-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div><label className="block text-sm font-medium mb-2">العنوان (عربي) *</label><input required value={arTitle} onChange={(e) => setArTitle(e.target.value)} className="w-full bg-background border border-border rounded-md px-4 py-2" /></div>
-            <div dir="ltr"><label className="block text-sm font-medium mb-2 text-left">Title (English) *</label><input required value={enTitle} onChange={(e) => setEnTitle(e.target.value)} className="w-full bg-background border border-border rounded-md px-4 py-2" /></div>
-            <div className="md:col-span-2" dir="ltr"><label className="block text-sm font-medium mb-2 text-left">Slug</label><input value={slug} onChange={(e) => setSlug(e.target.value)} className="w-full bg-background border border-border rounded-md px-4 py-2" /></div>
-            <div className="md:col-span-2"><label className="block text-sm font-medium mb-2">المحتوى (عربي) *</label><textarea required value={arContent} onChange={(e) => setArContent(e.target.value)} className="w-full bg-background border border-border rounded-md px-4 py-2 h-40" /></div>
-            <div className="md:col-span-2" dir="ltr"><label className="block text-sm font-medium mb-2 text-left">Content (English) *</label><textarea required value={enContent} onChange={(e) => setEnContent(e.target.value)} className="w-full bg-background border border-border rounded-md px-4 py-2 h-40" /></div>
-            <label className="flex items-center gap-2"><input type="checkbox" checked={showInFooter} onChange={(e) => setShowInFooter(e.target.checked)} /><span>{language === 'ar' ? 'في الفوتر' : 'In footer'}</span></label>
-          </div>
-          <button type="submit" className="bg-primary text-primary-foreground px-8 py-3 rounded-md font-bold">{language === 'ar' ? 'نشر' : 'Publish'}</button>
-        </form>
-      )}
-      <PublishNote language={language} committedToGithub={lastResult} />
-      <ItemsTable language={language} loading={loading} empty={language === 'ar' ? 'لا صفحات' : 'No pages'} items={items.map((p) => ({ id: p.id, col1: p.title[language], col2: p.slug, col3: p.updatedAt }))} onDelete={handleDelete} />
-    </div>
-  );
-}
-
-function ItemsTable({
-  language, loading, empty, items, onDelete, onEdit,
-}: {
-  language: 'ar' | 'en';
-  loading: boolean;
-  empty: string;
-  items: { id: string; col1: string; col2: string; col3: string }[];
-  onDelete: (id: string) => void;
-  onEdit?: (id: string) => void;
-}) {
-  return (
-    <div className="bg-card rounded-xl border border-border overflow-hidden">
-      {loading ? (
-        <div className="p-12 text-center"><Loader2 className="w-6 h-6 animate-spin mx-auto text-primary" /></div>
-      ) : items.length === 0 ? (
-        <div className="p-12 text-center text-muted-foreground">{empty}</div>
-      ) : (
-        <div className="overflow-x-auto">
-          <table className="w-full">
-            <thead className="bg-muted border-b border-border">
-              <tr>
-                <th className="p-4 text-right">{language === 'ar' ? 'العنوان' : 'Title'}</th>
-                <th className="p-4 text-right">Info</th>
-                <th className="p-4 text-right">{language === 'ar' ? 'التاريخ' : 'Date'}</th>
-                <th className="p-4 text-center">{language === 'ar' ? 'إجراءات' : 'Actions'}</th>
-              </tr>
-            </thead>
-            <tbody>
-              {items.map((row) => (
-                <tr key={row.id} className="border-b border-border hover:bg-muted/50">
-                  <td className="p-4 text-right">{row.col1}</td>
-                  <td className="p-4 text-right text-sm" dir="ltr">{row.col2}</td>
-                  <td className="p-4 text-sm text-muted-foreground text-right">{row.col3}</td>
-                  <td className="p-4 text-center">
-                    <div className="inline-flex items-center gap-1">
-                      {onEdit && (
-                        <button onClick={() => onEdit(row.id)} className="text-primary hover:bg-primary/10 p-2 rounded-md" title="Edit">
-                          <Pencil className="w-4 h-4" />
-                        </button>
-                      )}
-                      <button onClick={() => onDelete(row.id)} className="text-red-500 hover:bg-red-500/10 p-2 rounded-md" title="Delete">
-                        <Trash2 className="w-4 h-4" />
-                      </button>
-                    </div>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      )}
-    </div>
-  );
-}
-
 function ImportTab({ language }: { language: 'ar' | 'en' }) {
   const [kind, setKind] = useState<ImportKind>('articles');
   const [importJson, setImportJson] = useState('');
@@ -607,7 +387,6 @@ function ImportTab({ language }: { language: 'ar' | 'en' }) {
   const [details, setDetails] = useState<string[]>([]);
   const [busy, setBusy] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
-
   const example = kind === 'articles' ? ARTICLE_EXAMPLE : VIDEO_EXAMPLE;
 
   const handleImport = async () => {
@@ -620,29 +399,18 @@ function ImportTab({ language }: { language: 'ar' | 'en' }) {
       setMessage({ type: 'error', text: language === 'ar' ? 'JSON غير صحيح' : 'Invalid JSON' });
       return;
     }
-
     let items: unknown[];
-    if (Array.isArray(parsed)) {
-      items = parsed;
-    } else if (kind === 'articles' && Array.isArray((parsed as any)?.articles)) {
-      items = (parsed as any).articles;
-    } else if (kind === 'videos' && Array.isArray((parsed as any)?.videos)) {
-      items = (parsed as any).videos;
-    } else {
-      setMessage({
-        type: 'error',
-        text: language === 'ar'
-          ? `لم يتم العثور على مصفوفة. استخدم [...] أو { "${kind}": [...] }`
-          : `No array found. Use [...] or { "${kind}": [...] }`,
-      });
+    if (Array.isArray(parsed)) items = parsed;
+    else if (kind === 'articles' && Array.isArray((parsed as any)?.articles)) items = (parsed as any).articles;
+    else if (kind === 'videos' && Array.isArray((parsed as any)?.videos)) items = (parsed as any).videos;
+    else {
+      setMessage({ type: 'error', text: language === 'ar' ? 'مصفوفة غير موجودة' : 'No array found' });
       return;
     }
-
     if (!items.length) {
       setMessage({ type: 'error', text: language === 'ar' ? 'المصفوفة فارغة' : 'Empty array' });
       return;
     }
-
     setBusy(true);
     try {
       const res = await adminApi.bulkImport(kind, items as any[]);
@@ -650,7 +418,7 @@ function ImportTab({ language }: { language: 'ar' | 'en' }) {
         type: 'ok',
         text: language === 'ar'
           ? `تم استيراد ${res.added} عنصر. ${res.committedToGithub ? 'حُفظ على GitHub.' : 'محلي فقط.'}`
-          : `Imported ${res.added} item(s). ${res.committedToGithub ? 'Saved to GitHub.' : 'Local only.'}`,
+          : `Imported ${res.added}. ${res.committedToGithub ? 'Saved to GitHub.' : 'Local only.'}`,
       });
       setImportJson('');
     } catch (err) {
@@ -667,46 +435,23 @@ function ImportTab({ language }: { language: 'ar' | 'en' }) {
 
   return (
     <div className="bg-card p-6 rounded-xl border border-border max-w-3xl space-y-4">
-      <h2 className="text-xl font-bold">{language === 'ar' ? 'استيراد JSON (روابط فقط)' : 'JSON Import (links only)'}</h2>
-      <p className="text-sm text-muted-foreground">
-        {language === 'ar'
-          ? 'لا رفع صور/فيديوهات كملفات. استخدم روابط https للصور وروابط YouTube للفيديو.'
-          : 'No binary uploads. Use https image URLs and YouTube links.'}
-      </p>
-
+      <h2 className="text-xl font-bold">{language === 'ar' ? 'استيراد JSON' : 'JSON Import'}</h2>
       <div className="flex gap-2">
-        <button type="button" onClick={() => { setKind('articles'); setImportJson(''); setMessage(null); }} className={`px-4 py-2 rounded-md text-sm font-medium ${kind === 'articles' ? 'bg-primary text-primary-foreground' : 'border border-border'}`}>
-          {language === 'ar' ? 'مقالات' : 'Articles'}
-        </button>
-        <button type="button" onClick={() => { setKind('videos'); setImportJson(''); setMessage(null); }} className={`px-4 py-2 rounded-md text-sm font-medium ${kind === 'videos' ? 'bg-primary text-primary-foreground' : 'border border-border'}`}>
-          {language === 'ar' ? 'فيديوهات' : 'Videos'}
-        </button>
+        <button type="button" onClick={() => { setKind('articles'); setImportJson(''); }} className={`px-4 py-2 rounded-md text-sm font-medium ${kind === 'articles' ? 'bg-primary text-primary-foreground' : 'border border-border'}`}>{language === 'ar' ? 'مقالات' : 'Articles'}</button>
+        <button type="button" onClick={() => { setKind('videos'); setImportJson(''); }} className={`px-4 py-2 rounded-md text-sm font-medium ${kind === 'videos' ? 'bg-primary text-primary-foreground' : 'border border-border'}`}>{language === 'ar' ? 'فيديوهات' : 'Videos'}</button>
       </div>
-
       <div className="flex flex-wrap gap-3">
-        <button type="button" onClick={() => setImportJson(example)} className="text-sm px-4 py-2 rounded-md border border-border hover:bg-muted">
-          {language === 'ar' ? 'إدراج مثال' : 'Insert example'}
-        </button>
-        <button type="button" onClick={() => fileRef.current?.click()} className="text-sm px-4 py-2 rounded-md border border-border hover:bg-muted flex items-center gap-2">
-          <FileJson className="w-4 h-4" />
-          {language === 'ar' ? 'رفع ملف JSON' : 'Upload JSON file'}
-        </button>
+        <button type="button" onClick={() => setImportJson(example)} className="text-sm px-4 py-2 rounded-md border border-border">{language === 'ar' ? 'مثال' : 'Example'}</button>
+        <button type="button" onClick={() => fileRef.current?.click()} className="text-sm px-4 py-2 rounded-md border border-border flex items-center gap-2"><FileJson className="w-4 h-4" /> JSON</button>
         <input ref={fileRef} type="file" accept=".json,application/json" className="hidden" onChange={(e) => {
           const f = e.target.files?.[0];
-          if (f) void f.text().then((t) => { setImportJson(t); setMessage(null); setDetails([]); });
+          if (f) void f.text().then((t) => { setImportJson(t); setMessage(null); });
           e.target.value = '';
         }} />
       </div>
-
-      <textarea value={importJson} onChange={(e) => setImportJson(e.target.value)} placeholder={example} className="w-full bg-background border border-border rounded-md px-4 py-2 h-72 font-mono text-xs text-left" dir="ltr" />
-
+      <textarea value={importJson} onChange={(e) => setImportJson(e.target.value)} className="w-full bg-background border border-border rounded-md px-4 py-2 h-72 font-mono text-xs" dir="ltr" />
       {message && <p className={`text-sm ${message.type === 'ok' ? 'text-green-500' : 'text-red-500'}`}>{message.text}</p>}
-      {details.length > 0 && (
-        <ul className="text-xs text-red-400 list-disc ps-5 space-y-1" dir="ltr">
-          {details.map((d, i) => <li key={i}>{d}</li>)}
-        </ul>
-      )}
-
+      {details.length > 0 && <ul className="text-xs text-red-400 list-disc ps-5" dir="ltr">{details.map((d, i) => <li key={i}>{d}</li>)}</ul>}
       <button onClick={handleImport} disabled={busy || !importJson.trim()} className="flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-md font-medium disabled:opacity-60">
         {busy ? <Loader2 className="w-5 h-5 animate-spin" /> : <Upload className="w-5 h-5" />}
         {language === 'ar' ? 'استيراد' : 'Import'}
