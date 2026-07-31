@@ -1,14 +1,14 @@
-// Client for the admin CMS API. Every request keeps exactly one path
-// segment after /api/cms/ (Vercel's catch-all function did not reliably
-// route multi-segment paths like /articles/bulk-import or /articles/{id}),
-// so item id / action are passed as query parameters instead.
+// Client for the admin CMS API. Item id / action travel as query params
+// because Vercel catch-all routing was unreliable for multi-segment paths.
 const BASE = '/api/cms';
 
 export class AdminApiError extends Error {
   status: number;
-  constructor(status: number, message: string) {
+  data?: any;
+  constructor(status: number, message: string, data?: any) {
     super(message);
     this.status = status;
+    this.data = data;
   }
 }
 
@@ -26,7 +26,11 @@ async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
   const data = isJson ? await res.json() : undefined;
 
   if (!res.ok) {
-    throw new AdminApiError(res.status, data?.error || `Request failed (${res.status})`);
+    const msg =
+      data?.error === 'validation_failed' && Array.isArray(data?.details)
+        ? data.details.join('; ')
+        : data?.error || data?.message || `Request failed (${res.status})`;
+    throw new AdminApiError(res.status, msg, data);
   }
   return data as T;
 }
