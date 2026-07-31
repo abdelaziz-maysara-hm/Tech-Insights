@@ -5,14 +5,10 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 // ---------------------------------------------------------------------------
-// Everything the admin CMS needs lives in this single file on purpose.
-// Vercel's function bundler does not reliably pull in sibling files that
-// live outside the /api directory, so instead of importing from
-// ../../server/admin/*, we inline that logic here. Behavior is identical
-// to server/admin/{router,store,token,github,cookies}.ts.
+// Self-contained Vercel function (bundler does not reliably import siblings).
+// Mirrors server/admin/{router,store,token,github,cookies,validate}.ts
 // ---------------------------------------------------------------------------
 
-// ----- cookies.ts -----------------------------------------------------------
 function parseCookies(header: string | undefined | null): Record<string, string> {
   const out: Record<string, string> = {};
   if (!header) return out;
@@ -26,7 +22,6 @@ function parseCookies(header: string | undefined | null): Record<string, string>
   return out;
 }
 
-// ----- token.ts --------------------------------------------------------------
 function createToken(payload: Record<string, unknown>, secret: string, ttlSeconds = 60 * 60 * 12): string {
   const body = { ...payload, exp: Date.now() + ttlSeconds * 1000 };
   const encodedBody = Buffer.from(JSON.stringify(body), 'utf8').toString('base64url');
@@ -41,12 +36,10 @@ function verifyToken<T extends Record<string, unknown>>(
   if (!token) return null;
   const [encodedBody, sig] = token.split('.');
   if (!encodedBody || !sig) return null;
-
   const expectedSig = crypto.createHmac('sha256', secret).update(encodedBody).digest('base64url');
   const a = Buffer.from(sig);
   const b = Buffer.from(expectedSig);
   if (a.length !== b.length || !crypto.timingSafeEqual(a, b)) return null;
-
   try {
     const payload = JSON.parse(Buffer.from(encodedBody, 'base64url').toString('utf8')) as T & { exp: number };
     if (typeof payload.exp !== 'number' || payload.exp < Date.now()) return null;
@@ -62,19 +55,15 @@ function safeCompare(a: string, b: string): boolean {
   return crypto.timingSafeEqual(ha, hb);
 }
 
-// ----- github.ts --------------------------------------------------------------
 const API_BASE = 'https://api.github.com';
-
-interface GhFileResponse {
-  sha: string;
-  content: string;
-}
+interface GhFileResponse { sha: string; content: string }
 
 function repoInfo() {
-  const repo = process.env.GITHUB_REPO; // "owner/name"
-  const branch = process.env.GITHUB_BRANCH || 'main';
-  const token = process.env.GITHUB_TOKEN;
-  return { repo, branch, token };
+  return {
+    repo: process.env.GITHUB_REPO,
+    branch: process.env.GITHUB_BRANCH || 'main',
+    token: process.env.GITHUB_TOKEN,
+  };
 }
 
 function isGithubConfigured(): boolean {
@@ -85,7 +74,6 @@ function isGithubConfigured(): boolean {
 async function getFile(repoPath: string): Promise<{ content: string; sha: string } | null> {
   const { repo, branch, token } = repoInfo();
   if (!repo || !token) return null;
-
   const res = await fetch(`${API_BASE}/repos/${repo}/contents/${repoPath}?ref=${encodeURIComponent(branch)}`, {
     headers: {
       Authorization: `Bearer ${token}`,
@@ -93,12 +81,8 @@ async function getFile(repoPath: string): Promise<{ content: string; sha: string
       'User-Agent': 'techpulse-admin-cms',
     },
   });
-
   if (res.status === 404) return null;
-  if (!res.ok) {
-    throw new Error(`GitHub read failed (${res.status}): ${await res.text()}`);
-  }
-
+  if (!res.ok) throw new Error(`GitHub read failed (${res.status}): ${await res.text()}`);
   const data = (await res.json()) as GhFileResponse;
   return { content: Buffer.from(data.content, 'base64').toString('utf8'), sha: data.sha };
 }
@@ -106,9 +90,7 @@ async function getFile(repoPath: string): Promise<{ content: string; sha: string
 async function putFile(repoPath: string, content: string, message: string): Promise<void> {
   const { repo, branch, token } = repoInfo();
   if (!repo || !token) throw new Error('GitHub is not configured (missing GITHUB_REPO/GITHUB_TOKEN)');
-
   const existing = await getFile(repoPath);
-
   const res = await fetch(`${API_BASE}/repos/${repo}/contents/${repoPath}`, {
     method: 'PUT',
     headers: {
@@ -124,17 +106,11 @@ async function putFile(repoPath: string, content: string, message: string): Prom
       sha: existing?.sha,
     }),
   });
-
-  if (!res.ok) {
-    throw new Error(`GitHub write failed (${res.status}): ${await res.text()}`);
-  }
+  if (!res.ok) throw new Error(`GitHub write failed (${res.status}): ${await res.text()}`);
 }
 
-// ----- store.ts --------------------------------------------------------------
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-// api/cms -> api -> artifacts/techpulse-ar -> src/content
 const CONTENT_DIR = path.resolve(__dirname, '../../src/content');
-
 type CollectionName = 'articles' | 'videos' | 'pages';
 
 const REPO_PATHS: Record<CollectionName, string> = {
@@ -145,8 +121,7 @@ const REPO_PATHS: Record<CollectionName, string> = {
 
 async function readLocal(name: CollectionName): Promise<any[]> {
   try {
-    const file = path.join(CONTENT_DIR, `${name}.json`);
-    const raw = await readFile(file, 'utf8');
+    const raw = await readFile(path.join(CONTENT_DIR, `${name}.json`), 'utf8');
     const parsed = JSON.parse(raw);
     return Array.isArray(parsed) ? parsed : [];
   } catch {
@@ -157,11 +132,9 @@ async function readLocal(name: CollectionName): Promise<any[]> {
 async function writeLocal(name: CollectionName, items: any[]): Promise<void> {
   try {
     await mkdir(CONTENT_DIR, { recursive: true });
-    const file = path.join(CONTENT_DIR, `${name}.json`);
-    await writeFile(file, `${JSON.stringify(items, null, 2)}\n`, 'utf8');
+    await writeFile(path.join(CONTENT_DIR, `${name}.json`), `${JSON.stringify(items, null, 2)}\n`, 'utf8');
   } catch {
-    // Read-only filesystem on Vercel - safe to ignore. The GitHub commit
-    // below (when configured) is the real source of truth there.
+    // read-only on Vercel
   }
 }
 
@@ -174,7 +147,7 @@ async function readCollection(name: CollectionName): Promise<any[]> {
         if (Array.isArray(parsed)) return parsed;
       }
     } catch {
-      // fall back to local copy below
+      /* fall through */
     }
   }
   return readLocal(name);
@@ -193,16 +166,160 @@ async function writeCollection(
   return { committedToGithub: false };
 }
 
-// ----- router.ts --------------------------------------------------------------
+// ----- validation (inlined) ---------------------------------------------------
+const CATEGORIES = new Set([
+  'cybersecurity', 'mobile', 'laptops', 'howto', 'ai', 'reviews', 'windows', 'comparisons', 'technology',
+]);
+
+function isObject(v: unknown): v is Record<string, unknown> {
+  return typeof v === 'object' && v !== null && !Array.isArray(v);
+}
+function isBilingual(v: unknown): v is { ar: string; en: string } {
+  return isObject(v) && typeof v.ar === 'string' && typeof v.en === 'string';
+}
+function slugify(input: string): string {
+  return input.toLowerCase().replace(/[^a-z0-9\u0600-\u06FF]+/g, '-').replace(/-+/g, '-').replace(/(^-|-$)/g, '').slice(0, 80) || `item-${Date.now()}`;
+}
+function today(): string {
+  return new Date().toISOString().split('T')[0]!;
+}
+
+interface ValidationResult {
+  ok: boolean;
+  errors: string[];
+  item?: Record<string, unknown>;
+}
+
+function validateArticle(raw: unknown, index?: number): ValidationResult {
+  const prefix = index !== undefined ? `articles[${index}]` : 'article';
+  const errors: string[] = [];
+  if (!isObject(raw)) return { ok: false, errors: [`${prefix}: must be an object`] };
+  if (!isBilingual(raw.title) || !raw.title.ar.trim() || !raw.title.en.trim()) {
+    errors.push(`${prefix}.title: required { ar, en } non-empty`);
+  }
+  if (!isBilingual(raw.excerpt) || !raw.excerpt.ar.trim() || !raw.excerpt.en.trim()) {
+    errors.push(`${prefix}.excerpt: required { ar, en } non-empty`);
+  }
+  if (!isBilingual(raw.body) || !raw.body.ar.trim() || !raw.body.en.trim()) {
+    errors.push(`${prefix}.body: required { ar, en } non-empty`);
+  }
+  if (typeof raw.categoryId === 'string' && !CATEGORIES.has(raw.categoryId)) {
+    errors.push(`${prefix}.categoryId: invalid "${raw.categoryId}"`);
+  }
+  if (errors.length) return { ok: false, errors };
+
+  const enTitle = (raw.title as { en: string }).en;
+  const slug = typeof raw.slug === 'string' && raw.slug.trim() ? slugify(raw.slug) : slugify(enTitle);
+  const tags = Array.isArray(raw.tags)
+    ? raw.tags.filter((t): t is string => typeof t === 'string').map((t) => t.trim()).filter(Boolean)
+    : typeof raw.tags === 'string'
+      ? raw.tags.split(',').map((t) => t.trim()).filter(Boolean)
+      : [];
+  const item: Record<string, unknown> = {
+    id: typeof raw.id === 'string' && raw.id.trim() ? String(raw.id) : undefined,
+    slug,
+    title: raw.title,
+    excerpt: raw.excerpt,
+    body: raw.body,
+    categoryId: typeof raw.categoryId === 'string' && CATEGORIES.has(raw.categoryId) ? raw.categoryId : 'technology',
+    author:
+      isObject(raw.author) && isBilingual((raw.author as any).name)
+        ? {
+            name: (raw.author as any).name,
+            avatar: typeof (raw.author as any).avatar === 'string' ? (raw.author as any).avatar : 'https://i.pravatar.cc/150?img=68',
+          }
+        : { name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' }, avatar: 'https://i.pravatar.cc/150?img=68' },
+    date: typeof raw.date === 'string' && /^\d{4}-\d{2}-\d{2}/.test(raw.date) ? raw.date.slice(0, 10) : today(),
+    readTime: typeof raw.readTime === 'number' && raw.readTime > 0 ? Math.min(Math.round(raw.readTime), 120) : 5,
+    heroImage: typeof raw.heroImage === 'string' && raw.heroImage.trim() ? raw.heroImage.trim() : `https://picsum.photos/seed/${slug}/800/450`,
+    tags,
+    isFeatured: Boolean(raw.isFeatured),
+    isTrending: Boolean(raw.isTrending),
+  };
+  if (typeof raw.youtubeVideoId === 'string' && raw.youtubeVideoId.trim()) item.youtubeVideoId = raw.youtubeVideoId.trim();
+  if (typeof raw.subcategoryId === 'string' && raw.subcategoryId.trim()) item.subcategoryId = raw.subcategoryId.trim();
+  return { ok: true, errors: [], item };
+}
+
+function validateVideo(raw: unknown, index?: number): ValidationResult {
+  const prefix = index !== undefined ? `videos[${index}]` : 'video';
+  const errors: string[] = [];
+  if (!isObject(raw)) return { ok: false, errors: [`${prefix}: must be an object`] };
+  if (!isBilingual(raw.title) || !raw.title.ar.trim() || !raw.title.en.trim()) errors.push(`${prefix}.title: required`);
+  const youtubeId =
+    typeof raw.youtubeId === 'string' ? raw.youtubeId.trim()
+      : typeof raw.youtubeVideoId === 'string' ? raw.youtubeVideoId.trim() : '';
+  if (!youtubeId) errors.push(`${prefix}.youtubeId: required`);
+  if (errors.length) return { ok: false, errors };
+  return {
+    ok: true,
+    errors: [],
+    item: {
+      id: typeof raw.id === 'string' && raw.id.trim() ? String(raw.id) : undefined,
+      title: raw.title,
+      description: isBilingual(raw.description) ? raw.description : { ar: '', en: '' },
+      youtubeId,
+      date: typeof raw.date === 'string' && /^\d{4}-\d{2}-\d{2}/.test(raw.date) ? raw.date.slice(0, 10) : today(),
+    },
+  };
+}
+
+function validatePage(raw: unknown, index?: number): ValidationResult {
+  const prefix = index !== undefined ? `pages[${index}]` : 'page';
+  const errors: string[] = [];
+  if (!isObject(raw)) return { ok: false, errors: [`${prefix}: must be an object`] };
+  if (!isBilingual(raw.title) || !raw.title.ar.trim() || !raw.title.en.trim()) errors.push(`${prefix}.title: required`);
+  if (!isBilingual(raw.content) || !raw.content.ar.trim() || !raw.content.en.trim()) errors.push(`${prefix}.content: required`);
+  if (errors.length) return { ok: false, errors };
+  const enTitle = (raw.title as { en: string }).en;
+  return {
+    ok: true,
+    errors: [],
+    item: {
+      id: typeof raw.id === 'string' && raw.id.trim() ? String(raw.id) : undefined,
+      slug: typeof raw.slug === 'string' && raw.slug.trim() ? slugify(raw.slug) : slugify(enTitle),
+      title: raw.title,
+      content: raw.content,
+      updatedAt: typeof raw.updatedAt === 'string' && /^\d{4}-\d{2}-\d{2}/.test(raw.updatedAt) ? raw.updatedAt.slice(0, 10) : today(),
+      showInFooter: raw.showInFooter !== false,
+    },
+  };
+}
+
+function validateItem(collection: CollectionName, raw: unknown, index?: number): ValidationResult {
+  if (collection === 'articles') return validateArticle(raw, index);
+  if (collection === 'videos') return validateVideo(raw, index);
+  return validatePage(raw, index);
+}
+
+function validateItems(collection: CollectionName, items: unknown[]) {
+  const normalized: Record<string, unknown>[] = [];
+  const errors: string[] = [];
+  for (let i = 0; i < items.length; i++) {
+    const r = validateItem(collection, items[i], i);
+    if (!r.ok || !r.item) errors.push(...r.errors);
+    else normalized.push(r.item);
+  }
+  if (errors.length) return { ok: false as const, errors: errors.slice(0, 20) };
+  return { ok: true as const, items: normalized };
+}
+
+function assignIds(items: Record<string, unknown>[], existingIds: Set<string>) {
+  return items.map((item) => {
+    const rawId = item.id != null ? String(item.id) : '';
+    const id = rawId && !existingIds.has(rawId) ? rawId : crypto.randomUUID();
+    existingIds.add(id);
+    return { ...item, id };
+  });
+}
+
+// ----- router -----------------------------------------------------------------
 interface CmsRequest {
   method: string;
-  /** Path relative to /api/cms, e.g. "/articles" (collection name only) */
   path: string;
   body: any;
   cookies: Record<string, string>;
-  /** Item id, passed as ?id=... instead of an extra path segment */
   itemId?: string;
-  /** Action, e.g. "bulk-import", passed as ?action=... */
   action?: string;
 }
 
@@ -243,9 +360,7 @@ function requireAuth(req: CmsRequest): { username: string } | null {
 }
 
 function setCookieHeader(token: string | null): string {
-  if (!token) {
-    return `${SESSION_COOKIE}=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`;
-  }
+  if (!token) return `${SESSION_COOKIE}=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`;
   return `${SESSION_COOKIE}=${token}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=43200`;
 }
 
@@ -255,28 +370,14 @@ async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
 
   if (method === 'POST' && reqPath === '/login') {
     const users = getAdminUsers();
-    if (!users.length) {
-      return { status: 500, body: { error: 'admin_not_configured' } };
-    }
-    let secretOk = true;
-    try {
-      getSecret();
-    } catch {
-      secretOk = false;
-    }
-    if (!secretOk) return { status: 500, body: { error: 'admin_not_configured' } };
-
+    if (!users.length) return { status: 500, body: { error: 'admin_not_configured' } };
+    try { getSecret(); } catch { return { status: 500, body: { error: 'admin_not_configured' } }; }
     const username = String(body?.username ?? '');
     const password = String(body?.password ?? '');
     const match = users.find((u) => safeCompare(u.username, username) && safeCompare(u.password, password));
     if (!match) return { status: 401, body: { error: 'invalid_credentials' } };
-
     const token = createToken({ username: match.username }, getSecret());
-    return {
-      status: 200,
-      headers: { 'Set-Cookie': setCookieHeader(token) },
-      body: { ok: true, username: match.username },
-    };
+    return { status: 200, headers: { 'Set-Cookie': setCookieHeader(token) }, body: { ok: true, username: match.username } };
   }
 
   if (method === 'POST' && reqPath === '/logout') {
@@ -292,45 +393,34 @@ async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
   if (!auth) return { status: 401, body: { error: 'unauthorized' } };
 
   const collectionName = segments[0] as CollectionName;
-  if (!COLLECTIONS.includes(collectionName)) {
-    return { status: 404, body: { error: 'not_found' } };
-  }
+  if (!COLLECTIONS.includes(collectionName)) return { status: 404, body: { error: 'not_found' } };
 
   const second = action || itemId;
 
   try {
     if (method === 'GET' && !second) {
-      const items = await readCollection(collectionName);
-      return { status: 200, body: { items } };
+      return { status: 200, body: { items: await readCollection(collectionName) } };
     }
 
     if (method === 'POST' && action === 'bulk-import') {
       const incoming = Array.isArray(body?.items) ? body.items : [];
       if (!incoming.length) return { status: 400, body: { error: 'no_items' } };
+      const validated = validateItems(collectionName, incoming);
+      if (!validated.ok) return { status: 400, body: { error: 'validation_failed', details: validated.errors } };
       const existing = await readCollection(collectionName);
-      const existingIds = new Set(existing.map((i: any) => i.id));
-      const withIds = incoming.map((item: any) => ({
-        ...item,
-        id: item.id && !existingIds.has(item.id) ? String(item.id) : crypto.randomUUID(),
-      }));
-      const merged = [...withIds, ...existing];
-      const result = await writeCollection(
-        collectionName,
-        merged,
-        `Bulk import ${withIds.length} ${collectionName} by ${auth.username}`,
-      );
+      const existingIds = new Set(existing.map((i: any) => String(i.id)));
+      const withIds = assignIds(validated.items, existingIds);
+      const result = await writeCollection(collectionName, [...withIds, ...existing], `Bulk import ${withIds.length} ${collectionName} by ${auth.username}`);
       return { status: 200, body: { ok: true, added: withIds.length, ...result } };
     }
 
     if (method === 'POST' && !action && !itemId) {
+      const validated = validateItem(collectionName, body);
+      if (!validated.ok || !validated.item) return { status: 400, body: { error: 'validation_failed', details: validated.errors } };
       const existing = await readCollection(collectionName);
-      const newItem = { ...body, id: body?.id ? String(body.id) : crypto.randomUUID() };
-      const merged = [newItem, ...existing];
-      const result = await writeCollection(
-        collectionName,
-        merged,
-        `Add ${collectionName.slice(0, -1)} "${newItem.id}" by ${auth.username}`,
-      );
+      const existingIds = new Set(existing.map((i: any) => String(i.id)));
+      const [newItem] = assignIds([validated.item], existingIds);
+      const result = await writeCollection(collectionName, [newItem, ...existing], `Add ${collectionName.slice(0, -1)} "${newItem!.id}" by ${auth.username}`);
       return { status: 200, body: { ok: true, item: newItem, ...result } };
     }
 
@@ -338,12 +428,10 @@ async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
       const existing = await readCollection(collectionName);
       const idx = existing.findIndex((i: any) => i.id === itemId);
       if (idx === -1) return { status: 404, body: { error: 'not_found' } };
-      existing[idx] = { ...existing[idx], ...body, id: itemId };
-      const result = await writeCollection(
-        collectionName,
-        existing,
-        `Update ${collectionName.slice(0, -1)} "${itemId}" by ${auth.username}`,
-      );
+      const validated = validateItem(collectionName, { ...existing[idx], ...body, id: itemId });
+      if (!validated.ok || !validated.item) return { status: 400, body: { error: 'validation_failed', details: validated.errors } };
+      existing[idx] = { ...validated.item, id: itemId };
+      const result = await writeCollection(collectionName, existing, `Update ${collectionName.slice(0, -1)} "${itemId}" by ${auth.username}`);
       return { status: 200, body: { ok: true, item: existing[idx], ...result } };
     }
 
@@ -351,11 +439,7 @@ async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
       const existing = await readCollection(collectionName);
       const filtered = existing.filter((i: any) => i.id !== itemId);
       if (filtered.length === existing.length) return { status: 404, body: { error: 'not_found' } };
-      const result = await writeCollection(
-        collectionName,
-        filtered,
-        `Delete ${collectionName.slice(0, -1)} "${itemId}" by ${auth.username}`,
-      );
+      const result = await writeCollection(collectionName, filtered, `Delete ${collectionName.slice(0, -1)} "${itemId}" by ${auth.username}`);
       return { status: 200, body: { ok: true, ...result } };
     }
   } catch (err) {
@@ -365,17 +449,10 @@ async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
   return { status: 404, body: { error: 'not_found' } };
 }
 
-// ----- Vercel handler ---------------------------------------------------------
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  // Derive the sub-path directly from the raw request URL instead of
-  // req.query.path - the latter was not being populated reliably here.
-  // Only ONE path segment after /api/cms/ is used (Vercel's catch-all did
-  // not reliably route multi-segment paths in this project) - anything
-  // beyond the collection name (item id, bulk-import action) travels as a
-  // query parameter instead.
   const rawUrl = req.url || '/';
   const [pathname, queryString] = rawUrl.split('?');
-  const cmsPath = (pathname.replace(/^\/api\/cms/, '') || '/');
+  const cmsPath = pathname.replace(/^\/api\/cms/, '') || '/';
   const params = new URLSearchParams(queryString || '');
 
   const cmsReq: CmsRequest = {
@@ -390,9 +467,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   try {
     const result = await handleCmsRequest(cmsReq);
     if (result.headers) {
-      for (const [key, value] of Object.entries(result.headers)) {
-        res.setHeader(key, value);
-      }
+      for (const [key, value] of Object.entries(result.headers)) res.setHeader(key, value);
     }
     res.status(result.status).json(result.body);
   } catch (err) {
