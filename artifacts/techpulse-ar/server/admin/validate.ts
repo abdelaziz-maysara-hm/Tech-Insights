@@ -1,6 +1,6 @@
 /**
  * Lightweight, dependency-free validation + normalization for CMS collections.
- * Used by the admin router (Replit/Netlify) so bad JSON never gets committed.
+ * Media is URL-only (no binary uploads) to stay within Vercel/Git limits.
  */
 
 export type CollectionName = 'articles' | 'videos' | 'pages';
@@ -27,16 +27,65 @@ function isBilingual(v: unknown): v is { ar: string; en: string } {
 }
 
 function slugify(input: string): string {
-  return input
-    .toLowerCase()
-    .replace(/[^a-z0-9\u0600-\u06FF]+/g, '-')
-    .replace(/-+/g, '-')
-    .replace(/(^-|-$)/g, '')
-    .slice(0, 80) || `item-${Date.now()}`;
+  return (
+    input
+      .toLowerCase()
+      .replace(/[^a-z0-9\u0600-\u06FF]+/g, '-')
+      .replace(/-+/g, '-')
+      .replace(/(^-|-$)/g, '')
+      .slice(0, 80) || `item-${Date.now()}`
+  );
 }
 
 function today(): string {
   return new Date().toISOString().split('T')[0]!;
+}
+
+/** Extract 11-char YouTube id from bare id or full URL. */
+export function extractYouTubeId(input: string | undefined | null): string {
+  if (!input) return '';
+  const raw = input.trim();
+  if (!raw) return '';
+  if (/^[\w-]{11}$/.test(raw)) return raw;
+
+  try {
+    const url = new URL(raw.startsWith('http') ? raw : `https://${raw}`);
+    const host = url.hostname.replace(/^www\./, '');
+
+    if (host === 'youtu.be') {
+      const id = url.pathname.split('/').filter(Boolean)[0] || '';
+      return /^[\w-]{11}$/.test(id) ? id : '';
+    }
+
+    if (host === 'youtube.com' || host === 'm.youtube.com' || host === 'music.youtube.com') {
+      const v = url.searchParams.get('v');
+      if (v && /^[\w-]{11}$/.test(v)) return v;
+      const parts = url.pathname.split('/').filter(Boolean);
+      const markers = ['embed', 'shorts', 'live', 'v'];
+      for (let i = 0; i < parts.length - 1; i++) {
+        if (markers.includes(parts[i]!) && /^[\w-]{11}$/.test(parts[i + 1]!)) {
+          return parts[i + 1]!;
+        }
+      }
+    }
+  } catch {
+    /* not a URL */
+  }
+
+  const match = raw.match(/[\w-]{11}/);
+  return match ? match[0] : '';
+}
+
+function normalizeHttpsUrl(input: string | undefined | null, fallback: string): string {
+  if (!input || !String(input).trim()) return fallback;
+  const trimmed = String(input).trim();
+  try {
+    const url = new URL(trimmed);
+    if (url.protocol !== 'http:' && url.protocol !== 'https:') return fallback;
+    return trimmed;
+  } catch {
+    return fallback;
+  }
 }
 
 export interface ValidationResult {
@@ -82,9 +131,7 @@ export function validateAndNormalizeArticle(
   const enTitle = (raw.title as { en: string }).en;
   const slugFromTitle = slugify(enTitle);
   const slug =
-    typeof raw.slug === 'string' && raw.slug.trim()
-      ? slugify(raw.slug)
-      : slugFromTitle;
+    typeof raw.slug === 'string' && raw.slug.trim() ? slugify(raw.slug) : slugFromTitle;
 
   const tags = Array.isArray(raw.tags)
     ? raw.tags.filter((t): t is string => typeof t === 'string').map((t) => t.trim()).filter(Boolean)
@@ -97,24 +144,34 @@ export function validateAndNormalizeArticle(
       ? Math.min(Math.round(raw.readTime), 120)
       : 5;
 
-  const heroImage =
-    typeof raw.heroImage === 'string' && raw.heroImage.trim()
-      ? raw.heroImage.trim()
-      : `https://picsum.photos/seed/${slug}/800/450`;
+  const heroImage = normalizeHttpsUrl(
+    typeof raw.heroImage === 'string' ? raw.heroImage : undefined,
+    `https://picsum.photos/seed/${slug}/800/450`,
+  );
 
   const author =
     isObject(raw.author) && isBilingual((raw.author as any).name)
       ? {
           name: (raw.author as any).name as { ar: string; en: string },
-          avatar:
-            typeof (raw.author as any).avatar === 'string'
-              ? (raw.author as any).avatar
-              : 'https://i.pravatar.cc/150?img=68',
+          avatar: normalizeHttpsUrl(
+            typeof (raw.author as any).avatar === 'string' ? (raw.author as any).avatar : undefined,
+            'https://i.pravatar.cc/150?img=68',
+          ),
         }
       : {
           name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
           avatar: 'https://i.pravatar.cc/150?img=68',
         };
+
+  const ytRaw =
+    typeof raw.youtubeVideoId === 'string'
+      ? raw.youtubeVideoId
+      : typeof raw.youtubeId === 'string'
+        ? raw.youtubeId
+        : typeof raw.youtubeUrl === 'string'
+          ? raw.youtubeUrl
+          : '';
+  const youtubeVideoId = extractYouTubeId(ytRaw);
 
   const item: Record<string, unknown> = {
     id: typeof raw.id === 'string' && raw.id.trim() ? String(raw.id) : undefined,
@@ -135,9 +192,7 @@ export function validateAndNormalizeArticle(
     isTrending: Boolean(raw.isTrending),
   };
 
-  if (typeof raw.youtubeVideoId === 'string' && raw.youtubeVideoId.trim()) {
-    item.youtubeVideoId = raw.youtubeVideoId.trim();
-  }
+  if (youtubeVideoId) item.youtubeVideoId = youtubeVideoId;
   if (typeof raw.subcategoryId === 'string' && raw.subcategoryId.trim()) {
     item.subcategoryId = raw.subcategoryId.trim();
   }
@@ -158,14 +213,23 @@ export function validateAndNormalizeVideo(
   if (!isBilingual(raw.title) || !raw.title.ar.trim() || !raw.title.en.trim()) {
     errors.push(`${prefix}.title: required bilingual { ar, en }`);
   }
-  const youtubeId =
+
+  const ytRaw =
     typeof raw.youtubeId === 'string'
-      ? raw.youtubeId.trim()
+      ? raw.youtubeId
       : typeof raw.youtubeVideoId === 'string'
-        ? raw.youtubeVideoId.trim()
-        : '';
+        ? raw.youtubeVideoId
+        : typeof raw.youtubeUrl === 'string'
+          ? raw.youtubeUrl
+          : typeof raw.url === 'string'
+            ? raw.url
+            : '';
+  const youtubeId = extractYouTubeId(ytRaw);
+
   if (!youtubeId) {
-    errors.push(`${prefix}.youtubeId: required non-empty string`);
+    errors.push(
+      `${prefix}.youtubeId: required — paste a YouTube URL or 11-char id (e.g. https://youtu.be/dQw4w9WgXcQ)`,
+    );
   }
   if (errors.length) return { ok: false, errors };
 
@@ -175,9 +239,7 @@ export function validateAndNormalizeVideo(
     item: {
       id: typeof raw.id === 'string' && raw.id.trim() ? String(raw.id) : undefined,
       title: raw.title,
-      description: isBilingual(raw.description)
-        ? raw.description
-        : { ar: '', en: '' },
+      description: isBilingual(raw.description) ? raw.description : { ar: '', en: '' },
       youtubeId,
       date:
         typeof raw.date === 'string' && /^\d{4}-\d{2}-\d{2}/.test(raw.date)
@@ -207,9 +269,7 @@ export function validateAndNormalizePage(
 
   const enTitle = (raw.title as { en: string }).en;
   const slug =
-    typeof raw.slug === 'string' && raw.slug.trim()
-      ? slugify(raw.slug)
-      : slugify(enTitle);
+    typeof raw.slug === 'string' && raw.slug.trim() ? slugify(raw.slug) : slugify(enTitle);
 
   return {
     ok: true,
@@ -257,27 +317,3 @@ export function validateCollectionItems(
   if (errors.length) return { ok: false, errors: errors.slice(0, 20) };
   return { ok: true, items: normalized };
 }
-
-/** Example article shape for admin UI / docs. */
-export const ARTICLE_JSON_EXAMPLE = `[
-  {
-    "title": {
-      "ar": "عنوان المقال بالعربية",
-      "en": "Article Title in English"
-    },
-    "excerpt": {
-      "ar": "ملخص قصير يظهر في البطاقات.",
-      "en": "Short excerpt shown on cards."
-    },
-    "body": {
-      "ar": "## المقدمة\\n\\nنص المقال الكامل. استخدم ## للعناوين الفرعية.",
-      "en": "## Introduction\\n\\nFull article body. Use ## for subheadings."
-    },
-    "categoryId": "mobile",
-    "tags": ["هاتف", "Phone", "Tips"],
-    "readTime": 5,
-    "isFeatured": false,
-    "isTrending": false,
-    "heroImage": "https://picsum.photos/seed/my-article/800/450"
-  }
-]`;
