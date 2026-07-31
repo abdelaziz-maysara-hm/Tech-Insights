@@ -6,7 +6,7 @@ import { CmsVideo, CmsPage } from '@/data/cmsTypes';
 import * as adminApi from '@/lib/adminApi';
 import { extractYouTubeId } from '@/lib/mediaUrls';
 import {
-  Lock, Plus, List, Upload, Trash2, LogOut, Film, FileText, Loader2, FileJson,
+  Lock, Plus, List, Upload, Trash2, LogOut, Film, FileText, Loader2, FileJson, Pencil,
 } from 'lucide-react';
 
 type Tab = 'articles' | 'videos' | 'pages' | 'import';
@@ -173,6 +173,7 @@ function ArticlesTab({ language }: { language: 'ar' | 'en' }) {
   const [items, setItems] = useState<Article[]>([]);
   const [loading, setLoading] = useState(true);
   const [showForm, setShowForm] = useState(false);
+  const [editingId, setEditingId] = useState<string | null>(null);
   const [lastResult, setLastResult] = useState<boolean | undefined>(undefined);
   const [formError, setFormError] = useState('');
   const [arTitle, setArTitle] = useState('');
@@ -188,6 +189,7 @@ function ArticlesTab({ language }: { language: 'ar' | 'en' }) {
   const [heroImage, setHeroImage] = useState('');
   const [isFeatured, setIsFeatured] = useState(false);
   const [isTrending, setIsTrending] = useState(false);
+  const [slug, setSlug] = useState('');
 
   const load = () => {
     setLoading(true);
@@ -195,31 +197,67 @@ function ArticlesTab({ language }: { language: 'ar' | 'en' }) {
   };
   useEffect(load, []);
 
-  const handleAdd = async (e: FormEvent) => {
+  const resetForm = () => {
+    setArTitle(''); setEnTitle(''); setArExcerpt(''); setEnExcerpt('');
+    setArBody(''); setEnBody(''); setYoutubeInput(''); setTagsStr('');
+    setHeroImage(''); setIsFeatured(false); setIsTrending(false);
+    setReadTime(5); setCategory('technology'); setSlug('');
+    setEditingId(null); setFormError('');
+  };
+
+  const startEdit = (a: Article) => {
+    setEditingId(a.id);
+    setShowForm(true);
+    setArTitle(a.title.ar); setEnTitle(a.title.en);
+    setArExcerpt(a.excerpt.ar); setEnExcerpt(a.excerpt.en);
+    setArBody(a.body.ar); setEnBody(a.body.en);
+    setCategory((a.categoryId as Category) || 'technology');
+    setYoutubeInput(a.youtubeVideoId || '');
+    setTagsStr((a.tags ?? []).join(', '));
+    setReadTime(a.readTime || 5);
+    setHeroImage(a.heroImage || '');
+    setIsFeatured(Boolean(a.isFeatured));
+    setIsTrending(Boolean(a.isTrending));
+    setSlug(a.slug || '');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setFormError('');
     const yt = extractYouTubeId(youtubeInput);
-    const slugBase = enTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    const payload = {
+      title: { ar: arTitle, en: enTitle },
+      excerpt: { ar: arExcerpt, en: enExcerpt },
+      body: { ar: arBody, en: enBody },
+      categoryId: category,
+      readTime,
+      heroImage: heroImage || undefined,
+      tags: tagsStr.split(',').map((t) => t.trim()).filter(Boolean),
+      youtubeVideoId: yt || undefined,
+      isFeatured,
+      isTrending,
+      slug: slug || undefined,
+    };
+
     try {
-      const res = await adminApi.createItem<Article>('articles', {
-        slug: `article-${Date.now()}-${slugBase}`,
-        title: { ar: arTitle, en: enTitle },
-        excerpt: { ar: arExcerpt, en: enExcerpt },
-        body: { ar: arBody, en: enBody },
-        categoryId: category,
-        author: { name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' }, avatar: 'https://i.pravatar.cc/150?img=68' },
-        date: new Date().toISOString().split('T')[0],
-        readTime,
-        heroImage: heroImage || undefined,
-        tags: tagsStr.split(',').map((t) => t.trim()).filter(Boolean),
-        youtubeVideoId: yt || undefined,
-        isFeatured,
-        isTrending,
-      });
-      setLastResult(res.committedToGithub);
-      setArTitle(''); setEnTitle(''); setArExcerpt(''); setEnExcerpt('');
-      setArBody(''); setEnBody(''); setYoutubeInput(''); setTagsStr('');
-      setHeroImage(''); setIsFeatured(false); setIsTrending(false);
+      if (editingId) {
+        const res = await adminApi.updateItem<Article>('articles', editingId, payload);
+        setLastResult(res.committedToGithub);
+      } else {
+        const slugBase = enTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+        const res = await adminApi.createItem<Article>('articles', {
+          ...payload,
+          slug: slug || `article-${Date.now()}-${slugBase}`,
+          author: {
+            name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+            avatar: 'https://i.pravatar.cc/150?img=68',
+          },
+          date: new Date().toISOString().split('T')[0],
+        });
+        setLastResult(res.committedToGithub);
+      }
+      resetForm();
       setShowForm(false);
       load();
     } catch (err) {
@@ -231,17 +269,36 @@ function ArticlesTab({ language }: { language: 'ar' | 'en' }) {
     if (!confirm(language === 'ar' ? 'هل أنت متأكد من الحذف؟' : 'Are you sure?')) return;
     const res = await adminApi.deleteItem('articles', id);
     setLastResult(res.committedToGithub);
+    if (editingId === id) {
+      resetForm();
+      setShowForm(false);
+    }
     load();
   };
 
   return (
     <div className="space-y-6">
-      <button onClick={() => setShowForm((v) => !v)} className="flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-md font-bold hover:bg-primary/90">
+      <button
+        onClick={() => {
+          if (showForm && !editingId) {
+            setShowForm(false);
+          } else {
+            resetForm();
+            setShowForm(true);
+          }
+        }}
+        className="flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-md font-bold hover:bg-primary/90"
+      >
         <Plus className="w-5 h-5" /> {language === 'ar' ? 'إضافة مقال' : 'Add Article'}
       </button>
 
       {showForm && (
-        <form onSubmit={handleAdd} className="bg-card p-6 md:p-8 rounded-xl border border-border space-y-6">
+        <form onSubmit={handleSubmit} className="bg-card p-6 md:p-8 rounded-xl border border-border space-y-6">
+          <h3 className="text-lg font-bold">
+            {editingId
+              ? (language === 'ar' ? 'تعديل مقال' : 'Edit article')
+              : (language === 'ar' ? 'مقال جديد' : 'New article')}
+          </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <label className="block text-sm font-medium mb-2">العنوان (عربي) *</label>
@@ -277,7 +334,7 @@ function ArticlesTab({ language }: { language: 'ar' | 'en' }) {
             </div>
             <div>
               <label className="block text-sm font-medium mb-2">YouTube URL أو ID</label>
-              <input value={youtubeInput} onChange={(e) => setYoutubeInput(e.target.value)} placeholder="https://youtu.be/... أو dQw4w9WgXcQ" className="w-full bg-background border border-border rounded-md px-4 py-2" dir="ltr" />
+              <input value={youtubeInput} onChange={(e) => setYoutubeInput(e.target.value)} placeholder="https://youtu.be/..." className="w-full bg-background border border-border rounded-md px-4 py-2" dir="ltr" />
             </div>
             <div>
               <label className="block text-sm font-medium mb-2">Tags</label>
@@ -288,7 +345,7 @@ function ArticlesTab({ language }: { language: 'ar' | 'en' }) {
               <input type="number" min="1" value={readTime} onChange={(e) => setReadTime(Number(e.target.value))} className="w-full bg-background border border-border rounded-md px-4 py-2" />
             </div>
             <div className="md:col-span-2">
-              <label className="block text-sm font-medium mb-2">Hero image URL (https فقط — بدون رفع ملف)</label>
+              <label className="block text-sm font-medium mb-2">Hero image URL (https)</label>
               <input value={heroImage} onChange={(e) => setHeroImage(e.target.value)} placeholder="https://..." className="w-full bg-background border border-border rounded-md px-4 py-2" dir="ltr" />
             </div>
             <div className="md:col-span-2 flex gap-8 p-4 bg-muted/50 rounded-md border border-border">
@@ -297,12 +354,33 @@ function ArticlesTab({ language }: { language: 'ar' | 'en' }) {
             </div>
           </div>
           {formError && <p className="text-sm text-red-500">{formError}</p>}
-          <button type="submit" className="bg-primary text-primary-foreground px-8 py-3 rounded-md font-bold hover:bg-primary/90">{language === 'ar' ? 'نشر المقال' : 'Publish'}</button>
+          <div className="flex flex-wrap gap-3">
+            <button type="submit" className="bg-primary text-primary-foreground px-8 py-3 rounded-md font-bold hover:bg-primary/90">
+              {editingId
+                ? (language === 'ar' ? 'حفظ التعديلات' : 'Save changes')
+                : (language === 'ar' ? 'نشر المقال' : 'Publish')}
+            </button>
+            {editingId && (
+              <button type="button" onClick={() => { resetForm(); setShowForm(false); }} className="px-6 py-3 rounded-md border border-border hover:bg-muted">
+                {language === 'ar' ? 'إلغاء' : 'Cancel'}
+              </button>
+            )}
+          </div>
         </form>
       )}
 
       <PublishNote language={language} committedToGithub={lastResult} />
-      <ItemsTable language={language} loading={loading} empty={language === 'ar' ? 'لا توجد مقالات' : 'No articles'} items={items.map((a) => ({ id: a.id, col1: a.title[language], col2: a.categoryId, col3: a.date }))} onDelete={handleDelete} />
+      <ItemsTable
+        language={language}
+        loading={loading}
+        empty={language === 'ar' ? 'لا توجد مقالات' : 'No articles'}
+        items={items.map((a) => ({ id: a.id, col1: a.title[language], col2: a.categoryId, col3: a.date }))}
+        onDelete={handleDelete}
+        onEdit={(id) => {
+          const a = items.find((x) => x.id === id);
+          if (a) startEdit(a);
+        }}
+      />
     </div>
   );
 }
@@ -366,8 +444,8 @@ function VideosTab({ language }: { language: 'ar' | 'en' }) {
         <form onSubmit={handleAdd} className="bg-card p-6 md:p-8 rounded-xl border border-border space-y-6">
           <p className="text-xs text-muted-foreground">
             {language === 'ar'
-              ? 'لا يتم رفع فيديو — فقط رابط YouTube. الصورة المصغّرة تُجلب تلقائياً من YouTube.'
-              : 'No video upload — YouTube link only. Thumbnail is fetched automatically from YouTube.'}
+              ? 'لا يتم رفع فيديو — فقط رابط YouTube.'
+              : 'No video upload — YouTube link only.'}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
@@ -388,10 +466,7 @@ function VideosTab({ language }: { language: 'ar' | 'en' }) {
             </div>
             <div className="md:col-span-2">
               <label className="block text-sm font-medium mb-2">YouTube URL أو ID *</label>
-              <input required value={youtubeInput} onChange={(e) => setYoutubeInput(e.target.value)} placeholder="https://www.youtube.com/watch?v=... أو youtu.be/..." className="w-full bg-background border border-border rounded-md px-4 py-2" dir="ltr" />
-              {extractYouTubeId(youtubeInput) && (
-                <p className="text-xs text-green-500 mt-1" dir="ltr">ID: {extractYouTubeId(youtubeInput)}</p>
-              )}
+              <input required value={youtubeInput} onChange={(e) => setYoutubeInput(e.target.value)} placeholder="https://youtu.be/..." className="w-full bg-background border border-border rounded-md px-4 py-2" dir="ltr" />
             </div>
           </div>
           {formError && <p className="text-sm text-red-500">{formError}</p>}
@@ -471,13 +546,14 @@ function PagesTab({ language }: { language: 'ar' | 'en' }) {
 }
 
 function ItemsTable({
-  language, loading, empty, items, onDelete,
+  language, loading, empty, items, onDelete, onEdit,
 }: {
   language: 'ar' | 'en';
   loading: boolean;
   empty: string;
   items: { id: string; col1: string; col2: string; col3: string }[];
   onDelete: (id: string) => void;
+  onEdit?: (id: string) => void;
 }) {
   return (
     <div className="bg-card rounded-xl border border-border overflow-hidden">
@@ -493,7 +569,7 @@ function ItemsTable({
                 <th className="p-4 text-right">{language === 'ar' ? 'العنوان' : 'Title'}</th>
                 <th className="p-4 text-right">Info</th>
                 <th className="p-4 text-right">{language === 'ar' ? 'التاريخ' : 'Date'}</th>
-                <th className="p-4 text-center">{language === 'ar' ? 'حذف' : 'Delete'}</th>
+                <th className="p-4 text-center">{language === 'ar' ? 'إجراءات' : 'Actions'}</th>
               </tr>
             </thead>
             <tbody>
@@ -503,7 +579,16 @@ function ItemsTable({
                   <td className="p-4 text-right text-sm" dir="ltr">{row.col2}</td>
                   <td className="p-4 text-sm text-muted-foreground text-right">{row.col3}</td>
                   <td className="p-4 text-center">
-                    <button onClick={() => onDelete(row.id)} className="text-red-500 hover:bg-red-500/10 p-2 rounded-md"><Trash2 className="w-5 h-5" /></button>
+                    <div className="inline-flex items-center gap-1">
+                      {onEdit && (
+                        <button onClick={() => onEdit(row.id)} className="text-primary hover:bg-primary/10 p-2 rounded-md" title="Edit">
+                          <Pencil className="w-4 h-4" />
+                        </button>
+                      )}
+                      <button onClick={() => onDelete(row.id)} className="text-red-500 hover:bg-red-500/10 p-2 rounded-md" title="Delete">
+                        <Trash2 className="w-4 h-4" />
+                      </button>
+                    </div>
                   </td>
                 </tr>
               ))}
@@ -585,8 +670,8 @@ function ImportTab({ language }: { language: 'ar' | 'en' }) {
       <h2 className="text-xl font-bold">{language === 'ar' ? 'استيراد JSON (روابط فقط)' : 'JSON Import (links only)'}</h2>
       <p className="text-sm text-muted-foreground">
         {language === 'ar'
-          ? 'لا رفع صور/فيديوهات كملفات. استخدم روابط https للصور وروابط YouTube للفيديو. مناسب لحدود Vercel.'
-          : 'No binary image/video uploads. Use https image URLs and YouTube links. Fits Vercel limits.'}
+          ? 'لا رفع صور/فيديوهات كملفات. استخدم روابط https للصور وروابط YouTube للفيديو.'
+          : 'No binary uploads. Use https image URLs and YouTube links.'}
       </p>
 
       <div className="flex gap-2">
@@ -626,20 +711,6 @@ function ImportTab({ language }: { language: 'ar' | 'en' }) {
         {busy ? <Loader2 className="w-5 h-5 animate-spin" /> : <Upload className="w-5 h-5" />}
         {language === 'ar' ? 'استيراد' : 'Import'}
       </button>
-
-      <div className="text-xs text-muted-foreground border-t border-border pt-4 space-y-2" dir="ltr">
-        {kind === 'videos' ? (
-          <>
-            <p className="font-medium">Video fields: title (ar/en required), youtubeUrl | youtubeId (required), description optional</p>
-            <p>Accepts: youtu.be/ID · youtube.com/watch?v=ID · shorts · embed · bare 11-char id</p>
-          </>
-        ) : (
-          <>
-            <p className="font-medium">Article required: title, excerpt, body (each ar+en). Optional: heroImage (https), youtubeVideoId/URL, tags, categoryId</p>
-            <p>categoryId: cybersecurity · mobile · laptops · howto · ai · reviews · windows · comparisons · technology</p>
-          </>
-        )}
-      </div>
     </div>
   );
 }
