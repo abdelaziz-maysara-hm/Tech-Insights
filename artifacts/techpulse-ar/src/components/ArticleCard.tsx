@@ -10,6 +10,16 @@ interface ArticleCardProps {
   className?: string;
 }
 
+const HERO_FALLBACK =
+  'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop';
+
+function handleHeroError(e: React.SyntheticEvent<HTMLImageElement>) {
+  const el = e.currentTarget;
+  if (el.dataset.fallback) return;
+  el.dataset.fallback = '1';
+  el.src = HERO_FALLBACK;
+}
+
 export function ArticleCard({ article, featured = false, className }: ArticleCardProps) {
   const { language, t } = useLanguage();
 
@@ -22,6 +32,7 @@ export function ArticleCard({ article, featured = false, className }: ArticleCar
           alt={article.title[language]} 
           className="w-full h-[400px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
           loading="lazy"
+          onError={handleHeroError}
         />
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8 z-20">
           <div className="flex gap-2 mb-3">
@@ -71,6 +82,7 @@ export function ArticleCard({ article, featured = false, className }: ArticleCar
           alt={article.title[language]} 
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           loading="lazy"
+          onError={handleHeroError}
         />
         <div className="absolute top-3 right-3 flex gap-2">
           <span className="bg-background/80 backdrop-blur-sm text-foreground text-xs font-semibold px-2 py-1 rounded">
@@ -78,25 +90,25 @@ export function ArticleCard({ article, featured = false, className }: ArticleCar
           </span>
         </div>
         {article.youtubeVideoId && (
-          <div className="absolute bottom-3 right-3 bg-background/80 backdrop-blur-sm rounded-full p-1.5 text-foreground">
-            <PlayCircle className="w-4 h-4" />
+          <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity">
+            <PlayCircle className="w-12 h-12 text-white drop-shadow-lg" />
           </div>
         )}
       </div>
-      <div className="p-5 flex-1 flex flex-col">
-        <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors line-clamp-2">
+      <div className="flex flex-col flex-1 p-4 md:p-5">
+        <h3 className="font-bold text-lg mb-2 line-clamp-2 group-hover:text-primary transition-colors leading-snug">
           {article.title[language]}
         </h3>
         <p className="text-muted-foreground text-sm line-clamp-2 mb-4 flex-1">
           {article.excerpt[language]}
         </p>
-        <div className="flex items-center justify-between mt-auto text-xs text-muted-foreground pt-4 border-t border-border/50">
+        <div className="flex items-center justify-between text-xs text-muted-foreground pt-3 border-t border-border">
           <div className="flex items-center gap-2">
-            <img src={article.author.avatar} alt={article.author.name[language]} className="w-5 h-5 rounded-full" />
-            <span className="truncate max-w-[100px]">{article.author.name[language]}</span>
+            <img src={article.author.avatar} alt="" className="w-5 h-5 rounded-full" />
+            <span className="truncate max-w-[120px]">{article.author.name[language]}</span>
           </div>
-          <span className="flex items-center gap-1 flex-shrink-0">
-            <Clock className="w-3 h-3" />
+          <span className="flex items-center gap-1 shrink-0">
+            <Clock className="w-3.5 h-3.5" />
             {article.readTime} {t('readTime')}
           </span>
         </div>
