@@ -23,6 +23,8 @@ export default function ArticleDetail() {
           image: article.heroImage,
           path: `/article/${article.slug}`,
           type: 'article',
+          datePublished: article.date,
+          authorName: article.author?.name?.[language] || article.author?.name?.ar,
         }
       : {},
   );
@@ -169,7 +171,7 @@ export default function ArticleDetail() {
     <>
       <div className="relative h-[50vh] md:h-[60vh] w-full">
         <div className="absolute inset-0 bg-black/50 z-10" />
-        <img src={article.heroImage} alt="" className="w-full h-full object-cover" />
+        <img src={article.heroImage} alt={article.title[language]} className="w-full h-full object-cover" />
         <div className="absolute inset-0 z-20 container mx-auto px-4 flex flex-col justify-end pb-12">
           <div className="max-w-4xl">
             <span className="bg-primary text-primary-foreground text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4 inline-block">
