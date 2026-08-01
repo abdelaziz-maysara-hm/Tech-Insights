@@ -1,2 +1,0 @@
-- [Conditional hooks after early return](conditional-hooks-early-return.md) — a component's `if (!x) return ...` placed before later hooks crashes on remount/nav; move all hooks above any early return.
-- [Vite dev + shared .ts server modules](vite-dev-ssrloadmodule-ts-server-modules.md) — use `server.ssrLoadModule` in a Vite dev middleware to load a shared TS handler also bundled by a serverless function (e.g. Netlify).
