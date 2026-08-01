@@ -1,8 +1,0 @@
-uploads = []
-generated = []
-
-[[outputs]]
-id = "VGxZZColgbvzClqXLQaLe"
-uri = "file://downloads/techpulse-project.zip"
-type = "unspecified"
-title = "TechPulse - كل الكود (ملف مضغوط)"
