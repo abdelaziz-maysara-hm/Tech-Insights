@@ -1,12 +1,11 @@
-// Client for the admin CMS API. Item id / action travel as query params
-// because Vercel catch-all routing was unreliable for multi-segment paths.
 const BASE = '/api/cms';
 
 export class AdminApiError extends Error {
   status: number;
-  data?: any;
-  constructor(status: number, message: string, data?: any) {
+  data?: unknown;
+  constructor(status: number, message: string, data?: unknown) {
     super(message);
+    this.name = 'AdminApiError';
     this.status = status;
     this.data = data;
   }
@@ -14,8 +13,8 @@ export class AdminApiError extends Error {
 
 async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
   const res = await fetch(`${BASE}${path}`, {
-    ...options,
     credentials: 'include',
+    ...options,
     headers: {
       'Content-Type': 'application/json',
       ...(options.headers || {}),
@@ -80,5 +79,23 @@ export function bulkImport<T>(collection: Collection, items: Partial<T>[]) {
   return request<{ ok: true; added: number; committedToGithub: boolean }>(`/${collection}?action=bulk-import`, {
     method: 'POST',
     body: JSON.stringify({ items }),
+  });
+}
+
+export function generateArticle(input: {
+  titleAr?: string;
+  titleEn?: string;
+  categoryId?: string;
+}) {
+  return request<{
+    ok: true;
+    title: { ar: string; en: string };
+    excerpt: { ar: string; en: string };
+    body: { ar: string; en: string };
+    tags: string[];
+    readTime: number;
+  }>('/generate-article', {
+    method: 'POST',
+    body: JSON.stringify(input),
   });
 }
