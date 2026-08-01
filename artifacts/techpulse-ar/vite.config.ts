@@ -4,8 +4,7 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vite';
 
-// On Replit, PORT/BASE_PATH are always injected by the workflow. When building
-// standalone (e.g. Vercel/Netlify), fall back to sane defaults instead of failing.
+// PORT/BASE_PATH may be injected by the host; fall back to sane defaults.
 const rawPort = process.env.PORT;
 const port = rawPort ? Number(rawPort) : 5173;
 
@@ -84,12 +83,6 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(import.meta.dirname, 'src'),
-      '@assets': path.resolve(
-        import.meta.dirname,
-        '..',
-        '..',
-        'attached_assets',
-      ),
     },
     dedupe: ['react', 'react-dom'],
   },
