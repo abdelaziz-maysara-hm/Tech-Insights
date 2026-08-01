@@ -2,29 +2,34 @@
   {
     "id": "page-about",
     "slug": "about",
-    "title": {
-      "ar": "من نحن",
-      "en": "About Us"
-    },
+    "title": { "ar": "من نحن", "en": "About Us" },
     "content": {
-      "ar": "## رؤى تقنية\n\nموقع تقني عربي/إنجليزي يقدّم مراجعات، شروحات، ومقارنات بأسلوب واضح وعملي.\n\n## مهمتنا\n\nمساعدة القارئ على فهم التقنية واتخاذ قرارات أفضل بخصوص الهواتف، اللابتوبات، الأمان، والذكاء الاصطناعي.\n\n## المحتوى\n\nنكتب بالعربية والإنجليزية، مع تركيز على الحلول العملية والمشاكل اليومية التي يواجهها المستخدم.",
-      "en": "## Technical Insights\n\nAn Arabic/English tech site offering reviews, how-tos, and comparisons in a clear, practical style.\n\n## Our mission\n\nHelp readers understand technology and make better decisions about phones, laptops, security, and AI.\n\n## Content\n\nWe publish in Arabic and English, focusing on practical solutions to everyday tech problems."
+      "ar": "## من نحن\n\nرؤى تقنية (Technical Insights) منصة عربية/إنجليزية للشروحات العملية والمراجعات والمقارنات التقنية.\n\nنهدف لمحتوى واضح يساعدك تتخذ قراراً أسرع: من البطارية والواي فاي إلى الأمان والويندوز.",
+      "en": "## About Us\n\nTechnical Insights is a bilingual Arabic/English platform for practical guides, reviews, and tech comparisons.\n\nWe focus on clear content that helps you decide faster—from battery and Wi‑Fi to security and Windows."
     },
-    "updatedAt": "2026-07-30",
+    "updatedAt": "2026-08-02",
     "showInFooter": true
   },
   {
     "id": "page-contact",
     "slug": "contact",
-    "title": {
-      "ar": "تواصل معنا",
-      "en": "Contact"
-    },
+    "title": { "ar": "تواصل معنا", "en": "Contact" },
     "content": {
-      "ar": "## تواصل معنا\n\nللاقتراحات والشراكات والبلاغات عن أخطاء في المحتوى، راسلنا عبر البريد أو منصات التواصل المرتبطة بالموقع.\n\nنرحّب بملاحظاتكم لتحسين تجربة القراءة والمحتوى التقني.",
-      "en": "## Contact us\n\nFor suggestions, partnerships, or content corrections, reach us via email or the social channels linked on the site.\n\nWe welcome feedback to improve reading experience and technical coverage."
+      "ar": "## تواصل معنا\n\nللاقتراحات والشراكات والإبلاغ عن خطأ في مقال، تواصل عبر القنوات الرسمية للمشروع.\n\nنرحب بملاحظات تحسين المحتوى والتجربة.",
+      "en": "## Contact\n\nFor suggestions, partnerships, or article corrections, reach out via the project’s official channels.\n\nWe welcome feedback on content and UX."
     },
-    "updatedAt": "2026-07-30",
+    "updatedAt": "2026-08-02",
+    "showInFooter": true
+  },
+  {
+    "id": "page-privacy",
+    "slug": "privacy",
+    "title": { "ar": "سياسة الخصوصية", "en": "Privacy Policy" },
+    "content": {
+      "ar": "## سياسة الخصوصية\n\nنحرص على خصوصيتك. قد نستخدم ملفات تعريف الارتباط وخدمات مثل Google AdSense لتحسين التجربة وعرض إعلانات.\n\n### البيانات\nلا نبيع بياناتك. قد تُجمع بيانات استخدام مجهولة عبر أدوات التحليل والإعلانات.\n\n### التواصل\nللاستفسارات استخدم صفحة تواصل معنا.",
+      "en": "## Privacy Policy\n\nWe respect your privacy. We may use cookies and services such as Google AdSense to improve the experience and show ads.\n\n### Data\nWe do not sell your data. Anonymous usage data may be collected via analytics and ads.\n\n### Contact\nFor questions, use the contact page."
+    },
+    "updatedAt": "2026-08-02",
     "showInFooter": true
   }
 ]
