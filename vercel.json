@@ -1,0 +1,21 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "corepack enable && pnpm install --frozen-lockfile && pnpm --filter @workspace/techpulse-ar run build",
+  "outputDirectory": "artifacts/techpulse-ar/dist/public",
+  "installCommand": "corepack enable && pnpm install --frozen-lockfile",
+  "framework": null,
+  "rewrites": [
+    { "source": "/api/cms/(.*)", "destination": "/api/cms/$1" },
+    { "source": "/((?!api/|.*\\..*).*)", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/sitemap.xml",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }]
+    },
+    {
+      "source": "/rss.xml",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }]
+    }
+  ]
+}
