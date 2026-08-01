@@ -48,6 +48,12 @@ export function youtubeWatchUrl(id: string): string {
   return `https://www.youtube.com/watch?v=${id}`;
 }
 
+/** In-page embed URL (youtube-nocookie for slightly more privacy-friendly embed). */
+export function youtubeEmbedUrl(id: string): string {
+  const clean = extractYouTubeId(id);
+  return clean ? `https://www.youtube-nocookie.com/embed/${clean}` : '';
+}
+
 export function youtubeThumbnailUrl(id: string, quality: 'maxresdefault' | 'hqdefault' = 'maxresdefault'): string {
   return `https://img.youtube.com/vi/${id}/${quality}.jpg`;
 }
