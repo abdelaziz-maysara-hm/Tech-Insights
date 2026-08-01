@@ -5,8 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vite';
 
 // On Replit, PORT/BASE_PATH are always injected by the workflow. When building
-// standalone (e.g. a Netlify build, which only runs `vite build` and has no
-// notion of the Replit proxy), fall back to sane defaults instead of failing.
+// standalone (e.g. Vercel/Netlify), fall back to sane defaults instead of failing.
 const rawPort = process.env.PORT;
 const port = rawPort ? Number(rawPort) : 5173;
 
@@ -18,10 +17,8 @@ const basePath = process.env.BASE_PATH || '/';
 
 /**
  * Dev-only middleware that serves the admin CMS API at /cms/api/* from
- * inside the Vite dev server, so the admin panel works in the Replit
- * preview too. In production (Netlify) the same paths are served by the
- * Netlify Function at netlify/functions/cms-api.ts - this plugin does
- * nothing there.
+ * inside the Vite dev server. In production the same paths are served by
+ * the Netlify/Vercel function - this plugin does nothing there.
  */
 function cmsDevApiPlugin(): Plugin {
   return {
@@ -77,66 +74,42 @@ function cmsDevApiPlugin(): Plugin {
   };
 }
 
-const isReplit = process.env.REPL_ID !== undefined;
-
-export default defineConfig(async () => {
-  const replitPlugins: Plugin[] = [];
-
-  if (isReplit) {
-    const { default: runtimeErrorOverlay } = await import('@replit/vite-plugin-runtime-error-modal');
-    replitPlugins.push(runtimeErrorOverlay());
-
-    if (process.env.NODE_ENV !== 'production') {
-      const { cartographer } = await import('@replit/vite-plugin-cartographer');
-      replitPlugins.push(
-        cartographer({
-          root: path.resolve(import.meta.dirname, '..'),
-        }),
-      );
-
-      const { devBanner } = await import('@replit/vite-plugin-dev-banner');
-      replitPlugins.push(devBanner());
-    }
-  }
-
-  return {
-    base: basePath,
-    plugins: [
-      react(),
-      tailwindcss(),
-      cmsDevApiPlugin(),
-      ...replitPlugins,
-    ],
-    resolve: {
-      alias: {
-        '@': path.resolve(import.meta.dirname, 'src'),
-        '@assets': path.resolve(
-          import.meta.dirname,
-          '..',
-          '..',
-          'attached_assets',
-        ),
-      },
-      dedupe: ['react', 'react-dom'],
+export default defineConfig({
+  base: basePath,
+  plugins: [
+    react(),
+    tailwindcss(),
+    cmsDevApiPlugin(),
+  ],
+  resolve: {
+    alias: {
+      '@': path.resolve(import.meta.dirname, 'src'),
+      '@assets': path.resolve(
+        import.meta.dirname,
+        '..',
+        '..',
+        'attached_assets',
+      ),
     },
-    root: path.resolve(import.meta.dirname),
-    build: {
-      outDir: path.resolve(import.meta.dirname, 'dist/public'),
-      emptyOutDir: true,
+    dedupe: ['react', 'react-dom'],
+  },
+  root: path.resolve(import.meta.dirname),
+  build: {
+    outDir: path.resolve(import.meta.dirname, 'dist/public'),
+    emptyOutDir: true,
+  },
+  server: {
+    port,
+    strictPort: true,
+    host: '0.0.0.0',
+    allowedHosts: true,
+    fs: {
+      strict: true,
     },
-    server: {
-      port,
-      strictPort: true,
-      host: '0.0.0.0',
-      allowedHosts: true,
-      fs: {
-        strict: true,
-      },
-    },
-    preview: {
-      port,
-      host: '0.0.0.0',
-      allowedHosts: true,
-    },
-  };
+  },
+  preview: {
+    port,
+    host: '0.0.0.0',
+    allowedHosts: true,
+  },
 });
