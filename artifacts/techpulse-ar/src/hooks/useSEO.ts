@@ -10,6 +10,8 @@ interface SEOProps {
   image?: string;
   path?: string;
   type?: 'website' | 'article';
+  datePublished?: string;
+  authorName?: string;
 }
 
 function upsertMeta(attr: 'name' | 'property', key: string, content: string) {
@@ -32,12 +34,30 @@ function upsertLink(rel: string, href: string) {
   el.href = href;
 }
 
+function upsertJsonLd(id: string, data: Record<string, unknown> | null) {
+  const existing = document.getElementById(id);
+  if (!data) {
+    existing?.remove();
+    return;
+  }
+  let el = existing as HTMLScriptElement | null;
+  if (!el) {
+    el = document.createElement('script');
+    el.type = 'application/ld+json';
+    el.id = id;
+    document.head.appendChild(el);
+  }
+  el.textContent = JSON.stringify(data);
+}
+
 export function useSEO({
   title,
   description,
   image,
   path,
   type = 'website',
+  datePublished,
+  authorName,
 }: SEOProps = {}) {
   const { language } = useLanguage();
 
@@ -73,5 +93,41 @@ export function useSEO({
     upsertMeta('name', 'twitter:image', img);
 
     upsertLink('canonical', url);
-  }, [title, description, image, path, type, language]);
+
+    if (type === 'article' && title) {
+      upsertJsonLd('jsonld-article', {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: title,
+        description: desc,
+        image: img,
+        url,
+        datePublished: datePublished || undefined,
+        author: {
+          '@type': 'Person',
+          name: authorName || SITE_NAME,
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: SITE_NAME,
+          url: SITE_URL,
+        },
+        inLanguage: language === 'ar' ? 'ar' : 'en',
+      });
+    } else {
+      upsertJsonLd('jsonld-article', null);
+      upsertJsonLd('jsonld-website', {
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: SITE_NAME,
+        url: SITE_URL,
+        inLanguage: ['ar', 'en'],
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: `${SITE_URL}/search?q={search_term_string}`,
+          'query-input': 'required name=search_term_string',
+        },
+      });
+    }
+  }, [title, description, image, path, type, language, datePublished, authorName]);
 }

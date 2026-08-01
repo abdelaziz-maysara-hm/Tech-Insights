@@ -5,6 +5,7 @@ import { useSEO } from '@/hooks/useSEO';
 import { useAllArticles } from '@/hooks/useAllArticles';
 import { Search as SearchIcon } from 'lucide-react';
 import type { Category } from '@/data/mockData';
+import { rankArticles } from '@/lib/searchRanking';
 
 const CATEGORIES: Category[] = [
   'cybersecurity',
@@ -42,24 +43,7 @@ export default function Search() {
   };
 
   const results = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    return allArticles.filter((a) => {
-      if (category !== 'all' && a.categoryId !== category) return false;
-      if (!q) return category !== 'all';
-      const hay = [
-        a.title.ar,
-        a.title.en,
-        a.excerpt.ar,
-        a.excerpt.en,
-        a.body?.ar || '',
-        a.body?.en || '',
-        ...(a.tags ?? []),
-        a.categoryId,
-      ]
-        .join(' ')
-        .toLowerCase();
-      return hay.includes(q);
-    });
+    return rankArticles(allArticles, query, category).map((r) => r.article);
   }, [allArticles, query, category]);
 
   const onSubmit = (e: React.FormEvent) => {
