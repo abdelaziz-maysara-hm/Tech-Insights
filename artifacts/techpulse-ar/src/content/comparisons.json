@@ -1,1 +1,1112 @@
-PLACEHOLDER
+[
+  {
+    "id": "c10",
+    "slug": "iphone-16-vs-s25-ultra",
+    "title": {
+      "ar": "آيفون 16 ضد جالاكسي S25 ألترا",
+      "en": "iPhone 16 vs Galaxy S25 Ultra"
+    },
+    "excerpt": {
+      "ar": "مقارنة عملية بين أقوى هواتف أندرويد وiOS.",
+      "en": "Practical flagship Android vs iOS comparison."
+    },
+    "device1Name": "iPhone 16",
+    "device2Name": "Galaxy S25 Ultra",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c101",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c102",
+    "date": "2026-07-20",
+    "categoryId": "comparisons",
+    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c10h",
+    "overallWinner": 2,
+    "specs": {
+      "display": {
+        "label": {
+          "ar": "الشاشة",
+          "en": "Display"
+        },
+        "device1Value": {
+          "ar": "6.1\" OLED 60Hz",
+          "en": "6.1\" OLED 60Hz"
+        },
+        "device2Value": {
+          "ar": "6.8\" AMOLED 120Hz",
+          "en": "6.8\" AMOLED 120Hz"
+        },
+        "device1Score": 8,
+        "device2Score": 9.5,
+        "winner": 2
+      },
+      "performance": {
+        "label": {
+          "ar": "الأداء",
+          "en": "Performance"
+        },
+        "device1Value": {
+          "ar": "A18",
+          "en": "A18"
+        },
+        "device2Value": {
+          "ar": "Snapdragon flagship",
+          "en": "Snapdragon flagship"
+        },
+        "device1Score": 9.5,
+        "device2Score": 9.5,
+        "winner": 1
+      },
+      "battery": {
+        "label": {
+          "ar": "البطارية",
+          "en": "Battery"
+        },
+        "device1Value": {
+          "ar": "يوم كامل",
+          "en": "All-day"
+        },
+        "device2Value": {
+          "ar": "يوم+ مع شاشة أكبر",
+          "en": "All-day+"
+        },
+        "device1Score": 8,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "camera": {
+        "label": {
+          "ar": "الكاميرا",
+          "en": "Camera"
+        },
+        "device1Value": {
+          "ar": "ممتازة فيديو",
+          "en": "Excellent video"
+        },
+        "device2Value": {
+          "ar": "مرنة وزووم",
+          "en": "Flexible zoom"
+        },
+        "device1Score": 9,
+        "device2Score": 9.2,
+        "winner": 2
+      },
+      "price": {
+        "label": {
+          "ar": "السعر",
+          "en": "Price"
+        },
+        "device1Value": {
+          "ar": "مرتفع",
+          "en": "High"
+        },
+        "device2Value": {
+          "ar": "مرتفع جداً",
+          "en": "Very high"
+        },
+        "device1Score": 7,
+        "device2Score": 6,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "S25 Ultra للمرونة والزوم؛ آيفون 16 لمنظومة آبل والاستقرار.",
+      "en": "S25 Ultra for flexibility/zoom; iPhone 16 for Apple ecosystem."
+    }
+  },
+  {
+    "id": "c11",
+    "slug": "ssd-vs-hdd-storage",
+    "title": {
+      "ar": "SSD ضد HDD: أيهما تختار؟",
+      "en": "SSD vs HDD: Which Should You Choose?"
+    },
+    "excerpt": {
+      "ar": "مقارنة سرعة وسعر واستخدام مناسب.",
+      "en": "Speed, price, and the right use case."
+    },
+    "device1Name": "SSD NVMe",
+    "device2Name": "HDD 7200RPM",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c111",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c112",
+    "date": "2026-07-18",
+    "categoryId": "comparisons",
+    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c11h",
+    "overallWinner": 1,
+    "specs": {
+      "display": {
+        "label": {
+          "ar": "الاستخدام",
+          "en": "Use case"
+        },
+        "device1Value": {
+          "ar": "نظام وبرامج",
+          "en": "OS & apps"
+        },
+        "device2Value": {
+          "ar": "أرشيف ووسائط",
+          "en": "Archives & media"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "performance": {
+        "label": {
+          "ar": "السرعة",
+          "en": "Speed"
+        },
+        "device1Value": {
+          "ar": "سريع جداً",
+          "en": "Very fast"
+        },
+        "device2Value": {
+          "ar": "بطيء نسبياً",
+          "en": "Relatively slow"
+        },
+        "device1Score": 10,
+        "device2Score": 4,
+        "winner": 1
+      },
+      "battery": {
+        "label": {
+          "ar": "الضوضاء/الحرارة",
+          "en": "Noise/Heat"
+        },
+        "device1Value": {
+          "ar": "صامت تقريباً",
+          "en": "Almost silent"
+        },
+        "device2Value": {
+          "ar": "أجزاء متحركة",
+          "en": "Moving parts"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "camera": {
+        "label": {
+          "ar": "المتانة",
+          "en": "Durability"
+        },
+        "device1Value": {
+          "ar": "مقاوم للصدمات أفضل",
+          "en": "Better shock resistance"
+        },
+        "device2Value": {
+          "ar": "حساس للحركة",
+          "en": "Motion sensitive"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "price": {
+        "label": {
+          "ar": "سعر الجيجا",
+          "en": "Price per GB"
+        },
+        "device1Value": {
+          "ar": "أغلى",
+          "en": "Higher"
+        },
+        "device2Value": {
+          "ar": "أرخص",
+          "en": "Cheaper"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "اجعل النظام على SSD والأرشيف الكبير على HDD إن احتجت التوفير.",
+      "en": "Put the OS on SSD; use HDD for large cheap archives."
+    }
+  },
+  {
+    "id": "c12",
+    "slug": "chrome-vs-firefox-2026",
+    "title": {
+      "ar": "كروم ضد فايرفوكس 2026",
+      "en": "Chrome vs Firefox 2026"
+    },
+    "excerpt": {
+      "ar": "أداء وخصوصية وامتدادات.",
+      "en": "Performance, privacy, and extensions."
+    },
+    "device1Name": "Google Chrome",
+    "device2Name": "Mozilla Firefox",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c121",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c122",
+    "date": "2026-07-15",
+    "categoryId": "comparisons",
+    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c12h",
+    "overallWinner": 2,
+    "specs": {
+      "display": {
+        "label": {
+          "ar": "الخصوصية",
+          "en": "Privacy"
+        },
+        "device1Value": {
+          "ar": "تتبع أعلى",
+          "en": "More tracking"
+        },
+        "device2Value": {
+          "ar": "أفضل افتراضياً",
+          "en": "Better defaults"
+        },
+        "device1Score": 5,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "performance": {
+        "label": {
+          "ar": "الأداء",
+          "en": "Performance"
+        },
+        "device1Value": {
+          "ar": "سريع ومتوافق",
+          "en": "Fast & compatible"
+        },
+        "device2Value": {
+          "ar": "جيد جداً",
+          "en": "Very good"
+        },
+        "device1Score": 9.5,
+        "device2Score": 8.5,
+        "winner": 1
+      },
+      "battery": {
+        "label": {
+          "ar": "استهلاك الرام",
+          "en": "RAM use"
+        },
+        "device1Value": {
+          "ar": "مرتفع غالباً",
+          "en": "Often high"
+        },
+        "device2Value": {
+          "ar": "أخف أحياناً",
+          "en": "Sometimes lighter"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
+      },
+      "camera": {
+        "label": {
+          "ar": "الإضافات",
+          "en": "Extensions"
+        },
+        "device1Value": {
+          "ar": "مكتبة ضخمة",
+          "en": "Huge library"
+        },
+        "device2Value": {
+          "ar": "جيدة",
+          "en": "Good"
+        },
+        "device1Score": 9.5,
+        "device2Score": 8,
+        "winner": 1
+      },
+      "price": {
+        "label": {
+          "ar": "التكلفة",
+          "en": "Cost"
+        },
+        "device1Value": {
+          "ar": "مجاني",
+          "en": "Free"
+        },
+        "device2Value": {
+          "ar": "مجاني",
+          "en": "Free"
+        },
+        "device1Score": 9,
+        "device2Score": 9,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "كروم للتوافق؛ فايرفوكس إن كانت الخصوصية أولويتك.",
+      "en": "Chrome for compatibility; Firefox if privacy is priority."
+    }
+  },
+  {
+    "id": "c13",
+    "slug": "wifi6-vs-wifi5-router",
+    "title": {
+      "ar": "راوتر Wi‑Fi 6 ضد Wi‑Fi 5",
+      "en": "Wi‑Fi 6 vs Wi‑Fi 5 Router"
+    },
+    "excerpt": {
+      "ar": "هل الترقية تستحق في بيت مزدحم؟",
+      "en": "Is upgrading worth it in a busy home?"
+    },
+    "device1Name": "Wi‑Fi 6",
+    "device2Name": "Wi‑Fi 5 (AC)",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c131",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c132",
+    "date": "2026-07-12",
+    "categoryId": "comparisons",
+    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c13h",
+    "overallWinner": 1,
+    "specs": {
+      "display": {
+        "label": {
+          "ar": "السرعة",
+          "en": "Speed"
+        },
+        "device1Value": {
+          "ar": "أعلى نظرياً",
+          "en": "Higher theoretical"
+        },
+        "device2Value": {
+          "ar": "جيدة",
+          "en": "Good"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "performance": {
+        "label": {
+          "ar": "الأجهزة الكثيرة",
+          "en": "Many devices"
+        },
+        "device1Value": {
+          "ar": "أفضل",
+          "en": "Better"
+        },
+        "device2Value": {
+          "ar": "تضعف أسرع",
+          "en": "Degrades faster"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "battery": {
+        "label": {
+          "ar": "التغطية",
+          "en": "Coverage"
+        },
+        "device1Value": {
+          "ar": "مش شرط أفضل",
+          "en": "Not always better"
+        },
+        "device2Value": {
+          "ar": "حسب الهوائي",
+          "en": "Antenna dependent"
+        },
+        "device1Score": 7,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "camera": {
+        "label": {
+          "ar": "التوافق",
+          "en": "Compatibility"
+        },
+        "device1Value": {
+          "ar": "يحتاج أجهزة تدعم",
+          "en": "Needs client support"
+        },
+        "device2Value": {
+          "ar": "واسع",
+          "en": "Wide"
+        },
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "price": {
+        "label": {
+          "ar": "السعر",
+          "en": "Price"
+        },
+        "device1Value": {
+          "ar": "أغلى",
+          "en": "Higher"
+        },
+        "device2Value": {
+          "ar": "أرخص",
+          "en": "Cheaper"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Wi‑Fi 6 ممتاز مع أجهزة حديثة وبيت مليان شاشات؛ غير ذلك Wi‑Fi 5 الجيد يكفي.",
+      "en": "Wi‑Fi 6 shines with modern clients; a good Wi‑Fi 5 router still fine otherwise."
+    }
+  },
+  {
+    "id": "c14",
+    "slug": "android-vs-iphone-battery",
+    "title": {
+      "ar": "أندرويد ضد آيفون: البطارية",
+      "en": "Android vs iPhone: Battery Life"
+    },
+    "excerpt": {
+      "ar": "من يصمد أطول في الاستخدام اليومي؟",
+      "en": "Who lasts longer in daily use?"
+    },
+    "device1Name": "Android flagship",
+    "device2Name": "iPhone",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c141",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c142",
+    "date": "2026-07-10",
+    "categoryId": "comparisons",
+    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c14h",
+    "overallWinner": 1,
+    "specs": {
+      "display": {
+        "label": {
+          "ar": "الاستخدام المختلط",
+          "en": "Mixed use"
+        },
+        "device1Value": {
+          "ar": "يوم إلى يومين",
+          "en": "1–2 days"
+        },
+        "device2Value": {
+          "ar": "يوم كامل غالباً",
+          "en": "Usually all-day"
+        },
+        "device1Score": 9,
+        "device2Score": 8,
+        "winner": 1
+      },
+      "performance": {
+        "label": {
+          "ar": "الشحن",
+          "en": "Charging"
+        },
+        "device1Value": {
+          "ar": "أسرع في فئات",
+          "en": "Faster in many tiers"
+        },
+        "device2Value": {
+          "ar": "مستقر",
+          "en": "Stable"
+        },
+        "device1Score": 8.5,
+        "device2Score": 8,
+        "winner": 1
+      },
+      "battery": {
+        "label": {
+          "ar": "تحسين النظام",
+          "en": "OS optimization"
+        },
+        "device1Value": {
+          "ar": "متفاوت",
+          "en": "Varies"
+        },
+        "device2Value": {
+          "ar": "ممتاز",
+          "en": "Excellent"
+        },
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "camera": {
+        "label": {
+          "ar": "قابلية الاستبدال",
+          "en": "Replaceability"
+        },
+        "device1Value": {
+          "ar": "أحياناً أسهل",
+          "en": "Sometimes easier"
+        },
+        "device2Value": {
+          "ar": "أصعب/أغلى",
+          "en": "Harder/costlier"
+        },
+        "device1Score": 8,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "price": {
+        "label": {
+          "ar": "القيمة",
+          "en": "Value"
+        },
+        "device1Value": {
+          "ar": "خيارات أكثر",
+          "en": "More options"
+        },
+        "device2Value": {
+          "ar": "ثابت",
+          "en": "Fixed tiers"
+        },
+        "device1Score": 8,
+        "device2Score": 7,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "أندرويد يقدّم سعات أكبر غالباً؛ آيفون يستغل البطارية بكفاءة عالية.",
+      "en": "Android often offers bigger cells; iPhone is highly efficient."
+    }
+  },
+  {
+    "id": "c15",
+    "slug": "laptop-vs-tablet-study",
+    "title": {
+      "ar": "لابتوب ضد تابلت للدراسة",
+      "en": "Laptop vs Tablet for Studying"
+    },
+    "excerpt": {
+      "ar": "كتابة وتعدد مهام مقابل خفة وقراءة.",
+      "en": "Typing and multitasking vs light reading."
+    },
+    "device1Name": "Laptop",
+    "device2Name": "Tablet + keyboard",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c151",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c152",
+    "date": "2026-07-08",
+    "categoryId": "comparisons",
+    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c15h",
+    "overallWinner": 1,
+    "specs": {
+      "display": {
+        "label": {
+          "ar": "الكتابة الطويلة",
+          "en": "Long writing"
+        },
+        "device1Value": {
+          "ar": "أفضل",
+          "en": "Better"
+        },
+        "device2Value": {
+          "ar": "مقبولة مع كيبورد",
+          "en": "OK with keyboard"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "performance": {
+        "label": {
+          "ar": "تعدد النوافذ",
+          "en": "Multitasking"
+        },
+        "device1Value": {
+          "ar": "قوي",
+          "en": "Strong"
+        },
+        "device2Value": {
+          "ar": "محدود أكثر",
+          "en": "More limited"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "battery": {
+        "label": {
+          "ar": "الوزن",
+          "en": "Weight"
+        },
+        "device1Value": {
+          "ar": "أثقل",
+          "en": "Heavier"
+        },
+        "device2Value": {
+          "ar": "أخف",
+          "en": "Lighter"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "camera": {
+        "label": {
+          "ar": "القلم/الرسم",
+          "en": "Stylus/notes"
+        },
+        "device1Value": {
+          "ar": "ضعيف غالباً",
+          "en": "Often weak"
+        },
+        "device2Value": {
+          "ar": "ممتاز",
+          "en": "Excellent"
+        },
+        "device1Score": 5,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "price": {
+        "label": {
+          "ar": "السعر",
+          "en": "Price"
+        },
+        "device1Value": {
+          "ar": "متنوع",
+          "en": "Wide range"
+        },
+        "device2Value": {
+          "ar": "متنوع",
+          "en": "Wide range"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "للأبحاث والمقالات: لابتوب. للمحاضرات والتظليل: تابلت.",
+      "en": "Papers and research: laptop. Lectures and highlighting: tablet."
+    }
+  },
+  {
+    "id": "c16",
+    "slug": "google-drive-vs-onedrive",
+    "title": {
+      "ar": "Google Drive ضد OneDrive",
+      "en": "Google Drive vs OneDrive"
+    },
+    "excerpt": {
+      "ar": "أيهما أنسب حسب نظامك؟",
+      "en": "Which fits your ecosystem?"
+    },
+    "device1Name": "Google Drive",
+    "device2Name": "OneDrive",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c161",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c162",
+    "date": "2026-07-05",
+    "categoryId": "comparisons",
+    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c16h",
+    "overallWinner": 2,
+    "specs": {
+      "display": {
+        "label": {
+          "ar": "ويندوز/Office",
+          "en": "Windows/Office"
+        },
+        "device1Value": {
+          "ar": "جيد",
+          "en": "Good"
+        },
+        "device2Value": {
+          "ar": "اندماج أقوى",
+          "en": "Stronger integration"
+        },
+        "device1Score": 7,
+        "device2Score": 9.5,
+        "winner": 2
+      },
+      "performance": {
+        "label": {
+          "ar": "أندرويد/جوجل",
+          "en": "Android/Google"
+        },
+        "device1Value": {
+          "ar": "ممتاز",
+          "en": "Excellent"
+        },
+        "device2Value": {
+          "ar": "جيد",
+          "en": "Good"
+        },
+        "device1Score": 9.5,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "battery": {
+        "label": {
+          "ar": "المشاركة",
+          "en": "Sharing"
+        },
+        "device1Value": {
+          "ar": "سهلة",
+          "en": "Easy"
+        },
+        "device2Value": {
+          "ar": "سهلة",
+          "en": "Easy"
+        },
+        "device1Score": 9,
+        "device2Score": 9,
+        "winner": 1
+      },
+      "camera": {
+        "label": {
+          "ar": "الأوفيس أونلاين",
+          "en": "Online Office"
+        },
+        "device1Value": {
+          "ar": "Google Docs",
+          "en": "Google Docs"
+        },
+        "device2Value": {
+          "ar": "Microsoft 365",
+          "en": "Microsoft 365"
+        },
+        "device1Score": 8,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "price": {
+        "label": {
+          "ar": "الباقات",
+          "en": "Plans"
+        },
+        "device1Value": {
+          "ar": "متقاربة",
+          "en": "Similar"
+        },
+        "device2Value": {
+          "ar": "متقاربة",
+          "en": "Similar"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "OneDrive لمستخدمي ويندوز وOffice؛ Drive لمستخدمي جوجل وأندرويد.",
+      "en": "OneDrive for Windows/Office users; Drive for Google/Android users."
+    }
+  },
+  {
+    "id": "c17",
+    "slug": "airpods-vs-galaxy-buds",
+    "title": {
+      "ar": "AirPods ضد Galaxy Buds",
+      "en": "AirPods vs Galaxy Buds"
+    },
+    "excerpt": {
+      "ar": "صوت وميكروفون وسهولة النظام.",
+      "en": "Sound, mic, and ecosystem ease."
+    },
+    "device1Name": "AirPods",
+    "device2Name": "Galaxy Buds",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c171",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c172",
+    "date": "2026-07-02",
+    "categoryId": "comparisons",
+    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c17h",
+    "overallWinner": 1,
+    "specs": {
+      "display": {
+        "label": {
+          "ar": "مع آيفون",
+          "en": "With iPhone"
+        },
+        "device1Value": {
+          "ar": "أفضل تجربة",
+          "en": "Best experience"
+        },
+        "device2Value": {
+          "ar": "جيدة",
+          "en": "Good"
+        },
+        "device1Score": 9.5,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "performance": {
+        "label": {
+          "ar": "مع أندرويد",
+          "en": "With Android"
+        },
+        "device1Value": {
+          "ar": "محدودة أكثر",
+          "en": "More limited"
+        },
+        "device2Value": {
+          "ar": "أفضل",
+          "en": "Better"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "battery": {
+        "label": {
+          "ar": "البطارية",
+          "en": "Battery"
+        },
+        "device1Value": {
+          "ar": "جيدة",
+          "en": "Good"
+        },
+        "device2Value": {
+          "ar": "جيدة",
+          "en": "Good"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 1
+      },
+      "camera": {
+        "label": {
+          "ar": "عزل الضوضاء",
+          "en": "ANC"
+        },
+        "device1Value": {
+          "ar": "ممتاز في الفئات",
+          "en": "Great in tiers"
+        },
+        "device2Value": {
+          "ar": "ممتاز",
+          "en": "Great"
+        },
+        "device1Score": 9,
+        "device2Score": 9,
+        "winner": 1
+      },
+      "price": {
+        "label": {
+          "ar": "السعر",
+          "en": "Price"
+        },
+        "device1Value": {
+          "ar": "مرتفع",
+          "en": "High"
+        },
+        "device2Value": {
+          "ar": "غالباً أقل",
+          "en": "Often lower"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "اختر حسب هاتفك: آبل مع AirPods وسامسونج/أندرويد مع Buds.",
+      "en": "Pick by phone: Apple with AirPods; Samsung/Android with Buds."
+    }
+  },
+  {
+    "id": "c18",
+    "slug": "windows-vs-macos-students",
+    "title": {
+      "ar": "ويندوز ضد macOS للطلاب",
+      "en": "Windows vs macOS for Students"
+    },
+    "excerpt": {
+      "ar": "برامج وألعاب وسعر.",
+      "en": "Software, games, and price."
+    },
+    "device1Name": "Windows laptop",
+    "device2Name": "MacBook",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c181",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c182",
+    "date": "2026-06-28",
+    "categoryId": "comparisons",
+    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c18h",
+    "overallWinner": 1,
+    "specs": {
+      "display": {
+        "label": {
+          "ar": "البرامج الدراسية",
+          "en": "School software"
+        },
+        "device1Value": {
+          "ar": "توافق أوسع",
+          "en": "Wider compatibility"
+        },
+        "device2Value": {
+          "ar": "ممتاز للتصميم",
+          "en": "Great for design"
+        },
+        "device1Score": 9,
+        "device2Score": 8,
+        "winner": 1
+      },
+      "performance": {
+        "label": {
+          "ar": "الألعاب",
+          "en": "Gaming"
+        },
+        "device1Value": {
+          "ar": "أفضل",
+          "en": "Better"
+        },
+        "device2Value": {
+          "ar": "محدود",
+          "en": "Limited"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "battery": {
+        "label": {
+          "ar": "البناء/الشاشة",
+          "en": "Build/display"
+        },
+        "device1Value": {
+          "ar": "متفاوت",
+          "en": "Varies"
+        },
+        "device2Value": {
+          "ar": "ممتاز غالباً",
+          "en": "Often excellent"
+        },
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "camera": {
+        "label": {
+          "ar": "الترقية",
+          "en": "Upgrades"
+        },
+        "device1Value": {
+          "ar": "أحياناً ممكن",
+          "en": "Sometimes possible"
+        },
+        "device2Value": {
+          "ar": "نادراً",
+          "en": "Rare"
+        },
+        "device1Score": 8,
+        "device2Score": 4,
+        "winner": 1
+      },
+      "price": {
+        "label": {
+          "ar": "السعر",
+          "en": "Price"
+        },
+        "device1Value": {
+          "ar": "خيارات أرخص",
+          "en": "Cheaper options"
+        },
+        "device2Value": {
+          "ar": "أغلى غالباً",
+          "en": "Often pricier"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "ويندوز للمرونة والسعر؛ Mac إن كنت في منظومة آبل وتكتب/تصمم كثيراً.",
+      "en": "Windows for flexibility and price; Mac for Apple ecosystem and creative work."
+    }
+  },
+  {
+    "id": "c19",
+    "slug": "powerbank-20000-vs-10000",
+    "title": {
+      "ar": "باور بانك 20000 ضد 10000",
+      "en": "20000mAh vs 10000mAh Power Bank"
+    },
+    "excerpt": {
+      "ar": "سعة مقابل الوزن والسفر.",
+      "en": "Capacity vs weight and travel."
+    },
+    "device1Name": "20000mAh",
+    "device2Name": "10000mAh",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c191",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c192",
+    "date": "2026-06-25",
+    "categoryId": "comparisons",
+    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c19h",
+    "overallWinner": 1,
+    "specs": {
+      "display": {
+        "label": {
+          "ar": "عدد الشحنات",
+          "en": "Charge count"
+        },
+        "device1Value": {
+          "ar": "3–4 هاتف",
+          "en": "3–4 phones"
+        },
+        "device2Value": {
+          "ar": "1–2 هاتف",
+          "en": "1–2 phones"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "performance": {
+        "label": {
+          "ar": "الوزن",
+          "en": "Weight"
+        },
+        "device1Value": {
+          "ar": "أثقل",
+          "en": "Heavier"
+        },
+        "device2Value": {
+          "ar": "أخف",
+          "en": "Lighter"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "battery": {
+        "label": {
+          "ar": "الطيران",
+          "en": "Flights"
+        },
+        "device1Value": {
+          "ar": "مسموح عادة",
+          "en": "Usually allowed"
+        },
+        "device2Value": {
+          "ar": "أسهل",
+          "en": "Easier"
+        },
+        "device1Score": 8,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "camera": {
+        "label": {
+          "ar": "الشحن السريع",
+          "en": "Fast charge"
+        },
+        "device1Value": {
+          "ar": "حسب الموديل",
+          "en": "Model dependent"
+        },
+        "device2Value": {
+          "ar": "حسب الموديل",
+          "en": "Model dependent"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 1
+      },
+      "price": {
+        "label": {
+          "ar": "السعر",
+          "en": "Price"
+        },
+        "device1Value": {
+          "ar": "أعلى",
+          "en": "Higher"
+        },
+        "device2Value": {
+          "ar": "أقل",
+          "en": "Lower"
+        },
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "للسفر الطويل 20000؛ للجيب يومياً 10000 أخف.",
+      "en": "Long trips: 20000; daily pocket carry: 10000."
+    }
+  }
+]
