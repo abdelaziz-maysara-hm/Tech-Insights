@@ -27,16 +27,40 @@ export default function ArticleDetail() {
       : {},
   );
 
-  const relatedArticles = article
-    ? allArticles
-        .filter(
-          (a) =>
-            a.id !== article.id &&
-            (a.categoryId === article.categoryId ||
-              (a.tags ?? []).some((tag) => (article.tags ?? []).includes(tag))),
-        )
-        .slice(0, 3)
-    : [];
+  // Weighted related articles (category > subcategory > tags).
+  // Scores are relative; higher is better. Only positive-score items are shown.
+  const relatedArticles = useMemo(() => {
+    if (!article) return [];
+
+    const sourceTags = new Set((article.tags ?? []).map((t) => t.toLowerCase()));
+    const scored = allArticles
+      .filter((a) => a.id !== article.id)
+      .map((a) => {
+        let score = 0;
+        if (a.categoryId === article.categoryId) score += 40;
+        if (
+          article.subcategoryId &&
+          a.subcategoryId &&
+          a.subcategoryId === article.subcategoryId
+        ) {
+          score += 15;
+        }
+        const overlap = (a.tags ?? []).filter((t) =>
+          sourceTags.has(t.toLowerCase()),
+        ).length;
+        if (sourceTags.size > 0 && overlap > 0) {
+          // Up to 30 points based on tag overlap ratio
+          score += Math.min(30, Math.round((overlap / sourceTags.size) * 30));
+        }
+        return { article: a, score };
+      })
+      .filter((x) => x.score > 0)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 3)
+      .map((x) => x.article);
+
+    return scored;
+  }, [article, allArticles]);
 
   const bodyText = article ? article.body[language] : '';
   const paragraphs = bodyText ? bodyText.split('\n\n') : [];
