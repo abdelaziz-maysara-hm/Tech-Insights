@@ -13,9 +13,9 @@ export default function Videos() {
   const { language, t } = useLanguage();
   const { allArticles } = useAllArticles();
 
-  const videoArticles = allArticles.filter((a) => a.youtubeVideoId);
+  const videoArticles = allArticles.filter((a) => a.youtubeVideoId && /^[\w-]{11}$/.test(a.youtubeVideoId));
 
-  useSEO({ title: t('videos') });
+  useSEO({ title: t('videos'), path: '/videos' });
 
   const isEmpty = videoArticles.length === 0 && cmsVideos.length === 0;
 
@@ -53,21 +53,27 @@ export default function Videos() {
                   }}
                 />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center text-white shadow-lg transform group-hover:scale-110 transition-transform">
-                    <PlayCircle className="w-8 h-8 ml-1" />
-                  </div>
+                  <a
+                    href={youtubeWatchUrl(article.youtubeVideoId!)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-16 h-16 bg-primary/90 text-primary-foreground rounded-full flex items-center justify-center hover:scale-110 transition-transform shadow-lg"
+                    aria-label="Play on YouTube"
+                  >
+                    <PlayCircle className="w-10 h-10" />
+                  </a>
                 </div>
               </div>
-              <div className="p-6">
-                <span className="text-primary text-xs font-bold mb-2 block">{t(article.categoryId)}</span>
-                <h3 className="text-lg font-bold mb-3 line-clamp-2 hover:text-primary transition-colors">
-                  <Link href={`/article/${article.slug}`}>{article.title[language]}</Link>
-                </h3>
-                <p className="text-sm text-muted-foreground line-clamp-2">{article.excerpt[language]}</p>
+              <div className="p-5">
+                <Link href={`/article/${article.slug}`} className="block">
+                  <h3 className="font-bold text-lg mb-2 line-clamp-2 group-hover:text-primary transition-colors">
+                    {article.title[language]}
+                  </h3>
+                  <p className="text-sm text-muted-foreground line-clamp-2">{article.excerpt[language]}</p>
+                </Link>
               </div>
             </div>
           ))}
-
           {cmsVideos.map((video) => (
             <a
               key={video.id}
@@ -88,13 +94,13 @@ export default function Videos() {
                   }}
                 />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center text-white shadow-lg transform group-hover:scale-110 transition-transform">
-                    <PlayCircle className="w-8 h-8 ml-1" />
+                  <div className="w-16 h-16 bg-primary/90 text-primary-foreground rounded-full flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg">
+                    <PlayCircle className="w-10 h-10" />
                   </div>
                 </div>
               </div>
-              <div className="p-6">
-                <h3 className="text-lg font-bold mb-3 line-clamp-2 group-hover:text-primary transition-colors">
+              <div className="p-5">
+                <h3 className="font-bold text-lg mb-2 line-clamp-2 group-hover:text-primary transition-colors">
                   {video.title[language]}
                 </h3>
                 <p className="text-sm text-muted-foreground line-clamp-2">{video.description[language]}</p>
