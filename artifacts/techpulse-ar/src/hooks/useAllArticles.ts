@@ -1,10 +1,28 @@
-import { useCallback } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { Article } from '@/data/mockData';
 import adminArticlesJson from '@/content/articles.json';
 
-/** Public site reads build-time CMS JSON (updated when content is committed). */
+/**
+ * Prefer live CMS (same data admin import writes).
+ * Fallback to build-time JSON if API is unavailable.
+ */
 export function useAllArticles() {
-  const allArticles = adminArticlesJson as unknown as Article[];
-  const refresh = useCallback(() => {}, []);
+  const bundled = adminArticlesJson as unknown as Article[];
+  const [allArticles, setAllArticles] = useState<Article[]>(bundled);
+
+  const refresh = useCallback(() => {
+    fetch('/api/cms/public/articles')
+      .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+      .then((data) => {
+        const items = Array.isArray(data?.items) ? (data.items as Article[]) : [];
+        if (items.length > 0) setAllArticles(items);
+      })
+      .catch(() => {});
+  }, []);
+
+  useEffect(() => {
+    refresh();
+  }, [refresh]);
+
   return { allArticles, refresh };
 }
