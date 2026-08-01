@@ -1,1 +1,365 @@
-PLACEHOLDER_WILL_REPLACE
+[
+  {
+    "id": "ti-301",
+    "slug": "ai-tools-everyday-2026",
+    "title": {
+      "ar": "أفضل أدوات الذكاء الاصطناعي للاستخدام اليومي في 2026",
+      "en": "Best Everyday AI Tools in 2026"
+    },
+    "excerpt": {
+      "ar": "دليل عملي لأدوات AI توفّر وقتك في الكتابة والترجمة والبحث دون تعقيد.",
+      "en": "A practical guide to AI tools that save time on writing, translation, and research."
+    },
+    "body": {
+      "ar": "## لماذا يهمك الآن؟\n\nالذكاء الاصطناعي لم يعد تجربة تقنية نادرة؛ أدواته أصبحت جزءاً من العمل والدراسة والحياة اليومية.\n\n## للكتابة والتحرير\n\nاستخدم أدوات تلخيص وصياغة تساعد على تحسين النصوص مع مراجعة بشرية دائماً قبل النشر.\n\n## للبحث والتعلم\n\nاسأل عن مفاهيم تقنية واطلب أمثلة مبسطة، ثم تحقق من المصادر الرسمية قبل الاعتماد على الإجابة.\n\n## نصيحة أمان\n\nلا تُدخل كلمات مرور أو بيانات بنكية أو مستندات سرية في أي أداة عامة.",
+      "en": "## Why it matters now\n\nAI is no longer a rare experiment; its tools are part of work, study, and daily life.\n\n## Writing and editing\n\nUse summarization and rewriting tools to improve drafts, always with a human review before publishing.\n\n## Research and learning\n\nAsk for simplified explanations of technical concepts, then verify against official sources.\n\n## Security tip\n\nNever paste passwords, banking data, or confidential documents into public AI tools."
+    },
+    "categoryId": "ai",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=12"
+    },
+    "date": "2026-07-28",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
+    "tags": ["AI", "ذكاء اصطناعي", "أدوات", "Tools"],
+    "isFeatured": true,
+    "isTrending": true,
+    "youtubeVideoId": "ad79nYk2-go"
+  },
+  {
+    "id": "ti-302",
+    "slug": "password-manager-why-you-need-one",
+    "title": {
+      "ar": "لماذا تحتاج مدير كلمات مرور وكيف تبدأ خلال 10 دقائق",
+      "en": "Why You Need a Password Manager — Start in 10 Minutes"
+    },
+    "excerpt": {
+      "ar": "تكرار كلمة المرور خطر حقيقي. إليك الحل العملي بدون تعقيد.",
+      "en": "Reusing passwords is a real risk. Here is the practical fix without complexity."
+    },
+    "body": {
+      "ar": "## المشكلة\n\nعند اختراق موقع واحد، تُجرَّب نفس كلمة المرور على حساباتك الأخرى تلقائياً.\n\n## الحل\n\nمدير كلمات المرور يولّد كلمة فريدة لكل موقع ويحفظها مشفّرة.\n\n## كيف تبدأ\n\n1. اختر أداة موثوقة تدعم التحقق بخطوتين.\n2. غيّر أولاً كلمات مرور البريد والبنك ووسائل التواصل.\n3. أضف باقي الحسابات تدريجياً.\n\n## نصيحة\n\nاجعل كلمة المرور الرئيسية طويلة وسهلة التذكر لك فقط، وفعّل المصادقة الثنائية.",
+      "en": "## The problem\n\nWhen one site is breached, attackers try the same password on your other accounts automatically.\n\n## The solution\n\nA password manager generates a unique password per site and stores them encrypted.\n\n## How to start\n\n1. Pick a trusted tool with two-factor authentication.\n2. Change email, banking, and social passwords first.\n3. Add other accounts gradually.\n\n## Tip\n\nUse a long master password only you remember, and enable 2FA."
+    },
+    "categoryId": "cybersecurity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=33"
+    },
+    "date": "2026-07-26",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&h=450&fit=crop",
+    "tags": ["أمن", "كلمات مرور", "Security", "Passwords"],
+    "isFeatured": true,
+    "isTrending": true
+  },
+  {
+    "id": "ti-303",
+    "slug": "ssd-vs-hdd-laptop-upgrade",
+    "title": {
+      "ar": "ترقية اللابتوب من HDD إلى SSD: أكبر فرق تحسّه فوراً",
+      "en": "HDD to SSD Laptop Upgrade: The Biggest Instant Difference"
+    },
+    "excerpt": {
+      "ar": "لماذا SSD أهم ترقية لمعظم اللابتوبات القديمة وكيف تختار السعة المناسبة.",
+      "en": "Why an SSD is the most impactful upgrade for older laptops and how to pick capacity."
+    },
+    "body": {
+      "ar": "## الفرق المحسوس\n\nالإقلاع ينخفض غالباً من دقيقة إلى أقل من 20 ثانية، والبرامج تفتح أسرع بكثير.\n\n## ماذا تشتري؟\n\n512GB كافية لمعظم المستخدمين، و1TB إن كنت تخزّن فيديو وألعاباً.\n\n## قبل التركيب\n\nانسخ بياناتك، وتأكد أن اللابتوب يدعم فتحة M.2 أو 2.5 بوصة.\n\n## بعد التركيب\n\nأعد تثبيت ويندوز على SSD أو انسخ النظام بأداة استنساخ موثوقة.",
+      "en": "## The felt difference\n\nBoot often drops from a minute to under 20 seconds, and apps open much faster.\n\n## What to buy\n\n512GB suits most users; 1TB if you store video and games.\n\n## Before installing\n\nBack up data and confirm your laptop supports M.2 or 2.5-inch drives.\n\n## After installing\n\nReinstall Windows on the SSD or clone the system with a trusted tool."
+    },
+    "categoryId": "laptops",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=15"
+    },
+    "date": "2026-07-24",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=800&h=450&fit=crop",
+    "tags": ["SSD", "لابتوب", "ترقية", "Upgrade"],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "ti-304",
+    "slug": "phone-battery-draining-fast-2026",
+    "title": {
+      "ar": "بطارية الهاتف تفرغ بسرعة؟ 7 حلول مجرّبة",
+      "en": "Phone Battery Draining Fast? 7 Proven Fixes"
+    },
+    "excerpt": {
+      "ar": "من سطوع الشاشة إلى التطبيقات الخلفية — خطوات مرتبة تطيل عمر البطارية يومياً.",
+      "en": "From screen brightness to background apps — ordered steps that extend daily battery life."
+    },
+    "body": {
+      "ar": "## 1) راجع استهلاك التطبيقات\n\nمن إعدادات البطارية أوقف أو قيّد التطبيقات الأعلى استهلاكاً.\n\n## 2) اخفض السطوع ومعدل التحديث\n\n120Hz مريح لكنه يستهلك أكثر؛ جرّب 60Hz عند الحاجة.\n\n## 3) قيّد الموقع\n\nاجعل إذن الموقع «أثناء الاستخدام» وليس «دائماً».\n\n## 4) راقب صحة البطارية\n\nتحت 80% سعة قصوى قد تحتاج استبدالاً وليس إعدادات فقط.\n\n## 5) أعد التشغيل أسبوعياً\n\nيُغلق عمليات عالقة تستنزف الشحن في الخلفية.",
+      "en": "## 1) Review app usage\n\nIn battery settings, restrict the top consumers.\n\n## 2) Lower brightness and refresh rate\n\n120Hz feels smooth but costs power; try 60Hz when needed.\n\n## 3) Limit location\n\nSet permission to 'while using' instead of 'always'.\n\n## 4) Check battery health\n\nBelow ~80% max capacity, replacement may matter more than settings.\n\n## 5) Restart weekly\n\nClears stuck background processes draining charge."
+    },
+    "categoryId": "mobile",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=25"
+    },
+    "date": "2026-07-22",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&h=450&fit=crop",
+    "tags": ["بطارية", "هاتف", "Battery", "Phone"],
+    "isFeatured": false,
+    "isTrending": true,
+    "youtubeVideoId": "inWWhr5tnEA"
+  },
+  {
+    "id": "ti-305",
+    "slug": "windows-slow-boot-fix",
+    "title": {
+      "ar": "ويندوز يقلع ببطء؟ سرّع الإقلاع بهذه الخطوات",
+      "en": "Windows Boots Slowly? Speed It Up With These Steps"
+    },
+    "excerpt": {
+      "ar": "برامج بدء التشغيل، نوع القرص، والتحديثات المعلقة — تشخيص مرتب لبطء الإقلاع.",
+      "en": "Startup apps, drive type, and pending updates — ordered diagnosis for slow boot."
+    },
+    "body": {
+      "ar": "## عطّل برامج الإقلاع غير الضرورية\n\nمن مدير المهام → بدء التشغيل، أوقف ما لا تحتاجه فور فتح الجهاز.\n\n## تأكد أن النظام على SSD\n\nإن كان ويندوز على HDD، فالترقية لـ SSD أكبر تحسين ممكن.\n\n## فعّل الإقلاع السريع\n\nمن إعدادات الطاقة في ويندوز.\n\n## أكمل التحديثات المعلقة\n\nالتحديثات غير المكتملة تبطئ الإقلاع أحياناً.",
+      "en": "## Disable unnecessary startup apps\n\nTask Manager → Startup: turn off what you do not need at boot.\n\n## Confirm the OS is on an SSD\n\nIf Windows sits on an HDD, an SSD upgrade is the biggest win.\n\n## Enable Fast Startup\n\nFrom Windows power settings.\n\n## Finish pending updates\n\nIncomplete updates sometimes slow boot."
+    },
+    "categoryId": "windows",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=8"
+    },
+    "date": "2026-07-20",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1629654297299-c458eeae83c2?w=800&h=450&fit=crop",
+    "tags": ["ويندوز", "أداء", "Windows", "Performance"],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "ti-306",
+    "slug": "android-vs-iphone-2026-buyers-guide",
+    "title": {
+      "ar": "أندرويد أم آيفون في 2026؟ دليل اختيار بدون تحيّز",
+      "en": "Android vs iPhone in 2026: A Bias-Free Buyer Guide"
+    },
+    "excerpt": {
+      "ar": "قارن حسب الاستخدام الفعلي: الكاميرا، التحديثات، التطبيقات، والسعر — لا حسب الضجيج.",
+      "en": "Compare by real use: camera, updates, apps, and price — not by hype."
+    },
+    "body": {
+      "ar": "## اختر حسب احتياجك\n\n- تريد أطول دعم تحديثات وسهولة بيع مستعمل → غالباً آيفون.\n- تريد مرونة وخيارات أسعار أوسع → أندرويد.\n\n## الكاميرا\n\nالاثنان ممتازان في الفئة العليا؛ الفرق يظهر في معالجة الألوان والفيديو.\n\n## التطبيقات والخدمات\n\nإن كنت داخل نظام جوجل أو آبل بالكامل، البقاء في نفس النظام أريح.\n\n## الميزانية\n\nأندرويد يقدّم قيمة أفضل تحت فئة السعر المتوسط في أغلب الأسواق.",
+      "en": "## Choose by need\n\n- Longest update support and resale ease → often iPhone.\n- Flexibility and wider price options → Android.\n\n## Camera\n\nBoth excel at the high end; differences show in color processing and video.\n\n## Apps and services\n\nIf you live in Google or Apple ecosystems, staying in the same one is easier.\n\n## Budget\n\nAndroid often offers better value in the mid-range."
+    },
+    "categoryId": "comparisons",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=20"
+    },
+    "date": "2026-07-18",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=450&fit=crop",
+    "tags": ["مقارنة", "آيفون", "أندرويد", "Comparison"],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "ti-307",
+    "slug": "blue-screen-windows-fix-guide",
+    "title": {
+      "ar": "الشاشة الزرقاء في ويندوز: اقرأ الرمز ثم أصلح",
+      "en": "Windows Blue Screen: Read the Code, Then Fix"
+    },
+    "excerpt": {
+      "ar": "اقرأ كود الشاشة الزرقاء أولاً، ثم حدّث التعريفات وافحص الذاكرة — قبل ما تعيد تثبيت ويندوز.",
+      "en": "Read the BSOD code first, then update drivers and test memory—before you reinstall Windows."
+    },
+    "body": {
+      "ar": "## اقرأ الرمز قبل أي خطوة\n\nالشاشة الزرقاء بتكتب كود زي DRIVER_IRQL_NOT_LESS_OR_EQUAL أو MEMORY_MANAGEMENT. صوّر الشاشة أو انسخ الكود؛ البحث عن الرمز يوفّر ساعات تخمين.\n\n## أول إجراء آمن: إعادة التشغيل ثم مراقبة\n\nلو حصلت مرة واحدة بعد تحديث، راقب. لو اتكررت، كمّل الخطوات الجاية بالترتيب.\n\n## حدّث التعريفات من المصدر\n\nكرت الشاشة والشبكة أهم مصدرين للـ BSOD. نزّل من موقع الشركة المصنّعة مش من أدوات تجميع عشوائية.\n\n## افحص الذاكرة والتخزين\n\nأداة Windows Memory Diagnostic وبأمر chkdsk يكشفوا أخطاء شائعة.\n\n## ألغِ تثبيت آخر تعريف أو تحديث\n\nمن الإعدادات → Windows Update → سجل التحديثات، أو من Device Manager رجّع تعريف سابق.\n\n## الوضع الآمن\n\nالإقلاع في Safe Mode يساعد تعرف إذا المشكلة من برنامج طرف ثالث.\n\n## امتى تعيد تثبيت ويندوز؟\n\nلو الفحص مفيش عطل هاردوير والكود بيتكرر يومياً بعد تحديث التعريفات، نسخة نظيفة أوفر من الترقيع العشوائي.",
+      "en": "## Read the code before any fix\n\nBlue screens show codes like DRIVER_IRQL_NOT_LESS_OR_EQUAL or MEMORY_MANAGEMENT. Photograph or copy the code—searching it saves hours of guessing.\n\n## First safe step: reboot and observe\n\nIf it happened once after an update, watch for a while. If it repeats, continue the steps below in order.\n\n## Update drivers from the source\n\nGPU and network drivers are common BSOD sources. Download from the manufacturer, not random driver packs.\n\n## Check memory and storage\n\nWindows Memory Diagnostic and chkdsk catch frequent faults.\n\n## Roll back the last driver or update\n\nSettings → Windows Update → update history, or roll back a driver in Device Manager.\n\n## Safe Mode\n\nBooting into Safe Mode shows whether a third-party app is involved.\n\n## When to reinstall Windows\n\nIf hardware checks pass and the code still appears daily after driver updates, a clean install beats endless patching."
+    },
+    "categoryId": "windows",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-07-15",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=450&fit=crop",
+    "tags": ["BSOD", "ويندوز", "أعطال", "Troubleshooting", "Windows", "شاشة زرقاء"],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-308",
+    "slug": "backup-3-2-1-rule",
+    "title": {
+      "ar": "قاعدة 3-2-1: لا تفقد ملفاتك بعد اليوم",
+      "en": "The 3-2-1 Backup Rule: Stop Losing Files"
+    },
+    "excerpt": {
+      "ar": "ثلاث نسخ، وسيطين، ونسخة خارج المكان — أبسط نظام يحمي ملفاتك من العطل والفدية والحوادث.",
+      "en": "Three copies, two media types, one off-site—the simplest system that protects files from failure, ransomware, and accidents."
+    },
+    "body": {
+      "ar": "## إيه قاعدة 3-2-1؟\n\nثلاث نسخ من بياناتك، على وسيطين مختلفين، وواحدة منهم خارج المكان (سحابة أو بيت تاني).\n\n## النسخة الأولى: جهازك\n\nالملفات اللي بتشتغل عليها يومياً. دي مش نسخ احتياطي لوحدها.\n\n## النسخة الثانية: قرص خارجي\n\nهارد USB أو SSD خارجي. انسخ أسبوعياً على الأقل. افصل القرص بعد النسخ عشان حماية من الفدية.\n\n## النسخة الثالثة: خارج المكان\n\nGoogle Drive أو OneDrive أو Backblaze للملفات المهمة.\n\n## إيه اللي يتنسخ أولاً؟\n\nالصور، المستندات، مشاريع الشغل، وقواعد بيانات التطبيقات.\n\n## اختبر الاسترجاع\n\nنسخة احتياطية لم تتأكد إنها بتفتح = مش نسخة.\n\n## جدول بسيط\n\n- يومياً: ملفات الشغل النشطة للسحابة\n- أسبوعياً: نسخة كاملة على القرص الخارجي\n- شهرياً: مراجعة إن الملفات مهمة لسه بتتعرض",
+      "en": "## What is the 3-2-1 rule?\n\nThree copies of your data, on two different media types, with one copy off-site (cloud or another location).\n\n## Copy one: your device\n\nThe files you work on every day. By itself, this is not a backup.\n\n## Copy two: an external drive\n\nA USB hard drive or external SSD. Copy at least weekly. Unplug it afterward to reduce ransomware risk.\n\n## Copy three: off-site\n\nGoogle Drive, OneDrive, or Backblaze for important files.\n\n## What to back up first\n\nPhotos, documents, work projects, and app data.\n\n## Test restores\n\nA backup you never opened is not a backup.\n\n## A simple schedule\n\n- Daily: active work files to the cloud\n- Weekly: full copy to the external drive\n- Monthly: review that the right folders are still included"
+    },
+    "categoryId": "howto",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=48"
+    },
+    "date": "2026-07-12",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1544197150-b99a580bb7a2?w=800&h=450&fit=crop",
+    "tags": ["نسخ احتياطي", "Backup", "بيانات", "Data", "3-2-1", "حماية"],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-309",
+    "slug": "laptop-overheating-quiet-fans",
+    "title": {
+      "ar": "لابتوب ساخن ومروحة صاخبة؟ حلول عملية",
+      "en": "Hot Laptop and Loud Fans? Practical Fixes"
+    },
+    "excerpt": {
+      "ar": "نظافة التهوية، سطح صلب، وتقليل الأحمال — خطوات عملية قبل التفكير في معجون حراري أو صيانة.",
+      "en": "Clean vents, a hard surface, and a lighter workload—practical steps before thermal paste or a repair shop."
+    },
+    "body": {
+      "ar": "## ليه اللابتوب بيسخّن؟\n\nالغبار في فتحات التهوية، سطح ناعم يسدّ الهواء، وبرامج ثقيلة شغّالة مع بعض ترفع الحرارة والمروحة.\n\n## نظّف الفتحات بحذر\n\nاطفِ الجهاز، استخدم هواء مضغوط بزوايا قصيرة، ومتقربش المروحة بمعدن أو مكنسة عالية الشفط.\n\n## شغّله على سطح صلب ومفتوح\n\nالسرير والأريكة يسدّوا فتحات السحب. استخدم سطح مكتب أو حامل يرفع الجهاز سنتيمترين.\n\n## خفّف الحمل\n\nاقفل البرامج اللي مش محتاجها، خصوصاً المتصفح بعشرات التبويبات.\n\n## راقب الحرارة\n\nبرامج بسيطة تعرض حرارة المعالج.\n\n## أجهزة أقدم\n\nبعد سنين، المعجون الحراري يجف. الاستبدال عند فنّي غالباً أرخص من جهاز جديد.\n\n## امتى تستعين بفني؟\n\nلو الجهاز يفصل لوحده، أو الشاشة بتقطع مع السخونة، أو المروحة بتصوّت صرير مستمر — متأجلش الفحص.",
+      "en": "## Why laptops overheat\n\nDust in the vents, soft surfaces that block airflow, and several heavy apps at once all push temperatures and fan noise up.\n\n## Clean the vents carefully\n\nPower off first. Use short bursts of compressed air.\n\n## Use a hard, open surface\n\nBeds and couches block intake vents. A desk or a small stand helps a lot.\n\n## Reduce the load\n\nClose what you do not need—especially browsers with dozens of tabs.\n\n## Watch the temperatures\n\nSimple monitoring tools show CPU temperature.\n\n## Older machines\n\nAfter years, thermal paste dries out. A technician replacement is often cheaper than a new laptop.\n\n## When to get help\n\nIf the machine shuts down on its own, the display glitches when hot, or the fan screeches continuously, do not postpone service."
+    },
+    "categoryId": "laptops",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=52"
+    },
+    "date": "2026-07-10",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&h=450&fit=crop",
+    "tags": ["حرارة", "لابتوب", "Heat", "Laptop", "صيانة", "Maintenance"],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-310",
+    "slug": "free-storage-on-android",
+    "title": {
+      "ar": "التخزين ممتلئ على أندرويد؟ حرّر مساحة بدون حذف الذكريات",
+      "en": "Android Storage Full? Free Space Without Deleting Memories"
+    },
+    "excerpt": {
+      "ar": "صور للسحابة، مسح الكاش، وحذف التطبيقات المنسية — ترتيب عملي يحرّر مساحة بدون ما تمسح ذكرياتك.",
+      "en": "Cloud offload, cache cleanup, and unused apps—a practical order that frees space without deleting your memories."
+    },
+    "body": {
+      "ar": "## اعرف إيه اللي بياخد المساحة\n\nمن الإعدادات → التخزين شوف توزيع الصور والفيديوهات والتطبيقات. ابدأ بالأكبر مش بالعشوائي.\n\n## ارفع الوسائط للسحابة ثم احذف المحلية\n\nGoogle Photos أو أي سحابة تثق فيها: ارفع، تأكد إن الملفات ظاهرة أونلاين، بعدين احذف النسخ المحلية بأمان.\n\n## امسح ذاكرة التطبيقات المؤقتة\n\nمن إعدادات التطبيق → التخزين → مسح الذاكرة المؤقتة.\n\n## احذف تطبيقات لم تفتحها منذ أشهر\n\nرتّب حسب الحجم أو آخر استخدام.\n\n## استخدم أداة التخزين المدمجة\n\nأندرويد يقترح ملفات كبيرة ومكررة وتحميلات قديمة.\n\n## واتساب والتليجرام\n\nمحادثات الوسائط بتكبر بسرعة. عطّل التنزيل التلقائي وامسح الوسائط القديمة.\n\n## بطاقة SD (لو جهازك يدعم)\n\nانقل الصور والملفات الكبيرة للبطاقة.",
+      "en": "## See what is using space\n\nSettings → Storage shows photos, videos, and apps. Start with the largest items.\n\n## Upload media to the cloud, then delete local copies\n\nUse Google Photos or a cloud you trust. Upload, confirm online, then remove local copies.\n\n## Clear app caches\n\nApp info → Storage → Clear cache.\n\n## Remove apps you have not opened in months\n\nSort by size or last used.\n\n## Use the built-in storage analyzer\n\nAndroid suggests large files, duplicates, and old downloads.\n\n## WhatsApp and Telegram\n\nTurn off auto-download and clear old media.\n\n## SD card (if supported)\n\nMove photos and large files to the card."
+    },
+    "categoryId": "mobile",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=60"
+    },
+    "date": "2026-07-08",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop",
+    "tags": ["تخزين", "أندرويد", "Storage", "Android", "مساحة", "Cleanup"],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-311",
+    "slug": "react-beginners-what-to-learn-first",
+    "title": {
+      "ar": "تعلّم React: ماذا تبدأ به كمبتدئ؟",
+      "en": "Learning React: What Should Beginners Start With?"
+    },
+    "excerpt": {
+      "ar": "مسار مختصر: JavaScript أساسي → المكوّنات → الحالة → مشروع صغير.",
+      "en": "A short path: core JavaScript → components → state → a small project."
+    },
+    "body": {
+      "ar": "## قبل React\n\nفهم أساسيات JavaScript (المصفوفات، الدوال، الوعود) ضروري.\n\n## المكوّنات\n\nفكّر في الواجهة كقطع قابلة لإعادة الاستخدام.\n\n## الحالة والخصائص\n\nprops للتمرير، state للتغيير داخل المكوّن.\n\n## مشروع صغير\n\nقائمة مهام أو بطاقات مقالات تثبّت المفاهيم أسرع من الدروس فقط.\n\n## شاهد درساً عملياً\n\nالفيديو المضمّن نقطة انطلاق جيدة ثم طبّق بنفسك.",
+      "en": "## Before React\n\nCore JavaScript (arrays, functions, promises) is essential.\n\n## Components\n\nThink of the UI as reusable pieces.\n\n## State and props\n\nProps pass data; state changes inside a component.\n\n## Small project\n\nA todo list or article cards locks concepts faster than tutorials alone.\n\n## Watch a practical lesson\n\nThe embedded video is a solid start — then build yourself."
+    },
+    "categoryId": "howto",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=5"
+    },
+    "date": "2026-07-05",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=450&fit=crop",
+    "tags": ["React", "برمجة", "Programming", "Web"],
+    "isFeatured": false,
+    "isTrending": true,
+    "youtubeVideoId": "w7ejDZ8SWv8"
+  },
+  {
+    "id": "ti-312",
+    "slug": "factory-reset-safe-checklist",
+    "title": {
+      "ar": "إعادة ضبط المصنع بأمان: قائمة تحقق قبل المسح",
+      "en": "Safe Factory Reset: Checklist Before You Wipe"
+    },
+    "excerpt": {
+      "ar": "نسخ احتياطي، تسجيل خروج من الحسابات، ثم الضبط — حتى لا تعلق في قفل التفعيل.",
+      "en": "Backup, sign out of accounts, then reset — so you do not hit activation lock."
+    },
+    "body": {
+      "ar": "## متى تلجأ لها؟\n\nبعد فشل الحلول الأخرى مع بطء أو تعليق مستمر.\n\n## قبل المسح\n\n1. نسخة احتياطية للصور والملفات.\n2. تسجيل خروج من Google/Apple.\n3. سجّل التطبيقات المهمة.\n\n## على ويندوز\n\nجرّب خيار «الاحتفاظ بملفاتي» أولاً إن ناسبك.\n\n## بعد الضبط\n\nثبّت التحديثات قبل بقية التطبيقات.",
+      "en": "## When to use it\n\nAfter other fixes fail with ongoing lag or freezes.\n\n## Before wiping\n\n1. Back up photos and files.\n2. Sign out of Google/Apple.\n3. Note essential apps.\n\n## On Windows\n\nTry 'Keep my files' first if it fits.\n\n## After reset\n\nInstall system updates before other apps."
+    },
+    "categoryId": "howto",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    "date": "2026-07-02",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=450&fit=crop",
+    "tags": ["إعادة ضبط", "Factory Reset", "صيانة"],
+    "isFeatured": false,
+    "isTrending": false
+  }
+]
