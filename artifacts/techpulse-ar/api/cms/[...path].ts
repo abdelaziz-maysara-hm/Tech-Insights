@@ -389,6 +389,17 @@ async function handleCmsRequest(req: CmsRequest): Promise<CmsResponse> {
     return { status: 200, body: { authenticated: Boolean(auth), username: auth?.username } };
   }
 
+  // Public read-only list for the website (no auth). Same data admin manages.
+  if (method === 'GET' && (reqPath === '/public/articles' || reqPath === '/public/videos' || reqPath === '/public/pages')) {
+    const name = reqPath.split('/').pop() as 'articles' | 'videos' | 'pages';
+    try {
+      const items = await readCollection(name);
+      return { status: 200, body: { items } };
+    } catch (err) {
+      return { status: 500, body: { error: 'internal_error', message: err instanceof Error ? err.message : String(err) } };
+    }
+  }
+
   const auth = requireAuth(req);
   if (!auth) return { status: 401, body: { error: 'unauthorized' } };
 
