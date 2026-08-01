@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import { PlayCircle } from 'lucide-react';
 import { Link } from 'wouter';
@@ -5,19 +6,60 @@ import { useSEO } from '@/hooks/useSEO';
 import { useAllArticles } from '@/hooks/useAllArticles';
 import cmsVideosJson from '@/content/videos.json';
 import { CmsVideo } from '@/data/cmsTypes';
-import { youtubeThumbnailUrl, youtubeWatchUrl } from '@/lib/mediaUrls';
+import { extractYouTubeId, youtubeEmbedUrl, youtubeThumbnailUrl } from '@/lib/mediaUrls';
 
 const cmsVideos = cmsVideosJson as unknown as CmsVideo[];
+
+type Playable = {
+  key: string;
+  title: string;
+  youtubeId: string;
+  href?: string;
+  meta?: string;
+};
 
 export default function Videos() {
   const { language, t } = useLanguage();
   const { allArticles } = useAllArticles();
+  const [activeId, setActiveId] = useState<string | null>(null);
 
-  const videoArticles = allArticles.filter((a) => a.youtubeVideoId && /^[\w-]{11}$/.test(a.youtubeVideoId));
+  const fromArticles: Playable[] = allArticles
+    .filter((a) => a.youtubeVideoId && /^[\w-]{11}$/.test(a.youtubeVideoId))
+    .map((a) => ({
+      key: `article-${a.id}`,
+      title: a.title[language],
+      youtubeId: a.youtubeVideoId!,
+      href: `/article/${a.slug}`,
+      meta: a.categoryId,
+    }));
+
+  const fromCms: Playable[] = cmsVideos
+    .map((v) => {
+      const id = extractYouTubeId(v.youtubeId || '');
+      if (!id) return null;
+      const title =
+        typeof v.title === 'object' && v.title
+          ? v.title[language] || v.title.ar || v.title.en || id
+          : String(v.title || id);
+      return {
+        key: `cms-${v.id}`,
+        title,
+        youtubeId: id,
+        meta: v.date,
+      } as Playable;
+    })
+    .filter(Boolean) as Playable[];
+
+  // Prefer CMS library videos, then article-linked videos (dedupe by youtube id)
+  const seen = new Set<string>();
+  const items: Playable[] = [];
+  for (const item of [...fromCms, ...fromArticles]) {
+    if (seen.has(item.youtubeId)) continue;
+    seen.add(item.youtubeId);
+    items.push(item);
+  }
 
   useSEO({ title: t('videos'), path: '/videos' });
-
-  const isEmpty = videoArticles.length === 0 && cmsVideos.length === 0;
 
   return (
     <div className="container mx-auto px-4 py-12">
@@ -25,88 +67,74 @@ export default function Videos() {
         <h1 className="text-4xl font-bold mb-6 text-gradient inline-block">{t('videos')}</h1>
         <p className="text-lg text-muted-foreground">
           {language === 'ar'
-            ? 'شاهد أحدث المراجعات والتغطيات التقنية. الفيديوهات مُضمَّنة بروابط YouTube فقط (بدون رفع ملفات).'
-            : 'Watch the latest reviews and tech coverage. Videos are YouTube links only (no file uploads).'}
+            ? 'شاهد المراجعات والشروحات التقنية مباشرة داخل الموقع.'
+            : 'Watch tech reviews and explainers embedded on this site.'}
         </p>
       </div>
 
-      {isEmpty ? (
+      {items.length === 0 ? (
         <p className="text-center text-muted-foreground mt-12">
           {language === 'ar' ? 'لا توجد فيديوهات حالياً.' : 'No videos yet.'}
         </p>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {videoArticles.map((article) => (
-            <div
-              key={article.id}
-              className="bg-card rounded-2xl overflow-hidden border border-border hover:shadow-xl transition-all group"
-            >
-              <div className="relative aspect-video w-full overflow-hidden bg-black">
-                <img
-                  src={youtubeThumbnailUrl(article.youtubeVideoId!)}
-                  alt=""
-                  className="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity duration-300"
-                  loading="lazy"
-                  onError={(e) => {
-                    const el = e.target as HTMLImageElement;
-                    el.src = youtubeThumbnailUrl(article.youtubeVideoId!, 'hqdefault');
-                  }}
-                />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <a
-                    href={youtubeWatchUrl(article.youtubeVideoId!)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-16 h-16 bg-primary/90 text-primary-foreground rounded-full flex items-center justify-center hover:scale-110 transition-transform shadow-lg"
-                    aria-label="Play on YouTube"
-                  >
-                    <PlayCircle className="w-10 h-10" />
-                  </a>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          {items.map((item) => {
+            const playing = activeId === item.key;
+            return (
+              <article
+                key={item.key}
+                className="bg-card rounded-2xl overflow-hidden border border-border hover:shadow-xl transition-all"
+              >
+                <div className="relative aspect-video w-full bg-black">
+                  {playing ? (
+                    <iframe
+                      src={`${youtubeEmbedUrl(item.youtubeId)}?autoplay=1&rel=0`}
+                      title={item.title}
+                      className="absolute inset-0 w-full h-full"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="strict-origin-when-cross-origin"
+                    />
+                  ) : (
+                    <button
+                      type="button"
+                      onClick={() => setActiveId(item.key)}
+                      className="absolute inset-0 w-full h-full group text-start"
+                      aria-label={language === 'ar' ? 'تشغيل الفيديو' : 'Play video'}
+                    >
+                      <img
+                        src={youtubeThumbnailUrl(item.youtubeId)}
+                        alt=""
+                        className="w-full h-full object-cover opacity-80 group-hover:opacity-60 transition-opacity"
+                        loading="lazy"
+                        onError={(e) => {
+                          const el = e.target as HTMLImageElement;
+                          el.src = youtubeThumbnailUrl(item.youtubeId, 'hqdefault');
+                        }}
+                      />
+                      <span className="absolute inset-0 flex items-center justify-center">
+                        <span className="bg-background/80 backdrop-blur-sm rounded-full p-4 text-primary shadow-lg group-hover:scale-110 transition-transform">
+                          <PlayCircle className="w-12 h-12" />
+                        </span>
+                      </span>
+                    </button>
+                  )}
                 </div>
-              </div>
-              <div className="p-5">
-                <Link href={`/article/${article.slug}`} className="block">
-                  <h3 className="font-bold text-lg mb-2 line-clamp-2 group-hover:text-primary transition-colors">
-                    {article.title[language]}
-                  </h3>
-                  <p className="text-sm text-muted-foreground line-clamp-2">{article.excerpt[language]}</p>
-                </Link>
-              </div>
-            </div>
-          ))}
-          {cmsVideos.map((video) => (
-            <a
-              key={video.id}
-              href={youtubeWatchUrl(video.youtubeId)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-card rounded-2xl overflow-hidden border border-border hover:shadow-xl transition-all group block"
-            >
-              <div className="relative aspect-video w-full overflow-hidden bg-black">
-                <img
-                  src={youtubeThumbnailUrl(video.youtubeId)}
-                  alt=""
-                  className="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity duration-300"
-                  loading="lazy"
-                  onError={(e) => {
-                    const el = e.target as HTMLImageElement;
-                    el.src = youtubeThumbnailUrl(video.youtubeId, 'hqdefault');
-                  }}
-                />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-16 h-16 bg-primary/90 text-primary-foreground rounded-full flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg">
-                    <PlayCircle className="w-10 h-10" />
-                  </div>
+                <div className="p-5 space-y-2">
+                  <h2 className="text-lg font-bold leading-snug">{item.title}</h2>
+                  {item.meta && (
+                    <p className="text-xs text-muted-foreground uppercase tracking-wide">{item.meta}</p>
+                  )}
+                  {item.href && (
+                    <Link href={item.href} className="text-sm text-primary font-medium hover:underline inline-block">
+                      {language === 'ar' ? 'اقرأ المقال المرتبط' : 'Read related article'}
+                    </Link>
+                  )}
                 </div>
-              </div>
-              <div className="p-5">
-                <h3 className="font-bold text-lg mb-2 line-clamp-2 group-hover:text-primary transition-colors">
-                  {video.title[language]}
-                </h3>
-                <p className="text-sm text-muted-foreground line-clamp-2">{video.description[language]}</p>
-              </div>
-            </a>
-          ))}
+              </article>
+            );
+          })}
         </div>
       )}
     </div>
