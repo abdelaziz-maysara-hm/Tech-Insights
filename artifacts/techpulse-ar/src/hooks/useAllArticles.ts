@@ -1,17 +1,30 @@
-import { useCallback } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { Article } from '@/data/mockData';
 import adminArticlesJson from '@/content/articles.json';
 
 /**
- * Site content source of truth: admin CMS articles (src/content/articles.json).
- * Large placeholder datasets (extended / troubleshooting / mock fillers) are
- * intentionally excluded so the public site stays free of duplicate and
- * low-quality picsum content.
+ * Public articles: prefer live CMS API (same source admin writes to),
+ * fall back to build-time JSON so the site always renders.
  */
 export function useAllArticles() {
-  const customArticles = adminArticlesJson as unknown as Article[];
+  const bundled = adminArticlesJson as unknown as Article[];
+  const [allArticles, setAllArticles] = useState<Article[]>(bundled);
 
-  const refresh = useCallback(() => {}, []);
+  const refresh = useCallback(() => {
+    fetch('/api/cms/public/articles', { credentials: 'omit' })
+      .then((res) => (res.ok ? res.json() : Promise.reject(res.status)))
+      .then((data) => {
+        const items = Array.isArray(data?.items) ? (data.items as Article[]) : [];
+        if (items.length) setAllArticles(items);
+      })
+      .catch(() => {
+        /* keep bundled */
+      });
+  }, []);
 
-  return { allArticles: customArticles, refresh };
+  useEffect(() => {
+    refresh();
+  }, [refresh]);
+
+  return { allArticles, refresh };
 }
