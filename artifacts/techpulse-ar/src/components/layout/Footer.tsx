@@ -39,6 +39,9 @@ export function Footer() {
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
                 <Youtube className="h-5 w-5" />
               </a>
+              <a href="/rss.xml" className="text-muted-foreground hover:text-primary transition-colors text-xs font-medium" title="RSS">
+                RSS
+              </a>
             </div>
           </div>
 
