@@ -1,5 +1,277 @@
 [
   {
+    "id": "ti-601",
+    "slug": "2fa-setup",
+    "title": {
+      "ar": "المصادقة الثنائية خطوة بخطوة",
+      "en": "Two-Factor Authentication Step by Step"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول المصادقة الثنائية خطوة بخطوة لمستخدم يومي.",
+      "en": "A short practical guide to Two-Factor Authentication Step by Step for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع المصادقة الثنائية خطوة بخطوة يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: المصادقة الثنائية خطوة بخطوة. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nTwo-Factor Authentication Step by Step affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Two-Factor Authentication Step by Step. Consistency beats perfection."
+    },
+    "categoryId": "cybersecurity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=1"
+    },
+    "date": "2026-08-01",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=450&fit=crop",
+    "tags": [
+      "cybersecurity",
+      "المصادقة",
+      "Two-Factor"
+    ],
+    "isFeatured": true,
+    "isTrending": true
+  },
+  {
+    "id": "ti-646",
+    "slug": "ssd-vs-hdd",
+    "title": {
+      "ar": "SSD و HDD",
+      "en": "SSD vs HDD"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول SSD و HDD لمستخدم يومي.",
+      "en": "A short practical guide to SSD vs HDD for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع SSD و HDD يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: SSD و HDD. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nSSD vs HDD affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: SSD vs HDD. Consistency beats perfection."
+    },
+    "categoryId": "comparisons",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=46"
+    },
+    "date": "2026-08-01",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1629654297299-c458eeae83c2?w=800&h=450&fit=crop",
+    "tags": [
+      "comparisons",
+      "SSD",
+      "SSD"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-602",
+    "slug": "password-manager-start",
+    "title": {
+      "ar": "ابدأ مع مدير كلمات المرور",
+      "en": "Start with a Password Manager"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول ابدأ مع مدير كلمات المرور لمستخدم يومي.",
+      "en": "A short practical guide to Start with a Password Manager for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع ابدأ مع مدير كلمات المرور يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: ابدأ مع مدير كلمات المرور. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nStart with a Password Manager affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Start with a Password Manager. Consistency beats perfection."
+    },
+    "categoryId": "cybersecurity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=2"
+    },
+    "date": "2026-07-31",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
+    "tags": [
+      "cybersecurity",
+      "ابدأ",
+      "Start"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-647",
+    "slug": "chrome-vs-firefox",
+    "title": {
+      "ar": "كروم وفايرفوكس",
+      "en": "Chrome vs Firefox"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول كروم وفايرفوكس لمستخدم يومي.",
+      "en": "A short practical guide to Chrome vs Firefox for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع كروم وفايرفوكس يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: كروم وفايرفوكس. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nChrome vs Firefox affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Chrome vs Firefox. Consistency beats perfection."
+    },
+    "categoryId": "comparisons",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=47"
+    },
+    "date": "2026-07-31",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
+    "tags": [
+      "comparisons",
+      "كروم",
+      "Chrome"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-603",
+    "slug": "phishing-basics",
+    "title": {
+      "ar": "التعرّف على رسائل التصيد",
+      "en": "Spotting Phishing Messages"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول التعرّف على رسائل التصيد لمستخدم يومي.",
+      "en": "A short practical guide to Spotting Phishing Messages for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع التعرّف على رسائل التصيد يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: التعرّف على رسائل التصيد. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nSpotting Phishing Messages affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Spotting Phishing Messages. Consistency beats perfection."
+    },
+    "categoryId": "cybersecurity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=3"
+    },
+    "date": "2026-07-30",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=450&fit=crop",
+    "tags": [
+      "cybersecurity",
+      "التعرّف",
+      "Spotting"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-648",
+    "slug": "tablet-vs-laptop",
+    "title": {
+      "ar": "تابلت ولابتوب",
+      "en": "Tablet vs Laptop"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول تابلت ولابتوب لمستخدم يومي.",
+      "en": "A short practical guide to Tablet vs Laptop for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع تابلت ولابتوب يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: تابلت ولابتوب. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nTablet vs Laptop affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Tablet vs Laptop. Consistency beats perfection."
+    },
+    "categoryId": "comparisons",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=48"
+    },
+    "date": "2026-07-30",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=450&fit=crop",
+    "tags": [
+      "comparisons",
+      "تابلت",
+      "Tablet"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-604",
+    "slug": "public-wifi-safety",
+    "title": {
+      "ar": "الواي فاي العام بأمان",
+      "en": "Safer Public Wi-Fi"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول الواي فاي العام بأمان لمستخدم يومي.",
+      "en": "A short practical guide to Safer Public Wi-Fi for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع الواي فاي العام بأمان يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: الواي فاي العام بأمان. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nSafer Public Wi-Fi affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Safer Public Wi-Fi. Consistency beats perfection."
+    },
+    "categoryId": "cybersecurity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=4"
+    },
+    "date": "2026-07-29",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&h=450&fit=crop",
+    "tags": [
+      "cybersecurity",
+      "الواي",
+      "Safer"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-649",
+    "slug": "drive-vs-onedrive",
+    "title": {
+      "ar": "Drive و OneDrive",
+      "en": "Google Drive vs OneDrive"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول Drive و OneDrive لمستخدم يومي.",
+      "en": "A short practical guide to Google Drive vs OneDrive for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع Drive و OneDrive يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: Drive و OneDrive. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nGoogle Drive vs OneDrive affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Google Drive vs OneDrive. Consistency beats perfection."
+    },
+    "categoryId": "comparisons",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=49"
+    },
+    "date": "2026-07-29",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=450&fit=crop",
+    "tags": [
+      "comparisons",
+      "Drive",
+      "Google"
+    ],
+    "isFeatured": true,
+    "isTrending": true
+  },
+  {
     "id": "ti-301",
     "slug": "ai-tools-everyday-2026",
     "title": {
@@ -25,10 +297,117 @@
     "date": "2026-07-28",
     "readTime": 6,
     "heroImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
-    "tags": ["AI", "ذكاء اصطناعي", "أدوات", "Tools"],
+    "tags": [
+      "AI",
+      "ذكاء اصطناعي",
+      "أدوات",
+      "Tools"
+    ],
     "isFeatured": true,
     "isTrending": true,
     "youtubeVideoId": "ad79nYk2-go"
+  },
+  {
+    "id": "ti-605",
+    "slug": "router-security",
+    "title": {
+      "ar": "تأمين راوتر المنزل",
+      "en": "Secure Your Home Router"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول تأمين راوتر المنزل لمستخدم يومي.",
+      "en": "A short practical guide to Secure Your Home Router for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع تأمين راوتر المنزل يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: تأمين راوتر المنزل. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nSecure Your Home Router affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Secure Your Home Router. Consistency beats perfection."
+    },
+    "categoryId": "cybersecurity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=5"
+    },
+    "date": "2026-07-28",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&h=450&fit=crop",
+    "tags": [
+      "cybersecurity",
+      "تأمين",
+      "Secure"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-650",
+    "slug": "usb-c-ports",
+    "title": {
+      "ar": "منافذ USB-C",
+      "en": "USB-C vs Old Ports"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول منافذ USB-C لمستخدم يومي.",
+      "en": "A short practical guide to USB-C vs Old Ports for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع منافذ USB-C يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: منافذ USB-C. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nUSB-C vs Old Ports affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: USB-C vs Old Ports. Consistency beats perfection."
+    },
+    "categoryId": "comparisons",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=50"
+    },
+    "date": "2026-07-28",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
+    "tags": [
+      "comparisons",
+      "منافذ",
+      "USB-C"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-606",
+    "slug": "malware-signs",
+    "title": {
+      "ar": "علامات البرمجيات الخبيثة",
+      "en": "Signs of Malware"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول علامات البرمجيات الخبيثة لمستخدم يومي.",
+      "en": "A short practical guide to Signs of Malware for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع علامات البرمجيات الخبيثة يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: علامات البرمجيات الخبيثة. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nSigns of Malware affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Signs of Malware. Consistency beats perfection."
+    },
+    "categoryId": "cybersecurity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=6"
+    },
+    "date": "2026-07-27",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1629654297299-c458eeae83c2?w=800&h=450&fit=crop",
+    "tags": [
+      "cybersecurity",
+      "علامات",
+      "Signs"
+    ],
+    "isFeatured": false,
+    "isTrending": false
   },
   {
     "id": "ti-302",
@@ -56,9 +435,82 @@
     "date": "2026-07-26",
     "readTime": 5,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&h=450&fit=crop",
-    "tags": ["أمن", "كلمات مرور", "Security", "Passwords"],
+    "tags": [
+      "أمن",
+      "كلمات مرور",
+      "Security",
+      "Passwords"
+    ],
     "isFeatured": true,
     "isTrending": true
+  },
+  {
+    "id": "ti-607",
+    "slug": "browser-extensions-risk",
+    "title": {
+      "ar": "خطر إضافات المتصفح",
+      "en": "Browser Extension Risks"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول خطر إضافات المتصفح لمستخدم يومي.",
+      "en": "A short practical guide to Browser Extension Risks for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع خطر إضافات المتصفح يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: خطر إضافات المتصفح. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nBrowser Extension Risks affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Browser Extension Risks. Consistency beats perfection."
+    },
+    "categoryId": "cybersecurity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=7"
+    },
+    "date": "2026-07-26",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
+    "tags": [
+      "cybersecurity",
+      "خطر",
+      "Browser"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "ti-608",
+    "slug": "usb-public-charging",
+    "title": {
+      "ar": "الشحن من منافذ عامة",
+      "en": "Public USB Charging Risks"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول الشحن من منافذ عامة لمستخدم يومي.",
+      "en": "A short practical guide to Public USB Charging Risks for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع الشحن من منافذ عامة يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: الشحن من منافذ عامة. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nPublic USB Charging Risks affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Public USB Charging Risks. Consistency beats perfection."
+    },
+    "categoryId": "cybersecurity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=8"
+    },
+    "date": "2026-07-25",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=450&fit=crop",
+    "tags": [
+      "cybersecurity",
+      "الشحن",
+      "Public"
+    ],
+    "isFeatured": false,
+    "isTrending": false
   },
   {
     "id": "ti-303",
@@ -86,8 +538,81 @@
     "date": "2026-07-24",
     "readTime": 6,
     "heroImage": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=800&h=450&fit=crop",
-    "tags": ["SSD", "لابتوب", "ترقية", "Upgrade"],
+    "tags": [
+      "SSD",
+      "لابتوب",
+      "ترقية",
+      "Upgrade"
+    ],
     "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "ti-609",
+    "slug": "android-battery",
+    "title": {
+      "ar": "توفير بطارية أندرويد",
+      "en": "Save Android Battery"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول توفير بطارية أندرويد لمستخدم يومي.",
+      "en": "A short practical guide to Save Android Battery for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع توفير بطارية أندرويد يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: توفير بطارية أندرويد. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nSave Android Battery affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Save Android Battery. Consistency beats perfection."
+    },
+    "categoryId": "mobile",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=9"
+    },
+    "date": "2026-07-24",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=450&fit=crop",
+    "tags": [
+      "mobile",
+      "توفير",
+      "Save"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "ti-610",
+    "slug": "iphone-storage",
+    "title": {
+      "ar": "تحرير مساحة آيفون",
+      "en": "Free iPhone Storage"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول تحرير مساحة آيفون لمستخدم يومي.",
+      "en": "A short practical guide to Free iPhone Storage for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع تحرير مساحة آيفون يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: تحرير مساحة آيفون. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nFree iPhone Storage affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Free iPhone Storage. Consistency beats perfection."
+    },
+    "categoryId": "mobile",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=10"
+    },
+    "date": "2026-07-23",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
+    "tags": [
+      "mobile",
+      "تحرير",
+      "Free"
+    ],
+    "isFeatured": false,
     "isTrending": false
   },
   {
@@ -116,10 +641,83 @@
     "date": "2026-07-22",
     "readTime": 5,
     "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&h=450&fit=crop",
-    "tags": ["بطارية", "هاتف", "Battery", "Phone"],
+    "tags": [
+      "بطارية",
+      "هاتف",
+      "Battery",
+      "Phone"
+    ],
     "isFeatured": false,
     "isTrending": true,
     "youtubeVideoId": "inWWhr5tnEA"
+  },
+  {
+    "id": "ti-611",
+    "slug": "phone-overheat",
+    "title": {
+      "ar": "سخونة الهاتف",
+      "en": "Phone Overheating"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول سخونة الهاتف لمستخدم يومي.",
+      "en": "A short practical guide to Phone Overheating for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع سخونة الهاتف يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: سخونة الهاتف. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nPhone Overheating affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Phone Overheating. Consistency beats perfection."
+    },
+    "categoryId": "mobile",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-07-22",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=450&fit=crop",
+    "tags": [
+      "mobile",
+      "سخونة",
+      "Phone"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-612",
+    "slug": "whatsapp-backup",
+    "title": {
+      "ar": "نسخ واتساب احتياطي",
+      "en": "WhatsApp Backup"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول نسخ واتساب احتياطي لمستخدم يومي.",
+      "en": "A short practical guide to WhatsApp Backup for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع نسخ واتساب احتياطي يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: نسخ واتساب احتياطي. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nWhatsApp Backup affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: WhatsApp Backup. Consistency beats perfection."
+    },
+    "categoryId": "mobile",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=12"
+    },
+    "date": "2026-07-21",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&h=450&fit=crop",
+    "tags": [
+      "mobile",
+      "نسخ",
+      "WhatsApp"
+    ],
+    "isFeatured": false,
+    "isTrending": false
   },
   {
     "id": "ti-305",
@@ -147,9 +745,82 @@
     "date": "2026-07-20",
     "readTime": 5,
     "heroImage": "https://images.unsplash.com/photo-1629654297299-c458eeae83c2?w=800&h=450&fit=crop",
-    "tags": ["ويندوز", "أداء", "Windows", "Performance"],
+    "tags": [
+      "ويندوز",
+      "أداء",
+      "Windows",
+      "Performance"
+    ],
     "isFeatured": false,
     "isTrending": true
+  },
+  {
+    "id": "ti-613",
+    "slug": "used-phone-buy",
+    "title": {
+      "ar": "شراء هاتف مستعمل",
+      "en": "Buying a Used Phone"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول شراء هاتف مستعمل لمستخدم يومي.",
+      "en": "A short practical guide to Buying a Used Phone for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع شراء هاتف مستعمل يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: شراء هاتف مستعمل. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nBuying a Used Phone affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Buying a Used Phone. Consistency beats perfection."
+    },
+    "categoryId": "mobile",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=13"
+    },
+    "date": "2026-07-20",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&h=450&fit=crop",
+    "tags": [
+      "mobile",
+      "شراء",
+      "Buying"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "ti-614",
+    "slug": "telegram-privacy",
+    "title": {
+      "ar": "خصوصية تيليجرام",
+      "en": "Telegram Privacy"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول خصوصية تيليجرام لمستخدم يومي.",
+      "en": "A short practical guide to Telegram Privacy for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع خصوصية تيليجرام يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: خصوصية تيليجرام. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nTelegram Privacy affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Telegram Privacy. Consistency beats perfection."
+    },
+    "categoryId": "mobile",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=14"
+    },
+    "date": "2026-07-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1629654297299-c458eeae83c2?w=800&h=450&fit=crop",
+    "tags": [
+      "mobile",
+      "خصوصية",
+      "Telegram"
+    ],
+    "isFeatured": false,
+    "isTrending": false
   },
   {
     "id": "ti-306",
@@ -177,7 +848,114 @@
     "date": "2026-07-18",
     "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=450&fit=crop",
-    "tags": ["مقارنة", "آيفون", "أندرويد", "Comparison"],
+    "tags": [
+      "مقارنة",
+      "آيفون",
+      "أندرويد",
+      "Comparison"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "ti-615",
+    "slug": "phone-water",
+    "title": {
+      "ar": "الهاتف والسوائل",
+      "en": "Phone Liquid Damage"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول الهاتف والسوائل لمستخدم يومي.",
+      "en": "A short practical guide to Phone Liquid Damage for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع الهاتف والسوائل يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: الهاتف والسوائل. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nPhone Liquid Damage affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Phone Liquid Damage. Consistency beats perfection."
+    },
+    "categoryId": "mobile",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=15"
+    },
+    "date": "2026-07-18",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
+    "tags": [
+      "mobile",
+      "الهاتف",
+      "Phone"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-616",
+    "slug": "android-update",
+    "title": {
+      "ar": "تحديث أندرويد بأمان",
+      "en": "Update Android Safely"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول تحديث أندرويد بأمان لمستخدم يومي.",
+      "en": "A short practical guide to Update Android Safely for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع تحديث أندرويد بأمان يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: تحديث أندرويد بأمان. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nUpdate Android Safely affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Update Android Safely. Consistency beats perfection."
+    },
+    "categoryId": "mobile",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=16"
+    },
+    "date": "2026-07-17",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=450&fit=crop",
+    "tags": [
+      "mobile",
+      "تحديث",
+      "Update"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-617",
+    "slug": "ssd-upgrade",
+    "title": {
+      "ar": "ترقية SSD",
+      "en": "SSD Upgrade"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول ترقية SSD لمستخدم يومي.",
+      "en": "A short practical guide to SSD Upgrade for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع ترقية SSD يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: ترقية SSD. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nSSD Upgrade affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: SSD Upgrade. Consistency beats perfection."
+    },
+    "categoryId": "laptops",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=17"
+    },
+    "date": "2026-07-16",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=450&fit=crop",
+    "tags": [
+      "laptops",
+      "ترقية",
+      "SSD"
+    ],
     "isFeatured": true,
     "isTrending": false
   },
@@ -207,7 +985,116 @@
     "date": "2026-07-15",
     "readTime": 6,
     "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=450&fit=crop",
-    "tags": ["BSOD", "ويندوز", "أعطال", "Troubleshooting", "Windows", "شاشة زرقاء"],
+    "tags": [
+      "BSOD",
+      "ويندوز",
+      "أعطال",
+      "Troubleshooting",
+      "Windows",
+      "شاشة زرقاء"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-618",
+    "slug": "laptop-fan",
+    "title": {
+      "ar": "صوت مروحة اللابتوب",
+      "en": "Laptop Fan Noise"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول صوت مروحة اللابتوب لمستخدم يومي.",
+      "en": "A short practical guide to Laptop Fan Noise for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع صوت مروحة اللابتوب يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: صوت مروحة اللابتوب. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nLaptop Fan Noise affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Laptop Fan Noise. Consistency beats perfection."
+    },
+    "categoryId": "laptops",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=18"
+    },
+    "date": "2026-07-15",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
+    "tags": [
+      "laptops",
+      "صوت",
+      "Laptop"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-619",
+    "slug": "student-laptop",
+    "title": {
+      "ar": "لابتوب للطلاب",
+      "en": "Student Laptop Specs"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول لابتوب للطلاب لمستخدم يومي.",
+      "en": "A short practical guide to Student Laptop Specs for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع لابتوب للطلاب يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: لابتوب للطلاب. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nStudent Laptop Specs affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Student Laptop Specs. Consistency beats perfection."
+    },
+    "categoryId": "laptops",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=19"
+    },
+    "date": "2026-07-14",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=450&fit=crop",
+    "tags": [
+      "laptops",
+      "لابتوب",
+      "Student"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "ti-620",
+    "slug": "used-laptop",
+    "title": {
+      "ar": "لابتوب مستعمل",
+      "en": "Used Laptop Checklist"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول لابتوب مستعمل لمستخدم يومي.",
+      "en": "A short practical guide to Used Laptop Checklist for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع لابتوب مستعمل يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: لابتوب مستعمل. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nUsed Laptop Checklist affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Used Laptop Checklist. Consistency beats perfection."
+    },
+    "categoryId": "laptops",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=20"
+    },
+    "date": "2026-07-13",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&h=450&fit=crop",
+    "tags": [
+      "laptops",
+      "لابتوب",
+      "Used"
+    ],
     "isFeatured": false,
     "isTrending": false
   },
@@ -237,7 +1124,82 @@
     "date": "2026-07-12",
     "readTime": 5,
     "heroImage": "https://images.unsplash.com/photo-1544197150-b99a580bb7a2?w=800&h=450&fit=crop",
-    "tags": ["نسخ احتياطي", "Backup", "بيانات", "Data", "3-2-1", "حماية"],
+    "tags": [
+      "نسخ احتياطي",
+      "Backup",
+      "بيانات",
+      "Data",
+      "3-2-1",
+      "حماية"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-621",
+    "slug": "laptop-bag",
+    "title": {
+      "ar": "حقيبة اللابتوب",
+      "en": "Laptop Bag Essentials"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول حقيبة اللابتوب لمستخدم يومي.",
+      "en": "A short practical guide to Laptop Bag Essentials for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع حقيبة اللابتوب يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: حقيبة اللابتوب. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nLaptop Bag Essentials affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Laptop Bag Essentials. Consistency beats perfection."
+    },
+    "categoryId": "laptops",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=21"
+    },
+    "date": "2026-07-12",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&h=450&fit=crop",
+    "tags": [
+      "laptops",
+      "حقيبة",
+      "Laptop"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-622",
+    "slug": "laptop-heat",
+    "title": {
+      "ar": "حرارة اللابتوب",
+      "en": "Laptop Heat Management"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول حرارة اللابتوب لمستخدم يومي.",
+      "en": "A short practical guide to Laptop Heat Management for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع حرارة اللابتوب يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: حرارة اللابتوب. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nLaptop Heat Management affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Laptop Heat Management. Consistency beats perfection."
+    },
+    "categoryId": "laptops",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=22"
+    },
+    "date": "2026-07-11",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1629654297299-c458eeae83c2?w=800&h=450&fit=crop",
+    "tags": [
+      "laptops",
+      "حرارة",
+      "Laptop"
+    ],
     "isFeatured": false,
     "isTrending": false
   },
@@ -267,7 +1229,82 @@
     "date": "2026-07-10",
     "readTime": 5,
     "heroImage": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&h=450&fit=crop",
-    "tags": ["حرارة", "لابتوب", "Heat", "Laptop", "صيانة", "Maintenance"],
+    "tags": [
+      "حرارة",
+      "لابتوب",
+      "Heat",
+      "Laptop",
+      "صيانة",
+      "Maintenance"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-623",
+    "slug": "windows-startup",
+    "title": {
+      "ar": "برامج الإقلاع",
+      "en": "Windows Startup Apps"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول برامج الإقلاع لمستخدم يومي.",
+      "en": "A short practical guide to Windows Startup Apps for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع برامج الإقلاع يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: برامج الإقلاع. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nWindows Startup Apps affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Windows Startup Apps. Consistency beats perfection."
+    },
+    "categoryId": "windows",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=23"
+    },
+    "date": "2026-07-10",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
+    "tags": [
+      "windows",
+      "برامج",
+      "Windows"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-624",
+    "slug": "windows-update-stuck",
+    "title": {
+      "ar": "تحديث ويندوز معلّق",
+      "en": "Stuck Windows Update"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول تحديث ويندوز معلّق لمستخدم يومي.",
+      "en": "A short practical guide to Stuck Windows Update for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع تحديث ويندوز معلّق يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: تحديث ويندوز معلّق. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nStuck Windows Update affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Stuck Windows Update. Consistency beats perfection."
+    },
+    "categoryId": "windows",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=24"
+    },
+    "date": "2026-07-09",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=450&fit=crop",
+    "tags": [
+      "windows",
+      "تحديث",
+      "Stuck"
+    ],
     "isFeatured": false,
     "isTrending": false
   },
@@ -297,7 +1334,116 @@
     "date": "2026-07-08",
     "readTime": 5,
     "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop",
-    "tags": ["تخزين", "أندرويد", "Storage", "Android", "مساحة", "Cleanup"],
+    "tags": [
+      "تخزين",
+      "أندرويد",
+      "Storage",
+      "Android",
+      "مساحة",
+      "Cleanup"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-625",
+    "slug": "windows-storage",
+    "title": {
+      "ar": "مساحة ويندوز",
+      "en": "Windows Storage Cleanup"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول مساحة ويندوز لمستخدم يومي.",
+      "en": "A short practical guide to Windows Storage Cleanup for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع مساحة ويندوز يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: مساحة ويندوز. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nWindows Storage Cleanup affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Windows Storage Cleanup. Consistency beats perfection."
+    },
+    "categoryId": "windows",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=25"
+    },
+    "date": "2026-07-08",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=450&fit=crop",
+    "tags": [
+      "windows",
+      "مساحة",
+      "Windows"
+    ],
+    "isFeatured": true,
+    "isTrending": true
+  },
+  {
+    "id": "ti-626",
+    "slug": "windows-defender",
+    "title": {
+      "ar": "Windows Defender",
+      "en": "Windows Defender in 2026"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول Windows Defender لمستخدم يومي.",
+      "en": "A short practical guide to Windows Defender in 2026 for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع Windows Defender يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: Windows Defender. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nWindows Defender in 2026 affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Windows Defender in 2026. Consistency beats perfection."
+    },
+    "categoryId": "windows",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=26"
+    },
+    "date": "2026-07-07",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
+    "tags": [
+      "windows",
+      "Windows",
+      "Windows"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-627",
+    "slug": "windows-clipboard",
+    "title": {
+      "ar": "سجل الحافظة",
+      "en": "Clipboard History"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول سجل الحافظة لمستخدم يومي.",
+      "en": "A short practical guide to Clipboard History for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع سجل الحافظة يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: سجل الحافظة. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nClipboard History affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Clipboard History. Consistency beats perfection."
+    },
+    "categoryId": "windows",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=27"
+    },
+    "date": "2026-07-06",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=450&fit=crop",
+    "tags": [
+      "windows",
+      "سجل",
+      "Clipboard"
+    ],
     "isFeatured": false,
     "isTrending": false
   },
@@ -327,10 +1473,117 @@
     "date": "2026-07-05",
     "readTime": 5,
     "heroImage": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=450&fit=crop",
-    "tags": ["React", "برمجة", "Programming", "Web"],
+    "tags": [
+      "React",
+      "برمجة",
+      "Programming",
+      "Web"
+    ],
     "isFeatured": false,
     "isTrending": true,
     "youtubeVideoId": "w7ejDZ8SWv8"
+  },
+  {
+    "id": "ti-628",
+    "slug": "windows-night-light",
+    "title": {
+      "ar": "الإضاءة الليلية",
+      "en": "Night Light"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول الإضاءة الليلية لمستخدم يومي.",
+      "en": "A short practical guide to Night Light for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع الإضاءة الليلية يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: الإضاءة الليلية. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nNight Light affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Night Light. Consistency beats perfection."
+    },
+    "categoryId": "windows",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=28"
+    },
+    "date": "2026-07-05",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&h=450&fit=crop",
+    "tags": [
+      "windows",
+      "الإضاءة",
+      "Night"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-629",
+    "slug": "chatgpt-study",
+    "title": {
+      "ar": "ChatGPT للمذاكرة",
+      "en": "ChatGPT for Studying"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول ChatGPT للمذاكرة لمستخدم يومي.",
+      "en": "A short practical guide to ChatGPT for Studying for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع ChatGPT للمذاكرة يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: ChatGPT للمذاكرة. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nChatGPT for Studying affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: ChatGPT for Studying. Consistency beats perfection."
+    },
+    "categoryId": "ai",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=29"
+    },
+    "date": "2026-07-04",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&h=450&fit=crop",
+    "tags": [
+      "ai",
+      "ChatGPT",
+      "ChatGPT"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-630",
+    "slug": "ai-images-safe",
+    "title": {
+      "ar": "صور AI بأمان",
+      "en": "Safer AI Images"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول صور AI بأمان لمستخدم يومي.",
+      "en": "A short practical guide to Safer AI Images for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع صور AI بأمان يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: صور AI بأمان. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nSafer AI Images affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Safer AI Images. Consistency beats perfection."
+    },
+    "categoryId": "ai",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=30"
+    },
+    "date": "2026-07-03",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1629654297299-c458eeae83c2?w=800&h=450&fit=crop",
+    "tags": [
+      "ai",
+      "صور",
+      "Safer"
+    ],
+    "isFeatured": false,
+    "isTrending": false
   },
   {
     "id": "ti-312",
@@ -358,7 +1611,521 @@
     "date": "2026-07-02",
     "readTime": 5,
     "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=450&fit=crop",
-    "tags": ["إعادة ضبط", "Factory Reset", "صيانة"],
+    "tags": [
+      "إعادة ضبط",
+      "Factory Reset",
+      "صيانة"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-631",
+    "slug": "local-vs-cloud-ai",
+    "title": {
+      "ar": "AI محلي وسحابي",
+      "en": "Local vs Cloud AI"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول AI محلي وسحابي لمستخدم يومي.",
+      "en": "A short practical guide to Local vs Cloud AI for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع AI محلي وسحابي يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: AI محلي وسحابي. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nLocal vs Cloud AI affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Local vs Cloud AI. Consistency beats perfection."
+    },
+    "categoryId": "ai",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=31"
+    },
+    "date": "2026-07-02",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
+    "tags": [
+      "ai",
+      "AI",
+      "Local"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "ti-632",
+    "slug": "ai-emails",
+    "title": {
+      "ar": "AI لكتابة الإيميل",
+      "en": "AI for Emails"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول AI لكتابة الإيميل لمستخدم يومي.",
+      "en": "A short practical guide to AI for Emails for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع AI لكتابة الإيميل يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: AI لكتابة الإيميل. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nAI for Emails affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: AI for Emails. Consistency beats perfection."
+    },
+    "categoryId": "ai",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=32"
+    },
+    "date": "2026-07-01",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=450&fit=crop",
+    "tags": [
+      "ai",
+      "AI",
+      "AI"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-633",
+    "slug": "ai-search-tips",
+    "title": {
+      "ar": "بحث أذكى بـ AI",
+      "en": "Smarter AI Search"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول بحث أذكى بـ AI لمستخدم يومي.",
+      "en": "A short practical guide to Smarter AI Search for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع بحث أذكى بـ AI يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: بحث أذكى بـ AI. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nSmarter AI Search affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Smarter AI Search. Consistency beats perfection."
+    },
+    "categoryId": "ai",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=33"
+    },
+    "date": "2026-06-30",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=450&fit=crop",
+    "tags": [
+      "ai",
+      "بحث",
+      "Smarter"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "ti-634",
+    "slug": "factory-reset",
+    "title": {
+      "ar": "إعادة ضبط المصنع",
+      "en": "Factory Reset Checklist"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول إعادة ضبط المصنع لمستخدم يومي.",
+      "en": "A short practical guide to Factory Reset Checklist for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع إعادة ضبط المصنع يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: إعادة ضبط المصنع. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nFactory Reset Checklist affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Factory Reset Checklist. Consistency beats perfection."
+    },
+    "categoryId": "howto",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=34"
+    },
+    "date": "2026-06-29",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
+    "tags": [
+      "howto",
+      "إعادة",
+      "Factory"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-635",
+    "slug": "speedtest-right",
+    "title": {
+      "ar": "قياس سرعة الإنترنت",
+      "en": "Measure Internet Speed"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول قياس سرعة الإنترنت لمستخدم يومي.",
+      "en": "A short practical guide to Measure Internet Speed for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع قياس سرعة الإنترنت يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: قياس سرعة الإنترنت. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nMeasure Internet Speed affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Measure Internet Speed. Consistency beats perfection."
+    },
+    "categoryId": "howto",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=35"
+    },
+    "date": "2026-06-28",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=450&fit=crop",
+    "tags": [
+      "howto",
+      "قياس",
+      "Measure"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-636",
+    "slug": "pc-backup",
+    "title": {
+      "ar": "نسخ الكمبيوتر",
+      "en": "PC Backup 3-2-1"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول نسخ الكمبيوتر لمستخدم يومي.",
+      "en": "A short practical guide to PC Backup 3-2-1 for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع نسخ الكمبيوتر يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: نسخ الكمبيوتر. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nPC Backup 3-2-1 affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: PC Backup 3-2-1. Consistency beats perfection."
+    },
+    "categoryId": "howto",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=36"
+    },
+    "date": "2026-06-27",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&h=450&fit=crop",
+    "tags": [
+      "howto",
+      "نسخ",
+      "PC"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-637",
+    "slug": "router-placement",
+    "title": {
+      "ar": "مكان الراوتر",
+      "en": "Router Placement"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول مكان الراوتر لمستخدم يومي.",
+      "en": "A short practical guide to Router Placement for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع مكان الراوتر يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: مكان الراوتر. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nRouter Placement affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Router Placement. Consistency beats perfection."
+    },
+    "categoryId": "howto",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=37"
+    },
+    "date": "2026-06-26",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&h=450&fit=crop",
+    "tags": [
+      "howto",
+      "مكان",
+      "Router"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "ti-638",
+    "slug": "clean-email",
+    "title": {
+      "ar": "تنظيف البريد",
+      "en": "Clean Your Email"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول تنظيف البريد لمستخدم يومي.",
+      "en": "A short practical guide to Clean Your Email for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع تنظيف البريد يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: تنظيف البريد. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nClean Your Email affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Clean Your Email. Consistency beats perfection."
+    },
+    "categoryId": "howto",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=38"
+    },
+    "date": "2026-06-25",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1629654297299-c458eeae83c2?w=800&h=450&fit=crop",
+    "tags": [
+      "howto",
+      "تنظيف",
+      "Clean"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-639",
+    "slug": "type-faster",
+    "title": {
+      "ar": "سرعة الكتابة",
+      "en": "Type Faster"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول سرعة الكتابة لمستخدم يومي.",
+      "en": "A short practical guide to Type Faster for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع سرعة الكتابة يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: سرعة الكتابة. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nType Faster affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Type Faster. Consistency beats perfection."
+    },
+    "categoryId": "howto",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=39"
+    },
+    "date": "2026-06-24",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
+    "tags": [
+      "howto",
+      "سرعة",
+      "Type"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-640",
+    "slug": "update-apps",
+    "title": {
+      "ar": "تحديث التطبيقات",
+      "en": "Update Apps Safely"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول تحديث التطبيقات لمستخدم يومي.",
+      "en": "A short practical guide to Update Apps Safely for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع تحديث التطبيقات يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: تحديث التطبيقات. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nUpdate Apps Safely affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Update Apps Safely. Consistency beats perfection."
+    },
+    "categoryId": "howto",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=40"
+    },
+    "date": "2026-06-23",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=450&fit=crop",
+    "tags": [
+      "howto",
+      "تحديث",
+      "Update"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-641",
+    "slug": "phone-review-check",
+    "title": {
+      "ar": "مراجعة هاتف قبل الشراء",
+      "en": "Phone Review Checklist"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول مراجعة هاتف قبل الشراء لمستخدم يومي.",
+      "en": "A short practical guide to Phone Review Checklist for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع مراجعة هاتف قبل الشراء يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: مراجعة هاتف قبل الشراء. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nPhone Review Checklist affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Phone Review Checklist. Consistency beats perfection."
+    },
+    "categoryId": "reviews",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=41"
+    },
+    "date": "2026-06-22",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=450&fit=crop",
+    "tags": [
+      "reviews",
+      "مراجعة",
+      "Phone"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "ti-642",
+    "slug": "earbuds-buy",
+    "title": {
+      "ar": "شراء سماعة لاسلكية",
+      "en": "Buying Earbuds"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول شراء سماعة لاسلكية لمستخدم يومي.",
+      "en": "A short practical guide to Buying Earbuds for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع شراء سماعة لاسلكية يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: شراء سماعة لاسلكية. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nBuying Earbuds affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Buying Earbuds. Consistency beats perfection."
+    },
+    "categoryId": "reviews",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=42"
+    },
+    "date": "2026-06-21",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
+    "tags": [
+      "reviews",
+      "شراء",
+      "Buying"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-643",
+    "slug": "monitor-work",
+    "title": {
+      "ar": "شاشة للعمل",
+      "en": "Work Monitor"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول شاشة للعمل لمستخدم يومي.",
+      "en": "A short practical guide to Work Monitor for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع شاشة للعمل يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: شاشة للعمل. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nWork Monitor affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Work Monitor. Consistency beats perfection."
+    },
+    "categoryId": "reviews",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=43"
+    },
+    "date": "2026-06-20",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=450&fit=crop",
+    "tags": [
+      "reviews",
+      "شاشة",
+      "Work"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "ti-644",
+    "slug": "powerbank-buy",
+    "title": {
+      "ar": "شراء باور بانك",
+      "en": "Buying a Power Bank"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول شراء باور بانك لمستخدم يومي.",
+      "en": "A short practical guide to Buying a Power Bank for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع شراء باور بانك يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: شراء باور بانك. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nBuying a Power Bank affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Buying a Power Bank. Consistency beats perfection."
+    },
+    "categoryId": "reviews",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=44"
+    },
+    "date": "2026-06-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&h=450&fit=crop",
+    "tags": [
+      "reviews",
+      "شراء",
+      "Buying"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "ti-645",
+    "slug": "android-iphone-cam",
+    "title": {
+      "ar": "كاميرا أندرويد وآيفون",
+      "en": "Android vs iPhone Camera"
+    },
+    "excerpt": {
+      "ar": "دليل عملي ومختصر حول كاميرا أندرويد وآيفون لمستخدم يومي.",
+      "en": "A short practical guide to Android vs iPhone Camera for everyday users."
+    },
+    "body": {
+      "ar": "## لماذا يهمك؟\n\nموضوع كاميرا أندرويد وآيفون يمس استخدامك اليومي للأجهزة والإنترنت، وفهم الأساسيات يوفّر وقتاً ومالاً.\n\n## خطوات عملية\n\n1) حدد هدفك بوضوح.\n2) طبّق تغييراً واحداً في كل مرة.\n3) اختبر النتيجة قبل الانتقال للخطوة التالية.\n\n## أخطاء شائعة\n\nالتسرع بدون نسخة احتياطية، وتحميل أدوات من مصادر غير موثوقة، وإهمال التحديثات.\n\n## خلاصة\n\nابدأ بخطوة صغيرة اليوم ضمن: كاميرا أندرويد وآيفون. الثبات أهم من المثالية.",
+      "en": "## Why it matters\n\nAndroid vs iPhone Camera affects how you use devices and the internet daily. Basics save time and money.\n\n## Practical steps\n\n1) Define the goal clearly.\n2) Change one thing at a time.\n3) Verify results before the next step.\n\n## Common mistakes\n\nRushing without a backup, downloading tools from untrusted sources, and skipping updates.\n\n## Bottom line\n\nTake one small step today on: Android vs iPhone Camera. Consistency beats perfection."
+    },
+    "categoryId": "comparisons",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=45"
+    },
+    "date": "2026-06-18",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&h=450&fit=crop",
+    "tags": [
+      "comparisons",
+      "كاميرا",
+      "Android"
+    ],
     "isFeatured": false,
     "isTrending": false
   }
