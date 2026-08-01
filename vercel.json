@@ -1,9 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "corepack enable && pnpm install --frozen-lockfile",
   "buildCommand": "corepack enable && pnpm install --frozen-lockfile && pnpm --filter @workspace/techpulse-ar run build",
   "outputDirectory": "artifacts/techpulse-ar/dist/public",
-  "installCommand": "corepack enable && pnpm install --frozen-lockfile",
-  "framework": null,
   "rewrites": [
     { "source": "/api/cms/(.*)", "destination": "/api/cms/$1" },
     { "source": "/((?!api/|.*\\..*).*)", "destination": "/index.html" }
