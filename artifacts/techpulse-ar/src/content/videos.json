@@ -1,106 +1,86 @@
 [
   {
     "id": "vid-001",
-    "title": {
-      "ar": "شرح الشبكات العصبية بطريقة بصرية",
-      "en": "Neural Networks Explained Visually"
-    },
-    "description": {
-      "ar": "مقدمة واضحة لآلية عمل الشبكات العصبية والتعلم العميق.",
-      "en": "A clear introduction to how neural networks and deep learning work."
-    },
-    "youtubeId": "aircAruvnKk",
+    "title": { "ar": "مقدمة عن الشبكات", "en": "Computer Networks Intro" },
+    "description": { "ar": "شرح مبسط لأساسيات الشبكات.", "en": "Simple intro to networking basics." },
+    "youtubeId": "3QhU9jd03a0",
     "date": "2026-07-01"
   },
   {
     "id": "vid-002",
-    "title": {
-      "ar": "دورة HTML كاملة للمبتدئين",
-      "en": "HTML Crash Course for Beginners"
-    },
-    "description": {
-      "ar": "أساسيات بناء صفحات الويب بلغة HTML من الصفر.",
-      "en": "Web page fundamentals with HTML from scratch."
-    },
+    "title": { "ar": "HTML للمبتدئين", "en": "HTML for Beginners" },
+    "description": { "ar": "أساسيات HTML بشكل عملي.", "en": "Practical HTML basics." },
     "youtubeId": "UB1O30fR-EE",
-    "date": "2026-07-05"
+    "date": "2026-07-02"
   },
   {
     "id": "vid-003",
-    "title": {
-      "ar": "React للمبتدئين — دورة سريعة",
-      "en": "React JS Crash Course"
-    },
-    "description": {
-      "ar": "تعلّم أساسيات React وبناء واجهات تفاعلية حديثة.",
-      "en": "Learn React fundamentals and build modern interactive UIs."
-    },
-    "youtubeId": "w7ejDZ8SWv8",
-    "date": "2026-07-08"
+    "title": { "ar": "React للمبتدئين", "en": "React for Beginners" },
+    "description": { "ar": "مدخل سريع لـ React.", "en": "Quick React introduction." },
+    "youtubeId": "Tn6-PIqc4UM",
+    "date": "2026-07-03"
   },
   {
     "id": "vid-004",
-    "title": {
-      "ar": "دورة Python كاملة للمبتدئين",
-      "en": "Python Full Course for Beginners"
-    },
-    "description": {
-      "ar": "مسار شامل لتعلّم بايثون من الصفر حتى المشاريع العملية.",
-      "en": "A complete path to learn Python from zero to practical projects."
-    },
-    "youtubeId": "rfscVS0vtbw",
-    "date": "2026-07-12"
+    "title": { "ar": "Python للمبتدئين", "en": "Python for Beginners" },
+    "description": { "ar": "تعلم أساسيات بايثون.", "en": "Learn Python basics." },
+    "youtubeId": "kqtD5dpn9C8",
+    "date": "2026-07-04"
   },
   {
     "id": "vid-005",
-    "title": {
-      "ar": "أساسيات أمن المعلومات",
-      "en": "Cybersecurity Fundamentals"
-    },
-    "description": {
-      "ar": "مفاهيم أساسية لحماية حساباتك وأجهزتك من التهديدات الرقمية.",
-      "en": "Core concepts to protect your accounts and devices from digital threats."
-    },
+    "title": { "ar": "أمن المعلومات", "en": "Cybersecurity Basics" },
+    "description": { "ar": "مفاهيم أمنية أساسية.", "en": "Core security concepts." },
     "youtubeId": "inWWhr5tnEA",
-    "date": "2026-07-15"
+    "date": "2026-07-05"
   },
   {
     "id": "vid-006",
-    "title": {
-      "ar": "Node.js للمبتدئين",
-      "en": "Node.js Crash Course"
-    },
-    "description": {
-      "ar": "بناء خوادم وواجهات برمجية باستخدام Node.js.",
-      "en": "Build servers and APIs with Node.js."
-    },
-    "youtubeId": "fBNz5xF-Kx4",
-    "date": "2026-07-18"
+    "title": { "ar": "JavaScript في ساعة", "en": "JavaScript in One Hour" },
+    "description": { "ar": "أساسيات جافاسكريبت.", "en": "JavaScript fundamentals." },
+    "youtubeId": "W6NZfCO5SIk",
+    "date": "2026-07-06"
   },
   {
     "id": "vid-007",
-    "title": {
-      "ar": "Tailwind CSS بسرعة",
-      "en": "Tailwind CSS in One Video"
-    },
-    "description": {
-      "ar": "تصميم واجهات حديثة بسرعة باستخدام Tailwind.",
-      "en": "Design modern UIs fast with Tailwind CSS."
-    },
-    "youtubeId": "lYpX4l2-z-Y",
-    "date": "2026-07-22"
+    "title": { "ar": "CSS للمبتدئين", "en": "CSS for Beginners" },
+    "description": { "ar": "تنسيق الصفحات بـ CSS.", "en": "Style pages with CSS." },
+    "youtubeId": "1Rs2ND1ryYc",
+    "date": "2026-07-07"
   },
   {
     "id": "vid-008",
-    "title": {
-      "ar": "ما هو الذكاء الاصطناعي؟",
-      "en": "What is Artificial Intelligence?"
-    },
-    "description": {
-      "ar": "شرح مبسّط لمفهوم الذكاء الاصطناعي وتطبيقاته اليومية.",
-      "en": "A simple explanation of AI and its everyday applications."
-    },
+    "title": { "ar": "ما هو الذكاء الاصطناعي؟", "en": "What is AI?" },
+    "description": { "ar": "مقدمة مبسطة للذكاء الاصطناعي.", "en": "Simple introduction to AI." },
     "youtubeId": "ad79nYk2-go",
-    "date": "2026-07-25"
+    "date": "2026-07-08"
+  },
+  {
+    "id": "vid-009",
+    "title": { "ar": "Git و GitHub", "en": "Git and GitHub" },
+    "description": { "ar": "أساسيات التحكم بالإصدارات.", "en": "Version control basics." },
+    "youtubeId": "RGOj5yH7evk",
+    "date": "2026-07-09"
+  },
+  {
+    "id": "vid-010",
+    "title": { "ar": "API ببساطة", "en": "APIs Explained Simply" },
+    "description": { "ar": "فهم واجهات البرمجة.", "en": "Understand APIs." },
+    "youtubeId": "GZvSYJDk-us",
+    "date": "2026-07-10"
+  },
+  {
+    "id": "vid-011",
+    "title": { "ar": "Linux للمبتدئين", "en": "Linux for Beginners" },
+    "description": { "ar": "أوامر لينكس الأساسية.", "en": "Essential Linux commands." },
+    "youtubeId": "sWbUDq4S6Y8",
+    "date": "2026-07-11"
+  },
+  {
+    "id": "vid-012",
+    "title": { "ar": "قواعد البيانات SQL", "en": "SQL Databases" },
+    "description": { "ar": "مدخل إلى SQL.", "en": "Introduction to SQL." },
+    "youtubeId": "HXV3zeQKqGY",
+    "date": "2026-07-12"
   }
 ]
