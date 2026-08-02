@@ -39,6 +39,7 @@ const categories = [
 const articles = loadJson('src/content/articles.json');
 const pages = loadJson('src/content/pages.json');
 const videos = loadJson('src/content/videos.json');
+const comparisons = loadJson('src/content/comparisons.json');
 
 const urls = [...staticRoutes];
 
@@ -58,6 +59,17 @@ for (const a of articles) {
       priority: a.isFeatured ? '0.9' : '0.8',
       changefreq: 'weekly',
       lastmod: typeof a.date === 'string' ? a.date.slice(0, 10) : today,
+    });
+  }
+}
+
+for (const c of comparisons) {
+  if (c?.slug) {
+    urls.push({
+      path: `/comparison/${c.slug}`,
+      priority: '0.85',
+      changefreq: 'weekly',
+      lastmod: typeof c.date === 'string' ? c.date.slice(0, 10) : today,
     });
   }
 }
