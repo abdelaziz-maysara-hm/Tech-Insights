@@ -1,5 +1,5 @@
 /** Shared CLI + IO helpers */
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, writeFile, readFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -28,4 +28,10 @@ export async function writeJson(name, data) {
 
 export function pick(arr, i) {
   return arr[i % arr.length];
+}
+
+export function hashString(s) {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+  return h;
 }

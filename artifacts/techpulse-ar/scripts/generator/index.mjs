@@ -2,6 +2,7 @@
 /**
  * Content generator CLI for Technical Insights.
  * Writes production-shaped JSON under content/generated/ only.
+ * Does not modify the live website content paths.
  */
 import { resetSlugs } from './slugs.mjs';
 import { generateArticles } from './articles.mjs';
@@ -16,7 +17,7 @@ const DEFAULTS = {
   videos: 1000,
   comparisons: 1000,
   collections: 50,
-  pages: undefined,
+  pages: undefined, // all standard pages
   articles: 100,
 };
 
