@@ -108,7 +108,8 @@
     "verdict": {
       "ar": "S25 Ultra للمرونة والزوم؛ آيفون 16 لمنظومة آبل والاستقرار.",
       "en": "S25 Ultra for flexibility/zoom; iPhone 16 for Apple ecosystem."
-    }
+    },
+    "subcategoryId": "phones"
   },
   {
     "id": "c11",
@@ -219,7 +220,8 @@
     "verdict": {
       "ar": "اجعل النظام على SSD والأرشيف الكبير على HDD إن احتجت التوفير.",
       "en": "Put the OS on SSD; use HDD for large cheap archives."
-    }
+    },
+    "subcategoryId": "laptops-pcs"
   },
   {
     "id": "c12",
@@ -330,7 +332,8 @@
     "verdict": {
       "ar": "كروم للتوافق؛ فايرفوكس إن كانت الخصوصية أولويتك.",
       "en": "Chrome for compatibility; Firefox if privacy is priority."
-    }
+    },
+    "subcategoryId": "software-services"
   },
   {
     "id": "c13",
@@ -441,7 +444,8 @@
     "verdict": {
       "ar": "Wi‑Fi 6 ممتاز مع أجهزة حديثة وبيت مليان شاشات؛ غير ذلك Wi‑Fi 5 الجيد يكفي.",
       "en": "Wi‑Fi 6 shines with modern clients; a good Wi‑Fi 5 router still fine otherwise."
-    }
+    },
+    "subcategoryId": "software-services"
   },
   {
     "id": "c14",
@@ -552,7 +556,8 @@
     "verdict": {
       "ar": "أندرويد يقدّم سعات أكبر غالباً؛ آيفون يستغل البطارية بكفاءة عالية.",
       "en": "Android often offers bigger cells; iPhone is highly efficient."
-    }
+    },
+    "subcategoryId": "phones"
   },
   {
     "id": "c15",
@@ -663,7 +668,8 @@
     "verdict": {
       "ar": "للأبحاث والمقالات: لابتوب. للمحاضرات والتظليل: تابلت.",
       "en": "Papers and research: laptop. Lectures and highlighting: tablet."
-    }
+    },
+    "subcategoryId": "laptops-pcs"
   },
   {
     "id": "c16",
@@ -774,7 +780,8 @@
     "verdict": {
       "ar": "OneDrive لمستخدمي ويندوز وOffice؛ Drive لمستخدمي جوجل وأندرويد.",
       "en": "OneDrive for Windows/Office users; Drive for Google/Android users."
-    }
+    },
+    "subcategoryId": "software-services"
   },
   {
     "id": "c17",
@@ -885,7 +892,8 @@
     "verdict": {
       "ar": "اختر حسب هاتفك: آبل مع AirPods وسامسونج/أندرويد مع Buds.",
       "en": "Pick by phone: Apple with AirPods; Samsung/Android with Buds."
-    }
+    },
+    "subcategoryId": "phones"
   },
   {
     "id": "c18",
@@ -996,7 +1004,8 @@
     "verdict": {
       "ar": "ويندوز للمرونة والسعر؛ Mac إن كنت في منظومة آبل وتكتب/تصمم كثيراً.",
       "en": "Windows for flexibility and price; Mac for Apple ecosystem and creative work."
-    }
+    },
+    "subcategoryId": "laptops-pcs"
   },
   {
     "id": "c19",
@@ -1107,6 +1116,7 @@
     "verdict": {
       "ar": "للسفر الطويل 20000؛ للجيب يومياً 10000 أخف.",
       "en": "Long trips: 20000; daily pocket carry: 10000."
-    }
+    },
+    "subcategoryId": "general"
   }
 ]
