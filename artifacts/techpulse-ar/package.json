@@ -12,7 +12,13 @@
     "start:render": "node dist/render-server.mjs",
     "serve": "vite preview --config vite.config.ts --host 0.0.0.0",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "rss": "node scripts/generate-rss.mjs"
+    "rss": "node scripts/generate-rss.mjs",
+    "generate": "node scripts/generator/index.mjs",
+    "generate:articles": "node scripts/generator/index.mjs --type=articles",
+    "generate:videos": "node scripts/generator/index.mjs --type=videos",
+    "generate:comparisons": "node scripts/generator/index.mjs --type=comparisons",
+    "generate:collections": "node scripts/generator/index.mjs --type=collections",
+    "generate:pages": "node scripts/generator/index.mjs --type=pages"
   },
   "devDependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -79,9 +85,3 @@
     "zod": "catalog:"
   }
 }
-"generate": "node scripts/generator/index.mjs",
-"generate:articles": "node scripts/generator/index.mjs --type=articles",
-"generate:videos": "node scripts/generator/index.mjs --type=videos",
-"generate:comparisons": "node scripts/generator/index.mjs --type=comparisons",
-"generate:collections": "node scripts/generator/index.mjs --type=collections",
-"generate:pages": "node scripts/generator/index.mjs --type=pages"
