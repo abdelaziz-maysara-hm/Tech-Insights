@@ -79,3 +79,9 @@
     "zod": "catalog:"
   }
 }
+"generate": "node scripts/generator/index.mjs",
+"generate:articles": "node scripts/generator/index.mjs --type=articles",
+"generate:videos": "node scripts/generator/index.mjs --type=videos",
+"generate:comparisons": "node scripts/generator/index.mjs --type=comparisons",
+"generate:collections": "node scripts/generator/index.mjs --type=collections",
+"generate:pages": "node scripts/generator/index.mjs --type=pages"
