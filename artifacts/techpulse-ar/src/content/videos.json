@@ -4,83 +4,107 @@
     "title": { "ar": "مقدمة عن الشبكات", "en": "Computer Networks Intro" },
     "description": { "ar": "شرح مبسط لأساسيات الشبكات.", "en": "Simple intro to networking basics." },
     "youtubeId": "3QhU9jd03a0",
-    "date": "2026-07-01"
+    "date": "2026-07-01",
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts"
   },
   {
     "id": "vid-002",
     "title": { "ar": "HTML للمبتدئين", "en": "HTML for Beginners" },
     "description": { "ar": "أساسيات HTML بشكل عملي.", "en": "Practical HTML basics." },
     "youtubeId": "UB1O30fR-EE",
-    "date": "2026-07-02"
+    "date": "2026-07-02",
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips"
   },
   {
     "id": "vid-003",
     "title": { "ar": "React للمبتدئين", "en": "React for Beginners" },
     "description": { "ar": "مدخل سريع لـ React.", "en": "Quick React introduction." },
     "youtubeId": "Tn6-PIqc4UM",
-    "date": "2026-07-03"
+    "date": "2026-07-03",
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips"
   },
   {
     "id": "vid-004",
     "title": { "ar": "Python للمبتدئين", "en": "Python for Beginners" },
     "description": { "ar": "تعلم أساسيات بايثون.", "en": "Learn Python basics." },
     "youtubeId": "kqtD5dpn9C8",
-    "date": "2026-07-04"
+    "date": "2026-07-04",
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips"
   },
   {
     "id": "vid-005",
     "title": { "ar": "أمن المعلومات", "en": "Cybersecurity Basics" },
     "description": { "ar": "مفاهيم أمنية أساسية.", "en": "Core security concepts." },
     "youtubeId": "inWWhr5tnEA",
-    "date": "2026-07-05"
+    "date": "2026-07-05",
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts"
   },
   {
     "id": "vid-006",
     "title": { "ar": "JavaScript في ساعة", "en": "JavaScript in One Hour" },
     "description": { "ar": "أساسيات جافاسكريبت.", "en": "JavaScript fundamentals." },
     "youtubeId": "W6NZfCO5SIk",
-    "date": "2026-07-06"
+    "date": "2026-07-06",
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips"
   },
   {
     "id": "vid-007",
     "title": { "ar": "CSS للمبتدئين", "en": "CSS for Beginners" },
     "description": { "ar": "تنسيق الصفحات بـ CSS.", "en": "Style pages with CSS." },
     "youtubeId": "1Rs2ND1ryYc",
-    "date": "2026-07-07"
+    "date": "2026-07-07",
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips"
   },
   {
     "id": "vid-008",
     "title": { "ar": "ما هو الذكاء الاصطناعي؟", "en": "What is AI?" },
     "description": { "ar": "مقدمة مبسطة للذكاء الاصطناعي.", "en": "Simple introduction to AI." },
     "youtubeId": "ad79nYk2-go",
-    "date": "2026-07-08"
+    "date": "2026-07-08",
+    "categoryId": "ai",
+    "subcategoryId": "concepts"
   },
   {
     "id": "vid-009",
     "title": { "ar": "Git و GitHub", "en": "Git and GitHub" },
     "description": { "ar": "أساسيات التحكم بالإصدارات.", "en": "Version control basics." },
     "youtubeId": "RGOj5yH7evk",
-    "date": "2026-07-09"
+    "date": "2026-07-09",
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips"
   },
   {
     "id": "vid-010",
     "title": { "ar": "API ببساطة", "en": "APIs Explained Simply" },
     "description": { "ar": "فهم واجهات البرمجة.", "en": "Understand APIs." },
     "youtubeId": "GZvSYJDk-us",
-    "date": "2026-07-10"
+    "date": "2026-07-10",
+    "categoryId": "howto",
+    "subcategoryId": "concepts"
   },
   {
     "id": "vid-011",
     "title": { "ar": "Linux للمبتدئين", "en": "Linux for Beginners" },
     "description": { "ar": "أوامر لينكس الأساسية.", "en": "Essential Linux commands." },
     "youtubeId": "sWbUDq4S6Y8",
-    "date": "2026-07-11"
+    "date": "2026-07-11",
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips"
   },
   {
     "id": "vid-012",
     "title": { "ar": "قواعد البيانات SQL", "en": "SQL Databases" },
     "description": { "ar": "مدخل إلى SQL.", "en": "Introduction to SQL." },
     "youtubeId": "HXV3zeQKqGY",
-    "date": "2026-07-12"
+    "date": "2026-07-12",
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips"
   }
 ]
