@@ -6,6 +6,8 @@ export interface CmsVideo {
   description: BilingualText;
   youtubeId: string;
   date: string;
+  categoryId?: string;
+  subcategoryId?: string;
 }
 
 export interface CmsPage {
