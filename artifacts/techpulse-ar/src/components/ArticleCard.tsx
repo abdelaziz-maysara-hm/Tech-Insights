@@ -27,9 +27,9 @@ export function ArticleCard({ article, featured = false, className }: ArticleCar
     return (
       <Link href={`/article/${article.slug}`} className={cn("group block relative overflow-hidden rounded-2xl glow-effect", className)}>
         <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/40 to-transparent z-10" />
-        <img 
-          src={article.heroImage} 
-          alt={article.title[language]} 
+        <img
+          src={article.heroImage}
+          alt={article.title[language]}
           className="w-full h-[400px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
           loading="lazy"
           onError={handleHeroError}
@@ -52,12 +52,7 @@ export function ArticleCard({ article, featured = false, className }: ArticleCar
             {article.excerpt[language]}
           </p>
           <div className="flex items-center gap-4 text-xs md:text-sm text-gray-300">
-            <div className="flex items-center gap-2">
-              <img src={article.author.avatar} alt={article.author.name[language]} className="w-6 h-6 rounded-full" />
-              <span>{article.author.name[language]}</span>
-            </div>
-            <span className="w-1 h-1 rounded-full bg-gray-500" />
-            <span>{article.date}</span>
+            <span>{article.author.name[language]}</span>
             <span className="w-1 h-1 rounded-full bg-gray-500" />
             <span className="flex items-center gap-1">
               <Clock className="w-3.5 h-3.5" />
@@ -77,9 +72,9 @@ export function ArticleCard({ article, featured = false, className }: ArticleCar
   return (
     <Link href={`/article/${article.slug}`} className={cn("group flex flex-col bg-card rounded-xl border border-border overflow-hidden hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/5", className)}>
       <div className="relative aspect-video overflow-hidden">
-        <img 
-          src={article.heroImage} 
-          alt={article.title[language]} 
+        <img
+          src={article.heroImage}
+          alt={article.title[language]}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           loading="lazy"
           onError={handleHeroError}
@@ -103,10 +98,7 @@ export function ArticleCard({ article, featured = false, className }: ArticleCar
           {article.excerpt[language]}
         </p>
         <div className="flex items-center justify-between text-xs text-muted-foreground pt-3 border-t border-border">
-          <div className="flex items-center gap-2">
-            <img src={article.author.avatar} alt="" className="w-5 h-5 rounded-full" />
-            <span className="truncate max-w-[120px]">{article.author.name[language]}</span>
-          </div>
+          <span className="truncate max-w-[160px]">{article.author.name[language]}</span>
           <span className="flex items-center gap-1 shrink-0">
             <Clock className="w-3.5 h-3.5" />
             {article.readTime} {t('readTime')}
