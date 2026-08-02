@@ -12,11 +12,11 @@
     },
     "device1Name": "iPhone 16",
     "device2Name": "Galaxy S25 Ultra",
-    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c101",
-    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c102",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?auto=format&fit=crop&w=400&h=500&q=80",
     "date": "2026-07-20",
     "categoryId": "comparisons",
-    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c10h",
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
     "overallWinner": 2,
     "specs": {
       "display": {
@@ -123,11 +123,11 @@
     },
     "device1Name": "SSD NVMe",
     "device2Name": "HDD 7200RPM",
-    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c111",
-    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c112",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?auto=format&fit=crop&w=400&h=500&q=80",
     "date": "2026-07-18",
     "categoryId": "comparisons",
-    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c11h",
+    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&h=450&q=80",
     "overallWinner": 1,
     "specs": {
       "display": {
@@ -234,11 +234,11 @@
     },
     "device1Name": "Google Chrome",
     "device2Name": "Mozilla Firefox",
-    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c121",
-    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c122",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?auto=format&fit=crop&w=400&h=500&q=80",
     "date": "2026-07-15",
     "categoryId": "comparisons",
-    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c12h",
+    "heroImage": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&h=450&q=80",
     "overallWinner": 2,
     "specs": {
       "display": {
@@ -345,11 +345,11 @@
     },
     "device1Name": "Wi‑Fi 6",
     "device2Name": "Wi‑Fi 5 (AC)",
-    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c131",
-    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c132",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?auto=format&fit=crop&w=400&h=500&q=80",
     "date": "2026-07-12",
     "categoryId": "comparisons",
-    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c13h",
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
     "overallWinner": 1,
     "specs": {
       "display": {
@@ -456,11 +456,11 @@
     },
     "device1Name": "Android flagship",
     "device2Name": "iPhone",
-    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c141",
-    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c142",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?auto=format&fit=crop&w=400&h=500&q=80",
     "date": "2026-07-10",
     "categoryId": "comparisons",
-    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c14h",
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
     "overallWinner": 1,
     "specs": {
       "display": {
@@ -567,11 +567,11 @@
     },
     "device1Name": "Laptop",
     "device2Name": "Tablet + keyboard",
-    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c151",
-    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c152",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?auto=format&fit=crop&w=400&h=500&q=80",
     "date": "2026-07-08",
     "categoryId": "comparisons",
-    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c15h",
+    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&h=450&q=80",
     "overallWinner": 1,
     "specs": {
       "display": {
@@ -678,11 +678,11 @@
     },
     "device1Name": "Google Drive",
     "device2Name": "OneDrive",
-    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c161",
-    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c162",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?auto=format&fit=crop&w=400&h=500&q=80",
     "date": "2026-07-05",
     "categoryId": "comparisons",
-    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c16h",
+    "heroImage": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&h=450&q=80",
     "overallWinner": 2,
     "specs": {
       "display": {
@@ -789,11 +789,11 @@
     },
     "device1Name": "AirPods",
     "device2Name": "Galaxy Buds",
-    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c171",
-    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c172",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?auto=format&fit=crop&w=400&h=500&q=80",
     "date": "2026-07-02",
     "categoryId": "comparisons",
-    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c17h",
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
     "overallWinner": 1,
     "specs": {
       "display": {
@@ -900,11 +900,11 @@
     },
     "device1Name": "Windows laptop",
     "device2Name": "MacBook",
-    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c181",
-    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c182",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?auto=format&fit=crop&w=400&h=500&q=80",
     "date": "2026-06-28",
     "categoryId": "comparisons",
-    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c18h",
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
     "overallWinner": 1,
     "specs": {
       "display": {
@@ -1011,11 +1011,11 @@
     },
     "device1Name": "20000mAh",
     "device2Name": "10000mAh",
-    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=500&fit=crop&sig=c191",
-    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?w=400&h=500&fit=crop&sig=c192",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1592890288564-76628a46a1ca?auto=format&fit=crop&w=400&h=500&q=80",
     "date": "2026-06-25",
     "categoryId": "comparisons",
-    "heroImage": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=450&fit=crop&sig=c19h",
+    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&h=450&q=80",
     "overallWinner": 1,
     "specs": {
       "display": {
