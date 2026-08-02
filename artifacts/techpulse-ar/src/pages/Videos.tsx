@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import { PlayCircle } from 'lucide-react';
 import { Link } from 'wouter';
@@ -7,6 +7,8 @@ import { useAllArticles } from '@/hooks/useAllArticles';
 import cmsVideosJson from '@/content/videos.json';
 import { CmsVideo } from '@/data/cmsTypes';
 import { extractYouTubeId, youtubeEmbedUrl, youtubeThumbnailUrl } from '@/lib/mediaUrls';
+import { getSubcategories } from '@/data/subcategories';
+import { Category } from '@/data/mockData';
 
 const cmsVideos = cmsVideosJson as unknown as CmsVideo[];
 
@@ -15,13 +17,31 @@ type Playable = {
   title: string;
   youtubeId: string;
   href?: string;
+  categoryId?: string;
+  subcategoryId?: string;
   meta?: string;
 };
+
+const CATEGORIES = ['all', 'cybersecurity', 'mobile', 'laptops', 'howto', 'ai', 'reviews', 'windows'];
 
 export default function Videos() {
   const { language, t } = useLanguage();
   const { allArticles } = useAllArticles();
   const [activeId, setActiveId] = useState<string | null>(null);
+  const [activeTab, setActiveTab] = useState('all');
+  const [activeSubTab, setActiveSubTab] = useState('all');
+
+  const subcategories = activeTab !== 'all' ? getSubcategories(activeTab as Category) : [];
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const c = params.get('c');
+    if (c && CATEGORIES.includes(c)) setActiveTab(c);
+  }, []);
+
+  useEffect(() => {
+    setActiveSubTab('all');
+  }, [activeTab]);
 
   const fromArticles: Playable[] = allArticles
     .filter((a) => a.youtubeVideoId && /^[\w-]{11}$/.test(a.youtubeVideoId))
@@ -30,6 +50,8 @@ export default function Videos() {
       title: a.title[language],
       youtubeId: a.youtubeVideoId!,
       href: `/article/${a.slug}`,
+      categoryId: a.categoryId,
+      subcategoryId: a.subcategoryId,
       meta: a.categoryId,
     }));
 
@@ -45,12 +67,13 @@ export default function Videos() {
         key: `cms-${v.id}`,
         title,
         youtubeId: id,
-        meta: v.date,
+        categoryId: v.categoryId,
+        subcategoryId: v.subcategoryId,
+        meta: v.categoryId,
       } as Playable;
     })
     .filter(Boolean) as Playable[];
 
-  // Prefer CMS library videos, then article-linked videos (dedupe by youtube id)
   const seen = new Set<string>();
   const items: Playable[] = [];
   for (const item of [...fromCms, ...fromArticles]) {
@@ -59,34 +82,84 @@ export default function Videos() {
     items.push(item);
   }
 
+  const filtered = items.filter((item) => {
+    const matchesCat = activeTab === 'all' || item.categoryId === activeTab;
+    const matchesSub = activeSubTab === 'all' || item.subcategoryId === activeSubTab;
+    return matchesCat && matchesSub;
+  });
+
   useSEO({ title: t('videos'), path: '/videos' });
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <div className="text-center max-w-3xl mx-auto mb-16">
-        <h1 className="text-4xl font-bold mb-6 text-gradient inline-block">{t('videos')}</h1>
-        <p className="text-lg text-muted-foreground">
+      <div className="max-w-4xl mx-auto mb-10 text-center">
+        <h1 className="text-4xl font-bold mb-4">{t('videos')}</h1>
+        <p className="text-muted-foreground">
           {language === 'ar'
-            ? 'شاهد المراجعات والشروحات التقنية مباشرة داخل الموقع.'
-            : 'Watch tech reviews and explainers embedded on this site.'}
+            ? 'شروحات مرئية مقسّمة حسب التصنيف لسهولة التصفح.'
+            : 'Video explainers organized by category for easier browsing.'}
         </p>
       </div>
 
-      {items.length === 0 ? (
-        <p className="text-center text-muted-foreground mt-12">
-          {language === 'ar' ? 'لا توجد فيديوهات حالياً.' : 'No videos yet.'}
+      <div className="flex flex-wrap gap-2 justify-center mb-4">
+        {CATEGORIES.map((cat) => (
+          <button
+            key={cat}
+            type="button"
+            onClick={() => setActiveTab(cat)}
+            className={`px-4 py-2 rounded-full text-sm font-medium border transition-colors ${
+              activeTab === cat
+                ? 'bg-primary text-primary-foreground border-primary'
+                : 'bg-card border-border hover:border-primary/50'
+            }`}
+          >
+            {cat === 'all' ? (language === 'ar' ? 'الكل' : 'All') : t(cat)}
+          </button>
+        ))}
+      </div>
+
+      {subcategories.length > 0 && (
+        <div className="flex flex-wrap gap-2 justify-center mb-8">
+          <button
+            type="button"
+            onClick={() => setActiveSubTab('all')}
+            className={`px-3 py-1.5 rounded-full text-xs font-medium border ${
+              activeSubTab === 'all'
+                ? 'bg-secondary text-secondary-foreground border-secondary'
+                : 'bg-background border-border'
+            }`}
+          >
+            {language === 'ar' ? 'كل الفرعي' : 'All sub'}
+          </button>
+          {subcategories.map((sub) => (
+            <button
+              key={sub.id}
+              type="button"
+              onClick={() => setActiveSubTab(sub.id)}
+              className={`px-3 py-1.5 rounded-full text-xs font-medium border ${
+                activeSubTab === sub.id
+                  ? 'bg-secondary text-secondary-foreground border-secondary'
+                  : 'bg-background border-border'
+              }`}
+            >
+              {language === 'ar' ? sub.ar : sub.en}
+            </button>
+          ))}
+        </div>
+      )}
+
+      {filtered.length === 0 ? (
+        <p className="text-center text-muted-foreground py-16">
+          {language === 'ar' ? 'لا توجد فيديوهات في هذا التصنيف بعد.' : 'No videos in this category yet.'}
         </p>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          {items.map((item) => {
-            const playing = activeId === item.key;
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {filtered.map((item) => {
+            const isActive = activeId === item.key;
             return (
-              <article
-                key={item.key}
-                className="bg-card rounded-2xl overflow-hidden border border-border hover:shadow-xl transition-all"
-              >
-                <div className="relative aspect-video w-full bg-black">
-                  {playing ? (
+              <article key={item.key} className="bg-card border border-border rounded-xl overflow-hidden">
+                <div className="relative aspect-video bg-muted">
+                  {isActive ? (
                     <iframe
                       src={`${youtubeEmbedUrl(item.youtubeId)}?autoplay=1&rel=0`}
                       title={item.title}
@@ -123,8 +196,10 @@ export default function Videos() {
                 </div>
                 <div className="p-5 space-y-2">
                   <h2 className="text-lg font-bold leading-snug">{item.title}</h2>
-                  {item.meta && (
-                    <p className="text-xs text-muted-foreground uppercase tracking-wide">{item.meta}</p>
+                  {item.categoryId && (
+                    <p className="text-xs text-muted-foreground uppercase tracking-wide">
+                      {t(item.categoryId as any) || item.categoryId}
+                    </p>
                   )}
                   {item.href && (
                     <Link href={item.href} className="text-sm text-primary font-medium hover:underline inline-block">
