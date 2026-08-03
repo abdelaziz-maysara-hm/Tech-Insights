@@ -2,9 +2,11 @@
  * Video metadata generator.
  * Uses a curated pool of REAL public educational YouTube IDs (cycled).
  * Never invents random 11-char fakes.
+ * Always sets heroImage for schema validation.
  */
 import { VIDEO_TOPICS } from './categories.mjs';
 import { distributedDate } from './dates.mjs';
+import { resolveArticleHero } from './images.mjs';
 import { bi } from './localization.mjs';
 import { pick } from './utils.mjs';
 
@@ -45,7 +47,7 @@ const REAL_YOUTUBE_IDS = [
 const ANGLES_AR = ['مقدمة عملية','شرح للمبتدئين','أخطاء شائعة','أفضل الممارسات','دليل سريع','خطوة بخطوة','مفاهيم أساسية','تطبيق عملي'];
 const ANGLES_EN = ['Practical intro','Beginner guide','Common mistakes','Best practices','Quick guide','Step by step','Core concepts','Hands-on walkthrough'];
 
-export function generateVideos({ count = 1000, category, subcategory } = {}) {
+export function generateVideos({ count = 12, category, subcategory } = {}) {
   const topics = VIDEO_TOPICS.filter((t) => {
     if (category && t.categoryId !== category) return false;
     if (subcategory && t.subcategoryId !== subcategory) return false;
@@ -53,26 +55,36 @@ export function generateVideos({ count = 1000, category, subcategory } = {}) {
   });
   const pool = topics.length ? topics : VIDEO_TOPICS;
   const items = [];
+  const n = Math.min(count, Math.max(pool.length * 2, count));
 
-  for (let i = 0; i < count; i++) {
+  for (let i = 0; i < n; i++) {
     const topic = pick(pool, i);
     const angleAr = pick(ANGLES_AR, i);
     const angleEn = pick(ANGLES_EN, i);
-    const n = Math.floor(i / pool.length) + 1;
-    items.push({
-      id: `vid-gen-${String(i + 1).padStart(4, '0')}`,
-      title: bi(
-        `${topic.topic}: ${angleAr}${n > 1 ? ` (${n})` : ''}`,
-        `${topic.topic}: ${angleEn}${n > 1 ? ` (${n})` : ''}`,
-      ),
-      description: bi(
-        `شرح واضح حول ${topic.topic} باللغة العربية يناسب المبتدئين والمتوسطين، مع أمثلة عملية.`,
-        `A clear guide to ${topic.topic} for beginners and intermediate learners, with practical examples.`,
-      ),
-      youtubeId: REAL_YOUTUBE_IDS[i % REAL_YOUTUBE_IDS.length],
-      date: distributedDate(i, count),
+    const cycle = Math.floor(i / pool.length) + 1;
+    const titleAr = `${topic.topic}: ${angleAr}${cycle > 1 ? ` (${cycle})` : ''}`;
+    const titleEn = `${topic.topic}: ${angleEn}${cycle > 1 ? ` (${cycle})` : ''}`;
+    const youtubeId = REAL_YOUTUBE_IDS[i % REAL_YOUTUBE_IDS.length];
+    const heroImage = resolveArticleHero({
       categoryId: topic.categoryId,
       subcategoryId: topic.subcategoryId,
+      tags: [topic.topic],
+      title: { ar: titleAr, en: titleEn },
+      slug: topic.topic.toLowerCase().replace(/\s+/g, '-'),
+    });
+
+    items.push({
+      id: `vid-gen-${String(i + 1).padStart(4, '0')}`,
+      title: bi(titleAr, titleEn),
+      description: bi(
+        `شرح واضح حول ${topic.topic} يناسب المبتدئين والمتوسطين، مع أمثلة عملية.`,
+        `A clear guide to ${topic.topic} for beginners and intermediate learners, with practical examples.`,
+      ),
+      youtubeId,
+      date: distributedDate(i, n),
+      categoryId: topic.categoryId,
+      subcategoryId: topic.subcategoryId,
+      heroImage,
     });
   }
   return items;
