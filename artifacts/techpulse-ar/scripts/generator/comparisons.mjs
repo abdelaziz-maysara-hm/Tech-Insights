@@ -1,7 +1,7 @@
 /** Comparison generator — pairs always match subcategory */
 import { COMPARISON_CATALOG } from './categories.mjs';
 import { distributedDate } from './dates.mjs';
-import { heroForSub, themeImage } from './images.mjs';
+import { heroForSub, themeImage, themeImagePaired } from './images.mjs';
 import { bi } from './localization.mjs';
 import { uniqueSlug } from './slugs.mjs';
 
@@ -44,7 +44,7 @@ export function generateComparisons({ count = 30, subcategory, startIndex = 0 } 
       device1Name: d1,
       device2Name: d2,
       device1Image: themeImage(img1),
-      device2Image: themeImage(img2),
+      device2Image: themeImagePaired(img2, img1),
       date: distributedDate(abs, Math.max(count + startIndex, 1)),
       categoryId: 'comparisons',
       subcategoryId: sub,

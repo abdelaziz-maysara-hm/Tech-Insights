@@ -21,6 +21,24 @@ const THEMES = {
   tech: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80',
 };
 
+// A same-category comparison (the common case: two phones, two laptops, two
+// apps...) previously showed the SAME photo for both sides, since THEMES only
+// has one image per theme. This is a fallback pairing so device1/device2
+// always render two genuinely different, already-verified images even when
+// they share a theme. Not a substitute for real per-product photography --
+// see the note in comparisons.mjs -- but it stops comparisons from visibly
+// showing an identical image for two different products, which is worse.
+const FALLBACK_PARTNER = {
+  phone: 'tablet', tablet: 'phone', laptop: 'cpu', cpu: 'laptop', gpu: 'cpu',
+  console: 'audio', watch: 'audio', audio: 'watch', ai: 'dev', browser: 'cloud',
+  cloud: 'browser', db: 'storage', storage: 'db', linux: 'dev', security: 'network',
+  dev: 'ai', network: 'security', power: 'cpu', tech: 'dev',
+};
+
+export function themeImage(theme) {
+  return THEMES[theme] || THEMES.tech;
+}
+
 const HERO_BY_SUB = {
   phones: THEMES.phone.replace('w=400&h=500', 'w=800&h=450'),
   'laptops-pcs': THEMES.laptop.replace('w=400&h=500', 'w=800&h=450'),
@@ -30,8 +48,14 @@ const HERO_BY_SUB = {
   general: THEMES.tech,
 };
 
-export function themeImage(theme) {
-  return THEMES[theme] || THEMES.tech;
+/**
+ * Like themeImage, but guarantees a different photo than `otherTheme` --
+ * use this for the second item in any side-by-side comparison.
+ */
+export function themeImagePaired(theme, otherTheme) {
+  if (theme !== otherTheme) return themeImage(theme);
+  const partner = FALLBACK_PARTNER[theme] ?? 'tech';
+  return themeImage(partner);
 }
 
 export function heroForSub(sub) {
@@ -44,5 +68,7 @@ export function heroImage(index) {
 }
 
 export function deviceImage(index, slot = 0) {
-  return themeImage(slot === 0 ? 'phone' : 'laptop');
+  const theme = slot === 0 ? 'phone' : 'laptop';
+  const otherTheme = slot === 0 ? 'laptop' : 'phone';
+  return themeImagePaired(theme, otherTheme);
 }
