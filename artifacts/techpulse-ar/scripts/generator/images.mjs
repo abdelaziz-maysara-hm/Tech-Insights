@@ -51,15 +51,20 @@ export const THEMES = {
   db: U(P.server, 400, 500),
   linux: U(P.code2, 400, 500),
   security: U(P.lock, 400, 500),
+  lock: U(P.lock, 400, 500),
   cyber: U(P.cyber, 400, 500),
   network: U(P.network, 400, 500),
   firewall: U(P.shield, 400, 500),
+  shield: U(P.shield, 400, 500),
   vpn: U(P.network, 400, 500),
   identity: U(P.payment, 400, 500),
   endpoint: U(P.shield, 400, 500),
   server: U(P.server, 400, 500),
   windows: U(P.laptop, 400, 500),
   dev: U(P.code, 400, 500),
+  code: U(P.code, 400, 500),
+  code2: U(P.code2, 400, 500),
+  circuit: U(P.circuit, 400, 500),
   power: U(P.circuit, 400, 500),
   tech: U(P.circuit, 800, 450),
 };
@@ -99,8 +104,10 @@ const FALLBACK_PARTNER = {
   phone2: 'phone3',
   laptop: 'laptop2',
   security: 'network',
+  lock: 'network',
   network: 'firewall',
   firewall: 'cyber',
+  shield: 'cyber',
   vpn: 'network',
   identity: 'lock',
   endpoint: 'shield',
@@ -108,7 +115,10 @@ const FALLBACK_PARTNER = {
   ai: 'code',
   cloud: 'server',
   dev: 'code2',
+  code: 'code2',
+  code2: 'dev',
   windows: 'laptop',
+  circuit: 'tech',
   tech: 'circuit',
 };
 
@@ -256,11 +266,9 @@ export function resolveComparisonImages({ device1Name, device2Name, img1, img2, 
   if (!d2) {
     const t2 = img2 || SUB_THEME[subcategoryId] || 'tech';
     d2 = themeImagePaired(t2, img1 || t2);
-    // ensure different from d1 when both thematic
     if (d2 === d1) d2 = themeImagePaired(FALLBACK_PARTNER[t2] || 'tech', t2);
   }
 
-  // If both logos missing and same URL, force pair
   if (d1 === d2 && !logo1) {
     d2 = themeImage(FALLBACK_PARTNER[img1] || 'phone2');
   }
