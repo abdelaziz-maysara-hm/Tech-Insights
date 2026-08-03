@@ -1,22 +1,282 @@
 [
-  {"id":"art-quality-001","slug":"2fa","title":{"ar":"المصادقة الثنائية (2FA): دليل عملي","en":"Two-Factor Authentication (2FA)"},"excerpt":{"ar":"كيف تفعّل 2FA بشكل صحيح.","en":"How to enable 2FA properly."},"body":{"ar":"## ما هي 2FA؟\n\nطبقة ثانية بعد كلمة المرور.\n\n## أفضل طريقة\n\nتطبيق مصادقة + حفظ رموز الاسترداد.\n\n## الخلاصة\n\nفعّلها على البريد والبنك والسوشيال.","en":"## What is 2FA?\n\nA second step after your password.\n\n## Best method\n\nAuthenticator app plus recovery codes.\n\n## Bottom line\n\nEnable on email, banking, and social."},"categoryId":"cybersecurity","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-03-01","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["2fa","security"],"isFeatured":true,"isTrending":false},
-  {"id":"art-quality-002","slug":"phishing","title":{"ar":"التصيد الاحتيالي قبل ما تضغط","en":"Phishing Before You Click"},"excerpt":{"ar":"علامات الرسالة المزيفة.","en":"Signs of fake messages."},"body":{"ar":"## ما هو؟\n\nرسالة تبدو رسمية لسرقة كلمة المرور.\n\n## علامات\n\nاستعجال وروابط غريبة.\n\n## الخلاصة\n\nتحقق من الرابط قبل الضغط.","en":"## What is it?\n\nFake official-looking messages.\n\n## Signs\n\nUrgency and odd links.\n\n## Bottom line\n\nCheck the URL first."},"categoryId":"cybersecurity","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-03-06","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["phishing","security"],"isFeatured":true,"isTrending":false},
-  {"id":"art-quality-003","slug":"password-managers","title":{"ar":"مدير كلمات المرور","en":"Password Managers"},"excerpt":{"ar":"بديل لتكرار كلمة المرور.","en":"Stop reusing passwords."},"body":{"ar":"## المشكلة\n\nتسريب واحد يفتح حسابات كثيرة.\n\n## الحل\n\nمدير كلمات مرور + 2FA.\n\n## الخلاصة\n\nابدأ بالبريد والبنك.","en":"## Problem\n\nOne breach opens many accounts.\n\n## Fix\n\nPassword manager plus 2FA.\n\n## Bottom line\n\nStart with email and bank."},"categoryId":"cybersecurity","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-03-11","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["passwords","security"],"isFeatured":true,"isTrending":false},
-  {"id":"art-quality-004","slug":"battery-saving","title":{"ar":"توفير بطارية الموبايل","en":"Phone Battery Saving"},"excerpt":{"ar":"إعدادات تفرق فعلًا.","en":"Settings that help."},"body":{"ar":"## الاستهلاك\n\nالشاشة والتطبيقات الثقيلة.\n\n## افعل\n\nاخفض السطوع واستخدم وضع التوفير.\n\n## الخلاصة\n\nالشاشة أهم من إغلاق الواي فاي دائمًا.","en":"## Drain\n\nScreen and heavy apps.\n\n## Do\n\nLower brightness and use saver mode.\n\n## Bottom line\n\nScreen matters most."},"categoryId":"mobile","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-03-16","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["battery","mobile"],"isFeatured":true,"isTrending":false},
-  {"id":"art-quality-005","slug":"storage-cleanup","title":{"ar":"تنظيف مساحة الموبايل","en":"Phone Storage Cleanup"},"excerpt":{"ar":"صور وتطبيقات وتحميلات.","en":"Photos, apps, downloads."},"body":{"ar":"## الأكبر أولًا\n\nصور وواتساب وتطبيقات قديمة.\n\n## تحذير\n\nتجنب منظفات عشوائية.\n\n## الخلاصة\n\nالصور تعيد مساحة أكثر من الكاش.","en":"## Biggest first\n\nPhotos, chat media, old apps.\n\n## Warning\n\nAvoid shady cleaners.\n\n## Bottom line\n\nPhotos beat cache wipes."},"categoryId":"mobile","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-03-21","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["storage","mobile"],"isFeatured":false,"isTrending":true},
-  {"id":"art-quality-006","slug":"ssd-upgrade","title":{"ar":"ترقية SSD للابتوب","en":"Laptop SSD Upgrade"},"excerpt":{"ar":"متى تستحق التكلفة.","en":"When it is worth it."},"body":{"ar":"## الفرق\n\nإقلاع وبرامج أسرع.\n\n## قبل الشراء\n\nتأكد من نوع المنفذ واعمل نسخة احتياطية.\n\n## الخلاصة\n\nمن أفضل الترقيات.","en":"## Difference\n\nFaster boot and apps.\n\n## Before buying\n\nConfirm interface and backup.\n\n## Bottom line\n\nOne of the best upgrades."},"categoryId":"laptops","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-03-26","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["ssd","laptop"],"isFeatured":false,"isTrending":true},
-  {"id":"art-quality-007","slug":"student-laptop-specs","title":{"ar":"لابتوب للطالب: مواصفات تكفي","en":"Student Laptop Specs"},"excerpt":{"ar":"رام وتخزين وشاشة.","en":"RAM, storage, screen."},"body":{"ar":"## أساس\n\n16GB رام وSSD وFull HD.\n\n## الخلاصة\n\nالرام والـ SSD أهم من اسم العلامة.","en":"## Baseline\n\n16GB RAM, SSD, Full HD.\n\n## Bottom line\n\nRAM and SSD beat brand names."},"categoryId":"laptops","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-03-31","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["laptop","students"],"isFeatured":false,"isTrending":true},
-  {"id":"art-quality-008","slug":"chatgpt-for-studying","title":{"ar":"ChatGPT في المذاكرة","en":"ChatGPT for Studying"},"excerpt":{"ar":"اشرح واختبر نفسك.","en":"Explain and self-test."},"body":{"ar":"## مفيد\n\nشرح وأمثلة وأسئلة.\n\n## ضار\n\nنسخ الواجب كامل.\n\n## الخلاصة\n\nمدرّس مش بديل عن التفكير.","en":"## Useful\n\nExplanations and quizzes.\n\n## Harmful\n\nCopying full homework.\n\n## Bottom line\n\nTutor, not a substitute for thinking."},"categoryId":"ai","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-04-05","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["chatgpt","study"],"isFeatured":false,"isTrending":true},
-  {"id":"art-quality-009","slug":"prompting-tips","title":{"ar":"مهارات الـ Prompt","en":"Prompting Tips"},"excerpt":{"ar":"اطلب نتيجة أوضح.","en":"Ask for clearer results."},"body":{"ar":"## هيكل\n\nدور ومهمة وجمهور وشكل.\n\n## الخلاصة\n\nجودة الطلب = جودة الرد.","en":"## Structure\n\nRole, task, audience, format.\n\n## Bottom line\n\nClear asks get better answers."},"categoryId":"ai","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-04-10","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["prompts","ai"],"isFeatured":false,"isTrending":false},
-  {"id":"art-quality-010","slug":"startup-apps","title":{"ar":"برامج بدء تشغيل ويندوز","en":"Windows Startup Apps"},"excerpt":{"ar":"سرّع الإقلاع.","en":"Speed up boot."},"body":{"ar":"## خطوات\n\nTask Manager ثم Startup apps.\n\n## الخلاصة\n\nمن أسرع تحسينات ويندوز.","en":"## Steps\n\nTask Manager then Startup apps.\n\n## Bottom line\n\nOne of the fastest Windows wins."},"categoryId":"windows","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-04-15","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["windows","startup"],"isFeatured":false,"isTrending":false},
-  {"id":"art-quality-021","slug":"home-router-security","title":{"ar":"تأمين راوتر البيت","en":"Home Router Security"},"excerpt":{"ar":"كلمة المرور والفرموير.","en":"Password and firmware."},"body":{"ar":"## افعل\n\nغيّر أدمن افتراضي، حدّث الفرموير، قوّي الواي فاي.\n\n## الخلاصة\n\nالراوتر بوابة البيت كلها.","en":"## Do\n\nChange default admin, update firmware, strong Wi-Fi.\n\n## Bottom line\n\nThe router is the home gateway."},"categoryId":"cybersecurity","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-06-10","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["router","security"],"isFeatured":false,"isTrending":true},
-  {"id":"art-quality-022","slug":"overheating-phone","title":{"ar":"سخونة الموبايل","en":"Phone Overheating"},"excerpt":{"ar":"أسباب وحلول.","en":"Causes and fixes."},"body":{"ar":"## فورًا\n\nأوقف الثقيل وانزع الغطاء.\n\n## الخلاصة\n\nلا تبرد الجهاز في الثلاجة.","en":"## Now\n\nStop heavy apps and remove the case.\n\n## Bottom line\n\nDo not cool phones in a fridge."},"categoryId":"mobile","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-06-13","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["phone","heat"],"isFeatured":false,"isTrending":true},
-  {"id":"art-quality-023","slug":"app-permissions","title":{"ar":"أذونات التطبيقات","en":"App Permissions"},"excerpt":{"ar":"امنح الأقل.","en":"Grant the least."},"body":{"ar":"## مبدأ\n\nكل صلاحية باب.\n\n## الخلاصة\n\nراجع الموقع والميكروفون دوريًا.","en":"## Principle\n\nEvery permission is a door.\n\n## Bottom line\n\nReview location and mic access."},"categoryId":"mobile","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-06-16","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["privacy","permissions"],"isFeatured":false,"isTrending":true},
-  {"id":"art-quality-024","slug":"fan-noise-laptop","title":{"ar":"صوت مروحة اللابتوب","en":"Loud Laptop Fan"},"excerpt":{"ar":"تشخيص سريع.","en":"Quick diagnosis."},"body":{"ar":"## تحقق\n\nبرامج تستهلك CPU وسطح صلب.\n\n## الخلاصة\n\nخفف الحمل وحسّن التهوية.","en":"## Check\n\nCPU hogs and hard surface.\n\n## Bottom line\n\nReduce load and improve airflow."},"categoryId":"laptops","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-06-19","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["laptop","fan"],"isFeatured":false,"isTrending":false},
-  {"id":"art-quality-025","slug":"battery-health-laptop","title":{"ar":"صحة بطارية اللابتوب","en":"Laptop Battery Health"},"excerpt":{"ar":"عادات تحافظ عليها.","en":"Habits that help."},"body":{"ar":"## عادات\n\nتجنب الشحن مع سخونة عالية.\n\n## الخلاصة\n\nالحرارة تضر أكثر من الشاحن.","en":"## Habits\n\nAvoid charging while very hot.\n\n## Bottom line\n\nHeat hurts cells more than the charger."},"categoryId":"laptops","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-06-22","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["battery","laptop"],"isFeatured":false,"isTrending":false},
-  {"id":"art-quality-026","slug":"local-vs-cloud-ai","title":{"ar":"AI محلي ضد السحابة","en":"Local vs Cloud AI"},"excerpt":{"ar":"خصوصية أو قوة.","en":"Privacy or power."},"body":{"ar":"## سحابة أقوى\n\nمحلي أخص.\n\n## الخلاصة\n\nطابق حساسية البيانات.","en":"## Cloud is stronger\n\nLocal is more private.\n\n## Bottom line\n\nMatch data sensitivity."},"categoryId":"ai","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-06-25","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["ai","privacy"],"isFeatured":false,"isTrending":false},
-  {"id":"art-quality-027","slug":"ai-image-safety","title":{"ar":"صور الذكاء الاصطناعي بأمان","en":"Safer AI Images"},"excerpt":{"ar":"استخدمها بمسؤولية.","en":"Use them responsibly."},"body":{"ar":"## انتبه\n\nلا تضلل بوجوه حقيقية.\n\n## الخلاصة\n\nوضّح أن الصورة مولَّدة عند اللزوم.","en":"## Careful\n\nDo not mislead with real faces.\n\n## Bottom line\n\nDisclose generated images when needed."},"categoryId":"ai","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-06-28","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["ai","images"],"isFeatured":false,"isTrending":false},
-  {"id":"art-quality-028","slug":"windows-update-stuck","title":{"ar":"تحديث ويندوز معلّق","en":"Windows Update Stuck"},"excerpt":{"ar":"حلول بالترتيب.","en":"Fixes in order."},"body":{"ar":"## رتب\n\nإعادة تشغيل ثم مساحة قرص ثم مستكشف الأخطاء.\n\n## الخلاصة\n\nالفورمات مش أول خطوة.","en":"## Order\n\nReboot, free space, troubleshooter.\n\n## Bottom line\n\nFormat is not step one."},"categoryId":"windows","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-07-01","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["windows","update"],"isFeatured":false,"isTrending":false},
-  {"id":"art-quality-029","slug":"defender-enough","title":{"ar":"هل Defender كافٍ؟","en":"Is Defender Enough?"},"excerpt":{"ar":"متى يكفي المدمج.","en":"When built-in is enough."},"body":{"ar":"## الواقع\n\nكافٍ لكثيرين مع التحديث والحذر.\n\n## الخلاصة\n\nالعادات أهم من الشعار.","en":"## Reality\n\nEnough for many with updates and care.\n\n## Bottom line\n\nHabits beat logos."},"categoryId":"windows","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-07-04","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["windows","security"],"isFeatured":false,"isTrending":false},
-  {"id":"art-quality-030","slug":"cloud-storage-basics","title":{"ar":"التخزين السحابي ببساطة","en":"Cloud Storage Basics"},"excerpt":{"ar":"Drive وOneDrive وiCloud.","en":"Drive, OneDrive, iCloud."},"body":{"ar":"## اختر حسب جهازك\n\nApple أو ويندوز أو أندرويد.\n\n## الخلاصة\n\nلا تعتمد على سحابة واحدة للملفات المهمة.","en":"## Pick by device\n\nApple, Windows, or Android.\n\n## Bottom line\n\nDo not rely on one cloud for critical files."},"categoryId":"technology","subcategoryId":"guides-tips","author":"Technical Insights","date":"2025-07-07","readTime":3,"heroImage":"https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80","tags":["cloud","storage"],"isFeatured":false,"isTrending":false}
+  {
+    "id": "art-quality-001",
+    "slug": "2fa",
+    "title": {
+      "ar": "المصادقة الثنائية (2FA): دليل عملي للحسابات",
+      "en": "Two-Factor Authentication (2FA): A Practical Guide"
+    },
+    "excerpt": {
+      "ar": "كيف تفعّل 2FA بشكل صحيح، الفرق بين التطبيقات والرسائل، وماذا تفعل لو فقدت هاتفك.",
+      "en": "How to enable 2FA properly, apps vs SMS, and what to do if you lose your phone."
+    },
+    "body": {
+      "ar": "## ما هي المصادقة الثنائية؟\n\nالمصادقة الثنائية (2FA) تضيف طبقة ثانية بعد كلمة المرور: رمز من تطبيق، رسالة SMS، أو مفتاح أمان. حتى لو انكشفت كلمة المرور، يبقى الدخول أصعب بكثير.\n\n## أفضل طريقة: تطبيق مصادقة\n\n1. ثبّت تطبيقًا مثل Google Authenticator أو Authy أو Microsoft Authenticator.\n2. من إعدادات الحساب (Google / Microsoft / البنوك) اختر **تطبيق المصادقة**.\n3. امسح رمز QR واحفظ **رموز الاسترداد** في مكان آمن (دفتر أو مدير كلمات مرور).\n4. جرب تسجيل الخروج ثم الدخول للتأكد أن الرمز يعمل.\n\n## SMS مقابل التطبيق\n\n- **SMS:** أسهل، لكن أضعف (تحويل أرقام، ضعف شبكة).\n- **التطبيق:** أقوى ولا يعتمد على الشريحة.\n- **مفتاح أمان (YubiKey):** الأنسب للحسابات الحساسة جدًا.\n\n## لو فقدت الهاتف\n\nاستخدم رموز الاسترداد فورًا، عطّل الجهاز من حساب Google/Apple إن أمكن، وأعد ربط 2FA على الجهاز الجديد قبل ما تنتشر المشكلة.\n\n## الخلاصة\n\nفعّل 2FA على البريد، والحساب البنكي، والسوشيال. التطبيق أفضل من SMS في أغلب الحالات.",
+      "en": "## What is 2FA?\n\nTwo-factor authentication adds a second step after your password: an authenticator code, SMS, or security key. Even if the password leaks, login stays much harder.\n\n## Best option: authenticator app\n\n1. Install Google Authenticator, Authy, or Microsoft Authenticator.\n2. In account security settings, choose **Authenticator app**.\n3. Scan the QR code and store **recovery codes** safely.\n4. Sign out and back in to verify the code works.\n\n## SMS vs app\n\n- SMS is convenient but weaker.\n- Apps are stronger and work offline.\n- Hardware keys suit high-value accounts.\n\n## If you lose the phone\n\nUse recovery codes, secure the old device remotely, then re-bind 2FA on the new phone.\n\n## Bottom line\n\nTurn on 2FA for email, banking, and social accounts. Prefer an app over SMS."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": { "ar": "فريق رؤى تقنية", "en": "Technical Insights Team" },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-03-01",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": ["2fa", "security", "accounts"],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-quality-002",
+    "slug": "phishing",
+    "title": {
+      "ar": "التصيد الاحتيالي: كيف تكتشفه قبل ما تضغط",
+      "en": "Phishing: Spot It Before You Click"
+    },
+    "excerpt": {
+      "ar": "علامات الرسالة المزيفة، روابط ملغومة، وماذا تفعل لو ضغطت بالخطأ.",
+      "en": "Signs of fake messages, malicious links, and what to do after a bad click."
+    },
+    "body": {
+      "ar": "## ما هو التصيد؟\n\nالتصيد محاولة لإقناعك بإدخال كلمة مرور أو تحميل ملف خبيث عبر رسالة تبدو رسمية.\n\n## علامات شائعة\n\n- استعجال مبالغ فيه.\n- أخطاء إملائية.\n- رابط شكله غريب.\n- طلب كلمة مرور أو رمز 2FA داخل الرسالة.\n\n## قبل ما تضغط\n\n1. مرّر على الرابط دون ضغط.\n2. افتح الموقع من التطبيق الرسمي.\n3. لا ترسل رموز التحقق لأي شخص.\n\n## لو ضغطت بالخطأ\n\nغيّر كلمة المرور فورًا، فعّل 2FA، راقب الحسابات.\n\n## الخلاصة\n\nالتحقق من المرسل والرابط دقيقة واحدة قد تمنع سرقة حساب كامل.",
+      "en": "## What is phishing?\n\nPhishing tricks you into entering passwords or opening malware through messages that look official.\n\n## Common signs\n\nExtreme urgency, odd language, lookalike domains, requests for passwords or 2FA codes.\n\n## Before you click\n\nPreview links, open sites via the official app, never share verification codes.\n\n## If you already clicked\n\nChange passwords, enable 2FA, watch financial activity.\n\n## Bottom line\n\nOne careful check of sender and URL can stop a full account takeover."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": { "ar": "فريق رؤى تقنية", "en": "Technical Insights Team" },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-03-06",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": ["phishing", "email", "security"],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-quality-003",
+    "slug": "password-managers",
+    "title": {
+      "ar": "مدير كلمات المرور: ليه تحتاجه وإزاي تبدأ",
+      "en": "Password Managers: Why You Need One and How to Start"
+    },
+    "excerpt": {
+      "ar": "بديل آمن لتكرار نفس كلمة المرور، مع خطوات نقل حساباتك تدريجيًا.",
+      "en": "A safer alternative to password reuse, with a gradual migration plan."
+    },
+    "body": {
+      "ar": "## المشكلة\n\nإعادة استخدام نفس كلمة المرور تعني أن تسريب موقع واحد قد يفتح باقي حساباتك.\n\n## ماذا يفعل مدير كلمات المرور؟\n\nيحفظ كلمات مرور طويلة وفريدة لكل موقع، ويملأها تلقائيًا.\n\n## أمثلة\n\nBitwarden، 1Password، Google Password Manager.\n\n## خطة بداية\n\n1. اختر أداة.\n2. غيّر كلمات مرور البريد والبنك والسوشيال أولًا.\n3. فعّل 2FA على المدير نفسه.\n\n## الخلاصة\n\nمدير كلمات المرور يقلل التوتر ويزيد الأمان.",
+      "en": "## The problem\n\nPassword reuse means one breach can open many accounts.\n\n## What a password manager does\n\nStores unique strong passwords and autofills them.\n\n## Popular options\n\nBitwarden, 1Password, Google Password Manager.\n\n## Simple start\n\nPick a tool, migrate email/bank/social first, enable 2FA on the vault.\n\n## Bottom line\n\nA password manager is safer than memorizing weak variants."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": { "ar": "فريق رؤى تقنية", "en": "Technical Insights Team" },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-03-11",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": ["passwords", "security", "tools"],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-quality-004",
+    "slug": "battery-saving",
+    "title": {
+      "ar": "توفير بطارية الموبايل: إعدادات تفرق فعلًا",
+      "en": "Phone Battery Saving: Settings That Actually Help"
+    },
+    "excerpt": {
+      "ar": "خطوات عملية لإطالة اليوم بدون ما تعطّل استخدامك اليومي.",
+      "en": "Practical steps to last the day without killing usability."
+    },
+    "body": {
+      "ar": "## أين تُستهلك البطارية؟\n\nالشاشة، الاتصال الدائم، التطبيقات في الخلفية.\n\n## إعدادات مُجربة\n\n1. خفّض السطوع.\n2. أغلق التحديث التلقائي على بيانات الهاتف.\n3. راجع استهلاك البطارية لكل تطبيق.\n4. استخدم وضع التوفير تحت 20%.\n\n## الخلاصة\n\nأكبر فرق يأتي من الشاشة والتطبيقات الثقيلة.",
+      "en": "## What drains battery?\n\nScreen, radios, background apps.\n\n## Settings that help\n\nLower brightness, limit auto-updates, review per-app battery use, enable saver under 20%.\n\n## Bottom line\n\nScreen and heavy apps matter most."
+    },
+    "categoryId": "mobile",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": { "ar": "فريق رؤى تقنية", "en": "Technical Insights Team" },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-03-16",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": ["battery", "android", "iphone"],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-quality-005",
+    "slug": "storage-cleanup",
+    "title": {
+      "ar": "تنظيف مساحة الموبايل من غير ما تمسح المهم",
+      "en": "Clean Phone Storage Without Deleting What Matters"
+    },
+    "excerpt": {
+      "ar": "ترتيب الصور، التطبيقات، والتحميلات لاسترجاع جيجابايتات بسرعة.",
+      "en": "Sort photos, apps, and downloads to reclaim gigabytes quickly."
+    },
+    "body": {
+      "ar": "## ابدأ من أكبر المستهلكين\n\nالصور والفيديوهات والتطبيقات.\n\n## خطوات\n\n1. ارفع الصور المهمة على السحابة.\n2. احذف فيديوهات واتساب القديمة.\n3. أزل التطبيقات غير المستخدمة.\n4. امسح Downloads.\n\n## الخلاصة\n\nترتيب الصور والتطبيقات يعيد مساحة أكبر من مسح الكاش.",
+      "en": "## Start with the biggest users\n\nPhotos, videos, apps.\n\n## Steps\n\nBack up photos, clear chat media, uninstall unused apps, empty Downloads.\n\n## Bottom line\n\nPhotos and apps free more space than cache wipes."
+    },
+    "categoryId": "mobile",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": { "ar": "فريق رؤى تقنية", "en": "Technical Insights Team" },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-03-21",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": ["storage", "cleanup", "mobile"],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-quality-006",
+    "slug": "ssd-upgrade",
+    "title": {
+      "ar": "ترقية SSD للابتوب: متى تستحق التكلفة؟",
+      "en": "Laptop SSD Upgrade: When Is It Worth It?"
+    },
+    "excerpt": {
+      "ar": "الفرق بين HDD وSSD، التوافق، ونقل الويندوز بدون دراما.",
+      "en": "HDD vs SSD, compatibility checks, and moving Windows cleanly."
+    },
+    "body": {
+      "ar": "## ليه SSD يغيّر الإحساس؟\n\nالإقلاع وفتح البرامج أسرع بوضوح.\n\n## قبل الشراء\n\nتأكد من NVMe أو SATA، وخذ نسخة احتياطية.\n\n## الخلاصة\n\nترقية SSD من أعلى التحسينات سعرًا مقابل أداء.",
+      "en": "## Why SSD feels different\n\nBoot and app launch improve dramatically.\n\n## Before buying\n\nConfirm NVMe vs SATA and take a backup.\n\n## Bottom line\n\nOne of the best upgrades per dollar."
+    },
+    "categoryId": "laptops",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": { "ar": "فريق رؤى تقنية", "en": "Technical Insights Team" },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-03-26",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": ["ssd", "upgrade", "laptop"],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-quality-007",
+    "slug": "student-laptop-specs",
+    "title": {
+      "ar": "مواصفات لابتوب للطالب: ماذا يكفي فعلًا؟",
+      "en": "Student Laptop Specs: What Actually Matters?"
+    },
+    "excerpt": {
+      "ar": "RAM، التخزين، الشاشة، والبطارية بدون مبالغة في السعر.",
+      "en": "RAM, storage, display, and battery without overspending."
+    },
+    "body": {
+      "ar": "## الحد الأدنى المنطقي\n\n16 جيجا RAM، SSD 512 إن أمكن، شاشة Full HD.\n\n## الخلاصة\n\n16GB RAM + SSD + شاشة واضحة تغطي أغلب الطلاب.",
+      "en": "## Sensible baseline\n\n16GB RAM, 512GB SSD when possible, Full HD.\n\n## Bottom line\n\nRAM + SSD + clear screen beat brand prestige."
+    },
+    "categoryId": "laptops",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": { "ar": "فريق رؤى تقنية", "en": "Technical Insights Team" },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-03-31",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": ["laptop", "students", "buying-guide"],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-quality-008",
+    "slug": "chatgpt-for-studying",
+    "title": {
+      "ar": "استخدام ChatGPT في المذاكرة بدون ما يضر فهمك",
+      "en": "Using ChatGPT for Studying Without Hurting Understanding"
+    },
+    "excerpt": {
+      "ar": "كيف تطلب شرحًا، تلخّص، وتختبر نفسك بدل نسخ الإجابات.",
+      "en": "How to request explanations, summaries, and self-tests instead of copied answers."
+    },
+    "body": {
+      "ar": "## استخدام مفيد\n\nاشرح لي المفهوم، أعطني مثالًا، اطرح أسئلة لاختبار فهمي.\n\n## استخدام ضار\n\nنسخ واجب كامل بدون محاولة.\n\n## الخلاصة\n\nخلّي الذكاء الاصطناعي مدرّسًا خاصًا، مش بديلًا عن التفكير.",
+      "en": "## Useful uses\n\nExplain concepts, give examples, quiz me.\n\n## Harmful uses\n\nPasting full assignments with no attempt.\n\n## Bottom line\n\nUse AI as a tutor, not a substitute for thinking."
+    },
+    "categoryId": "ai",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": { "ar": "فريق رؤى تقنية", "en": "Technical Insights Team" },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-04-05",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": ["chatgpt", "study", "ai"],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-quality-009",
+    "slug": "prompting-tips",
+    "title": {
+      "ar": "مهارات الـ Prompt: اطلب من الذكاء الاصطناعي نتيجة أحسن",
+      "en": "Prompting Tips: Get Better Results from AI"
+    },
+    "excerpt": {
+      "ar": "صياغة الطلب، تحديد الدور، والأمثلة التي ترفع جودة الرد.",
+      "en": "Request structure, roles, and examples that improve answers."
+    },
+    "body": {
+      "ar": "## هيكل طلب قوي\n\nالدور، المهمة، الجمهور، الشكل، القيود.\n\n## الخلاصة\n\nجودة الخروج من جودة الدخول.",
+      "en": "## Strong request structure\n\nRole, task, audience, format, constraints.\n\n## Bottom line\n\nClear inputs reduce rewrite loops."
+    },
+    "categoryId": "ai",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": { "ar": "فريق رؤى تقنية", "en": "Technical Insights Team" },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-04-10",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": ["prompts", "ai", "productivity"],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-quality-010",
+    "slug": "startup-apps",
+    "title": {
+      "ar": "برامج بدء التشغيل في ويندوز: سرّع الإقلاع",
+      "en": "Windows Startup Apps: Speed Up Boot"
+    },
+    "excerpt": {
+      "ar": "إيقاف البرامج الثقيلة من Task Manager بدون كسر النظام.",
+      "en": "Disable heavy startup entries from Task Manager safely."
+    },
+    "body": {
+      "ar": "## الخطوات\n\n1. Ctrl+Shift+Esc\n2. تبويب Startup apps\n3. عطّل غير الضروري\n4. أعد التشغيل\n\n## الخلاصة\n\nتقليل برامج الإقلاع من أسرع تحسينات ويندوز المجانية.",
+      "en": "## Steps\n\nOpen Task Manager, review Startup apps, disable what you do not need, reboot.\n\n## Bottom line\n\nStartup cleanup is a fast free Windows win."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": { "ar": "فريق رؤى تقنية", "en": "Technical Insights Team" },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-04-15",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": ["windows", "performance", "startup"],
+    "isFeatured": false,
+    "isTrending": false
+  }
 ]

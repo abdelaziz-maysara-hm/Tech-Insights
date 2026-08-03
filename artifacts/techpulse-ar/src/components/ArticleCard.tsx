@@ -4,6 +4,16 @@ import { useLanguage } from '@/context/LanguageContext';
 import { Clock, PlayCircle } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
+
+function authorName(article: Article, language: 'ar' | 'en'): string {
+  const a: any = article.author;
+  if (!a) return language === 'ar' ? 'فريق رؤى تقنية' : 'Technical Insights Team';
+  if (typeof a === 'string') return a;
+  if (a.name && typeof a.name === 'object') return a.name[language] || a.name.ar || a.name.en || '';
+  if (typeof a.name === 'string') return a.name;
+  return language === 'ar' ? 'فريق رؤى تقنية' : 'Technical Insights Team';
+}
+
 interface ArticleCardProps {
   article: Article;
   featured?: boolean;
@@ -52,7 +62,7 @@ export function ArticleCard({ article, featured = false, className }: ArticleCar
             {article.excerpt[language]}
           </p>
           <div className="flex items-center gap-4 text-xs md:text-sm text-gray-300">
-            <span>{article.author.name[language]}</span>
+            <span>{authorName(article, language)}</span>
             <span className="w-1 h-1 rounded-full bg-gray-500" />
             <span className="flex items-center gap-1">
               <Clock className="w-3.5 h-3.5" />
@@ -98,7 +108,7 @@ export function ArticleCard({ article, featured = false, className }: ArticleCar
           {article.excerpt[language]}
         </p>
         <div className="flex items-center justify-between text-xs text-muted-foreground pt-3 border-t border-border">
-          <span className="truncate max-w-[160px]">{article.author.name[language]}</span>
+          <span className="truncate max-w-[160px]">{authorName(article, language)}</span>
           <span className="flex items-center gap-1 shrink-0">
             <Clock className="w-3.5 h-3.5" />
             {article.readTime} {t('readTime')}

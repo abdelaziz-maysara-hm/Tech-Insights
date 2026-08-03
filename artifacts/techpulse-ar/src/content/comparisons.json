@@ -1,86 +1,42 @@
 [
   {
-    "id": "cmp-clean-01",
-    "slug": "iphone-16-vs-galaxy-s25",
+    "id": "cmp-gen-0001",
+    "slug": "iphone-16-vs-galaxy-s25-1",
     "title": {
       "ar": "iPhone 16 ضد Galaxy S25",
       "en": "iPhone 16 vs Galaxy S25"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين iPhone 16 و Galaxy S25.",
-      "en": "Practical comparison of iPhone 16 and Galaxy S25."
+      "ar": "مقارنة عملية بين iPhone 16 و Galaxy S25 مع جدول نقاط وخلاصة واضحة.",
+      "en": "A practical comparison of iPhone 16 and Galaxy S25 with scores and a clear verdict."
     },
     "device1Name": "iPhone 16",
     "device2Name": "Galaxy S25",
     "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&h=500&q=80",
     "device2Image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2025-02-15",
-    "categoryId": "comparisons",
-    "subcategoryId": "phones",
-    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&h=450&q=80",
-    "overallWinner": 1,
-    "specs": {
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
-        },
-        "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "price": {
-        "label": {
-          "ar": "القيمة",
-          "en": "Value"
-        },
-        "device1Value": {
-          "ar": "جيدة",
-          "en": "Good"
-        },
-        "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
-        },
-        "device1Score": 9,
-        "device2Score": 7,
-        "winner": 1
-      }
-    },
-    "verdict": {
-      "ar": "iPhone 16 الأنسب لمعظم المستخدمين في هذه المقارنة.",
-      "en": "iPhone 16 is the better fit for most users in this comparison."
-    }
-  },
-  {
-    "id": "cmp-clean-02",
-    "slug": "pixel-9-vs-nothing-phone-3",
-    "title": {
-      "ar": "Pixel 9 ضد Nothing Phone 3",
-      "en": "Pixel 9 vs Nothing Phone 3"
-    },
-    "excerpt": {
-      "ar": "مقارنة عملية بين Pixel 9 و Nothing Phone 3.",
-      "en": "Practical comparison of Pixel 9 and Nothing Phone 3."
-    },
-    "device1Name": "Pixel 9",
-    "device2Name": "Nothing Phone 3",
-    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&h=500&q=80",
-    "device2Image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2025-03-15",
+    "date": "2022-01-01",
     "categoryId": "comparisons",
     "subcategoryId": "phones",
     "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&h=450&q=80",
     "overallWinner": 2,
     "specs": {
+      "display": {
+        "label": {
+          "ar": "الشاشة / العرض",
+          "en": "Display"
+        },
+        "device1Value": {
+          "ar": "جيد جدًا",
+          "en": "Very good"
+        },
+        "device2Value": {
+          "ar": "ممتاز",
+          "en": "Excellent"
+        },
+        "device1Score": 7,
+        "device2Score": 8,
+        "winner": 2
+      },
       "performance": {
         "label": {
           "ar": "الأداء",
@@ -91,8 +47,42 @@
           "en": "Strong"
         },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
+          "ar": "قوي جدًا",
+          "en": "Very strong"
+        },
+        "device1Score": 8,
+        "device2Score": 7,
+        "winner": 2
+      },
+      "battery": {
+        "label": {
+          "ar": "البطارية / الاستمرارية",
+          "en": "Battery / endurance"
+        },
+        "device1Value": {
+          "ar": "يوم كامل",
+          "en": "All-day"
+        },
+        "device2Value": {
+          "ar": "يوم+",
+          "en": "All-day+"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 1
+      },
+      "camera": {
+        "label": {
+          "ar": "الجودة / المرونة",
+          "en": "Quality / flexibility"
+        },
+        "device1Value": {
+          "ar": "مرن",
+          "en": "Flexible"
+        },
+        "device2Value": {
+          "ar": "ثابت",
+          "en": "Consistent"
         },
         "device1Score": 8,
         "device2Score": 9,
@@ -104,181 +94,110 @@
           "en": "Value"
         },
         "device1Value": {
-          "ar": "جيدة",
-          "en": "Good"
+          "ar": "متوسطة",
+          "en": "Fair"
         },
         "device2Value": {
           "ar": "مرتفعة",
           "en": "Premium"
-        },
-        "device1Score": 9,
-        "device2Score": 7,
-        "winner": 1
-      }
-    },
-    "verdict": {
-      "ar": "Nothing Phone 3 الأنسب لمعظم المستخدمين في هذه المقارنة.",
-      "en": "Nothing Phone 3 is the better fit for most users in this comparison."
-    }
-  },
-  {
-    "id": "cmp-clean-03",
-    "slug": "android-vs-iphone",
-    "title": {
-      "ar": "Android ضد iPhone",
-      "en": "Android vs iPhone"
-    },
-    "excerpt": {
-      "ar": "مقارنة عملية بين Android و iPhone.",
-      "en": "Practical comparison of Android and iPhone."
-    },
-    "device1Name": "Android",
-    "device2Name": "iPhone",
-    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&h=500&q=80",
-    "device2Image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2025-04-15",
-    "categoryId": "comparisons",
-    "subcategoryId": "phones",
-    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&h=450&q=80",
-    "overallWinner": 1,
-    "specs": {
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
         },
         "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "price": {
-        "label": {
-          "ar": "القيمة",
-          "en": "Value"
-        },
-        "device1Value": {
-          "ar": "جيدة",
-          "en": "Good"
-        },
-        "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
-        },
-        "device1Score": 9,
-        "device2Score": 7,
+        "device2Score": 6,
         "winner": 1
       }
     },
     "verdict": {
-      "ar": "Android الأنسب لمعظم المستخدمين في هذه المقارنة.",
-      "en": "Android is the better fit for most users in this comparison."
+      "ar": "Galaxy S25 يتفوق إجمالًا في هذه المقارنة لمعظم سيناريوهات الاستخدام.",
+      "en": "Galaxy S25 leads overall for most real-world scenarios."
     }
   },
   {
-    "id": "cmp-clean-04",
+    "id": "cmp-gen-0002",
     "slug": "macbook-air-m3-vs-dell-xps-13",
     "title": {
       "ar": "MacBook Air M3 ضد Dell XPS 13",
       "en": "MacBook Air M3 vs Dell XPS 13"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين MacBook Air M3 و Dell XPS 13.",
-      "en": "Practical comparison of MacBook Air M3 and Dell XPS 13."
+      "ar": "مقارنة عملية بين MacBook Air M3 و Dell XPS 13 مع جدول نقاط وخلاصة واضحة.",
+      "en": "A practical comparison of MacBook Air M3 and Dell XPS 13 with scores and a clear verdict."
     },
     "device1Name": "MacBook Air M3",
     "device2Name": "Dell XPS 13",
     "device1Image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=400&h=500&q=80",
     "device2Image": "https://images.unsplash.com/photo-1555617981-b634f1e85990?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2025-05-15",
-    "categoryId": "comparisons",
-    "subcategoryId": "laptops-pcs",
-    "heroImage": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&h=450&q=80",
-    "overallWinner": 2,
-    "specs": {
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
-        },
-        "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "price": {
-        "label": {
-          "ar": "القيمة",
-          "en": "Value"
-        },
-        "device1Value": {
-          "ar": "جيدة",
-          "en": "Good"
-        },
-        "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
-        },
-        "device1Score": 9,
-        "device2Score": 7,
-        "winner": 1
-      }
-    },
-    "verdict": {
-      "ar": "Dell XPS 13 الأنسب لمعظم المستخدمين في هذه المقارنة.",
-      "en": "Dell XPS 13 is the better fit for most users in this comparison."
-    }
-  },
-  {
-    "id": "cmp-clean-05",
-    "slug": "ssd-nvme-vs-hdd",
-    "title": {
-      "ar": "SSD NVMe ضد HDD",
-      "en": "SSD NVMe vs HDD"
-    },
-    "excerpt": {
-      "ar": "مقارنة عملية بين SSD NVMe و HDD.",
-      "en": "Practical comparison of SSD NVMe and HDD."
-    },
-    "device1Name": "SSD NVMe",
-    "device2Name": "HDD",
-    "device1Image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=400&h=500&q=80",
-    "device2Image": "https://images.unsplash.com/photo-1555617981-b634f1e85990?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2025-06-15",
+    "date": "2022-03-15",
     "categoryId": "comparisons",
     "subcategoryId": "laptops-pcs",
     "heroImage": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&h=450&q=80",
     "overallWinner": 1,
     "specs": {
+      "display": {
+        "label": {
+          "ar": "الشاشة / العرض",
+          "en": "Display"
+        },
+        "device1Value": {
+          "ar": "ممتاز",
+          "en": "Excellent"
+        },
+        "device2Value": {
+          "ar": "جيد جدًا",
+          "en": "Very good"
+        },
+        "device1Score": 9,
+        "device2Score": 8,
+        "winner": 1
+      },
       "performance": {
         "label": {
           "ar": "الأداء",
           "en": "Performance"
         },
         "device1Value": {
+          "ar": "قوي جدًا",
+          "en": "Very strong"
+        },
+        "device2Value": {
           "ar": "قوي",
           "en": "Strong"
         },
-        "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
+        "device1Score": 9,
+        "device2Score": 8,
+        "winner": 1
+      },
+      "battery": {
+        "label": {
+          "ar": "البطارية / الاستمرارية",
+          "en": "Battery / endurance"
         },
-        "device1Score": 8,
-        "device2Score": 9,
+        "device1Value": {
+          "ar": "يوم+",
+          "en": "All-day+"
+        },
+        "device2Value": {
+          "ar": "يوم كامل",
+          "en": "All-day"
+        },
+        "device1Score": 9,
+        "device2Score": 8,
+        "winner": 1
+      },
+      "camera": {
+        "label": {
+          "ar": "الجودة / المرونة",
+          "en": "Quality / flexibility"
+        },
+        "device1Value": {
+          "ar": "ثابت",
+          "en": "Consistent"
+        },
+        "device2Value": {
+          "ar": "مرن",
+          "en": "Flexible"
+        },
+        "device1Score": 7,
+        "device2Score": 8,
         "winner": 2
       },
       "price": {
@@ -287,44 +206,61 @@
           "en": "Value"
         },
         "device1Value": {
-          "ar": "جيدة",
-          "en": "Good"
-        },
-        "device2Value": {
           "ar": "مرتفعة",
           "en": "Premium"
         },
-        "device1Score": 9,
-        "device2Score": 7,
-        "winner": 1
+        "device2Value": {
+          "ar": "متوسطة",
+          "en": "Fair"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
       }
     },
     "verdict": {
-      "ar": "SSD NVMe الأنسب لمعظم المستخدمين في هذه المقارنة.",
-      "en": "SSD NVMe is the better fit for most users in this comparison."
+      "ar": "MacBook Air M3 يتفوق إجمالًا في هذه المقارنة لمعظم سيناريوهات الاستخدام.",
+      "en": "MacBook Air M3 leads overall for most real-world scenarios."
     }
   },
   {
-    "id": "cmp-clean-06",
-    "slug": "ps5-vs-xbox-series-x",
+    "id": "cmp-gen-0003",
+    "slug": "pixel-9-vs-iphone-16",
     "title": {
-      "ar": "PS5 ضد Xbox Series X",
-      "en": "PS5 vs Xbox Series X"
+      "ar": "Pixel 9 ضد iPhone 16",
+      "en": "Pixel 9 vs iPhone 16"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين PS5 و Xbox Series X.",
-      "en": "Practical comparison of PS5 and Xbox Series X."
+      "ar": "مقارنة عملية بين Pixel 9 و iPhone 16 مع جدول نقاط وخلاصة واضحة.",
+      "en": "A practical comparison of Pixel 9 and iPhone 16 with scores and a clear verdict."
     },
-    "device1Name": "PS5",
-    "device2Name": "Xbox Series X",
-    "device1Image": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&w=400&h=500&q=80",
-    "device2Image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2025-07-15",
+    "device1Name": "Pixel 9",
+    "device2Name": "iPhone 16",
+    "device1Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2022-05-20",
     "categoryId": "comparisons",
-    "subcategoryId": "gaming-consoles",
-    "heroImage": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&w=800&h=450&q=80",
+    "subcategoryId": "phones",
+    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&h=450&q=80",
     "overallWinner": 2,
     "specs": {
+      "display": {
+        "label": {
+          "ar": "الشاشة / العرض",
+          "en": "Display"
+        },
+        "device1Value": {
+          "ar": "جيد جدًا",
+          "en": "Very good"
+        },
+        "device2Value": {
+          "ar": "ممتاز",
+          "en": "Excellent"
+        },
+        "device1Score": 8,
+        "device2Score": 9,
+        "winner": 2
+      },
       "performance": {
         "label": {
           "ar": "الأداء",
@@ -335,12 +271,46 @@
           "en": "Strong"
         },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
+          "ar": "قوي جدًا",
+          "en": "Very strong"
         },
         "device1Score": 8,
         "device2Score": 9,
         "winner": 2
+      },
+      "battery": {
+        "label": {
+          "ar": "البطارية / الاستمرارية",
+          "en": "Battery / endurance"
+        },
+        "device1Value": {
+          "ar": "يوم كامل",
+          "en": "All-day"
+        },
+        "device2Value": {
+          "ar": "يوم كامل",
+          "en": "All-day"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 1
+      },
+      "camera": {
+        "label": {
+          "ar": "الجودة / المرونة",
+          "en": "Quality / flexibility"
+        },
+        "device1Value": {
+          "ar": "ممتاز",
+          "en": "Excellent"
+        },
+        "device2Value": {
+          "ar": "ثابت",
+          "en": "Consistent"
+        },
+        "device1Score": 9,
+        "device2Score": 8,
+        "winner": 1
       },
       "price": {
         "label": {
@@ -355,53 +325,104 @@
           "ar": "مرتفعة",
           "en": "Premium"
         },
-        "device1Score": 9,
-        "device2Score": 7,
+        "device1Score": 8,
+        "device2Score": 6,
         "winner": 1
       }
     },
     "verdict": {
-      "ar": "Xbox Series X الأنسب لمعظم المستخدمين في هذه المقارنة.",
-      "en": "Xbox Series X is the better fit for most users in this comparison."
+      "ar": "iPhone 16 يتفوق إجمالًا في هذه المقارنة لمعظم سيناريوهات الاستخدام.",
+      "en": "iPhone 16 leads overall for most real-world scenarios."
     }
   },
   {
-    "id": "cmp-clean-07",
-    "slug": "apple-watch-10-vs-galaxy-watch-7",
+    "id": "cmp-gen-0004",
+    "slug": "airpods-pro-2-vs-galaxy-buds-3",
     "title": {
-      "ar": "Apple Watch 10 ضد Galaxy Watch 7",
-      "en": "Apple Watch 10 vs Galaxy Watch 7"
+      "ar": "AirPods Pro 2 ضد Galaxy Buds 3",
+      "en": "AirPods Pro 2 vs Galaxy Buds 3"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين Apple Watch 10 و Galaxy Watch 7.",
-      "en": "Practical comparison of Apple Watch 10 and Galaxy Watch 7."
+      "ar": "مقارنة عملية بين AirPods Pro 2 و Galaxy Buds 3 مع جدول نقاط وخلاصة واضحة.",
+      "en": "A practical comparison of AirPods Pro 2 and Galaxy Buds 3 with scores and a clear verdict."
     },
-    "device1Name": "Apple Watch 10",
-    "device2Name": "Galaxy Watch 7",
-    "device1Image": "https://images.unsplash.com/photo-1434493789847-2f02dc269ee6?auto=format&fit=crop&w=400&h=500&q=80",
-    "device2Image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2025-08-15",
+    "device1Name": "AirPods Pro 2",
+    "device2Name": "Galaxy Buds 3",
+    "device1Image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1434493789847-2f02dc269ee6?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2022-07-01",
     "categoryId": "comparisons",
-    "subcategoryId": "wearables",
-    "heroImage": "https://images.unsplash.com/photo-1434493789847-2f02dc269ee6?auto=format&fit=crop&w=800&h=450&q=80",
+    "subcategoryId": "accessories",
+    "heroImage": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&h=450&q=80",
     "overallWinner": 1,
     "specs": {
-      "performance": {
+      "display": {
         "label": {
-          "ar": "الأداء",
-          "en": "Performance"
+          "ar": "التصميم / الراحة",
+          "en": "Design / comfort"
         },
         "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
           "ar": "ممتاز",
           "en": "Excellent"
         },
+        "device2Value": {
+          "ar": "جيد جدًا",
+          "en": "Very good"
+        },
+        "device1Score": 9,
+        "device2Score": 8,
+        "winner": 1
+      },
+      "performance": {
+        "label": {
+          "ar": "جودة الصوت",
+          "en": "Sound quality"
+        },
+        "device1Value": {
+          "ar": "قوي جدًا",
+          "en": "Very strong"
+        },
+        "device2Value": {
+          "ar": "قوي",
+          "en": "Strong"
+        },
+        "device1Score": 9,
+        "device2Score": 8,
+        "winner": 1
+      },
+      "battery": {
+        "label": {
+          "ar": "البطارية / الاستمرارية",
+          "en": "Battery / endurance"
+        },
+        "device1Value": {
+          "ar": "يوم+",
+          "en": "All-day+"
+        },
+        "device2Value": {
+          "ar": "يوم كامل",
+          "en": "All-day"
+        },
         "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
+        "device2Score": 8,
+        "winner": 1
+      },
+      "camera": {
+        "label": {
+          "ar": "إلغاء الضوضاء",
+          "en": "Noise cancelling"
+        },
+        "device1Value": {
+          "ar": "ممتاز",
+          "en": "Excellent"
+        },
+        "device2Value": {
+          "ar": "جيد",
+          "en": "Good"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
       },
       "price": {
         "label": {
@@ -409,105 +430,61 @@
           "en": "Value"
         },
         "device1Value": {
-          "ar": "جيدة",
-          "en": "Good"
-        },
-        "device2Value": {
           "ar": "مرتفعة",
           "en": "Premium"
         },
-        "device1Score": 9,
-        "device2Score": 7,
-        "winner": 1
-      }
-    },
-    "verdict": {
-      "ar": "Apple Watch 10 الأنسب لمعظم المستخدمين في هذه المقارنة.",
-      "en": "Apple Watch 10 is the better fit for most users in this comparison."
-    }
-  },
-  {
-    "id": "cmp-clean-08",
-    "slug": "chatgpt-vs-claude",
-    "title": {
-      "ar": "ChatGPT ضد Claude",
-      "en": "ChatGPT vs Claude"
-    },
-    "excerpt": {
-      "ar": "مقارنة عملية بين ChatGPT و Claude.",
-      "en": "Practical comparison of ChatGPT and Claude."
-    },
-    "device1Name": "ChatGPT",
-    "device2Name": "Claude",
-    "device1Image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=400&h=500&q=80",
-    "device2Image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2025-09-15",
-    "categoryId": "comparisons",
-    "subcategoryId": "software-services",
-    "heroImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&h=450&q=80",
-    "overallWinner": 2,
-    "specs": {
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
+          "ar": "جيدة",
+          "en": "Good"
         },
-        "device1Score": 8,
-        "device2Score": 9,
+        "device1Score": 6,
+        "device2Score": 8,
         "winner": 2
-      },
-      "price": {
-        "label": {
-          "ar": "القيمة",
-          "en": "Value"
-        },
-        "device1Value": {
-          "ar": "جيدة",
-          "en": "Good"
-        },
-        "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
-        },
-        "device1Score": 9,
-        "device2Score": 7,
-        "winner": 1
       }
     },
     "verdict": {
-      "ar": "Claude الأنسب لمعظم المستخدمين في هذه المقارنة.",
-      "en": "Claude is the better fit for most users in this comparison."
+      "ar": "AirPods Pro 2 يتفوق إجمالًا في هذه المقارنة لمعظم سيناريوهات الاستخدام.",
+      "en": "AirPods Pro 2 leads overall for most real-world scenarios."
     }
   },
   {
-    "id": "cmp-clean-09",
-    "slug": "chrome-vs-firefox",
+    "id": "cmp-gen-0005",
+    "slug": "kindle-paperwhite-vs-kobo-librap",
     "title": {
-      "ar": "Chrome ضد Firefox",
-      "en": "Chrome vs Firefox"
+      "ar": "Kindle Paperwhite ضد Kobo Libra",
+      "en": "Kindle Paperwhite vs Kobo Libra"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين Chrome و Firefox.",
-      "en": "Practical comparison of Chrome and Firefox."
+      "ar": "مقارنة عملية بين Kindle Paperwhite و Kobo Libra مع جدول نقاط وخلاصة واضحة.",
+      "en": "A practical comparison of Kindle Paperwhite and Kobo Libra with scores and a clear verdict."
     },
-    "device1Name": "Chrome",
-    "device2Name": "Firefox",
-    "device1Image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=400&h=500&q=80",
-    "device2Image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2025-10-15",
+    "device1Name": "Kindle Paperwhite",
+    "device2Name": "Kobo Libra",
+    "device1Image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2022-08-02",
     "categoryId": "comparisons",
-    "subcategoryId": "software-services",
-    "heroImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&h=450&q=80",
+    "subcategoryId": "accessories",
+    "heroImage": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&h=450&q=80",
     "overallWinner": 1,
     "specs": {
+      "display": {
+        "label": {
+          "ar": "الشاشة / العرض",
+          "en": "Display"
+        },
+        "device1Value": {
+          "ar": "ممتاز",
+          "en": "Excellent"
+        },
+        "device2Value": {
+          "ar": "جيد جدًا",
+          "en": "Very good"
+        },
+        "device1Score": 9,
+        "device2Score": 8,
+        "winner": 1
+      },
       "performance": {
         "label": {
           "ar": "الأداء",
@@ -518,8 +495,42 @@
           "en": "Strong"
         },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
+          "ar": "قوي",
+          "en": "Strong"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 1
+      },
+      "battery": {
+        "label": {
+          "ar": "البطارية / الاستمرارية",
+          "en": "Battery / endurance"
+        },
+        "device1Value": {
+          "ar": "أسابيع",
+          "en": "Weeks"
+        },
+        "device2Value": {
+          "ar": "أسابيع",
+          "en": "Weeks"
+        },
+        "device1Score": 9,
+        "device2Score": 9,
+        "winner": 1
+      },
+      "camera": {
+        "label": {
+          "ar": "النظام البيئي",
+          "en": "Ecosystem"
+        },
+        "device1Value": {
+          "ar": "قوي",
+          "en": "Strong"
+        },
+        "device2Value": {
+          "ar": "مرن",
+          "en": "Flexible"
         },
         "device1Score": 8,
         "device2Score": 9,
@@ -535,200 +546,17 @@
           "en": "Good"
         },
         "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
-        },
-        "device1Score": 9,
-        "device2Score": 7,
-        "winner": 1
-      }
-    },
-    "verdict": {
-      "ar": "Chrome الأنسب لمعظم المستخدمين في هذه المقارنة.",
-      "en": "Chrome is the better fit for most users in this comparison."
-    }
-  },
-  {
-    "id": "cmp-clean-10",
-    "slug": "1password-vs-bitwarden",
-    "title": {
-      "ar": "1Password ضد Bitwarden",
-      "en": "1Password vs Bitwarden"
-    },
-    "excerpt": {
-      "ar": "مقارنة عملية بين 1Password و Bitwarden.",
-      "en": "Practical comparison of 1Password and Bitwarden."
-    },
-    "device1Name": "1Password",
-    "device2Name": "Bitwarden",
-    "device1Image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=400&h=500&q=80",
-    "device2Image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2025-11-15",
-    "categoryId": "comparisons",
-    "subcategoryId": "software-services",
-    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
-    "overallWinner": 2,
-    "specs": {
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
-        },
-        "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "price": {
-        "label": {
-          "ar": "القيمة",
-          "en": "Value"
-        },
-        "device1Value": {
           "ar": "جيدة",
           "en": "Good"
         },
-        "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
-        },
-        "device1Score": 9,
-        "device2Score": 7,
-        "winner": 1
-      }
-    },
-    "verdict": {
-      "ar": "Bitwarden الأنسب لمعظم المستخدمين في هذه المقارنة.",
-      "en": "Bitwarden is the better fit for most users in this comparison."
-    }
-  },
-  {
-    "id": "cmp-clean-11",
-    "slug": "nordvpn-vs-proton-vpn",
-    "title": {
-      "ar": "NordVPN ضد Proton VPN",
-      "en": "NordVPN vs Proton VPN"
-    },
-    "excerpt": {
-      "ar": "مقارنة عملية بين NordVPN و Proton VPN.",
-      "en": "Practical comparison of NordVPN and Proton VPN."
-    },
-    "device1Name": "NordVPN",
-    "device2Name": "Proton VPN",
-    "device1Image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=400&h=500&q=80",
-    "device2Image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2025-12-15",
-    "categoryId": "comparisons",
-    "subcategoryId": "software-services",
-    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
-    "overallWinner": 1,
-    "specs": {
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
-        },
         "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "price": {
-        "label": {
-          "ar": "القيمة",
-          "en": "Value"
-        },
-        "device1Value": {
-          "ar": "جيدة",
-          "en": "Good"
-        },
-        "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
-        },
-        "device1Score": 9,
-        "device2Score": 7,
+        "device2Score": 8,
         "winner": 1
       }
     },
     "verdict": {
-      "ar": "NordVPN الأنسب لمعظم المستخدمين في هذه المقارنة.",
-      "en": "NordVPN is the better fit for most users in this comparison."
-    }
-  },
-  {
-    "id": "cmp-clean-12",
-    "slug": "aws-vs-azure",
-    "title": {
-      "ar": "AWS ضد Azure",
-      "en": "AWS vs Azure"
-    },
-    "excerpt": {
-      "ar": "مقارنة عملية بين AWS و Azure.",
-      "en": "Practical comparison of AWS and Azure."
-    },
-    "device1Name": "AWS",
-    "device2Name": "Azure",
-    "device1Image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=400&h=500&q=80",
-    "device2Image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2025-01-15",
-    "categoryId": "comparisons",
-    "subcategoryId": "software-services",
-    "heroImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&h=450&q=80",
-    "overallWinner": 2,
-    "specs": {
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
-        },
-        "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "price": {
-        "label": {
-          "ar": "القيمة",
-          "en": "Value"
-        },
-        "device1Value": {
-          "ar": "جيدة",
-          "en": "Good"
-        },
-        "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
-        },
-        "device1Score": 9,
-        "device2Score": 7,
-        "winner": 1
-      }
-    },
-    "verdict": {
-      "ar": "Azure الأنسب لمعظم المستخدمين في هذه المقارنة.",
-      "en": "Azure is the better fit for most users in this comparison."
+      "ar": "Kindle Paperwhite يتفوق إجمالًا في هذه المقارنة لمعظم سيناريوهات الاستخدام.",
+      "en": "Kindle Paperwhite leads overall for most real-world scenarios."
     }
   }
 ]
