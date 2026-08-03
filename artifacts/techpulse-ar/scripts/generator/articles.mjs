@@ -1,13 +1,18 @@
 /**
- * Article generator — UNIQUE body per topic (no single shared template).
- * Extend TOPIC_CONTENT only; refuse generic filler bodies.
+ * Article generator — UNIQUE body per topic + content-aware hero + valid taxonomy.
  */
+import { assertSubcategory, inferTaxonomy } from './categories.mjs';
 import { distributedDate } from './dates.mjs';
-import { heroImage } from './images.mjs';
+import { resolveArticleHero } from './images.mjs';
 import { bi } from './localization.mjs';
 import { uniqueSlug } from './slugs.mjs';
 
-/** Each topic must define its own titles + bodies. */
+const DEFAULT_AUTHOR = {
+  name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+  avatar: 'https://i.pravatar.cc/150?img=11',
+};
+
+/** Each topic must define its own titles + bodies. Extend TOPIC_CONTENT only. */
 export const TOPIC_CONTENT = [];
 
 export function generateArticles({ count = 20, category, startIndex = 0 } = {}) {
@@ -22,19 +27,41 @@ export function generateArticles({ count = 20, category, startIndex = 0 } = {}) 
     const abs = startIndex + i;
     const t = pool[abs % pool.length];
     const cycle = Math.floor(abs / pool.length) + 1;
+
+    const inferred = inferTaxonomy(
+      [t.slug, t.titleEn, t.titleAr, ...(t.tags || []), t.cat, t.sub].filter(Boolean).join(' '),
+    );
+    const categoryId = t.cat || inferred.categoryId;
+    const subcategoryId = assertSubcategory(
+      categoryId,
+      t.sub || inferred.subcategoryId,
+    );
+
+    const titleAr = cycle > 1 ? `${t.titleAr} (${cycle})` : t.titleAr;
+    const titleEn = cycle > 1 ? `${t.titleEn} (${cycle})` : t.titleEn;
+    const slug = uniqueSlug(cycle > 1 ? `${t.slug}-${cycle}` : t.slug);
+    const tags = t.tags || [categoryId];
+
     items.push({
       id: `art-gen-${String(abs + 1).padStart(4, '0')}`,
-      slug: uniqueSlug(cycle > 1 ? `${t.slug}-${cycle}` : t.slug),
-      title: bi(cycle > 1 ? `${t.titleAr} (${cycle})` : t.titleAr, cycle > 1 ? `${t.titleEn} (${cycle})` : t.titleEn),
+      slug,
+      title: bi(titleAr, titleEn),
       excerpt: bi(t.excerptAr, t.excerptEn),
       body: bi(t.bodyAr, t.bodyEn),
-      categoryId: t.cat,
-      subcategoryId: t.sub || 'guides-tips',
-      author: 'Technical Insights',
+      categoryId,
+      subcategoryId,
+      author: t.author || DEFAULT_AUTHOR,
       date: distributedDate(abs, Math.max(count + startIndex, 1)),
       readTime: t.readTime || 4,
-      heroImage: heroImage(abs),
-      tags: t.tags || [t.cat],
+      heroImage: resolveArticleHero({
+        categoryId,
+        subcategoryId,
+        tags,
+        title: { ar: titleAr, en: titleEn },
+        slug,
+        theme: t.theme || inferred.theme,
+      }),
+      tags,
       isFeatured: abs < 3,
       isTrending: abs >= 3 && abs < 6,
     });

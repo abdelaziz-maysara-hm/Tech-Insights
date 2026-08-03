@@ -1,5 +1,22 @@
-/** Schema validation + uniqueness checks */
+/** Schema validation + uniqueness + taxonomy checks */
+import { ALLOWED_SUBCATEGORIES } from './categories.mjs';
 import { assertBi } from './localization.mjs';
+
+function checkTaxonomy(item, index, kind) {
+  const e = [];
+  const cat = item.categoryId;
+  const sub = item.subcategoryId;
+  if (!cat) e.push('categoryId');
+  if (!sub) e.push('subcategoryId');
+  if (cat && sub) {
+    const allowed = ALLOWED_SUBCATEGORIES[cat];
+    if (allowed && !allowed.includes(sub)) {
+      e.push(`subcategoryId "${sub}" not allowed under category "${cat}"`);
+    }
+  }
+  if (!item.heroImage) e.push('heroImage');
+  return e.map((x) => `${kind}[${index}].${x}`);
+}
 
 export function validateVideo(item, index) {
   const e = [];
@@ -8,9 +25,7 @@ export function validateVideo(item, index) {
   try { assertBi(item.description, 'description'); } catch (err) { e.push(String(err.message)); }
   if (typeof item.youtubeId !== 'string') e.push('youtubeId must be string');
   if (!/^\d{4}-\d{2}-\d{2}$/.test(item.date || '')) e.push('date');
-  if (!item.categoryId) e.push('categoryId');
-  if (!item.subcategoryId) e.push('subcategoryId');
-  return e.map((x) => `videos[${index}].${x}`);
+  return [...e.map((x) => `videos[${index}].${x}`), ...checkTaxonomy(item, index, 'videos')];
 }
 
 export function validateArticle(item, index) {
@@ -20,13 +35,11 @@ export function validateArticle(item, index) {
   try { assertBi(item.title, 'title'); } catch (err) { e.push(String(err.message)); }
   try { assertBi(item.excerpt, 'excerpt'); } catch (err) { e.push(String(err.message)); }
   try { assertBi(item.body, 'body'); } catch (err) { e.push(String(err.message)); }
-  if (!item.categoryId) e.push('categoryId');
   if (!item.author?.name) e.push('author.name');
-  if (!item.heroImage) e.push('heroImage');
   if (!Array.isArray(item.tags) || !item.tags.length) e.push('tags');
   if (!/^\d{4}-\d{2}-\d{2}$/.test(item.date || '')) e.push('date');
   if (typeof item.readTime !== 'number') e.push('readTime');
-  return e.map((x) => `articles[${index}].${x}`);
+  return [...e.map((x) => `articles[${index}].${x}`), ...checkTaxonomy(item, index, 'articles')];
 }
 
 export function validateComparison(item, index) {
@@ -37,10 +50,13 @@ export function validateComparison(item, index) {
   try { assertBi(item.excerpt, 'excerpt'); } catch (err) { e.push(String(err.message)); }
   try { assertBi(item.verdict, 'verdict'); } catch (err) { e.push(String(err.message)); }
   if (!item.device1Name || !item.device2Name) e.push('device names');
+  if (!item.device1Image || !item.device2Image) e.push('device images');
+  if (item.device1Image && item.device2Image && item.device1Image === item.device2Image) {
+    e.push('device1Image and device2Image must differ');
+  }
   if (!item.specs || typeof item.specs !== 'object') e.push('specs');
   if (item.overallWinner !== 1 && item.overallWinner !== 2) e.push('overallWinner');
-  if (!item.categoryId) e.push('categoryId');
-  return e.map((x) => `comparisons[${index}].${x}`);
+  return [...e.map((x) => `comparisons[${index}].${x}`), ...checkTaxonomy(item, index, 'comparisons')];
 }
 
 export function validatePage(item, index) {

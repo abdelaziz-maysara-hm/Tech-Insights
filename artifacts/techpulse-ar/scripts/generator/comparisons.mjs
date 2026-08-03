@@ -1,7 +1,7 @@
-/** Comparison generator — pairs always match subcategory */
-import { COMPARISON_CATALOG } from './categories.mjs';
+/** Comparison generator — correct subcategory + logo/thematic images */
+import { assertSubcategory, COMPARISON_CATALOG } from './categories.mjs';
 import { distributedDate } from './dates.mjs';
-import { heroForSub, themeImage, themeImagePaired } from './images.mjs';
+import { resolveComparisonImages } from './images.mjs';
 import { bi } from './localization.mjs';
 import { uniqueSlug } from './slugs.mjs';
 
@@ -26,12 +26,22 @@ export function generateComparisons({ count = 30, subcategory, startIndex = 0 } 
     const abs = startIndex + i;
     const row = catalog[abs % catalog.length];
     const cycle = Math.floor(abs / catalog.length) + 1;
-    const { d1, d2, sub, img1, img2 } = row;
+    const { d1, d2, img1, img2 } = row;
+    const sub = assertSubcategory('comparisons', row.sub);
+
     const titleEn = cycle > 1 ? `${d1} vs ${d2} (${cycle})` : `${d1} vs ${d2}`;
     const titleAr = cycle > 1 ? `${d1} ضد ${d2} (${cycle})` : `${d1} ضد ${d2}`;
     const s1 = 7 + (abs % 3);
     const s2 = 7 + ((abs + 1) % 3);
     const winner = s1 === s2 ? (abs % 2 === 0 ? 1 : 2) : s1 > s2 ? 1 : 2;
+
+    const images = resolveComparisonImages({
+      device1Name: d1,
+      device2Name: d2,
+      img1,
+      img2,
+      subcategoryId: sub,
+    });
 
     items.push({
       id: `cmp-gen-${String(abs + 1).padStart(4, '0')}`,
@@ -43,12 +53,12 @@ export function generateComparisons({ count = 30, subcategory, startIndex = 0 } 
       ),
       device1Name: d1,
       device2Name: d2,
-      device1Image: themeImage(img1),
-      device2Image: themeImagePaired(img2, img1),
+      device1Image: images.device1Image,
+      device2Image: images.device2Image,
       date: distributedDate(abs, Math.max(count + startIndex, 1)),
       categoryId: 'comparisons',
       subcategoryId: sub,
-      heroImage: heroForSub(sub, abs),
+      heroImage: images.heroImage,
       overallWinner: winner,
       specs: {
         display: spec('الشاشة / العرض', 'Display', 'جيد جدًا', 'Very good', 'ممتاز', 'Excellent', s1, s2, s1 >= s2 ? 1 : 2),
