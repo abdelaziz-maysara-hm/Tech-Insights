@@ -2,97 +2,412 @@
   {
     "id": "art-real-001",
     "slug": "2fa-practical-guide",
-    "title": {"ar": "المصادقة الثنائية (2FA): دليل عملي لحماية حساباتك", "en": "Two-Factor Authentication (2FA): A Practical Guide"},
-    "excerpt": {"ar": "الفرق بين تطبيق المصادقة وSMS، وكيفية تفعيل 2FA وحفظ رموز الاسترداد.", "en": "Authenticator apps vs SMS, how to enable 2FA, and store recovery codes."},
-    "body": {"ar": "## ما هي المصادقة الثنائية؟\n\nالمصادقة الثنائية تضيف طبقة ثانية بعد كلمة المرور: رمز من تطبيق أو SMS أو مفتاح أمان.\n\n## أفضل خيار: تطبيق مصادقة\n\n1. ثبّت Google Authenticator أو Authy.\n2. اختر تطبيق المصادقة من إعدادات الأمان.\n3. امسح QR واحفظ رموز الاسترداد.\n4. اختبر بتسجيل خروج ودخول.\n\n## الخلاصة\n\nفعّل 2FA على البريد والبنك والسوشيال. التطبيق أفضل من SMS.", "en": "## What is 2FA?\n\nA second step after the password: authenticator app, SMS, or security key.\n\n## Best option: authenticator app\n\nInstall an app, scan QR, store recovery codes, verify login.\n\n## Bottom line\n\nEnable 2FA on email, banking, and social. Prefer app over SMS."},
+    "title": {
+      "ar": "المصادقة الثنائية (2FA): دليل عملي لحماية حساباتك",
+      "en": "Two-Factor Authentication (2FA): A Practical Guide"
+    },
+    "excerpt": {
+      "ar": "الفرق بين تطبيق المصادقة وSMS، وكيفية تفعيل 2FA وحفظ رموز الاسترداد.",
+      "en": "Authenticator apps vs SMS, how to enable 2FA, and store recovery codes safely."
+    },
+    "body": {
+      "ar": "## ما هي المصادقة الثنائية؟\n\nالمصادقة الثنائية تضيف طبقة ثانية بعد كلمة المرور: رمز من تطبيق، SMS، أو مفتاح أمان. حتى لو انكشفت كلمة المرور، يبقى الدخول أصعب بكثير.\n\n## أفضل خيار: تطبيق مصادقة\n\n1. ثبّت Google Authenticator أو Authy أو Microsoft Authenticator.\n2. من إعدادات الأمان اختر **تطبيق المصادقة**.\n3. امسح رمز QR واحفظ **رموز الاسترداد** في مكان آمن.\n4. سجّل خروجًا ثم دخولًا للتأكد أن الرمز يعمل.\n\n## SMS مقابل التطبيق\n\n- SMS أسهل لكنه أضعف (تحويل أرقام).\n- التطبيق أقوى ويعمل دون الاعتماد على الشريحة.\n- مفتاح أمان (YubiKey) للحسابات الحساسة جدًا.\n\n## الخلاصة\n\nفعّل 2FA على البريد والبنك والسوشيال. التطبيق أفضل من SMS.",
+      "en": "## What is 2FA?\n\nA second step after the password: authenticator app, SMS, or security key.\n\n## Best option: authenticator app\n\nInstall an app, scan the QR, store recovery codes, verify login.\n\n## SMS vs app\n\nSMS is weaker; apps are stronger and work offline.\n\n## Bottom line\n\nEnable 2FA on email, banking, and social. Prefer app over SMS."
+    },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
-    "author": {"name": {"ar": "فريق رؤى تقنية", "en": "Technical Insights Team"}, "avatar": "https://i.pravatar.cc/150?img=11"},
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
     "date": "2026-07-01",
     "readTime": 5,
     "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": ["2fa", "security"],
+    "tags": [
+      "2fa",
+      "security"
+    ],
     "isFeatured": true,
     "isTrending": true
   },
   {
     "id": "art-real-002",
     "slug": "phishing-spot-before-click",
-    "title": {"ar": "التصيد الاحتيالي: كيف تكتشفه قبل ما تضغط", "en": "Phishing: Spot It Before You Click"},
-    "excerpt": {"ar": "علامات الرسالة المزيفة وماذا تفعل لو ضغطت بالخطأ.", "en": "Signs of fake messages and what to do after a bad click."},
-    "body": {"ar": "## ما هو التصيد؟\n\nمحاولة لإقناعك بإدخال كلمة مرور عبر رسالة تبدو رسمية.\n\n## علامات شائعة\n\nاستعجال، أخطاء إملائية، رابط مزيف، طلب رمز 2FA.\n\n## الخلاصة\n\nتحقق من المرسل والرابط قبل أي ضغط.", "en": "## What is phishing?\n\nMessages that look official but steal credentials.\n\n## Bottom line\n\nCheck sender and URL before clicking."},
+    "title": {
+      "ar": "التصيد الاحتيالي: كيف تكتشفه قبل ما تضغط",
+      "en": "Phishing: Spot It Before You Click"
+    },
+    "excerpt": {
+      "ar": "علامات الرسالة المزيفة، روابط ملغومة، وماذا تفعل لو ضغطت بالخطأ.",
+      "en": "Signs of fake messages, malicious links, and what to do after a bad click."
+    },
+    "body": {
+      "ar": "## ما هو التصيد؟\n\nمحاولة لإقناعك بإدخال كلمة مرور أو فتح ملف خبيث عبر رسالة تبدو رسمية.\n\n## علامات شائعة\n\n- استعجال مبالغ فيه.\n- أخطاء إملائية.\n- رابط يشبه النطاق الحقيقي لكنه مختلف.\n- طلب كلمة مرور أو رمز 2FA داخل الرسالة.\n\n## قبل ما تضغط\n\nعاين الرابط، افتح الموقع من التطبيق الرسمي، ولا ترسل رموز التحقق لأي شخص.\n\n## الخلاصة\n\nالتحقق من المرسل والرابط دقيقة واحدة قد يمنع سرقة حساب كامل.",
+      "en": "## What is phishing?\n\nMessages that look official but steal credentials or deliver malware.\n\n## Common signs\n\nUrgency, typos, lookalike domains, requests for passwords or 2FA codes.\n\n## Bottom line\n\nOne careful check of sender and URL can stop account takeover."
+    },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
-    "author": {"name": {"ar": "فريق رؤى تقنية", "en": "Technical Insights Team"}, "avatar": "https://i.pravatar.cc/150?img=11"},
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
     "date": "2026-07-03",
     "readTime": 4,
     "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": ["phishing", "security"],
+    "tags": [
+      "phishing",
+      "security"
+    ],
     "isFeatured": true,
     "isTrending": false
   },
   {
     "id": "art-real-003",
     "slug": "palo-alto-security-policy-basics",
-    "title": {"ar": "أساسيات Security Policy في Palo Alto", "en": "Palo Alto Security Policy Basics"},
-    "excerpt": {"ar": "ترتيب عملي: Zones وApp-ID وأشهر الأخطاء.", "en": "Practical order: zones, App-ID, common mistakes."},
-    "body": {"ar": "## الترتيب المقترح\n\n1. حدد Zones.\n2. Cleanup deny مع log في الآخر.\n3. قواعد ضيقة Zone + App.\n4. User-ID وSecurity Profiles.\n\n## أشهر الأخطاء\n\nAllow any any، Port بدون App-ID، نسيان Commit.\n\n## الخلاصة\n\nZones → App ضيقة → Profiles → Deny مع Log.", "en": "## Build order\n\nZones, cleanup deny, narrow app rules, User-ID, profiles.\n\n## Bottom line\n\nNarrow policies with logging."},
+    "title": {
+      "ar": "أساسيات Security Policy في Palo Alto — من أين تبدأ؟",
+      "en": "Palo Alto Security Policy Basics — Where to Start"
+    },
+    "excerpt": {
+      "ar": "ترتيب عملي لبناء السياسات: Zones وApp-ID وأشهر الأخطاء.",
+      "en": "Practical order for building policies: zones, App-ID, and common mistakes."
+    },
+    "body": {
+      "ar": "## ليه ترتيب السياسة مهم؟\n\nفي Palo Alto الترتيب وZones وApplication-ID بيحددوا إذا الشبكة سهلة الإدارة.\n\n## الترتيب المقترح\n\n1. حدد Zones (Trust / Untrust / DMZ / VPN).\n2. ضع Cleanup rule في الآخر (Deny any مع log).\n3. ابدأ بأضيق نطاق: Source Zone + Destination Zone + Application.\n4. أضف User-ID لما يكون متاحًا.\n5. اربط Security Profiles على حركة الإنترنت.\n\n## أشهر الأخطاء\n\nAllow any any بدون profiles، الاعتماد على Port فقط، نسيان Commit.\n\n## الخلاصة\n\nZones → قواعد App ضيقة → Users → Profiles → Deny مع Log.",
+      "en": "## Why order matters\n\nZones, rule order, and Application-ID keep Palo Alto manageable.\n\n## Build order\n\nDefine zones, cleanup deny with logs, narrow zone+app rules, User-ID, security profiles.\n\n## Bottom line\n\nZones → narrow apps → users → profiles → logged deny."
+    },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
-    "author": {"name": {"ar": "فريق رؤى تقنية", "en": "Technical Insights Team"}, "avatar": "https://i.pravatar.cc/150?img=11"},
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
     "date": "2026-07-05",
     "readTime": 6,
     "heroImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": ["palo-alto", "ngfw"],
+    "tags": [
+      "palo-alto",
+      "ngfw"
+    ],
     "isFeatured": true,
     "isTrending": true
   },
   {
     "id": "art-real-004",
     "slug": "forcepoint-ssl-vpn-radius",
-    "title": {"ar": "Forcepoint SSL VPN مع RADIUS", "en": "Forcepoint SSL VPN with RADIUS"},
-    "excerpt": {"ar": "ربط SSL VPN بـ RADIUS من SMC وأشهر الأخطاء.", "en": "Bind SSL VPN to RADIUS from SMC and common errors."},
-    "body": {"ar": "## الخطوات\n\n1. أضف RADIUS Server في SMC (IP + Secret + UDP 1812).\n2. Authentication Method → اربطه بالـ VPN.\n3. Policy من النفق للشبكة الداخلية.\n\n## أشهر الأخطاء\n\nSecret غلط، بورت محجوب، Group filter.\n\n## الخلاصة\n\nRADIUS → Method → VPN → Policy → لوجات.", "en": "## Steps\n\nAdd RADIUS in SMC, create method, attach to VPN, narrow policy.\n\n## Bottom line\n\nValidate with logs."},
+    "title": {
+      "ar": "إعداد Forcepoint SSL VPN مع RADIUS — خطوات وأشهر الأخطاء",
+      "en": "Forcepoint SSL VPN with RADIUS — Setup and Common Errors"
+    },
+    "excerpt": {
+      "ar": "دليل عملي لربط Forcepoint NGFW SSL VPN مع RADIUS من SMC.",
+      "en": "Practical guide to connect Forcepoint NGFW SSL VPN with RADIUS from SMC."
+    },
+    "body": {
+      "ar": "## الفكرة\n\nتربط SSL VPN بخادم RADIUS (NPS أو FreeRADIUS) للمصادقة المركزية.\n\n## الخطوات في SMC\n\n1. Servers → RADIUS Authentication Server: IP + Shared Secret + UDP 1812.\n2. أنشئ Authentication Method يشير لـ RADIUS.\n3. اربط الـ Method بـ SSL VPN Portal/Gateway.\n4. راجع Firewall Policy من النفق للشبكة الداخلية.\n\n## أشهر الأخطاء\n\nShared Secret مختلف، المنفذ 1812 محجوب، Group filter يمنع المستخدم.\n\n## الخلاصة\n\nRADIUS → Method → VPN → Policy ضيقة → اختبار باللوجات.",
+      "en": "## Idea\n\nBind SSL VPN to RADIUS for centralized authentication.\n\n## Core steps\n\nAdd RADIUS server, create method, attach to VPN, review tunnel policy.\n\n## Bottom line\n\nRADIUS → Method → VPN → narrow policy → validate with logs."
+    },
     "categoryId": "cybersecurity",
     "subcategoryId": "vpn-remote",
-    "author": {"name": {"ar": "فريق رؤى تقنية", "en": "Technical Insights Team"}, "avatar": "https://i.pravatar.cc/150?img=11"},
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
     "date": "2026-07-07",
     "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1544197150-b99a41cbe1b2?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": ["forcepoint", "radius", "ssl-vpn"],
+    "tags": [
+      "forcepoint",
+      "radius",
+      "ssl-vpn"
+    ],
     "isFeatured": true,
     "isTrending": true
   },
   {
     "id": "art-real-005",
     "slug": "fortigate-ssl-vpn-checklist",
-    "title": {"ar": "FortiGate SSL VPN — checklist", "en": "FortiGate SSL VPN checklist"},
-    "excerpt": {"ar": "User وPortal وPolicy وأشهر أسباب فشل الاتصال.", "en": "User, portal, policy, and common connection failures."},
-    "body": {"ar": "## Checklist\n\n1. User/Group\n2. SSL-VPN Portal\n3. Settings (interface + port)\n4. Policy من tunnel إلى LAN\n5. ربط Group بالـ Portal\n\n## أعطال شائعة\n\nPolicy ناقصة من ssl.root، DNS داخلي بعد الاتصال.\n\n## الخلاصة\n\nUser → Portal → Policy → اختبار خارجي.", "en": "## Checklist\n\nUser/Group, portal, settings, tunnel policy, map group.\n\n## Bottom line\n\nTest from an external network."},
+    "title": {
+      "ar": "إعداد FortiGate SSL VPN بسرعة — checklist عملي",
+      "en": "FortiGate SSL VPN Quick Setup — Practical Checklist"
+    },
+    "excerpt": {
+      "ar": "خطوات مختصرة: portal وpolicy وusers وأشهر أسباب فشل الاتصال.",
+      "en": "Short checklist: portal, policy, users, and common connection failures."
+    },
+    "body": {
+      "ar": "## Checklist\n\n1. User / Group (محلي أو LDAP/RADIUS).\n2. SSL-VPN Portal.\n3. SSL-VPN Settings (Interface + Port + IP range).\n4. Firewall Policy من tunnel إلى LAN.\n5. ربط Group بالـ Portal.\n\n## أعطال شائعة\n\nPolicy ناقصة من ssl.root، Group مش مربوط، DNS داخلي لا يعمل بعد الاتصال.\n\n## الخلاصة\n\nUser → Portal → Settings → Policy → اختبار من شبكة خارجية.",
+      "en": "## Checklist\n\nUser/Group, portal, settings, tunnel-to-LAN policy, map group to portal.\n\n## Common failures\n\nMissing ssl.root policy, unmapped group, broken internal DNS.\n\n## Bottom line\n\nUser → Portal → Settings → Policy → external test."
+    },
     "categoryId": "cybersecurity",
     "subcategoryId": "vpn-remote",
-    "author": {"name": {"ar": "فريق رؤى تقنية", "en": "Technical Insights Team"}, "avatar": "https://i.pravatar.cc/150?img=11"},
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
     "date": "2026-07-11",
     "readTime": 5,
     "heroImage": "https://images.unsplash.com/photo-1551808525-51a94da548ce?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": ["fortinet", "ssl-vpn"],
+    "tags": [
+      "fortinet",
+      "ssl-vpn"
+    ],
     "isFeatured": false,
     "isTrending": true
   },
   {
     "id": "art-real-006",
     "slug": "password-manager-start",
-    "title": {"ar": "مدير كلمات المرور: إزاي تبدأ", "en": "Password Managers: How to Start"},
-    "excerpt": {"ar": "بديل آمن لتكرار كلمة المرور مع خطة نقل تدريجية.", "en": "Safer than password reuse, with a gradual migration plan."},
-    "body": {"ar": "## المشكلة\n\nكلمة مرور واحدة مسربة تفتح حسابات كتير.\n\n## البداية\n\n1. اختر Bitwarden أو 1Password أو Google Password Manager.\n2. غيّر بريد وبنك وسوشيال أولًا.\n3. فعّل 2FA على الـ vault.\n\n## الخلاصة\n\nمدير كلمات المرور أأمن من الحفظ اليدوي.", "en": "## Problem\n\nReuse means one breach opens many accounts.\n\n## Start\n\nPick a manager, migrate critical accounts, enable vault 2FA.\n\n## Bottom line\n\nSafer than memorizing weak variants."},
+    "title": {
+      "ar": "مدير كلمات المرور: ليه تحتاجه وإزاي تبدأ",
+      "en": "Password Managers: Why You Need One and How to Start"
+    },
+    "excerpt": {
+      "ar": "بديل آمن لتكرار نفس كلمة المرور، مع خطة نقل تدريجية.",
+      "en": "A safer alternative to password reuse, with a gradual migration plan."
+    },
+    "body": {
+      "ar": "## المشكلة\n\nإعادة استخدام نفس كلمة المرور تعني أن تسريب موقع واحد قد يفتح باقي حساباتك.\n\n## ماذا يفعل؟\n\nيحفظ كلمات مرور طويلة وفريدة ويملأها تلقائيًا، محمية بكلمة رئيسية + 2FA.\n\n## البداية\n\n1. اختر Bitwarden أو 1Password أو Google Password Manager.\n2. غيّر البريد والبنك والسوشيال أولًا.\n3. فعّل 2FA على مدير كلمات المرور نفسه.\n\n## الخلاصة\n\nمدير كلمات المرور يقلل التوتر ويزيد الأمان.",
+      "en": "## Problem\n\nPassword reuse means one breach can open many accounts.\n\n## Start\n\nPick a manager, migrate critical accounts first, enable vault 2FA.\n\n## Bottom line\n\nSafer and less stressful than memorizing weak variants."
+    },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
-    "author": {"name": {"ar": "فريق رؤى تقنية", "en": "Technical Insights Team"}, "avatar": "https://i.pravatar.cc/150?img=11"},
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
     "date": "2026-07-09",
     "readTime": 4,
     "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": ["passwords", "security"],
+    "tags": [
+      "passwords",
+      "security"
+    ],
     "isFeatured": false,
     "isTrending": true
+  },
+  {
+    "id": "art-gen-0007",
+    "slug": "ad-powershell-daily-tasks",
+    "title": {
+      "ar": "مهام Active Directory اليومية بـ PowerShell",
+      "en": "Daily Active Directory Tasks with PowerShell"
+    },
+    "excerpt": {
+      "ar": "أوامر عملية: إنشاء مستخدم، إضافة لمجموعة، Unlock، وDisable.",
+      "en": "Practical commands: create user, add to group, unlock, disable."
+    },
+    "body": {
+      "ar": "## أوامر يومية\n\n```powershell\nGet-ADUser -Identity \"ahmed.ali\" -Properties DisplayName,Enabled,LastLogonDate\nNew-ADUser -Name \"Ahmed Ali\" -SamAccountName \"ahmed.ali\" -Enabled $true\nAdd-ADGroupMember -Identity \"VPN-Users\" -Members \"ahmed.ali\"\nUnlock-ADAccount -Identity \"ahmed.ali\"\nDisable-ADAccount -Identity \"ahmed.ali\"\n```\n\n## نصائح\n\nثبّت RSAT، اختبر على حساب تجريبي، استخدم -WhatIf مع السكربتات الجماعية.\n\n## الخلاصة\n\nGet / New / Add-ADGroupMember / Unlock / Disable تغطي أغلب الشغل اليومي.",
+      "en": "## Daily commands\n\nGet-ADUser, New-ADUser, Add-ADGroupMember, Unlock-ADAccount, Disable-ADAccount.\n\n## Tips\n\nUse RSAT, test first, use -WhatIf for bulk scripts.\n\n## Bottom line\n\nThese five cmdlets cover most daily AD work."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2024-04-16",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "active-directory",
+      "powershell"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0008",
+    "slug": "home-router-security-basics",
+    "title": {
+      "ar": "تأمين راوتر البيت: خطوات أساسية تفرق",
+      "en": "Home Router Security: Basics That Matter"
+    },
+    "excerpt": {
+      "ar": "تغيير كلمة المرور الافتراضية، تحديث الفرموير، وعزل شبكة الضيوف.",
+      "en": "Change default passwords, update firmware, and isolate guest Wi-Fi."
+    },
+    "body": {
+      "ar": "## خطوات سريعة\n\n1. ادخل لوحة التحكم (غالبًا 192.168.1.1).\n2. غيّر كلمة مرور الأدمن الافتراضية.\n3. حدّث الفرموير.\n4. استخدم كلمة مرور واي فاي قوية.\n5. افصل شبكة الضيوف عن شبكتك الأساسية.\n\n## الخلاصة\n\nتغيير كلمتَي المرور + التحديث يحلان جزءًا كبيرًا من المخاطر.",
+      "en": "## Quick steps\n\nChange default admin password, update firmware, strong Wi-Fi passphrase, separate guest network.\n\n## Bottom line\n\nPassword changes and firmware updates fix a large share of common risks."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2024-08-23",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "router",
+      "wifi",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0009",
+    "slug": "vpn-basics-what-it-does",
+    "title": {
+      "ar": "VPN للمبتدئين: ماذا يفعل وماذا لا يفعل؟",
+      "en": "VPN Basics: What It Does and Doesn't Do"
+    },
+    "excerpt": {
+      "ar": "تشفير الاتصال، تغيير الظاهر من العنوان، وحدود الحماية.",
+      "en": "Encryption, IP appearance, and the limits of protection."
+    },
+    "body": {
+      "ar": "## ماذا يفعل\n\nيشفر الاتصال بين جهازك وخادم الـ VPN ويغيّر مظهر عنوان الشبكة.\n\n## ماذا لا يفعل\n\nمش درع كامل ضد التصيد، مش بديل عن التحديث و2FA.\n\n## الخلاصة\n\nVPN طبقة حماية واحدة — مش سحر.",
+      "en": "## What it does\n\nEncrypts traffic and changes apparent network location.\n\n## What it doesn't\n\nNot full anti-phishing; not a substitute for patching and 2FA.\n\n## Bottom line\n\nOne useful layer, not magic."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "vpn-remote",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2024-12-03",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "vpn",
+      "privacy"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0010",
+    "slug": "windows-disk-cleanup-safe",
+    "title": {
+      "ar": "تنظيف مساحة القرص في Windows بأمان",
+      "en": "Safe Disk Cleanup on Windows"
+    },
+    "excerpt": {
+      "ar": "خطوات بسيطة لتفريغ مساحة من غير ما تمسح ملفات مهمة.",
+      "en": "Simple steps to free space without deleting important files."
+    },
+    "body": {
+      "ar": "## ابدأ بالأدوات الرسمية\n\nStorage Sense ثم Disk Cleanup كمسؤول. راجع Downloads وRecycle Bin.\n\n## آمن يتشال\n\nTemporary files وWindows Update cleanup.\n\n## الخلاصة\n\nالأدوات الرسمية أولًا؛ انقل الوسائط قبل الحذف الكبير.",
+      "en": "## Built-in tools first\n\nStorage Sense and Disk Cleanup as admin.\n\n## Safe to remove\n\nTemp files and update leftovers.\n\n## Bottom line\n\nOfficial cleanup first."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-05-10",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "windows",
+      "disk-cleanup"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0011",
+    "slug": "student-laptop-specs",
+    "title": {
+      "ar": "مواصفات لابتوب للطالب: ماذا يكفي فعلًا؟",
+      "en": "Student Laptop Specs: What Actually Matters?"
+    },
+    "excerpt": {
+      "ar": "RAM والتخزين والشاشة والبطارية بدون مبالغة في السعر.",
+      "en": "RAM, storage, display, and battery without overspending."
+    },
+    "body": {
+      "ar": "## الحد الأدنى المنطقي\n\n16 جيجا RAM، SSD 512 إن أمكن، معالج حديث، شاشة Full HD.\n\n## الخلاصة\n\n16GB RAM + SSD + شاشة واضحة تغطي أغلب الطلاب.",
+      "en": "## Sensible baseline\n\n16GB RAM, 512GB SSD when possible, recent CPU, Full HD.\n\n## Bottom line\n\nRAM + SSD + clear screen beat brand prestige alone."
+    },
+    "categoryId": "laptops",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-09-17",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "laptop",
+      "students"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0012",
+    "slug": "chatgpt-study-without-harm",
+    "title": {
+      "ar": "استخدام ChatGPT في المذاكرة بدون ما يضر فهمك",
+      "en": "Using ChatGPT for Studying Without Hurting Understanding"
+    },
+    "excerpt": {
+      "ar": "كيف تطلب شرحًا وتختبر نفسك بدل نسخ الإجابات.",
+      "en": "How to request explanations and self-tests instead of copied answers."
+    },
+    "body": {
+      "ar": "## استخدام مفيد\n\nاشرح لي كأني مبتدئ، أعطني مثالًا، اطرح أسئلة لاختبار فهمي.\n\n## استخدام ضار\n\nنسخ واجب كامل بدون محاولة.\n\n## الخلاصة\n\nخلّيه مدرّسًا خاصًا، مش بديلًا عن التفكير.",
+      "en": "## Useful uses\n\nExplain like I am new, give examples, quiz me after I try.\n\n## Harmful uses\n\nPasting full assignments with no attempt.\n\n## Bottom line\n\nTutor, not substitute for thinking."
+    },
+    "categoryId": "ai",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-02-24",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "chatgpt",
+      "study",
+      "ai"
+    ],
+    "isFeatured": false,
+    "isTrending": false
   }
 ]
