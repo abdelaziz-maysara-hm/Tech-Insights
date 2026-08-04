@@ -84,6 +84,9 @@ export const COLLECTION_CONTENT = [
       'mfa-fatigue-attacks-explained',
       'duo-security-vs-microsoft-authenticator',
       'least-privilege-principle-practical',
+      'nist-password-guidelines-vs-old-rules',
+      'network-access-control-nac-basics',
+      'cisco-ise-vs-aruba-clearpass',
     ],
   },
   {
@@ -103,6 +106,9 @@ export const COLLECTION_CONTENT = [
       'snmp-monitoring-basics',
       'zabbix-vs-nagios',
       'qualys-vs-nessus',
+      'vulnerability-scanning-vs-penetration-testing',
+      'burp-suite-vs-owasp-zap',
+      'snort-vs-suricata',
     ],
   },
 ];

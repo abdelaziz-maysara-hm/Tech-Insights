@@ -3536,5 +3536,473 @@
       "ar": "AnyDesk أسرع وأرخص لمعظم الاستخدامات اليومية. TeamViewer لسه الخيار الأشمل لمؤسسة كبيرة محتاجة ميزات دعم فني متقدمة ومتكاملة.",
       "en": "AnyDesk is faster and cheaper for most day-to-day use. TeamViewer remains the more comprehensive choice for a large enterprise needing advanced, integrated IT support features."
     }
+  },
+  {
+    "id": "cmp-gen-0046",
+    "slug": "bitlocker-vs-veracrypt",
+    "title": {
+      "ar": "BitLocker ضد VeraCrypt",
+      "en": "BitLocker vs VeraCrypt"
+    },
+    "excerpt": {
+      "ar": "BitLocker أنسب بيئة شركة معتمدة على Windows/AD محتاجة إدارة مركزية سهلة. VeraCrypt أفضل لمستخدم فردي أو بيئة متعددة الأن",
+      "en": "BitLocker fits a Windows/AD-based company environment needing easy central management. VeraCrypt is better for an individual user or cross-p"
+    },
+    "device1Name": "BitLocker",
+    "device2Name": "VeraCrypt",
+    "device1Image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2025-12-19",
+    "categoryId": "comparisons",
+    "subcategoryId": "endpoint",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التكامل مع Windows وActive Directory",
+          "en": "Windows & AD integration"
+        },
+        "device1Value": {
+          "ar": "مدمج بالكامل، تحكم مركزي عبر GPO وAD",
+          "en": "Fully built-in, central control via GPO and AD"
+        },
+        "device2Value": {
+          "ar": "مفتوح المصدر، لا تكامل مؤسسي مباشر",
+          "en": "Open-source, no direct enterprise integration"
+        },
+        "device1Score": 9,
+        "device2Score": 4,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "دعم أنظمة تشغيل متعددة",
+          "en": "Cross-platform support"
+        },
+        "device1Value": {
+          "ar": "Windows فقط",
+          "en": "Windows only"
+        },
+        "device2Value": {
+          "ar": "يدعم Windows وmacOS وLinux",
+          "en": "Supports Windows, macOS, and Linux"
+        },
+        "device1Score": 3,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "الشفافية والتدقيق المستقل",
+          "en": "Transparency & independent audit"
+        },
+        "device1Value": {
+          "ar": "مغلق المصدر",
+          "en": "Closed source"
+        },
+        "device2Value": {
+          "ar": "مفتوح المصدر بالكامل، خضع لتدقيق مستقل",
+          "en": "Fully open-source, has undergone independent audits"
+        },
+        "device1Score": 4,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "BitLocker أنسب بيئة شركة معتمدة على Windows/AD محتاجة إدارة مركزية سهلة. VeraCrypt أفضل لمستخدم فردي أو بيئة متعددة الأنظمة محتاجة شفافية كاملة.",
+      "en": "BitLocker fits a Windows/AD-based company environment needing easy central management. VeraCrypt is better for an individual user or cross-platform environment needing full transparency."
+    }
+  },
+  {
+    "id": "cmp-gen-0047",
+    "slug": "burp-suite-vs-owasp-zap",
+    "title": {
+      "ar": "Burp Suite ضد OWASP ZAP",
+      "en": "Burp Suite vs OWASP ZAP"
+    },
+    "excerpt": {
+      "ar": "Burp Suite Professional الخيار الأقوى لمختبر اختراق محترف بميزانية. OWASP ZAP بديل ممتاز ومجاني بالكامل، خصوصًا للمبتدئي",
+      "en": "Burp Suite Professional is the stronger choice for a professional pentester with budget. OWASP ZAP is an excellent, fully free alternative,"
+    },
+    "device1Name": "Burp Suite",
+    "device2Name": "OWASP ZAP",
+    "device1Image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-01-26",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التكلفة",
+          "en": "Cost"
+        },
+        "device1Value": {
+          "ar": "النسخة الكاملة مدفوعة (Professional)",
+          "en": "The full Professional version is paid"
+        },
+        "device2Value": {
+          "ar": "مجاني ومفتوح المصدر بالكامل",
+          "en": "Fully free and open-source"
+        },
+        "device1Score": 5,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec2": {
+        "label": {
+          "ar": "عمق الميزات المتقدمة",
+          "en": "Advanced feature depth"
+        },
+        "device1Value": {
+          "ar": "من الأعمق والأكثر احترافية في اختبار تطبيقات الويب",
+          "en": "Among the deepest and most professional for web app testing"
+        },
+        "device2Value": {
+          "ar": "قوي جدًا كأداة مجانية، أقل عمقًا من النسخة المدفوعة",
+          "en": "Very strong as a free tool, less deep than the paid alternative"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "سهولة البداية للمبتدئين",
+          "en": "Ease of start for beginners"
+        },
+        "device1Value": {
+          "ar": "منحنى تعلم أعلى قليلًا",
+          "en": "Slightly steeper learning curve"
+        },
+        "device2Value": {
+          "ar": "واجهة أبسط، مناسب جدًا للبداية",
+          "en": "Simpler interface, well-suited for getting started"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Burp Suite Professional الخيار الأقوى لمختبر اختراق محترف بميزانية. OWASP ZAP بديل ممتاز ومجاني بالكامل، خصوصًا للمبتدئين أو المشاريع مفتوحة المصدر.",
+      "en": "Burp Suite Professional is the stronger choice for a professional pentester with budget. OWASP ZAP is an excellent, fully free alternative, especially for beginners or open-source projects."
+    }
+  },
+  {
+    "id": "cmp-gen-0048",
+    "slug": "snort-vs-suricata",
+    "title": {
+      "ar": "Snort ضد Suricata",
+      "en": "Snort vs Suricata"
+    },
+    "excerpt": {
+      "ar": "Snort لسه خيار قوي بمجتمع ضخم وموارد تعلم أكتر. Suricata أفضل لبيئة محتاجة أداء أعلى على أجهزة متعددة النوى الحديثة.",
+      "en": "Snort remains strong with a huge community and more learning resources. Suricata is better for an environment needing higher performance on"
+    },
+    "device1Name": "Snort",
+    "device2Name": "Suricata",
+    "device1Image": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-02-06",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "الأداء متعدد المعالجات",
+          "en": "Multi-threaded performance"
+        },
+        "device1Value": {
+          "ar": "تاريخيًا معالجة أحادية الخيط بشكل أساسي",
+          "en": "Historically primarily single-threaded processing"
+        },
+        "device2Value": {
+          "ar": "مبني من الأساس ليدعم معالجة متعددة الخيوط",
+          "en": "Built from the ground up for multi-threaded processing"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec2": {
+        "label": {
+          "ar": "النضج والانتشار التاريخي",
+          "en": "Historical maturity & adoption"
+        },
+        "device1Value": {
+          "ar": "الأقدم والأكثر انتشارًا تاريخيًا، مجتمع ضخم",
+          "en": "The oldest and most widely adopted historically, huge community"
+        },
+        "device2Value": {
+          "ar": "أحدث نسبيًا لكن ينمو بسرعة كبيرة",
+          "en": "Relatively newer but growing very fast"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "دعم فك تشفير البروتوكولات الحديثة",
+          "en": "Modern protocol decoding support"
+        },
+        "device1Value": {
+          "ar": "جيد، يحتاج إضافات أحيانًا",
+          "en": "Good, sometimes needs add-ons"
+        },
+        "device2Value": {
+          "ar": "دعم أعمق ومدمج لبروتوكولات وتطبيقات أحدث",
+          "en": "Deeper, built-in support for newer protocols and applications"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Snort لسه خيار قوي بمجتمع ضخم وموارد تعلم أكتر. Suricata أفضل لبيئة محتاجة أداء أعلى على أجهزة متعددة النوى الحديثة.",
+      "en": "Snort remains strong with a huge community and more learning resources. Suricata is better for an environment needing higher performance on modern multi-core hardware."
+    }
+  },
+  {
+    "id": "cmp-gen-0049",
+    "slug": "gitlab-vs-github",
+    "title": {
+      "ar": "GitLab ضد GitHub",
+      "en": "GitLab vs GitHub"
+    },
+    "excerpt": {
+      "ar": "GitLab أقوى لو محتاج استضافة ذاتية كاملة أو DevOps متكامل من نفس المنصة. GitHub أفضل للانخراط مع أكبر مجتمع مفتوح المصدر",
+      "en": "GitLab is stronger if you need full self-hosting or integrated DevOps from one platform. GitHub is better for engaging with the world's larg"
+    },
+    "device1Name": "GitLab",
+    "device2Name": "GitHub",
+    "device1Image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-03-13",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "الاستضافة الذاتية (Self-hosted)",
+          "en": "Self-hosting"
+        },
+        "device1Value": {
+          "ar": "دعم قوي وناضج جدًا للاستضافة الذاتية المجانية",
+          "en": "Strong, very mature free self-hosting support"
+        },
+        "device2Value": {
+          "ar": "الاستضافة الذاتية محدودة أكتر ومكلفة (GitHub Enterprise)",
+          "en": "Self-hosting is more limited and costly (GitHub Enterprise)"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "أدوات CI/CD المدمجة",
+          "en": "Built-in CI/CD tooling"
+        },
+        "device1Value": {
+          "ar": "مدمجة بعمق وناضجة جدًا من سنين طويلة",
+          "en": "Deeply integrated and very mature for many years"
+        },
+        "device2Value": {
+          "ar": "GitHub Actions قوية وسهلة، أحدث نسبيًا",
+          "en": "GitHub Actions is strong and easy, relatively newer"
+        },
+        "device1Score": 9,
+        "device2Score": 8,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "حجم المجتمع ومشاريع مفتوحة المصدر",
+          "en": "Community size & open-source projects"
+        },
+        "device1Value": {
+          "ar": "مجتمع كبير لكن أصغر من GitHub",
+          "en": "Large community but smaller than GitHub"
+        },
+        "device2Value": {
+          "ar": "الأكبر بلا منازع لاستضافة المشاريع مفتوحة المصدر",
+          "en": "By far the largest for hosting open-source projects"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "GitLab أقوى لو محتاج استضافة ذاتية كاملة أو DevOps متكامل من نفس المنصة. GitHub أفضل للانخراط مع أكبر مجتمع مفتوح المصدر في العالم.",
+      "en": "GitLab is stronger if you need full self-hosting or integrated DevOps from one platform. GitHub is better for engaging with the world's largest open-source community."
+    }
+  },
+  {
+    "id": "cmp-gen-0050",
+    "slug": "docker-vs-podman",
+    "title": {
+      "ar": "Docker ضد Podman",
+      "en": "Docker vs Podman"
+    },
+    "excerpt": {
+      "ar": "Docker لسه الخيار الأوسع انتشارًا والأنضج توثيقًا. Podman بديل قوي جدًا لو الأمان الافتراضي (بدون root) وتقليل الاعتماد",
+      "en": "Docker remains the most widespread and best-documented choice. Podman is a very strong alternative if default security (rootless) and reduci"
+    },
+    "device1Name": "Docker",
+    "device2Name": "Podman",
+    "device1Image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-04-20",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "الحاجة لخدمة Daemon مستمرة",
+          "en": "Need for a persistent daemon"
+        },
+        "device1Value": {
+          "ar": "يحتاج خدمة Daemon شغالة دايمًا بصلاحيات root غالبًا",
+          "en": "Requires an always-running daemon, often with root privileges"
+        },
+        "device2Value": {
+          "ar": "بدون Daemon، تشغيل بدون صلاحيات root ممكن",
+          "en": "Daemonless, rootless operation is possible"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec2": {
+        "label": {
+          "ar": "النضج وسهولة الاستخدام",
+          "en": "Maturity & ease of use"
+        },
+        "device1Value": {
+          "ar": "الأكثر انتشارًا ونضجًا تاريخيًا، توثيق أوسع",
+          "en": "The most widespread and historically mature, wider documentation"
+        },
+        "device2Value": {
+          "ar": "أحدث نسبيًا، توافق أوامر مشابه لـDocker يسهّل الانتقال",
+          "en": "Relatively newer, Docker-compatible commands ease the transition"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "الأمان الافتراضي",
+          "en": "Default security posture"
+        },
+        "device1Value": {
+          "ar": "يحتاج إعداد إضافي للتشغيل الآمن بدون root",
+          "en": "Needs extra configuration for secure rootless operation"
+        },
+        "device2Value": {
+          "ar": "مصمم من الأساس ليكون أكثر أمانًا افتراضيًا",
+          "en": "Designed from the ground up to be more secure by default"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Docker لسه الخيار الأوسع انتشارًا والأنضج توثيقًا. Podman بديل قوي جدًا لو الأمان الافتراضي (بدون root) وتقليل الاعتماد على Daemon أولوية عندك.",
+      "en": "Docker remains the most widespread and best-documented choice. Podman is a very strong alternative if default security (rootless) and reducing daemon dependency matter to you."
+    }
+  },
+  {
+    "id": "cmp-gen-0051",
+    "slug": "cisco-ise-vs-aruba-clearpass",
+    "title": {
+      "ar": "Cisco ISE ضد Aruba ClearPass",
+      "en": "Cisco ISE vs Aruba ClearPass"
+    },
+    "excerpt": {
+      "ar": "Cisco ISE منطقي جدًا لو شبكتك بالكامل من Cisco أصلًا. Aruba ClearPass أنسب لبيئة متعددة المزوّدين محتاجة مرونة NAC أعلى.",
+      "en": "Cisco ISE makes strong sense if your network is entirely Cisco already. Aruba ClearPass fits better in a multi-vendor environment needing mo"
+    },
+    "device1Name": "Cisco ISE",
+    "device2Name": "Aruba ClearPass",
+    "device1Image": "https://cdn.simpleicons.org/cisco/1BA0D7",
+    "device2Image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-05-27",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://cdn.simpleicons.org/cisco/1BA0D7",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التكامل مع بنية Cisco القائمة",
+          "en": "Integration with existing Cisco infrastructure"
+        },
+        "device1Value": {
+          "ar": "سلس جدًا لو شبكتك مبنية على Cisco أصلًا",
+          "en": "Very smooth if your network is already Cisco-based"
+        },
+        "device2Value": {
+          "ar": "يعمل مع بنية متعددة المزوّدين بمرونة أعلى",
+          "en": "Works flexibly across multi-vendor infrastructure"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "سهولة الإعداد الأولي",
+          "en": "Initial setup ease"
+        },
+        "device1Value": {
+          "ar": "أعقد نسبيًا، يحتاج خبرة أعمق",
+          "en": "Relatively more complex, needs deeper expertise"
+        },
+        "device2Value": {
+          "ar": "واجهة أوضح وأسهل بداية غالبًا",
+          "en": "Generally clearer interface and easier to start with"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "المرونة عبر بيئات متعددة المزوّدين",
+          "en": "Flexibility across multi-vendor environments"
+        },
+        "device1Value": {
+          "ar": "أقوى داخل منظومة Cisco تحديدًا",
+          "en": "Strongest specifically within the Cisco ecosystem"
+        },
+        "device2Value": {
+          "ar": "مصمم من الأساس ليكون محايدًا للمزوّدين",
+          "en": "Built from the ground up to be vendor-neutral"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Cisco ISE منطقي جدًا لو شبكتك بالكامل من Cisco أصلًا. Aruba ClearPass أنسب لبيئة متعددة المزوّدين محتاجة مرونة NAC أعلى.",
+      "en": "Cisco ISE makes strong sense if your network is entirely Cisco already. Aruba ClearPass fits better in a multi-vendor environment needing more NAC flexibility."
+    }
   }
 ]

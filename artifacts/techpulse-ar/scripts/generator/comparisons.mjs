@@ -481,6 +481,66 @@ export const COMPARISON_CONTENT = [
     verdictAr: 'AnyDesk أسرع وأرخص لمعظم الاستخدامات اليومية. TeamViewer لسه الخيار الأشمل لمؤسسة كبيرة محتاجة ميزات دعم فني متقدمة ومتكاملة.',
     verdictEn: 'AnyDesk is faster and cheaper for most day-to-day use. TeamViewer remains the more comprehensive choice for a large enterprise needing advanced, integrated IT support features.',
   },
+  {
+    d1: 'BitLocker', d2: 'VeraCrypt', sub: 'endpoint', img1: 'windows', img2: 'security',
+    specs: [
+      spec('التكامل مع Windows وActive Directory', 'Windows & AD integration', 'مدمج بالكامل، تحكم مركزي عبر GPO وAD', 'Fully built-in, central control via GPO and AD', 'مفتوح المصدر، لا تكامل مؤسسي مباشر', 'Open-source, no direct enterprise integration', 9, 4),
+      spec('دعم أنظمة تشغيل متعددة', 'Cross-platform support', 'Windows فقط', 'Windows only', 'يدعم Windows وmacOS وLinux', 'Supports Windows, macOS, and Linux', 3, 9),
+      spec('الشفافية والتدقيق المستقل', 'Transparency & independent audit', 'مغلق المصدر', 'Closed source', 'مفتوح المصدر بالكامل، خضع لتدقيق مستقل', 'Fully open-source, has undergone independent audits', 4, 9),
+    ],
+    verdictAr: 'BitLocker أنسب بيئة شركة معتمدة على Windows/AD محتاجة إدارة مركزية سهلة. VeraCrypt أفضل لمستخدم فردي أو بيئة متعددة الأنظمة محتاجة شفافية كاملة.',
+    verdictEn: 'BitLocker fits a Windows/AD-based company environment needing easy central management. VeraCrypt is better for an individual user or cross-platform environment needing full transparency.',
+  },
+  {
+    d1: 'Burp Suite', d2: 'OWASP ZAP', sub: 'network-security', img1: 'security', img2: 'code',
+    specs: [
+      spec('التكلفة', 'Cost', 'النسخة الكاملة مدفوعة (Professional)', 'The full Professional version is paid', 'مجاني ومفتوح المصدر بالكامل', 'Fully free and open-source', 5, 9),
+      spec('عمق الميزات المتقدمة', 'Advanced feature depth', 'من الأعمق والأكثر احترافية في اختبار تطبيقات الويب', 'Among the deepest and most professional for web app testing', 'قوي جدًا كأداة مجانية، أقل عمقًا من النسخة المدفوعة', 'Very strong as a free tool, less deep than the paid alternative', 9, 7),
+      spec('سهولة البداية للمبتدئين', 'Ease of start for beginners', 'منحنى تعلم أعلى قليلًا', 'Slightly steeper learning curve', 'واجهة أبسط، مناسب جدًا للبداية', 'Simpler interface, well-suited for getting started', 6, 8),
+    ],
+    verdictAr: 'Burp Suite Professional الخيار الأقوى لمختبر اختراق محترف بميزانية. OWASP ZAP بديل ممتاز ومجاني بالكامل، خصوصًا للمبتدئين أو المشاريع مفتوحة المصدر.',
+    verdictEn: 'Burp Suite Professional is the stronger choice for a professional pentester with budget. OWASP ZAP is an excellent, fully free alternative, especially for beginners or open-source projects.',
+  },
+  {
+    d1: 'Snort', d2: 'Suricata', sub: 'network-security', img1: 'shield', img2: 'network',
+    specs: [
+      spec('الأداء متعدد المعالجات', 'Multi-threaded performance', 'تاريخيًا معالجة أحادية الخيط بشكل أساسي', 'Historically primarily single-threaded processing', 'مبني من الأساس ليدعم معالجة متعددة الخيوط', 'Built from the ground up for multi-threaded processing', 6, 9),
+      spec('النضج والانتشار التاريخي', 'Historical maturity & adoption', 'الأقدم والأكثر انتشارًا تاريخيًا، مجتمع ضخم', 'The oldest and most widely adopted historically, huge community', 'أحدث نسبيًا لكن ينمو بسرعة كبيرة', 'Relatively newer but growing very fast', 9, 7),
+      spec('دعم فك تشفير البروتوكولات الحديثة', 'Modern protocol decoding support', 'جيد، يحتاج إضافات أحيانًا', 'Good, sometimes needs add-ons', 'دعم أعمق ومدمج لبروتوكولات وتطبيقات أحدث', 'Deeper, built-in support for newer protocols and applications', 6, 8),
+    ],
+    verdictAr: 'Snort لسه خيار قوي بمجتمع ضخم وموارد تعلم أكتر. Suricata أفضل لبيئة محتاجة أداء أعلى على أجهزة متعددة النوى الحديثة.',
+    verdictEn: 'Snort remains strong with a huge community and more learning resources. Suricata is better for an environment needing higher performance on modern multi-core hardware.',
+  },
+  {
+    d1: 'GitLab', d2: 'GitHub', sub: 'software-services', img1: 'code', img2: 'code2',
+    specs: [
+      spec('الاستضافة الذاتية (Self-hosted)', 'Self-hosting', 'دعم قوي وناضج جدًا للاستضافة الذاتية المجانية', 'Strong, very mature free self-hosting support', 'الاستضافة الذاتية محدودة أكتر ومكلفة (GitHub Enterprise)', 'Self-hosting is more limited and costly (GitHub Enterprise)', 9, 5),
+      spec('أدوات CI/CD المدمجة', 'Built-in CI/CD tooling', 'مدمجة بعمق وناضجة جدًا من سنين طويلة', 'Deeply integrated and very mature for many years', 'GitHub Actions قوية وسهلة، أحدث نسبيًا', 'GitHub Actions is strong and easy, relatively newer', 9, 8),
+      spec('حجم المجتمع ومشاريع مفتوحة المصدر', 'Community size & open-source projects', 'مجتمع كبير لكن أصغر من GitHub', 'Large community but smaller than GitHub', 'الأكبر بلا منازع لاستضافة المشاريع مفتوحة المصدر', 'By far the largest for hosting open-source projects', 6, 9),
+    ],
+    verdictAr: 'GitLab أقوى لو محتاج استضافة ذاتية كاملة أو DevOps متكامل من نفس المنصة. GitHub أفضل للانخراط مع أكبر مجتمع مفتوح المصدر في العالم.',
+    verdictEn: 'GitLab is stronger if you need full self-hosting or integrated DevOps from one platform. GitHub is better for engaging with the world\'s largest open-source community.',
+  },
+  {
+    d1: 'Docker', d2: 'Podman', sub: 'software-services', img1: 'server', img2: 'cpu',
+    specs: [
+      spec('الحاجة لخدمة Daemon مستمرة', 'Need for a persistent daemon', 'يحتاج خدمة Daemon شغالة دايمًا بصلاحيات root غالبًا', 'Requires an always-running daemon, often with root privileges', 'بدون Daemon، تشغيل بدون صلاحيات root ممكن', 'Daemonless, rootless operation is possible', 6, 9),
+      spec('النضج وسهولة الاستخدام', 'Maturity & ease of use', 'الأكثر انتشارًا ونضجًا تاريخيًا، توثيق أوسع', 'The most widespread and historically mature, wider documentation', 'أحدث نسبيًا، توافق أوامر مشابه لـDocker يسهّل الانتقال', 'Relatively newer, Docker-compatible commands ease the transition', 9, 7),
+      spec('الأمان الافتراضي', 'Default security posture', 'يحتاج إعداد إضافي للتشغيل الآمن بدون root', 'Needs extra configuration for secure rootless operation', 'مصمم من الأساس ليكون أكثر أمانًا افتراضيًا', 'Designed from the ground up to be more secure by default', 6, 9),
+    ],
+    verdictAr: 'Docker لسه الخيار الأوسع انتشارًا والأنضج توثيقًا. Podman بديل قوي جدًا لو الأمان الافتراضي (بدون root) وتقليل الاعتماد على Daemon أولوية عندك.',
+    verdictEn: 'Docker remains the most widespread and best-documented choice. Podman is a very strong alternative if default security (rootless) and reducing daemon dependency matter to you.',
+  },
+  {
+    d1: 'Cisco ISE', d2: 'Aruba ClearPass', sub: 'network-security', img1: 'network', img2: 'identity',
+    specs: [
+      spec('التكامل مع بنية Cisco القائمة', 'Integration with existing Cisco infrastructure', 'سلس جدًا لو شبكتك مبنية على Cisco أصلًا', 'Very smooth if your network is already Cisco-based', 'يعمل مع بنية متعددة المزوّدين بمرونة أعلى', 'Works flexibly across multi-vendor infrastructure', 9, 7),
+      spec('سهولة الإعداد الأولي', 'Initial setup ease', 'أعقد نسبيًا، يحتاج خبرة أعمق', 'Relatively more complex, needs deeper expertise', 'واجهة أوضح وأسهل بداية غالبًا', 'Generally clearer interface and easier to start with', 6, 8),
+      spec('المرونة عبر بيئات متعددة المزوّدين', 'Flexibility across multi-vendor environments', 'أقوى داخل منظومة Cisco تحديدًا', 'Strongest specifically within the Cisco ecosystem', 'مصمم من الأساس ليكون محايدًا للمزوّدين', 'Built from the ground up to be vendor-neutral', 6, 9),
+    ],
+    verdictAr: 'Cisco ISE منطقي جدًا لو شبكتك بالكامل من Cisco أصلًا. Aruba ClearPass أنسب لبيئة متعددة المزوّدين محتاجة مرونة NAC أعلى.',
+    verdictEn: 'Cisco ISE makes strong sense if your network is entirely Cisco already. Aruba ClearPass fits better in a multi-vendor environment needing more NAC flexibility.',
+  },
 ];
 
 export function generateComparisons({ count = COMPARISON_CONTENT.length, subcategory, startIndex = 0 } = {}) {

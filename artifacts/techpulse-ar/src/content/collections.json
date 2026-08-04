@@ -140,8 +140,8 @@
       "en": "Best Identity & Access Management (IAM) Tools"
     },
     "description": {
-      "ar": "قائمة منسّقة تضم 8 مصادر حقيقية عن أفضل أدوات إدارة الهوية والوصول.",
-      "en": "A curated list of 8 real resources on best identity & access management (iam) tools."
+      "ar": "قائمة منسّقة تضم 11 مصادر حقيقية عن أفضل أدوات إدارة الهوية والوصول.",
+      "en": "A curated list of 11 real resources on best identity & access management (iam) tools."
     },
     "categoryId": "cybersecurity",
     "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
@@ -154,7 +154,10 @@
       "group-policy-vs-microsoft-intune",
       "mfa-fatigue-attacks-explained",
       "duo-security-vs-microsoft-authenticator",
-      "least-privilege-principle-practical"
+      "least-privilege-principle-practical",
+      "nist-password-guidelines-vs-old-rules",
+      "network-access-control-nac-basics",
+      "cisco-ise-vs-aruba-clearpass"
     ],
     "isFeatured": false
   },
@@ -186,8 +189,8 @@
       "en": "Best SIEM & Security Monitoring Tools"
     },
     "description": {
-      "ar": "قائمة منسّقة تضم 8 مصادر حقيقية عن أفضل أدوات مراقبة الأمن (SIEM).",
-      "en": "A curated list of 8 real resources on best siem & security monitoring tools."
+      "ar": "قائمة منسّقة تضم 11 مصادر حقيقية عن أفضل أدوات مراقبة الأمن (SIEM).",
+      "en": "A curated list of 11 real resources on best siem & security monitoring tools."
     },
     "categoryId": "cybersecurity",
     "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
@@ -200,7 +203,10 @@
       "windows-event-viewer-security-logs",
       "snmp-monitoring-basics",
       "zabbix-vs-nagios",
-      "qualys-vs-nessus"
+      "qualys-vs-nessus",
+      "vulnerability-scanning-vs-penetration-testing",
+      "burp-suite-vs-owasp-zap",
+      "snort-vs-suricata"
     ],
     "isFeatured": false
   }
