@@ -209,3 +209,26 @@ Kaspersky vs Bitdefender (endpoint)، Windows RDS vs Citrix، Group Policy vs In
 **من دلوقتي فصاعدًا:** أي إضافة محتوى هتستخدم `node scripts/generator/index.mjs --type=X --append --apply` بدل الكتابة المباشرة، عشان الدمج يبقى مضمون دايمًا بغض النظر عن أي حاجة تانية ضافت محتوى.
 
 أضفنا `artifacts/techpulse-ar/content/generated/` لـ`.gitignore` (مجلد staging مؤقت بيتولّد من الأداة دي، مش المفروض يتحفظ في git).
+
+---
+
+## تنفيذ التوصية: إزالة لوحة التحكم بالكامل — الموقع static 100% الآن
+
+بعد التوضيح الكامل لصاحب المشروع (ثغرتين أمان + نسخة الكود المكررة اللي بتنحرف بصمت + خطر التعارض مع المولّد)، تم الاتفاق على إزالة اللوحة بالكامل.
+
+**اتشال:**
+- `src/pages/Admin.tsx`, `src/pages/adminTabs.tsx`, `src/lib/adminApi.ts`, `src/components/admin/`
+- `server/admin/` بالكامل (cookies, github, router, store, token, validate)
+- `api/cms/` بالكامل (الدالة الفعلية اللي كانت شغالة على Vercel)
+
+**اتصلّح تبعًا لكده (عشان الموقع يفضل شغال بدون أي كسر):**
+- `src/App.tsx`: حذف route `/admin` واستيراد `Admin`
+- `src/components/layout/Footer.tsx`: حذف رابط اللوحة من الفوتر
+- `src/hooks/useAllArticles.ts`: كان بيحاول يجيب المقالات من `/api/cms/public/articles` أولًا (مع fallback للملف الثابت) — بقى يعتمد على الملف الثابت مباشرة بس، مطابق تمامًا لقرار "static بالكامل"
+- `server/render-server.ts`: حذف كل منطق التعامل مع `/cms/api/*` (لسيرفرات زي Render اللي مش Vercel)
+- `vercel.json`: حذف قاعدة إعادة التوجيه لـ`/api/cms/*`
+- `package.json`: حذف تبعية `@vercel/node` (كانت مستخدمة بس لدالة اللوحة)
+
+**تحقق:** فحص شامل (`grep`) للتأكد من عدم وجود أي إشارة متبقية لـ`api/cms` أو `/admin` أو `adminApi` في أي مكان بالكود — صفر نتائج. فحص TypeScript معزول على الملفات المعدَّلة الرئيسية أكّد عدم وجود أخطاء تركيبية حقيقية (الأخطاء الوحيدة الظاهرة كانت بسبب عدم توفر إعداد الـpath-aliases في الاختبار المعزول، مش أخطاء منطقية).
+
+**الموقع دلوقتي مصدر حقيقة واحد بس:** `scripts/generator/*.mjs` (بوضع `--append --apply`) → `src/content/*.json` → مبني ومنشور. مفيش أي مسار كتابة تاني، فمفيش أي احتمال تعارض أو انحراف بين نسختين من نفس المنطق تاني.
