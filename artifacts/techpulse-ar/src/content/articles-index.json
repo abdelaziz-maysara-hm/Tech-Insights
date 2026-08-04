@@ -1949,5 +1949,191 @@
     ],
     "isFeatured": false,
     "isTrending": false
+  },
+  {
+    "id": "art-gen-0064",
+    "slug": "sql-injection-basics-explained",
+    "title": {
+      "ar": "حقن SQL: ليه سطر كود واحد ضعيف يقدر يسرّب قاعدة بيانات كاملة",
+      "en": "SQL Injection: How One Weak Line of Code Can Leak an Entire Database"
+    },
+    "excerpt": {
+      "ar": "شرح مبسط لثغرة قديمة لسه شائعة جدًا، وإزاي تتجنبها من الأساس.",
+      "en": "A simplified explanation of an old vulnerability that's still very common, and how to avoid it from the ground up."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-02-10",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "sql-injection",
+      "web-security",
+      "owasp"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0065",
+    "slug": "windows-task-scheduler-automation",
+    "title": {
+      "ar": "أتمتة المهام بـ Task Scheduler: أكتر من مجرد تذكيرات",
+      "en": "Task Automation with Task Scheduler: More Than Just Reminders"
+    },
+    "excerpt": {
+      "ar": "إزاي تستخدم أداة مدمجة في Windows لأتمتة مهام إدارية متكررة بدون سكريبتات معقدة.",
+      "en": "How to use a built-in Windows tool to automate repetitive admin tasks without complex scripting."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-17",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "task-scheduler",
+      "automation",
+      "windows"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0066",
+    "slug": "insider-threat-detection-basics",
+    "title": {
+      "ar": "التهديد الداخلي (Insider Threat): مش كل خطر بييجي من برة",
+      "en": "Insider Threats: Not Every Risk Comes from Outside"
+    },
+    "excerpt": {
+      "ar": "موظف حالي أو سابق يقدر يسبب ضرر حقيقي، سواء بقصد أو بغير قصد.",
+      "en": "A current or former employee can cause real damage, whether intentionally or not."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-24",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "insider-threat",
+      "risk-management",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0067",
+    "slug": "sd-wan-basics-explained",
+    "title": {
+      "ar": "SD-WAN بدون تعقيد: إيه اللي بيحله فعليًا",
+      "en": "SD-WAN Without the Jargon: What It Actually Solves"
+    },
+    "excerpt": {
+      "ar": "لو عندك أكتر من فرع، الطريقة التقليدية لربطهم مكلفة وغير مرنة — SD-WAN بديل عملي.",
+      "en": "If you have multiple branches, the traditional way of connecting them is costly and inflexible -- SD-WAN is a practical alternative."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-04",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "sd-wan",
+      "networking",
+      "branch-connectivity"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0068",
+    "slug": "secure-remote-work-checklist",
+    "title": {
+      "ar": "قائمة تحقق للعمل عن بُعد الآمن: 8 نقاط أساسية",
+      "en": "A Secure Remote Work Checklist: 8 Essential Points"
+    },
+    "excerpt": {
+      "ar": "قائمة عملية مختصرة تقدر تراجعها مع أي موظف عن بُعد جديد.",
+      "en": "A short, practical list you can review with any new remote employee."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-11",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "remote-work",
+      "security-checklist",
+      "vpn"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0069",
+    "slug": "windows-local-admin-password-rotation",
+    "title": {
+      "ar": "تدوير كلمة مرور المدير المحلي (LAPS): ليه مهم جدًا",
+      "en": "Local Admin Password Rotation (LAPS): Why It Matters a Lot"
+    },
+    "excerpt": {
+      "ar": "لو كل الأجهزة بنفس كلمة مرور Administrator المحلية، اختراق جهاز واحد يعني اختراق الكل.",
+      "en": "If every device shares the same local Administrator password, breaching one means breaching them all."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-18",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "laps",
+      "active-directory",
+      "windows-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
   }
 ]

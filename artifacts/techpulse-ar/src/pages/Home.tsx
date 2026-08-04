@@ -21,6 +21,15 @@ export default function Home() {
 
   return (
     <div className="min-h-screen pb-20">
+      <section className="container mx-auto px-4 pt-10 pb-8 text-center">
+        <h1 className="text-3xl md:text-5xl font-extrabold mb-4">
+          {language === 'ar' ? 'رؤى تقنية' : 'Technical Insights'}
+        </h1>
+        <p className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto">
+          {t('aboutText')}
+        </p>
+      </section>
+
       <section className="container mx-auto px-4 pt-6 pb-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
           <div className="lg:col-span-8">

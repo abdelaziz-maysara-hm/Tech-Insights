@@ -4938,5 +4938,473 @@
       "ar": "WSUS منطقي جدًا لبيئة صغيرة كل الأجهزة فيها داخل الشبكة المحلية دايمًا. Intune ضروري فعليًا لو عندك أجهزة بعيدة أو خليط من أنواع الأجهزة والمنصات.",
       "en": "WSUS makes strong sense for a small environment where all devices are always on the local network. Intune is genuinely necessary if you have remote devices or a mix of device types and platforms."
     }
+  },
+  {
+    "id": "cmp-gen-0064",
+    "slug": "microsoft-laps-vs-manual-password-management",
+    "title": {
+      "ar": "Microsoft LAPS ضد Manual Password Management",
+      "en": "Microsoft LAPS vs Manual Password Management"
+    },
+    "excerpt": {
+      "ar": "LAPS الخيار الوحيد المنطقي فعليًا لأي بيئة فيها أكتر من عدد قليل جدًا من الأجهزة — الإدارة اليدوية غير عملية وغير آمنة ع",
+      "en": "LAPS is really the only sensible choice for any environment with more than a handful of devices -- manual management is impractical and inse"
+    },
+    "device1Name": "Microsoft LAPS",
+    "device2Name": "Manual Password Management",
+    "device1Image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "device2Image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-02-10",
+    "categoryId": "comparisons",
+    "subcategoryId": "identity",
+    "heroImage": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التكلفة",
+          "en": "Cost"
+        },
+        "device1Value": {
+          "ar": "مجاني بالكامل من Microsoft",
+          "en": "Fully free from Microsoft"
+        },
+        "device2Value": {
+          "ar": "وقت إداري مستمر بدل تكلفة مالية مباشرة",
+          "en": "Ongoing admin time instead of a direct monetary cost"
+        },
+        "device1Score": 9,
+        "device2Score": 4,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "مقاومة الانتشار الجانبي",
+          "en": "Resistance to lateral movement"
+        },
+        "device1Value": {
+          "ar": "كلمة مرور فريدة لكل جهاز، يقفل الثغرة تمامًا",
+          "en": "A unique password per device, closes the gap entirely"
+        },
+        "device2Value": {
+          "ar": "عرضة جدًا لو نفس الباسورد مستخدم في أكتر من جهاز",
+          "en": "Very exposed if the same password is reused across devices"
+        },
+        "device1Score": 9,
+        "device2Score": 3,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "سهولة التوسع لعدد كبير من الأجهزة",
+          "en": "Scalability to a large device count"
+        },
+        "device1Value": {
+          "ar": "تلقائي بالكامل، يتوسع بسهولة",
+          "en": "Fully automatic, scales easily"
+        },
+        "device2Value": {
+          "ar": "شبه مستحيل عمليًا مع مئات الأجهزة",
+          "en": "Practically near-impossible at hundreds of devices"
+        },
+        "device1Score": 9,
+        "device2Score": 2,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "LAPS الخيار الوحيد المنطقي فعليًا لأي بيئة فيها أكتر من عدد قليل جدًا من الأجهزة — الإدارة اليدوية غير عملية وغير آمنة على نطاق واسع.",
+      "en": "LAPS is really the only sensible choice for any environment with more than a handful of devices -- manual management is impractical and insecure at scale."
+    }
+  },
+  {
+    "id": "cmp-gen-0065",
+    "slug": "wazuh-vs-ossec",
+    "title": {
+      "ar": "Wazuh ضد OSSEC",
+      "en": "Wazuh vs OSSEC"
+    },
+    "excerpt": {
+      "ar": "Wazuh الخيار الأنسب لمعظم المشاريع الجديدة بفضل التكامل الحديث ووتيرة التطوير النشطة. OSSEC لسه خيار مقبول لو عندك بيئة",
+      "en": "Wazuh is the better fit for most new projects thanks to modern integration and active development pace. OSSEC remains acceptable if you have"
+    },
+    "device1Name": "Wazuh",
+    "device2Name": "OSSEC",
+    "device1Image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-03-17",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "النضج والتطوير النشط",
+          "en": "Maturity & active development"
+        },
+        "device1Value": {
+          "ar": "تفرّع حديث نسبيًا لكن بتطوير نشط جدًا ومستمر",
+          "en": "A relatively newer fork but with very active, ongoing development"
+        },
+        "device2Value": {
+          "ar": "الأصل الأقدم، لكن وتيرة التطوير أبطأ حاليًا",
+          "en": "The older original, but development pace is currently slower"
+        },
+        "device1Score": 8,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "التكامل مع لوحات تحليل حديثة",
+          "en": "Integration with modern analysis dashboards"
+        },
+        "device1Value": {
+          "ar": "مدمج مباشرة مع Elastic Stack لتحليل بصري قوي",
+          "en": "Directly integrated with Elastic Stack for strong visual analysis"
+        },
+        "device2Value": {
+          "ar": "يحتاج تكامل يدوي إضافي مع أدوات تحليل خارجية",
+          "en": "Needs extra manual integration with external analysis tools"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "سهولة البداية للمشاريع الجديدة",
+          "en": "Ease of start for new projects"
+        },
+        "device1Value": {
+          "ar": "توثيق أحدث وأوسع للمشاريع الجديدة",
+          "en": "Newer, wider documentation for new projects"
+        },
+        "device2Value": {
+          "ar": "توثيق أقدم، مجتمع أصغر نشاطًا حاليًا",
+          "en": "Older documentation, currently smaller active community"
+        },
+        "device1Score": 8,
+        "device2Score": 5,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "Wazuh الخيار الأنسب لمعظم المشاريع الجديدة بفضل التكامل الحديث ووتيرة التطوير النشطة. OSSEC لسه خيار مقبول لو عندك بيئة قائمة عليه أصلًا ومستقرة.",
+      "en": "Wazuh is the better fit for most new projects thanks to modern integration and active development pace. OSSEC remains acceptable if you have an existing stable environment already built on it."
+    }
+  },
+  {
+    "id": "cmp-gen-0066",
+    "slug": "twingate-vs-traditional-vpn-client",
+    "title": {
+      "ar": "Twingate ضد Traditional VPN Client",
+      "en": "Twingate vs Traditional VPN Client"
+    },
+    "excerpt": {
+      "ar": "Twingate أفضل بكتير من ناحية الأمان (Zero Trust) وسهولة الإدارة لفريق بعيد حديث. VPN التقليدي لسه خيار أوفر لفريق صغير ج",
+      "en": "Twingate is much better for security (Zero Trust) and management ease for a modern remote team. Traditional VPN remains a more economical ch"
+    },
+    "device1Name": "Twingate",
+    "device2Name": "Traditional VPN Client",
+    "device1Image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-03-24",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "سهولة الإعداد للفريق البعيد",
+          "en": "Setup ease for a remote team"
+        },
+        "device1Value": {
+          "ar": "إعداد سحابي سريع جدًا بدون بنية تحتية معقدة",
+          "en": "Very fast cloud setup without complex infrastructure"
+        },
+        "device2Value": {
+          "ar": "يحتاج إعداد سيرفر VPN وصيانة مستمرة",
+          "en": "Needs VPN server setup and ongoing maintenance"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "مبدأ الوصول الأقل (Zero Trust)",
+          "en": "Least-access principle (Zero Trust)"
+        },
+        "device1Value": {
+          "ar": "مبني من الأساس على منح وصول لموارد محددة فقط",
+          "en": "Built from the ground up to grant access only to specific resources"
+        },
+        "device2Value": {
+          "ar": "غالبًا بيدي وصول لكل الشبكة الداخلية دفعة واحدة",
+          "en": "Often grants access to the entire internal network at once"
+        },
+        "device1Score": 9,
+        "device2Score": 4,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "التكلفة لفريق صغير جدًا",
+          "en": "Cost for a very small team"
+        },
+        "device1Value": {
+          "ar": "خطة مجانية محدودة متاحة",
+          "en": "A limited free plan is available"
+        },
+        "device2Value": {
+          "ar": "تكلفة سيرفر أساسية بس، بدون رسوم لكل مستخدم غالبًا",
+          "en": "Just basic server cost, often no per-user fees"
+        },
+        "device1Score": 7,
+        "device2Score": 8,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Twingate أفضل بكتير من ناحية الأمان (Zero Trust) وسهولة الإدارة لفريق بعيد حديث. VPN التقليدي لسه خيار أوفر لفريق صغير جدًا مرتاح مع الإدارة الذاتية.",
+      "en": "Twingate is much better for security (Zero Trust) and management ease for a modern remote team. Traditional VPN remains a more economical choice for a very small team comfortable with self-management."
+    }
+  },
+  {
+    "id": "cmp-gen-0067",
+    "slug": "solarwinds-npm-vs-prtg-network-monitor",
+    "title": {
+      "ar": "SolarWinds NPM ضد PRTG Network Monitor",
+      "en": "SolarWinds NPM vs PRTG Network Monitor"
+    },
+    "excerpt": {
+      "ar": "SolarWinds أقوى لمؤسسة كبيرة معقدة محتاجة عمق مراقبة عالٍ. PRTG أسرع بداية وأبسط تسعيرًا لفريق متوسط الحجم.",
+      "en": "SolarWinds is stronger for a large, complex enterprise needing deep monitoring. PRTG is faster to start and has simpler pricing for a mid-si"
+    },
+    "device1Name": "SolarWinds NPM",
+    "device2Name": "PRTG Network Monitor",
+    "device1Image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-04-04",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "العمق للشبكات المؤسسية الكبيرة",
+          "en": "Depth for large enterprise networks"
+        },
+        "device1Value": {
+          "ar": "قوي جدًا ومتخصص لبيئات مؤسسية معقدة",
+          "en": "Very strong and specialized for complex enterprise environments"
+        },
+        "device2Value": {
+          "ar": "قوي أيضًا، أبسط قليلًا في الاستخدام اليومي",
+          "en": "Also strong, slightly simpler for day-to-day use"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "سهولة التسعير والفهم",
+          "en": "Pricing simplicity & clarity"
+        },
+        "device1Value": {
+          "ar": "تسعير متعدد المنتجات، ممكن يكون معقد",
+          "en": "Multi-product pricing, can be complex"
+        },
+        "device2Value": {
+          "ar": "تسعير بسيط نسبيًا بناءً على عدد المستشعرات",
+          "en": "Relatively simple sensor-count-based pricing"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "سرعة الإعداد الأولي",
+          "en": "Initial setup speed"
+        },
+        "device1Value": {
+          "ar": "يحتاج تخطيط أعمق للبيئات الكبيرة",
+          "en": "Needs deeper planning for large environments"
+        },
+        "device2Value": {
+          "ar": "من الأسرع في السوق للبداية الفورية",
+          "en": "Among the fastest in the market to get started"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "SolarWinds أقوى لمؤسسة كبيرة معقدة محتاجة عمق مراقبة عالٍ. PRTG أسرع بداية وأبسط تسعيرًا لفريق متوسط الحجم.",
+      "en": "SolarWinds is stronger for a large, complex enterprise needing deep monitoring. PRTG is faster to start and has simpler pricing for a mid-size team."
+    }
+  },
+  {
+    "id": "cmp-gen-0068",
+    "slug": "burp-suite-vs-nikto",
+    "title": {
+      "ar": "Burp Suite ضد Nikto",
+      "en": "Burp Suite vs Nikto"
+    },
+    "excerpt": {
+      "ar": "Burp Suite أقوى لاختبار اختراق تطبيق ويب بعمق حقيقي. Nikto أداة سريعة ومجانية ممتازة لفحص أولي عام قبل التعمق بأدوات أقو",
+      "en": "Burp Suite is stronger for genuinely deep web app penetration testing. Nikto is an excellent fast, free tool for a general initial scan befo"
+    },
+    "device1Name": "Burp Suite",
+    "device2Name": "Nikto",
+    "device1Image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-05-11",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "عمق الفحص التفاعلي",
+          "en": "Interactive scanning depth"
+        },
+        "device1Value": {
+          "ar": "فحص تفاعلي عميق جدًا بتدخل يدوي من المختبر",
+          "en": "Very deep interactive scanning with manual tester input"
+        },
+        "device2Value": {
+          "ar": "فحص آلي سريع بدون تدخل يدوي عميق",
+          "en": "Fast automated scanning without deep manual intervention"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "سرعة الفحص الأولي السريع",
+          "en": "Quick initial scan speed"
+        },
+        "device1Value": {
+          "ar": "أبطأ نسبيًا بسبب العمق",
+          "en": "Relatively slower due to depth"
+        },
+        "device2Value": {
+          "ar": "سريع جدًا لفحص أولي عام لخادم ويب",
+          "en": "Very fast for a general initial web server scan"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "التكلفة",
+          "en": "Cost"
+        },
+        "device1Value": {
+          "ar": "النسخة الاحترافية مدفوعة",
+          "en": "The Professional version is paid"
+        },
+        "device2Value": {
+          "ar": "مجاني ومفتوح المصدر بالكامل",
+          "en": "Fully free and open-source"
+        },
+        "device1Score": 5,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Burp Suite أقوى لاختبار اختراق تطبيق ويب بعمق حقيقي. Nikto أداة سريعة ومجانية ممتازة لفحص أولي عام قبل التعمق بأدوات أقوى.",
+      "en": "Burp Suite is stronger for genuinely deep web app penetration testing. Nikto is an excellent fast, free tool for a general initial scan before diving deeper with more powerful tools."
+    }
+  },
+  {
+    "id": "cmp-gen-0069",
+    "slug": "wireshark-vs-tcpdump",
+    "title": {
+      "ar": "Wireshark ضد tcpdump",
+      "en": "Wireshark vs tcpdump"
+    },
+    "excerpt": {
+      "ar": "Wireshark أفضل للتحليل العميق والتعلم بفضل الواجهة الرسومية. tcpdump ضروري وخفيف جدًا لالتقاط البيانات مباشرة على سيرفر",
+      "en": "Wireshark is better for deep analysis and learning thanks to its GUI. tcpdump is essential and lightweight for capturing data directly on a"
+    },
+    "device1Name": "Wireshark",
+    "device2Name": "tcpdump",
+    "device1Image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-06-18",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "الواجهة الرسومية والتحليل البصري",
+          "en": "GUI & visual analysis"
+        },
+        "device1Value": {
+          "ar": "واجهة رسومية غنية جدًا لتحليل الحزم بصريًا",
+          "en": "A very rich GUI for visually analyzing packets"
+        },
+        "device2Value": {
+          "ar": "سطر أوامر بحت، بدون واجهة رسومية",
+          "en": "Purely command-line, no GUI"
+        },
+        "device1Score": 9,
+        "device2Score": 3,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "الاستخدام على سيرفر بدون واجهة (Headless)",
+          "en": "Use on a headless server"
+        },
+        "device1Value": {
+          "ar": "محدود، يحتاج غالبًا نقل الملف لجهاز فيه واجهة",
+          "en": "Limited, usually needs transferring the file to a GUI machine"
+        },
+        "device2Value": {
+          "ar": "مثالي، خفيف جدًا ويعمل مباشرة على أي سيرفر",
+          "en": "Ideal, very lightweight and works directly on any server"
+        },
+        "device1Score": 4,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "منحنى التعلم للمبتدئين",
+          "en": "Learning curve for beginners"
+        },
+        "device1Value": {
+          "ar": "أسهل نسبيًا بفضل العرض المرئي",
+          "en": "Relatively easier thanks to the visual display"
+        },
+        "device2Value": {
+          "ar": "أعلى، يحتاج معرفة بأوامر الفلترة النصية",
+          "en": "Steeper, needs familiarity with text filter syntax"
+        },
+        "device1Score": 8,
+        "device2Score": 5,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "Wireshark أفضل للتحليل العميق والتعلم بفضل الواجهة الرسومية. tcpdump ضروري وخفيف جدًا لالتقاط البيانات مباشرة على سيرفر بعيد بدون واجهة، تحلّلها لاحقًا في Wireshark.",
+      "en": "Wireshark is better for deep analysis and learning thanks to its GUI. tcpdump is essential and lightweight for capturing data directly on a remote headless server, to analyze later in Wireshark."
+    }
   }
 ]

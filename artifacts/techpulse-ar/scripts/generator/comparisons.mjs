@@ -661,6 +661,66 @@ export const COMPARISON_CONTENT = [
     verdictAr: 'WSUS منطقي جدًا لبيئة صغيرة كل الأجهزة فيها داخل الشبكة المحلية دايمًا. Intune ضروري فعليًا لو عندك أجهزة بعيدة أو خليط من أنواع الأجهزة والمنصات.',
     verdictEn: 'WSUS makes strong sense for a small environment where all devices are always on the local network. Intune is genuinely necessary if you have remote devices or a mix of device types and platforms.',
   },
+  {
+    d1: 'Microsoft LAPS', d2: 'Manual Password Management', sub: 'identity', img1: 'identity', img2: 'windows',
+    specs: [
+      spec('التكلفة', 'Cost', 'مجاني بالكامل من Microsoft', 'Fully free from Microsoft', 'وقت إداري مستمر بدل تكلفة مالية مباشرة', 'Ongoing admin time instead of a direct monetary cost', 9, 4),
+      spec('مقاومة الانتشار الجانبي', 'Resistance to lateral movement', 'كلمة مرور فريدة لكل جهاز، يقفل الثغرة تمامًا', 'A unique password per device, closes the gap entirely', 'عرضة جدًا لو نفس الباسورد مستخدم في أكتر من جهاز', 'Very exposed if the same password is reused across devices', 9, 3),
+      spec('سهولة التوسع لعدد كبير من الأجهزة', 'Scalability to a large device count', 'تلقائي بالكامل، يتوسع بسهولة', 'Fully automatic, scales easily', 'شبه مستحيل عمليًا مع مئات الأجهزة', 'Practically near-impossible at hundreds of devices', 9, 2),
+    ],
+    verdictAr: 'LAPS الخيار الوحيد المنطقي فعليًا لأي بيئة فيها أكتر من عدد قليل جدًا من الأجهزة — الإدارة اليدوية غير عملية وغير آمنة على نطاق واسع.',
+    verdictEn: 'LAPS is really the only sensible choice for any environment with more than a handful of devices -- manual management is impractical and insecure at scale.',
+  },
+  {
+    d1: 'Wazuh', d2: 'OSSEC', sub: 'network-security', img1: 'security', img2: 'shield',
+    specs: [
+      spec('النضج والتطوير النشط', 'Maturity & active development', 'تفرّع حديث نسبيًا لكن بتطوير نشط جدًا ومستمر', 'A relatively newer fork but with very active, ongoing development', 'الأصل الأقدم، لكن وتيرة التطوير أبطأ حاليًا', 'The older original, but development pace is currently slower', 8, 6),
+      spec('التكامل مع لوحات تحليل حديثة', 'Integration with modern analysis dashboards', 'مدمج مباشرة مع Elastic Stack لتحليل بصري قوي', 'Directly integrated with Elastic Stack for strong visual analysis', 'يحتاج تكامل يدوي إضافي مع أدوات تحليل خارجية', 'Needs extra manual integration with external analysis tools', 9, 5),
+      spec('سهولة البداية للمشاريع الجديدة', 'Ease of start for new projects', 'توثيق أحدث وأوسع للمشاريع الجديدة', 'Newer, wider documentation for new projects', 'توثيق أقدم، مجتمع أصغر نشاطًا حاليًا', 'Older documentation, currently smaller active community', 8, 5),
+    ],
+    verdictAr: 'Wazuh الخيار الأنسب لمعظم المشاريع الجديدة بفضل التكامل الحديث ووتيرة التطوير النشطة. OSSEC لسه خيار مقبول لو عندك بيئة قائمة عليه أصلًا ومستقرة.',
+    verdictEn: 'Wazuh is the better fit for most new projects thanks to modern integration and active development pace. OSSEC remains acceptable if you have an existing stable environment already built on it.',
+  },
+  {
+    d1: 'Twingate', d2: 'Traditional VPN Client', sub: 'network-security', img1: 'vpn', img2: 'server',
+    specs: [
+      spec('سهولة الإعداد للفريق البعيد', 'Setup ease for a remote team', 'إعداد سحابي سريع جدًا بدون بنية تحتية معقدة', 'Very fast cloud setup without complex infrastructure', 'يحتاج إعداد سيرفر VPN وصيانة مستمرة', 'Needs VPN server setup and ongoing maintenance', 9, 5),
+      spec('مبدأ الوصول الأقل (Zero Trust)', 'Least-access principle (Zero Trust)', 'مبني من الأساس على منح وصول لموارد محددة فقط', 'Built from the ground up to grant access only to specific resources', 'غالبًا بيدي وصول لكل الشبكة الداخلية دفعة واحدة', 'Often grants access to the entire internal network at once', 9, 4),
+      spec('التكلفة لفريق صغير جدًا', 'Cost for a very small team', 'خطة مجانية محدودة متاحة', 'A limited free plan is available', 'تكلفة سيرفر أساسية بس، بدون رسوم لكل مستخدم غالبًا', 'Just basic server cost, often no per-user fees', 7, 8),
+    ],
+    verdictAr: 'Twingate أفضل بكتير من ناحية الأمان (Zero Trust) وسهولة الإدارة لفريق بعيد حديث. VPN التقليدي لسه خيار أوفر لفريق صغير جدًا مرتاح مع الإدارة الذاتية.',
+    verdictEn: 'Twingate is much better for security (Zero Trust) and management ease for a modern remote team. Traditional VPN remains a more economical choice for a very small team comfortable with self-management.',
+  },
+  {
+    d1: 'SolarWinds NPM', d2: 'PRTG Network Monitor', sub: 'network-security', img1: 'analytics', img2: 'network',
+    specs: [
+      spec('العمق للشبكات المؤسسية الكبيرة', 'Depth for large enterprise networks', 'قوي جدًا ومتخصص لبيئات مؤسسية معقدة', 'Very strong and specialized for complex enterprise environments', 'قوي أيضًا، أبسط قليلًا في الاستخدام اليومي', 'Also strong, slightly simpler for day-to-day use', 9, 7),
+      spec('سهولة التسعير والفهم', 'Pricing simplicity & clarity', 'تسعير متعدد المنتجات، ممكن يكون معقد', 'Multi-product pricing, can be complex', 'تسعير بسيط نسبيًا بناءً على عدد المستشعرات', 'Relatively simple sensor-count-based pricing', 6, 8),
+      spec('سرعة الإعداد الأولي', 'Initial setup speed', 'يحتاج تخطيط أعمق للبيئات الكبيرة', 'Needs deeper planning for large environments', 'من الأسرع في السوق للبداية الفورية', 'Among the fastest in the market to get started', 6, 9),
+    ],
+    verdictAr: 'SolarWinds أقوى لمؤسسة كبيرة معقدة محتاجة عمق مراقبة عالٍ. PRTG أسرع بداية وأبسط تسعيرًا لفريق متوسط الحجم.',
+    verdictEn: 'SolarWinds is stronger for a large, complex enterprise needing deep monitoring. PRTG is faster to start and has simpler pricing for a mid-size team.',
+  },
+  {
+    d1: 'Burp Suite', d2: 'Nikto', sub: 'network-security', img1: 'security', img2: 'browser',
+    specs: [
+      spec('عمق الفحص التفاعلي', 'Interactive scanning depth', 'فحص تفاعلي عميق جدًا بتدخل يدوي من المختبر', 'Very deep interactive scanning with manual tester input', 'فحص آلي سريع بدون تدخل يدوي عميق', 'Fast automated scanning without deep manual intervention', 9, 5),
+      spec('سرعة الفحص الأولي السريع', 'Quick initial scan speed', 'أبطأ نسبيًا بسبب العمق', 'Relatively slower due to depth', 'سريع جدًا لفحص أولي عام لخادم ويب', 'Very fast for a general initial web server scan', 6, 9),
+      spec('التكلفة', 'Cost', 'النسخة الاحترافية مدفوعة', 'The Professional version is paid', 'مجاني ومفتوح المصدر بالكامل', 'Fully free and open-source', 5, 9),
+    ],
+    verdictAr: 'Burp Suite أقوى لاختبار اختراق تطبيق ويب بعمق حقيقي. Nikto أداة سريعة ومجانية ممتازة لفحص أولي عام قبل التعمق بأدوات أقوى.',
+    verdictEn: 'Burp Suite is stronger for genuinely deep web app penetration testing. Nikto is an excellent fast, free tool for a general initial scan before diving deeper with more powerful tools.',
+  },
+  {
+    d1: 'Wireshark', d2: 'tcpdump', sub: 'network-security', img1: 'network', img2: 'code',
+    specs: [
+      spec('الواجهة الرسومية والتحليل البصري', 'GUI & visual analysis', 'واجهة رسومية غنية جدًا لتحليل الحزم بصريًا', 'A very rich GUI for visually analyzing packets', 'سطر أوامر بحت، بدون واجهة رسومية', 'Purely command-line, no GUI', 9, 3),
+      spec('الاستخدام على سيرفر بدون واجهة (Headless)', 'Use on a headless server', 'محدود، يحتاج غالبًا نقل الملف لجهاز فيه واجهة', 'Limited, usually needs transferring the file to a GUI machine', 'مثالي، خفيف جدًا ويعمل مباشرة على أي سيرفر', 'Ideal, very lightweight and works directly on any server', 4, 9),
+      spec('منحنى التعلم للمبتدئين', 'Learning curve for beginners', 'أسهل نسبيًا بفضل العرض المرئي', 'Relatively easier thanks to the visual display', 'أعلى، يحتاج معرفة بأوامر الفلترة النصية', 'Steeper, needs familiarity with text filter syntax', 8, 5),
+    ],
+    verdictAr: 'Wireshark أفضل للتحليل العميق والتعلم بفضل الواجهة الرسومية. tcpdump ضروري وخفيف جدًا لالتقاط البيانات مباشرة على سيرفر بعيد بدون واجهة، تحلّلها لاحقًا في Wireshark.',
+    verdictEn: 'Wireshark is better for deep analysis and learning thanks to its GUI. tcpdump is essential and lightweight for capturing data directly on a remote headless server, to analyze later in Wireshark.',
+  },
 ];
 
 export function generateComparisons({ count = COMPARISON_CONTENT.length, subcategory, startIndex = 0 } = {}) {
