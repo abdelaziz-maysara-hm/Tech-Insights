@@ -40,7 +40,7 @@ export function ArticleCard({ article, featured = false, className }: ArticleCar
         <img
           src={article.heroImage}
           alt={article.title[language]}
-          className="w-full h-full min-h-[400px] object-cover transition-transform duration-700 group-hover:scale-105"
+          className="w-full h-[400px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
           loading="lazy"
           onError={handleHeroError}
         />

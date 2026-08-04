@@ -31,9 +31,9 @@ export default function Home() {
       </section>
 
       <section className="container mx-auto px-4 pt-6 pb-12">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
           <div className="lg:col-span-8">
-            {featuredArticle && <ArticleCard article={featuredArticle} featured={true} className="h-full" />}
+            {featuredArticle && <ArticleCard article={featuredArticle} featured={true} />}
           </div>
           <div className="lg:col-span-4 flex flex-col gap-6">
             <div className="flex items-center gap-2 mb-2">
