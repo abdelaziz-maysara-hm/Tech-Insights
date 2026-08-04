@@ -42,6 +42,8 @@ export const COLLECTION_CONTENT = [
       'forcepoint-ssl-vpn-radius',
       'fortigate-ssl-vpn-checklist',
       'wireguard-vs-openvpn',
+      'rdp-multi-user-rds-licensing',
+      'windows-rds-vs-citrix-virtual-apps',
     ],
   },
   {
@@ -66,12 +68,30 @@ export const COLLECTION_CONTENT = [
       'crowdstrike-falcon-vs-microsoft-defender',
       'crowdstrike-falcon-vs-sentinelone',
       'microsoft-defender-vs-sentinelone',
+      'kaspersky-endpoint-security-vs-bitdefender-gravityzone',
+      'kaspersky-security-center-tagging',
     ],
   },
   {
     titleEn: 'Best Identity & Access Management (IAM) Tools', titleAr: 'أفضل أدوات إدارة الهوية والوصول',
     cat: 'cybersecurity', theme: 'identity',
-    itemSlugs: ['ad-powershell-daily-tasks', 'okta-vs-microsoft-entra-id', 'windows-nps-vs-freeradius'],
+    itemSlugs: [
+      'ad-powershell-daily-tasks',
+      'okta-vs-microsoft-entra-id',
+      'windows-nps-vs-freeradius',
+      'group-policy-basics-for-sysadmins',
+      'group-policy-vs-microsoft-intune',
+    ],
+  },
+  {
+    titleEn: 'Best Backup & Disaster Recovery Practices', titleAr: 'أفضل ممارسات النسخ الاحتياطي والتعافي من الكوارث',
+    cat: 'cybersecurity', theme: 'storage',
+    itemSlugs: ['backup-3-2-1-rule-practical', 'veeam-backup-replication-vs-acronis-cyber-protect'],
+  },
+  {
+    titleEn: 'Best SIEM & Security Monitoring Tools', titleAr: 'أفضل أدوات مراقبة الأمن (SIEM)',
+    cat: 'cybersecurity', theme: 'cyber',
+    itemSlugs: ['splunk-vs-wazuh', 'zero-trust-explained-practically'],
   },
 ];
 

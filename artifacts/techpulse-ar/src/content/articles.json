@@ -466,7 +466,7 @@
       "en": "## The common problem\n\nWindows Server allows a couple of free admin RDP sessions. For multiple concurrent users you need the licensed RDS role.\n\n## Setup steps\n\nAdd the RDS role, activate licensing domain-wide, choose Per User or Per Device, and license within the 120-day grace period.\n\n## Bottom line\n\nRDS needs its own role and licensing from day one."
     },
     "categoryId": "cybersecurity",
-    "subcategoryId": "identity",
+    "subcategoryId": "vpn-remote",
     "author": {
       "name": {
         "ar": "فريق رؤى تقنية",

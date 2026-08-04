@@ -32,7 +32,7 @@
     },
     "categoryId": "cybersecurity",
     "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
-    "date": "2022-08-08",
+    "date": "2022-07-08",
     "itemSlugs": [
       "palo-alto-security-policy-basics",
       "palo-alto-ngfw-vs-fortinet-fortigate",
@@ -52,17 +52,19 @@
       "en": "Best VPN Setups & Guides"
     },
     "description": {
-      "ar": "قائمة منسّقة تضم 4 مصادر حقيقية عن أفضل أدلة وإعدادات VPN.",
-      "en": "A curated list of 4 real resources on best vpn setups & guides."
+      "ar": "قائمة منسّقة تضم 6 مصادر حقيقية عن أفضل أدلة وإعدادات VPN.",
+      "en": "A curated list of 6 real resources on best vpn setups & guides."
     },
     "categoryId": "cybersecurity",
     "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
-    "date": "2023-04-15",
+    "date": "2022-12-15",
     "itemSlugs": [
       "vpn-basics-what-it-does",
       "forcepoint-ssl-vpn-radius",
       "fortigate-ssl-vpn-checklist",
-      "wireguard-vs-openvpn"
+      "wireguard-vs-openvpn",
+      "rdp-multi-user-rds-licensing",
+      "windows-rds-vs-citrix-virtual-apps"
     ],
     "isFeatured": false
   },
@@ -79,7 +81,7 @@
     },
     "categoryId": "technology",
     "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80",
-    "date": "2023-12-22",
+    "date": "2023-07-22",
     "itemSlugs": [
       "aws-vs-azure"
     ],
@@ -98,7 +100,7 @@
     },
     "categoryId": "cybersecurity",
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
-    "date": "2024-07-02",
+    "date": "2023-12-02",
     "itemSlugs": [
       "2fa-practical-guide",
       "phishing-spot-before-click",
@@ -115,16 +117,18 @@
       "en": "Best Endpoint Detection & Response (EDR) Tools"
     },
     "description": {
-      "ar": "قائمة منسّقة تضم 3 مصادر حقيقية عن أفضل أدوات EDR لحماية النقاط الطرفية.",
-      "en": "A curated list of 3 real resources on best endpoint detection & response (edr) tools."
+      "ar": "قائمة منسّقة تضم 5 مصادر حقيقية عن أفضل أدوات EDR لحماية النقاط الطرفية.",
+      "en": "A curated list of 5 real resources on best endpoint detection & response (edr) tools."
     },
     "categoryId": "cybersecurity",
     "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
-    "date": "2025-03-09",
+    "date": "2024-07-09",
     "itemSlugs": [
       "crowdstrike-falcon-vs-microsoft-defender",
       "crowdstrike-falcon-vs-sentinelone",
-      "microsoft-defender-vs-sentinelone"
+      "microsoft-defender-vs-sentinelone",
+      "kaspersky-endpoint-security-vs-bitdefender-gravityzone",
+      "kaspersky-security-center-tagging"
     ],
     "isFeatured": false
   },
@@ -136,16 +140,58 @@
       "en": "Best Identity & Access Management (IAM) Tools"
     },
     "description": {
-      "ar": "قائمة منسّقة تضم 3 مصادر حقيقية عن أفضل أدوات إدارة الهوية والوصول.",
-      "en": "A curated list of 3 real resources on best identity & access management (iam) tools."
+      "ar": "قائمة منسّقة تضم 5 مصادر حقيقية عن أفضل أدوات إدارة الهوية والوصول.",
+      "en": "A curated list of 5 real resources on best identity & access management (iam) tools."
     },
     "categoryId": "cybersecurity",
     "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
-    "date": "2025-11-16",
+    "date": "2024-12-16",
     "itemSlugs": [
       "ad-powershell-daily-tasks",
       "okta-vs-microsoft-entra-id",
-      "windows-nps-vs-freeradius"
+      "windows-nps-vs-freeradius",
+      "group-policy-basics-for-sysadmins",
+      "group-policy-vs-microsoft-intune"
+    ],
+    "isFeatured": false
+  },
+  {
+    "id": "col-gen-0008",
+    "slug": "best-backup-disaster-recovery-practices",
+    "title": {
+      "ar": "أفضل ممارسات النسخ الاحتياطي والتعافي من الكوارث",
+      "en": "Best Backup & Disaster Recovery Practices"
+    },
+    "description": {
+      "ar": "قائمة منسّقة تضم 2 مصادر حقيقية عن أفضل ممارسات النسخ الاحتياطي والتعافي من الكوارث.",
+      "en": "A curated list of 2 real resources on best backup & disaster recovery practices."
+    },
+    "categoryId": "cybersecurity",
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "date": "2025-07-23",
+    "itemSlugs": [
+      "backup-3-2-1-rule-practical",
+      "veeam-backup-replication-vs-acronis-cyber-protect"
+    ],
+    "isFeatured": false
+  },
+  {
+    "id": "col-gen-0009",
+    "slug": "best-siem-security-monitoring-tools",
+    "title": {
+      "ar": "أفضل أدوات مراقبة الأمن (SIEM)",
+      "en": "Best SIEM & Security Monitoring Tools"
+    },
+    "description": {
+      "ar": "قائمة منسّقة تضم 2 مصادر حقيقية عن أفضل أدوات مراقبة الأمن (SIEM).",
+      "en": "A curated list of 2 real resources on best siem & security monitoring tools."
+    },
+    "categoryId": "cybersecurity",
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "date": "2025-12-03",
+    "itemSlugs": [
+      "splunk-vs-wazuh",
+      "zero-trust-explained-practically"
     ],
     "isFeatured": false
   }

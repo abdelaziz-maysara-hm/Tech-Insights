@@ -252,7 +252,7 @@ export const COMPARISON_CONTENT = [
     verdictEn: 'Both are strong picks for SMB endpoint protection. Kaspersky has stronger regional support in the Arabic-speaking market; Bitdefender is lighter on device performance in repeated independent tests.',
   },
   {
-    d1: 'Windows RDS', d2: 'Citrix Virtual Apps', sub: 'network-security', img1: 'server', img2: 'cloud',
+    d1: 'Windows RDS', d2: 'Citrix Virtual Apps', sub: 'software-services', img1: 'server', img2: 'cloud',
     specs: [
       spec('تكلفة الترخيص الأولية', 'Initial licensing cost', 'أقل بكثير (تراخيص RDS فقط)', 'Much lower (RDS licensing only)', 'أعلى بكثير (طبقة تراخيص إضافية)', 'Much higher (an extra licensing layer)', 9, 5),
       spec('تحسين الأداء عبر شبكات ضعيفة', 'Performance over weak networks', 'جيد', 'Good', 'من الأفضل في السوق تاريخيًا (بروتوكول HDX)', 'Historically among the best in the market (HDX protocol)', 6, 9),
@@ -272,7 +272,7 @@ export const COMPARISON_CONTENT = [
     verdictEn: 'Group Policy makes strong sense for a fully traditional on-premises Windows environment. Intune is genuinely necessary if you have remote devices or a mix of platforms (macOS, iOS, Android).',
   },
   {
-    d1: 'Veeam Backup & Replication', d2: 'Acronis Cyber Protect', sub: 'network-security', img1: 'storage', img2: 'security',
+    d1: 'Veeam Backup & Replication', d2: 'Acronis Cyber Protect', sub: 'software-services', img1: 'storage', img2: 'security',
     specs: [
       spec('التركيز الأساسي', 'Core focus', 'نسخ احتياطي واستعادة على مستوى مؤسسي عميق', 'Deep enterprise-grade backup and recovery', 'يدمج النسخ الاحتياطي مع حماية من الفيروسات في منتج واحد', 'Combines backup with anti-malware protection in one product', 8, 7),
       spec('دعم بيئات الافتراضية الكبيرة (VMware/Hyper-V)', 'Support for large virtualized environments', 'من الأقوى والأنضج في السوق لهذا تحديدًا', 'Among the strongest and most mature in the market for this specifically', 6, 8),

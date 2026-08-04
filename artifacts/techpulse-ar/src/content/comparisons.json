@@ -1766,7 +1766,7 @@
     "device2Image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=500&q=80",
     "date": "2025-08-20",
     "categoryId": "comparisons",
-    "subcategoryId": "network-security",
+    "subcategoryId": "software-services",
     "heroImage": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/windows.svg",
     "overallWinner": 1,
     "specs": {
@@ -1922,8 +1922,8 @@
     "device2Image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400&h=500&q=80",
     "date": "2025-12-07",
     "categoryId": "comparisons",
-    "subcategoryId": "network-security",
-    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
     "overallWinner": 1,
     "specs": {
       "spec1": {

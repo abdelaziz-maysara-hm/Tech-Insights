@@ -205,7 +205,7 @@ export const TOPIC_CONTENT = [
     bodyAr: "## المشكلة الشائعة\n\nWindows Server بيسمح بجلسة RDP إدارية أو اتنين مجانًا. لو محتاج عدة مستخدمين، لازم دور RDS مرخّص.\n\n## خطوات الإعداد\n\n1. أضف دور Remote Desktop Services من Server Manager.\n2. فعّل الترخيص من RD Licensing Manager على نطاق الدومين.\n3. حدد نوع التراخيص (Per User أو Per Device).\n4. اربط الترخيص بالسيرفر خلال أول 120 يومًا.\n\n## الخلاصة\n\nRDS مش RDP عادي — لازم دور وترخيص منفصلين من أول يوم.",
     bodyEn: "## The common problem\n\nWindows Server allows a couple of free admin RDP sessions. For multiple concurrent users you need the licensed RDS role.\n\n## Setup steps\n\nAdd the RDS role, activate licensing domain-wide, choose Per User or Per Device, and license within the 120-day grace period.\n\n## Bottom line\n\nRDS needs its own role and licensing from day one.",
     cat: "cybersecurity",
-    sub: "identity",
+    sub: "vpn-remote",
     tags: ["rdp", "rds", "windows-server", "licensing"],
     readTime: 6,
     theme: "windows",
