@@ -1,64 +1,18 @@
 {
-  "generatedAt": "2026-08-02T15:49:34.158Z",
+  "generatedAt": "2026-08-03T12:03:57.503Z",
+  "mode": "append-merge",
+  "applyLive": true,
   "files": [
-    {
-      "name": "videos.json",
-      "path": "D:\\Technical Insights Website\\Tech-Insights\\artifacts\\techpulse-ar\\content\\generated\\videos.json",
-      "bytes": 549083,
-      "count": 1000
-    },
     {
       "name": "comparisons.json",
       "path": "D:\\Technical Insights Website\\Tech-Insights\\artifacts\\techpulse-ar\\content\\generated\\comparisons.json",
-      "bytes": 3264855,
-      "count": 1000
-    },
-    {
-      "name": "collections.json",
-      "path": "D:\\Technical Insights Website\\Tech-Insights\\artifacts\\techpulse-ar\\content\\generated\\collections.json",
-      "bytes": 33003,
-      "count": 50
-    },
-    {
-      "name": "pages.json",
-      "path": "D:\\Technical Insights Website\\Tech-Insights\\artifacts\\techpulse-ar\\content\\generated\\pages.json",
-      "bytes": 4628,
-      "count": 9
-    },
-    {
-      "name": "articles.json",
-      "path": "D:\\Technical Insights Website\\Tech-Insights\\artifacts\\techpulse-ar\\content\\generated\\articles.json",
-      "bytes": 273375,
-      "count": 100
+      "bytes": 47076,
+      "count": 15
     }
   ],
   "validation": [
     {
-      "name": "videos",
-      "ok": true,
-      "errors": [],
-      "totalErrors": 0
-    },
-    {
       "name": "comparisons",
-      "ok": true,
-      "errors": [],
-      "totalErrors": 0
-    },
-    {
-      "name": "collections",
-      "ok": true,
-      "errors": [],
-      "totalErrors": 0
-    },
-    {
-      "name": "pages",
-      "ok": true,
-      "errors": [],
-      "totalErrors": 0
-    },
-    {
-      "name": "articles",
       "ok": true,
       "errors": [],
       "totalErrors": 0
@@ -66,59 +20,26 @@
   ],
   "uniqueness": [
     {
-      "label": "videos.id",
-      "unique": 1000,
-      "duplicates": [],
-      "ok": true
-    },
-    {
       "label": "comparisons.slug",
-      "unique": 1000,
+      "unique": 15,
       "duplicates": [],
       "ok": true
     },
     {
       "label": "comparisons.id",
-      "unique": 1000,
-      "duplicates": [],
-      "ok": true
-    },
-    {
-      "label": "collections.slug",
-      "unique": 50,
-      "duplicates": [],
-      "ok": true
-    },
-    {
-      "label": "collections.id",
-      "unique": 50,
-      "duplicates": [],
-      "ok": true
-    },
-    {
-      "label": "pages.slug",
-      "unique": 9,
-      "duplicates": [],
-      "ok": true
-    },
-    {
-      "label": "pages.id",
-      "unique": 9,
-      "duplicates": [],
-      "ok": true
-    },
-    {
-      "label": "articles.slug",
-      "unique": 100,
-      "duplicates": [],
-      "ok": true
-    },
-    {
-      "label": "articles.id",
-      "unique": 100,
+      "unique": 15,
       "duplicates": [],
       "ok": true
     }
   ],
-  "ms": 107
+  "merge": [
+    {
+      "name": "comparisons",
+      "total": 15,
+      "added": 15,
+      "merged": 0,
+      "skipped": 0
+    }
+  ],
+  "ms": 24
 }
