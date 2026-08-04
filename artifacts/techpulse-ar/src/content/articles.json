@@ -1220,5 +1220,250 @@
     ],
     "isFeatured": false,
     "isTrending": false
+  },
+  {
+    "id": "art-gen-0036",
+    "slug": "ransomware-first-hour-response",
+    "title": {
+      "ar": "أول ساعة بعد اكتشاف Ransomware: إيه تعمل بالظبط",
+      "en": "The First Hour After Discovering Ransomware: What to Actually Do"
+    },
+    "excerpt": {
+      "ar": "خطوات فورية قبل ما تفكر في الاستعادة، عشان متزودش الضرر.",
+      "en": "Immediate steps before even thinking about recovery, so you don't make things worse."
+    },
+    "body": {
+      "ar": "## أول حاجة: افصل، متطفيش\n\nافصل الجهاز المصاب عن الشبكة فورًا (كابل أو Wi-Fi)، لكن **متطفيش الجهاز** — بعض الأدلة الجنائية بتضيع لو الجهاز اتقفل.\n\n## الخطوات بالترتيب\n\n1. اعزل الجهاز المصاب عن الشبكة فورًا.\n2. حدد نطاق الإصابة — أجهزة تانية متأثرة؟ شير شبكي معين؟\n3. بلّغ الفريق المسؤول (أو جهة خارجية متخصصة لو معندكش فريق داخلي).\n4. متدفعش الفدية فورًا — استشر أولًا، الدفع مش بيضمن استرجاع البيانات.\n5. راجع آخر نسخة احتياطية نظيفة (قبل تاريخ الإصابة المقدّر).\n\n## أشهر الخطأ\n\nإعادة تشغيل الجهاز بسرعة أو محاولة حذف الملفات المشفّرة يدويًا — ده بيصعّب أي تحقيق لاحق.\n\n## الخلاصة\n\nالعزل الفوري + عدم الذعر + التوثيق أهم من أي رد فعل سريع تاني.",
+      "en": "## First: disconnect, don't power off\n\nDisconnect the infected machine from the network immediately, but don't power it off -- forensic evidence can be lost if the machine is shut down.\n\n## Steps in order\n\nIsolate the infected device, determine the infection scope (other affected devices? a specific network share?), notify your response team or an external specialist, don't pay the ransom immediately without consulting first (payment doesn't guarantee recovery), and check your last clean backup before the estimated infection date.\n\n## Bottom line\n\nImmediate isolation, staying calm, and documentation matter more than any quick reaction."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-09-03",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ransomware",
+      "incident-response",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0037",
+    "slug": "cloud-cost-optimization-basics",
+    "title": {
+      "ar": "تقليل فاتورة السحابة: خطوات عملية قبل ما تتفاجئ",
+      "en": "Cutting Your Cloud Bill: Practical Steps Before the Surprise Invoice"
+    },
+    "excerpt": {
+      "ar": "أشهر أسباب ارتفاع فاتورة AWS/Azure غير متوقع، وإزاي تتحكم فيها.",
+      "en": "The most common causes of an unexpectedly high AWS/Azure bill, and how to control them."
+    },
+    "body": {
+      "ar": "## أشهر أسباب الفاتورة العالية\n\n1. موارد شغالة من غير استخدام فعلي (سيرفرات اختبار نسيتها شغالة).\n2. تخزين بيانات قديمة على أغلى فئة تخزين بدل الأرخص للأرشيف.\n3. نقل بيانات (Data Transfer) بين مناطق جغرافية من غير داعي.\n\n## خطوات عملية للتحكم\n\n1. فعّل تنبيهات الميزانية (Budget Alerts) من أول يوم.\n2. راجع الموارد الخاملة أسبوعيًا (أو استخدم أداة تلقائية).\n3. استخدم فئات تخزين أرخص للبيانات القديمة نادرة الوصول.\n4. فكّر في Reserved Instances لو الاستخدام ثابت طويل المدى.\n\n## الخلاصة\n\nمعظم الفواتير العالية مش بسبب استخدام حقيقي، بس بسبب موارد منسية — مراجعة دورية بسيطة بتوفر كتير.",
+      "en": "## Common causes of high bills\n\nResources running without real use (forgotten test servers), old data stored on the most expensive tier instead of a cheaper archive tier, and unnecessary cross-region data transfer.\n\n## Practical control steps\n\nEnable budget alerts from day one, review idle resources weekly, use cheaper storage tiers for rarely-accessed old data, and consider Reserved Instances for steady long-term usage.\n\n## Bottom line\n\nMost high bills come from forgotten resources, not real usage -- a simple periodic review saves a lot."
+    },
+    "categoryId": "technology",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-11-10",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "cloud",
+      "aws",
+      "cost-optimization"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0038",
+    "slug": "printer-security-overlooked-risk",
+    "title": {
+      "ar": "أمان الطابعات: الخطر اللي بينسوه أغلب مديري الأنظمة",
+      "en": "Printer Security: The Risk Most Sysadmins Forget"
+    },
+    "excerpt": {
+      "ar": "الطابعات الشبكية بتبقى نقطة دخول سهلة لو معندهاش نفس مستوى الاهتمام الأمني.",
+      "en": "Networked printers become an easy entry point when they don't get the same security attention as everything else."
+    },
+    "body": {
+      "ar": "## ليه الطابعات خطر حقيقي\n\nكتير من الطابعات الشبكية بتفضل بكلمة مرور افتراضية، وفرموير قديم مش متحدّث من سنين، ومنافذ إدارة مفتوحة على الإنترنت بالغلط.\n\n## خطوات أساسية للحماية\n\n1. غيّر كلمة مرور الإدارة الافتراضية فورًا وقت التركيب.\n2. حدّث الفرموير دوريًا زي أي جهاز شبكة تاني.\n3. عزل الطابعات في VLAN منفصل عن أجهزة المستخدمين الحساسة.\n4. عطّل بروتوكولات قديمة غير مستخدمة (FTP, Telnet) لو الطابعة بتدعمها.\n5. راجع سجلات الطباعة دوريًا في بيئات حساسة (تسريب مستندات).\n\n## الخلاصة\n\nالطابعة جهاز شبكة زي أي جهاز تاني، ومحتاجة نفس الاهتمام — مش بس \"جهاز طباعة\".",
+      "en": "## Why printers are a real risk\n\nMany networked printers keep default admin passwords, run firmware untouched for years, and sometimes have management ports accidentally exposed to the internet.\n\n## Basic protection steps\n\nChange the default admin password at install time, update firmware regularly like any other network device, isolate printers in their own VLAN away from sensitive user devices, disable unused legacy protocols, and review print logs periodically in sensitive environments.\n\n## Bottom line\n\nA printer is a network device like any other and deserves the same attention, not just 'the thing that prints'."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-12-17",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "printers",
+      "endpoint-security",
+      "iot"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0039",
+    "slug": "browser-isolation-basics",
+    "title": {
+      "ar": "عزل المتصفح (Browser Isolation): طبقة حماية إضافية بسيطة",
+      "en": "Browser Isolation: A Simple Extra Protection Layer"
+    },
+    "excerpt": {
+      "ar": "إزاي تمنع كود خبيث من موقع مشبوه يوصل لجهاز المستخدم فعليًا.",
+      "en": "How to keep malicious code from a suspicious site from ever actually reaching the user's device."
+    },
+    "body": {
+      "ar": "## الفكرة الأساسية\n\nبدل ما المتصفح يحمّل ويشغّل محتوى الموقع مباشرة على جهاز المستخدم، الصفحة بتتشغل في بيئة معزولة (سحابية أو محلية) وبيوصل للمستخدم بس عرض مرئي آمن.\n\n## متى تستاهل الاستثمار\n\n1. فريق بيتعامل مع روابط غير موثوقة بشكل متكرر (بريد، بحث).\n2. قطاع مستهدف بهجمات تصيد متقدمة.\n3. عندك بالفعل طبقات حماية تانية وعايز تقلل مخاطر يوم الصفر (Zero-day) في المتصفح نفسه.\n\n## نصيحة عملية\n\nمش لازم تطبقها على كل حاجة — ركّز على المستخدمين الأكتر عرضة (فريق المبيعات، الدعم الفني اللي بيفتح روابط كتير من مصادر خارجية).\n\n## الخلاصة\n\nطبقة حماية إضافية مفيدة، مش بديل عن التدريب الأمني الأساسي والتحديثات.",
+      "en": "## The core idea\n\nInstead of the browser loading and executing site content directly on the user's device, the page renders in an isolated environment (cloud or local) and only a safe visual stream reaches the user.\n\n## When it's worth the investment\n\nA team frequently dealing with untrusted links (email, research), a sector targeted by advanced phishing, or wanting to reduce browser zero-day exposure on top of existing layers.\n\n## Bottom line\n\nA useful extra layer, not a substitute for basic security training and patching."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-24",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "browser-isolation",
+      "phishing",
+      "endpoint-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0040",
+    "slug": "shadow-it-risk-management",
+    "title": {
+      "ar": "الـ Shadow IT: لما الموظفين يستخدموا أدوات مش معتمدة",
+      "en": "Shadow IT: When Employees Use Unapproved Tools"
+    },
+    "excerpt": {
+      "ar": "ليه بيحصل، وإيه الفرق بين المنع الكامل والإدارة الذكية للمخاطر.",
+      "en": "Why it happens, and the difference between total prohibition and smart risk management."
+    },
+    "body": {
+      "ar": "## ليه بيحصل أصلًا\n\nالموظفين بيستخدموا أدوات مش معتمدة (تخزين سحابي شخصي، تطبيقات مراسلة) عادةً عشان الأدوات الرسمية بطيئة أو معقدة، مش بنية سيئة.\n\n## المنع الكامل مش دايمًا الحل\n\nمنع صارم بدون بديل عملي بيخلي الموظفين يدوّروا على طرق أصعب في الاكتشاف، مش يوقفوا الاستخدام فعليًا.\n\n## استراتيجية أفضل\n\n1. اكتشف الاستخدام الفعلي أولًا (أدوات CASB أو مراجعة سجلات الشبكة).\n2. افهم ليه الموظفين بيلجأوا لأدوات بديلة — الأداة الرسمية ناقصة إيه؟\n3. وفّر بديل رسمي سهل الاستخدام لنفس الاحتياج قبل المنع.\n4. امنع بس الأدوات عالية الخطورة فعليًا (نقل بيانات حساسة لخارج الشركة).\n\n## الخلاصة\n\nفهم السبب وتوفير بديل أفضل من منع صارم بدون حل بديل.",
+      "en": "## Why it happens\n\nEmployees use unapproved tools (personal cloud storage, messaging apps) usually because official tools are slow or cumbersome, not out of bad intent.\n\n## Total prohibition isn't always the answer\n\nStrict bans without a practical alternative just push usage into harder-to-detect channels, rather than actually stopping it.\n\n## A better strategy\n\nDiscover actual usage first (CASB tools or network log review), understand why employees reach for alternatives, provide an easy official alternative before banning, and restrict only genuinely high-risk tools (sensitive data leaving the company).\n\n## Bottom line\n\nUnderstanding the cause and offering a better alternative beats a strict ban with no replacement."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-04",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "shadow-it",
+      "risk-management",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0041",
+    "slug": "usb-device-control-policy",
+    "title": {
+      "ar": "سياسة التحكم في أجهزة USB: أمان بدون تعطيل الشغل",
+      "en": "USB Device Control Policy: Security Without Blocking Work"
+    },
+    "excerpt": {
+      "ar": "بدائل عملية غير \"امنع كل حاجة\" اللي بتوقف شغل ناس محتاجين USB فعليًا.",
+      "en": "Practical alternatives to 'block everything', which stops people who genuinely need USB access."
+    },
+    "body": {
+      "ar": "## المشكلة مع المنع الكامل\n\nمنع كل منافذ USB بيوقف شغل ناس محتاجينها فعليًا (نسخ ملفات كبيرة، أجهزة خارجية ضرورية)، وبيخلق مقاومة للسياسة كلها.\n\n## بدائل عملية عبر Group Policy\n\n1. اسمح بالقراءة بس، امنع الكتابة (نسخ ملفات للخارج) كافتراضي.\n2. اعمل قائمة بيضاء لأجهزة USB معتمدة معروفة (بالـSerial Number).\n3. فعّل تسجيل (Logging) لكل عملية نسخ لجهاز USB، حتى لو مسموحة.\n4. استثناءات لأقسام معينة محتاجة الوصول الكامل، بموافقة موثّقة.\n\n## أشهر الخطأ\n\nسياسة واحدة صارمة للجميع من غير مراعاة اختلاف احتياجات الأقسام.\n\n## الخلاصة\n\nتحكم متدرّج (قراءة فقط + تسجيل + استثناءات موثّقة) أفضل بكتير من منع كامل يوقف شغل الناس.",
+      "en": "## The problem with total blocking\n\nBlocking all USB ports stops people who genuinely need it (large file transfers, necessary external devices) and creates resistance to the whole policy.\n\n## Practical Group Policy alternatives\n\nAllow read-only by default, block write/copy-out; maintain a whitelist of approved USB devices by serial number; log every USB copy operation even when allowed; document exceptions for departments needing full access.\n\n## Bottom line\n\nGraduated control (read-only + logging + documented exceptions) beats a total ban that stops legitimate work."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-11",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "usb",
+      "endpoint-security",
+      "group-policy"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0042",
+    "slug": "certificate-expiry-monitoring",
+    "title": {
+      "ar": "مراقبة انتهاء صلاحية الشهادات: خطأ بسيط بيوقف مواقع كاملة",
+      "en": "Certificate Expiry Monitoring: A Simple Mistake That Takes Down Whole Sites"
+    },
+    "excerpt": {
+      "ar": "ليه شهادة SSL منتهية أكتر خطأ محرج ومتكرر، وإزاي تتجنبه تمامًا.",
+      "en": "Why an expired SSL certificate is the most embarrassing and common mistake, and how to avoid it entirely."
+    },
+    "body": {
+      "ar": "## ليه بيحصل رغم إنه بسيط\n\nشهادات SSL/TLS معظمها بتنتهي كل 90 يوم لـ سنة، ولو مفيش تنبيه تلقائي، سهل جدًا تتنسى لحد ما الموقع يقف فجأة.\n\n## حلول عملية\n\n1. استخدم شهادات تجديد تلقائي (زي Let's Encrypt مع ACME) لو ممكن.\n2. لو التجديد يدوي، اعمل تنبيه تقويم قبل الانتهاء بـ30 يوم على الأقل.\n3. استخدم أداة مراقبة خارجية بتتأكد من صلاحية الشهادة دوريًا (مش بس تفترض إنها شغالة).\n4. وثّق كل الشهادات في مكان مركزي (تاريخ الانتهاء، المسؤول، الموقع).\n\n## الخلاصة\n\nالتجديد التلقائي هو الحل الأمثل؛ لو مش ممكن، تنبيه مبكر موثوق هو أقل حاجة مقبولة.",
+      "en": "## Why it happens despite being simple\n\nMost SSL/TLS certificates expire every 90 days to a year, and without an automatic reminder, it's easy to forget until the site suddenly goes down.\n\n## Practical fixes\n\nUse auto-renewing certificates (like Let's Encrypt with ACME) where possible, set a calendar reminder at least 30 days before expiry if renewal is manual, use an external monitoring tool that actually checks validity periodically, and keep a central inventory of every certificate.\n\n## Bottom line\n\nAutomatic renewal is the ideal fix; if that's not possible, a reliable early reminder is the bare minimum."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-18",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ssl",
+      "certificates",
+      "monitoring"
+    ],
+    "isFeatured": false,
+    "isTrending": false
   }
 ]

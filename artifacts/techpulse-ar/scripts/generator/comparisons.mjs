@@ -421,6 +421,66 @@ export const COMPARISON_CONTENT = [
     verdictAr: 'Tailscale أسرع وأبسط بكتير لفريق صغير أو متوسط موزّع جغرافيًا. VPN التقليدي لسه منطقي لمؤسسة كبيرة محتاجة تحكم شبكي دقيق ومركزي.',
     verdictEn: 'Tailscale is much faster and simpler for a small-to-mid geographically distributed team. Traditional VPN still makes sense for a large organization needing precise, centralized network control.',
   },
+  {
+    d1: 'Bitwarden Business', d2: 'Keeper', sub: 'identity', img1: 'security', img2: 'identity',
+    specs: [
+      spec('التكلفة للفرق', 'Cost for teams', 'من الأرخص في السوق لخطط الفرق', 'Among the cheapest in the market for team plans', 'أعلى سعرًا لكن مع ميزات مؤسسية إضافية', 'Higher priced but with extra enterprise features', 9, 6),
+      spec('مفتوح المصدر والشفافية', 'Open source & transparency', 'مفتوح المصدر بالكامل، قابل للتدقيق', 'Fully open-source, independently auditable', 'مغلق المصدر', 'Closed source', 9, 5),
+      spec('ميزات المراقبة المؤسسية', 'Enterprise monitoring features', 'أساسية', 'Basic', 'تقارير وتحكم أعمق للمؤسسات الكبيرة', 'Deeper reporting and control for large enterprises', 6, 8),
+    ],
+    verdictAr: 'Bitwarden Business قيمة ممتازة وشفافية عالية للفرق الصغيرة والمتوسطة. Keeper أنسب لمؤسسة كبيرة محتاجة تحكم وتقارير أعمق وعندها ميزانية أعلى.',
+    verdictEn: 'Bitwarden Business offers excellent value and transparency for small-to-mid teams. Keeper fits a larger organization needing deeper control and reporting with a bigger budget.',
+  },
+  {
+    d1: 'Rapid7 InsightVM', d2: 'Tenable.io', sub: 'network-security', img1: 'security', img2: 'shield',
+    specs: [
+      spec('سهولة الربط بأدوات الاستجابة', 'Integration with response tooling', 'تكامل قوي مع أدوات Rapid7 الأخرى (SOAR)', 'Strong integration with other Rapid7 tools (SOAR)', 'تكامل واسع أيضًا عبر شراكات كتيرة', 'Also wide integration through many partnerships', 8, 8),
+      spec('سهولة البداية', 'Ease of getting started', 'واجهة واضحة نسبيًا', 'Relatively clear interface', 'من الأسهل تاريخيًا في فحص الثغرات', 'Historically among the easiest for vulnerability scanning', 7, 8),
+      spec('عمق التحليل والتقييم', 'Analysis & prioritization depth', 'قوي جدًا في ترتيب أولوية المخاطر الفعلية', 'Very strong at prioritizing real risk', 'قوي أيضًا، معيار صناعي معروف', 'Also strong, a well-known industry standard', 8, 8),
+    ],
+    verdictAr: 'الاتنين من أقوى حلول فحص الثغرات في السوق المؤسسي، والفرق العملي بينهم صغير. القرار غالبًا بيعتمد على الأدوات التانية الموجودة أصلًا في بيئتك.',
+    verdictEn: 'Both are among the strongest enterprise vulnerability-scanning solutions, with a small practical gap between them. The decision usually comes down to what other tools already exist in your environment.',
+  },
+  {
+    d1: 'Postman', d2: 'Insomnia', sub: 'software-services', img1: 'code', img2: 'dev',
+    specs: [
+      spec('مجموعة الميزات الشاملة', 'Overall feature breadth', 'أوسع بكثير (اختبار تلقائي، مراقبة، توثيق)', 'Much broader (automated testing, monitoring, docs)', 'أبسط وأخف، يركّز على الأساسيات', 'Simpler and lighter, focused on the essentials', 9, 6),
+      spec('سرعة الأداء واستهلاك الموارد', 'Performance & resource usage', 'أثقل نسبيًا مع كل الميزات المدمجة', 'Relatively heavier with all its bundled features', 'أخف وأسرع بشكل ملحوظ', 'Noticeably lighter and faster', 6, 9),
+      spec('التعاون الجماعي', 'Team collaboration', 'قوي جدًا مع مساحات عمل مشتركة', 'Very strong with shared workspaces', 'جيد، أبسط نسبيًا', 'Good, relatively simpler', 8, 6),
+    ],
+    verdictAr: 'Postman أشمل لفريق كبير محتاج ميزات متقدمة وتعاون. Insomnia أفضل لمطوّر فردي أو فريق صغير عايز أداة خفيفة وسريعة بدون تعقيد زيادة.',
+    verdictEn: 'Postman is more comprehensive for a large team needing advanced features and collaboration. Insomnia is better for a solo developer or small team wanting a light, fast tool without extra complexity.',
+  },
+  {
+    d1: 'GitHub Actions', d2: 'Jenkins', sub: 'software-services', img1: 'code', img2: 'server',
+    specs: [
+      spec('سهولة الإعداد', 'Setup ease', 'مدمج مباشرة في GitHub، إعداد سريع جدًا', 'Built directly into GitHub, very fast setup', 'يحتاج تثبيت وإدارة سيرفر منفصل', 'Needs a separate server install and management', 9, 4),
+      spec('المرونة والتخصيص الكامل', 'Full flexibility & customization', 'جيدة لكن محدودة نسبيًا بمنصة GitHub', 'Good but relatively limited to the GitHub platform', 'مرونة شبه كاملة، آلاف الإضافات', 'Near-total flexibility, thousands of plugins', 7, 9),
+      spec('التكلفة لمشروع مفتوح المصدر صغير', 'Cost for a small open-source project', 'دقائق تشغيل مجانية سخية', 'Generous free run-minutes', 'مجاني بالكامل لكن يحتاج استضافة خاصة بك', 'Fully free but needs your own hosting', 8, 7),
+    ],
+    verdictAr: 'GitHub Actions أسرع بداية وأبسط لمعظم المشاريع الحديثة على GitHub. Jenkins لسه الخيار الأقوى لبيئة محتاجة تخصيص كامل أو مش على GitHub أصلًا.',
+    verdictEn: 'GitHub Actions is faster to start and simpler for most modern GitHub-hosted projects. Jenkins remains the stronger choice for an environment needing full customization or not on GitHub at all.',
+  },
+  {
+    d1: 'Grafana', d2: 'Kibana', sub: 'software-services', img1: 'analytics', img2: 'cloud',
+    specs: [
+      spec('مصادر البيانات المدعومة', 'Supported data sources', 'يدعم مصادر بيانات متنوعة جدًا (Prometheus, MySQL, وغيرها)', 'Supports a very wide variety of data sources (Prometheus, MySQL, and more)', 'مرتبط أساسًا بمنظومة Elasticsearch', 'Primarily tied to the Elasticsearch ecosystem', 9, 6),
+      spec('لوحات المراقبة والتنبيهات', 'Dashboards & alerting', 'من الأقوى في السوق لهذا الغرض تحديدًا', 'Among the strongest in the market specifically for this', 'قوي أيضًا، خصوصًا مع بيانات Elasticsearch', 'Also strong, especially with Elasticsearch data', 9, 7),
+      spec('البحث النصي الكامل في السجلات', 'Full-text log search', 'ممكن لكن مش نقطة القوة الأساسية', 'Possible but not its core strength', 'من الأقوى في البحث النصي داخل السجلات', 'Among the strongest for full-text log search', 6, 9),
+    ],
+    verdictAr: 'Grafana أفضل لو محتاج لوحات مراقبة موحدة من مصادر بيانات متعددة. Kibana أقوى لو أصلًا بتستخدم Elasticsearch وبتركّز على البحث العميق في السجلات.',
+    verdictEn: 'Grafana is better if you need unified dashboards across multiple data sources. Kibana is stronger if you\'re already on Elasticsearch and focused on deep log search.',
+  },
+  {
+    d1: 'AnyDesk', d2: 'TeamViewer', sub: 'software-services', img1: 'server', img2: 'cloud',
+    specs: [
+      spec('سرعة الاتصال والاستجابة', 'Connection speed & responsiveness', 'يُعرف بسرعة استجابة عالية حتى على اتصالات أبطأ', 'Known for high responsiveness even on slower connections', 'جيد جدًا، أثقل شوية على اتصالات ضعيفة', 'Very good, slightly heavier on weak connections', 8, 7),
+      spec('التسعير للاستخدام التجاري', 'Pricing for commercial use', 'أرخص نسبيًا في أغلب الخطط', 'Relatively cheaper across most plans', 'أشمل ميزات لكن أعلى سعرًا عمومًا', 'More comprehensive features but generally pricier', 8, 6),
+      spec('ميزات الدعم الفني المؤسسي', 'Enterprise IT support features', 'جيدة ومتنامية', 'Good and growing', 'من الأنضج والأشمل تاريخيًا في هذا المجال', 'Historically among the most mature and comprehensive in this space', 7, 9),
+    ],
+    verdictAr: 'AnyDesk أسرع وأرخص لمعظم الاستخدامات اليومية. TeamViewer لسه الخيار الأشمل لمؤسسة كبيرة محتاجة ميزات دعم فني متقدمة ومتكاملة.',
+    verdictEn: 'AnyDesk is faster and cheaper for most day-to-day use. TeamViewer remains the more comprehensive choice for a large enterprise needing advanced, integrated IT support features.',
+  },
 ];
 
 export function generateComparisons({ count = COMPARISON_CONTENT.length, subcategory, startIndex = 0 } = {}) {

@@ -1080,5 +1080,222 @@
     ],
     "isFeatured": false,
     "isTrending": false
+  },
+  {
+    "id": "art-gen-0036",
+    "slug": "ransomware-first-hour-response",
+    "title": {
+      "ar": "أول ساعة بعد اكتشاف Ransomware: إيه تعمل بالظبط",
+      "en": "The First Hour After Discovering Ransomware: What to Actually Do"
+    },
+    "excerpt": {
+      "ar": "خطوات فورية قبل ما تفكر في الاستعادة، عشان متزودش الضرر.",
+      "en": "Immediate steps before even thinking about recovery, so you don't make things worse."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-09-03",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ransomware",
+      "incident-response",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0037",
+    "slug": "cloud-cost-optimization-basics",
+    "title": {
+      "ar": "تقليل فاتورة السحابة: خطوات عملية قبل ما تتفاجئ",
+      "en": "Cutting Your Cloud Bill: Practical Steps Before the Surprise Invoice"
+    },
+    "excerpt": {
+      "ar": "أشهر أسباب ارتفاع فاتورة AWS/Azure غير متوقع، وإزاي تتحكم فيها.",
+      "en": "The most common causes of an unexpectedly high AWS/Azure bill, and how to control them."
+    },
+    "categoryId": "technology",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-11-10",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "cloud",
+      "aws",
+      "cost-optimization"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0038",
+    "slug": "printer-security-overlooked-risk",
+    "title": {
+      "ar": "أمان الطابعات: الخطر اللي بينسوه أغلب مديري الأنظمة",
+      "en": "Printer Security: The Risk Most Sysadmins Forget"
+    },
+    "excerpt": {
+      "ar": "الطابعات الشبكية بتبقى نقطة دخول سهلة لو معندهاش نفس مستوى الاهتمام الأمني.",
+      "en": "Networked printers become an easy entry point when they don't get the same security attention as everything else."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-12-17",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "printers",
+      "endpoint-security",
+      "iot"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0039",
+    "slug": "browser-isolation-basics",
+    "title": {
+      "ar": "عزل المتصفح (Browser Isolation): طبقة حماية إضافية بسيطة",
+      "en": "Browser Isolation: A Simple Extra Protection Layer"
+    },
+    "excerpt": {
+      "ar": "إزاي تمنع كود خبيث من موقع مشبوه يوصل لجهاز المستخدم فعليًا.",
+      "en": "How to keep malicious code from a suspicious site from ever actually reaching the user's device."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-24",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "browser-isolation",
+      "phishing",
+      "endpoint-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0040",
+    "slug": "shadow-it-risk-management",
+    "title": {
+      "ar": "الـ Shadow IT: لما الموظفين يستخدموا أدوات مش معتمدة",
+      "en": "Shadow IT: When Employees Use Unapproved Tools"
+    },
+    "excerpt": {
+      "ar": "ليه بيحصل، وإيه الفرق بين المنع الكامل والإدارة الذكية للمخاطر.",
+      "en": "Why it happens, and the difference between total prohibition and smart risk management."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-04",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "shadow-it",
+      "risk-management",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0041",
+    "slug": "usb-device-control-policy",
+    "title": {
+      "ar": "سياسة التحكم في أجهزة USB: أمان بدون تعطيل الشغل",
+      "en": "USB Device Control Policy: Security Without Blocking Work"
+    },
+    "excerpt": {
+      "ar": "بدائل عملية غير \"امنع كل حاجة\" اللي بتوقف شغل ناس محتاجين USB فعليًا.",
+      "en": "Practical alternatives to 'block everything', which stops people who genuinely need USB access."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-11",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "usb",
+      "endpoint-security",
+      "group-policy"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0042",
+    "slug": "certificate-expiry-monitoring",
+    "title": {
+      "ar": "مراقبة انتهاء صلاحية الشهادات: خطأ بسيط بيوقف مواقع كاملة",
+      "en": "Certificate Expiry Monitoring: A Simple Mistake That Takes Down Whole Sites"
+    },
+    "excerpt": {
+      "ar": "ليه شهادة SSL منتهية أكتر خطأ محرج ومتكرر، وإزاي تتجنبه تمامًا.",
+      "en": "Why an expired SSL certificate is the most embarrassing and common mistake, and how to avoid it entirely."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-18",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ssl",
+      "certificates",
+      "monitoring"
+    ],
+    "isFeatured": false,
+    "isTrending": false
   }
 ]

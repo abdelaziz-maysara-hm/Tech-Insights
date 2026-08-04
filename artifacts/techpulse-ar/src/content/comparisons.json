@@ -3068,5 +3068,473 @@
       "ar": "Tailscale أسرع وأبسط بكتير لفريق صغير أو متوسط موزّع جغرافيًا. VPN التقليدي لسه منطقي لمؤسسة كبيرة محتاجة تحكم شبكي دقيق ومركزي.",
       "en": "Tailscale is much faster and simpler for a small-to-mid geographically distributed team. Traditional VPN still makes sense for a large organization needing precise, centralized network control."
     }
+  },
+  {
+    "id": "cmp-gen-0040",
+    "slug": "bitwarden-business-vs-keeper",
+    "title": {
+      "ar": "Bitwarden Business ضد Keeper",
+      "en": "Bitwarden Business vs Keeper"
+    },
+    "excerpt": {
+      "ar": "Bitwarden Business قيمة ممتازة وشفافية عالية للفرق الصغيرة والمتوسطة. Keeper أنسب لمؤسسة كبيرة محتاجة تحكم وتقارير أعمق",
+      "en": "Bitwarden Business offers excellent value and transparency for small-to-mid teams. Keeper fits a larger organization needing deeper control"
+    },
+    "device1Name": "Bitwarden Business",
+    "device2Name": "Keeper",
+    "device1Image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2025-11-04",
+    "categoryId": "comparisons",
+    "subcategoryId": "identity",
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التكلفة للفرق",
+          "en": "Cost for teams"
+        },
+        "device1Value": {
+          "ar": "من الأرخص في السوق لخطط الفرق",
+          "en": "Among the cheapest in the market for team plans"
+        },
+        "device2Value": {
+          "ar": "أعلى سعرًا لكن مع ميزات مؤسسية إضافية",
+          "en": "Higher priced but with extra enterprise features"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "مفتوح المصدر والشفافية",
+          "en": "Open source & transparency"
+        },
+        "device1Value": {
+          "ar": "مفتوح المصدر بالكامل، قابل للتدقيق",
+          "en": "Fully open-source, independently auditable"
+        },
+        "device2Value": {
+          "ar": "مغلق المصدر",
+          "en": "Closed source"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "ميزات المراقبة المؤسسية",
+          "en": "Enterprise monitoring features"
+        },
+        "device1Value": {
+          "ar": "أساسية",
+          "en": "Basic"
+        },
+        "device2Value": {
+          "ar": "تقارير وتحكم أعمق للمؤسسات الكبيرة",
+          "en": "Deeper reporting and control for large enterprises"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Bitwarden Business قيمة ممتازة وشفافية عالية للفرق الصغيرة والمتوسطة. Keeper أنسب لمؤسسة كبيرة محتاجة تحكم وتقارير أعمق وعندها ميزانية أعلى.",
+      "en": "Bitwarden Business offers excellent value and transparency for small-to-mid teams. Keeper fits a larger organization needing deeper control and reporting with a bigger budget."
+    }
+  },
+  {
+    "id": "cmp-gen-0041",
+    "slug": "rapid7-insightvm-vs-tenable-io",
+    "title": {
+      "ar": "Rapid7 InsightVM ضد Tenable.io",
+      "en": "Rapid7 InsightVM vs Tenable.io"
+    },
+    "excerpt": {
+      "ar": "الاتنين من أقوى حلول فحص الثغرات في السوق المؤسسي، والفرق العملي بينهم صغير. القرار غالبًا بيعتمد على الأدوات التانية ال",
+      "en": "Both are among the strongest enterprise vulnerability-scanning solutions, with a small practical gap between them. The decision usually come"
+    },
+    "device1Name": "Rapid7 InsightVM",
+    "device2Name": "Tenable.io",
+    "device1Image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2025-12-11",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "سهولة الربط بأدوات الاستجابة",
+          "en": "Integration with response tooling"
+        },
+        "device1Value": {
+          "ar": "تكامل قوي مع أدوات Rapid7 الأخرى (SOAR)",
+          "en": "Strong integration with other Rapid7 tools (SOAR)"
+        },
+        "device2Value": {
+          "ar": "تكامل واسع أيضًا عبر شراكات كتيرة",
+          "en": "Also wide integration through many partnerships"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 0
+      },
+      "spec2": {
+        "label": {
+          "ar": "سهولة البداية",
+          "en": "Ease of getting started"
+        },
+        "device1Value": {
+          "ar": "واجهة واضحة نسبيًا",
+          "en": "Relatively clear interface"
+        },
+        "device2Value": {
+          "ar": "من الأسهل تاريخيًا في فحص الثغرات",
+          "en": "Historically among the easiest for vulnerability scanning"
+        },
+        "device1Score": 7,
+        "device2Score": 8,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "عمق التحليل والتقييم",
+          "en": "Analysis & prioritization depth"
+        },
+        "device1Value": {
+          "ar": "قوي جدًا في ترتيب أولوية المخاطر الفعلية",
+          "en": "Very strong at prioritizing real risk"
+        },
+        "device2Value": {
+          "ar": "قوي أيضًا، معيار صناعي معروف",
+          "en": "Also strong, a well-known industry standard"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 0
+      }
+    },
+    "verdict": {
+      "ar": "الاتنين من أقوى حلول فحص الثغرات في السوق المؤسسي، والفرق العملي بينهم صغير. القرار غالبًا بيعتمد على الأدوات التانية الموجودة أصلًا في بيئتك.",
+      "en": "Both are among the strongest enterprise vulnerability-scanning solutions, with a small practical gap between them. The decision usually comes down to what other tools already exist in your environment."
+    }
+  },
+  {
+    "id": "cmp-gen-0042",
+    "slug": "postman-vs-insomnia",
+    "title": {
+      "ar": "Postman ضد Insomnia",
+      "en": "Postman vs Insomnia"
+    },
+    "excerpt": {
+      "ar": "Postman أشمل لفريق كبير محتاج ميزات متقدمة وتعاون. Insomnia أفضل لمطوّر فردي أو فريق صغير عايز أداة خفيفة وسريعة بدون تع",
+      "en": "Postman is more comprehensive for a large team needing advanced features and collaboration. Insomnia is better for a solo developer or small"
+    },
+    "device1Name": "Postman",
+    "device2Name": "Insomnia",
+    "device1Image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-02-18",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "مجموعة الميزات الشاملة",
+          "en": "Overall feature breadth"
+        },
+        "device1Value": {
+          "ar": "أوسع بكثير (اختبار تلقائي، مراقبة، توثيق)",
+          "en": "Much broader (automated testing, monitoring, docs)"
+        },
+        "device2Value": {
+          "ar": "أبسط وأخف، يركّز على الأساسيات",
+          "en": "Simpler and lighter, focused on the essentials"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "سرعة الأداء واستهلاك الموارد",
+          "en": "Performance & resource usage"
+        },
+        "device1Value": {
+          "ar": "أثقل نسبيًا مع كل الميزات المدمجة",
+          "en": "Relatively heavier with all its bundled features"
+        },
+        "device2Value": {
+          "ar": "أخف وأسرع بشكل ملحوظ",
+          "en": "Noticeably lighter and faster"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "التعاون الجماعي",
+          "en": "Team collaboration"
+        },
+        "device1Value": {
+          "ar": "قوي جدًا مع مساحات عمل مشتركة",
+          "en": "Very strong with shared workspaces"
+        },
+        "device2Value": {
+          "ar": "جيد، أبسط نسبيًا",
+          "en": "Good, relatively simpler"
+        },
+        "device1Score": 8,
+        "device2Score": 6,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "Postman أشمل لفريق كبير محتاج ميزات متقدمة وتعاون. Insomnia أفضل لمطوّر فردي أو فريق صغير عايز أداة خفيفة وسريعة بدون تعقيد زيادة.",
+      "en": "Postman is more comprehensive for a large team needing advanced features and collaboration. Insomnia is better for a solo developer or small team wanting a light, fast tool without extra complexity."
+    }
+  },
+  {
+    "id": "cmp-gen-0043",
+    "slug": "github-actions-vs-jenkins",
+    "title": {
+      "ar": "GitHub Actions ضد Jenkins",
+      "en": "GitHub Actions vs Jenkins"
+    },
+    "excerpt": {
+      "ar": "GitHub Actions أسرع بداية وأبسط لمعظم المشاريع الحديثة على GitHub. Jenkins لسه الخيار الأقوى لبيئة محتاجة تخصيص كامل أو",
+      "en": "GitHub Actions is faster to start and simpler for most modern GitHub-hosted projects. Jenkins remains the stronger choice for an environment"
+    },
+    "device1Name": "GitHub Actions",
+    "device2Name": "Jenkins",
+    "device1Image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-03-25",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "سهولة الإعداد",
+          "en": "Setup ease"
+        },
+        "device1Value": {
+          "ar": "مدمج مباشرة في GitHub، إعداد سريع جدًا",
+          "en": "Built directly into GitHub, very fast setup"
+        },
+        "device2Value": {
+          "ar": "يحتاج تثبيت وإدارة سيرفر منفصل",
+          "en": "Needs a separate server install and management"
+        },
+        "device1Score": 9,
+        "device2Score": 4,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "المرونة والتخصيص الكامل",
+          "en": "Full flexibility & customization"
+        },
+        "device1Value": {
+          "ar": "جيدة لكن محدودة نسبيًا بمنصة GitHub",
+          "en": "Good but relatively limited to the GitHub platform"
+        },
+        "device2Value": {
+          "ar": "مرونة شبه كاملة، آلاف الإضافات",
+          "en": "Near-total flexibility, thousands of plugins"
+        },
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "التكلفة لمشروع مفتوح المصدر صغير",
+          "en": "Cost for a small open-source project"
+        },
+        "device1Value": {
+          "ar": "دقائق تشغيل مجانية سخية",
+          "en": "Generous free run-minutes"
+        },
+        "device2Value": {
+          "ar": "مجاني بالكامل لكن يحتاج استضافة خاصة بك",
+          "en": "Fully free but needs your own hosting"
+        },
+        "device1Score": 8,
+        "device2Score": 7,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "GitHub Actions أسرع بداية وأبسط لمعظم المشاريع الحديثة على GitHub. Jenkins لسه الخيار الأقوى لبيئة محتاجة تخصيص كامل أو مش على GitHub أصلًا.",
+      "en": "GitHub Actions is faster to start and simpler for most modern GitHub-hosted projects. Jenkins remains the stronger choice for an environment needing full customization or not on GitHub at all."
+    }
+  },
+  {
+    "id": "cmp-gen-0044",
+    "slug": "grafana-vs-kibana",
+    "title": {
+      "ar": "Grafana ضد Kibana",
+      "en": "Grafana vs Kibana"
+    },
+    "excerpt": {
+      "ar": "Grafana أفضل لو محتاج لوحات مراقبة موحدة من مصادر بيانات متعددة. Kibana أقوى لو أصلًا بتستخدم Elasticsearch وبتركّز على",
+      "en": "Grafana is better if you need unified dashboards across multiple data sources. Kibana is stronger if you're already on Elasticsearch and foc"
+    },
+    "device1Name": "Grafana",
+    "device2Name": "Kibana",
+    "device1Image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-04-05",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "مصادر البيانات المدعومة",
+          "en": "Supported data sources"
+        },
+        "device1Value": {
+          "ar": "يدعم مصادر بيانات متنوعة جدًا (Prometheus, MySQL, وغيرها)",
+          "en": "Supports a very wide variety of data sources (Prometheus, MySQL, and more)"
+        },
+        "device2Value": {
+          "ar": "مرتبط أساسًا بمنظومة Elasticsearch",
+          "en": "Primarily tied to the Elasticsearch ecosystem"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "لوحات المراقبة والتنبيهات",
+          "en": "Dashboards & alerting"
+        },
+        "device1Value": {
+          "ar": "من الأقوى في السوق لهذا الغرض تحديدًا",
+          "en": "Among the strongest in the market specifically for this"
+        },
+        "device2Value": {
+          "ar": "قوي أيضًا، خصوصًا مع بيانات Elasticsearch",
+          "en": "Also strong, especially with Elasticsearch data"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "البحث النصي الكامل في السجلات",
+          "en": "Full-text log search"
+        },
+        "device1Value": {
+          "ar": "ممكن لكن مش نقطة القوة الأساسية",
+          "en": "Possible but not its core strength"
+        },
+        "device2Value": {
+          "ar": "من الأقوى في البحث النصي داخل السجلات",
+          "en": "Among the strongest for full-text log search"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Grafana أفضل لو محتاج لوحات مراقبة موحدة من مصادر بيانات متعددة. Kibana أقوى لو أصلًا بتستخدم Elasticsearch وبتركّز على البحث العميق في السجلات.",
+      "en": "Grafana is better if you need unified dashboards across multiple data sources. Kibana is stronger if you're already on Elasticsearch and focused on deep log search."
+    }
+  },
+  {
+    "id": "cmp-gen-0045",
+    "slug": "anydesk-vs-teamviewer",
+    "title": {
+      "ar": "AnyDesk ضد TeamViewer",
+      "en": "AnyDesk vs TeamViewer"
+    },
+    "excerpt": {
+      "ar": "AnyDesk أسرع وأرخص لمعظم الاستخدامات اليومية. TeamViewer لسه الخيار الأشمل لمؤسسة كبيرة محتاجة ميزات دعم فني متقدمة ومتك",
+      "en": "AnyDesk is faster and cheaper for most day-to-day use. TeamViewer remains the more comprehensive choice for a large enterprise needing advan"
+    },
+    "device1Name": "AnyDesk",
+    "device2Name": "TeamViewer",
+    "device1Image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-05-12",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "سرعة الاتصال والاستجابة",
+          "en": "Connection speed & responsiveness"
+        },
+        "device1Value": {
+          "ar": "يُعرف بسرعة استجابة عالية حتى على اتصالات أبطأ",
+          "en": "Known for high responsiveness even on slower connections"
+        },
+        "device2Value": {
+          "ar": "جيد جدًا، أثقل شوية على اتصالات ضعيفة",
+          "en": "Very good, slightly heavier on weak connections"
+        },
+        "device1Score": 8,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "التسعير للاستخدام التجاري",
+          "en": "Pricing for commercial use"
+        },
+        "device1Value": {
+          "ar": "أرخص نسبيًا في أغلب الخطط",
+          "en": "Relatively cheaper across most plans"
+        },
+        "device2Value": {
+          "ar": "أشمل ميزات لكن أعلى سعرًا عمومًا",
+          "en": "More comprehensive features but generally pricier"
+        },
+        "device1Score": 8,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "ميزات الدعم الفني المؤسسي",
+          "en": "Enterprise IT support features"
+        },
+        "device1Value": {
+          "ar": "جيدة ومتنامية",
+          "en": "Good and growing"
+        },
+        "device2Value": {
+          "ar": "من الأنضج والأشمل تاريخيًا في هذا المجال",
+          "en": "Historically among the most mature and comprehensive in this space"
+        },
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "AnyDesk أسرع وأرخص لمعظم الاستخدامات اليومية. TeamViewer لسه الخيار الأشمل لمؤسسة كبيرة محتاجة ميزات دعم فني متقدمة ومتكاملة.",
+      "en": "AnyDesk is faster and cheaper for most day-to-day use. TeamViewer remains the more comprehensive choice for a large enterprise needing advanced, integrated IT support features."
+    }
   }
 ]
