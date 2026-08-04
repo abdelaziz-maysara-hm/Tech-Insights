@@ -17,6 +17,24 @@ const CATEGORIES = new Set([
   'technology',
 ]);
 
+/** Mirrors src/data/subcategories.ts -- kept in sync manually, same as scripts/generator/categories.mjs. */
+const ALLOWED_SUBCATEGORIES: Record<string, Set<string>> = {
+  mobile: new Set(['reviews', 'best-picks', 'guides-tips', 'concepts', 'news-updates', 'general']),
+  laptops: new Set(['reviews', 'best-picks', 'guides-tips', 'concepts', 'news-updates', 'general']),
+  windows: new Set(['reviews', 'best-picks', 'guides-tips', 'concepts', 'news-updates', 'general']),
+  howto: new Set(['reviews', 'best-picks', 'guides-tips', 'concepts', 'news-updates', 'general']),
+  ai: new Set(['reviews', 'best-picks', 'guides-tips', 'concepts', 'news-updates', 'general']),
+  technology: new Set(['reviews', 'best-picks', 'guides-tips', 'concepts', 'news-updates', 'general']),
+  cybersecurity: new Set([
+    'guides-tips', 'network-security', 'identity', 'endpoint', 'vpn-remote', 'concepts', 'news-updates', 'general',
+  ]),
+  reviews: new Set(['phones-wearables', 'audio', 'cameras-drones', 'gaming', 'accessories-peripherals', 'general']),
+  comparisons: new Set([
+    'phones', 'laptops-pcs', 'network-security', 'identity', 'endpoint',
+    'software-services', 'gaming-consoles', 'wearables', 'general',
+  ]),
+};
+
 function isObject(v: unknown): v is Record<string, unknown> {
   return typeof v === 'object' && v !== null && !Array.isArray(v);
 }
@@ -74,6 +92,22 @@ export function extractYouTubeId(input: string | undefined | null): string {
 
   const match = raw.match(/[\w-]{11}/);
   return match ? match[0] : '';
+}
+
+/** Extract a YouTube playlist id (?list=...) from a bare id or full URL. */
+export function extractYouTubePlaylistId(input: string | undefined | null): string {
+  if (!input) return '';
+  const raw = input.trim();
+  if (!raw) return '';
+  if (/^[\w-]{13,}$/.test(raw) && !/^[\w-]{11}$/.test(raw)) return raw;
+  try {
+    const url = new URL(raw.startsWith('http') ? raw : `https://${raw}`);
+    const list = url.searchParams.get('list');
+    if (list) return list;
+  } catch {
+    /* not a URL */
+  }
+  return '';
 }
 
 function normalizeHttpsUrl(input: string | undefined | null, fallback: string): string {
@@ -194,7 +228,15 @@ export function validateAndNormalizeArticle(
 
   if (youtubeVideoId) item.youtubeVideoId = youtubeVideoId;
   if (typeof raw.subcategoryId === 'string' && raw.subcategoryId.trim()) {
-    item.subcategoryId = raw.subcategoryId.trim();
+    const sub = raw.subcategoryId.trim();
+    const allowed = ALLOWED_SUBCATEGORIES[categoryId];
+    if (allowed && !allowed.has(sub)) {
+      return {
+        ok: false,
+        errors: [`${prefix}.subcategoryId: "${sub}" is not allowed under category "${categoryId}". Allowed: ${[...(allowed || [])].join(', ')}`],
+      };
+    }
+    item.subcategoryId = sub;
   }
 
   return { ok: true, errors: [], item };
@@ -225,10 +267,14 @@ export function validateAndNormalizeVideo(
             ? raw.url
             : '';
   const youtubeId = extractYouTubeId(ytRaw);
+  const youtubePlaylistId =
+    typeof raw.youtubePlaylistId === 'string'
+      ? extractYouTubePlaylistId(raw.youtubePlaylistId)
+      : extractYouTubePlaylistId(ytRaw);
 
-  if (!youtubeId) {
+  if (!youtubeId && !youtubePlaylistId) {
     errors.push(
-      `${prefix}.youtubeId: required — paste a YouTube URL or 11-char id (e.g. https://youtu.be/dQw4w9WgXcQ)`,
+      `${prefix}.youtubeId: required — paste a YouTube video or playlist URL (e.g. https://youtu.be/dQw4w9WgXcQ or a ?list=... playlist link)`,
     );
   }
   if (errors.length) return { ok: false, errors };
@@ -241,6 +287,7 @@ export function validateAndNormalizeVideo(
       title: raw.title,
       description: isBilingual(raw.description) ? raw.description : { ar: '', en: '' },
       youtubeId,
+      ...(youtubePlaylistId ? { youtubePlaylistId } : {}),
       date:
         typeof raw.date === 'string' && /^\d{4}-\d{2}-\d{2}/.test(raw.date)
           ? raw.date.slice(0, 10)
