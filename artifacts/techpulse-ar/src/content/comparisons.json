@@ -2600,5 +2600,473 @@
       "ar": "Cloudflare خيار ممتاز وسريع البداية لمعظم المواقع، بما فيها الصغيرة والمتوسطة. Akamai أنسب لمؤسسات ضخمة جدًا محتاجة أعلى مستوى حماية وأداء عالمي بميزانية مؤسسية.",
       "en": "Cloudflare is an excellent, fast-to-start choice for most sites, including small and mid-size ones. Akamai fits very large enterprises needing the highest tier of protection and global performance at enterprise budget."
     }
+  },
+  {
+    "id": "cmp-gen-0034",
+    "slug": "duo-security-vs-microsoft-authenticator",
+    "title": {
+      "ar": "Duo Security ضد Microsoft Authenticator",
+      "en": "Duo Security vs Microsoft Authenticator"
+    },
+    "excerpt": {
+      "ar": "Duo أفضل لبيئة متنوعة مش معتمدة على Microsoft بشكل أساسي. Microsoft Authenticator منطقي جدًا وأرخص لو أصلًا مشترك في Mic",
+      "en": "Duo is the better fit for a diverse environment not centered on Microsoft. Microsoft Authenticator makes strong sense -- and is cheaper -- i"
+    },
+    "device1Name": "Duo Security",
+    "device2Name": "Microsoft Authenticator",
+    "device1Image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "date": "2025-10-16",
+    "categoryId": "comparisons",
+    "subcategoryId": "identity",
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "استقلالية المنصة",
+          "en": "Platform independence"
+        },
+        "device1Value": {
+          "ar": "محايد تمامًا، يشتغل مع أي مزوّد هوية",
+          "en": "Fully vendor-neutral, works with any identity provider"
+        },
+        "device2Value": {
+          "ar": "أقوى طبيعيًا داخل منظومة Microsoft",
+          "en": "Naturally strongest inside the Microsoft ecosystem"
+        },
+        "device1Score": 8,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "سهولة الإعداد الأولي",
+          "en": "Initial setup ease"
+        },
+        "device1Value": {
+          "ar": "واجهة إعداد بسيطة وسريعة",
+          "en": "Simple, fast setup interface"
+        },
+        "device2Value": {
+          "ar": "سريع جدًا لو أصلًا على Entra ID",
+          "en": "Very fast if already on Entra ID"
+        },
+        "device1Score": 8,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "التكلفة",
+          "en": "Cost"
+        },
+        "device1Value": {
+          "ar": "خطط مستقلة بأسعار واضحة",
+          "en": "Standalone plans with clear pricing"
+        },
+        "device2Value": {
+          "ar": "غالبًا مُضمّن ضمن تراخيص Microsoft 365",
+          "en": "Often bundled within Microsoft 365 licensing"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Duo أفضل لبيئة متنوعة مش معتمدة على Microsoft بشكل أساسي. Microsoft Authenticator منطقي جدًا وأرخص لو أصلًا مشترك في Microsoft 365.",
+      "en": "Duo is the better fit for a diverse environment not centered on Microsoft. Microsoft Authenticator makes strong sense -- and is cheaper -- if you're already on Microsoft 365."
+    }
+  },
+  {
+    "id": "cmp-gen-0035",
+    "slug": "terraform-vs-ansible",
+    "title": {
+      "ar": "Terraform ضد Ansible",
+      "en": "Terraform vs Ansible"
+    },
+    "excerpt": {
+      "ar": "الأداتين مكملتين لبعض مش بديلتين — Terraform لبناء البنية التحتية، Ansible لضبطها بعد كده. كتير من الفرق بتستخدم الاتنين",
+      "en": "These tools complement rather than replace each other -- Terraform provisions infrastructure, Ansible configures it afterward. Many teams us"
+    },
+    "device1Name": "Terraform",
+    "device2Name": "Ansible",
+    "device1Image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2025-12-23",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "الغرض الأساسي",
+          "en": "Primary purpose"
+        },
+        "device1Value": {
+          "ar": "بناء وإدارة البنية التحتية نفسها (IaC)",
+          "en": "Provisioning and managing the infrastructure itself (IaC)"
+        },
+        "device2Value": {
+          "ar": "ضبط إعدادات الأنظمة بعد إنشائها (Configuration Management)",
+          "en": "Configuring systems after they exist (configuration management)"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 0
+      },
+      "spec2": {
+        "label": {
+          "ar": "إدارة الحالة (State)",
+          "en": "State management"
+        },
+        "device1Value": {
+          "ar": "يحتفظ بملف حالة يتتبع كل مورد",
+          "en": "Maintains a state file tracking every resource"
+        },
+        "device2Value": {
+          "ar": "بدون حالة مركزية، بيتأكد من الوضع الحالي كل مرة",
+          "en": "Stateless, checks current condition each run"
+        },
+        "device1Score": 8,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "التعامل مع بيئات سحابية متعددة",
+          "en": "Multi-cloud handling"
+        },
+        "device1Value": {
+          "ar": "من الأقوى والأشهر لهذا الغرض تحديدًا",
+          "en": "Among the strongest and most popular specifically for this"
+        },
+        "device2Value": {
+          "ar": "ممكن لكن مش الغرض الأساسي له",
+          "en": "Possible but not its primary design goal"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "الأداتين مكملتين لبعض مش بديلتين — Terraform لبناء البنية التحتية، Ansible لضبطها بعد كده. كتير من الفرق بتستخدم الاتنين مع بعض.",
+      "en": "These tools complement rather than replace each other -- Terraform provisions infrastructure, Ansible configures it afterward. Many teams use both together."
+    }
+  },
+  {
+    "id": "cmp-gen-0036",
+    "slug": "datto-vs-veeam",
+    "title": {
+      "ar": "Datto ضد Veeam",
+      "en": "Datto vs Veeam"
+    },
+    "excerpt": {
+      "ar": "Datto منطقي جدًا لو أنت مزوّد خدمات مُدارة بيدير نسخ احتياطي لعملاء متعددين. Veeam أنسب لو محتاج تدير نسخ احتياطي لبيئة",
+      "en": "Datto makes strong sense if you're an MSP managing backups for multiple clients. Veeam fits better if you're managing backup for a single en"
+    },
+    "device1Name": "Datto",
+    "device2Name": "Veeam",
+    "device1Image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "date": "2026-01-03",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التركيز الأساسي",
+          "en": "Core focus"
+        },
+        "device1Value": {
+          "ar": "موجّه أساسًا لمزوّدي الخدمات المُدارة (MSP)",
+          "en": "Primarily aimed at Managed Service Providers (MSPs)"
+        },
+        "device2Value": {
+          "ar": "مناسب لكل الأحجام من شركة صغيرة لمؤسسة ضخمة",
+          "en": "Fits everything from small business to large enterprise"
+        },
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec2": {
+        "label": {
+          "ar": "سرعة الاستعادة",
+          "en": "Recovery speed"
+        },
+        "device1Value": {
+          "ar": "يركّز بقوة على استمرارية العمل (BCDR) بسرعة استعادة عالية",
+          "en": "Strong focus on business continuity (BCDR) with fast recovery"
+        },
+        "device2Value": {
+          "ar": "ممتاز أيضًا، خيارات استعادة مرنة",
+          "en": "Also excellent, with flexible recovery options"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 0
+      },
+      "spec3": {
+        "label": {
+          "ar": "سهولة الإدارة لعميل واحد فقط",
+          "en": "Manageability for a single client"
+        },
+        "device1Value": {
+          "ar": "مصمم لإدارة عملاء متعددين معًا",
+          "en": "Designed to manage multiple clients at once"
+        },
+        "device2Value": {
+          "ar": "أبسط وأنسب لو محتاج تدير بيئة واحدة بس",
+          "en": "Simpler and better suited to managing just one environment"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Datto منطقي جدًا لو أنت مزوّد خدمات مُدارة بيدير نسخ احتياطي لعملاء متعددين. Veeam أنسب لو محتاج تدير نسخ احتياطي لبيئة واحدة (شركتك بس).",
+      "en": "Datto makes strong sense if you're an MSP managing backups for multiple clients. Veeam fits better if you're managing backup for a single environment (just your own company)."
+    }
+  },
+  {
+    "id": "cmp-gen-0037",
+    "slug": "qualys-vs-nessus",
+    "title": {
+      "ar": "Qualys ضد Nessus",
+      "en": "Qualys vs Nessus"
+    },
+    "excerpt": {
+      "ar": "Qualys أقوى لمؤسسة كبيرة محتاجة رؤية شاملة عبر بنية تحتية معقدة. Nessus أسهل بداية وأنسب لفريق أمان صغير أو متوسط.",
+      "en": "Qualys is stronger for a large organization needing comprehensive visibility across complex infrastructure. Nessus is easier to start with a"
+    },
+    "device1Name": "Qualys",
+    "device2Name": "Nessus",
+    "device1Image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-02-10",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "نموذج النشر",
+          "en": "Deployment model"
+        },
+        "device1Value": {
+          "ar": "سحابي بالكامل غالبًا",
+          "en": "Mostly fully cloud-based"
+        },
+        "device2Value": {
+          "ar": "يدعم النشر المحلي والسحابي",
+          "en": "Supports both on-premises and cloud deployment"
+        },
+        "device1Score": 7,
+        "device2Score": 8,
+        "winner": 2
+      },
+      "spec2": {
+        "label": {
+          "ar": "سهولة البداية لفريق صغير",
+          "en": "Ease of start for a small team"
+        },
+        "device1Value": {
+          "ar": "يحتاج تخطيط أولي أكتر",
+          "en": "Needs more upfront planning"
+        },
+        "device2Value": {
+          "ar": "من أسهل أدوات فحص الثغرات بداية في السوق",
+          "en": "Among the easiest vulnerability scanners to get started with"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "عمق التقارير المؤسسية",
+          "en": "Enterprise reporting depth"
+        },
+        "device1Value": {
+          "ar": "قوي جدًا لمؤسسات كبيرة متعددة الأنظمة",
+          "en": "Very strong for large multi-system enterprises"
+        },
+        "device2Value": {
+          "ar": "جيد جدًا، أبسط للفرق الأصغر",
+          "en": "Very good, simpler for smaller teams"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "Qualys أقوى لمؤسسة كبيرة محتاجة رؤية شاملة عبر بنية تحتية معقدة. Nessus أسهل بداية وأنسب لفريق أمان صغير أو متوسط.",
+      "en": "Qualys is stronger for a large organization needing comprehensive visibility across complex infrastructure. Nessus is easier to start with and fits a small-to-mid security team better."
+    }
+  },
+  {
+    "id": "cmp-gen-0038",
+    "slug": "google-workspace-vs-microsoft-365",
+    "title": {
+      "ar": "Google Workspace ضد Microsoft 365",
+      "en": "Google Workspace vs Microsoft 365"
+    },
+    "excerpt": {
+      "ar": "Google Workspace أفضل لفريق يعتمد بشكل أساسي على التعاون السحابي البسيط. Microsoft 365 أنسب لمؤسسة محتاجة تطبيقات مكتبية",
+      "en": "Google Workspace is better for a team relying mainly on simple cloud collaboration. Microsoft 365 fits an organization needing full desktop"
+    },
+    "device1Name": "Google Workspace",
+    "device2Name": "Microsoft 365",
+    "device1Image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "date": "2026-04-17",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التعاون اللحظي على المستندات",
+          "en": "Real-time document collaboration"
+        },
+        "device1Value": {
+          "ar": "من الأنضج والأسلس في السوق تاريخيًا",
+          "en": "Historically among the smoothest and most mature in the market"
+        },
+        "device2Value": {
+          "ar": "تحسّن كثيرًا، لسه خلف قليلًا في السلاسة اللحظية",
+          "en": "Improved a lot, still slightly behind in real-time smoothness"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "التكامل مع أدوات مؤسسية تقليدية",
+          "en": "Integration with traditional enterprise tools"
+        },
+        "device1Value": {
+          "ar": "أقل تكاملًا مع أنظمة Windows/AD التقليدية",
+          "en": "Less integrated with traditional Windows/AD systems"
+        },
+        "device2Value": {
+          "ar": "تكامل عميق وطبيعي مع Windows وActive Directory",
+          "en": "Deep, native integration with Windows and Active Directory"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "تطبيقات المكتب الكاملة (Desktop)",
+          "en": "Full desktop office apps"
+        },
+        "device1Value": {
+          "ar": "أساسًا سحابي، تطبيقات مكتبية محدودة",
+          "en": "Primarily cloud-based, limited desktop apps"
+        },
+        "device2Value": {
+          "ar": "تطبيقات Office الكاملة (Word, Excel) بجانب النسخة السحابية",
+          "en": "Full desktop Office apps (Word, Excel) alongside the cloud version"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Google Workspace أفضل لفريق يعتمد بشكل أساسي على التعاون السحابي البسيط. Microsoft 365 أنسب لمؤسسة محتاجة تطبيقات مكتبية كاملة وتكامل عميق مع بنية Windows موجودة أصلًا.",
+      "en": "Google Workspace is better for a team relying mainly on simple cloud collaboration. Microsoft 365 fits an organization needing full desktop apps and deep integration with an existing Windows infrastructure."
+    }
+  },
+  {
+    "id": "cmp-gen-0039",
+    "slug": "tailscale-vs-traditional-site-to-site-vpn",
+    "title": {
+      "ar": "Tailscale ضد Traditional Site-to-Site VPN",
+      "en": "Tailscale vs Traditional Site-to-Site VPN"
+    },
+    "excerpt": {
+      "ar": "Tailscale أسرع وأبسط بكتير لفريق صغير أو متوسط موزّع جغرافيًا. VPN التقليدي لسه منطقي لمؤسسة كبيرة محتاجة تحكم شبكي دقيق",
+      "en": "Tailscale is much faster and simpler for a small-to-mid geographically distributed team. Traditional VPN still makes sense for a large organ"
+    },
+    "device1Name": "Tailscale",
+    "device2Name": "Traditional Site-to-Site VPN",
+    "device1Image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-05-24",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "سهولة الإعداد",
+          "en": "Setup ease"
+        },
+        "device1Value": {
+          "ar": "إعداد سريع جدًا يعتمد على WireGuard، بدون تعقيد شبكي تقليدي",
+          "en": "Very fast WireGuard-based setup, without traditional networking complexity"
+        },
+        "device2Value": {
+          "ar": "يحتاج إعداد أعمق (IPs, routing, firewall rules)",
+          "en": "Needs deeper setup (IPs, routing, firewall rules)"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "الملاءمة لفرق موزّعة (Remote)",
+          "en": "Fit for distributed remote teams"
+        },
+        "device1Value": {
+          "ar": "مصمم أساسًا لهذا الغرض بالظبط",
+          "en": "Built specifically for exactly this purpose"
+        },
+        "device2Value": {
+          "ar": "ممكن لكن مش الاستخدام الأساسي له",
+          "en": "Possible but not its primary use case"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "التحكم المركزي التقليدي",
+          "en": "Traditional centralized control"
+        },
+        "device1Value": {
+          "ar": "أبسط، أقل تحكم دقيق على مستوى الشبكة",
+          "en": "Simpler, less granular network-level control"
+        },
+        "device2Value": {
+          "ar": "تحكم كامل ودقيق جدًا على مستوى الشبكة",
+          "en": "Full, very granular network-level control"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Tailscale أسرع وأبسط بكتير لفريق صغير أو متوسط موزّع جغرافيًا. VPN التقليدي لسه منطقي لمؤسسة كبيرة محتاجة تحكم شبكي دقيق ومركزي.",
+      "en": "Tailscale is much faster and simpler for a small-to-mid geographically distributed team. Traditional VPN still makes sense for a large organization needing precise, centralized network control."
+    }
   }
 ]

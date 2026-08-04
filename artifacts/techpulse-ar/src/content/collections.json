@@ -140,8 +140,8 @@
       "en": "Best Identity & Access Management (IAM) Tools"
     },
     "description": {
-      "ar": "قائمة منسّقة تضم 5 مصادر حقيقية عن أفضل أدوات إدارة الهوية والوصول.",
-      "en": "A curated list of 5 real resources on best identity & access management (iam) tools."
+      "ar": "قائمة منسّقة تضم 8 مصادر حقيقية عن أفضل أدوات إدارة الهوية والوصول.",
+      "en": "A curated list of 8 real resources on best identity & access management (iam) tools."
     },
     "categoryId": "cybersecurity",
     "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
@@ -151,7 +151,10 @@
       "okta-vs-microsoft-entra-id",
       "windows-nps-vs-freeradius",
       "group-policy-basics-for-sysadmins",
-      "group-policy-vs-microsoft-intune"
+      "group-policy-vs-microsoft-intune",
+      "mfa-fatigue-attacks-explained",
+      "duo-security-vs-microsoft-authenticator",
+      "least-privilege-principle-practical"
     ],
     "isFeatured": false
   },
@@ -183,15 +186,21 @@
       "en": "Best SIEM & Security Monitoring Tools"
     },
     "description": {
-      "ar": "قائمة منسّقة تضم 2 مصادر حقيقية عن أفضل أدوات مراقبة الأمن (SIEM).",
-      "en": "A curated list of 2 real resources on best siem & security monitoring tools."
+      "ar": "قائمة منسّقة تضم 8 مصادر حقيقية عن أفضل أدوات مراقبة الأمن (SIEM).",
+      "en": "A curated list of 8 real resources on best siem & security monitoring tools."
     },
     "categoryId": "cybersecurity",
     "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
     "date": "2025-12-03",
     "itemSlugs": [
       "splunk-vs-wazuh",
-      "zero-trust-explained-practically"
+      "zero-trust-explained-practically",
+      "log-retention-siem-basics",
+      "syslog-server-setup-basics",
+      "windows-event-viewer-security-logs",
+      "snmp-monitoring-basics",
+      "zabbix-vs-nagios",
+      "qualys-vs-nessus"
     ],
     "isFeatured": false
   }

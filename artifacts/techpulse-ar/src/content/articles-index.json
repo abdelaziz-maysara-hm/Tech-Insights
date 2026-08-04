@@ -863,5 +863,222 @@
     ],
     "isFeatured": false,
     "isTrending": false
+  },
+  {
+    "id": "art-gen-0029",
+    "slug": "hyper-v-vs-checkpoints-basics",
+    "title": {
+      "ar": "استخدام Checkpoints في Hyper-V بأمان",
+      "en": "Using Hyper-V Checkpoints Safely"
+    },
+    "excerpt": {
+      "ar": "الفرق بين Checkpoint ونسخة احتياطية حقيقية، ومتى تستخدم كل واحدة.",
+      "en": "The difference between a checkpoint and a real backup, and when to use each."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-07-08",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "hyper-v",
+      "virtualization",
+      "backup"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0030",
+    "slug": "mfa-fatigue-attacks-explained",
+    "title": {
+      "ar": "هجمات إرهاق المصادقة الثنائية (MFA Fatigue): إزاي تحمي فريقك",
+      "en": "MFA Fatigue Attacks: How to Protect Your Team"
+    },
+    "excerpt": {
+      "ar": "لما المهاجم يقصف المستخدم بطلبات موافقة متكررة لحد ما يوافق بالغلط.",
+      "en": "When an attacker bombards a user with repeated approval prompts until they accidentally approve."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-08-15",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "mfa",
+      "phishing",
+      "identity"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0031",
+    "slug": "windows-event-viewer-security-logs",
+    "title": {
+      "ar": "قراءة سجلات الأمان في Event Viewer بذكاء",
+      "en": "Reading Windows Security Logs in Event Viewer Smartly"
+    },
+    "excerpt": {
+      "ar": "أهم Event IDs اللي لازم تنتبه لها من غير ما تغرق في آلاف السجلات.",
+      "en": "The key Event IDs worth watching, without drowning in thousands of log entries."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-09-22",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "event-viewer",
+      "windows-security",
+      "logging"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0032",
+    "slug": "wifi-6-vs-wifi-5-practical",
+    "title": {
+      "ar": "Wi-Fi 6 مقابل Wi-Fi 5: هل الترقية تستاهل فعلًا؟",
+      "en": "Wi-Fi 6 vs Wi-Fi 5: Is the Upgrade Actually Worth It?"
+    },
+    "excerpt": {
+      "ar": "الفرق الحقيقي في الأداء لما يكون عندك أجهزة كتيرة متصلة بالشبكة بنفس الوقت.",
+      "en": "The real performance difference when many devices are connected to the network simultaneously."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-11-02",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "wifi",
+      "networking",
+      "hardware"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0033",
+    "slug": "dark-web-monitoring-basics",
+    "title": {
+      "ar": "مراقبة الديب/دارك ويب لبيانات شركتك: هل تحتاجها؟",
+      "en": "Dark Web Monitoring for Your Company's Data: Do You Need It?"
+    },
+    "excerpt": {
+      "ar": "إيه اللي بتعمله خدمات مراقبة الدارك ويب فعليًا، ومتى تستاهل التكلفة.",
+      "en": "What dark web monitoring services actually do, and when the cost is worth it."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-12-09",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "dark-web",
+      "threat-intelligence",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0034",
+    "slug": "ssd-vs-hdd-server-storage",
+    "title": {
+      "ar": "SSD مقابل HDD في تخزين السيرفرات: مش مجرد سرعة",
+      "en": "SSD vs HDD for Server Storage: It's Not Just About Speed"
+    },
+    "excerpt": {
+      "ar": "عوامل تانية غير السرعة لازم تاخدها في الاعتبار وقت اختيار تخزين السيرفر.",
+      "en": "Factors beyond speed you should weigh when choosing server storage."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-02-16",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "storage",
+      "ssd",
+      "server-hardware"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0035",
+    "slug": "least-privilege-principle-practical",
+    "title": {
+      "ar": "مبدأ أقل الصلاحيات (Least Privilege): تطبيق عملي بدون فوضى",
+      "en": "The Least Privilege Principle: A Practical Rollout Without Chaos"
+    },
+    "excerpt": {
+      "ar": "إزاي تقلل صلاحيات المستخدمين من غير ما توقف شغل حد فجأة.",
+      "en": "How to trim user permissions without suddenly blocking someone's legitimate work."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-23",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "least-privilege",
+      "identity",
+      "access-control"
+    ],
+    "isFeatured": false,
+    "isTrending": false
   }
 ]

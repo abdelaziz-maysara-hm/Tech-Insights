@@ -81,6 +81,9 @@ export const COLLECTION_CONTENT = [
       'windows-nps-vs-freeradius',
       'group-policy-basics-for-sysadmins',
       'group-policy-vs-microsoft-intune',
+      'mfa-fatigue-attacks-explained',
+      'duo-security-vs-microsoft-authenticator',
+      'least-privilege-principle-practical',
     ],
   },
   {
@@ -91,7 +94,16 @@ export const COLLECTION_CONTENT = [
   {
     titleEn: 'Best SIEM & Security Monitoring Tools', titleAr: 'أفضل أدوات مراقبة الأمن (SIEM)',
     cat: 'cybersecurity', theme: 'cyber',
-    itemSlugs: ['splunk-vs-wazuh', 'zero-trust-explained-practically'],
+    itemSlugs: [
+      'splunk-vs-wazuh',
+      'zero-trust-explained-practically',
+      'log-retention-siem-basics',
+      'syslog-server-setup-basics',
+      'windows-event-viewer-security-logs',
+      'snmp-monitoring-basics',
+      'zabbix-vs-nagios',
+      'qualys-vs-nessus',
+    ],
   },
 ];
 

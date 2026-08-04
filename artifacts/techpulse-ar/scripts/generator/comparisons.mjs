@@ -361,6 +361,66 @@ export const COMPARISON_CONTENT = [
     verdictAr: 'Cloudflare خيار ممتاز وسريع البداية لمعظم المواقع، بما فيها الصغيرة والمتوسطة. Akamai أنسب لمؤسسات ضخمة جدًا محتاجة أعلى مستوى حماية وأداء عالمي بميزانية مؤسسية.',
     verdictEn: 'Cloudflare is an excellent, fast-to-start choice for most sites, including small and mid-size ones. Akamai fits very large enterprises needing the highest tier of protection and global performance at enterprise budget.',
   },
+  {
+    d1: 'Duo Security', d2: 'Microsoft Authenticator', sub: 'identity', img1: 'identity', img2: 'cloud',
+    specs: [
+      spec('استقلالية المنصة', 'Platform independence', 'محايد تمامًا، يشتغل مع أي مزوّد هوية', 'Fully vendor-neutral, works with any identity provider', 'أقوى طبيعيًا داخل منظومة Microsoft', 'Naturally strongest inside the Microsoft ecosystem', 8, 7),
+      spec('سهولة الإعداد الأولي', 'Initial setup ease', 'واجهة إعداد بسيطة وسريعة', 'Simple, fast setup interface', 'سريع جدًا لو أصلًا على Entra ID', 'Very fast if already on Entra ID', 8, 9),
+      spec('التكلفة', 'Cost', 'خطط مستقلة بأسعار واضحة', 'Standalone plans with clear pricing', 'غالبًا مُضمّن ضمن تراخيص Microsoft 365', 'Often bundled within Microsoft 365 licensing', 6, 8),
+    ],
+    verdictAr: 'Duo أفضل لبيئة متنوعة مش معتمدة على Microsoft بشكل أساسي. Microsoft Authenticator منطقي جدًا وأرخص لو أصلًا مشترك في Microsoft 365.',
+    verdictEn: 'Duo is the better fit for a diverse environment not centered on Microsoft. Microsoft Authenticator makes strong sense -- and is cheaper -- if you\'re already on Microsoft 365.',
+  },
+  {
+    d1: 'Terraform', d2: 'Ansible', sub: 'software-services', img1: 'code', img2: 'code2',
+    specs: [
+      spec('الغرض الأساسي', 'Primary purpose', 'بناء وإدارة البنية التحتية نفسها (IaC)', 'Provisioning and managing the infrastructure itself (IaC)', 'ضبط إعدادات الأنظمة بعد إنشائها (Configuration Management)', 'Configuring systems after they exist (configuration management)', 8, 8),
+      spec('إدارة الحالة (State)', 'State management', 'يحتفظ بملف حالة يتتبع كل مورد', 'Maintains a state file tracking every resource', 'بدون حالة مركزية، بيتأكد من الوضع الحالي كل مرة', 'Stateless, checks current condition each run', 8, 7),
+      spec('التعامل مع بيئات سحابية متعددة', 'Multi-cloud handling', 'من الأقوى والأشهر لهذا الغرض تحديدًا', 'Among the strongest and most popular specifically for this', 'ممكن لكن مش الغرض الأساسي له', 'Possible but not its primary design goal', 9, 5),
+    ],
+    verdictAr: 'الأداتين مكملتين لبعض مش بديلتين — Terraform لبناء البنية التحتية، Ansible لضبطها بعد كده. كتير من الفرق بتستخدم الاتنين مع بعض.',
+    verdictEn: 'These tools complement rather than replace each other -- Terraform provisions infrastructure, Ansible configures it afterward. Many teams use both together.',
+  },
+  {
+    d1: 'Datto', d2: 'Veeam', sub: 'software-services', img1: 'storage', img2: 'server',
+    specs: [
+      spec('التركيز الأساسي', 'Core focus', 'موجّه أساسًا لمزوّدي الخدمات المُدارة (MSP)', 'Primarily aimed at Managed Service Providers (MSPs)', 'مناسب لكل الأحجام من شركة صغيرة لمؤسسة ضخمة', 'Fits everything from small business to large enterprise', 7, 9),
+      spec('سرعة الاستعادة', 'Recovery speed', 'يركّز بقوة على استمرارية العمل (BCDR) بسرعة استعادة عالية', 'Strong focus on business continuity (BCDR) with fast recovery', 'ممتاز أيضًا، خيارات استعادة مرنة', 'Also excellent, with flexible recovery options', 8, 8),
+      spec('سهولة الإدارة لعميل واحد فقط', 'Manageability for a single client', 'مصمم لإدارة عملاء متعددين معًا', 'Designed to manage multiple clients at once', 'أبسط وأنسب لو محتاج تدير بيئة واحدة بس', 'Simpler and better suited to managing just one environment', 6, 8),
+    ],
+    verdictAr: 'Datto منطقي جدًا لو أنت مزوّد خدمات مُدارة بيدير نسخ احتياطي لعملاء متعددين. Veeam أنسب لو محتاج تدير نسخ احتياطي لبيئة واحدة (شركتك بس).',
+    verdictEn: 'Datto makes strong sense if you\'re an MSP managing backups for multiple clients. Veeam fits better if you\'re managing backup for a single environment (just your own company).',
+  },
+  {
+    d1: 'Qualys', d2: 'Nessus', sub: 'network-security', img1: 'security', img2: 'shield',
+    specs: [
+      spec('نموذج النشر', 'Deployment model', 'سحابي بالكامل غالبًا', 'Mostly fully cloud-based', 'يدعم النشر المحلي والسحابي', 'Supports both on-premises and cloud deployment', 7, 8),
+      spec('سهولة البداية لفريق صغير', 'Ease of start for a small team', 'يحتاج تخطيط أولي أكتر', 'Needs more upfront planning', 'من أسهل أدوات فحص الثغرات بداية في السوق', 'Among the easiest vulnerability scanners to get started with', 6, 9),
+      spec('عمق التقارير المؤسسية', 'Enterprise reporting depth', 'قوي جدًا لمؤسسات كبيرة متعددة الأنظمة', 'Very strong for large multi-system enterprises', 'جيد جدًا، أبسط للفرق الأصغر', 'Very good, simpler for smaller teams', 9, 7),
+    ],
+    verdictAr: 'Qualys أقوى لمؤسسة كبيرة محتاجة رؤية شاملة عبر بنية تحتية معقدة. Nessus أسهل بداية وأنسب لفريق أمان صغير أو متوسط.',
+    verdictEn: 'Qualys is stronger for a large organization needing comprehensive visibility across complex infrastructure. Nessus is easier to start with and fits a small-to-mid security team better.',
+  },
+  {
+    d1: 'Google Workspace', d2: 'Microsoft 365', sub: 'software-services', img1: 'cloud', img2: 'browser',
+    specs: [
+      spec('التعاون اللحظي على المستندات', 'Real-time document collaboration', 'من الأنضج والأسلس في السوق تاريخيًا', 'Historically among the smoothest and most mature in the market', 'تحسّن كثيرًا، لسه خلف قليلًا في السلاسة اللحظية', 'Improved a lot, still slightly behind in real-time smoothness', 9, 7),
+      spec('التكامل مع أدوات مؤسسية تقليدية', 'Integration with traditional enterprise tools', 'أقل تكاملًا مع أنظمة Windows/AD التقليدية', 'Less integrated with traditional Windows/AD systems', 'تكامل عميق وطبيعي مع Windows وActive Directory', 'Deep, native integration with Windows and Active Directory', 6, 9),
+      spec('تطبيقات المكتب الكاملة (Desktop)', 'Full desktop office apps', 'أساسًا سحابي، تطبيقات مكتبية محدودة', 'Primarily cloud-based, limited desktop apps', 'تطبيقات Office الكاملة (Word, Excel) بجانب النسخة السحابية', 'Full desktop Office apps (Word, Excel) alongside the cloud version', 6, 9),
+    ],
+    verdictAr: 'Google Workspace أفضل لفريق يعتمد بشكل أساسي على التعاون السحابي البسيط. Microsoft 365 أنسب لمؤسسة محتاجة تطبيقات مكتبية كاملة وتكامل عميق مع بنية Windows موجودة أصلًا.',
+    verdictEn: 'Google Workspace is better for a team relying mainly on simple cloud collaboration. Microsoft 365 fits an organization needing full desktop apps and deep integration with an existing Windows infrastructure.',
+  },
+  {
+    d1: 'Tailscale', d2: 'Traditional Site-to-Site VPN', sub: 'network-security', img1: 'vpn', img2: 'network',
+    specs: [
+      spec('سهولة الإعداد', 'Setup ease', 'إعداد سريع جدًا يعتمد على WireGuard، بدون تعقيد شبكي تقليدي', 'Very fast WireGuard-based setup, without traditional networking complexity', 'يحتاج إعداد أعمق (IPs, routing, firewall rules)', 'Needs deeper setup (IPs, routing, firewall rules)', 9, 5),
+      spec('الملاءمة لفرق موزّعة (Remote)', 'Fit for distributed remote teams', 'مصمم أساسًا لهذا الغرض بالظبط', 'Built specifically for exactly this purpose', 'ممكن لكن مش الاستخدام الأساسي له', 'Possible but not its primary use case', 9, 6),
+      spec('التحكم المركزي التقليدي', 'Traditional centralized control', 'أبسط، أقل تحكم دقيق على مستوى الشبكة', 'Simpler, less granular network-level control', 'تحكم كامل ودقيق جدًا على مستوى الشبكة', 'Full, very granular network-level control', 6, 9),
+    ],
+    verdictAr: 'Tailscale أسرع وأبسط بكتير لفريق صغير أو متوسط موزّع جغرافيًا. VPN التقليدي لسه منطقي لمؤسسة كبيرة محتاجة تحكم شبكي دقيق ومركزي.',
+    verdictEn: 'Tailscale is much faster and simpler for a small-to-mid geographically distributed team. Traditional VPN still makes sense for a large organization needing precise, centralized network control.',
+  },
 ];
 
 export function generateComparisons({ count = COMPARISON_CONTENT.length, subcategory, startIndex = 0 } = {}) {
