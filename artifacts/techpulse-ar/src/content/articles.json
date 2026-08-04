@@ -1,6 +1,6 @@
 [
   {
-    "id": "art-real-001",
+    "id": "art-gen-0001",
     "slug": "2fa-practical-guide",
     "title": {
       "ar": "المصادقة الثنائية (2FA): دليل عملي لحماية حساباتك",
@@ -23,18 +23,19 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2026-07-01",
+    "date": "2022-01-01",
     "readTime": 5,
-    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "2fa",
-      "security"
+      "security",
+      "mfa"
     ],
     "isFeatured": true,
-    "isTrending": true
+    "isTrending": false
   },
   {
-    "id": "art-real-002",
+    "id": "art-gen-0002",
     "slug": "phishing-spot-before-click",
     "title": {
       "ar": "التصيد الاحتيالي: كيف تكتشفه قبل ما تضغط",
@@ -57,18 +58,19 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2026-07-03",
+    "date": "2022-05-08",
     "readTime": 4,
-    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "phishing",
+      "email",
       "security"
     ],
     "isFeatured": true,
     "isTrending": false
   },
   {
-    "id": "art-real-003",
+    "id": "art-gen-0003",
     "slug": "palo-alto-security-policy-basics",
     "title": {
       "ar": "أساسيات Security Policy في Palo Alto — من أين تبدأ؟",
@@ -91,18 +93,19 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2026-07-05",
+    "date": "2022-10-15",
     "readTime": 6,
-    "heroImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&h=450&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "palo-alto",
-      "ngfw"
+      "ngfw",
+      "security-policy"
     ],
     "isFeatured": true,
-    "isTrending": true
+    "isTrending": false
   },
   {
-    "id": "art-real-004",
+    "id": "art-gen-0004",
     "slug": "forcepoint-ssl-vpn-radius",
     "title": {
       "ar": "إعداد Forcepoint SSL VPN مع RADIUS — خطوات وأشهر الأخطاء",
@@ -125,19 +128,19 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2026-07-07",
+    "date": "2023-02-22",
     "readTime": 7,
-    "heroImage": "https://images.unsplash.com/photo-1544197150-b99a41cbe1b2?auto=format&fit=crop&w=800&h=450&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "forcepoint",
-      "radius",
-      "ssl-vpn"
+      "ssl-vpn",
+      "radius"
     ],
-    "isFeatured": true,
+    "isFeatured": false,
     "isTrending": true
   },
   {
-    "id": "art-real-005",
+    "id": "art-gen-0005",
     "slug": "fortigate-ssl-vpn-checklist",
     "title": {
       "ar": "إعداد FortiGate SSL VPN بسرعة — checklist عملي",
@@ -160,18 +163,19 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2026-07-11",
+    "date": "2023-07-02",
     "readTime": 5,
-    "heroImage": "https://images.unsplash.com/photo-1551808525-51a94da548ce?auto=format&fit=crop&w=800&h=450&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "fortinet",
+      "fortigate",
       "ssl-vpn"
     ],
     "isFeatured": false,
     "isTrending": true
   },
   {
-    "id": "art-real-006",
+    "id": "art-gen-0006",
     "slug": "password-manager-start",
     "title": {
       "ar": "مدير كلمات المرور: ليه تحتاجه وإزاي تبدأ",
@@ -194,12 +198,13 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2026-07-09",
+    "date": "2023-11-09",
     "readTime": 4,
-    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "passwords",
-      "security"
+      "security",
+      "tools"
     ],
     "isFeatured": false,
     "isTrending": true

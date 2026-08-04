@@ -184,15 +184,19 @@ export const TOPIC_CONTENT = [
   },
 ];
 
-export function generateArticles({ count = 20, category, startIndex = 0 } = {}) {
+export function generateArticles({ count = TOPIC_CONTENT.length, category, startIndex = 0 } = {}) {
   let pool = TOPIC_CONTENT;
   if (category) pool = pool.filter((t) => t.cat === category);
   if (!pool.length) {
     console.warn('[articles] TOPIC_CONTENT is empty — refusing generic filler.');
     return [];
   }
+  const safeCount = Math.min(count, pool.length - startIndex);
+  if (count > pool.length - startIndex) {
+    console.warn(`[articles] Requested ${count}, but only ${pool.length} real articles exist — capping at ${Math.max(safeCount, 0)} instead of duplicating with (2)/(3) suffixes.`);
+  }
   const items = [];
-  for (let i = 0; i < count; i++) {
+  for (let i = 0; i < safeCount; i++) {
     const abs = startIndex + i;
     const t = pool[abs % pool.length];
     const cycle = Math.floor(abs / pool.length) + 1;

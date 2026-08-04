@@ -110,7 +110,11 @@ export function generateVideos({ count = VIDEO_CONTENT.length, category, subcate
   }
 
   const items = [];
-  for (let i = 0; i < count; i++) {
+  const safeCount = Math.min(count, pool.length);
+  if (count > pool.length) {
+    console.warn(`[videos] Requested ${count}, but only ${pool.length} real videos exist — capping at ${safeCount} instead of duplicating with (2)/(3) suffixes.`);
+  }
+  for (let i = 0; i < safeCount; i++) {
     const v = pool[i % pool.length];
     const cycle = Math.floor(i / pool.length) + 1;
     const sub = assertSubcategory(v.categoryId, v.subcategoryId);

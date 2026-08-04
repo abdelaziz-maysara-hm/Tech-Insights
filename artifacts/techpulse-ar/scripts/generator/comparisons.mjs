@@ -252,7 +252,11 @@ export function generateComparisons({ count = COMPARISON_CONTENT.length, subcate
   }
 
   const items = [];
-  for (let i = 0; i < count; i++) {
+  const safeCount = Math.min(count, pool.length - startIndex);
+  if (count > pool.length - startIndex) {
+    console.warn(`[comparisons] Requested ${count}, but only ${pool.length} real comparisons exist — capping at ${Math.max(safeCount, 0)} instead of duplicating with (2)/(3) suffixes.`);
+  }
+  for (let i = 0; i < safeCount; i++) {
     const abs = startIndex + i;
     const row = pool[abs % pool.length];
     const cycle = Math.floor(abs / pool.length) + 1;
