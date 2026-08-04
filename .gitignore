@@ -47,3 +47,5 @@ Thumbs.db
 # Local cache dirs
 .cache/
 .local/
+
+artifacts/techpulse-ar/content/generated/
