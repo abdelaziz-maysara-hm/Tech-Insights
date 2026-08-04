@@ -118,6 +118,7 @@ const FALLBACK_PARTNER = {
   code: 'code2',
   code2: 'dev',
   windows: 'laptop',
+  console: 'gpu',
   circuit: 'tech',
   tech: 'circuit',
 };
