@@ -695,5 +695,285 @@
     ],
     "isFeatured": false,
     "isTrending": false
+  },
+  {
+    "id": "art-gen-0021",
+    "slug": "vlan-basics-why-segment",
+    "title": {
+      "ar": "أساسيات VLAN: ليه تقسّم الشبكة أصلًا؟",
+      "en": "VLAN Basics: Why Segment a Network at All?"
+    },
+    "excerpt": {
+      "ar": "الفرق بين شبكة مسطحة وشبكة مقسّمة، وخطوات إنشاء VLAN أساسي.",
+      "en": "The difference between a flat network and a segmented one, and basic VLAN setup steps."
+    },
+    "body": {
+      "ar": "## ليه التقسيم مهم؟\n\nشبكة واحدة مسطحة تعني أي جهاز مخترق يقدر يوصل لأي جهاز تاني. الـVLAN بيعزل مجموعات الأجهزة منطقيًا حتى لو على نفس السويتش الفعلي.\n\n## خطوات أساسية\n\n1. حدد الحاجة (إدارة، مستخدمين، ضيوف، أجهزة IoT) كل واحدة VLAN منفصل.\n2. أنشئ الـVLAN على السويتش وحدد رقم (VLAN ID).\n3. اضبط المنافذ Access للأجهزة النهائية وTrunk بين السويتشات.\n4. اربط كل VLAN بـsubnet منفصل على الراوتر (Inter-VLAN Routing).\n\n## أشهر الأخطاء\n\nنسيان تفعيل Trunk بين السويتشات فيوقف الاتصال، وترك كل الأجهزة على VLAN 1 الافتراضي.\n\n## الخلاصة\n\nتقسيم بسيط لـ3-4 VLANs بيقلل مساحة أي اختراق بشكل كبير.",
+      "en": "## Why segmentation matters\n\nA flat network means one compromised device can reach everything. VLANs logically isolate device groups even on the same physical switch.\n\n## Basic steps\n\nIdentify groups (admin, users, guests, IoT), create a VLAN per group, set access/trunk ports correctly, and route between VLANs.\n\n## Bottom line\n\nEven 3-4 basic VLANs meaningfully shrink the blast radius of any single breach."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-03-06",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "vlan",
+      "networking",
+      "segmentation"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0022",
+    "slug": "snmp-monitoring-basics",
+    "title": {
+      "ar": "أساسيات مراقبة الشبكة بـ SNMP",
+      "en": "Network Monitoring Basics with SNMP"
+    },
+    "excerpt": {
+      "ar": "إزاي تراقب حالة الأجهزة والسويتشات من غير ما تدخل كل واحد يدويًا.",
+      "en": "How to monitor device and switch health without logging into each one manually."
+    },
+    "body": {
+      "ar": "## الفكرة\n\nSNMP بروتوكول بيخلي أداة مراقبة مركزية تسأل كل الأجهزة عن حالتها (استخدام المعالج، الذاكرة، حالة المنافذ) من مكان واحد.\n\n## خطوات أساسية\n\n1. فعّل SNMP على الجهاز وحدد Community String (أو v3 مع مصادقة أقوى).\n2. قيّد الوصول لـIP أداة المراقبة بس، مش أي حد.\n3. اربط الجهاز بأداة زي Zabbix أو PRTG أو Nagios.\n4. اضبط تنبيهات (Alerts) لحالات زي امتلاء المساحة أو ارتفاع المعالج.\n\n## أشهر الخطأ\n\nاستخدام SNMP v1/v2 (بدون تشفير حقيقي) على شبكة غير موثوقة — لو ممكن استخدم v3.\n\n## الخلاصة\n\nSNMP + أداة مراقبة مركزية يوفر وقت اكتشاف المشاكل بدل ما تكتشفها من شكوى مستخدم.",
+      "en": "## The idea\n\nSNMP lets a central monitoring tool query every device's health (CPU, memory, port status) from one place instead of logging into each individually.\n\n## Basic steps\n\nEnable SNMP with a community string (or v3 for stronger auth), restrict access to the monitoring tool's IP only, connect a tool like Zabbix or PRTG, and set alerts for disk/CPU thresholds.\n\n## Bottom line\n\nSNMP plus central monitoring means you find problems before a user complaint does."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-05-13",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "snmp",
+      "monitoring",
+      "networking"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0023",
+    "slug": "802-1x-certificate-authentication",
+    "title": {
+      "ar": "المصادقة بالشهادات عبر 802.1X: نظرة عملية",
+      "en": "Certificate-Based Authentication with 802.1X: A Practical Look"
+    },
+    "excerpt": {
+      "ar": "إزاي تمنع أي جهاز غريب من الاتصال بالشبكة السلكية أو اللاسلكية من غير إذن.",
+      "en": "How to stop any unauthorized device from joining your wired or wireless network."
+    },
+    "body": {
+      "ar": "## المشكلة اللي بيحلها\n\nكلمة مرور الواي فاي وحدها مش كافية — أي حد عنده الباسورد يقدر يتصل. 802.1X بيتطلب هوية حقيقية (شهادة أو حساب) قبل ما يدّي الجهاز وصول فعلي للشبكة.\n\n## المكونات الأساسية\n\n1. Supplicant: الجهاز اللي عايز يتصل.\n2. Authenticator: السويتش أو نقطة الوصول.\n3. Authentication Server: عادة RADIUS (زي NPS أو FreeRADIUS) بيتأكد من الهوية.\n\n## خطوات عملية مبسطة\n\n1. جهّز خادم RADIUS وربطه بـActive Directory أو شهادات.\n2. فعّل 802.1X على منافذ السويتش أو نقاط الوصول.\n3. وزّع الشهادات على الأجهزة المعتمدة (عبر Group Policy مثلًا).\n\n## الخلاصة\n\n802.1X بيحوّل \"مين عنده الباسورد\" لـ\"مين هويته متأكد منها\" — فرق جوهري في الأمان.",
+      "en": "## The problem it solves\n\nA Wi-Fi password alone isn't enough -- anyone with it can connect. 802.1X requires real identity (a certificate or account) before granting actual network access.\n\n## Core components\n\nSupplicant (the connecting device), Authenticator (switch/access point), and a RADIUS Authentication Server verifying identity.\n\n## Bottom line\n\n802.1X shifts the question from 'who has the password' to 'whose identity is verified' -- a fundamentally stronger security model."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-07-20",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "802.1x",
+      "radius",
+      "authentication"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0024",
+    "slug": "log-retention-siem-basics",
+    "title": {
+      "ar": "الاحتفاظ بالسجلات (Log Retention): كام يوم كفاية فعلًا؟",
+      "en": "Log Retention: How Long Is Actually Enough?"
+    },
+    "excerpt": {
+      "ar": "التوازن بين تكلفة التخزين ومتطلبات التحقيق الأمني والامتثال.",
+      "en": "Balancing storage cost against real security-investigation and compliance needs."
+    },
+    "body": {
+      "ar": "## ليه المدة مهمة\n\nاحتفاظ قصير جدًا يعني لو حصل اختراق ماكتشفتوش إلا بعد شهرين، مفيش سجلات ترجع لبداية الحادثة. احتفاظ طويل جدًا يعني تكلفة تخزين عالية بلا داعي.\n\n## مدد شائعة كنقطة بداية\n\n- سجلات أمنية حساسة (Firewall, VPN, AD): 90-180 يوم على الأقل.\n- متطلبات امتثال معينة (مالي، حكومي): قد تصل لسنة أو أكتر حسب اللائحة.\n- سجلات عادية أقل حساسية: 30-90 يوم كافية غالبًا.\n\n## نصيحة عملية\n\nخزّن السجلات المهمة على مرحلتين: تخزين سريع للوصول (30-90 يوم) وتخزين أرشيفي أرخص للباقي.\n\n## الخلاصة\n\nحدد المدة حسب نوع السجل ومتطلبات القطاع، مش رقم عشوائي واحد لكل حاجة.",
+      "en": "## Why duration matters\n\nToo-short retention means no logs left if a breach is discovered months later. Too-long retention means unnecessary storage cost.\n\n## Common starting points\n\nSensitive security logs (firewall, VPN, AD): at least 90-180 days. Regulated sectors may require a year or more. Less sensitive logs: often 30-90 days is enough.\n\n## Bottom line\n\nSet retention per log type and sector requirement, not one arbitrary number for everything."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-09-27",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "siem",
+      "logging",
+      "compliance"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0025",
+    "slug": "windows-patch-management-strategy",
+    "title": {
+      "ar": "استراتيجية تحديث الأنظمة (Patch Management) لبيئة صغيرة",
+      "en": "A Patch Management Strategy for a Small Environment"
+    },
+    "excerpt": {
+      "ar": "إزاي توازن بين الأمان (تحديث بسرعة) والاستقرار (متكسرش حاجة) من غير أداة مؤسسية ضخمة.",
+      "en": "Balancing security (patch fast) against stability (don't break anything) without a huge enterprise tool."
+    },
+    "body": {
+      "ar": "## المشكلة\n\nتحديث فوري بدون اختبار ممكن يكسر تطبيق مهم. تأجيل التحديث بيسيب ثغرات مفتوحة لفترة أطول.\n\n## استراتيجية عملية بسيطة\n\n1. قسّم الأجهزة لمجموعتين: اختبار (Ring 1) وإنتاج (Ring 2).\n2. طبّق التحديثات على Ring 1 الأول، استنى 3-5 أيام.\n3. لو مفيش مشاكل، طبّق على الباقي.\n4. حدد نافذة صيانة أسبوعية ثابتة للتحديثات العادية.\n5. التحديثات الحرجة (Zero-day) استثناء — تتطبق فورًا بعد اختبار سريع.\n\n## أدوات مناسبة لبيئة صغيرة\n\nWSUS مجاني ومتاح لو أصلًا على Windows Server، أو أدوات SaaS أرخص لو مفيش سيرفر.\n\n## الخلاصة\n\nمجموعتين بس (اختبار وإنتاج) بيقللوا الخطر من غير تعقيد إدارة كبير.",
+      "en": "## The problem\n\nPatching immediately without testing can break something important. Delaying leaves vulnerabilities open longer.\n\n## A simple practical strategy\n\nSplit machines into a test ring and a production ring, patch the test ring first, wait a few days, then roll out. Critical zero-days are the exception -- patch fast after a quick check.\n\n## Bottom line\n\nJust two rings meaningfully reduce risk without heavy management overhead."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-11-07",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "patch-management",
+      "windows-server",
+      "wsus"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0026",
+    "slug": "dhcp-failover-high-availability",
+    "title": {
+      "ar": "إعداد DHCP Failover لضمان استمرارية الشبكة",
+      "en": "Setting Up DHCP Failover for Network Continuity"
+    },
+    "excerpt": {
+      "ar": "ليه سيرفر DHCP واحد نقطة فشل خطيرة، وإزاي تعمل نسخة احتياطية تعمل تلقائيًا.",
+      "en": "Why a single DHCP server is a dangerous single point of failure, and how to set up automatic failover."
+    },
+    "body": {
+      "ar": "## المشكلة\n\nلو سيرفر الـDHCP الوحيد وقع، أي جهاز جديد أو انتهت صلاحية عنوانه IP هيفقد الاتصال بالشبكة بالكامل.\n\n## الحل: DHCP Failover\n\n1. جهّز سيرفرين Windows Server يقدروا يوصلوا لبعض.\n2. من DHCP Console، أنشئ علاقة Failover على الـscope المطلوب.\n3. اختر الوضع: Load Balance (الاتنين شغالين مع بعض) أو Hot Standby (واحد احتياطي).\n4. تأكد من التزامن بين السيرفرين بعد الإعداد.\n\n## نصيحة\n\nHot Standby أبسط للبيئات الصغيرة، Load Balance أفضل لو عندك حمل كبير من الطلبات.\n\n## الخلاصة\n\nDHCP Failover إعداد بسيط نسبيًا بيمنع مشكلة كبيرة (توقف الشبكة بالكامل) بسبب سيرفر واحد.",
+      "en": "## The problem\n\nIf your only DHCP server goes down, any new or expiring device loses network connectivity entirely.\n\n## The fix: DHCP Failover\n\nSet up two Windows Servers that can reach each other, create a Failover relationship on the scope from the DHCP console, and choose Load Balance or Hot Standby mode.\n\n## Bottom line\n\nA relatively simple setup that prevents a single server from taking down the whole network."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-14",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "dhcp",
+      "windows-server",
+      "high-availability"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0027",
+    "slug": "syslog-server-setup-basics",
+    "title": {
+      "ar": "إعداد خادم Syslog مركزي: من أين تبدأ؟",
+      "en": "Setting Up a Central Syslog Server: Where to Start?"
+    },
+    "excerpt": {
+      "ar": "تجميع سجلات كل الأجهزة (جدران حماية، سويتشات) في مكان واحد قابل للبحث.",
+      "en": "Collecting logs from every device (firewalls, switches) into one searchable place."
+    },
+    "body": {
+      "ar": "## ليه محتاجه\n\nكل جهاز بيسجّل أحداثه محليًا، لكن لو الجهاز اتخترق أو وقع، السجلات المحلية ممكن تضيع أو تتعدل. سيرفر Syslog مركزي بياخد نسخة فورية بره الجهاز نفسه.\n\n## خطوات أساسية\n\n1. اختر أداة (rsyslog مجاني على Linux، أو أدوات SIEM أوسع زي Wazuh).\n2. فعّل إرسال Syslog على كل جهاز (Firewall, Switch, Server) لعنوان السيرفر المركزي.\n3. رتّب السجلات في مجلدات حسب المصدر والتاريخ.\n4. اعمل تنبيهات أساسية على أنماط مشبوهة (محاولات دخول فاشلة متكررة مثلًا).\n\n## الخلاصة\n\nسيرفر Syslog مركزي بسيط هو أول خطوة حقيقية قبل أي حل SIEM متقدم.",
+      "en": "## Why you need it\n\nEach device logs locally, but if it's compromised or goes down, local logs can be lost or altered. A central syslog server keeps an off-device copy in real time.\n\n## Basic steps\n\nPick a tool (rsyslog is free on Linux, or a broader SIEM like Wazuh), point every device's syslog output at it, organize by source and date, and set basic alerts for suspicious patterns.\n\n## Bottom line\n\nA simple central syslog server is the real first step before any advanced SIEM setup."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-21",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "syslog",
+      "logging",
+      "monitoring"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0028",
+    "slug": "network-segmentation-compliance",
+    "title": {
+      "ar": "تقسيم الشبكة لأغراض الامتثال: نظرة عملية مبسطة",
+      "en": "Network Segmentation for Compliance: A Simplified Practical View"
+    },
+    "excerpt": {
+      "ar": "ليه لوائح زي PCI-DSS بتطلب عزل الأنظمة الحساسة، وإزاي تبدأ عمليًا.",
+      "en": "Why regulations like PCI-DSS require isolating sensitive systems, and how to start practically."
+    },
+    "body": {
+      "ar": "## الفكرة الأساسية\n\nكل ما قللت عدد الأنظمة اللي ليها وصول مباشر لبيانات حساسة (زي بيانات الدفع)، كل ما قل نطاق المراجعة والمخاطر.\n\n## خطوات عملية\n\n1. حدد بالظبط مين محتاج يوصل للبيانات الحساسة فعليًا (مش الكل).\n2. اعزل الأنظمة دي في VLAN أو subnet منفصل.\n3. حط جدار حماية بين الشبكة المعزولة والباقي، بقواعد ضيقة جدًا.\n4. راجع القواعد دوريًا — أي وصول زيادة عن الحاجة الفعلية يتشال.\n\n## فايدة عملية إضافية\n\nتقليل نطاق المراجعة (Audit Scope) بيوفر وقت وتكلفة حقيقية وقت أي تدقيق امتثال.\n\n## الخلاصة\n\nالعزل مش بس متطلب امتثال — هو تقليل حقيقي لمساحة أي اختراق محتمل.",
+      "en": "## The core idea\n\nThe fewer systems with direct access to sensitive data (like payment data), the smaller the audit scope and risk surface.\n\n## Practical steps\n\nIdentify exactly who genuinely needs access, isolate those systems in their own VLAN/subnet, put a tightly-ruled firewall between that segment and everything else, and review rules regularly.\n\n## Bottom line\n\nSegmentation isn't just a compliance checkbox -- it's a real reduction in breach blast radius."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-01",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "compliance",
+      "segmentation",
+      "pci-dss"
+    ],
+    "isFeatured": false,
+    "isTrending": false
   }
 ]

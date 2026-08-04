@@ -301,6 +301,66 @@ export const COMPARISON_CONTENT = [
     verdictAr: 'Forcepoint خيار قوي جدًا للقطاعات الحساسة (حكومي، مالي) لو منع تسريب البيانات أولوية قصوى. Proofpoint أوسع انتشارًا كحل أمان بريد عام لمعظم الشركات.',
     verdictEn: 'Forcepoint is a very strong choice for sensitive sectors (government, financial) where DLP is the top priority. Proofpoint has wider deployment as a general email-security solution for most businesses.',
   },
+  {
+    d1: 'VMware vSphere', d2: 'Proxmox VE', sub: 'software-services', img1: 'server', img2: 'cpu',
+    specs: [
+      spec('التكلفة', 'Cost', 'ترخيص مدفوع، اتغيّر مؤخرًا بشكل ملحوظ بعد استحواذ Broadcom', 'Paid licensing, notably changed recently after the Broadcom acquisition', 'مفتوح المصدر ومجاني بالكامل', 'Fully open-source and free', 4, 9),
+      spec('النضج والاستقرار المؤسسي', 'Enterprise maturity & stability', 'الأنضج تاريخيًا في السوق المؤسسي', 'Historically the most mature in the enterprise market', 'جيد جدًا وينمو بسرعة، أقل انتشارًا في المؤسسات الكبرى', 'Very good and growing fast, less common in large enterprises', 9, 6),
+      spec('سهولة الإدارة لفريق صغير', 'Manageability for a small team', 'واجهة قوية لكن معقّدة الترخيص', 'Powerful interface but licensing complexity', 'واجهة ويب بسيطة ومباشرة', 'Simple, direct web interface', 6, 8),
+    ],
+    verdictAr: 'vSphere منطقي لمؤسسة كبيرة عندها ميزانية وعقد دعم قائم. Proxmox VE خيار قوي جدًا وبيكسب أرضية سريعة، خصوصًا بعد تغييرات ترخيص VMware الأخيرة.',
+    verdictEn: 'vSphere makes sense for a large organization with budget and an existing support contract. Proxmox VE is a genuinely strong, fast-growing alternative, especially after VMware\'s recent licensing changes.',
+  },
+  {
+    d1: 'pfSense', d2: 'OPNsense', sub: 'network-security', img1: 'firewall', img2: 'shield',
+    specs: [
+      spec('أصل المشروع والمجتمع', 'Project origin & community', 'أقدم وأوسع انتشارًا تاريخيًا', 'Older and historically more widespread', 'تفرّع من pfSense بتركيز أكبر على الشفافية والتحديثات المتكررة', 'A pfSense fork with more focus on transparency and frequent updates', 8, 8),
+      spec('وتيرة التحديثات', 'Update frequency', 'أبطأ نسبيًا', 'Relatively slower', 'أسرع في إصدار تحديثات وميزات جديدة', 'Faster at shipping updates and new features', 6, 8),
+      spec('التوافق مع الإضافات القديمة', 'Compatibility with older add-ons', 'مجتمع إضافات أوسع تاريخيًا', 'Historically wider add-on ecosystem', 'مجتمع أصغر لكن ينمو بسرعة', 'Smaller community but growing fast', 8, 6),
+    ],
+    verdictAr: 'الاتنين مبنيين على نفس الأساس (FreeBSD) وقريبين جدًا من بعض. pfSense أنسب لو محتاج إضافات قديمة معينة، OPNsense أفضل لو التحديثات المتكررة والشفافية أولوية.',
+    verdictEn: 'Both share the same FreeBSD foundation and are very close. pfSense fits if you need specific legacy add-ons; OPNsense is better if frequent updates and transparency are the priority.',
+  },
+  {
+    d1: 'Zabbix', d2: 'Nagios', sub: 'network-security', img1: 'analytics', img2: 'network',
+    specs: [
+      spec('سهولة الإعداد الأولي', 'Initial setup ease', 'اكتشاف تلقائي أوسع للأجهزة', 'Broader automatic device discovery', 'إعداد يدوي أكتر في البداية', 'More manual setup initially', 8, 5),
+      spec('واجهة الرسوم البيانية', 'Dashboard/graphing UI', 'حديثة ومدمجة بشكل أفضل', 'Modern and better integrated', 'أساسية، غالبًا محتاجة إضافات خارجية للرسوم المتقدمة', 'Basic, often needs external plugins for advanced graphs', 8, 5),
+      spec('النضج والاستقرار طويل المدى', 'Long-term maturity', 'ناضج وواسع الانتشار', 'Mature and widespread', 'من أقدم أدوات المراقبة مفتوحة المصدر على الإطلاق', 'One of the oldest open-source monitoring tools ever', 7, 8),
+    ],
+    verdictAr: 'Zabbix أسهل بداية وواجهة أحدث لمعظم الفرق. Nagios لسه خيار قوي لو عندك بنية تحتية قائمة عليه فعلًا أو محتاج نظام Plugin ضخم متوفر من سنين طويلة.',
+    verdictEn: 'Zabbix is easier to start with and has a more modern UI for most teams. Nagios remains strong if you already have infrastructure built on it or need its huge, long-established plugin ecosystem.',
+  },
+  {
+    d1: 'Ubiquiti UniFi', d2: 'Cisco Meraki', sub: 'network-security', img1: 'network', img2: 'cloud',
+    specs: [
+      spec('التكلفة الإجمالية', 'Total cost', 'شراء أجهزة مرة واحدة، بدون اشتراك سنوي إجباري', 'One-time hardware purchase, no mandatory annual subscription', 'اشتراك سنوي إجباري لكل جهاز طوال عمره', 'Mandatory annual per-device licensing for the device\'s lifetime', 8, 4),
+      spec('سهولة الإدارة السحابية', 'Cloud management ease', 'جيدة عبر UniFi Controller', 'Good via the UniFi Controller', 'من الأفضل في السوق، إدارة سحابية ناضجة جدًا', 'Among the best in the market, very mature cloud management', 7, 9),
+      spec('الدعم المؤسسي والـSLA', 'Enterprise support & SLA', 'دعم مجتمعي أساسًا، أقل رسمية', 'Mostly community-based support, less formal', 'دعم Cisco الرسمي مع اتفاقيات SLA واضحة', 'Official Cisco support with clear SLAs', 5, 9),
+    ],
+    verdictAr: 'UniFi قيمة ممتازة للشركات الصغيرة والمتوسطة بميزانية محدودة. Meraki أنسب للمؤسسات اللي محتاجة دعم رسمي واتفاقيات خدمة واضحة، مقابل تكلفة اشتراك سنوي دائم.',
+    verdictEn: 'UniFi offers excellent value for budget-conscious small and mid-size businesses. Meraki fits organizations needing official support and clear SLAs, at the cost of a permanent annual subscription.',
+  },
+  {
+    d1: 'Ansible', d2: 'PowerShell DSC', sub: 'software-services', img1: 'code', img2: 'windows',
+    specs: [
+      spec('التوافق عبر المنصات', 'Cross-platform compatibility', 'يدعم Linux وWindows وأجهزة شبكات متنوعة', 'Supports Linux, Windows, and diverse network devices', 'مصمم أساسًا لبيئة Windows', 'Built primarily for the Windows environment', 9, 6),
+      spec('منحنى التعلم', 'Learning curve', 'YAML بسيط نسبيًا للمبتدئين', 'Relatively simple YAML for beginners', 'يحتاج خبرة PowerShell أعمق', 'Needs deeper PowerShell expertise', 8, 6),
+      spec('التكامل مع Active Directory', 'Active Directory integration', 'ممكن عبر إضافات', 'Possible via modules', 'تكامل مباشر وطبيعي لأنه من نفس منظومة Microsoft', 'Direct, native integration as part of the Microsoft ecosystem', 6, 9),
+    ],
+    verdictAr: 'Ansible أفضل لبيئة مختلطة (Linux + Windows + شبكات). PowerShell DSC أنسب لبيئة Windows/AD خالصة محتاجة تكامل عميق مع منظومة Microsoft.',
+    verdictEn: 'Ansible is the better fit for a mixed environment (Linux + Windows + network devices). PowerShell DSC suits a pure Windows/AD environment needing deep Microsoft ecosystem integration.',
+  },
+  {
+    d1: 'Cloudflare', d2: 'Akamai', sub: 'network-security', img1: 'cloud', img2: 'shield',
+    specs: [
+      spec('سهولة البداية لموقع صغير أو متوسط', 'Ease of start for a small/mid site', 'خطة مجانية قوية وإعداد سريع جدًا', 'Strong free tier and very fast setup', 'موجّه أساسًا للمؤسسات الكبرى، إعداد أعقد', 'Primarily aimed at large enterprises, more complex setup', 9, 5),
+      spec('حجم شبكة التوزيع العالمية', 'Global CDN network scale', 'واسعة جدًا وتنمو باستمرار', 'Very wide and constantly growing', 'من أقدم وأكبر شبكات CDN في العالم', 'One of the oldest and largest CDN networks in the world', 8, 9),
+      spec('حماية DDoS للمؤسسات الضخمة', 'DDoS protection at massive enterprise scale', 'قوية جدًا وتغطي معظم الاحتياجات', 'Very strong, covers most needs', 'سجل طويل جدًا في حماية أكبر المواقع العالمية من هجمات ضخمة', 'A very long track record protecting the world\'s largest sites from massive attacks', 8, 9),
+    ],
+    verdictAr: 'Cloudflare خيار ممتاز وسريع البداية لمعظم المواقع، بما فيها الصغيرة والمتوسطة. Akamai أنسب لمؤسسات ضخمة جدًا محتاجة أعلى مستوى حماية وأداء عالمي بميزانية مؤسسية.',
+    verdictEn: 'Cloudflare is an excellent, fast-to-start choice for most sites, including small and mid-size ones. Akamai fits very large enterprises needing the highest tier of protection and global performance at enterprise budget.',
+  },
 ];
 
 export function generateComparisons({ count = COMPARISON_CONTENT.length, subcategory, startIndex = 0 } = {}) {

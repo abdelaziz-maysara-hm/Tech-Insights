@@ -615,5 +615,253 @@
     ],
     "isFeatured": false,
     "isTrending": false
+  },
+  {
+    "id": "art-gen-0021",
+    "slug": "vlan-basics-why-segment",
+    "title": {
+      "ar": "أساسيات VLAN: ليه تقسّم الشبكة أصلًا؟",
+      "en": "VLAN Basics: Why Segment a Network at All?"
+    },
+    "excerpt": {
+      "ar": "الفرق بين شبكة مسطحة وشبكة مقسّمة، وخطوات إنشاء VLAN أساسي.",
+      "en": "The difference between a flat network and a segmented one, and basic VLAN setup steps."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-03-06",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "vlan",
+      "networking",
+      "segmentation"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0022",
+    "slug": "snmp-monitoring-basics",
+    "title": {
+      "ar": "أساسيات مراقبة الشبكة بـ SNMP",
+      "en": "Network Monitoring Basics with SNMP"
+    },
+    "excerpt": {
+      "ar": "إزاي تراقب حالة الأجهزة والسويتشات من غير ما تدخل كل واحد يدويًا.",
+      "en": "How to monitor device and switch health without logging into each one manually."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-05-13",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "snmp",
+      "monitoring",
+      "networking"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0023",
+    "slug": "802-1x-certificate-authentication",
+    "title": {
+      "ar": "المصادقة بالشهادات عبر 802.1X: نظرة عملية",
+      "en": "Certificate-Based Authentication with 802.1X: A Practical Look"
+    },
+    "excerpt": {
+      "ar": "إزاي تمنع أي جهاز غريب من الاتصال بالشبكة السلكية أو اللاسلكية من غير إذن.",
+      "en": "How to stop any unauthorized device from joining your wired or wireless network."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-07-20",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "802.1x",
+      "radius",
+      "authentication"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0024",
+    "slug": "log-retention-siem-basics",
+    "title": {
+      "ar": "الاحتفاظ بالسجلات (Log Retention): كام يوم كفاية فعلًا؟",
+      "en": "Log Retention: How Long Is Actually Enough?"
+    },
+    "excerpt": {
+      "ar": "التوازن بين تكلفة التخزين ومتطلبات التحقيق الأمني والامتثال.",
+      "en": "Balancing storage cost against real security-investigation and compliance needs."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-09-27",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "siem",
+      "logging",
+      "compliance"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0025",
+    "slug": "windows-patch-management-strategy",
+    "title": {
+      "ar": "استراتيجية تحديث الأنظمة (Patch Management) لبيئة صغيرة",
+      "en": "A Patch Management Strategy for a Small Environment"
+    },
+    "excerpt": {
+      "ar": "إزاي توازن بين الأمان (تحديث بسرعة) والاستقرار (متكسرش حاجة) من غير أداة مؤسسية ضخمة.",
+      "en": "Balancing security (patch fast) against stability (don't break anything) without a huge enterprise tool."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-11-07",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "patch-management",
+      "windows-server",
+      "wsus"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0026",
+    "slug": "dhcp-failover-high-availability",
+    "title": {
+      "ar": "إعداد DHCP Failover لضمان استمرارية الشبكة",
+      "en": "Setting Up DHCP Failover for Network Continuity"
+    },
+    "excerpt": {
+      "ar": "ليه سيرفر DHCP واحد نقطة فشل خطيرة، وإزاي تعمل نسخة احتياطية تعمل تلقائيًا.",
+      "en": "Why a single DHCP server is a dangerous single point of failure, and how to set up automatic failover."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-14",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "dhcp",
+      "windows-server",
+      "high-availability"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0027",
+    "slug": "syslog-server-setup-basics",
+    "title": {
+      "ar": "إعداد خادم Syslog مركزي: من أين تبدأ؟",
+      "en": "Setting Up a Central Syslog Server: Where to Start?"
+    },
+    "excerpt": {
+      "ar": "تجميع سجلات كل الأجهزة (جدران حماية، سويتشات) في مكان واحد قابل للبحث.",
+      "en": "Collecting logs from every device (firewalls, switches) into one searchable place."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-21",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "syslog",
+      "logging",
+      "monitoring"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0028",
+    "slug": "network-segmentation-compliance",
+    "title": {
+      "ar": "تقسيم الشبكة لأغراض الامتثال: نظرة عملية مبسطة",
+      "en": "Network Segmentation for Compliance: A Simplified Practical View"
+    },
+    "excerpt": {
+      "ar": "ليه لوائح زي PCI-DSS بتطلب عزل الأنظمة الحساسة، وإزاي تبدأ عمليًا.",
+      "en": "Why regulations like PCI-DSS require isolating sensitive systems, and how to start practically."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-01",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "compliance",
+      "segmentation",
+      "pci-dss"
+    ],
+    "isFeatured": false,
+    "isTrending": false
   }
 ]

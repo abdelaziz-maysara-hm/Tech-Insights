@@ -2132,5 +2132,473 @@
       "ar": "Forcepoint خيار قوي جدًا للقطاعات الحساسة (حكومي، مالي) لو منع تسريب البيانات أولوية قصوى. Proofpoint أوسع انتشارًا كحل أمان بريد عام لمعظم الشركات.",
       "en": "Forcepoint is a very strong choice for sensitive sectors (government, financial) where DLP is the top priority. Proofpoint has wider deployment as a general email-security solution for most businesses."
     }
+  },
+  {
+    "id": "cmp-gen-0028",
+    "slug": "vmware-vsphere-vs-proxmox-ve",
+    "title": {
+      "ar": "VMware vSphere ضد Proxmox VE",
+      "en": "VMware vSphere vs Proxmox VE"
+    },
+    "excerpt": {
+      "ar": "vSphere منطقي لمؤسسة كبيرة عندها ميزانية وعقد دعم قائم. Proxmox VE خيار قوي جدًا وبيكسب أرضية سريعة، خصوصًا بعد تغييرات",
+      "en": "vSphere makes sense for a large organization with budget and an existing support contract. Proxmox VE is a genuinely strong, fast-growing al"
+    },
+    "device1Name": "VMware vSphere",
+    "device2Name": "Proxmox VE",
+    "device1Image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2025-09-01",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التكلفة",
+          "en": "Cost"
+        },
+        "device1Value": {
+          "ar": "ترخيص مدفوع، اتغيّر مؤخرًا بشكل ملحوظ بعد استحواذ Broadcom",
+          "en": "Paid licensing, notably changed recently after the Broadcom acquisition"
+        },
+        "device2Value": {
+          "ar": "مفتوح المصدر ومجاني بالكامل",
+          "en": "Fully open-source and free"
+        },
+        "device1Score": 4,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec2": {
+        "label": {
+          "ar": "النضج والاستقرار المؤسسي",
+          "en": "Enterprise maturity & stability"
+        },
+        "device1Value": {
+          "ar": "الأنضج تاريخيًا في السوق المؤسسي",
+          "en": "Historically the most mature in the enterprise market"
+        },
+        "device2Value": {
+          "ar": "جيد جدًا وينمو بسرعة، أقل انتشارًا في المؤسسات الكبرى",
+          "en": "Very good and growing fast, less common in large enterprises"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "سهولة الإدارة لفريق صغير",
+          "en": "Manageability for a small team"
+        },
+        "device1Value": {
+          "ar": "واجهة قوية لكن معقّدة الترخيص",
+          "en": "Powerful interface but licensing complexity"
+        },
+        "device2Value": {
+          "ar": "واجهة ويب بسيطة ومباشرة",
+          "en": "Simple, direct web interface"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "vSphere منطقي لمؤسسة كبيرة عندها ميزانية وعقد دعم قائم. Proxmox VE خيار قوي جدًا وبيكسب أرضية سريعة، خصوصًا بعد تغييرات ترخيص VMware الأخيرة.",
+      "en": "vSphere makes sense for a large organization with budget and an existing support contract. Proxmox VE is a genuinely strong, fast-growing alternative, especially after VMware's recent licensing changes."
+    }
+  },
+  {
+    "id": "cmp-gen-0029",
+    "slug": "pfsense-vs-opnsense",
+    "title": {
+      "ar": "pfSense ضد OPNsense",
+      "en": "pfSense vs OPNsense"
+    },
+    "excerpt": {
+      "ar": "الاتنين مبنيين على نفس الأساس (FreeBSD) وقريبين جدًا من بعض. pfSense أنسب لو محتاج إضافات قديمة معينة، OPNsense أفضل لو",
+      "en": "Both share the same FreeBSD foundation and are very close. pfSense fits if you need specific legacy add-ons; OPNsense is better if frequent"
+    },
+    "device1Name": "pfSense",
+    "device2Name": "OPNsense",
+    "device1Image": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2025-10-08",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 0,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "أصل المشروع والمجتمع",
+          "en": "Project origin & community"
+        },
+        "device1Value": {
+          "ar": "أقدم وأوسع انتشارًا تاريخيًا",
+          "en": "Older and historically more widespread"
+        },
+        "device2Value": {
+          "ar": "تفرّع من pfSense بتركيز أكبر على الشفافية والتحديثات المتكررة",
+          "en": "A pfSense fork with more focus on transparency and frequent updates"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 0
+      },
+      "spec2": {
+        "label": {
+          "ar": "وتيرة التحديثات",
+          "en": "Update frequency"
+        },
+        "device1Value": {
+          "ar": "أبطأ نسبيًا",
+          "en": "Relatively slower"
+        },
+        "device2Value": {
+          "ar": "أسرع في إصدار تحديثات وميزات جديدة",
+          "en": "Faster at shipping updates and new features"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "التوافق مع الإضافات القديمة",
+          "en": "Compatibility with older add-ons"
+        },
+        "device1Value": {
+          "ar": "مجتمع إضافات أوسع تاريخيًا",
+          "en": "Historically wider add-on ecosystem"
+        },
+        "device2Value": {
+          "ar": "مجتمع أصغر لكن ينمو بسرعة",
+          "en": "Smaller community but growing fast"
+        },
+        "device1Score": 8,
+        "device2Score": 6,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "الاتنين مبنيين على نفس الأساس (FreeBSD) وقريبين جدًا من بعض. pfSense أنسب لو محتاج إضافات قديمة معينة، OPNsense أفضل لو التحديثات المتكررة والشفافية أولوية.",
+      "en": "Both share the same FreeBSD foundation and are very close. pfSense fits if you need specific legacy add-ons; OPNsense is better if frequent updates and transparency are the priority."
+    }
+  },
+  {
+    "id": "cmp-gen-0030",
+    "slug": "zabbix-vs-nagios",
+    "title": {
+      "ar": "Zabbix ضد Nagios",
+      "en": "Zabbix vs Nagios"
+    },
+    "excerpt": {
+      "ar": "Zabbix أسهل بداية وواجهة أحدث لمعظم الفرق. Nagios لسه خيار قوي لو عندك بنية تحتية قائمة عليه فعلًا أو محتاج نظام Plugin",
+      "en": "Zabbix is easier to start with and has a more modern UI for most teams. Nagios remains strong if you already have infrastructure built on it"
+    },
+    "device1Name": "Zabbix",
+    "device2Name": "Nagios",
+    "device1Image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2025-12-15",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "سهولة الإعداد الأولي",
+          "en": "Initial setup ease"
+        },
+        "device1Value": {
+          "ar": "اكتشاف تلقائي أوسع للأجهزة",
+          "en": "Broader automatic device discovery"
+        },
+        "device2Value": {
+          "ar": "إعداد يدوي أكتر في البداية",
+          "en": "More manual setup initially"
+        },
+        "device1Score": 8,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "واجهة الرسوم البيانية",
+          "en": "Dashboard/graphing UI"
+        },
+        "device1Value": {
+          "ar": "حديثة ومدمجة بشكل أفضل",
+          "en": "Modern and better integrated"
+        },
+        "device2Value": {
+          "ar": "أساسية، غالبًا محتاجة إضافات خارجية للرسوم المتقدمة",
+          "en": "Basic, often needs external plugins for advanced graphs"
+        },
+        "device1Score": 8,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "النضج والاستقرار طويل المدى",
+          "en": "Long-term maturity"
+        },
+        "device1Value": {
+          "ar": "ناضج وواسع الانتشار",
+          "en": "Mature and widespread"
+        },
+        "device2Value": {
+          "ar": "من أقدم أدوات المراقبة مفتوحة المصدر على الإطلاق",
+          "en": "One of the oldest open-source monitoring tools ever"
+        },
+        "device1Score": 7,
+        "device2Score": 8,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Zabbix أسهل بداية وواجهة أحدث لمعظم الفرق. Nagios لسه خيار قوي لو عندك بنية تحتية قائمة عليه فعلًا أو محتاج نظام Plugin ضخم متوفر من سنين طويلة.",
+      "en": "Zabbix is easier to start with and has a more modern UI for most teams. Nagios remains strong if you already have infrastructure built on it or need its huge, long-established plugin ecosystem."
+    }
+  },
+  {
+    "id": "cmp-gen-0031",
+    "slug": "ubiquiti-unifi-vs-cisco-meraki",
+    "title": {
+      "ar": "Ubiquiti UniFi ضد Cisco Meraki",
+      "en": "Ubiquiti UniFi vs Cisco Meraki"
+    },
+    "excerpt": {
+      "ar": "UniFi قيمة ممتازة للشركات الصغيرة والمتوسطة بميزانية محدودة. Meraki أنسب للمؤسسات اللي محتاجة دعم رسمي واتفاقيات خدمة وا",
+      "en": "UniFi offers excellent value for budget-conscious small and mid-size businesses. Meraki fits organizations needing official support and clea"
+    },
+    "device1Name": "Ubiquiti UniFi",
+    "device2Name": "Cisco Meraki",
+    "device1Image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://cdn.simpleicons.org/cisco/1BA0D7",
+    "date": "2026-02-22",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التكلفة الإجمالية",
+          "en": "Total cost"
+        },
+        "device1Value": {
+          "ar": "شراء أجهزة مرة واحدة، بدون اشتراك سنوي إجباري",
+          "en": "One-time hardware purchase, no mandatory annual subscription"
+        },
+        "device2Value": {
+          "ar": "اشتراك سنوي إجباري لكل جهاز طوال عمره",
+          "en": "Mandatory annual per-device licensing for the device's lifetime"
+        },
+        "device1Score": 8,
+        "device2Score": 4,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "سهولة الإدارة السحابية",
+          "en": "Cloud management ease"
+        },
+        "device1Value": {
+          "ar": "جيدة عبر UniFi Controller",
+          "en": "Good via the UniFi Controller"
+        },
+        "device2Value": {
+          "ar": "من الأفضل في السوق، إدارة سحابية ناضجة جدًا",
+          "en": "Among the best in the market, very mature cloud management"
+        },
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "الدعم المؤسسي والـSLA",
+          "en": "Enterprise support & SLA"
+        },
+        "device1Value": {
+          "ar": "دعم مجتمعي أساسًا، أقل رسمية",
+          "en": "Mostly community-based support, less formal"
+        },
+        "device2Value": {
+          "ar": "دعم Cisco الرسمي مع اتفاقيات SLA واضحة",
+          "en": "Official Cisco support with clear SLAs"
+        },
+        "device1Score": 5,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "UniFi قيمة ممتازة للشركات الصغيرة والمتوسطة بميزانية محدودة. Meraki أنسب للمؤسسات اللي محتاجة دعم رسمي واتفاقيات خدمة واضحة، مقابل تكلفة اشتراك سنوي دائم.",
+      "en": "UniFi offers excellent value for budget-conscious small and mid-size businesses. Meraki fits organizations needing official support and clear SLAs, at the cost of a permanent annual subscription."
+    }
+  },
+  {
+    "id": "cmp-gen-0032",
+    "slug": "ansible-vs-powershell-dsc",
+    "title": {
+      "ar": "Ansible ضد PowerShell DSC",
+      "en": "Ansible vs PowerShell DSC"
+    },
+    "excerpt": {
+      "ar": "Ansible أفضل لبيئة مختلطة (Linux + Windows + شبكات). PowerShell DSC أنسب لبيئة Windows/AD خالصة محتاجة تكامل عميق مع منظ",
+      "en": "Ansible is the better fit for a mixed environment (Linux + Windows + network devices). PowerShell DSC suits a pure Windows/AD environment ne"
+    },
+    "device1Name": "Ansible",
+    "device2Name": "PowerShell DSC",
+    "device1Image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-03-02",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التوافق عبر المنصات",
+          "en": "Cross-platform compatibility"
+        },
+        "device1Value": {
+          "ar": "يدعم Linux وWindows وأجهزة شبكات متنوعة",
+          "en": "Supports Linux, Windows, and diverse network devices"
+        },
+        "device2Value": {
+          "ar": "مصمم أساسًا لبيئة Windows",
+          "en": "Built primarily for the Windows environment"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "منحنى التعلم",
+          "en": "Learning curve"
+        },
+        "device1Value": {
+          "ar": "YAML بسيط نسبيًا للمبتدئين",
+          "en": "Relatively simple YAML for beginners"
+        },
+        "device2Value": {
+          "ar": "يحتاج خبرة PowerShell أعمق",
+          "en": "Needs deeper PowerShell expertise"
+        },
+        "device1Score": 8,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "التكامل مع Active Directory",
+          "en": "Active Directory integration"
+        },
+        "device1Value": {
+          "ar": "ممكن عبر إضافات",
+          "en": "Possible via modules"
+        },
+        "device2Value": {
+          "ar": "تكامل مباشر وطبيعي لأنه من نفس منظومة Microsoft",
+          "en": "Direct, native integration as part of the Microsoft ecosystem"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Ansible أفضل لبيئة مختلطة (Linux + Windows + شبكات). PowerShell DSC أنسب لبيئة Windows/AD خالصة محتاجة تكامل عميق مع منظومة Microsoft.",
+      "en": "Ansible is the better fit for a mixed environment (Linux + Windows + network devices). PowerShell DSC suits a pure Windows/AD environment needing deep Microsoft ecosystem integration."
+    }
+  },
+  {
+    "id": "cmp-gen-0033",
+    "slug": "cloudflare-vs-akamai",
+    "title": {
+      "ar": "Cloudflare ضد Akamai",
+      "en": "Cloudflare vs Akamai"
+    },
+    "excerpt": {
+      "ar": "Cloudflare خيار ممتاز وسريع البداية لمعظم المواقع، بما فيها الصغيرة والمتوسطة. Akamai أنسب لمؤسسات ضخمة جدًا محتاجة أعلى",
+      "en": "Cloudflare is an excellent, fast-to-start choice for most sites, including small and mid-size ones. Akamai fits very large enterprises needi"
+    },
+    "device1Name": "Cloudflare",
+    "device2Name": "Akamai",
+    "device1Image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-05-09",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "سهولة البداية لموقع صغير أو متوسط",
+          "en": "Ease of start for a small/mid site"
+        },
+        "device1Value": {
+          "ar": "خطة مجانية قوية وإعداد سريع جدًا",
+          "en": "Strong free tier and very fast setup"
+        },
+        "device2Value": {
+          "ar": "موجّه أساسًا للمؤسسات الكبرى، إعداد أعقد",
+          "en": "Primarily aimed at large enterprises, more complex setup"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "حجم شبكة التوزيع العالمية",
+          "en": "Global CDN network scale"
+        },
+        "device1Value": {
+          "ar": "واسعة جدًا وتنمو باستمرار",
+          "en": "Very wide and constantly growing"
+        },
+        "device2Value": {
+          "ar": "من أقدم وأكبر شبكات CDN في العالم",
+          "en": "One of the oldest and largest CDN networks in the world"
+        },
+        "device1Score": 8,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "حماية DDoS للمؤسسات الضخمة",
+          "en": "DDoS protection at massive enterprise scale"
+        },
+        "device1Value": {
+          "ar": "قوية جدًا وتغطي معظم الاحتياجات",
+          "en": "Very strong, covers most needs"
+        },
+        "device2Value": {
+          "ar": "سجل طويل جدًا في حماية أكبر المواقع العالمية من هجمات ضخمة",
+          "en": "A very long track record protecting the world's largest sites from massive attacks"
+        },
+        "device1Score": 8,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Cloudflare خيار ممتاز وسريع البداية لمعظم المواقع، بما فيها الصغيرة والمتوسطة. Akamai أنسب لمؤسسات ضخمة جدًا محتاجة أعلى مستوى حماية وأداء عالمي بميزانية مؤسسية.",
+      "en": "Cloudflare is an excellent, fast-to-start choice for most sites, including small and mid-size ones. Akamai fits very large enterprises needing the highest tier of protection and global performance at enterprise budget."
+    }
   }
 ]
