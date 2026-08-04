@@ -40,9 +40,28 @@ export default function Home() {
               <span className="w-2 h-8 bg-secondary rounded-full inline-block"></span>
               <h2 className="text-2xl font-bold">{t('trending')}</h2>
             </div>
-            {trendingArticles.map(article => (
-              <ArticleCard key={article.id} article={article} />
-            ))}
+            <div className="flex flex-col gap-1">
+              {trendingArticles.map((article, index) => (
+                <Link
+                  key={article.id}
+                  href={`/article/${article.slug}`}
+                  className="group flex items-center gap-3 py-3 border-b border-border last:border-0 hover:bg-muted/30 rounded-lg px-2 -mx-2 transition-colors"
+                >
+                  <span className="text-2xl font-black text-muted-foreground/40 w-6 text-center shrink-0">
+                    {index + 1}
+                  </span>
+                  <img
+                    src={article.heroImage}
+                    alt={article.title[language]}
+                    className="w-16 h-16 rounded-lg object-cover shrink-0"
+                    loading="lazy"
+                  />
+                  <h3 className="font-semibold text-sm leading-snug line-clamp-2 group-hover:text-primary transition-colors">
+                    {article.title[language]}
+                  </h3>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </section>
