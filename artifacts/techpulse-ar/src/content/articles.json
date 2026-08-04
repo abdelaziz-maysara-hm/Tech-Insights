@@ -58,7 +58,7 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2022-05-08",
+    "date": "2022-03-08",
     "readTime": 4,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
@@ -93,7 +93,7 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2022-10-15",
+    "date": "2022-06-15",
     "readTime": 6,
     "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
@@ -128,7 +128,7 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2023-02-22",
+    "date": "2022-09-22",
     "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
@@ -163,7 +163,7 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2023-07-02",
+    "date": "2022-11-02",
     "readTime": 5,
     "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
@@ -198,7 +198,7 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2023-11-09",
+    "date": "2023-02-09",
     "readTime": 4,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
@@ -233,7 +233,7 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2024-04-16",
+    "date": "2023-05-16",
     "readTime": 5,
     "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
@@ -267,7 +267,7 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2024-08-23",
+    "date": "2023-07-23",
     "readTime": 4,
     "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
@@ -302,7 +302,7 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2024-12-03",
+    "date": "2023-10-03",
     "readTime": 4,
     "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
@@ -336,7 +336,7 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2025-05-10",
+    "date": "2024-01-10",
     "readTime": 4,
     "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
@@ -370,7 +370,7 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2025-09-17",
+    "date": "2024-04-17",
     "readTime": 4,
     "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
@@ -404,13 +404,294 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2026-02-24",
+    "date": "2024-06-24",
     "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "chatgpt",
       "study",
       "ai"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0013",
+    "slug": "kaspersky-security-center-tagging",
+    "title": {
+      "ar": "تنظيم الأجهزة في Kaspersky Security Center بالـ Tags",
+      "en": "Organizing Devices in Kaspersky Security Center with Tags"
+    },
+    "excerpt": {
+      "ar": "استخدام الوسوم (Tags) لتجميع الأجهزة وتسريع تطبيق السياسات في KSC.",
+      "en": "Using tags to group devices and speed up policy application in Kaspersky Security Center."
+    },
+    "body": {
+      "ar": "## ليه تحتاج Tags؟\n\nفي بيئة فيها مئات الأجهزة، تطبيق سياسة واحدة يدويًا على كل جهاز مضيعة وقت. الوسوم بتخليك تجمّع الأجهزة منطقيًا وتطبّق سياسات كمجموعة.\n\n## خطوات عملية\n\n1. من Devices، اختر جهاز أو أكثر وأضف Tag واضح.\n2. أنشئ Administration Group أو استخدم Tag كفلتر.\n3. اربط سياسة الحماية بمجموعة الوسم بدل كل جهاز لوحده.\n4. راجع تقرير الأجهزة غير المصنّفة دوريًا.\n\n## الخلاصة\n\nوسوم واضحة ومتسقة من أول يوم توفر وقت إدارة حقيقي.",
+      "en": "## Why tags?\n\nManually applying one policy per device doesn't scale. Tags let you group devices logically and apply policies as a group.\n\n## Practical steps\n\nAdd a clear tag per device, build a group or filter by tag, attach policy to the tag group, and review untagged devices regularly.\n\n## Bottom line\n\nConsistent tagging from day one saves real admin time."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2024-09-04",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "kaspersky",
+      "endpoint",
+      "security-center"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0014",
+    "slug": "rdp-multi-user-rds-licensing",
+    "title": {
+      "ar": "تفعيل RDP متعدد المستخدمين وترخيص RDS بشكل صحيح",
+      "en": "Enabling Multi-User RDP and Licensing RDS Correctly"
+    },
+    "excerpt": {
+      "ar": "الفرق بين RDP العادي وRDS، وخطوات تفعيل الترخيص لتفادي انقطاع الجلسات.",
+      "en": "The difference between plain RDP and RDS, and how to license it properly."
+    },
+    "body": {
+      "ar": "## المشكلة الشائعة\n\nWindows Server بيسمح بجلسة RDP إدارية أو اتنين مجانًا. لو محتاج عدة مستخدمين، لازم دور RDS مرخّص.\n\n## خطوات الإعداد\n\n1. أضف دور Remote Desktop Services من Server Manager.\n2. فعّل الترخيص من RD Licensing Manager على نطاق الدومين.\n3. حدد نوع التراخيص (Per User أو Per Device).\n4. اربط الترخيص بالسيرفر خلال أول 120 يومًا.\n\n## الخلاصة\n\nRDS مش RDP عادي — لازم دور وترخيص منفصلين من أول يوم.",
+      "en": "## The common problem\n\nWindows Server allows a couple of free admin RDP sessions. For multiple concurrent users you need the licensed RDS role.\n\n## Setup steps\n\nAdd the RDS role, activate licensing domain-wide, choose Per User or Per Device, and license within the 120-day grace period.\n\n## Bottom line\n\nRDS needs its own role and licensing from day one."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2024-12-11",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "rdp",
+      "rds",
+      "windows-server",
+      "licensing"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0015",
+    "slug": "windows-server-evaluation-to-standard",
+    "title": {
+      "ar": "تحويل Windows Server من Evaluation إلى Standard بدون إعادة تثبيت",
+      "en": "Converting Windows Server from Evaluation to Standard Without Reinstalling"
+    },
+    "excerpt": {
+      "ar": "أمر DISM اللي بيحوّل الإصدار التجريبي لمرخّص من غير ما تخسر الإعدادات.",
+      "en": "The DISM command that converts the trial edition to a licensed one without losing configuration."
+    },
+    "body": {
+      "ar": "## المشكلة\n\nنسخة Evaluation بتنتهي بعد 180 يوم، وإعادة التثبيت بتضيّع الإعدادات.\n\n## الخطوات\n\n1. تأكد من الإصدار الحالي: DISM /online /Get-CurrentEdition\n2. شغّل: DISM /online /Set-Edition:ServerStandard مع مفتاح صالح.\n3. السيرفر هيعمل إعادة تشغيل تلقائي — خطط له بره وقت العمل.\n4. تأكد من التفعيل بعدها: slmgr /dlv\n\n## الخلاصة\n\nDISM يوفر إعادة تثبيت كاملة، بس لازم مفتاح صحيح ونافذة صيانة.",
+      "en": "## The problem\n\nEvaluation installs expire after 180 days, and reinstalling wipes configuration.\n\n## Steps\n\nCheck the current edition, run DISM /Set-Edition with a valid key, expect an automatic reboot, and verify activation with slmgr /dlv.\n\n## Bottom line\n\nDISM saves a full reinstall, but needs a valid key and planned maintenance window."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-02-18",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "windows-server",
+      "dism",
+      "licensing"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0016",
+    "slug": "dns-reverse-lookup-zone-setup",
+    "title": {
+      "ar": "إعداد منطقة DNS العكسية (Reverse Lookup Zone) خطوة بخطوة",
+      "en": "Setting Up a DNS Reverse Lookup Zone Step by Step"
+    },
+    "excerpt": {
+      "ar": "ليه محتاج PTR records وإزاي تنشئها صح في بيئة Active Directory.",
+      "en": "Why you need PTR records and how to create them in an Active Directory environment."
+    },
+    "body": {
+      "ar": "## ليه محتاجها؟\n\nالمنطقة الأمامية بتحوّل اسم لعنوان IP. العكسية بتعمل العكس، وأدوات أمان وبريد كتير بتعتمد على PTR سليم.\n\n## خطوات الإنشاء\n\n1. من Reverse Lookup Zones أنشئ منطقة مطابقة لنطاق الشبكة.\n2. اختر Active Directory-Integrated لو عندك أكتر من DNS server.\n3. فعّل Dynamic Updates الآمنة.\n4. تأكد إن DHCP بيسجّل PTR تلقائيًا.\n\n## الخلاصة\n\nمنطقة عكسية سليمة + تحديث تلقائي = بيانات DNS متسقة بدون تدخل يدوي.",
+      "en": "## Why you need it\n\nForward zones resolve names to IPs; reverse zones do the opposite, and many security/email tools rely on valid PTR records.\n\n## Setup steps\n\nCreate a reverse zone matching your subnet, use AD-integrated zones, enable secure dynamic updates, and confirm DHCP registers PTR automatically.\n\n## Bottom line\n\nA correct reverse zone plus automatic updates means consistent DNS with no manual upkeep."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-05-25",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "dns",
+      "active-directory",
+      "networking"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0017",
+    "slug": "group-policy-basics-for-sysadmins",
+    "title": {
+      "ar": "أساسيات Group Policy لمدير النظام الجديد",
+      "en": "Group Policy Basics for New Sysadmins"
+    },
+    "excerpt": {
+      "ar": "ترتيب تطبيق السياسات (LSDOU) وأشهر الأخطاء اللي بتسبب سلوك غير متوقع.",
+      "en": "Policy application order (LSDOU) and the common mistakes that cause unexpected behavior."
+    },
+    "body": {
+      "ar": "## ترتيب التطبيق\n\nLocal ثم Site ثم Domain ثم OU. الأقرب للمستخدم (OU) بيفوز عادةً عند التعارض.\n\n## خطوات عملية\n\n1. أنشئ GPO منفصل لكل غرض.\n2. اربطه بأضيق OU ممكن.\n3. استخدم Security Filtering للاستثناءات.\n4. اختبر بـ gpresult /r على جهاز حقيقي.\n\n## الخلاصة\n\nGPOs صغيرة ومحددة + اختبار حقيقي = تصحيح أخطاء أسرع بكتير.",
+      "en": "## Application order\n\nLocal, Site, Domain, then OU -- the closest setting usually wins on conflict.\n\n## Core steps\n\nOne focused GPO per purpose, linked to the narrowest OU, with Security Filtering for exceptions, verified via gpresult /r.\n\n## Bottom line\n\nSmall purpose-built GPOs make troubleshooting far faster than one giant GPO."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-08-05",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "group-policy",
+      "active-directory",
+      "windows-server"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0018",
+    "slug": "backup-3-2-1-rule-practical",
+    "title": {
+      "ar": "قاعدة النسخ الاحتياطي 3-2-1 بشكل عملي",
+      "en": "The 3-2-1 Backup Rule, Practically Applied"
+    },
+    "excerpt": {
+      "ar": "3 نسخ، وسيطين مختلفين، ونسخة واحدة خارج الموقع.",
+      "en": "3 copies, 2 media types, 1 offsite copy -- applied on a limited budget."
+    },
+    "body": {
+      "ar": "## القاعدة\n\n3 نسخ من البيانات على وسيطين مختلفين، مع نسخة واحدة على الأقل خارج الموقع.\n\n## تطبيق بميزانية محدودة\n\n1. نسخة محلية يومية على NAS أو قرص خارجي.\n2. رفع أسبوعي لتخزين سحابي رخيص.\n3. اختبار استعادة شهري فعلي.\n\n## الخلاصة\n\nنسخة محلية + سحابة رخيصة + اختبار شهري كافية لمعظم الفرق الصغيرة.",
+      "en": "## The rule\n\n3 copies on 2 media types, with at least 1 copy offsite.\n\n## On a tight budget\n\nDaily local backup, weekly cloud upload, and an actual monthly restore test.\n\n## Bottom line\n\nAn untested backup is effectively no backup."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-10-12",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "backup",
+      "disaster-recovery",
+      "storage"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0019",
+    "slug": "zero-trust-explained-practically",
+    "title": {
+      "ar": "Zero Trust بدون تعقيد: إيه هو فعليًا وإزاي تبدأ",
+      "en": "Zero Trust Without the Jargon: What It Actually Is and Where to Start"
+    },
+    "excerpt": {
+      "ar": "المبدأ الأساسي وثلاث خطوات بداية واقعية.",
+      "en": "The core principle and three realistic first steps."
+    },
+    "body": {
+      "ar": "## المبدأ الأساسي\n\nوجود المستخدم جوه الشبكة مش سبب كافٍ للثقة فيه. كل طلب وصول لازم يتحقق منه.\n\n## من أين تبدأ\n\n1. فعّل 2FA على كل الحسابات الإدارية.\n2. قسّم الشبكة لأجزاء أصغر.\n3. طبّق مبدأ الصلاحية الأقل.\n\n## الخلاصة\n\n2FA وتقسيم الشبكة خطوتان واقعيتان تقدر تبدأ بيهم النهاردة.",
+      "en": "## The core principle\n\nBeing inside the network isn't reason enough to be trusted.\n\n## Where to start\n\nEnable 2FA on admin accounts, segment the network, and apply least-privilege.\n\n## Bottom line\n\n2FA and segmentation are two realistic first steps."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-19",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "zero-trust",
+      "security",
+      "network-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0020",
+    "slug": "email-security-gateway-basics",
+    "title": {
+      "ar": "بوابة أمان البريد الإلكتروني: إيه اللي بتحميه فعليًا",
+      "en": "Email Security Gateways: What They Actually Protect Against"
+    },
+    "excerpt": {
+      "ar": "الفرق بين فلترة السبام العادية وبوابة أمان بريد حقيقية.",
+      "en": "The difference between basic spam filtering and a real email security gateway."
+    },
+    "body": {
+      "ar": "## ليه الحماية المدمجة مش كافية دايمًا؟\n\nبوابات متخصصة زي Forcepoint بتضيف تحليل سلوكي للمرفقات وحماية من انتحال الهوية.\n\n## وظائف تدوّر عليها\n\n1. فحص المرفقات في Sandbox.\n2. كشف انتحال النطاقات المشابهة.\n3. تشفير تلقائي للرسائل الحساسة.\n\n## الخلاصة\n\nالحماية المدمجة بداية جيدة، مش نهاية الطريق للقطاعات الحساسة.",
+      "en": "## Why built-in protection isn't enough\n\nDedicated gateways add attachment sandboxing and impersonation detection.\n\n## Features to look for\n\nSandbox analysis, look-alike domain detection, automatic sensitive-content encryption.\n\n## Bottom line\n\nBuilt-in protection is a starting point, not the finish line."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-26",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "email-security",
+      "forcepoint",
+      "phishing"
     ],
     "isFeatured": false,
     "isTrending": false

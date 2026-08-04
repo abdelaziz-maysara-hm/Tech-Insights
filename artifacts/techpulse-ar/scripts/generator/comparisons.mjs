@@ -241,6 +241,66 @@ export const COMPARISON_CONTENT = [
     verdictAr: 'الاختيار هنا محدد بنوع هاتفك أكتر من أي حاجة تانية — Apple Watch مع iPhone، Galaxy Watch مع Android.',
     verdictEn: 'The choice here is mostly dictated by your phone more than anything else — Apple Watch pairs with iPhone, Galaxy Watch with Android.',
   },
+  {
+    d1: 'Kaspersky Endpoint Security', d2: 'Bitdefender GravityZone', sub: 'endpoint', img1: 'endpoint', img2: 'security',
+    specs: [
+      spec('سهولة الإدارة المركزية', 'Central management ease', 'واجهة KSC ناضجة وواسعة الانتشار', 'The KSC console is mature and widely deployed', 'واجهة GravityZone حديثة وسهلة التعلم', 'GravityZone\'s console is modern and easy to learn', 8, 8),
+      spec('التأثير على أداء الجهاز', 'Impact on device performance', 'خفيف نسبيًا', 'Relatively light', 'من الأخف في السوق حسب اختبارات مستقلة', 'Among the lightest in independent tests', 7, 9),
+      spec('التوفر والدعم في المنطقة العربية', 'Regional availability & support', 'انتشار قوي في المنطقة', 'Strong presence in the region', 'متوفر لكن شراكات محلية أقل', 'Available but fewer local partnerships', 8, 6),
+    ],
+    verdictAr: 'الاتنين خيار قوي لحماية نقاط النهاية للشركات الصغيرة والمتوسطة. Kaspersky أقوى في الدعم المحلي بالمنطقة العربية، Bitdefender أخف على أداء الجهاز حسب اختبارات مستقلة متكررة.',
+    verdictEn: 'Both are strong picks for SMB endpoint protection. Kaspersky has stronger regional support in the Arabic-speaking market; Bitdefender is lighter on device performance in repeated independent tests.',
+  },
+  {
+    d1: 'Windows RDS', d2: 'Citrix Virtual Apps', sub: 'network-security', img1: 'server', img2: 'cloud',
+    specs: [
+      spec('تكلفة الترخيص الأولية', 'Initial licensing cost', 'أقل بكثير (تراخيص RDS فقط)', 'Much lower (RDS licensing only)', 'أعلى بكثير (طبقة تراخيص إضافية)', 'Much higher (an extra licensing layer)', 9, 5),
+      spec('تحسين الأداء عبر شبكات ضعيفة', 'Performance over weak networks', 'جيد', 'Good', 'من الأفضل في السوق تاريخيًا (بروتوكول HDX)', 'Historically among the best in the market (HDX protocol)', 6, 9),
+      spec('سهولة الإعداد لبيئة صغيرة', 'Setup simplicity for a small environment', 'مباشر لأنه من نفس منظومة Windows Server', 'Direct since it\'s part of the Windows Server ecosystem', 'أعقد، محتاج خبرة متخصصة', 'More complex, needs specialized expertise', 8, 5),
+    ],
+    verdictAr: 'RDS الخيار الأوفر والأبسط لشركة صغيرة أو متوسطة محتاجة سطح مكتب بعيد أساسي. Citrix يستاهل التكلفة الإضافية لو عندك فروع كتير بشبكات ضعيفة ومحتاج أداء ثابت.',
+    verdictEn: 'RDS is the more affordable, simpler choice for a small-to-mid business needing basic remote desktop. Citrix justifies its extra cost if you have many branches on weak networks and need consistently strong performance.',
+  },
+  {
+    d1: 'Group Policy', d2: 'Microsoft Intune', sub: 'identity', img1: 'identity', img2: 'cloud',
+    specs: [
+      spec('إدارة الأجهزة خارج الشبكة المحلية', 'Managing devices outside the local network', 'محدودة جدًا بدون VPN', 'Very limited without a VPN', 'مصمم أصلًا لإدارة الأجهزة من أي مكان', 'Built specifically to manage devices from anywhere', 3, 9),
+      spec('التكلفة لبيئة صغيرة موجودة أصلًا على AD', 'Cost for a small environment already on AD', 'مجاني فعليًا (مضمّن)', 'Effectively free (already included)', 'يحتاج ترخيص إضافي (Intune / E3-E5)', 'Needs additional licensing (Intune / E3-E5)', 9, 5),
+      spec('دعم الأجهزة غير Windows (macOS, iOS)', 'Support for non-Windows devices (macOS, iOS)', 'غير مدعوم أصلًا', 'Not natively supported', 'دعم كامل عبر منصات متعددة', 'Full cross-platform support', 2, 9),
+    ],
+    verdictAr: 'Group Policy منطقي جدًا لبيئة Windows تقليدية بالكامل داخل الشبكة. Intune ضروري فعليًا لو عندك أجهزة بعيدة أو خليط من الأنظمة (macOS، iOS، Android).',
+    verdictEn: 'Group Policy makes strong sense for a fully traditional on-premises Windows environment. Intune is genuinely necessary if you have remote devices or a mix of platforms (macOS, iOS, Android).',
+  },
+  {
+    d1: 'Veeam Backup & Replication', d2: 'Acronis Cyber Protect', sub: 'network-security', img1: 'storage', img2: 'security',
+    specs: [
+      spec('التركيز الأساسي', 'Core focus', 'نسخ احتياطي واستعادة على مستوى مؤسسي عميق', 'Deep enterprise-grade backup and recovery', 'يدمج النسخ الاحتياطي مع حماية من الفيروسات في منتج واحد', 'Combines backup with anti-malware protection in one product', 8, 7),
+      spec('دعم بيئات الافتراضية الكبيرة (VMware/Hyper-V)', 'Support for large virtualized environments', 'من الأقوى والأنضج في السوق لهذا تحديدًا', 'Among the strongest and most mature in the market for this specifically', 6, 8),
+      spec('الملاءمة للشركات الصغيرة بفريق تقني محدود', 'Fit for small businesses with a limited IT team', 'يحتاج خبرة أعمق للاستفادة الكاملة', 'Needs deeper expertise to use fully', 6, 8),
+    ],
+    verdictAr: 'Veeam أقوى لمؤسسة كبيرة عندها بيئة افتراضية معقدة ومحتاجة نسخ احتياطي على مستوى مؤسسي. Acronis أنسب لشركة صغيرة عايزة نسخ احتياطي وحماية من الفيروسات في أداة واحدة مبسطة.',
+    verdictEn: 'Veeam is stronger for a larger organization with a complex virtualized environment needing enterprise-grade backup. Acronis fits a small business wanting backup and anti-malware in one simplified tool.',
+  },
+  {
+    d1: 'Splunk', d2: 'Wazuh', sub: 'network-security', img1: 'analytics', img2: 'security',
+    specs: [
+      spec('التكلفة', 'Cost', 'مرتفعة جدًا، ترخيص حسب حجم البيانات', 'Very high, licensed by data volume', 'مفتوح المصدر ومجاني بالكامل', 'Fully open-source and free', 3, 9),
+      spec('نضج تحليل البيانات الضخمة', 'Big-data analysis maturity', 'من الأنضج والأقوى في السوق', 'Among the most mature and powerful in the market', 'جيد جدًا لكن أصغر مجتمعًا وموارد', 'Very good but a smaller community and resource base', 9, 6),
+      spec('سهولة البداية لفريق صغير', 'Ease of getting started for a small team', 'منحنى تعلم وتكلفة أعلى', 'Steeper learning curve and cost', 'أسهل بداية مجانية، يحتاج خبرة Linux', 'Easier free start, needs Linux expertise', 5, 8),
+    ],
+    verdictAr: 'Splunk الخيار الأقوى لمؤسسة كبيرة عندها ميزانية وبيانات ضخمة محتاجة تحليل عميق. Wazuh بديل قوي ومجاني تمامًا لفريق صغير عايز يبدأ في SIEM من غير تكلفة ترخيص.',
+    verdictEn: 'Splunk is the stronger choice for a large organization with budget and massive data needing deep analysis. Wazuh is a strong, fully free alternative for a small team wanting to start with SIEM without licensing cost.',
+  },
+  {
+    d1: 'Forcepoint Email Security', d2: 'Proofpoint Email Protection', sub: 'network-security', img1: 'security', img2: 'shield',
+    specs: [
+      spec('التركيز على منع فقدان البيانات (DLP)', 'DLP focus', 'من نقاط القوة التاريخية الأساسية', 'One of the historical core strengths', 'قوي أيضًا لكن أقل تخصصًا في DLP تحديدًا', 'Also strong but less specifically DLP-focused', 9, 7),
+      spec('حجم السوق ومجتمع الدعم', 'Market size & support community', 'أضيق نسبيًا', 'Relatively narrower', 'أوسع انتشارًا في سوق أمان البريد تحديدًا', 'Wider deployment specifically in the email-security market', 6, 8),
+      spec('التكامل مع بيئات حكومية ومالية', 'Integration with government/financial environments', 'قوي وتاريخي في هذا القطاع تحديدًا', 'Strong and historically established in this sector specifically', 9, 7),
+    ],
+    verdictAr: 'Forcepoint خيار قوي جدًا للقطاعات الحساسة (حكومي، مالي) لو منع تسريب البيانات أولوية قصوى. Proofpoint أوسع انتشارًا كحل أمان بريد عام لمعظم الشركات.',
+    verdictEn: 'Forcepoint is a very strong choice for sensitive sectors (government, financial) where DLP is the top priority. Proofpoint has wider deployment as a general email-security solution for most businesses.',
+  },
 ];
 
 export function generateComparisons({ count = COMPARISON_CONTENT.length, subcategory, startIndex = 0 } = {}) {

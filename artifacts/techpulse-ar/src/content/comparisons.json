@@ -204,7 +204,7 @@
     "device2Name": "Dell XPS 13",
     "device1Image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=400&h=500&q=80",
     "device2Image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2022-06-15",
+    "date": "2022-05-15",
     "categoryId": "comparisons",
     "subcategoryId": "laptops-pcs",
     "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
@@ -299,7 +299,7 @@
     "device2Name": "HP EliteBook",
     "device1Image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&h=500&q=80",
     "device2Image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2022-08-22",
+    "date": "2022-07-22",
     "categoryId": "comparisons",
     "subcategoryId": "laptops-pcs",
     "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
@@ -394,7 +394,7 @@
     "device2Name": "Fortinet FortiGate",
     "device1Image": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
     "device2Image": "https://cdn.simpleicons.org/fortinet/EE3124",
-    "date": "2022-11-02",
+    "date": "2022-09-02",
     "categoryId": "comparisons",
     "subcategoryId": "network-security",
     "heroImage": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
@@ -489,7 +489,7 @@
     "device2Name": "Forcepoint NGFW",
     "device1Image": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
     "device2Image": "https://www.google.com/s2/favicons?domain=forcepoint.com&sz=128",
-    "date": "2023-01-09",
+    "date": "2022-11-09",
     "categoryId": "comparisons",
     "subcategoryId": "network-security",
     "heroImage": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
@@ -584,7 +584,7 @@
     "device2Name": "Forcepoint NGFW",
     "device1Image": "https://cdn.simpleicons.org/fortinet/EE3124",
     "device2Image": "https://www.google.com/s2/favicons?domain=forcepoint.com&sz=128",
-    "date": "2023-04-16",
+    "date": "2022-12-16",
     "categoryId": "comparisons",
     "subcategoryId": "network-security",
     "heroImage": "https://cdn.simpleicons.org/fortinet/EE3124",
@@ -662,7 +662,7 @@
     "device2Name": "Palo Alto NGFW",
     "device1Image": "https://cdn.simpleicons.org/cisco/1BA0D7",
     "device2Image": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
-    "date": "2023-07-23",
+    "date": "2023-03-23",
     "categoryId": "comparisons",
     "subcategoryId": "network-security",
     "heroImage": "https://cdn.simpleicons.org/cisco/1BA0D7",
@@ -740,7 +740,7 @@
     "device2Name": "Check Point",
     "device1Image": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
     "device2Image": "https://www.google.com/s2/favicons?domain=checkpoint.com&sz=128",
-    "date": "2023-09-03",
+    "date": "2023-05-03",
     "categoryId": "comparisons",
     "subcategoryId": "network-security",
     "heroImage": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
@@ -818,7 +818,7 @@
     "device2Name": "Sophos Firewall",
     "device1Image": "https://cdn.simpleicons.org/fortinet/EE3124",
     "device2Image": "https://www.google.com/s2/favicons?domain=sophos.com&sz=128",
-    "date": "2023-12-10",
+    "date": "2023-07-10",
     "categoryId": "comparisons",
     "subcategoryId": "network-security",
     "heroImage": "https://cdn.simpleicons.org/fortinet/EE3124",
@@ -896,7 +896,7 @@
     "device2Name": "OpenVPN",
     "device1Image": "https://cdn.simpleicons.org/wireguard/88171A",
     "device2Image": "https://cdn.simpleicons.org/openvpn/EA7E20",
-    "date": "2024-02-17",
+    "date": "2023-09-17",
     "categoryId": "comparisons",
     "subcategoryId": "network-security",
     "heroImage": "https://cdn.simpleicons.org/wireguard/88171A",
@@ -991,7 +991,7 @@
     "device2Name": "FreeRADIUS",
     "device1Image": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/windows.svg",
     "device2Image": "https://www.google.com/s2/favicons?domain=freeradius.org&sz=128",
-    "date": "2024-05-24",
+    "date": "2023-10-24",
     "categoryId": "comparisons",
     "subcategoryId": "network-security",
     "heroImage": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/windows.svg",
@@ -1086,7 +1086,7 @@
     "device2Name": "Microsoft Entra ID",
     "device1Image": "https://cdn.simpleicons.org/okta/007DC1",
     "device2Image": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/microsoftazure.svg",
-    "date": "2024-07-04",
+    "date": "2023-12-04",
     "categoryId": "comparisons",
     "subcategoryId": "identity",
     "heroImage": "https://cdn.simpleicons.org/okta/007DC1",
@@ -1164,7 +1164,7 @@
     "device2Name": "Microsoft Defender",
     "device1Image": "https://www.google.com/s2/favicons?domain=crowdstrike.com&sz=128",
     "device2Image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
-    "date": "2024-10-11",
+    "date": "2024-03-11",
     "categoryId": "comparisons",
     "subcategoryId": "endpoint",
     "heroImage": "https://www.google.com/s2/favicons?domain=crowdstrike.com&sz=128",
@@ -1242,7 +1242,7 @@
     "device2Name": "SentinelOne",
     "device1Image": "https://www.google.com/s2/favicons?domain=crowdstrike.com&sz=128",
     "device2Image": "https://www.google.com/s2/favicons?domain=sentinelone.com&sz=128",
-    "date": "2024-12-18",
+    "date": "2024-05-18",
     "categoryId": "comparisons",
     "subcategoryId": "endpoint",
     "heroImage": "https://www.google.com/s2/favicons?domain=crowdstrike.com&sz=128",
@@ -1303,7 +1303,7 @@
     "device2Name": "SentinelOne",
     "device1Image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
     "device2Image": "https://www.google.com/s2/favicons?domain=sentinelone.com&sz=128",
-    "date": "2025-03-25",
+    "date": "2024-07-25",
     "categoryId": "comparisons",
     "subcategoryId": "endpoint",
     "heroImage": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
@@ -1364,7 +1364,7 @@
     "device2Name": "Claude",
     "device1Image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=400&h=500&q=80",
     "device2Image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2025-06-05",
+    "date": "2024-08-05",
     "categoryId": "comparisons",
     "subcategoryId": "software-services",
     "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
@@ -1425,7 +1425,7 @@
     "device2Name": "Azure",
     "device1Image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=500&q=80",
     "device2Image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2025-08-12",
+    "date": "2024-10-12",
     "categoryId": "comparisons",
     "subcategoryId": "software-services",
     "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
@@ -1486,7 +1486,7 @@
     "device2Name": "Bitwarden",
     "device1Image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400&h=500&q=80",
     "device2Image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2025-11-19",
+    "date": "2024-12-19",
     "categoryId": "comparisons",
     "subcategoryId": "software-services",
     "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
@@ -1564,7 +1564,7 @@
     "device2Name": "Xbox Series X",
     "device1Image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=400&h=500&q=80",
     "device2Image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
-    "date": "2026-01-26",
+    "date": "2025-03-26",
     "categoryId": "comparisons",
     "subcategoryId": "gaming-consoles",
     "heroImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&h=450&q=80",
@@ -1625,7 +1625,7 @@
     "device2Name": "Galaxy Watch 7",
     "device1Image": "https://cdn.simpleicons.org/apple/000000",
     "device2Image": "https://cdn.simpleicons.org/samsung/1428A0",
-    "date": "2026-04-06",
+    "date": "2025-05-06",
     "categoryId": "comparisons",
     "subcategoryId": "wearables",
     "heroImage": "https://cdn.simpleicons.org/apple/000000",
@@ -1669,6 +1669,468 @@
     "verdict": {
       "ar": "الاختيار هنا محدد بنوع هاتفك أكتر من أي حاجة تانية — Apple Watch مع iPhone، Galaxy Watch مع Android.",
       "en": "The choice here is mostly dictated by your phone more than anything else — Apple Watch pairs with iPhone, Galaxy Watch with Android."
+    }
+  },
+  {
+    "id": "cmp-gen-0022",
+    "slug": "kaspersky-endpoint-security-vs-bitdefender-gravityzone",
+    "title": {
+      "ar": "Kaspersky Endpoint Security ضد Bitdefender GravityZone",
+      "en": "Kaspersky Endpoint Security vs Bitdefender GravityZone"
+    },
+    "excerpt": {
+      "ar": "الاتنين خيار قوي لحماية نقاط النهاية للشركات الصغيرة والمتوسطة. Kaspersky أقوى في الدعم المحلي بالمنطقة العربية، Bitdefe",
+      "en": "Both are strong picks for SMB endpoint protection. Kaspersky has stronger regional support in the Arabic-speaking market; Bitdefender is lig"
+    },
+    "device1Name": "Kaspersky Endpoint Security",
+    "device2Name": "Bitdefender GravityZone",
+    "device1Image": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "date": "2025-07-13",
+    "categoryId": "comparisons",
+    "subcategoryId": "endpoint",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 0,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "سهولة الإدارة المركزية",
+          "en": "Central management ease"
+        },
+        "device1Value": {
+          "ar": "واجهة KSC ناضجة وواسعة الانتشار",
+          "en": "The KSC console is mature and widely deployed"
+        },
+        "device2Value": {
+          "ar": "واجهة GravityZone حديثة وسهلة التعلم",
+          "en": "GravityZone's console is modern and easy to learn"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 0
+      },
+      "spec2": {
+        "label": {
+          "ar": "التأثير على أداء الجهاز",
+          "en": "Impact on device performance"
+        },
+        "device1Value": {
+          "ar": "خفيف نسبيًا",
+          "en": "Relatively light"
+        },
+        "device2Value": {
+          "ar": "من الأخف في السوق حسب اختبارات مستقلة",
+          "en": "Among the lightest in independent tests"
+        },
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "التوفر والدعم في المنطقة العربية",
+          "en": "Regional availability & support"
+        },
+        "device1Value": {
+          "ar": "انتشار قوي في المنطقة",
+          "en": "Strong presence in the region"
+        },
+        "device2Value": {
+          "ar": "متوفر لكن شراكات محلية أقل",
+          "en": "Available but fewer local partnerships"
+        },
+        "device1Score": 8,
+        "device2Score": 6,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "الاتنين خيار قوي لحماية نقاط النهاية للشركات الصغيرة والمتوسطة. Kaspersky أقوى في الدعم المحلي بالمنطقة العربية، Bitdefender أخف على أداء الجهاز حسب اختبارات مستقلة متكررة.",
+      "en": "Both are strong picks for SMB endpoint protection. Kaspersky has stronger regional support in the Arabic-speaking market; Bitdefender is lighter on device performance in repeated independent tests."
+    }
+  },
+  {
+    "id": "cmp-gen-0023",
+    "slug": "windows-rds-vs-citrix-virtual-apps",
+    "title": {
+      "ar": "Windows RDS ضد Citrix Virtual Apps",
+      "en": "Windows RDS vs Citrix Virtual Apps"
+    },
+    "excerpt": {
+      "ar": "RDS الخيار الأوفر والأبسط لشركة صغيرة أو متوسطة محتاجة سطح مكتب بعيد أساسي. Citrix يستاهل التكلفة الإضافية لو عندك فروع",
+      "en": "RDS is the more affordable, simpler choice for a small-to-mid business needing basic remote desktop. Citrix justifies its extra cost if you"
+    },
+    "device1Name": "Windows RDS",
+    "device2Name": "Citrix Virtual Apps",
+    "device1Image": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/windows.svg",
+    "device2Image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2025-08-20",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/windows.svg",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "تكلفة الترخيص الأولية",
+          "en": "Initial licensing cost"
+        },
+        "device1Value": {
+          "ar": "أقل بكثير (تراخيص RDS فقط)",
+          "en": "Much lower (RDS licensing only)"
+        },
+        "device2Value": {
+          "ar": "أعلى بكثير (طبقة تراخيص إضافية)",
+          "en": "Much higher (an extra licensing layer)"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "تحسين الأداء عبر شبكات ضعيفة",
+          "en": "Performance over weak networks"
+        },
+        "device1Value": {
+          "ar": "جيد",
+          "en": "Good"
+        },
+        "device2Value": {
+          "ar": "من الأفضل في السوق تاريخيًا (بروتوكول HDX)",
+          "en": "Historically among the best in the market (HDX protocol)"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "سهولة الإعداد لبيئة صغيرة",
+          "en": "Setup simplicity for a small environment"
+        },
+        "device1Value": {
+          "ar": "مباشر لأنه من نفس منظومة Windows Server",
+          "en": "Direct since it's part of the Windows Server ecosystem"
+        },
+        "device2Value": {
+          "ar": "أعقد، محتاج خبرة متخصصة",
+          "en": "More complex, needs specialized expertise"
+        },
+        "device1Score": 8,
+        "device2Score": 5,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "RDS الخيار الأوفر والأبسط لشركة صغيرة أو متوسطة محتاجة سطح مكتب بعيد أساسي. Citrix يستاهل التكلفة الإضافية لو عندك فروع كتير بشبكات ضعيفة ومحتاج أداء ثابت.",
+      "en": "RDS is the more affordable, simpler choice for a small-to-mid business needing basic remote desktop. Citrix justifies its extra cost if you have many branches on weak networks and need consistently strong performance."
+    }
+  },
+  {
+    "id": "cmp-gen-0024",
+    "slug": "group-policy-vs-microsoft-intune",
+    "title": {
+      "ar": "Group Policy ضد Microsoft Intune",
+      "en": "Group Policy vs Microsoft Intune"
+    },
+    "excerpt": {
+      "ar": "Group Policy منطقي جدًا لبيئة Windows تقليدية بالكامل داخل الشبكة. Intune ضروري فعليًا لو عندك أجهزة بعيدة أو خليط من ال",
+      "en": "Group Policy makes strong sense for a fully traditional on-premises Windows environment. Intune is genuinely necessary if you have remote de"
+    },
+    "device1Name": "Group Policy",
+    "device2Name": "Microsoft Intune",
+    "device1Image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "date": "2025-10-27",
+    "categoryId": "comparisons",
+    "subcategoryId": "identity",
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "إدارة الأجهزة خارج الشبكة المحلية",
+          "en": "Managing devices outside the local network"
+        },
+        "device1Value": {
+          "ar": "محدودة جدًا بدون VPN",
+          "en": "Very limited without a VPN"
+        },
+        "device2Value": {
+          "ar": "مصمم أصلًا لإدارة الأجهزة من أي مكان",
+          "en": "Built specifically to manage devices from anywhere"
+        },
+        "device1Score": 3,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec2": {
+        "label": {
+          "ar": "التكلفة لبيئة صغيرة موجودة أصلًا على AD",
+          "en": "Cost for a small environment already on AD"
+        },
+        "device1Value": {
+          "ar": "مجاني فعليًا (مضمّن)",
+          "en": "Effectively free (already included)"
+        },
+        "device2Value": {
+          "ar": "يحتاج ترخيص إضافي (Intune / E3-E5)",
+          "en": "Needs additional licensing (Intune / E3-E5)"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "دعم الأجهزة غير Windows (macOS, iOS)",
+          "en": "Support for non-Windows devices (macOS, iOS)"
+        },
+        "device1Value": {
+          "ar": "غير مدعوم أصلًا",
+          "en": "Not natively supported"
+        },
+        "device2Value": {
+          "ar": "دعم كامل عبر منصات متعددة",
+          "en": "Full cross-platform support"
+        },
+        "device1Score": 2,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Group Policy منطقي جدًا لبيئة Windows تقليدية بالكامل داخل الشبكة. Intune ضروري فعليًا لو عندك أجهزة بعيدة أو خليط من الأنظمة (macOS، iOS، Android).",
+      "en": "Group Policy makes strong sense for a fully traditional on-premises Windows environment. Intune is genuinely necessary if you have remote devices or a mix of platforms (macOS, iOS, Android)."
+    }
+  },
+  {
+    "id": "cmp-gen-0025",
+    "slug": "veeam-backup-replication-vs-acronis-cyber-protect",
+    "title": {
+      "ar": "Veeam Backup & Replication ضد Acronis Cyber Protect",
+      "en": "Veeam Backup & Replication vs Acronis Cyber Protect"
+    },
+    "excerpt": {
+      "ar": "Veeam أقوى لمؤسسة كبيرة عندها بيئة افتراضية معقدة ومحتاجة نسخ احتياطي على مستوى مؤسسي. Acronis أنسب لشركة صغيرة عايزة نس",
+      "en": "Veeam is stronger for a larger organization with a complex virtualized environment needing enterprise-grade backup. Acronis fits a small bus"
+    },
+    "device1Name": "Veeam Backup & Replication",
+    "device2Name": "Acronis Cyber Protect",
+    "device1Image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2025-12-07",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التركيز الأساسي",
+          "en": "Core focus"
+        },
+        "device1Value": {
+          "ar": "نسخ احتياطي واستعادة على مستوى مؤسسي عميق",
+          "en": "Deep enterprise-grade backup and recovery"
+        },
+        "device2Value": {
+          "ar": "يدمج النسخ الاحتياطي مع حماية من الفيروسات في منتج واحد",
+          "en": "Combines backup with anti-malware protection in one product"
+        },
+        "device1Score": 8,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "دعم بيئات الافتراضية الكبيرة (VMware/Hyper-V)",
+          "en": "Support for large virtualized environments"
+        },
+        "device1Value": {
+          "ar": "من الأقوى والأنضج في السوق لهذا تحديدًا",
+          "en": "Among the strongest and most mature in the market for this specifically"
+        },
+        "device2Value": {
+          "ar": "6",
+          "en": "8"
+        },
+        "winner": 0
+      },
+      "spec3": {
+        "label": {
+          "ar": "الملاءمة للشركات الصغيرة بفريق تقني محدود",
+          "en": "Fit for small businesses with a limited IT team"
+        },
+        "device1Value": {
+          "ar": "يحتاج خبرة أعمق للاستفادة الكاملة",
+          "en": "Needs deeper expertise to use fully"
+        },
+        "device2Value": {
+          "ar": "6",
+          "en": "8"
+        },
+        "winner": 0
+      }
+    },
+    "verdict": {
+      "ar": "Veeam أقوى لمؤسسة كبيرة عندها بيئة افتراضية معقدة ومحتاجة نسخ احتياطي على مستوى مؤسسي. Acronis أنسب لشركة صغيرة عايزة نسخ احتياطي وحماية من الفيروسات في أداة واحدة مبسطة.",
+      "en": "Veeam is stronger for a larger organization with a complex virtualized environment needing enterprise-grade backup. Acronis fits a small business wanting backup and anti-malware in one simplified tool."
+    }
+  },
+  {
+    "id": "cmp-gen-0026",
+    "slug": "splunk-vs-wazuh",
+    "title": {
+      "ar": "Splunk ضد Wazuh",
+      "en": "Splunk vs Wazuh"
+    },
+    "excerpt": {
+      "ar": "Splunk الخيار الأقوى لمؤسسة كبيرة عندها ميزانية وبيانات ضخمة محتاجة تحليل عميق. Wazuh بديل قوي ومجاني تمامًا لفريق صغير",
+      "en": "Splunk is the stronger choice for a large organization with budget and massive data needing deep analysis. Wazuh is a strong, fully free alt"
+    },
+    "device1Name": "Splunk",
+    "device2Name": "Wazuh",
+    "device1Image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-03-14",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التكلفة",
+          "en": "Cost"
+        },
+        "device1Value": {
+          "ar": "مرتفعة جدًا، ترخيص حسب حجم البيانات",
+          "en": "Very high, licensed by data volume"
+        },
+        "device2Value": {
+          "ar": "مفتوح المصدر ومجاني بالكامل",
+          "en": "Fully open-source and free"
+        },
+        "device1Score": 3,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec2": {
+        "label": {
+          "ar": "نضج تحليل البيانات الضخمة",
+          "en": "Big-data analysis maturity"
+        },
+        "device1Value": {
+          "ar": "من الأنضج والأقوى في السوق",
+          "en": "Among the most mature and powerful in the market"
+        },
+        "device2Value": {
+          "ar": "جيد جدًا لكن أصغر مجتمعًا وموارد",
+          "en": "Very good but a smaller community and resource base"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "سهولة البداية لفريق صغير",
+          "en": "Ease of getting started for a small team"
+        },
+        "device1Value": {
+          "ar": "منحنى تعلم وتكلفة أعلى",
+          "en": "Steeper learning curve and cost"
+        },
+        "device2Value": {
+          "ar": "أسهل بداية مجانية، يحتاج خبرة Linux",
+          "en": "Easier free start, needs Linux expertise"
+        },
+        "device1Score": 5,
+        "device2Score": 8,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Splunk الخيار الأقوى لمؤسسة كبيرة عندها ميزانية وبيانات ضخمة محتاجة تحليل عميق. Wazuh بديل قوي ومجاني تمامًا لفريق صغير عايز يبدأ في SIEM من غير تكلفة ترخيص.",
+      "en": "Splunk is the stronger choice for a large organization with budget and massive data needing deep analysis. Wazuh is a strong, fully free alternative for a small team wanting to start with SIEM without licensing cost."
+    }
+  },
+  {
+    "id": "cmp-gen-0027",
+    "slug": "forcepoint-email-security-vs-proofpoint-email-protection",
+    "title": {
+      "ar": "Forcepoint Email Security ضد Proofpoint Email Protection",
+      "en": "Forcepoint Email Security vs Proofpoint Email Protection"
+    },
+    "excerpt": {
+      "ar": "Forcepoint خيار قوي جدًا للقطاعات الحساسة (حكومي، مالي) لو منع تسريب البيانات أولوية قصوى. Proofpoint أوسع انتشارًا كحل",
+      "en": "Forcepoint is a very strong choice for sensitive sectors (government, financial) where DLP is the top priority. Proofpoint has wider deploym"
+    },
+    "device1Name": "Forcepoint Email Security",
+    "device2Name": "Proofpoint Email Protection",
+    "device1Image": "https://www.google.com/s2/favicons?domain=forcepoint.com&sz=128",
+    "device2Image": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-05-21",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://www.google.com/s2/favicons?domain=forcepoint.com&sz=128",
+    "overallWinner": 0,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التركيز على منع فقدان البيانات (DLP)",
+          "en": "DLP focus"
+        },
+        "device1Value": {
+          "ar": "من نقاط القوة التاريخية الأساسية",
+          "en": "One of the historical core strengths"
+        },
+        "device2Value": {
+          "ar": "قوي أيضًا لكن أقل تخصصًا في DLP تحديدًا",
+          "en": "Also strong but less specifically DLP-focused"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "حجم السوق ومجتمع الدعم",
+          "en": "Market size & support community"
+        },
+        "device1Value": {
+          "ar": "أضيق نسبيًا",
+          "en": "Relatively narrower"
+        },
+        "device2Value": {
+          "ar": "أوسع انتشارًا في سوق أمان البريد تحديدًا",
+          "en": "Wider deployment specifically in the email-security market"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "التكامل مع بيئات حكومية ومالية",
+          "en": "Integration with government/financial environments"
+        },
+        "device1Value": {
+          "ar": "قوي وتاريخي في هذا القطاع تحديدًا",
+          "en": "Strong and historically established in this sector specifically"
+        },
+        "device2Value": {
+          "ar": "9",
+          "en": "7"
+        },
+        "winner": 0
+      }
+    },
+    "verdict": {
+      "ar": "Forcepoint خيار قوي جدًا للقطاعات الحساسة (حكومي، مالي) لو منع تسريب البيانات أولوية قصوى. Proofpoint أوسع انتشارًا كحل أمان بريد عام لمعظم الشركات.",
+      "en": "Forcepoint is a very strong choice for sensitive sectors (government, financial) where DLP is the top priority. Proofpoint has wider deployment as a general email-security solution for most businesses."
     }
   }
 ]
