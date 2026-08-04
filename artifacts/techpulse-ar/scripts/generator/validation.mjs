@@ -23,7 +23,9 @@ export function validateVideo(item, index) {
   if (!item.id) e.push('id');
   try { assertBi(item.title, 'title'); } catch (err) { e.push(String(err.message)); }
   try { assertBi(item.description, 'description'); } catch (err) { e.push(String(err.message)); }
-  if (typeof item.youtubeId !== 'string') e.push('youtubeId must be string');
+  const hasVideo = typeof item.youtubeId === 'string' && item.youtubeId.length > 0;
+  const hasPlaylist = typeof item.youtubePlaylistId === 'string' && item.youtubePlaylistId.length > 0;
+  if (!hasVideo && !hasPlaylist) e.push('must have either youtubeId or youtubePlaylistId');
   if (!/^\d{4}-\d{2}-\d{2}$/.test(item.date || '')) e.push('date');
   return [...e.map((x) => `videos[${index}].${x}`), ...checkTaxonomy(item, index, 'videos')];
 }

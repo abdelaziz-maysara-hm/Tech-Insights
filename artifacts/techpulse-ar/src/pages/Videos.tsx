@@ -6,7 +6,7 @@ import { useSEO } from '@/hooks/useSEO';
 import { useAllArticles } from '@/hooks/useAllArticles';
 import cmsVideosJson from '@/content/videos.json';
 import { CmsVideo } from '@/data/cmsTypes';
-import { extractYouTubeId, youtubeEmbedUrl, youtubeThumbnailUrl } from '@/lib/mediaUrls';
+import { extractYouTubeId, extractYouTubePlaylistId, youtubeEmbedUrl, youtubePlaylistEmbedUrl, youtubeThumbnailUrl } from '@/lib/mediaUrls';
 import { getSubcategories } from '@/data/subcategories';
 import { Category } from '@/data/mockData';
 
@@ -16,6 +16,8 @@ type Playable = {
   key: string;
   title: string;
   youtubeId: string;
+  playlistId?: string;
+  heroImage?: string;
   href?: string;
   categoryId?: string;
   subcategoryId?: string;
@@ -58,15 +60,18 @@ export default function Videos() {
   const fromCms: Playable[] = cmsVideos
     .map((v) => {
       const id = extractYouTubeId(v.youtubeId || '');
-      if (!id) return null;
+      const playlistId = extractYouTubePlaylistId(v.youtubePlaylistId || '');
+      if (!id && !playlistId) return null;
       const title =
         typeof v.title === 'object' && v.title
-          ? v.title[language] || v.title.ar || v.title.en || id
-          : String(v.title || id);
+          ? v.title[language] || v.title.ar || v.title.en || id || playlistId
+          : String(v.title || id || playlistId);
       return {
         key: `cms-${v.id}`,
         title,
         youtubeId: id,
+        playlistId: playlistId || undefined,
+        heroImage: v.heroImage,
         categoryId: v.categoryId,
         subcategoryId: v.subcategoryId,
         meta: v.categoryId,
@@ -77,8 +82,9 @@ export default function Videos() {
   const seen = new Set<string>();
   const items: Playable[] = [];
   for (const item of [...fromCms, ...fromArticles]) {
-    if (seen.has(item.youtubeId)) continue;
-    seen.add(item.youtubeId);
+    const dedupeKey = item.playlistId ? `playlist:${item.playlistId}` : `video:${item.youtubeId}`;
+    if (seen.has(dedupeKey)) continue;
+    seen.add(dedupeKey);
     items.push(item);
   }
 
@@ -161,7 +167,7 @@ export default function Videos() {
                 <div className="relative aspect-video bg-muted">
                   {isActive ? (
                     <iframe
-                      src={`${youtubeEmbedUrl(item.youtubeId)}?autoplay=1&rel=0`}
+                      src={`${item.playlistId ? youtubePlaylistEmbedUrl(item.playlistId) : youtubeEmbedUrl(item.youtubeId)}?autoplay=1&rel=0`}
                       title={item.title}
                       className="absolute inset-0 w-full h-full"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -177,15 +183,20 @@ export default function Videos() {
                       aria-label={language === 'ar' ? 'تشغيل الفيديو' : 'Play video'}
                     >
                       <img
-                        src={youtubeThumbnailUrl(item.youtubeId)}
+                        src={item.playlistId ? (item.heroImage || youtubeThumbnailUrl(item.youtubeId)) : youtubeThumbnailUrl(item.youtubeId)}
                         alt=""
                         className="w-full h-full object-cover opacity-80 group-hover:opacity-60 transition-opacity"
                         loading="lazy"
                         onError={(e) => {
                           const el = e.target as HTMLImageElement;
-                          el.src = youtubeThumbnailUrl(item.youtubeId, 'hqdefault');
+                          if (!item.playlistId) el.src = youtubeThumbnailUrl(item.youtubeId, 'hqdefault');
                         }}
                       />
+                      {item.playlistId && (
+                        <span className="absolute top-2 start-2 bg-background/90 backdrop-blur-sm rounded-md px-2 py-1 text-xs font-medium">
+                          {language === 'ar' ? 'قائمة تشغيل كاملة' : 'Full Playlist'}
+                        </span>
+                      )}
                       <span className="absolute inset-0 flex items-center justify-center">
                         <span className="bg-background/80 backdrop-blur-sm rounded-full p-4 text-primary shadow-lg group-hover:scale-110 transition-transform">
                           <PlayCircle className="w-12 h-12" />

@@ -26,7 +26,7 @@
       "en": "An overview of the core areas of cybersecurity and where to start learning."
     },
     "youtubeId": "inWWhr5tnEA",
-    "date": "2022-07-08",
+    "date": "2022-04-08",
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
@@ -42,7 +42,7 @@
       "en": "A practical guide to the essential Linux commands any sysadmin needs daily."
     },
     "youtubeId": "sWbUDq4S6Y8",
-    "date": "2022-12-15",
+    "date": "2022-07-15",
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
     "heroImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&h=450&q=80"
@@ -58,7 +58,7 @@
       "en": "A simplified explanation of AI fundamentals and its current practical applications."
     },
     "youtubeId": "ad79nYk2-go",
-    "date": "2023-07-22",
+    "date": "2022-11-22",
     "categoryId": "ai",
     "subcategoryId": "concepts",
     "heroImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&h=450&q=80"
@@ -74,7 +74,7 @@
       "en": "A foundational Python course for people who have never programmed before."
     },
     "youtubeId": "kqtD5dpn9C8",
-    "date": "2023-12-02",
+    "date": "2023-02-02",
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
@@ -90,7 +90,7 @@
       "en": "A practical introduction to building web interfaces with React."
     },
     "youtubeId": "Tn6-PIqc4UM",
-    "date": "2024-07-09",
+    "date": "2023-05-09",
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
@@ -106,7 +106,7 @@
       "en": "Explains the container concept and how to use Docker in practice."
     },
     "youtubeId": "3c-iBn73dDE",
-    "date": "2024-12-16",
+    "date": "2023-09-16",
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
@@ -122,7 +122,7 @@
       "en": "A hands-on tour of the most important Amazon Web Services for beginners."
     },
     "youtubeId": "ulprqHHWlng",
-    "date": "2025-07-23",
+    "date": "2023-12-23",
     "categoryId": "technology",
     "subcategoryId": "concepts",
     "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80"
@@ -138,9 +138,125 @@
       "en": "A hands-on tour of Microsoft Azure fundamentals for beginners."
     },
     "youtubeId": "tDPoenO39xk",
-    "date": "2025-12-03",
+    "date": "2024-04-03",
     "categoryId": "technology",
     "subcategoryId": "concepts",
     "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80"
+  },
+  {
+    "id": "vid-gen-0010",
+    "title": {
+      "ar": "دورة CCNA 200-301 كاملة ومجانية",
+      "en": "FREE CCNA 200-301 Complete Course"
+    },
+    "description": {
+      "ar": "سلسلة كاملة ومجانية لتغطية منهج CCNA 200-301 خطوة بخطوة من قناة Jeremy IT Lab.",
+      "en": "A complete, free playlist covering the CCNA 200-301 syllabus step by step from Jeremy's IT Lab."
+    },
+    "youtubeId": "",
+    "youtubePlaylistId": "PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ",
+    "date": "2024-07-10",
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+  },
+  {
+    "id": "vid-gen-0011",
+    "title": {
+      "ar": "CCNA مجانًا // اليوم صفر - ما هي الشبكة؟",
+      "en": "FREE CCNA // Day 0 - What is a Network?"
+    },
+    "description": {
+      "ar": "أول حلقة في سلسلة CCNA المجانية من Jeremy IT Lab: شرح مبسط لمفهوم الشبكة من الصفر.",
+      "en": "The first episode of Jeremy's IT Lab free CCNA series: a from-scratch explanation of what a network is."
+    },
+    "youtubeId": "S7MNX_UD7vY",
+    "date": "2024-10-17",
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+  },
+  {
+    "id": "vid-gen-0012",
+    "title": {
+      "ar": "CCNA مجانًا // نموذج OSI",
+      "en": "FREE CCNA // OSI Model"
+    },
+    "description": {
+      "ar": "شرح طبقات نموذج OSI السبع، أساس فهم أي مفهوم شبكات لاحق.",
+      "en": "An explanation of the seven OSI model layers, foundational to understanding later networking concepts."
+    },
+    "youtubeId": "oIRkXulqJA4",
+    "date": "2025-02-24",
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+  },
+  {
+    "id": "vid-gen-0013",
+    "title": {
+      "ar": "دورة CCNA مجانية من NetworkChuck",
+      "en": "FREE CCNA Course by NetworkChuck"
+    },
+    "description": {
+      "ar": "سلسلة تحضير لشهادة CCNA بأسلوب عملي وممتع من قناة NetworkChuck.",
+      "en": "A CCNA certification prep playlist with NetworkChuck's practical, engaging style."
+    },
+    "youtubeId": "",
+    "youtubePlaylistId": "PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P",
+    "date": "2025-05-04",
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+  },
+  {
+    "id": "vid-gen-0014",
+    "title": {
+      "ar": "دورة تحضير شهادة CompTIA Security+ SY0-701",
+      "en": "CompTIA Security+ SY0-701 Training Course"
+    },
+    "description": {
+      "ar": "سلسلة Professor Messer الشهيرة لتحضير امتحان Security+ SY0-701 بشكل مجاني وشامل.",
+      "en": "Professor Messer's well-known free, comprehensive Security+ SY0-701 exam prep playlist."
+    },
+    "youtubeId": "",
+    "youtubePlaylistId": "PLG49S3nxzAnnOmvg5UGVenB_qQgsh01uC",
+    "date": "2025-08-11",
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+  },
+  {
+    "id": "vid-gen-0015",
+    "title": {
+      "ar": "دورة تحضير شهادة CompTIA Network+",
+      "en": "CompTIA Network+ Training Course"
+    },
+    "description": {
+      "ar": "سلسلة Professor Messer لتحضير امتحان Network+ بشكل مجاني وشامل.",
+      "en": "Professor Messer's free, comprehensive Network+ exam prep playlist."
+    },
+    "youtubeId": "",
+    "youtubePlaylistId": "PLG49S3nxzAnnXcPUJbwikr2xAcmKljbnQ",
+    "date": "2025-12-18",
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+  },
+  {
+    "id": "vid-gen-0016",
+    "title": {
+      "ar": "دورة الاختراق الأخلاقي العملي الكاملة",
+      "en": "Practical Ethical Hacking - Full Course"
+    },
+    "description": {
+      "ar": "دورة كاملة ومجانية في الاختراق الأخلاقي العملي من TCM Security.",
+      "en": "A complete, free practical ethical hacking course from TCM Security (The Cyber Mentor)."
+    },
+    "youtubeId": "fNzpcB7ODxQ",
+    "date": "2026-03-25",
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
   }
 ]

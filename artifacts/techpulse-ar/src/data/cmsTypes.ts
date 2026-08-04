@@ -5,6 +5,8 @@ export interface CmsVideo {
   title: BilingualText;
   description: BilingualText;
   youtubeId: string;
+  youtubePlaylistId?: string;
+  heroImage?: string;
   date: string;
   categoryId?: string;
   subcategoryId?: string;
