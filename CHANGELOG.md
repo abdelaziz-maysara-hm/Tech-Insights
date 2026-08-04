@@ -358,3 +358,13 @@ Kaspersky vs Bitdefender (endpoint)، Windows RDS vs Citrix، Group Policy vs In
 **6 مقارنات جديدة:** Sysmon vs Windows Default Auditing، Have I Been Pwned vs خدمات مراقبة مؤسسية، Nextcloud vs ownCloud، Prometheus vs Datadog، Metasploit vs الاستغلال اليدوي، Microsoft Purview vs أدوات DLP تقليدية.
 
 **العدد الحالي:** 56 مقال، 57 مقارنة، 16 فيديو، 9 مجموعات — صفر أخطاء، صفر تكرار، صفر صور مكررة.
+
+---
+
+## دفعة محتوى: 7 مقالات + 6 مقارنات
+
+**7 مقالات جديدة:** فحص أمان صور الحاويات، عزل شبكة الضيوف، SPF/DKIM/DMARC، التأمين السيبراني (إيه اللي بيغطيه فعليًا)، إدارة التغيير في IT، تصنيف البيانات، مقارنة طرق المصادقة الثنائية (SMS/تطبيق/مفتاح مادي).
+
+**6 مقارنات جديدة:** YubiKey vs تطبيق مصادقة، Palo Alto Prisma Access vs Zscaler، Elastic Stack vs Splunk، Rclone vs rsync، Netskope vs Prisma SaaS، WSUS vs Intune.
+
+**العدد الحالي:** 63 مقال، 63 مقارنة، 16 فيديو، 9 مجموعات — صفر أخطاء، صفر تكرار، صفر صور مكررة.

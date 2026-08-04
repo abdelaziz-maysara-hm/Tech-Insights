@@ -4472,5 +4472,471 @@
       "ar": "Microsoft Purview منطقي جدًا لو مؤسستك معتمدة بشكل أساسي على Microsoft 365. أدوات DLP التقليدية أنسب لبيئة متنوعة فيها أنظمة كتيرة خارج منظومة Microsoft.",
       "en": "Microsoft Purview makes strong sense if your organization is primarily on Microsoft 365. Traditional DLP tools fit better in a diverse environment with many systems outside the Microsoft ecosystem."
     }
+  },
+  {
+    "id": "cmp-gen-0058",
+    "slug": "yubikey-vs-authenticator-app",
+    "title": {
+      "ar": "YubiKey ضد Authenticator App",
+      "en": "YubiKey vs Authenticator App"
+    },
+    "excerpt": {
+      "ar": "YubiKey الخيار الأقوى أمنيًا للحسابات عالية الحساسية رغم التكلفة والعبء الإضافي. تطبيق المصادقة خيار ممتاز وعملي لمعظم ا",
+      "en": "YubiKey is the strongest security choice for high-sensitivity accounts despite the cost and extra burden. An authenticator app is an excelle"
+    },
+    "device1Name": "YubiKey",
+    "device2Name": "Authenticator App",
+    "device1Image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-01-22",
+    "categoryId": "comparisons",
+    "subcategoryId": "identity",
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "مقاومة هجمات التصيد",
+          "en": "Phishing resistance"
+        },
+        "device1Value": {
+          "ar": "مقاومة عالية جدًا، من الأصعب اختراقها حتى بالتصيد المتقدم",
+          "en": "Very high resistance, among the hardest to bypass even with advanced phishing"
+        },
+        "device2Value": {
+          "ar": "جيدة، لكن عرضة نظريًا لهجمات معقدة جدًا",
+          "en": "Good, but theoretically vulnerable to very sophisticated attacks"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "سهولة الاستخدام اليومي",
+          "en": "Daily usability"
+        },
+        "device1Value": {
+          "ar": "يحتاج حمل جهاز إضافي دايمًا",
+          "en": "Requires always carrying an extra device"
+        },
+        "device2Value": {
+          "ar": "موجود بالفعل على الهاتف المستخدم يوميًا",
+          "en": "Already on the phone used daily"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "التكلفة",
+          "en": "Cost"
+        },
+        "device1Value": {
+          "ar": "تكلفة شراء لكل مستخدم",
+          "en": "A purchase cost per user"
+        },
+        "device2Value": {
+          "ar": "مجاني تمامًا لأي تطبيق موثوق",
+          "en": "Fully free for any trusted app"
+        },
+        "device1Score": 5,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "YubiKey الخيار الأقوى أمنيًا للحسابات عالية الحساسية رغم التكلفة والعبء الإضافي. تطبيق المصادقة خيار ممتاز وعملي لمعظم المستخدمين اليوميين.",
+      "en": "YubiKey is the strongest security choice for high-sensitivity accounts despite the cost and extra burden. An authenticator app is an excellent, practical choice for most everyday users."
+    }
+  },
+  {
+    "id": "cmp-gen-0059",
+    "slug": "palo-alto-prisma-access-vs-zscaler",
+    "title": {
+      "ar": "Palo Alto Prisma Access ضد Zscaler",
+      "en": "Palo Alto Prisma Access vs Zscaler"
+    },
+    "excerpt": {
+      "ar": "Prisma Access منطقي جدًا لو مؤسستك معتمدة أصلًا على أجهزة Palo Alto. Zscaler خيار أنضج وأكثر تخصصًا لو بتبدأ استراتيجية",
+      "en": "Prisma Access makes strong sense if your organization already runs on Palo Alto appliances. Zscaler is a more mature, specialized choice if"
+    },
+    "device1Name": "Palo Alto Prisma Access",
+    "device2Name": "Zscaler",
+    "device1Image": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
+    "device2Image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-02-02",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التكامل مع بنية Palo Alto القائمة",
+          "en": "Integration with existing Palo Alto infrastructure"
+        },
+        "device1Value": {
+          "ar": "سلس جدًا لو عندك أجهزة Palo Alto أصلًا",
+          "en": "Very smooth if you already run Palo Alto appliances"
+        },
+        "device2Value": {
+          "ar": "محايد تمامًا تجاه المزوّد، مصمم كخدمة سحابية بحتة",
+          "en": "Fully vendor-neutral, built as a pure cloud service"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "نضج منصة SASE السحابية",
+          "en": "Cloud-native SASE platform maturity"
+        },
+        "device1Value": {
+          "ar": "استثمار قوي وحديث نسبيًا في هذا الاتجاه",
+          "en": "Strong, relatively newer investment in this direction"
+        },
+        "device2Value": {
+          "ar": "من الرواد الأوائل في مجال SASE السحابي تحديدًا",
+          "en": "Among the earliest pioneers specifically in cloud-native SASE"
+        },
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "سهولة الإدارة الموحدة مع الفروع",
+          "en": "Unified branch management ease"
+        },
+        "device1Value": {
+          "ar": "قوية لو باقي بنيتك من Palo Alto",
+          "en": "Strong if the rest of your infrastructure is Palo Alto"
+        },
+        "device2Value": {
+          "ar": "واجهة سحابية موحدة مصممة لهذا الغرض تحديدًا",
+          "en": "A unified cloud console designed specifically for this"
+        },
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Prisma Access منطقي جدًا لو مؤسستك معتمدة أصلًا على أجهزة Palo Alto. Zscaler خيار أنضج وأكثر تخصصًا لو بتبدأ استراتيجية SASE من الصفر بدون التزام سابق بمزوّد معين.",
+      "en": "Prisma Access makes strong sense if your organization already runs on Palo Alto appliances. Zscaler is a more mature, specialized choice if you're starting a SASE strategy from scratch without prior vendor commitment."
+    }
+  },
+  {
+    "id": "cmp-gen-0060",
+    "slug": "elastic-stack-elk-vs-splunk",
+    "title": {
+      "ar": "Elastic Stack (ELK) ضد Splunk",
+      "en": "Elastic Stack (ELK) vs Splunk"
+    },
+    "excerpt": {
+      "ar": "Elastic Stack أوفر بكثير لبيانات ضخمة جدًا لو عندك فريق تقني قادر على الإدارة الذاتية. Splunk أسهل بداية وأقوى دعمًا لمؤ",
+      "en": "Elastic Stack is much more economical for very large data volumes if you have a technically capable self-managing team. Splunk is easier to"
+    },
+    "device1Name": "Elastic Stack (ELK)",
+    "device2Name": "Splunk",
+    "device1Image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-03-09",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التكلفة للبيانات الضخمة",
+          "en": "Cost at large data volume"
+        },
+        "device1Value": {
+          "ar": "أرخص بكثير عند حجم بيانات كبير جدًا",
+          "en": "Much cheaper at very large data volumes"
+        },
+        "device2Value": {
+          "ar": "تكلفة ترخيص ترتفع بشكل ملحوظ مع حجم البيانات",
+          "en": "Licensing cost rises noticeably with data volume"
+        },
+        "device1Score": 8,
+        "device2Score": 4,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "سهولة الإعداد الأولي",
+          "en": "Initial setup ease"
+        },
+        "device1Value": {
+          "ar": "يحتاج تجميع عدة مكونات (Elasticsearch, Logstash, Kibana)",
+          "en": "Requires assembling several components (Elasticsearch, Logstash, Kibana)"
+        },
+        "device2Value": {
+          "ar": "حل متكامل جاهز من البداية",
+          "en": "A fully integrated, ready-to-use solution from the start"
+        },
+        "device1Score": 5,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "الدعم الفني الرسمي",
+          "en": "Official technical support"
+        },
+        "device1Value": {
+          "ar": "متاح لكن أقل شمولية من الخيارات المدفوعة بالكامل",
+          "en": "Available but less comprehensive than fully paid options"
+        },
+        "device2Value": {
+          "ar": "دعم مؤسسي شامل ومعروف في السوق",
+          "en": "Comprehensive, well-known enterprise support"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Elastic Stack أوفر بكثير لبيانات ضخمة جدًا لو عندك فريق تقني قادر على الإدارة الذاتية. Splunk أسهل بداية وأقوى دعمًا لمؤسسة مستعدة تدفع أكتر مقابل حل جاهز ومتكامل.",
+      "en": "Elastic Stack is much more economical for very large data volumes if you have a technically capable self-managing team. Splunk is easier to start with and better supported for an organization willing to pay more for a ready, integrated solution."
+    }
+  },
+  {
+    "id": "cmp-gen-0061",
+    "slug": "rclone-vs-rsync",
+    "title": {
+      "ar": "Rclone ضد rsync",
+      "en": "Rclone vs rsync"
+    },
+    "excerpt": {
+      "ar": "Rclone الخيار الأوضح لو شغلك أساسًا مع تخزين سحابي متنوع. rsync لسه لا يُضاهى لمزامنة ونسخ الملفات بين أنظمة محلية أو عب",
+      "en": "Rclone is the clear choice if your work is primarily with diverse cloud storage. rsync remains unmatched for syncing and copying files betwe"
+    },
+    "device1Name": "Rclone",
+    "device2Name": "rsync",
+    "device1Image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "date": "2026-04-16",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "دعم التخزين السحابي",
+          "en": "Cloud storage support"
+        },
+        "device1Value": {
+          "ar": "يدعم عشرات خدمات التخزين السحابي مباشرة (Google Drive, S3, إلخ)",
+          "en": "Supports dozens of cloud storage services directly (Google Drive, S3, etc.)"
+        },
+        "device2Value": {
+          "ar": "مصمم أساسًا للمزامنة بين أنظمة ملفات محلية أو عبر SSH",
+          "en": "Primarily designed for syncing between local filesystems or over SSH"
+        },
+        "device1Score": 9,
+        "device2Score": 4,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "النضج والاستقرار التاريخي",
+          "en": "Historical maturity & stability"
+        },
+        "device1Value": {
+          "ar": "أحدث نسبيًا لكن ناضج جدًا لغرضه",
+          "en": "Relatively newer but very mature for its purpose"
+        },
+        "device2Value": {
+          "ar": "من أقدم وأكثر أدوات النسخ والمزامنة اختبارًا في تاريخ Linux",
+          "en": "One of the oldest, most battle-tested sync tools in Linux history"
+        },
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "سرعة النقل للملفات المحلية الكبيرة",
+          "en": "Transfer speed for large local files"
+        },
+        "device1Value": {
+          "ar": "جيدة، لكن مش نقطة التخصص الأساسية",
+          "en": "Good, but not its primary specialty"
+        },
+        "device2Value": {
+          "ar": "محسّن بشكل كبير لنقل الفروق فقط (Delta) بسرعة عالية",
+          "en": "Highly optimized for fast delta-only transfers"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Rclone الخيار الأوضح لو شغلك أساسًا مع تخزين سحابي متنوع. rsync لسه لا يُضاهى لمزامنة ونسخ الملفات بين أنظمة محلية أو عبر SSH بكفاءة عالية.",
+      "en": "Rclone is the clear choice if your work is primarily with diverse cloud storage. rsync remains unmatched for syncing and copying files between local systems or over SSH efficiently."
+    }
+  },
+  {
+    "id": "cmp-gen-0062",
+    "slug": "netskope-vs-palo-alto-prisma-saas",
+    "title": {
+      "ar": "Netskope ضد Palo Alto Prisma SaaS",
+      "en": "Netskope vs Palo Alto Prisma SaaS"
+    },
+    "excerpt": {
+      "ar": "Netskope أقوى وأعمق تخصصًا في أمان التطبيقات السحابية تحديدًا. Prisma SaaS منطقي أكتر لو محتاج منصة أمان موحدة متكاملة م",
+      "en": "Netskope is stronger and more deeply specialized specifically in cloud app security. Prisma SaaS makes more sense if you need a unified secu"
+    },
+    "device1Name": "Netskope",
+    "device2Name": "Palo Alto Prisma SaaS",
+    "device1Image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
+    "date": "2026-05-23",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 0,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التركيز على أمان التطبيقات السحابية (CASB)",
+          "en": "Cloud app security (CASB) focus"
+        },
+        "device1Value": {
+          "ar": "من الرواد المتخصصين تحديدًا في هذا المجال",
+          "en": "Among the specialized pioneers specifically in this space"
+        },
+        "device2Value": {
+          "ar": "قوي أيضًا كجزء من منصة أمان سحابية أشمل",
+          "en": "Also strong as part of a broader cloud security platform"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "سهولة التكامل مع بنية Palo Alto القائمة",
+          "en": "Integration ease with existing Palo Alto infrastructure"
+        },
+        "device1Value": {
+          "ar": "محايد تجاه المزوّد",
+          "en": "Vendor-neutral"
+        },
+        "device2Value": {
+          "ar": "تكامل طبيعي وسلس لو عندك منتجات Palo Alto أصلًا",
+          "en": "Natural, smooth integration if you already have Palo Alto products"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "عمق تصنيف التطبيقات السحابية المكتشفة",
+          "en": "Depth of discovered cloud app classification"
+        },
+        "device1Value": {
+          "ar": "قاعدة بيانات ضخمة ومتخصصة لتصنيف آلاف التطبيقات",
+          "en": "A huge, specialized database classifying thousands of apps"
+        },
+        "device2Value": {
+          "ar": "9",
+          "en": "7"
+        },
+        "winner": 0
+      }
+    },
+    "verdict": {
+      "ar": "Netskope أقوى وأعمق تخصصًا في أمان التطبيقات السحابية تحديدًا. Prisma SaaS منطقي أكتر لو محتاج منصة أمان موحدة متكاملة مع بقية منتجات Palo Alto.",
+      "en": "Netskope is stronger and more deeply specialized specifically in cloud app security. Prisma SaaS makes more sense if you need a unified security platform integrated with the rest of your Palo Alto products."
+    }
+  },
+  {
+    "id": "cmp-gen-0063",
+    "slug": "wsus-vs-microsoft-intune",
+    "title": {
+      "ar": "WSUS ضد Microsoft Intune",
+      "en": "WSUS vs Microsoft Intune"
+    },
+    "excerpt": {
+      "ar": "WSUS منطقي جدًا لبيئة صغيرة كل الأجهزة فيها داخل الشبكة المحلية دايمًا. Intune ضروري فعليًا لو عندك أجهزة بعيدة أو خليط",
+      "en": "WSUS makes strong sense for a small environment where all devices are always on the local network. Intune is genuinely necessary if you have"
+    },
+    "device1Name": "WSUS",
+    "device2Name": "Microsoft Intune",
+    "device1Image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "date": "2026-06-03",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التكلفة",
+          "en": "Cost"
+        },
+        "device1Value": {
+          "ar": "مجاني بالكامل، مضمّن مع Windows Server",
+          "en": "Fully free, included with Windows Server"
+        },
+        "device2Value": {
+          "ar": "يحتاج ترخيص Intune منفصل أو ضمن E3/E5",
+          "en": "Needs a separate Intune license or E3/E5 bundle"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "إدارة أجهزة خارج الشبكة المحلية",
+          "en": "Managing devices outside the local network"
+        },
+        "device1Value": {
+          "ar": "محدودة جدًا بدون VPN",
+          "en": "Very limited without a VPN"
+        },
+        "device2Value": {
+          "ar": "مصمم أصلًا لإدارة الأجهزة من أي مكان",
+          "en": "Built specifically to manage devices from anywhere"
+        },
+        "device1Score": 3,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "التحكم الدقيق في توقيت النشر",
+          "en": "Fine-grained deployment timing control"
+        },
+        "device1Value": {
+          "ar": "تحكم جيد عبر مجموعات وحلقات نشر",
+          "en": "Good control via deployment rings and groups"
+        },
+        "device2Value": {
+          "ar": "تحكم أعمق وأكثر مرونة عبر السياسات السحابية",
+          "en": "Deeper, more flexible control via cloud policies"
+        },
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "WSUS منطقي جدًا لبيئة صغيرة كل الأجهزة فيها داخل الشبكة المحلية دايمًا. Intune ضروري فعليًا لو عندك أجهزة بعيدة أو خليط من أنواع الأجهزة والمنصات.",
+      "en": "WSUS makes strong sense for a small environment where all devices are always on the local network. Intune is genuinely necessary if you have remote devices or a mix of device types and platforms."
+    }
   }
 ]

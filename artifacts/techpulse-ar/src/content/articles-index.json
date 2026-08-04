@@ -1731,5 +1731,223 @@
     ],
     "isFeatured": false,
     "isTrending": false
+  },
+  {
+    "id": "art-gen-0057",
+    "slug": "container-image-security-scanning",
+    "title": {
+      "ar": "فحص أمان صور الحاويات (Container Images) قبل النشر",
+      "en": "Scanning Container Image Security Before Deployment"
+    },
+    "excerpt": {
+      "ar": "صورة Docker جاهزة ممكن تحمل ثغرات موروثة من غير ما تلاحظ.",
+      "en": "A ready-made Docker image can carry inherited vulnerabilities without you noticing."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-12-15",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "containers",
+      "docker",
+      "devsecops"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0058",
+    "slug": "guest-wifi-network-isolation",
+    "title": {
+      "ar": "عزل شبكة الضيوف (Guest Wi-Fi): إعداد بسيط بفايدة كبيرة",
+      "en": "Guest Wi-Fi Isolation: A Simple Setup with a Big Payoff"
+    },
+    "excerpt": {
+      "ar": "ليه ضيف أو زائر معندوش وصول لنفس شبكة الموظفين الداخلية.",
+      "en": "Why a guest or visitor shouldn't have access to the same internal employee network."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-22",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "wifi",
+      "network-segmentation",
+      "guest-network"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0059",
+    "slug": "spf-dkim-dmarc-email-basics",
+    "title": {
+      "ar": "SPF وDKIM وDMARC: إزاي تمنع حد ينتحل دومين إيميلك",
+      "en": "SPF, DKIM, and DMARC: How to Stop Someone Spoofing Your Email Domain"
+    },
+    "excerpt": {
+      "ar": "ثلاث سجلات DNS بسيطة بتحمي دومينك من إيميلات مزوّرة باسمك.",
+      "en": "Three simple DNS records that protect your domain from emails forged in your name."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-02-02",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "email-security",
+      "dmarc",
+      "spf",
+      "dkim"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0060",
+    "slug": "cyber-insurance-what-it-covers",
+    "title": {
+      "ar": "التأمين ضد المخاطر السيبرانية: إيه اللي بيغطيه فعليًا؟",
+      "en": "Cyber Insurance: What Does It Actually Cover?"
+    },
+    "excerpt": {
+      "ar": "قبل ما تشتري بوليصة، افهم الفرق بين اللي متوقع إنه مغطى واللي فعلًا مكتوب في العقد.",
+      "en": "Before buying a policy, understand the gap between what you assume is covered and what's actually written in the contract."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-09",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "cyber-insurance",
+      "risk-management",
+      "compliance"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0061",
+    "slug": "it-change-management-process-basics",
+    "title": {
+      "ar": "عملية إدارة التغيير في IT: ليه أي تعديل محتاج توثيق",
+      "en": "IT Change Management: Why Every Change Needs Documentation"
+    },
+    "excerpt": {
+      "ar": "تعديل بسيط بدون توثيق ممكن يسبب مشكلة محدش يعرف سببها بعد أسابيع.",
+      "en": "A simple undocumented change can cause a problem nobody can trace weeks later."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-16",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "change-management",
+      "it-operations",
+      "documentation"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0062",
+    "slug": "data-classification-basics",
+    "title": {
+      "ar": "تصنيف البيانات: مش كل الملفات محتاجة نفس مستوى الحماية",
+      "en": "Data Classification: Not Every File Needs the Same Protection Level"
+    },
+    "excerpt": {
+      "ar": "خطوة بسيطة بتخلي جهود الحماية تتركّز على اللي فعلًا محتاج حماية.",
+      "en": "A simple step that focuses protection effort on what actually needs it."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-23",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "data-classification",
+      "compliance",
+      "governance"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0063",
+    "slug": "mfa-methods-compared-sms-app-hardware",
+    "title": {
+      "ar": "طرق المصادقة الثنائية: SMS مقابل تطبيق مقابل مفتاح مادي",
+      "en": "MFA Methods Compared: SMS vs App vs Hardware Key"
+    },
+    "excerpt": {
+      "ar": "مش كل أنواع المصادقة الثنائية بنفس مستوى الأمان — الفروق مهمة.",
+      "en": "Not all MFA types offer the same security level -- the differences matter."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-03",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "mfa",
+      "authentication",
+      "identity"
+    ],
+    "isFeatured": false,
+    "isTrending": false
   }
 ]
