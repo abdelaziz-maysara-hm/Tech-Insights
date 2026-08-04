@@ -1514,5 +1514,222 @@
     ],
     "isFeatured": false,
     "isTrending": false
+  },
+  {
+    "id": "art-gen-0050",
+    "slug": "windows-firewall-advanced-rules",
+    "title": {
+      "ar": "قواعد Windows Firewall المتقدمة: أكتر من مجرد تشغيل/إيقاف",
+      "en": "Advanced Windows Firewall Rules: More Than Just On/Off"
+    },
+    "excerpt": {
+      "ar": "إزاي تستخدم جدار الحماية المدمج في Windows بذكاء بدل ما تعتمد على الإعدادات الافتراضية بس.",
+      "en": "How to use Windows' built-in firewall intelligently instead of relying on default settings alone."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-12-20",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "windows-firewall",
+      "network-security",
+      "windows"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0051",
+    "slug": "phishing-simulation-training-programs",
+    "title": {
+      "ar": "برامج محاكاة التصيد الإلكتروني: هل فعليًا بتقلل المخاطر؟",
+      "en": "Phishing Simulation Training Programs: Do They Actually Reduce Risk?"
+    },
+    "excerpt": {
+      "ar": "إزاي تصمم برنامج محاكاة تصيد يعلّم الموظفين بدل ما يخليهم يحسوا إنهم متهمين.",
+      "en": "How to design a phishing simulation program that educates employees instead of making them feel accused."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-27",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "phishing",
+      "security-awareness",
+      "training"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0052",
+    "slug": "cross-site-scripting-xss-basics",
+    "title": {
+      "ar": "ثغرات XSS: إزاي موقع بسيط يقدر يسرق بيانات المستخدم",
+      "en": "XSS Vulnerabilities: How a Simple Site Can Steal User Data"
+    },
+    "excerpt": {
+      "ar": "شرح مبسط لأشهر ثغرة في تطبيقات الويب، ولماذا تصفية المدخلات مش رفاهية.",
+      "en": "A simplified explanation of the most common web app vulnerability, and why input sanitization isn't optional."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-02-07",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "xss",
+      "web-security",
+      "owasp"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0053",
+    "slug": "windows-server-core-vs-desktop-experience",
+    "title": {
+      "ar": "Windows Server Core مقابل Desktop Experience: أيهما تختار؟",
+      "en": "Windows Server Core vs Desktop Experience: Which Should You Choose?"
+    },
+    "excerpt": {
+      "ar": "التوزيع بدون واجهة رسومية بيوفر موارد ويقلل مساحة الهجوم — لكن هل يستاهل التعقيد الإضافي؟",
+      "en": "The GUI-less install saves resources and reduces attack surface -- but is the extra complexity worth it?"
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-14",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "windows-server",
+      "server-core",
+      "powershell"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0054",
+    "slug": "api-key-management-best-practices",
+    "title": {
+      "ar": "إدارة مفاتيح API بأمان: أخطاء شائعة وحلول بسيطة",
+      "en": "Secure API Key Management: Common Mistakes and Simple Fixes"
+    },
+    "excerpt": {
+      "ar": "ليه رفع مفتاح API على GitHub بالغلط أشهر حادثة أمان بيقع فيها المطورين، وإزاي تتجنبها.",
+      "en": "Why accidentally pushing an API key to GitHub is the most common developer security incident, and how to avoid it."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-21",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "api-security",
+      "secrets-management",
+      "developer-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0055",
+    "slug": "physical-security-server-room-basics",
+    "title": {
+      "ar": "الأمان الفيزيائي لغرفة السيرفرات: أساسيات بيتم تجاهلها",
+      "en": "Physical Security for the Server Room: Basics That Get Overlooked"
+    },
+    "excerpt": {
+      "ar": "كل الحماية الرقمية مالهاش قيمة لو أي حد يقدر يدخل غرفة السيرفر فعليًا.",
+      "en": "All the digital protection means little if anyone can physically walk into the server room."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-01",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "physical-security",
+      "server-room",
+      "infrastructure"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0056",
+    "slug": "supply-chain-attacks-third-party-risk",
+    "title": {
+      "ar": "هجمات سلسلة التوريد: لما الخطر بييجي من مورّد موثوق",
+      "en": "Supply Chain Attacks: When the Risk Comes from a Trusted Vendor"
+    },
+    "excerpt": {
+      "ar": "ليه فحص أمان الموردين بقى ضروري، مش مجرد إجراء بيروقراطي.",
+      "en": "Why vendor security assessments became essential, not just bureaucratic paperwork."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-08",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "supply-chain",
+      "third-party-risk",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
   }
 ]

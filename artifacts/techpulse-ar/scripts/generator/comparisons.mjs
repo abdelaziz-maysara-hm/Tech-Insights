@@ -541,6 +541,66 @@ export const COMPARISON_CONTENT = [
     verdictAr: 'Cisco ISE منطقي جدًا لو شبكتك بالكامل من Cisco أصلًا. Aruba ClearPass أنسب لبيئة متعددة المزوّدين محتاجة مرونة NAC أعلى.',
     verdictEn: 'Cisco ISE makes strong sense if your network is entirely Cisco already. Aruba ClearPass fits better in a multi-vendor environment needing more NAC flexibility.',
   },
+  {
+    d1: 'Sysmon', d2: 'Windows Default Auditing', sub: 'endpoint', img1: 'endpoint', img2: 'windows',
+    specs: [
+      spec('عمق التفاصيل المسجّلة', 'Logging detail depth', 'تفاصيل غنية جدًا (تجزئة الملفات، سلاسل الشبكة، إلخ)', 'Very rich detail (file hashes, network connections, etc.)', 'أساسي، يغطي الأحداث الشائعة بس', 'Basic, covers only common events', 9, 5),
+      spec('سهولة الإعداد', 'Setup ease', 'يحتاج تثبيت وضبط ملف تكوين خارجي', 'Needs installation and an external config file', 'مدمج بالكامل، تفعيل مباشر من الإعدادات', 'Fully built-in, direct activation from settings', 5, 9),
+      spec('التكامل مع أدوات SIEM', 'SIEM integration', 'من الأفضل والأكثر توافقًا مع معظم حلول SIEM', 'Among the best and most compatible with most SIEM solutions', 'متوافق لكن بتفاصيل أقل عمقًا', 'Compatible but with less detailed data', 9, 6),
+    ],
+    verdictAr: 'Sysmon أقوى بكتير في عمق التفاصيل ومناسب جدًا لو عندك SIEM بتحلل البيانات. التدقيق الافتراضي في Windows كافٍ للبداية البسيطة بس، مش لتحقيق جنائي حقيقي.',
+    verdictEn: 'Sysmon is far stronger in detail depth and fits well if you have a SIEM analyzing the data. Windows default auditing is fine for a basic start, but not for real forensic investigation.',
+  },
+  {
+    d1: 'Have I Been Pwned', d2: 'Enterprise Breach Monitoring Services', sub: 'network-security', img1: 'security', img2: 'analytics',
+    specs: [
+      spec('التكلفة', 'Cost', 'مجاني للاستخدام الفردي والتحقق الأساسي', 'Free for individual use and basic checks', 'مدفوع، مصمم لمراقبة نطاقات مؤسسية كاملة', 'Paid, designed for monitoring entire enterprise domains', 9, 5),
+      spec('عمق المراقبة المستمرة', 'Continuous monitoring depth', 'تنبيهات أساسية عند تسريب جديد', 'Basic alerts on a new leak', 'مراقبة أعمق ومستمرة عبر مصادر أوسع (منتديات، أسواق مظلمة)', 'Deeper, continuous monitoring across wider sources (forums, dark markets)', 6, 9),
+      spec('سهولة البداية', 'Ease of getting started', 'فوري، بس تدخل الإيميل وتشوف النتيجة', 'Instant -- just enter an email and see the result', 'يحتاج إعداد واشتراك مؤسسي', 'Needs setup and an enterprise subscription', 9, 5),
+    ],
+    verdictAr: 'Have I Been Pwned ممتاز كنقطة بداية سريعة ومجانية لأي فرد أو فريق صغير. خدمات المراقبة المؤسسية تستاهل الاستثمار لو عندك نطاق شركة كبير محتاج مراقبة مستمرة وأعمق.',
+    verdictEn: 'Have I Been Pwned is excellent as a quick, free starting point for any individual or small team. Enterprise monitoring services are worth the investment if you have a large company domain needing deeper, continuous monitoring.',
+  },
+  {
+    d1: 'Nextcloud', d2: 'ownCloud', sub: 'software-services', img1: 'cloud', img2: 'storage',
+    specs: [
+      spec('وتيرة التطوير والميزات الحديثة', 'Development pace & modern features', 'أسرع في إضافة ميزات جديدة، مجتمع أكبر حاليًا', 'Faster at adding new features, currently a larger community', 'أبطأ نسبيًا، يركّز على الاستقرار المؤسسي', 'Relatively slower, focuses on enterprise stability', 8, 6),
+      spec('سهولة الاستضافة الذاتية', 'Self-hosting ease', 'توثيق واسع وسهل للمبتدئين', 'Extensive, beginner-friendly documentation', 'جيد أيضًا، أنسب لفرق تقنية متمرسة', 'Also good, better suited to experienced technical teams', 8, 7),
+      spec('الميزات المؤسسية المتقدمة', 'Advanced enterprise features', 'متوفرة، تنمو باستمرار', 'Available, constantly growing', 'تاريخيًا أقوى في ميزات الامتثال المؤسسي البحتة', 'Historically stronger in purely enterprise compliance features', 7, 8),
+    ],
+    verdictAr: 'Nextcloud الخيار الأشهر والأسرع تطويرًا حاليًا لمعظم الاستخدامات. ownCloud لسه خيار قوي لمؤسسة كبيرة محتاجة استقرار وميزات امتثال محددة.',
+    verdictEn: 'Nextcloud is currently the more popular, faster-developing choice for most use cases. ownCloud remains a strong option for a large enterprise needing stability and specific compliance features.',
+  },
+  {
+    d1: 'Prometheus', d2: 'Datadog', sub: 'software-services', img1: 'analytics', img2: 'cloud',
+    specs: [
+      spec('نموذج الاستضافة والتكلفة', 'Hosting model & cost', 'مفتوح المصدر، تستضيفه بنفسك، تكلفة بنية تحتية بس', 'Open-source, self-hosted, only infrastructure cost', 'خدمة سحابية مُدارة بالكامل، تسعير حسب الاستخدام', 'Fully managed cloud service, usage-based pricing', 8, 6),
+      spec('سهولة الإعداد الأولي', 'Initial setup ease', 'يحتاج إعداد وضبط يدوي أكتر', 'Needs more manual setup and tuning', 'إعداد سريع جدًا، تكامل جاهز مع مئات الخدمات', 'Very fast setup, ready-made integrations with hundreds of services', 5, 9),
+      spec('التحكم الكامل في البيانات', 'Full data control', 'تحكم كامل، البيانات عندك بالكامل', 'Full control, data stays entirely with you', 'البيانات على سحابة الطرف التالت', 'Data lives on a third-party cloud', 9, 5),
+    ],
+    verdictAr: 'Prometheus أفضل لو محتاج تحكم كامل في البيانات وعندك فريق تقني قادر على الإدارة الذاتية. Datadog أسرع بداية وأنسب لفريق عايز حل جاهز بدون عبء إدارة بنية تحتية.',
+    verdictEn: 'Prometheus is better if you need full data control and have a technical team capable of self-management. Datadog is faster to start and fits a team wanting a ready-made solution without infrastructure management overhead.',
+  },
+  {
+    d1: 'Metasploit', d2: 'Manual Exploitation', sub: 'network-security', img1: 'security', img2: 'code',
+    specs: [
+      spec('سرعة اختبار ثغرات معروفة', 'Speed testing known vulnerabilities', 'سريع جدًا، مكتبة ضخمة من الثغرات الجاهزة', 'Very fast, a huge library of ready exploits', 'أبطأ بكثير، كل خطوة بتتكتب يدويًا', 'Much slower, every step written manually', 9, 3),
+      spec('الفهم العميق لآلية الثغرة', 'Deep understanding of the vulnerability mechanics', 'ممكن يخلي المختبر يعتمد على الأداة من غير فهم عميق', 'Can lead a tester to rely on the tool without deep understanding', 'بيبني فهم حقيقي عميق لكل خطوة وكل ثغرة', 'Builds real, deep understanding of every step and vulnerability', 5, 9),
+      spec('اكتشاف ثغرات جديدة غير معروفة', 'Discovering new, unknown vulnerabilities', 'محدود بمكتبة الثغرات الموجودة أصلًا', 'Limited to the exploit library that already exists', 'الطريقة الوحيدة الفعلية لاكتشاف ثغرات يوم الصفر', 'The only real way to discover zero-day vulnerabilities', 4, 9),
+    ],
+    verdictAr: 'Metasploit أسرع وأعملي لاختبار ثغرات معروفة على نطاق واسع. الاستغلال اليدوي ضروري لفهم عميق حقيقي ولاكتشاف ثغرات جديدة غير موجودة في أي مكتبة جاهزة.',
+    verdictEn: 'Metasploit is faster and more practical for testing known vulnerabilities at scale. Manual exploitation is necessary for real deep understanding and discovering new vulnerabilities not in any existing library.',
+  },
+  {
+    d1: 'Microsoft Purview', d2: 'Traditional DLP Tools', sub: 'network-security', img1: 'cloud', img2: 'security',
+    specs: [
+      spec('التكامل مع منظومة Microsoft 365', 'Microsoft 365 ecosystem integration', 'تكامل عميق ومباشر لأنه من نفس المنظومة', 'Deep, direct integration as part of the same ecosystem', 'يحتاج تكامل إضافي مع كل خدمة على حدة', 'Needs extra integration work with each service separately', 9, 5),
+      spec('التغطية خارج بيئة Microsoft', 'Coverage outside the Microsoft environment', 'محدودة نسبيًا خارج منظومة Microsoft', 'Relatively limited outside the Microsoft ecosystem', 'أدوات DLP تقليدية غالبًا مصممة للتغطية الشاملة عبر منصات متعددة', 'Traditional DLP tools are often designed for broad multi-platform coverage', 5, 8),
+      spec('سهولة الإدارة الموحدة', 'Unified management ease', 'لوحة تحكم واحدة لكل بيانات Microsoft 365', 'One dashboard for all Microsoft 365 data', 'يحتاج غالبًا إدارة منفصلة لكل نظام', 'Often requires separate management per system', 9, 6),
+    ],
+    verdictAr: 'Microsoft Purview منطقي جدًا لو مؤسستك معتمدة بشكل أساسي على Microsoft 365. أدوات DLP التقليدية أنسب لبيئة متنوعة فيها أنظمة كتيرة خارج منظومة Microsoft.',
+    verdictEn: 'Microsoft Purview makes strong sense if your organization is primarily on Microsoft 365. Traditional DLP tools fit better in a diverse environment with many systems outside the Microsoft ecosystem.',
+  },
 ];
 
 export function generateComparisons({ count = COMPARISON_CONTENT.length, subcategory, startIndex = 0 } = {}) {

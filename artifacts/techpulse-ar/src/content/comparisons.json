@@ -4004,5 +4004,473 @@
       "ar": "Cisco ISE منطقي جدًا لو شبكتك بالكامل من Cisco أصلًا. Aruba ClearPass أنسب لبيئة متعددة المزوّدين محتاجة مرونة NAC أعلى.",
       "en": "Cisco ISE makes strong sense if your network is entirely Cisco already. Aruba ClearPass fits better in a multi-vendor environment needing more NAC flexibility."
     }
+  },
+  {
+    "id": "cmp-gen-0052",
+    "slug": "sysmon-vs-windows-default-auditing",
+    "title": {
+      "ar": "Sysmon ضد Windows Default Auditing",
+      "en": "Sysmon vs Windows Default Auditing"
+    },
+    "excerpt": {
+      "ar": "Sysmon أقوى بكتير في عمق التفاصيل ومناسب جدًا لو عندك SIEM بتحلل البيانات. التدقيق الافتراضي في Windows كافٍ للبداية الب",
+      "en": "Sysmon is far stronger in detail depth and fits well if you have a SIEM analyzing the data. Windows default auditing is fine for a basic sta"
+    },
+    "device1Name": "Sysmon",
+    "device2Name": "Windows Default Auditing",
+    "device1Image": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/windows.svg",
+    "date": "2026-01-07",
+    "categoryId": "comparisons",
+    "subcategoryId": "endpoint",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "عمق التفاصيل المسجّلة",
+          "en": "Logging detail depth"
+        },
+        "device1Value": {
+          "ar": "تفاصيل غنية جدًا (تجزئة الملفات، سلاسل الشبكة، إلخ)",
+          "en": "Very rich detail (file hashes, network connections, etc.)"
+        },
+        "device2Value": {
+          "ar": "أساسي، يغطي الأحداث الشائعة بس",
+          "en": "Basic, covers only common events"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "سهولة الإعداد",
+          "en": "Setup ease"
+        },
+        "device1Value": {
+          "ar": "يحتاج تثبيت وضبط ملف تكوين خارجي",
+          "en": "Needs installation and an external config file"
+        },
+        "device2Value": {
+          "ar": "مدمج بالكامل، تفعيل مباشر من الإعدادات",
+          "en": "Fully built-in, direct activation from settings"
+        },
+        "device1Score": 5,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "التكامل مع أدوات SIEM",
+          "en": "SIEM integration"
+        },
+        "device1Value": {
+          "ar": "من الأفضل والأكثر توافقًا مع معظم حلول SIEM",
+          "en": "Among the best and most compatible with most SIEM solutions"
+        },
+        "device2Value": {
+          "ar": "متوافق لكن بتفاصيل أقل عمقًا",
+          "en": "Compatible but with less detailed data"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "Sysmon أقوى بكتير في عمق التفاصيل ومناسب جدًا لو عندك SIEM بتحلل البيانات. التدقيق الافتراضي في Windows كافٍ للبداية البسيطة بس، مش لتحقيق جنائي حقيقي.",
+      "en": "Sysmon is far stronger in detail depth and fits well if you have a SIEM analyzing the data. Windows default auditing is fine for a basic start, but not for real forensic investigation."
+    }
+  },
+  {
+    "id": "cmp-gen-0053",
+    "slug": "have-i-been-pwned-vs-enterprise-breach-monitoring-services",
+    "title": {
+      "ar": "Have I Been Pwned ضد Enterprise Breach Monitoring Services",
+      "en": "Have I Been Pwned vs Enterprise Breach Monitoring Services"
+    },
+    "excerpt": {
+      "ar": "Have I Been Pwned ممتاز كنقطة بداية سريعة ومجانية لأي فرد أو فريق صغير. خدمات المراقبة المؤسسية تستاهل الاستثمار لو عندك",
+      "en": "Have I Been Pwned is excellent as a quick, free starting point for any individual or small team. Enterprise monitoring services are worth th"
+    },
+    "device1Name": "Have I Been Pwned",
+    "device2Name": "Enterprise Breach Monitoring Services",
+    "device1Image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "date": "2026-02-14",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التكلفة",
+          "en": "Cost"
+        },
+        "device1Value": {
+          "ar": "مجاني للاستخدام الفردي والتحقق الأساسي",
+          "en": "Free for individual use and basic checks"
+        },
+        "device2Value": {
+          "ar": "مدفوع، مصمم لمراقبة نطاقات مؤسسية كاملة",
+          "en": "Paid, designed for monitoring entire enterprise domains"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "عمق المراقبة المستمرة",
+          "en": "Continuous monitoring depth"
+        },
+        "device1Value": {
+          "ar": "تنبيهات أساسية عند تسريب جديد",
+          "en": "Basic alerts on a new leak"
+        },
+        "device2Value": {
+          "ar": "مراقبة أعمق ومستمرة عبر مصادر أوسع (منتديات، أسواق مظلمة)",
+          "en": "Deeper, continuous monitoring across wider sources (forums, dark markets)"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "سهولة البداية",
+          "en": "Ease of getting started"
+        },
+        "device1Value": {
+          "ar": "فوري، بس تدخل الإيميل وتشوف النتيجة",
+          "en": "Instant -- just enter an email and see the result"
+        },
+        "device2Value": {
+          "ar": "يحتاج إعداد واشتراك مؤسسي",
+          "en": "Needs setup and an enterprise subscription"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "Have I Been Pwned ممتاز كنقطة بداية سريعة ومجانية لأي فرد أو فريق صغير. خدمات المراقبة المؤسسية تستاهل الاستثمار لو عندك نطاق شركة كبير محتاج مراقبة مستمرة وأعمق.",
+      "en": "Have I Been Pwned is excellent as a quick, free starting point for any individual or small team. Enterprise monitoring services are worth the investment if you have a large company domain needing deeper, continuous monitoring."
+    }
+  },
+  {
+    "id": "cmp-gen-0054",
+    "slug": "nextcloud-vs-owncloud",
+    "title": {
+      "ar": "Nextcloud ضد ownCloud",
+      "en": "Nextcloud vs ownCloud"
+    },
+    "excerpt": {
+      "ar": "Nextcloud الخيار الأشهر والأسرع تطويرًا حاليًا لمعظم الاستخدامات. ownCloud لسه خيار قوي لمؤسسة كبيرة محتاجة استقرار وميز",
+      "en": "Nextcloud is currently the more popular, faster-developing choice for most use cases. ownCloud remains a strong option for a large enterpris"
+    },
+    "device1Name": "Nextcloud",
+    "device2Name": "ownCloud",
+    "device1Image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-03-21",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "وتيرة التطوير والميزات الحديثة",
+          "en": "Development pace & modern features"
+        },
+        "device1Value": {
+          "ar": "أسرع في إضافة ميزات جديدة، مجتمع أكبر حاليًا",
+          "en": "Faster at adding new features, currently a larger community"
+        },
+        "device2Value": {
+          "ar": "أبطأ نسبيًا، يركّز على الاستقرار المؤسسي",
+          "en": "Relatively slower, focuses on enterprise stability"
+        },
+        "device1Score": 8,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "سهولة الاستضافة الذاتية",
+          "en": "Self-hosting ease"
+        },
+        "device1Value": {
+          "ar": "توثيق واسع وسهل للمبتدئين",
+          "en": "Extensive, beginner-friendly documentation"
+        },
+        "device2Value": {
+          "ar": "جيد أيضًا، أنسب لفرق تقنية متمرسة",
+          "en": "Also good, better suited to experienced technical teams"
+        },
+        "device1Score": 8,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "الميزات المؤسسية المتقدمة",
+          "en": "Advanced enterprise features"
+        },
+        "device1Value": {
+          "ar": "متوفرة، تنمو باستمرار",
+          "en": "Available, constantly growing"
+        },
+        "device2Value": {
+          "ar": "تاريخيًا أقوى في ميزات الامتثال المؤسسي البحتة",
+          "en": "Historically stronger in purely enterprise compliance features"
+        },
+        "device1Score": 7,
+        "device2Score": 8,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Nextcloud الخيار الأشهر والأسرع تطويرًا حاليًا لمعظم الاستخدامات. ownCloud لسه خيار قوي لمؤسسة كبيرة محتاجة استقرار وميزات امتثال محددة.",
+      "en": "Nextcloud is currently the more popular, faster-developing choice for most use cases. ownCloud remains a strong option for a large enterprise needing stability and specific compliance features."
+    }
+  },
+  {
+    "id": "cmp-gen-0055",
+    "slug": "prometheus-vs-datadog",
+    "title": {
+      "ar": "Prometheus ضد Datadog",
+      "en": "Prometheus vs Datadog"
+    },
+    "excerpt": {
+      "ar": "Prometheus أفضل لو محتاج تحكم كامل في البيانات وعندك فريق تقني قادر على الإدارة الذاتية. Datadog أسرع بداية وأنسب لفريق",
+      "en": "Prometheus is better if you need full data control and have a technical team capable of self-management. Datadog is faster to start and fits"
+    },
+    "device1Name": "Prometheus",
+    "device2Name": "Datadog",
+    "device1Image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-04-01",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "نموذج الاستضافة والتكلفة",
+          "en": "Hosting model & cost"
+        },
+        "device1Value": {
+          "ar": "مفتوح المصدر، تستضيفه بنفسك، تكلفة بنية تحتية بس",
+          "en": "Open-source, self-hosted, only infrastructure cost"
+        },
+        "device2Value": {
+          "ar": "خدمة سحابية مُدارة بالكامل، تسعير حسب الاستخدام",
+          "en": "Fully managed cloud service, usage-based pricing"
+        },
+        "device1Score": 8,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "سهولة الإعداد الأولي",
+          "en": "Initial setup ease"
+        },
+        "device1Value": {
+          "ar": "يحتاج إعداد وضبط يدوي أكتر",
+          "en": "Needs more manual setup and tuning"
+        },
+        "device2Value": {
+          "ar": "إعداد سريع جدًا، تكامل جاهز مع مئات الخدمات",
+          "en": "Very fast setup, ready-made integrations with hundreds of services"
+        },
+        "device1Score": 5,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "التحكم الكامل في البيانات",
+          "en": "Full data control"
+        },
+        "device1Value": {
+          "ar": "تحكم كامل، البيانات عندك بالكامل",
+          "en": "Full control, data stays entirely with you"
+        },
+        "device2Value": {
+          "ar": "البيانات على سحابة الطرف التالت",
+          "en": "Data lives on a third-party cloud"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "Prometheus أفضل لو محتاج تحكم كامل في البيانات وعندك فريق تقني قادر على الإدارة الذاتية. Datadog أسرع بداية وأنسب لفريق عايز حل جاهز بدون عبء إدارة بنية تحتية.",
+      "en": "Prometheus is better if you need full data control and have a technical team capable of self-management. Datadog is faster to start and fits a team wanting a ready-made solution without infrastructure management overhead."
+    }
+  },
+  {
+    "id": "cmp-gen-0056",
+    "slug": "metasploit-vs-manual-exploitation",
+    "title": {
+      "ar": "Metasploit ضد Manual Exploitation",
+      "en": "Metasploit vs Manual Exploitation"
+    },
+    "excerpt": {
+      "ar": "Metasploit أسرع وأعملي لاختبار ثغرات معروفة على نطاق واسع. الاستغلال اليدوي ضروري لفهم عميق حقيقي ولاكتشاف ثغرات جديدة غ",
+      "en": "Metasploit is faster and more practical for testing known vulnerabilities at scale. Manual exploitation is necessary for real deep understan"
+    },
+    "device1Name": "Metasploit",
+    "device2Name": "Manual Exploitation",
+    "device1Image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-05-08",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "سرعة اختبار ثغرات معروفة",
+          "en": "Speed testing known vulnerabilities"
+        },
+        "device1Value": {
+          "ar": "سريع جدًا، مكتبة ضخمة من الثغرات الجاهزة",
+          "en": "Very fast, a huge library of ready exploits"
+        },
+        "device2Value": {
+          "ar": "أبطأ بكثير، كل خطوة بتتكتب يدويًا",
+          "en": "Much slower, every step written manually"
+        },
+        "device1Score": 9,
+        "device2Score": 3,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "الفهم العميق لآلية الثغرة",
+          "en": "Deep understanding of the vulnerability mechanics"
+        },
+        "device1Value": {
+          "ar": "ممكن يخلي المختبر يعتمد على الأداة من غير فهم عميق",
+          "en": "Can lead a tester to rely on the tool without deep understanding"
+        },
+        "device2Value": {
+          "ar": "بيبني فهم حقيقي عميق لكل خطوة وكل ثغرة",
+          "en": "Builds real, deep understanding of every step and vulnerability"
+        },
+        "device1Score": 5,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "اكتشاف ثغرات جديدة غير معروفة",
+          "en": "Discovering new, unknown vulnerabilities"
+        },
+        "device1Value": {
+          "ar": "محدود بمكتبة الثغرات الموجودة أصلًا",
+          "en": "Limited to the exploit library that already exists"
+        },
+        "device2Value": {
+          "ar": "الطريقة الوحيدة الفعلية لاكتشاف ثغرات يوم الصفر",
+          "en": "The only real way to discover zero-day vulnerabilities"
+        },
+        "device1Score": 4,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Metasploit أسرع وأعملي لاختبار ثغرات معروفة على نطاق واسع. الاستغلال اليدوي ضروري لفهم عميق حقيقي ولاكتشاف ثغرات جديدة غير موجودة في أي مكتبة جاهزة.",
+      "en": "Metasploit is faster and more practical for testing known vulnerabilities at scale. Manual exploitation is necessary for real deep understanding and discovering new vulnerabilities not in any existing library."
+    }
+  },
+  {
+    "id": "cmp-gen-0057",
+    "slug": "microsoft-purview-vs-traditional-dlp-tools",
+    "title": {
+      "ar": "Microsoft Purview ضد Traditional DLP Tools",
+      "en": "Microsoft Purview vs Traditional DLP Tools"
+    },
+    "excerpt": {
+      "ar": "Microsoft Purview منطقي جدًا لو مؤسستك معتمدة بشكل أساسي على Microsoft 365. أدوات DLP التقليدية أنسب لبيئة متنوعة فيها أ",
+      "en": "Microsoft Purview makes strong sense if your organization is primarily on Microsoft 365. Traditional DLP tools fit better in a diverse envir"
+    },
+    "device1Name": "Microsoft Purview",
+    "device2Name": "Traditional DLP Tools",
+    "device1Image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "device2Image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-06-15",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التكامل مع منظومة Microsoft 365",
+          "en": "Microsoft 365 ecosystem integration"
+        },
+        "device1Value": {
+          "ar": "تكامل عميق ومباشر لأنه من نفس المنظومة",
+          "en": "Deep, direct integration as part of the same ecosystem"
+        },
+        "device2Value": {
+          "ar": "يحتاج تكامل إضافي مع كل خدمة على حدة",
+          "en": "Needs extra integration work with each service separately"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "التغطية خارج بيئة Microsoft",
+          "en": "Coverage outside the Microsoft environment"
+        },
+        "device1Value": {
+          "ar": "محدودة نسبيًا خارج منظومة Microsoft",
+          "en": "Relatively limited outside the Microsoft ecosystem"
+        },
+        "device2Value": {
+          "ar": "أدوات DLP تقليدية غالبًا مصممة للتغطية الشاملة عبر منصات متعددة",
+          "en": "Traditional DLP tools are often designed for broad multi-platform coverage"
+        },
+        "device1Score": 5,
+        "device2Score": 8,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "سهولة الإدارة الموحدة",
+          "en": "Unified management ease"
+        },
+        "device1Value": {
+          "ar": "لوحة تحكم واحدة لكل بيانات Microsoft 365",
+          "en": "One dashboard for all Microsoft 365 data"
+        },
+        "device2Value": {
+          "ar": "يحتاج غالبًا إدارة منفصلة لكل نظام",
+          "en": "Often requires separate management per system"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "Microsoft Purview منطقي جدًا لو مؤسستك معتمدة بشكل أساسي على Microsoft 365. أدوات DLP التقليدية أنسب لبيئة متنوعة فيها أنظمة كتيرة خارج منظومة Microsoft.",
+      "en": "Microsoft Purview makes strong sense if your organization is primarily on Microsoft 365. Traditional DLP tools fit better in a diverse environment with many systems outside the Microsoft ecosystem."
+    }
   }
 ]
