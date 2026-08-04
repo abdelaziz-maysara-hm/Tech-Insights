@@ -27,7 +27,7 @@
       "security",
       "mfa"
     ],
-    "isFeatured": true,
+    "isFeatured": false,
     "isTrending": false
   },
   {
@@ -58,7 +58,7 @@
       "email",
       "security"
     ],
-    "isFeatured": true,
+    "isFeatured": false,
     "isTrending": false
   },
   {
@@ -89,7 +89,7 @@
       "ngfw",
       "security-policy"
     ],
-    "isFeatured": true,
+    "isFeatured": false,
     "isTrending": false
   },
   {
@@ -121,7 +121,7 @@
       "radius"
     ],
     "isFeatured": false,
-    "isTrending": true
+    "isTrending": false
   },
   {
     "id": "art-gen-0005",
@@ -152,7 +152,7 @@
       "ssl-vpn"
     ],
     "isFeatured": false,
-    "isTrending": true
+    "isTrending": false
   },
   {
     "id": "art-gen-0006",
@@ -183,7 +183,7 @@
       "tools"
     ],
     "isFeatured": false,
-    "isTrending": true
+    "isTrending": false
   },
   {
     "id": "art-gen-0007",
@@ -2132,6 +2132,164 @@
       "laps",
       "active-directory",
       "windows-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0070",
+    "slug": "sonicwall-sma1000-ransomware-exploitation-2026",
+    "title": {
+      "ar": "ثغرات SonicWall الأخيرة تُستغل فعليًا في هجمات فدية",
+      "en": "Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks"
+    },
+    "excerpt": {
+      "ar": "عصابة INC Ransomware تستهدف أجهزة SonicWall SMA1000 غير المُحدَّثة للوصول الجذري والتحرك الجانبي داخل الشبكات.",
+      "en": "The INC Ransomware gang is targeting vulnerable SonicWall SMA1000 appliances for root access and lateral movement inside networks."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "news-updates",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-03",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "sonicwall",
+      "ransomware",
+      "news"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0071",
+    "slug": "n-able-n-central-cve-2026-18577-exploited",
+    "title": {
+      "ar": "ثغرة N-central (CVE-2026-18577) استُغلّت فعليًا بعد تجاوز الترقيع الأول",
+      "en": "N-central Vulnerability (CVE-2026-18577) Exploited After Bypassing an Earlier Patch"
+    },
+    "excerpt": {
+      "ar": "N-able أصدرت ترقيعًا جديدًا بعد ما اكتشف مهاجمون طريقة لتجاوز الحل الأول للثغرة.",
+      "en": "N-able issued a new patch after attackers found a way to bypass the earlier fix for the vulnerability."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "news-updates",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-03",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "n-able",
+      "rmm",
+      "news",
+      "vulnerability"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0072",
+    "slug": "azure-cosmos-db-cosmosescape-flaw",
+    "title": {
+      "ar": "ثغرة CosmosEscape في Azure Cosmos DB: كشف المفتاح الأساسي بالكامل",
+      "en": "CosmosEscape Flaw in Azure Cosmos DB Exposed Full Primary Keys"
+    },
+    "excerpt": {
+      "ar": "ثغرة حرجة سمحت بالوصول الكامل للقراءة والكتابة على حسابات Cosmos DB المتأثرة.",
+      "en": "A critical flaw allowed full read and write access to affected Cosmos DB accounts."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "news-updates",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-01",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "azure",
+      "cloud-security",
+      "news"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0073",
+    "slug": "azure-cli-password-spray-campaign",
+    "title": {
+      "ar": "حملة رش كلمات مرور ضخمة تستهدف Azure CLI",
+      "en": "Massive Password Spray Campaign Targeting Azure CLI"
+    },
+    "excerpt": {
+      "ar": "محاولات دخول آلية واسعة النطاق ضد حسابات Azure عن طريق أداة سطر الأوامر.",
+      "en": "Large-scale automated login attempts against Azure accounts via the command-line tool."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "news-updates",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-01",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "azure",
+      "password-spray",
+      "news",
+      "identity"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0074",
+    "slug": "ruby-on-rails-critical-rce-patch",
+    "title": {
+      "ar": "Ruby on Rails تُصلح ثغرة حرجة تسمح بتنفيذ كود عن بُعد",
+      "en": "Ruby on Rails Patches a Critical Remote Code Execution Vulnerability"
+    },
+    "excerpt": {
+      "ar": "الثغرة قابلة للاستغلال من مهاجم غير مُصادَق عليه لقراءة ملفات عشوائية وربما تنفيذ كود.",
+      "en": "The flaw is exploitable by an unauthenticated attacker to read arbitrary files and potentially achieve code execution."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "news-updates",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-01",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ruby-on-rails",
+      "rce",
+      "news",
+      "web-security"
     ],
     "isFeatured": false,
     "isTrending": false

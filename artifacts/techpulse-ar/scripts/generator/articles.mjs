@@ -980,6 +980,81 @@ export const TOPIC_CONTENT = [
     readTime: 5,
     theme: "identity",
   },
+  {
+    slug: "sonicwall-sma1000-ransomware-exploitation-2026",
+    realDate: "2026-08-03",
+    titleAr: "ثغرات SonicWall الأخيرة تُستغل فعليًا في هجمات فدية",
+    titleEn: "Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks",
+    excerptAr: "عصابة INC Ransomware تستهدف أجهزة SonicWall SMA1000 غير المُحدَّثة للوصول الجذري والتحرك الجانبي داخل الشبكات.",
+    excerptEn: "The INC Ransomware gang is targeting vulnerable SonicWall SMA1000 appliances for root access and lateral movement inside networks.",
+    bodyAr: "## الخبر\n\nحسب تقرير SecurityWeek بتاريخ 3 أغسطس 2026، عصابة الفدية INC بتستهدف أجهزة SonicWall SMA1000 غير المحدّثة، مستغلة ثغرات معروفة للوصول بصلاحيات جذرية (Root) والتحرك الجانبي داخل شبكة الضحية.\n\n## ليه ده مهم لمديري الأنظمة\n\nأجهزة SMA1000 بتُستخدم كبوابة وصول عن بُعد (زي SSL VPN)، يعني ثغرة فيها معناها مسار مباشر من الإنترنت العام لداخل الشبكة الداخلية.\n\n## إيه اللي تعمله دلوقتي\n\n1. تأكد من تحديث فرموير أي جهاز SonicWall SMA1000 لآخر إصدار متاح فورًا.\n2. راجع سجلات الوصول لأي نشاط غير معتاد على البوابة.\n3. لو مش قادر تحدّث فورًا، قيّد الوصول لأجهزة SMA1000 من الإنترنت العام لأضيق نطاق ممكن مؤقتًا.\n\n## المصدر\n\nSecurityWeek — [Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks](https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks/)",
+    bodyEn: "## The news\n\nPer a SecurityWeek report dated August 3, 2026, the INC Ransomware gang is targeting unpatched SonicWall SMA1000 appliances, exploiting known vulnerabilities to gain root access and move laterally inside victim networks.\n\n## Why this matters to sysadmins\n\nSMA1000 devices serve as remote-access gateways (SSL VPN), meaning a flaw here is a direct path from the public internet into the internal network.\n\n## What to do now\n\nUpdate any SonicWall SMA1000 firmware to the latest available version immediately; review access logs for unusual gateway activity; if immediate patching isn't possible, temporarily restrict SMA1000 internet-facing access to the narrowest scope possible.\n\n## Source\n\nSecurityWeek — [Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks](https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks/)",
+    cat: "cybersecurity",
+    sub: "news-updates",
+    tags: ["sonicwall", "ransomware", "news"],
+    readTime: 3,
+    theme: "firewall",
+  },
+  {
+    slug: "n-able-n-central-cve-2026-18577-exploited",
+    realDate: "2026-08-03",
+    titleAr: "ثغرة N-central (CVE-2026-18577) استُغلّت فعليًا بعد تجاوز الترقيع الأول",
+    titleEn: "N-central Vulnerability (CVE-2026-18577) Exploited After Bypassing an Earlier Patch",
+    excerptAr: "N-able أصدرت ترقيعًا جديدًا بعد ما اكتشف مهاجمون طريقة لتجاوز الحل الأول للثغرة.",
+    excerptEn: "N-able issued a new patch after attackers found a way to bypass the earlier fix for the vulnerability.",
+    bodyAr: "## الخبر\n\nحسب SecurityWeek (3 أغسطس 2026)، ثغرة CVE-2026-18577 في N-central (أداة إدارة عن بُعد شائعة عند مزوّدي الخدمات المُدارة MSP) استُغلّت فعليًا في الواقع، بعد ما المهاجمون لقوا طريقة يتجاوزوا بيها الترقيع الأول اللي أصدرته N-able.\n\n## ليه ده مهم\n\nN-central أداة RMM بتُستخدم لإدارة مئات أو آلاف الأجهزة عن بُعد — ثغرة فيها معناها مهاجم واحد يقدر يوصل لعدد ضخم من الأجهزة دفعة واحدة لو المنصة اتخترقت.\n\n## إيه اللي تعمله دلوقتي\n\n1. تأكد إنك مركّب أحدث ترقيع من N-able، مش بس الترقيع الأول اللي كان بيتجاوزه المهاجمون.\n2. راجع سجلات الوصول لمنصة N-central بتاعتك لأي نشاط غير معتاد.\n3. لو بتدير N-central لعملاء متعددين (بيئة MSP)، إعادة فحص كل بيئة عميل على حدة مهمة، مش بس السيرفر المركزي.\n\n## المصدر\n\nSecurityWeek — [N-able Patches Vulnerability Exploited to Hack N-central Servers](https://www.securityweek.com/n-able-patches-vulnerability-exploited-to-hack-n-central-servers/)",
+    bodyEn: "## The news\n\nPer SecurityWeek (August 3, 2026), CVE-2026-18577 in N-central (a remote monitoring and management tool common among MSPs) has been actively exploited in the wild after attackers found a way to bypass N-able's initial patch.\n\n## Why this matters\n\nN-central is an RMM tool used to manage hundreds or thousands of devices remotely -- a flaw here means a single attacker could reach a massive number of devices at once if the platform is compromised.\n\n## What to do now\n\nConfirm you have N-able's latest patch installed, not just the earlier one attackers bypassed; review your N-central platform's access logs for unusual activity; if you manage N-central for multiple clients (an MSP environment), re-checking each client environment individually matters, not just the central server.\n\n## Source\n\nSecurityWeek — [N-able Patches Vulnerability Exploited to Hack N-central Servers](https://www.securityweek.com/n-able-patches-vulnerability-exploited-to-hack-n-central-servers/)",
+    cat: "cybersecurity",
+    sub: "news-updates",
+    tags: ["n-able", "rmm", "news", "vulnerability"],
+    readTime: 3,
+    theme: "server",
+  },
+  {
+    slug: "azure-cosmos-db-cosmosescape-flaw",
+    realDate: "2026-08-01",
+    titleAr: "ثغرة CosmosEscape في Azure Cosmos DB: كشف المفتاح الأساسي بالكامل",
+    titleEn: "CosmosEscape Flaw in Azure Cosmos DB Exposed Full Primary Keys",
+    excerptAr: "ثغرة حرجة سمحت بالوصول الكامل للقراءة والكتابة على حسابات Cosmos DB المتأثرة.",
+    excerptEn: "A critical flaw allowed full read and write access to affected Cosmos DB accounts.",
+    bodyAr: "## الخبر\n\nحسب SecurityWeek، ثغرة أُطلق عليها اسم CosmosEscape كانت بتعرّض المفتاح الأساسي (Primary Key) لحسابات Azure Cosmos DB، وده كان بيدّي وصول كامل للقراءة والكتابة على البيانات المتأثرة.\n\n## ليه ده مهم\n\nCosmos DB بتُستخدم كقاعدة بيانات أساسية لتطبيقات كتيرة على Azure — كشف المفتاح الأساسي معناها المهاجم يقدر يتصرف كأنه المالك الشرعي للبيانات بالكامل.\n\n## إيه اللي تعمله دلوقتي\n\n1. تأكد إن Microsoft أصدرت تصحيح للثغرة دي وطبّقته لو بتستخدم Cosmos DB.\n2. راجع سياسة تدوير مفاتيح الوصول (Key Rotation) — لو مفعّلة بشكل دوري، الخطر بيقل حتى لو حصل تسريب.\n3. فكّر في استخدام Azure AD authentication بدل المفاتيح التقليدية لو ممكن، كطبقة حماية إضافية.\n\n## المصدر\n\nSecurityWeek — [Critical Flaw Led to Azure Cosmos DB Pwnage](https://www.securityweek.com/critical-flaw-led-to-azure-cosmos-db-pwnage/)",
+    bodyEn: "## The news\n\nPer SecurityWeek, a flaw dubbed CosmosEscape exposed the primary key for Azure Cosmos DB accounts, granting full read and write access to affected data.\n\n## Why this matters\n\nCosmos DB serves as the core database for many Azure applications -- exposing the primary key means an attacker can act as the legitimate data owner entirely.\n\n## What to do now\n\nConfirm Microsoft's fix for this flaw has been applied if you use Cosmos DB; review your key rotation policy -- regular rotation reduces risk even if a leak occurs; consider using Azure AD authentication instead of traditional keys where possible, as an extra layer.\n\n## Source\n\nSecurityWeek — [Critical Flaw Led to Azure Cosmos DB Pwnage](https://www.securityweek.com/critical-flaw-led-to-azure-cosmos-db-pwnage/)",
+    cat: "cybersecurity",
+    sub: "news-updates",
+    tags: ["azure", "cloud-security", "news"],
+    readTime: 3,
+    theme: "cloud",
+  },
+  {
+    slug: "azure-cli-password-spray-campaign",
+    realDate: "2026-08-01",
+    titleAr: "حملة رش كلمات مرور ضخمة تستهدف Azure CLI",
+    titleEn: "Massive Password Spray Campaign Targeting Azure CLI",
+    excerptAr: "محاولات دخول آلية واسعة النطاق ضد حسابات Azure عن طريق أداة سطر الأوامر.",
+    excerptEn: "Large-scale automated login attempts against Azure accounts via the command-line tool.",
+    bodyAr: "## الخبر\n\nSecurityWeek رصدت حملة رش كلمات مرور (Password Spraying) واسعة النطاق تستهدف حسابات Azure عن طريق Azure CLI — أسلوب هجوم بيجرّب كلمة مرور واحدة شائعة على عدد ضخم من الحسابات، بدل تجربة كلمات كتيرة على حساب واحد (اللي بيتفادى قيود القفل بعد محاولات فاشلة متكررة).\n\n## ليه ده مهم\n\nAzure CLI أداة إدارية بصلاحيات واسعة — حساب واحد ضعيف بدون MFA يقدر يبقى نقطة دخول لبيئة سحابية كاملة.\n\n## إيه اللي تعمله دلوقتي\n\n1. فعّل المصادقة الثنائية (MFA) على كل حساب له وصول لـAzure من غير استثناء، خصوصًا حسابات لها صلاحيات CLI.\n2. راجع سياسة قفل الحساب (Account Lockout) وتنبيهات محاولات الدخول الفاشلة المتكررة.\n3. قيّد الوصول لـAzure CLI جغرافيًا أو عبر شبكات موثوقة بس لو ممكن (Conditional Access).\n\n## المصدر\n\nSecurityWeek — [Massive Password Spray Campaign Targeting Azure CLI](https://www.securityweek.com/massive-password-spray-campaign-targeting-azure-cli/)",
+    bodyEn: "## The news\n\nSecurityWeek reported a large-scale password spraying campaign targeting Azure accounts via Azure CLI -- an attack style that tries one common password against many accounts, rather than many passwords against one (avoiding lockout thresholds triggered by repeated failed attempts).\n\n## Why this matters\n\nAzure CLI is an administrative tool with broad privileges -- one weak account without MFA can become an entry point into an entire cloud environment.\n\n## What to do now\n\nEnable MFA on every account with Azure access without exception, especially accounts with CLI privileges; review account lockout policy and alerts for repeated failed logins; restrict Azure CLI access geographically or to trusted networks only where possible (Conditional Access).\n\n## Source\n\nSecurityWeek — [Massive Password Spray Campaign Targeting Azure CLI](https://www.securityweek.com/massive-password-spray-campaign-targeting-azure-cli/)",
+    cat: "cybersecurity",
+    sub: "news-updates",
+    tags: ["azure", "password-spray", "news", "identity"],
+    readTime: 3,
+    theme: "cloud",
+  },
+  {
+    slug: "ruby-on-rails-critical-rce-patch",
+    realDate: "2026-08-01",
+    titleAr: "Ruby on Rails تُصلح ثغرة حرجة تسمح بتنفيذ كود عن بُعد",
+    titleEn: "Ruby on Rails Patches a Critical Remote Code Execution Vulnerability",
+    excerptAr: "الثغرة قابلة للاستغلال من مهاجم غير مُصادَق عليه لقراءة ملفات عشوائية وربما تنفيذ كود.",
+    excerptEn: "The flaw is exploitable by an unauthenticated attacker to read arbitrary files and potentially achieve code execution.",
+    bodyAr: "## الخبر\n\nحسب SecurityWeek (1 أغسطس 2026)، فريق Ruby on Rails أصدر تحديثًا لثغرة حرجة قابلة للاستغلال من مهاجم **غير مُصادَق عليه أصلًا** (Unauthenticated) — يعني مش محتاج حساب أو صلاحية أي حاجة عشان يحاول يستغلها. الثغرة ممكن تُستخدم لقراءة ملفات عشوائية من السيرفر، ومحتمل تنفيذ كود عن بُعد (RCE).\n\n## ليه ده مهم\n\nRuby on Rails فريمورك واسع الانتشار لتطبيقات الويب — أي تطبيق مبني عليه ومش محدّث معرّض للخطر مباشرة من الإنترنت.\n\n## إيه اللي تعمله دلوقتي\n\n1. حدّث أي تطبيق Rails لآخر إصدار مُصلَّح فورًا — الأولوية قصوى لأن الثغرة غير مُصادَق عليها.\n2. راجع سجلات الوصول للتطبيق لأي محاولات وصول غير معتادة لملفات أو مسارات غريبة.\n3. لو التحديث الفوري مش ممكن، فعّل قواعد WAF مؤقتة تقيّد الأنماط المشبوهة المرتبطة بالثغرة.\n\n## المصدر\n\nSecurityWeek — [Ruby on Rails Patches Critical Vulnerability](https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/)",
+    bodyEn: "## The news\n\nPer SecurityWeek (August 1, 2026), the Ruby on Rails team shipped a fix for a critical vulnerability exploitable by a completely unauthenticated attacker -- no account or privilege needed to attempt exploitation. The flaw can be used to read arbitrary files from the server, and potentially achieve remote code execution (RCE).\n\n## Why this matters\n\nRuby on Rails is a widely used web application framework -- any unpatched app built on it is directly exposed to the internet.\n\n## What to do now\n\nUpdate any Rails application to the latest patched version immediately -- top priority since the flaw is unauthenticated; review app access logs for unusual attempts to reach odd files or paths; if immediate updating isn't possible, enable temporary WAF rules restricting suspicious patterns tied to the flaw.\n\n## Source\n\nSecurityWeek — [Ruby on Rails Patches Critical Vulnerability](https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/)",
+    cat: "cybersecurity",
+    sub: "news-updates",
+    tags: ["ruby-on-rails", "rce", "news", "web-security"],
+    readTime: 3,
+    theme: "dev",
+  },
 ];
 
 export function generateArticles({ count = TOPIC_CONTENT.length, category, startIndex = 0 } = {}) {
@@ -1022,7 +1097,7 @@ export function generateArticles({ count = TOPIC_CONTENT.length, category, start
       categoryId,
       subcategoryId,
       author: t.author || DEFAULT_AUTHOR,
-      date: distributedDate(abs, Math.max(count + startIndex, 1)),
+      date: t.realDate || distributedDate(abs, Math.max(count + startIndex, 1)),
       readTime: t.readTime || 4,
       heroImage: resolveArticleHero({
         categoryId,
@@ -1033,9 +1108,19 @@ export function generateArticles({ count = TOPIC_CONTENT.length, category, start
         theme: t.theme || inferred.theme,
       }),
       tags,
-      isFeatured: abs < 3,
-      isTrending: abs >= 3 && abs < 6,
     });
+  }
+
+  // Feature/trend the genuinely most recent items by real date, not by their
+  // position in TOPIC_CONTENT -- otherwise time-sensitive news (realDate set)
+  // added at the end of the array would never surface as trending, while
+  // years-old evergreen guides near the start stay marked trending forever.
+  const byRecency = [...items].sort((a, b) => new Date(b.date) - new Date(a.date));
+  const featuredIds = new Set(byRecency.slice(0, 1).map((a) => a.id));
+  const trendingIds = new Set(byRecency.slice(1, 4).map((a) => a.id));
+  for (const item of items) {
+    item.isFeatured = featuredIds.has(item.id);
+    item.isTrending = trendingIds.has(item.id);
   }
   return items;
 }
