@@ -1,6 +1,7 @@
 import { useRoute, Link } from 'wouter';
 import { useLanguage } from '@/context/LanguageContext';
 import { useAllArticles } from '@/hooks/useAllArticles';
+import { useArticleBody } from '@/hooks/useArticleBody';
 import { Clock, ArrowLeft, ArrowRight, PlayCircle } from 'lucide-react';
 import { useSEO } from '@/hooks/useSEO';
 import { ArticleCard } from '@/components/ArticleCard';
@@ -9,9 +10,12 @@ export default function ArticleDetail() {
   const [, params] = useRoute('/article/:slug');
   const { language, t } = useLanguage();
   const { allArticles } = useAllArticles();
+  const { article, isLoading } = useArticleBody(params?.slug);
   const isRtl = language === 'ar';
 
-  const article = allArticles.find(a => a.slug === params?.slug);
+  if (isLoading) {
+    return <div className="container mx-auto px-4 py-20 text-center text-muted-foreground" />;
+  }
 
   if (!article) {
     return (

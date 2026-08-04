@@ -1,0 +1,619 @@
+[
+  {
+    "id": "art-gen-0001",
+    "slug": "2fa-practical-guide",
+    "title": {
+      "ar": "المصادقة الثنائية (2FA): دليل عملي لحماية حساباتك",
+      "en": "Two-Factor Authentication (2FA): A Practical Guide"
+    },
+    "excerpt": {
+      "ar": "الفرق بين تطبيق المصادقة وSMS، وكيفية تفعيل 2FA وحفظ رموز الاسترداد.",
+      "en": "Authenticator apps vs SMS, how to enable 2FA, and store recovery codes safely."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2022-01-01",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "2fa",
+      "security",
+      "mfa"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0002",
+    "slug": "phishing-spot-before-click",
+    "title": {
+      "ar": "التصيد الاحتيالي: كيف تكتشفه قبل ما تضغط",
+      "en": "Phishing: Spot It Before You Click"
+    },
+    "excerpt": {
+      "ar": "علامات الرسالة المزيفة، روابط ملغومة، وماذا تفعل لو ضغطت بالخطأ.",
+      "en": "Signs of fake messages, malicious links, and what to do after a bad click."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2022-03-08",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "phishing",
+      "email",
+      "security"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0003",
+    "slug": "palo-alto-security-policy-basics",
+    "title": {
+      "ar": "أساسيات Security Policy في Palo Alto — من أين تبدأ؟",
+      "en": "Palo Alto Security Policy Basics — Where to Start"
+    },
+    "excerpt": {
+      "ar": "ترتيب عملي لبناء السياسات: Zones وApp-ID وأشهر الأخطاء.",
+      "en": "Practical order for building policies: zones, App-ID, and common mistakes."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2022-06-15",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "palo-alto",
+      "ngfw",
+      "security-policy"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0004",
+    "slug": "forcepoint-ssl-vpn-radius",
+    "title": {
+      "ar": "إعداد Forcepoint SSL VPN مع RADIUS — خطوات وأشهر الأخطاء",
+      "en": "Forcepoint SSL VPN with RADIUS — Setup and Common Errors"
+    },
+    "excerpt": {
+      "ar": "دليل عملي لربط Forcepoint NGFW SSL VPN مع RADIUS من SMC.",
+      "en": "Practical guide to connect Forcepoint NGFW SSL VPN with RADIUS from SMC."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "vpn-remote",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2022-09-22",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "forcepoint",
+      "ssl-vpn",
+      "radius"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0005",
+    "slug": "fortigate-ssl-vpn-checklist",
+    "title": {
+      "ar": "إعداد FortiGate SSL VPN بسرعة — checklist عملي",
+      "en": "FortiGate SSL VPN Quick Setup — Practical Checklist"
+    },
+    "excerpt": {
+      "ar": "خطوات مختصرة: portal وpolicy وusers وأشهر أسباب فشل الاتصال.",
+      "en": "Short checklist: portal, policy, users, and common connection failures."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "vpn-remote",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2022-11-02",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "fortinet",
+      "fortigate",
+      "ssl-vpn"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0006",
+    "slug": "password-manager-start",
+    "title": {
+      "ar": "مدير كلمات المرور: ليه تحتاجه وإزاي تبدأ",
+      "en": "Password Managers: Why You Need One and How to Start"
+    },
+    "excerpt": {
+      "ar": "بديل آمن لتكرار نفس كلمة المرور، مع خطة نقل تدريجية.",
+      "en": "A safer alternative to password reuse, with a gradual migration plan."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2023-02-09",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "passwords",
+      "security",
+      "tools"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0007",
+    "slug": "ad-powershell-daily-tasks",
+    "title": {
+      "ar": "مهام Active Directory اليومية بـ PowerShell",
+      "en": "Daily Active Directory Tasks with PowerShell"
+    },
+    "excerpt": {
+      "ar": "أوامر عملية: إنشاء مستخدم، إضافة لمجموعة، Unlock، وDisable.",
+      "en": "Practical commands: create user, add to group, unlock, disable."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2023-05-16",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "active-directory",
+      "powershell"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0008",
+    "slug": "home-router-security-basics",
+    "title": {
+      "ar": "تأمين راوتر البيت: خطوات أساسية تفرق",
+      "en": "Home Router Security: Basics That Matter"
+    },
+    "excerpt": {
+      "ar": "تغيير كلمة المرور الافتراضية، تحديث الفرموير، وعزل شبكة الضيوف.",
+      "en": "Change default passwords, update firmware, and isolate guest Wi-Fi."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2023-07-23",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "router",
+      "wifi",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0009",
+    "slug": "vpn-basics-what-it-does",
+    "title": {
+      "ar": "VPN للمبتدئين: ماذا يفعل وماذا لا يفعل؟",
+      "en": "VPN Basics: What It Does and Doesn't Do"
+    },
+    "excerpt": {
+      "ar": "تشفير الاتصال، تغيير الظاهر من العنوان، وحدود الحماية.",
+      "en": "Encryption, IP appearance, and the limits of protection."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "vpn-remote",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2023-10-03",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "vpn",
+      "privacy"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0010",
+    "slug": "windows-disk-cleanup-safe",
+    "title": {
+      "ar": "تنظيف مساحة القرص في Windows بأمان",
+      "en": "Safe Disk Cleanup on Windows"
+    },
+    "excerpt": {
+      "ar": "خطوات بسيطة لتفريغ مساحة من غير ما تمسح ملفات مهمة.",
+      "en": "Simple steps to free space without deleting important files."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2024-01-10",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "windows",
+      "disk-cleanup"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0011",
+    "slug": "student-laptop-specs",
+    "title": {
+      "ar": "مواصفات لابتوب للطالب: ماذا يكفي فعلًا؟",
+      "en": "Student Laptop Specs: What Actually Matters?"
+    },
+    "excerpt": {
+      "ar": "RAM والتخزين والشاشة والبطارية بدون مبالغة في السعر.",
+      "en": "RAM, storage, display, and battery without overspending."
+    },
+    "categoryId": "laptops",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2024-04-17",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "laptop",
+      "students"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0012",
+    "slug": "chatgpt-study-without-harm",
+    "title": {
+      "ar": "استخدام ChatGPT في المذاكرة بدون ما يضر فهمك",
+      "en": "Using ChatGPT for Studying Without Hurting Understanding"
+    },
+    "excerpt": {
+      "ar": "كيف تطلب شرحًا وتختبر نفسك بدل نسخ الإجابات.",
+      "en": "How to request explanations and self-tests instead of copied answers."
+    },
+    "categoryId": "ai",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2024-06-24",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "chatgpt",
+      "study",
+      "ai"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0013",
+    "slug": "kaspersky-security-center-tagging",
+    "title": {
+      "ar": "تنظيم الأجهزة في Kaspersky Security Center بالـ Tags",
+      "en": "Organizing Devices in Kaspersky Security Center with Tags"
+    },
+    "excerpt": {
+      "ar": "استخدام الوسوم (Tags) لتجميع الأجهزة وتسريع تطبيق السياسات في KSC.",
+      "en": "Using tags to group devices and speed up policy application in Kaspersky Security Center."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2024-09-04",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "kaspersky",
+      "endpoint",
+      "security-center"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0014",
+    "slug": "rdp-multi-user-rds-licensing",
+    "title": {
+      "ar": "تفعيل RDP متعدد المستخدمين وترخيص RDS بشكل صحيح",
+      "en": "Enabling Multi-User RDP and Licensing RDS Correctly"
+    },
+    "excerpt": {
+      "ar": "الفرق بين RDP العادي وRDS، وخطوات تفعيل الترخيص لتفادي انقطاع الجلسات.",
+      "en": "The difference between plain RDP and RDS, and how to license it properly."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "vpn-remote",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2024-12-11",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "rdp",
+      "rds",
+      "windows-server",
+      "licensing"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0015",
+    "slug": "windows-server-evaluation-to-standard",
+    "title": {
+      "ar": "تحويل Windows Server من Evaluation إلى Standard بدون إعادة تثبيت",
+      "en": "Converting Windows Server from Evaluation to Standard Without Reinstalling"
+    },
+    "excerpt": {
+      "ar": "أمر DISM اللي بيحوّل الإصدار التجريبي لمرخّص من غير ما تخسر الإعدادات.",
+      "en": "The DISM command that converts the trial edition to a licensed one without losing configuration."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-02-18",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "windows-server",
+      "dism",
+      "licensing"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0016",
+    "slug": "dns-reverse-lookup-zone-setup",
+    "title": {
+      "ar": "إعداد منطقة DNS العكسية (Reverse Lookup Zone) خطوة بخطوة",
+      "en": "Setting Up a DNS Reverse Lookup Zone Step by Step"
+    },
+    "excerpt": {
+      "ar": "ليه محتاج PTR records وإزاي تنشئها صح في بيئة Active Directory.",
+      "en": "Why you need PTR records and how to create them in an Active Directory environment."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-05-25",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "dns",
+      "active-directory",
+      "networking"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0017",
+    "slug": "group-policy-basics-for-sysadmins",
+    "title": {
+      "ar": "أساسيات Group Policy لمدير النظام الجديد",
+      "en": "Group Policy Basics for New Sysadmins"
+    },
+    "excerpt": {
+      "ar": "ترتيب تطبيق السياسات (LSDOU) وأشهر الأخطاء اللي بتسبب سلوك غير متوقع.",
+      "en": "Policy application order (LSDOU) and the common mistakes that cause unexpected behavior."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-08-05",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "group-policy",
+      "active-directory",
+      "windows-server"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0018",
+    "slug": "backup-3-2-1-rule-practical",
+    "title": {
+      "ar": "قاعدة النسخ الاحتياطي 3-2-1 بشكل عملي",
+      "en": "The 3-2-1 Backup Rule, Practically Applied"
+    },
+    "excerpt": {
+      "ar": "3 نسخ، وسيطين مختلفين، ونسخة واحدة خارج الموقع.",
+      "en": "3 copies, 2 media types, 1 offsite copy -- applied on a limited budget."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-10-12",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "backup",
+      "disaster-recovery",
+      "storage"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0019",
+    "slug": "zero-trust-explained-practically",
+    "title": {
+      "ar": "Zero Trust بدون تعقيد: إيه هو فعليًا وإزاي تبدأ",
+      "en": "Zero Trust Without the Jargon: What It Actually Is and Where to Start"
+    },
+    "excerpt": {
+      "ar": "المبدأ الأساسي وثلاث خطوات بداية واقعية.",
+      "en": "The core principle and three realistic first steps."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-19",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "zero-trust",
+      "security",
+      "network-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0020",
+    "slug": "email-security-gateway-basics",
+    "title": {
+      "ar": "بوابة أمان البريد الإلكتروني: إيه اللي بتحميه فعليًا",
+      "en": "Email Security Gateways: What They Actually Protect Against"
+    },
+    "excerpt": {
+      "ar": "الفرق بين فلترة السبام العادية وبوابة أمان بريد حقيقية.",
+      "en": "The difference between basic spam filtering and a real email security gateway."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-26",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "email-security",
+      "forcepoint",
+      "phishing"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  }
+]
