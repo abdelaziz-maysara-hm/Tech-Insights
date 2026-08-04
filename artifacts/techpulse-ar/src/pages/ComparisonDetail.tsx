@@ -1,5 +1,5 @@
 import { useParams } from 'wouter';
-import { mockComparisons } from '@/data/mockData';
+import { cmsComparisons } from '@/data/comparisons';
 import { useLanguage } from '@/context/LanguageContext';
 import { Crown } from 'lucide-react';
 import { useSEO } from '@/hooks/useSEO';
@@ -8,7 +8,7 @@ export default function ComparisonDetail() {
   const { slug } = useParams();
   const { language, t } = useLanguage();
   
-  const comp = mockComparisons.find(c => c.slug === slug);
+  const comp = cmsComparisons.find(c => c.slug === slug);
   
   useSEO(comp ? { title: comp.title[language], description: comp.excerpt[language] } : {});
 

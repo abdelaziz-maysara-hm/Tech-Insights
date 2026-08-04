@@ -26,6 +26,16 @@ export interface Article {
   isTrending?: boolean;
 }
 
+/**
+ * Article without the (potentially large, markdown) `body` field. Used by
+ * listing/browsing pages that only ever render title/excerpt/metadata --
+ * they should import articles-index.json via useAllArticles(), not the
+ * full articles.json, so the body text of every article isn't shipped to
+ * every page. Only a page that actually renders one full article's body
+ * (ArticleDetail) needs the full Article type.
+ */
+export type ArticleListItem = Omit<Article, 'body'>;
+
 export interface DeviceSpec {
   label: BilingualText;
   device1Value: BilingualText;

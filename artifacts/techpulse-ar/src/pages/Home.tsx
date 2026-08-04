@@ -21,19 +21,47 @@ export default function Home() {
 
   return (
     <div className="min-h-screen pb-20">
+      <section className="container mx-auto px-4 pt-10 pb-8 text-center">
+        <h1 className="text-3xl md:text-5xl font-extrabold mb-4">
+          {language === 'ar' ? 'رؤى تقنية' : 'Technical Insights'}
+        </h1>
+        <p className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto">
+          {t('aboutText')}
+        </p>
+      </section>
+
       <section className="container mx-auto px-4 pt-6 pb-12">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
           <div className="lg:col-span-8">
-            {featuredArticle && <ArticleCard article={featuredArticle} featured={true} className="h-full" />}
+            {featuredArticle && <ArticleCard article={featuredArticle} featured={true} />}
           </div>
           <div className="lg:col-span-4 flex flex-col gap-6">
             <div className="flex items-center gap-2 mb-2">
               <span className="w-2 h-8 bg-secondary rounded-full inline-block"></span>
               <h2 className="text-2xl font-bold">{t('trending')}</h2>
             </div>
-            {trendingArticles.map(article => (
-              <ArticleCard key={article.id} article={article} />
-            ))}
+            <div className="flex flex-col gap-1">
+              {trendingArticles.map((article, index) => (
+                <Link
+                  key={article.id}
+                  href={`/article/${article.slug}`}
+                  className="group flex items-center gap-3 py-3 border-b border-border last:border-0 hover:bg-muted/30 rounded-lg px-2 -mx-2 transition-colors"
+                >
+                  <span className="text-2xl font-black text-muted-foreground/40 w-6 text-center shrink-0">
+                    {index + 1}
+                  </span>
+                  <img
+                    src={article.heroImage}
+                    alt={article.title[language]}
+                    className="w-16 h-16 rounded-lg object-cover shrink-0"
+                    loading="lazy"
+                  />
+                  <h3 className="font-semibold text-sm leading-snug line-clamp-2 group-hover:text-primary transition-colors">
+                    {article.title[language]}
+                  </h3>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </section>

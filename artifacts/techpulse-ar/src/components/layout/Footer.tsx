@@ -1,6 +1,6 @@
 import { Link } from 'wouter';
 import { useLanguage } from '@/context/LanguageContext';
-import { Twitter, Facebook, Instagram, Youtube, ArrowUp, Settings } from 'lucide-react';
+import { Twitter, Facebook, Instagram, Youtube, ArrowUp } from 'lucide-react';
 import pagesJson from '@/content/pages.json';
 import { CmsPage } from '@/data/cmsTypes';
 
@@ -93,9 +93,6 @@ export function Footer() {
             © {new Date().getFullYear()} {language === 'ar' ? 'رؤى تقنية' : 'Technical Insights'}. {language === 'ar' ? 'جميع الحقوق محفوظة.' : 'All rights reserved.'}
           </p>
           <div className="flex items-center gap-4">
-            <Link href="/admin" className="text-muted-foreground hover:text-primary transition-colors" title="Admin">
-              <Settings className="h-4 w-4" />
-            </Link>
             <button onClick={scrollToTop} className="bg-muted p-2 rounded-full text-muted-foreground hover:text-primary hover:bg-muted/80 transition-colors">
               <ArrowUp className="h-4 w-4" />
             </button>

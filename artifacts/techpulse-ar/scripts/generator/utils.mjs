@@ -40,6 +40,21 @@ export async function writeJson(name, data, { live = false } = {}) {
   return { path, bytes: Buffer.byteLength(body, 'utf8'), count: Array.isArray(data) ? data.length : 1 };
 }
 
+/**
+ * Writes a lightweight sibling index (same items, minus `omitFields`) next to
+ * the full content file. Listing/browsing pages should import the index --
+ * only a page rendering one full item (e.g. an article detail page) should
+ * ever need the full file with heavy fields like `body` included.
+ */
+export async function writeJsonIndex(name, data, omitFields, { live = false } = {}) {
+  const stripped = data.map((item) => {
+    const copy = { ...item };
+    for (const field of omitFields) delete copy[field];
+    return copy;
+  });
+  return writeJson(name, stripped, { live });
+}
+
 export function pick(arr, i) {
   return arr[i % arr.length];
 }

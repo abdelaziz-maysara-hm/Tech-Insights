@@ -1,6 +1,6 @@
 [
   {
-    "id": "art-real-001",
+    "id": "art-gen-0001",
     "slug": "2fa-practical-guide",
     "title": {
       "ar": "المصادقة الثنائية (2FA): دليل عملي لحماية حساباتك",
@@ -23,18 +23,19 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2026-07-01",
+    "date": "2022-01-01",
     "readTime": 5,
-    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "2fa",
-      "security"
+      "security",
+      "mfa"
     ],
-    "isFeatured": true,
-    "isTrending": true
+    "isFeatured": false,
+    "isTrending": false
   },
   {
-    "id": "art-real-002",
+    "id": "art-gen-0002",
     "slug": "phishing-spot-before-click",
     "title": {
       "ar": "التصيد الاحتيالي: كيف تكتشفه قبل ما تضغط",
@@ -57,18 +58,19 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2026-07-03",
+    "date": "2022-03-08",
     "readTime": 4,
-    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "phishing",
+      "email",
       "security"
     ],
-    "isFeatured": true,
+    "isFeatured": false,
     "isTrending": false
   },
   {
-    "id": "art-real-003",
+    "id": "art-gen-0003",
     "slug": "palo-alto-security-policy-basics",
     "title": {
       "ar": "أساسيات Security Policy في Palo Alto — من أين تبدأ؟",
@@ -91,18 +93,19 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2026-07-05",
+    "date": "2022-06-15",
     "readTime": 6,
-    "heroImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&h=450&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "palo-alto",
-      "ngfw"
+      "ngfw",
+      "security-policy"
     ],
-    "isFeatured": true,
-    "isTrending": true
+    "isFeatured": false,
+    "isTrending": false
   },
   {
-    "id": "art-real-004",
+    "id": "art-gen-0004",
     "slug": "forcepoint-ssl-vpn-radius",
     "title": {
       "ar": "إعداد Forcepoint SSL VPN مع RADIUS — خطوات وأشهر الأخطاء",
@@ -125,19 +128,19 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2026-07-07",
+    "date": "2022-09-22",
     "readTime": 7,
-    "heroImage": "https://images.unsplash.com/photo-1544197150-b99a41cbe1b2?auto=format&fit=crop&w=800&h=450&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "forcepoint",
-      "radius",
-      "ssl-vpn"
+      "ssl-vpn",
+      "radius"
     ],
-    "isFeatured": true,
-    "isTrending": true
+    "isFeatured": false,
+    "isTrending": false
   },
   {
-    "id": "art-real-005",
+    "id": "art-gen-0005",
     "slug": "fortigate-ssl-vpn-checklist",
     "title": {
       "ar": "إعداد FortiGate SSL VPN بسرعة — checklist عملي",
@@ -160,18 +163,19 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2026-07-11",
+    "date": "2022-11-02",
     "readTime": 5,
-    "heroImage": "https://images.unsplash.com/photo-1551808525-51a94da548ce?auto=format&fit=crop&w=800&h=450&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "fortinet",
+      "fortigate",
       "ssl-vpn"
     ],
     "isFeatured": false,
-    "isTrending": true
+    "isTrending": false
   },
   {
-    "id": "art-real-006",
+    "id": "art-gen-0006",
     "slug": "password-manager-start",
     "title": {
       "ar": "مدير كلمات المرور: ليه تحتاجه وإزاي تبدأ",
@@ -194,15 +198,16 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2026-07-09",
+    "date": "2023-02-09",
     "readTime": 4,
-    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "passwords",
-      "security"
+      "security",
+      "tools"
     ],
     "isFeatured": false,
-    "isTrending": true
+    "isTrending": false
   },
   {
     "id": "art-gen-0007",
@@ -228,9 +233,9 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2024-04-16",
+    "date": "2023-05-16",
     "readTime": 5,
-    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "active-directory",
       "powershell"
@@ -262,7 +267,7 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2024-08-23",
+    "date": "2023-07-23",
     "readTime": 4,
     "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
@@ -297,9 +302,9 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2024-12-03",
+    "date": "2023-10-03",
     "readTime": 4,
-    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "vpn",
       "privacy"
@@ -331,7 +336,7 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2025-05-10",
+    "date": "2024-01-10",
     "readTime": 4,
     "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
@@ -365,9 +370,9 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2025-09-17",
+    "date": "2024-04-17",
     "readTime": 4,
-    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "laptop",
       "students"
@@ -399,13 +404,2188 @@
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
-    "date": "2026-02-24",
+    "date": "2024-06-24",
     "readTime": 3,
-    "heroImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&h=450&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "chatgpt",
       "study",
       "ai"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0013",
+    "slug": "kaspersky-security-center-tagging",
+    "title": {
+      "ar": "تنظيم الأجهزة في Kaspersky Security Center بالـ Tags",
+      "en": "Organizing Devices in Kaspersky Security Center with Tags"
+    },
+    "excerpt": {
+      "ar": "استخدام الوسوم (Tags) لتجميع الأجهزة وتسريع تطبيق السياسات في KSC.",
+      "en": "Using tags to group devices and speed up policy application in Kaspersky Security Center."
+    },
+    "body": {
+      "ar": "## ليه تحتاج Tags؟\n\nفي بيئة فيها مئات الأجهزة، تطبيق سياسة واحدة يدويًا على كل جهاز مضيعة وقت. الوسوم بتخليك تجمّع الأجهزة منطقيًا وتطبّق سياسات كمجموعة.\n\n## خطوات عملية\n\n1. من Devices، اختر جهاز أو أكثر وأضف Tag واضح.\n2. أنشئ Administration Group أو استخدم Tag كفلتر.\n3. اربط سياسة الحماية بمجموعة الوسم بدل كل جهاز لوحده.\n4. راجع تقرير الأجهزة غير المصنّفة دوريًا.\n\n## الخلاصة\n\nوسوم واضحة ومتسقة من أول يوم توفر وقت إدارة حقيقي.",
+      "en": "## Why tags?\n\nManually applying one policy per device doesn't scale. Tags let you group devices logically and apply policies as a group.\n\n## Practical steps\n\nAdd a clear tag per device, build a group or filter by tag, attach policy to the tag group, and review untagged devices regularly.\n\n## Bottom line\n\nConsistent tagging from day one saves real admin time."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2024-09-04",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "kaspersky",
+      "endpoint",
+      "security-center"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0014",
+    "slug": "rdp-multi-user-rds-licensing",
+    "title": {
+      "ar": "تفعيل RDP متعدد المستخدمين وترخيص RDS بشكل صحيح",
+      "en": "Enabling Multi-User RDP and Licensing RDS Correctly"
+    },
+    "excerpt": {
+      "ar": "الفرق بين RDP العادي وRDS، وخطوات تفعيل الترخيص لتفادي انقطاع الجلسات.",
+      "en": "The difference between plain RDP and RDS, and how to license it properly."
+    },
+    "body": {
+      "ar": "## المشكلة الشائعة\n\nWindows Server بيسمح بجلسة RDP إدارية أو اتنين مجانًا. لو محتاج عدة مستخدمين، لازم دور RDS مرخّص.\n\n## خطوات الإعداد\n\n1. أضف دور Remote Desktop Services من Server Manager.\n2. فعّل الترخيص من RD Licensing Manager على نطاق الدومين.\n3. حدد نوع التراخيص (Per User أو Per Device).\n4. اربط الترخيص بالسيرفر خلال أول 120 يومًا.\n\n## الخلاصة\n\nRDS مش RDP عادي — لازم دور وترخيص منفصلين من أول يوم.",
+      "en": "## The common problem\n\nWindows Server allows a couple of free admin RDP sessions. For multiple concurrent users you need the licensed RDS role.\n\n## Setup steps\n\nAdd the RDS role, activate licensing domain-wide, choose Per User or Per Device, and license within the 120-day grace period.\n\n## Bottom line\n\nRDS needs its own role and licensing from day one."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "vpn-remote",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2024-12-11",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "rdp",
+      "rds",
+      "windows-server",
+      "licensing"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0015",
+    "slug": "windows-server-evaluation-to-standard",
+    "title": {
+      "ar": "تحويل Windows Server من Evaluation إلى Standard بدون إعادة تثبيت",
+      "en": "Converting Windows Server from Evaluation to Standard Without Reinstalling"
+    },
+    "excerpt": {
+      "ar": "أمر DISM اللي بيحوّل الإصدار التجريبي لمرخّص من غير ما تخسر الإعدادات.",
+      "en": "The DISM command that converts the trial edition to a licensed one without losing configuration."
+    },
+    "body": {
+      "ar": "## المشكلة\n\nنسخة Evaluation بتنتهي بعد 180 يوم، وإعادة التثبيت بتضيّع الإعدادات.\n\n## الخطوات\n\n1. تأكد من الإصدار الحالي: DISM /online /Get-CurrentEdition\n2. شغّل: DISM /online /Set-Edition:ServerStandard مع مفتاح صالح.\n3. السيرفر هيعمل إعادة تشغيل تلقائي — خطط له بره وقت العمل.\n4. تأكد من التفعيل بعدها: slmgr /dlv\n\n## الخلاصة\n\nDISM يوفر إعادة تثبيت كاملة، بس لازم مفتاح صحيح ونافذة صيانة.",
+      "en": "## The problem\n\nEvaluation installs expire after 180 days, and reinstalling wipes configuration.\n\n## Steps\n\nCheck the current edition, run DISM /Set-Edition with a valid key, expect an automatic reboot, and verify activation with slmgr /dlv.\n\n## Bottom line\n\nDISM saves a full reinstall, but needs a valid key and planned maintenance window."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-02-18",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "windows-server",
+      "dism",
+      "licensing"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0016",
+    "slug": "dns-reverse-lookup-zone-setup",
+    "title": {
+      "ar": "إعداد منطقة DNS العكسية (Reverse Lookup Zone) خطوة بخطوة",
+      "en": "Setting Up a DNS Reverse Lookup Zone Step by Step"
+    },
+    "excerpt": {
+      "ar": "ليه محتاج PTR records وإزاي تنشئها صح في بيئة Active Directory.",
+      "en": "Why you need PTR records and how to create them in an Active Directory environment."
+    },
+    "body": {
+      "ar": "## ليه محتاجها؟\n\nالمنطقة الأمامية بتحوّل اسم لعنوان IP. العكسية بتعمل العكس، وأدوات أمان وبريد كتير بتعتمد على PTR سليم.\n\n## خطوات الإنشاء\n\n1. من Reverse Lookup Zones أنشئ منطقة مطابقة لنطاق الشبكة.\n2. اختر Active Directory-Integrated لو عندك أكتر من DNS server.\n3. فعّل Dynamic Updates الآمنة.\n4. تأكد إن DHCP بيسجّل PTR تلقائيًا.\n\n## الخلاصة\n\nمنطقة عكسية سليمة + تحديث تلقائي = بيانات DNS متسقة بدون تدخل يدوي.",
+      "en": "## Why you need it\n\nForward zones resolve names to IPs; reverse zones do the opposite, and many security/email tools rely on valid PTR records.\n\n## Setup steps\n\nCreate a reverse zone matching your subnet, use AD-integrated zones, enable secure dynamic updates, and confirm DHCP registers PTR automatically.\n\n## Bottom line\n\nA correct reverse zone plus automatic updates means consistent DNS with no manual upkeep."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-05-25",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "dns",
+      "active-directory",
+      "networking"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0017",
+    "slug": "group-policy-basics-for-sysadmins",
+    "title": {
+      "ar": "أساسيات Group Policy لمدير النظام الجديد",
+      "en": "Group Policy Basics for New Sysadmins"
+    },
+    "excerpt": {
+      "ar": "ترتيب تطبيق السياسات (LSDOU) وأشهر الأخطاء اللي بتسبب سلوك غير متوقع.",
+      "en": "Policy application order (LSDOU) and the common mistakes that cause unexpected behavior."
+    },
+    "body": {
+      "ar": "## ترتيب التطبيق\n\nLocal ثم Site ثم Domain ثم OU. الأقرب للمستخدم (OU) بيفوز عادةً عند التعارض.\n\n## خطوات عملية\n\n1. أنشئ GPO منفصل لكل غرض.\n2. اربطه بأضيق OU ممكن.\n3. استخدم Security Filtering للاستثناءات.\n4. اختبر بـ gpresult /r على جهاز حقيقي.\n\n## الخلاصة\n\nGPOs صغيرة ومحددة + اختبار حقيقي = تصحيح أخطاء أسرع بكتير.",
+      "en": "## Application order\n\nLocal, Site, Domain, then OU -- the closest setting usually wins on conflict.\n\n## Core steps\n\nOne focused GPO per purpose, linked to the narrowest OU, with Security Filtering for exceptions, verified via gpresult /r.\n\n## Bottom line\n\nSmall purpose-built GPOs make troubleshooting far faster than one giant GPO."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-08-05",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "group-policy",
+      "active-directory",
+      "windows-server"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0018",
+    "slug": "backup-3-2-1-rule-practical",
+    "title": {
+      "ar": "قاعدة النسخ الاحتياطي 3-2-1 بشكل عملي",
+      "en": "The 3-2-1 Backup Rule, Practically Applied"
+    },
+    "excerpt": {
+      "ar": "3 نسخ، وسيطين مختلفين، ونسخة واحدة خارج الموقع.",
+      "en": "3 copies, 2 media types, 1 offsite copy -- applied on a limited budget."
+    },
+    "body": {
+      "ar": "## القاعدة\n\n3 نسخ من البيانات على وسيطين مختلفين، مع نسخة واحدة على الأقل خارج الموقع.\n\n## تطبيق بميزانية محدودة\n\n1. نسخة محلية يومية على NAS أو قرص خارجي.\n2. رفع أسبوعي لتخزين سحابي رخيص.\n3. اختبار استعادة شهري فعلي.\n\n## الخلاصة\n\nنسخة محلية + سحابة رخيصة + اختبار شهري كافية لمعظم الفرق الصغيرة.",
+      "en": "## The rule\n\n3 copies on 2 media types, with at least 1 copy offsite.\n\n## On a tight budget\n\nDaily local backup, weekly cloud upload, and an actual monthly restore test.\n\n## Bottom line\n\nAn untested backup is effectively no backup."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-10-12",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "backup",
+      "disaster-recovery",
+      "storage"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0019",
+    "slug": "zero-trust-explained-practically",
+    "title": {
+      "ar": "Zero Trust بدون تعقيد: إيه هو فعليًا وإزاي تبدأ",
+      "en": "Zero Trust Without the Jargon: What It Actually Is and Where to Start"
+    },
+    "excerpt": {
+      "ar": "المبدأ الأساسي وثلاث خطوات بداية واقعية.",
+      "en": "The core principle and three realistic first steps."
+    },
+    "body": {
+      "ar": "## المبدأ الأساسي\n\nوجود المستخدم جوه الشبكة مش سبب كافٍ للثقة فيه. كل طلب وصول لازم يتحقق منه.\n\n## من أين تبدأ\n\n1. فعّل 2FA على كل الحسابات الإدارية.\n2. قسّم الشبكة لأجزاء أصغر.\n3. طبّق مبدأ الصلاحية الأقل.\n\n## الخلاصة\n\n2FA وتقسيم الشبكة خطوتان واقعيتان تقدر تبدأ بيهم النهاردة.",
+      "en": "## The core principle\n\nBeing inside the network isn't reason enough to be trusted.\n\n## Where to start\n\nEnable 2FA on admin accounts, segment the network, and apply least-privilege.\n\n## Bottom line\n\n2FA and segmentation are two realistic first steps."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-19",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "zero-trust",
+      "security",
+      "network-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0020",
+    "slug": "email-security-gateway-basics",
+    "title": {
+      "ar": "بوابة أمان البريد الإلكتروني: إيه اللي بتحميه فعليًا",
+      "en": "Email Security Gateways: What They Actually Protect Against"
+    },
+    "excerpt": {
+      "ar": "الفرق بين فلترة السبام العادية وبوابة أمان بريد حقيقية.",
+      "en": "The difference between basic spam filtering and a real email security gateway."
+    },
+    "body": {
+      "ar": "## ليه الحماية المدمجة مش كافية دايمًا؟\n\nبوابات متخصصة زي Forcepoint بتضيف تحليل سلوكي للمرفقات وحماية من انتحال الهوية.\n\n## وظائف تدوّر عليها\n\n1. فحص المرفقات في Sandbox.\n2. كشف انتحال النطاقات المشابهة.\n3. تشفير تلقائي للرسائل الحساسة.\n\n## الخلاصة\n\nالحماية المدمجة بداية جيدة، مش نهاية الطريق للقطاعات الحساسة.",
+      "en": "## Why built-in protection isn't enough\n\nDedicated gateways add attachment sandboxing and impersonation detection.\n\n## Features to look for\n\nSandbox analysis, look-alike domain detection, automatic sensitive-content encryption.\n\n## Bottom line\n\nBuilt-in protection is a starting point, not the finish line."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-26",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "email-security",
+      "forcepoint",
+      "phishing"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0021",
+    "slug": "vlan-basics-why-segment",
+    "title": {
+      "ar": "أساسيات VLAN: ليه تقسّم الشبكة أصلًا؟",
+      "en": "VLAN Basics: Why Segment a Network at All?"
+    },
+    "excerpt": {
+      "ar": "الفرق بين شبكة مسطحة وشبكة مقسّمة، وخطوات إنشاء VLAN أساسي.",
+      "en": "The difference between a flat network and a segmented one, and basic VLAN setup steps."
+    },
+    "body": {
+      "ar": "## ليه التقسيم مهم؟\n\nشبكة واحدة مسطحة تعني أي جهاز مخترق يقدر يوصل لأي جهاز تاني. الـVLAN بيعزل مجموعات الأجهزة منطقيًا حتى لو على نفس السويتش الفعلي.\n\n## خطوات أساسية\n\n1. حدد الحاجة (إدارة، مستخدمين، ضيوف، أجهزة IoT) كل واحدة VLAN منفصل.\n2. أنشئ الـVLAN على السويتش وحدد رقم (VLAN ID).\n3. اضبط المنافذ Access للأجهزة النهائية وTrunk بين السويتشات.\n4. اربط كل VLAN بـsubnet منفصل على الراوتر (Inter-VLAN Routing).\n\n## أشهر الأخطاء\n\nنسيان تفعيل Trunk بين السويتشات فيوقف الاتصال، وترك كل الأجهزة على VLAN 1 الافتراضي.\n\n## الخلاصة\n\nتقسيم بسيط لـ3-4 VLANs بيقلل مساحة أي اختراق بشكل كبير.",
+      "en": "## Why segmentation matters\n\nA flat network means one compromised device can reach everything. VLANs logically isolate device groups even on the same physical switch.\n\n## Basic steps\n\nIdentify groups (admin, users, guests, IoT), create a VLAN per group, set access/trunk ports correctly, and route between VLANs.\n\n## Bottom line\n\nEven 3-4 basic VLANs meaningfully shrink the blast radius of any single breach."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-03-06",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "vlan",
+      "networking",
+      "segmentation"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0022",
+    "slug": "snmp-monitoring-basics",
+    "title": {
+      "ar": "أساسيات مراقبة الشبكة بـ SNMP",
+      "en": "Network Monitoring Basics with SNMP"
+    },
+    "excerpt": {
+      "ar": "إزاي تراقب حالة الأجهزة والسويتشات من غير ما تدخل كل واحد يدويًا.",
+      "en": "How to monitor device and switch health without logging into each one manually."
+    },
+    "body": {
+      "ar": "## الفكرة\n\nSNMP بروتوكول بيخلي أداة مراقبة مركزية تسأل كل الأجهزة عن حالتها (استخدام المعالج، الذاكرة، حالة المنافذ) من مكان واحد.\n\n## خطوات أساسية\n\n1. فعّل SNMP على الجهاز وحدد Community String (أو v3 مع مصادقة أقوى).\n2. قيّد الوصول لـIP أداة المراقبة بس، مش أي حد.\n3. اربط الجهاز بأداة زي Zabbix أو PRTG أو Nagios.\n4. اضبط تنبيهات (Alerts) لحالات زي امتلاء المساحة أو ارتفاع المعالج.\n\n## أشهر الخطأ\n\nاستخدام SNMP v1/v2 (بدون تشفير حقيقي) على شبكة غير موثوقة — لو ممكن استخدم v3.\n\n## الخلاصة\n\nSNMP + أداة مراقبة مركزية يوفر وقت اكتشاف المشاكل بدل ما تكتشفها من شكوى مستخدم.",
+      "en": "## The idea\n\nSNMP lets a central monitoring tool query every device's health (CPU, memory, port status) from one place instead of logging into each individually.\n\n## Basic steps\n\nEnable SNMP with a community string (or v3 for stronger auth), restrict access to the monitoring tool's IP only, connect a tool like Zabbix or PRTG, and set alerts for disk/CPU thresholds.\n\n## Bottom line\n\nSNMP plus central monitoring means you find problems before a user complaint does."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-05-13",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "snmp",
+      "monitoring",
+      "networking"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0023",
+    "slug": "802-1x-certificate-authentication",
+    "title": {
+      "ar": "المصادقة بالشهادات عبر 802.1X: نظرة عملية",
+      "en": "Certificate-Based Authentication with 802.1X: A Practical Look"
+    },
+    "excerpt": {
+      "ar": "إزاي تمنع أي جهاز غريب من الاتصال بالشبكة السلكية أو اللاسلكية من غير إذن.",
+      "en": "How to stop any unauthorized device from joining your wired or wireless network."
+    },
+    "body": {
+      "ar": "## المشكلة اللي بيحلها\n\nكلمة مرور الواي فاي وحدها مش كافية — أي حد عنده الباسورد يقدر يتصل. 802.1X بيتطلب هوية حقيقية (شهادة أو حساب) قبل ما يدّي الجهاز وصول فعلي للشبكة.\n\n## المكونات الأساسية\n\n1. Supplicant: الجهاز اللي عايز يتصل.\n2. Authenticator: السويتش أو نقطة الوصول.\n3. Authentication Server: عادة RADIUS (زي NPS أو FreeRADIUS) بيتأكد من الهوية.\n\n## خطوات عملية مبسطة\n\n1. جهّز خادم RADIUS وربطه بـActive Directory أو شهادات.\n2. فعّل 802.1X على منافذ السويتش أو نقاط الوصول.\n3. وزّع الشهادات على الأجهزة المعتمدة (عبر Group Policy مثلًا).\n\n## الخلاصة\n\n802.1X بيحوّل \"مين عنده الباسورد\" لـ\"مين هويته متأكد منها\" — فرق جوهري في الأمان.",
+      "en": "## The problem it solves\n\nA Wi-Fi password alone isn't enough -- anyone with it can connect. 802.1X requires real identity (a certificate or account) before granting actual network access.\n\n## Core components\n\nSupplicant (the connecting device), Authenticator (switch/access point), and a RADIUS Authentication Server verifying identity.\n\n## Bottom line\n\n802.1X shifts the question from 'who has the password' to 'whose identity is verified' -- a fundamentally stronger security model."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-07-20",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1559163330-c30bac8c5031?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "802.1x",
+      "radius",
+      "authentication"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0024",
+    "slug": "log-retention-siem-basics",
+    "title": {
+      "ar": "الاحتفاظ بالسجلات (Log Retention): كام يوم كفاية فعلًا؟",
+      "en": "Log Retention: How Long Is Actually Enough?"
+    },
+    "excerpt": {
+      "ar": "التوازن بين تكلفة التخزين ومتطلبات التحقيق الأمني والامتثال.",
+      "en": "Balancing storage cost against real security-investigation and compliance needs."
+    },
+    "body": {
+      "ar": "## ليه المدة مهمة\n\nاحتفاظ قصير جدًا يعني لو حصل اختراق ماكتشفتوش إلا بعد شهرين، مفيش سجلات ترجع لبداية الحادثة. احتفاظ طويل جدًا يعني تكلفة تخزين عالية بلا داعي.\n\n## مدد شائعة كنقطة بداية\n\n- سجلات أمنية حساسة (Firewall, VPN, AD): 90-180 يوم على الأقل.\n- متطلبات امتثال معينة (مالي، حكومي): قد تصل لسنة أو أكتر حسب اللائحة.\n- سجلات عادية أقل حساسية: 30-90 يوم كافية غالبًا.\n\n## نصيحة عملية\n\nخزّن السجلات المهمة على مرحلتين: تخزين سريع للوصول (30-90 يوم) وتخزين أرشيفي أرخص للباقي.\n\n## الخلاصة\n\nحدد المدة حسب نوع السجل ومتطلبات القطاع، مش رقم عشوائي واحد لكل حاجة.",
+      "en": "## Why duration matters\n\nToo-short retention means no logs left if a breach is discovered months later. Too-long retention means unnecessary storage cost.\n\n## Common starting points\n\nSensitive security logs (firewall, VPN, AD): at least 90-180 days. Regulated sectors may require a year or more. Less sensitive logs: often 30-90 days is enough.\n\n## Bottom line\n\nSet retention per log type and sector requirement, not one arbitrary number for everything."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-09-27",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "siem",
+      "logging",
+      "compliance"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0025",
+    "slug": "windows-patch-management-strategy",
+    "title": {
+      "ar": "استراتيجية تحديث الأنظمة (Patch Management) لبيئة صغيرة",
+      "en": "A Patch Management Strategy for a Small Environment"
+    },
+    "excerpt": {
+      "ar": "إزاي توازن بين الأمان (تحديث بسرعة) والاستقرار (متكسرش حاجة) من غير أداة مؤسسية ضخمة.",
+      "en": "Balancing security (patch fast) against stability (don't break anything) without a huge enterprise tool."
+    },
+    "body": {
+      "ar": "## المشكلة\n\nتحديث فوري بدون اختبار ممكن يكسر تطبيق مهم. تأجيل التحديث بيسيب ثغرات مفتوحة لفترة أطول.\n\n## استراتيجية عملية بسيطة\n\n1. قسّم الأجهزة لمجموعتين: اختبار (Ring 1) وإنتاج (Ring 2).\n2. طبّق التحديثات على Ring 1 الأول، استنى 3-5 أيام.\n3. لو مفيش مشاكل، طبّق على الباقي.\n4. حدد نافذة صيانة أسبوعية ثابتة للتحديثات العادية.\n5. التحديثات الحرجة (Zero-day) استثناء — تتطبق فورًا بعد اختبار سريع.\n\n## أدوات مناسبة لبيئة صغيرة\n\nWSUS مجاني ومتاح لو أصلًا على Windows Server، أو أدوات SaaS أرخص لو مفيش سيرفر.\n\n## الخلاصة\n\nمجموعتين بس (اختبار وإنتاج) بيقللوا الخطر من غير تعقيد إدارة كبير.",
+      "en": "## The problem\n\nPatching immediately without testing can break something important. Delaying leaves vulnerabilities open longer.\n\n## A simple practical strategy\n\nSplit machines into a test ring and a production ring, patch the test ring first, wait a few days, then roll out. Critical zero-days are the exception -- patch fast after a quick check.\n\n## Bottom line\n\nJust two rings meaningfully reduce risk without heavy management overhead."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-11-07",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "patch-management",
+      "windows-server",
+      "wsus"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0026",
+    "slug": "dhcp-failover-high-availability",
+    "title": {
+      "ar": "إعداد DHCP Failover لضمان استمرارية الشبكة",
+      "en": "Setting Up DHCP Failover for Network Continuity"
+    },
+    "excerpt": {
+      "ar": "ليه سيرفر DHCP واحد نقطة فشل خطيرة، وإزاي تعمل نسخة احتياطية تعمل تلقائيًا.",
+      "en": "Why a single DHCP server is a dangerous single point of failure, and how to set up automatic failover."
+    },
+    "body": {
+      "ar": "## المشكلة\n\nلو سيرفر الـDHCP الوحيد وقع، أي جهاز جديد أو انتهت صلاحية عنوانه IP هيفقد الاتصال بالشبكة بالكامل.\n\n## الحل: DHCP Failover\n\n1. جهّز سيرفرين Windows Server يقدروا يوصلوا لبعض.\n2. من DHCP Console، أنشئ علاقة Failover على الـscope المطلوب.\n3. اختر الوضع: Load Balance (الاتنين شغالين مع بعض) أو Hot Standby (واحد احتياطي).\n4. تأكد من التزامن بين السيرفرين بعد الإعداد.\n\n## نصيحة\n\nHot Standby أبسط للبيئات الصغيرة، Load Balance أفضل لو عندك حمل كبير من الطلبات.\n\n## الخلاصة\n\nDHCP Failover إعداد بسيط نسبيًا بيمنع مشكلة كبيرة (توقف الشبكة بالكامل) بسبب سيرفر واحد.",
+      "en": "## The problem\n\nIf your only DHCP server goes down, any new or expiring device loses network connectivity entirely.\n\n## The fix: DHCP Failover\n\nSet up two Windows Servers that can reach each other, create a Failover relationship on the scope from the DHCP console, and choose Load Balance or Hot Standby mode.\n\n## Bottom line\n\nA relatively simple setup that prevents a single server from taking down the whole network."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-14",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "dhcp",
+      "windows-server",
+      "high-availability"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0027",
+    "slug": "syslog-server-setup-basics",
+    "title": {
+      "ar": "إعداد خادم Syslog مركزي: من أين تبدأ؟",
+      "en": "Setting Up a Central Syslog Server: Where to Start?"
+    },
+    "excerpt": {
+      "ar": "تجميع سجلات كل الأجهزة (جدران حماية، سويتشات) في مكان واحد قابل للبحث.",
+      "en": "Collecting logs from every device (firewalls, switches) into one searchable place."
+    },
+    "body": {
+      "ar": "## ليه محتاجه\n\nكل جهاز بيسجّل أحداثه محليًا، لكن لو الجهاز اتخترق أو وقع، السجلات المحلية ممكن تضيع أو تتعدل. سيرفر Syslog مركزي بياخد نسخة فورية بره الجهاز نفسه.\n\n## خطوات أساسية\n\n1. اختر أداة (rsyslog مجاني على Linux، أو أدوات SIEM أوسع زي Wazuh).\n2. فعّل إرسال Syslog على كل جهاز (Firewall, Switch, Server) لعنوان السيرفر المركزي.\n3. رتّب السجلات في مجلدات حسب المصدر والتاريخ.\n4. اعمل تنبيهات أساسية على أنماط مشبوهة (محاولات دخول فاشلة متكررة مثلًا).\n\n## الخلاصة\n\nسيرفر Syslog مركزي بسيط هو أول خطوة حقيقية قبل أي حل SIEM متقدم.",
+      "en": "## Why you need it\n\nEach device logs locally, but if it's compromised or goes down, local logs can be lost or altered. A central syslog server keeps an off-device copy in real time.\n\n## Basic steps\n\nPick a tool (rsyslog is free on Linux, or a broader SIEM like Wazuh), point every device's syslog output at it, organize by source and date, and set basic alerts for suspicious patterns.\n\n## Bottom line\n\nA simple central syslog server is the real first step before any advanced SIEM setup."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-21",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "syslog",
+      "logging",
+      "monitoring"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0028",
+    "slug": "network-segmentation-compliance",
+    "title": {
+      "ar": "تقسيم الشبكة لأغراض الامتثال: نظرة عملية مبسطة",
+      "en": "Network Segmentation for Compliance: A Simplified Practical View"
+    },
+    "excerpt": {
+      "ar": "ليه لوائح زي PCI-DSS بتطلب عزل الأنظمة الحساسة، وإزاي تبدأ عمليًا.",
+      "en": "Why regulations like PCI-DSS require isolating sensitive systems, and how to start practically."
+    },
+    "body": {
+      "ar": "## الفكرة الأساسية\n\nكل ما قللت عدد الأنظمة اللي ليها وصول مباشر لبيانات حساسة (زي بيانات الدفع)، كل ما قل نطاق المراجعة والمخاطر.\n\n## خطوات عملية\n\n1. حدد بالظبط مين محتاج يوصل للبيانات الحساسة فعليًا (مش الكل).\n2. اعزل الأنظمة دي في VLAN أو subnet منفصل.\n3. حط جدار حماية بين الشبكة المعزولة والباقي، بقواعد ضيقة جدًا.\n4. راجع القواعد دوريًا — أي وصول زيادة عن الحاجة الفعلية يتشال.\n\n## فايدة عملية إضافية\n\nتقليل نطاق المراجعة (Audit Scope) بيوفر وقت وتكلفة حقيقية وقت أي تدقيق امتثال.\n\n## الخلاصة\n\nالعزل مش بس متطلب امتثال — هو تقليل حقيقي لمساحة أي اختراق محتمل.",
+      "en": "## The core idea\n\nThe fewer systems with direct access to sensitive data (like payment data), the smaller the audit scope and risk surface.\n\n## Practical steps\n\nIdentify exactly who genuinely needs access, isolate those systems in their own VLAN/subnet, put a tightly-ruled firewall between that segment and everything else, and review rules regularly.\n\n## Bottom line\n\nSegmentation isn't just a compliance checkbox -- it's a real reduction in breach blast radius."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-01",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "compliance",
+      "segmentation",
+      "pci-dss"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0029",
+    "slug": "hyper-v-vs-checkpoints-basics",
+    "title": {
+      "ar": "استخدام Checkpoints في Hyper-V بأمان",
+      "en": "Using Hyper-V Checkpoints Safely"
+    },
+    "excerpt": {
+      "ar": "الفرق بين Checkpoint ونسخة احتياطية حقيقية، ومتى تستخدم كل واحدة.",
+      "en": "The difference between a checkpoint and a real backup, and when to use each."
+    },
+    "body": {
+      "ar": "## خطأ شائع\n\nكتير من مديري الأنظمة بيستخدموا Checkpoints كبديل عن نسخ احتياطي حقيقي — ده خطأ، لأن الـCheckpoint مرتبط بنفس السيرفر ومش محمي من فشل القرص نفسه.\n\n## متى تستخدمها صح\n\n1. قبل تحديث أو تغيير كبير على السيرفر الافتراضي (اختبار سريع قابل للتراجع).\n2. لفترة قصيرة جدًا، مش تسيبها أسابيع.\n3. مش بديل عن نسخة احتياطية فعلية على وسيط منفصل.\n\n## أشهر الخطأ\n\nتراكم Checkpoints كتير على نفس الجهاز الافتراضي بيبطّئ الأداء بشكل ملحوظ ويستهلك مساحة تخزين كبيرة.\n\n## الخلاصة\n\nCheckpoint أداة اختبار قصيرة المدى، مش استراتيجية نسخ احتياطي — القاعدة 3-2-1 لسه هي الأساس.",
+      "en": "## A common mistake\n\nMany admins treat checkpoints as a substitute for real backups -- they're not, since a checkpoint lives on the same host and isn't protected from disk failure itself.\n\n## When to use them correctly\n\nBefore a risky change on a VM (quick, reversible test), for a short period only, never as a replacement for actual backups on separate media.\n\n## Bottom line\n\nA checkpoint is a short-term testing tool, not a backup strategy -- the 3-2-1 rule still applies."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-07-08",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "hyper-v",
+      "virtualization",
+      "backup"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0030",
+    "slug": "mfa-fatigue-attacks-explained",
+    "title": {
+      "ar": "هجمات إرهاق المصادقة الثنائية (MFA Fatigue): إزاي تحمي فريقك",
+      "en": "MFA Fatigue Attacks: How to Protect Your Team"
+    },
+    "excerpt": {
+      "ar": "لما المهاجم يقصف المستخدم بطلبات موافقة متكررة لحد ما يوافق بالغلط.",
+      "en": "When an attacker bombards a user with repeated approval prompts until they accidentally approve."
+    },
+    "body": {
+      "ar": "## إزاي الهجوم بيشتغل\n\nالمهاجم عنده كلمة المرور بالفعل (من تسريب سابق)، وبيحاول يسجّل دخول بشكل متكرر فيبعت إشعارات موافقة MFA كتير للمستخدم لحد ما يوافق من الملل أو الغلط.\n\n## طرق الحماية العملية\n\n1. استخدم Number Matching بدل الموافقة بضغطة واحدة (المستخدم لازم يدخل رقم ظاهر على الشاشة).\n2. حدد عدد محاولات المصادقة المسموحة في فترة زمنية قصيرة.\n3. درّب الموظفين: أي طلب MFA غير متوقع = بلّغ فورًا، متوافقش أبدًا.\n4. راجع سجلات محاولات MFA الفاشلة المتكررة كمؤشر مبكر.\n\n## الخلاصة\n\nMFA أقوى من كلمة مرور وحدها، لكن لازم يتظبط صح (Number Matching + تدريب) عشان مايبقاش نقطة ضعف جديدة.",
+      "en": "## How the attack works\n\nThe attacker already has the password (from a prior leak) and repeatedly triggers login attempts, spamming MFA approval prompts until the user approves out of fatigue or mistake.\n\n## Practical defenses\n\nUse number matching instead of one-tap approval, rate-limit auth attempts, train staff that any unexpected MFA prompt means report it immediately, and monitor repeated failed MFA logs.\n\n## Bottom line\n\nMFA is stronger than a password alone, but it needs to be configured correctly (number matching + training) or it becomes a new weak point."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-08-15",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1559163330-c30bac8c5031?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "mfa",
+      "phishing",
+      "identity"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0031",
+    "slug": "windows-event-viewer-security-logs",
+    "title": {
+      "ar": "قراءة سجلات الأمان في Event Viewer بذكاء",
+      "en": "Reading Windows Security Logs in Event Viewer Smartly"
+    },
+    "excerpt": {
+      "ar": "أهم Event IDs اللي لازم تنتبه لها من غير ما تغرق في آلاف السجلات.",
+      "en": "The key Event IDs worth watching, without drowning in thousands of log entries."
+    },
+    "body": {
+      "ar": "## المشكلة\n\nEvent Viewer بيسجّل آلاف الأحداث يوميًا، ومحاولة مراجعتها كلها يدويًا مستحيلة عمليًا.\n\n## Event IDs تستاهل انتباه فوري\n\n- **4625**: محاولة دخول فاشلة (لو تكررت كتير = محاولة تخمين).\n- **4720**: إنشاء حساب مستخدم جديد.\n- **4732**: إضافة مستخدم لمجموعة إدارية.\n- **4688**: إنشاء عملية جديدة (مفيد لتتبع تنفيذ برامج مشبوهة).\n- **1102**: مسح سجل الأحداث (علامة تحذير قوية جدًا لو حصلت من غير سبب واضح).\n\n## نصيحة عملية\n\nاربط السجلات دي بأداة مراقبة مركزية (SIEM) بدل المراجعة اليدوية، وحدد تنبيهات فورية على 1102 و4732 تحديدًا.\n\n## الخلاصة\n\nمعرفة 5-6 Event IDs مهمة أفضل بكتير من محاولة مراجعة كل سجل.",
+      "en": "## The problem\n\nEvent Viewer logs thousands of events daily -- manually reviewing all of them is practically impossible.\n\n## Event IDs worth immediate attention\n\n4625 (failed login), 4720 (new user account), 4732 (added to admin group), 4688 (new process created), and especially 1102 (event log cleared -- a strong red flag if unexpected).\n\n## Bottom line\n\nKnowing 5-6 key Event IDs beats trying to review every single log entry."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-09-22",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "event-viewer",
+      "windows-security",
+      "logging"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0032",
+    "slug": "wifi-6-vs-wifi-5-practical",
+    "title": {
+      "ar": "Wi-Fi 6 مقابل Wi-Fi 5: هل الترقية تستاهل فعلًا؟",
+      "en": "Wi-Fi 6 vs Wi-Fi 5: Is the Upgrade Actually Worth It?"
+    },
+    "excerpt": {
+      "ar": "الفرق الحقيقي في الأداء لما يكون عندك أجهزة كتيرة متصلة بالشبكة بنفس الوقت.",
+      "en": "The real performance difference when many devices are connected to the network simultaneously."
+    },
+    "body": {
+      "ar": "## الفرق الحقيقي مش السرعة القصوى\n\nكتير بيفتكروا Wi-Fi 6 بس \"أسرع\"، لكن الفرق الحقيقي في **كفاءة التعامل مع أجهزة كتيرة متصلة بنفس الوقت** (OFDMA) — مهم جدًا في مكاتب أو أماكن مزدحمة بالأجهزة.\n\n## متى الترقية تستاهل فعلًا\n\n1. عندك أكتر من 20-30 جهاز متصل بنفس الوقت في نفس المساحة.\n2. أجهزتك الحالية (لابتوبات، هواتف) أصلًا بتدعم Wi-Fi 6.\n3. محتاج عمر بطارية أطول للأجهزة المحمولة (Wi-Fi 6 بيوفر طاقة أكتر - Target Wake Time).\n\n## متى ممكن تأجلها\n\nلو عدد الأجهزة قليل والأجهزة الحالية مش بتدعم Wi-Fi 6 أصلًا، الفايدة العملية محدودة جدًا.\n\n## الخلاصة\n\nالترقية تستاهل في بيئة مزدحمة بالأجهزة، مش بالضرورة لكل بيت أو مكتب صغير.",
+      "en": "## The real difference isn't top speed\n\nMany think Wi-Fi 6 is just 'faster', but the real advantage is efficiency handling many simultaneously connected devices (OFDMA) -- important in busy offices or crowded spaces.\n\n## When the upgrade is worth it\n\nMore than 20-30 concurrently connected devices in one area, your current devices already support Wi-Fi 6, or you need longer mobile battery life (Target Wake Time).\n\n## Bottom line\n\nThe upgrade pays off in device-dense environments, not necessarily for every home or small office."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-11-02",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "wifi",
+      "networking",
+      "hardware"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0033",
+    "slug": "dark-web-monitoring-basics",
+    "title": {
+      "ar": "مراقبة الديب/دارك ويب لبيانات شركتك: هل تحتاجها؟",
+      "en": "Dark Web Monitoring for Your Company's Data: Do You Need It?"
+    },
+    "excerpt": {
+      "ar": "إيه اللي بتعمله خدمات مراقبة الدارك ويب فعليًا، ومتى تستاهل التكلفة.",
+      "en": "What dark web monitoring services actually do, and when the cost is worth it."
+    },
+    "body": {
+      "ar": "## إيه اللي بتراقبه فعليًا\n\nخدمات زي دي بتدوّر على نطاقات الشركة، إيميلات الموظفين، أو بيانات مسرّبة في منتديات وأسواق الدارك ويب، وبتنبهك لو لقت تطابق.\n\n## مفيش ضمان منع\n\nمهم توضيح: الخدمة دي **بتكتشف بعد التسريب**، مش بتمنعه. الفايدة إنك تعرف بسرعة بدل ما تكتشف بعد أشهر.\n\n## متى تستاهل التكلفة\n\n1. شركة عندها بيانات عملاء حساسة (مالية أو صحية).\n2. قطاع مستهدف بشكل متكرر (بنوك، حكومة).\n3. عندك بالفعل عملية استجابة سريعة لو حصل تنبيه (مفيش فايدة من التنبيه لو مفيش خطة تصرف).\n\n## الخلاصة\n\nأداة اكتشاف مبكر مفيدة، بس لازم تكون جزء من خطة استجابة أوسع، مش حل قائم بذاته.",
+      "en": "## What it actually monitors\n\nServices like this scan for company domains, employee emails, or leaked data appearing in dark web forums and marketplaces, alerting you on a match.\n\n## No guarantee of prevention\n\nImportant: this detects AFTER a leak, it doesn't prevent one. The value is finding out quickly instead of months later.\n\n## Bottom line\n\nA useful early-detection tool, but it needs to be part of a broader response plan, not a standalone solution."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-12-09",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "dark-web",
+      "threat-intelligence",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0034",
+    "slug": "ssd-vs-hdd-server-storage",
+    "title": {
+      "ar": "SSD مقابل HDD في تخزين السيرفرات: مش مجرد سرعة",
+      "en": "SSD vs HDD for Server Storage: It's Not Just About Speed"
+    },
+    "excerpt": {
+      "ar": "عوامل تانية غير السرعة لازم تاخدها في الاعتبار وقت اختيار تخزين السيرفر.",
+      "en": "Factors beyond speed you should weigh when choosing server storage."
+    },
+    "body": {
+      "ar": "## أكتر من مجرد السرعة\n\nSSD أسرع طبعًا، لكن القرار الصح بيعتمد على عوامل تانية كمان.\n\n## عوامل تستاهل الاهتمام\n\n1. **التكلفة لكل جيجابايت**: HDD لسه أرخص بكتير للتخزين الضخم (أرشيف، نسخ احتياطي).\n2. **الموثوقية طويلة المدى**: SSD مفيهوش أجزاء متحركة، أقل عرضة للفشل الميكانيكي.\n3. **الاستخدام الفعلي**: قواعد بيانات وأنظمة تشغيل تستفيد جدًا من SSD، أرشيف بارد ملوش داعي.\n\n## استراتيجية عملية شائعة\n\nSSD للنظام والتطبيقات النشطة، HDD للأرشيف والنسخ الاحتياطي طويل المدى — مش لازم تختار واحد بس لكل حاجة.\n\n## الخلاصة\n\nالسؤال مش \"SSD ولا HDD\" بس، السؤال \"إيه البيانات دي وإزاي بتتستخدم فعليًا\".",
+      "en": "## More than just speed\n\nSSD is faster, sure, but the right choice depends on other factors too.\n\n## Factors worth weighing\n\nCost per gigabyte (HDD is still much cheaper for bulk archive/backup storage), long-term reliability (SSDs have no moving parts, less prone to mechanical failure), and actual usage pattern (databases and OS benefit hugely from SSD, cold archives don't need it).\n\n## Bottom line\n\nThe question isn't just 'SSD or HDD' -- it's 'what is this data and how is it actually used'."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-02-16",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "storage",
+      "ssd",
+      "server-hardware"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0035",
+    "slug": "least-privilege-principle-practical",
+    "title": {
+      "ar": "مبدأ أقل الصلاحيات (Least Privilege): تطبيق عملي بدون فوضى",
+      "en": "The Least Privilege Principle: A Practical Rollout Without Chaos"
+    },
+    "excerpt": {
+      "ar": "إزاي تقلل صلاحيات المستخدمين من غير ما توقف شغل حد فجأة.",
+      "en": "How to trim user permissions without suddenly blocking someone's legitimate work."
+    },
+    "body": {
+      "ar": "## المشكلة الشائعة\n\nمعظم البيئات بتتراكم فيها صلاحيات زيادة بمرور الوقت (حد اتنقل قسم واحتفظ بصلاحيات القديمة، مثلًا)، وده بيوسّع مساحة أي اختراق محتمل.\n\n## خطوات تطبيق تدريجي آمن\n\n1. ابدأ بمراجعة (Audit) الصلاحيات الحالية قبل أي تغيير — اعرف الوضع الفعلي الأول.\n2. طبّق على مجموعة صغيرة تجريبية الأول، مش الكل مرة واحدة.\n3. استخدم وضع \"مراقبة فقط\" لو الأداة بتدعمه، شوف مين هيتأثر قبل ما تفعّل فعليًا.\n4. وثّق أي استثناء ضروري بسبب واضح، مراجعته دوريًا.\n\n## أشهر الخطأ\n\nتطبيق مفاجئ على الكل من غير تجربة، بيوقف شغل ناس محتاجين صلاحيات فعلًا وبيخلق مقاومة للمشروع كله.\n\n## الخلاصة\n\nالتدرّج والاختبار المسبق أهم بكتير من السرعة في تطبيق أقل الصلاحيات.",
+      "en": "## The common problem\n\nMost environments accumulate excess permissions over time (someone changed departments and kept old access, for example), widening the potential breach surface.\n\n## A safe gradual rollout\n\nAudit current permissions first, pilot on a small group before rolling out broadly, use a monitor-only mode if available to see impact before enforcing, and document any necessary exception with a clear reason, reviewed periodically.\n\n## Bottom line\n\nGradual rollout and prior testing matter far more than speed when implementing least privilege."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-23",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "least-privilege",
+      "identity",
+      "access-control"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0036",
+    "slug": "ransomware-first-hour-response",
+    "title": {
+      "ar": "أول ساعة بعد اكتشاف Ransomware: إيه تعمل بالظبط",
+      "en": "The First Hour After Discovering Ransomware: What to Actually Do"
+    },
+    "excerpt": {
+      "ar": "خطوات فورية قبل ما تفكر في الاستعادة، عشان متزودش الضرر.",
+      "en": "Immediate steps before even thinking about recovery, so you don't make things worse."
+    },
+    "body": {
+      "ar": "## أول حاجة: افصل، متطفيش\n\nافصل الجهاز المصاب عن الشبكة فورًا (كابل أو Wi-Fi)، لكن **متطفيش الجهاز** — بعض الأدلة الجنائية بتضيع لو الجهاز اتقفل.\n\n## الخطوات بالترتيب\n\n1. اعزل الجهاز المصاب عن الشبكة فورًا.\n2. حدد نطاق الإصابة — أجهزة تانية متأثرة؟ شير شبكي معين؟\n3. بلّغ الفريق المسؤول (أو جهة خارجية متخصصة لو معندكش فريق داخلي).\n4. متدفعش الفدية فورًا — استشر أولًا، الدفع مش بيضمن استرجاع البيانات.\n5. راجع آخر نسخة احتياطية نظيفة (قبل تاريخ الإصابة المقدّر).\n\n## أشهر الخطأ\n\nإعادة تشغيل الجهاز بسرعة أو محاولة حذف الملفات المشفّرة يدويًا — ده بيصعّب أي تحقيق لاحق.\n\n## الخلاصة\n\nالعزل الفوري + عدم الذعر + التوثيق أهم من أي رد فعل سريع تاني.",
+      "en": "## First: disconnect, don't power off\n\nDisconnect the infected machine from the network immediately, but don't power it off -- forensic evidence can be lost if the machine is shut down.\n\n## Steps in order\n\nIsolate the infected device, determine the infection scope (other affected devices? a specific network share?), notify your response team or an external specialist, don't pay the ransom immediately without consulting first (payment doesn't guarantee recovery), and check your last clean backup before the estimated infection date.\n\n## Bottom line\n\nImmediate isolation, staying calm, and documentation matter more than any quick reaction."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-09-03",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ransomware",
+      "incident-response",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0037",
+    "slug": "cloud-cost-optimization-basics",
+    "title": {
+      "ar": "تقليل فاتورة السحابة: خطوات عملية قبل ما تتفاجئ",
+      "en": "Cutting Your Cloud Bill: Practical Steps Before the Surprise Invoice"
+    },
+    "excerpt": {
+      "ar": "أشهر أسباب ارتفاع فاتورة AWS/Azure غير متوقع، وإزاي تتحكم فيها.",
+      "en": "The most common causes of an unexpectedly high AWS/Azure bill, and how to control them."
+    },
+    "body": {
+      "ar": "## أشهر أسباب الفاتورة العالية\n\n1. موارد شغالة من غير استخدام فعلي (سيرفرات اختبار نسيتها شغالة).\n2. تخزين بيانات قديمة على أغلى فئة تخزين بدل الأرخص للأرشيف.\n3. نقل بيانات (Data Transfer) بين مناطق جغرافية من غير داعي.\n\n## خطوات عملية للتحكم\n\n1. فعّل تنبيهات الميزانية (Budget Alerts) من أول يوم.\n2. راجع الموارد الخاملة أسبوعيًا (أو استخدم أداة تلقائية).\n3. استخدم فئات تخزين أرخص للبيانات القديمة نادرة الوصول.\n4. فكّر في Reserved Instances لو الاستخدام ثابت طويل المدى.\n\n## الخلاصة\n\nمعظم الفواتير العالية مش بسبب استخدام حقيقي، بس بسبب موارد منسية — مراجعة دورية بسيطة بتوفر كتير.",
+      "en": "## Common causes of high bills\n\nResources running without real use (forgotten test servers), old data stored on the most expensive tier instead of a cheaper archive tier, and unnecessary cross-region data transfer.\n\n## Practical control steps\n\nEnable budget alerts from day one, review idle resources weekly, use cheaper storage tiers for rarely-accessed old data, and consider Reserved Instances for steady long-term usage.\n\n## Bottom line\n\nMost high bills come from forgotten resources, not real usage -- a simple periodic review saves a lot."
+    },
+    "categoryId": "technology",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-11-10",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "cloud",
+      "aws",
+      "cost-optimization"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0038",
+    "slug": "printer-security-overlooked-risk",
+    "title": {
+      "ar": "أمان الطابعات: الخطر اللي بينسوه أغلب مديري الأنظمة",
+      "en": "Printer Security: The Risk Most Sysadmins Forget"
+    },
+    "excerpt": {
+      "ar": "الطابعات الشبكية بتبقى نقطة دخول سهلة لو معندهاش نفس مستوى الاهتمام الأمني.",
+      "en": "Networked printers become an easy entry point when they don't get the same security attention as everything else."
+    },
+    "body": {
+      "ar": "## ليه الطابعات خطر حقيقي\n\nكتير من الطابعات الشبكية بتفضل بكلمة مرور افتراضية، وفرموير قديم مش متحدّث من سنين، ومنافذ إدارة مفتوحة على الإنترنت بالغلط.\n\n## خطوات أساسية للحماية\n\n1. غيّر كلمة مرور الإدارة الافتراضية فورًا وقت التركيب.\n2. حدّث الفرموير دوريًا زي أي جهاز شبكة تاني.\n3. عزل الطابعات في VLAN منفصل عن أجهزة المستخدمين الحساسة.\n4. عطّل بروتوكولات قديمة غير مستخدمة (FTP, Telnet) لو الطابعة بتدعمها.\n5. راجع سجلات الطباعة دوريًا في بيئات حساسة (تسريب مستندات).\n\n## الخلاصة\n\nالطابعة جهاز شبكة زي أي جهاز تاني، ومحتاجة نفس الاهتمام — مش بس \"جهاز طباعة\".",
+      "en": "## Why printers are a real risk\n\nMany networked printers keep default admin passwords, run firmware untouched for years, and sometimes have management ports accidentally exposed to the internet.\n\n## Basic protection steps\n\nChange the default admin password at install time, update firmware regularly like any other network device, isolate printers in their own VLAN away from sensitive user devices, disable unused legacy protocols, and review print logs periodically in sensitive environments.\n\n## Bottom line\n\nA printer is a network device like any other and deserves the same attention, not just 'the thing that prints'."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-12-17",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "printers",
+      "endpoint-security",
+      "iot"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0039",
+    "slug": "browser-isolation-basics",
+    "title": {
+      "ar": "عزل المتصفح (Browser Isolation): طبقة حماية إضافية بسيطة",
+      "en": "Browser Isolation: A Simple Extra Protection Layer"
+    },
+    "excerpt": {
+      "ar": "إزاي تمنع كود خبيث من موقع مشبوه يوصل لجهاز المستخدم فعليًا.",
+      "en": "How to keep malicious code from a suspicious site from ever actually reaching the user's device."
+    },
+    "body": {
+      "ar": "## الفكرة الأساسية\n\nبدل ما المتصفح يحمّل ويشغّل محتوى الموقع مباشرة على جهاز المستخدم، الصفحة بتتشغل في بيئة معزولة (سحابية أو محلية) وبيوصل للمستخدم بس عرض مرئي آمن.\n\n## متى تستاهل الاستثمار\n\n1. فريق بيتعامل مع روابط غير موثوقة بشكل متكرر (بريد، بحث).\n2. قطاع مستهدف بهجمات تصيد متقدمة.\n3. عندك بالفعل طبقات حماية تانية وعايز تقلل مخاطر يوم الصفر (Zero-day) في المتصفح نفسه.\n\n## نصيحة عملية\n\nمش لازم تطبقها على كل حاجة — ركّز على المستخدمين الأكتر عرضة (فريق المبيعات، الدعم الفني اللي بيفتح روابط كتير من مصادر خارجية).\n\n## الخلاصة\n\nطبقة حماية إضافية مفيدة، مش بديل عن التدريب الأمني الأساسي والتحديثات.",
+      "en": "## The core idea\n\nInstead of the browser loading and executing site content directly on the user's device, the page renders in an isolated environment (cloud or local) and only a safe visual stream reaches the user.\n\n## When it's worth the investment\n\nA team frequently dealing with untrusted links (email, research), a sector targeted by advanced phishing, or wanting to reduce browser zero-day exposure on top of existing layers.\n\n## Bottom line\n\nA useful extra layer, not a substitute for basic security training and patching."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-24",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "browser-isolation",
+      "phishing",
+      "endpoint-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0040",
+    "slug": "shadow-it-risk-management",
+    "title": {
+      "ar": "الـ Shadow IT: لما الموظفين يستخدموا أدوات مش معتمدة",
+      "en": "Shadow IT: When Employees Use Unapproved Tools"
+    },
+    "excerpt": {
+      "ar": "ليه بيحصل، وإيه الفرق بين المنع الكامل والإدارة الذكية للمخاطر.",
+      "en": "Why it happens, and the difference between total prohibition and smart risk management."
+    },
+    "body": {
+      "ar": "## ليه بيحصل أصلًا\n\nالموظفين بيستخدموا أدوات مش معتمدة (تخزين سحابي شخصي، تطبيقات مراسلة) عادةً عشان الأدوات الرسمية بطيئة أو معقدة، مش بنية سيئة.\n\n## المنع الكامل مش دايمًا الحل\n\nمنع صارم بدون بديل عملي بيخلي الموظفين يدوّروا على طرق أصعب في الاكتشاف، مش يوقفوا الاستخدام فعليًا.\n\n## استراتيجية أفضل\n\n1. اكتشف الاستخدام الفعلي أولًا (أدوات CASB أو مراجعة سجلات الشبكة).\n2. افهم ليه الموظفين بيلجأوا لأدوات بديلة — الأداة الرسمية ناقصة إيه؟\n3. وفّر بديل رسمي سهل الاستخدام لنفس الاحتياج قبل المنع.\n4. امنع بس الأدوات عالية الخطورة فعليًا (نقل بيانات حساسة لخارج الشركة).\n\n## الخلاصة\n\nفهم السبب وتوفير بديل أفضل من منع صارم بدون حل بديل.",
+      "en": "## Why it happens\n\nEmployees use unapproved tools (personal cloud storage, messaging apps) usually because official tools are slow or cumbersome, not out of bad intent.\n\n## Total prohibition isn't always the answer\n\nStrict bans without a practical alternative just push usage into harder-to-detect channels, rather than actually stopping it.\n\n## A better strategy\n\nDiscover actual usage first (CASB tools or network log review), understand why employees reach for alternatives, provide an easy official alternative before banning, and restrict only genuinely high-risk tools (sensitive data leaving the company).\n\n## Bottom line\n\nUnderstanding the cause and offering a better alternative beats a strict ban with no replacement."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-04",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "shadow-it",
+      "risk-management",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0041",
+    "slug": "usb-device-control-policy",
+    "title": {
+      "ar": "سياسة التحكم في أجهزة USB: أمان بدون تعطيل الشغل",
+      "en": "USB Device Control Policy: Security Without Blocking Work"
+    },
+    "excerpt": {
+      "ar": "بدائل عملية غير \"امنع كل حاجة\" اللي بتوقف شغل ناس محتاجين USB فعليًا.",
+      "en": "Practical alternatives to 'block everything', which stops people who genuinely need USB access."
+    },
+    "body": {
+      "ar": "## المشكلة مع المنع الكامل\n\nمنع كل منافذ USB بيوقف شغل ناس محتاجينها فعليًا (نسخ ملفات كبيرة، أجهزة خارجية ضرورية)، وبيخلق مقاومة للسياسة كلها.\n\n## بدائل عملية عبر Group Policy\n\n1. اسمح بالقراءة بس، امنع الكتابة (نسخ ملفات للخارج) كافتراضي.\n2. اعمل قائمة بيضاء لأجهزة USB معتمدة معروفة (بالـSerial Number).\n3. فعّل تسجيل (Logging) لكل عملية نسخ لجهاز USB، حتى لو مسموحة.\n4. استثناءات لأقسام معينة محتاجة الوصول الكامل، بموافقة موثّقة.\n\n## أشهر الخطأ\n\nسياسة واحدة صارمة للجميع من غير مراعاة اختلاف احتياجات الأقسام.\n\n## الخلاصة\n\nتحكم متدرّج (قراءة فقط + تسجيل + استثناءات موثّقة) أفضل بكتير من منع كامل يوقف شغل الناس.",
+      "en": "## The problem with total blocking\n\nBlocking all USB ports stops people who genuinely need it (large file transfers, necessary external devices) and creates resistance to the whole policy.\n\n## Practical Group Policy alternatives\n\nAllow read-only by default, block write/copy-out; maintain a whitelist of approved USB devices by serial number; log every USB copy operation even when allowed; document exceptions for departments needing full access.\n\n## Bottom line\n\nGraduated control (read-only + logging + documented exceptions) beats a total ban that stops legitimate work."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-11",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "usb",
+      "endpoint-security",
+      "group-policy"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0042",
+    "slug": "certificate-expiry-monitoring",
+    "title": {
+      "ar": "مراقبة انتهاء صلاحية الشهادات: خطأ بسيط بيوقف مواقع كاملة",
+      "en": "Certificate Expiry Monitoring: A Simple Mistake That Takes Down Whole Sites"
+    },
+    "excerpt": {
+      "ar": "ليه شهادة SSL منتهية أكتر خطأ محرج ومتكرر، وإزاي تتجنبه تمامًا.",
+      "en": "Why an expired SSL certificate is the most embarrassing and common mistake, and how to avoid it entirely."
+    },
+    "body": {
+      "ar": "## ليه بيحصل رغم إنه بسيط\n\nشهادات SSL/TLS معظمها بتنتهي كل 90 يوم لـ سنة، ولو مفيش تنبيه تلقائي، سهل جدًا تتنسى لحد ما الموقع يقف فجأة.\n\n## حلول عملية\n\n1. استخدم شهادات تجديد تلقائي (زي Let's Encrypt مع ACME) لو ممكن.\n2. لو التجديد يدوي، اعمل تنبيه تقويم قبل الانتهاء بـ30 يوم على الأقل.\n3. استخدم أداة مراقبة خارجية بتتأكد من صلاحية الشهادة دوريًا (مش بس تفترض إنها شغالة).\n4. وثّق كل الشهادات في مكان مركزي (تاريخ الانتهاء، المسؤول، الموقع).\n\n## الخلاصة\n\nالتجديد التلقائي هو الحل الأمثل؛ لو مش ممكن، تنبيه مبكر موثوق هو أقل حاجة مقبولة.",
+      "en": "## Why it happens despite being simple\n\nMost SSL/TLS certificates expire every 90 days to a year, and without an automatic reminder, it's easy to forget until the site suddenly goes down.\n\n## Practical fixes\n\nUse auto-renewing certificates (like Let's Encrypt with ACME) where possible, set a calendar reminder at least 30 days before expiry if renewal is manual, use an external monitoring tool that actually checks validity periodically, and keep a central inventory of every certificate.\n\n## Bottom line\n\nAutomatic renewal is the ideal fix; if that's not possible, a reliable early reminder is the bare minimum."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-18",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ssl",
+      "certificates",
+      "monitoring"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0043",
+    "slug": "incident-response-tabletop-exercises",
+    "title": {
+      "ar": "تمارين المحاكاة (Tabletop Exercises): تدرّب قبل ما يحصل فعلًا",
+      "en": "Tabletop Exercises: Practice Before It Actually Happens"
+    },
+    "excerpt": {
+      "ar": "إزاي تكتشف ثغرات خطة الاستجابة للحوادث من غير ما تنتظر حادث حقيقي.",
+      "en": "How to find gaps in your incident response plan without waiting for a real incident."
+    },
+    "body": {
+      "ar": "## الفكرة\n\nتمرين محاكاة هو اجتماع منظّم بتفترضوا فيه سيناريو حادث أمني (زي اختراق أو Ransomware) وتمشوا خطوة بخطوة: مين بيتصرف إزاي، مين بيتبلّغ، وإمتى.\n\n## خطوات تنظيم تمرين بسيط\n\n1. اختر سيناريو واقعي (مش خيالي أوي ولا سهل أوي).\n2. اجمع الأشخاص المعنيين فعليًا (IT، إدارة، قانوني لو موجود).\n3. اطرح السيناريو تدريجيًا واسأل \"إيه اللي هتعمله دلوقتي؟\" في كل مرحلة.\n4. وثّق أي نقطة غموض أو تأخير ظهرت أثناء التمرين.\n5. حدّث خطة الاستجابة الفعلية بناءً على اللي اكتشفته.\n\n## أشهر الفايدة\n\nكتير من الفرق بتكتشف إنها مش عارفة \"مين بالظبط بيتخذ قرار العزل\" إلا وقت التمرين — أرخص بكتير تكتشفها هنا من وسط أزمة حقيقية.\n\n## الخلاصة\n\nتمرين واحد كل 6 أشهر بيكشف ثغرات في الخطة محدش هيلاحظها إلا وقت الأزمة الحقيقية.",
+      "en": "## The idea\n\nA tabletop exercise is a structured meeting where you walk through a hypothetical security incident (like a breach or ransomware) step by step: who acts, who gets notified, and when.\n\n## Organizing a simple exercise\n\nPick a realistic scenario, gather the actually-relevant people (IT, management, legal if applicable), present the scenario progressively asking 'what do you do now?' at each stage, document any confusion or delay that surfaced, and update the real response plan based on what you found.\n\n## Bottom line\n\nA single exercise every six months uncovers plan gaps nobody would notice until a real crisis."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-11-25",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "incident-response",
+      "tabletop-exercise",
+      "planning"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0044",
+    "slug": "nist-password-guidelines-vs-old-rules",
+    "title": {
+      "ar": "إرشادات NIST لكلمات المرور: ليه تعقيدها ما بقاش الحل",
+      "en": "NIST Password Guidelines: Why Complexity Rules Stopped Being the Answer"
+    },
+    "excerpt": {
+      "ar": "ليه فرض تغيير الباسورد كل 90 يوم ورموز إجبارية معقدة بقت ممارسة قديمة.",
+      "en": "Why forcing password changes every 90 days and mandatory complex symbols became an outdated practice."
+    },
+    "body": {
+      "ar": "## المشكلة مع القواعد القديمة\n\nفرض تغيير كلمة المرور بشكل متكرر بيخلي المستخدمين يستخدموا أنماط متوقعة (Password1, Password2...) — بيقلل الأمان الفعلي بدل ما يزوده.\n\n## توصيات NIST الحديثة (SP 800-63B)\n\n1. كلمة مرور طويلة (Passphrase) أفضل من كلمة قصيرة معقدة — الطول أهم من التعقيد.\n2. متجبرش تغيير دوري إلا لو فيه دليل حقيقي على تسريب.\n3. امنع كلمات مرور معروفة/مسرّبة (Password Blocklist)، مش قواعد تعقيد إجبارية.\n4. شجّع استخدام مدير كلمات مرور بدل الحفظ الذهني.\n\n## أشهر مقاومة للتغيير\n\nكتير من المؤسسات لسه شغالة بالقواعد القديمة لأسباب امتثال قديمة، رغم إن NIST نفسها غيّرت توصياتها من سنين.\n\n## الخلاصة\n\nطول كلمة المرور + منع كلمات معروفة أهم بكتير من التعقيد الإجباري والتغيير المتكرر.",
+      "en": "## The problem with old rules\n\nForcing frequent password changes pushes users toward predictable patterns (Password1, Password2...) -- actually reducing security rather than improving it.\n\n## Modern NIST guidance (SP 800-63B)\n\nA long passphrase beats a short complex password -- length matters more than complexity. Don't force periodic changes without evidence of a leak. Block known/leaked passwords instead of mandatory complexity rules. Encourage a password manager over memorization.\n\n## Bottom line\n\nLength plus blocking known-leaked passwords matters far more than mandatory complexity and frequent rotation."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-12-05",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1559163330-c30bac8c5031?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "passwords",
+      "nist",
+      "identity"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0045",
+    "slug": "network-access-control-nac-basics",
+    "title": {
+      "ar": "التحكم في الوصول للشبكة (NAC): مين يقدر يتصل أصلًا؟",
+      "en": "Network Access Control (NAC): Who's Even Allowed to Connect?"
+    },
+    "excerpt": {
+      "ar": "طبقة حماية بتتأكد من هوية وحالة الجهاز قبل ما يوصل للشبكة خالص.",
+      "en": "A protection layer that verifies device identity and health before it ever reaches the network."
+    },
+    "body": {
+      "ar": "## الفكرة\n\nNAC بيتأكد من حاجتين قبل ما يدّي أي جهاز وصول: مين الجهاز ده (هوية)، وهل حالته سليمة (تحديثات، مضاد فيروسات شغال).\n\n## سيناريو عملي\n\nموظف بيوصل بلابتوب شخصي مش محدّث — NAC ممكن يمنعه من الوصول الكامل ويحطه في شبكة معزولة (Quarantine VLAN) لحد ما يحدّث نظامه.\n\n## خطوات بداية بسيطة\n\n1. حدد سياسة واضحة: إيه المطلوب من أي جهاز عشان يتصل (تحديثات، مضاد فيروسات).\n2. ابدأ بوضع \"مراقبة فقط\" (Monitor Mode) قبل التطبيق الفعلي.\n3. جهّز VLAN معزول للأجهزة اللي مستوفياش الشروط بدل الرفض الكامل.\n4. راجع الاستثناءات (أجهزة IoT مثلًا مالهاش نفس المتطلبات) بشكل موثّق.\n\n## الخلاصة\n\nNAC بيحوّل \"أي جهاز يقدر يتصل\" لـ\"جهاز موثوق بس يقدر يتصل\" — خطوة قوية في تقليل مساحة الاختراق.",
+      "en": "## The idea\n\nNAC verifies two things before granting any device access: who this device is (identity), and whether it's healthy (updated, running antivirus).\n\n## A practical scenario\n\nAn employee connects with an outdated personal laptop -- NAC can deny full access and place it in a quarantine VLAN until it's updated.\n\n## Simple starting steps\n\nDefine a clear policy for what's required to connect, start in monitor-only mode before enforcing, prepare a quarantine VLAN instead of a hard block, and document exceptions (like IoT devices with different requirements).\n\n## Bottom line\n\nNAC shifts 'any device can connect' to 'only trusted devices can connect' -- a real reduction in attack surface."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-12",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "nac",
+      "network-security",
+      "access-control"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0046",
+    "slug": "cloud-vs-onprem-backup-considerations",
+    "title": {
+      "ar": "النسخ الاحتياطي السحابي مقابل المحلي: اعتبارات عملية غير التكلفة",
+      "en": "Cloud vs On-Prem Backup: Practical Considerations Beyond Cost"
+    },
+    "excerpt": {
+      "ar": "عوامل زي سرعة الاستعادة وسيادة البيانات لازم تدخل في القرار، مش بس السعر.",
+      "en": "Factors like recovery speed and data sovereignty should factor into the decision, not just price."
+    },
+    "body": {
+      "ar": "## أكتر من مجرد التكلفة\n\nالنسخ السحابي غالبًا أرخص في التخزين، لكن القرار الصح بيعتمد على عوامل تانية.\n\n## عوامل تستاهل الاهتمام\n\n1. **سرعة الاستعادة**: استرجاع تيرابايتات من السحابة ممكن ياخد وقت أطول بكتير من قرص محلي، خصوصًا مع إنترنت محدود.\n2. **سيادة البيانات**: بعض القطاعات (حكومي، مالي) عندها متطلبات قانونية إن البيانات تفضل داخل حدود معينة.\n3. **الاعتماد على الاتصال بالإنترنت**: نسخة محلية بتشتغل حتى لو الإنترنت واقع.\n\n## استراتيجية هجينة شائعة\n\nنسخة محلية سريعة للاستعادة الفورية، ونسخة سحابية كطبقة حماية إضافية (لو الموقع نفسه اتضرر بالكامل).\n\n## الخلاصة\n\nالسؤال مش \"سحابي ولا محلي\" بس — الإجابة الأفضل غالبًا الاتنين مع بعض، كل واحد لغرضه.",
+      "en": "## More than just cost\n\nCloud backup is often cheaper for storage, but the right decision depends on other factors too.\n\n## Factors worth weighing\n\nRecovery speed (restoring terabytes from the cloud can take much longer than a local disk, especially with limited internet), data sovereignty (some sectors have legal requirements to keep data within certain borders), and internet dependency (a local copy still works even if the internet is down).\n\n## Bottom line\n\nThe question isn't just 'cloud or local' -- the best answer is often both together, each serving a different purpose."
+    },
+    "categoryId": "technology",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-02-19",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "backup",
+      "cloud",
+      "disaster-recovery"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0047",
+    "slug": "vulnerability-scanning-vs-penetration-testing",
+    "title": {
+      "ar": "فحص الثغرات مقابل اختبار الاختراق: مش نفس الحاجة",
+      "en": "Vulnerability Scanning vs Penetration Testing: Not the Same Thing"
+    },
+    "excerpt": {
+      "ar": "لبس شائع بين الاتنين، والفرق الحقيقي في العمق والهدف.",
+      "en": "A common confusion between the two, and the real difference in depth and goal."
+    },
+    "body": {
+      "ar": "## الفرق الجوهري\n\nفحص الثغرات (Vulnerability Scanning) أداة آلية بتدوّر على ثغرات معروفة وتديك قائمة. اختبار الاختراق (Penetration Testing) شخص بيحاول فعليًا يستغل الثغرات دي زي مهاجم حقيقي.\n\n## متى تحتاج كل واحد\n\n1. **فحص الثغرات**: دوري ومستمر (أسبوعي أو شهري)، رخيص نسبيًا، بيديك صورة عامة سريعة.\n2. **اختبار الاختراق**: أقل تكرارًا (سنوي غالبًا)، أغلى، بيوريك فعليًا لو الثغرات دي قابلة للاستغلال الحقيقي ومدى الضرر الممكن.\n\n## أشهر خطأ\n\nالاعتماد على فحص الثغرات بس والاعتقاد إنه كافٍ — الفحص بيقول \"فيه ثغرة محتملة\"، الاختبار بيقول \"دي فعلًا قابلة للاستغلال وده اللي ممكن يحصل\".\n\n## الخلاصة\n\nمحتاج الاتنين: فحص مستمر يكتشف بسرعة، واختبار اختراق دوري يتأكد من الخطر الفعلي.",
+      "en": "## The core difference\n\nVulnerability scanning is an automated tool that finds known vulnerabilities and gives you a list. Penetration testing is a person actually trying to exploit them like a real attacker would.\n\n## When you need each\n\nScanning: frequent and ongoing (weekly/monthly), relatively cheap, gives a quick general picture. Pen testing: less frequent (often annual), more expensive, shows whether vulnerabilities are actually exploitable and how bad the real impact could be.\n\n## Bottom line\n\nYou need both: continuous scanning for fast detection, and periodic pen testing to confirm real risk."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-26",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "penetration-testing",
+      "vulnerability-scanning",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0048",
+    "slug": "dns-security-filtering-dnssec",
+    "title": {
+      "ar": "أمان DNS: من فلترة المواقع الضارة لـ DNSSEC",
+      "en": "DNS Security: From Malicious Site Filtering to DNSSEC"
+    },
+    "excerpt": {
+      "ar": "طبقة حماية سهلة التطبيق وكتير من الفرق بتتجاهلها.",
+      "en": "An easy-to-implement protection layer that many teams overlook."
+    },
+    "body": {
+      "ar": "## ليه DNS نقطة حماية مهمة\n\nقبل ما أي جهاز يتصل بموقع ضار، لازم يعمل استعلام DNS الأول. فلترة الاستعلامات دي بتوقف الاتصال قبل ما يبدأ أصلًا.\n\n## طبقتين حماية مختلفتين\n\n1. **فلترة DNS**: منع الوصول لنطاقات معروفة بالضرر (تصيد، Malware) — سهلة التطبيق وسريعة الفايدة.\n2. **DNSSEC**: يتأكد إن رد DNS نفسه مش متلاعب فيه (منع هجمات Cache Poisoning) — أعمق تقنيًا بس أهم للنطاقات اللي بتديرها بنفسك.\n\n## خطوات بداية بسيطة\n\n1. استخدم خدمة فلترة DNS جاهزة (زي Cisco Umbrella أو Quad9) على مستوى الشبكة كلها.\n2. فعّل DNSSEC على أي نطاق بتديره لو المزوّد بيدعمه.\n3. راقب سجلات استعلامات DNS المرفوضة كمؤشر مبكر لمحاولات وصول لمواقع ضارة.\n\n## الخلاصة\n\nفلترة DNS من أسهل وأرخص طبقات الحماية تطبيقًا، وتأثيرها الفعلي أكبر من حجم المجهود المطلوب.",
+      "en": "## Why DNS is an important control point\n\nBefore any device connects to a malicious site, it must first make a DNS query. Filtering those queries stops the connection before it even begins.\n\n## Two different protection layers\n\nDNS filtering: blocks access to known-malicious domains (phishing, malware) -- easy to implement with fast benefit. DNSSEC: verifies the DNS response itself hasn't been tampered with (prevents cache poisoning) -- more technically involved but important for domains you manage yourself.\n\n## Bottom line\n\nDNS filtering is one of the easiest, cheapest protection layers to implement, with impact far bigger than the effort required."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-06",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "dns",
+      "dnssec",
+      "network-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0049",
+    "slug": "bitlocker-disk-encryption-basics",
+    "title": {
+      "ar": "تشفير الأقراص بـ BitLocker: أساسيات لازم تعرفها",
+      "en": "Disk Encryption with BitLocker: Basics You Need to Know"
+    },
+    "excerpt": {
+      "ar": "لو لابتوب اتسرق، BitLocker بيمنع اللي سرقه من قراءة أي ملف من غير مفتاح فك التشفير.",
+      "en": "If a laptop is stolen, BitLocker stops the thief from reading any file without the decryption key."
+    },
+    "body": {
+      "ar": "## ليه مهم\n\nلابتوب اتسرق من غير تشفير = أي حد يقدر يفك القرص ويقرأ كل الملفات. BitLocker بيشفّر القرص بالكامل، فمن غير المفتاح، البيانات غير قابلة للقراءة.\n\n## خطوات تفعيل أساسية\n\n1. تأكد إن الجهاز عنده TPM (Trusted Platform Module) — أغلب الأجهزة الحديثة عندها.\n2. فعّل BitLocker من إعدادات Windows أو عبر PowerShell (`Enable-BitLocker`).\n3. **الأهم**: احفظ مفتاح الاستعادة في مكان آمن (Active Directory أو Microsoft Account) — فقدانه يعني فقدان البيانات نهائيًا لو حصلت مشكلة.\n4. لو بيئة شركة، استخدم Group Policy لفرض التشفير وربط المفاتيح بـAD تلقائيًا.\n\n## أشهر خطأ\n\nتفعيل BitLocker من غير حفظ مفتاح الاستعادة في مكان مركزي — لو حصلت مشكلة في الجهاز، البيانات ضاعت للأبد.\n\n## الخلاصة\n\nBitLocker حماية أساسية سهلة لأي جهاز محمول، بس نسيان حفظ مفتاح الاستعادة ممكن يحوّلها لكارثة.",
+      "en": "## Why it matters\n\nAn unencrypted stolen laptop means anyone can pull the disk and read every file. BitLocker encrypts the whole disk, so without the key, the data is unreadable.\n\n## Basic activation steps\n\nConfirm the device has TPM (most modern devices do), enable BitLocker via Windows settings or PowerShell, and critically -- save the recovery key somewhere safe (Active Directory or Microsoft Account); losing it means permanently losing the data if something goes wrong. In a company environment, use Group Policy to enforce encryption and auto-escrow keys to AD.\n\n## Bottom line\n\nBitLocker is easy, essential protection for any portable device -- but forgetting to save the recovery key can turn it into a disaster."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-13",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "bitlocker",
+      "encryption",
+      "windows-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0050",
+    "slug": "windows-firewall-advanced-rules",
+    "title": {
+      "ar": "قواعد Windows Firewall المتقدمة: أكتر من مجرد تشغيل/إيقاف",
+      "en": "Advanced Windows Firewall Rules: More Than Just On/Off"
+    },
+    "excerpt": {
+      "ar": "إزاي تستخدم جدار الحماية المدمج في Windows بذكاء بدل ما تعتمد على الإعدادات الافتراضية بس.",
+      "en": "How to use Windows' built-in firewall intelligently instead of relying on default settings alone."
+    },
+    "body": {
+      "ar": "## أكتر من مجرد تفعيل/تعطيل\n\nكتير من مديري الأنظمة بيتعاملوا مع Windows Firewall كخيار ثنائي (شغّال/مقفول)، لكنه فعليًا بيسمح بقواعد دقيقة جدًا.\n\n## قواعد عملية تستاهل الإعداد\n\n1. حدد قواعد صادرة (Outbound) صارمة، مش بس واردة — كتير من البيئات بتسيب الصادر مفتوح بالكامل.\n2. اربط القواعد ببرنامج محدد (Program-specific) بدل فتح منفذ كامل لكل التطبيقات.\n3. استخدم Windows Firewall with Advanced Security عبر GPO لفرض قواعد موحدة على كل الأجهزة.\n4. فعّل تسجيل (Logging) القواعد المرفوضة لمراقبة محاولات اتصال مشبوهة.\n\n## أشهر خطأ\n\nتعطيل الجدار بالكامل \"عشان يسهّل\" اختبار مشكلة شبكة، ونسيان تفعيله تاني.\n\n## الخلاصة\n\nWindows Firewall أداة قوية أكتر مما بيستخدمها معظم الناس — القواعد الصادرة والمرتبطة ببرنامج تحديدًا بتضيف طبقة حماية حقيقية.",
+      "en": "## More than a simple on/off switch\n\nMany admins treat Windows Firewall as binary (on/off), but it actually allows very granular rules.\n\n## Practical rules worth setting up\n\nSet strict outbound rules too, not just inbound (many environments leave outbound wide open); scope rules to specific programs instead of opening a whole port for everything; use Windows Firewall with Advanced Security via GPO to enforce consistent rules; enable logging of blocked connections to monitor suspicious activity.\n\n## Bottom line\n\nWindows Firewall is more capable than most people use it for -- outbound and program-specific rules add a real protection layer."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-12-20",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "windows-firewall",
+      "network-security",
+      "windows"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0051",
+    "slug": "phishing-simulation-training-programs",
+    "title": {
+      "ar": "برامج محاكاة التصيد الإلكتروني: هل فعليًا بتقلل المخاطر؟",
+      "en": "Phishing Simulation Training Programs: Do They Actually Reduce Risk?"
+    },
+    "excerpt": {
+      "ar": "إزاي تصمم برنامج محاكاة تصيد يعلّم الموظفين بدل ما يخليهم يحسوا إنهم متهمين.",
+      "en": "How to design a phishing simulation program that educates employees instead of making them feel accused."
+    },
+    "body": {
+      "ar": "## ليه البرنامج التقليدي بيفشل أحيانًا\n\nإرسال إيميلات تصيد وهمية ومعاقبة اللي بيضغط عليها بيخلي الموظفين خايفين يبلّغوا عن حاجة حقيقية، مش بيقلل الخطر فعليًا.\n\n## تصميم أفضل\n\n1. ركّز على التعليم الفوري (لما حد يضغط، يشوف رسالة توضيحية فورًا ليه ده كان تصيد) بدل العقاب.\n2. ابدأ بسيناريوهات سهلة الاكتشاف وزوّد الصعوبة تدريجيًا.\n3. كافئ اللي بيبلّغوا عن الإيميل المشبوه (حتى لو مش من ضمن المحاكاة)، مش بس اللي وقعوا فيه.\n4. قِس التحسن بمرور الوقت (نسبة التبليغ بدل نسبة الوقوع بس).\n\n## أشهر خطأ\n\nمحاكاة معقدة جدًا من أول مرة بتخلي معظم الفريق يقع فيها، فبيحس البرنامج بالفشل بدل التعلم.\n\n## الخلاصة\n\nالهدف تعليم وتحسين سلوك مستمر، مش إحراج أو معاقبة فردية.",
+      "en": "## Why the traditional approach sometimes fails\n\nSending fake phishing emails and punishing whoever clicks makes employees afraid to report real incidents, rather than actually reducing risk.\n\n## A better design\n\nFocus on immediate education (when someone clicks, show a clear explanation of what gave it away) instead of punishment; start with easy-to-spot scenarios and gradually increase difficulty; reward reporting suspicious emails (even outside the simulation), not just avoiding the click; measure improvement via reporting rate over time, not just click rate.\n\n## Bottom line\n\nThe goal is continuous behavior education, not individual embarrassment or punishment."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-27",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "phishing",
+      "security-awareness",
+      "training"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0052",
+    "slug": "cross-site-scripting-xss-basics",
+    "title": {
+      "ar": "ثغرات XSS: إزاي موقع بسيط يقدر يسرق بيانات المستخدم",
+      "en": "XSS Vulnerabilities: How a Simple Site Can Steal User Data"
+    },
+    "excerpt": {
+      "ar": "شرح مبسط لأشهر ثغرة في تطبيقات الويب، ولماذا تصفية المدخلات مش رفاهية.",
+      "en": "A simplified explanation of the most common web app vulnerability, and why input sanitization isn't optional."
+    },
+    "body": {
+      "ar": "## الفكرة الأساسية\n\nلو موقع بيعرض مدخلات المستخدم من غير تصفية (زي تعليق أو اسم)، مهاجم يقدر يحقن كود JavaScript ضار يتنفذ في متصفح أي زائر تاني.\n\n## نوعين شائعين\n\n1. **Stored XSS**: الكود الضار بيتخزن في قاعدة البيانات (زي تعليق) ويتنفذ لكل زائر يشوفه.\n2. **Reflected XSS**: الكود بيتمرر عبر رابط، ولازم الضحية تضغط على رابط معين عشان يتنفذ.\n\n## طرق حماية أساسية\n\n1. صفّي (Sanitize) أي مدخل مستخدم قبل عرضه، وشفّر (Encode) الرموز الخاصة زي `<` و`>`.\n2. استخدم Content Security Policy (CSP) header يقيّد مصادر تنفيذ الكود.\n3. استخدم مكتبات ثابتة معروفة بدل كتابة تصفية يدوية (سهل تنسى حالة).\n\n## الخلاصة\n\nXSS من أقدم وأشهر ثغرات الويب، وتصفية المدخلات مش خطوة اختيارية — هي أساس أمان أي تطبيق ويب.",
+      "en": "## The core idea\n\nIf a site displays user input without sanitizing it (like a comment or name), an attacker can inject malicious JavaScript that runs in any other visitor's browser.\n\n## Two common types\n\nStored XSS: malicious code is saved in the database (like a comment) and runs for every visitor who sees it. Reflected XSS: the code is passed via a URL, requiring the victim to click a specific link for it to execute.\n\n## Basic protections\n\nSanitize any user input before displaying it and encode special characters like < and >; use a Content Security Policy header restricting where code can execute from; use well-established libraries instead of writing manual sanitization (easy to miss a case).\n\n## Bottom line\n\nXSS is one of the oldest, most common web vulnerabilities -- input sanitization isn't optional, it's foundational to any web app's security."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-02-07",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "xss",
+      "web-security",
+      "owasp"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0053",
+    "slug": "windows-server-core-vs-desktop-experience",
+    "title": {
+      "ar": "Windows Server Core مقابل Desktop Experience: أيهما تختار؟",
+      "en": "Windows Server Core vs Desktop Experience: Which Should You Choose?"
+    },
+    "excerpt": {
+      "ar": "التوزيع بدون واجهة رسومية بيوفر موارد ويقلل مساحة الهجوم — لكن هل يستاهل التعقيد الإضافي؟",
+      "en": "The GUI-less install saves resources and reduces attack surface -- but is the extra complexity worth it?"
+    },
+    "body": {
+      "ar": "## الفرق الأساسي\n\nServer Core نسخة بدون واجهة رسومية، بتُدار عبر PowerShell أو أدوات إدارة عن بعد. Desktop Experience فيها واجهة كاملة زي Windows العادي.\n\n## مميزات Server Core\n\n1. استهلاك موارد أقل (ذاكرة ومعالج).\n2. مساحة هجوم أصغر (مكونات أقل = ثغرات محتملة أقل).\n3. تحديثات أقل تكرارًا (مكونات الواجهة الرسومية مش موجودة أصلًا).\n\n## متى Desktop Experience أنسب\n\n1. تطبيقات معينة لازم واجهة رسومية للإدارة (بعض البرامج القديمة).\n2. فريق مش مرتاح مع PowerShell للإدارة اليومية.\n3. سيرفر واحد أو اتنين بس، الفايدة من توفير الموارد محدودة.\n\n## الخلاصة\n\nServer Core الخيار الأفضل أمنيًا وكفاءة لبيئة كبيرة بفريق متمكن من PowerShell. Desktop Experience أسهل لفريق صغير أو تطبيقات محتاجة واجهة رسومية تحديدًا.",
+      "en": "## The core difference\n\nServer Core is a GUI-less install, managed via PowerShell or remote tools. Desktop Experience has a full GUI like regular Windows.\n\n## Server Core advantages\n\nLower resource usage (memory and CPU), smaller attack surface (fewer components means fewer potential vulnerabilities), and less frequent patching (GUI components simply aren't there to patch).\n\n## When Desktop Experience fits better\n\nCertain apps require a GUI for management (some legacy software), a team not comfortable with PowerShell for daily admin, or just one or two servers where resource savings barely matter.\n\n## Bottom line\n\nServer Core is the better security/efficiency choice for a large environment with a PowerShell-capable team. Desktop Experience is easier for a small team or apps specifically needing a GUI."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-14",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "windows-server",
+      "server-core",
+      "powershell"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0054",
+    "slug": "api-key-management-best-practices",
+    "title": {
+      "ar": "إدارة مفاتيح API بأمان: أخطاء شائعة وحلول بسيطة",
+      "en": "Secure API Key Management: Common Mistakes and Simple Fixes"
+    },
+    "excerpt": {
+      "ar": "ليه رفع مفتاح API على GitHub بالغلط أشهر حادثة أمان بيقع فيها المطورين، وإزاي تتجنبها.",
+      "en": "Why accidentally pushing an API key to GitHub is the most common developer security incident, and how to avoid it."
+    },
+    "body": {
+      "ar": "## المشكلة الشائعة\n\nمطور بيكتب مفتاح API مباشرة في الكود للتجربة السريعة، وينسى يشيله قبل ما يرفع الكود لـGitHub — والمفتاح بيبقى موجود في تاريخ الـcommits حتى لو اتشال بعدين.\n\n## ممارسات أساسية\n\n1. استخدم متغيرات بيئة (Environment Variables) بدل كتابة المفاتيح مباشرة في الكود.\n2. أضف ملفات `.env` لـ`.gitignore` من أول commit في المشروع.\n3. استخدم أداة فحص أسرار (Secret Scanning) — GitHub نفسه بيوفرها مجانًا لمستودعات كتير.\n4. لو مفتاح اتسرّب فعلًا، ألغيه (Revoke) فورًا وأنشئ واحد جديد — مسحه من الكود مش كافي.\n\n## أشهر خطأ إضافي\n\nاستخدام نفس المفتاح لكل البيئات (تطوير، اختبار، إنتاج) — لو اتسرّب واحد، كل البيئات معرّضة.\n\n## الخلاصة\n\nمتغيرات بيئة + `.gitignore` من أول يوم + مفاتيح منفصلة لكل بيئة = تقليل حقيقي لمخاطر تسريب شائعة جدًا.",
+      "en": "## The common problem\n\nA developer writes an API key directly in code for quick testing and forgets to remove it before pushing to GitHub -- and the key remains in commit history even after later removal.\n\n## Core practices\n\nUse environment variables instead of hardcoding keys; add .env files to .gitignore from the project's first commit; use secret scanning tools (GitHub provides this free for many repos); if a key does leak, revoke it immediately and issue a new one -- removing it from code alone isn't enough.\n\n## An additional common mistake\n\nUsing the same key across all environments (dev, test, production) -- if one leaks, every environment is exposed.\n\n## Bottom line\n\nEnvironment variables + .gitignore from day one + separate keys per environment meaningfully reduce a very common leak risk."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-21",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "api-security",
+      "secrets-management",
+      "developer-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0055",
+    "slug": "physical-security-server-room-basics",
+    "title": {
+      "ar": "الأمان الفيزيائي لغرفة السيرفرات: أساسيات بيتم تجاهلها",
+      "en": "Physical Security for the Server Room: Basics That Get Overlooked"
+    },
+    "excerpt": {
+      "ar": "كل الحماية الرقمية مالهاش قيمة لو أي حد يقدر يدخل غرفة السيرفر فعليًا.",
+      "en": "All the digital protection means little if anyone can physically walk into the server room."
+    },
+    "body": {
+      "ar": "## ليه بيتم تجاهله\n\nكتير من الميزانية والاهتمام بيروح للحماية الرقمية (جدران حماية، مضاد فيروسات)، وغرفة السيرفر الفعلية بتفضل بباب عادي أو مفتاح بسيط.\n\n## أساسيات عملية\n\n1. تحكم وصول موثّق (بطاقة أو رمز) بدل مفتاح تقليدي يصعب تتبع مين معاه نسخة.\n2. سجل دخول/خروج — مين دخل الغرفة وإمتى، حتى لو موظف داخلي.\n3. كاميرات مراقبة تغطي المدخل على الأقل.\n4. تحكم في درجة الحرارة والرطوبة — مش أمان بالمعنى التقليدي، لكن فشل تبريد ممكن يوقف كل حاجة.\n5. منع الوصول غير الضروري — مش كل موظف IT محتاج يدخل الغرفة يوميًا.\n\n## الخلاصة\n\nأي حد يقدر يوصل فعليًا للسيرفر يقدر يتجاوز أغلب الحماية الرقمية — الأمان الفيزيائي أساس، مش تفصيلة إضافية.",
+      "en": "## Why it gets overlooked\n\nMuch of the budget and attention goes to digital protection (firewalls, antivirus), while the actual server room keeps a regular door or simple lock.\n\n## Practical basics\n\nAuditable access control (badge or code) instead of a traditional key that's hard to track copies of; an entry/exit log -- who entered and when, even for internal staff; cameras covering at least the entrance; temperature/humidity control -- not security in the traditional sense, but a cooling failure can take everything down; restrict unnecessary access -- not every IT staffer needs daily room access.\n\n## Bottom line\n\nAnyone with physical server access can bypass most digital protections -- physical security is foundational, not an afterthought."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-01",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "physical-security",
+      "server-room",
+      "infrastructure"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0056",
+    "slug": "supply-chain-attacks-third-party-risk",
+    "title": {
+      "ar": "هجمات سلسلة التوريد: لما الخطر بييجي من مورّد موثوق",
+      "en": "Supply Chain Attacks: When the Risk Comes from a Trusted Vendor"
+    },
+    "excerpt": {
+      "ar": "ليه فحص أمان الموردين بقى ضروري، مش مجرد إجراء بيروقراطي.",
+      "en": "Why vendor security assessments became essential, not just bureaucratic paperwork."
+    },
+    "body": {
+      "ar": "## الفكرة\n\nبدل ما يهاجم مؤسستك مباشرة، المهاجم بيخترق مورّد أو مكتبة برمجية بتستخدمها، وبيوصل لك عن طريقه — وأنت واثق فيه أصلًا.\n\n## أمثلة على نقاط الخطر\n\n1. مكتبات برمجية مفتوحة المصدر (Dependencies) بتستخدمها من غير مراجعة دورية.\n2. مورّدين عندهم وصول لأنظمتك (دعم فني، صيانة عن بعد).\n3. تحديثات برامج من مصادر تبدو رسمية لكن اتخترقت.\n\n## خطوات تقليل المخاطر\n\n1. راجع صلاحيات أي مورّد له وصول لأنظمتك دوريًا — أقل صلاحية ضرورية بس.\n2. استخدم أدوات فحص تبعيات (Dependency Scanning) في مشاريع البرمجة.\n3. اطلب من الموردين المهمين إثبات ممارسات أمان أساسية (شهادات أو تقييمات).\n4. راقب تحديثات البرامج قبل نشرها على نطاق واسع، مش تطبيق فوري أعمى.\n\n## الخلاصة\n\nثقتك في مورّد مش بديل عن التحقق — سلسلة التوريد بقت من أشهر نقاط الدخول للمهاجمين.",
+      "en": "## The idea\n\nInstead of attacking your organization directly, an attacker compromises a vendor or software library you use, reaching you through something you already trust.\n\n## Example risk points\n\nOpen-source dependencies used without periodic review, vendors with access to your systems (support, remote maintenance), and software updates from seemingly official sources that were themselves compromised.\n\n## Risk-reduction steps\n\nPeriodically review any vendor's access permissions -- only the minimum necessary; use dependency scanning tools in software projects; require important vendors to show basic security practices (certifications or assessments); review updates before wide rollout rather than blind immediate deployment.\n\n## Bottom line\n\nTrusting a vendor isn't a substitute for verification -- the supply chain has become one of attackers' most common entry points."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-08",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "supply-chain",
+      "third-party-risk",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0057",
+    "slug": "container-image-security-scanning",
+    "title": {
+      "ar": "فحص أمان صور الحاويات (Container Images) قبل النشر",
+      "en": "Scanning Container Image Security Before Deployment"
+    },
+    "excerpt": {
+      "ar": "صورة Docker جاهزة ممكن تحمل ثغرات موروثة من غير ما تلاحظ.",
+      "en": "A ready-made Docker image can carry inherited vulnerabilities without you noticing."
+    },
+    "body": {
+      "ar": "## المشكلة\n\nكتير من صور الحاويات مبنية فوق صور تانية (Base Images)، ولو الصورة الأساسية فيها ثغرة قديمة، هتوروثها تلقائيًا لأي حاوية مبنية عليها.\n\n## خطوات عملية\n\n1. استخدم أداة فحص (زي Trivy أو Grype) كجزء من خط أنابيب CI/CD، مش بعد النشر.\n2. اختر صور أساسية رسمية ومحدثة، وتجنب صور غير موثوقة من مصادر غير معروفة.\n3. قلّل عدد الطبقات والمكونات غير الضرورية في الصورة (صورة أصغر = مساحة هجوم أقل).\n4. أعد فحص الصور القديمة المنشورة دوريًا — ثغرة جديدة ممكن تتكشف بعد النشر بفترة.\n\n## أشهر خطأ\n\nفحص الصورة مرة واحدة وقت البناء بس، من غير إعادة فحص دوري للصور اللي شغالة فعليًا في الإنتاج.\n\n## الخلاصة\n\nفحص الصور خطوة رخيصة ومؤتمتة سهلة الإضافة لأي خط CI/CD، وبتمنع نشر ثغرات معروفة من الأساس.",
+      "en": "## The problem\n\nMany container images are built on top of other base images, and if the base image has an old vulnerability, it's automatically inherited by anything built on it.\n\n## Practical steps\n\nUse a scanning tool (like Trivy or Grype) as part of the CI/CD pipeline, not after deployment; choose official, updated base images and avoid untrusted sources; minimize unnecessary layers and components (a smaller image means a smaller attack surface); re-scan already-deployed images periodically -- a new vulnerability can surface after deployment.\n\n## Bottom line\n\nImage scanning is a cheap, easily automated step to add to any CI/CD pipeline, and it prevents shipping known vulnerabilities from the start."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-12-15",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "containers",
+      "docker",
+      "devsecops"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0058",
+    "slug": "guest-wifi-network-isolation",
+    "title": {
+      "ar": "عزل شبكة الضيوف (Guest Wi-Fi): إعداد بسيط بفايدة كبيرة",
+      "en": "Guest Wi-Fi Isolation: A Simple Setup with a Big Payoff"
+    },
+    "excerpt": {
+      "ar": "ليه ضيف أو زائر معندوش وصول لنفس شبكة الموظفين الداخلية.",
+      "en": "Why a guest or visitor shouldn't have access to the same internal employee network."
+    },
+    "body": {
+      "ar": "## المشكلة من غير عزل\n\nلو الضيوف والموظفين على نفس الشبكة، أي جهاز ضيف مخترق (أو حتى بيئة غير آمنة) يقدر يوصل لأجهزة الشركة الداخلية.\n\n## خطوات إعداد بسيطة\n\n1. أنشئ SSID منفصل تمامًا للضيوف، على VLAN مختلف عن الشبكة الداخلية.\n2. فعّل \"عزل العملاء\" (Client Isolation) لو متاح — يمنع حتى أجهزة الضيوف من رؤية بعضها.\n3. قيّد وصول شبكة الضيوف للإنترنت بس، بدون أي وصول للموارد الداخلية (طابعات، مشاركات ملفات).\n4. فكّر في تحديد سرعة أو مدة اتصال لو الشبكة مستخدمة بكثافة.\n\n## أشهر خطأ\n\nمشاركة نفس كلمة مرور الشبكة الداخلية مع الضيوف \"عشان بس\" — ده بيلغي أي فايدة من العزل.\n\n## الخلاصة\n\nعزل شبكة الضيوف من أسهل وأرخص إعدادات الأمان، وتأثيره الفعلي أكبر بكتير من المجهود المطلوب.",
+      "en": "## The problem without isolation\n\nIf guests and employees share the same network, any compromised guest device (or just an untrusted environment) can reach internal company devices.\n\n## Simple setup steps\n\nCreate a fully separate SSID for guests on a different VLAN than the internal network; enable client isolation if available (prevents even guest devices from seeing each other); restrict guest network access to internet-only, no access to internal resources like printers or file shares; consider bandwidth or connection-time limits for heavily used networks.\n\n## Bottom line\n\nGuest network isolation is one of the easiest, cheapest security setups, with real impact far bigger than the effort required."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-22",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "wifi",
+      "network-segmentation",
+      "guest-network"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0059",
+    "slug": "spf-dkim-dmarc-email-basics",
+    "title": {
+      "ar": "SPF وDKIM وDMARC: إزاي تمنع حد ينتحل دومين إيميلك",
+      "en": "SPF, DKIM, and DMARC: How to Stop Someone Spoofing Your Email Domain"
+    },
+    "excerpt": {
+      "ar": "ثلاث سجلات DNS بسيطة بتحمي دومينك من إيميلات مزوّرة باسمك.",
+      "en": "Three simple DNS records that protect your domain from emails forged in your name."
+    },
+    "body": {
+      "ar": "## المشكلة\n\nمن غير الإعدادات دي، أي حد يقدر يبعت إيميل \"من\" دومينك (info@شركتك.com) لعملائك أو موظفينك، والمستقبل ممكن يصدّق إنه إيميل حقيقي.\n\n## الثلاث سجلات ببساطة\n\n1. **SPF**: بيحدد مين السيرفرات المسموح لها تبعث إيميلات باسم دومينك.\n2. **DKIM**: بيضيف توقيع رقمي للإيميل يثبت إنه فعلًا منك ومتغيّرش في الطريق.\n3. **DMARC**: بيحدد إيه اللي يحصل لو إيميل فشل في SPF أو DKIM (يترفض، يتحط في سبام، أو يتبلّغ بس).\n\n## خطوات البداية\n\n1. أضف سجل SPF بالسيرفرات المصرّح لها بس.\n2. فعّل DKIM من مزوّد البريد بتاعك (غالبًا خطوة بسيطة من لوحة التحكم).\n3. ابدأ بـDMARC في وضع \"مراقبة بس\" (p=none) قبل التطبيق الصارم، عشان متوقفش إيميلات شرعية بالغلط.\n\n## الخلاصة\n\nالثلاث سجلات دي مجانية ومدتها إعداد بسيط، وبتقفل باب انتحال شائع جدًا لأي دومين.",
+      "en": "## The problem\n\nWithout these records, anyone can send an email 'from' your domain (info@yourcompany.com) to your customers or employees, and the recipient might believe it's real.\n\n## The three records, simply\n\nSPF: defines which servers are allowed to send email on your domain's behalf. DKIM: adds a digital signature proving the email is genuinely from you and unaltered in transit. DMARC: defines what happens if an email fails SPF or DKIM (reject, mark as spam, or just report).\n\n## Getting started\n\nAdd an SPF record listing only authorized servers, enable DKIM from your email provider (usually a simple dashboard step), and start DMARC in monitor-only mode (p=none) before strict enforcement, so you don't accidentally block legitimate email.\n\n## Bottom line\n\nThese three free, simply-configured records close a very common domain-spoofing door."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-02-02",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "email-security",
+      "dmarc",
+      "spf",
+      "dkim"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0060",
+    "slug": "cyber-insurance-what-it-covers",
+    "title": {
+      "ar": "التأمين ضد المخاطر السيبرانية: إيه اللي بيغطيه فعليًا؟",
+      "en": "Cyber Insurance: What Does It Actually Cover?"
+    },
+    "excerpt": {
+      "ar": "قبل ما تشتري بوليصة، افهم الفرق بين اللي متوقع إنه مغطى واللي فعلًا مكتوب في العقد.",
+      "en": "Before buying a policy, understand the gap between what you assume is covered and what's actually written in the contract."
+    },
+    "body": {
+      "ar": "## إيه اللي بيغطيه عادةً\n\nتكاليف الاستجابة للحادث (خبراء جنائيون، محامين)، تكاليف إخطار العملاء المتأثرين لو حصل تسريب، وأحيانًا تعويض عن توقف العمل.\n\n## إيه اللي غالبًا مش مغطى أو محدود\n\n1. الفدية نفسها (Ransom) — بعض البوالص بتغطيها بشروط صارمة، وبعضها بيرفض تمامًا.\n2. الأضرار الناتجة عن إهمال أمني واضح (زي عدم تحديث نظام معروف بثغرة خطيرة من شهور).\n3. هجمات معروفة مسبقًا أو مُعلنة قبل شراء البوليصة.\n\n## سؤال لازم تسأله قبل الشراء\n\nهل البوليصة بتشترط حد أدنى من إجراءات الأمان (زي MFA مفعّل على كل الحسابات) عشان التغطية تسري؟ كتير من المطالبات بترفض لعدم استيفاء شروط أساسية.\n\n## الخلاصة\n\nالتأمين طبقة حماية مالية إضافية، مش بديل عن إجراءات الأمان الأساسية — وقراءة الشروط بالتفصيل قبل الشراء ضرورية.",
+      "en": "## What it typically covers\n\nIncident response costs (forensic experts, lawyers), notification costs for affected customers if a breach occurs, and sometimes business interruption compensation.\n\n## What's often excluded or limited\n\nThe ransom itself (some policies cover it under strict conditions, others refuse entirely), damages from clear security negligence (like not patching a known critical vulnerability for months), and attacks known or disclosed before the policy was purchased.\n\n## A question worth asking before buying\n\nDoes the policy require a minimum security baseline (like MFA enabled everywhere) for coverage to apply? Many claims get denied for not meeting basic requirements.\n\n## Bottom line\n\nInsurance is an additional financial protection layer, not a substitute for basic security practices -- reading the fine print before buying matters."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-09",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "cyber-insurance",
+      "risk-management",
+      "compliance"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0061",
+    "slug": "it-change-management-process-basics",
+    "title": {
+      "ar": "عملية إدارة التغيير في IT: ليه أي تعديل محتاج توثيق",
+      "en": "IT Change Management: Why Every Change Needs Documentation"
+    },
+    "excerpt": {
+      "ar": "تعديل بسيط بدون توثيق ممكن يسبب مشكلة محدش يعرف سببها بعد أسابيع.",
+      "en": "A simple undocumented change can cause a problem nobody can trace weeks later."
+    },
+    "body": {
+      "ar": "## المشكلة من غير عملية واضحة\n\nمدير نظام بيعدّل إعداد سريع لحل مشكلة عاجلة، وينسى يوثّقه — بعد أسابيع، مشكلة تانية بتحصل وحد تاني يضيّع وقت طويل يفهم إيه اللي اتغيّر.\n\n## عناصر أساسية لعملية بسيطة\n\n1. سجل تغييرات مركزي (حتى لو Excel بسيط في البداية) — إيه اتغيّر، مين غيّره، وليه.\n2. تصنيف بسيط: تغيير عادي (يحتاج موافقة مسبقة) مقابل تغيير طارئ (يوثّق بعده فورًا).\n3. نافذة صيانة محددة للتغييرات غير العاجلة، بعيد عن أوقات الذروة.\n4. خطة تراجع (Rollback Plan) واضحة قبل أي تغيير كبير — لو حصلت مشكلة، إزاي ترجع للوضع السابق بسرعة.\n\n## أشهر خطأ\n\nالمبالغة في التعقيد من أول يوم (نموذج موافقات طويل لكل حاجة) بيخلي الفريق يتجاهل العملية كلها.\n\n## الخلاصة\n\nمش لازم نظام معقد — سجل بسيط وموثّق باستمرار أفضل بكتير من عملية مثالية على الورق محدش بيتبعها فعليًا.",
+      "en": "## The problem without a clear process\n\nAn admin makes a quick fix for an urgent problem and forgets to document it -- weeks later, a different problem occurs and someone else wastes significant time figuring out what changed.\n\n## Core elements of a simple process\n\nA central change log (even a simple spreadsheet to start) -- what changed, who changed it, and why; simple categorization: normal change (needs prior approval) vs emergency change (documented immediately after); a defined maintenance window for non-urgent changes, away from peak hours; a clear rollback plan before any major change -- how to quickly return to the previous state if something breaks.\n\n## Bottom line\n\nYou don't need a complex system -- a simple, consistently maintained log beats a perfect-on-paper process nobody actually follows."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-16",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "change-management",
+      "it-operations",
+      "documentation"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0062",
+    "slug": "data-classification-basics",
+    "title": {
+      "ar": "تصنيف البيانات: مش كل الملفات محتاجة نفس مستوى الحماية",
+      "en": "Data Classification: Not Every File Needs the Same Protection Level"
+    },
+    "excerpt": {
+      "ar": "خطوة بسيطة بتخلي جهود الحماية تتركّز على اللي فعلًا محتاج حماية.",
+      "en": "A simple step that focuses protection effort on what actually needs it."
+    },
+    "body": {
+      "ar": "## ليه مهم\n\nمن غير تصنيف، إما بتحمي كل حاجة بنفس المستوى العالي (مكلف ومرهق)، أو بتحمي كل حاجة بمستوى منخفض (خطر على البيانات الحساسة).\n\n## تصنيف بسيط للبداية\n\n1. **عام (Public)**: مفيش مشكلة لو اتشارك خارجيًا (مواد تسويقية مثلًا).\n2. **داخلي (Internal)**: للموظفين بس، مش خطير لو اتسرّب بس مش للنشر.\n3. **سري (Confidential)**: بيانات عملاء، مالية، أو استراتيجية — تسريبها ضرر حقيقي.\n4. **سري للغاية (Restricted)**: وصول محدود جدًا (زي بيانات صحية أو قانونية حساسة).\n\n## خطوات تطبيق عملي\n\n1. ابدأ بتصنيف البيانات الأكثر حساسية فقط، مش كل حاجة دفعة واحدة.\n2. استخدم أدوات تصنيف تلقائي (زي Microsoft Purview) لو متاحة لتسريع العملية.\n3. اربط مستوى الحماية (تشفير، صلاحيات وصول) بمستوى التصنيف مباشرة.\n\n## الخلاصة\n\nتصنيف بسيط بيوجّه الموارد المحدودة للحماية لأهم مكان، بدل توزيعها بالتساوي على كل حاجة.",
+      "en": "## Why it matters\n\nWithout classification, you either protect everything at the same high level (expensive and exhausting) or everything at a low level (risky for sensitive data).\n\n## A simple starting classification\n\nPublic: fine to share externally (marketing material). Internal: employees only, not dangerous if leaked but not for publication. Confidential: customer, financial, or strategic data -- a leak causes real harm. Restricted: very limited access (like sensitive health or legal data).\n\n## Practical rollout steps\n\nStart by classifying only the most sensitive data, not everything at once; use automatic classification tools (like Microsoft Purview) if available to speed things up; tie protection level (encryption, access permissions) directly to classification level.\n\n## Bottom line\n\nSimple classification directs limited protection resources to where they matter most, instead of spreading them evenly across everything."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-23",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "data-classification",
+      "compliance",
+      "governance"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0063",
+    "slug": "mfa-methods-compared-sms-app-hardware",
+    "title": {
+      "ar": "طرق المصادقة الثنائية: SMS مقابل تطبيق مقابل مفتاح مادي",
+      "en": "MFA Methods Compared: SMS vs App vs Hardware Key"
+    },
+    "excerpt": {
+      "ar": "مش كل أنواع المصادقة الثنائية بنفس مستوى الأمان — الفروق مهمة.",
+      "en": "Not all MFA types offer the same security level -- the differences matter."
+    },
+    "body": {
+      "ar": "## SMS: الأضعف من بين الثلاثة\n\nسهل الاستخدام لكن عرضة لهجمات SIM Swapping (المهاجم بيقنع شركة الاتصالات تنقل رقمك لشريحة تانية). أفضل من غير مصادقة ثنائية خالص، لكن أضعف خيار متاح.\n\n## تطبيقات المصادقة (Authenticator Apps)\n\nأقوى من SMS بشكل ملحوظ — الرمز بيتولّد محليًا على الجهاز، مش بيتبعت عبر شبكة يمكن اعتراضها. عرضة لهجمات MFA Fatigue لو مش مضبوطة بـNumber Matching.\n\n## المفاتيح المادية (Hardware Keys زي YubiKey)\n\nالأقوى بشكل واضح — لازم وجود فعلي للمفتاح، مقاوم لهجمات التصيد حتى المتقدمة منها (Phishing-resistant). التكلفة والحاجة لحمل جهاز إضافي هي العيب الرئيسي.\n\n## توصية عملية\n\nاستخدم SMS لو مفيش بديل تاني متاح، تطبيقات المصادقة كخيار افتراضي جيد لمعظم المستخدمين، والمفاتيح المادية للحسابات عالية الحساسية (مديرين، وصول لأنظمة حرجة).\n\n## الخلاصة\n\nأي مصادقة ثنائية أفضل من عدمها، لكن الفرق بين الأنواع حقيقي — خصص المستوى الأقوى للحسابات الأهم.",
+      "en": "## SMS: the weakest of the three\n\nEasy to use but vulnerable to SIM-swapping attacks (the attacker convinces the carrier to port your number to a new SIM). Better than no MFA at all, but the weakest available option.\n\n## Authenticator apps\n\nNoticeably stronger than SMS -- the code generates locally on the device, not sent over an interceptable network. Vulnerable to MFA fatigue attacks if not configured with number matching.\n\n## Hardware keys (like YubiKey)\n\nClearly the strongest -- requires physical possession of the key, phishing-resistant even against advanced attacks. Cost and the need to carry an extra device are the main drawbacks.\n\n## Practical recommendation\n\nUse SMS only if nothing else is available, authenticator apps as a good default for most users, and hardware keys for high-sensitivity accounts (admins, access to critical systems).\n\n## Bottom line\n\nAny MFA beats none, but the difference between types is real -- reserve the strongest option for the accounts that matter most."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-03",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1559163330-c30bac8c5031?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "mfa",
+      "authentication",
+      "identity"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0064",
+    "slug": "sql-injection-basics-explained",
+    "title": {
+      "ar": "حقن SQL: ليه سطر كود واحد ضعيف يقدر يسرّب قاعدة بيانات كاملة",
+      "en": "SQL Injection: How One Weak Line of Code Can Leak an Entire Database"
+    },
+    "excerpt": {
+      "ar": "شرح مبسط لثغرة قديمة لسه شائعة جدًا، وإزاي تتجنبها من الأساس.",
+      "en": "A simplified explanation of an old vulnerability that's still very common, and how to avoid it from the ground up."
+    },
+    "body": {
+      "ar": "## الفكرة الأساسية\n\nلو تطبيق بيبني استعلام قاعدة بيانات بدمج مدخلات المستخدم مباشرة كنص، مهاجم يقدر يكتب مدخل يغيّر معنى الاستعلام نفسه.\n\n## مثال مبسط\n\nلو الاستعلام بيتبنى كده: `SELECT * FROM users WHERE username = '` + المدخل + `'`، ومهاجم كتب `' OR '1'='1`، الاستعلام هيرجّع كل المستخدمين بدل واحد بس.\n\n## الحل الأساسي: Prepared Statements\n\nبدل دمج المدخل كنص، استخدم استعلامات مُجهّزة (Parameterized Queries) — المدخل بيتعامل معاه كبيانات دايمًا، مش كجزء من كود الاستعلام، بغض النظر عن محتواه.\n\n## طبقات حماية إضافية\n\n1. صلاحيات قاعدة البيانات الأقل ضرورة لحساب التطبيق (مش صلاحيات إدارية كاملة).\n2. تحقق من نوع وشكل المدخل قبل ما يوصل لقاعدة البيانات أصلًا.\n3. جدار حماية تطبيقات ويب (WAF) كطبقة حماية إضافية، مش بديل عن الكود الصح.\n\n## الخلاصة\n\nPrepared Statements حل بسيط وموجود في كل لغة برمجة تقريبًا — مفيش عذر لثغرة قديمة زي دي لسه بتحصل.",
+      "en": "## The core idea\n\nIf an app builds a database query by directly concatenating user input as text, an attacker can craft input that changes the query's actual meaning.\n\n## A simplified example\n\nIf the query is built like: SELECT * FROM users WHERE username = ' + input + ', and an attacker enters ' OR '1'='1, the query returns every user instead of just one.\n\n## The core fix: prepared statements\n\nInstead of concatenating input as text, use parameterized queries -- the input is always treated as data, never as part of the query's code, regardless of its content.\n\n## Additional protection layers\n\nUse the least-necessary database privileges for the app's account (not full admin rights); validate input type and shape before it ever reaches the database; a web application firewall (WAF) as an extra layer, not a substitute for correct code.\n\n## Bottom line\n\nPrepared statements are a simple fix available in nearly every programming language -- there's little excuse for this old vulnerability class still happening."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-02-10",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "sql-injection",
+      "web-security",
+      "owasp"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0065",
+    "slug": "windows-task-scheduler-automation",
+    "title": {
+      "ar": "أتمتة المهام بـ Task Scheduler: أكتر من مجرد تذكيرات",
+      "en": "Task Automation with Task Scheduler: More Than Just Reminders"
+    },
+    "excerpt": {
+      "ar": "إزاي تستخدم أداة مدمجة في Windows لأتمتة مهام إدارية متكررة بدون سكريبتات معقدة.",
+      "en": "How to use a built-in Windows tool to automate repetitive admin tasks without complex scripting."
+    },
+    "body": {
+      "ar": "## استخدامات عملية شائعة\n\n1. تشغيل سكريبت نسخ احتياطي في وقت محدد يوميًا.\n2. تنظيف ملفات مؤقتة أو سجلات قديمة تلقائيًا كل أسبوع.\n3. تشغيل تقرير أو فحص حالة النظام وإرساله بالبريد صباحًا.\n\n## خطوات إنشاء مهمة أساسية\n\n1. حدد المُشغّل (Trigger): وقت محدد، عند بدء التشغيل، أو عند حدث معين.\n2. حدد الإجراء (Action): تشغيل سكريبت، برنامج، أو أمر PowerShell.\n3. اضبط شروط إضافية (يشتغل بس لو الجهاز متصل بالكهرباء، مثلًا).\n4. اختبر المهمة يدويًا أول مرة (\"Run\" مباشرة) قبل ما تعتمد على الجدولة التلقائية.\n\n## أشهر خطأ\n\nإنشاء مهمة بصلاحيات المستخدم الحالي، وبعدين المستخدم بيسجّل خروج والمهمة بتفشل بصمت — استخدم حساب خدمة مخصص للمهام المهمة.\n\n## الخلاصة\n\nTask Scheduler أداة قوية مجانية بالفعل موجودة في كل نسخة Windows — كتير من الأتمتة اليومية مش محتاجة أداة خارجية أصلًا.",
+      "en": "## Common practical uses\n\nRunning a backup script at a set time daily, automatically cleaning temp files or old logs weekly, and running a system health report and emailing it each morning.\n\n## Basic task creation steps\n\nSet the trigger (specific time, at startup, or on a certain event), set the action (run a script, program, or PowerShell command), configure extra conditions (like only running when plugged into power), and test the task manually the first time before relying on the schedule.\n\n## A common mistake\n\nCreating a task under the current user's credentials, then the user logs out and the task silently fails -- use a dedicated service account for important tasks.\n\n## Bottom line\n\nTask Scheduler is a powerful, already-free tool built into every Windows version -- a lot of daily automation doesn't need an external tool at all."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-17",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "task-scheduler",
+      "automation",
+      "windows"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0066",
+    "slug": "insider-threat-detection-basics",
+    "title": {
+      "ar": "التهديد الداخلي (Insider Threat): مش كل خطر بييجي من برة",
+      "en": "Insider Threats: Not Every Risk Comes from Outside"
+    },
+    "excerpt": {
+      "ar": "موظف حالي أو سابق يقدر يسبب ضرر حقيقي، سواء بقصد أو بغير قصد.",
+      "en": "A current or former employee can cause real damage, whether intentionally or not."
+    },
+    "body": {
+      "ar": "## نوعين مختلفين\n\n1. **تهديد بقصد**: موظف ناقم بيسرّب بيانات أو يخرّب أنظمة عمدًا، غالبًا قبل أو بعد ترك الشركة مباشرة.\n2. **تهديد بغير قصد**: موظف بيقع في تصيد، أو بيرفع ملف حساس بالغلط لمكان عام — الضرر حقيقي رغم عدم وجود نية سيئة.\n\n## علامات تحذيرية تستاهل انتباه\n\n1. محاولات وصول لبيانات مش من ضمن مهام الموظف العادية.\n2. تنزيل كميات كبيرة من البيانات فجأة قبل ترك الوظيفة.\n3. استخدام أجهزة تخزين خارجية غير معتادة.\n\n## خطوات عملية للتخفيف\n\n1. إلغاء الوصول فورًا وقت انتهاء عمل أي موظف — مش بعد أيام.\n2. مبدأ أقل الصلاحيات يقلل الضرر المحتمل حتى لو حصل تهديد.\n3. مراقبة أنماط وصول غير معتادة (مش تجسس، بس تنبيهات على شذوذ واضح).\n\n## الخلاصة\n\nمعظم التركيز الأمني بيروح للتهديدات الخارجية، لكن التهديد الداخلي (بقصد أو بغيره) خطر حقيقي محتاج نفس الجدية.",
+      "en": "## Two different types\n\nIntentional threat: a disgruntled employee deliberately leaks data or sabotages systems, often right before or after leaving. Unintentional threat: an employee falls for phishing or accidentally uploads a sensitive file publicly -- the damage is real despite no bad intent.\n\n## Warning signs worth attention\n\nAccess attempts outside a role's normal duties, sudden large data downloads before leaving a job, and unusual use of external storage devices.\n\n## Practical mitigation steps\n\nRevoke access immediately at termination, not days later; least-privilege reduces potential damage even if a threat occurs; monitor for unusual access patterns (not surveillance, just alerts on clear anomalies).\n\n## Bottom line\n\nMost security focus goes to external threats, but insider threats (intentional or not) are a real risk deserving the same seriousness."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-24",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "insider-threat",
+      "risk-management",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0067",
+    "slug": "sd-wan-basics-explained",
+    "title": {
+      "ar": "SD-WAN بدون تعقيد: إيه اللي بيحله فعليًا",
+      "en": "SD-WAN Without the Jargon: What It Actually Solves"
+    },
+    "excerpt": {
+      "ar": "لو عندك أكتر من فرع، الطريقة التقليدية لربطهم مكلفة وغير مرنة — SD-WAN بديل عملي.",
+      "en": "If you have multiple branches, the traditional way of connecting them is costly and inflexible -- SD-WAN is a practical alternative."
+    },
+    "body": {
+      "ar": "## المشكلة التقليدية\n\nربط فروع الشركة بخطوط MPLS مخصصة مكلف جدًا، وأي تغيير في الشبكة بياخد وقت طويل مع مزوّد الخدمة.\n\n## إيه اللي SD-WAN بيغيّره\n\nبدل الاعتماد على خط واحد مخصص وغالي، SD-WAN بيدير حركة المرور ذكيًا عبر عدة اتصالات (إنترنت عادي، LTE، MPLS لو موجود) ويختار أفضل مسار تلقائيًا حسب الأداء والتكلفة.\n\n## فوايد عملية\n\n1. تكلفة أقل عن طريق الاعتماد على إنترنت عادي بدل خطوط مخصصة غالية بالكامل.\n2. إدارة مركزية لكل الفروع من لوحة تحكم واحدة.\n3. تبديل تلقائي لمسار تاني لو خط معين وقع أو أداءه ضعف.\n\n## نقطة تستاهل الانتباه\n\nSD-WAN بيدير التوجيه، مش بديل عن الأمان — لازم لسه طبقة أمان منفصلة (زي SASE أو جدار حماية) فوقه.\n\n## الخلاصة\n\nSD-WAN منطقي جدًا لأي شركة عندها 3 فروع أو أكتر وعايزة تقلل تكلفة الشبكة وتزود المرونة.",
+      "en": "## The traditional problem\n\nConnecting company branches with dedicated MPLS lines is very expensive, and any network change takes a long time with the service provider.\n\n## What SD-WAN changes\n\nInstead of relying on one expensive dedicated line, SD-WAN intelligently manages traffic across multiple connections (regular internet, LTE, MPLS if present) and automatically picks the best path based on performance and cost.\n\n## Practical benefits\n\nLower cost by relying on regular internet instead of fully dedicated expensive lines, centralized management of all branches from one dashboard, and automatic failover to another path if a line goes down or degrades.\n\n## A point worth noting\n\nSD-WAN manages routing, it's not a substitute for security -- a separate security layer (like SASE or a firewall) is still needed on top.\n\n## Bottom line\n\nSD-WAN makes strong sense for any company with 3+ branches wanting to cut network cost and increase flexibility."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-04",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "sd-wan",
+      "networking",
+      "branch-connectivity"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0068",
+    "slug": "secure-remote-work-checklist",
+    "title": {
+      "ar": "قائمة تحقق للعمل عن بُعد الآمن: 8 نقاط أساسية",
+      "en": "A Secure Remote Work Checklist: 8 Essential Points"
+    },
+    "excerpt": {
+      "ar": "قائمة عملية مختصرة تقدر تراجعها مع أي موظف عن بُعد جديد.",
+      "en": "A short, practical list you can review with any new remote employee."
+    },
+    "body": {
+      "ar": "## القائمة\n\n1. **VPN أو وصول آمن**: اتصال مشفّر لأي وصول لموارد الشركة الداخلية.\n2. **مصادقة ثنائية (MFA)**: مفعّلة على كل الحسابات، من غير استثناء.\n3. **تشفير القرص**: BitLocker أو ما يعادله على أي جهاز محمول يحتوي بيانات شركة.\n4. **تحديثات تلقائية**: نظام التشغيل ومضاد الفيروسات محدّثين تلقائيًا، مش يدويًا.\n5. **شبكة منزلية آمنة**: كلمة مرور Wi-Fi قوية، مش الإعدادات الافتراضية للراوتر.\n6. **فصل الاستخدام الشخصي**: جهاز عمل منفصل لو ممكن، أو حساب مستخدم منفصل على الأقل.\n7. **نسخ احتياطي**: ملفات العمل المهمة تتخزن في مكان مركزي، مش على القرص المحلي بس.\n8. **تدريب أساسي**: وعي بسيط بالتصيد وأشهر أساليب الهندسة الاجتماعية.\n\n## نصيحة عملية\n\nراجع القائمة دي مع أي موظف جديد في أول أسبوع، مش بعد شهور من بدء العمل عن بُعد.\n\n## الخلاصة\n\n8 نقاط بسيطة، لو اتطبقت من أول يوم، بتقلل معظم المخاطر الشائعة في العمل عن بُعد.",
+      "en": "## The checklist\n\nVPN or secure access: encrypted connection for any internal resource access. MFA: enabled on every account, no exceptions. Disk encryption: BitLocker or equivalent on any portable device holding company data. Automatic updates: OS and antivirus updated automatically, not manually. Secure home network: a strong Wi-Fi password, not router defaults. Separating personal use: a separate work device if possible, or at least a separate user account. Backup: important work files stored centrally, not just on the local disk. Basic training: simple phishing and social-engineering awareness.\n\n## Bottom line\n\n8 simple points that, applied from day one, cut most common remote-work risks."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-11",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "remote-work",
+      "security-checklist",
+      "vpn"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0069",
+    "slug": "windows-local-admin-password-rotation",
+    "title": {
+      "ar": "تدوير كلمة مرور المدير المحلي (LAPS): ليه مهم جدًا",
+      "en": "Local Admin Password Rotation (LAPS): Why It Matters a Lot"
+    },
+    "excerpt": {
+      "ar": "لو كل الأجهزة بنفس كلمة مرور Administrator المحلية، اختراق جهاز واحد يعني اختراق الكل.",
+      "en": "If every device shares the same local Administrator password, breaching one means breaching them all."
+    },
+    "body": {
+      "ar": "## المشكلة الشائعة\n\nكتير من البيئات بتستخدم نفس كلمة مرور المدير المحلي (Administrator) على كل الأجهزة للراحة — لو مهاجم عرف الباسورد ده من جهاز واحد، يقدر يستخدمها على أي جهاز تاني في الشبكة.\n\n## الحل: LAPS\n\nMicrosoft LAPS (Local Administrator Password Solution) بيولّد كلمة مرور فريدة وعشوائية لكل جهاز، ويخزنها بأمان في Active Directory، ويدوّرها تلقائيًا بشكل دوري.\n\n## خطوات تفعيل مبسطة\n\n1. ثبّت أداة LAPS وامتد مخطط Active Directory ليدعمها.\n2. حدد سياسة عبر Group Policy: مدة تدوير كلمة المرور وتعقيدها.\n3. حدد مين بالظبط يقدر يشوف كلمات المرور المخزّنة (فريق IT بس، بصلاحيات محدودة).\n\n## الخلاصة\n\nLAPS مجاني من Microsoft وسهل التطبيق نسبيًا، وبيقفل ثغرة انتشار جانبي (Lateral Movement) شائعة جدًا في هجمات الشبكات الداخلية.",
+      "en": "## The common problem\n\nMany environments use the same local Administrator password across every machine for convenience -- if an attacker learns it from one device, they can use it on any other device on the network.\n\n## The fix: LAPS\n\nMicrosoft LAPS (Local Administrator Password Solution) generates a unique, random password per device, stores it securely in Active Directory, and rotates it automatically on a schedule.\n\n## Simplified activation steps\n\nInstall the LAPS tool and extend the Active Directory schema to support it, set a policy via Group Policy for rotation frequency and complexity, and define exactly who can view stored passwords (IT team only, with limited permissions).\n\n## Bottom line\n\nLAPS is free from Microsoft and relatively easy to implement, closing a very common lateral-movement vulnerability in internal network attacks."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-18",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "laps",
+      "active-directory",
+      "windows-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0070",
+    "slug": "sonicwall-sma1000-ransomware-exploitation-2026",
+    "title": {
+      "ar": "ثغرات SonicWall الأخيرة تُستغل فعليًا في هجمات فدية",
+      "en": "Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks"
+    },
+    "excerpt": {
+      "ar": "عصابة INC Ransomware تستهدف أجهزة SonicWall SMA1000 غير المُحدَّثة للوصول الجذري والتحرك الجانبي داخل الشبكات.",
+      "en": "The INC Ransomware gang is targeting vulnerable SonicWall SMA1000 appliances for root access and lateral movement inside networks."
+    },
+    "body": {
+      "ar": "## الخبر\n\nحسب تقرير SecurityWeek بتاريخ 3 أغسطس 2026، عصابة الفدية INC بتستهدف أجهزة SonicWall SMA1000 غير المحدّثة، مستغلة ثغرات معروفة للوصول بصلاحيات جذرية (Root) والتحرك الجانبي داخل شبكة الضحية.\n\n## ليه ده مهم لمديري الأنظمة\n\nأجهزة SMA1000 بتُستخدم كبوابة وصول عن بُعد (زي SSL VPN)، يعني ثغرة فيها معناها مسار مباشر من الإنترنت العام لداخل الشبكة الداخلية.\n\n## إيه اللي تعمله دلوقتي\n\n1. تأكد من تحديث فرموير أي جهاز SonicWall SMA1000 لآخر إصدار متاح فورًا.\n2. راجع سجلات الوصول لأي نشاط غير معتاد على البوابة.\n3. لو مش قادر تحدّث فورًا، قيّد الوصول لأجهزة SMA1000 من الإنترنت العام لأضيق نطاق ممكن مؤقتًا.\n\n## المصدر\n\nSecurityWeek — [Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks](https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks/)",
+      "en": "## The news\n\nPer a SecurityWeek report dated August 3, 2026, the INC Ransomware gang is targeting unpatched SonicWall SMA1000 appliances, exploiting known vulnerabilities to gain root access and move laterally inside victim networks.\n\n## Why this matters to sysadmins\n\nSMA1000 devices serve as remote-access gateways (SSL VPN), meaning a flaw here is a direct path from the public internet into the internal network.\n\n## What to do now\n\nUpdate any SonicWall SMA1000 firmware to the latest available version immediately; review access logs for unusual gateway activity; if immediate patching isn't possible, temporarily restrict SMA1000 internet-facing access to the narrowest scope possible.\n\n## Source\n\nSecurityWeek — [Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks](https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks/)"
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "news-updates",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-03",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "sonicwall",
+      "ransomware",
+      "news"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0071",
+    "slug": "n-able-n-central-cve-2026-18577-exploited",
+    "title": {
+      "ar": "ثغرة N-central (CVE-2026-18577) استُغلّت فعليًا بعد تجاوز الترقيع الأول",
+      "en": "N-central Vulnerability (CVE-2026-18577) Exploited After Bypassing an Earlier Patch"
+    },
+    "excerpt": {
+      "ar": "N-able أصدرت ترقيعًا جديدًا بعد ما اكتشف مهاجمون طريقة لتجاوز الحل الأول للثغرة.",
+      "en": "N-able issued a new patch after attackers found a way to bypass the earlier fix for the vulnerability."
+    },
+    "body": {
+      "ar": "## الخبر\n\nحسب SecurityWeek (3 أغسطس 2026)، ثغرة CVE-2026-18577 في N-central (أداة إدارة عن بُعد شائعة عند مزوّدي الخدمات المُدارة MSP) استُغلّت فعليًا في الواقع، بعد ما المهاجمون لقوا طريقة يتجاوزوا بيها الترقيع الأول اللي أصدرته N-able.\n\n## ليه ده مهم\n\nN-central أداة RMM بتُستخدم لإدارة مئات أو آلاف الأجهزة عن بُعد — ثغرة فيها معناها مهاجم واحد يقدر يوصل لعدد ضخم من الأجهزة دفعة واحدة لو المنصة اتخترقت.\n\n## إيه اللي تعمله دلوقتي\n\n1. تأكد إنك مركّب أحدث ترقيع من N-able، مش بس الترقيع الأول اللي كان بيتجاوزه المهاجمون.\n2. راجع سجلات الوصول لمنصة N-central بتاعتك لأي نشاط غير معتاد.\n3. لو بتدير N-central لعملاء متعددين (بيئة MSP)، إعادة فحص كل بيئة عميل على حدة مهمة، مش بس السيرفر المركزي.\n\n## المصدر\n\nSecurityWeek — [N-able Patches Vulnerability Exploited to Hack N-central Servers](https://www.securityweek.com/n-able-patches-vulnerability-exploited-to-hack-n-central-servers/)",
+      "en": "## The news\n\nPer SecurityWeek (August 3, 2026), CVE-2026-18577 in N-central (a remote monitoring and management tool common among MSPs) has been actively exploited in the wild after attackers found a way to bypass N-able's initial patch.\n\n## Why this matters\n\nN-central is an RMM tool used to manage hundreds or thousands of devices remotely -- a flaw here means a single attacker could reach a massive number of devices at once if the platform is compromised.\n\n## What to do now\n\nConfirm you have N-able's latest patch installed, not just the earlier one attackers bypassed; review your N-central platform's access logs for unusual activity; if you manage N-central for multiple clients (an MSP environment), re-checking each client environment individually matters, not just the central server.\n\n## Source\n\nSecurityWeek — [N-able Patches Vulnerability Exploited to Hack N-central Servers](https://www.securityweek.com/n-able-patches-vulnerability-exploited-to-hack-n-central-servers/)"
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "news-updates",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-03",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "n-able",
+      "rmm",
+      "news",
+      "vulnerability"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0072",
+    "slug": "azure-cosmos-db-cosmosescape-flaw",
+    "title": {
+      "ar": "ثغرة CosmosEscape في Azure Cosmos DB: كشف المفتاح الأساسي بالكامل",
+      "en": "CosmosEscape Flaw in Azure Cosmos DB Exposed Full Primary Keys"
+    },
+    "excerpt": {
+      "ar": "ثغرة حرجة سمحت بالوصول الكامل للقراءة والكتابة على حسابات Cosmos DB المتأثرة.",
+      "en": "A critical flaw allowed full read and write access to affected Cosmos DB accounts."
+    },
+    "body": {
+      "ar": "## الخبر\n\nحسب SecurityWeek، ثغرة أُطلق عليها اسم CosmosEscape كانت بتعرّض المفتاح الأساسي (Primary Key) لحسابات Azure Cosmos DB، وده كان بيدّي وصول كامل للقراءة والكتابة على البيانات المتأثرة.\n\n## ليه ده مهم\n\nCosmos DB بتُستخدم كقاعدة بيانات أساسية لتطبيقات كتيرة على Azure — كشف المفتاح الأساسي معناها المهاجم يقدر يتصرف كأنه المالك الشرعي للبيانات بالكامل.\n\n## إيه اللي تعمله دلوقتي\n\n1. تأكد إن Microsoft أصدرت تصحيح للثغرة دي وطبّقته لو بتستخدم Cosmos DB.\n2. راجع سياسة تدوير مفاتيح الوصول (Key Rotation) — لو مفعّلة بشكل دوري، الخطر بيقل حتى لو حصل تسريب.\n3. فكّر في استخدام Azure AD authentication بدل المفاتيح التقليدية لو ممكن، كطبقة حماية إضافية.\n\n## المصدر\n\nSecurityWeek — [Critical Flaw Led to Azure Cosmos DB Pwnage](https://www.securityweek.com/critical-flaw-led-to-azure-cosmos-db-pwnage/)",
+      "en": "## The news\n\nPer SecurityWeek, a flaw dubbed CosmosEscape exposed the primary key for Azure Cosmos DB accounts, granting full read and write access to affected data.\n\n## Why this matters\n\nCosmos DB serves as the core database for many Azure applications -- exposing the primary key means an attacker can act as the legitimate data owner entirely.\n\n## What to do now\n\nConfirm Microsoft's fix for this flaw has been applied if you use Cosmos DB; review your key rotation policy -- regular rotation reduces risk even if a leak occurs; consider using Azure AD authentication instead of traditional keys where possible, as an extra layer.\n\n## Source\n\nSecurityWeek — [Critical Flaw Led to Azure Cosmos DB Pwnage](https://www.securityweek.com/critical-flaw-led-to-azure-cosmos-db-pwnage/)"
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "news-updates",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-01",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "azure",
+      "cloud-security",
+      "news"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0073",
+    "slug": "azure-cli-password-spray-campaign",
+    "title": {
+      "ar": "حملة رش كلمات مرور ضخمة تستهدف Azure CLI",
+      "en": "Massive Password Spray Campaign Targeting Azure CLI"
+    },
+    "excerpt": {
+      "ar": "محاولات دخول آلية واسعة النطاق ضد حسابات Azure عن طريق أداة سطر الأوامر.",
+      "en": "Large-scale automated login attempts against Azure accounts via the command-line tool."
+    },
+    "body": {
+      "ar": "## الخبر\n\nSecurityWeek رصدت حملة رش كلمات مرور (Password Spraying) واسعة النطاق تستهدف حسابات Azure عن طريق Azure CLI — أسلوب هجوم بيجرّب كلمة مرور واحدة شائعة على عدد ضخم من الحسابات، بدل تجربة كلمات كتيرة على حساب واحد (اللي بيتفادى قيود القفل بعد محاولات فاشلة متكررة).\n\n## ليه ده مهم\n\nAzure CLI أداة إدارية بصلاحيات واسعة — حساب واحد ضعيف بدون MFA يقدر يبقى نقطة دخول لبيئة سحابية كاملة.\n\n## إيه اللي تعمله دلوقتي\n\n1. فعّل المصادقة الثنائية (MFA) على كل حساب له وصول لـAzure من غير استثناء، خصوصًا حسابات لها صلاحيات CLI.\n2. راجع سياسة قفل الحساب (Account Lockout) وتنبيهات محاولات الدخول الفاشلة المتكررة.\n3. قيّد الوصول لـAzure CLI جغرافيًا أو عبر شبكات موثوقة بس لو ممكن (Conditional Access).\n\n## المصدر\n\nSecurityWeek — [Massive Password Spray Campaign Targeting Azure CLI](https://www.securityweek.com/massive-password-spray-campaign-targeting-azure-cli/)",
+      "en": "## The news\n\nSecurityWeek reported a large-scale password spraying campaign targeting Azure accounts via Azure CLI -- an attack style that tries one common password against many accounts, rather than many passwords against one (avoiding lockout thresholds triggered by repeated failed attempts).\n\n## Why this matters\n\nAzure CLI is an administrative tool with broad privileges -- one weak account without MFA can become an entry point into an entire cloud environment.\n\n## What to do now\n\nEnable MFA on every account with Azure access without exception, especially accounts with CLI privileges; review account lockout policy and alerts for repeated failed logins; restrict Azure CLI access geographically or to trusted networks only where possible (Conditional Access).\n\n## Source\n\nSecurityWeek — [Massive Password Spray Campaign Targeting Azure CLI](https://www.securityweek.com/massive-password-spray-campaign-targeting-azure-cli/)"
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "news-updates",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-01",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "azure",
+      "password-spray",
+      "news",
+      "identity"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0074",
+    "slug": "ruby-on-rails-critical-rce-patch",
+    "title": {
+      "ar": "Ruby on Rails تُصلح ثغرة حرجة تسمح بتنفيذ كود عن بُعد",
+      "en": "Ruby on Rails Patches a Critical Remote Code Execution Vulnerability"
+    },
+    "excerpt": {
+      "ar": "الثغرة قابلة للاستغلال من مهاجم غير مُصادَق عليه لقراءة ملفات عشوائية وربما تنفيذ كود.",
+      "en": "The flaw is exploitable by an unauthenticated attacker to read arbitrary files and potentially achieve code execution."
+    },
+    "body": {
+      "ar": "## الخبر\n\nحسب SecurityWeek (1 أغسطس 2026)، فريق Ruby on Rails أصدر تحديثًا لثغرة حرجة قابلة للاستغلال من مهاجم **غير مُصادَق عليه أصلًا** (Unauthenticated) — يعني مش محتاج حساب أو صلاحية أي حاجة عشان يحاول يستغلها. الثغرة ممكن تُستخدم لقراءة ملفات عشوائية من السيرفر، ومحتمل تنفيذ كود عن بُعد (RCE).\n\n## ليه ده مهم\n\nRuby on Rails فريمورك واسع الانتشار لتطبيقات الويب — أي تطبيق مبني عليه ومش محدّث معرّض للخطر مباشرة من الإنترنت.\n\n## إيه اللي تعمله دلوقتي\n\n1. حدّث أي تطبيق Rails لآخر إصدار مُصلَّح فورًا — الأولوية قصوى لأن الثغرة غير مُصادَق عليها.\n2. راجع سجلات الوصول للتطبيق لأي محاولات وصول غير معتادة لملفات أو مسارات غريبة.\n3. لو التحديث الفوري مش ممكن، فعّل قواعد WAF مؤقتة تقيّد الأنماط المشبوهة المرتبطة بالثغرة.\n\n## المصدر\n\nSecurityWeek — [Ruby on Rails Patches Critical Vulnerability](https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/)",
+      "en": "## The news\n\nPer SecurityWeek (August 1, 2026), the Ruby on Rails team shipped a fix for a critical vulnerability exploitable by a completely unauthenticated attacker -- no account or privilege needed to attempt exploitation. The flaw can be used to read arbitrary files from the server, and potentially achieve remote code execution (RCE).\n\n## Why this matters\n\nRuby on Rails is a widely used web application framework -- any unpatched app built on it is directly exposed to the internet.\n\n## What to do now\n\nUpdate any Rails application to the latest patched version immediately -- top priority since the flaw is unauthenticated; review app access logs for unusual attempts to reach odd files or paths; if immediate updating isn't possible, enable temporary WAF rules restricting suspicious patterns tied to the flaw.\n\n## Source\n\nSecurityWeek — [Ruby on Rails Patches Critical Vulnerability](https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/)"
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "news-updates",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-01",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ruby-on-rails",
+      "rce",
+      "news",
+      "web-security"
     ],
     "isFeatured": false,
     "isTrending": false

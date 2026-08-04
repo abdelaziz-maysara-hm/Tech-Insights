@@ -11,7 +11,7 @@ import { generateVideos } from './videos.mjs';
 import { generateComparisons } from './comparisons.mjs';
 import { generateCollections } from './collections.mjs';
 import { generatePages } from './pages.mjs';
-import { parseArgs, writeJson } from './utils.mjs';
+import { parseArgs, writeJson, writeJsonIndex } from './utils.mjs';
 import { uniquenessReport, validateAll } from './validation.mjs';
 import { loadExisting, mergeLists, nextNumericSuffix } from './merge.mjs';
 
@@ -123,6 +123,10 @@ async function run() {
     if (args.apply) {
       const live = await writeJson(`${name}.json`, items, { live: true });
       console.log(`  ↳ applied to live: ${live.path}`);
+      if (name === 'articles') {
+        const index = await writeJsonIndex('articles-index.json', items, ['body'], { live: true });
+        console.log(`  ↳ lightweight index (no body field, for listing pages): ${index.path} (${index.bytes} bytes vs ${live.bytes} full)`);
+      }
     }
   }
 

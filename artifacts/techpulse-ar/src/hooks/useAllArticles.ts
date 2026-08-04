@@ -1,28 +1,13 @@
-import { useCallback, useEffect, useState } from 'react';
-import { Article } from '@/data/mockData';
-import adminArticlesJson from '@/content/articles.json';
+import { ArticleListItem } from '@/data/mockData';
+import articlesIndexJson from '@/content/articles-index.json';
 
 /**
- * Prefer live CMS (same data admin import writes).
- * Fallback to build-time JSON if API is unavailable.
+ * Lightweight article metadata (title, excerpt, category, etc.) WITHOUT the
+ * full body text -- safe for listing/browsing pages to import, since the
+ * body of every article never ships in their bundle. Pages that need one
+ * article's full body should use useArticleBody() (dynamic import) instead.
  */
 export function useAllArticles() {
-  const bundled = adminArticlesJson as unknown as Article[];
-  const [allArticles, setAllArticles] = useState<Article[]>(bundled);
-
-  const refresh = useCallback(() => {
-    fetch('/api/cms/public/articles')
-      .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
-      .then((data) => {
-        const items = Array.isArray(data?.items) ? (data.items as Article[]) : [];
-        if (items.length > 0) setAllArticles(items);
-      })
-      .catch(() => {});
-  }, []);
-
-  useEffect(() => {
-    refresh();
-  }, [refresh]);
-
-  return { allArticles, refresh };
+  const allArticles = articlesIndexJson as unknown as ArticleListItem[];
+  return { allArticles };
 }

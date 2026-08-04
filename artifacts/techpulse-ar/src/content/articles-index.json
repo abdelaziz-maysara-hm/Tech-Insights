@@ -1,0 +1,2297 @@
+[
+  {
+    "id": "art-gen-0001",
+    "slug": "2fa-practical-guide",
+    "title": {
+      "ar": "المصادقة الثنائية (2FA): دليل عملي لحماية حساباتك",
+      "en": "Two-Factor Authentication (2FA): A Practical Guide"
+    },
+    "excerpt": {
+      "ar": "الفرق بين تطبيق المصادقة وSMS، وكيفية تفعيل 2FA وحفظ رموز الاسترداد.",
+      "en": "Authenticator apps vs SMS, how to enable 2FA, and store recovery codes safely."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2022-01-01",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "2fa",
+      "security",
+      "mfa"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0002",
+    "slug": "phishing-spot-before-click",
+    "title": {
+      "ar": "التصيد الاحتيالي: كيف تكتشفه قبل ما تضغط",
+      "en": "Phishing: Spot It Before You Click"
+    },
+    "excerpt": {
+      "ar": "علامات الرسالة المزيفة، روابط ملغومة، وماذا تفعل لو ضغطت بالخطأ.",
+      "en": "Signs of fake messages, malicious links, and what to do after a bad click."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2022-03-08",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "phishing",
+      "email",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0003",
+    "slug": "palo-alto-security-policy-basics",
+    "title": {
+      "ar": "أساسيات Security Policy في Palo Alto — من أين تبدأ؟",
+      "en": "Palo Alto Security Policy Basics — Where to Start"
+    },
+    "excerpt": {
+      "ar": "ترتيب عملي لبناء السياسات: Zones وApp-ID وأشهر الأخطاء.",
+      "en": "Practical order for building policies: zones, App-ID, and common mistakes."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2022-06-15",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "palo-alto",
+      "ngfw",
+      "security-policy"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0004",
+    "slug": "forcepoint-ssl-vpn-radius",
+    "title": {
+      "ar": "إعداد Forcepoint SSL VPN مع RADIUS — خطوات وأشهر الأخطاء",
+      "en": "Forcepoint SSL VPN with RADIUS — Setup and Common Errors"
+    },
+    "excerpt": {
+      "ar": "دليل عملي لربط Forcepoint NGFW SSL VPN مع RADIUS من SMC.",
+      "en": "Practical guide to connect Forcepoint NGFW SSL VPN with RADIUS from SMC."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "vpn-remote",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2022-09-22",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "forcepoint",
+      "ssl-vpn",
+      "radius"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0005",
+    "slug": "fortigate-ssl-vpn-checklist",
+    "title": {
+      "ar": "إعداد FortiGate SSL VPN بسرعة — checklist عملي",
+      "en": "FortiGate SSL VPN Quick Setup — Practical Checklist"
+    },
+    "excerpt": {
+      "ar": "خطوات مختصرة: portal وpolicy وusers وأشهر أسباب فشل الاتصال.",
+      "en": "Short checklist: portal, policy, users, and common connection failures."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "vpn-remote",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2022-11-02",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "fortinet",
+      "fortigate",
+      "ssl-vpn"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0006",
+    "slug": "password-manager-start",
+    "title": {
+      "ar": "مدير كلمات المرور: ليه تحتاجه وإزاي تبدأ",
+      "en": "Password Managers: Why You Need One and How to Start"
+    },
+    "excerpt": {
+      "ar": "بديل آمن لتكرار نفس كلمة المرور، مع خطة نقل تدريجية.",
+      "en": "A safer alternative to password reuse, with a gradual migration plan."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2023-02-09",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "passwords",
+      "security",
+      "tools"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0007",
+    "slug": "ad-powershell-daily-tasks",
+    "title": {
+      "ar": "مهام Active Directory اليومية بـ PowerShell",
+      "en": "Daily Active Directory Tasks with PowerShell"
+    },
+    "excerpt": {
+      "ar": "أوامر عملية: إنشاء مستخدم، إضافة لمجموعة، Unlock، وDisable.",
+      "en": "Practical commands: create user, add to group, unlock, disable."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2023-05-16",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "active-directory",
+      "powershell"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0008",
+    "slug": "home-router-security-basics",
+    "title": {
+      "ar": "تأمين راوتر البيت: خطوات أساسية تفرق",
+      "en": "Home Router Security: Basics That Matter"
+    },
+    "excerpt": {
+      "ar": "تغيير كلمة المرور الافتراضية، تحديث الفرموير، وعزل شبكة الضيوف.",
+      "en": "Change default passwords, update firmware, and isolate guest Wi-Fi."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2023-07-23",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "router",
+      "wifi",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0009",
+    "slug": "vpn-basics-what-it-does",
+    "title": {
+      "ar": "VPN للمبتدئين: ماذا يفعل وماذا لا يفعل؟",
+      "en": "VPN Basics: What It Does and Doesn't Do"
+    },
+    "excerpt": {
+      "ar": "تشفير الاتصال، تغيير الظاهر من العنوان، وحدود الحماية.",
+      "en": "Encryption, IP appearance, and the limits of protection."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "vpn-remote",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2023-10-03",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "vpn",
+      "privacy"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0010",
+    "slug": "windows-disk-cleanup-safe",
+    "title": {
+      "ar": "تنظيف مساحة القرص في Windows بأمان",
+      "en": "Safe Disk Cleanup on Windows"
+    },
+    "excerpt": {
+      "ar": "خطوات بسيطة لتفريغ مساحة من غير ما تمسح ملفات مهمة.",
+      "en": "Simple steps to free space without deleting important files."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2024-01-10",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "windows",
+      "disk-cleanup"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0011",
+    "slug": "student-laptop-specs",
+    "title": {
+      "ar": "مواصفات لابتوب للطالب: ماذا يكفي فعلًا؟",
+      "en": "Student Laptop Specs: What Actually Matters?"
+    },
+    "excerpt": {
+      "ar": "RAM والتخزين والشاشة والبطارية بدون مبالغة في السعر.",
+      "en": "RAM, storage, display, and battery without overspending."
+    },
+    "categoryId": "laptops",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2024-04-17",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "laptop",
+      "students"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0012",
+    "slug": "chatgpt-study-without-harm",
+    "title": {
+      "ar": "استخدام ChatGPT في المذاكرة بدون ما يضر فهمك",
+      "en": "Using ChatGPT for Studying Without Hurting Understanding"
+    },
+    "excerpt": {
+      "ar": "كيف تطلب شرحًا وتختبر نفسك بدل نسخ الإجابات.",
+      "en": "How to request explanations and self-tests instead of copied answers."
+    },
+    "categoryId": "ai",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2024-06-24",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "chatgpt",
+      "study",
+      "ai"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0013",
+    "slug": "kaspersky-security-center-tagging",
+    "title": {
+      "ar": "تنظيم الأجهزة في Kaspersky Security Center بالـ Tags",
+      "en": "Organizing Devices in Kaspersky Security Center with Tags"
+    },
+    "excerpt": {
+      "ar": "استخدام الوسوم (Tags) لتجميع الأجهزة وتسريع تطبيق السياسات في KSC.",
+      "en": "Using tags to group devices and speed up policy application in Kaspersky Security Center."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2024-09-04",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "kaspersky",
+      "endpoint",
+      "security-center"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0014",
+    "slug": "rdp-multi-user-rds-licensing",
+    "title": {
+      "ar": "تفعيل RDP متعدد المستخدمين وترخيص RDS بشكل صحيح",
+      "en": "Enabling Multi-User RDP and Licensing RDS Correctly"
+    },
+    "excerpt": {
+      "ar": "الفرق بين RDP العادي وRDS، وخطوات تفعيل الترخيص لتفادي انقطاع الجلسات.",
+      "en": "The difference between plain RDP and RDS, and how to license it properly."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "vpn-remote",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2024-12-11",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "rdp",
+      "rds",
+      "windows-server",
+      "licensing"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0015",
+    "slug": "windows-server-evaluation-to-standard",
+    "title": {
+      "ar": "تحويل Windows Server من Evaluation إلى Standard بدون إعادة تثبيت",
+      "en": "Converting Windows Server from Evaluation to Standard Without Reinstalling"
+    },
+    "excerpt": {
+      "ar": "أمر DISM اللي بيحوّل الإصدار التجريبي لمرخّص من غير ما تخسر الإعدادات.",
+      "en": "The DISM command that converts the trial edition to a licensed one without losing configuration."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-02-18",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "windows-server",
+      "dism",
+      "licensing"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0016",
+    "slug": "dns-reverse-lookup-zone-setup",
+    "title": {
+      "ar": "إعداد منطقة DNS العكسية (Reverse Lookup Zone) خطوة بخطوة",
+      "en": "Setting Up a DNS Reverse Lookup Zone Step by Step"
+    },
+    "excerpt": {
+      "ar": "ليه محتاج PTR records وإزاي تنشئها صح في بيئة Active Directory.",
+      "en": "Why you need PTR records and how to create them in an Active Directory environment."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-05-25",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "dns",
+      "active-directory",
+      "networking"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0017",
+    "slug": "group-policy-basics-for-sysadmins",
+    "title": {
+      "ar": "أساسيات Group Policy لمدير النظام الجديد",
+      "en": "Group Policy Basics for New Sysadmins"
+    },
+    "excerpt": {
+      "ar": "ترتيب تطبيق السياسات (LSDOU) وأشهر الأخطاء اللي بتسبب سلوك غير متوقع.",
+      "en": "Policy application order (LSDOU) and the common mistakes that cause unexpected behavior."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-08-05",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "group-policy",
+      "active-directory",
+      "windows-server"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0018",
+    "slug": "backup-3-2-1-rule-practical",
+    "title": {
+      "ar": "قاعدة النسخ الاحتياطي 3-2-1 بشكل عملي",
+      "en": "The 3-2-1 Backup Rule, Practically Applied"
+    },
+    "excerpt": {
+      "ar": "3 نسخ، وسيطين مختلفين، ونسخة واحدة خارج الموقع.",
+      "en": "3 copies, 2 media types, 1 offsite copy -- applied on a limited budget."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-10-12",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "backup",
+      "disaster-recovery",
+      "storage"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0019",
+    "slug": "zero-trust-explained-practically",
+    "title": {
+      "ar": "Zero Trust بدون تعقيد: إيه هو فعليًا وإزاي تبدأ",
+      "en": "Zero Trust Without the Jargon: What It Actually Is and Where to Start"
+    },
+    "excerpt": {
+      "ar": "المبدأ الأساسي وثلاث خطوات بداية واقعية.",
+      "en": "The core principle and three realistic first steps."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-19",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "zero-trust",
+      "security",
+      "network-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0020",
+    "slug": "email-security-gateway-basics",
+    "title": {
+      "ar": "بوابة أمان البريد الإلكتروني: إيه اللي بتحميه فعليًا",
+      "en": "Email Security Gateways: What They Actually Protect Against"
+    },
+    "excerpt": {
+      "ar": "الفرق بين فلترة السبام العادية وبوابة أمان بريد حقيقية.",
+      "en": "The difference between basic spam filtering and a real email security gateway."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-26",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "email-security",
+      "forcepoint",
+      "phishing"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0021",
+    "slug": "vlan-basics-why-segment",
+    "title": {
+      "ar": "أساسيات VLAN: ليه تقسّم الشبكة أصلًا؟",
+      "en": "VLAN Basics: Why Segment a Network at All?"
+    },
+    "excerpt": {
+      "ar": "الفرق بين شبكة مسطحة وشبكة مقسّمة، وخطوات إنشاء VLAN أساسي.",
+      "en": "The difference between a flat network and a segmented one, and basic VLAN setup steps."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-03-06",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "vlan",
+      "networking",
+      "segmentation"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0022",
+    "slug": "snmp-monitoring-basics",
+    "title": {
+      "ar": "أساسيات مراقبة الشبكة بـ SNMP",
+      "en": "Network Monitoring Basics with SNMP"
+    },
+    "excerpt": {
+      "ar": "إزاي تراقب حالة الأجهزة والسويتشات من غير ما تدخل كل واحد يدويًا.",
+      "en": "How to monitor device and switch health without logging into each one manually."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-05-13",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "snmp",
+      "monitoring",
+      "networking"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0023",
+    "slug": "802-1x-certificate-authentication",
+    "title": {
+      "ar": "المصادقة بالشهادات عبر 802.1X: نظرة عملية",
+      "en": "Certificate-Based Authentication with 802.1X: A Practical Look"
+    },
+    "excerpt": {
+      "ar": "إزاي تمنع أي جهاز غريب من الاتصال بالشبكة السلكية أو اللاسلكية من غير إذن.",
+      "en": "How to stop any unauthorized device from joining your wired or wireless network."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-07-20",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "802.1x",
+      "radius",
+      "authentication"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0024",
+    "slug": "log-retention-siem-basics",
+    "title": {
+      "ar": "الاحتفاظ بالسجلات (Log Retention): كام يوم كفاية فعلًا؟",
+      "en": "Log Retention: How Long Is Actually Enough?"
+    },
+    "excerpt": {
+      "ar": "التوازن بين تكلفة التخزين ومتطلبات التحقيق الأمني والامتثال.",
+      "en": "Balancing storage cost against real security-investigation and compliance needs."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-09-27",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "siem",
+      "logging",
+      "compliance"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0025",
+    "slug": "windows-patch-management-strategy",
+    "title": {
+      "ar": "استراتيجية تحديث الأنظمة (Patch Management) لبيئة صغيرة",
+      "en": "A Patch Management Strategy for a Small Environment"
+    },
+    "excerpt": {
+      "ar": "إزاي توازن بين الأمان (تحديث بسرعة) والاستقرار (متكسرش حاجة) من غير أداة مؤسسية ضخمة.",
+      "en": "Balancing security (patch fast) against stability (don't break anything) without a huge enterprise tool."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-11-07",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "patch-management",
+      "windows-server",
+      "wsus"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0026",
+    "slug": "dhcp-failover-high-availability",
+    "title": {
+      "ar": "إعداد DHCP Failover لضمان استمرارية الشبكة",
+      "en": "Setting Up DHCP Failover for Network Continuity"
+    },
+    "excerpt": {
+      "ar": "ليه سيرفر DHCP واحد نقطة فشل خطيرة، وإزاي تعمل نسخة احتياطية تعمل تلقائيًا.",
+      "en": "Why a single DHCP server is a dangerous single point of failure, and how to set up automatic failover."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-14",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "dhcp",
+      "windows-server",
+      "high-availability"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0027",
+    "slug": "syslog-server-setup-basics",
+    "title": {
+      "ar": "إعداد خادم Syslog مركزي: من أين تبدأ؟",
+      "en": "Setting Up a Central Syslog Server: Where to Start?"
+    },
+    "excerpt": {
+      "ar": "تجميع سجلات كل الأجهزة (جدران حماية، سويتشات) في مكان واحد قابل للبحث.",
+      "en": "Collecting logs from every device (firewalls, switches) into one searchable place."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-21",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "syslog",
+      "logging",
+      "monitoring"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0028",
+    "slug": "network-segmentation-compliance",
+    "title": {
+      "ar": "تقسيم الشبكة لأغراض الامتثال: نظرة عملية مبسطة",
+      "en": "Network Segmentation for Compliance: A Simplified Practical View"
+    },
+    "excerpt": {
+      "ar": "ليه لوائح زي PCI-DSS بتطلب عزل الأنظمة الحساسة، وإزاي تبدأ عمليًا.",
+      "en": "Why regulations like PCI-DSS require isolating sensitive systems, and how to start practically."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-01",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "compliance",
+      "segmentation",
+      "pci-dss"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0029",
+    "slug": "hyper-v-vs-checkpoints-basics",
+    "title": {
+      "ar": "استخدام Checkpoints في Hyper-V بأمان",
+      "en": "Using Hyper-V Checkpoints Safely"
+    },
+    "excerpt": {
+      "ar": "الفرق بين Checkpoint ونسخة احتياطية حقيقية، ومتى تستخدم كل واحدة.",
+      "en": "The difference between a checkpoint and a real backup, and when to use each."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-07-08",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "hyper-v",
+      "virtualization",
+      "backup"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0030",
+    "slug": "mfa-fatigue-attacks-explained",
+    "title": {
+      "ar": "هجمات إرهاق المصادقة الثنائية (MFA Fatigue): إزاي تحمي فريقك",
+      "en": "MFA Fatigue Attacks: How to Protect Your Team"
+    },
+    "excerpt": {
+      "ar": "لما المهاجم يقصف المستخدم بطلبات موافقة متكررة لحد ما يوافق بالغلط.",
+      "en": "When an attacker bombards a user with repeated approval prompts until they accidentally approve."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-08-15",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "mfa",
+      "phishing",
+      "identity"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0031",
+    "slug": "windows-event-viewer-security-logs",
+    "title": {
+      "ar": "قراءة سجلات الأمان في Event Viewer بذكاء",
+      "en": "Reading Windows Security Logs in Event Viewer Smartly"
+    },
+    "excerpt": {
+      "ar": "أهم Event IDs اللي لازم تنتبه لها من غير ما تغرق في آلاف السجلات.",
+      "en": "The key Event IDs worth watching, without drowning in thousands of log entries."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-09-22",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "event-viewer",
+      "windows-security",
+      "logging"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0032",
+    "slug": "wifi-6-vs-wifi-5-practical",
+    "title": {
+      "ar": "Wi-Fi 6 مقابل Wi-Fi 5: هل الترقية تستاهل فعلًا؟",
+      "en": "Wi-Fi 6 vs Wi-Fi 5: Is the Upgrade Actually Worth It?"
+    },
+    "excerpt": {
+      "ar": "الفرق الحقيقي في الأداء لما يكون عندك أجهزة كتيرة متصلة بالشبكة بنفس الوقت.",
+      "en": "The real performance difference when many devices are connected to the network simultaneously."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-11-02",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "wifi",
+      "networking",
+      "hardware"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0033",
+    "slug": "dark-web-monitoring-basics",
+    "title": {
+      "ar": "مراقبة الديب/دارك ويب لبيانات شركتك: هل تحتاجها؟",
+      "en": "Dark Web Monitoring for Your Company's Data: Do You Need It?"
+    },
+    "excerpt": {
+      "ar": "إيه اللي بتعمله خدمات مراقبة الدارك ويب فعليًا، ومتى تستاهل التكلفة.",
+      "en": "What dark web monitoring services actually do, and when the cost is worth it."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-12-09",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "dark-web",
+      "threat-intelligence",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0034",
+    "slug": "ssd-vs-hdd-server-storage",
+    "title": {
+      "ar": "SSD مقابل HDD في تخزين السيرفرات: مش مجرد سرعة",
+      "en": "SSD vs HDD for Server Storage: It's Not Just About Speed"
+    },
+    "excerpt": {
+      "ar": "عوامل تانية غير السرعة لازم تاخدها في الاعتبار وقت اختيار تخزين السيرفر.",
+      "en": "Factors beyond speed you should weigh when choosing server storage."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-02-16",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "storage",
+      "ssd",
+      "server-hardware"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0035",
+    "slug": "least-privilege-principle-practical",
+    "title": {
+      "ar": "مبدأ أقل الصلاحيات (Least Privilege): تطبيق عملي بدون فوضى",
+      "en": "The Least Privilege Principle: A Practical Rollout Without Chaos"
+    },
+    "excerpt": {
+      "ar": "إزاي تقلل صلاحيات المستخدمين من غير ما توقف شغل حد فجأة.",
+      "en": "How to trim user permissions without suddenly blocking someone's legitimate work."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-23",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "least-privilege",
+      "identity",
+      "access-control"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0036",
+    "slug": "ransomware-first-hour-response",
+    "title": {
+      "ar": "أول ساعة بعد اكتشاف Ransomware: إيه تعمل بالظبط",
+      "en": "The First Hour After Discovering Ransomware: What to Actually Do"
+    },
+    "excerpt": {
+      "ar": "خطوات فورية قبل ما تفكر في الاستعادة، عشان متزودش الضرر.",
+      "en": "Immediate steps before even thinking about recovery, so you don't make things worse."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-09-03",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ransomware",
+      "incident-response",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0037",
+    "slug": "cloud-cost-optimization-basics",
+    "title": {
+      "ar": "تقليل فاتورة السحابة: خطوات عملية قبل ما تتفاجئ",
+      "en": "Cutting Your Cloud Bill: Practical Steps Before the Surprise Invoice"
+    },
+    "excerpt": {
+      "ar": "أشهر أسباب ارتفاع فاتورة AWS/Azure غير متوقع، وإزاي تتحكم فيها.",
+      "en": "The most common causes of an unexpectedly high AWS/Azure bill, and how to control them."
+    },
+    "categoryId": "technology",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-11-10",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "cloud",
+      "aws",
+      "cost-optimization"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0038",
+    "slug": "printer-security-overlooked-risk",
+    "title": {
+      "ar": "أمان الطابعات: الخطر اللي بينسوه أغلب مديري الأنظمة",
+      "en": "Printer Security: The Risk Most Sysadmins Forget"
+    },
+    "excerpt": {
+      "ar": "الطابعات الشبكية بتبقى نقطة دخول سهلة لو معندهاش نفس مستوى الاهتمام الأمني.",
+      "en": "Networked printers become an easy entry point when they don't get the same security attention as everything else."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-12-17",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "printers",
+      "endpoint-security",
+      "iot"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0039",
+    "slug": "browser-isolation-basics",
+    "title": {
+      "ar": "عزل المتصفح (Browser Isolation): طبقة حماية إضافية بسيطة",
+      "en": "Browser Isolation: A Simple Extra Protection Layer"
+    },
+    "excerpt": {
+      "ar": "إزاي تمنع كود خبيث من موقع مشبوه يوصل لجهاز المستخدم فعليًا.",
+      "en": "How to keep malicious code from a suspicious site from ever actually reaching the user's device."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-24",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "browser-isolation",
+      "phishing",
+      "endpoint-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0040",
+    "slug": "shadow-it-risk-management",
+    "title": {
+      "ar": "الـ Shadow IT: لما الموظفين يستخدموا أدوات مش معتمدة",
+      "en": "Shadow IT: When Employees Use Unapproved Tools"
+    },
+    "excerpt": {
+      "ar": "ليه بيحصل، وإيه الفرق بين المنع الكامل والإدارة الذكية للمخاطر.",
+      "en": "Why it happens, and the difference between total prohibition and smart risk management."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-04",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "shadow-it",
+      "risk-management",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0041",
+    "slug": "usb-device-control-policy",
+    "title": {
+      "ar": "سياسة التحكم في أجهزة USB: أمان بدون تعطيل الشغل",
+      "en": "USB Device Control Policy: Security Without Blocking Work"
+    },
+    "excerpt": {
+      "ar": "بدائل عملية غير \"امنع كل حاجة\" اللي بتوقف شغل ناس محتاجين USB فعليًا.",
+      "en": "Practical alternatives to 'block everything', which stops people who genuinely need USB access."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-11",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "usb",
+      "endpoint-security",
+      "group-policy"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0042",
+    "slug": "certificate-expiry-monitoring",
+    "title": {
+      "ar": "مراقبة انتهاء صلاحية الشهادات: خطأ بسيط بيوقف مواقع كاملة",
+      "en": "Certificate Expiry Monitoring: A Simple Mistake That Takes Down Whole Sites"
+    },
+    "excerpt": {
+      "ar": "ليه شهادة SSL منتهية أكتر خطأ محرج ومتكرر، وإزاي تتجنبه تمامًا.",
+      "en": "Why an expired SSL certificate is the most embarrassing and common mistake, and how to avoid it entirely."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-18",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ssl",
+      "certificates",
+      "monitoring"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0043",
+    "slug": "incident-response-tabletop-exercises",
+    "title": {
+      "ar": "تمارين المحاكاة (Tabletop Exercises): تدرّب قبل ما يحصل فعلًا",
+      "en": "Tabletop Exercises: Practice Before It Actually Happens"
+    },
+    "excerpt": {
+      "ar": "إزاي تكتشف ثغرات خطة الاستجابة للحوادث من غير ما تنتظر حادث حقيقي.",
+      "en": "How to find gaps in your incident response plan without waiting for a real incident."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-11-25",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "incident-response",
+      "tabletop-exercise",
+      "planning"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0044",
+    "slug": "nist-password-guidelines-vs-old-rules",
+    "title": {
+      "ar": "إرشادات NIST لكلمات المرور: ليه تعقيدها ما بقاش الحل",
+      "en": "NIST Password Guidelines: Why Complexity Rules Stopped Being the Answer"
+    },
+    "excerpt": {
+      "ar": "ليه فرض تغيير الباسورد كل 90 يوم ورموز إجبارية معقدة بقت ممارسة قديمة.",
+      "en": "Why forcing password changes every 90 days and mandatory complex symbols became an outdated practice."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-12-05",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "passwords",
+      "nist",
+      "identity"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0045",
+    "slug": "network-access-control-nac-basics",
+    "title": {
+      "ar": "التحكم في الوصول للشبكة (NAC): مين يقدر يتصل أصلًا؟",
+      "en": "Network Access Control (NAC): Who's Even Allowed to Connect?"
+    },
+    "excerpt": {
+      "ar": "طبقة حماية بتتأكد من هوية وحالة الجهاز قبل ما يوصل للشبكة خالص.",
+      "en": "A protection layer that verifies device identity and health before it ever reaches the network."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-12",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "nac",
+      "network-security",
+      "access-control"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0046",
+    "slug": "cloud-vs-onprem-backup-considerations",
+    "title": {
+      "ar": "النسخ الاحتياطي السحابي مقابل المحلي: اعتبارات عملية غير التكلفة",
+      "en": "Cloud vs On-Prem Backup: Practical Considerations Beyond Cost"
+    },
+    "excerpt": {
+      "ar": "عوامل زي سرعة الاستعادة وسيادة البيانات لازم تدخل في القرار، مش بس السعر.",
+      "en": "Factors like recovery speed and data sovereignty should factor into the decision, not just price."
+    },
+    "categoryId": "technology",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-02-19",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "backup",
+      "cloud",
+      "disaster-recovery"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0047",
+    "slug": "vulnerability-scanning-vs-penetration-testing",
+    "title": {
+      "ar": "فحص الثغرات مقابل اختبار الاختراق: مش نفس الحاجة",
+      "en": "Vulnerability Scanning vs Penetration Testing: Not the Same Thing"
+    },
+    "excerpt": {
+      "ar": "لبس شائع بين الاتنين، والفرق الحقيقي في العمق والهدف.",
+      "en": "A common confusion between the two, and the real difference in depth and goal."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-26",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "penetration-testing",
+      "vulnerability-scanning",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0048",
+    "slug": "dns-security-filtering-dnssec",
+    "title": {
+      "ar": "أمان DNS: من فلترة المواقع الضارة لـ DNSSEC",
+      "en": "DNS Security: From Malicious Site Filtering to DNSSEC"
+    },
+    "excerpt": {
+      "ar": "طبقة حماية سهلة التطبيق وكتير من الفرق بتتجاهلها.",
+      "en": "An easy-to-implement protection layer that many teams overlook."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-06",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "dns",
+      "dnssec",
+      "network-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0049",
+    "slug": "bitlocker-disk-encryption-basics",
+    "title": {
+      "ar": "تشفير الأقراص بـ BitLocker: أساسيات لازم تعرفها",
+      "en": "Disk Encryption with BitLocker: Basics You Need to Know"
+    },
+    "excerpt": {
+      "ar": "لو لابتوب اتسرق، BitLocker بيمنع اللي سرقه من قراءة أي ملف من غير مفتاح فك التشفير.",
+      "en": "If a laptop is stolen, BitLocker stops the thief from reading any file without the decryption key."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-13",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "bitlocker",
+      "encryption",
+      "windows-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0050",
+    "slug": "windows-firewall-advanced-rules",
+    "title": {
+      "ar": "قواعد Windows Firewall المتقدمة: أكتر من مجرد تشغيل/إيقاف",
+      "en": "Advanced Windows Firewall Rules: More Than Just On/Off"
+    },
+    "excerpt": {
+      "ar": "إزاي تستخدم جدار الحماية المدمج في Windows بذكاء بدل ما تعتمد على الإعدادات الافتراضية بس.",
+      "en": "How to use Windows' built-in firewall intelligently instead of relying on default settings alone."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-12-20",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "windows-firewall",
+      "network-security",
+      "windows"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0051",
+    "slug": "phishing-simulation-training-programs",
+    "title": {
+      "ar": "برامج محاكاة التصيد الإلكتروني: هل فعليًا بتقلل المخاطر؟",
+      "en": "Phishing Simulation Training Programs: Do They Actually Reduce Risk?"
+    },
+    "excerpt": {
+      "ar": "إزاي تصمم برنامج محاكاة تصيد يعلّم الموظفين بدل ما يخليهم يحسوا إنهم متهمين.",
+      "en": "How to design a phishing simulation program that educates employees instead of making them feel accused."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-27",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "phishing",
+      "security-awareness",
+      "training"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0052",
+    "slug": "cross-site-scripting-xss-basics",
+    "title": {
+      "ar": "ثغرات XSS: إزاي موقع بسيط يقدر يسرق بيانات المستخدم",
+      "en": "XSS Vulnerabilities: How a Simple Site Can Steal User Data"
+    },
+    "excerpt": {
+      "ar": "شرح مبسط لأشهر ثغرة في تطبيقات الويب، ولماذا تصفية المدخلات مش رفاهية.",
+      "en": "A simplified explanation of the most common web app vulnerability, and why input sanitization isn't optional."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-02-07",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "xss",
+      "web-security",
+      "owasp"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0053",
+    "slug": "windows-server-core-vs-desktop-experience",
+    "title": {
+      "ar": "Windows Server Core مقابل Desktop Experience: أيهما تختار؟",
+      "en": "Windows Server Core vs Desktop Experience: Which Should You Choose?"
+    },
+    "excerpt": {
+      "ar": "التوزيع بدون واجهة رسومية بيوفر موارد ويقلل مساحة الهجوم — لكن هل يستاهل التعقيد الإضافي؟",
+      "en": "The GUI-less install saves resources and reduces attack surface -- but is the extra complexity worth it?"
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-14",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "windows-server",
+      "server-core",
+      "powershell"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0054",
+    "slug": "api-key-management-best-practices",
+    "title": {
+      "ar": "إدارة مفاتيح API بأمان: أخطاء شائعة وحلول بسيطة",
+      "en": "Secure API Key Management: Common Mistakes and Simple Fixes"
+    },
+    "excerpt": {
+      "ar": "ليه رفع مفتاح API على GitHub بالغلط أشهر حادثة أمان بيقع فيها المطورين، وإزاي تتجنبها.",
+      "en": "Why accidentally pushing an API key to GitHub is the most common developer security incident, and how to avoid it."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-21",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "api-security",
+      "secrets-management",
+      "developer-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0055",
+    "slug": "physical-security-server-room-basics",
+    "title": {
+      "ar": "الأمان الفيزيائي لغرفة السيرفرات: أساسيات بيتم تجاهلها",
+      "en": "Physical Security for the Server Room: Basics That Get Overlooked"
+    },
+    "excerpt": {
+      "ar": "كل الحماية الرقمية مالهاش قيمة لو أي حد يقدر يدخل غرفة السيرفر فعليًا.",
+      "en": "All the digital protection means little if anyone can physically walk into the server room."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-01",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "physical-security",
+      "server-room",
+      "infrastructure"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0056",
+    "slug": "supply-chain-attacks-third-party-risk",
+    "title": {
+      "ar": "هجمات سلسلة التوريد: لما الخطر بييجي من مورّد موثوق",
+      "en": "Supply Chain Attacks: When the Risk Comes from a Trusted Vendor"
+    },
+    "excerpt": {
+      "ar": "ليه فحص أمان الموردين بقى ضروري، مش مجرد إجراء بيروقراطي.",
+      "en": "Why vendor security assessments became essential, not just bureaucratic paperwork."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-08",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "supply-chain",
+      "third-party-risk",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0057",
+    "slug": "container-image-security-scanning",
+    "title": {
+      "ar": "فحص أمان صور الحاويات (Container Images) قبل النشر",
+      "en": "Scanning Container Image Security Before Deployment"
+    },
+    "excerpt": {
+      "ar": "صورة Docker جاهزة ممكن تحمل ثغرات موروثة من غير ما تلاحظ.",
+      "en": "A ready-made Docker image can carry inherited vulnerabilities without you noticing."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2025-12-15",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "containers",
+      "docker",
+      "devsecops"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0058",
+    "slug": "guest-wifi-network-isolation",
+    "title": {
+      "ar": "عزل شبكة الضيوف (Guest Wi-Fi): إعداد بسيط بفايدة كبيرة",
+      "en": "Guest Wi-Fi Isolation: A Simple Setup with a Big Payoff"
+    },
+    "excerpt": {
+      "ar": "ليه ضيف أو زائر معندوش وصول لنفس شبكة الموظفين الداخلية.",
+      "en": "Why a guest or visitor shouldn't have access to the same internal employee network."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-01-22",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "wifi",
+      "network-segmentation",
+      "guest-network"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0059",
+    "slug": "spf-dkim-dmarc-email-basics",
+    "title": {
+      "ar": "SPF وDKIM وDMARC: إزاي تمنع حد ينتحل دومين إيميلك",
+      "en": "SPF, DKIM, and DMARC: How to Stop Someone Spoofing Your Email Domain"
+    },
+    "excerpt": {
+      "ar": "ثلاث سجلات DNS بسيطة بتحمي دومينك من إيميلات مزوّرة باسمك.",
+      "en": "Three simple DNS records that protect your domain from emails forged in your name."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-02-02",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "email-security",
+      "dmarc",
+      "spf",
+      "dkim"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0060",
+    "slug": "cyber-insurance-what-it-covers",
+    "title": {
+      "ar": "التأمين ضد المخاطر السيبرانية: إيه اللي بيغطيه فعليًا؟",
+      "en": "Cyber Insurance: What Does It Actually Cover?"
+    },
+    "excerpt": {
+      "ar": "قبل ما تشتري بوليصة، افهم الفرق بين اللي متوقع إنه مغطى واللي فعلًا مكتوب في العقد.",
+      "en": "Before buying a policy, understand the gap between what you assume is covered and what's actually written in the contract."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-09",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "cyber-insurance",
+      "risk-management",
+      "compliance"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0061",
+    "slug": "it-change-management-process-basics",
+    "title": {
+      "ar": "عملية إدارة التغيير في IT: ليه أي تعديل محتاج توثيق",
+      "en": "IT Change Management: Why Every Change Needs Documentation"
+    },
+    "excerpt": {
+      "ar": "تعديل بسيط بدون توثيق ممكن يسبب مشكلة محدش يعرف سببها بعد أسابيع.",
+      "en": "A simple undocumented change can cause a problem nobody can trace weeks later."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-16",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "change-management",
+      "it-operations",
+      "documentation"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0062",
+    "slug": "data-classification-basics",
+    "title": {
+      "ar": "تصنيف البيانات: مش كل الملفات محتاجة نفس مستوى الحماية",
+      "en": "Data Classification: Not Every File Needs the Same Protection Level"
+    },
+    "excerpt": {
+      "ar": "خطوة بسيطة بتخلي جهود الحماية تتركّز على اللي فعلًا محتاج حماية.",
+      "en": "A simple step that focuses protection effort on what actually needs it."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-23",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "data-classification",
+      "compliance",
+      "governance"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0063",
+    "slug": "mfa-methods-compared-sms-app-hardware",
+    "title": {
+      "ar": "طرق المصادقة الثنائية: SMS مقابل تطبيق مقابل مفتاح مادي",
+      "en": "MFA Methods Compared: SMS vs App vs Hardware Key"
+    },
+    "excerpt": {
+      "ar": "مش كل أنواع المصادقة الثنائية بنفس مستوى الأمان — الفروق مهمة.",
+      "en": "Not all MFA types offer the same security level -- the differences matter."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-03",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "mfa",
+      "authentication",
+      "identity"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0064",
+    "slug": "sql-injection-basics-explained",
+    "title": {
+      "ar": "حقن SQL: ليه سطر كود واحد ضعيف يقدر يسرّب قاعدة بيانات كاملة",
+      "en": "SQL Injection: How One Weak Line of Code Can Leak an Entire Database"
+    },
+    "excerpt": {
+      "ar": "شرح مبسط لثغرة قديمة لسه شائعة جدًا، وإزاي تتجنبها من الأساس.",
+      "en": "A simplified explanation of an old vulnerability that's still very common, and how to avoid it from the ground up."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-02-10",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "sql-injection",
+      "web-security",
+      "owasp"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0065",
+    "slug": "windows-task-scheduler-automation",
+    "title": {
+      "ar": "أتمتة المهام بـ Task Scheduler: أكتر من مجرد تذكيرات",
+      "en": "Task Automation with Task Scheduler: More Than Just Reminders"
+    },
+    "excerpt": {
+      "ar": "إزاي تستخدم أداة مدمجة في Windows لأتمتة مهام إدارية متكررة بدون سكريبتات معقدة.",
+      "en": "How to use a built-in Windows tool to automate repetitive admin tasks without complex scripting."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-17",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "task-scheduler",
+      "automation",
+      "windows"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0066",
+    "slug": "insider-threat-detection-basics",
+    "title": {
+      "ar": "التهديد الداخلي (Insider Threat): مش كل خطر بييجي من برة",
+      "en": "Insider Threats: Not Every Risk Comes from Outside"
+    },
+    "excerpt": {
+      "ar": "موظف حالي أو سابق يقدر يسبب ضرر حقيقي، سواء بقصد أو بغير قصد.",
+      "en": "A current or former employee can cause real damage, whether intentionally or not."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-24",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "insider-threat",
+      "risk-management",
+      "security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0067",
+    "slug": "sd-wan-basics-explained",
+    "title": {
+      "ar": "SD-WAN بدون تعقيد: إيه اللي بيحله فعليًا",
+      "en": "SD-WAN Without the Jargon: What It Actually Solves"
+    },
+    "excerpt": {
+      "ar": "لو عندك أكتر من فرع، الطريقة التقليدية لربطهم مكلفة وغير مرنة — SD-WAN بديل عملي.",
+      "en": "If you have multiple branches, the traditional way of connecting them is costly and inflexible -- SD-WAN is a practical alternative."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-04",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "sd-wan",
+      "networking",
+      "branch-connectivity"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0068",
+    "slug": "secure-remote-work-checklist",
+    "title": {
+      "ar": "قائمة تحقق للعمل عن بُعد الآمن: 8 نقاط أساسية",
+      "en": "A Secure Remote Work Checklist: 8 Essential Points"
+    },
+    "excerpt": {
+      "ar": "قائمة عملية مختصرة تقدر تراجعها مع أي موظف عن بُعد جديد.",
+      "en": "A short, practical list you can review with any new remote employee."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-11",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "remote-work",
+      "security-checklist",
+      "vpn"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0069",
+    "slug": "windows-local-admin-password-rotation",
+    "title": {
+      "ar": "تدوير كلمة مرور المدير المحلي (LAPS): ليه مهم جدًا",
+      "en": "Local Admin Password Rotation (LAPS): Why It Matters a Lot"
+    },
+    "excerpt": {
+      "ar": "لو كل الأجهزة بنفس كلمة مرور Administrator المحلية، اختراق جهاز واحد يعني اختراق الكل.",
+      "en": "If every device shares the same local Administrator password, breaching one means breaching them all."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-18",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "laps",
+      "active-directory",
+      "windows-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0070",
+    "slug": "sonicwall-sma1000-ransomware-exploitation-2026",
+    "title": {
+      "ar": "ثغرات SonicWall الأخيرة تُستغل فعليًا في هجمات فدية",
+      "en": "Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks"
+    },
+    "excerpt": {
+      "ar": "عصابة INC Ransomware تستهدف أجهزة SonicWall SMA1000 غير المُحدَّثة للوصول الجذري والتحرك الجانبي داخل الشبكات.",
+      "en": "The INC Ransomware gang is targeting vulnerable SonicWall SMA1000 appliances for root access and lateral movement inside networks."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "news-updates",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-03",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "sonicwall",
+      "ransomware",
+      "news"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0071",
+    "slug": "n-able-n-central-cve-2026-18577-exploited",
+    "title": {
+      "ar": "ثغرة N-central (CVE-2026-18577) استُغلّت فعليًا بعد تجاوز الترقيع الأول",
+      "en": "N-central Vulnerability (CVE-2026-18577) Exploited After Bypassing an Earlier Patch"
+    },
+    "excerpt": {
+      "ar": "N-able أصدرت ترقيعًا جديدًا بعد ما اكتشف مهاجمون طريقة لتجاوز الحل الأول للثغرة.",
+      "en": "N-able issued a new patch after attackers found a way to bypass the earlier fix for the vulnerability."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "news-updates",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-03",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "n-able",
+      "rmm",
+      "news",
+      "vulnerability"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0072",
+    "slug": "azure-cosmos-db-cosmosescape-flaw",
+    "title": {
+      "ar": "ثغرة CosmosEscape في Azure Cosmos DB: كشف المفتاح الأساسي بالكامل",
+      "en": "CosmosEscape Flaw in Azure Cosmos DB Exposed Full Primary Keys"
+    },
+    "excerpt": {
+      "ar": "ثغرة حرجة سمحت بالوصول الكامل للقراءة والكتابة على حسابات Cosmos DB المتأثرة.",
+      "en": "A critical flaw allowed full read and write access to affected Cosmos DB accounts."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "news-updates",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-01",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "azure",
+      "cloud-security",
+      "news"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0073",
+    "slug": "azure-cli-password-spray-campaign",
+    "title": {
+      "ar": "حملة رش كلمات مرور ضخمة تستهدف Azure CLI",
+      "en": "Massive Password Spray Campaign Targeting Azure CLI"
+    },
+    "excerpt": {
+      "ar": "محاولات دخول آلية واسعة النطاق ضد حسابات Azure عن طريق أداة سطر الأوامر.",
+      "en": "Large-scale automated login attempts against Azure accounts via the command-line tool."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "news-updates",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-01",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "azure",
+      "password-spray",
+      "news",
+      "identity"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0074",
+    "slug": "ruby-on-rails-critical-rce-patch",
+    "title": {
+      "ar": "Ruby on Rails تُصلح ثغرة حرجة تسمح بتنفيذ كود عن بُعد",
+      "en": "Ruby on Rails Patches a Critical Remote Code Execution Vulnerability"
+    },
+    "excerpt": {
+      "ar": "الثغرة قابلة للاستغلال من مهاجم غير مُصادَق عليه لقراءة ملفات عشوائية وربما تنفيذ كود.",
+      "en": "The flaw is exploitable by an unauthenticated attacker to read arbitrary files and potentially achieve code execution."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "news-updates",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-01",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ruby-on-rails",
+      "rce",
+      "news",
+      "web-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  }
+]

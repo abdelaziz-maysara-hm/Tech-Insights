@@ -2,7 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "outputDirectory": "dist/public",
   "rewrites": [
-    { "source": "/api/cms/(.*)", "destination": "/api/cms/$1" },
     { "source": "/((?!api/|.*\\..*).*)", "destination": "/index.html" }
   ]
 }

@@ -48,10 +48,35 @@ export function youtubeWatchUrl(id: string): string {
   return `https://www.youtube.com/watch?v=${id}`;
 }
 
+/** Extract a YouTube playlist id (starts with PL/UU/FL/LL, etc.) from a bare id or full URL. */
+export function extractYouTubePlaylistId(input: string | undefined | null): string {
+  if (!input) return '';
+  const raw = input.trim();
+  if (!raw) return '';
+
+  // Already a plain playlist id
+  if (/^[\w-]{13,}$/.test(raw) && !/^[\w-]{11}$/.test(raw)) return raw;
+
+  try {
+    const url = new URL(raw.startsWith('http') ? raw : `https://${raw}`);
+    const list = url.searchParams.get('list');
+    if (list) return list;
+  } catch {
+    // not a URL
+  }
+  return '';
+}
+
 /** In-page embed URL (youtube-nocookie for slightly more privacy-friendly embed). */
 export function youtubeEmbedUrl(id: string): string {
   const clean = extractYouTubeId(id);
   return clean ? `https://www.youtube-nocookie.com/embed/${clean}` : '';
+}
+
+/** In-page playlist embed URL -- plays through the whole playlist in order. */
+export function youtubePlaylistEmbedUrl(playlistId: string): string {
+  const clean = extractYouTubePlaylistId(playlistId);
+  return clean ? `https://www.youtube-nocookie.com/embed/videoseries?list=${clean}` : '';
 }
 
 export function youtubeThumbnailUrl(id: string, quality: 'maxresdefault' | 'hqdefault' = 'maxresdefault'): string {

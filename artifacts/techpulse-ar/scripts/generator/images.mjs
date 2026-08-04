@@ -29,6 +29,7 @@ const P = {
   support: 'photo-1516321318423-f06f85e504b3',
   team: 'photo-1573164713714-d95e436ab8d6',
   payment: 'photo-1563013544-824ae1b704d3',
+  email: 'photo-1559163330-c30bac8c5031',
 };
 
 /** Theme → primary photo (device card size defaults) */
@@ -67,6 +68,7 @@ export const THEMES = {
   circuit: U(P.circuit, 400, 500),
   power: U(P.circuit, 400, 500),
   tech: U(P.circuit, 800, 450),
+  email: U(P.email, 400, 500),
 };
 
 /** Vendor / product logos for comparisons (preferred when name matches) */
@@ -118,6 +120,7 @@ const FALLBACK_PARTNER = {
   code: 'code2',
   code2: 'dev',
   windows: 'laptop',
+  console: 'gpu',
   circuit: 'tech',
   tech: 'circuit',
 };
@@ -218,6 +221,57 @@ const CAT_THEME = {
  * Pick a hero image that reflects article content.
  * Priority: explicit theme → keyword match → subcategory → category → tech fallback.
  */
+/**
+ * Themes that are visually/thematically related enough to rotate between,
+ * so articles sharing one `theme` string don't all get the exact same
+ * photo. Deterministic (hash of slug), so a given article always gets the
+ * same image on rebuild, but different articles in the same theme spread
+ * across the pool instead of colliding on one image.
+ */
+const THEME_POOLS = {
+  security: ['lock', 'cyber', 'shield', 'matrix'],
+  lock: ['lock', 'cyber', 'shield', 'matrix'],
+  cyber: ['cyber', 'lock', 'shield', 'matrix'],
+  firewall: ['shield', 'cyber', 'lock', 'matrix'],
+  shield: ['shield', 'cyber', 'lock', 'matrix'],
+  endpoint: ['shield', 'lock', 'cyber'],
+  console: ['matrix', 'cyber'],
+  ai: ['matrix', 'cyber', 'code'],
+  network: ['network', 'server', 'circuit'],
+  vpn: ['network', 'shield', 'circuit'],
+  storage: ['server', 'circuit', 'network'],
+  db: ['server', 'circuit'],
+  server: ['server', 'circuit', 'network'],
+  cpu: ['circuit', 'server'],
+  power: ['circuit', 'server'],
+  tech: ['circuit', 'network'],
+  windows: ['laptop', 'laptop2'],
+  laptop: ['laptop', 'laptop2'],
+  laptop2: ['laptop2', 'laptop'],
+  browser: ['code', 'code2'],
+  dev: ['code', 'code2'],
+  code: ['code', 'code2'],
+  linux: ['code2', 'code'],
+  cloud: ['earth', 'server'],
+  identity: ['payment', 'lock', 'email'],
+  audio: ['support', 'team'],
+};
+
+function hashToIndex(text, length) {
+  let hash = 0;
+  for (let i = 0; i < text.length; i++) {
+    hash = (hash * 31 + text.charCodeAt(i)) >>> 0;
+  }
+  return hash % length;
+}
+
+function pooledThemeImage(theme, slug) {
+  const pool = THEME_POOLS[theme];
+  if (!pool || !pool.length) return THEMES[theme] || THEMES.tech;
+  const key = pool[hashToIndex(slug || theme, pool.length)];
+  return THEMES[key] || THEMES[theme] || THEMES.tech;
+}
+
 export function resolveArticleHero({
   categoryId,
   subcategoryId,
@@ -226,7 +280,7 @@ export function resolveArticleHero({
   slug = '',
   theme,
 } = {}) {
-  if (theme && THEMES[theme]) return heroSize(THEMES[theme]);
+  if (theme && THEMES[theme]) return heroSize(pooledThemeImage(theme, slug));
 
   const hay = [
     slug,
