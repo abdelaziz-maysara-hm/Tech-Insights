@@ -1,14 +1,14 @@
 [
   {
     "id": "cmp-gen-0001",
-    "slug": "iphone-16-vs-galaxy-s25-1",
+    "slug": "iphone-16-vs-galaxy-s25",
     "title": {
       "ar": "iPhone 16 ضد Galaxy S25",
       "en": "iPhone 16 vs Galaxy S25"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين iPhone 16 و Galaxy S25 مع جدول نقاط وخلاصة واضحة.",
-      "en": "A practical comparison of iPhone 16 and Galaxy S25 with scores and a clear verdict."
+      "ar": "iPhone 16 أفضل لمن هو داخل منظومة Apple فعليًا (Mac، AirPods). Galaxy S25 أفضل لمن يريد تخصيصًا أوسع ومرونة أكبر في الكا",
+      "en": "iPhone 16 makes more sense if you are already inside the Apple ecosystem (Mac, AirPods). Galaxy S25 suits people who want deeper customizati"
     },
     "device1Name": "iPhone 16",
     "device2Name": "Galaxy S25",
@@ -18,984 +18,780 @@
     "categoryId": "comparisons",
     "subcategoryId": "phones",
     "heroImage": "https://cdn.simpleicons.org/apple/000000",
-    "overallWinner": 2,
+    "overallWinner": 1,
     "specs": {
-      "display": {
+      "spec1": {
         "label": {
-          "ar": "الشاشة / العرض",
-          "en": "Display"
+          "ar": "نظام التشغيل",
+          "en": "OS ecosystem"
         },
         "device1Value": {
-          "ar": "جيد جدًا",
-          "en": "Very good"
+          "ar": "iOS، دعم تحديثات أطول",
+          "en": "iOS, longer update support"
         },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
+          "ar": "Android + One UI، تخصيص أوسع",
+          "en": "Android + One UI, more customization"
         },
-        "device1Score": 7,
+        "device1Score": 8,
         "device2Score": 8,
-        "winner": 2
+        "winner": 0
       },
-      "performance": {
+      "spec2": {
         "label": {
-          "ar": "الأداء",
-          "en": "Performance"
+          "ar": "الكاميرا",
+          "en": "Camera"
         },
         "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
+          "ar": "ألوان متسقة، فيديو قوي",
+          "en": "Consistent colors, strong video"
         },
         "device2Value": {
-          "ar": "قوي جدًا",
-          "en": "Very strong"
+          "ar": "مرونة تكبير أعلى (تيليفوتو)",
+          "en": "Higher zoom flexibility (telephoto)"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 0
+      },
+      "spec3": {
+        "label": {
+          "ar": "نظام التطبيقات",
+          "en": "App ecosystem"
+        },
+        "device1Value": {
+          "ar": "تطبيقات iOS أولاً غالبًا",
+          "en": "Apps often launch on iOS first"
+        },
+        "device2Value": {
+          "ar": "مرونة أكبر في تثبيت مصادر خارجية",
+          "en": "More flexibility installing outside sources"
         },
         "device1Score": 8,
         "device2Score": 7,
-        "winner": 2
-      },
-      "battery": {
-        "label": {
-          "ar": "البطارية / الاستمرارية",
-          "en": "Battery / endurance"
-        },
-        "device1Value": {
-          "ar": "يوم كامل",
-          "en": "All-day"
-        },
-        "device2Value": {
-          "ar": "يوم+",
-          "en": "All-day+"
-        },
-        "device1Score": 8,
-        "device2Score": 8,
         "winner": 1
       },
-      "camera": {
+      "spec4": {
         "label": {
-          "ar": "الجودة / المرونة",
-          "en": "Quality / flexibility"
+          "ar": "التكامل مع الأجهزة الأخرى",
+          "en": "Cross-device integration"
         },
         "device1Value": {
-          "ar": "مرن",
-          "en": "Flexible"
+          "ar": "قوي جدًا مع Mac وAirPods",
+          "en": "Very strong with Mac and AirPods"
         },
         "device2Value": {
-          "ar": "ثابت",
-          "en": "Consistent"
+          "ar": "قوي مع أجهزة Samsung وWindows",
+          "en": "Strong with Samsung and Windows devices"
         },
-        "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "price": {
-        "label": {
-          "ar": "القيمة",
-          "en": "Value"
-        },
-        "device1Value": {
-          "ar": "متوسطة",
-          "en": "Fair"
-        },
-        "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
-        },
-        "device1Score": 8,
-        "device2Score": 6,
+        "device1Score": 9,
+        "device2Score": 7,
         "winner": 1
       }
     },
     "verdict": {
-      "ar": "Galaxy S25 يتفوق إجمالًا في هذه المقارنة لمعظم سيناريوهات الاستخدام.",
-      "en": "Galaxy S25 leads overall for most real-world scenarios."
+      "ar": "iPhone 16 أفضل لمن هو داخل منظومة Apple فعليًا (Mac، AirPods). Galaxy S25 أفضل لمن يريد تخصيصًا أوسع ومرونة أكبر في الكاميرا والتطبيقات.",
+      "en": "iPhone 16 makes more sense if you are already inside the Apple ecosystem (Mac, AirPods). Galaxy S25 suits people who want deeper customization and camera/app flexibility."
     }
   },
   {
     "id": "cmp-gen-0002",
-    "slug": "pixel-9-vs-nothing-phone-3-1",
+    "slug": "pixel-9-vs-nothing-phone-3",
     "title": {
       "ar": "Pixel 9 ضد Nothing Phone 3",
       "en": "Pixel 9 vs Nothing Phone 3"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين Pixel 9 و Nothing Phone 3 مع جدول نقاط وخلاصة واضحة.",
-      "en": "A practical comparison of Pixel 9 and Nothing Phone 3 with scores and a clear verdict."
+      "ar": "Pixel 9 الخيار الأضمن لكاميرا وتحديثات أطول. Nothing Phone 3 خيار جيد لمن يريد تصميمًا مختلفًا وسعرًا أقل ومستعد يتنازل",
+      "en": "Pixel 9 is the safer pick for camera quality and long-term updates. Nothing Phone 3 suits people who want a distinctive design and lower pri"
     },
     "device1Name": "Pixel 9",
     "device2Name": "Nothing Phone 3",
     "device1Image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=400&h=500&q=80",
     "device2Image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2022-04-08",
+    "date": "2022-03-08",
     "categoryId": "comparisons",
     "subcategoryId": "phones",
     "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&h=450&q=80",
-    "overallWinner": 2,
+    "overallWinner": 0,
     "specs": {
-      "display": {
+      "spec1": {
         "label": {
-          "ar": "الشاشة / العرض",
-          "en": "Display"
+          "ar": "الكاميرا الحاسوبية",
+          "en": "Computational photography"
         },
         "device1Value": {
-          "ar": "جيد جدًا",
-          "en": "Very good"
+          "ar": "من الأفضل في فئته",
+          "en": "Best-in-class for its tier"
         },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
-        },
-        "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
-          "ar": "قوي جدًا",
-          "en": "Very strong"
+          "ar": "جيدة لكن أقل نضجًا",
+          "en": "Good but less mature"
         },
         "device1Score": 9,
-        "device2Score": 8,
-        "winner": 2
-      },
-      "battery": {
-        "label": {
-          "ar": "البطارية / الاستمرارية",
-          "en": "Battery / endurance"
-        },
-        "device1Value": {
-          "ar": "يوم كامل",
-          "en": "All-day"
-        },
-        "device2Value": {
-          "ar": "يوم+",
-          "en": "All-day+"
-        },
-        "device1Score": 8,
-        "device2Score": 8,
-        "winner": 1
-      },
-      "camera": {
-        "label": {
-          "ar": "الجودة / المرونة",
-          "en": "Quality / flexibility"
-        },
-        "device1Value": {
-          "ar": "مرن",
-          "en": "Flexible"
-        },
-        "device2Value": {
-          "ar": "ثابت",
-          "en": "Consistent"
-        },
-        "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "price": {
-        "label": {
-          "ar": "القيمة",
-          "en": "Value"
-        },
-        "device1Value": {
-          "ar": "متوسطة",
-          "en": "Fair"
-        },
-        "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
-        },
-        "device1Score": 8,
         "device2Score": 6,
         "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "نظافة النظام وسرعة التحديثات",
+          "en": "Software cleanliness & updates"
+        },
+        "device1Value": {
+          "ar": "Android نظيف، تحديثات مباشرة من جوجل",
+          "en": "Clean Android, direct Google updates"
+        },
+        "device2Value": {
+          "ar": "واجهة مميزة بصريًا لكن تحديثات أبطأ",
+          "en": "Visually distinctive UI but slower updates"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "التصميم",
+          "en": "Design"
+        },
+        "device1Value": {
+          "ar": "كلاسيكي",
+          "en": "Conventional"
+        },
+        "device2Value": {
+          "ar": "مميز بصريًا (إضاءة Glyph)",
+          "en": "Visually distinctive (Glyph lighting)"
+        },
+        "device1Score": 7,
+        "device2Score": 8,
+        "winner": 2
+      },
+      "spec4": {
+        "label": {
+          "ar": "السعر",
+          "en": "Price"
+        },
+        "device1Value": {
+          "ar": "متوسط إلى مرتفع",
+          "en": "Mid-to-high"
+        },
+        "device2Value": {
+          "ar": "أقل عادة",
+          "en": "Usually lower"
+        },
+        "device1Score": 7,
+        "device2Score": 8,
+        "winner": 2
       }
     },
     "verdict": {
-      "ar": "Nothing Phone 3 يتفوق إجمالًا في هذه المقارنة لمعظم سيناريوهات الاستخدام.",
-      "en": "Nothing Phone 3 leads overall for most real-world scenarios."
+      "ar": "Pixel 9 الخيار الأضمن لكاميرا وتحديثات أطول. Nothing Phone 3 خيار جيد لمن يريد تصميمًا مختلفًا وسعرًا أقل ومستعد يتنازل شوية عن نضج الكاميرا.",
+      "en": "Pixel 9 is the safer pick for camera quality and long-term updates. Nothing Phone 3 suits people who want a distinctive design and lower price, trading off some camera maturity."
     }
   },
   {
     "id": "cmp-gen-0003",
-    "slug": "macbook-air-m3-vs-dell-xps-13-1",
+    "slug": "macbook-air-m3-vs-dell-xps-13",
     "title": {
       "ar": "MacBook Air M3 ضد Dell XPS 13",
       "en": "MacBook Air M3 vs Dell XPS 13"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين MacBook Air M3 و Dell XPS 13 مع جدول نقاط وخلاصة واضحة.",
-      "en": "A practical comparison of MacBook Air M3 and Dell XPS 13 with scores and a clear verdict."
+      "ar": "MacBook Air M3 أفضل لعمر البطارية والكفاءة إذا كنت مرتاح لنظام macOS. Dell XPS 13 أنسب لبيئة عمل تعتمد على Windows وبرام",
+      "en": "MacBook Air M3 wins on battery life and efficiency if macOS suits your workflow. Dell XPS 13 fits better in a Windows-dependent enterprise e"
     },
     "device1Name": "MacBook Air M3",
     "device2Name": "Dell XPS 13",
     "device1Image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=400&h=500&q=80",
     "device2Image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2022-08-15",
+    "date": "2022-06-15",
     "categoryId": "comparisons",
     "subcategoryId": "laptops-pcs",
     "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
-    "overallWinner": 1,
+    "overallWinner": 0,
     "specs": {
-      "display": {
+      "spec1": {
         "label": {
-          "ar": "الشاشة / العرض",
-          "en": "Display"
+          "ar": "عمر البطارية",
+          "en": "Battery life"
         },
         "device1Value": {
-          "ar": "جيد جدًا",
-          "en": "Very good"
+          "ar": "يتجاوز عادة 15 ساعة استخدام فعلي",
+          "en": "Typically exceeds 15 hours real use"
         },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
+          "ar": "جيد لكن أقل غالبًا (10-12 ساعة)",
+          "en": "Good but usually lower (10-12 hours)"
         },
         "device1Score": 9,
         "device2Score": 7,
         "winner": 1
       },
-      "performance": {
+      "spec2": {
         "label": {
-          "ar": "الأداء",
-          "en": "Performance"
+          "ar": "الأداء لكل واط",
+          "en": "Performance per watt"
         },
         "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
+          "ar": "ممتاز بفضل معالج M3",
+          "en": "Excellent thanks to the M3 chip"
         },
         "device2Value": {
-          "ar": "قوي جدًا",
-          "en": "Very strong"
+          "ar": "جيد، يعتمد على معالج Intel/AMD المختار",
+          "en": "Good, depends on the chosen Intel/AMD chip"
         },
-        "device1Score": 7,
-        "device2Score": 9,
+        "device1Score": 9,
+        "device2Score": 7,
         "winner": 1
       },
-      "battery": {
+      "spec3": {
         "label": {
-          "ar": "البطارية / الاستمرارية",
-          "en": "Battery / endurance"
+          "ar": "التوافق مع البرامج",
+          "en": "Software compatibility"
         },
         "device1Value": {
-          "ar": "يوم كامل",
-          "en": "All-day"
+          "ar": "ممتاز لتطبيقات Apple، بعض القيود على برامج Windows فقط",
+          "en": "Great for Apple apps, limits on Windows-only software"
         },
         "device2Value": {
-          "ar": "يوم+",
-          "en": "All-day+"
+          "ar": "توافق كامل مع بيئة Windows المؤسسية",
+          "en": "Full compatibility with enterprise Windows environments"
         },
-        "device1Score": 8,
-        "device2Score": 8,
-        "winner": 1
-      },
-      "camera": {
-        "label": {
-          "ar": "الجودة / المرونة",
-          "en": "Quality / flexibility"
-        },
-        "device1Value": {
-          "ar": "مرن",
-          "en": "Flexible"
-        },
-        "device2Value": {
-          "ar": "ثابت",
-          "en": "Consistent"
-        },
-        "device1Score": 8,
+        "device1Score": 6,
         "device2Score": 9,
         "winner": 2
       },
-      "price": {
+      "spec4": {
         "label": {
-          "ar": "القيمة",
-          "en": "Value"
+          "ar": "المنافذ",
+          "en": "Ports"
         },
         "device1Value": {
-          "ar": "متوسطة",
-          "en": "Fair"
+          "ar": "محدودة (USB-C فقط غالبًا)",
+          "en": "Limited (mostly USB-C only)"
         },
         "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
+          "ar": "عادة أوسع (USB-A، قارئ بطاقات أحيانًا)",
+          "en": "Usually wider (USB-A, sometimes card reader)"
         },
-        "device1Score": 8,
-        "device2Score": 6,
-        "winner": 1
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
       }
     },
     "verdict": {
-      "ar": "MacBook Air M3 الأنسب لمعظم المستخدمين من حيث القيمة والاستخدام اليومي.",
-      "en": "MacBook Air M3 is the better fit for most people on value and daily use."
+      "ar": "MacBook Air M3 أفضل لعمر البطارية والكفاءة إذا كنت مرتاح لنظام macOS. Dell XPS 13 أنسب لبيئة عمل تعتمد على Windows وبرامج مؤسسية محددة.",
+      "en": "MacBook Air M3 wins on battery life and efficiency if macOS suits your workflow. Dell XPS 13 fits better in a Windows-dependent enterprise environment with specific line-of-business software."
     }
   },
   {
     "id": "cmp-gen-0004",
-    "slug": "thinkpad-x1-vs-hp-elitebook-1",
+    "slug": "thinkpad-x1-vs-hp-elitebook",
     "title": {
       "ar": "ThinkPad X1 ضد HP EliteBook",
       "en": "ThinkPad X1 vs HP EliteBook"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين ThinkPad X1 و HP EliteBook مع جدول نقاط وخلاصة واضحة.",
-      "en": "A practical comparison of ThinkPad X1 and HP EliteBook with scores and a clear verdict."
+      "ar": "الاتنين مناسبين لبيئة الشركات بنفس المستوى تقريبًا. القرار الفعلي غالبًا بيعتمد على العقد الحالي مع المورّد ودعم ما بعد",
+      "en": "Both are genuinely close for enterprise use. The real deciding factor is usually your existing vendor contract and local after-sales support"
     },
     "device1Name": "ThinkPad X1",
     "device2Name": "HP EliteBook",
     "device1Image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&h=500&q=80",
     "device2Image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=400&h=500&q=80",
-    "date": "2022-11-22",
+    "date": "2022-08-22",
     "categoryId": "comparisons",
     "subcategoryId": "laptops-pcs",
     "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
-    "overallWinner": 2,
+    "overallWinner": 1,
     "specs": {
-      "display": {
+      "spec1": {
         "label": {
-          "ar": "الشاشة / العرض",
-          "en": "Display"
+          "ar": "لوحة المفاتيح",
+          "en": "Keyboard"
         },
         "device1Value": {
-          "ar": "جيد جدًا",
-          "en": "Very good"
+          "ar": "من أفضل لوحات المفاتيح في فئة الأعمال تاريخيًا",
+          "en": "Historically one of the best business keyboards"
         },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
+          "ar": "جيدة جدًا لكن أقل شهرة بهذا التحديد",
+          "en": "Very good but less renowned specifically for this"
         },
-        "device1Score": 7,
-        "device2Score": 8,
-        "winner": 2
-      },
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
-          "ar": "قوي جدًا",
-          "en": "Very strong"
-        },
-        "device1Score": 8,
+        "device1Score": 9,
         "device2Score": 7,
-        "winner": 2
+        "winner": 1
       },
-      "battery": {
+      "spec2": {
         "label": {
-          "ar": "البطارية / الاستمرارية",
-          "en": "Battery / endurance"
+          "ar": "المتانة العسكرية",
+          "en": "MIL-STD durability"
         },
         "device1Value": {
-          "ar": "يوم كامل",
-          "en": "All-day"
+          "ar": "يجتاز اختبارات MIL-SPEC بشكل معتاد",
+          "en": "Regularly passes MIL-SPEC testing"
         },
         "device2Value": {
-          "ar": "يوم+",
-          "en": "All-day+"
+          "ar": "يجتاز اختبارات مشابهة في أغلب الطرز",
+          "en": "Passes similar testing on most models"
         },
         "device1Score": 8,
         "device2Score": 8,
-        "winner": 1
+        "winner": 0
       },
-      "camera": {
+      "spec3": {
         "label": {
-          "ar": "الجودة / المرونة",
-          "en": "Quality / flexibility"
+          "ar": "إدارة الأسطول المؤسسي",
+          "en": "Enterprise fleet management"
         },
         "device1Value": {
-          "ar": "مرن",
-          "en": "Flexible"
+          "ar": "دعم قوي عبر Lenovo ThinkShield",
+          "en": "Strong support via Lenovo ThinkShield"
         },
         "device2Value": {
-          "ar": "ثابت",
-          "en": "Consistent"
+          "ar": "دعم قوي عبر HP Wolf Security",
+          "en": "Strong support via HP Wolf Security"
         },
         "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
+        "device2Score": 8,
+        "winner": 0
       },
-      "price": {
+      "spec4": {
         "label": {
-          "ar": "القيمة",
-          "en": "Value"
+          "ar": "التوفر والدعم المحلي",
+          "en": "Local availability & support"
         },
         "device1Value": {
-          "ar": "متوسطة",
-          "en": "Fair"
+          "ar": "واسع الانتشار في المؤسسات",
+          "en": "Widely deployed in enterprises"
         },
         "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
+          "ar": "واسع الانتشار أيضًا، خاصة القطاع الحكومي",
+          "en": "Also widely deployed, especially government sector"
         },
         "device1Score": 8,
-        "device2Score": 6,
-        "winner": 1
+        "device2Score": 8,
+        "winner": 0
       }
     },
     "verdict": {
-      "ar": "HP EliteBook يتفوق إجمالًا في هذه المقارنة لمعظم سيناريوهات الاستخدام.",
-      "en": "HP EliteBook leads overall for most real-world scenarios."
+      "ar": "الاتنين مناسبين لبيئة الشركات بنفس المستوى تقريبًا. القرار الفعلي غالبًا بيعتمد على العقد الحالي مع المورّد ودعم ما بعد البيع في بلدك، مش فرق تقني جوهري.",
+      "en": "Both are genuinely close for enterprise use. The real deciding factor is usually your existing vendor contract and local after-sales support, not a fundamental technical gap."
     }
   },
   {
     "id": "cmp-gen-0005",
-    "slug": "palo-alto-ngfw-vs-fortinet-fortigate-1",
+    "slug": "palo-alto-ngfw-vs-fortinet-fortigate",
     "title": {
       "ar": "Palo Alto NGFW ضد Fortinet FortiGate",
       "en": "Palo Alto NGFW vs Fortinet FortiGate"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين Palo Alto NGFW و Fortinet FortiGate مع جدول نقاط وخلاصة واضحة.",
-      "en": "A practical comparison of Palo Alto NGFW and Fortinet FortiGate with scores and a clear verdict."
+      "ar": "Palo Alto أقوى في عمق تحليل التطبيقات والتهديدات المتقدمة، مناسب لمؤسسات كبيرة بميزانية أعلى. FortiGate بيقدّم قيمة أعلى",
+      "en": "Palo Alto edges ahead on application-layer depth and advanced threat analysis, fitting larger enterprises with bigger budgets. FortiGate off"
     },
     "device1Name": "Palo Alto NGFW",
     "device2Name": "Fortinet FortiGate",
     "device1Image": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
     "device2Image": "https://cdn.simpleicons.org/fortinet/EE3124",
-    "date": "2023-03-02",
+    "date": "2022-11-02",
     "categoryId": "comparisons",
     "subcategoryId": "network-security",
     "heroImage": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
     "overallWinner": 2,
     "specs": {
-      "display": {
+      "spec1": {
         "label": {
-          "ar": "الشاشة / العرض",
-          "en": "Display"
+          "ar": "عمق فحص التطبيقات (App-ID)",
+          "en": "Application inspection depth"
         },
         "device1Value": {
-          "ar": "جيد جدًا",
-          "en": "Very good"
+          "ar": "App-ID من الأنضج في السوق",
+          "en": "App-ID is among the most mature in the market"
         },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
-        },
-        "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
-          "ar": "قوي جدًا",
-          "en": "Very strong"
+          "ar": "قوي، مع تكامل جيد مع باقي منتجات Fortinet",
+          "en": "Strong, with good integration across the Fortinet suite"
         },
         "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "سهولة الإدارة للفرق الصغيرة",
+          "en": "Manageability for small teams"
+        },
+        "device1Value": {
+          "ar": "منحنى تعلم أعلى نسبيًا",
+          "en": "Relatively steeper learning curve"
+        },
+        "device2Value": {
+          "ar": "واجهة FortiManager أسهل غالبًا للفرق الصغيرة",
+          "en": "FortiManager UI is often easier for small teams"
+        },
+        "device1Score": 6,
         "device2Score": 8,
         "winner": 2
       },
-      "battery": {
+      "spec3": {
         "label": {
-          "ar": "البطارية / الاستمرارية",
-          "en": "Battery / endurance"
+          "ar": "التكلفة الإجمالية",
+          "en": "Total cost of ownership"
         },
         "device1Value": {
-          "ar": "يوم كامل",
-          "en": "All-day"
+          "ar": "مرتفعة عادة (تراخيص + دعم)",
+          "en": "Usually higher (licensing + support)"
         },
         "device2Value": {
-          "ar": "يوم+",
-          "en": "All-day+"
+          "ar": "أقل غالبًا لنفس مستوى الحماية",
+          "en": "Usually lower for a comparable protection level"
+        },
+        "device1Score": 5,
+        "device2Score": 8,
+        "winner": 2
+      },
+      "spec4": {
+        "label": {
+          "ar": "الأداء تحت فحص SSL الكامل",
+          "en": "Performance under full SSL inspection"
+        },
+        "device1Value": {
+          "ar": "قوي على الأجهزة المخصصة لهذا الحمل",
+          "en": "Strong on appliances sized for this load"
+        },
+        "device2Value": {
+          "ar": "قوي أيضًا بفضل معالجات SPU المخصصة",
+          "en": "Also strong thanks to dedicated SPU processors"
         },
         "device1Score": 8,
         "device2Score": 8,
-        "winner": 1
-      },
-      "camera": {
-        "label": {
-          "ar": "الجودة / المرونة",
-          "en": "Quality / flexibility"
-        },
-        "device1Value": {
-          "ar": "مرن",
-          "en": "Flexible"
-        },
-        "device2Value": {
-          "ar": "ثابت",
-          "en": "Consistent"
-        },
-        "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "price": {
-        "label": {
-          "ar": "القيمة",
-          "en": "Value"
-        },
-        "device1Value": {
-          "ar": "متوسطة",
-          "en": "Fair"
-        },
-        "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
-        },
-        "device1Score": 8,
-        "device2Score": 6,
-        "winner": 1
+        "winner": 0
       }
     },
     "verdict": {
-      "ar": "Fortinet FortiGate يتفوق إجمالًا في هذه المقارنة لمعظم سيناريوهات الاستخدام.",
-      "en": "Fortinet FortiGate leads overall for most real-world scenarios."
+      "ar": "Palo Alto أقوى في عمق تحليل التطبيقات والتهديدات المتقدمة، مناسب لمؤسسات كبيرة بميزانية أعلى. FortiGate بيقدّم قيمة أعلى مقابل السعر وإدارة أسهل، مناسب أكتر للشركات المتوسطة.",
+      "en": "Palo Alto edges ahead on application-layer depth and advanced threat analysis, fitting larger enterprises with bigger budgets. FortiGate offers stronger value for the price and easier management, fitting mid-size organizations better."
     }
   },
   {
     "id": "cmp-gen-0006",
-    "slug": "palo-alto-ngfw-vs-forcepoint-ngfw-1",
+    "slug": "palo-alto-ngfw-vs-forcepoint-ngfw",
     "title": {
       "ar": "Palo Alto NGFW ضد Forcepoint NGFW",
       "en": "Palo Alto NGFW vs Forcepoint NGFW"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين Palo Alto NGFW و Forcepoint NGFW مع جدول نقاط وخلاصة واضحة.",
-      "en": "A practical comparison of Palo Alto NGFW and Forcepoint NGFW with scores and a clear verdict."
+      "ar": "Palo Alto أفضل لو أولويتك أكبر مجتمع دعم وموارد تدريب متاحة. Forcepoint خيار قوي لو DLP ومنع تسريب البيانات أولوية حقيقي",
+      "en": "Palo Alto is the safer choice if you prioritize the largest support community and training resources. Forcepoint is a strong pick if DLP and"
     },
     "device1Name": "Palo Alto NGFW",
     "device2Name": "Forcepoint NGFW",
     "device1Image": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
     "device2Image": "https://www.google.com/s2/favicons?domain=forcepoint.com&sz=128",
-    "date": "2023-07-09",
+    "date": "2023-01-09",
     "categoryId": "comparisons",
     "subcategoryId": "network-security",
     "heroImage": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
-    "overallWinner": 1,
+    "overallWinner": 2,
     "specs": {
-      "display": {
+      "spec1": {
         "label": {
-          "ar": "الشاشة / العرض",
-          "en": "Display"
+          "ar": "حجم السوق ومجتمع الدعم",
+          "en": "Market share & support community"
         },
         "device1Value": {
-          "ar": "جيد جدًا",
-          "en": "Very good"
+          "ar": "أوسع بكثير، موارد ومهندسون متاحون أكتر",
+          "en": "Much wider, more available engineers and resources"
         },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
+          "ar": "أضيق، سوق أكثر تخصصًا",
+          "en": "Narrower, more niche market"
         },
         "device1Score": 9,
-        "device2Score": 7,
+        "device2Score": 6,
         "winner": 1
       },
-      "performance": {
+      "spec2": {
         "label": {
-          "ar": "الأداء",
-          "en": "Performance"
+          "ar": "إدارة السياسات المركزية",
+          "en": "Centralized policy management"
         },
         "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
+          "ar": "Panorama قوي لكن يحتاج تراخيص إضافية",
+          "en": "Panorama is strong but needs extra licensing"
         },
         "device2Value": {
-          "ar": "قوي جدًا",
-          "en": "Very strong"
+          "ar": "SMC (Security Management Center) شامل ومضمّن غالبًا",
+          "en": "SMC (Security Management Center) is comprehensive and often bundled"
+        },
+        "device1Score": 7,
+        "device2Score": 8,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "التركيز على منع فقدان البيانات",
+          "en": "DLP focus"
+        },
+        "device1Value": {
+          "ar": "متاح كإضافة",
+          "en": "Available as an add-on"
+        },
+        "device2Value": {
+          "ar": "تاريخيًا من نقاط قوة Forcepoint الأساسية",
+          "en": "Historically one of Forcepoint's core strengths"
         },
         "device1Score": 7,
         "device2Score": 9,
-        "winner": 1
-      },
-      "battery": {
-        "label": {
-          "ar": "البطارية / الاستمرارية",
-          "en": "Battery / endurance"
-        },
-        "device1Value": {
-          "ar": "يوم كامل",
-          "en": "All-day"
-        },
-        "device2Value": {
-          "ar": "يوم+",
-          "en": "All-day+"
-        },
-        "device1Score": 8,
-        "device2Score": 8,
-        "winner": 1
-      },
-      "camera": {
-        "label": {
-          "ar": "الجودة / المرونة",
-          "en": "Quality / flexibility"
-        },
-        "device1Value": {
-          "ar": "مرن",
-          "en": "Flexible"
-        },
-        "device2Value": {
-          "ar": "ثابت",
-          "en": "Consistent"
-        },
-        "device1Score": 8,
-        "device2Score": 9,
         "winner": 2
       },
-      "price": {
+      "spec4": {
         "label": {
-          "ar": "القيمة",
-          "en": "Value"
+          "ar": "التكلفة",
+          "en": "Cost"
         },
         "device1Value": {
-          "ar": "متوسطة",
-          "en": "Fair"
+          "ar": "مرتفعة",
+          "en": "Higher"
         },
         "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
+          "ar": "تنافسية أكثر عادة",
+          "en": "Usually more competitive"
         },
-        "device1Score": 8,
-        "device2Score": 6,
-        "winner": 1
+        "device1Score": 5,
+        "device2Score": 7,
+        "winner": 2
       }
     },
     "verdict": {
-      "ar": "Palo Alto NGFW الأنسب لمعظم المستخدمين من حيث القيمة والاستخدام اليومي.",
-      "en": "Palo Alto NGFW is the better fit for most people on value and daily use."
+      "ar": "Palo Alto أفضل لو أولويتك أكبر مجتمع دعم وموارد تدريب متاحة. Forcepoint خيار قوي لو DLP ومنع تسريب البيانات أولوية حقيقية عندك، خصوصًا في القطاع الحكومي والمالي.",
+      "en": "Palo Alto is the safer choice if you prioritize the largest support community and training resources. Forcepoint is a strong pick if DLP and data-leak prevention are a real priority, especially in government and financial sectors."
     }
   },
   {
     "id": "cmp-gen-0007",
-    "slug": "fortinet-fortigate-vs-forcepoint-ngfw-1",
+    "slug": "fortinet-fortigate-vs-forcepoint-ngfw",
     "title": {
       "ar": "Fortinet FortiGate ضد Forcepoint NGFW",
       "en": "Fortinet FortiGate vs Forcepoint NGFW"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين Fortinet FortiGate و Forcepoint NGFW مع جدول نقاط وخلاصة واضحة.",
-      "en": "A practical comparison of Fortinet FortiGate and Forcepoint NGFW with scores and a clear verdict."
+      "ar": "FortiGate خيار أشمل لو محتاج SD-WAN وحماية شبكة متكاملة بسعر تنافسي. Forcepoint أنسب لو DLP هو الأولوية الأولى عندك.",
+      "en": "FortiGate is the more all-around pick if you need integrated SD-WAN and broad network protection at a competitive price. Forcepoint fits bet"
     },
     "device1Name": "Fortinet FortiGate",
     "device2Name": "Forcepoint NGFW",
     "device1Image": "https://cdn.simpleicons.org/fortinet/EE3124",
     "device2Image": "https://www.google.com/s2/favicons?domain=forcepoint.com&sz=128",
-    "date": "2023-10-16",
+    "date": "2023-04-16",
     "categoryId": "comparisons",
     "subcategoryId": "network-security",
     "heroImage": "https://cdn.simpleicons.org/fortinet/EE3124",
-    "overallWinner": 2,
+    "overallWinner": 1,
     "specs": {
-      "display": {
+      "spec1": {
         "label": {
-          "ar": "الشاشة / العرض",
-          "en": "Display"
+          "ar": "القيمة مقابل السعر",
+          "en": "Value for money"
         },
         "device1Value": {
-          "ar": "جيد جدًا",
-          "en": "Very good"
+          "ar": "من الأقوى في السوق",
+          "en": "Among the strongest in the market"
         },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
-        },
-        "device1Score": 7,
-        "device2Score": 8,
-        "winner": 2
-      },
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
-          "ar": "قوي جدًا",
-          "en": "Very strong"
-        },
-        "device1Score": 8,
-        "device2Score": 7,
-        "winner": 2
-      },
-      "battery": {
-        "label": {
-          "ar": "البطارية / الاستمرارية",
-          "en": "Battery / endurance"
-        },
-        "device1Value": {
-          "ar": "يوم كامل",
-          "en": "All-day"
-        },
-        "device2Value": {
-          "ar": "يوم+",
-          "en": "All-day+"
-        },
-        "device1Score": 8,
-        "device2Score": 8,
-        "winner": 1
-      },
-      "camera": {
-        "label": {
-          "ar": "الجودة / المرونة",
-          "en": "Quality / flexibility"
-        },
-        "device1Value": {
-          "ar": "مرن",
-          "en": "Flexible"
-        },
-        "device2Value": {
-          "ar": "ثابت",
-          "en": "Consistent"
-        },
-        "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "price": {
-        "label": {
-          "ar": "القيمة",
-          "en": "Value"
-        },
-        "device1Value": {
-          "ar": "متوسطة",
-          "en": "Fair"
-        },
-        "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
+          "ar": "تنافسي لكن أقل انتشارًا",
+          "en": "Competitive but less widespread"
         },
         "device1Score": 8,
         "device2Score": 6,
         "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "التوسع الأفقي (SD-WAN مدمج)",
+          "en": "Integrated SD-WAN"
+        },
+        "device1Value": {
+          "ar": "من نقاط القوة الأساسية لـ Fortinet",
+          "en": "One of Fortinet's core strengths"
+        },
+        "device2Value": {
+          "ar": "متاح لكن أقل نضجًا كميزة مدمجة",
+          "en": "Available but less mature as a built-in feature"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "التركيز الأمني الأساسي",
+          "en": "Core security focus"
+        },
+        "device1Value": {
+          "ar": "حماية شبكة شاملة (UTM)",
+          "en": "Broad network protection (UTM)"
+        },
+        "device2Value": {
+          "ar": "تركيز أوضح على منع فقدان البيانات",
+          "en": "Clearer focus on data-loss prevention"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 0
       }
     },
     "verdict": {
-      "ar": "Forcepoint NGFW يتفوق إجمالًا في هذه المقارنة لمعظم سيناريوهات الاستخدام.",
-      "en": "Forcepoint NGFW leads overall for most real-world scenarios."
+      "ar": "FortiGate خيار أشمل لو محتاج SD-WAN وحماية شبكة متكاملة بسعر تنافسي. Forcepoint أنسب لو DLP هو الأولوية الأولى عندك.",
+      "en": "FortiGate is the more all-around pick if you need integrated SD-WAN and broad network protection at a competitive price. Forcepoint fits better if DLP is genuinely your top priority."
     }
   },
   {
     "id": "cmp-gen-0008",
-    "slug": "cisco-ftd-vs-palo-alto-ngfw-1",
+    "slug": "cisco-ftd-vs-palo-alto-ngfw",
     "title": {
       "ar": "Cisco FTD ضد Palo Alto NGFW",
       "en": "Cisco FTD vs Palo Alto NGFW"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين Cisco FTD و Palo Alto NGFW مع جدول نقاط وخلاصة واضحة.",
-      "en": "A practical comparison of Cisco FTD and Palo Alto NGFW with scores and a clear verdict."
+      "ar": "Cisco FTD منطقي جدًا لو شبكتك مبنية على Cisco أصلًا. Palo Alto أقوى لو بتبدأ من الصفر أو التحليل المتقدم للتهديدات هو ال",
+      "en": "Cisco FTD makes strong sense if your network is already Cisco-based. Palo Alto is stronger if you're starting fresh or advanced threat analy"
     },
     "device1Name": "Cisco FTD",
     "device2Name": "Palo Alto NGFW",
     "device1Image": "https://cdn.simpleicons.org/cisco/1BA0D7",
     "device2Image": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
-    "date": "2024-02-23",
+    "date": "2023-07-23",
     "categoryId": "comparisons",
     "subcategoryId": "network-security",
     "heroImage": "https://cdn.simpleicons.org/cisco/1BA0D7",
     "overallWinner": 2,
     "specs": {
-      "display": {
+      "spec1": {
         "label": {
-          "ar": "الشاشة / العرض",
-          "en": "Display"
+          "ar": "التكامل مع بنية Cisco القائمة",
+          "en": "Integration with existing Cisco infrastructure"
         },
         "device1Value": {
-          "ar": "جيد جدًا",
-          "en": "Very good"
+          "ar": "سلس جدًا لو عندك شبكة Cisco أصلًا",
+          "en": "Very smooth if you already run Cisco networking"
         },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
-        },
-        "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
-          "ar": "قوي جدًا",
-          "en": "Very strong"
+          "ar": "يحتاج تكامل إضافي مع بيئة غير Cisco",
+          "en": "Needs extra integration work in a non-Cisco environment"
         },
         "device1Score": 9,
-        "device2Score": 8,
-        "winner": 2
-      },
-      "battery": {
-        "label": {
-          "ar": "البطارية / الاستمرارية",
-          "en": "Battery / endurance"
-        },
-        "device1Value": {
-          "ar": "يوم كامل",
-          "en": "All-day"
-        },
-        "device2Value": {
-          "ar": "يوم+",
-          "en": "All-day+"
-        },
-        "device1Score": 8,
-        "device2Score": 8,
-        "winner": 1
-      },
-      "camera": {
-        "label": {
-          "ar": "الجودة / المرونة",
-          "en": "Quality / flexibility"
-        },
-        "device1Value": {
-          "ar": "مرن",
-          "en": "Flexible"
-        },
-        "device2Value": {
-          "ar": "ثابت",
-          "en": "Consistent"
-        },
-        "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "price": {
-        "label": {
-          "ar": "القيمة",
-          "en": "Value"
-        },
-        "device1Value": {
-          "ar": "متوسطة",
-          "en": "Fair"
-        },
-        "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
-        },
-        "device1Score": 8,
         "device2Score": 6,
         "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "واجهة الإدارة",
+          "en": "Management interface"
+        },
+        "device1Value": {
+          "ar": "FMC أثقل ويحتاج تعلّم",
+          "en": "FMC is heavier and has a learning curve"
+        },
+        "device2Value": {
+          "ar": "Panorama أوضح لمعظم المستخدمين",
+          "en": "Panorama is generally clearer for most users"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "سمعة تحليل التهديدات",
+          "en": "Threat-analysis reputation"
+        },
+        "device1Value": {
+          "ar": "قوية عبر Talos",
+          "en": "Strong via Talos"
+        },
+        "device2Value": {
+          "ar": "من الأقوى في تصنيفات الصناعة المستقلة",
+          "en": "Among the strongest in independent industry rankings"
+        },
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
       }
     },
     "verdict": {
-      "ar": "Palo Alto NGFW يتفوق إجمالًا في هذه المقارنة لمعظم سيناريوهات الاستخدام.",
-      "en": "Palo Alto NGFW leads overall for most real-world scenarios."
+      "ar": "Cisco FTD منطقي جدًا لو شبكتك مبنية على Cisco أصلًا. Palo Alto أقوى لو بتبدأ من الصفر أو التحليل المتقدم للتهديدات هو الأولوية.",
+      "en": "Cisco FTD makes strong sense if your network is already Cisco-based. Palo Alto is stronger if you're starting fresh or advanced threat analysis is the priority."
     }
   },
   {
     "id": "cmp-gen-0009",
-    "slug": "palo-alto-ngfw-vs-check-point-1",
+    "slug": "palo-alto-ngfw-vs-check-point",
     "title": {
       "ar": "Palo Alto NGFW ضد Check Point",
       "en": "Palo Alto NGFW vs Check Point"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين Palo Alto NGFW و Check Point مع جدول نقاط وخلاصة واضحة.",
-      "en": "A practical comparison of Palo Alto NGFW and Check Point with scores and a clear verdict."
+      "ar": "Palo Alto أوضح في استراتيجية السحابة وأبسط في الترخيص. Check Point يفضّله كتير من الفرق اللي بتعتمد عليه من سنين طويلة و",
+      "en": "Palo Alto has a clearer cloud strategy and simpler licensing. Check Point is favored by many teams with years of accumulated in-house expert"
     },
     "device1Name": "Palo Alto NGFW",
     "device2Name": "Check Point",
     "device1Image": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
     "device2Image": "https://www.google.com/s2/favicons?domain=checkpoint.com&sz=128",
-    "date": "2024-05-03",
+    "date": "2023-09-03",
     "categoryId": "comparisons",
     "subcategoryId": "network-security",
     "heroImage": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
     "overallWinner": 1,
     "specs": {
-      "display": {
+      "spec1": {
         "label": {
-          "ar": "الشاشة / العرض",
-          "en": "Display"
+          "ar": "سمعة منع الاختراق تاريخيًا",
+          "en": "Historical intrusion-prevention reputation"
         },
         "device1Value": {
-          "ar": "جيد جدًا",
-          "en": "Very good"
+          "ar": "قوية وحديثة النمو",
+          "en": "Strong, more recently established"
         },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
-        },
-        "device1Score": 9,
-        "device2Score": 7,
-        "winner": 1
-      },
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
-          "ar": "قوي جدًا",
-          "en": "Very strong"
-        },
-        "device1Score": 7,
-        "device2Score": 9,
-        "winner": 1
-      },
-      "battery": {
-        "label": {
-          "ar": "البطارية / الاستمرارية",
-          "en": "Battery / endurance"
-        },
-        "device1Value": {
-          "ar": "يوم كامل",
-          "en": "All-day"
-        },
-        "device2Value": {
-          "ar": "يوم+",
-          "en": "All-day+"
+          "ar": "من أقدم وأعرق الأسماء في السوق",
+          "en": "One of the oldest and most established names in the market"
         },
         "device1Score": 8,
         "device2Score": 8,
-        "winner": 1
+        "winner": 0
       },
-      "camera": {
+      "spec2": {
         "label": {
-          "ar": "الجودة / المرونة",
-          "en": "Quality / flexibility"
+          "ar": "سهولة الترخيص",
+          "en": "Licensing simplicity"
         },
         "device1Value": {
-          "ar": "مرن",
-          "en": "Flexible"
+          "ar": "واضح نسبيًا",
+          "en": "Relatively clear"
         },
         "device2Value": {
-          "ar": "ثابت",
-          "en": "Consistent"
+          "ar": "معقّد أحيانًا بسبب تعدد الطبقات (Blades)",
+          "en": "Sometimes complex due to multiple licensed \"blades\""
         },
         "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
+        "device2Score": 6,
+        "winner": 1
       },
-      "price": {
+      "spec3": {
         "label": {
-          "ar": "القيمة",
-          "en": "Value"
+          "ar": "الابتكار في السحابة",
+          "en": "Cloud-native innovation"
         },
         "device1Value": {
-          "ar": "متوسطة",
-          "en": "Fair"
+          "ar": "استثمار قوي وواضح (Prisma)",
+          "en": "Strong, clear investment (Prisma)"
         },
         "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
+          "ar": "موجود لكن أقل بروزًا في الحديث السوقي",
+          "en": "Present but less prominent in market messaging"
         },
         "device1Score": 8,
         "device2Score": 6,
@@ -1003,680 +799,876 @@
       }
     },
     "verdict": {
-      "ar": "Palo Alto NGFW الأنسب لمعظم المستخدمين من حيث القيمة والاستخدام اليومي.",
-      "en": "Palo Alto NGFW is the better fit for most people on value and daily use."
+      "ar": "Palo Alto أوضح في استراتيجية السحابة وأبسط في الترخيص. Check Point يفضّله كتير من الفرق اللي بتعتمد عليه من سنين طويلة وعندها خبرة متراكمة فيه.",
+      "en": "Palo Alto has a clearer cloud strategy and simpler licensing. Check Point is favored by many teams with years of accumulated in-house expertise with it."
     }
   },
   {
     "id": "cmp-gen-0010",
-    "slug": "fortinet-fortigate-vs-sophos-firewall-1",
+    "slug": "fortinet-fortigate-vs-sophos-firewall",
     "title": {
       "ar": "Fortinet FortiGate ضد Sophos Firewall",
       "en": "Fortinet FortiGate vs Sophos Firewall"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين Fortinet FortiGate و Sophos Firewall مع جدول نقاط وخلاصة واضحة.",
-      "en": "A practical comparison of Fortinet FortiGate and Sophos Firewall with scores and a clear verdict."
+      "ar": "FortiGate أفضل لو محتاج ميزات SD-WAN وأداء أعلى. Sophos أنسب لشركة صغيرة بميزانية محدودة وفريق تقني صغير محتاج سهولة إعد",
+      "en": "FortiGate is the better pick if you need SD-WAN features and higher throughput. Sophos suits a small business on a tight budget with a small"
     },
     "device1Name": "Fortinet FortiGate",
     "device2Name": "Sophos Firewall",
     "device1Image": "https://cdn.simpleicons.org/fortinet/EE3124",
     "device2Image": "https://www.google.com/s2/favicons?domain=sophos.com&sz=128",
-    "date": "2024-09-10",
+    "date": "2023-12-10",
     "categoryId": "comparisons",
     "subcategoryId": "network-security",
     "heroImage": "https://cdn.simpleicons.org/fortinet/EE3124",
     "overallWinner": 2,
     "specs": {
-      "display": {
+      "spec1": {
         "label": {
-          "ar": "الشاشة / العرض",
-          "en": "Display"
+          "ar": "الأداء على الأجهزة المخصصة",
+          "en": "Appliance-level performance"
         },
         "device1Value": {
-          "ar": "جيد جدًا",
-          "en": "Very good"
+          "ar": "قوي بفضل معالجات SPU",
+          "en": "Strong thanks to dedicated SPU chips"
         },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
-        },
-        "device1Score": 7,
-        "device2Score": 8,
-        "winner": 2
-      },
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
-          "ar": "قوي جدًا",
-          "en": "Very strong"
+          "ar": "جيد، أقل تخصصًا في المعالجات",
+          "en": "Good, less specialized processor design"
         },
         "device1Score": 8,
         "device2Score": 7,
-        "winner": 2
-      },
-      "battery": {
-        "label": {
-          "ar": "البطارية / الاستمرارية",
-          "en": "Battery / endurance"
-        },
-        "device1Value": {
-          "ar": "يوم كامل",
-          "en": "All-day"
-        },
-        "device2Value": {
-          "ar": "يوم+",
-          "en": "All-day+"
-        },
-        "device1Score": 8,
-        "device2Score": 8,
         "winner": 1
       },
-      "camera": {
+      "spec2": {
         "label": {
-          "ar": "الجودة / المرونة",
-          "en": "Quality / flexibility"
+          "ar": "سهولة الاستخدام للفرق الصغيرة جدًا",
+          "en": "Ease of use for very small teams"
         },
         "device1Value": {
-          "ar": "مرن",
-          "en": "Flexible"
+          "ar": "جيدة",
+          "en": "Good"
         },
         "device2Value": {
-          "ar": "ثابت",
-          "en": "Consistent"
+          "ar": "من أبسط الواجهات في السوق للمبتدئين",
+          "en": "One of the simplest interfaces in the market for beginners"
         },
-        "device1Score": 8,
+        "device1Score": 7,
         "device2Score": 9,
         "winner": 2
       },
-      "price": {
+      "spec3": {
         "label": {
-          "ar": "القيمة",
-          "en": "Value"
+          "ar": "السعر لصغار ومتوسطي الشركات",
+          "en": "Price for small/mid businesses"
         },
         "device1Value": {
-          "ar": "متوسطة",
-          "en": "Fair"
+          "ar": "تنافسي",
+          "en": "Competitive"
         },
         "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
+          "ar": "غالبًا الأقل سعرًا في هذه الفئة",
+          "en": "Often the lowest price in this tier"
         },
-        "device1Score": 8,
-        "device2Score": 6,
-        "winner": 1
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
       }
     },
     "verdict": {
-      "ar": "Sophos Firewall يتفوق إجمالًا في هذه المقارنة لمعظم سيناريوهات الاستخدام.",
-      "en": "Sophos Firewall leads overall for most real-world scenarios."
+      "ar": "FortiGate أفضل لو محتاج ميزات SD-WAN وأداء أعلى. Sophos أنسب لشركة صغيرة بميزانية محدودة وفريق تقني صغير محتاج سهولة إعداد.",
+      "en": "FortiGate is the better pick if you need SD-WAN features and higher throughput. Sophos suits a small business on a tight budget with a small IT team that needs easy setup."
     }
   },
   {
     "id": "cmp-gen-0011",
-    "slug": "wireguard-vs-openvpn-1",
+    "slug": "wireguard-vs-openvpn",
     "title": {
       "ar": "WireGuard ضد OpenVPN",
       "en": "WireGuard vs OpenVPN"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين WireGuard و OpenVPN مع جدول نقاط وخلاصة واضحة.",
-      "en": "A practical comparison of WireGuard and OpenVPN with scores and a clear verdict."
+      "ar": "WireGuard أفضل لمعظم الاستخدامات الحديثة بسبب السرعة والبساطة. OpenVPN لسه منطقي في بيئات مؤسسية قديمة محتاجة مرونة إعدا",
+      "en": "WireGuard is the better default for most modern use cases thanks to speed and simplicity. OpenVPN still makes sense in older enterprise envi"
     },
     "device1Name": "WireGuard",
     "device2Name": "OpenVPN",
     "device1Image": "https://cdn.simpleicons.org/wireguard/88171A",
     "device2Image": "https://cdn.simpleicons.org/openvpn/EA7E20",
-    "date": "2024-12-17",
+    "date": "2024-02-17",
     "categoryId": "comparisons",
     "subcategoryId": "network-security",
     "heroImage": "https://cdn.simpleicons.org/wireguard/88171A",
-    "overallWinner": 2,
+    "overallWinner": 0,
     "specs": {
-      "display": {
+      "spec1": {
         "label": {
-          "ar": "الشاشة / العرض",
-          "en": "Display"
+          "ar": "السرعة",
+          "en": "Speed"
         },
         "device1Value": {
-          "ar": "جيد جدًا",
-          "en": "Very good"
+          "ar": "أسرع بشكل ملحوظ بفضل تصميم أبسط",
+          "en": "Noticeably faster due to a simpler design"
         },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
-        },
-        "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
-          "ar": "قوي جدًا",
-          "en": "Very strong"
+          "ar": "أبطأ نسبيًا خاصة على أجهزة ضعيفة",
+          "en": "Relatively slower, especially on low-power devices"
         },
         "device1Score": 9,
-        "device2Score": 8,
-        "winner": 2
-      },
-      "battery": {
-        "label": {
-          "ar": "البطارية / الاستمرارية",
-          "en": "Battery / endurance"
-        },
-        "device1Value": {
-          "ar": "يوم كامل",
-          "en": "All-day"
-        },
-        "device2Value": {
-          "ar": "يوم+",
-          "en": "All-day+"
-        },
-        "device1Score": 8,
-        "device2Score": 8,
+        "device2Score": 6,
         "winner": 1
       },
-      "camera": {
+      "spec2": {
         "label": {
-          "ar": "الجودة / المرونة",
-          "en": "Quality / flexibility"
+          "ar": "بساطة الإعداد",
+          "en": "Setup simplicity"
         },
         "device1Value": {
-          "ar": "مرن",
-          "en": "Flexible"
+          "ar": "ملفات إعداد بسيطة جدًا",
+          "en": "Very simple config files"
         },
         "device2Value": {
-          "ar": "ثابت",
-          "en": "Consistent"
+          "ar": "أكثر تعقيدًا (شهادات، ملفات متعددة)",
+          "en": "More complex (certificates, multiple files)"
         },
-        "device1Score": 8,
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "النضج وسجل التدقيق الأمني",
+          "en": "Maturity & security audit history"
+        },
+        "device1Value": {
+          "ar": "أحدث نسبيًا لكن كوده أبسط وأسهل تدقيقًا",
+          "en": "Newer, but simpler code that's easier to audit"
+        },
+        "device2Value": {
+          "ar": "أقدم بكثير، تاريخ طويل من التدقيق والاستخدام المؤسسي",
+          "en": "Much older, long history of audits and enterprise use"
+        },
+        "device1Score": 7,
         "device2Score": 9,
         "winner": 2
       },
-      "price": {
+      "spec4": {
         "label": {
-          "ar": "القيمة",
-          "en": "Value"
+          "ar": "المرونة في التصفية على مستوى المنفذ",
+          "en": "Port-level filtering flexibility"
         },
         "device1Value": {
-          "ar": "متوسطة",
-          "en": "Fair"
+          "ar": "محدودة نسبيًا",
+          "en": "Relatively limited"
         },
         "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
+          "ar": "مرن جدًا (TCP/UDP، منافذ مخصصة)",
+          "en": "Very flexible (TCP/UDP, custom ports)"
         },
-        "device1Score": 8,
-        "device2Score": 6,
-        "winner": 1
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
       }
     },
     "verdict": {
-      "ar": "OpenVPN يتفوق إجمالًا في هذه المقارنة لمعظم سيناريوهات الاستخدام.",
-      "en": "OpenVPN leads overall for most real-world scenarios."
+      "ar": "WireGuard أفضل لمعظم الاستخدامات الحديثة بسبب السرعة والبساطة. OpenVPN لسه منطقي في بيئات مؤسسية قديمة محتاجة مرونة إعداد أعلى أو سجل تدقيق أطول.",
+      "en": "WireGuard is the better default for most modern use cases thanks to speed and simplicity. OpenVPN still makes sense in older enterprise environments needing more configuration flexibility or a longer audit track record."
     }
   },
   {
     "id": "cmp-gen-0012",
-    "slug": "windows-nps-vs-freeradius-1",
+    "slug": "windows-nps-vs-freeradius",
     "title": {
       "ar": "Windows NPS ضد FreeRADIUS",
       "en": "Windows NPS vs FreeRADIUS"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين Windows NPS و FreeRADIUS مع جدول نقاط وخلاصة واضحة.",
-      "en": "A practical comparison of Windows NPS and FreeRADIUS with scores and a clear verdict."
+      "ar": "Windows NPS الخيار الأسرع والأبسط لو بيئتك أصلًا Windows/AD بالكامل. FreeRADIUS أقوى وأرخص لو الفريق مرتاح مع Linux ومحت",
+      "en": "Windows NPS is the fastest, simplest choice if your environment is already fully Windows/AD. FreeRADIUS is more powerful and cheaper if the"
     },
     "device1Name": "Windows NPS",
     "device2Name": "FreeRADIUS",
     "device1Image": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/windows.svg",
     "device2Image": "https://www.google.com/s2/favicons?domain=freeradius.org&sz=128",
-    "date": "2025-04-24",
+    "date": "2024-05-24",
     "categoryId": "comparisons",
     "subcategoryId": "network-security",
     "heroImage": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/windows.svg",
-    "overallWinner": 1,
+    "overallWinner": 0,
     "specs": {
-      "display": {
+      "spec1": {
         "label": {
-          "ar": "الشاشة / العرض",
-          "en": "Display"
+          "ar": "التكلفة",
+          "en": "Cost"
         },
         "device1Value": {
-          "ar": "جيد جدًا",
-          "en": "Very good"
+          "ar": "مضمّن مع تراخيص Windows Server الموجودة",
+          "en": "Included with existing Windows Server licensing"
         },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
-        },
-        "device1Score": 9,
-        "device2Score": 7,
-        "winner": 1
-      },
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
-          "ar": "قوي جدًا",
-          "en": "Very strong"
+          "ar": "مفتوح المصدر ومجاني بالكامل",
+          "en": "Fully open-source and free"
         },
         "device1Score": 7,
         "device2Score": 9,
-        "winner": 1
+        "winner": 2
       },
-      "battery": {
+      "spec2": {
         "label": {
-          "ar": "البطارية / الاستمرارية",
-          "en": "Battery / endurance"
+          "ar": "سهولة التكامل مع Active Directory",
+          "en": "Active Directory integration ease"
         },
         "device1Value": {
-          "ar": "يوم كامل",
-          "en": "All-day"
+          "ar": "مباشر جدًا لأنه من نفس المنظومة",
+          "en": "Very direct since it's the same ecosystem"
         },
         "device2Value": {
-          "ar": "يوم+",
-          "en": "All-day+"
+          "ar": "ممكن لكن يحتاج إعداد يدوي إضافي",
+          "en": "Possible but needs extra manual configuration"
         },
-        "device1Score": 8,
-        "device2Score": 8,
+        "device1Score": 9,
+        "device2Score": 6,
         "winner": 1
       },
-      "camera": {
+      "spec3": {
         "label": {
-          "ar": "الجودة / المرونة",
-          "en": "Quality / flexibility"
+          "ar": "المرونة والتخصيص",
+          "en": "Flexibility & customization"
         },
         "device1Value": {
-          "ar": "مرن",
-          "en": "Flexible"
+          "ar": "محدودة بواجهة Windows",
+          "en": "Limited by the Windows interface"
         },
         "device2Value": {
-          "ar": "ثابت",
-          "en": "Consistent"
+          "ar": "مرونة عالية جدًا (سكريبتات، وحدات إضافية)",
+          "en": "Very high flexibility (scripts, extra modules)"
         },
-        "device1Score": 8,
+        "device1Score": 5,
         "device2Score": 9,
         "winner": 2
       },
-      "price": {
+      "spec4": {
         "label": {
-          "ar": "القيمة",
-          "en": "Value"
+          "ar": "منحنى التعلم",
+          "en": "Learning curve"
         },
         "device1Value": {
-          "ar": "متوسطة",
-          "en": "Fair"
+          "ar": "أسهل لفرق Windows الموجودة أصلًا",
+          "en": "Easier for teams already on Windows"
         },
         "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
+          "ar": "أعلى، يحتاج خبرة Linux وملفات إعداد نصية",
+          "en": "Steeper, needs Linux experience and text config files"
         },
         "device1Score": 8,
-        "device2Score": 6,
+        "device2Score": 5,
         "winner": 1
       }
     },
     "verdict": {
-      "ar": "Windows NPS الأنسب لمعظم المستخدمين من حيث القيمة والاستخدام اليومي.",
-      "en": "Windows NPS is the better fit for most people on value and daily use."
+      "ar": "Windows NPS الخيار الأسرع والأبسط لو بيئتك أصلًا Windows/AD بالكامل. FreeRADIUS أقوى وأرخص لو الفريق مرتاح مع Linux ومحتاج مرونة أعلى.",
+      "en": "Windows NPS is the fastest, simplest choice if your environment is already fully Windows/AD. FreeRADIUS is more powerful and cheaper if the team is comfortable with Linux and needs more flexibility."
     }
   },
   {
     "id": "cmp-gen-0013",
-    "slug": "okta-vs-microsoft-entra-id-1",
+    "slug": "okta-vs-microsoft-entra-id",
     "title": {
       "ar": "Okta ضد Microsoft Entra ID",
       "en": "Okta vs Microsoft Entra ID"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين Okta و Microsoft Entra ID مع جدول نقاط وخلاصة واضحة.",
-      "en": "A practical comparison of Okta and Microsoft Entra ID with scores and a clear verdict."
+      "ar": "Okta أفضل لو بيئتك متنوعة (multi-cloud) ومش معتمدة على Microsoft بشكل أساسي. Entra ID منطقي جدًا وأرخص لو أصلًا مشترك في",
+      "en": "Okta is the better fit for a diverse, multi-cloud environment not centered on Microsoft. Entra ID makes strong sense — and is cheaper — if y"
     },
     "device1Name": "Okta",
     "device2Name": "Microsoft Entra ID",
     "device1Image": "https://cdn.simpleicons.org/okta/007DC1",
     "device2Image": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/microsoftazure.svg",
-    "date": "2025-08-04",
+    "date": "2024-07-04",
     "categoryId": "comparisons",
     "subcategoryId": "identity",
     "heroImage": "https://cdn.simpleicons.org/okta/007DC1",
-    "overallWinner": 2,
+    "overallWinner": 1,
     "specs": {
-      "display": {
+      "spec1": {
         "label": {
-          "ar": "الشاشة / العرض",
-          "en": "Display"
+          "ar": "استقلالية المنصة",
+          "en": "Platform independence"
         },
         "device1Value": {
-          "ar": "جيد جدًا",
-          "en": "Very good"
+          "ar": "مصمم من الأساس ليكون محايدًا (Microsoft/Google/غيره)",
+          "en": "Built from the ground up to be vendor-neutral"
         },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
-        },
-        "device1Score": 7,
-        "device2Score": 8,
-        "winner": 2
-      },
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
-          "ar": "قوي جدًا",
-          "en": "Very strong"
+          "ar": "أقوى طبيعيًا داخل منظومة Microsoft 365",
+          "en": "Naturally strongest inside the Microsoft 365 ecosystem"
         },
         "device1Score": 8,
         "device2Score": 7,
-        "winner": 2
+        "winner": 1
       },
-      "battery": {
+      "spec2": {
         "label": {
-          "ar": "البطارية / الاستمرارية",
-          "en": "Battery / endurance"
+          "ar": "عدد التطبيقات الجاهزة للتكامل",
+          "en": "Pre-built app integrations"
         },
         "device1Value": {
-          "ar": "يوم كامل",
-          "en": "All-day"
+          "ar": "كتالوج ضخم ومتخصص في هذا تحديدًا",
+          "en": "A huge catalog, specifically built around this"
         },
         "device2Value": {
-          "ar": "يوم+",
-          "en": "All-day+"
+          "ar": "كتالوج واسع أيضًا وينمو بسرعة",
+          "en": "Also a wide, fast-growing catalog"
         },
-        "device1Score": 8,
+        "device1Score": 9,
         "device2Score": 8,
         "winner": 1
       },
-      "camera": {
+      "spec3": {
         "label": {
-          "ar": "الجودة / المرونة",
-          "en": "Quality / flexibility"
+          "ar": "التسعير",
+          "en": "Pricing"
         },
         "device1Value": {
-          "ar": "مرن",
-          "en": "Flexible"
+          "ar": "منتج مستقل بتسعير خاص",
+          "en": "Standalone product with its own pricing"
         },
         "device2Value": {
-          "ar": "ثابت",
-          "en": "Consistent"
+          "ar": "غالبًا مُضمّن أو مخفّض ضمن باقات Microsoft 365",
+          "en": "Often bundled or discounted within Microsoft 365 plans"
         },
-        "device1Score": 8,
-        "device2Score": 9,
+        "device1Score": 6,
+        "device2Score": 8,
         "winner": 2
-      },
-      "price": {
-        "label": {
-          "ar": "القيمة",
-          "en": "Value"
-        },
-        "device1Value": {
-          "ar": "متوسطة",
-          "en": "Fair"
-        },
-        "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
-        },
-        "device1Score": 8,
-        "device2Score": 6,
-        "winner": 1
       }
     },
     "verdict": {
-      "ar": "Microsoft Entra ID يتفوق إجمالًا في هذه المقارنة لمعظم سيناريوهات الاستخدام.",
-      "en": "Microsoft Entra ID leads overall for most real-world scenarios."
+      "ar": "Okta أفضل لو بيئتك متنوعة (multi-cloud) ومش معتمدة على Microsoft بشكل أساسي. Entra ID منطقي جدًا وأرخص لو أصلًا مشترك في Microsoft 365.",
+      "en": "Okta is the better fit for a diverse, multi-cloud environment not centered on Microsoft. Entra ID makes strong sense — and is cheaper — if you're already on Microsoft 365."
     }
   },
   {
     "id": "cmp-gen-0014",
-    "slug": "crowdstrike-falcon-vs-microsoft-defender-1",
+    "slug": "crowdstrike-falcon-vs-microsoft-defender",
     "title": {
       "ar": "CrowdStrike Falcon ضد Microsoft Defender",
       "en": "CrowdStrike Falcon vs Microsoft Defender"
     },
     "excerpt": {
-      "ar": "مقارنة عملية بين CrowdStrike Falcon و Microsoft Defender مع جدول نقاط وخلاصة واضحة.",
-      "en": "A practical comparison of CrowdStrike Falcon and Microsoft Defender with scores and a clear verdict."
+      "ar": "CrowdStrike الخيار الأقوى لو حماية نقاط النهاية أولوية قصوى مستقلة. Defender منطقي جدًا لو عندك تراخيص E5 أصلًا، القيمة",
+      "en": "CrowdStrike is the stronger pick if endpoint protection is a standalone top priority. Defender makes strong sense if you already hold E5 lic"
     },
     "device1Name": "CrowdStrike Falcon",
     "device2Name": "Microsoft Defender",
     "device1Image": "https://www.google.com/s2/favicons?domain=crowdstrike.com&sz=128",
     "device2Image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
-    "date": "2025-11-11",
+    "date": "2024-10-11",
     "categoryId": "comparisons",
     "subcategoryId": "endpoint",
     "heroImage": "https://www.google.com/s2/favicons?domain=crowdstrike.com&sz=128",
-    "overallWinner": 2,
+    "overallWinner": 0,
     "specs": {
-      "display": {
+      "spec1": {
         "label": {
-          "ar": "الشاشة / العرض",
-          "en": "Display"
+          "ar": "استقلالية الأداء عن نظام التشغيل",
+          "en": "Performance independent of the OS"
         },
         "device1Value": {
-          "ar": "جيد جدًا",
-          "en": "Very good"
+          "ar": "خفيف نسبيًا ومصمم عبر منصات متعددة",
+          "en": "Relatively light, designed across multiple platforms"
         },
         "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
-        },
-        "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "performance": {
-        "label": {
-          "ar": "الأداء",
-          "en": "Performance"
-        },
-        "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
-        },
-        "device2Value": {
-          "ar": "قوي جدًا",
-          "en": "Very strong"
-        },
-        "device1Score": 9,
-        "device2Score": 8,
-        "winner": 2
-      },
-      "battery": {
-        "label": {
-          "ar": "البطارية / الاستمرارية",
-          "en": "Battery / endurance"
-        },
-        "device1Value": {
-          "ar": "يوم كامل",
-          "en": "All-day"
-        },
-        "device2Value": {
-          "ar": "يوم+",
-          "en": "All-day+"
+          "ar": "مدمج بعمق في Windows، أداء ممتاز هناك تحديدًا",
+          "en": "Deeply built into Windows, excellent performance there specifically"
         },
         "device1Score": 8,
         "device2Score": 8,
-        "winner": 1
+        "winner": 0
       },
-      "camera": {
+      "spec2": {
         "label": {
-          "ar": "الجودة / المرونة",
-          "en": "Quality / flexibility"
+          "ar": "عمق الصيد الاستباقي للتهديدات",
+          "en": "Proactive threat-hunting depth"
         },
         "device1Value": {
-          "ar": "مرن",
-          "en": "Flexible"
+          "ar": "من الأقوى في تصنيفات الصناعة المستقلة",
+          "en": "Among the strongest in independent industry rankings"
         },
         "device2Value": {
-          "ar": "ثابت",
-          "en": "Consistent"
-        },
-        "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "price": {
-        "label": {
-          "ar": "القيمة",
-          "en": "Value"
-        },
-        "device1Value": {
-          "ar": "متوسطة",
-          "en": "Fair"
-        },
-        "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
-        },
-        "device1Score": 8,
-        "device2Score": 6,
-        "winner": 1
-      }
-    },
-    "verdict": {
-      "ar": "Microsoft Defender يتفوق إجمالًا في هذه المقارنة لمعظم سيناريوهات الاستخدام.",
-      "en": "Microsoft Defender leads overall for most real-world scenarios."
-    }
-  },
-  {
-    "id": "cmp-gen-0015",
-    "slug": "crowdstrike-falcon-vs-sentinelone-1",
-    "title": {
-      "ar": "CrowdStrike Falcon ضد SentinelOne",
-      "en": "CrowdStrike Falcon vs SentinelOne"
-    },
-    "excerpt": {
-      "ar": "مقارنة عملية بين CrowdStrike Falcon و SentinelOne مع جدول نقاط وخلاصة واضحة.",
-      "en": "A practical comparison of CrowdStrike Falcon and SentinelOne with scores and a clear verdict."
-    },
-    "device1Name": "CrowdStrike Falcon",
-    "device2Name": "SentinelOne",
-    "device1Image": "https://www.google.com/s2/favicons?domain=crowdstrike.com&sz=128",
-    "device2Image": "https://www.google.com/s2/favicons?domain=sentinelone.com&sz=128",
-    "date": "2026-03-18",
-    "categoryId": "comparisons",
-    "subcategoryId": "endpoint",
-    "heroImage": "https://www.google.com/s2/favicons?domain=crowdstrike.com&sz=128",
-    "overallWinner": 1,
-    "specs": {
-      "display": {
-        "label": {
-          "ar": "الشاشة / العرض",
-          "en": "Display"
-        },
-        "device1Value": {
-          "ar": "جيد جدًا",
-          "en": "Very good"
-        },
-        "device2Value": {
-          "ar": "ممتاز",
-          "en": "Excellent"
+          "ar": "تحسّن كبير في السنوات الأخيرة، لسه خلف قليلًا",
+          "en": "Improved significantly in recent years, still slightly behind"
         },
         "device1Score": 9,
         "device2Score": 7,
         "winner": 1
       },
-      "performance": {
+      "spec3": {
         "label": {
-          "ar": "الأداء",
-          "en": "Performance"
+          "ar": "التكلفة",
+          "en": "Cost"
         },
         "device1Value": {
-          "ar": "قوي",
-          "en": "Strong"
+          "ar": "مرتفعة نسبيًا كمنتج مستقل",
+          "en": "Relatively higher as a standalone product"
         },
         "device2Value": {
-          "ar": "قوي جدًا",
-          "en": "Very strong"
+          "ar": "غالبًا مُضمّن ضمن تراخيص Microsoft 365 E5",
+          "en": "Often bundled within Microsoft 365 E5 licensing"
         },
-        "device1Score": 7,
+        "device1Score": 5,
         "device2Score": 9,
-        "winner": 1
-      },
-      "battery": {
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "CrowdStrike الخيار الأقوى لو حماية نقاط النهاية أولوية قصوى مستقلة. Defender منطقي جدًا لو عندك تراخيص E5 أصلًا، القيمة صعب تتفوق عليها.",
+      "en": "CrowdStrike is the stronger pick if endpoint protection is a standalone top priority. Defender makes strong sense if you already hold E5 licensing — the value is hard to beat."
+    }
+  },
+  {
+    "id": "cmp-gen-0015",
+    "slug": "crowdstrike-falcon-vs-sentinelone",
+    "title": {
+      "ar": "CrowdStrike Falcon ضد SentinelOne",
+      "en": "CrowdStrike Falcon vs SentinelOne"
+    },
+    "excerpt": {
+      "ar": "CrowdStrike الخيار الأضمن لو عايز أوسع انتشار وموارد دعم متاحة. SentinelOne بديل قوي وجدير بالتجربة خصوصًا لو الاستجابة",
+      "en": "CrowdStrike is the safer choice for the widest deployment base and available support resources. SentinelOne is a strong, worth-trying altern"
+    },
+    "device1Name": "CrowdStrike Falcon",
+    "device2Name": "SentinelOne",
+    "device1Image": "https://www.google.com/s2/favicons?domain=crowdstrike.com&sz=128",
+    "device2Image": "https://www.google.com/s2/favicons?domain=sentinelone.com&sz=128",
+    "date": "2024-12-18",
+    "categoryId": "comparisons",
+    "subcategoryId": "endpoint",
+    "heroImage": "https://www.google.com/s2/favicons?domain=crowdstrike.com&sz=128",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
         "label": {
-          "ar": "البطارية / الاستمرارية",
-          "en": "Battery / endurance"
+          "ar": "الاعتماد على الاستجابة الآلية",
+          "en": "Reliance on automated response"
         },
         "device1Value": {
-          "ar": "يوم كامل",
-          "en": "All-day"
+          "ar": "قوي، مع اعتماد كبير على تحليل سحابي",
+          "en": "Strong, with heavy reliance on cloud analysis"
         },
         "device2Value": {
-          "ar": "يوم+",
-          "en": "All-day+"
+          "ar": "يركّز أكتر على الاستجابة الآلية على الجهاز نفسه (Autonomous)",
+          "en": "Focuses more on on-device autonomous response"
         },
         "device1Score": 8,
         "device2Score": 8,
-        "winner": 1
+        "winner": 0
       },
-      "camera": {
+      "spec2": {
         "label": {
-          "ar": "الجودة / المرونة",
-          "en": "Quality / flexibility"
+          "ar": "سمعة السوق وحجم الانتشار",
+          "en": "Market reputation & deployment scale"
         },
         "device1Value": {
-          "ar": "مرن",
-          "en": "Flexible"
+          "ar": "الأوسع انتشارًا حاليًا في السوق المؤسسي",
+          "en": "Currently the widest deployment in the enterprise market"
         },
         "device2Value": {
-          "ar": "ثابت",
-          "en": "Consistent"
+          "ar": "ينمو بسرعة لكن أصغر حجمًا",
+          "en": "Growing fast but still smaller in scale"
         },
-        "device1Score": 8,
-        "device2Score": 9,
-        "winner": 2
-      },
-      "price": {
-        "label": {
-          "ar": "القيمة",
-          "en": "Value"
-        },
-        "device1Value": {
-          "ar": "متوسطة",
-          "en": "Fair"
-        },
-        "device2Value": {
-          "ar": "مرتفعة",
-          "en": "Premium"
-        },
-        "device1Score": 8,
-        "device2Score": 6,
+        "device1Score": 9,
+        "device2Score": 7,
         "winner": 1
       }
     },
     "verdict": {
-      "ar": "CrowdStrike Falcon الأنسب لمعظم المستخدمين من حيث القيمة والاستخدام اليومي.",
-      "en": "CrowdStrike Falcon is the better fit for most people on value and daily use."
+      "ar": "CrowdStrike الخيار الأضمن لو عايز أوسع انتشار وموارد دعم متاحة. SentinelOne بديل قوي وجدير بالتجربة خصوصًا لو الاستجابة الآلية بدون اتصال سحابي مستمر مهمة عندك.",
+      "en": "CrowdStrike is the safer choice for the widest deployment base and available support resources. SentinelOne is a strong, worth-trying alternative, especially if on-device automated response without constant cloud reliance matters to you."
+    }
+  },
+  {
+    "id": "cmp-gen-0016",
+    "slug": "microsoft-defender-vs-sentinelone",
+    "title": {
+      "ar": "Microsoft Defender ضد SentinelOne",
+      "en": "Microsoft Defender vs SentinelOne"
+    },
+    "excerpt": {
+      "ar": "Defender الخيار الأوفر لو أصلًا داخل منظومة Microsoft 365. SentinelOne أنسب لبيئة متعددة المنصات مش معتمدة على Windows ب",
+      "en": "Defender is the more economical choice if you're already inside Microsoft 365. SentinelOne fits better in a multi-platform environment not p"
+    },
+    "device1Name": "Microsoft Defender",
+    "device2Name": "SentinelOne",
+    "device1Image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "device2Image": "https://www.google.com/s2/favicons?domain=sentinelone.com&sz=128",
+    "date": "2025-03-25",
+    "categoryId": "comparisons",
+    "subcategoryId": "endpoint",
+    "heroImage": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "overallWinner": 0,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التكلفة داخل بيئة Microsoft",
+          "en": "Cost within a Microsoft environment"
+        },
+        "device1Value": {
+          "ar": "مُضمّن غالبًا ضمن E5",
+          "en": "Often bundled within E5"
+        },
+        "device2Value": {
+          "ar": "تكلفة إضافية منفصلة",
+          "en": "A separate additional cost"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "الاستقلالية عن المنصة",
+          "en": "Platform independence"
+        },
+        "device1Value": {
+          "ar": "أقوى داخل Windows تحديدًا",
+          "en": "Strongest specifically within Windows"
+        },
+        "device2Value": {
+          "ar": "أداء متسق أكثر عبر منصات متعددة",
+          "en": "More consistent performance across multiple platforms"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Defender الخيار الأوفر لو أصلًا داخل منظومة Microsoft 365. SentinelOne أنسب لبيئة متعددة المنصات مش معتمدة على Windows بشكل أساسي.",
+      "en": "Defender is the more economical choice if you're already inside Microsoft 365. SentinelOne fits better in a multi-platform environment not primarily Windows-based."
+    }
+  },
+  {
+    "id": "cmp-gen-0017",
+    "slug": "chatgpt-vs-claude",
+    "title": {
+      "ar": "ChatGPT ضد Claude",
+      "en": "ChatGPT vs Claude"
+    },
+    "excerpt": {
+      "ar": "الاتنين قويين وبيتغيروا بسرعة. لو شغلك بيعتمد على تحليل مستندات طويلة أو كتابة كود دقيقة، كلود عادة بيتفوق قليلًا. لو مح",
+      "en": "Both are strong and evolving fast. If your work leans on long-document analysis or precise coding, Claude tends to edge ahead slightly. If y"
+    },
+    "device1Name": "ChatGPT",
+    "device2Name": "Claude",
+    "device1Image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2025-06-05",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 0,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "الأدوات والإضافات",
+          "en": "Tools & plugins ecosystem"
+        },
+        "device1Value": {
+          "ar": "كتالوج إضافات أوسع وأقدم",
+          "en": "A wider, more established plugin catalog"
+        },
+        "device2Value": {
+          "ar": "يركّز أكتر على المحادثة والتحليل المباشر",
+          "en": "Focuses more on direct conversation and analysis"
+        },
+        "device1Score": 8,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "طول السياق للملفات الكبيرة",
+          "en": "Context length for large files"
+        },
+        "device1Value": {
+          "ar": "جيد وبيتحسن باستمرار",
+          "en": "Good and constantly improving"
+        },
+        "device2Value": {
+          "ar": "من الأقوى تاريخيًا في التعامل مع مستندات طويلة",
+          "en": "Historically among the strongest for long documents"
+        },
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "الاتنين قويين وبيتغيروا بسرعة. لو شغلك بيعتمد على تحليل مستندات طويلة أو كتابة كود دقيقة، كلود عادة بيتفوق قليلًا. لو محتاج إضافات وتكامل أوسع مع أدوات تانية، ChatGPT أشمل حاليًا.",
+      "en": "Both are strong and evolving fast. If your work leans on long-document analysis or precise coding, Claude tends to edge ahead slightly. If you need broader plugin/tool integration, ChatGPT is currently more comprehensive."
+    }
+  },
+  {
+    "id": "cmp-gen-0018",
+    "slug": "aws-vs-azure",
+    "title": {
+      "ar": "AWS ضد Azure",
+      "en": "AWS vs Azure"
+    },
+    "excerpt": {
+      "ar": "AWS أوسع وأنضج كخدمات سحابية عامة. Azure منطقي جدًا لو مؤسستك معتمدة أصلًا على Microsoft (AD، Office 365) وعايز تكامل أس",
+      "en": "AWS is broader and more mature as a general cloud platform. Azure makes strong sense if your organization already runs on Microsoft (AD, Off"
+    },
+    "device1Name": "AWS",
+    "device2Name": "Azure",
+    "device1Image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2025-08-12",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 0,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "عمق ونضج الخدمات",
+          "en": "Service depth & maturity"
+        },
+        "device1Value": {
+          "ar": "الأقدم والأوسع خدمات في السوق",
+          "en": "The oldest and widest range of services in the market"
+        },
+        "device2Value": {
+          "ar": "ينمو بسرعة وقوي جدًا في بيئات Microsoft",
+          "en": "Growing fast and very strong in Microsoft-centric environments"
+        },
+        "device1Score": 9,
+        "device2Score": 8,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "التكامل مع بيئة Microsoft المؤسسية",
+          "en": "Integration with Microsoft enterprise stack"
+        },
+        "device1Value": {
+          "ar": "يحتاج إعداد إضافي",
+          "en": "Needs extra setup"
+        },
+        "device2Value": {
+          "ar": "سلس جدًا (AD، Office 365، إلخ)",
+          "en": "Very smooth (AD, Office 365, etc.)"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "AWS أوسع وأنضج كخدمات سحابية عامة. Azure منطقي جدًا لو مؤسستك معتمدة أصلًا على Microsoft (AD، Office 365) وعايز تكامل أسهل.",
+      "en": "AWS is broader and more mature as a general cloud platform. Azure makes strong sense if your organization already runs on Microsoft (AD, Office 365) and you want easier integration."
+    }
+  },
+  {
+    "id": "cmp-gen-0019",
+    "slug": "1password-vs-bitwarden",
+    "title": {
+      "ar": "1Password ضد Bitwarden",
+      "en": "1Password vs Bitwarden"
+    },
+    "excerpt": {
+      "ar": "1Password أنعم في التجربة اليومية. Bitwarden خيار ممتاز لو الميزانية أولوية أو بتفضّل مفتوح المصدر — الفرق العملي بينهم",
+      "en": "1Password feels smoother day-to-day. Bitwarden is an excellent choice if budget matters or you prefer open source — the practical gap betwee"
+    },
+    "device1Name": "1Password",
+    "device2Name": "Bitwarden",
+    "device1Image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2025-11-19",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 0,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "السعر",
+          "en": "Price"
+        },
+        "device1Value": {
+          "ar": "مدفوع بالكامل",
+          "en": "Fully paid"
+        },
+        "device2Value": {
+          "ar": "خطة مجانية قوية + مفتوح المصدر",
+          "en": "Strong free tier + open source"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec2": {
+        "label": {
+          "ar": "تجربة الاستخدام والتصميم",
+          "en": "UX & polish"
+        },
+        "device1Value": {
+          "ar": "من الأنعم استخدامًا في السوق",
+          "en": "Among the smoothest to use in the market"
+        },
+        "device2Value": {
+          "ar": "جيد جدًا وتحسّن كثيرًا",
+          "en": "Very good and has improved a lot"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec3": {
+        "label": {
+          "ar": "ملاءمة الفرق المؤسسية",
+          "en": "Enterprise team fit"
+        },
+        "device1Value": {
+          "ar": "أدوات إدارة فريق ناضجة",
+          "en": "Mature team-management tooling"
+        },
+        "device2Value": {
+          "ar": "أدوات فريق قوية أيضًا وأرخص للفرق الكبيرة",
+          "en": "Also strong team tooling, and cheaper for large teams"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 0
+      }
+    },
+    "verdict": {
+      "ar": "1Password أنعم في التجربة اليومية. Bitwarden خيار ممتاز لو الميزانية أولوية أو بتفضّل مفتوح المصدر — الفرق العملي بينهم أصغر بكتير من فرق السعر.",
+      "en": "1Password feels smoother day-to-day. Bitwarden is an excellent choice if budget matters or you prefer open source — the practical gap between them is much smaller than the price gap."
+    }
+  },
+  {
+    "id": "cmp-gen-0020",
+    "slug": "ps5-vs-xbox-series-x",
+    "title": {
+      "ar": "PS5 ضد Xbox Series X",
+      "en": "PS5 vs Xbox Series X"
+    },
+    "excerpt": {
+      "ar": "PS5 أفضل لو الحصريات أولويتك. Xbox Series X أقوى في القيمة الإجمالية بفضل Game Pass لو بتلعب مجموعة واسعة من الألعاب.",
+      "en": "PS5 wins if exclusives are your priority. Xbox Series X offers stronger overall value thanks to Game Pass if you play a wide range of games."
+    },
+    "device1Name": "PS5",
+    "device2Name": "Xbox Series X",
+    "device1Image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "date": "2026-01-26",
+    "categoryId": "comparisons",
+    "subcategoryId": "gaming-consoles",
+    "heroImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 0,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "الحصريات",
+          "en": "Exclusive titles"
+        },
+        "device1Value": {
+          "ar": "مكتبة حصريات أقوى تاريخيًا",
+          "en": "Historically stronger exclusives lineup"
+        },
+        "device2Value": {
+          "ar": "أقل حصريات لكن Game Pass يعوّض جزئيًا",
+          "en": "Fewer exclusives, but Game Pass partly offsets that"
+        },
+        "device1Score": 8,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "قيمة الاشتراك",
+          "en": "Subscription value"
+        },
+        "device1Value": {
+          "ar": "PS Plus جيد",
+          "en": "PS Plus is good"
+        },
+        "device2Value": {
+          "ar": "Game Pass غالبًا أفضل قيمة مقابل السعر",
+          "en": "Game Pass is usually better value for money"
+        },
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "PS5 أفضل لو الحصريات أولويتك. Xbox Series X أقوى في القيمة الإجمالية بفضل Game Pass لو بتلعب مجموعة واسعة من الألعاب.",
+      "en": "PS5 wins if exclusives are your priority. Xbox Series X offers stronger overall value thanks to Game Pass if you play a wide range of games."
+    }
+  },
+  {
+    "id": "cmp-gen-0021",
+    "slug": "apple-watch-10-vs-galaxy-watch-7",
+    "title": {
+      "ar": "Apple Watch 10 ضد Galaxy Watch 7",
+      "en": "Apple Watch 10 vs Galaxy Watch 7"
+    },
+    "excerpt": {
+      "ar": "الاختيار هنا محدد بنوع هاتفك أكتر من أي حاجة تانية — Apple Watch مع iPhone، Galaxy Watch مع Android.",
+      "en": "The choice here is mostly dictated by your phone more than anything else — Apple Watch pairs with iPhone, Galaxy Watch with Android."
+    },
+    "device1Name": "Apple Watch 10",
+    "device2Name": "Galaxy Watch 7",
+    "device1Image": "https://cdn.simpleicons.org/apple/000000",
+    "device2Image": "https://cdn.simpleicons.org/samsung/1428A0",
+    "date": "2026-04-06",
+    "categoryId": "comparisons",
+    "subcategoryId": "wearables",
+    "heroImage": "https://cdn.simpleicons.org/apple/000000",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التوافق مع الهاتف",
+          "en": "Phone compatibility"
+        },
+        "device1Value": {
+          "ar": "يعمل مع iPhone فقط",
+          "en": "Works with iPhone only"
+        },
+        "device2Value": {
+          "ar": "يعمل بشكل كامل مع Android (أفضل مع Samsung)",
+          "en": "Works fully with Android (best with Samsung)"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 0
+      },
+      "spec2": {
+        "label": {
+          "ar": "عمر البطارية",
+          "en": "Battery life"
+        },
+        "device1Value": {
+          "ar": "يوم واحد تقريبًا",
+          "en": "Roughly one day"
+        },
+        "device2Value": {
+          "ar": "أطول قليلًا في أغلب الطرز",
+          "en": "Slightly longer on most models"
+        },
+        "device1Score": 6,
+        "device2Score": 7,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "الاختيار هنا محدد بنوع هاتفك أكتر من أي حاجة تانية — Apple Watch مع iPhone، Galaxy Watch مع Android.",
+      "en": "The choice here is mostly dictated by your phone more than anything else — Apple Watch pairs with iPhone, Galaxy Watch with Android."
     }
   }
 ]

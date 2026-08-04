@@ -55,7 +55,7 @@ export function validateComparison(item, index) {
     e.push('device1Image and device2Image must differ');
   }
   if (!item.specs || typeof item.specs !== 'object') e.push('specs');
-  if (item.overallWinner !== 1 && item.overallWinner !== 2) e.push('overallWinner');
+  if (![0, 1, 2].includes(item.overallWinner)) e.push('overallWinner');
   return [...e.map((x) => `comparisons[${index}].${x}`), ...checkTaxonomy(item, index, 'comparisons')];
 }
 

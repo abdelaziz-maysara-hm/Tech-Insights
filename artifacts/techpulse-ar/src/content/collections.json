@@ -1,172 +1,152 @@
 [
   {
     "id": "col-gen-0001",
-    "slug": "best-ai-coding-tools",
-    "title": {
-      "ar": "أفضل أدوات البرمجة بالذكاء الاصطناعي",
-      "en": "Best AI Coding Tools"
-    },
-    "description": {
-      "ar": "قائمة منسّقة حول أفضل أدوات البرمجة بالذكاء الاصطناعي مع معايير اختيار واضحة.",
-      "en": "A curated list of best ai coding tools with clear selection criteria."
-    },
-    "categoryId": "ai",
-    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&h=450&q=80",
-    "date": "2022-01-01",
-    "itemSlugs": [],
-    "isFeatured": true
-  },
-  {
-    "id": "col-gen-0002",
     "slug": "best-password-managers",
     "title": {
       "ar": "أفضل مديري كلمات المرور",
       "en": "Best Password Managers"
     },
     "description": {
-      "ar": "قائمة منسّقة حول أفضل مديري كلمات المرور مع معايير اختيار واضحة.",
-      "en": "A curated list of best password managers with clear selection criteria."
+      "ar": "قائمة منسّقة تضم 2 مصادر حقيقية عن أفضل مديري كلمات المرور.",
+      "en": "A curated list of 2 real resources on best password managers."
     },
     "categoryId": "cybersecurity",
-    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
-    "date": "2022-06-08",
-    "itemSlugs": [],
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "date": "2022-01-01",
+    "itemSlugs": [
+      "password-manager-start",
+      "1password-vs-bitwarden"
+    ],
+    "isFeatured": true
+  },
+  {
+    "id": "col-gen-0002",
+    "slug": "best-firewalls-ngfw-vendors",
+    "title": {
+      "ar": "أفضل جدران الحماية (NGFW)",
+      "en": "Best Firewalls & NGFW Vendors"
+    },
+    "description": {
+      "ar": "قائمة منسّقة تضم 7 مصادر حقيقية عن أفضل جدران الحماية (NGFW).",
+      "en": "A curated list of 7 real resources on best firewalls & ngfw vendors."
+    },
+    "categoryId": "cybersecurity",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "date": "2022-08-08",
+    "itemSlugs": [
+      "palo-alto-security-policy-basics",
+      "palo-alto-ngfw-vs-fortinet-fortigate",
+      "palo-alto-ngfw-vs-forcepoint-ngfw",
+      "fortinet-fortigate-vs-forcepoint-ngfw",
+      "cisco-ftd-vs-palo-alto-ngfw",
+      "palo-alto-ngfw-vs-check-point",
+      "fortinet-fortigate-vs-sophos-firewall"
+    ],
     "isFeatured": false
   },
   {
     "id": "col-gen-0003",
-    "slug": "best-linux-distros",
+    "slug": "best-vpn-setups-guides",
     "title": {
-      "ar": "أفضل توزيعات لينكس",
-      "en": "Best Linux Distros"
+      "ar": "أفضل أدلة وإعدادات VPN",
+      "en": "Best VPN Setups & Guides"
     },
     "description": {
-      "ar": "قائمة منسّقة حول أفضل توزيعات لينكس مع معايير اختيار واضحة.",
-      "en": "A curated list of best linux distros with clear selection criteria."
+      "ar": "قائمة منسّقة تضم 4 مصادر حقيقية عن أفضل أدلة وإعدادات VPN.",
+      "en": "A curated list of 4 real resources on best vpn setups & guides."
     },
-    "categoryId": "howto",
-    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
-    "date": "2022-11-15",
-    "itemSlugs": [],
+    "categoryId": "cybersecurity",
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "date": "2023-04-15",
+    "itemSlugs": [
+      "vpn-basics-what-it-does",
+      "forcepoint-ssl-vpn-radius",
+      "fortigate-ssl-vpn-checklist",
+      "wireguard-vs-openvpn"
+    ],
     "isFeatured": false
   },
   {
     "id": "col-gen-0004",
-    "slug": "best-ides",
-    "title": {
-      "ar": "أفضل بيئات التطوير",
-      "en": "Best IDEs"
-    },
-    "description": {
-      "ar": "قائمة منسّقة حول أفضل بيئات التطوير مع معايير اختيار واضحة.",
-      "en": "A curated list of best ides with clear selection criteria."
-    },
-    "categoryId": "howto",
-    "heroImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&h=450&q=80",
-    "date": "2023-05-22",
-    "itemSlugs": [],
-    "isFeatured": false
-  },
-  {
-    "id": "col-gen-0005",
-    "slug": "best-firewalls",
-    "title": {
-      "ar": "أفضل جدران الحماية",
-      "en": "Best Firewalls"
-    },
-    "description": {
-      "ar": "قائمة منسّقة حول أفضل جدران الحماية مع معايير اختيار واضحة.",
-      "en": "A curated list of best firewalls with clear selection criteria."
-    },
-    "categoryId": "cybersecurity",
-    "heroImage": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=800&h=450&q=80",
-    "date": "2023-10-02",
-    "itemSlugs": [],
-    "isFeatured": false
-  },
-  {
-    "id": "col-gen-0006",
-    "slug": "best-vpns",
-    "title": {
-      "ar": "أفضل خدمات VPN",
-      "en": "Best VPNs"
-    },
-    "description": {
-      "ar": "قائمة منسّقة حول أفضل خدمات VPN مع معايير اختيار واضحة.",
-      "en": "A curated list of best vpns with clear selection criteria."
-    },
-    "categoryId": "cybersecurity",
-    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
-    "date": "2024-04-09",
-    "itemSlugs": [],
-    "isFeatured": false
-  },
-  {
-    "id": "col-gen-0007",
-    "slug": "best-programming-languages",
-    "title": {
-      "ar": "أفضل لغات البرمجة للمبتدئين",
-      "en": "Best Programming Languages"
-    },
-    "description": {
-      "ar": "قائمة منسّقة حول أفضل لغات البرمجة للمبتدئين مع معايير اختيار واضحة.",
-      "en": "A curated list of best programming languages with clear selection criteria."
-    },
-    "categoryId": "howto",
-    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
-    "date": "2024-09-16",
-    "itemSlugs": [],
-    "isFeatured": false
-  },
-  {
-    "id": "col-gen-0008",
     "slug": "best-cloud-platforms",
     "title": {
       "ar": "أفضل منصات الحوسبة السحابية",
       "en": "Best Cloud Platforms"
     },
     "description": {
-      "ar": "قائمة منسّقة حول أفضل منصات الحوسبة السحابية مع معايير اختيار واضحة.",
-      "en": "A curated list of best cloud platforms with clear selection criteria."
+      "ar": "قائمة منسّقة تضم 1 مصادر حقيقية عن أفضل منصات الحوسبة السحابية.",
+      "en": "A curated list of 1 real resources on best cloud platforms."
     },
     "categoryId": "technology",
-    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
-    "date": "2025-02-23",
-    "itemSlugs": [],
+    "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80",
+    "date": "2023-12-22",
+    "itemSlugs": [
+      "aws-vs-azure"
+    ],
     "isFeatured": false
   },
   {
-    "id": "col-gen-0009",
-    "slug": "best-cybersecurity-tools",
+    "id": "col-gen-0005",
+    "slug": "essential-cybersecurity-basics",
     "title": {
-      "ar": "أفضل أدوات الأمن السيبراني",
-      "en": "Best Cybersecurity Tools"
+      "ar": "أساسيات الأمن السيبراني الضرورية",
+      "en": "Essential Cybersecurity Basics"
     },
     "description": {
-      "ar": "قائمة منسّقة حول أفضل أدوات الأمن السيبراني مع معايير اختيار واضحة.",
-      "en": "A curated list of best cybersecurity tools with clear selection criteria."
+      "ar": "قائمة منسّقة تضم 4 مصادر حقيقية عن أساسيات الأمن السيبراني الضرورية.",
+      "en": "A curated list of 4 real resources on essential cybersecurity basics."
     },
     "categoryId": "cybersecurity",
-    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
-    "date": "2025-08-03",
-    "itemSlugs": [],
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "date": "2024-07-02",
+    "itemSlugs": [
+      "2fa-practical-guide",
+      "phishing-spot-before-click",
+      "password-manager-start",
+      "home-router-security-basics"
+    ],
     "isFeatured": false
   },
   {
-    "id": "col-gen-0010",
-    "slug": "best-ai-image-generators",
+    "id": "col-gen-0006",
+    "slug": "best-endpoint-detection-response-edr-tools",
     "title": {
-      "ar": "أفضل مولّدات الصور بالذكاء الاصطناعي",
-      "en": "Best AI Image Generators"
+      "ar": "أفضل أدوات EDR لحماية النقاط الطرفية",
+      "en": "Best Endpoint Detection & Response (EDR) Tools"
     },
     "description": {
-      "ar": "قائمة منسّقة حول أفضل مولّدات الصور بالذكاء الاصطناعي مع معايير اختيار واضحة.",
-      "en": "A curated list of best ai image generators with clear selection criteria."
+      "ar": "قائمة منسّقة تضم 3 مصادر حقيقية عن أفضل أدوات EDR لحماية النقاط الطرفية.",
+      "en": "A curated list of 3 real resources on best endpoint detection & response (edr) tools."
     },
-    "categoryId": "ai",
-    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&h=450&q=80",
-    "date": "2026-01-10",
-    "itemSlugs": [],
-    "isFeatured": true
+    "categoryId": "cybersecurity",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "date": "2025-03-09",
+    "itemSlugs": [
+      "crowdstrike-falcon-vs-microsoft-defender",
+      "crowdstrike-falcon-vs-sentinelone",
+      "microsoft-defender-vs-sentinelone"
+    ],
+    "isFeatured": false
+  },
+  {
+    "id": "col-gen-0007",
+    "slug": "best-identity-access-management-iam-tools",
+    "title": {
+      "ar": "أفضل أدوات إدارة الهوية والوصول",
+      "en": "Best Identity & Access Management (IAM) Tools"
+    },
+    "description": {
+      "ar": "قائمة منسّقة تضم 3 مصادر حقيقية عن أفضل أدوات إدارة الهوية والوصول.",
+      "en": "A curated list of 3 real resources on best identity & access management (iam) tools."
+    },
+    "categoryId": "cybersecurity",
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "date": "2025-11-16",
+    "itemSlugs": [
+      "ad-powershell-daily-tasks",
+      "okta-vs-microsoft-entra-id",
+      "windows-nps-vs-freeradius"
+    ],
+    "isFeatured": false
   }
 ]
