@@ -956,12 +956,12 @@
     "id": "art-gen-0031",
     "slug": "windows-event-viewer-security-logs",
     "title": {
-      "ar": "قراءة سجلات الأمان في Event Viewer بذكاء",
-      "en": "Reading Windows Security Logs in Event Viewer Smartly"
+      "ar": "قراءة سجلات الأمان في Event Viewer بذكاء: الدليل الكامل",
+      "en": "Reading Windows Security Logs in Event Viewer Smartly: The Complete Guide"
     },
     "excerpt": {
-      "ar": "أهم Event IDs اللي لازم تنتبه لها من غير ما تغرق في آلاف السجلات.",
-      "en": "The key Event IDs worth watching, without drowning in thousands of log entries."
+      "ar": "شرح تفصيلي لأهم 5 Event IDs، ليه 1102 أقوى علامة تحذير على الإطلاق، واستراتيجية مراقبة عملية.",
+      "en": "A detailed breakdown of the 5 key Event IDs, why 1102 is the strongest warning sign of all, and a practical monitoring strategy."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -973,12 +973,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-09-22",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1740560051549-cc6799220d48?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NHx8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "event-viewer",
       "windows-security",
-      "logging"
+      "logging",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1018,12 +1019,12 @@
     "id": "art-gen-0033",
     "slug": "dark-web-monitoring-basics",
     "title": {
-      "ar": "مراقبة الديب/دارك ويب لبيانات شركتك: هل تحتاجها؟",
-      "en": "Dark Web Monitoring for Your Company's Data: Do You Need It?"
+      "ar": "مراقبة الدارك ويب لبيانات شركتك: الدليل الكامل لتحديد إذا كنت محتاجها",
+      "en": "Dark Web Monitoring for Your Company's Data: The Complete Guide to Deciding If You Need It"
     },
     "excerpt": {
-      "ar": "إيه اللي بتعمله خدمات مراقبة الدارك ويب فعليًا، ومتى تستاهل التكلفة.",
-      "en": "What dark web monitoring services actually do, and when the cost is worth it."
+      "ar": "الفرق الجوهري بين اكتشاف ومنع، 3 معايير لتحديد قيمة الاستثمار، وليه التنبيه بدون خطة استجابة استثمار ضائع.",
+      "en": "The core difference between detection and prevention, 3 criteria for assessing investment value, and why an alert without a response plan is wasted investment."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1035,12 +1036,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-12-09",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1768224656445-33d078c250b7?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8N3x8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "dark-web",
       "threat-intelligence",
-      "security"
+      "security",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1049,12 +1051,12 @@
     "id": "art-gen-0034",
     "slug": "ssd-vs-hdd-server-storage",
     "title": {
-      "ar": "SSD مقابل HDD في تخزين السيرفرات: مش مجرد سرعة",
+      "ar": "SSD مقابل HDD في تخزين السيرفرات: الدليل الكامل",
       "en": "SSD vs HDD for Server Storage: It's Not Just About Speed"
     },
     "excerpt": {
-      "ar": "عوامل تانية غير السرعة لازم تاخدها في الاعتبار وقت اختيار تخزين السيرفر.",
-      "en": "Factors beyond speed you should weigh when choosing server storage."
+      "ar": "4 عوامل مقارنة حقيقية غير السرعة، استراتيجية الهجين (Hybrid) العملية، وسيناريو تطبيقي واضح.",
+      "en": "4 real comparison factors beyond speed, the practical hybrid strategy, and a clear applied scenario."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
@@ -1066,12 +1068,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-02-16",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1760199789455-49098afd02f0?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8OHx8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "storage",
       "ssd",
-      "server-hardware"
+      "server-hardware",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2852,6 +2855,38 @@
       "edr",
       "endpoint-security",
       "malware",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0092",
+    "slug": "container-security-basics-guide",
+    "title": {
+      "ar": "أساسيات أمان الحاويات (Container Security): الدليل الكامل",
+      "en": "Container Security Basics: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "4 مخاطر أساسية مختلفة عن أمان الأجهزة الافتراضية التقليدي، و5 خطوات حماية عملية من فحص الصور لسياسات الشبكة.",
+      "en": "4 core risks different from traditional VM security, and 5 practical protection steps from image scanning to network policies."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-17",
+    "readTime": 9,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "containers",
+      "docker",
+      "kubernetes",
       "guide"
     ],
     "isFeatured": true,

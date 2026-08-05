@@ -1076,16 +1076,16 @@
     "id": "art-gen-0031",
     "slug": "windows-event-viewer-security-logs",
     "title": {
-      "ar": "قراءة سجلات الأمان في Event Viewer بذكاء",
-      "en": "Reading Windows Security Logs in Event Viewer Smartly"
+      "ar": "قراءة سجلات الأمان في Event Viewer بذكاء: الدليل الكامل",
+      "en": "Reading Windows Security Logs in Event Viewer Smartly: The Complete Guide"
     },
     "excerpt": {
-      "ar": "أهم Event IDs اللي لازم تنتبه لها من غير ما تغرق في آلاف السجلات.",
-      "en": "The key Event IDs worth watching, without drowning in thousands of log entries."
+      "ar": "شرح تفصيلي لأهم 5 Event IDs، ليه 1102 أقوى علامة تحذير على الإطلاق، واستراتيجية مراقبة عملية.",
+      "en": "A detailed breakdown of the 5 key Event IDs, why 1102 is the strongest warning sign of all, and a practical monitoring strategy."
     },
     "body": {
-      "ar": "## المشكلة\n\nEvent Viewer بيسجّل آلاف الأحداث يوميًا، ومحاولة مراجعتها كلها يدويًا مستحيلة عمليًا.\n\n## Event IDs تستاهل انتباه فوري\n\n- **4625**: محاولة دخول فاشلة (لو تكررت كتير = محاولة تخمين).\n- **4720**: إنشاء حساب مستخدم جديد.\n- **4732**: إضافة مستخدم لمجموعة إدارية.\n- **4688**: إنشاء عملية جديدة (مفيد لتتبع تنفيذ برامج مشبوهة).\n- **1102**: مسح سجل الأحداث (علامة تحذير قوية جدًا لو حصلت من غير سبب واضح).\n\n## نصيحة عملية\n\nاربط السجلات دي بأداة مراقبة مركزية (SIEM) بدل المراجعة اليدوية، وحدد تنبيهات فورية على 1102 و4732 تحديدًا.\n\n## الخلاصة\n\nمعرفة 5-6 Event IDs مهمة أفضل بكتير من محاولة مراجعة كل سجل.",
-      "en": "## The problem\n\nEvent Viewer logs thousands of events daily -- manually reviewing all of them is practically impossible.\n\n## Event IDs worth immediate attention\n\n4625 (failed login), 4720 (new user account), 4732 (added to admin group), 4688 (new process created), and especially 1102 (event log cleared -- a strong red flag if unexpected).\n\n## Bottom line\n\nKnowing 5-6 key Event IDs beats trying to review every single log entry."
+      "ar": "## المشكلة: كمية بيانات ضخمة، وقت محدود\n\nEvent Viewer بيسجّل آلاف الأحداث يوميًا حتى على جهاز واحد عادي — سيرفر بمستخدمين متعددين ممكن يسجّل عشرات الآلاف. محاولة مراجعة كل ده يدويًا مستحيلة عمليًا، والحل مش \"تجاهل السجلات\" لكن \"معرفة بالظبط إيه اللي تدوّر عليه\".\n\n## Event IDs الأساسية تستاهل انتباه فوري\n\n### 4625: محاولة دخول فاشلة\n\nمحاولة واحدة عادية، لكن **تكرار كبير في وقت قصير على نفس الحساب أو من نفس المصدر** مؤشر قوي على محاولة تخمين كلمة مرور (Brute Force). راقب النمط، مش الحدث الفردي.\n\n### 4720: إنشاء حساب مستخدم جديد\n\nأي حساب جديد لازم يكون له سبب معروف ومُوثّق. حساب اتعمل من غير ما حد يعرف ليه = علامة تحذير قوية جدًا.\n\n### 4732: إضافة مستخدم لمجموعة إدارية\n\nمن أخطر الأحداث اللي تستاهل مراجعة فورية — لو حساب اتضاف لمجموعة Domain Admins من غير طلب رسمي موثّق، ده يستاهل تحقيق فوري.\n\n### 4688: إنشاء عملية جديدة\n\nمفيد جدًا لتتبع تنفيذ برامج مشبوهة، خصوصًا لو مربوط بمسار ملف غير معتاد (زي تنفيذ من مجلد Temp أو Downloads).\n\n### 1102: مسح سجل الأحداث\n\n**علامة التحذير الأقوى على الإطلاق.** مهاجم محترف بيحاول يمسح آثاره بعد الاختراق — لو الحدث ده حصل من غير سبب إداري واضح ومُخطط له، اعتبره حادث أمني حتى يثبت العكس.\n\n## استراتيجية عملية للمراجعة\n\n### 1. اربط السجلات بأداة مراقبة مركزية\n\nمراجعة يدوية لملفات سجل منفصلة على كل جهاز مستحيلة عمليًا مع نمو العدد. أداة SIEM أو حتى سيرفر Syslog مركزي بسيط بيجمّع كل ده في مكان واحد قابل للبحث.\n\n### 2. حدد تنبيهات فورية على الأحداث عالية الخطورة\n\nمش كل الـEvent IDs بنفس الأهمية — حدد تنبيه فوري (بريد أو إشعار) خصوصًا على 1102 و4732، اللي بيستاهلوا استجابة سريعة جدًا.\n\n### 3. راقب الأنماط، مش الأحداث الفردية\n\nحدث واحد ممكن يكون عادي، لكن سلسلة أحداث مع بعض (محاولات دخول فاشلة، بعدها نجاح، بعدها إضافة لمجموعة إدارية) نمط هجوم واضح.\n\n## الخلاصة\n\nمعرفة 5-6 Event IDs أساسية والتركيز عليها أفضل بكتير من محاولة مراجعة كل سجل — خصوصًا لو مربوطة بأداة مراقبة مركزية بتنبّهك فورًا على الأحداث عالية الخطورة.",
+      "en": "## The problem: massive data volume, limited time\n\nEvent Viewer logs thousands of events daily even on a single normal machine -- a server with multiple users can log tens of thousands. Manually reviewing all of this is practically impossible, and the solution isn't 'ignore the logs' but 'know exactly what to look for'.\n\n## Core Event IDs worth immediate attention\n\n### 4625: failed login attempt\n\nOne attempt alone is normal, but a large number in a short time on the same account or from the same source is a strong indicator of a brute-force password guessing attempt. Watch the pattern, not the individual event.\n\n### 4720: new user account created\n\nAny new account should have a known, documented reason. An account created with nobody knowing why is a very strong warning sign.\n\n### 4732: user added to an admin group\n\nOne of the most dangerous events deserving immediate review -- if an account is added to Domain Admins without a documented formal request, it deserves immediate investigation.\n\n### 4688: new process created\n\nVery useful for tracking suspicious program execution, especially if tied to an unusual file path (like execution from a Temp or Downloads folder).\n\n### 1102: event log cleared\n\nThe strongest warning sign of all. A professional attacker tries to erase their tracks after a breach -- if this event occurs without a clear, planned administrative reason, treat it as a security incident until proven otherwise.\n\n## A practical review strategy\n\n### 1. Feed logs into a central monitoring tool\n\nManually reviewing separate log files on each machine is practically impossible as the count grows. A SIEM tool, or even a simple central syslog server, gathers all of this into one searchable place.\n\n### 2. Set immediate alerts on high-risk events\n\nNot all Event IDs carry equal importance -- set immediate alerts (email or notification) especially for 1102 and 4732, which deserve very fast response.\n\n### 3. Watch patterns, not individual events\n\nOne event alone might be normal, but a chain of events together (failed logins, then a success, then addition to an admin group) forms a clear attack pattern.\n\n## Bottom line\n\nKnowing 5-6 core Event IDs and focusing on them beats trying to review every log entry -- especially when tied to a central monitoring tool that alerts you immediately on high-risk events."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -1097,12 +1097,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-09-22",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1740560051549-cc6799220d48?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NHx8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "event-viewer",
       "windows-security",
-      "logging"
+      "logging",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1146,16 +1147,16 @@
     "id": "art-gen-0033",
     "slug": "dark-web-monitoring-basics",
     "title": {
-      "ar": "مراقبة الديب/دارك ويب لبيانات شركتك: هل تحتاجها؟",
-      "en": "Dark Web Monitoring for Your Company's Data: Do You Need It?"
+      "ar": "مراقبة الدارك ويب لبيانات شركتك: الدليل الكامل لتحديد إذا كنت محتاجها",
+      "en": "Dark Web Monitoring for Your Company's Data: The Complete Guide to Deciding If You Need It"
     },
     "excerpt": {
-      "ar": "إيه اللي بتعمله خدمات مراقبة الدارك ويب فعليًا، ومتى تستاهل التكلفة.",
-      "en": "What dark web monitoring services actually do, and when the cost is worth it."
+      "ar": "الفرق الجوهري بين اكتشاف ومنع، 3 معايير لتحديد قيمة الاستثمار، وليه التنبيه بدون خطة استجابة استثمار ضائع.",
+      "en": "The core difference between detection and prevention, 3 criteria for assessing investment value, and why an alert without a response plan is wasted investment."
     },
     "body": {
-      "ar": "## إيه اللي بتراقبه فعليًا\n\nخدمات زي دي بتدوّر على نطاقات الشركة، إيميلات الموظفين، أو بيانات مسرّبة في منتديات وأسواق الدارك ويب، وبتنبهك لو لقت تطابق.\n\n## مفيش ضمان منع\n\nمهم توضيح: الخدمة دي **بتكتشف بعد التسريب**، مش بتمنعه. الفايدة إنك تعرف بسرعة بدل ما تكتشف بعد أشهر.\n\n## متى تستاهل التكلفة\n\n1. شركة عندها بيانات عملاء حساسة (مالية أو صحية).\n2. قطاع مستهدف بشكل متكرر (بنوك، حكومة).\n3. عندك بالفعل عملية استجابة سريعة لو حصل تنبيه (مفيش فايدة من التنبيه لو مفيش خطة تصرف).\n\n## الخلاصة\n\nأداة اكتشاف مبكر مفيدة، بس لازم تكون جزء من خطة استجابة أوسع، مش حل قائم بذاته.",
-      "en": "## What it actually monitors\n\nServices like this scan for company domains, employee emails, or leaked data appearing in dark web forums and marketplaces, alerting you on a match.\n\n## No guarantee of prevention\n\nImportant: this detects AFTER a leak, it doesn't prevent one. The value is finding out quickly instead of months later.\n\n## Bottom line\n\nA useful early-detection tool, but it needs to be part of a broader response plan, not a standalone solution."
+      "ar": "## إيه اللي الخدمة دي بتراقبه فعليًا\n\nخدمات مراقبة الدارك ويب بتدوّر باستمرار على منتديات وأسواق الدارك ويب المعروفة عن: نطاقات الشركة، إيميلات الموظفين، بيانات دخول مسرّبة، أو حتى ذكر اسم الشركة نفسه في سياق مشبوه (زي بيع وصول لشبكتها الداخلية). لو لقت تطابق، بتبعتلك تنبيه فوري.\n\n## نقطة مهمة جدًا: اكتشاف، مش منع\n\n**الخدمة دي بتكتشف بعد ما التسريب يحصل فعلًا، مش بتمنعه من الأساس.** الفايدة الحقيقية مش \"الحماية\" بالمعنى التقليدي، لكن **تقليل وقت الاكتشاف** — الفرق بين ما تعرفش إن بيانات موظفينك اتسرّبت إلا بعد شهور (لما حد يستغلها فعليًا)، وما تعرف خلال أيام قليلة من التسريب نفسه.\n\n## متى الاستثمار في الخدمة دي يستاهل فعليًا\n\n### 1. شركة عندها بيانات عملاء حساسة\n\nقطاع مالي أو صحي، فين تسريب بيانات العملاء له عواقب قانونية ومالية ضخمة — الاكتشاف المبكر بيقلل نافذة الضرر بشكل حقيقي.\n\n### 2. قطاع مستهدف بشكل متكرر\n\nبنوك، شركات حكومية، أو أي قطاع بيتعرض لمحاولات اختراق متكررة — احتمالية التسريب أعلى، فقيمة المراقبة أعلى.\n\n### 3. عندك بالفعل عملية استجابة سريعة\n\n**النقطة الأهم اللي كتير من الشركات بتنساها**: التنبيه نفسه مالوش قيمة لو مفيش خطة واضحة تتصرف بيها فورًا. لو التنبيه هيوصل ويتراكم مع تنبيهات تانية من غير حد يتصرف، الاستثمار ضاع.\n\n## خطوات عملية لو قررت تستثمر في الخدمة\n\n### 1. حدد مين المسؤول عن التصرف عند أي تنبيه\n\nقبل ما تشترك في أي خدمة، حدد بوضوح: مين بيستلم التنبيه، وإيه الخطوة التالية بالظبط (تغيير كلمات مرور، تنبيه الموظفين المتأثرين، إلخ).\n\n### 2. اربطها بخطة استجابة الحوادث الموجودة أصلًا\n\nمش أداة منفصلة قائمة بذاتها — لازم تكون جزء من عملية أوسع (زي خطة الاستجابة للحوادث اللي غطيناها في مقال تاني).\n\n### 3. اختبر الاستجابة بشكل دوري\n\nتأكد إن التنبيه فعليًا بيوصل للشخص الصح وبيتصرف بالسرعة المطلوبة، مش بس افتراض إن النظام شغال.\n\n## الخلاصة\n\nمراقبة الدارك ويب أداة اكتشاف مبكر مفيدة، لكنها **مش حل قائم بذاته** — قيمتها الحقيقية بتظهر بس لو مربوطة بعملية استجابة واضحة ومُختبرة، مش مجرد اشتراك في خدمة وانتظار تنبيهات محدش هيتصرف بيها.",
+      "en": "## What this service actually monitors\n\nDark web monitoring services continuously scan known dark web forums and marketplaces for: company domains, employee emails, leaked login credentials, or even mentions of the company's name in a suspicious context (like selling access to its internal network). If a match is found, it sends an immediate alert.\n\n## An important point: detection, not prevention\n\nThis service detects after a leak has already happened, it doesn't prevent it from occurring in the first place. The real value isn't 'protection' in the traditional sense, but reducing detection time -- the difference between not knowing your employees' data leaked until months later (when someone actually exploits it), versus finding out within days of the leak itself.\n\n## When investing in this service is genuinely worth it\n\n### 1. A company with sensitive customer data\n\nFinancial or healthcare sectors, where customer data leaks carry huge legal and financial consequences -- early detection genuinely reduces the damage window.\n\n### 2. A frequently targeted sector\n\nBanks, government entities, or any sector facing repeated breach attempts -- leak probability is higher, so monitoring's value is higher.\n\n### 3. You already have a fast response process\n\nThe most important point many companies forget: the alert itself has no value without a clear plan to act on it immediately. If the alert just arrives and piles up with other alerts with nobody acting on it, the investment is wasted.\n\n## Practical steps if you decide to invest\n\n### 1. Identify who's responsible for acting on any alert\n\nBefore subscribing to any service, clearly define: who receives the alert, and exactly what the next step is (changing passwords, notifying affected employees, etc.).\n\n### 2. Link it to your existing incident response plan\n\nNot a standalone tool -- it should be part of a broader process (like the incident response plan covered in another article).\n\n### 3. Periodically test the response\n\nConfirm the alert actually reaches the right person and gets acted on at the required speed, instead of just assuming the system works.\n\n## Bottom line\n\nDark web monitoring is a useful early-detection tool, but it's not a standalone solution -- its real value only shows up when tied to a clear, tested response process, not just subscribing to a service and waiting for alerts nobody will act on."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1167,12 +1168,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-12-09",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1768224656445-33d078c250b7?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8N3x8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "dark-web",
       "threat-intelligence",
-      "security"
+      "security",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1181,16 +1183,16 @@
     "id": "art-gen-0034",
     "slug": "ssd-vs-hdd-server-storage",
     "title": {
-      "ar": "SSD مقابل HDD في تخزين السيرفرات: مش مجرد سرعة",
+      "ar": "SSD مقابل HDD في تخزين السيرفرات: الدليل الكامل",
       "en": "SSD vs HDD for Server Storage: It's Not Just About Speed"
     },
     "excerpt": {
-      "ar": "عوامل تانية غير السرعة لازم تاخدها في الاعتبار وقت اختيار تخزين السيرفر.",
-      "en": "Factors beyond speed you should weigh when choosing server storage."
+      "ar": "4 عوامل مقارنة حقيقية غير السرعة، استراتيجية الهجين (Hybrid) العملية، وسيناريو تطبيقي واضح.",
+      "en": "4 real comparison factors beyond speed, the practical hybrid strategy, and a clear applied scenario."
     },
     "body": {
-      "ar": "## أكتر من مجرد السرعة\n\nSSD أسرع طبعًا، لكن القرار الصح بيعتمد على عوامل تانية كمان.\n\n## عوامل تستاهل الاهتمام\n\n1. **التكلفة لكل جيجابايت**: HDD لسه أرخص بكتير للتخزين الضخم (أرشيف، نسخ احتياطي).\n2. **الموثوقية طويلة المدى**: SSD مفيهوش أجزاء متحركة، أقل عرضة للفشل الميكانيكي.\n3. **الاستخدام الفعلي**: قواعد بيانات وأنظمة تشغيل تستفيد جدًا من SSD، أرشيف بارد ملوش داعي.\n\n## استراتيجية عملية شائعة\n\nSSD للنظام والتطبيقات النشطة، HDD للأرشيف والنسخ الاحتياطي طويل المدى — مش لازم تختار واحد بس لكل حاجة.\n\n## الخلاصة\n\nالسؤال مش \"SSD ولا HDD\" بس، السؤال \"إيه البيانات دي وإزاي بتتستخدم فعليًا\".",
-      "en": "## More than just speed\n\nSSD is faster, sure, but the right choice depends on other factors too.\n\n## Factors worth weighing\n\nCost per gigabyte (HDD is still much cheaper for bulk archive/backup storage), long-term reliability (SSDs have no moving parts, less prone to mechanical failure), and actual usage pattern (databases and OS benefit hugely from SSD, cold archives don't need it).\n\n## Bottom line\n\nThe question isn't just 'SSD or HDD' -- it's 'what is this data and how is it actually used'."
+      "ar": "## أكتر من مجرد سؤال \"أيهما أسرع؟\"\n\nSSD أسرع من HDD بشكل واضح ولا نقاش فيه — لكن القرار الصح لتخزين سيرفر بيعتمد على عوامل تانية مهمة بنفس القدر، مش بس السرعة الخام.\n\n## العوامل الأساسية للمقارنة\n\n### 1. التكلفة لكل جيجابايت\n\nHDD لسه أرخص بشكل ملحوظ للتخزين الضخم — أرشيف أو نسخ احتياطي بحجم تيرابايتات كتيرة، الفرق في التكلفة بين SSD وHDD بيبقى كبير جدًا. لو الاستخدام مش محتاج سرعة وصول فورية، التوفير المالي حقيقي.\n\n### 2. الموثوقية طويلة المدى\n\nSSD مفيهوش أجزاء متحركة ميكانيكيًا، فأقل عرضة للفشل بسبب اهتزاز أو صدمة فيزيائية. لكن SSD عنده حد أقصى لعدد مرات الكتابة (Write Cycles) — مش مشكلة عملية لمعظم الاستخدامات، لكن مهم تعرفها لو الاستخدام كثيف الكتابة جدًا (زي قواعد بيانات ضخمة التحديث المستمر).\n\n### 3. نمط الاستخدام الفعلي\n\nالنظام الأساسي والتطبيقات النشطة والقواعد بيانات المُستخدمة باستمرار بتستفيد بشكل ضخم وملموس من سرعة SSD — وقت الإقلاع، فتح التطبيقات، استعلامات قاعدة البيانات كلها أسرع بشكل واضح. أرشيف بارد (بيانات نادرًا ما بتتاح) مالوش داعي حقيقي لسرعة SSD.\n\n### 4. استهلاك الطاقة والحرارة\n\nSSD عمومًا بيستهلك طاقة أقل وبيولّد حرارة أقل من HDD — مهم في بيئات فيها عدد كبير من أقراص التخزين، بيأثر على تكلفة التبريد والكهرباء على المدى الطويل.\n\n## استراتيجية عملية شائعة: الهجين (Hybrid)\n\nمش لازم تختار واحد بس لكل شيء. الاستراتيجية الأكثر شيوعًا عمليًا:\n\n1. **SSD للنظام والتطبيقات النشطة**: نظام التشغيل، قواعد البيانات المستخدمة باستمرار، أي حاجة بتتلمس يوميًا.\n2. **HDD للأرشيف والنسخ الاحتياطي طويل المدى**: بيانات نادرًا ما بتتاح، لكن لازم تفضل متاحة لو احتجتها.\n\n## سيناريو عملي للتوضيح\n\nسيرفر ملفات شركة صغيرة: نظام التشغيل والتطبيقات على SSD صغير نسبيًا (256-512 جيجا)، والملفات المشتركة والأرشيف على HDD أكبر بكتير (عدة تيرابايت) — توازن حقيقي بين السرعة والتكلفة.\n\n## الخلاصة\n\nالسؤال مش \"SSD ولا HDD\" بس — السؤال الصح \"إيه البيانات دي بالظبط، وإزاي بتتستخدم فعليًا؟\". استراتيجية هجينة (SSD للنشط، HDD للأرشيف) بتدّيك أفضل الاتنين من غير مبالغة في التكلفة.",
+      "en": "## More than just 'which is faster?'\n\nSSD is clearly, indisputably faster than HDD -- but the right storage decision for a server depends on other factors just as important, not just raw speed.\n\n## Core comparison factors\n\n### 1. Cost per gigabyte\n\nHDD remains noticeably cheaper for bulk storage -- archives or backups spanning many terabytes see a very large cost gap between SSD and HDD. If the use case doesn't need instant access speed, the financial savings are real.\n\n### 2. Long-term reliability\n\nSSDs have no mechanically moving parts, so they're less prone to failure from vibration or physical shock. But SSDs have a maximum write-cycle limit -- not a practical problem for most uses, but important to know if usage is very write-intensive (like a constantly-updated large database).\n\n### 3. Actual usage pattern\n\nThe core OS, active applications, and continuously-used databases benefit hugely and noticeably from SSD speed -- boot time, opening apps, database queries are all clearly faster. Cold archives (rarely accessed data) don't genuinely need SSD speed.\n\n### 4. Power consumption and heat\n\nSSDs generally consume less power and generate less heat than HDDs -- important in environments with many storage disks, affecting cooling and electricity cost long-term.\n\n## A common practical strategy: hybrid\n\nYou don't need to choose just one for everything. The most common practical strategy:\n\nSSD for the OS and active applications: the operating system, continuously-used databases, anything touched daily. HDD for archives and long-term backup: rarely accessed data that must remain available if needed.\n\n## A practical scenario for illustration\n\nA small company's file server: OS and applications on a relatively small SSD (256-512GB), and shared files/archive on a much larger HDD (several terabytes) -- a real balance between speed and cost.\n\n## Bottom line\n\nThe question isn't just 'SSD or HDD' -- the right question is 'what is this data exactly, and how is it actually used?'. A hybrid strategy (SSD for active, HDD for archive) gives you the best of both without overspending."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
@@ -1202,12 +1204,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-02-16",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1760199789455-49098afd02f0?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8OHx8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "storage",
       "ssd",
-      "server-hardware"
+      "server-hardware",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -3216,6 +3219,42 @@
       "edr",
       "endpoint-security",
       "malware",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0092",
+    "slug": "container-security-basics-guide",
+    "title": {
+      "ar": "أساسيات أمان الحاويات (Container Security): الدليل الكامل",
+      "en": "Container Security Basics: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "4 مخاطر أساسية مختلفة عن أمان الأجهزة الافتراضية التقليدي، و5 خطوات حماية عملية من فحص الصور لسياسات الشبكة.",
+      "en": "4 core risks different from traditional VM security, and 5 practical protection steps from image scanning to network policies."
+    },
+    "body": {
+      "ar": "## ليه أمان الحاويات مختلف عن أمان الأجهزة الافتراضية التقليدي\n\nالحاويات (Containers) بتشارك نواة نظام التشغيل (Kernel) مع الجهاز المضيف، على عكس الأجهزة الافتراضية اللي كل واحدة فيها نظام تشغيل كامل ومنفصل. ده بيدّي كفاءة أعلى بكتير، لكن معناه كمان إن أي ثغرة في عزل الحاوية (Container Isolation) ممكن تأثر على المضيف نفسه أو حاويات تانية شغالة عليه — سطح هجوم مختلف تمامًا محتاج تفكير أمني مختلف.\n\n## المخاطر الأساسية اللي تستاهل اهتمام\n\n### 1. صور أساسية غير موثوقة (Base Images)\n\nكتير من الفرق بتسحب صور جاهزة من مصادر عامة (Docker Hub مثلًا) من غير مراجعة — الصورة ممكن تحتوي ثغرات معروفة موروثة، أو في حالات نادرة كود خبيث مُضاف عمدًا.\n\n### 2. أسرار مُخزّنة في الصورة نفسها (Hardcoded Secrets)\n\nمفاتيح API أو كلمات مرور مكتوبة مباشرة في Dockerfile أو كود التطبيق — أي حد يقدر يوصل للصورة يقدر يشوف الأسرار دي، حتى لو الصورة نفسها مش منشورة للعامة.\n\n### 3. تشغيل الحاوية بصلاحيات Root غير ضرورية\n\nالإعداد الافتراضي لكتير من الصور بيشغّل العملية بصلاحيات Root كاملة — لو حصل اختراق للتطبيق جوه الحاوية، المهاجم بياخد صلاحيات أوسع بكتير من اللازم.\n\n### 4. عزل شبكي ضعيف بين الحاويات\n\nمن غير سياسات شبكة واضحة، حاوية واحدة مخترقة تقدر تتواصل بحرية مع كل الحاويات التانية على نفس الشبكة — نفس مشكلة الشبكة المسطحة، لكن على مستوى الحاويات.\n\n## خطوات حماية عملية\n\n### 1. افحص الصور قبل النشر (Image Scanning)\n\nأدوات زي Trivy أو Grype بتفحص الصورة عن ثغرات معروفة **قبل** ما توصل للإنتاج — ادمج الفحص ده في خط أنابيب CI/CD نفسه، مش كخطوة يدوية منفصلة سهل نسيانها.\n\n### 2. استخدم صور أساسية رسمية ومحدّثة\n\nاختار صور من مصادر موثوقة ومُوقّعة رقميًا، وحدّثها دوريًا — صورة أساسية قديمة معناها ثغرات معروفة متراكمة بمرور الوقت.\n\n### 3. استخدم أدوات إدارة أسرار مخصصة\n\nبدل كتابة الأسرار في الكود، استخدم أدوات زي HashiCorp Vault أو خدمات إدارة أسرار سحابية — الأسرار بتتحقن وقت التشغيل، مش مخزّنة في الصورة نفسها أبدًا.\n\n### 4. شغّل الحاويات بأقل صلاحيات ممكنة\n\nحدد صراحة مستخدم غير Root في الـDockerfile، وقيّد الصلاحيات لأضيق نطاق فعلي محتاج للتطبيق يشتغل.\n\n### 5. طبّق سياسات شبكة صريحة بين الحاويات\n\nاستخدم Network Policies (في Kubernetes مثلًا) لتحديد بالظبط أي حاوية تقدر تتواصل مع أي حاوية تانية، بدل السماح الافتراضي بكل شيء.\n\n## الخلاصة\n\nأمان الحاويات مش \"نفس أمان الأجهزة الافتراضية بس أصغر\" — سطح الهجوم مختلف (صور، أسرار، صلاحيات، عزل شبكي)، ومحتاج طبقات حماية مخصصة له تحديدًا: فحص صور آلي، إدارة أسرار حقيقية، وأقل صلاحيات ممكنة كافتراضي.",
+      "en": "## Why container security differs from traditional VM security\n\nContainers share the host's OS kernel, unlike virtual machines which each have a full, separate operating system. This gives much higher efficiency, but also means any flaw in container isolation can affect the host itself or other containers running on it -- an entirely different attack surface needing different security thinking.\n\n## Core risks worth attention\n\n### 1. Untrusted base images\n\nMany teams pull ready-made images from public sources (Docker Hub, say) without review -- the image might contain inherited known vulnerabilities, or in rare cases, deliberately added malicious code.\n\n### 2. Secrets hardcoded in the image itself\n\nAPI keys or passwords written directly into a Dockerfile or application code -- anyone able to access the image can see these secrets, even if the image itself isn't publicly published.\n\n### 3. Running the container with unnecessary root privileges\n\nThe default setup for many images runs the process with full root privileges -- if the application inside the container is compromised, the attacker gains far broader privileges than needed.\n\n### 4. Weak network isolation between containers\n\nWithout clear network policies, one compromised container can communicate freely with every other container on the same network -- the same flat-network problem, but at the container level.\n\n## Practical protection steps\n\n### 1. Scan images before deployment\n\nTools like Trivy or Grype scan the image for known vulnerabilities before it reaches production -- integrate this scanning into the CI/CD pipeline itself, not as a separate manual step easy to forget.\n\n### 2. Use official, updated base images\n\nChoose images from trusted, digitally signed sources, and update them regularly -- an old base image means accumulated known vulnerabilities over time.\n\n### 3. Use dedicated secrets management tools\n\nInstead of writing secrets in code, use tools like HashiCorp Vault or cloud secrets management services -- secrets get injected at runtime, never stored in the image itself.\n\n### 4. Run containers with the least privilege possible\n\nExplicitly set a non-root user in the Dockerfile, and restrict privileges to the narrowest scope the application genuinely needs to function.\n\n### 5. Apply explicit network policies between containers\n\nUse Network Policies (in Kubernetes, say) to precisely define which container can communicate with which other container, instead of allowing everything by default.\n\n## Bottom line\n\nContainer security isn't 'the same as VM security, just smaller' -- the attack surface is different (images, secrets, privileges, network isolation), needing protection layers specific to it: automated image scanning, real secrets management, and least privilege as the default."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-17",
+    "readTime": 9,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "containers",
+      "docker",
+      "kubernetes",
       "guide"
     ],
     "isFeatured": true,
