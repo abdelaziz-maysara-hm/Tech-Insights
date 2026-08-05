@@ -2589,5 +2589,250 @@
     ],
     "isFeatured": false,
     "isTrending": false
+  },
+  {
+    "id": "art-gen-0075",
+    "slug": "honeypot-deception-basics",
+    "title": {
+      "ar": "الفخاخ الرقمية (Honeypots): كيف تكتشف المهاجم قبل ما يوصل لأي حاجة حقيقية",
+      "en": "Honeypots: Catching an Attacker Before They Reach Anything Real"
+    },
+    "excerpt": {
+      "ar": "نظام وهمي مصمم يجذب المهاجم، فيديك تنبيه مبكر جدًا من غير أي خطر حقيقي.",
+      "en": "A fake system designed to lure an attacker, giving you a very early warning with zero real risk."
+    },
+    "body": {
+      "ar": "## الفكرة\n\nHoneypot جهاز أو خدمة وهمية بتبان زي هدف حقيقي (سيرفر قديم، قاعدة بيانات، حساب إداري)، لكن مفيهاش بيانات حقيقية. أي تفاعل معاها = تنبيه فوري، لأن مفيش سبب شرعي لأي حد يوصلها.\n\n## ليه فعّال جدًا\n\nمعظم أدوات الحماية بتدوّر على أنماط هجوم معروفة، لكن Honeypot بيكتشف أي محاولة وصول **بغض النظر عن الأسلوب** — لو حد لمسها، هو مش مفروض يكون موجود أصلًا.\n\n## خطوات بداية بسيطة\n\n1. أنشئ حساب إداري وهمي باسم جذاب (زي admin_backup) بصلاحيات محدودة جدًا فعليًا.\n2. راقب أي محاولة دخول عليه — أي محاولة = مؤشر اختراق حقيقي.\n3. أو استخدم أداة مخصصة (زي T-Pot مفتوحة المصدر) لمحاكاة خدمات كاملة.\n\n## الخلاصة\n\nHoneypot بسيط بيديك تنبيه مبكر جدًا وبتكلفة قليلة — مثالي كطبقة اكتشاف إضافية.",
+      "en": "## The idea\n\nA honeypot is a fake device or service that looks like a real target (an old server, a database, an admin account), but holds no real data. Any interaction with it is an instant alert, since there's no legitimate reason for anyone to reach it.\n\n## Why it's so effective\n\nMost defense tools look for known attack patterns, but a honeypot catches any access attempt regardless of method -- if someone touches it, they shouldn't be there at all.\n\n## Simple starting steps\n\nCreate a fake admin account with an appealing name (like admin_backup) with genuinely minimal privileges, monitor any login attempt on it, or use a dedicated tool (like the open-source T-Pot) to simulate entire services.\n\n## Bottom line\n\nA simple honeypot gives very early warning at low cost -- ideal as an extra detection layer."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-02-06",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "honeypot",
+      "deception",
+      "threat-detection"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0076",
+    "slug": "security-awareness-training-metrics",
+    "title": {
+      "ar": "قياس فعالية تدريب الوعي الأمني: أرقام غير نسبة النقر بس",
+      "en": "Measuring Security Awareness Training: Beyond Just Click Rate"
+    },
+    "excerpt": {
+      "ar": "نسبة اللي وقعوا في محاكاة التصيد مؤشر واحد بس، وممكن يضلّلك لو اعتمدت عليه بس.",
+      "en": "The phishing-simulation click rate is just one signal, and can be misleading if it's all you track."
+    },
+    "body": {
+      "ar": "## ليه مؤشر واحد مش كافي\n\nانخفاض نسبة النقر ممكن يعني تحسّن حقيقي، أو ممكن يعني الموظفين بقوا عارفين يتعرفوا على محاكاة معينة تحديدًا (مش تحسّن سلوك حقيقي).\n\n## مؤشرات أشمل\n\n1. **نسبة التبليغ**: كام موظف بلّغ عن الإيميل المشبوه فعليًا (مش بس تجاهله أو وقع فيه).\n2. **الوقت المستغرق للتبليغ**: كل ما كان أسرع، كل ما قل وقت تعرّض المؤسسة للخطر.\n3. **التحسّن عبر الوقت لنفس المجموعة**: مش مقارنة دفعة جديدة بقديمة، لكن نفس الموظفين بمرور الوقت.\n4. **معدل تكرار الوقوع** لنفس الشخص أكتر من مرة — مؤشر على حاجة لتدريب فردي إضافي.\n\n## الخلاصة\n\nنسبة النقر نقطة بداية، لكن نسبة التبليغ وسرعته بيعكسوا تغيير سلوك حقيقي أكتر.",
+      "en": "## Why one metric isn't enough\n\nA lower click rate might mean genuine improvement, or it might mean employees just learned to recognize one specific simulation style (not real behavior change).\n\n## Broader metrics\n\nReport rate (how many employees actually reported the suspicious email, not just ignored or fell for it), time-to-report (faster means less exposure window), improvement over time for the same cohort (not comparing a new batch to an old one, but the same people over time), and repeat-failure rate for the same individual -- a signal for needing extra individual training.\n\n## Bottom line\n\nClick rate is a starting point, but report rate and its speed reflect real behavior change better."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-13",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "security-awareness",
+      "phishing",
+      "training-metrics"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0077",
+    "slug": "air-gapped-networks-explained",
+    "title": {
+      "ar": "الشبكات المعزولة فيزيائيًا (Air-Gapped): متى تحتاجها فعلًا",
+      "en": "Air-Gapped Networks: When You Actually Need One"
+    },
+    "excerpt": {
+      "ar": "عزل كامل عن أي شبكة خارجية — الحل الأقوى، لكن مش لكل بيئة.",
+      "en": "Complete isolation from any external network -- the strongest solution, but not for every environment."
+    },
+    "body": {
+      "ar": "## الفكرة\n\nشبكة Air-Gapped معزولة فيزيائيًا تمامًا عن الإنترنت وأي شبكة خارجية — مفيش أي اتصال، حتى لو غير مباشر.\n\n## متى تستاهل التعقيد\n\n1. أنظمة تحكم صناعية حرجة (SCADA) في بنية تحتية حساسة.\n2. أنظمة عسكرية أو حكومية بمستوى تصنيف عالٍ جدًا.\n3. بيانات بحثية أو ملكية فكرية شديدة الحساسية.\n\n## التحدي الحقيقي\n\nالعزل الكامل بيمنع الهجمات عن بُعد، لكن مش بيمنع التهديد الداخلي أو النقل عبر وسائط فيزيائية (USB مثلًا) — أشهر اختراق لشبكة معزولة (Stuxnet) حصل عن طريق USB بالظبط.\n\n## الخلاصة\n\nAir-Gap حل قوي جدًا لكن مكلف ومعقد الإدارة — يستاهل بس للبيانات أو الأنظمة اللي فعلًا محتاجة أعلى مستوى حماية ممكن.",
+      "en": "## The idea\n\nAn air-gapped network is completely physically isolated from the internet and any external network -- no connection at all, even indirect.\n\n## When it's worth the complexity\n\nCritical industrial control systems (SCADA) in sensitive infrastructure, military or government systems at very high classification levels, and extremely sensitive research data or intellectual property.\n\n## The real challenge\n\nFull isolation prevents remote attacks but doesn't prevent insider threats or transfer via physical media (like USB) -- the most famous air-gap breach (Stuxnet) happened exactly via USB.\n\n## Bottom line\n\nAir-gapping is very strong but costly and complex to manage -- worth it only for data or systems that genuinely need the highest possible protection level."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-03-20",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "air-gap",
+      "network-security",
+      "critical-infrastructure"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0078",
+    "slug": "cloud-storage-misconfiguration-risks",
+    "title": {
+      "ar": "أخطاء إعداد التخزين السحابي: ليه S3 Bucket واحد اتنسى بيسرّب مليون سجل",
+      "en": "Cloud Storage Misconfiguration: How One Forgotten S3 Bucket Leaks a Million Records"
+    },
+    "excerpt": {
+      "ar": "أشهر سبب لتسريبات البيانات الكبيرة مش هجوم متقدم — غالبًا إعداد بسيط اتنسى.",
+      "en": "The most common cause of major data leaks isn't an advanced attack -- it's usually a simple forgotten setting."
+    },
+    "body": {
+      "ar": "## المشكلة الشائعة\n\nمساحة تخزين سحابي (زي AWS S3) بتتعمل بسرعة لمشروع مؤقت، ويتنسى تغيير إعداد الوصول من \"عام\" لـ\"خاص\" — وبتفضل مكشوفة للإنترنت كله لحد ما حد يلاقيها.\n\n## خطوات وقاية أساسية\n\n1. اجعل \"خاص\" هو الإعداد الافتراضي لأي مساحة تخزين جديدة، مش \"عام\".\n2. استخدم أداة فحص آلي (زي AWS Config أو أدوات طرف ثالث) تنبهك على أي مساحة عامة بالغلط.\n3. راجع دوريًا (شهريًا على الأقل) كل مساحات التخزين الموجودة، مش بس الجديدة.\n4. وثّق أي مساحة عامة **مقصودة** فعليًا (زي ملفات موقع عام) عشان تميّزها عن الخطأ.\n\n## الخلاصة\n\nمعظم تسريبات التخزين السحابي مش اختراق — مجرد إعداد افتراضي اتنسى. المراجعة الدورية أهم حماية.",
+      "en": "## The common problem\n\nCloud storage (like an AWS S3 bucket) gets created quickly for a temporary project, and the access setting is never changed from 'public' to 'private' -- staying exposed to the whole internet until someone finds it.\n\n## Basic prevention steps\n\nMake 'private' the default for any new storage, not 'public'; use an automated scanner (like AWS Config or third-party tools) to alert on accidentally public storage; review all existing storage periodically (at least monthly), not just new ones; document any intentionally public storage (like public site assets) to distinguish it from mistakes.\n\n## Bottom line\n\nMost cloud storage leaks aren't a hack -- just a forgotten default setting. Periodic review is the most important protection."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-04-27",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "cloud-security",
+      "s3",
+      "misconfiguration"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0079",
+    "slug": "api-rate-limiting-basics",
+    "title": {
+      "ar": "تحديد معدل الطلبات (Rate Limiting): حماية الـAPI من الإغراق",
+      "en": "API Rate Limiting: Protecting Your API from Being Overwhelmed"
+    },
+    "excerpt": {
+      "ar": "من غير حدود واضحة، مستخدم واحد (أو هجوم واحد) يقدر يوقف الخدمة لكل الباقيين.",
+      "en": "Without clear limits, one user (or one attack) can take the service down for everyone else."
+    },
+    "body": {
+      "ar": "## ليه مهم\n\nAPI من غير حدود على عدد الطلبات عرضة لاستنزاف الموارد — سواء بقصد (هجوم) أو بغير قصد (كود عميل فيه خطأ بيبعت طلبات بلا توقف).\n\n## استراتيجيات شائعة\n\n1. **حد ثابت**: عدد طلبات محدد لكل مستخدم في فترة زمنية (زي 100 طلب/دقيقة).\n2. **Token Bucket**: يسمح بدفعات قصيرة أعلى من المعدل العادي، طالما المعدل الإجمالي في الحدود.\n3. **حدود متدرجة حسب نوع المستخدم**: مستخدم مجاني حد أقل من مستخدم مدفوع.\n\n## رسالة خطأ واضحة\n\nلما تتجاوز الحد، رجّع كود 429 (Too Many Requests) مع رأس Retry-After يوضح إمتى يقدر يحاول تاني — تجربة أفضل من رفض بلا تفسير.\n\n## الخلاصة\n\nRate Limiting مش بس حماية أمنية — بيحمي استقرار الخدمة لكل المستخدمين الشرعيين.",
+      "en": "## Why it matters\n\nAn API without request limits is vulnerable to resource exhaustion -- whether intentional (attack) or accidental (buggy client code sending requests nonstop).\n\n## Common strategies\n\nFixed limit (a set number of requests per user per time window, like 100/minute), token bucket (allows short bursts above the normal rate as long as the overall rate stays within bounds), and tiered limits by user type (free users get a lower limit than paid ones).\n\n## A clear error message\n\nWhen the limit is exceeded, return a 429 (Too Many Requests) status with a Retry-After header indicating when to try again -- a better experience than an unexplained rejection.\n\n## Bottom line\n\nRate limiting isn't just security -- it protects service stability for every legitimate user."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-07",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "api-security",
+      "rate-limiting",
+      "developer-security"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0080",
+    "slug": "dual-control-critical-operations",
+    "title": {
+      "ar": "مبدأ الرقابة المزدوجة (Dual Control): ليه عملية حساسة محتاجة موافقة شخصين",
+      "en": "Dual Control: Why a Sensitive Operation Needs Two People's Approval"
+    },
+    "excerpt": {
+      "ar": "شخص واحد بصلاحية كاملة نقطة فشل وخطر — الرقابة المزدوجة بتقلل الاتنين.",
+      "en": "One person with full authority is a single point of failure and risk -- dual control reduces both."
+    },
+    "body": {
+      "ar": "## الفكرة\n\nعمليات حساسة جدًا (زي حذف نسخة احتياطية كاملة، أو تحويل مالي كبير، أو تغيير صلاحيات إدارية) بتتطلب موافقة شخصين مستقلين، مش شخص واحد بس.\n\n## ليه مهم\n\n1. **حماية من الخطأ البشري**: شخص تاني بيراجع قبل التنفيذ.\n2. **حماية من التهديد الداخلي**: موظف ناقم مش يقدر يعمل ضرر كبير لوحده.\n3. **حماية من حساب مخترق**: حتى لو حساب شخص واحد اتخترق، المهاجم محتاج يخترق حساب تاني كمان.\n\n## أمثلة عملية للتطبيق\n\n1. حذف نهائي لبيانات كبيرة أو نسخ احتياطية.\n2. تغيير صلاحيات على مستوى Domain Admin.\n3. الوصول لمفاتيح تشفير رئيسية.\n\n## الخلاصة\n\nمش كل عملية محتاجة رقابة مزدوجة، لكن العمليات عالية الخطورة والصعبة التراجع تستاهل الإجراء الإضافي ده.",
+      "en": "## The idea\n\nVery sensitive operations (like permanently deleting a backup, a large financial transfer, or changing admin privileges) require independent approval from two people, not just one.\n\n## Why it matters\n\nProtection from human error (a second person reviews before execution), protection from insider threat (a disgruntled employee can't cause major damage alone), and protection from a compromised account (even if one person's account is breached, the attacker needs to compromise a second one too).\n\n## Practical application examples\n\nPermanent deletion of large data or backups, Domain Admin-level privilege changes, and access to master encryption keys.\n\n## Bottom line\n\nNot every operation needs dual control, but high-risk, hard-to-reverse ones are worth the extra step."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-14",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1559163330-c30bac8c5031?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "dual-control",
+      "access-control",
+      "insider-threat"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0081",
+    "slug": "threat-modeling-stride-basics",
+    "title": {
+      "ar": "نمذجة التهديدات بطريقة STRIDE: فكّر زي المهاجم قبل ما تبني",
+      "en": "Threat Modeling with STRIDE: Think Like an Attacker Before You Build"
+    },
+    "excerpt": {
+      "ar": "طريقة منظمة تساعدك تكتشف نقاط الضعف المحتملة وأنت لسه بتصمم النظام، مش بعد ما يتبنى.",
+      "en": "A structured way to spot potential weaknesses while you're still designing the system, not after it's built."
+    },
+    "body": {
+      "ar": "## الفكرة\n\nSTRIDE اختصار لستة أنواع تهديدات، بتستخدمه كقائمة مراجعة وقت تصميم أي نظام جديد.\n\n## الأنواع الستة\n\n1. **Spoofing**: انتحال هوية (حد يتظاهر إنه مستخدم تاني).\n2. **Tampering**: تعديل غير مصرّح به للبيانات.\n3. **Repudiation**: إنكار تنفيذ عملية (مفيش سجل يثبت مين عمل إيه).\n4. **Information Disclosure**: كشف بيانات لغير المخوّلين.\n5. **Denial of Service**: إيقاف الخدمة عن العمل.\n6. **Elevation of Privilege**: حصول مستخدم على صلاحيات أعلى من المفروض.\n\n## خطوة عملية\n\nارسم مخطط بسيط لتدفق البيانات في نظامك، واسأل عن كل نقطة: \"أي نوع من الستة دول ممكن يحصل هنا؟\"\n\n## الخلاصة\n\nنمذجة التهديدات بدري في التصميم أرخص بكتير من اكتشاف ثغرة بعد النشر.",
+      "en": "## The idea\n\nSTRIDE is an acronym for six threat categories, used as a checklist when designing any new system.\n\n## The six categories\n\nSpoofing (impersonating another user), Tampering (unauthorized data modification), Repudiation (denying an action with no log to prove who did what), Information Disclosure (exposing data to unauthorized parties), Denial of Service (taking the service down), and Elevation of Privilege (a user gaining higher access than intended).\n\n## A practical step\n\nDraw a simple data-flow diagram of your system, and ask at each point: 'which of these six could happen here?'\n\n## Bottom line\n\nThreat modeling early in design is far cheaper than discovering a vulnerability after launch."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-21",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "threat-modeling",
+      "stride",
+      "secure-design"
+    ],
+    "isFeatured": true,
+    "isTrending": false
   }
 ]

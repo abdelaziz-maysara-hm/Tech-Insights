@@ -721,6 +721,66 @@ export const COMPARISON_CONTENT = [
     verdictAr: 'Wireshark أفضل للتحليل العميق والتعلم بفضل الواجهة الرسومية. tcpdump ضروري وخفيف جدًا لالتقاط البيانات مباشرة على سيرفر بعيد بدون واجهة، تحلّلها لاحقًا في Wireshark.',
     verdictEn: 'Wireshark is better for deep analysis and learning thanks to its GUI. tcpdump is essential and lightweight for capturing data directly on a remote headless server, to analyze later in Wireshark.',
   },
+  {
+    d1: 'Okta', d2: 'JumpCloud', sub: 'identity', img1: 'identity', img2: 'cloud',
+    specs: [
+      spec('عمق ميزات إدارة الهوية المؤسسية', 'Enterprise identity feature depth', 'من الأعمق والأنضج في السوق تحديدًا لهذا الغرض', 'Among the deepest and most mature specifically for this', 'قوي أيضًا، مع تركيز إضافي على إدارة الأجهزة', 'Also strong, with extra focus on device management', 9, 7),
+      spec('إدارة الأجهزة المدمجة (MDM خفيف)', 'Built-in lightweight device management', 'محدودة، يحتاج تكامل مع أدوات منفصلة', 'Limited, needs integration with separate tools', 'مدمجة كميزة أساسية من نفس المنصة', 'Built in as a core feature of the same platform', 5, 9),
+      spec('التسعير لفريق صغير جدًا', 'Pricing for a very small team', 'أعلى نسبيًا كنقطة بداية', 'Relatively higher as a starting point', 'أبسط وأرخص للبداية الصغيرة', 'Simpler and cheaper for a small start', 6, 8),
+    ],
+    verdictAr: 'Okta أقوى لمؤسسة كبيرة محتاجة عمق ميزات إدارة هوية متقدمة. JumpCloud خيار ممتاز لفريق صغير أو متوسط عايز إدارة هوية وأجهزة معًا من منصة واحدة بسيطة.',
+    verdictEn: 'Okta is stronger for a large organization needing deep advanced identity features. JumpCloud is an excellent choice for a small-to-mid team wanting identity and device management together from one simple platform.',
+  },
+  {
+    d1: 'CrowdStrike Falcon', d2: 'Microsoft Sentinel', sub: 'network-security', img1: 'endpoint', img2: 'analytics',
+    specs: [
+      spec('التركيز الأساسي', 'Core focus', 'حماية نقاط النهاية (EDR/XDR) أساسًا', 'Primarily endpoint protection (EDR/XDR)', 'مراقبة أمنية شاملة عبر كل مصادر البيانات (SIEM سحابي)', 'Broad security monitoring across all data sources (cloud SIEM)', 8, 8),
+      spec('التكامل مع منظومة Microsoft', 'Microsoft ecosystem integration', 'تكامل جيد عبر واجهات برمجية', 'Good integration via APIs', 'تكامل عميق وطبيعي لأنه من نفس المنظومة', 'Deep, native integration as part of the same ecosystem', 6, 9),
+      spec('سهولة البداية السريعة', 'Fast getting-started ease', 'إعداد مباشر ومركّز', 'Direct, focused setup', 'يحتاج تخطيط أوسع لأنه يغطي نطاق أشمل', 'Needs broader planning since it covers a wider scope', 8, 6),
+    ],
+    verdictAr: 'CrowdStrike أقوى وأبسط لو الأولوية حماية نقاط النهاية تحديدًا. Sentinel أشمل لو محتاج رؤية أمنية موحدة عبر كل بيئتك (سحابة، شبكة، تطبيقات) خصوصًا لو أصلًا على Microsoft.',
+    verdictEn: 'CrowdStrike is stronger and simpler if endpoint protection specifically is the priority. Sentinel is more comprehensive if you need unified security visibility across your whole environment (cloud, network, apps), especially if you\'re already on Microsoft.',
+  },
+  {
+    d1: 'AWS GuardDuty', d2: 'Microsoft Defender for Cloud', sub: 'network-security', img1: 'cloud', img2: 'security',
+    specs: [
+      spec('العمق داخل بيئة AWS تحديدًا', 'Depth specifically within AWS', 'مصمم أصلًا ومتخصص لبيئة AWS', 'Built natively and specialized for AWS', 'يدعم AWS لكن تركيزه الأساسي على Azure', 'Supports AWS but its primary focus is Azure', 9, 6),
+      spec('التغطية متعددة السحابات', 'Multi-cloud coverage', 'محدودة خارج AWS', 'Limited outside AWS', 'تغطية أوسع نسبيًا عبر AWS وGCP وAzure معًا', 'Relatively wider coverage across AWS, GCP, and Azure together', 5, 8),
+      spec('سهولة التفعيل الأولي', 'Initial activation ease', 'تفعيل بسيط جدًا بضغطة واحدة تقريبًا', 'Very simple, almost one-click activation', 'يحتاج إعداد أوسع قليلًا حسب النطاق', 'Needs slightly broader setup depending on scope', 9, 7),
+    ],
+    verdictAr: 'GuardDuty الخيار الأوضح والأبسط لو بيئتك على AWS بشكل أساسي. Defender for Cloud أنسب لو عندك بيئة متعددة السحابات ومحتاج رؤية موحدة عبرها كلها.',
+    verdictEn: 'GuardDuty is the clearer, simpler choice if your environment is primarily AWS. Defender for Cloud fits better if you have a multi-cloud environment and need unified visibility across all of it.',
+  },
+  {
+    d1: 'HashiCorp Vault', d2: 'AWS Secrets Manager', sub: 'network-security', img1: 'lock', img2: 'cloud',
+    specs: [
+      spec('استقلالية المنصة والسحابة', 'Platform & cloud independence', 'محايد تمامًا، يعمل عبر أي بيئة سحابية أو محلية', 'Fully neutral, works across any cloud or on-prem environment', 'مصمم أساسًا لمنظومة AWS تحديدًا', 'Built primarily for the AWS ecosystem specifically', 9, 5),
+      spec('سهولة الإعداد الأولي', 'Initial setup ease', 'يحتاج إعداد وإدارة بنية تحتية بنفسك (أو نسخة سحابية مُدارة)', 'Needs self-managed infrastructure setup (or a managed cloud version)', 'خدمة مُدارة بالكامل، تفعيل سريع جدًا', 'Fully managed service, very fast activation', 5, 9),
+      spec('المرونة والميزات المتقدمة', 'Flexibility & advanced features', 'مرونة عالية جدًا (تشفير ديناميكي، توليد أسرار مؤقتة)', 'Very high flexibility (dynamic encryption, temporary secret generation)', 'أساسي وموثوق، أقل مرونة في السيناريوهات المتقدمة', 'Solid and reliable, less flexible for advanced scenarios', 9, 6),
+    ],
+    verdictAr: 'Vault أقوى وأكثر مرونة لبيئة معقدة أو متعددة السحابات. Secrets Manager أسرع وأبسط لو بيئتك على AWS بالكامل ومحتاج حل جاهز بدون إدارة بنية تحتية.',
+    verdictEn: 'Vault is stronger and more flexible for a complex or multi-cloud environment. Secrets Manager is faster and simpler if you\'re fully on AWS and want a ready solution without managing infrastructure.',
+  },
+  {
+    d1: 'Datadog', d2: 'New Relic', sub: 'software-services', img1: 'analytics', img2: 'dev',
+    specs: [
+      spec('اتساع مجموعة الميزات المتكاملة', 'Breadth of the integrated feature set', 'مجموعة واسعة جدًا (مراقبة، أمان، سجلات) في منتج واحد', 'A very wide set (monitoring, security, logs) in one product', 'قوي أيضًا، تاريخيًا أكثر تركيزًا على أداء التطبيقات (APM)', 'Also strong, historically more focused on application performance (APM)', 9, 7),
+      spec('نموذج التسعير', 'Pricing model', 'معقد نسبيًا مع عناصر تسعير متعددة', 'Relatively complex with multiple pricing components', 'أبسط نسبيًا وأوضح للتنبؤ بالتكلفة', 'Relatively simpler and clearer to predict cost', 5, 7),
+      spec('عمق تحليل أداء التطبيقات تحديدًا', 'Depth of application performance analysis specifically', 'قوي جدًا أيضًا', 'Also very strong', 'من الرواد التاريخيين المتخصصين في هذا المجال تحديدًا', 'A historical pioneer specifically specialized in this area', 8, 9),
+    ],
+    verdictAr: 'Datadog أشمل لو محتاج منصة موحدة لكل شيء (مراقبة، أمان، سجلات). New Relic خيار قوي جدًا ومركّز لو أداء التطبيقات (APM) تحديدًا هو أولويتك الأساسية.',
+    verdictEn: 'Datadog is more comprehensive if you need one unified platform for everything (monitoring, security, logs). New Relic is a strong, focused choice if application performance (APM) specifically is your main priority.',
+  },
+  {
+    d1: 'Auth0', d2: 'Firebase Authentication', sub: 'identity', img1: 'code', img2: 'cloud',
+    specs: [
+      spec('المرونة وتخصيص تدفق المصادقة', 'Flexibility & auth flow customization', 'مرونة عالية جدًا لسيناريوهات مؤسسية معقدة', 'Very high flexibility for complex enterprise scenarios', 'أبسط وأسرع للبدء، مرونة أقل للحالات المعقدة', 'Simpler and faster to start, less flexible for complex cases', 9, 6),
+      spec('سهولة التكامل لتطبيق موبايل بسيط', 'Integration ease for a simple mobile app', 'جيدة لكن أعقد شوية من البديل', 'Good but slightly more complex than the alternative', 'من الأسهل والأسرع تكاملًا خصوصًا لمطوّري التطبيقات', 'Among the easiest and fastest to integrate, especially for app developers', 6, 9),
+      spec('التكلفة لعدد مستخدمين كبير', 'Cost at large user scale', 'التسعير يرتفع بشكل ملحوظ مع نمو عدد المستخدمين', 'Pricing rises noticeably as user count grows', 'خطة مجانية سخية نسبيًا حتى أحجام كبيرة', 'A relatively generous free tier even at large scale', 5, 8),
+    ],
+    verdictAr: 'Auth0 أقوى وأكثر مرونة لمؤسسة محتاجة تدفقات مصادقة معقدة ومخصصة. Firebase Authentication أسرع وأرخص لتطبيق موبايل أو ويب بسيط محتاج مصادقة جاهزة وسريعة.',
+    verdictEn: 'Auth0 is stronger and more flexible for an enterprise needing complex, customized auth flows. Firebase Authentication is faster and cheaper for a simple mobile or web app needing quick, ready-made authentication.',
+  },
 ];
 
 export function generateComparisons({ count = COMPARISON_CONTENT.length, subcategory, startIndex = 0 } = {}) {

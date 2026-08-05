@@ -5406,5 +5406,473 @@
       "ar": "Wireshark أفضل للتحليل العميق والتعلم بفضل الواجهة الرسومية. tcpdump ضروري وخفيف جدًا لالتقاط البيانات مباشرة على سيرفر بعيد بدون واجهة، تحلّلها لاحقًا في Wireshark.",
       "en": "Wireshark is better for deep analysis and learning thanks to its GUI. tcpdump is essential and lightweight for capturing data directly on a remote headless server, to analyze later in Wireshark."
     }
+  },
+  {
+    "id": "cmp-gen-0070",
+    "slug": "okta-vs-jumpcloud",
+    "title": {
+      "ar": "Okta ضد JumpCloud",
+      "en": "Okta vs JumpCloud"
+    },
+    "excerpt": {
+      "ar": "Okta أقوى لمؤسسة كبيرة محتاجة عمق ميزات إدارة هوية متقدمة. JumpCloud خيار ممتاز لفريق صغير أو متوسط عايز إدارة هوية وأجه",
+      "en": "Okta is stronger for a large organization needing deep advanced identity features. JumpCloud is an excellent choice for a small-to-mid team"
+    },
+    "device1Name": "Okta",
+    "device2Name": "JumpCloud",
+    "device1Image": "https://cdn.simpleicons.org/okta/007DC1",
+    "device2Image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-02-25",
+    "categoryId": "comparisons",
+    "subcategoryId": "identity",
+    "heroImage": "https://cdn.simpleicons.org/okta/007DC1",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "عمق ميزات إدارة الهوية المؤسسية",
+          "en": "Enterprise identity feature depth"
+        },
+        "device1Value": {
+          "ar": "من الأعمق والأنضج في السوق تحديدًا لهذا الغرض",
+          "en": "Among the deepest and most mature specifically for this"
+        },
+        "device2Value": {
+          "ar": "قوي أيضًا، مع تركيز إضافي على إدارة الأجهزة",
+          "en": "Also strong, with extra focus on device management"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "إدارة الأجهزة المدمجة (MDM خفيف)",
+          "en": "Built-in lightweight device management"
+        },
+        "device1Value": {
+          "ar": "محدودة، يحتاج تكامل مع أدوات منفصلة",
+          "en": "Limited, needs integration with separate tools"
+        },
+        "device2Value": {
+          "ar": "مدمجة كميزة أساسية من نفس المنصة",
+          "en": "Built in as a core feature of the same platform"
+        },
+        "device1Score": 5,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "التسعير لفريق صغير جدًا",
+          "en": "Pricing for a very small team"
+        },
+        "device1Value": {
+          "ar": "أعلى نسبيًا كنقطة بداية",
+          "en": "Relatively higher as a starting point"
+        },
+        "device2Value": {
+          "ar": "أبسط وأرخص للبداية الصغيرة",
+          "en": "Simpler and cheaper for a small start"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Okta أقوى لمؤسسة كبيرة محتاجة عمق ميزات إدارة هوية متقدمة. JumpCloud خيار ممتاز لفريق صغير أو متوسط عايز إدارة هوية وأجهزة معًا من منصة واحدة بسيطة.",
+      "en": "Okta is stronger for a large organization needing deep advanced identity features. JumpCloud is an excellent choice for a small-to-mid team wanting identity and device management together from one simple platform."
+    }
+  },
+  {
+    "id": "cmp-gen-0071",
+    "slug": "crowdstrike-falcon-vs-microsoft-sentinel",
+    "title": {
+      "ar": "CrowdStrike Falcon ضد Microsoft Sentinel",
+      "en": "CrowdStrike Falcon vs Microsoft Sentinel"
+    },
+    "excerpt": {
+      "ar": "CrowdStrike أقوى وأبسط لو الأولوية حماية نقاط النهاية تحديدًا. Sentinel أشمل لو محتاج رؤية أمنية موحدة عبر كل بيئتك (سحا",
+      "en": "CrowdStrike is stronger and simpler if endpoint protection specifically is the priority. Sentinel is more comprehensive if you need unified"
+    },
+    "device1Name": "CrowdStrike Falcon",
+    "device2Name": "Microsoft Sentinel",
+    "device1Image": "https://www.google.com/s2/favicons?domain=crowdstrike.com&sz=128",
+    "device2Image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "date": "2026-03-05",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://www.google.com/s2/favicons?domain=crowdstrike.com&sz=128",
+    "overallWinner": 0,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "التركيز الأساسي",
+          "en": "Core focus"
+        },
+        "device1Value": {
+          "ar": "حماية نقاط النهاية (EDR/XDR) أساسًا",
+          "en": "Primarily endpoint protection (EDR/XDR)"
+        },
+        "device2Value": {
+          "ar": "مراقبة أمنية شاملة عبر كل مصادر البيانات (SIEM سحابي)",
+          "en": "Broad security monitoring across all data sources (cloud SIEM)"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 0
+      },
+      "spec2": {
+        "label": {
+          "ar": "التكامل مع منظومة Microsoft",
+          "en": "Microsoft ecosystem integration"
+        },
+        "device1Value": {
+          "ar": "تكامل جيد عبر واجهات برمجية",
+          "en": "Good integration via APIs"
+        },
+        "device2Value": {
+          "ar": "تكامل عميق وطبيعي لأنه من نفس المنظومة",
+          "en": "Deep, native integration as part of the same ecosystem"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "سهولة البداية السريعة",
+          "en": "Fast getting-started ease"
+        },
+        "device1Value": {
+          "ar": "إعداد مباشر ومركّز",
+          "en": "Direct, focused setup"
+        },
+        "device2Value": {
+          "ar": "يحتاج تخطيط أوسع لأنه يغطي نطاق أشمل",
+          "en": "Needs broader planning since it covers a wider scope"
+        },
+        "device1Score": 8,
+        "device2Score": 6,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "CrowdStrike أقوى وأبسط لو الأولوية حماية نقاط النهاية تحديدًا. Sentinel أشمل لو محتاج رؤية أمنية موحدة عبر كل بيئتك (سحابة، شبكة، تطبيقات) خصوصًا لو أصلًا على Microsoft.",
+      "en": "CrowdStrike is stronger and simpler if endpoint protection specifically is the priority. Sentinel is more comprehensive if you need unified security visibility across your whole environment (cloud, network, apps), especially if you're already on Microsoft."
+    }
+  },
+  {
+    "id": "cmp-gen-0072",
+    "slug": "aws-guardduty-vs-microsoft-defender-for-cloud",
+    "title": {
+      "ar": "AWS GuardDuty ضد Microsoft Defender for Cloud",
+      "en": "AWS GuardDuty vs Microsoft Defender for Cloud"
+    },
+    "excerpt": {
+      "ar": "GuardDuty الخيار الأوضح والأبسط لو بيئتك على AWS بشكل أساسي. Defender for Cloud أنسب لو عندك بيئة متعددة السحابات ومحتاج",
+      "en": "GuardDuty is the clearer, simpler choice if your environment is primarily AWS. Defender for Cloud fits better if you have a multi-cloud envi"
+    },
+    "device1Name": "AWS GuardDuty",
+    "device2Name": "Microsoft Defender for Cloud",
+    "device1Image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "date": "2026-04-12",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "العمق داخل بيئة AWS تحديدًا",
+          "en": "Depth specifically within AWS"
+        },
+        "device1Value": {
+          "ar": "مصمم أصلًا ومتخصص لبيئة AWS",
+          "en": "Built natively and specialized for AWS"
+        },
+        "device2Value": {
+          "ar": "يدعم AWS لكن تركيزه الأساسي على Azure",
+          "en": "Supports AWS but its primary focus is Azure"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "التغطية متعددة السحابات",
+          "en": "Multi-cloud coverage"
+        },
+        "device1Value": {
+          "ar": "محدودة خارج AWS",
+          "en": "Limited outside AWS"
+        },
+        "device2Value": {
+          "ar": "تغطية أوسع نسبيًا عبر AWS وGCP وAzure معًا",
+          "en": "Relatively wider coverage across AWS, GCP, and Azure together"
+        },
+        "device1Score": 5,
+        "device2Score": 8,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "سهولة التفعيل الأولي",
+          "en": "Initial activation ease"
+        },
+        "device1Value": {
+          "ar": "تفعيل بسيط جدًا بضغطة واحدة تقريبًا",
+          "en": "Very simple, almost one-click activation"
+        },
+        "device2Value": {
+          "ar": "يحتاج إعداد أوسع قليلًا حسب النطاق",
+          "en": "Needs slightly broader setup depending on scope"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "GuardDuty الخيار الأوضح والأبسط لو بيئتك على AWS بشكل أساسي. Defender for Cloud أنسب لو عندك بيئة متعددة السحابات ومحتاج رؤية موحدة عبرها كلها.",
+      "en": "GuardDuty is the clearer, simpler choice if your environment is primarily AWS. Defender for Cloud fits better if you have a multi-cloud environment and need unified visibility across all of it."
+    }
+  },
+  {
+    "id": "cmp-gen-0073",
+    "slug": "hashicorp-vault-vs-aws-secrets-manager",
+    "title": {
+      "ar": "HashiCorp Vault ضد AWS Secrets Manager",
+      "en": "HashiCorp Vault vs AWS Secrets Manager"
+    },
+    "excerpt": {
+      "ar": "Vault أقوى وأكثر مرونة لبيئة معقدة أو متعددة السحابات. Secrets Manager أسرع وأبسط لو بيئتك على AWS بالكامل ومحتاج حل جاه",
+      "en": "Vault is stronger and more flexible for a complex or multi-cloud environment. Secrets Manager is faster and simpler if you're fully on AWS a"
+    },
+    "device1Name": "HashiCorp Vault",
+    "device2Name": "AWS Secrets Manager",
+    "device1Image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-04-19",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 1,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "استقلالية المنصة والسحابة",
+          "en": "Platform & cloud independence"
+        },
+        "device1Value": {
+          "ar": "محايد تمامًا، يعمل عبر أي بيئة سحابية أو محلية",
+          "en": "Fully neutral, works across any cloud or on-prem environment"
+        },
+        "device2Value": {
+          "ar": "مصمم أساسًا لمنظومة AWS تحديدًا",
+          "en": "Built primarily for the AWS ecosystem specifically"
+        },
+        "device1Score": 9,
+        "device2Score": 5,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "سهولة الإعداد الأولي",
+          "en": "Initial setup ease"
+        },
+        "device1Value": {
+          "ar": "يحتاج إعداد وإدارة بنية تحتية بنفسك (أو نسخة سحابية مُدارة)",
+          "en": "Needs self-managed infrastructure setup (or a managed cloud version)"
+        },
+        "device2Value": {
+          "ar": "خدمة مُدارة بالكامل، تفعيل سريع جدًا",
+          "en": "Fully managed service, very fast activation"
+        },
+        "device1Score": 5,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "المرونة والميزات المتقدمة",
+          "en": "Flexibility & advanced features"
+        },
+        "device1Value": {
+          "ar": "مرونة عالية جدًا (تشفير ديناميكي، توليد أسرار مؤقتة)",
+          "en": "Very high flexibility (dynamic encryption, temporary secret generation)"
+        },
+        "device2Value": {
+          "ar": "أساسي وموثوق، أقل مرونة في السيناريوهات المتقدمة",
+          "en": "Solid and reliable, less flexible for advanced scenarios"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      }
+    },
+    "verdict": {
+      "ar": "Vault أقوى وأكثر مرونة لبيئة معقدة أو متعددة السحابات. Secrets Manager أسرع وأبسط لو بيئتك على AWS بالكامل ومحتاج حل جاهز بدون إدارة بنية تحتية.",
+      "en": "Vault is stronger and more flexible for a complex or multi-cloud environment. Secrets Manager is faster and simpler if you're fully on AWS and want a ready solution without managing infrastructure."
+    }
+  },
+  {
+    "id": "cmp-gen-0074",
+    "slug": "datadog-vs-new-relic",
+    "title": {
+      "ar": "Datadog ضد New Relic",
+      "en": "Datadog vs New Relic"
+    },
+    "excerpt": {
+      "ar": "Datadog أشمل لو محتاج منصة موحدة لكل شيء (مراقبة، أمان، سجلات). New Relic خيار قوي جدًا ومركّز لو أداء التطبيقات (APM) ت",
+      "en": "Datadog is more comprehensive if you need one unified platform for everything (monitoring, security, logs). New Relic is a strong, focused c"
+    },
+    "device1Name": "Datadog",
+    "device2Name": "New Relic",
+    "device1Image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-05-26",
+    "categoryId": "comparisons",
+    "subcategoryId": "software-services",
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "اتساع مجموعة الميزات المتكاملة",
+          "en": "Breadth of the integrated feature set"
+        },
+        "device1Value": {
+          "ar": "مجموعة واسعة جدًا (مراقبة، أمان، سجلات) في منتج واحد",
+          "en": "A very wide set (monitoring, security, logs) in one product"
+        },
+        "device2Value": {
+          "ar": "قوي أيضًا، تاريخيًا أكثر تركيزًا على أداء التطبيقات (APM)",
+          "en": "Also strong, historically more focused on application performance (APM)"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "نموذج التسعير",
+          "en": "Pricing model"
+        },
+        "device1Value": {
+          "ar": "معقد نسبيًا مع عناصر تسعير متعددة",
+          "en": "Relatively complex with multiple pricing components"
+        },
+        "device2Value": {
+          "ar": "أبسط نسبيًا وأوضح للتنبؤ بالتكلفة",
+          "en": "Relatively simpler and clearer to predict cost"
+        },
+        "device1Score": 5,
+        "device2Score": 7,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "عمق تحليل أداء التطبيقات تحديدًا",
+          "en": "Depth of application performance analysis specifically"
+        },
+        "device1Value": {
+          "ar": "قوي جدًا أيضًا",
+          "en": "Also very strong"
+        },
+        "device2Value": {
+          "ar": "من الرواد التاريخيين المتخصصين في هذا المجال تحديدًا",
+          "en": "A historical pioneer specifically specialized in this area"
+        },
+        "device1Score": 8,
+        "device2Score": 9,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Datadog أشمل لو محتاج منصة موحدة لكل شيء (مراقبة، أمان، سجلات). New Relic خيار قوي جدًا ومركّز لو أداء التطبيقات (APM) تحديدًا هو أولويتك الأساسية.",
+      "en": "Datadog is more comprehensive if you need one unified platform for everything (monitoring, security, logs). New Relic is a strong, focused choice if application performance (APM) specifically is your main priority."
+    }
+  },
+  {
+    "id": "cmp-gen-0075",
+    "slug": "auth0-vs-firebase-authentication",
+    "title": {
+      "ar": "Auth0 ضد Firebase Authentication",
+      "en": "Auth0 vs Firebase Authentication"
+    },
+    "excerpt": {
+      "ar": "Auth0 أقوى وأكثر مرونة لمؤسسة محتاجة تدفقات مصادقة معقدة ومخصصة. Firebase Authentication أسرع وأرخص لتطبيق موبايل أو ويب",
+      "en": "Auth0 is stronger and more flexible for an enterprise needing complex, customized auth flows. Firebase Authentication is faster and cheaper"
+    },
+    "device1Name": "Auth0",
+    "device2Name": "Firebase Authentication",
+    "device1Image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-06-06",
+    "categoryId": "comparisons",
+    "subcategoryId": "identity",
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "المرونة وتخصيص تدفق المصادقة",
+          "en": "Flexibility & auth flow customization"
+        },
+        "device1Value": {
+          "ar": "مرونة عالية جدًا لسيناريوهات مؤسسية معقدة",
+          "en": "Very high flexibility for complex enterprise scenarios"
+        },
+        "device2Value": {
+          "ar": "أبسط وأسرع للبدء، مرونة أقل للحالات المعقدة",
+          "en": "Simpler and faster to start, less flexible for complex cases"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "سهولة التكامل لتطبيق موبايل بسيط",
+          "en": "Integration ease for a simple mobile app"
+        },
+        "device1Value": {
+          "ar": "جيدة لكن أعقد شوية من البديل",
+          "en": "Good but slightly more complex than the alternative"
+        },
+        "device2Value": {
+          "ar": "من الأسهل والأسرع تكاملًا خصوصًا لمطوّري التطبيقات",
+          "en": "Among the easiest and fastest to integrate, especially for app developers"
+        },
+        "device1Score": 6,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "التكلفة لعدد مستخدمين كبير",
+          "en": "Cost at large user scale"
+        },
+        "device1Value": {
+          "ar": "التسعير يرتفع بشكل ملحوظ مع نمو عدد المستخدمين",
+          "en": "Pricing rises noticeably as user count grows"
+        },
+        "device2Value": {
+          "ar": "خطة مجانية سخية نسبيًا حتى أحجام كبيرة",
+          "en": "A relatively generous free tier even at large scale"
+        },
+        "device1Score": 5,
+        "device2Score": 8,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "Auth0 أقوى وأكثر مرونة لمؤسسة محتاجة تدفقات مصادقة معقدة ومخصصة. Firebase Authentication أسرع وأرخص لتطبيق موبايل أو ويب بسيط محتاج مصادقة جاهزة وسريعة.",
+      "en": "Auth0 is stronger and more flexible for an enterprise needing complex, customized auth flows. Firebase Authentication is faster and cheaper for a simple mobile or web app needing quick, ready-made authentication."
+    }
   }
 ]
