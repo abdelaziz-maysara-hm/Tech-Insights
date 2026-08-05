@@ -286,12 +286,12 @@
     "id": "art-gen-0010",
     "slug": "windows-disk-cleanup-safe",
     "title": {
-      "ar": "تنظيف مساحة القرص في Windows بأمان",
-      "en": "Safe Disk Cleanup on Windows"
+      "ar": "تنظيف مساحة القرص في Windows بأمان: الدليل الكامل",
+      "en": "Safe Disk Cleanup on Windows: The Complete Guide"
     },
     "excerpt": {
-      "ar": "خطوات بسيطة لتفريغ مساحة من غير ما تمسح ملفات مهمة.",
-      "en": "Simple steps to free space without deleting important files."
+      "ar": "الأدوات الرسمية بالتفصيل، إيه اللي آمن تمامًا وإيه اللي محتاج حذر، ونصيحة النقل قبل الحذف.",
+      "en": "The official tools in detail, what's completely safe versus what needs caution, and the move-before-delete precaution."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -303,11 +303,12 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2024-01-10",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1639322537228-f710d846310a?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8M3x8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "windows",
-      "disk-cleanup"
+      "disk-cleanup",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -316,12 +317,12 @@
     "id": "art-gen-0011",
     "slug": "student-laptop-specs",
     "title": {
-      "ar": "مواصفات لابتوب للطالب: ماذا يكفي فعلًا؟",
-      "en": "Student Laptop Specs: What Actually Matters?"
+      "ar": "مواصفات لابتوب للطالب: الدليل الكامل لما يكفي فعلًا",
+      "en": "Student Laptop Specs: The Complete Guide to What Actually Matters"
     },
     "excerpt": {
-      "ar": "RAM والتخزين والشاشة والبطارية بدون مبالغة في السعر.",
-      "en": "RAM, storage, display, and battery without overspending."
+      "ar": "ليه 16 جيجا رام هي النقطة المثالية، وأي مواصفات تقدر تتنازل عنها بأمان من غير ما تضيع فلوسك.",
+      "en": "Why 16GB RAM is the sweet spot, and which specs you can safely skip without wasting your money."
     },
     "categoryId": "laptops",
     "subcategoryId": "guides-tips",
@@ -333,11 +334,12 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2024-04-17",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bGFwdG9wJTIwY29tcHV0ZXIlMjBzdHVkZW50fGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "laptop",
-      "students"
+      "students",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -346,12 +348,12 @@
     "id": "art-gen-0012",
     "slug": "chatgpt-study-without-harm",
     "title": {
-      "ar": "استخدام ChatGPT في المذاكرة بدون ما يضر فهمك",
-      "en": "Using ChatGPT for Studying Without Hurting Understanding"
+      "ar": "استخدام ChatGPT في المذاكرة بدون ما يضر فهمك: الدليل الكامل",
+      "en": "Using ChatGPT for Studying Without Hurting Understanding: The Complete Guide"
     },
     "excerpt": {
-      "ar": "كيف تطلب شرحًا وتختبر نفسك بدل نسخ الإجابات.",
-      "en": "How to request explanations and self-tests instead of copied answers."
+      "ar": "4 استخدامات مفيدة فعليًا (شرح متدرج، اختبار نفسك)، و3 استخدامات ضارة بالتعلم الحقيقي.",
+      "en": "4 genuinely useful uses (layered explanations, self-testing), and 3 uses that genuinely harm real learning."
     },
     "categoryId": "ai",
     "subcategoryId": "guides-tips",
@@ -363,12 +365,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2024-06-24",
-    "readTime": 3,
+    "readTime": 6,
     "heroImage": "https://images.unsplash.com/photo-1684369175833-4b445ad6bfb5?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGNoYXRib3R8ZW58MXwwfHx8MTc4NTg3MjEzOXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "chatgpt",
       "study",
-      "ai"
+      "ai",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2748,6 +2751,37 @@
       "disaster-recovery",
       "backup",
       "business-continuity",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0089",
+    "slug": "nmap-network-scanning-complete-guide",
+    "title": {
+      "ar": "الدليل الشامل لاستخدام Nmap في فحص الشبكة",
+      "en": "The Complete Guide to Network Scanning with Nmap"
+    },
+    "excerpt": {
+      "ar": "أنواع الفحص الأساسية بأوامر حقيقية، 3 استخدامات عملية شائعة، وتحذير قانوني مهم قبل أي استخدام.",
+      "en": "Core scan types with real commands, 3 common practical use cases, and an important legal warning before any use."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-23",
+    "readTime": 9,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "nmap",
+      "network-scanning",
       "guide"
     ],
     "isFeatured": true,

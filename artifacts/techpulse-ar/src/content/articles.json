@@ -322,16 +322,16 @@
     "id": "art-gen-0010",
     "slug": "windows-disk-cleanup-safe",
     "title": {
-      "ar": "تنظيف مساحة القرص في Windows بأمان",
-      "en": "Safe Disk Cleanup on Windows"
+      "ar": "تنظيف مساحة القرص في Windows بأمان: الدليل الكامل",
+      "en": "Safe Disk Cleanup on Windows: The Complete Guide"
     },
     "excerpt": {
-      "ar": "خطوات بسيطة لتفريغ مساحة من غير ما تمسح ملفات مهمة.",
-      "en": "Simple steps to free space without deleting important files."
+      "ar": "الأدوات الرسمية بالتفصيل، إيه اللي آمن تمامًا وإيه اللي محتاج حذر، ونصيحة النقل قبل الحذف.",
+      "en": "The official tools in detail, what's completely safe versus what needs caution, and the move-before-delete precaution."
     },
     "body": {
-      "ar": "## ابدأ بالأدوات الرسمية\n\nStorage Sense ثم Disk Cleanup كمسؤول. راجع Downloads وRecycle Bin.\n\n## آمن يتشال\n\nTemporary files وWindows Update cleanup.\n\n## الخلاصة\n\nالأدوات الرسمية أولًا؛ انقل الوسائط قبل الحذف الكبير.",
-      "en": "## Built-in tools first\n\nStorage Sense and Disk Cleanup as admin.\n\n## Safe to remove\n\nTemp files and update leftovers.\n\n## Bottom line\n\nOfficial cleanup first."
+      "ar": "## ابدأ دايمًا بالأدوات الرسمية قبل أي أداة طرف ثالث\n\nكتير من أدوات \"تنظيف وتسريع الويندوز\" من شركات خارجية بتحذف ملفات أكتر من اللازم أو بتضيف برامج غير مرغوبة. Windows نفسه عنده أدوات مدمجة كافية لمعظم الاحتياجات، وأأمن بكتير.\n\n## الأداة الأولى: Storage Sense\n\nمن Settings → System → Storage، فعّل Storage Sense — بيشتغل تلقائيًا في الخلفية وبيمسح ملفات مؤقتة ومحتويات سلة المهملات القديمة حسب جدول تحدده إنت (أسبوعي، شهري، إلخ).\n\n## الأداة الثانية: Disk Cleanup (كمسؤول)\n\nللتنظيف اليدوي الأعمق، شغّل Disk Cleanup كمسؤول (Run as Administrator) — النسخة العادية بتوريك خيارات محدودة، لكن كمسؤول بتقدر توصل لـ\"Clean up system files\" اللي بيشمل ملفات تحديثات Windows القديمة (ممكن تكون جيجابايتات كتير).\n\n## إيه اللي آمن تمامًا إنك تحذفه\n\n1. **Temporary Files**: ملفات مؤقتة من برامج مختلفة، آمنة تمامًا للحذف.\n2. **Windows Update Cleanup**: نسخ قديمة من ملفات التحديثات بعد التثبيت الناجح — آمنة إلا لو محتاج ترجع لنسخة Windows سابقة قريبًا.\n3. **Recycle Bin**: راجعها الأول للتأكد إنك مش محتاج حاجة فيها، وبعدين فرّغها.\n4. **Downloads**: مش أداة تنظيف تلقائي، لكن راجعها يدويًا — كتير من الناس بتتراكم عندهم ملفات تثبيت قديمة مالهاش داعي.\n\n## إيه اللي محتاج حذر أكتر\n\n### Temporary Internet Files / Cache\n\nآمن الحذف عمومًا، لكن هيخليك تسجل دخول تاني على بعض المواقع وتحمّل بيانات الصفحات من جديد أول مرة تفتحها.\n\n### System Restore Points القديمة\n\nبتاخد مساحة كبيرة، لكن حذفها معناها فقدان القدرة على الرجوع لحالة سابقة للنظام — احذفها بس لو متأكد إن النظام مستقر حاليًا.\n\n## نصيحة عملية: انقل قبل ما تحذف\n\nقبل أي عملية حذف كبيرة، انقل أي ملفات وسائط شخصية (صور، فيديوهات) لمكان تاني (قرص خارجي أو سحابة) — مش لأنها هتتحذف بالضرورة، لكن كإجراء احترازي بسيط.\n\n## الخلاصة\n\nالأدوات الرسمية (Storage Sense وDisk Cleanup كمسؤول) كافية لمعظم الاحتياجات وأأمن بكتير من أدوات الطرف الثالث. راجع الملفات الشخصية قبل أي عملية تنظيف كبيرة كإجراء احترازي بسيط.",
+      "en": "## Always start with the official tools before any third-party tool\n\nMany third-party 'Windows cleanup and speedup' tools delete more than necessary or bundle unwanted software. Windows itself has enough built-in tools for most needs, and they're far safer.\n\n## The first tool: Storage Sense\n\nFrom Settings -> System -> Storage, enable Storage Sense -- it runs automatically in the background, clearing temp files and old recycle bin contents on a schedule you set (weekly, monthly, etc.).\n\n## The second tool: Disk Cleanup (as administrator)\n\nFor deeper manual cleanup, run Disk Cleanup as Administrator -- the regular version shows limited options, but as admin you can access 'Clean up system files', which includes old Windows update files (can be many gigabytes).\n\n## What's completely safe to delete\n\nTemporary files: temp files from various programs, completely safe to delete. Windows Update Cleanup: old copies of update files after successful installation -- safe unless you need to roll back to a previous Windows version soon. Recycle Bin: review it first to confirm you don't need anything in it, then empty it. Downloads: not an automatic cleanup tool, but review it manually -- many people accumulate unnecessary old installer files here.\n\n## What needs more caution\n\n### Temporary internet files / cache\n\nGenerally safe to delete, but you'll be logged out of some sites and need to reload page data fresh the first time you visit again.\n\n### Old System Restore Points\n\nTake up significant space, but deleting them means losing the ability to roll back to a previous system state -- only delete if you're confident the system is currently stable.\n\n## Practical advice: move before you delete\n\nBefore any large deletion, move personal media files (photos, videos) elsewhere (an external drive or cloud) -- not necessarily because they'll be deleted, but as a simple precaution.\n\n## Bottom line\n\nThe official tools (Storage Sense and Disk Cleanup as admin) cover most needs and are far safer than third-party tools. Review personal files before any large cleanup as a simple precaution."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -343,11 +343,12 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2024-01-10",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1639322537228-f710d846310a?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8M3x8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "windows",
-      "disk-cleanup"
+      "disk-cleanup",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -356,16 +357,16 @@
     "id": "art-gen-0011",
     "slug": "student-laptop-specs",
     "title": {
-      "ar": "مواصفات لابتوب للطالب: ماذا يكفي فعلًا؟",
-      "en": "Student Laptop Specs: What Actually Matters?"
+      "ar": "مواصفات لابتوب للطالب: الدليل الكامل لما يكفي فعلًا",
+      "en": "Student Laptop Specs: The Complete Guide to What Actually Matters"
     },
     "excerpt": {
-      "ar": "RAM والتخزين والشاشة والبطارية بدون مبالغة في السعر.",
-      "en": "RAM, storage, display, and battery without overspending."
+      "ar": "ليه 16 جيجا رام هي النقطة المثالية، وأي مواصفات تقدر تتنازل عنها بأمان من غير ما تضيع فلوسك.",
+      "en": "Why 16GB RAM is the sweet spot, and which specs you can safely skip without wasting your money."
     },
     "body": {
-      "ar": "## الحد الأدنى المنطقي\n\n16 جيجا RAM، SSD 512 إن أمكن، معالج حديث، شاشة Full HD.\n\n## الخلاصة\n\n16GB RAM + SSD + شاشة واضحة تغطي أغلب الطلاب.",
-      "en": "## Sensible baseline\n\n16GB RAM, 512GB SSD when possible, recent CPU, Full HD.\n\n## Bottom line\n\nRAM + SSD + clear screen beat brand prestige alone."
+      "ar": "## ليه مواصفات \"متوسطة مبالغ فيها\" مضيعة فلوس\n\nكتير من الطلاب بيتوجهوا لأغلى لابتوب في الميزانية على أساس \"يفضل معايا أطول\"، لكن الحقيقة إن معظم استخدامات الطالب (كتابة، تصفح، عروض تقديمية، أحيانًا برمجة أساسية) مش محتاجة مواصفات فائقة — الفلوس الإضافية أفضل تتصرف على حاجات فعلًا بتفرق.\n\n## المكونات اللي فعلًا بتفرق\n\n### الذاكرة العشوائية (RAM): 16 جيجا هي النقطة المثالية حاليًا\n\n8 جيجا كانت كافية لسنوات، لكن مع متصفحات فيها عشرات التبويبات + تطبيقات Office + أدوات تعاون (Zoom, Teams) شغالة مع بعض، 16 جيجا بقت النقطة المريحة الفعلية من غير مبالغة في 32 جيجا غير ضرورية لمعظم الطلاب.\n\n### التخزين: SSD إجباري، مش HDD\n\nالفرق في السرعة اليومية (فتح التطبيقات، بدء التشغيل) بين SSD وHDD ضخم جدًا وملموس فورًا. 512 جيجا SSD نقطة توازن جيدة بين السعة والسعر لمعظم الاحتياجات.\n\n### المعالج: حديث كفاية، مش بالضرورة الأقوى\n\nمعالج من الجيل الحالي أو اللي قبله في فئة متوسطة (مش لازم فئة Gaming أو Workstation) كافي جدًا لاستخدام الطالب العادي. الفرق بين معالج متوسط وأقوى معالج متاح مش هيتحس في الاستخدام اليومي.\n\n### الشاشة: Full HD (1920x1080) كحد أدنى\n\nدقة أقل من كده بتخلي القراءة والكتابة مرهقة على المدى الطويل. لسه مش لازم دقة أعلى (4K مثلًا) إلا لو محتاج فعليًا لعمل تصميم أو مونتاج دقيق.\n\n### عمر البطارية: أهم مما بيفتكره كتير من الناس\n\nطالب بيتنقل بين محاضرات طول اليوم محتاج بطارية تكمل 8 ساعات فعليًا (مش الرقم المُعلن من الشركة، اللي غالبًا مثالي جدًا) — دور على مراجعات مستقلة بتقيس الاستخدام الفعلي.\n\n## المواصفات اللي ممكن تتنازل عنها\n\n1. **كرت شاشة منفصل (Dedicated GPU)**: غير ضروري إلا لو الطالب فعليًا بيلعب ألعاب حديثة أو بيشتغل مونتاج فيديو ثقيل.\n2. **معالج فئة Gaming/Workstation**: زيادة سعر كبيرة مقابل فايدة غير محسوسة للاستخدام العادي.\n3. **شاشة بدقة فوق Full HD**: فايدة محدودة لمعظم الاستخدامات، وبتستهلك بطارية أسرع.\n\n## الخلاصة\n\n16 جيجا رام + SSD 512 جيجا + معالج متوسط حديث + شاشة Full HD واضحة = تغطية حقيقية لأغلب احتياجات الطالب، بميزانية معقولة من غير مبالغة في مواصفات مش هتستخدم فعليًا.",
+      "en": "## Why 'overkill mid-range' specs waste money\n\nMany students gravitate toward the most expensive laptop within budget on the assumption 'it'll last longer', but the reality is most student use (writing, browsing, presentations, sometimes basic coding) doesn't need extreme specs -- that extra money is better spent on things that actually matter.\n\n## The components that genuinely matter\n\n### RAM: 16GB is the current sweet spot\n\n8GB was enough for years, but with browsers running dozens of tabs plus Office apps plus collaboration tools (Zoom, Teams) all running together, 16GB has become the actual comfortable point, without overspending on an unnecessary 32GB for most students.\n\n### Storage: SSD is mandatory, not HDD\n\nThe everyday speed difference (opening apps, boot time) between SSD and HDD is massive and immediately noticeable. 512GB SSD is a good balance of capacity and price for most needs.\n\n### CPU: recent enough, not necessarily the strongest\n\nA current-generation or one-generation-old mid-tier processor (no need for a Gaming or Workstation class) is more than enough for typical student use. The difference between a mid-tier chip and the strongest available won't be felt in daily use.\n\n### Display: Full HD (1920x1080) as a minimum\n\nLower resolution makes reading and writing tiring over time. No need to go higher (4K, say) unless genuinely needing precise design or editing work.\n\n### Battery life: more important than many realize\n\nA student moving between lectures all day needs a battery that genuinely lasts 8 hours (not the manufacturer's advertised number, which is often overly optimistic) -- look for independent reviews measuring real-world use.\n\n## Specs you can safely skip\n\nA dedicated GPU: unnecessary unless the student genuinely plays modern games or does heavy video editing. A Gaming/Workstation-class processor: a large price jump for barely noticeable benefit in normal use. A display above Full HD: limited benefit for most uses, and drains battery faster.\n\n## Bottom line\n\n16GB RAM + 512GB SSD + a recent mid-tier processor + a clear Full HD screen covers most real student needs, on a reasonable budget without overspending on specs that won't actually get used."
     },
     "categoryId": "laptops",
     "subcategoryId": "guides-tips",
@@ -377,11 +378,12 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2024-04-17",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bGFwdG9wJTIwY29tcHV0ZXIlMjBzdHVkZW50fGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "laptop",
-      "students"
+      "students",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -390,16 +392,16 @@
     "id": "art-gen-0012",
     "slug": "chatgpt-study-without-harm",
     "title": {
-      "ar": "استخدام ChatGPT في المذاكرة بدون ما يضر فهمك",
-      "en": "Using ChatGPT for Studying Without Hurting Understanding"
+      "ar": "استخدام ChatGPT في المذاكرة بدون ما يضر فهمك: الدليل الكامل",
+      "en": "Using ChatGPT for Studying Without Hurting Understanding: The Complete Guide"
     },
     "excerpt": {
-      "ar": "كيف تطلب شرحًا وتختبر نفسك بدل نسخ الإجابات.",
-      "en": "How to request explanations and self-tests instead of copied answers."
+      "ar": "4 استخدامات مفيدة فعليًا (شرح متدرج، اختبار نفسك)، و3 استخدامات ضارة بالتعلم الحقيقي.",
+      "en": "4 genuinely useful uses (layered explanations, self-testing), and 3 uses that genuinely harm real learning."
     },
     "body": {
-      "ar": "## استخدام مفيد\n\nاشرح لي كأني مبتدئ، أعطني مثالًا، اطرح أسئلة لاختبار فهمي.\n\n## استخدام ضار\n\nنسخ واجب كامل بدون محاولة.\n\n## الخلاصة\n\nخلّيه مدرّسًا خاصًا، مش بديلًا عن التفكير.",
-      "en": "## Useful uses\n\nExplain like I am new, give examples, quiz me after I try.\n\n## Harmful uses\n\nPasting full assignments with no attempt.\n\n## Bottom line\n\nTutor, not substitute for thinking."
+      "ar": "## الفرق الجوهري بين استخدام مفيد وضار للذكاء الاصطناعي في المذاكرة\n\nالمشكلة مش في الأداة نفسها — هي في نوع التفاعل. طلب \"اشرحلي المفهوم ده\" وأنت بتحاول تفهم، مختلف تمامًا عن \"احلّلي الواجب ده كامل\" بدون أي محاولة تفكير. الأول بيبني فهم حقيقي، والتاني بيستبدل عملية التعلم نفسها.\n\n## استخدامات مفيدة فعليًا\n\n### 1. الشرح بمستويات مختلفة\n\nاطلب \"اشرحلي المفهوم ده كأني مبتدئ تمامًا\"، وبعد ما تفهم الأساس، اطلب \"دلوقتي اشرحلي بتفاصيل أعمق\" — ده بيخليك تبني فهم تدريجي بدل ما تقرأ شرح واحد معقد من الأول.\n\n### 2. أمثلة إضافية لما الكتاب مش كافي\n\nلو مفهوم رياضي أو برمجي مش واضح من مثال الكتاب الوحيد، اطلب أمثلة إضافية متنوعة — التكرار بأشكال مختلفة بيرسّخ الفهم.\n\n### 3. اختبار نفسك بعد المذاكرة\n\nبعد ما تذاكر موضوع، اطلب \"اسألني أسئلة على الموضوع ده للتأكد إني فاهم\" — ده بيحوّل الأداة من \"مصدر إجابات\" لـ\"أداة اختبار فهم\"، وده الاستخدام الأقوى فعليًا للتعلم.\n\n### 4. تبسيط نص معقد\n\nلو نص أكاديمي أو مرجع تقني صعب الفهم، اطلب \"بسّطلي الفقرة دي\" — مفيد كنقطة بداية، لكن ارجع للنص الأصلي بعدين للتأكد من الدقة الكاملة.\n\n## استخدامات ضارة بالتعلم الفعلي\n\n### 1. نسخ إجابة الواجب كاملة بدون أي محاولة\n\nبيدّيك نتيجة صحيحة على الورق، لكن صفر فهم فعلي — المشكلة بتظهر وقت الامتحان لما محدش يقدر \"يحل الواجب\" بدالك.\n\n### 2. الاعتماد الكامل بدل المحاولة الأولى\n\nالأفضل تحاول تحل المشكلة بنفسك الأول، وبعدين تستخدم الأداة للتحقق أو الشرح لو اتعقّدت — مش العكس.\n\n### 3. الثقة الكاملة بدون تحقق\n\nالذكاء الاصطناعي ممكن يخطئ في حقائق أو تفاصيل، خصوصًا في مواضيع دقيقة جدًا أو متخصصة. تأكد من المعلومات المهمة من مصدر تاني (كتاب، أستاذ) قبل ما تعتمد عليها بالكامل.\n\n## نصيحة عملية للتوازن\n\nاسأل نفسك قبل أي استخدام: \"أنا بحاول أفهم، ولا بحاول أخلّص بسرعة؟\" — لو الإجابة التانية، فرصة كبيرة إن الاستخدام ده هيضرّك على المدى الطويل حتى لو وفّر وقت دلوقتي.\n\n## الخلاصة\n\nاستخدم الأداة كمدرّس خاص متاح 24 ساعة يشرحلك ويختبرك، مش كبديل يحل بدالك. الفرق بسيط لكنه جوهري: هل بتفكر أنت ولا الأداة هي اللي بتفكر بدالك؟",
+      "en": "## The core difference between helpful and harmful AI use for studying\n\nThe problem isn't the tool itself -- it's the type of interaction. Asking 'explain this concept to me' while you're actively trying to understand is fundamentally different from 'solve this whole assignment' with zero attempt at thinking. The first builds real understanding; the second replaces the learning process itself.\n\n## Genuinely useful uses\n\n### 1. Layered explanations\n\nAsk 'explain this concept to me like I'm a complete beginner', and once you grasp the basics, ask 'now explain it in more depth' -- this builds gradual understanding instead of reading one overly complex explanation from the start.\n\n### 2. Extra examples when the textbook isn't enough\n\nIf a math or programming concept isn't clear from the textbook's single example, ask for varied additional examples -- repetition in different forms cements understanding.\n\n### 3. Testing yourself after studying\n\nAfter studying a topic, ask 'quiz me on this to confirm I understand' -- this turns the tool from an 'answer source' into an 'understanding test', which is genuinely the strongest use for actual learning.\n\n### 4. Simplifying complex text\n\nIf an academic or technical reference is hard to parse, ask to 'simplify this paragraph' -- useful as a starting point, but return to the original text afterward to confirm full accuracy.\n\n## Uses that genuinely harm learning\n\n### 1. Copying a full assignment answer with no attempt at all\n\nGives you a correct result on paper, but zero actual understanding -- the problem surfaces at exam time when nobody can 'do the assignment' for you.\n\n### 2. Full reliance instead of a first attempt\n\nBetter to try solving the problem yourself first, then use the tool to verify or explain if you get stuck -- not the other way around.\n\n### 3. Blind trust without verification\n\nAI can get facts or details wrong, especially in very precise or specialized topics. Verify important information from another source (a book, a teacher) before fully relying on it.\n\n## A practical balance tip\n\nAsk yourself before any use: 'am I trying to understand, or trying to finish quickly?' -- if the answer is the latter, there's a good chance this use will hurt you long-term even if it saves time now.\n\n## Bottom line\n\nUse the tool as a private tutor available 24 hours who explains and quizzes you, not a substitute that solves things for you. The difference is simple but fundamental: are you doing the thinking, or is the tool doing it for you?"
     },
     "categoryId": "ai",
     "subcategoryId": "guides-tips",
@@ -411,12 +413,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2024-06-24",
-    "readTime": 3,
+    "readTime": 6,
     "heroImage": "https://images.unsplash.com/photo-1684369175833-4b445ad6bfb5?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGNoYXRib3R8ZW58MXwwfHx8MTc4NTg3MjEzOXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "chatgpt",
       "study",
-      "ai"
+      "ai",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -3100,6 +3103,41 @@
       "disaster-recovery",
       "backup",
       "business-continuity",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0089",
+    "slug": "nmap-network-scanning-complete-guide",
+    "title": {
+      "ar": "الدليل الشامل لاستخدام Nmap في فحص الشبكة",
+      "en": "The Complete Guide to Network Scanning with Nmap"
+    },
+    "excerpt": {
+      "ar": "أنواع الفحص الأساسية بأوامر حقيقية، 3 استخدامات عملية شائعة، وتحذير قانوني مهم قبل أي استخدام.",
+      "en": "Core scan types with real commands, 3 common practical use cases, and an important legal warning before any use."
+    },
+    "body": {
+      "ar": "## ليه Nmap أداة أساسية لأي مهتم بأمان الشبكات\n\nقبل ما تقدر تحمي شبكتك، لازم تعرف بالظبط إيه اللي موجود عليها فعليًا: أي أجهزة متصلة، أي منافذ مفتوحة، وأي خدمات شغالة. Nmap (Network Mapper) هي الأداة القياسية لاكتشاف كل ده — سواء بتراجع أمان شبكتك بنفسك، أو بتتحقق من إعداد جدار حماية جديد.\n\n## تحذير مهم قبل الاستخدام\n\nNmap أداة قوية جدًا، واستخدامها على شبكة مش عندك تصريح رسمي لفحصها **غير قانوني في معظم الدول** وممكن يُعتبر محاولة اختراق. استخدمها بس على شبكاتك الخاصة، أو شبكات عندك إذن كتابي واضح لفحصها.\n\n## أنواع الفحص الأساسية\n\n### فحص Ping بسيط (اكتشاف الأجهزة المتصلة)\n\n```bash\nnmap -sn 192.168.1.0/24\n```\n\nبيوريك بس أي الأجهزة \"حية\" ومتصلة على نطاق الشبكة، من غير فحص منافذ — أسرع طريقة تعرف بيها كل الأجهزة الموجودة فعليًا.\n\n### فحص منافذ أساسي\n\n```bash\nnmap 192.168.1.10\n```\n\nبيفحص أشهر 1000 منفذ افتراضيًا، ويوريك أيها مفتوح، مغلق، أو مفلتر (Filtered، غالبًا بسبب جدار حماية).\n\n### فحص كل المنافذ (شامل لكن أبطأ)\n\n```bash\nnmap -p- 192.168.1.10\n```\n\nبيفحص كل الـ65535 منفذ، مفيد لو محتاج تأكيد كامل مفيش منفذ غير متوقع مفتوح.\n\n### اكتشاف نسخة الخدمة والنظام\n\n```bash\nnmap -sV -O 192.168.1.10\n```\n\n`-sV` بيحاول يحدد نسخة الخدمة الشغالة على كل منفذ مفتوح (زي Apache 2.4.41 مثلًا)، و`-O` بيحاول يخمّن نظام التشغيل — معلومات مهمة جدًا لتقييم لو فيه ثغرات معروفة لنسخة محددة.\n\n## فحوصات عملية شائعة\n\n### التحقق من إعداد جدار حماية جديد\n\nبعد أي تغيير في قواعد جدار الحماية، فحص Nmap من برّه الشبكة بيأكدلك إن المنافذ المفروض تتقفل فعلًا مقفولة، مش بس افتراض إن الإعداد اشتغل صح.\n\n### اكتشاف أجهزة غير مصرّح بيها (Shadow IT)\n\nفحص دوري لنطاق الشبكة بيكشف أي جهاز اتوصل بدون علم فريق IT — مؤشر مهم على مخاطر أمنية محتملة.\n\n### التحقق من إغلاق خدمات قديمة\n\nلو عملت ترقية أو إزالة خدمة معينة، فحص Nmap بيأكدلك إن المنفذ المرتبط بيها فعلًا مقفول، مش لسه شغال بالخطأ.\n\n## فلاتر وخيارات مفيدة إضافية\n\n```bash\n# فحص سريع لمنافذ محددة بس\nnmap -p 22,80,443 192.168.1.10\n\n# فحص أبطأ لتقليل احتمال اكتشافه (Stealth-ish)\nnmap -T2 192.168.1.10\n\n# حفظ النتيجة في ملف للمراجعة لاحقًا\nnmap -oN scan-results.txt 192.168.1.0/24\n```\n\n## الخلاصة\n\nNmap أداة أساسية لأي فحص أمان شبكة حقيقي — من اكتشاف الأجهزة البسيط لفحص المنافذ الشامل وتحديد الخدمات. استخدمها بمسؤولية وبس على شبكات عندك تصريح واضح لفحصها.",
+      "en": "## Why Nmap is essential for anyone into network security\n\nBefore you can protect your network, you need to know exactly what's actually on it: which devices are connected, which ports are open, and which services are running. Nmap (Network Mapper) is the standard tool for discovering all of this -- whether you're auditing your own network's security or verifying a new firewall configuration.\n\n## An important warning before use\n\nNmap is a very powerful tool, and using it on a network you don't have official authorization to scan is illegal in most countries and can be considered an attempted intrusion. Only use it on your own networks, or networks you have clear written permission to scan.\n\n## Core scan types\n\n### A simple ping scan (discovering connected devices)\n\n```bash\nnmap -sn 192.168.1.0/24\n```\nShows only which devices are 'alive' and connected across the network range, without port scanning -- the fastest way to know every device actually present.\n\n### A basic port scan\n\n```bash\nnmap 192.168.1.10\n```\nScans the top 1000 most common ports by default, showing which are open, closed, or filtered (often due to a firewall).\n\n### A full port scan (comprehensive but slower)\n\n```bash\nnmap -p- 192.168.1.10\n```\nScans all 65535 ports, useful when you need full confirmation there's no unexpected open port.\n\n### Service version and OS detection\n\n```bash\nnmap -sV -O 192.168.1.10\n```\n-sV tries to identify the exact service version running on each open port (like Apache 2.4.41, say), and -O tries to guess the operating system -- very important information for assessing known vulnerabilities in a specific version.\n\n## Common practical scans\n\n### Verifying a new firewall configuration\n\nAfter any firewall rule change, an Nmap scan from outside the network confirms the ports meant to be closed actually are, instead of just assuming the configuration worked.\n\n### Detecting unauthorized devices (Shadow IT)\n\nPeriodically scanning the network range reveals any device that connected without IT's knowledge -- an important indicator of potential security risk.\n\n### Confirming old services are actually shut down\n\nAfter upgrading or removing a service, an Nmap scan confirms the associated port is genuinely closed, not still accidentally running.\n\n## Additional useful options\n\n```bash\n# Quick scan of specific ports only\nnmap -p 22,80,443 192.168.1.10\n\n# Slower scan to reduce detection likelihood (stealth-ish)\nnmap -T2 192.168.1.10\n\n# Save results to a file for later review\nnmap -oN scan-results.txt 192.168.1.0/24\n```\n\n## Bottom line\n\nNmap is an essential tool for any real network security audit -- from simple device discovery to comprehensive port scanning and service identification. Use it responsibly, only on networks you have clear authorization to scan."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-23",
+    "readTime": 9,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "nmap",
+      "network-scanning",
       "guide"
     ],
     "isFeatured": true,
