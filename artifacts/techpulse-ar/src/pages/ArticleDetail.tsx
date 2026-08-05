@@ -13,6 +13,13 @@ export default function ArticleDetail() {
   const { article, isLoading } = useArticleBody(params?.slug);
   const isRtl = language === 'ar';
 
+  useSEO({
+    title: article?.title?.[language],
+    description: article?.excerpt?.[language],
+    image: article?.heroImage,
+    type: 'article',
+  });
+
   if (isLoading) {
     return <div className="container mx-auto px-4 py-20 text-center text-muted-foreground" />;
   }
@@ -32,13 +39,6 @@ export default function ArticleDetail() {
     article.author?.name?.[language] ||
     article.author?.name?.ar ||
     (typeof article.author === 'string' ? article.author : language === 'ar' ? 'فريق رؤى تقنية' : 'Technical Insights Team');
-
-  useSEO({
-    title: article.title[language],
-    description: article.excerpt[language],
-    image: article.heroImage,
-    type: 'article',
-  });
 
   const related = allArticles
     .filter(a => a.categoryId === article.categoryId && a.id !== article.id)
