@@ -65,12 +65,12 @@
     "id": "art-gen-0003",
     "slug": "palo-alto-security-policy-basics",
     "title": {
-      "ar": "أساسيات Security Policy في Palo Alto — من أين تبدأ؟",
-      "en": "Palo Alto Security Policy Basics — Where to Start"
+      "ar": "أساسيات Security Policy في Palo Alto: الدليل الكامل",
+      "en": "Palo Alto Security Policy Basics: The Complete Guide"
     },
     "excerpt": {
-      "ar": "ترتيب عملي لبناء السياسات: Zones وApp-ID وأشهر الأخطاء.",
-      "en": "Practical order for building policies: zones, App-ID, and common mistakes."
+      "ar": "الترتيب الصحيح خطوة بخطوة لبناء سياسة أمان قوية: المناطق، App-ID، User-ID، Security Profiles، وأشهر الأخطاء التي تضعف الحماية.",
+      "en": "The correct step-by-step order for building a strong security policy: zones, App-ID, User-ID, Security Profiles, and the most common mistakes that weaken protection."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -82,12 +82,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2022-06-15",
-    "readTime": 6,
+    "readTime": 10,
     "heroImage": "https://images.unsplash.com/photo-1614064548237-096f735f344f?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8ZmlyZXdhbGwlMjBuZXR3b3JrJTIwc2VjdXJpdHl8ZW58MXwwfHx8MTc4NTg3MjEyN3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "palo-alto",
       "ngfw",
-      "security-policy"
+      "security-policy",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -191,12 +192,12 @@
     "id": "art-gen-0007",
     "slug": "ad-powershell-daily-tasks",
     "title": {
-      "ar": "مهام Active Directory اليومية بـ PowerShell",
-      "en": "Daily Active Directory Tasks with PowerShell"
+      "ar": "مهام Active Directory اليومية بـ PowerShell: الدليل الكامل",
+      "en": "Daily Active Directory Tasks with PowerShell: The Complete Guide"
     },
     "excerpt": {
-      "ar": "أوامر عملية: إنشاء مستخدم، إضافة لمجموعة، Unlock، وDisable.",
-      "en": "Practical commands: create user, add to group, unlock, disable."
+      "ar": "أوامر عملية كاملة للاستعلام والإنشاء والإدارة، سكريبتات دفعية جاهزة، ونصائح أمان أساسية قبل تشغيل أي سكريبت.",
+      "en": "Complete practical commands for querying, creating, and managing accounts, ready-made bulk scripts, and essential safety tips before running any script."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -208,11 +209,12 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2023-05-16",
-    "readTime": 5,
+    "readTime": 11,
     "heroImage": "https://images.unsplash.com/photo-1744868562210-fffb7fa882d9?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8c2VydmVyJTIwcm9vbSUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc4NTg3MjEzMnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "active-directory",
-      "powershell"
+      "powershell",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -469,12 +471,12 @@
     "id": "art-gen-0016",
     "slug": "dns-reverse-lookup-zone-setup",
     "title": {
-      "ar": "إعداد منطقة DNS العكسية (Reverse Lookup Zone) خطوة بخطوة",
-      "en": "Setting Up a DNS Reverse Lookup Zone Step by Step"
+      "ar": "إعداد منطقة DNS العكسية (Reverse Lookup Zone): الدليل الكامل",
+      "en": "Setting Up a DNS Reverse Lookup Zone: The Complete Guide"
     },
     "excerpt": {
-      "ar": "ليه محتاج PTR records وإزاي تنشئها صح في بيئة Active Directory.",
-      "en": "Why you need PTR records and how to create them in an Active Directory environment."
+      "ar": "ليه PTR مهم فعليًا، خطوات إنشاء المنطقة العكسية بالتفصيل، أوامر تحقق حقيقية، وأشهر مشاكل الإعداد وحلولها.",
+      "en": "Why PTR actually matters, detailed reverse zone creation steps, real verification commands, and the most common setup problems with fixes."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -486,12 +488,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-05-25",
-    "readTime": 5,
+    "readTime": 9,
     "heroImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMGRvbWFpbiUyMHNlcnZlcnxlbnwxfDB8fHwxNzg1ODcyMTQyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "dns",
       "active-directory",
-      "networking"
+      "networking",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2609,6 +2612,37 @@
       "incident-response",
       "nist",
       "security-planning",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0085",
+    "slug": "wireshark-network-analysis-complete-guide",
+    "title": {
+      "ar": "الدليل الشامل لتحليل حركة الشبكة باستخدام Wireshark",
+      "en": "The Complete Guide to Network Traffic Analysis with Wireshark"
+    },
+    "excerpt": {
+      "ar": "فلاتر الالتقاط والعرض بالتفصيل، سيناريوهات تشخيص حقيقية (بطء، DNS مشبوه، فشل TLS)، ونصيحة أمان مهمة قبل الاستخدام.",
+      "en": "Capture and display filters in detail, real diagnostic scenarios (slowness, suspicious DNS, TLS failures), and an important safety note before use."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-22",
+    "readTime": 11,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "wireshark",
+      "network-analysis",
       "guide"
     ],
     "isFeatured": true,
