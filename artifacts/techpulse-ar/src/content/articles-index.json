@@ -731,12 +731,12 @@
     "id": "art-gen-0024",
     "slug": "log-retention-siem-basics",
     "title": {
-      "ar": "الاحتفاظ بالسجلات (Log Retention): كام يوم كفاية فعلًا؟",
-      "en": "Log Retention: How Long Is Actually Enough?"
+      "ar": "الاحتفاظ بالسجلات (Log Retention): الدليل الكامل لتحديد المدة الصحيحة",
+      "en": "Log Retention: The Complete Guide to Setting the Right Duration"
     },
     "excerpt": {
-      "ar": "التوازن بين تكلفة التخزين ومتطلبات التحقيق الأمني والامتثال.",
-      "en": "Balancing storage cost against real security-investigation and compliance needs."
+      "ar": "مدد مقترحة حسب نوع السجل، استراتيجية التخزين المتدرج (ساخن/بارد)، ونصيحة توثيق القرار بدل رقم عشوائي.",
+      "en": "Suggested durations by log type, a tiered hot/cold storage strategy, and advice to document the decision instead of picking an arbitrary number."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -748,12 +748,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-09-27",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "siem",
       "logging",
-      "compliance"
+      "compliance",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -793,12 +794,12 @@
     "id": "art-gen-0026",
     "slug": "dhcp-failover-high-availability",
     "title": {
-      "ar": "إعداد DHCP Failover لضمان استمرارية الشبكة",
-      "en": "Setting Up DHCP Failover for Network Continuity"
+      "ar": "إعداد DHCP Failover لضمان استمرارية الشبكة: الدليل الكامل",
+      "en": "Setting Up DHCP Failover for Network Continuity: The Complete Guide"
     },
     "excerpt": {
-      "ar": "ليه سيرفر DHCP واحد نقطة فشل خطيرة، وإزاي تعمل نسخة احتياطية تعمل تلقائيًا.",
-      "en": "Why a single DHCP server is a dangerous single point of failure, and how to set up automatic failover."
+      "ar": "الفرق بين Hot Standby وLoad Balance بالتفصيل، خطوات إعداد كاملة، وأمر PowerShell للتحقق من نجاح الإعداد.",
+      "en": "Hot Standby vs Load Balance explained in detail, complete setup steps, and a PowerShell command to verify success."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -810,12 +811,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-01-14",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1691435828932-911a7801adfb?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMHNlcnZlciUyMHJvb218ZW58MXwwfHx8MTc4NTg3MjE1NXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "dhcp",
       "windows-server",
-      "high-availability"
+      "high-availability",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -919,12 +921,12 @@
     "id": "art-gen-0030",
     "slug": "mfa-fatigue-attacks-explained",
     "title": {
-      "ar": "هجمات إرهاق المصادقة الثنائية (MFA Fatigue): إزاي تحمي فريقك",
-      "en": "MFA Fatigue Attacks: How to Protect Your Team"
+      "ar": "هجمات إرهاق المصادقة الثنائية (MFA Fatigue): الدليل الكامل لحماية فريقك",
+      "en": "MFA Fatigue Attacks: The Complete Guide to Protecting Your Team"
     },
     "excerpt": {
-      "ar": "لما المهاجم يقصف المستخدم بطلبات موافقة متكررة لحد ما يوافق بالغلط.",
-      "en": "When an attacker bombards a user with repeated approval prompts until they accidentally approve."
+      "ar": "ليه الهجوم ده فعّال بشكل مقلق، وخمس طرق حماية عملية من Number Matching للمفاتيح المادية.",
+      "en": "Why this attack is concerningly effective, and five practical defenses from number matching to hardware keys."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -936,12 +938,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-08-15",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1620287341401-e2945a4b9daa?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8cGhpc2hpbmclMjBlbWFpbCUyMHdhcm5pbmd8ZW58MXwwfHx8MTc4NTg3MjEyNHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "mfa",
       "phishing",
-      "identity"
+      "identity",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2782,6 +2785,38 @@
     "tags": [
       "nmap",
       "network-scanning",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0090",
+    "slug": "vulnerability-management-program-guide",
+    "title": {
+      "ar": "بناء برنامج إدارة ثغرات ناجح: الدليل الكامل",
+      "en": "Building a Successful Vulnerability Management Program: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "دورة الحياة الكاملة (اكتشاف، تقييم، إصلاح، تحقق)، نظام أولويات عملي غير درجة CVSS بس، وجدول أطر زمنية مقترحة.",
+      "en": "The full lifecycle (discovery, assessment, remediation, verification), a practical priority system beyond just the CVSS score, and a suggested timeframe table."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-03",
+    "readTime": 10,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "vulnerability-management",
+      "cvss",
+      "security-operations",
       "guide"
     ],
     "isFeatured": true,

@@ -823,16 +823,16 @@
     "id": "art-gen-0024",
     "slug": "log-retention-siem-basics",
     "title": {
-      "ar": "الاحتفاظ بالسجلات (Log Retention): كام يوم كفاية فعلًا؟",
-      "en": "Log Retention: How Long Is Actually Enough?"
+      "ar": "الاحتفاظ بالسجلات (Log Retention): الدليل الكامل لتحديد المدة الصحيحة",
+      "en": "Log Retention: The Complete Guide to Setting the Right Duration"
     },
     "excerpt": {
-      "ar": "التوازن بين تكلفة التخزين ومتطلبات التحقيق الأمني والامتثال.",
-      "en": "Balancing storage cost against real security-investigation and compliance needs."
+      "ar": "مدد مقترحة حسب نوع السجل، استراتيجية التخزين المتدرج (ساخن/بارد)، ونصيحة توثيق القرار بدل رقم عشوائي.",
+      "en": "Suggested durations by log type, a tiered hot/cold storage strategy, and advice to document the decision instead of picking an arbitrary number."
     },
     "body": {
-      "ar": "## ليه المدة مهمة\n\nاحتفاظ قصير جدًا يعني لو حصل اختراق ماكتشفتوش إلا بعد شهرين، مفيش سجلات ترجع لبداية الحادثة. احتفاظ طويل جدًا يعني تكلفة تخزين عالية بلا داعي.\n\n## مدد شائعة كنقطة بداية\n\n- سجلات أمنية حساسة (Firewall, VPN, AD): 90-180 يوم على الأقل.\n- متطلبات امتثال معينة (مالي، حكومي): قد تصل لسنة أو أكتر حسب اللائحة.\n- سجلات عادية أقل حساسية: 30-90 يوم كافية غالبًا.\n\n## نصيحة عملية\n\nخزّن السجلات المهمة على مرحلتين: تخزين سريع للوصول (30-90 يوم) وتخزين أرشيفي أرخص للباقي.\n\n## الخلاصة\n\nحدد المدة حسب نوع السجل ومتطلبات القطاع، مش رقم عشوائي واحد لكل حاجة.",
-      "en": "## Why duration matters\n\nToo-short retention means no logs left if a breach is discovered months later. Too-long retention means unnecessary storage cost.\n\n## Common starting points\n\nSensitive security logs (firewall, VPN, AD): at least 90-180 days. Regulated sectors may require a year or more. Less sensitive logs: often 30-90 days is enough.\n\n## Bottom line\n\nSet retention per log type and sector requirement, not one arbitrary number for everything."
+      "ar": "## المعضلة الأساسية: قصير جدًا خطر، طويل جدًا مكلف\n\nاحتفاظ قصير جدًا بالسجلات معناه لو حصل اختراق ماتكتشفوش إلا بعد شهرين (سيناريو شائع فعليًا — متوسط وقت اكتشاف الاختراقات في كتير من الدراسات بيتعدى الشهر بسهولة)، مفيش سجلات ترجع لبداية الحادثة أصلًا — التحقيق بيبقى شبه مستحيل. احتفاظ طويل جدًا من غير داعي معناه تكلفة تخزين متصاعدة بلا فايدة أمنية إضافية حقيقية.\n\n## مدد مقترحة حسب نوع السجل (نقطة بداية، مش قاعدة مطلقة)\n\n### سجلات أمنية حساسة جدًا (Firewall, VPN, Active Directory)\n\n90-180 يوم على الأقل. دي السجلات اللي هتحتاجها فعليًا وقت أي تحقيق في اختراق محتمل — أهم فئة تستاهل احتفاظ أطول.\n\n### قطاعات منظّمة بمتطلبات قانونية (مالي، حكومي، طبي)\n\nقد تصل لسنة كاملة أو أكتر حسب اللائحة المحددة (PCI-DSS، HIPAA، إلخ) — راجع المتطلب القانوني الفعلي بدل الافتراض.\n\n### سجلات عادية أقل حساسية (استخدام تطبيقات عادي، أداء نظام)\n\n30-90 يوم كافية غالبًا — قيمتها التحقيقية أقل بكتير من السجلات الأمنية.\n\n## استراتيجية التخزين المتدرج (Tiered Storage)\n\nبدل ما تخزّن كل حاجة على نفس الوسيط بنفس التكلفة، قسّم لمرحلتين:\n\n### المرحلة الساخنة (Hot Storage)\n\nسجلات آخر 30-90 يوم، على تخزين سريع الوصول (قرص محلي أو SSD) — ده اللي هتحتاجه للتحقيقات الفورية والتحليل اليومي.\n\n### المرحلة الباردة (Cold/Archive Storage)\n\nسجلات أقدم، على تخزين أرخص بكتير (تخزين سحابي أرشيفي مثلًا) — لسه موجودة لو احتجتها لتحقيق قديم أو متطلب امتثال، لكن بتكلفة أقل بكتير من التخزين السريع.\n\n## نصيحة عملية: وثّق القرار، متعتمدش على رقم عشوائي\n\nحدد مدة الاحتفاظ بناءً على: متطلب قانوني فعلي لقطاعك (لو موجود)، متوسط الوقت اللي بياخده اكتشاف حادث في بيئتك، وميزانية التخزين المتاحة. وثّق القرار ده رسميًا — مدقق خارجي هيسألك \"ليه المدة دي بالذات؟\"، والإجابة لازم تكون مبنية على تحليل مش تخمين.\n\n## الخلاصة\n\nمفيش رقم واحد صح لكل حاجة — حدد المدة حسب نوع السجل ومتطلبات القطاع، واستخدم تخزين متدرج (ساخن/بارد) عشان توازن بين التكلفة والاحتياج الفعلي وقت أي تحقيق.",
+      "en": "## The core dilemma: too short is dangerous, too long is expensive\n\nToo-short retention means if a breach occurs, it's often not discovered for months (a genuinely common scenario -- average breach discovery time in many studies easily exceeds a month), leaving no logs going back to the incident's start -- investigation becomes nearly impossible. Unnecessarily long retention means escalating storage cost with no real added security benefit.\n\n## Suggested durations by log type (a starting point, not an absolute rule)\n\n### Highly sensitive security logs (firewall, VPN, Active Directory)\n\nAt least 90-180 days. These are the logs you'll genuinely need during any breach investigation -- the most important category deserving longer retention.\n\n### Regulated sectors with legal requirements (financial, government, medical)\n\nCould reach a full year or more depending on the specific regulation (PCI-DSS, HIPAA, etc.) -- check the actual legal requirement instead of assuming.\n\n### Regular, less sensitive logs (normal app usage, system performance)\n\n30-90 days is often enough -- their investigative value is much lower than security logs.\n\n## A tiered storage strategy\n\nInstead of storing everything on the same medium at the same cost, split into two tiers:\n\n### Hot storage\n\nThe last 30-90 days of logs, on fast-access storage (local disk or SSD) -- what you'll need for immediate investigations and daily analysis.\n\n### Cold/archive storage\n\nOlder logs, on much cheaper storage (archival cloud storage, say) -- still available if needed for an old investigation or compliance requirement, but at far lower cost than fast storage.\n\n## Practical advice: document the decision, don't rely on an arbitrary number\n\nSet retention duration based on: an actual legal requirement for your sector (if any), the average time your environment takes to discover an incident, and available storage budget. Document this decision formally -- an external auditor will ask 'why this specific duration?', and the answer should be based on analysis, not a guess.\n\n## Bottom line\n\nThere's no single correct number for everything -- set duration per log type and sector requirement, and use tiered storage (hot/cold) to balance cost against actual need during any investigation."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -844,12 +844,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-09-27",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "siem",
       "logging",
-      "compliance"
+      "compliance",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -893,16 +894,16 @@
     "id": "art-gen-0026",
     "slug": "dhcp-failover-high-availability",
     "title": {
-      "ar": "إعداد DHCP Failover لضمان استمرارية الشبكة",
-      "en": "Setting Up DHCP Failover for Network Continuity"
+      "ar": "إعداد DHCP Failover لضمان استمرارية الشبكة: الدليل الكامل",
+      "en": "Setting Up DHCP Failover for Network Continuity: The Complete Guide"
     },
     "excerpt": {
-      "ar": "ليه سيرفر DHCP واحد نقطة فشل خطيرة، وإزاي تعمل نسخة احتياطية تعمل تلقائيًا.",
-      "en": "Why a single DHCP server is a dangerous single point of failure, and how to set up automatic failover."
+      "ar": "الفرق بين Hot Standby وLoad Balance بالتفصيل، خطوات إعداد كاملة، وأمر PowerShell للتحقق من نجاح الإعداد.",
+      "en": "Hot Standby vs Load Balance explained in detail, complete setup steps, and a PowerShell command to verify success."
     },
     "body": {
-      "ar": "## المشكلة\n\nلو سيرفر الـDHCP الوحيد وقع، أي جهاز جديد أو انتهت صلاحية عنوانه IP هيفقد الاتصال بالشبكة بالكامل.\n\n## الحل: DHCP Failover\n\n1. جهّز سيرفرين Windows Server يقدروا يوصلوا لبعض.\n2. من DHCP Console، أنشئ علاقة Failover على الـscope المطلوب.\n3. اختر الوضع: Load Balance (الاتنين شغالين مع بعض) أو Hot Standby (واحد احتياطي).\n4. تأكد من التزامن بين السيرفرين بعد الإعداد.\n\n## نصيحة\n\nHot Standby أبسط للبيئات الصغيرة، Load Balance أفضل لو عندك حمل كبير من الطلبات.\n\n## الخلاصة\n\nDHCP Failover إعداد بسيط نسبيًا بيمنع مشكلة كبيرة (توقف الشبكة بالكامل) بسبب سيرفر واحد.",
-      "en": "## The problem\n\nIf your only DHCP server goes down, any new or expiring device loses network connectivity entirely.\n\n## The fix: DHCP Failover\n\nSet up two Windows Servers that can reach each other, create a Failover relationship on the scope from the DHCP console, and choose Load Balance or Hot Standby mode.\n\n## Bottom line\n\nA relatively simple setup that prevents a single server from taking down the whole network."
+      "ar": "## ليه سيرفر DHCP واحد نقطة فشل خطيرة فعلًا\n\nلو سيرفر الـDHCP الوحيد وقع، أي جهاز جديد بينضم للشبكة أو أي جهاز موجود انتهت صلاحية عنوان IP بتاعه (Lease Expiry) هيفقد الاتصال بالشبكة بالكامل — مش بس مشكلة بطء، انقطاع فعلي. في بيئة فيها مئات الأجهزة، ده معناه توقف شبه كامل للعمل لحد ما السيرفر يرجع.\n\n## الحل: DHCP Failover بين سيرفرين\n\n### المتطلبات الأساسية\n\nسيرفرين Windows Server (2012 R2 أو أحدث) يقدروا يوصلوا لبعض على الشبكة، وكل واحد فيهم عنده دور DHCP مثبّت.\n\n### خطوات الإعداد التفصيلية\n\n1. من DHCP Console على السيرفر الأول، افتح خصائص الـScope المطلوب حمايته.\n2. اختر \"Configure Failover\"، وحدد السيرفر التاني كشريك.\n3. اختر وضع التشغيل (تفصيل أسفل).\n4. حدد Shared Secret (كلمة سر مشتركة بين السيرفرين للتحقق المتبادل).\n5. تأكد من نجاح التزامن الأولي بين السيرفرين قبل ما تعتبر الإعداد مكتمل.\n\n## الفرق بين وضعي التشغيل\n\n### Hot Standby\n\nسيرفر واحد نشط (Active) بيدير كل الطلبات، والتاني احتياطي بس (Standby) بياخد الدور لو الأول وقع. أبسط في المفهوم، ومناسب لبيئات صغيرة مش محتاجة توزيع حمل فعلي.\n\n### Load Balance\n\nالاتنين شغالين مع بعض بالتوازي، وبيتوزع الحمل بينهم حسب نسبة تحددها إنت (50/50 افتراضيًا). أفضل لبيئات فيها حمل طلبات كبير، لكن أعقد شوية في التشخيص لو حصلت مشكلة.\n\n## التحقق من نجاح الإعداد\n\n```powershell\nGet-DhcpServerv4FailoverRelationship\n```\n\nالأمر ده بيوريك حالة العلاقة بين السيرفرين — تأكد إن الحالة \"Normal\" مش \"Communication Interrupted\" أو أي حالة تانية بتشير لمشكلة.\n\n## أشهر الأخطاء\n\n### نسيان مزامنة الـScope Options\n\nبعض الإعدادات الإضافية (زي DNS Servers أو Default Gateway المخصصة) ممكن متتزامنش تلقائيًا مع كل تحديث — راجعها يدويًا بعد أي تعديل كبير.\n\n### عدم اختبار السيناريو الفعلي\n\nكتير من الفرق بتعمل الإعداد وتفترض إنه شغال، من غير ما تختبر فعليًا بإيقاف السيرفر الأول عمدًا (في وقت صيانة مخطط) والتأكد إن السيرفر التاني فعلًا استلم الدور.\n\n## الخلاصة\n\nDHCP Failover إعداد بسيط نسبيًا مقارنة بالمشكلة الضخمة اللي بيمنعها (توقف الشبكة بالكامل بسبب سيرفر واحد). Hot Standby كافي لمعظم البيئات الصغيرة والمتوسطة، وLoad Balance أفضل لو الحمل فعليًا كبير.",
+      "en": "## Why a single DHCP server is genuinely a dangerous single point of failure\n\nIf your only DHCP server goes down, any new device joining the network or any existing device whose IP lease expires loses network connectivity entirely -- not just a slowdown, an actual outage. In an environment with hundreds of devices, this means near-total work stoppage until the server returns.\n\n## The fix: DHCP Failover between two servers\n\n### Core requirements\n\nTwo Windows Servers (2012 R2 or newer) that can reach each other on the network, each with the DHCP role installed.\n\n### Detailed setup steps\n\nFrom the DHCP Console on the first server, open the properties of the scope you want to protect. Choose 'Configure Failover' and select the second server as a partner. Choose the operating mode (detailed below). Set a shared secret (a shared password for mutual verification between servers). Confirm initial synchronization succeeded before considering setup complete.\n\n## The difference between operating modes\n\n### Hot Standby\n\nOne server is Active and handles all requests, the other is purely Standby, taking over if the first goes down. Simpler conceptually, suits smaller environments not needing actual load distribution.\n\n### Load Balance\n\nBoth run in parallel, with load split between them by a ratio you set (50/50 by default). Better for environments with heavy request load, but slightly more complex to diagnose if something goes wrong.\n\n## Verifying the setup succeeded\n\n```powershell\nGet-DhcpServerv4FailoverRelationship\n```\nShows the relationship status between the two servers -- confirm the status is 'Normal', not 'Communication Interrupted' or any other status indicating a problem.\n\n## Common mistakes\n\n### Forgetting to sync scope options\n\nSome additional settings (like custom DNS servers or default gateway) might not sync automatically with every update -- review them manually after any major change.\n\n### Not actually testing the scenario\n\nMany teams set this up and assume it works, without actually testing by deliberately stopping the first server (during a planned maintenance window) and confirming the second genuinely took over.\n\n## Bottom line\n\nDHCP Failover is a relatively simple setup compared to the massive problem it prevents (complete network outage from a single server). Hot Standby is enough for most small-to-mid environments, and Load Balance is better if the load is genuinely heavy."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -914,12 +915,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-01-14",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1691435828932-911a7801adfb?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMHNlcnZlciUyMHJvb218ZW58MXwwfHx8MTc4NTg3MjE1NXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "dhcp",
       "windows-server",
-      "high-availability"
+      "high-availability",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1035,16 +1037,16 @@
     "id": "art-gen-0030",
     "slug": "mfa-fatigue-attacks-explained",
     "title": {
-      "ar": "هجمات إرهاق المصادقة الثنائية (MFA Fatigue): إزاي تحمي فريقك",
-      "en": "MFA Fatigue Attacks: How to Protect Your Team"
+      "ar": "هجمات إرهاق المصادقة الثنائية (MFA Fatigue): الدليل الكامل لحماية فريقك",
+      "en": "MFA Fatigue Attacks: The Complete Guide to Protecting Your Team"
     },
     "excerpt": {
-      "ar": "لما المهاجم يقصف المستخدم بطلبات موافقة متكررة لحد ما يوافق بالغلط.",
-      "en": "When an attacker bombards a user with repeated approval prompts until they accidentally approve."
+      "ar": "ليه الهجوم ده فعّال بشكل مقلق، وخمس طرق حماية عملية من Number Matching للمفاتيح المادية.",
+      "en": "Why this attack is concerningly effective, and five practical defenses from number matching to hardware keys."
     },
     "body": {
-      "ar": "## إزاي الهجوم بيشتغل\n\nالمهاجم عنده كلمة المرور بالفعل (من تسريب سابق)، وبيحاول يسجّل دخول بشكل متكرر فيبعت إشعارات موافقة MFA كتير للمستخدم لحد ما يوافق من الملل أو الغلط.\n\n## طرق الحماية العملية\n\n1. استخدم Number Matching بدل الموافقة بضغطة واحدة (المستخدم لازم يدخل رقم ظاهر على الشاشة).\n2. حدد عدد محاولات المصادقة المسموحة في فترة زمنية قصيرة.\n3. درّب الموظفين: أي طلب MFA غير متوقع = بلّغ فورًا، متوافقش أبدًا.\n4. راجع سجلات محاولات MFA الفاشلة المتكررة كمؤشر مبكر.\n\n## الخلاصة\n\nMFA أقوى من كلمة مرور وحدها، لكن لازم يتظبط صح (Number Matching + تدريب) عشان مايبقاش نقطة ضعف جديدة.",
-      "en": "## How the attack works\n\nThe attacker already has the password (from a prior leak) and repeatedly triggers login attempts, spamming MFA approval prompts until the user approves out of fatigue or mistake.\n\n## Practical defenses\n\nUse number matching instead of one-tap approval, rate-limit auth attempts, train staff that any unexpected MFA prompt means report it immediately, and monitor repeated failed MFA logs.\n\n## Bottom line\n\nMFA is stronger than a password alone, but it needs to be configured correctly (number matching + training) or it becomes a new weak point."
+      "ar": "## إزاي الهجوم بيشتغل بالتفصيل\n\nالمهاجم عنده كلمة المرور بالفعل (غالبًا من تسريب بيانات موقع تاني، أو هجوم تصيد سابق نجح). المشكلة: عنده الباسورد بس مش عنده عامل المصادقة الثاني. بدل ما يستسلم، بيبدأ يحاول يسجّل دخول بشكل متكرر ومتتالي — كل محاولة بتبعت إشعار موافقة MFA للمستخدم الحقيقي. الهدف: إن المستخدم يضغط \"موافق\" في لحظة ملل أو تشتت أو نص الليل، من غير ما يفكر إن ده مش هو اللي طلب الدخول.\n\n## ليه الهجوم ده فعّال بشكل مقلق\n\nالإشعارات دي بتوصل أحيانًا عشرات المرات في وقت قصير — بعض الحالات الموثّقة كانت المهاجم بيبعت الإشعار كل دقيقتين لساعات متواصلة، لحد ما المستخدم يوافق بس عشان يوقف الإزعاج، أو بيفتكر غلط إنه هو اللي طلب الدخول من جهاز تاني.\n\n## طرق الحماية العملية\n\n### 1. Number Matching بدل الموافقة بضغطة واحدة\n\nبدل إشعار بسيط \"موافق/رفض\"، النظام بيوري رقم على شاشة تسجيل الدخول، والمستخدم لازم يدخل نفس الرقم في التطبيق — ده بيمنع الموافقة العشوائية أو التلقائية بدون انتباه فعلي.\n\n### 2. تحديد عدد محاولات المصادقة في فترة زمنية قصيرة (Rate Limiting)\n\nلو النظام بيسمح بمحاولة مصادقة واحدة كل دقيقة مثلًا بدل عدد غير محدود، الهجوم بيبطّئ بشكل كبير ويبقى أسهل اكتشافه.\n\n### 3. تدريب الموظفين بوضوح على القاعدة الذهبية\n\nأي طلب MFA غير متوقع (مش إنت اللي طلبته) = بلّغ فورًا، **متوافقش أبدًا** حتى لو الإشعار بيتكرر ومزعج. التدريب ده لازم يكون صريح ومباشر، مش افتراض إن الموظفين هيفهموا لوحدهم.\n\n### 4. راقب سجلات محاولات MFA الفاشلة أو المتكررة\n\nعدد كبير غير معتاد من طلبات المصادقة على نفس الحساب في وقت قصير مؤشر مبكر قوي جدًا — حتى لو الموظف ماوافقش، محاولة الهجوم نفسها لازم تتكشف وتتحقق فيها.\n\n### 5. فكّر في مفتاح مادي للحسابات عالية الحساسية\n\nHardware Security Key مقاوم لهجوم MFA Fatigue بالكامل — مفيش إشعار يقدر المهاجم \"يضغط عليه بالغلط\"، لازم وجود فيزيائي حقيقي للمفتاح.\n\n## الخلاصة\n\nMFA أقوى بكتير من كلمة مرور وحدها، لكن أي نوع مصادقة له نقاط ضعف لو مش متظبط صح — Number Matching + تدريب واضح + مراقبة سجلات = يحوّل MFA Fatigue من هجوم فعّال لمحاولة سهلة الاكتشاف والفشل.",
+      "en": "## How the attack works in detail\n\nThe attacker already has the password (often from a data breach on another site, or a prior successful phishing attack). The problem: they have the password but not the second authentication factor. Instead of giving up, they start repeatedly, consecutively attempting to log in -- each attempt sends an MFA approval prompt to the real user. The goal: get the user to tap 'approve' in a moment of boredom, distraction, or the middle of the night, without thinking that they didn't actually request this login.\n\n## Why this attack is concerningly effective\n\nThese notifications sometimes arrive dozens of times in a short period -- some documented cases had the attacker sending a prompt every couple of minutes for hours straight, until the user approves just to stop the annoyance, or mistakenly assumes they themselves requested access from another device.\n\n## Practical defenses\n\n### 1. Number matching instead of one-tap approval\n\nInstead of a simple 'approve/deny' prompt, the system shows a number on the login screen, and the user must enter that same number in the app -- preventing careless or automatic approval without genuine attention.\n\n### 2. Rate-limiting authentication attempts in a short window\n\nIf the system allows only one auth attempt per minute, say, instead of unlimited attempts, the attack slows dramatically and becomes much easier to detect.\n\n### 3. Train staff clearly on the golden rule\n\nAny unexpected MFA prompt (that you didn't request) means report immediately, never approve, even if the notification repeats and is annoying. This training must be explicit and direct, not assumed staff will figure it out on their own.\n\n### 4. Monitor failed or repeated MFA attempt logs\n\nAn unusually large number of authentication requests on the same account in a short time is a very strong early indicator -- even if the employee never approved, the attempt itself needs to be flagged and investigated.\n\n### 5. Consider a hardware key for highly sensitive accounts\n\nA hardware security key is fully resistant to MFA fatigue attacks -- there's no prompt an attacker can 'trick someone into tapping', genuine physical possession of the key is required.\n\n## Bottom line\n\nMFA is far stronger than a password alone, but any auth type has weaknesses if not configured correctly -- number matching plus clear training plus log monitoring turns MFA fatigue from an effective attack into an easily detected, easily failed attempt."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -1056,12 +1058,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-08-15",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1620287341401-e2945a4b9daa?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8cGhpc2hpbmclMjBlbWFpbCUyMHdhcm5pbmd8ZW58MXwwfHx8MTc4NTg3MjEyNHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "mfa",
       "phishing",
-      "identity"
+      "identity",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -3138,6 +3141,42 @@
     "tags": [
       "nmap",
       "network-scanning",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0090",
+    "slug": "vulnerability-management-program-guide",
+    "title": {
+      "ar": "بناء برنامج إدارة ثغرات ناجح: الدليل الكامل",
+      "en": "Building a Successful Vulnerability Management Program: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "دورة الحياة الكاملة (اكتشاف، تقييم، إصلاح، تحقق)، نظام أولويات عملي غير درجة CVSS بس، وجدول أطر زمنية مقترحة.",
+      "en": "The full lifecycle (discovery, assessment, remediation, verification), a practical priority system beyond just the CVSS score, and a suggested timeframe table."
+    },
+    "body": {
+      "ar": "## الفرق بين فحص الثغرات وبرنامج إدارة الثغرات الكامل\n\nفحص الثغرات (Vulnerability Scanning) هو مجرد أداة بتديك قائمة — برنامج إدارة الثغرات (Vulnerability Management Program) هو العملية الكاملة اللي بتحدد إيه اللي هتعمله بالقائمة دي: مين بيراجعها، إيه أولوية كل ثغرة، مين مسؤول عن الإصلاح، وإزاي تتأكد إنه فعلًا اتصلح. من غير العملية دي، الفحص نفسه مجرد تقرير بيتراكم من غير فايدة عملية.\n\n## دورة حياة إدارة الثغرات (الخطوات الأربع)\n\n### 1. الاكتشاف (Discovery)\n\nفحص دوري ومنتظم (أسبوعي أو شهري حسب حجم البيئة) لكل الأصول — سيرفرات، محطات عمل، أجهزة شبكة. **نقطة مهمة**: لازم تعرف أولًا كل الأجهزة الموجودة أصلًا (Asset Inventory) — مش هتقدر تفحص جهاز مش عارف بوجوده.\n\n### 2. التقييم والترتيب حسب الأولوية (Assessment & Prioritization)\n\nمش كل الثغرات بنفس الخطورة. استخدم معيار موضوعي زي CVSS Score (Common Vulnerability Scoring System) كنقطة بداية، لكن اعدّله حسب سياقك الفعلي: ثغرة CVSS متوسطة على سيرفر معزول أقل خطورة من ثغرة CVSS متوسطة على سيرفر مكشوف للإنترنت مباشرة.\n\n### 3. الإصلاح (Remediation)\n\nمش كل ثغرة لازم \"تتصلح\" بنفس الطريقة — التحديث (Patching) هو الحل الأمثل، لكن لو مش متاح فورًا، طبقات حماية مؤقتة (زي قاعدة WAF تحجب نمط استغلال معين) ممكن تقلل الخطر لحد ما التحديث الرسمي يتوفر.\n\n### 4. التحقق (Verification)\n\nبعد أي إصلاح، أعد الفحص للتأكد إن الثغرة فعلًا اختفت، مش بس افتراض إن التحديث اشتغل صح. خطوة بسيطة لكن كتير من البرامج بتتجاهلها.\n\n## بناء نظام أولويات عملي\n\n### عوامل تستاهل الاعتبار غير درجة CVSS بس\n\n1. **هل الثغرة مُستغلّة فعليًا في هجمات حقيقية (Known Exploited Vulnerabilities)؟** ثغرة بدرجة CVSS متوسطة لكن مُستغلّة فعليًا في العالم الحقيقي أخطر من ثغرة CVSS عالية لكن نظرية بحتة.\n2. **مدى التعرّض للإنترنت**: نظام مكشوف مباشرة على الإنترنت أولوية أعلى بكثير من نظام داخلي معزول.\n3. **حساسية البيانات على النظام المتأثر**: سيرفر بيانات عملاء أولوية أعلى من سيرفر اختبار داخلي.\n\n## أطر زمنية مقترحة للإصلاح (SLA)\n\n| مستوى الخطورة | إطار زمني مقترح |\n|---|---|\n| حرجة (Critical) + مُستغلّة فعليًا | 24-72 ساعة |\n| حرجة (Critical) نظرية | أسبوع |\n| عالية (High) | أسبوعين |\n| متوسطة (Medium) | شهر |\n| منخفضة (Low) | حسب دورة الصيانة العادية |\n\n## أشهر خطأ في برامج إدارة الثغرات\n\nالاكتفاء بالفحص من غير عملية إصلاح ومتابعة واضحة — تقرير فحص بـ500 ثغرة من غير أولويات وجداول زمنية ومسؤوليات محددة هو عمليًا مجرد قائمة طويلة محدش هيتعامل معاها فعليًا.\n\n## الخلاصة\n\nبرنامج إدارة ثغرات ناجح مش مجرد \"شغّل أداة فحص\" — هو دورة كاملة (اكتشاف → تقييم → إصلاح → تحقق) بأولويات واضحة وأطر زمنية محددة ومسؤوليات موزّعة، تعمل باستمرار مش مرة واحدة.",
+      "en": "## The difference between vulnerability scanning and a full vulnerability management program\n\nVulnerability scanning is just a tool that gives you a list -- a Vulnerability Management Program is the entire process determining what you do with that list: who reviews it, each vulnerability's priority, who's responsible for fixing it, and how you confirm it's actually fixed. Without this process, the scan itself is just a report accumulating with no practical benefit.\n\n## The vulnerability management lifecycle (four steps)\n\n### 1. Discovery\n\nRegular, periodic scanning (weekly or monthly depending on environment size) of every asset -- servers, workstations, network devices. An important point: you must first know every device that exists (asset inventory) -- you can't scan a device you don't know exists.\n\n### 2. Assessment and prioritization\n\nNot every vulnerability carries the same severity. Use an objective standard like the CVSS Score as a starting point, but adjust it to your actual context: a medium CVSS vulnerability on an isolated server is less dangerous than a medium CVSS vulnerability on a directly internet-facing server.\n\n### 3. Remediation\n\nNot every vulnerability needs to be 'fixed' the same way -- patching is the ideal solution, but if not immediately available, temporary protective layers (like a WAF rule blocking a specific exploit pattern) can reduce risk until an official patch arrives.\n\n### 4. Verification\n\nAfter any fix, rescan to confirm the vulnerability actually disappeared, not just assume the patch worked. A simple step, yet many programs skip it.\n\n## Building a practical priority system\n\n### Factors worth considering beyond just the CVSS score\n\nIs the vulnerability actually being exploited in real attacks (Known Exploited Vulnerabilities)? A medium-CVSS vulnerability being actively exploited in the wild is more dangerous than a high-CVSS but purely theoretical one. Internet exposure extent: a directly internet-facing system is a much higher priority than an isolated internal one. The affected system's data sensitivity: a customer data server outranks an internal test server.\n\n## Suggested remediation timeframes (SLA)\n\n| Severity level | Suggested timeframe |\n|---|---|\n| Critical + actively exploited | 24-72 hours |\n| Critical, theoretical | One week |\n| High | Two weeks |\n| Medium | One month |\n| Low | Per regular maintenance cycle |\n\n## The most common vulnerability management mistake\n\nSettling for scanning alone without a clear remediation and follow-up process -- a scan report listing 500 vulnerabilities with no priorities, timelines, or assigned responsibilities is practically just a long list nobody will actually act on.\n\n## Bottom line\n\nA successful vulnerability management program isn't just 'run a scanning tool' -- it's a complete cycle (discover -> assess -> remediate -> verify) with clear priorities, defined timeframes, and distributed responsibilities, running continuously, not as a one-time event."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-03",
+    "readTime": 10,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "vulnerability-management",
+      "cvss",
+      "security-operations",
       "guide"
     ],
     "isFeatured": true,
