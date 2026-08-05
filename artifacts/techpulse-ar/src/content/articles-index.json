@@ -634,12 +634,12 @@
     "id": "art-gen-0021",
     "slug": "vlan-basics-why-segment",
     "title": {
-      "ar": "أساسيات VLAN: ليه تقسّم الشبكة أصلًا؟",
-      "en": "VLAN Basics: Why Segment a Network at All?"
+      "ar": "أساسيات VLAN: الدليل الكامل لليه ولإزاي تقسّم الشبكة",
+      "en": "VLAN Basics: The Complete Guide to Why and How to Segment a Network"
     },
     "excerpt": {
-      "ar": "الفرق بين شبكة مسطحة وشبكة مقسّمة، وخطوات إنشاء VLAN أساسي.",
-      "en": "The difference between a flat network and a segmented one, and basic VLAN setup steps."
+      "ar": "خطوات إعداد VLAN تفصيلية (Access/Trunk، Inter-VLAN Routing)، وأشهر 3 أخطاء بتضيّع فايدة التقسيم بالكامل.",
+      "en": "Detailed VLAN setup steps (Access/Trunk, Inter-VLAN Routing), and the 3 most common mistakes that waste segmentation's entire benefit."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -651,12 +651,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-03-06",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8bmV0d29yayUyMHN3aXRjaCUyMGNhYmxlc3xlbnwxfDB8fHwxNzg1ODcyMTUwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "vlan",
       "networking",
-      "segmentation"
+      "segmentation",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -856,8 +857,8 @@
       "en": "Network Segmentation for Compliance: A Simplified Practical View"
     },
     "excerpt": {
-      "ar": "ليه لوائح زي PCI-DSS بتطلب عزل الأنظمة الحساسة، وإزاي تبدأ عمليًا.",
-      "en": "Why regulations like PCI-DSS require isolating sensitive systems, and how to start practically."
+      "ar": "الفرق بين العزل الكامل والمنطقي، خطوات تطبيق عملية موثّقة، وفايدة تقليل نطاق المراجعة غير الامتثال نفسه.",
+      "en": "The difference between full and logical isolation, documented practical implementation steps, and the audit-scope-reduction benefit beyond compliance itself."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -869,12 +870,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-05-01",
-    "readTime": 5,
+    "readTime": 9,
     "heroImage": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YXVkaXQlMjBkb2N1bWVudHMlMjBvZmZpY2V8ZW58MXwwfHx8MTc4NTg5ODQ2Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "compliance",
       "segmentation",
-      "pci-dss"
+      "pci-dss",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1162,11 +1164,11 @@
     "id": "art-gen-0038",
     "slug": "printer-security-overlooked-risk",
     "title": {
-      "ar": "أمان الطابعات: الخطر اللي بينسوه أغلب مديري الأنظمة",
-      "en": "Printer Security: The Risk Most Sysadmins Forget"
+      "ar": "أمان الطابعات: الدليل الكامل للخطر اللي بينسوه أغلب مديري الأنظمة",
+      "en": "Printer Security: The Complete Guide to the Risk Most Sysadmins Forget"
     },
     "excerpt": {
-      "ar": "الطابعات الشبكية بتبقى نقطة دخول سهلة لو معندهاش نفس مستوى الاهتمام الأمني.",
+      "ar": "3 مخاطر ملموسة (تسريب مستندات، تحرك جانبي، إغراق طباعة)، و5 خطوات حماية تفصيلية.",
       "en": "Networked printers become an easy entry point when they don't get the same security attention as everything else."
     },
     "categoryId": "cybersecurity",
@@ -1179,12 +1181,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-12-17",
-    "readTime": 4,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8b2ZmaWNlJTIwcHJpbnRlciUyMHNjYW5uZXJ8ZW58MXwwfHx8MTc4NTg3MjE2M3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "printers",
       "endpoint-security",
-      "iot"
+      "iot",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2713,6 +2716,38 @@
       "pki",
       "certificates",
       "ssl",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0088",
+    "slug": "disaster-recovery-plan-basics",
+    "title": {
+      "ar": "أساسيات خطة التعافي من الكوارث (DRP): الدليل الكامل",
+      "en": "Disaster Recovery Plan (DRP) Basics: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "الفرق بين النسخ الاحتياطي وخطة DR كاملة، مقياسا RTO/RPO موضّحان بالمثال، ومستويات الاستراتيجية من الأرخص للأسرع.",
+      "en": "The difference between backup and a full DR plan, RTO/RPO metrics explained with examples, and strategy tiers from cheapest to fastest."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-16",
+    "readTime": 10,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "disaster-recovery",
+      "backup",
+      "business-continuity",
       "guide"
     ],
     "isFeatured": true,
