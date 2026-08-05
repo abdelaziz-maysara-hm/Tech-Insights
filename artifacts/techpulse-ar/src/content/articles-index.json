@@ -2510,5 +2510,37 @@
     ],
     "isFeatured": true,
     "isTrending": false
+  },
+  {
+    "id": "art-gen-0082",
+    "slug": "active-directory-complete-setup-guide",
+    "title": {
+      "ar": "الدليل الشامل لإعداد وإدارة Active Directory من الصفر",
+      "en": "The Complete Guide to Setting Up and Managing Active Directory From Scratch"
+    },
+    "excerpt": {
+      "ar": "دليل مرجعي متكامل: من التثبيت الأول لتصميم OU وGroup Policy والأمان وأشهر الأخطاء وحلولها.",
+      "en": "A complete reference guide: from initial installation through OU design, Group Policy, security, and the most common errors with their fixes."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-01",
+    "readTime": 14,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "active-directory",
+      "windows-server",
+      "group-policy",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
   }
 ]
