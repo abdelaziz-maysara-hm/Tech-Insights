@@ -1241,12 +1241,12 @@
     "id": "art-gen-0040",
     "slug": "shadow-it-risk-management",
     "title": {
-      "ar": "الـ Shadow IT: لما الموظفين يستخدموا أدوات مش معتمدة",
-      "en": "Shadow IT: When Employees Use Unapproved Tools"
+      "ar": "الـ Shadow IT: الدليل الكامل لإدارة استخدام الأدوات غير المعتمدة",
+      "en": "Shadow IT: The Complete Guide to Managing Unapproved Tool Usage"
     },
     "excerpt": {
-      "ar": "ليه بيحصل، وإيه الفرق بين المنع الكامل والإدارة الذكية للمخاطر.",
-      "en": "Why it happens, and the difference between total prohibition and smart risk management."
+      "ar": "ليه المنع الكامل بيغيّر مكان المخاطرة مش بيلغيها، واستراتيجية عملية من الاكتشاف لتصنيف المخاطر.",
+      "en": "Why total prohibition just moves the risk instead of eliminating it, and a practical strategy from discovery to risk classification."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1258,12 +1258,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-03-04",
-    "readTime": 5,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8b2ZmaWNlJTIwdGVhbSUyMGxhcHRvcCUyMHdvcmt8ZW58MXwwfHx8MTc4NTg3MjE2N3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "shadow-it",
       "risk-management",
-      "security"
+      "security",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2398,8 +2399,8 @@
       "en": "Air-Gapped Networks: When You Actually Need One"
     },
     "excerpt": {
-      "ar": "عزل كامل عن أي شبكة خارجية — الحل الأقوى، لكن مش لكل بيئة.",
-      "en": "Complete isolation from any external network -- the strongest solution, but not for every environment."
+      "ar": "متى التعقيد الإضافي يستاهل فعليًا، وليه النقل عبر وسائط فيزيائية (زي Stuxnet) هو نقطة الضعف الحقيقية.",
+      "en": "When the extra complexity is genuinely worth it, and why physical media transfer (like Stuxnet) is the real weak point."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
@@ -2411,12 +2412,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-03-20",
-    "readTime": 5,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "air-gap",
       "network-security",
-      "critical-infrastructure"
+      "critical-infrastructure",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2425,12 +2427,12 @@
     "id": "art-gen-0078",
     "slug": "cloud-storage-misconfiguration-risks",
     "title": {
-      "ar": "أخطاء إعداد التخزين السحابي: ليه S3 Bucket واحد اتنسى بيسرّب مليون سجل",
-      "en": "Cloud Storage Misconfiguration: How One Forgotten S3 Bucket Leaks a Million Records"
+      "ar": "أخطاء إعداد التخزين السحابي: الدليل الكامل لأشهر سبب لتسريبات البيانات",
+      "en": "Cloud Storage Misconfiguration: The Complete Guide to the Most Common Cause of Data Leaks"
     },
     "excerpt": {
-      "ar": "أشهر سبب لتسريبات البيانات الكبيرة مش هجوم متقدم — غالبًا إعداد بسيط اتنسى.",
-      "en": "The most common cause of major data leaks isn't an advanced attack -- it's usually a simple forgotten setting."
+      "ar": "ليه معظم التسريبات الضخمة مش نتيجة هجوم متطور، و5 خطوات وقاية تفصيلية من الإعداد الافتراضي للمراجعة الدورية.",
+      "en": "Why most massive leaks aren't the result of a sophisticated attack, and 5 detailed prevention steps from default settings to periodic review."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -2442,12 +2444,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-04-27",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "cloud-security",
       "s3",
-      "misconfiguration"
+      "misconfiguration",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": true
@@ -2922,6 +2925,38 @@
       "byod",
       "mdm",
       "endpoint-security",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0094",
+    "slug": "secure-sdlc-guide",
+    "title": {
+      "ar": "دورة تطوير البرمجيات الآمنة (SSDLC): الدليل الكامل",
+      "en": "Secure Software Development Lifecycle (SSDLC): The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "الستة مراحل ودمج الأمان في كل واحدة، DevSecOps وربط الفحص بـCI/CD، وليه إصلاح الأمان في الآخر مكلف جدًا.",
+      "en": "The six phases and integrating security into each, DevSecOps and linking scanning to CI/CD, and why fixing security at the end is very costly."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-04",
+    "readTime": 9,
+    "heroImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ssdlc",
+      "devsecops",
+      "secure-coding",
       "guide"
     ],
     "isFeatured": true,
