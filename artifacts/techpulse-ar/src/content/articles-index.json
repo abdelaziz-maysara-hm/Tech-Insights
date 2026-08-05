@@ -602,12 +602,12 @@
     "id": "art-gen-0020",
     "slug": "email-security-gateway-basics",
     "title": {
-      "ar": "بوابة أمان البريد الإلكتروني: إيه اللي بتحميه فعليًا",
-      "en": "Email Security Gateways: What They Actually Protect Against"
+      "ar": "بوابة أمان البريد الإلكتروني: الدليل الكامل لما بتحميه فعليًا",
+      "en": "Email Security Gateways: The Complete Guide to What They Actually Protect Against"
     },
     "excerpt": {
-      "ar": "الفرق بين فلترة السبام العادية وبوابة أمان بريد حقيقية.",
-      "en": "The difference between basic spam filtering and a real email security gateway."
+      "ar": "4 وظائف أساسية بتضيفها بوابة أمان متخصصة فوق الحماية المدمجة، ومتى الاستثمار الإضافي يستاهل فعليًا.",
+      "en": "4 core functions a dedicated security gateway adds on top of built-in protection, and when the extra investment is genuinely worth it."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -619,12 +619,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-04-26",
-    "readTime": 5,
+    "readTime": 9,
     "heroImage": "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8ZW1haWwlMjBpbmJveCUyMHNlY3VyaXR5fGVufDF8MHx8fDE3ODU4NzIxNDh8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "email-security",
       "forcepoint",
-      "phishing"
+      "phishing",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -819,12 +820,12 @@
     "id": "art-gen-0027",
     "slug": "syslog-server-setup-basics",
     "title": {
-      "ar": "إعداد خادم Syslog مركزي: من أين تبدأ؟",
-      "en": "Setting Up a Central Syslog Server: Where to Start?"
+      "ar": "إعداد خادم Syslog مركزي: الدليل الكامل من أين تبدأ",
+      "en": "Setting Up a Central Syslog Server: The Complete Guide to Where to Start"
     },
     "excerpt": {
-      "ar": "تجميع سجلات كل الأجهزة (جدران حماية، سويتشات) في مكان واحد قابل للبحث.",
-      "en": "Collecting logs from every device (firewalls, switches) into one searchable place."
+      "ar": "مقارنة الأدوات المتاحة حسب حجم البيئة، خطوات الإعداد التفصيلية، وليه التجميع بدون مراجعة دورية بيدّيك إحساس زائف بالأمان.",
+      "en": "Comparing available tools by environment size, detailed setup steps, and why collection without periodic review gives false confidence."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -836,12 +837,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-03-21",
-    "readTime": 5,
+    "readTime": 9,
     "heroImage": "https://images.unsplash.com/photo-1608742213509-815b97c30b36?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8c2VydmVyJTIwbG9ncyUyMHRlcm1pbmFsJTIwc2NyZWVufGVufDF8MHx8fDE3ODU4NzIxNTd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "syslog",
       "logging",
-      "monitoring"
+      "monitoring",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1284,12 +1286,12 @@
     "id": "art-gen-0042",
     "slug": "certificate-expiry-monitoring",
     "title": {
-      "ar": "مراقبة انتهاء صلاحية الشهادات: خطأ بسيط بيوقف مواقع كاملة",
-      "en": "Certificate Expiry Monitoring: A Simple Mistake That Takes Down Whole Sites"
+      "ar": "مراقبة انتهاء صلاحية الشهادات: الدليل الكامل لتجنب الخطأ المحرج",
+      "en": "Certificate Expiry Monitoring: The Complete Guide to Avoiding the Embarrassing Mistake"
     },
     "excerpt": {
-      "ar": "ليه شهادة SSL منتهية أكتر خطأ محرج ومتكرر، وإزاي تتجنبه تمامًا.",
-      "en": "Why an expired SSL certificate is the most embarrassing and common mistake, and how to avoid it entirely."
+      "ar": "ليه التجديد التلقائي (ACME/Let's Encrypt) الحل الأمثل، خطوات بديلة لو التجديد يدوي، وأمر تحقق سريع لأي موقع.",
+      "en": "Why automatic renewal (ACME/Let's Encrypt) is the ideal solution, alternative steps if renewal is manual, and a quick verification command for any site."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -1301,12 +1303,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-05-18",
-    "readTime": 4,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1618060932014-4deda4932554?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NHx8c3NsJTIwY2VydGlmaWNhdGUlMjBwYWRsb2NrJTIwd2Vic2l0ZXxlbnwxfDB8fHwxNzg1ODcyMTY5fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "ssl",
       "certificates",
-      "monitoring"
+      "monitoring",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2678,6 +2681,38 @@
       "kerberos",
       "active-directory",
       "authentication",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0087",
+    "slug": "pki-certificate-authority-explained",
+    "title": {
+      "ar": "فهم PKI وسلسلة الثقة: كيف تعرف أن الشهادة حقيقية فعلًا",
+      "en": "Understanding PKI and the Chain of Trust: How You Know a Certificate Is Actually Real"
+    },
+    "excerpt": {
+      "ar": "زوج المفاتيح العام/الخاص، سلسلة الثقة من Root CA للشهادة الوسيطة، أنواع الشهادات (DV/OV/EV)، وليه تحذير الشهادة غير الموثوقة خطير فعلًا.",
+      "en": "The public/private key pair, the chain of trust from Root CA to intermediate certificates, certificate types (DV/OV/EV), and why the untrusted certificate warning is genuinely dangerous."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-09",
+    "readTime": 10,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "pki",
+      "certificates",
+      "ssl",
       "guide"
     ],
     "isFeatured": true,
