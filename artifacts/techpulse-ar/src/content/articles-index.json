@@ -96,12 +96,12 @@
     "id": "art-gen-0004",
     "slug": "forcepoint-ssl-vpn-radius",
     "title": {
-      "ar": "إعداد Forcepoint SSL VPN مع RADIUS — خطوات وأشهر الأخطاء",
-      "en": "Forcepoint SSL VPN with RADIUS — Setup and Common Errors"
+      "ar": "إعداد Forcepoint SSL VPN مع RADIUS: الدليل الكامل خطوة بخطوة",
+      "en": "Setting Up Forcepoint SSL VPN with RADIUS: The Complete Step-by-Step Guide"
     },
     "excerpt": {
-      "ar": "دليل عملي لربط Forcepoint NGFW SSL VPN مع RADIUS من SMC.",
-      "en": "Practical guide to connect Forcepoint NGFW SSL VPN with RADIUS from SMC."
+      "ar": "دليل تفصيلي كامل لربط Forcepoint NGFW SSL VPN مع RADIUS من SMC، مع أشهر الأخطاء وخطوات التحقق.",
+      "en": "A complete detailed guide to connecting Forcepoint NGFW SSL VPN with RADIUS from SMC, with common errors and verification steps."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "vpn-remote",
@@ -113,12 +113,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2022-09-22",
-    "readTime": 7,
+    "readTime": 10,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMHNlY3VyaXR5JTIwZmlyZXdhbGx8ZW58MXwwfHx8MTc4NTg3MjEyOHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "forcepoint",
       "ssl-vpn",
-      "radius"
+      "radius",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -127,12 +128,12 @@
     "id": "art-gen-0005",
     "slug": "fortigate-ssl-vpn-checklist",
     "title": {
-      "ar": "إعداد FortiGate SSL VPN بسرعة — checklist عملي",
-      "en": "FortiGate SSL VPN Quick Setup — Practical Checklist"
+      "ar": "إعداد FortiGate SSL VPN: الدليل الكامل خطوة بخطوة",
+      "en": "Setting Up FortiGate SSL VPN: The Complete Step-by-Step Guide"
     },
     "excerpt": {
-      "ar": "خطوات مختصرة: portal وpolicy وusers وأشهر أسباب فشل الاتصال.",
-      "en": "Short checklist: portal, policy, users, and common connection failures."
+      "ar": "الخطوات الخمس المترابطة لإعداد SSL VPN صح من أول مرة، مع تشخيص أشهر الأعطال الشائعة.",
+      "en": "The five interconnected steps to set up SSL VPN correctly the first time, with diagnosis of the most common failures."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "vpn-remote",
@@ -144,12 +145,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2022-11-02",
-    "readTime": 5,
+    "readTime": 9,
     "heroImage": "https://images.unsplash.com/photo-1683322499436-f4383dd59f5a?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMGZpcmV3YWxsJTIwc2VydmVyfGVufDF8MHx8fDE3ODU4NzIxMjl8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "fortinet",
       "fortigate",
-      "ssl-vpn"
+      "ssl-vpn",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -219,12 +221,12 @@
     "id": "art-gen-0008",
     "slug": "home-router-security-basics",
     "title": {
-      "ar": "تأمين راوتر البيت: خطوات أساسية تفرق",
-      "en": "Home Router Security: Basics That Matter"
+      "ar": "أمان الراوتر المنزلي: الدليل الكامل خطوة بخطوة",
+      "en": "Home Router Security: The Complete Step-by-Step Guide"
     },
     "excerpt": {
-      "ar": "تغيير كلمة المرور الافتراضية، تحديث الفرموير، وعزل شبكة الضيوف.",
-      "en": "Change default passwords, update firmware, and isolate guest Wi-Fi."
+      "ar": "7 خطوات مرتبة حسب الأولوية لتأمين راوترك، وعلامات حقيقية تشير لاحتمال اختراقه.",
+      "en": "7 priority-ranked steps to secure your router, and real signs indicating it might be compromised."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -236,12 +238,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2023-07-23",
-    "readTime": 4,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1733810763720-4c83af0668ea?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8d2lmaSUyMHJvdXRlciUyMGhvbWUlMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzN8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
-      "router",
+      "router-security",
       "wifi",
-      "security"
+      "home-network",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2574,6 +2577,38 @@
       "powershell",
       "automation",
       "windows-server",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0084",
+    "slug": "incident-response-plan-from-scratch",
+    "title": {
+      "ar": "كيف تبني خطة استجابة للحوادث الأمنية من الصفر",
+      "en": "How to Build a Security Incident Response Plan From Scratch"
+    },
+    "excerpt": {
+      "ar": "المراحل الست حسب إطار NIST، قائمة تحقق لأول ساعة من أي حادث، وأشهر خطأ بيزوّد الضرر بدل ما يقلله.",
+      "en": "The six phases per the NIST framework, a first-hour checklist for any incident, and the most common mistake that increases damage instead of reducing it."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-15",
+    "readTime": 12,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "incident-response",
+      "nist",
+      "security-planning",
       "guide"
     ],
     "isFeatured": true,
