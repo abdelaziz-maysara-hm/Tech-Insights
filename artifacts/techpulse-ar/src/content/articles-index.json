@@ -3,7 +3,7 @@
     "id": "art-gen-0001",
     "slug": "2fa-practical-guide",
     "title": {
-      "ar": "المصادقة الثنائية (2FA): دليل عملي شامل",
+      "ar": "المصادقة الثنائية (2FA): دليل عملي لحماية حساباتك",
       "en": "Two-Factor Authentication (2FA): A Practical Complete Guide"
     },
     "excerpt": {
@@ -250,7 +250,7 @@
     "id": "art-gen-0009",
     "slug": "vpn-basics-what-it-does",
     "title": {
-      "ar": "VPN: ماذا يفعل فعليًا وماذا لا يفعل",
+      "ar": "VPN للمبتدئين: ماذا يفعل وماذا لا يفعل؟",
       "en": "VPN Basics: What It Does and Doesn't Do"
     },
     "excerpt": {
@@ -497,12 +497,12 @@
     "id": "art-gen-0017",
     "slug": "group-policy-basics-for-sysadmins",
     "title": {
-      "ar": "أساسيات Group Policy لمدير النظام الجديد",
-      "en": "Group Policy Basics for New Sysadmins"
+      "ar": "أساسيات Group Policy: الدليل الكامل لمدير النظام",
+      "en": "Group Policy Fundamentals: The Complete Guide for Sysadmins"
     },
     "excerpt": {
-      "ar": "ترتيب تطبيق السياسات (LSDOU) وأشهر الأخطاء اللي بتسبب سلوك غير متوقع.",
-      "en": "Policy application order (LSDOU) and the common mistakes that cause unexpected behavior."
+      "ar": "ترتيب تطبيق السياسات LSDOU بالتفصيل، Security Filtering وWMI Filtering، أدوات التشخيص الأساسية، وأشهر الأخطاء وحلولها.",
+      "en": "The LSDOU application order in detail, Security and WMI Filtering, essential diagnostic tools, and the most common mistakes with their fixes."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -514,12 +514,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-08-05",
-    "readTime": 5,
+    "readTime": 11,
     "heroImage": "https://images.unsplash.com/photo-1649433391420-542fcd3835ea?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8d2luZG93cyUyMHNlcnZlciUyMGl0JTIwYWRtaW58ZW58MXwwfHx8MTc4NTg3MjE0M3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "group-policy",
       "active-directory",
-      "windows-server"
+      "windows-server",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -528,12 +529,12 @@
     "id": "art-gen-0018",
     "slug": "backup-3-2-1-rule-practical",
     "title": {
-      "ar": "قاعدة النسخ الاحتياطي 3-2-1 بشكل عملي",
-      "en": "The 3-2-1 Backup Rule, Practically Applied"
+      "ar": "قاعدة النسخ الاحتياطي 3-2-1: الدليل العملي الكامل",
+      "en": "The 3-2-1 Backup Rule: The Complete Practical Guide"
     },
     "excerpt": {
-      "ar": "3 نسخ، وسيطين مختلفين، ونسخة واحدة خارج الموقع.",
-      "en": "3 copies, 2 media types, 1 offsite copy -- applied on a limited budget."
+      "ar": "شرح القاعدة بالتفصيل، تطبيقها بميزانيات مختلفة، أشهر أخطاء النسخ الاحتياطي، وليه اختبار الاستعادة أهم خطوة في الموضوع كله.",
+      "en": "The rule explained in detail, applying it on different budgets, common backup mistakes, and why restore testing is the most important step of all."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -545,12 +546,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-10-12",
-    "readTime": 5,
+    "readTime": 10,
     "heroImage": "https://images.unsplash.com/photo-1601737487795-dab272f52420?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YmFja3VwJTIwZGF0YSUyMHN0b3JhZ2UlMjBkaXNrfGVufDF8MHx8fDE3ODU4NzIxNDR8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "backup",
       "disaster-recovery",
-      "storage"
+      "storage",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -559,12 +561,12 @@
     "id": "art-gen-0019",
     "slug": "zero-trust-explained-practically",
     "title": {
-      "ar": "Zero Trust بدون تعقيد: إيه هو فعليًا وإزاي تبدأ",
-      "en": "Zero Trust Without the Jargon: What It Actually Is and Where to Start"
+      "ar": "Zero Trust بدون تعقيد: الدليل الكامل للمبدأ والتطبيق العملي",
+      "en": "Zero Trust Without the Jargon: The Complete Principle and Practical Implementation Guide"
     },
     "excerpt": {
-      "ar": "المبدأ الأساسي وثلاث خطوات بداية واقعية.",
-      "en": "The core principle and three realistic first steps."
+      "ar": "المبدأ الأساسي، الفرق عن الأمان التقليدي، ركائز NIST الست، وخطة تطبيق تدريجية واقعية بدون ميزانية ضخمة.",
+      "en": "The core principle, how it differs from traditional security, the six NIST pillars, and a realistic phased rollout plan without a huge budget."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -576,12 +578,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-01-19",
-    "readTime": 5,
+    "readTime": 11,
     "heroImage": "https://images.unsplash.com/photo-1728756666032-d0b5552b6384?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8Y3liZXJzZWN1cml0eSUyMG5ldHdvcmslMjBzaGllbGR8ZW58MXwwfHx8MTc4NTg3MjE0N3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "zero-trust",
       "security",
-      "network-security"
+      "network-security",
+      "nist"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2539,6 +2542,38 @@
       "active-directory",
       "windows-server",
       "group-policy",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0083",
+    "slug": "powershell-sysadmin-complete-guide",
+    "title": {
+      "ar": "الدليل الشامل لاستخدام PowerShell في إدارة الأنظمة",
+      "en": "The Complete Guide to Using PowerShell for System Administration"
+    },
+    "excerpt": {
+      "ar": "من الأوامر الأساسية لكتابة سكريبتات حقيقية للأتمتة، مع أشهر الأخطاء وحلولها.",
+      "en": "From basic commands to writing real automation scripts, with common mistakes and their fixes."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-08",
+    "readTime": 13,
+    "heroImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "powershell",
+      "automation",
+      "windows-server",
       "guide"
     ],
     "isFeatured": true,
