@@ -425,16 +425,16 @@
     "id": "art-gen-0013",
     "slug": "kaspersky-security-center-tagging",
     "title": {
-      "ar": "تنظيم الأجهزة في Kaspersky Security Center بالـ Tags",
-      "en": "Organizing Devices in Kaspersky Security Center with Tags"
+      "ar": "تنظيم الأجهزة في Kaspersky Security Center بالـ Tags: الدليل الكامل",
+      "en": "Organizing Devices in Kaspersky Security Center with Tags: The Complete Guide"
     },
     "excerpt": {
-      "ar": "استخدام الوسوم (Tags) لتجميع الأجهزة وتسريع تطبيق السياسات في KSC.",
-      "en": "Using tags to group devices and speed up policy application in Kaspersky Security Center."
+      "ar": "الفرق بين Administration Groups وTags، خطوات تطبيق عملية كاملة، وأشهر أخطاء التصنيف اللي بتلغي الفايدة.",
+      "en": "The difference between Administration Groups and Tags, complete practical implementation steps, and the most common tagging mistakes that eliminate the benefit."
     },
     "body": {
-      "ar": "## ليه تحتاج Tags؟\n\nفي بيئة فيها مئات الأجهزة، تطبيق سياسة واحدة يدويًا على كل جهاز مضيعة وقت. الوسوم بتخليك تجمّع الأجهزة منطقيًا وتطبّق سياسات كمجموعة.\n\n## خطوات عملية\n\n1. من Devices، اختر جهاز أو أكثر وأضف Tag واضح.\n2. أنشئ Administration Group أو استخدم Tag كفلتر.\n3. اربط سياسة الحماية بمجموعة الوسم بدل كل جهاز لوحده.\n4. راجع تقرير الأجهزة غير المصنّفة دوريًا.\n\n## الخلاصة\n\nوسوم واضحة ومتسقة من أول يوم توفر وقت إدارة حقيقي.",
-      "en": "## Why tags?\n\nManually applying one policy per device doesn't scale. Tags let you group devices logically and apply policies as a group.\n\n## Practical steps\n\nAdd a clear tag per device, build a group or filter by tag, attach policy to the tag group, and review untagged devices regularly.\n\n## Bottom line\n\nConsistent tagging from day one saves real admin time."
+      "ar": "## ليه التصنيف اليدوي بيفشل مع نمو عدد الأجهزة\n\nفي بيئة فيها 20-30 جهاز، تطبيق سياسة لكل جهاز لوحده ممكن يكون مقبول. لما العدد يوصل لمئات، الطريقة دي مستحيلة عمليًا — مش بس بطيئة، لكن عرضة لأخطاء بشرية (جهاز نسيته من غير سياسة، أو سياسة قديمة معملتلهاش تحديث). الوسوم (Tags) في Kaspersky Security Center (KSC) بتحل المشكلة دي بتجميع منطقي.\n\n## الفرق بين Administration Groups وTags\n\n### Administration Groups\n\nهيكل هرمي ثابت — كل جهاز عضو في مجموعة واحدة بس، والسياسات بتتوارث من المجموعة الأب للمجموعات الفرعية. مناسب للتقسيم التنظيمي الأساسي (زي حسب الفرع أو القسم).\n\n### Tags\n\nمرنة أكتر بكتير — جهاز واحد يقدر ياخد أكتر من Tag في نفس الوقت (زي \"Laptop\" و\"Finance-Dept\" و\"Remote-Worker\" مع بعض)، وده بيسمحلك بفلترة وتقارير متعددة الأبعاد من غير ما تغيّر الهيكل التنظيمي الأساسي.\n\n## خطوات عملية للتطبيق\n\n### 1. صمّم نظام تسمية متسق قبل ما تبدأ\n\nقرر مسبقًا نمط تسمية واضح (زي `Branch-Cairo`، `Type-Server`، `OS-Win11`) — نظام تسمية غير متسق (نفس المعنى بأسماء مختلفة) بيلغي فايدة الوسوم بالكامل.\n\n### 2. أضف الوسوم للأجهزة\n\nمن Devices، اختر جهاز واحد أو أكتر، وأضف Tag واضح يعكس خاصية حقيقية (الفرع، نوع الجهاز، مستوى الحساسية).\n\n### 3. استخدم الوسوم كفلتر للتقارير والسياسات\n\nتقدر تبني تقرير أو Administration Group ديناميكي بناءً على وسم معين، بدل اختيار كل جهاز يدويًا.\n\n### 4. اربط سياسة الحماية بمجموعة الوسم\n\nبدل تطبيق السياسة على كل جهاز لوحده، اربطها بالمجموعة أو الفلتر المبني على الوسم — أي جهاز جديد ياخد نفس الوسم هياخد نفس السياسة تلقائيًا.\n\n### 5. راجع تقرير الأجهزة غير المصنّفة دوريًا\n\nKSC بيقدر يوريك أي جهاز مالوش وسوم أصلًا — دي علامة إن جهاز جديد اتضاف ونسيت تصنّفه، محتاج مراجعة دورية (أسبوعية أو شهرية حسب حجم البيئة).\n\n## أشهر الأخطاء\n\n### وسوم غير متسقة\n\n`Branch-Cairo` و`Cairo-Branch` و`cairo` — نفس المعنى بثلاث صيغ مختلفة، بيخلي أي فلتر أو تقرير يفوّت أجهزة كان المفروض يشملها.\n\n### نسيان مراجعة الأجهزة الجديدة\n\nبعد أي عملية نشر أو شراء أجهزة جديدة، سهل تنسى تضيف الوسوم المناسبة — التقرير الدوري بيمسك المشكلة دي بدري.\n\n## الخلاصة\n\nنظام تسمية واضح ومتسق من أول يوم + مراجعة دورية للأجهزة غير المصنّفة = وقت إدارة موفّر بشكل حقيقي مع نمو عدد الأجهزة، بدل ما تدوّر يدويًا على كل جهاز كل مرة تحتاج تطبّق تغيير.",
+      "en": "## Why manual tagging fails as device count grows\n\nWith 20-30 devices, applying a policy to each individually can work. Once the count hits hundreds, this becomes practically impossible -- not just slow, but prone to human error (a forgotten device with no policy, or an outdated one never updated). Tags in Kaspersky Security Center (KSC) solve this through logical grouping.\n\n## The difference between Administration Groups and Tags\n\n### Administration Groups\n\nA fixed hierarchical structure -- each device belongs to only one group, and policies inherit from parent to child groups. Good for basic organizational division (by branch or department, say).\n\n### Tags\n\nMuch more flexible -- one device can carry multiple tags at once (like 'Laptop' and 'Finance-Dept' and 'Remote-Worker' together), allowing multi-dimensional filtering and reporting without changing the base organizational structure.\n\n## Practical implementation steps\n\n### 1. Design a consistent naming scheme before you start\n\nDecide on a clear naming pattern in advance (like Branch-Cairo, Type-Server, OS-Win11) -- inconsistent naming (same meaning, different names) eliminates tagging's benefit entirely.\n\n### 2. Add tags to devices\n\nFrom Devices, select one or more devices and add a clear tag reflecting a real characteristic (branch, device type, sensitivity level).\n\n### 3. Use tags as a filter for reports and policies\n\nYou can build a dynamic report or Administration Group based on a specific tag, instead of manually selecting each device.\n\n### 4. Link the protection policy to the tag group\n\nInstead of applying the policy device by device, link it to the tag-based group or filter -- any new device carrying the same tag automatically gets the same policy.\n\n### 5. Periodically review the untagged devices report\n\nKSC can show you any device with no tags at all -- a sign that a new device was added and tagging was forgotten, needing periodic review (weekly or monthly depending on environment size).\n\n## Common mistakes\n\n### Inconsistent tags\n\nBranch-Cairo, Cairo-Branch, and cairo -- the same meaning in three different forms, causing any filter or report to miss devices it should have included.\n\n### Forgetting to review new devices\n\nAfter any deployment or new device purchase, it's easy to forget adding the right tags -- the periodic report catches this early.\n\n## Bottom line\n\nA clear, consistent naming scheme from day one plus periodic review of untagged devices means real saved admin time as device count grows, instead of manually hunting down each device every time a change needs applying."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "endpoint",
@@ -446,12 +446,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2024-09-04",
-    "readTime": 5,
+    "readTime": 9,
     "heroImage": "https://images.unsplash.com/photo-1751448555253-f39c06e29d82?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YW50aXZpcnVzJTIwZW5kcG9pbnQlMjBzZWN1cml0eXxlbnwxfDB8fHwxNzg1ODcyMTQwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "kaspersky",
       "endpoint",
-      "security-center"
+      "security-center",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -460,16 +461,16 @@
     "id": "art-gen-0014",
     "slug": "rdp-multi-user-rds-licensing",
     "title": {
-      "ar": "تفعيل RDP متعدد المستخدمين وترخيص RDS بشكل صحيح",
-      "en": "Enabling Multi-User RDP and Licensing RDS Correctly"
+      "ar": "تفعيل RDP متعدد المستخدمين وترخيص RDS بشكل صحيح: الدليل الكامل",
+      "en": "Enabling Multi-User RDP and Licensing RDS Correctly: The Complete Guide"
     },
     "excerpt": {
-      "ar": "الفرق بين RDP العادي وRDS، وخطوات تفعيل الترخيص لتفادي انقطاع الجلسات.",
-      "en": "The difference between plain RDP and RDS, and how to license it properly."
+      "ar": "الفرق الجوهري بين RDP وRDS، خطوات إعداد تفصيلية، الفرق بين Per User وPer Device، وأشهر أخطاء الترخيص.",
+      "en": "The fundamental RDP vs RDS difference, detailed setup steps, Per User vs Per Device explained, and the most common licensing mistakes."
     },
     "body": {
-      "ar": "## المشكلة الشائعة\n\nWindows Server بيسمح بجلسة RDP إدارية أو اتنين مجانًا. لو محتاج عدة مستخدمين، لازم دور RDS مرخّص.\n\n## خطوات الإعداد\n\n1. أضف دور Remote Desktop Services من Server Manager.\n2. فعّل الترخيص من RD Licensing Manager على نطاق الدومين.\n3. حدد نوع التراخيص (Per User أو Per Device).\n4. اربط الترخيص بالسيرفر خلال أول 120 يومًا.\n\n## الخلاصة\n\nRDS مش RDP عادي — لازم دور وترخيص منفصلين من أول يوم.",
-      "en": "## The common problem\n\nWindows Server allows a couple of free admin RDP sessions. For multiple concurrent users you need the licensed RDS role.\n\n## Setup steps\n\nAdd the RDS role, activate licensing domain-wide, choose Per User or Per Device, and license within the 120-day grace period.\n\n## Bottom line\n\nRDS needs its own role and licensing from day one."
+      "ar": "## الفرق الجوهري بين RDP العادي وRDS\n\nWindows Server بيسمح افتراضيًا بجلستين إداريتين بس عبر RDP (Remote Desktop Protocol) — مصممة للصيانة والإدارة، مش للاستخدام اليومي المتعدد. لو محتاج عدة مستخدمين يشتغلوا بالتوازي على نفس السيرفر (زي بيئة Terminal Server للموظفين)، محتاج دور Remote Desktop Services (RDS) كامل ومرخّص بشكل منفصل.\n\n## المكونات الأساسية لـRDS\n\n### RD Session Host\n\nالدور اللي بيستضيف جلسات المستخدمين المتعددة فعليًا.\n\n### RD Licensing\n\nالدور المسؤول عن إدارة وتوزيع تراخيص الوصول (CALs) على المستخدمين أو الأجهزة المتصلة.\n\n## خطوات الإعداد التفصيلية\n\n### 1. أضف دور Remote Desktop Services\n\nمن Server Manager → Add Roles and Features → اختر Remote Desktop Services installation → حدد RD Session Host وRD Licensing كأدوار مطلوبة.\n\n### 2. فعّل الترخيص على نطاق الدومين\n\nمن RD Licensing Manager، فعّل السيرفر (Activate Server) — العملية دي بتربط سيرفر التراخيص بحساب Microsoft وبتفعّله رسميًا لتوزيع الـCALs.\n\n### 3. حدد نوع التراخيص المناسب\n\n- **Per User**: كل مستخدم (بغض النظر عن عدد الأجهزة اللي بيستخدمها) محتاج CAL واحد. مناسب لو نفس المستخدم بيدخل من أجهزة متعددة.\n- **Per Device**: كل جهاز محتاج CAL بغض النظر عن عدد المستخدمين اللي بيستخدموه. مناسب لبيئات فيها أجهزة مشتركة (زي محطات عمل مشتركة بين شفتات).\n\n### 4. اربط الترخيص بالسيرفر خلال فترة السماح\n\nعندك 120 يوم (فترة سماح Grace Period) من أول استخدام لـRDS قبل ما يتوقف عن قبول جلسات جديدة لو الترخيص مش مفعّل. خطط للتفعيل بدري، مش آخر لحظة.\n\n### 5. حدد سيرفر الترخيص عبر Group Policy (اختياري لكن موصى به)\n\nفي بيئة فيها أكتر من RD Session Host، Group Policy بتخليك تحدد سيرفر الترخيص مركزيًا بدل الإعداد اليدوي على كل سيرفر.\n\n## أشهر الأخطاء\n\n### الخطأ الأخطر: نسيان تفعيل السيرفر بعد فترة السماح\n\nبعد انتهاء الـ120 يوم، أي مستخدم جديد مش هيقدر يفتح جلسة — الأخطر إن ده بيحصل فجأة وبدون تحذير واضح مسبق لو محدش راجع الموضوع.\n\n### الخطأ: الخلط بين Per User وPer Device في بيئة مختلطة\n\nلو عندك بيئة فيها أجهزة مشتركة (Kiosk) ومستخدمين بيدخلوا من أجهزة متعددة في نفس الوقت، لازم تفكر بعناية في النوع الأنسب — مفيش قرار واحد صح لكل الحالات.\n\n### الخطأ: عدم التمييز بين RDP العادي وRDS من الأساس\n\nكتير من المبتدئين بيحاولوا يفعّلوا \"أكتر من مستخدم\" على RDP العادي بدون تركيب RDS أصلًا — ده مش مدعوم رسميًا ومش آمن.\n\n## الخلاصة\n\nRDS مش مجرد \"RDP بس بمستخدمين أكتر\" — هو دور كامل بمكونات وتراخيص منفصلة. التخطيط الصح من أول يوم (نوع الترخيص المناسب، تفعيل مبكر، مراقبة فترة السماح) بيمنع انقطاع مفاجئ في خدمة حرجة.",
+      "en": "## The fundamental difference between plain RDP and RDS\n\nWindows Server allows only two administrative RDP sessions by default -- designed for maintenance and management, not daily multi-user use. If you need multiple users working concurrently on the same server (like a Terminal Server environment for employees), you need the full Remote Desktop Services (RDS) role, separately licensed.\n\n## Core RDS components\n\n### RD Session Host\n\nThe role that actually hosts multiple concurrent user sessions.\n\n### RD Licensing\n\nThe role responsible for managing and distributing Client Access Licenses (CALs) to connecting users or devices.\n\n## Detailed setup steps\n\n### 1. Add the Remote Desktop Services role\n\nFrom Server Manager -> Add Roles and Features -> choose Remote Desktop Services installation -> select RD Session Host and RD Licensing as required roles.\n\n### 2. Activate licensing domain-wide\n\nFrom RD Licensing Manager, activate the server -- this links the license server to a Microsoft account and officially enables it to distribute CALs.\n\n### 3. Choose the right licensing type\n\nPer User: each user (regardless of how many devices they use) needs one CAL. Suits cases where the same user logs in from multiple devices. Per Device: each device needs a CAL regardless of how many users use it. Suits environments with shared devices (like workstations shared across shifts).\n\n### 4. License the server within the grace period\n\nYou get 120 days (grace period) from RDS's first use before it stops accepting new sessions if licensing isn't activated. Plan activation early, not at the last minute.\n\n### 5. Specify the license server via Group Policy (optional but recommended)\n\nIn an environment with multiple RD Session Hosts, Group Policy lets you specify the license server centrally instead of manual setup on each server.\n\n## Common mistakes\n\n### The most dangerous: forgetting to activate after the grace period\n\nOnce the 120 days end, any new user can't open a session -- worse, this happens suddenly with no clear prior warning if nobody's tracking it.\n\n### Confusing Per User and Per Device in a mixed environment\n\nIf you have shared devices (kiosks) alongside users logging in from multiple devices simultaneously, you need to carefully consider the right type -- there's no single correct answer for every case.\n\n### Not distinguishing RDS from plain RDP from the start\n\nMany beginners try to enable 'more users' on plain RDP without installing RDS at all -- this isn't officially supported and isn't secure.\n\n## Bottom line\n\nRDS isn't just 'RDP with more users' -- it's a full role with separate components and licensing. Correct planning from day one (the right licensing type, early activation, monitoring the grace period) prevents a sudden interruption of a critical service."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "vpn-remote",
@@ -481,13 +482,14 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2024-12-11",
-    "readTime": 6,
+    "readTime": 10,
     "heroImage": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8cmVtb3RlJTIwZGVza3RvcCUyMGNvbXB1dGVyJTIwc2NyZWVufGVufDF8MHx8fDE3ODU4NzIxNDB8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "rdp",
       "rds",
       "windows-server",
-      "licensing"
+      "licensing",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -500,12 +502,12 @@
       "en": "Converting Windows Server from Evaluation to Standard Without Reinstalling"
     },
     "excerpt": {
-      "ar": "أمر DISM اللي بيحوّل الإصدار التجريبي لمرخّص من غير ما تخسر الإعدادات.",
-      "en": "The DISM command that converts the trial edition to a licensed one without losing configuration."
+      "ar": "ليه المشكلة دي بتحصل، خطوات DISM التفصيلية كاملة، وأشهر أخطاء التحويل اللي بتسبب مشاكل غير متوقعة.",
+      "en": "Why this problem happens, complete detailed DISM steps, and the most common conversion mistakes that cause unexpected problems."
     },
     "body": {
-      "ar": "## المشكلة\n\nنسخة Evaluation بتنتهي بعد 180 يوم، وإعادة التثبيت بتضيّع الإعدادات.\n\n## الخطوات\n\n1. تأكد من الإصدار الحالي: DISM /online /Get-CurrentEdition\n2. شغّل: DISM /online /Set-Edition:ServerStandard مع مفتاح صالح.\n3. السيرفر هيعمل إعادة تشغيل تلقائي — خطط له بره وقت العمل.\n4. تأكد من التفعيل بعدها: slmgr /dlv\n\n## الخلاصة\n\nDISM يوفر إعادة تثبيت كاملة، بس لازم مفتاح صحيح ونافذة صيانة.",
-      "en": "## The problem\n\nEvaluation installs expire after 180 days, and reinstalling wipes configuration.\n\n## Steps\n\nCheck the current edition, run DISM /Set-Edition with a valid key, expect an automatic reboot, and verify activation with slmgr /dlv.\n\n## Bottom line\n\nDISM saves a full reinstall, but needs a valid key and planned maintenance window."
+      "ar": "## ليه المشكلة دي بتحصل أصلًا\n\nنسخة Windows Server Evaluation مصممة للاختبار والتجربة بس، وبتنتهي صلاحيتها بعد 180 يوم بالضبط. المشكلة الحقيقية: كتير من السيرفرات بتتثبت كـEvaluation في بيئة اختبار، وبعدين \"بالغلط\" بتترقّى لإنتاج فعلي من غير ما حد يتذكر يحوّلها لنسخة مرخّصة — لحد ما يوم 180 يوصل وكل حاجة تتوقف فجأة.\n\n## ليه إعادة التثبيت مش الحل\n\nالحل \"البديهي\" (إعادة تثبيت Windows من الصفر بنسخة Standard) بيمسح كل إعداداتك: الأدوار المثبّتة، إعدادات الشبكة، بيانات التطبيقات المحلية — ساعات طويلة من إعادة الإعداد. أمر DISM بيديك طريقة تحويل مباشرة بدون فقدان أي حاجة من ده.\n\n## الخطوات التفصيلية\n\n### 1. تأكد من الإصدار الحالي\n\n```powershell\nDISM /online /Get-CurrentEdition\n```\n\nالأمر ده بيوريك بالظبط أي إصدار مثبّت حاليًا (ServerStandardEval، ServerDatacenterEval، إلخ) — مهم تتأكد قبل ما تكمل عشان تعرف تحدد الإصدار الهدف الصح.\n\n### 2. اعرف الإصدارات المتاحة للترقية إليها (اختياري)\n\n```powershell\nDISM /online /Get-TargetEditions\n```\n\nبيوريك قائمة الإصدارات اللي تقدر تحوّل ليها من الإصدار الحالي — مش كل تحويل ممكن (زي التحويل من Evaluation لإصدار أعلى مباشرة قد يكون غير مدعوم حسب الحالة).\n\n### 3. شغّل أمر التحويل الفعلي\n\n```powershell\nDISM /online /Set-Edition:ServerStandard /ProductKey:XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /AcceptEula\n```\n\nاستبدل `ServerStandard` بالإصدار الهدف المناسب (ممكن يكون `ServerDatacenter` لو محتاج Datacenter بدل Standard)، والمفتاح بمفتاح الترخيص الصالح الفعلي بتاعك.\n\n### 4. خطط لإعادة التشغيل التلقائي\n\nالسيرفر هيعمل إعادة تشغيل تلقائي أثناء عملية التحويل — لازم تخطط للعملية دي في نافذة صيانة معلنة، برّه وقت العمل، مش تشغلها فجأة على سيرفر إنتاج نشط.\n\n### 5. تأكد من نجاح التفعيل بعد التحويل\n\n```powershell\nslmgr /dlv\n```\n\nبيوريك تفاصيل مفصّلة عن حالة الترخيص — تأكد إن الحالة \"Licensed\" مش \"Notification\" أو أي حالة تانية بتشير لمشكلة.\n\n## أشهر الأخطاء\n\n### محاولة التحويل بمفتاح غير مطابق للإصدار\n\nمفتاح Standard مش هيشتغل لو حاولت تحوّل لـDatacenter، والعكس صحيح — تأكد إن المفتاح مطابق تمامًا للإصدار الهدف.\n\n### نسيان النسخ الاحتياطي قبل التحويل\n\nرغم إن DISM عملية مدعومة رسميًا ومستقرة عادةً، أي عملية بتغيّر جوهر النظام تستاهل نسخة احتياطية سريعة قبلها — احتياط بسيط بيوفر وقت كبير لو حصلت مشكلة غير متوقعة.\n\n### عدم التخطيط لنافذة الصيانة\n\nإعادة التشغيل التلقائي غير المتوقع على سيرفر إنتاج نشط ممكن يسبب انقطاع خدمة مفاجئ لمستخدمين شغالين عليه فعليًا في نفس اللحظة.\n\n## الخلاصة\n\nDISM /Set-Edition بديل حقيقي وموثوق لإعادة التثبيت الكاملة، لكن نجاحه يعتمد على 3 حاجات: مفتاح ترخيص صحيح ومطابق، نافذة صيانة مخططة، ونسخة احتياطية احترازية قبل البدء.",
+      "en": "## Why this problem happens in the first place\n\nThe Windows Server Evaluation edition is designed purely for testing and expires exactly 180 days after install. The real problem: many servers get installed as Evaluation in a test environment, then 'accidentally' get promoted to actual production without anyone remembering to convert to a licensed edition -- until day 180 arrives and everything suddenly stops.\n\n## Why reinstalling isn't the answer\n\nThe 'obvious' fix (reinstalling Windows from scratch with a Standard edition) wipes all your configuration: installed roles, network settings, local application data -- many hours of reconfiguration. The DISM command gives you a direct conversion path without losing any of that.\n\n## Detailed steps\n\n### 1. Check the current edition\n\n```powershell\nDISM /online /Get-CurrentEdition\n```\nShows exactly which edition is currently installed (ServerStandardEval, ServerDatacenterEval, etc.) -- important to confirm before proceeding so you know the correct target edition.\n\n### 2. See available target editions (optional)\n\n```powershell\nDISM /online /Get-TargetEditions\n```\nShows which editions you can convert to from the current one -- not every conversion is possible (converting directly from Evaluation to a higher edition may be unsupported depending on the case).\n\n### 3. Run the actual conversion command\n\n```powershell\nDISM /online /Set-Edition:ServerStandard /ProductKey:XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /AcceptEula\n```\nReplace ServerStandard with your appropriate target edition (could be ServerDatacenter if you need Datacenter instead of Standard), and the key with your actual valid license key.\n\n### 4. Plan for the automatic reboot\n\nThe server automatically reboots during conversion -- plan this within an announced maintenance window, outside working hours, not suddenly on an active production server.\n\n### 5. Verify activation succeeded after conversion\n\n```powershell\nslmgr /dlv\n```\nShows detailed license status -- confirm the status is 'Licensed', not 'Notification' or any other state indicating a problem.\n\n## Common mistakes\n\n### Trying to convert with a key that doesn't match the edition\n\nA Standard key won't work if you try converting to Datacenter, and vice versa -- confirm the key exactly matches the target edition.\n\n### Forgetting a backup before conversion\n\nAlthough DISM is an officially supported, generally stable process, any operation that changes the system's core deserves a quick backup first -- simple insurance that saves significant time if something unexpected happens.\n\n### Not planning a maintenance window\n\nAn unexpected automatic reboot on an active production server can cause a sudden service interruption for users actively working on it at that exact moment.\n\n## Bottom line\n\nDISM /Set-Edition is a real, reliable alternative to a full reinstall, but its success depends on three things: a correct, matching license key, a planned maintenance window, and a precautionary backup before starting."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -517,12 +519,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-02-18",
-    "readTime": 4,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1762163516269-3c143e04175c?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8c2VydmVyJTIwcmFjayUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc4NTg3MjE0Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "windows-server",
       "dism",
-      "licensing"
+      "licensing",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2983,6 +2986,42 @@
     "tags": [
       "wireshark",
       "network-analysis",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0086",
+    "slug": "kerberos-authentication-explained",
+    "title": {
+      "ar": "فهم Kerberos: كيف تعمل المصادقة فعليًا في Active Directory",
+      "en": "Understanding Kerberos: How Authentication Actually Works in Active Directory"
+    },
+    "excerpt": {
+      "ar": "تسلسل العملية خطوة بخطوة، ليه مزامنة الوقت حرجة جدًا، وأشهر الهجمات المتقدمة (Pass-the-Ticket وGolden Ticket) للوعي.",
+      "en": "The step-by-step process, why time synchronization is critical, and the most common advanced attacks (Pass-the-Ticket and Golden Ticket) for awareness."
+    },
+    "body": {
+      "ar": "## ليه فهم Kerberos مهم لأي مدير نظام\n\nKerberos هو بروتوكول المصادقة الأساسي وراء تسجيل الدخول في أي بيئة Active Directory — لما تفهم إزاي بيشتغل، تقدر تشخّص مشاكل تسجيل دخول غامضة، وتفهم هجمات شائعة زي Pass-the-Ticket وGolden Ticket، وتعرف ليه بعض الإعدادات (زي مزامنة الوقت) حرجة جدًا.\n\n## الفكرة الأساسية: تذاكر بدل كلمات مرور متكررة\n\nبدل ما تبعت كلمة المرور بتاعتك لكل خدمة تحاول توصلها، Kerberos بيديك \"تذكرة\" (Ticket) بعد أول مصادقة، وبتستخدم التذكرة دي للوصول لأي خدمة تانية من غير ما تبعت الباسورد تاني. ده بيقلل عدد المرات اللي كلمة المرور بتتنقل فيها عبر الشبكة بشكل كبير.\n\n## المكونات الأساسية\n\n### KDC (Key Distribution Center)\n\nبيشتغل على كل Domain Controller، ومسؤول عن إصدار التذاكر. بيتكون من جزئين:\n- **AS (Authentication Service)**: بيتحقق من هويتك الأولى.\n- **TGS (Ticket Granting Service)**: بيصدر تذاكر للوصول لخدمات محددة.\n\n### TGT (Ticket Granting Ticket)\n\nالتذكرة الأولى اللي بتاخدها بعد ما تسجل دخول بنجاح — زي \"بطاقة هوية\" بتستخدمها تطلب بيها تذاكر تانية، بدل ما تثبت هويتك من الصفر كل مرة.\n\n### Service Ticket\n\nتذكرة محددة للوصول لخدمة معينة (زي سيرفر ملفات أو تطبيق داخلي)، بتاخدها من TGS باستخدام الـTGT بتاعك.\n\n## تسلسل العملية خطوة بخطوة\n\n1. **تسجل دخول بكلمة المرور** — الجهاز بيبعت طلب للـAS.\n2. **AS بيتحقق من هويتك** ويرجّعلك TGT مشفّر (صلاحيته عادةً 10 ساعات).\n3. **تحاول توصل لخدمة** (زي سيرفر ملفات) — جهازك بيستخدم الـTGT يطلب Service Ticket من TGS.\n4. **TGS بيصدر Service Ticket** مخصص لهذه الخدمة تحديدًا.\n5. **تقدّم الـService Ticket للخدمة نفسها** — لو صالحة، بتديك الوصول بدون ما تدخل كلمة مرور تاني.\n\n## ليه مزامنة الوقت حرجة جدًا\n\nKerberos بيعتمد على الطوابع الزمنية (Timestamps) لمنع إعادة استخدام تذاكر قديمة (Replay Attacks). لو فرق الوقت بين جهازك والـDomain Controller أكتر من 5 دقائق افتراضيًا، المصادقة هتفشل تمامًا برسالة خطأ غامضة غالبًا — أشهر سبب \"غير معروف\" لمشاكل تسجيل دخول فجائية.\n\n## هجمات شائعة تستهدف Kerberos (للوعي، مش للتنفيذ)\n\n### Pass-the-Ticket\n\nالمهاجم اللي عنده صلاحيات إدارية على جهاز مخترق يقدر يسرق تذاكر Kerberos الموجودة في الذاكرة ويستخدمها على جهاز تاني من غير ما يحتاج كلمة المرور الفعلية.\n\n### Golden Ticket\n\nهجوم متقدم جدًا بيستهدف حساب KRBTGT نفسه (الحساب المسؤول عن تشفير كل التذاكر) — لو المهاجم وصل لهاش الحساب ده، يقدر يزوّر تذاكر TGT صالحة لأي مستخدم، حتى بعد ما تغيّر كلمات المرور العادية.\n\n## نصيحة عملية للحماية\n\n1. حافظ على مزامنة الوقت دقيقة بين كل الأجهزة (NTP من الـDC نفسه).\n2. غيّر كلمة مرور حساب KRBTGT دوريًا (مرتين متتاليتين، بفاصل زمني، حسب توصيات Microsoft) — بيلغي أي Golden Ticket قديم.\n3. طبّق مبدأ أقل الصلاحيات — يقلل من قدرة أي جهاز مخترق على سرقة تذاكر ذات قيمة عالية.\n\n## الخلاصة\n\nKerberos نظام ذكي بيقلل تكرار إرسال كلمة المرور، لكن أمانه بيعتمد على تفاصيل دقيقة (مزامنة الوقت، حماية حساب KRBTGT) — فهم الأساسيات دي بيخليك تشخّص مشاكل تسجيل الدخول أسرع بكتير، وتفهم ليه بعض الهجمات المتقدمة خطيرة جدًا لو وصلت لصلاحيات إدارية.",
+      "en": "## Why understanding Kerberos matters for any sysadmin\n\nKerberos is the core authentication protocol behind login in any Active Directory environment -- understanding how it works helps you diagnose confusing login problems, understand common attacks like Pass-the-Ticket and Golden Ticket, and know why certain settings (like time sync) are critically important.\n\n## The core idea: tickets instead of repeated passwords\n\nInstead of sending your password to every service you try to reach, Kerberos gives you a 'ticket' after initial authentication, and you use that ticket to access other services without sending the password again. This drastically reduces how many times your password travels across the network.\n\n## Core components\n\n### KDC (Key Distribution Center)\n\nRuns on every Domain Controller, responsible for issuing tickets. Made of two parts: AS (Authentication Service) verifies your initial identity, and TGS (Ticket Granting Service) issues tickets to access specific services.\n\n### TGT (Ticket Granting Ticket)\n\nThe first ticket you get after successfully logging in -- like an 'ID card' you use to request other tickets, instead of proving your identity from scratch every time.\n\n### Service Ticket\n\nA specific ticket to access a given service (like a file server or internal app), obtained from TGS using your TGT.\n\n## The step-by-step process\n\nYou log in with your password -- the device sends a request to the AS. The AS verifies your identity and returns an encrypted TGT (typically valid for 10 hours). You try to reach a service (like a file server) -- your device uses the TGT to request a Service Ticket from TGS. TGS issues a Service Ticket specific to that service. You present the Service Ticket to the service itself -- if valid, it grants access without entering a password again.\n\n## Why time synchronization is critically important\n\nKerberos relies on timestamps to prevent old tickets from being reused (replay attacks). If the time difference between your device and the Domain Controller exceeds 5 minutes by default, authentication fails entirely, often with a vague error -- the most common 'unexplained' cause of sudden login problems.\n\n## Common attacks targeting Kerberos (for awareness, not execution)\n\n### Pass-the-Ticket\n\nAn attacker with admin privileges on a compromised machine can steal Kerberos tickets sitting in memory and use them on a different machine without needing the actual password.\n\n### Golden Ticket\n\nA very advanced attack targeting the KRBTGT account itself (the account responsible for encrypting all tickets) -- if an attacker gets this account's hash, they can forge valid TGTs for any user, even after regular passwords are changed.\n\n## Practical protection advice\n\nKeep time synchronization precise across every machine (NTP from the DC itself). Rotate the KRBTGT account password periodically (twice in sequence, spaced apart, per Microsoft's recommendations) -- this invalidates any old Golden Ticket. Apply least privilege -- it reduces a compromised machine's ability to steal high-value tickets.\n\n## Bottom line\n\nKerberos is a clever system that reduces repeated password transmission, but its security depends on precise details (time sync, KRBTGT account protection) -- understanding these basics lets you diagnose login problems far faster, and understand why certain advanced attacks are so dangerous once admin privileges are reached."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-02",
+    "readTime": 11,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "kerberos",
+      "active-directory",
+      "authentication",
       "guide"
     ],
     "isFeatured": true,

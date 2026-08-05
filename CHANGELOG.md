@@ -579,3 +579,16 @@ Kaspersky vs Bitdefender (endpoint)، Windows RDS vs Citrix، Group Policy vs In
 **مقال جديد:** "الدليل الشامل لتحليل حركة الشبكة باستخدام Wireshark" — فلاتر التقاط وعرض حقيقية، 4 سيناريوهات تشخيص عملية (بطء، DNS مشبوه، فشل TLS، تتبع محادثات).
 
 **العدد الحالي:** 85 مقال — 15 منهم دلوقتي بمعيار المرجع العميق.
+
+---
+
+## دفعة رابعة "الاتنين مع بعض": 3 ترقيات + دليل Kerberos جديد
+
+**3 مقالات اتترقّوا:**
+- Kaspersky Security Center Tags: 430 → 2137 حرف (الفرق بين Administration Groups وTags، خطوات تطبيق كاملة)
+- RDP/RDS Licensing: 406 → 2390 حرف (الفرق بين Per User وPer Device بالتفصيل، مكونات RDS)
+- Windows Server Evaluation→Standard: 390 → 2498 حرف (أوامر DISM كاملة مع شرح كل خطوة)
+
+**مقال جديد:** "فهم Kerberos: كيف تعمل المصادقة فعليًا في Active Directory" — تسلسل العملية كامل (AS، TGS، TGT، Service Ticket)، ليه مزامنة الوقت حرجة، وشرح توعوي لهجمات Pass-the-Ticket وGolden Ticket.
+
+**العدد الحالي:** 86 مقال — 19 منهم دلوقتي بمعيار المرجع العميق.

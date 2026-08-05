@@ -377,12 +377,12 @@
     "id": "art-gen-0013",
     "slug": "kaspersky-security-center-tagging",
     "title": {
-      "ar": "تنظيم الأجهزة في Kaspersky Security Center بالـ Tags",
-      "en": "Organizing Devices in Kaspersky Security Center with Tags"
+      "ar": "تنظيم الأجهزة في Kaspersky Security Center بالـ Tags: الدليل الكامل",
+      "en": "Organizing Devices in Kaspersky Security Center with Tags: The Complete Guide"
     },
     "excerpt": {
-      "ar": "استخدام الوسوم (Tags) لتجميع الأجهزة وتسريع تطبيق السياسات في KSC.",
-      "en": "Using tags to group devices and speed up policy application in Kaspersky Security Center."
+      "ar": "الفرق بين Administration Groups وTags، خطوات تطبيق عملية كاملة، وأشهر أخطاء التصنيف اللي بتلغي الفايدة.",
+      "en": "The difference between Administration Groups and Tags, complete practical implementation steps, and the most common tagging mistakes that eliminate the benefit."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "endpoint",
@@ -394,12 +394,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2024-09-04",
-    "readTime": 5,
+    "readTime": 9,
     "heroImage": "https://images.unsplash.com/photo-1751448555253-f39c06e29d82?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YW50aXZpcnVzJTIwZW5kcG9pbnQlMjBzZWN1cml0eXxlbnwxfDB8fHwxNzg1ODcyMTQwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "kaspersky",
       "endpoint",
-      "security-center"
+      "security-center",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -408,12 +409,12 @@
     "id": "art-gen-0014",
     "slug": "rdp-multi-user-rds-licensing",
     "title": {
-      "ar": "تفعيل RDP متعدد المستخدمين وترخيص RDS بشكل صحيح",
-      "en": "Enabling Multi-User RDP and Licensing RDS Correctly"
+      "ar": "تفعيل RDP متعدد المستخدمين وترخيص RDS بشكل صحيح: الدليل الكامل",
+      "en": "Enabling Multi-User RDP and Licensing RDS Correctly: The Complete Guide"
     },
     "excerpt": {
-      "ar": "الفرق بين RDP العادي وRDS، وخطوات تفعيل الترخيص لتفادي انقطاع الجلسات.",
-      "en": "The difference between plain RDP and RDS, and how to license it properly."
+      "ar": "الفرق الجوهري بين RDP وRDS، خطوات إعداد تفصيلية، الفرق بين Per User وPer Device، وأشهر أخطاء الترخيص.",
+      "en": "The fundamental RDP vs RDS difference, detailed setup steps, Per User vs Per Device explained, and the most common licensing mistakes."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "vpn-remote",
@@ -425,13 +426,14 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2024-12-11",
-    "readTime": 6,
+    "readTime": 10,
     "heroImage": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8cmVtb3RlJTIwZGVza3RvcCUyMGNvbXB1dGVyJTIwc2NyZWVufGVufDF8MHx8fDE3ODU4NzIxNDB8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "rdp",
       "rds",
       "windows-server",
-      "licensing"
+      "licensing",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -444,8 +446,8 @@
       "en": "Converting Windows Server from Evaluation to Standard Without Reinstalling"
     },
     "excerpt": {
-      "ar": "أمر DISM اللي بيحوّل الإصدار التجريبي لمرخّص من غير ما تخسر الإعدادات.",
-      "en": "The DISM command that converts the trial edition to a licensed one without losing configuration."
+      "ar": "ليه المشكلة دي بتحصل، خطوات DISM التفصيلية كاملة، وأشهر أخطاء التحويل اللي بتسبب مشاكل غير متوقعة.",
+      "en": "Why this problem happens, complete detailed DISM steps, and the most common conversion mistakes that cause unexpected problems."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -457,12 +459,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-02-18",
-    "readTime": 4,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1762163516269-3c143e04175c?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8c2VydmVyJTIwcmFjayUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc4NTg3MjE0Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "windows-server",
       "dism",
-      "licensing"
+      "licensing",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2643,6 +2646,38 @@
     "tags": [
       "wireshark",
       "network-analysis",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0086",
+    "slug": "kerberos-authentication-explained",
+    "title": {
+      "ar": "فهم Kerberos: كيف تعمل المصادقة فعليًا في Active Directory",
+      "en": "Understanding Kerberos: How Authentication Actually Works in Active Directory"
+    },
+    "excerpt": {
+      "ar": "تسلسل العملية خطوة بخطوة، ليه مزامنة الوقت حرجة جدًا، وأشهر الهجمات المتقدمة (Pass-the-Ticket وGolden Ticket) للوعي.",
+      "en": "The step-by-step process, why time synchronization is critical, and the most common advanced attacks (Pass-the-Ticket and Golden Ticket) for awareness."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-02",
+    "readTime": 11,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "kerberos",
+      "active-directory",
+      "authentication",
       "guide"
     ],
     "isFeatured": true,
