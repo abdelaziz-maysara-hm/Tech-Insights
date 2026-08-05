@@ -1145,12 +1145,12 @@
     "id": "art-gen-0037",
     "slug": "cloud-cost-optimization-basics",
     "title": {
-      "ar": "تقليل فاتورة السحابة: خطوات عملية قبل ما تتفاجئ",
-      "en": "Cutting Your Cloud Bill: Practical Steps Before the Surprise Invoice"
+      "ar": "تقليل فاتورة السحابة: الدليل الكامل لخطوات عملية قبل المفاجأة",
+      "en": "Cutting Your Cloud Bill: The Complete Guide to Practical Steps Before the Surprise"
     },
     "excerpt": {
-      "ar": "أشهر أسباب ارتفاع فاتورة AWS/Azure غير متوقع، وإزاي تتحكم فيها.",
-      "en": "The most common causes of an unexpectedly high AWS/Azure bill, and how to control them."
+      "ar": "4 أسباب شائعة للفاتورة العالية غير المتوقعة، وخطوات تحكم عملية من التنبيهات لخصومات الالتزام طويل المدى.",
+      "en": "4 common causes of an unexpectedly high bill, and practical control steps from budget alerts to long-term commitment discounts."
     },
     "categoryId": "technology",
     "subcategoryId": "guides-tips",
@@ -1162,12 +1162,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-11-10",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1782330300479-02550a1a3c7a?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8Y2xvdWQlMjBjb21wdXRpbmclMjBkYXRhJTIwY2VudGVyfGVufDF8MHx8fDE3ODU4NzIxNjJ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "cloud",
       "aws",
-      "cost-optimization"
+      "cost-optimization",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1212,8 +1213,8 @@
       "en": "Browser Isolation: A Simple Extra Protection Layer"
     },
     "excerpt": {
-      "ar": "إزاي تمنع كود خبيث من موقع مشبوه يوصل لجهاز المستخدم فعليًا.",
-      "en": "How to keep malicious code from a suspicious site from ever actually reaching the user's device."
+      "ar": "ليه التقنية دي فعّالة ضد هجمات يوم الصفر غير المكتشفة، و3 معايير لتحديد إذا كان الاستثمار يستاهل.",
+      "en": "Why this technology is effective against undetected zero-day attacks, and 3 criteria for assessing if the investment is worth it."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "endpoint",
@@ -1225,12 +1226,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-01-24",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8d2ViJTIwYnJvd3NlciUyMGxhcHRvcHxlbnwxfDB8fHwxNzg1ODcyMTY2fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "browser-isolation",
       "phishing",
-      "endpoint-security"
+      "endpoint-security",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1270,12 +1272,12 @@
     "id": "art-gen-0041",
     "slug": "usb-device-control-policy",
     "title": {
-      "ar": "سياسة التحكم في أجهزة USB: أمان بدون تعطيل الشغل",
-      "en": "USB Device Control Policy: Security Without Blocking Work"
+      "ar": "سياسة التحكم في أجهزة USB: الدليل الكامل لأمان بدون تعطيل الشغل",
+      "en": "USB Device Control Policy: The Complete Guide to Security Without Blocking Work"
     },
     "excerpt": {
-      "ar": "بدائل عملية غير \"امنع كل حاجة\" اللي بتوقف شغل ناس محتاجين USB فعليًا.",
-      "en": "Practical alternatives to 'block everything', which stops people who genuinely need USB access."
+      "ar": "4 مستويات تحكم متدرّج بدل المنع الكامل، وخطوات تطبيق عملية عبر Group Policy.",
+      "en": "4 levels of graduated control instead of total blocking, and practical implementation steps via Group Policy."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "endpoint",
@@ -1287,12 +1289,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-04-11",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1551818014-7c8ace9c1b5c?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8dXNiJTIwZmxhc2glMjBkcml2ZSUyMGNvbXB1dGVyfGVufDF8MHx8fDE3ODU4NzIxNjh8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "usb",
       "endpoint-security",
-      "group-policy"
+      "group-policy",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2887,6 +2890,38 @@
       "containers",
       "docker",
       "kubernetes",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0093",
+    "slug": "byod-policy-security-guide",
+    "title": {
+      "ar": "سياسة BYOD (استخدام الجهاز الشخصي للعمل): الدليل الكامل",
+      "en": "BYOD Policy (Bring Your Own Device): The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "3 مخاطر أساسية، الفرق بين MDM وMAM (لماذا الأخير أكثر توازنًا)، وعناصر سياسة عملية موثّقة.",
+      "en": "3 core risks, the MDM vs MAM difference (why the latter is more balanced), and elements of a practical documented policy."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-24",
+    "readTime": 8,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "byod",
+      "mdm",
+      "endpoint-security",
       "guide"
     ],
     "isFeatured": true,

@@ -1289,16 +1289,16 @@
     "id": "art-gen-0037",
     "slug": "cloud-cost-optimization-basics",
     "title": {
-      "ar": "تقليل فاتورة السحابة: خطوات عملية قبل ما تتفاجئ",
-      "en": "Cutting Your Cloud Bill: Practical Steps Before the Surprise Invoice"
+      "ar": "تقليل فاتورة السحابة: الدليل الكامل لخطوات عملية قبل المفاجأة",
+      "en": "Cutting Your Cloud Bill: The Complete Guide to Practical Steps Before the Surprise"
     },
     "excerpt": {
-      "ar": "أشهر أسباب ارتفاع فاتورة AWS/Azure غير متوقع، وإزاي تتحكم فيها.",
-      "en": "The most common causes of an unexpectedly high AWS/Azure bill, and how to control them."
+      "ar": "4 أسباب شائعة للفاتورة العالية غير المتوقعة، وخطوات تحكم عملية من التنبيهات لخصومات الالتزام طويل المدى.",
+      "en": "4 common causes of an unexpectedly high bill, and practical control steps from budget alerts to long-term commitment discounts."
     },
     "body": {
-      "ar": "## أشهر أسباب الفاتورة العالية\n\n1. موارد شغالة من غير استخدام فعلي (سيرفرات اختبار نسيتها شغالة).\n2. تخزين بيانات قديمة على أغلى فئة تخزين بدل الأرخص للأرشيف.\n3. نقل بيانات (Data Transfer) بين مناطق جغرافية من غير داعي.\n\n## خطوات عملية للتحكم\n\n1. فعّل تنبيهات الميزانية (Budget Alerts) من أول يوم.\n2. راجع الموارد الخاملة أسبوعيًا (أو استخدم أداة تلقائية).\n3. استخدم فئات تخزين أرخص للبيانات القديمة نادرة الوصول.\n4. فكّر في Reserved Instances لو الاستخدام ثابت طويل المدى.\n\n## الخلاصة\n\nمعظم الفواتير العالية مش بسبب استخدام حقيقي، بس بسبب موارد منسية — مراجعة دورية بسيطة بتوفر كتير.",
-      "en": "## Common causes of high bills\n\nResources running without real use (forgotten test servers), old data stored on the most expensive tier instead of a cheaper archive tier, and unnecessary cross-region data transfer.\n\n## Practical control steps\n\nEnable budget alerts from day one, review idle resources weekly, use cheaper storage tiers for rarely-accessed old data, and consider Reserved Instances for steady long-term usage.\n\n## Bottom line\n\nMost high bills come from forgotten resources, not real usage -- a simple periodic review saves a lot."
+      "ar": "## ليه فاتورة السحابة بتتضاعف من غير ما حد ينتبه\n\nعلى عكس الخوادم الفعلية اللي شراؤها قرار واضح ومرئي، الموارد السحابية سهل جدًا تتنشأ بضغطة زر وتتنسى — سيرفر اختبار سريع، قاعدة بيانات تجريبية، مساحة تخزين لمشروع اتلغى — كل ده بيفضل شغال ويحسب عليك شهريًا من غير ما حد يلاحظ لحد ما الفاتورة توصل.\n\n## أشهر أسباب الفاتورة العالية غير المتوقعة\n\n### 1. موارد شغالة من غير استخدام فعلي\n\nأشهر سبب على الإطلاق — سيرفرات اختبار أو تطوير اتنشأت لمهمة مؤقتة وفضلت شغالة، أحيانًا لشهور، من غير أي استخدام فعلي.\n\n### 2. تخزين بيانات قديمة على أغلى فئة تخزين\n\nكل مزوّد سحابي عنده فئات تخزين متعددة بأسعار مختلفة جدًا — بيانات نادرًا ما بتتاح (أرشيف قديم، نسخ احتياطي طويل المدى) لو فضلت على الفئة الأغلى (سريعة الوصول) بدل الأرخص (أرشيفية)، الفرق في التكلفة بيتراكم بسرعة مع حجم البيانات.\n\n### 3. نقل بيانات بين مناطق جغرافية من غير داعي\n\nنقل البيانات بين مناطق (Regions) مختلفة أو حتى للإنترنت العام له تكلفة، وممكن يحصل بالغلط بسبب إعداد خاطئ (زي تطبيق في منطقة بيوصل لقاعدة بيانات في منطقة تانية من غير داعي حقيقي).\n\n### 4. عدم استخدام خصومات الالتزام طويل المدى\n\nلو الاستخدام ثابت ومتوقع على المدى الطويل، الاعتماد على التسعير العادي (Pay-as-you-go) بدل خصومات الالتزام (Reserved Instances أو Savings Plans) بيكلّف أكتر بشكل ملحوظ.\n\n## خطوات عملية للتحكم\n\n### 1. فعّل تنبيهات الميزانية من أول يوم\n\nكل مزوّد سحابي كبير بيوفر تنبيهات تلقائية لما الاستخدام يتخطى حد معين — فعّلها فورًا وقت إنشاء أي حساب جديد، مش بعد ما تتفاجئ بفاتورة عالية.\n\n### 2. راجع الموارد الخاملة دوريًا\n\nراجعة أسبوعية (يدوية أو بأداة تلقائية زي AWS Cost Explorer) بتكشف الموارد المنسية قبل ما تتراكم تكلفتها لشهور.\n\n### 3. استخدم فئات تخزين مناسبة لكل نوع بيانات\n\nصنّف بياناتك حسب معدل الوصول الفعلي، ووزّعها على فئات التخزين المناسبة — بيانات نشطة على السريع، أرشيف على الأرخص.\n\n### 4. فكّر في الالتزام طويل المدى للاستخدام الثابت\n\nلو عندك موارد شغالة باستمرار ومتوقعة (زي سيرفر إنتاج أساسي)، خصومات الالتزام بتوفر نسبة كبيرة مقارنة بالتسعير العادي.\n\n## الخلاصة\n\nمعظم الفواتير السحابية العالية مش بسبب استخدام حقيقي زايد — غالبًا بسبب موارد منسية أو إعداد غير مُحسّن. مراجعة دورية بسيطة وتنبيهات ميزانية مفعّلة من البداية بتوفر مبالغ حقيقية بمجهود قليل نسبيًا.",
+      "en": "## Why cloud bills double without anyone noticing\n\nUnlike physical servers, whose purchase is a clear, visible decision, cloud resources are very easy to spin up with one click and forget -- a quick test server, a trial database, storage for a canceled project -- all of this keeps running and billing you monthly without anyone noticing until the invoice arrives.\n\n## The most common causes of an unexpectedly high bill\n\n### 1. Resources running without real use\n\nBy far the most common cause -- test or development servers created for a temporary task that stayed running, sometimes for months, with no actual use.\n\n### 2. Storing old data on the most expensive tier\n\nEvery cloud provider has multiple storage tiers at very different prices -- rarely-accessed data (old archives, long-term backups) left on the expensive fast-access tier instead of the cheaper archival tier accumulates cost quickly as data volume grows.\n\n### 3. Unnecessary cross-region data transfer\n\nTransferring data between different regions, or even to the public internet, has a cost, and can happen accidentally due to misconfiguration (like an app in one region unnecessarily reaching a database in another).\n\n### 4. Not using long-term commitment discounts\n\nIf usage is steady and predictable long-term, relying on regular pay-as-you-go pricing instead of commitment discounts (Reserved Instances or Savings Plans) costs noticeably more.\n\n## Practical control steps\n\n### 1. Enable budget alerts from day one\n\nEvery major cloud provider offers automatic alerts when usage crosses a threshold -- enable them immediately when creating any new account, not after being surprised by a high bill.\n\n### 2. Periodically review idle resources\n\nA weekly review (manual or via an automated tool like AWS Cost Explorer) catches forgotten resources before their cost accumulates for months.\n\n### 3. Use appropriate storage tiers per data type\n\nClassify your data by actual access frequency, and distribute it across appropriate storage tiers -- active data on fast tiers, archives on the cheapest.\n\n### 4. Consider long-term commitment for steady usage\n\nIf you have continuously running, predictable resources (like a core production server), commitment discounts save a significant percentage compared to regular pricing.\n\n## Bottom line\n\nMost high cloud bills aren't from genuinely increased usage -- usually from forgotten resources or unoptimized configuration. A simple periodic review and budget alerts enabled from the start save real money for relatively little effort."
     },
     "categoryId": "technology",
     "subcategoryId": "guides-tips",
@@ -1310,12 +1310,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-11-10",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1782330300479-02550a1a3c7a?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8Y2xvdWQlMjBjb21wdXRpbmclMjBkYXRhJTIwY2VudGVyfGVufDF8MHx8fDE3ODU4NzIxNjJ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "cloud",
       "aws",
-      "cost-optimization"
+      "cost-optimization",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1364,12 +1365,12 @@
       "en": "Browser Isolation: A Simple Extra Protection Layer"
     },
     "excerpt": {
-      "ar": "إزاي تمنع كود خبيث من موقع مشبوه يوصل لجهاز المستخدم فعليًا.",
-      "en": "How to keep malicious code from a suspicious site from ever actually reaching the user's device."
+      "ar": "ليه التقنية دي فعّالة ضد هجمات يوم الصفر غير المكتشفة، و3 معايير لتحديد إذا كان الاستثمار يستاهل.",
+      "en": "Why this technology is effective against undetected zero-day attacks, and 3 criteria for assessing if the investment is worth it."
     },
     "body": {
-      "ar": "## الفكرة الأساسية\n\nبدل ما المتصفح يحمّل ويشغّل محتوى الموقع مباشرة على جهاز المستخدم، الصفحة بتتشغل في بيئة معزولة (سحابية أو محلية) وبيوصل للمستخدم بس عرض مرئي آمن.\n\n## متى تستاهل الاستثمار\n\n1. فريق بيتعامل مع روابط غير موثوقة بشكل متكرر (بريد، بحث).\n2. قطاع مستهدف بهجمات تصيد متقدمة.\n3. عندك بالفعل طبقات حماية تانية وعايز تقلل مخاطر يوم الصفر (Zero-day) في المتصفح نفسه.\n\n## نصيحة عملية\n\nمش لازم تطبقها على كل حاجة — ركّز على المستخدمين الأكتر عرضة (فريق المبيعات، الدعم الفني اللي بيفتح روابط كتير من مصادر خارجية).\n\n## الخلاصة\n\nطبقة حماية إضافية مفيدة، مش بديل عن التدريب الأمني الأساسي والتحديثات.",
-      "en": "## The core idea\n\nInstead of the browser loading and executing site content directly on the user's device, the page renders in an isolated environment (cloud or local) and only a safe visual stream reaches the user.\n\n## When it's worth the investment\n\nA team frequently dealing with untrusted links (email, research), a sector targeted by advanced phishing, or wanting to reduce browser zero-day exposure on top of existing layers.\n\n## Bottom line\n\nA useful extra layer, not a substitute for basic security training and patching."
+      "ar": "## الفكرة الأساسية: الصفحة بتتشغل بعيد عن جهازك تمامًا\n\nبدل ما المتصفح العادي يحمّل ويشغّل محتوى الموقع مباشرة على جهاز المستخدم (كود JavaScript، إعلانات، أي محتوى تفاعلي)، عزل المتصفح (Browser Isolation) بيشغّل الصفحة كاملة في بيئة معزولة تمامًا (سحابية غالبًا، أحيانًا محلية) — أي كود خبيث موجود في الصفحة بيتنفذ هناك، بعيد تمامًا عن جهاز المستخدم الحقيقي. اللي بيوصل للمستخدم بس عرض مرئي آمن (Pixel Streaming) أو نسخة مُنظّفة من المحتوى.\n\n## ليه ده فعّال ضد هجمات ماكانتش مكتشفة قبل كده\n\nأدوات الحماية التقليدية (مضاد فيروسات، فلترة URL) بتعتمد على معرفة مسبقة بالتهديد — موقع معروف بالضرر، أو ملف بتوقيع فيروس معروف. عزل المتصفح مختلف جذريًا: **مش محتاج يعرف الموقع خبيث ولا لأ**، لأن أي كود بيتنفذ أصلًا مش هيوصل لجهاز المستخدم الحقيقي — حتى لو الموقع فيه ثغرة يوم صفر (Zero-day) ماكانتش معروفة لحد النهاردة.\n\n## متى الاستثمار في التقنية دي يستاهل فعليًا\n\n### 1. فريق بيتعامل مع روابط غير موثوقة بشكل متكرر\n\nموظفين في البريد الإلكتروني أو البحث المستمر عن معلومات من مصادر خارجية متنوعة — احتمالية التعرض لموقع خبيث أعلى بكثير من فريق بيستخدم مواقع داخلية محددة بس.\n\n### 2. قطاع مستهدف بهجمات تصيد متقدمة\n\nمؤسسات مالية أو حكومية غالبًا بتواجه محاولات تصيد مصممة خصيصًا (Spear Phishing) بروابط مُعدّة بعناية لتتخطى الفلاتر العادية.\n\n### 3. عندك بالفعل طبقات حماية أساسية وعايز طبقة إضافية\n\nعزل المتصفح مش بديل عن الأساسيات (تحديثات، تدريب، 2FA) — هو طبقة إضافية فوقها لتقليل التعرض لمخاطر يوم الصفر تحديدًا في المتصفح نفسه.\n\n## نصيحة عملية: مش لازم تطبقها على الجميع\n\nالتكلفة والتعقيد الإضافي بيخلي التطبيق الشامل على كل الموظفين غير عملي غالبًا. ركّز على المستخدمين الأكتر عرضة فعليًا: فريق المبيعات اللي بيفتح روابط كتير من مصادر خارجية غير معروفة، فريق الدعم الفني، أو أي دور بيتعامل مع بريد خارجي كثيف.\n\n## الخلاصة\n\nعزل المتصفح طبقة حماية قوية ضد فئة كاملة من الهجمات (خصوصًا يوم الصفر) صعب اكتشافها بالطرق التقليدية — لكنها إضافة مكمّلة، مش بديل عن التدريب الأمني الأساسي والتحديثات المنتظمة.",
+      "en": "## The core idea: the page runs entirely away from your device\n\nInstead of a regular browser loading and executing site content directly on the user's device (JavaScript code, ads, any interactive content), browser isolation runs the entire page in a fully isolated environment (usually cloud-based, sometimes local) -- any malicious code present on the page executes there, completely away from the actual user device. What reaches the user is just a safe visual stream (pixel streaming) or a sanitized version of the content.\n\n## Why this is effective against previously undetected attacks\n\nTraditional protection tools (antivirus, URL filtering) rely on prior knowledge of the threat -- a known-malicious site, or a file matching a known virus signature. Browser isolation is fundamentally different: it doesn't need to know whether a site is malicious or not, because any executing code never reaches the actual user device -- even if the site has a zero-day vulnerability unknown to anyone until today.\n\n## When investing in this technology is genuinely worth it\n\n### 1. A team frequently dealing with untrusted links\n\nEmployees in email or continuous research from diverse external sources -- exposure likelihood to a malicious site is much higher than a team using only specific internal sites.\n\n### 2. A sector targeted by advanced phishing attacks\n\nFinancial or government institutions often face specifically crafted spear phishing attempts with carefully designed links meant to bypass regular filters.\n\n### 3. You already have basic protection layers and want an extra one\n\nBrowser isolation isn't a substitute for basics (updates, training, 2FA) -- it's an additional layer on top, specifically reducing exposure to zero-day risks in the browser itself.\n\n## Practical advice: no need to apply it to everyone\n\nThe extra cost and complexity often make blanket application to every employee impractical. Focus on genuinely higher-exposure users: sales teams opening many links from unknown external sources, technical support, or any role handling heavy external email.\n\n## Bottom line\n\nBrowser isolation is a strong protection layer against a whole class of attacks (especially zero-day) hard to catch with traditional methods -- but it's a complementary addition, not a substitute for basic security training and regular updates."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "endpoint",
@@ -1381,12 +1382,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-01-24",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8d2ViJTIwYnJvd3NlciUyMGxhcHRvcHxlbnwxfDB8fHwxNzg1ODcyMTY2fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "browser-isolation",
       "phishing",
-      "endpoint-security"
+      "endpoint-security",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1430,16 +1432,16 @@
     "id": "art-gen-0041",
     "slug": "usb-device-control-policy",
     "title": {
-      "ar": "سياسة التحكم في أجهزة USB: أمان بدون تعطيل الشغل",
-      "en": "USB Device Control Policy: Security Without Blocking Work"
+      "ar": "سياسة التحكم في أجهزة USB: الدليل الكامل لأمان بدون تعطيل الشغل",
+      "en": "USB Device Control Policy: The Complete Guide to Security Without Blocking Work"
     },
     "excerpt": {
-      "ar": "بدائل عملية غير \"امنع كل حاجة\" اللي بتوقف شغل ناس محتاجين USB فعليًا.",
-      "en": "Practical alternatives to 'block everything', which stops people who genuinely need USB access."
+      "ar": "4 مستويات تحكم متدرّج بدل المنع الكامل، وخطوات تطبيق عملية عبر Group Policy.",
+      "en": "4 levels of graduated control instead of total blocking, and practical implementation steps via Group Policy."
     },
     "body": {
-      "ar": "## المشكلة مع المنع الكامل\n\nمنع كل منافذ USB بيوقف شغل ناس محتاجينها فعليًا (نسخ ملفات كبيرة، أجهزة خارجية ضرورية)، وبيخلق مقاومة للسياسة كلها.\n\n## بدائل عملية عبر Group Policy\n\n1. اسمح بالقراءة بس، امنع الكتابة (نسخ ملفات للخارج) كافتراضي.\n2. اعمل قائمة بيضاء لأجهزة USB معتمدة معروفة (بالـSerial Number).\n3. فعّل تسجيل (Logging) لكل عملية نسخ لجهاز USB، حتى لو مسموحة.\n4. استثناءات لأقسام معينة محتاجة الوصول الكامل، بموافقة موثّقة.\n\n## أشهر الخطأ\n\nسياسة واحدة صارمة للجميع من غير مراعاة اختلاف احتياجات الأقسام.\n\n## الخلاصة\n\nتحكم متدرّج (قراءة فقط + تسجيل + استثناءات موثّقة) أفضل بكتير من منع كامل يوقف شغل الناس.",
-      "en": "## The problem with total blocking\n\nBlocking all USB ports stops people who genuinely need it (large file transfers, necessary external devices) and creates resistance to the whole policy.\n\n## Practical Group Policy alternatives\n\nAllow read-only by default, block write/copy-out; maintain a whitelist of approved USB devices by serial number; log every USB copy operation even when allowed; document exceptions for departments needing full access.\n\n## Bottom line\n\nGraduated control (read-only + logging + documented exceptions) beats a total ban that stops legitimate work."
+      "ar": "## المشكلة الجوهرية مع \"امنع كل حاجة\"\n\nمنع كل منافذ USB بالكامل حل بسيط على الورق، لكن عمليًا بيوقف شغل ناس محتاجينه فعليًا لأسباب شرعية: نسخ ملفات كبيرة مش عملي عبر الشبكة، أجهزة خارجية ضرورية (طابعات، قارئات بطاقات)، أو حتى فرق تقنية محتاجة توصيل أجهزة تشخيص. النتيجة العملية: مقاومة قوية للسياسة كلها، ومحاولات التفافية (زي استخدام تخزين سحابي شخصي بدل USB) بتكون أخطر من المشكلة الأصلية.\n\n## الحل: تحكم متدرّج بدل منع كامل\n\n### المستوى 1: قراءة فقط كافتراضي\n\nاسمح بقراءة الملفات من USB (زي استلام ملف من عميل)، امنع الكتابة (نسخ ملفات للخارج) كافتراضي عام لكل المستخدمين. ده بيغطي معظم الاحتياجات الشرعية اليومية من غير فتح باب تسريب البيانات.\n\n### المستوى 2: قائمة بيضاء لأجهزة معتمدة\n\nلو محتاج جهاز USB معين يشتغل بصلاحيات أوسع (زي جهاز تشفير شركة معتمد)، أضفه لقائمة بيضاء بالـSerial Number الفريد بتاعه — مش أي جهاز USB عمومًا، بس الأجهزة المحددة دي.\n\n### المستوى 3: تسجيل كل عملية، حتى المسموحة\n\nفعّل Logging لكل عملية نسخ لجهاز USB، حتى لو كانت مسموحة حسب السياسة — لو حصل تسريب بيانات لاحقًا، السجلات دي أساسية للتحقيق.\n\n### المستوى 4: استثناءات موثّقة لأقسام محددة\n\nبعض الأقسام (زي فريق IT أو التصميم اللي محتاج نقل ملفات ضخمة) ممكن تحتاج وصول كامل — اسمح بيه، لكن بموافقة موثّقة رسميًا ومراجعة دورية للتأكد إن الاستثناء لسه ضروري.\n\n## التطبيق العملي عبر Group Policy\n\nخطوات أساسية في بيئة Active Directory:\n1. أنشئ GPO منفصل لسياسة USB (مش جزء من GPO عام ضخم).\n2. اربطه بأضيق OU ممكن حسب مستوى الوصول المطلوب لكل مجموعة مستخدمين.\n3. اختبر على مجموعة صغيرة أولًا قبل التطبيق الشامل.\n4. راجع سجلات الاستخدام دوريًا للتأكد إن السياسة شغالة كما هو متوقع.\n\n## أشهر خطأ في تطبيق السياسة دي\n\nسياسة واحدة صارمة موحّدة للجميع من غير مراعاة اختلاف احتياجات الأقسام — فريق المبيعات وفريق IT عندهم احتياجات مختلفة تمامًا، وسياسة واحدة بتناسب الاتنين غالبًا مش هتكون مناسبة فعليًا لأي منهم.\n\n## الخلاصة\n\nتحكم متدرّج (قراءة فقط كافتراضي + قائمة بيضاء + تسجيل + استثناءات موثّقة) بيوازن بين الأمان الحقيقي واستمرارية العمل — أفضل بكتير من منع كامل بيخلق مقاومة ومحاولات التفاف أخطر من المشكلة الأصلية.",
+      "en": "## The core problem with 'block everything'\n\nBlocking all USB ports entirely is a simple solution on paper, but practically stops people who genuinely need it for legitimate reasons: large file transfers impractical over the network, necessary external devices (printers, card readers), or even technical teams needing to connect diagnostic tools. The practical result: strong resistance to the whole policy, and workaround attempts (like using personal cloud storage instead of USB) can be more dangerous than the original problem.\n\n## The fix: graduated control instead of total blocking\n\n### Level 1: read-only by default\n\nAllow reading files from USB (like receiving a file from a client), block writing (copying files out) as a general default for all users. This covers most legitimate daily needs without opening a data-leak door.\n\n### Level 2: a whitelist of approved devices\n\nIf a specific USB device needs broader privileges (like an approved company encryption device), add it to a whitelist by its unique serial number -- not any USB device generally, only these specific ones.\n\n### Level 3: log every operation, even allowed ones\n\nEnable logging for every USB copy operation, even if allowed by policy -- if a data leak occurs later, these logs are essential for investigation.\n\n### Level 4: documented exceptions for specific departments\n\nSome departments (like IT or design teams needing to move huge files) might need full access -- allow it, but with formal documented approval and periodic review to confirm the exception is still necessary.\n\n## Practical implementation via Group Policy\n\nBasic steps in an Active Directory environment: create a separate GPO for USB policy (not part of a giant general GPO), link it to the narrowest OU appropriate for each user group's required access level, test on a small group first before broad rollout, and periodically review usage logs to confirm the policy works as expected.\n\n## The most common mistake implementing this policy\n\nOne uniform strict policy for everyone without accounting for different departments' needs -- a sales team and an IT team have entirely different needs, and one policy fitting both usually fits neither well in practice.\n\n## Bottom line\n\nGraduated control (read-only by default + whitelist + logging + documented exceptions) balances real security against work continuity -- far better than a total ban that creates resistance and workaround attempts more dangerous than the original problem."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "endpoint",
@@ -1451,12 +1453,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-04-11",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1551818014-7c8ace9c1b5c?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8dXNiJTIwZmxhc2glMjBkcml2ZSUyMGNvbXB1dGVyfGVufDF8MHx8fDE3ODU4NzIxNjh8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "usb",
       "endpoint-security",
-      "group-policy"
+      "group-policy",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -3255,6 +3258,42 @@
       "containers",
       "docker",
       "kubernetes",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0093",
+    "slug": "byod-policy-security-guide",
+    "title": {
+      "ar": "سياسة BYOD (استخدام الجهاز الشخصي للعمل): الدليل الكامل",
+      "en": "BYOD Policy (Bring Your Own Device): The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "3 مخاطر أساسية، الفرق بين MDM وMAM (لماذا الأخير أكثر توازنًا)، وعناصر سياسة عملية موثّقة.",
+      "en": "3 core risks, the MDM vs MAM difference (why the latter is more balanced), and elements of a practical documented policy."
+    },
+    "body": {
+      "ar": "## ليه BYOD بقى واقع مفروض، مش خيار\n\nكتير من الموظفين النهاردة بيفضّلوا يستخدموا جهازهم الشخصي (موبايل أو لابتوب) بدل جهاز الشركة — أسهل، أسرع، ومألوف أكتر ليهم. منع ده تمامًا صعب عمليًا وبيقابل مقاومة كبيرة. السؤال الحقيقي مش \"نسمح ولا لأ\" لكن \"إزاي نسمح بأمان معقول من غير ما نفقد السيطرة الكاملة\".\n\n## المخاطر الأساسية اللي BYOD بيقدّمها\n\n### 1. فقدان التحكم في حالة الجهاز\n\nجهاز الشركة بتقدر تفرض عليه تحديثات، مضاد فيروسات، وإعدادات أمان موحّدة. جهاز شخصي، الموظف هو اللي بيتحكم فيه — ممكن يكون نظام تشغيل قديم، بدون مضاد فيروسات، أو حتى مُخترق أصلًا من غير ما يعرف.\n\n### 2. اختلاط البيانات الشخصية والعملية\n\nلو حصل حادث أمني (ضياع الجهاز، اختراق)، صعب تفصل بيانات الشركة عن البيانات الشخصية على نفس الجهاز — أي إجراء استجابة (زي مسح عن بُعد) بيأثر على الاتنين مع بعض.\n\n### 3. صعوبة تطبيق سياسات موحّدة\n\nأجهزة متنوعة (أنظمة تشغيل مختلفة، إصدارات مختلفة) بتخلي تطبيق سياسة أمنية موحّدة عملية معقدة تقنيًا.\n\n## الحل: إدارة الأجهزة المحمولة (MDM/MAM)\n\n### MDM (Mobile Device Management)\n\nبيدّي الشركة تحكم في الجهاز كله — مفيد لكن بيقابل مقاومة من الموظفين لأنه بيحس بالتدخل في خصوصيتهم الشخصية (الشركة تقدر تمسح الجهاز بالكامل مثلًا).\n\n### MAM (Mobile Application Management)\n\nحل أكثر توازنًا — بيدير بس التطبيقات والبيانات المرتبطة بالشركة (زي البريد الإلكتروني أو تطبيق العمل)، من غير التحكم في باقي الجهاز الشخصي. لو حصل حادث، الشركة تقدر تمسح بس البيانات المرتبطة بيها (Selective Wipe)، مش الجهاز كله.\n\n## عناصر سياسة BYOD عملية\n\n### 1. حدد بوضوح إيه المسموح وإيه الممنوع\n\nمين يقدر يستخدم جهازه الشخصي، لأي نوع بيانات (زي بريد بس، ولا وصول لأنظمة داخلية حساسة كمان).\n\n### 2. اشترط حد أدنى من الأمان قبل السماح بالوصول\n\nقفل شاشة إجباري، تشفير الجهاز، نظام تشغيل محدّث — لو الجهاز مش مستوفي الشروط، يتمنع الوصول تلقائيًا لحد ما يتحدّث.\n\n### 3. وضّح صلاحيات الشركة عند إنهاء الخدمة أو فقدان الجهاز\n\nالموظف لازم يوافق كتابيًا على إن الشركة تقدر تمسح البيانات المرتبطة بيها (Selective Wipe) في حالات محددة — الوضوح من البداية بيمنع نزاعات لاحقًا.\n\n### 4. درّب الموظفين على المخاطر الإضافية\n\nاستخدام جهاز شخصي لأغراض العمل معناه مسؤولية إضافية — الموظف لازم يفهم ليه شبكة Wi-Fi عامة غير آمنة، وليه تحديثات النظام مش رفاهية.\n\n## الخلاصة\n\nBYOD مش قرار \"نعم أو لا\" بسيط — هو موازنة بين راحة الموظفين وتحكم الشركة الأمني. حل MAM بدل MDM الكامل، مع سياسة واضحة موثّقة من البداية، بيدّي توازن عملي لمعظم البيئات.",
+      "en": "## Why BYOD has become a forced reality, not a choice\n\nMany employees today prefer using their personal device (phone or laptop) instead of a company-issued one -- easier, faster, and more familiar to them. Blocking this entirely is practically difficult and meets significant resistance. The real question isn't 'allow it or not' but 'how do we allow it with reasonable security without losing complete control'.\n\n## Core risks BYOD introduces\n\n### 1. Loss of control over device state\n\nA company device can have enforced updates, antivirus, and unified security settings. A personal device is controlled by the employee -- it could be running an old OS, no antivirus, or even already compromised without them knowing.\n\n### 2. Mixing personal and work data\n\nIf a security incident occurs (device lost, compromised), it's hard to separate company data from personal data on the same device -- any response action (like a remote wipe) affects both together.\n\n### 3. Difficulty applying uniform policies\n\nDiverse devices (different OSes, different versions) make applying a unified security policy technically complex.\n\n## The fix: Mobile Device/Application Management (MDM/MAM)\n\n### MDM (Mobile Device Management)\n\nGives the company control over the entire device -- useful but meets employee resistance since it feels intrusive to personal privacy (the company could wipe the entire device, for example).\n\n### MAM (Mobile Application Management)\n\nA more balanced solution -- manages only company-related apps and data (like email or a work app), without controlling the rest of the personal device. If an incident occurs, the company can selectively wipe only its own data, not the entire device.\n\n## Elements of a practical BYOD policy\n\n### 1. Clearly define what's allowed and what's not\n\nWho can use their personal device, for what kind of data (email only, or also access to sensitive internal systems).\n\n### 2. Require a minimum security baseline before allowing access\n\nMandatory screen lock, device encryption, an updated OS -- if the device doesn't meet requirements, access is automatically blocked until it does.\n\n### 3. Clarify company rights upon termination or device loss\n\nThe employee must formally agree that the company can perform a selective wipe of its own data under specific conditions -- clarity from the start prevents later disputes.\n\n### 4. Train employees on the additional risks\n\nUsing a personal device for work means added responsibility -- the employee needs to understand why public Wi-Fi is unsafe, and why OS updates aren't optional.\n\n## Bottom line\n\nBYOD isn't a simple 'yes or no' decision -- it's a balance between employee convenience and company security control. A MAM solution instead of full MDM, with a clear, documented policy from the start, gives a practical balance for most environments."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-24",
+    "readTime": 8,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "byod",
+      "mdm",
+      "endpoint-security",
       "guide"
     ],
     "isFeatured": true,
