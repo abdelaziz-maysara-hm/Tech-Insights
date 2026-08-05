@@ -3,12 +3,12 @@
     "id": "art-gen-0001",
     "slug": "2fa-practical-guide",
     "title": {
-      "ar": "المصادقة الثنائية (2FA): دليل عملي لحماية حساباتك",
-      "en": "Two-Factor Authentication (2FA): A Practical Guide"
+      "ar": "المصادقة الثنائية (2FA): دليل عملي شامل",
+      "en": "Two-Factor Authentication (2FA): A Practical Complete Guide"
     },
     "excerpt": {
-      "ar": "الفرق بين تطبيق المصادقة وSMS، وكيفية تفعيل 2FA وحفظ رموز الاسترداد.",
-      "en": "Authenticator apps vs SMS, how to enable 2FA, and store recovery codes safely."
+      "ar": "كل أنواع المصادقة الثنائية، إزاي تفعّلها صح، وأشهر الهجمات اللي بتستهدفها وإزاي تحمي نفسك منها.",
+      "en": "Every type of two-factor authentication, how to set it up correctly, and the common attacks targeting it with how to protect yourself."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -20,12 +20,12 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2022-01-01",
-    "readTime": 5,
+    "readTime": 10,
     "heroImage": "https://images.unsplash.com/photo-1667453466805-75bbf36e8707?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8dHdvJTIwZmFjdG9yJTIwYXV0aGVudGljYXRpb24lMjBwaG9uZXxlbnwxfDB8fHwxNzg1ODcyMTIyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "2fa",
-      "security",
-      "mfa"
+      "authentication",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -34,12 +34,12 @@
     "id": "art-gen-0002",
     "slug": "phishing-spot-before-click",
     "title": {
-      "ar": "التصيد الاحتيالي: كيف تكتشفه قبل ما تضغط",
-      "en": "Phishing: Spot It Before You Click"
+      "ar": "التصيد الإلكتروني: كيف تكتشفه قبل ما تضغط",
+      "en": "Phishing: How to Spot It Before You Click"
     },
     "excerpt": {
-      "ar": "علامات الرسالة المزيفة، روابط ملغومة، وماذا تفعل لو ضغطت بالخطأ.",
-      "en": "Signs of fake messages, malicious links, and what to do after a bad click."
+      "ar": "أنواع التصيد المختلفة، علامات تقنية حقيقية تكتشفها، وخطوات فورية لو ضغطت على رابط مشبوه بالغلط.",
+      "en": "The different types of phishing, real technical signs to spot, and immediate steps if you accidentally clicked a suspicious link."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -51,12 +51,12 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2022-03-08",
-    "readTime": 4,
+    "readTime": 9,
     "heroImage": "https://images.unsplash.com/photo-1557200134-90327ee9fafa?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8cGhpc2hpbmclMjBlbWFpbCUyMHdhcm5pbmd8ZW58MXwwfHx8MTc4NTg3MjEyNHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "phishing",
-      "email",
-      "security"
+      "email-security",
+      "social-engineering"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -158,12 +158,12 @@
     "id": "art-gen-0006",
     "slug": "password-manager-start",
     "title": {
-      "ar": "مدير كلمات المرور: ليه تحتاجه وإزاي تبدأ",
+      "ar": "مديرو كلمات المرور: لماذا تحتاجه وكيف تبدأ",
       "en": "Password Managers: Why You Need One and How to Start"
     },
     "excerpt": {
-      "ar": "بديل آمن لتكرار نفس كلمة المرور، مع خطة نقل تدريجية.",
-      "en": "A safer alternative to password reuse, with a gradual migration plan."
+      "ar": "إزاي مديرو كلمات المرور بيشتغلوا فعليًا، ليه أأمن من الحفظ الذهني، وخطة هجرة عملية من غير ما تتقفل برّه حساباتك.",
+      "en": "How password managers actually work, why they're safer than memorizing, and a practical migration plan without locking yourself out."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -175,12 +175,12 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2023-02-09",
-    "readTime": 4,
+    "readTime": 9,
     "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8cGFzc3dvcmQlMjBzZWN1cml0eSUyMGxvY2t8ZW58MXwwfHx8MTc4NTg3MjEzMnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
+      "password-manager",
       "passwords",
-      "security",
-      "tools"
+      "identity"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -250,12 +250,12 @@
     "id": "art-gen-0009",
     "slug": "vpn-basics-what-it-does",
     "title": {
-      "ar": "VPN للمبتدئين: ماذا يفعل وماذا لا يفعل؟",
+      "ar": "VPN: ماذا يفعل فعليًا وماذا لا يفعل",
       "en": "VPN Basics: What It Does and Doesn't Do"
     },
     "excerpt": {
-      "ar": "تشفير الاتصال، تغيير الظاهر من العنوان، وحدود الحماية.",
-      "en": "Encryption, IP appearance, and the limits of protection."
+      "ar": "إزاي الـVPN بيشتغل تقنيًا، إيه اللي بيحميك منه فعلًا وإيه اللي مش بيحميك منه، وأشهر المفاهيم الخاطئة عنه.",
+      "en": "How VPN actually works technically, what it genuinely protects you from and doesn't, and the most common misconceptions about it."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "vpn-remote",
@@ -267,11 +267,12 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2023-10-03",
-    "readTime": 4,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1603985529862-9e12198c9a60?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8dnBuJTIwcHJpdmFjeSUyMG5ldHdvcmt8ZW58MXwwfHx8MTc4NTg3MjEzNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "vpn",
-      "privacy"
+      "privacy",
+      "network-security"
     ],
     "isFeatured": false,
     "isTrending": false
