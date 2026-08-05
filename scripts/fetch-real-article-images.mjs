@@ -66,16 +66,47 @@ function queryFor(article) {
     'nist-password': 'password keyboard security',
     nac: 'network access control server',
     'health-check': 'server dashboard monitor',
+    'ssl-vpn': 'vpn secure connection laptop',
+    'penetration-testing': 'hacker code terminal dark',
+    'vulnerability-scanning': 'security scan code screen',
+    bitlocker: 'encryption padlock hard drive',
+    encryption: 'digital lock encryption data',
+    'windows-firewall': 'firewall shield network computer',
+    xss: 'code injection programming screen',
+    'web-security': 'website security browser lock',
+    'api-security': 'api code developer screen',
+    'secrets-management': 'password key vault security',
+    'physical-security': 'server room locked door',
+    'server-room': 'data center server racks',
+    'supply-chain': 'shipping logistics chain network',
+    'third-party-risk': 'business handshake risk contract',
+    containers: 'shipping containers docker technology',
+    docker: 'container technology server',
+    wifi: 'wifi router wireless signal',
+    'network-segmentation': 'network cables switch diagram',
+    'guest-network': 'wifi guest hotel lobby',
+    'change-management': 'office meeting whiteboard planning',
+    'it-operations': 'server monitor operations center',
+    mfa: 'phone verification code security',
+    authentication: 'fingerprint biometric security lock',
+    identity: 'digital identity fingerprint scan',
+    'n-able': 'remote monitoring dashboard screen',
+    rmm: 'it management dashboard screen',
+    azure: 'microsoft azure cloud computing',
+    'cloud-security': 'cloud data security padlock',
+    'password-spray': 'password attack keyboard dark',
+    'ruby-on-rails': 'ruby programming code editor',
+    rce: 'code exploit terminal hacker',
   };
   for (const tag of tags) {
     const key = tag.toLowerCase();
     if (map[key]) return map[key];
   }
-  return 'cybersecurity technology network';
+  return 'server technology data center abstract';
 }
 
 async function searchPhoto(query, usedIds) {
-  const url = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=10&orientation=landscape&content_filter=high`;
+  const url = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=30&orientation=landscape&content_filter=high`;
   const res = await fetch(url, {
     headers: { Authorization: `Client-ID ${ACCESS_KEY}` },
   });
@@ -84,19 +115,33 @@ async function searchPhoto(query, usedIds) {
     return null;
   }
   const data = await res.json();
-  for (const photo of data.results || []) {
+  const results = data.results || [];
+  for (const photo of results) {
     if (!usedIds.has(photo.id)) {
       usedIds.add(photo.id);
       return photo;
     }
   }
-  return data.results?.[0] || null;
+  // Pool for this query is exhausted -- pick a pseudo-random one instead of
+  // always the same first result, to avoid one photo dominating.
+  if (results.length) {
+    return results[Math.floor(Math.random() * results.length)];
+  }
+  return null;
 }
 
 const usedIds = new Set();
 let updated = 0;
 
-for (const article of articles) {
+// Only touch articles whose current image is a duplicate -- the 59 that
+// are already unique should stay exactly as they are.
+const imageCounts = {};
+for (const a of articles) imageCounts[a.heroImage] = (imageCounts[a.heroImage] || 0) + 1;
+const needsFix = articles.filter((a) => imageCounts[a.heroImage] > 1);
+
+console.log(`${needsFix.length} article(s) currently share a duplicated image -- fixing only those.\n`);
+
+for (const article of needsFix) {
   const query = queryFor(article);
   const photo = await searchPhoto(query, usedIds);
   if (photo) {
