@@ -669,12 +669,12 @@
     "id": "art-gen-0022",
     "slug": "snmp-monitoring-basics",
     "title": {
-      "ar": "أساسيات مراقبة الشبكة بـ SNMP",
-      "en": "Network Monitoring Basics with SNMP"
+      "ar": "أساسيات مراقبة الشبكة بـ SNMP: الدليل الكامل",
+      "en": "Network Monitoring Basics with SNMP: The Complete Guide"
     },
     "excerpt": {
-      "ar": "إزاي تراقب حالة الأجهزة والسويتشات من غير ما تدخل كل واحد يدويًا.",
-      "en": "How to monitor device and switch health without logging into each one manually."
+      "ar": "الفرق بين v1/v2c وv3 بالتفصيل، خطوات إعداد كاملة، وأشهر 3 أخطاء بتعرّض بيانات جهازك.",
+      "en": "The v1/v2c vs v3 difference in detail, complete setup steps, and the 3 most common mistakes that expose your device's data."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -686,12 +686,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-05-13",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMG1vbml0b3JpbmclMjBkYXNoYm9hcmR8ZW58MXwwfHx8MTc4NTg3MjE1MXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "snmp",
       "monitoring",
-      "networking"
+      "networking",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -763,12 +764,12 @@
     "id": "art-gen-0025",
     "slug": "windows-patch-management-strategy",
     "title": {
-      "ar": "استراتيجية تحديث الأنظمة (Patch Management) لبيئة صغيرة",
+      "ar": "استراتيجية تحديث الأنظمة (Patch Management): الدليل الكامل",
       "en": "A Patch Management Strategy for a Small Environment"
     },
     "excerpt": {
-      "ar": "إزاي توازن بين الأمان (تحديث بسرعة) والاستقرار (متكسرش حاجة) من غير أداة مؤسسية ضخمة.",
-      "en": "Balancing security (patch fast) against stability (don't break anything) without a huge enterprise tool."
+      "ar": "نظام الحلقات بالتفصيل (اختبار/إنتاج)، استثناء التحديثات الحرجة، ومقارنة أدوات حسب حجم البيئة (WSUS/SaaS/Intune).",
+      "en": "The ring system explained in detail (test/production), the critical-patch exception, and tool comparison by environment size (WSUS/SaaS/Intune)."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -780,12 +781,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-11-07",
-    "readTime": 5,
+    "readTime": 9,
     "heroImage": "https://images.unsplash.com/photo-1762340915398-000c216e7cd6?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8c29mdHdhcmUlMjB1cGRhdGUlMjBjb21wdXRlcnxlbnwxfDB8fHwxNzg1ODcyMTU0fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "patch-management",
       "windows-server",
-      "wsus"
+      "wsus",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -890,12 +892,12 @@
     "id": "art-gen-0029",
     "slug": "hyper-v-vs-checkpoints-basics",
     "title": {
-      "ar": "استخدام Checkpoints في Hyper-V بأمان",
-      "en": "Using Hyper-V Checkpoints Safely"
+      "ar": "استخدام Checkpoints في Hyper-V بأمان: الدليل الكامل",
+      "en": "Using Hyper-V Checkpoints Safely: The Complete Guide"
     },
     "excerpt": {
-      "ar": "الفرق بين Checkpoint ونسخة احتياطية حقيقية، ومتى تستخدم كل واحدة.",
-      "en": "The difference between a checkpoint and a real backup, and when to use each."
+      "ar": "ليه Checkpoint مش بديل عن نسخة احتياطية، المشكلة العملية مع التراكم (أداء وتخزين)، وخطوات استخدام آمنة.",
+      "en": "Why a checkpoint isn't a backup substitute, the practical problem with buildup (performance and storage), and safe usage steps."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -907,12 +909,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-07-08",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8YmFja3VwJTIwZGF0YSUyMHN0b3JhZ2UlMjBkaXNrfGVufDF8MHx8fDE3ODU4NzIxNDR8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "hyper-v",
       "virtualization",
-      "backup"
+      "backup",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2817,6 +2820,38 @@
       "vulnerability-management",
       "cvss",
       "security-operations",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0091",
+    "slug": "how-edr-actually-works",
+    "title": {
+      "ar": "كيف يعمل EDR فعليًا: الفرق الجوهري عن مضاد الفيروسات التقليدي",
+      "en": "How EDR Actually Works: The Fundamental Difference from Traditional Antivirus"
+    },
+    "excerpt": {
+      "ar": "التحليل السلوكي بدل التوقيعات الثابتة، ليه EDR بيكتشف الهجمات بدون ملفات، وقيوده الواقعية.",
+      "en": "Behavioral analysis instead of fixed signatures, why EDR catches fileless attacks, and its realistic limitations."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-10",
+    "readTime": 9,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "edr",
+      "endpoint-security",
+      "malware",
       "guide"
     ],
     "isFeatured": true,
