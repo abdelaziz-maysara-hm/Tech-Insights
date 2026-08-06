@@ -1568,8 +1568,8 @@
       "en": "Advanced Windows Firewall Rules: More Than Just On/Off"
     },
     "excerpt": {
-      "ar": "إزاي تستخدم جدار الحماية المدمج في Windows بذكاء بدل ما تعتمد على الإعدادات الافتراضية بس.",
-      "en": "How to use Windows' built-in firewall intelligently instead of relying on default settings alone."
+      "ar": "ليه القواعد الصادرة مهمة بنفس قدر الواردة، 4 قواعد عملية تفصيلية، والخطأ الشائع فعليًا (تعطيل مؤقت بينسى تفعيله).",
+      "en": "Why outbound rules matter as much as inbound, 4 detailed practical rules, and the actual common mistake (a temporary disable that never gets re-enabled)."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -1581,12 +1581,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-12-20",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1614064548237-096f735f344f?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8ZmlyZXdhbGwlMjBzaGllbGQlMjBuZXR3b3JrJTIwY29tcHV0ZXJ8ZW58MXwwfHx8MTc4NTg5ODQ2NXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "windows-firewall",
       "network-security",
-      "windows"
+      "windows",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1754,12 +1755,12 @@
     "id": "art-gen-0056",
     "slug": "supply-chain-attacks-third-party-risk",
     "title": {
-      "ar": "هجمات سلسلة التوريد: لما الخطر بييجي من مورّد موثوق",
-      "en": "Supply Chain Attacks: When the Risk Comes from a Trusted Vendor"
+      "ar": "هجمات سلسلة التوريد: الدليل الكامل لما بيجي الخطر من مورّد موثوق",
+      "en": "Supply Chain Attacks: The Complete Guide to When the Risk Comes from a Trusted Vendor"
     },
     "excerpt": {
-      "ar": "ليه فحص أمان الموردين بقى ضروري، مش مجرد إجراء بيروقراطي.",
-      "en": "Why vendor security assessments became essential, not just bureaucratic paperwork."
+      "ar": "3 أمثلة حقيقية موثّقة لنقاط الخطر بالتفصيل، وليه ثقتك في المورّد نفسها هي السلاح المُستغل.",
+      "en": "3 real documented examples of risk points in detail, and why your own trust in the vendor is the weapon being exploited."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
@@ -1771,12 +1772,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-06-08",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1606185540834-d6e7483ee1a4?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8c2hpcHBpbmclMjBsb2dpc3RpY3MlMjBjaGFpbiUyMG5ldHdvcmt8ZW58MXwwfHx8MTc4NTg5ODQ2OXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "supply-chain",
       "third-party-risk",
-      "security"
+      "security",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1849,12 +1851,12 @@
     "id": "art-gen-0059",
     "slug": "spf-dkim-dmarc-email-basics",
     "title": {
-      "ar": "SPF وDKIM وDMARC: إزاي تمنع حد ينتحل دومين إيميلك",
-      "en": "SPF, DKIM, and DMARC: How to Stop Someone Spoofing Your Email Domain"
+      "ar": "SPF وDKIM وDMARC: الدليل الكامل لمنع انتحال دومين إيميلك",
+      "en": "SPF, DKIM, and DMARC: The Complete Guide to Stopping Email Domain Spoofing"
     },
     "excerpt": {
-      "ar": "ثلاث سجلات DNS بسيطة بتحمي دومينك من إيميلات مزوّرة باسمك.",
-      "en": "Three simple DNS records that protect your domain from emails forged in your name."
+      "ar": "إزاي كل سجل بيشتغل تقنيًا بالتفصيل، وليه البدء بوضع مراقبة DMARC (p=none) أهم خطوة لتجنب كارثة عملية.",
+      "en": "How each record technically works in detail, and why starting DMARC in monitor mode (p=none) is the most important step to avoid a practical disaster."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -1866,13 +1868,14 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-02-02",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1683117927786-f146451082fb?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8M3x8ZW1haWwlMjBpbmJveCUyMHNlY3VyaXR5fGVufDF8MHx8fDE3ODU4NzIxNDh8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "email-security",
       "dmarc",
       "spf",
-      "dkim"
+      "dkim",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -3237,6 +3240,38 @@
       "soc",
       "security-operations",
       "mssp",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0103",
+    "slug": "immutable-backups-ransomware-defense",
+    "title": {
+      "ar": "النسخ الاحتياطية غير القابلة للتعديل (Immutable Backups): الدليل الكامل",
+      "en": "Immutable Backups: The Complete Guide to Ransomware's Last Line of Defense"
+    },
+    "excerpt": {
+      "ar": "ليه المهاجمين بيستهدفون النسخ الاحتياطية نفسها عمدًا، وإزاي القفل التقني على مستوى التخزين مختلف جذريًا عن مجرد صلاحيات الوصول.",
+      "en": "Why attackers deliberately target backups themselves, and how a technical storage-level lock differs fundamentally from just access permissions."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-13",
+    "readTime": 8,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "backup",
+      "ransomware",
+      "disaster-recovery",
       "guide"
     ],
     "isFeatured": true,
