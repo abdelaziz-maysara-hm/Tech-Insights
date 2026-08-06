@@ -1407,8 +1407,8 @@
       "en": "Network Access Control (NAC): Who's Even Allowed to Connect?"
     },
     "excerpt": {
-      "ar": "طبقة حماية بتتأكد من هوية وحالة الجهاز قبل ما يوصل للشبكة خالص.",
-      "en": "A protection layer that verifies device identity and health before it ever reaches the network."
+      "ar": "سيناريو عملي يوضّح القيمة الحقيقية، 4 خطوات بداية تفصيلية، وليه التفعيل الصارم المفاجئ أشهر خطأ.",
+      "en": "A practical scenario illustrating real value, 4 detailed starting steps, and why sudden strict enforcement is the most common mistake."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -1420,12 +1420,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-01-12",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1682559736721-c2e77ff4c650?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NHx8bmV0d29yayUyMGFjY2VzcyUyMGNvbnRyb2wlMjBzZXJ2ZXJ8ZW58MXwwfHx8MTc4NTg3MjE3MHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "nac",
       "network-security",
-      "access-control"
+      "access-control",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1466,12 +1467,12 @@
     "id": "art-gen-0047",
     "slug": "vulnerability-scanning-vs-penetration-testing",
     "title": {
-      "ar": "فحص الثغرات مقابل اختبار الاختراق: مش نفس الحاجة",
-      "en": "Vulnerability Scanning vs Penetration Testing: Not the Same Thing"
+      "ar": "فحص الثغرات مقابل اختبار الاختراق: الدليل الكامل",
+      "en": "Vulnerability Scanning vs Penetration Testing: The Complete Guide"
     },
     "excerpt": {
-      "ar": "لبس شائع بين الاتنين، والفرق الحقيقي في العمق والهدف.",
-      "en": "A common confusion between the two, and the real difference in depth and goal."
+      "ar": "الفرق العملي في النتائج بمثال واضح، أشهر خطأ (الاعتماد على واحد بس)، وإزاي يكمّلوا بعض في استراتيجية واحدة.",
+      "en": "The practical difference in results with a clear example, the most common mistake (relying on just one), and how they complement each other in one strategy."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -1483,12 +1484,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-03-26",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1562813733-b31f71025d54?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8aGFja2VyJTIwY29kZSUyMHRlcm1pbmFsJTIwZGFya3xlbnwxfDB8fHwxNzg1ODk4NDYzfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "penetration-testing",
       "vulnerability-scanning",
-      "security"
+      "security",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2345,8 +2347,8 @@
       "en": "Honeypots: Catching an Attacker Before They Reach Anything Real"
     },
     "excerpt": {
-      "ar": "نظام وهمي مصمم يجذب المهاجم، فيديك تنبيه مبكر جدًا من غير أي خطر حقيقي.",
-      "en": "A fake system designed to lure an attacker, giving you a very early warning with zero real risk."
+      "ar": "الفرق بين Low-Interaction وHigh-Interaction بالتفصيل، خطوات بداية عملية، ونصيحة العزل الصارم الأساسية.",
+      "en": "The Low-Interaction vs High-Interaction difference in detail, practical starting steps, and the essential strict-isolation advice."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -2358,12 +2360,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-02-06",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "honeypot",
       "deception",
-      "threat-detection"
+      "threat-detection",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -3097,6 +3100,38 @@
       "insider-threat",
       "risk-management",
       "hr-security",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0099",
+    "slug": "authentication-vs-authorization-explained",
+    "title": {
+      "ar": "المصادقة مقابل التفويض (Authentication vs Authorization): الدليل الكامل",
+      "en": "Authentication vs Authorization: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "الفرق الجوهري بين 'مين إنت' و'مسموح لك تعمل إيه'، نماذج RBAC/ABAC/ACL، ومثال عملي يوضّح ليه الخلط بينهم يسبب ثغرات حقيقية.",
+      "en": "The fundamental difference between 'who are you' and 'what are you allowed to do', RBAC/ABAC/ACL models, and a practical example showing why confusing them causes real vulnerabilities."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-12",
+    "readTime": 9,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "authentication",
+      "authorization",
+      "identity",
       "guide"
     ],
     "isFeatured": true,
