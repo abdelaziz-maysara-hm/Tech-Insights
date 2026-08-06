@@ -1590,12 +1590,12 @@
     "id": "art-gen-0051",
     "slug": "phishing-simulation-training-programs",
     "title": {
-      "ar": "برامج محاكاة التصيد الإلكتروني: هل فعليًا بتقلل المخاطر؟",
-      "en": "Phishing Simulation Training Programs: Do They Actually Reduce Risk?"
+      "ar": "برامج محاكاة التصيد الإلكتروني: الدليل الكامل لتصميم برنامج فعّال",
+      "en": "Phishing Simulation Training Programs: The Complete Guide to Effective Design"
     },
     "excerpt": {
-      "ar": "إزاي تصمم برنامج محاكاة تصيد يعلّم الموظفين بدل ما يخليهم يحسوا إنهم متهمين.",
-      "en": "How to design a phishing simulation program that educates employees instead of making them feel accused."
+      "ar": "ليه العقاب بيعكس النتيجة، 4 مبادئ تصميم بالتفصيل، وسيناريو يوضّح ليه قياس النجاح مش بس نسبة الوقوع.",
+      "en": "Why punishment backfires, 4 design principles in detail, and a scenario showing why measuring success isn't just click rate."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1607,12 +1607,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-01-27",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1762330474207-ae7280bdef66?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8M3x8cGhpc2hpbmclMjBlbWFpbCUyMHdhcm5pbmd8ZW58MXwwfHx8MTc4NTg3MjEyNHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "phishing",
       "security-awareness",
-      "training"
+      "training",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1812,8 +1813,8 @@
       "en": "Guest Wi-Fi Isolation: A Simple Setup with a Big Payoff"
     },
     "excerpt": {
-      "ar": "ليه ضيف أو زائر معندوش وصول لنفس شبكة الموظفين الداخلية.",
-      "en": "Why a guest or visitor shouldn't have access to the same internal employee network."
+      "ar": "5 خطوات إعداد تفصيلية بدل 4، وليه مشاركة كلمة المرور الداخلية بتلغي الفايدة كاملة بغض النظر عن باقي الإعدادات.",
+      "en": "5 detailed setup steps up from 4, and why sharing the internal password eliminates the entire benefit regardless of other settings."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -1825,12 +1826,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-01-22",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1645725677294-ed0843b97d5c?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8d2lmaSUyMHJvdXRlciUyMHdpcmVsZXNzJTIwc2lnbmFsfGVufDF8MHx8fDE3ODU4OTg0NzB8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "wifi",
       "network-segmentation",
-      "guest-network"
+      "guest-network",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2534,8 +2536,8 @@
       "en": "Threat Modeling with STRIDE: Think Like an Attacker Before You Build"
     },
     "excerpt": {
-      "ar": "طريقة منظمة تساعدك تكتشف نقاط الضعف المحتملة وأنت لسه بتصمم النظام، مش بعد ما يتبنى.",
-      "en": "A structured way to spot potential weaknesses while you're still designing the system, not after it's built."
+      "ar": "الست فئات بالتفصيل مع أمثلة حقيقية، مثال تطبيقي كامل (نظام تسجيل دخول)، ومتى تطبّق STRIDE عمليًا.",
+      "en": "The six categories in detail with real examples, a complete applied example (a login system), and when to apply STRIDE practically."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
@@ -2547,12 +2549,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-06-21",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "threat-modeling",
       "stride",
-      "secure-design"
+      "secure-design",
+      "guide"
     ],
     "isFeatured": true,
     "isTrending": false
@@ -3062,6 +3065,38 @@
       "dlp",
       "data-security",
       "compliance",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0098",
+    "slug": "insider-risk-program-guide",
+    "title": {
+      "ar": "بناء برنامج إدارة التهديد الداخلي: الدليل الكامل",
+      "en": "Building an Insider Risk Program: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "3 فئات مختلفة للتهديد الداخلي، علامات تحذيرية سلوكية حقيقية، وليه التوازن بين الأمان والثقة حساس جدًا.",
+      "en": "3 different insider threat categories, real behavioral warning signs, and why balancing security against trust is so delicate."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-05",
+    "readTime": 9,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "insider-threat",
+      "risk-management",
+      "hr-security",
       "guide"
     ],
     "isFeatured": true,
