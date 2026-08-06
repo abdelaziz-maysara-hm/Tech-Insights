@@ -1114,12 +1114,12 @@
     "id": "art-gen-0036",
     "slug": "ransomware-first-hour-response",
     "title": {
-      "ar": "أول ساعة بعد اكتشاف Ransomware: إيه تعمل بالظبط",
-      "en": "The First Hour After Discovering Ransomware: What to Actually Do"
+      "ar": "أول ساعة بعد اكتشاف Ransomware: الدليل الكامل لإيه تعمل بالظبط",
+      "en": "The First Hour After Discovering Ransomware: The Complete Guide to What to Actually Do"
     },
     "excerpt": {
-      "ar": "خطوات فورية قبل ما تفكر في الاستعادة، عشان متزودش الضرر.",
-      "en": "Immediate steps before even thinking about recovery, so you don't make things worse."
+      "ar": "خطوات فورية بالترتيب الصحيح، وأشهر 3 أخطاء بتزود الضرر بدل ما تقلله.",
+      "en": "Immediate steps in the correct order, and the 3 most common mistakes that increase damage instead of reducing it."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1131,12 +1131,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-09-03",
-    "readTime": 6,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/flagged/photo-1560854350-13c0b47a3180?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8M3x8cmFuc29td2FyZSUyMGN5YmVyJTIwYXR0YWNrJTIwd2FybmluZ3xlbnwxfDB8fHwxNzg1ODcyMTYxfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "ransomware",
       "incident-response",
-      "security"
+      "security",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1709,12 +1710,12 @@
     "id": "art-gen-0055",
     "slug": "physical-security-server-room-basics",
     "title": {
-      "ar": "الأمان الفيزيائي لغرفة السيرفرات: أساسيات بيتم تجاهلها",
-      "en": "Physical Security for the Server Room: Basics That Get Overlooked"
+      "ar": "الأمان الفيزيائي لغرفة السيرفرات: الدليل الكامل للأساسيات المتجاهَلة",
+      "en": "Physical Security for the Server Room: The Complete Guide to Overlooked Basics"
     },
     "excerpt": {
-      "ar": "كل الحماية الرقمية مالهاش قيمة لو أي حد يقدر يدخل غرفة السيرفر فعليًا.",
-      "en": "All the digital protection means little if anyone can physically walk into the server room."
+      "ar": "ليه أي حد يوصل فيزيائيًا للسيرفر يقدر يتجاوز الحماية الرقمية، و5 أساسيات عملية بالتفصيل.",
+      "en": "Why anyone with physical server access can bypass digital protection, and 5 practical basics in detail."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1726,12 +1727,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-05-01",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1680992046626-418f7e910589?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8c2VydmVyJTIwcm9vbSUyMGxvY2tlZCUyMGRvb3J8ZW58MXwwfHx8MTc4NTg5ODQ2OHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "physical-security",
       "server-room",
-      "infrastructure"
+      "infrastructure",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2364,8 +2366,8 @@
     "id": "art-gen-0076",
     "slug": "security-awareness-training-metrics",
     "title": {
-      "ar": "قياس فعالية تدريب الوعي الأمني: أرقام غير نسبة النقر بس",
-      "en": "Measuring Security Awareness Training: Beyond Just Click Rate"
+      "ar": "قياس فعالية تدريب الوعي الأمني: الدليل الكامل لأرقام غير نسبة النقر",
+      "en": "Measuring Security Awareness Training: The Complete Guide Beyond Click Rate"
     },
     "excerpt": {
       "ar": "نسبة اللي وقعوا في محاكاة التصيد مؤشر واحد بس، وممكن يضلّلك لو اعتمدت عليه بس.",
@@ -2381,12 +2383,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-03-13",
-    "readTime": 5,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "security-awareness",
       "phishing",
-      "training-metrics"
+      "training-metrics",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2957,6 +2960,38 @@
       "ssdlc",
       "devsecops",
       "secure-coding",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0095",
+    "slug": "how-siem-actually-works",
+    "title": {
+      "ar": "كيف يعمل SIEM فعليًا: الفرق بين مجرد تجميع السجلات والقيمة الحقيقية",
+      "en": "How SIEM Actually Works: The Difference Between Simple Log Collection and Real Value"
+    },
+    "excerpt": {
+      "ar": "5 مكونات أساسية (جمع، تطبيع، ربط، تنبيه، تقارير)، وسيناريو Impossible Travel يوضّح القيمة الحقيقية.",
+      "en": "5 core components (collection, normalization, correlation, alerting, reporting), and an Impossible Travel scenario illustrating real value."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-11",
+    "readTime": 9,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "siem",
+      "security-operations",
+      "correlation",
       "guide"
     ],
     "isFeatured": true,
