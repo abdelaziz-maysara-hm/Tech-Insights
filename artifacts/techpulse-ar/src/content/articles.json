@@ -1544,16 +1544,16 @@
     "id": "art-gen-0044",
     "slug": "nist-password-guidelines-vs-old-rules",
     "title": {
-      "ar": "إرشادات NIST لكلمات المرور: ليه تعقيدها ما بقاش الحل",
-      "en": "NIST Password Guidelines: Why Complexity Rules Stopped Being the Answer"
+      "ar": "إرشادات NIST لكلمات المرور: الدليل الكامل لليه التعقيد ما بقاش الحل",
+      "en": "NIST Password Guidelines: The Complete Guide to Why Complexity Rules Stopped Being the Answer"
     },
     "excerpt": {
-      "ar": "ليه فرض تغيير الباسورد كل 90 يوم ورموز إجبارية معقدة بقت ممارسة قديمة.",
-      "en": "Why forcing password changes every 90 days and mandatory complex symbols became an outdated practice."
+      "ar": "ليه القواعد القديمة كانت غلط من الأساس، 4 توصيات NIST بالتفصيل، ومثال عملي يوضّح الفرق الحقيقي في القوة.",
+      "en": "Why the old rules were wrong from the start, 4 detailed NIST recommendations, and a practical example showing the real difference in strength."
     },
     "body": {
-      "ar": "## المشكلة مع القواعد القديمة\n\nفرض تغيير كلمة المرور بشكل متكرر بيخلي المستخدمين يستخدموا أنماط متوقعة (Password1, Password2...) — بيقلل الأمان الفعلي بدل ما يزوده.\n\n## توصيات NIST الحديثة (SP 800-63B)\n\n1. كلمة مرور طويلة (Passphrase) أفضل من كلمة قصيرة معقدة — الطول أهم من التعقيد.\n2. متجبرش تغيير دوري إلا لو فيه دليل حقيقي على تسريب.\n3. امنع كلمات مرور معروفة/مسرّبة (Password Blocklist)، مش قواعد تعقيد إجبارية.\n4. شجّع استخدام مدير كلمات مرور بدل الحفظ الذهني.\n\n## أشهر مقاومة للتغيير\n\nكتير من المؤسسات لسه شغالة بالقواعد القديمة لأسباب امتثال قديمة، رغم إن NIST نفسها غيّرت توصياتها من سنين.\n\n## الخلاصة\n\nطول كلمة المرور + منع كلمات معروفة أهم بكتير من التعقيد الإجباري والتغيير المتكرر.",
-      "en": "## The problem with old rules\n\nForcing frequent password changes pushes users toward predictable patterns (Password1, Password2...) -- actually reducing security rather than improving it.\n\n## Modern NIST guidance (SP 800-63B)\n\nA long passphrase beats a short complex password -- length matters more than complexity. Don't force periodic changes without evidence of a leak. Block known/leaked passwords instead of mandatory complexity rules. Encourage a password manager over memorization.\n\n## Bottom line\n\nLength plus blocking known-leaked passwords matters far more than mandatory complexity and frequent rotation."
+      "ar": "## ليه القواعد القديمة كانت غلط من الأساس (رغم إنها بديهية ظاهريًا)\n\nفرض تغيير كلمة المرور كل 90 يوم بيبدو منطقي على الورق — تقليل نافذة الخطر لو كلمة المرور اتسرّبت. لكن عمليًا، البحث الفعلي أثبت عكس ده تمامًا: المستخدمين بيستجيبوا للتغيير الإجباري المتكرر بأنماط متوقعة جدًا (Password1! ثم Password2! ثم Password3!) — تغيير سطحي جدًا سهل جدًا على أي مهاجم يخمّنه لو عرف النمط السابق. النتيجة العملية: القاعدة المصممة \"لزيادة الأمان\" كانت بتقلله فعليًا.\n\n## توصيات NIST الحديثة بالتفصيل (SP 800-63B)\n\n### 1. الطول أهم بكثير من التعقيد\n\nكلمة مرور طويلة نسبيًا (Passphrase من عدة كلمات عادية) أقوى رياضيًا وأسهل تذكرًا من كلمة قصيرة معقدة برموز غريبة. مثال: `أحمد-يحب-القهوة-الصباح-2019` أقوى فعليًا وأسهل تذكرًا من `Xk9#mP2!`.\n\n### 2. متجبرش تغيير دوري بدون سبب حقيقي\n\nالتغيير الإجباري كل فترة زمنية ثابتة من غير دليل فعلي على تسريب بيسبب أنماط ضعيفة ومتوقعة. غيّر بس لما يكون فيه سبب حقيقي (تسريب مؤكد، اشتباه في اختراق).\n\n### 3. امنع كلمات مرور معروفة ومسرّبة (Password Blocklist)\n\nبدل فرض قواعد تعقيد تعسفية (حرف كبير + رقم + رمز)، امنع مباشرة أي كلمة مرور موجودة في قوائم التسريبات المعروفة (زي `Have I Been Pwned` API) — ده حماية فعلية أقوى بكثير من قواعد تعقيد شكلية.\n\n### 4. شجّع استخدام مدير كلمات مرور\n\nبدل الاعتماد على الحفظ الذهني (اللي بيدفع الناس لأنماط ضعيفة ومتكررة)، شجّع استخدام مدير كلمات مرور يقدر يولّد ويحفظ كلمات فريدة ومعقدة فعليًا لكل حساب.\n\n## ليه المقاومة للتغيير لسه موجودة بقوة\n\nكتير من المؤسسات لسه ملتزمة بالقواعد القديمة رغم إن NIST نفسها غيّرت توصياتها من سنين، لأسباب مختلفة: متطلبات امتثال قديمة (Compliance Framework) لسه بتشترط القواعد التقليدية بالحرف، أو ببساطة عادة إدارية راسخة صعب تغييرها، أو خوف من \"لو غيّرنا وحصل اختراق، هيتقال إحنا اللي خفّفنا الأمان\" رغم إن الدليل العلمي بيقول العكس.\n\n## مثال عملي للفرق في القوة الفعلية\n\nكلمة مرور معقدة قصيرة `P@ss1!` (8 حروف بقواعد التعقيد التقليدية) قابلة للتخمين ببرامج فك تشفير حديثة في وقت قصير نسبيًا. عبارة مرور طويلة `correct-horse-battery-staple` (28 حرف، كلمات عادية) تحتاج وقت أطول بملايين المرات للتخمين، رغم إنها أسهل تذكرًا بكثير للمستخدم نفسه.\n\n## الخلاصة\n\nالطول + منع كلمات معروفة/مسرّبة + عدم التغيير الإجباري بدون سبب حقيقي = أمان فعلي أقوى بكثير من التعقيد الإجباري والتغيير الدوري المتكرر — التحدي الحقيقي مش تقني، هو تغيير عادات إدارية راسخة ومتطلبات امتثال لسه متأخرة عن أحدث البحث العلمي.",
+      "en": "## Why the old rules were wrong from the start (despite seeming intuitive)\n\nForcing password changes every 90 days seems logical on paper -- reducing the exposure window if a password leaks. But practically, actual research proved the exact opposite: users respond to repeated forced changes with very predictable patterns (Password1! then Password2! then Password3!) -- a superficial change very easy for any attacker to guess if they knew the previous pattern. The practical result: a rule designed 'to increase security' was actually reducing it.\n\n## Modern NIST recommendations in detail (SP 800-63B)\n\n### 1. Length matters far more than complexity\n\nA relatively long password (a passphrase of several ordinary words) is mathematically stronger and easier to remember than a short complex one with odd symbols. Example: 'ahmed-loves-coffee-morning-2019' is actually stronger and easier to remember than 'Xk9#mP2!'.\n\n### 2. Don't force periodic changes without a real reason\n\nMandatory change every fixed time period without actual leak evidence causes weak, predictable patterns. Only change when there's a genuine reason (confirmed leak, suspected breach).\n\n### 3. Block known, leaked passwords (a blocklist)\n\nInstead of imposing arbitrary complexity rules (uppercase + digit + symbol), directly block any password appearing in known leak lists (like the Have I Been Pwned API) -- far stronger real protection than cosmetic complexity rules.\n\n### 4. Encourage a password manager\n\nInstead of relying on memorization (which pushes people toward weak, repeated patterns), encourage a password manager that can generate and store genuinely unique, complex passwords per account.\n\n## Why resistance to change persists strongly\n\nMany organizations still comply with old rules despite NIST changing its own recommendations years ago, for various reasons: old compliance frameworks still literally requiring traditional rules, simply entrenched administrative habit hard to change, or fear that 'if we change and a breach happens, we'll be blamed for weakening security' despite scientific evidence saying the opposite.\n\n## A practical example of the difference in actual strength\n\nA short complex password 'P@ss1!' (8 characters with traditional complexity rules) is guessable by modern cracking software in relatively short time. A long passphrase 'correct-horse-battery-staple' (28 characters, ordinary words) takes millions of times longer to guess, despite being far easier for the user to remember.\n\n## Bottom line\n\nLength plus blocking known/leaked passwords plus no forced changes without real reason equals far stronger actual security than mandatory complexity and repeated rotation -- the real challenge isn't technical, it's changing entrenched administrative habits and compliance requirements still lagging behind the latest scientific research."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -1565,12 +1565,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-12-05",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1634224143538-ce0221abf732?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8M3x8cGFzc3dvcmQlMjBzZWN1cml0eSUyMGxvY2t8ZW58MXwwfHx8MTc4NTg3MjEzMnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "passwords",
       "nist",
-      "identity"
+      "identity",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1828,16 +1829,16 @@
     "id": "art-gen-0052",
     "slug": "cross-site-scripting-xss-basics",
     "title": {
-      "ar": "ثغرات XSS: إزاي موقع بسيط يقدر يسرق بيانات المستخدم",
-      "en": "XSS Vulnerabilities: How a Simple Site Can Steal User Data"
+      "ar": "ثغرات XSS: الدليل الكامل لكيف موقع بسيط يسرق بيانات المستخدم",
+      "en": "XSS Vulnerabilities: The Complete Guide to How a Simple Site Can Steal User Data"
     },
     "excerpt": {
-      "ar": "شرح مبسط لأشهر ثغرة في تطبيقات الويب، ولماذا تصفية المدخلات مش رفاهية.",
-      "en": "A simplified explanation of the most common web app vulnerability, and why input sanitization isn't optional."
+      "ar": "3 أنواع XSS بالتفصيل (Stored/Reflected/DOM-based)، 4 طرق حماية عملية، ومثال كامل يوضّح آلية السرقة خطوة بخطوة.",
+      "en": "3 XSS types in detail (Stored/Reflected/DOM-based), 4 practical protections, and a complete example showing the theft mechanism step by step."
     },
     "body": {
-      "ar": "## الفكرة الأساسية\n\nلو موقع بيعرض مدخلات المستخدم من غير تصفية (زي تعليق أو اسم)، مهاجم يقدر يحقن كود JavaScript ضار يتنفذ في متصفح أي زائر تاني.\n\n## نوعين شائعين\n\n1. **Stored XSS**: الكود الضار بيتخزن في قاعدة البيانات (زي تعليق) ويتنفذ لكل زائر يشوفه.\n2. **Reflected XSS**: الكود بيتمرر عبر رابط، ولازم الضحية تضغط على رابط معين عشان يتنفذ.\n\n## طرق حماية أساسية\n\n1. صفّي (Sanitize) أي مدخل مستخدم قبل عرضه، وشفّر (Encode) الرموز الخاصة زي `<` و`>`.\n2. استخدم Content Security Policy (CSP) header يقيّد مصادر تنفيذ الكود.\n3. استخدم مكتبات ثابتة معروفة بدل كتابة تصفية يدوية (سهل تنسى حالة).\n\n## الخلاصة\n\nXSS من أقدم وأشهر ثغرات الويب، وتصفية المدخلات مش خطوة اختيارية — هي أساس أمان أي تطبيق ويب.",
-      "en": "## The core idea\n\nIf a site displays user input without sanitizing it (like a comment or name), an attacker can inject malicious JavaScript that runs in any other visitor's browser.\n\n## Two common types\n\nStored XSS: malicious code is saved in the database (like a comment) and runs for every visitor who sees it. Reflected XSS: the code is passed via a URL, requiring the victim to click a specific link for it to execute.\n\n## Basic protections\n\nSanitize any user input before displaying it and encode special characters like < and >; use a Content Security Policy header restricting where code can execute from; use well-established libraries instead of writing manual sanitization (easy to miss a case).\n\n## Bottom line\n\nXSS is one of the oldest, most common web vulnerabilities -- input sanitization isn't optional, it's foundational to any web app's security."
+      "ar": "## الفكرة الأساسية: ثقة زائدة في محتوى غير موثوق\n\nلو موقع بيعرض مدخلات المستخدم (تعليق، اسم، رسالة) من غير تصفية، مهاجم يقدر يحقن كود JavaScript ضار جوه المدخل ده — وبما إن الموقع بيعرضه \"زي ما هو\" لأي زائر تاني، الكود الضار بيتنفذ فعليًا في متصفح الضحية، بنفس صلاحيات الموقع نفسه (بيقدر يسرق الكوكيز، يعيد توجيه المستخدم، أو يسجّل كل حاجة بيكتبها).\n\n## الأنواع الثلاثة بالتفصيل\n\n### Stored XSS (الأخطر)\n\nالكود الضار بيتخزن بشكل دائم في قاعدة البيانات (زي تعليق على منتج، أو منشور في منتدى) — وبعدين بيتنفذ تلقائيًا لأي زائر يشوف المحتوى ده، من غير ما يحتاج يضغط على أي رابط خاص. الخطورة الأكبر: عدد ضحايا محتمل ضخم من هجوم واحد بس.\n\n### Reflected XSS\n\nالكود بيتمرر عبر رابط أو طلب مباشر، ولازم الضحية تضغط على رابط معين (غالبًا في إيميل تصيد) عشان الكود يتنفذ. أقل خطورة من Stored لأنه محتاج تفاعل نشط من الضحية، لكن لسه خطير جدًا.\n\n### DOM-based XSS\n\nمختلف تقنيًا عن النوعين السابقين — الثغرة موجودة في كود JavaScript نفسه على جانب المتصفح (Client-side)، مش في السيرفر. صعب اكتشافه بأدوات فحص تقليدية لأنه مش ظاهر في استجابة السيرفر مباشرة.\n\n## طرق حماية أساسية بالتفصيل\n\n### 1. تصفية وتشفير أي مدخل مستخدم قبل عرضه\n\nصفّي (Sanitize) المدخل، وشفّر (Encode) الرموز الخاصة زي `<` و`>` و`&` قبل عرضها — ده بيمنع المتصفح من تفسيرها كأوامر HTML/JavaScript قابلة للتنفيذ.\n\n### 2. استخدم Content Security Policy (CSP)\n\nرأس HTTP بيقيّد بدقة من أي مصدر يُسمح بتنفيذ كود JavaScript — حتى لو المهاجم نجح يحقن كود، السياسة دي ممكن تمنع تنفيذه أصلًا لو مش جاي من مصدر موثوق مُعرَّف مسبقًا.\n\n### 3. استخدم مكتبات ثابتة معروفة بدل التصفية اليدوية\n\nكتابة كود تصفية يدوي سهل جدًا تنسى فيه حالة معينة (Edge Case) — مكتبات راسخة ومختبرة على نطاق واسع (زي DOMPurify) بتغطي حالات أكتر بكثير من أي كود يدوي مكتوب على عجل.\n\n### 4. استخدم HttpOnly للكوكيز الحساسة\n\nخاصية بتمنع JavaScript من الوصول للكوكي أصلًا (حتى لو XSS نجح) — طبقة حماية إضافية تحديدًا لسرقة الجلسات (Session Hijacking).\n\n## مثال عملي يوضّح الخطورة\n\nموقع تعليقات بدون تصفية: مهاجم بيكتب تعليق فيه `<script>سرقة كوكي المستخدم وإرساله لسيرفر المهاجم</script>`. أي زائر يقرأ التعليق ده، الكود بينفّذ في متصفحه تلقائيًا، وكوكي جلسته (اللي ممكن يستخدمه المهاجم لينتحل شخصيته على الموقع) بيتسرّب فورًا — من غير ما الضحية تلاحظ أي حاجة غريبة.\n\n## الخلاصة\n\nXSS من أقدم وأشهر ثغرات الويب على الإطلاق (موجودة في قائمة OWASP Top 10 باستمرار)، وتصفية المدخلات مش خطوة اختيارية أو \"تحسين إضافي\" — هي أساس جوهري لأمان أي تطبيق ويب بيتعامل مع محتوى من المستخدمين.",
+      "en": "## The core idea: excessive trust in untrusted content\n\nIf a site displays user input (a comment, name, message) without sanitizing it, an attacker can inject malicious JavaScript inside that input -- and since the site displays it 'as is' to other visitors, the malicious code actually executes in the victim's browser, with the same privileges as the site itself (able to steal cookies, redirect the user, or log everything they type).\n\n## The three types in detail\n\n### Stored XSS (the most dangerous)\n\nMalicious code is permanently stored in the database (like a product comment, or a forum post) -- then automatically executes for any visitor viewing that content, with no need to click any special link. The greatest danger: a huge potential victim count from just one attack.\n\n### Reflected XSS\n\nThe code is passed via a link or direct request, requiring the victim to click a specific link (often in a phishing email) for the code to execute. Less dangerous than Stored since it needs active victim interaction, but still very dangerous.\n\n### DOM-based XSS\n\nTechnically different from the previous two -- the vulnerability exists in the JavaScript code itself on the browser side (client-side), not the server. Hard to detect with traditional scanning tools since it isn't directly visible in the server's response.\n\n## Basic protections in detail\n\n### 1. Sanitize and encode any user input before displaying it\n\nSanitize the input, and encode special characters like <, >, and & before displaying -- this prevents the browser from interpreting them as executable HTML/JavaScript commands.\n\n### 2. Use a Content Security Policy (CSP)\n\nAn HTTP header precisely restricting which sources are allowed to execute JavaScript -- even if an attacker successfully injects code, this policy can prevent its execution entirely if not coming from a pre-defined trusted source.\n\n### 3. Use well-established libraries instead of manual sanitization\n\nWriting manual sanitization code is very easy to miss an edge case in -- established, widely-tested libraries (like DOMPurify) cover far more cases than any hastily written manual code.\n\n### 4. Use HttpOnly for sensitive cookies\n\nA property preventing JavaScript from accessing the cookie at all (even if XSS succeeds) -- an additional protection layer specifically against session hijacking.\n\n## A practical example illustrating the danger\n\nA comment site without sanitization: an attacker writes a comment containing '<script>steal the user's cookie and send it to the attacker's server</script>'. Any visitor reading this comment has the code automatically execute in their browser, and their session cookie (which the attacker can use to impersonate them on the site) leaks immediately -- without the victim noticing anything unusual.\n\n## Bottom line\n\nXSS is one of the oldest, most common web vulnerabilities ever (consistently on the OWASP Top 10 list), and input sanitization isn't an optional step or 'nice-to-have improvement' -- it's a fundamental foundation for any web application's security handling user-provided content."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
@@ -1849,12 +1850,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-02-07",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8Y29kZSUyMGluamVjdGlvbiUyMHByb2dyYW1taW5nJTIwc2NyZWVufGVufDF8MHx8fDE3ODU4OTg0NjZ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "xss",
       "web-security",
-      "owasp"
+      "owasp",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2004,16 +2006,16 @@
     "id": "art-gen-0057",
     "slug": "container-image-security-scanning",
     "title": {
-      "ar": "فحص أمان صور الحاويات (Container Images) قبل النشر",
-      "en": "Scanning Container Image Security Before Deployment"
+      "ar": "فحص أمان صور الحاويات (Container Images): الدليل الكامل",
+      "en": "Scanning Container Image Security: The Complete Guide"
     },
     "excerpt": {
-      "ar": "صورة Docker جاهزة ممكن تحمل ثغرات موروثة من غير ما تلاحظ.",
-      "en": "A ready-made Docker image can carry inherited vulnerabilities without you noticing."
+      "ar": "إزاي أدوات الفحص بتشتغل فعليًا، 4 خطوات عملية تفصيلية، وليه الفحص لمرة واحدة وقت البناء بس مش كافٍ.",
+      "en": "How scanning tools actually work, 4 detailed practical steps, and why one-time build-time scanning alone isn't enough."
     },
     "body": {
-      "ar": "## المشكلة\n\nكتير من صور الحاويات مبنية فوق صور تانية (Base Images)، ولو الصورة الأساسية فيها ثغرة قديمة، هتوروثها تلقائيًا لأي حاوية مبنية عليها.\n\n## خطوات عملية\n\n1. استخدم أداة فحص (زي Trivy أو Grype) كجزء من خط أنابيب CI/CD، مش بعد النشر.\n2. اختر صور أساسية رسمية ومحدثة، وتجنب صور غير موثوقة من مصادر غير معروفة.\n3. قلّل عدد الطبقات والمكونات غير الضرورية في الصورة (صورة أصغر = مساحة هجوم أقل).\n4. أعد فحص الصور القديمة المنشورة دوريًا — ثغرة جديدة ممكن تتكشف بعد النشر بفترة.\n\n## أشهر خطأ\n\nفحص الصورة مرة واحدة وقت البناء بس، من غير إعادة فحص دوري للصور اللي شغالة فعليًا في الإنتاج.\n\n## الخلاصة\n\nفحص الصور خطوة رخيصة ومؤتمتة سهلة الإضافة لأي خط CI/CD، وبتمنع نشر ثغرات معروفة من الأساس.",
-      "en": "## The problem\n\nMany container images are built on top of other base images, and if the base image has an old vulnerability, it's automatically inherited by anything built on it.\n\n## Practical steps\n\nUse a scanning tool (like Trivy or Grype) as part of the CI/CD pipeline, not after deployment; choose official, updated base images and avoid untrusted sources; minimize unnecessary layers and components (a smaller image means a smaller attack surface); re-scan already-deployed images periodically -- a new vulnerability can surface after deployment.\n\n## Bottom line\n\nImage scanning is a cheap, easily automated step to add to any CI/CD pipeline, and it prevents shipping known vulnerabilities from the start."
+      "ar": "## المشكلة الجوهرية: وراثة ثغرات من غير ما تلاحظ\n\nكتير من صور الحاويات (Container Images) مبنية فوق صور أساسية تانية (Base Images) — مش بتبدأ من الصفر. لو الصورة الأساسية دي فيها ثغرة معروفة قديمة (حتى لو كودك أنت نظيف تمامًا)، الثغرة دي بتتوارث تلقائيًا لأي حاوية مبنية فوقها، من غير ما يكون في أي إشارة واضحة إن فيه مشكلة أصلًا.\n\n## أدوات الفحص الأساسية وإزاي بتشتغل\n\n### أدوات مفتوحة المصدر شائعة\n\nTrivy وGrype من الأدوات الأكتر انتشارًا — بتفحص طبقات الصورة (Layers) كلها، تقارن كل مكوّن (مكتبات، حزم نظام تشغيل) بقواعد بيانات ثغرات معروفة (زي CVE)، وترجّع تقرير مفصّل بأي ثغرات موجودة ودرجة خطورتها.\n\n### الفحص كجزء من CI/CD مش خطوة منفصلة\n\nالخطأ الشائع: فحص الصورة يدويًا مرة واحدة قبل النشر الأول، وبعدها نسيان الموضوع تمامًا. الممارسة الصح: دمج الفحص كخطوة تلقائية في خط أنابيب CI/CD نفسه — أي صورة جديدة بتتفحص تلقائيًا قبل ما توصل للإنتاج، من غير أي تدخل يدوي ممكن يتنسى.\n\n## خطوات عملية تفصيلية\n\n### 1. اختر صور أساسية رسمية ومحدّثة\n\nصور من مصادر موثوقة ومُوقّعة رقميًا (زي الصور الرسمية على Docker Hub)، مش صور غير معروفة من مصادر غير موثّقة — وحدّثها دوريًا، مش تثبيت مرة واحدة وترك النسخة تقدم.\n\n### 2. قلّل عدد الطبقات والمكونات غير الضرورية\n\nصورة أصغر ومركّزة على الاحتياج الفعلي بس (Multi-stage builds مثلًا) بيقلل مساحة الهجوم المحتملة بشكل كبير — كل مكوّن إضافي غير ضروري هو ثغرة محتملة إضافية.\n\n### 3. أعد فحص الصور المنشورة فعليًا بشكل دوري\n\nالفحص وقت البناء بس مش كافٍ — ثغرة جديدة تمامًا ممكن تتكشف بعد أسابيع أو شهور من نشر الصورة، وصورة كانت \"نظيفة\" وقت الفحص الأول ممكن تبقى معرّضة لثغرة اتكشفت بعد كده.\n\n### 4. حدد سياسة واضحة لمستويات الخطورة\n\nمش كل ثغرة تستاهل نفس رد الفعل — ثغرة حرجة (Critical) في مكوّن مكشوف للإنترنت تستاهل إيقاف النشر فورًا، بينما ثغرة منخفضة في مكوّن داخلي معزول ممكن تُجدول للإصلاح في دورة الصيانة العادية.\n\n## أشهر خطأ عملي\n\nالاعتماد على فحص وقت البناء بس، من غير أي مراقبة مستمرة للصور اللي شغالة فعليًا في الإنتاج — بيئة إنتاج كاملة ممكن تفضل معرّضة لثغرات جديدة اتكشفت بعد النشر لشهور، لأن محدش راجعها تاني بعد أول فحص.\n\n## الخلاصة\n\nفحص صور الحاويات خطوة رخيصة، سهلة الأتمتة، وسهلة الدمج في أي خط أنابيب CI/CD موجود أصلًا — الاستثمار البسيط ده بيمنع نشر ثغرات معروفة من الأساس، ومراجعة دورية مستمرة (مش فحص لمرة واحدة) بتضمن إن الحماية دي تفضل فعّالة مع مرور الوقت.",
+      "en": "## The core problem: inheriting vulnerabilities without noticing\n\nMany container images are built on top of other base images -- not starting from scratch. If that base image has an old known vulnerability (even if your own code is entirely clean), the vulnerability is automatically inherited by anything built on top of it, with no clear indication a problem exists at all.\n\n## Core scanning tools and how they work\n\n### Common open-source tools\n\nTrivy and Grype are among the most widely used -- they scan all image layers, compare every component (libraries, OS packages) against known vulnerability databases (like CVE), and return a detailed report of any vulnerabilities found and their severity.\n\n### Scanning as part of CI/CD, not a separate step\n\nThe common mistake: manually scanning the image once before the first deployment, then forgetting about it entirely. The right practice: integrating scanning as an automatic step in the CI/CD pipeline itself -- any new image is automatically scanned before reaching production, with no manual intervention that could be forgotten.\n\n## Detailed practical steps\n\n### 1. Choose official, updated base images\n\nImages from trusted, digitally signed sources (like official images on Docker Hub), not unknown images from undocumented sources -- and update them regularly, not install once and let the version age.\n\n### 2. Minimize unnecessary layers and components\n\nA smaller image focused only on actual need (multi-stage builds, say) significantly reduces potential attack surface -- every unnecessary additional component is an additional potential vulnerability.\n\n### 3. Periodically rescan actually deployed images\n\nScanning at build time alone isn't enough -- an entirely new vulnerability might be discovered weeks or months after image deployment, and an image that was 'clean' at first scan might become exposed to a vulnerability discovered later.\n\n### 4. Define a clear severity-level policy\n\nNot every vulnerability deserves the same response -- a critical vulnerability in an internet-exposed component deserves immediately halting deployment, while a low-severity one in an isolated internal component can be scheduled for the regular maintenance cycle.\n\n## The most common practical mistake\n\nRelying on build-time scanning alone, with no continuous monitoring of images actually running in production -- an entire production environment can remain exposed to new vulnerabilities discovered after deployment for months, because nobody reviewed it again after the first scan.\n\n## Bottom line\n\nContainer image scanning is a cheap, easily automated step, easily integrated into any existing CI/CD pipeline -- this simple investment prevents shipping known vulnerabilities from the start, and continuous periodic review (not a one-time scan) ensures this protection stays effective over time."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -2025,12 +2027,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-12-15",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "containers",
       "docker",
-      "devsecops"
+      "devsecops",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -3528,6 +3531,42 @@
       "authentication",
       "authorization",
       "identity",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0100",
+    "slug": "owasp-top-10-overview",
+    "title": {
+      "ar": "نظرة شاملة على OWASP Top 10: الدليل الكامل",
+      "en": "OWASP Top 10 Overview: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "أهم الفئات بالتفصيل (Broken Access Control، Injection، Cryptographic Failures)، وليه القائمة بتتغيّر وإزاي تستخدمها عمليًا.",
+      "en": "Key categories in detail (Broken Access Control, Injection, Cryptographic Failures), and why the list changes and how to use it practically."
+    },
+    "body": {
+      "ar": "## ليه OWASP Top 10 مرجع أساسي لأي حد بيشتغل بالويب\n\nOWASP (Open Web Application Security Project) منظمة غير ربحية بتصدر قائمة دورية (كل 3-4 سنين تقريبًا) بأكثر عشر مخاطر أمنية شيوعًا وخطورة في تطبيقات الويب، مبنية على بيانات حقيقية من آلاف التطبيقات الفعلية. القائمة دي مش نظرية — هي ملخص عملي لأكتر الأخطاء اللي بتتكرر فعليًا وبتسبب اختراقات حقيقية.\n\n## أهم الفئات وليه كل واحدة خطيرة\n\n### Broken Access Control (فشل التحكم في الوصول)\n\nأعلى فئة خطورة في آخر إصدار — مستخدم بيقدر يوصل لبيانات أو وظائف مش المفروض يوصلها، بسبب تحقق ناقص من الصلاحيات. مثال: تعديل رابط URL بسيط (زي تغيير رقم ID) وتوصل لبيانات مستخدم تاني.\n\n### Cryptographic Failures (فشل التشفير)\n\nبيانات حساسة (كلمات مرور، أرقام بطاقات) مخزّنة أو منقولة بدون تشفير مناسب، أو باستخدام خوارزميات تشفير قديمة وضعيفة اتكشف لها ثغرات معروفة.\n\n### Injection (الحقن)\n\nيشمل SQL Injection وأنواع تانية من الحقن — مدخلات مستخدم غير مُصفّاة بتتفسر كأوامر تنفيذية بدل بيانات عادية، بتخلي المهاجم يتحكم في سلوك النظام.\n\n### Insecure Design (تصميم غير آمن)\n\nفئة أحدث نسبيًا بتركّز على مشاكل في التصميم الأساسي نفسه، مش بس أخطاء تنفيذ — نظام مصمم من الأصل بدون اعتبارات أمنية كافية، حتى لو الكود نفسه مكتوب بعناية.\n\n### Security Misconfiguration (إعداد أمني خاطئ)\n\nإعدادات افتراضية غير آمنة، رسائل خطأ مفصّلة جدًا بتكشف معلومات حساسة، أو خدمات غير ضرورية شغالة ومكشوفة.\n\n### Vulnerable and Outdated Components (مكونات قديمة بها ثغرات)\n\nاستخدام مكتبات أو أطر عمل قديمة فيها ثغرات معروفة ومُعلنة — من أشهر أسباب الاختراقات الفعلية، لأن الثغرة نفسها موثّقة علنًا وسهلة الاستغلال.\n\n## ليه القائمة بتتغيّر كل بضع سنين\n\nالتهديدات الفعلية بتتطور مع الوقت — فئات كانت في القمة قبل سنين (زي XSS بشكل منفرد) اتدمجت أو تراجعت ترتيبها، بينما فئات جديدة (زي Insecure Design) ظهرت مع تطور فهم المجتمع الأمني للمشاكل الجذرية. القائمة بتعكس واقع الاختراقات الفعلية الموثّقة، مش قائمة نظرية ثابتة.\n\n## إزاي تستخدم القائمة عمليًا\n\nالقائمة مش Checklist للمرور عليها مرة واحدة والانتهاء — هي أداة توجيه للأولويات: وقت مراجعة أمنية لتطبيق جديد، ابدأ بالفئات الأعلى في القائمة (Broken Access Control، Cryptographic Failures) لأنها الأكثر شيوعًا وخطورة إحصائيًا، مش لأنها الأسهل فحصًا.\n\n## الخلاصة\n\nOWASP Top 10 مش قائمة نظرية أكاديمية — هي ملخص عملي مبني على بيانات حقيقية لأكتر المخاطر اللي بتسبب اختراقات فعلية. أي فريق تطوير بيبني تطبيقات ويب يستاهل يراجعها بانتظام كنقطة بداية أساسية، مش كمرجع نظري بعيد عن الواقع العملي.",
+      "en": "## Why OWASP Top 10 is an essential reference for anyone working with the web\n\nOWASP (Open Web Application Security Project) is a nonprofit organization publishing a periodic list (roughly every 3-4 years) of the ten most common and severe security risks in web applications, based on real data from thousands of actual applications. This list isn't theoretical -- it's a practical summary of the most frequently repeated mistakes that actually cause real breaches.\n\n## Key categories and why each is dangerous\n\n### Broken Access Control\n\nThe top severity category in the latest edition -- a user can reach data or functions they shouldn't, due to incomplete permission verification. Example: modifying a simple URL parameter (like changing an ID number) and reaching another user's data.\n\n### Cryptographic Failures\n\nSensitive data (passwords, card numbers) stored or transmitted without proper encryption, or using old, weak encryption algorithms with known discovered flaws.\n\n### Injection\n\nIncludes SQL injection and other injection types -- unsanitized user input gets interpreted as executable commands instead of plain data, letting an attacker control system behavior.\n\n### Insecure Design\n\nA relatively newer category focusing on problems in the fundamental design itself, not just implementation errors -- a system designed from the start without sufficient security considerations, even if the code itself is carefully written.\n\n### Security Misconfiguration\n\nUnsafe default settings, overly detailed error messages revealing sensitive information, or unnecessary services running and exposed.\n\n### Vulnerable and Outdated Components\n\nUsing old libraries or frameworks with known, publicly disclosed vulnerabilities -- among the most common causes of actual breaches, since the vulnerability itself is publicly documented and easily exploited.\n\n## Why the list changes every few years\n\nActual threats evolve over time -- categories once at the top years ago (like standalone XSS) merged or dropped in ranking, while new categories (like Insecure Design) emerged as the security community's understanding of root problems developed. The list reflects the reality of actual documented breaches, not a fixed theoretical list.\n\n## How to use the list practically\n\nThe list isn't a checklist to go through once and be done -- it's a prioritization guide: when doing a security review for a new application, start with the top categories in the list (Broken Access Control, Cryptographic Failures) because they're statistically the most common and severe, not because they're the easiest to check.\n\n## Bottom line\n\nOWASP Top 10 isn't an academic theoretical list -- it's a practical summary based on real data on the risks most likely to cause actual breaches. Any development team building web applications should review it regularly as an essential starting point, not a theoretical reference detached from practical reality."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-19",
+    "readTime": 9,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "owasp",
+      "web-security",
+      "secure-design",
       "guide"
     ],
     "isFeatured": true,

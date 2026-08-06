@@ -1372,12 +1372,12 @@
     "id": "art-gen-0044",
     "slug": "nist-password-guidelines-vs-old-rules",
     "title": {
-      "ar": "إرشادات NIST لكلمات المرور: ليه تعقيدها ما بقاش الحل",
-      "en": "NIST Password Guidelines: Why Complexity Rules Stopped Being the Answer"
+      "ar": "إرشادات NIST لكلمات المرور: الدليل الكامل لليه التعقيد ما بقاش الحل",
+      "en": "NIST Password Guidelines: The Complete Guide to Why Complexity Rules Stopped Being the Answer"
     },
     "excerpt": {
-      "ar": "ليه فرض تغيير الباسورد كل 90 يوم ورموز إجبارية معقدة بقت ممارسة قديمة.",
-      "en": "Why forcing password changes every 90 days and mandatory complex symbols became an outdated practice."
+      "ar": "ليه القواعد القديمة كانت غلط من الأساس، 4 توصيات NIST بالتفصيل، ومثال عملي يوضّح الفرق الحقيقي في القوة.",
+      "en": "Why the old rules were wrong from the start, 4 detailed NIST recommendations, and a practical example showing the real difference in strength."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -1389,12 +1389,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-12-05",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1634224143538-ce0221abf732?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8M3x8cGFzc3dvcmQlMjBzZWN1cml0eSUyMGxvY2t8ZW58MXwwfHx8MTc4NTg3MjEzMnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "passwords",
       "nist",
-      "identity"
+      "identity",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1624,12 +1625,12 @@
     "id": "art-gen-0052",
     "slug": "cross-site-scripting-xss-basics",
     "title": {
-      "ar": "ثغرات XSS: إزاي موقع بسيط يقدر يسرق بيانات المستخدم",
-      "en": "XSS Vulnerabilities: How a Simple Site Can Steal User Data"
+      "ar": "ثغرات XSS: الدليل الكامل لكيف موقع بسيط يسرق بيانات المستخدم",
+      "en": "XSS Vulnerabilities: The Complete Guide to How a Simple Site Can Steal User Data"
     },
     "excerpt": {
-      "ar": "شرح مبسط لأشهر ثغرة في تطبيقات الويب، ولماذا تصفية المدخلات مش رفاهية.",
-      "en": "A simplified explanation of the most common web app vulnerability, and why input sanitization isn't optional."
+      "ar": "3 أنواع XSS بالتفصيل (Stored/Reflected/DOM-based)، 4 طرق حماية عملية، ومثال كامل يوضّح آلية السرقة خطوة بخطوة.",
+      "en": "3 XSS types in detail (Stored/Reflected/DOM-based), 4 practical protections, and a complete example showing the theft mechanism step by step."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
@@ -1641,12 +1642,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-02-07",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8Y29kZSUyMGluamVjdGlvbiUyMHByb2dyYW1taW5nJTIwc2NyZWVufGVufDF8MHx8fDE3ODU4OTg0NjZ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "xss",
       "web-security",
-      "owasp"
+      "owasp",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1780,12 +1782,12 @@
     "id": "art-gen-0057",
     "slug": "container-image-security-scanning",
     "title": {
-      "ar": "فحص أمان صور الحاويات (Container Images) قبل النشر",
-      "en": "Scanning Container Image Security Before Deployment"
+      "ar": "فحص أمان صور الحاويات (Container Images): الدليل الكامل",
+      "en": "Scanning Container Image Security: The Complete Guide"
     },
     "excerpt": {
-      "ar": "صورة Docker جاهزة ممكن تحمل ثغرات موروثة من غير ما تلاحظ.",
-      "en": "A ready-made Docker image can carry inherited vulnerabilities without you noticing."
+      "ar": "إزاي أدوات الفحص بتشتغل فعليًا، 4 خطوات عملية تفصيلية، وليه الفحص لمرة واحدة وقت البناء بس مش كافٍ.",
+      "en": "How scanning tools actually work, 4 detailed practical steps, and why one-time build-time scanning alone isn't enough."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -1797,12 +1799,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-12-15",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "containers",
       "docker",
-      "devsecops"
+      "devsecops",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -3132,6 +3135,38 @@
       "authentication",
       "authorization",
       "identity",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0100",
+    "slug": "owasp-top-10-overview",
+    "title": {
+      "ar": "نظرة شاملة على OWASP Top 10: الدليل الكامل",
+      "en": "OWASP Top 10 Overview: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "أهم الفئات بالتفصيل (Broken Access Control، Injection، Cryptographic Failures)، وليه القائمة بتتغيّر وإزاي تستخدمها عمليًا.",
+      "en": "Key categories in detail (Broken Access Control, Injection, Cryptographic Failures), and why the list changes and how to use it practically."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-19",
+    "readTime": 9,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "owasp",
+      "web-security",
+      "secure-design",
       "guide"
     ],
     "isFeatured": true,
