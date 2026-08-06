@@ -701,12 +701,12 @@
     "id": "art-gen-0023",
     "slug": "802-1x-certificate-authentication",
     "title": {
-      "ar": "المصادقة بالشهادات عبر 802.1X: نظرة عملية",
-      "en": "Certificate-Based Authentication with 802.1X: A Practical Look"
+      "ar": "المصادقة بالشهادات عبر 802.1X: الدليل الكامل",
+      "en": "Certificate-Based Authentication with 802.1X: The Complete Guide"
     },
     "excerpt": {
-      "ar": "إزاي تمنع أي جهاز غريب من الاتصال بالشبكة السلكية أو اللاسلكية من غير إذن.",
-      "en": "How to stop any unauthorized device from joining your wired or wireless network."
+      "ar": "الفرق بين EAP-TLS وPEAP، خطوات تطبيق عملية كاملة، وليه التفعيل الصارم المفاجئ أشهر خطأ.",
+      "en": "The EAP-TLS vs PEAP difference, complete practical implementation steps, and why sudden strict enforcement is the most common mistake."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -718,12 +718,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-07-20",
-    "readTime": 6,
+    "readTime": 9,
     "heroImage": "https://images.unsplash.com/photo-1695668548342-c0c1ad479aee?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8bmV0d29yayUyMGF1dGhlbnRpY2F0aW9uJTIwc2VydmVyfGVufDF8MHx8fDE3ODU4NzIxNTJ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "802.1x",
       "radius",
-      "authentication"
+      "authentication",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1083,12 +1084,12 @@
     "id": "art-gen-0035",
     "slug": "least-privilege-principle-practical",
     "title": {
-      "ar": "مبدأ أقل الصلاحيات (Least Privilege): تطبيق عملي بدون فوضى",
-      "en": "The Least Privilege Principle: A Practical Rollout Without Chaos"
+      "ar": "مبدأ أقل الصلاحيات (Least Privilege): الدليل الكامل للتطبيق بدون فوضى",
+      "en": "The Least Privilege Principle: The Complete Guide to a Rollout Without Chaos"
     },
     "excerpt": {
-      "ar": "إزاي تقلل صلاحيات المستخدمين من غير ما توقف شغل حد فجأة.",
-      "en": "How to trim user permissions without suddenly blocking someone's legitimate work."
+      "ar": "ليه الصلاحيات بتتراكم مع الوقت، 5 خطوات تطبيق آمن بالتفصيل، وأشهر 3 أخطاء بتخلق مقاومة للمشروع كله.",
+      "en": "Why permissions accumulate over time, 5 detailed safe rollout steps, and the 3 most common mistakes that create resistance to the whole project."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -1100,12 +1101,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-03-23",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1782338936796-0ebf0a6a1068?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8OXx8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "least-privilege",
       "identity",
-      "access-control"
+      "access-control",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1431,12 +1433,12 @@
     "id": "art-gen-0046",
     "slug": "cloud-vs-onprem-backup-considerations",
     "title": {
-      "ar": "النسخ الاحتياطي السحابي مقابل المحلي: اعتبارات عملية غير التكلفة",
-      "en": "Cloud vs On-Prem Backup: Practical Considerations Beyond Cost"
+      "ar": "النسخ الاحتياطي السحابي مقابل المحلي: الدليل الكامل لاعتبارات عملية غير التكلفة",
+      "en": "Cloud vs On-Prem Backup: The Complete Guide to Practical Considerations Beyond Cost"
     },
     "excerpt": {
-      "ar": "عوامل زي سرعة الاستعادة وسيادة البيانات لازم تدخل في القرار، مش بس السعر.",
-      "en": "Factors like recovery speed and data sovereignty should factor into the decision, not just price."
+      "ar": "5 عوامل مقارنة تفصيلية (سرعة، سيادة بيانات، اعتماد إنترنت، حماية كارثية، تكلفة كاملة)، واستراتيجية هجينة عملية.",
+      "en": "5 detailed comparison factors (speed, data sovereignty, internet dependency, disaster protection, total cost), and a practical hybrid strategy."
     },
     "categoryId": "technology",
     "subcategoryId": "guides-tips",
@@ -1448,12 +1450,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-02-19",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1667372283496-893f0b1e7c16?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8M3x8YmFja3VwJTIwZGF0YSUyMHN0b3JhZ2UlMjBkaXNrfGVufDF8MHx8fDE3ODU4NzIxNDR8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "backup",
       "cloud",
-      "disaster-recovery"
+      "disaster-recovery",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2992,6 +2995,38 @@
       "siem",
       "security-operations",
       "correlation",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0096",
+    "slug": "web-application-firewall-waf-guide",
+    "title": {
+      "ar": "جدار حماية تطبيقات الويب (WAF): الدليل الكامل",
+      "en": "Web Application Firewall (WAF): The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "الفرق الجوهري عن جدار الحماية الشبكي التقليدي، 4 أنواع هجمات بيحميك منها، ووضعي المراقبة والحجب بالتفصيل.",
+      "en": "The fundamental difference from a traditional network firewall, 4 attack types it protects against, and the monitor vs blocking modes in detail."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-18",
+    "readTime": 9,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "waf",
+      "web-security",
+      "application-security",
       "guide"
     ],
     "isFeatured": true,
