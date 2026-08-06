@@ -1696,8 +1696,8 @@
       "en": "Secure API Key Management: Common Mistakes and Simple Fixes"
     },
     "excerpt": {
-      "ar": "ليه رفع مفتاح API على GitHub بالغلط أشهر حادثة أمان بيقع فيها المطورين، وإزاي تتجنبها.",
-      "en": "Why accidentally pushing an API key to GitHub is the most common developer security incident, and how to avoid it."
+      "ar": "ليه مسح المفتاح من الكود مش كافٍ إطلاقًا (طبيعة Git)، 4 ممارسات أساسية بالتفصيل، ونصيحة المراجعة الدورية للمفاتيح النشطة.",
+      "en": "Why removing the key from code alone isn't enough at all (Git's nature), 4 core practices in detail, and advice on periodically reviewing active keys."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
@@ -1709,12 +1709,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-04-21",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YXBpJTIwY29kZSUyMGRldmVsb3BlciUyMHNjcmVlbnxlbnwxfDB8fHwxNzg1ODk4NDY3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "api-security",
       "secrets-management",
-      "developer-security"
+      "developer-security",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1920,8 +1921,8 @@
       "en": "IT Change Management: Why Every Change Needs Documentation"
     },
     "excerpt": {
-      "ar": "تعديل بسيط بدون توثيق ممكن يسبب مشكلة محدش يعرف سببها بعد أسابيع.",
-      "en": "A simple undocumented change can cause a problem nobody can trace weeks later."
+      "ar": "4 عناصر أساسية بالتفصيل، ليه المبالغة في التعقيد من أول يوم أخطر من عدم وجود عملية أصلًا، ونصيحة التطبيق التدريجي.",
+      "en": "4 core elements in detail, why over-complicating from day one is more dangerous than having no process at all, and gradual implementation advice."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
@@ -1933,12 +1934,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-04-16",
-    "readTime": 5,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8b2ZmaWNlJTIwbWVldGluZyUyMHdoaXRlYm9hcmQlMjBwbGFubmluZ3xlbnwxfDB8fHwxNzg1ODk4NDcyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "change-management",
       "it-operations",
-      "documentation"
+      "documentation",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2071,12 +2073,12 @@
     "id": "art-gen-0066",
     "slug": "insider-threat-detection-basics",
     "title": {
-      "ar": "التهديد الداخلي (Insider Threat): مش كل خطر بييجي من برة",
+      "ar": "التهديد الداخلي (Insider Threat): الدليل الكامل لاكتشافه",
       "en": "Insider Threats: Not Every Risk Comes from Outside"
     },
     "excerpt": {
-      "ar": "موظف حالي أو سابق يقدر يسبب ضرر حقيقي، سواء بقصد أو بغير قصد.",
-      "en": "A current or former employee can cause real damage, whether intentionally or not."
+      "ar": "الفرق الجوهري بين تهديد متعمد وغير متعمد، 3 علامات تحذيرية سلوكية تستاهل انتباه حقيقي بالتفصيل.",
+      "en": "The fundamental difference between deliberate and unintentional threats, 3 behavioral warning signs deserving genuine attention in detail."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -2088,12 +2090,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-03-24",
-    "readTime": 5,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8b2ZmaWNlJTIwZW1wbG95ZWUlMjBjb21wdXRlcnxlbnwxfDB8fHwxNzg1ODcyMTc5fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "insider-threat",
       "risk-management",
-      "security"
+      "security",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -3272,6 +3275,38 @@
       "backup",
       "ransomware",
       "disaster-recovery",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0104",
+    "slug": "tls-handshake-explained",
+    "title": {
+      "ar": "فهم TLS Handshake: ماذا يحدث فعلًا خلف القفل الأخضر",
+      "en": "Understanding the TLS Handshake: What Actually Happens Behind the Green Lock"
+    },
+    "excerpt": {
+      "ar": "5 خطوات Handshake بالتفصيل، ليه TLS 1.3 أسرع تقنيًا، وإزاي فهم العملية بيخليك تشخّص مشاكل TLS بثقة.",
+      "en": "The 5 handshake steps in detail, why TLS 1.3 is technically faster, and how understanding the process lets you diagnose TLS problems confidently."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-20",
+    "readTime": 9,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "tls",
+      "https",
+      "encryption",
       "guide"
     ],
     "isFeatured": true,
