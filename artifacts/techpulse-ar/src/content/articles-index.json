@@ -1345,8 +1345,8 @@
       "en": "Tabletop Exercises: Practice Before It Actually Happens"
     },
     "excerpt": {
-      "ar": "إزاي تكتشف ثغرات خطة الاستجابة للحوادث من غير ما تنتظر حادث حقيقي.",
-      "en": "How to find gaps in your incident response plan without waiting for a real incident."
+      "ar": "5 خطوات تنظيم تفصيلية بدل 4، وليه اكتشاف الفجوة أثناء التمرين أرخص بكثير من اكتشافها وسط أزمة حقيقية.",
+      "en": "5 detailed organizing steps up from 4, and why discovering a gap during the exercise is far cheaper than mid-actual-crisis."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1358,12 +1358,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-11-25",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1782330300409-f6c1ae5f64cb?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MTB8fGN5YmVyc2VjdXJpdHklMjB0ZWNobm9sb2d5JTIwbmV0d29ya3xlbnwxfDB8fHwxNzg1ODcyMTM3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "incident-response",
       "tabletop-exercise",
-      "planning"
+      "planning",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1657,12 +1658,12 @@
     "id": "art-gen-0053",
     "slug": "windows-server-core-vs-desktop-experience",
     "title": {
-      "ar": "Windows Server Core مقابل Desktop Experience: أيهما تختار؟",
+      "ar": "Windows Server Core مقابل Desktop Experience: الدليل الكامل",
       "en": "Windows Server Core vs Desktop Experience: Which Should You Choose?"
     },
     "excerpt": {
-      "ar": "التوزيع بدون واجهة رسومية بيوفر موارد ويقلل مساحة الهجوم — لكن هل يستاهل التعقيد الإضافي؟",
-      "en": "The GUI-less install saves resources and reduces attack surface -- but is the extra complexity worth it?"
+      "ar": "3 مميزات Server Core بالتفصيل، استراتيجية انتقال تدريجي عملية، وأداة Windows Admin Center كجسر بين الاتنين.",
+      "en": "3 Server Core advantages in detail, a practical gradual transition strategy, and Windows Admin Center as a bridge between both."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -1674,12 +1675,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-03-14",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1782094673136-5198a372980c?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8c2VydmVyJTIwcmFjayUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc4NTg3MjE0Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "windows-server",
       "server-core",
-      "powershell"
+      "powershell",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1878,12 +1880,12 @@
     "id": "art-gen-0060",
     "slug": "cyber-insurance-what-it-covers",
     "title": {
-      "ar": "التأمين ضد المخاطر السيبرانية: إيه اللي بيغطيه فعليًا؟",
-      "en": "Cyber Insurance: What Does It Actually Cover?"
+      "ar": "التأمين ضد المخاطر السيبرانية: الدليل الكامل لإيه اللي بيغطيه فعليًا",
+      "en": "Cyber Insurance: The Complete Guide to What It Actually Covers"
     },
     "excerpt": {
-      "ar": "قبل ما تشتري بوليصة، افهم الفرق بين اللي متوقع إنه مغطى واللي فعلًا مكتوب في العقد.",
-      "en": "Before buying a policy, understand the gap between what you assume is covered and what's actually written in the contract."
+      "ar": "3 أشياء غالبًا مش مغطاة (وأهمها الفدية نفسها)، والسؤال الأهم عن الحد الأدنى الأمني اللي لازم تسأله قبل الشراء.",
+      "en": "3 things often not covered (most importantly the ransom itself), and the most important security-baseline question to ask before buying."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
@@ -1895,12 +1897,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-03-09",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1772588627327-1eeddcf73c11?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8YXVkaXQlMjBkb2N1bWVudHMlMjBvZmZpY2V8ZW58MXwwfHx8MTc4NTg3MjE1OHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "cyber-insurance",
       "risk-management",
-      "compliance"
+      "compliance",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -3167,6 +3170,38 @@
       "owasp",
       "web-security",
       "secure-design",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0101",
+    "slug": "understanding-cvss-score",
+    "title": {
+      "ar": "فهم درجة CVSS: كيف تقرأ خطورة الثغرة صح",
+      "en": "Understanding the CVSS Score: How to Correctly Read Vulnerability Severity"
+    },
+    "excerpt": {
+      "ar": "4 مكونات أساسية بتشكّل الدرجة، ليه السياق أهم من الرقم المجرد، ودور قوائم KEV في تحديد الأولوية الحقيقية.",
+      "en": "4 core components forming the score, why context matters more than the raw number, and the KEV list's role in determining real priority."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-26",
+    "readTime": 8,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "cvss",
+      "vulnerability-management",
+      "security",
       "guide"
     ],
     "isFeatured": true,
