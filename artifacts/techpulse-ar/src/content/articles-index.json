@@ -989,12 +989,12 @@
     "id": "art-gen-0032",
     "slug": "wifi-6-vs-wifi-5-practical",
     "title": {
-      "ar": "Wi-Fi 6 مقابل Wi-Fi 5: هل الترقية تستاهل فعلًا؟",
-      "en": "Wi-Fi 6 vs Wi-Fi 5: Is the Upgrade Actually Worth It?"
+      "ar": "Wi-Fi 6 مقابل Wi-Fi 5: الدليل الكامل لتقييم الترقية",
+      "en": "Wi-Fi 6 vs Wi-Fi 5: The Complete Guide to Assessing the Upgrade"
     },
     "excerpt": {
-      "ar": "الفرق الحقيقي في الأداء لما يكون عندك أجهزة كتيرة متصلة بالشبكة بنفس الوقت.",
-      "en": "The real performance difference when many devices are connected to the network simultaneously."
+      "ar": "تقنية OFDMA الجوهرية بالتفصيل، 4 سيناريوهات تستاهل الترقية فعليًا، ونصيحة عملية قبل الشراء.",
+      "en": "The core OFDMA technology in detail, 4 scenarios where upgrading is genuinely worth it, and practical advice before buying."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
@@ -1006,12 +1006,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2025-11-02",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1752742111841-f490c48aa668?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Nnx8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "wifi",
       "networking",
-      "hardware"
+      "hardware",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2469,8 +2470,8 @@
       "en": "API Rate Limiting: Protecting Your API from Being Overwhelmed"
     },
     "excerpt": {
-      "ar": "من غير حدود واضحة، مستخدم واحد (أو هجوم واحد) يقدر يوقف الخدمة لكل الباقيين.",
-      "en": "Without clear limits, one user (or one attack) can take the service down for everyone else."
+      "ar": "4 استراتيجيات تحديد بالتفصيل (Fixed Window, Token Bucket)، وأين تطبّق التحديد فنيًا (Gateway مقابل التطبيق نفسه).",
+      "en": "4 detailed limiting strategies (fixed window, token bucket), and where to technically implement it (gateway vs the application itself)."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
@@ -2482,12 +2483,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-05-07",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "api-security",
       "rate-limiting",
-      "developer-security"
+      "developer-security",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": true
@@ -2500,8 +2502,8 @@
       "en": "Dual Control: Why a Sensitive Operation Needs Two People's Approval"
     },
     "excerpt": {
-      "ar": "شخص واحد بصلاحية كاملة نقطة فشل وخطر — الرقابة المزدوجة بتقلل الاتنين.",
-      "en": "One person with full authority is a single point of failure and risk -- dual control reduces both."
+      "ar": "3 زوايا ليه المبدأ ده مهم فعليًا، أمثلة تطبيق واقعية، وليه آلية الموافقة السريعة أساسية لنجاح التطبيق.",
+      "en": "3 angles on why this principle genuinely matters, real application examples, and why a fast approval mechanism is essential for successful implementation."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -2513,12 +2515,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-05-14",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1559163330-c30bac8c5031?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "dual-control",
       "access-control",
-      "insider-threat"
+      "insider-threat",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": true
@@ -3027,6 +3030,38 @@
       "waf",
       "web-security",
       "application-security",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0097",
+    "slug": "data-loss-prevention-dlp-guide",
+    "title": {
+      "ar": "منع تسريب البيانات (DLP): الدليل الكامل",
+      "en": "Data Loss Prevention (DLP): The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "4 طرق كشف بيانات حساسة بالتفصيل، 3 نقاط تطبيق رئيسية (شبكة/جهاز/سحابة)، وأشهر تحدي عملي (التنبيهات الكاذبة).",
+      "en": "4 detailed sensitive-data detection methods, 3 main application points (network/endpoint/cloud), and the most common practical challenge (false positives)."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-25",
+    "readTime": 9,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "dlp",
+      "data-security",
+      "compliance",
       "guide"
     ],
     "isFeatured": true,
