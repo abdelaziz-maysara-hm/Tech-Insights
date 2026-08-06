@@ -1537,8 +1537,8 @@
       "en": "Disk Encryption with BitLocker: Basics You Need to Know"
     },
     "excerpt": {
-      "ar": "لو لابتوب اتسرق، BitLocker بيمنع اللي سرقه من قراءة أي ملف من غير مفتاح فك التشفير.",
-      "en": "If a laptop is stolen, BitLocker stops the thief from reading any file without the decryption key."
+      "ar": "دور TPM في تأمين العملية بالتفصيل، خطوات تفعيل موسّعة، وليه نسيان حفظ مفتاح الاستعادة كارثة حقيقية مش مجرد إزعاج.",
+      "en": "TPM's role in securing the process in detail, expanded activation steps, and why forgetting to save the recovery key is a genuine disaster, not just an inconvenience."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -1550,12 +1550,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-05-13",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8ZW5jcnlwdGlvbiUyMHBhZGxvY2slMjBoYXJkJTIwZHJpdmV8ZW58MXwwfHx8MTc4NTg5ODQ2NHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "bitlocker",
       "encryption",
-      "windows-security"
+      "windows-security",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -1953,8 +1954,8 @@
       "en": "Data Classification: Not Every File Needs the Same Protection Level"
     },
     "excerpt": {
-      "ar": "خطوة بسيطة بتخلي جهود الحماية تتركّز على اللي فعلًا محتاج حماية.",
-      "en": "A simple step that focuses protection effort on what actually needs it."
+      "ar": "نظام تصنيف بأربع مستويات بالتفصيل، وليه محاولة تصنيف كل شيء دفعة واحدة من أول يوم أشهر خطأ عملي يفشل المشروع كله.",
+      "en": "A detailed four-level classification system, and why trying to classify everything at once from day one is the most common practical mistake that fails the whole project."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1966,12 +1967,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-05-23",
-    "readTime": 5,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1695388474402-ed805a890d8d?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8YXVkaXQlMjBkb2N1bWVudHMlMjBvZmZpY2V8ZW58MXwwfHx8MTc4NTg5ODQ2Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "data-classification",
       "compliance",
-      "governance"
+      "governance",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2046,8 +2048,8 @@
       "en": "Task Automation with Task Scheduler: More Than Just Reminders"
     },
     "excerpt": {
-      "ar": "إزاي تستخدم أداة مدمجة في Windows لأتمتة مهام إدارية متكررة بدون سكريبتات معقدة.",
-      "en": "How to use a built-in Windows tool to automate repetitive admin tasks without complex scripting."
+      "ar": "3 استخدامات عملية بالتفصيل، خطوات إنشاء مهمة صحيحة، وليه استخدام حساب المستخدم الشخصي أشهر سبب فشل صامت.",
+      "en": "3 practical uses in detail, correct task creation steps, and why using a personal user account is the most common cause of silent failure."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -2059,12 +2061,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-03-17",
-    "readTime": 4,
+    "readTime": 7,
     "heroImage": "https://images.unsplash.com/photo-1679269241012-f7640862d242?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8d2luZG93cyUyMGNvbXB1dGVyJTIwY2xvY2t8ZW58MXwwfHx8MTc4NTg3MjE3OHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "task-scheduler",
       "automation",
-      "windows"
+      "windows",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -3307,6 +3310,38 @@
       "tls",
       "https",
       "encryption",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0105",
+    "slug": "zero-day-vulnerabilities-explained",
+    "title": {
+      "ar": "ثغرات يوم الصفر (Zero-Day): الدليل الكامل",
+      "en": "Zero-Day Vulnerabilities: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "دورة الحياة الكاملة من الاكتشاف للتصحيح، ليه الحماية التقليدية عاجزة تمامًا عن اكتشافها، و3 استراتيجيات دفاعية عملية رغم استحالة المنع الكامل.",
+      "en": "The complete lifecycle from discovery to patching, why traditional protection is entirely unable to detect it, and 3 practical defensive strategies despite total prevention being impossible."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-27",
+    "readTime": 9,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "zero-day",
+      "vulnerability-management",
+      "security",
       "guide"
     ],
     "isFeatured": true,
