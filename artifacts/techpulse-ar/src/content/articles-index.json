@@ -1501,12 +1501,12 @@
     "id": "art-gen-0048",
     "slug": "dns-security-filtering-dnssec",
     "title": {
-      "ar": "أمان DNS: من فلترة المواقع الضارة لـ DNSSEC",
-      "en": "DNS Security: From Malicious Site Filtering to DNSSEC"
+      "ar": "أمان DNS: الدليل الكامل من فلترة المواقع الضارة لـ DNSSEC",
+      "en": "DNS Security: The Complete Guide from Malicious Site Filtering to DNSSEC"
     },
     "excerpt": {
-      "ar": "طبقة حماية سهلة التطبيق وكتير من الفرق بتتجاهلها.",
-      "en": "An easy-to-implement protection layer that many teams overlook."
+      "ar": "ليه كل اتصال بيمر من DNS بدون استثناء، إزاي فلترة DNS بتشتغل فعليًا، والفرق الجوهري بين الطبقتين.",
+      "en": "Why every connection passes through DNS without exception, how DNS filtering actually works, and the fundamental difference between both layers."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -1518,12 +1518,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-04-06",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NXx8bmV0d29yayUyMGRvbWFpbiUyMHNlcnZlcnxlbnwxfDB8fHwxNzg1ODcyMTQyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "dns",
       "dnssec",
-      "network-security"
+      "network-security",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2098,11 +2099,11 @@
     "id": "art-gen-0067",
     "slug": "sd-wan-basics-explained",
     "title": {
-      "ar": "SD-WAN بدون تعقيد: إيه اللي بيحله فعليًا",
-      "en": "SD-WAN Without the Jargon: What It Actually Solves"
+      "ar": "SD-WAN بدون تعقيد: الدليل الكامل لإيه اللي بيحله فعليًا",
+      "en": "SD-WAN Without the Jargon: The Complete Guide to What It Actually Solves"
     },
     "excerpt": {
-      "ar": "لو عندك أكتر من فرع، الطريقة التقليدية لربطهم مكلفة وغير مرنة — SD-WAN بديل عملي.",
+      "ar": "إزاي التوجيه الذكي حسب نوع التطبيق بيشتغل، وليه الخلط بين إدارة الشبكة والأمان غلط شائع خطير.",
       "en": "If you have multiple branches, the traditional way of connecting them is costly and inflexible -- SD-WAN is a practical alternative."
     },
     "categoryId": "cybersecurity",
@@ -2115,12 +2116,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-04-04",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1667264501379-c1537934c7ab?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NHx8bmV0d29yayUyMGNhYmxlcyUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc4NTg3MjE4MHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "sd-wan",
       "networking",
-      "branch-connectivity"
+      "branch-connectivity",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -2160,12 +2162,12 @@
     "id": "art-gen-0069",
     "slug": "windows-local-admin-password-rotation",
     "title": {
-      "ar": "تدوير كلمة مرور المدير المحلي (LAPS): ليه مهم جدًا",
+      "ar": "تدوير كلمة مرور المدير المحلي (LAPS): الدليل الكامل",
       "en": "Local Admin Password Rotation (LAPS): Why It Matters a Lot"
     },
     "excerpt": {
-      "ar": "لو كل الأجهزة بنفس كلمة مرور Administrator المحلية، اختراق جهاز واحد يعني اختراق الكل.",
-      "en": "If every device shares the same local Administrator password, breaching one means breaching them all."
+      "ar": "إزاي LAPS بيقفل ثغرة الانتشار الجانبي تقنيًا، وليه صلاحية قراءة كلمات المرور المخزّنة أهم نقطة في التطبيق كله.",
+      "en": "How LAPS technically closes the lateral-movement gap, and why the stored-password read permission is the most important point in the whole implementation."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -2177,12 +2179,13 @@
       "avatar": "https://i.pravatar.cc/150?img=11"
     },
     "date": "2026-06-18",
-    "readTime": 5,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1654588831193-0285dab84d5a?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NHx8cGFzc3dvcmQlMjBzZWN1cml0eSUyMHdpbmRvd3N8ZW58MXwwfHx8MTc4NTg3MjE4Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "laps",
       "active-directory",
-      "windows-security"
+      "windows-security",
+      "guide"
     ],
     "isFeatured": false,
     "isTrending": false
@@ -3202,6 +3205,38 @@
       "cvss",
       "vulnerability-management",
       "security",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0102",
+    "slug": "security-operations-center-soc-guide",
+    "title": {
+      "ar": "مركز العمليات الأمنية (SOC): الدليل الكامل",
+      "en": "Security Operations Center (SOC): The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "3 مستويات فريق SOC التقليدية، تحدي التغطية الزمنية 24/7 (داخلي أو MSSP)، ومقاييس MTTD/MTTR لقياس الفعالية.",
+      "en": "The 3 traditional SOC team tiers, the 24/7 time-coverage challenge (internal vs MSSP), and MTTD/MTTR metrics for measuring effectiveness."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-06",
+    "readTime": 9,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "soc",
+      "security-operations",
+      "mssp",
       "guide"
     ],
     "isFeatured": true,
