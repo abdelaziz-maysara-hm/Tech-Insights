@@ -860,3 +860,16 @@ Kaspersky vs Bitdefender (endpoint)، Windows RDS vs Citrix، Group Policy vs In
 **التوزيع الجديد:** cybersecurity 84، windows 12، howto 6، technology 4، ai 3، laptops 2، mobile 2.
 
 **العدد الكلي:** 113 مقال — صفر أخطاء تحقق، صفر تكرار slugs.
+
+---
+
+## دفعة تنويع ثانية: 4 مقالات إضافية
+
+- **howto:** مدير كلمات المرور المدمج مقابل المستقل
+- **ai:** كيف يعمل توليد الصور بالذكاء الاصطناعي
+- **technology:** كيف يعمل التخزين السحابي فعليًا
+- **mobile:** iOS مقابل Android للاختيار
+
+**التوزيع المحدّث:** cybersecurity 84، windows 12، howto 7، technology 5، ai 4، mobile 3، laptops 2.
+
+**العدد الكلي:** 117 مقال — صفر أخطاء تحقق، صفر تكرار slugs.

@@ -3599,5 +3599,131 @@
     ],
     "isFeatured": false,
     "isTrending": true
+  },
+  {
+    "id": "art-gen-0114",
+    "slug": "browser-vs-standalone-password-manager",
+    "title": {
+      "ar": "مدير كلمات المرور المدمج مقابل المستقل: الدليل الكامل",
+      "en": "Browser vs Standalone Password Manager: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "القيود الفعلية للمدير المدمج (عبر متصفحات وأجهزة مختلفة)، ومتى الانتقال لمدير مستقل يستاهل فعليًا.",
+      "en": "The built-in manager's actual limitations (across different browsers and devices), and when switching to a standalone manager is genuinely worth it."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-09",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "password-manager",
+      "browser",
+      "productivity",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0115",
+    "slug": "how-ai-image-generation-works",
+    "title": {
+      "ar": "كيف يعمل توليد الصور بالذكاء الاصطناعي: الدليل الكامل",
+      "en": "How AI Image Generation Works: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "مبدأ إزالة الضوضاء التدريجية (Diffusion)، ليه صياغة الوصف بتفرق كتير، وليه الأيدي تحديدًا صعبة تقنيًا على النماذج.",
+      "en": "The gradual denoising (diffusion) principle, why prompt phrasing matters so much, and why hands specifically are technically difficult for models."
+    },
+    "categoryId": "ai",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-16",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ai",
+      "image-generation",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0116",
+    "slug": "how-cloud-storage-actually-works",
+    "title": {
+      "ar": "كيف يعمل التخزين السحابي فعليًا: الدليل الكامل",
+      "en": "How Cloud Storage Actually Works: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "ليه التكرار عبر أقراص ومراكز بيانات متعددة سر الموثوقية، وإزاي المزامنة الذكية (Delta Sync) بتوفر وقت وبيانات.",
+      "en": "Why redundancy across multiple disks and data centers is the reliability secret, and how smart delta sync saves time and data."
+    },
+    "categoryId": "technology",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-23",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "cloud-storage",
+      "technology",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0117",
+    "slug": "ios-vs-android-choosing-guide",
+    "title": {
+      "ar": "iOS مقابل Android: الدليل الكامل للاختيار",
+      "en": "iOS vs Android: The Complete Choosing Guide"
+    },
+    "excerpt": {
+      "ar": "3 عوامل عملية تستاهل التفكير الفعلي (التكامل، التخصيص، الميزانية)، والفرق الحقيقي في طول دعم التحديثات.",
+      "en": "3 practical factors deserving genuine thought (integration, customization, budget), and the real difference in update support duration."
+    },
+    "categoryId": "mobile",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-03",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ios",
+      "android",
+      "smartphone",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": true
   }
 ]
