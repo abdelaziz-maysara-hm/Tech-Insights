@@ -3766,5 +3766,290 @@
     ],
     "isFeatured": true,
     "isTrending": false
+  },
+  {
+    "id": "art-gen-0106",
+    "slug": "smartphone-battery-longevity-guide",
+    "title": {
+      "ar": "إطالة عمر بطارية الهاتف: الدليل الكامل",
+      "en": "Extending Smartphone Battery Life: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "3 عوامل حقيقية بتسرّع تدهور البطارية بالتفصيل، وعادات عملية بتحافظ على صحتها فعليًا على المدى الطويل.",
+      "en": "3 real factors accelerating battery degradation in detail, and practical habits that genuinely preserve its health long-term."
+    },
+    "body": {
+      "ar": "## ليه البطارية بتتدهور مع الوقت أصلًا (المفهوم الأساسي)\n\nبطاريات الليثيوم-أيون المستخدمة في كل الهواتف الحديثة بتفقد جزء من قدرتها الفعلية مع كل دورة شحن كاملة — مش عيب تصنيع، لكن خاصية كيميائية أساسية في التقنية نفسها. بعد حوالي 500 دورة شحن كاملة (مش بالضرورة 500 يوم، لأن شحن جزئي كتير بيتجمّع كدورة واحدة)، معظم البطاريات بتفقد حوالي 20% من قدرتها الأصلية. فهم السبب ده بيوضح ليه بعض العادات بتسرّع التدهور وبعضها بيبطّئه.\n\n## العوامل اللي فعليًا بتسرّع تدهور البطارية\n\n### الحرارة الزائدة (العامل الأخطر فعليًا)\n\nبطاريات الليثيوم حساسة جدًا للحرارة العالية — شحن الهاتف وهو في الشمس المباشرة، أو استخدامه بكثافة (ألعاب ثقيلة) وهو بيشحن في نفس الوقت، بيرفع درجة حرارته بشكل ملحوظ وبيسرّع التدهور الكيميائي الفعلي للبطارية بشكل أكبر بكثير من أي عامل تاني.\n\n### الشحن الكامل المستمر لـ100% والتفريغ الكامل لـ0%\n\nالبقاء عند أقصى الحدود (100% أو 0%) لفترات طويلة بيضغط على البطارية كيميائيًا أكتر من البقاء في النطاق المتوسط — النطاق المثالي فعليًا للحفاظ على صحة البطارية طويلة المدى هو بين 20% و80% تقريبًا.\n\n### الشحن السريع جدًا بشكل متكرر ومستمر\n\nالشحن السريع مريح جدًا عمليًا، لكنه بيولّد حرارة أعلى من الشحن العادي — استخدامه بشكل متكرر يوميًا (بدل الشحن البطيء بين عشية وضحاها مثلًا) بيسرّع التدهور شوية مقارنة بالشحن الأبطأ.\n\n## عادات عملية بتحافظ على صحة البطارية فعليًا\n\n### 1. تجنب الشحن الكامل الدائم لو ممكن\n\nكتير من الهواتف الحديثة بتوفر ميزة \"حد الشحن الأمثل\" (Optimized Battery Charging) بتوقف الشحن عند نسبة معينة (زي 80%) في معظم الأوقات — فعّلها لو متاحة، تحديدًا للهاتف اللي بيفضل موصّل بالشاحن طول الليل.\n\n### 2. تجنب الحرارة الزائدة بشكل واعٍ\n\nمتسيبش الهاتف في الشمس المباشرة أو داخل سيارة مقفولة في الصيف، وتجنب الاستخدام الثقيل جدًا أثناء الشحن لو ممكن.\n\n### 3. الشحن البطيء أفضل للاستخدام اليومي المعتاد\n\nلو مش مستعجل فعليًا، الشحن العادي (مش السريع) طول الليل أفضل لصحة البطارية طويلة المدى من الشحن السريع المتكرر خلال اليوم.\n\n## نصيحة عملية مهمة: راقب صحة البطارية الفعلية\n\nمعظم الهواتف الحديثة (خصوصًا iPhone) بتوفر شاشة \"صحة البطارية\" بتوريك النسبة الفعلية من القدرة الأصلية المتبقية — مراجعة دورية بتديك فكرة واقعية عن حالة البطارية، بدل الاعتماد على إحساس شخصي غير دقيق.\n\n## الخلاصة\n\nتدهور البطارية جزء طبيعي من التقنية نفسها، لكن الحرارة الزائدة والبقاء عند الحدود القصوى (0% أو 100%) لفترات طويلة هما أخطر عاملين تسريع فعليين — تجنبهما بوعي بيطيل عمر البطارية الفعلي بشكل ملموس على المدى الطويل.",
+      "en": "## Why batteries degrade over time in the first place (the core concept)\n\nLithium-ion batteries used in all modern phones lose part of their actual capacity with every full charge cycle -- not a manufacturing defect, but a fundamental chemical property of the technology itself. After roughly 500 full charge cycles (not necessarily 500 days, since many partial charges accumulate into one cycle), most batteries lose about 20% of their original capacity. Understanding this explains why certain habits accelerate degradation and others slow it down.\n\n## Factors that genuinely accelerate battery degradation\n\n### Excessive heat (the actually most dangerous factor)\n\nLithium batteries are very sensitive to high heat -- charging the phone in direct sunlight, or using it heavily (intense gaming) while charging simultaneously, noticeably raises its temperature and accelerates the battery's actual chemical degradation far more than any other factor.\n\n### Constant full charging to 100% and full draining to 0%\n\nStaying at extreme limits (100% or 0%) for extended periods chemically stresses the battery more than staying in the mid-range -- the actual ideal range for maintaining long-term battery health is roughly between 20% and 80%.\n\n### Very frequent, continuous fast charging\n\nFast charging is very convenient practically, but generates higher heat than regular charging -- using it frequently daily (instead of slow overnight charging, say) somewhat accelerates degradation compared to slower charging.\n\n## Practical habits that genuinely preserve battery health\n\n### 1. Avoid constant full charging if possible\n\nMany modern phones offer an 'Optimized Battery Charging' feature stopping charging at a certain percentage (like 80%) most of the time -- enable it if available, especially for a phone that stays plugged in overnight.\n\n### 2. Consciously avoid excessive heat\n\nDon't leave the phone in direct sunlight or a closed car in summer, and avoid very heavy use while charging if possible.\n\n### 3. Slow charging is better for regular daily use\n\nIf not genuinely in a hurry, regular (not fast) overnight charging is better for long-term battery health than frequent fast charging during the day.\n\n## Important practical advice: monitor actual battery health\n\nMost modern phones (especially iPhone) offer a 'Battery Health' screen showing the actual percentage of original capacity remaining -- periodic review gives you a realistic picture of battery condition, instead of relying on inaccurate personal perception.\n\n## Bottom line\n\nBattery degradation is a natural part of the technology itself, but excessive heat and staying at extreme limits (0% or 100%) for extended periods are the two genuinely most dangerous acceleration factors -- consciously avoiding both noticeably extends actual battery lifespan long-term."
+    },
+    "categoryId": "mobile",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-07",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "battery",
+      "smartphone",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0107",
+    "slug": "effective-ai-prompting-guide",
+    "title": {
+      "ar": "كتابة طلبات فعّالة للذكاء الاصطناعي: الدليل الكامل",
+      "en": "Writing Effective AI Prompts: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "4 مبادئ صياغة أساسية بالتفصيل، وليه الاستسلام على أول رد أشهر خطأ عملي في الاستخدام اليومي.",
+      "en": "4 core phrasing principles in detail, and why settling for the first response is the most common practical mistake in daily use."
+    },
+    "body": {
+      "ar": "## ليه صياغة الطلب بتفرق فعليًا في جودة النتيجة\n\nنفس النموذج بالضبط ممكن يديك إجابة سطحية عامة أو إجابة عميقة ومفيدة فعليًا، حسب صياغة طلبك بس — النماذج اللغوية بترد بناءً على السياق والتفاصيل اللي بتديها، مش بتقرأ نيتك. فهم إزاي تصيغ طلب فعّال (Prompt Engineering) بيحسّن جودة أي تفاعل مع أي أداة ذكاء اصطناعي بشكل ملموس، بدون ما تحتاج أي معرفة تقنية عميقة.\n\n## المبادئ الأساسية بالتفصيل\n\n### 1. الوضوح والتحديد أفضل من العمومية\n\nبدل \"اكتبلي إيميل\"، اطلب \"اكتبلي إيميل رسمي لمديري أطلب فيه إجازة يومين الأسبوع الجاي لظروف عائلية، بأسلوب مختصر ومحترم\" — كل تفصيلة إضافية (الأسلوب، الطول، السياق) بتوجّه النتيجة لأقرب ما يكون لاحتياجك الفعلي.\n\n### 2. حدد الدور أو السياق اللي عايز الرد يتماشى معاه\n\n\"اشرحلي زي أستاذ جامعي\" مختلف تمامًا عن \"اشرحلي زي صاحبي بيتكلم ببساطة\" — نفس المعلومة، لكن أسلوب العرض مختلف جذريًا حسب السياق المطلوب.\n\n### 3. اطلب خطوات تفكير تدريجية للمسائل المعقدة\n\nلمشاكل منطقية أو حسابية معقدة، اطلب \"فكّر خطوة بخطوة\" صراحة — ده بيحسّن دقة الإجابة بشكل ملحوظ في المسائل اللي محتاجة استدلال متعدد الخطوات، لأنه بيمنع النموذج من القفز لإجابة سريعة غير مدروسة.\n\n### 4. أعطِ أمثلة إيجابية وسلبية لو عايز نمط محدد\n\nلو محتاج نتيجة بصيغة معينة جدًا، إدي مثال واحد على الشكل المطلوب — ده بيوجّه النموذج بدقة أكبر بكثير من الوصف اللفظي وحده، خصوصًا لصيغ معقدة أو غير معتادة.\n\n## أشهر خطأ عملي في الاستخدام اليومي\n\nالاعتماد على أول رد بدون أي تكرار أو تحسين — لو الرد الأول مش دقيق كفاية أو ناقص تفاصيل، الحل مش الاستسلام أو البدء من جديد، لكن **التوضيح والتعديل**: \"ده مفيدش، لكن ممكن تركّز أكتر على...\" — التفاعل التكراري بيوصلك لنتيجة أفضل بكثير من محاولة صياغة الطلب المثالي من أول مرة.\n\n## نصيحة عملية للمهام المتكررة\n\nلو بتستخدم نفس نوع الطلب بشكل متكرر (زي مراجعة كود، أو تلخيص مستندات)، احتفظ بصياغة الطلب اللي طلعت نتيجتها أفضل، وعدّلها بدل ما تعيد الصياغة من الصفر كل مرة — بيوفر وقت ويحسّن الاتساق في جودة النتائج.\n\n## الخلاصة\n\nجودة النتيجة من أي أداة ذكاء اصطناعي مرتبطة بشكل مباشر بجودة الطلب نفسه — الوضوح، تحديد السياق، طلب التفكير التدريجي للمسائل المعقدة، والتكرار والتحسين بدل الاستسلام على أول رد، أربع مبادئ بسيطة بتحسّن جودة أي تفاعل بشكل ملموس.",
+      "en": "## Why request phrasing genuinely affects result quality\n\nThe exact same model can give you a superficial generic answer or a genuinely deep, useful one, depending purely on how your request is phrased -- language models respond based on the context and details you give them, not by reading your intent. Understanding how to phrase an effective request (prompt engineering) noticeably improves the quality of any interaction with any AI tool, with no need for deep technical knowledge.\n\n## Core principles in detail\n\n### 1. Clarity and specificity beat generality\n\nInstead of 'write me an email', ask 'write a formal email to my manager requesting two days off next week for family reasons, in a brief, respectful style' -- every additional detail (style, length, context) steers the result closer to your actual need.\n\n### 2. Define the role or context you want the response aligned with\n\n'Explain it to me like a university professor' is entirely different from 'explain it to me like a friend speaking simply' -- the same information, but presentation style fundamentally differs based on the requested context.\n\n### 3. Request gradual reasoning steps for complex problems\n\nFor complex logical or computational problems, explicitly request 'think step by step' -- this noticeably improves answer accuracy for problems needing multi-step reasoning, since it prevents the model from jumping to a quick, unconsidered answer.\n\n### 4. Give positive and negative examples for a specific desired pattern\n\nIf you need a result in a very specific format, give one example of the desired shape -- this guides the model far more precisely than verbal description alone, especially for complex or unusual formats.\n\n## The most common practical mistake in daily use\n\nRelying on the first response with no iteration or refinement -- if the first response isn't accurate enough or missing details, the fix isn't giving up or starting over, but clarifying and adjusting: 'that's not quite it, but can you focus more on...' -- iterative interaction gets you a far better result than trying to craft the perfect request the first time.\n\n## Practical advice for repeated tasks\n\nIf you use the same request type repeatedly (like code review, or document summarization), keep the phrasing that produced the best result, and adjust it instead of rephrasing from scratch each time -- saves time and improves result quality consistency.\n\n## Bottom line\n\nResult quality from any AI tool is directly tied to the request's own quality -- clarity, defining context, requesting gradual reasoning for complex problems, and iterating and refining instead of settling for the first response are four simple principles noticeably improving any interaction's quality."
+    },
+    "categoryId": "ai",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-14",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ai",
+      "prompt-engineering",
+      "productivity",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0108",
+    "slug": "how-gps-actually-works",
+    "title": {
+      "ar": "كيف يعمل GPS فعليًا: الدليل الكامل",
+      "en": "How GPS Actually Works: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "المبدأ الرياضي لتحديد الموقع بأربع أقمار صناعية، وليه الدقة بتختلف بين المدن الكثيفة والأماكن المفتوحة.",
+      "en": "The mathematical principle of locating via four satellites, and why accuracy differs between dense cities and open areas."
+    },
+    "body": {
+      "ar": "## الفكرة الأساسية: تحديد الموقع بدون أي اتصال يدوي\n\nنظام تحديد المواقع (GPS) بيحدد موقعك بدقة عالية من غير ما جهازك يحتاج \"يتصل\" بأي حاجة بالمعنى التقليدي — الجهاز بيستقبل بس إشارات من أقمار صناعية بعيدة جدًا، ومن خلال حسابات رياضية دقيقة على التوقيت، بيحدد موقعك الفعلي. فهم الآلية دي بيوضح ليه GPS بيشتغل حتى بدون إنترنت أو شبكة موبايل، وليه أحيانًا بيكون أقل دقة في أماكن معينة.\n\n## المبدأ الرياضي الأساسي: تثليث المسافة بالوقت\n\n### كيف الأقمار الصناعية بتحدد موقعك\n\nكل قمر صناعي GPS بيبعث إشارة بتحتوي على وقت إرسال الإشارة بدقة عالية جدًا (بيتم قياسه بساعات ذرية فائقة الدقة على متن القمر نفسه). جهازك بيستقبل الإشارة دي، وبيحسب المدة اللي أخذتها الإشارة عشان توصله — بما إن سرعة الإشارة معروفة (سرعة الضوء تقريبًا)، المدة دي بتترجم مباشرة لمسافة بين جهازك والقمر الصناعي.\n\n### ليه محتاج على الأقل 4 أقمار صناعية\n\nقمر صناعي واحد بيديك مسافة واحدة بس — مش كافي لتحديد موقع دقيق. بمعرفة المسافة من **4 أقمار مختلفين على الأقل في نفس الوقت**، جهازك يقدر يحسب رياضيًا موقعك الثلاثي الأبعاد (خط عرض، خط طول، ارتفاع) بدقة عالية عن طريق عملية تُسمى Trilateration.\n\n## ليه الدقة بتختلف حسب المكان\n\n### المناطق المفتوحة مقابل المدن الكثيفة (Urban Canyon Effect)\n\nفي مكان مفتوح، جهازك يقدر يستقبل إشارات واضحة من أقمار متعددة في نفس الوقت من غير عوائق. في مدينة كثيفة بمباني عالية، الإشارات ممكن ترتد على المباني (Multipath) قبل ما توصل لجهازك، وده بيسبب أخطاء في حساب المسافة وبالتالي دقة أقل في تحديد الموقع.\n\n### الأماكن المغلقة تمامًا (داخل مبنى)\n\nالإشارات من الأقمار (اللي بعيدة جدًا في الفضاء) ضعيفة جدًا أصلًا، ومش بتقدر تخترق أسقف أو جدران سميكة بشكل موثوق — ده بالظبط ليه GPS مش شغال بشكل موثوق داخل المباني، وأنظمة تحديد المواقع الداخلية بتعتمد على تقنيات مختلفة تمامًا (Wi-Fi، Bluetooth Beacons).\n\n## ليه GPS شغال بدون إنترنت\n\nنقطة مهمة كتير بيلخبطوا فيها: **GPS نفسه مش محتاج إنترنت إطلاقًا** — استقبال إشارات الأقمار الصناعية عملية مستقلة تمامًا عن اتصال الشبكة. لكن التطبيقات (زي خرائط جوجل) محتاجة إنترنت عشان تحمّل بيانات الخريطة نفسها وتوريك موقعك عليها بصريًا — الموقع نفسه بيتحدد من غير إنترنت، لكن عرضه على خريطة تفاعلية محتاج بيانات إضافية.\n\n## الخلاصة\n\nGPS بيحدد موقعك عن طريق حساب دقيق للمسافة من 4 أقمار صناعية على الأقل بناءً على توقيت وصول الإشارة، من غير أي حاجة لاتصال إنترنت للتحديد نفسه — فهم المبدأ ده بيوضح ليه الدقة بتقل في المدن الكثيفة، وليه مش شغال جوه المباني المغلقة.",
+      "en": "## The core idea: location determination with no manual connection\n\nThe Global Positioning System (GPS) determines your location with high accuracy without your device needing to 'connect' to anything in the traditional sense -- the device just receives signals from very distant satellites, and through precise timing calculations, determines your actual location. Understanding this mechanism explains why GPS works even without internet or cell service, and why it's sometimes less accurate in certain places.\n\n## The core mathematical principle: trilateration by time\n\n### How satellites determine your location\n\nEvery GPS satellite broadcasts a signal containing the exact transmission time (measured by ultra-precise atomic clocks aboard the satellite itself). Your device receives this signal and calculates how long it took to arrive -- since the signal's speed is known (roughly the speed of light), this duration directly translates to a distance between your device and the satellite.\n\n### Why at least 4 satellites are needed\n\nOne satellite gives you just one distance -- not enough for precise location. Knowing the distance from at least 4 different satellites simultaneously, your device can mathematically calculate your three-dimensional position (latitude, longitude, altitude) with high accuracy through a process called trilateration.\n\n## Why accuracy varies by location\n\n### Open areas vs dense cities (urban canyon effect)\n\nIn an open area, your device can receive clear signals from multiple satellites simultaneously with no obstructions. In a dense city with tall buildings, signals can bounce off buildings (multipath) before reaching your device, causing distance calculation errors and thus lower location accuracy.\n\n### Fully enclosed spaces (inside a building)\n\nSignals from satellites (very far away in space) are already very weak, and can't reliably penetrate thick roofs or walls -- exactly why GPS doesn't work reliably indoors, and indoor positioning systems rely on entirely different technologies (Wi-Fi, Bluetooth beacons).\n\n## Why GPS works without internet\n\nA point many confuse: GPS itself needs no internet at all -- receiving satellite signals is an entirely independent process from network connectivity. But applications (like Google Maps) need internet to download the map data itself and visually show your location on it -- the location itself gets determined without internet, but displaying it on an interactive map needs additional data.\n\n## Bottom line\n\nGPS determines your location through precise distance calculation from at least 4 satellites based on signal arrival timing, with no need for an internet connection for the determination itself -- understanding this principle explains why accuracy drops in dense cities, and why it doesn't work inside enclosed buildings."
+    },
+    "categoryId": "technology",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-21",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "gps",
+      "technology",
+      "navigation",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0109",
+    "slug": "laptop-for-developers-guide",
+    "title": {
+      "ar": "اختيار لابتوب للمبرمجين: الدليل الكامل",
+      "en": "Choosing a Laptop for Developers: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "4 مكونات فعليًا بتفرق بالتفصيل، ومقارنة أنظمة التشغيل الثلاثة (macOS/Linux/Windows+WSL) حسب نوع العمل.",
+      "en": "4 components that genuinely matter in detail, and a comparison of the three OS options (macOS/Linux/Windows+WSL) by work type."
+    },
+    "body": {
+      "ar": "## ليه احتياجات المبرمج مختلفة عن المستخدم العادي\n\nلابتوب المستخدم العادي محتاج يشغّل متصفح وOffice بسلاسة — لابتوب المبرمج محتاج يشغّل بيئة تطوير كاملة (IDE ثقيل، أدوات بناء Build Tools، أحيانًا حاويات Docker أو أجهزة افتراضية) في نفس الوقت، غالبًا لفترات طويلة متواصلة. الفرق في متطلبات الموارد حقيقي وملموس، مش مجرد تفضيل شخصي.\n\n## المكونات اللي فعليًا بتفرق للمبرمج\n\n### الذاكرة العشوائية: 16 جيجا حد أدنى فعلي، 32 جيجا مريح\n\nIDE واحد ثقيل (زي IntelliJ أو Visual Studio) لوحده ممكن يستهلك 2-4 جيجا. لو محتاج تشغيل حاويات Docker أو جهاز افتراضي بالتوازي، 16 جيجا بيبقى الحد الأدنى الفعلي بدون إزعاج، و32 جيجا بيديك راحة حقيقية لسير عمل معقد.\n\n### المعالج: عدد النوى أهم من السرعة القصوى المفردة\n\nعمليات البناء (Compilation) والاختبارات الآلية بتستفيد بشكل كبير من عدد النوى المتوازية أكتر من سرعة نواة واحدة قصوى — معالج بعدد نوى أعلى (حتى لو سرعته المفردة أقل شوية) غالبًا بيدّي أداء فعلي أفضل لمهام التطوير.\n\n### التخزين: SSD سريع إجباري بالكامل، مش اختياري\n\nفتح مشروع كبير، تشغيل بيئة تطوير، أو بناء مشروع ضخم — كل ده بيتأثر بشكل ملحوظ جدًا بسرعة القرص. NVMe SSD (أسرع من SATA SSD العادي) بيفرق فعليًا في وقت الانتظار اليومي المتراكم.\n\n### الشاشة: دقة عالية ومساحة كافية\n\nمبرمج بيقضي ساعات طويلة بيحدّق في كود — شاشة بدقة عالية (على الأقل 1920x1080، ويُفضّل أعلى) بتقلل إجهاد العين على المدى الطويل، ومساحة شاشة كافية (أو دعم شاشة خارجية ثانية) بتحسّن الإنتاجية الفعلية بشكل ملموس.\n\n## نظام التشغيل: قرار يعتمد على نوع العمل\n\n### macOS\n\nاختيار قوي جدًا لتطوير iOS/macOS تحديدًا (إجباري فعليًا لأدوات Xcode)، وبيئة يونكس مريحة جدًا لمعظم أنواع تطوير الويب والباك إند.\n\n### Linux\n\nمثالي لتطوير مرتبط بالسيرفرات أو DevOps تحديدًا — بيئة مطابقة تمامًا لبيئة الإنتاج الفعلية في معظم الحالات، من غير طبقة توافق إضافية.\n\n### Windows (مع WSL)\n\nخيار عملي جدًا حاليًا بفضل WSL (Windows Subsystem for Linux) — بيديك بيئة Linux حقيقية جوه Windows، بدون التضحية بتوافق البرامج الأوسع اللي Windows بيوفره.\n\n## نصيحة عملية مهمة: لا تبالغ في المواصفات لغرض غير فعلي\n\nكرت شاشة منفصل قوي (Gaming GPU) غير ضروري إطلاقًا لمعظم أنواع التطوير (ويب، باك إند، تطبيقات عادية) — يستاهل بس لو فعليًا بتشتغل في تطوير ألعاب أو تعلم آلة يحتاج معالجة GPU مكثفة.\n\n## الخلاصة\n\n16-32 جيجا رام + معالج متعدد النوى + SSD سريع NVMe + شاشة عالية الدقة = تغطية حقيقية لاحتياجات معظم المبرمجين، من غير حاجة لمواصفات Gaming باهظة الثمن ومش مستخدمة فعليًا في سير العمل اليومي.",
+      "en": "## Why a developer's needs differ from a regular user\n\nA regular user's laptop needs to smoothly run a browser and Office -- a developer's laptop needs to run a full development environment (a heavy IDE, build tools, sometimes Docker containers or virtual machines) simultaneously, often for long continuous stretches. The difference in resource requirements is real and tangible, not just personal preference.\n\n## Components that genuinely matter for developers\n\n### RAM: 16GB a real minimum, 32GB comfortable\n\nOne heavy IDE (like IntelliJ or Visual Studio) alone can consume 2-4GB. If you need Docker containers or a VM running in parallel, 16GB becomes the actual minimum without annoyance, and 32GB gives genuine comfort for a complex workflow.\n\n### CPU: core count matters more than single-core peak speed\n\nCompilation processes and automated tests benefit significantly more from parallel core count than single-core peak speed -- a higher core-count CPU (even with slightly lower single-core speed) often delivers better actual performance for development tasks.\n\n### Storage: fast SSD is entirely mandatory, not optional\n\nOpening a large project, running a dev environment, or building a huge project -- all significantly affected by disk speed. NVMe SSD (faster than regular SATA SSD) makes a genuine difference in accumulated daily wait time.\n\n### Display: high resolution and sufficient space\n\nA developer spends long hours staring at code -- a high-resolution display (at least 1920x1080, preferably higher) reduces long-term eye strain, and sufficient screen real estate (or support for a second external display) noticeably improves actual productivity.\n\n## Operating system: a decision depending on work type\n\n### macOS\n\nA very strong choice specifically for iOS/macOS development (practically mandatory for Xcode tools), and a very comfortable Unix environment for most web and backend development types.\n\n### Linux\n\nIdeal for server-related or DevOps-specific development -- an environment exactly matching actual production in most cases, with no additional compatibility layer.\n\n### Windows (with WSL)\n\nA very practical choice currently thanks to WSL (Windows Subsystem for Linux) -- gives you a genuine Linux environment inside Windows, without sacrificing the broader software compatibility Windows provides.\n\n## Important practical advice: don't overspend on specs for no actual purpose\n\nA powerful dedicated GPU (gaming class) is entirely unnecessary for most development types (web, backend, regular apps) -- worth it only if genuinely doing game development or machine learning needing intensive GPU processing.\n\n## Bottom line\n\n16-32GB RAM plus a multi-core processor plus a fast NVMe SSD plus a high-resolution display covers most developers' real needs, with no need for expensive gaming-tier specs that go unused in actual daily workflow."
+    },
+    "categoryId": "laptops",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-01",
+    "readTime": 8,
+    "heroImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "laptop",
+      "developers",
+      "programming",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0110",
+    "slug": "wifi-vs-mobile-data-when-to-use",
+    "title": {
+      "ar": "Wi-Fi مقابل بيانات الموبايل: متى تستخدم كل واحدة",
+      "en": "Wi-Fi vs Mobile Data: When to Use Each"
+    },
+    "excerpt": {
+      "ar": "3 عوامل عملية غير السرعة (البطارية، الأمان على شبكات عامة، الاستقرار أثناء التنقل)، ونصيحة التبديل الذكي التلقائي.",
+      "en": "3 practical factors beyond speed (battery, security on public networks, stability while moving), and smart auto-switching advice."
+    },
+    "body": {
+      "ar": "## أكتر من مجرد \"أيهما أسرع؟\"\n\nالافتراض الشائع إن Wi-Fi دايمًا أسرع من بيانات الموبايل مش دقيق دايمًا — شبكة Wi-Fi ضعيفة أو مزدحمة بعدد كبير من الأجهزة المتصلة ممكن تكون أبطأ فعليًا من شبكة 5G حديثة وقوية. القرار الصح بين الاتنين محتاج اعتبارات عملية أوسع من مجرد السرعة النظرية.\n\n## عوامل تستاهل الاهتمام الفعلي\n\n### استهلاك البطارية\n\nبيانات الموبايل بشكل عام بتستهلك بطارية أكتر من Wi-Fi، لأن الهوائي محتاج طاقة أكبر للتواصل مع أبراج بعيدة نسبيًا مقارنة بجهاز Wi-Fi قريب في نفس الغرفة أو المبنى.\n\n### الأمان على الشبكات العامة\n\nشبكة Wi-Fi عامة غير موثوقة (مقهى، مطار) بدون VPN بتعرّض بياناتك لمخاطر اعتراض حقيقية لو حد تاني على نفس الشبكة عنده نية سيئة. بيانات الموبايل عمومًا أكثر أمانًا من هذه الزاوية تحديدًا، لأنها مشفّرة على مستوى شبكة المشغّل نفسها.\n\n### الاستقرار أثناء التنقل\n\nWi-Fi بيفقد الاتصال فورًا لو خرجت من نطاق الراوتر — بيانات الموبايل بتحافظ على اتصال مستمر أثناء التنقل (زي في السيارة أو المواصلات) عن طريق التبديل التلقائي بين الأبراج.\n\n## نصيحة عملية للاستخدام اليومي\n\nفعّل \"التبديل التلقائي الذكي\" لو الهاتف بيدعمه — بعض الأنظمة الحديثة بتقدر تكتشف تلقائيًا لو شبكة Wi-Fi المتصلة بيها ضعيفة فعليًا وتتحول لبيانات الموبايل بشكل شفاف من غير أي تدخل يدوي.\n\n## الخلاصة\n\nمفيش إجابة واحدة صحيحة دايمًا — Wi-Fi أفضل للاستخدام الثابت الموفّر للبطارية والبيانات، وبيانات الموبايل أفضل للتنقل والأمان على شبكات غير موثوقة.",
+      "en": "## More than just 'which is faster?'\n\nThe common assumption that Wi-Fi is always faster than mobile data isn't always accurate -- a weak or congested Wi-Fi network with many connected devices can actually be slower than a strong, modern 5G network. The right choice between the two needs broader practical considerations than just theoretical speed.\n\n## Factors worth genuine attention\n\n### Battery consumption\n\nMobile data generally consumes more battery than Wi-Fi, since the antenna needs more power to communicate with relatively distant towers compared to a nearby Wi-Fi device in the same room or building.\n\n### Security on public networks\n\nAn untrusted public Wi-Fi network (cafe, airport) without a VPN exposes your data to real interception risk if someone else on the same network has bad intent. Mobile data is generally more secure from this specific angle, since it's encrypted at the carrier network level itself.\n\n### Stability while moving\n\nWi-Fi loses connection immediately once you leave the router's range -- mobile data maintains continuous connectivity while moving (like in a car or on transit) via automatic tower switching.\n\n## Practical advice for daily use\n\nEnable 'smart auto-switching' if your phone supports it -- some modern systems can automatically detect when the connected Wi-Fi network is genuinely weak and seamlessly switch to mobile data with no manual intervention.\n\n## Bottom line\n\nThere's no single always-correct answer -- Wi-Fi is better for stationary use saving battery and data, and mobile data is better for movement and security on untrusted networks."
+    },
+    "categoryId": "mobile",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-08",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "wifi",
+      "mobile-data",
+      "smartphone",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0111",
+    "slug": "how-large-language-models-work",
+    "title": {
+      "ar": "كيف تعمل النماذج اللغوية الكبيرة (LLM) فعليًا",
+      "en": "How Large Language Models (LLMs) Actually Work"
+    },
+    "excerpt": {
+      "ar": "ليه النموذج بيتوقع الكلمة التالية مش بيسترجع حقائق، وليه ده بالظبط بيفسّر ظاهرة الهلوسة (Hallucination).",
+      "en": "Why the model predicts the next word rather than retrieving facts, and why this exactly explains the hallucination phenomenon."
+    },
+    "body": {
+      "ar": "## الفكرة الأساسية: توقع الكلمة التالية، مش \"فهم\" بالمعنى التقليدي\n\nالنماذج اللغوية الكبيرة (LLM) زي اللي بتشغّل أدوات الذكاء الاصطناعي الحديثة، في جوهرها التقني، بتشتغل بمبدأ بسيط نسبيًا: **توقع الكلمة (أو جزء الكلمة) التالية الأكثر احتمالًا** بناءً على كل النص اللي قبلها. الفهم العميق للمبدأ ده بيوضح ليه النموذج أحيانًا بيكون دقيق جدًا وأحيانًا بيخطئ بثقة عالية.\n\n## إزاي النموذج \"بيتعلم\" أصلًا (التدريب)\n\n### التدريب على كميات ضخمة من النصوص\n\nالنموذج بيتدرّب على كميات هائلة من النصوص (كتب، مواقع، مقالات) — من خلال التدريب ده، بيتعلم أنماط إحصائية معقدة جدًا عن إزاي الكلمات والجمل عادةً بتترابط مع بعضها في سياقات مختلفة.\n\n### التمثيل الرقمي للمعنى (Embeddings)\n\nالكلمات بتتحول لتمثيلات رقمية (Vectors) بتعكس علاقات المعنى — كلمات متشابهة في المعنى بتكون قريبة رياضيًا من بعضها في الفضاء الرقمي ده، وده اللي بيسمح للنموذج \"يفهم\" علاقات زي المرادفات أو التشابه السياقي.\n\n## ليه النموذج ممكن \"يهلوس\" (Hallucination)\n\nبما إن النموذج بيتوقع الكلمة الأكثر احتمالًا إحصائيًا، مش بيسترجع حقيقة من قاعدة بيانات موثّقة زي محرك بحث، ممكن يولّد معلومة تبدو منطقية ومترابطة لغويًا لكنها غير صحيحة فعليًا — النص بيبان واثق ومصقول لأن ده جوهر ما بيتدرّب عليه (اللغة الطبيعية المترابطة)، مش لأن المعلومة نفسها موثّقة بالضرورة.\n\n## ليه السياق (Context Window) مهم جدًا\n\nالنموذج بيقدر \"يتذكر\" بس المحادثة الحالية ضمن حد معين من الطول (Context Window) — أي معلومة أبعد من الحد ده بتختفي فعليًا من \"ذاكرة\" النموذج المؤقتة، وده ليه المحادثات الطويلة جدًا أحيانًا بتخلي النموذج ينسى تفاصيل ذُكرت في البداية.\n\n## نصيحة عملية مبنية على الفهم ده\n\nبما إن النموذج مش بيسترجع حقائق موثّقة بالضرورة، تحقق من أي معلومة حقيقية مهمة (تواريخ، أرقام، أسماء) من مصدر تاني موثوق قبل الاعتماد عليها بالكامل، خصوصًا في مواضيع دقيقة أو متخصصة جدًا.\n\n## الخلاصة\n\nالنماذج اللغوية بتشتغل بتوقع احتمالي معقد جدًا للكلمة التالية بناءً على أنماط اتعلمتها من كميات ضخمة من النصوص، مش باسترجاع حقائق موثّقة من قاعدة بيانات — فهم الفرق ده بيوضح ليه النموذج قوي جدًا في المهام اللغوية لكن محتاج تحقق إضافي للحقائق الدقيقة.",
+      "en": "## The core idea: predicting the next word, not 'understanding' in the traditional sense\n\nLarge Language Models (LLMs), the ones powering modern AI tools, at their technical core, work on a relatively simple principle: predicting the most likely next word (or word fragment) based on all preceding text. Deeply understanding this principle explains why the model is sometimes very accurate and sometimes confidently wrong.\n\n## How the model 'learns' in the first place (training)\n\n### Training on massive amounts of text\n\nThe model trains on enormous amounts of text (books, sites, articles) -- through this training, it learns very complex statistical patterns about how words and sentences typically relate to each other in different contexts.\n\n### Numeric representation of meaning (embeddings)\n\nWords get converted into numeric representations (vectors) reflecting meaning relationships -- words similar in meaning end up mathematically close to each other in this numeric space, which is what lets the model 'understand' relationships like synonyms or contextual similarity.\n\n## Why the model can 'hallucinate'\n\nSince the model predicts the statistically most likely word, not retrieving a fact from a documented database like a search engine, it can generate information that sounds logical and linguistically coherent but is actually incorrect -- the text appears confident and polished because that's the core of what it trained on (coherent natural language), not because the information itself is necessarily documented.\n\n## Why context (the context window) matters greatly\n\nThe model can only 'remember' the current conversation within a certain length limit (the context window) -- any information beyond this limit effectively disappears from the model's temporary 'memory', which is why very long conversations sometimes cause the model to forget details mentioned at the start.\n\n## Practical advice based on this understanding\n\nSince the model doesn't necessarily retrieve documented facts, verify any important factual information (dates, numbers, names) from another trusted source before fully relying on it, especially in precise or highly specialized topics.\n\n## Bottom line\n\nLanguage models work by very complex probabilistic prediction of the next word based on patterns learned from massive amounts of text, not by retrieving documented facts from a database -- understanding this difference explains why the model is very strong at language tasks but needs additional verification for precise facts."
+    },
+    "categoryId": "ai",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-15",
+    "readTime": 8,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ai",
+      "llm",
+      "machine-learning",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0112",
+    "slug": "how-qr-codes-work",
+    "title": {
+      "ar": "كيف تعمل رموز QR فعليًا: الدليل الكامل",
+      "en": "How QR Codes Actually Work: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "الفرق عن الباركود التقليدي، دور تصحيح الأخطاء المدمج، ونصيحة عملية عند إضافة لوجو لكود QR.",
+      "en": "The difference from traditional barcodes, the role of built-in error correction, and practical advice when adding a logo to a QR code."
+    },
+    "body": {
+      "ar": "## ليه QR Code مختلف عن الباركود العادي\n\nالباركود التقليدي (الخطوط العمودية) بيخزن بيانات في بُعد واحد بس (أفقي) — بيقدر يخزن كمية محدودة نسبيًا من المعلومات (غالبًا رقم تسلسلي بس). QR Code (Quick Response Code) بيستخدم بُعدين (أفقي ورأسي)، وده بيدّيه قدرة تخزين أكبر بمئات المرات في نفس المساحة الفيزيائية تقريبًا.\n\n## المكونات البصرية وأدوارها\n\n### المربعات الثلاثة الكبيرة في الزوايا (Position Markers)\n\nمسؤولة عن مساعدة الكاميرا تحدد اتجاه الكود بسرعة، بغض النظر عن زاوية أو دوران الكاميرا وقت المسح — من غيرها، الجهاز محتاج وقت أطول بكتير عشان \"يفهم\" إزاي يقرأ الكود.\n\n### نمط النقاط الصغيرة المتناثرة (Data Modules)\n\nدي البيانات الفعلية المُشفّرة — كل نقطة سوداء أو بيضاء بتمثل جزء من البيانات الثنائية (Binary) اللي بتترجم للمعلومة الفعلية (رابط، نص، بيانات دفع).\n\n## ليه QR Code بيشتغل حتى لو جزء منه تالف\n\n### تصحيح الأخطاء المدمج (Error Correction)\n\nمعظم أكواد QR بتُصمم بمستوى معين من \"تكرار البيانات\" المدمج (Reed-Solomon Error Correction) — ده بيسمح للكود يفضل قابل للقراءة حتى لو نسبة معينة منه (تصل لـ30% في بعض المستويات) تلفت أو اتغطت، زي لو حد حط لوجو صغير في نص الكود.\n\n## الفرق بين مسح ناجح وفاشل\n\nلما الكاميرا بتمسح الكود، بتحوّل الصورة لبيانات ثنائية، وبتستخدم خوارزميات تصحيح الأخطاء عشان \"تخمّن\" أي أجزاء تالفة بناءً على النمط المتوقع — لو نسبة التلف أكبر من قدرة التصحيح المُضمّنة، المسح بيفشل تمامًا.\n\n## نصيحة عملية عند إنشاء أكواد QR\n\nلو بتضيف لوجو أو تصميم لكود QR، استخدم مستوى تصحيح أخطاء أعلى (High) عشان تضمن إن الكود لسه قابل للقراءة رغم التغطية الجزئية — ومهم جدًا تختبر الكود فعليًا بعد أي تعديل تصميمي قبل الطباعة أو النشر النهائي.\n\n## الخلاصة\n\nQR Code بيستفيد من التخزين ثنائي الأبعاد وتصحيح الأخطاء المدمج عشان يخزن بيانات أكتر بكثير من الباركود التقليدي، ويفضل قابل للقراءة حتى مع تلف جزئي — فهم المبدأ ده بيوضح ليه بعض الأكواد بتشتغل حتى مع تصميم إبداعي فوقها.",
+      "en": "## Why QR codes differ from regular barcodes\n\nA traditional barcode (vertical lines) stores data in only one dimension (horizontal) -- it can store a relatively limited amount of information (often just a serial number). A QR (Quick Response) code uses two dimensions (horizontal and vertical), giving it hundreds of times more storage capacity in roughly the same physical space.\n\n## Visual components and their roles\n\n### The three large corner squares (position markers)\n\nResponsible for helping the camera quickly determine the code's orientation, regardless of the camera's angle or rotation at scan time -- without them, the device needs much longer to 'understand' how to read the code.\n\n### The scattered small dot pattern (data modules)\n\nThis is the actual encoded data -- every black or white dot represents part of the binary data translating to the actual information (a link, text, payment data).\n\n## Why a QR code works even if part of it is damaged\n\n### Built-in error correction\n\nMost QR codes are designed with a certain level of built-in 'data redundancy' (Reed-Solomon error correction) -- this lets the code stay readable even if a certain percentage of it (up to 30% at some levels) is damaged or covered, like if someone puts a small logo in the code's center.\n\n## The difference between a successful and failed scan\n\nWhen the camera scans the code, it converts the image to binary data, and uses error-correction algorithms to 'guess' any damaged parts based on the expected pattern -- if the damage percentage exceeds the built-in correction capacity, scanning fails entirely.\n\n## Practical advice when creating QR codes\n\nIf adding a logo or design to a QR code, use a higher error correction level to ensure the code stays readable despite partial coverage -- and importantly, actually test the code after any design modification before final printing or publishing.\n\n## Bottom line\n\nQR codes benefit from two-dimensional storage and built-in error correction to store far more data than traditional barcodes, and stay readable even with partial damage -- understanding this principle explains why some codes work even with creative design on top of them."
+    },
+    "categoryId": "technology",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-22",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "qr-code",
+      "technology",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0113",
+    "slug": "digital-file-organization-system",
+    "title": {
+      "ar": "نظام تنظيم الملفات الرقمية: الدليل الكامل",
+      "en": "A Digital File Organization System: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "ليه التصنيف حسب المشروع أفضل من حسب نوع الملف، ونظام تسمية متسق بصيغة تاريخ قابلة للترتيب.",
+      "en": "Why classifying by project beats classifying by file type, and a consistent naming system with a sortable date format."
+    },
+    "body": {
+      "ar": "## ليه الفوضى الرقمية بتتراكم من غير ما حد يلاحظ\n\nمجلد \"Downloads\" بيتراكم فيه ملفات لسنين من غير تنظيم، وسطح المكتب بيمتلئ بأيقونات عشوائية — المشكلة مش كسل شخصي، لكن غياب نظام بسيط يخلي الحفظ المنظم أسهل من الحفظ العشوائي. نظام بسيط ومتسق بيوفر وقت بحث حقيقي على المدى الطويل.\n\n## مبدأ التنظيم الأساسي: حسب الغرض، مش حسب النوع\n\n### الخطأ الشائع: التصنيف حسب نوع الملف\n\nمجلدات زي \"PDF\" و\"صور\" و\"مستندات Word\" بتبدو منطقية، لكنها عمليًا مش مفيدة — مشروع واحد غالبًا فيه أنواع ملفات مختلطة (عقد PDF، صور، جدول Excel)، وتوزيعهم على مجلدات منفصلة حسب النوع بيخلي تجميع كل حاجة خاصة بمشروع واحد صعب.\n\n### البديل الأفضل: التصنيف حسب المشروع أو الغرض\n\nمجلد لكل مشروع أو غرض (زي \"مشروع العميل X\" أو \"ضرائب 2026\") بيحتوي كل الملفات المرتبطة بيه بغض النظر عن نوعها — أسهل بكثير للبحث والأرشفة لاحقًا.\n\n## نظام تسمية ملفات متسق\n\n### استخدم التاريخ بصيغة قابلة للترتيب (YYYY-MM-DD)\n\nبدل \"تقرير مارس\"، استخدم \"2026-03-15-تقرير-مبيعات\" — الصيغة دي بتخلي الملفات تترتب تلقائيًا بالتاريخ الصحيح أبجديًا في أي نظام ملفات، من غير الحاجة لترتيب يدوي.\n\n### تجنب أسماء عامة جدًا زي \"مستند جديد\" أو \"Untitled\"\n\nاسم واضح ومحدد وقت الحفظ بيوفر وقت بحث كبير لاحقًا — لحظة إضافية بسيطة وقت الحفظ توفر دقائق (أو ساعات) بحث لاحقًا.\n\n## عادة أسبوعية بسيطة تحافظ على النظام\n\nخصص 10 دقايق أسبوعيًا لمراجعة مجلد Downloads وسطح المكتب — نقل أي ملف مهم لمكانه الصحيح، وحذف أي حاجة مش محتاجها. عادة بسيطة ومنتظمة أفضل بكثير من محاولة تنظيم شامل نادر ومرهق.\n\n## نصيحة عملية للنسخ الاحتياطي المتكامل\n\nاربط نظام التنظيم بنسخة احتياطية تلقائية (سحابية أو محلية) — تنظيم جيد بدون نسخة احتياطية لسه معرّض لخطر فقدان كامل لو حصلت مشكلة في الجهاز.\n\n## الخلاصة\n\nالتصنيف حسب المشروع بدل نوع الملف، تسمية متسقة بصيغة تاريخ قابلة للترتيب، وعادة أسبوعية بسيطة للمراجعة — ثلاث خطوات بسيطة بتحافظ على تنظيم رقمي حقيقي ومستدام على المدى الطويل.",
+      "en": "## Why digital clutter accumulates without anyone noticing\n\nA 'Downloads' folder accumulates files for years with no organization, and the desktop fills with random icons -- the problem isn't personal laziness, but the absence of a simple system making organized saving easier than random saving. A simple, consistent system saves real search time long-term.\n\n## The core organizing principle: by purpose, not by type\n\n### The common mistake: classifying by file type\n\nFolders like 'PDFs' and 'Images' and 'Word Documents' seem logical, but are practically unhelpful -- one project often has mixed file types (a PDF contract, images, an Excel sheet), and distributing them across type-based folders makes gathering everything for one project difficult.\n\n### The better alternative: classifying by project or purpose\n\nA folder per project or purpose (like 'Client X Project' or 'Taxes 2026') contains every related file regardless of type -- far easier for later search and archiving.\n\n## A consistent file naming system\n\n### Use a sortable date format (YYYY-MM-DD)\n\nInstead of 'March report', use '2026-03-15-sales-report' -- this format makes files automatically sort in correct chronological order alphabetically in any file system, no manual sorting needed.\n\n### Avoid overly generic names like 'New Document' or 'Untitled'\n\nA clear, specific name at save time saves significant search time later -- one simple extra moment at save time saves minutes (or hours) of search later.\n\n## A simple weekly habit maintaining the system\n\nDedicate 10 minutes weekly to reviewing the Downloads folder and desktop -- move any important file to its correct place, delete anything not needed. A simple, regular habit beats trying a rare, exhausting comprehensive cleanup.\n\n## Practical advice for integrated backup\n\nTie the organizing system to automatic backup (cloud or local) -- good organization without backup is still exposed to complete loss risk if a device issue occurs.\n\n## Bottom line\n\nClassifying by project instead of file type, consistent naming with a sortable date format, and a simple weekly review habit -- three simple steps maintaining genuine, sustainable digital organization long-term."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-02",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "productivity",
+      "file-management",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": true
   }
 ]

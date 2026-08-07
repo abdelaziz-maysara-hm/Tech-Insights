@@ -3346,5 +3346,258 @@
     ],
     "isFeatured": true,
     "isTrending": false
+  },
+  {
+    "id": "art-gen-0106",
+    "slug": "smartphone-battery-longevity-guide",
+    "title": {
+      "ar": "إطالة عمر بطارية الهاتف: الدليل الكامل",
+      "en": "Extending Smartphone Battery Life: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "3 عوامل حقيقية بتسرّع تدهور البطارية بالتفصيل، وعادات عملية بتحافظ على صحتها فعليًا على المدى الطويل.",
+      "en": "3 real factors accelerating battery degradation in detail, and practical habits that genuinely preserve its health long-term."
+    },
+    "categoryId": "mobile",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-07",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "battery",
+      "smartphone",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0107",
+    "slug": "effective-ai-prompting-guide",
+    "title": {
+      "ar": "كتابة طلبات فعّالة للذكاء الاصطناعي: الدليل الكامل",
+      "en": "Writing Effective AI Prompts: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "4 مبادئ صياغة أساسية بالتفصيل، وليه الاستسلام على أول رد أشهر خطأ عملي في الاستخدام اليومي.",
+      "en": "4 core phrasing principles in detail, and why settling for the first response is the most common practical mistake in daily use."
+    },
+    "categoryId": "ai",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-14",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ai",
+      "prompt-engineering",
+      "productivity",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0108",
+    "slug": "how-gps-actually-works",
+    "title": {
+      "ar": "كيف يعمل GPS فعليًا: الدليل الكامل",
+      "en": "How GPS Actually Works: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "المبدأ الرياضي لتحديد الموقع بأربع أقمار صناعية، وليه الدقة بتختلف بين المدن الكثيفة والأماكن المفتوحة.",
+      "en": "The mathematical principle of locating via four satellites, and why accuracy differs between dense cities and open areas."
+    },
+    "categoryId": "technology",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-21",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "gps",
+      "technology",
+      "navigation",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0109",
+    "slug": "laptop-for-developers-guide",
+    "title": {
+      "ar": "اختيار لابتوب للمبرمجين: الدليل الكامل",
+      "en": "Choosing a Laptop for Developers: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "4 مكونات فعليًا بتفرق بالتفصيل، ومقارنة أنظمة التشغيل الثلاثة (macOS/Linux/Windows+WSL) حسب نوع العمل.",
+      "en": "4 components that genuinely matter in detail, and a comparison of the three OS options (macOS/Linux/Windows+WSL) by work type."
+    },
+    "categoryId": "laptops",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-01",
+    "readTime": 8,
+    "heroImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "laptop",
+      "developers",
+      "programming",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0110",
+    "slug": "wifi-vs-mobile-data-when-to-use",
+    "title": {
+      "ar": "Wi-Fi مقابل بيانات الموبايل: متى تستخدم كل واحدة",
+      "en": "Wi-Fi vs Mobile Data: When to Use Each"
+    },
+    "excerpt": {
+      "ar": "3 عوامل عملية غير السرعة (البطارية، الأمان على شبكات عامة، الاستقرار أثناء التنقل)، ونصيحة التبديل الذكي التلقائي.",
+      "en": "3 practical factors beyond speed (battery, security on public networks, stability while moving), and smart auto-switching advice."
+    },
+    "categoryId": "mobile",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-08",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "wifi",
+      "mobile-data",
+      "smartphone",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0111",
+    "slug": "how-large-language-models-work",
+    "title": {
+      "ar": "كيف تعمل النماذج اللغوية الكبيرة (LLM) فعليًا",
+      "en": "How Large Language Models (LLMs) Actually Work"
+    },
+    "excerpt": {
+      "ar": "ليه النموذج بيتوقع الكلمة التالية مش بيسترجع حقائق، وليه ده بالظبط بيفسّر ظاهرة الهلوسة (Hallucination).",
+      "en": "Why the model predicts the next word rather than retrieving facts, and why this exactly explains the hallucination phenomenon."
+    },
+    "categoryId": "ai",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-05-15",
+    "readTime": 8,
+    "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ai",
+      "llm",
+      "machine-learning",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": true
+  },
+  {
+    "id": "art-gen-0112",
+    "slug": "how-qr-codes-work",
+    "title": {
+      "ar": "كيف تعمل رموز QR فعليًا: الدليل الكامل",
+      "en": "How QR Codes Actually Work: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "الفرق عن الباركود التقليدي، دور تصحيح الأخطاء المدمج، ونصيحة عملية عند إضافة لوجو لكود QR.",
+      "en": "The difference from traditional barcodes, the role of built-in error correction, and practical advice when adding a logo to a QR code."
+    },
+    "categoryId": "technology",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-22",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "qr-code",
+      "technology",
+      "guide"
+    ],
+    "isFeatured": true,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0113",
+    "slug": "digital-file-organization-system",
+    "title": {
+      "ar": "نظام تنظيم الملفات الرقمية: الدليل الكامل",
+      "en": "A Digital File Organization System: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "ليه التصنيف حسب المشروع أفضل من حسب نوع الملف، ونظام تسمية متسق بصيغة تاريخ قابلة للترتيب.",
+      "en": "Why classifying by project beats classifying by file type, and a consistent naming system with a sortable date format."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-06-02",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "productivity",
+      "file-management",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": true
   }
 ]
