@@ -7,88 +7,354 @@
     <language>ar</language>
     <atom:link href="https://technical-insights.com/rss.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>أفضل أدوات الذكاء الاصطناعي للاستخدام اليومي في 2026</title>
-      <link>https://technical-insights.com/article/ai-tools-everyday-2026</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/ai-tools-everyday-2026</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description>دليل عملي لأدوات AI توفّر وقتك في الكتابة والترجمة والبحث دون تعقيد.</description>
+      <title>ثغرات SonicWall الأخيرة تُستغل فعليًا في هجمات فدية</title>
+      <link>https://technical-insights.com/article/sonicwall-sma1000-ransomware-exploitation-2026</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/sonicwall-sma1000-ransomware-exploitation-2026</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description>عصابة INC Ransomware تستهدف أجهزة SonicWall SMA1000 غير المُحدَّثة للوصول الجذري والتحرك الجانبي داخل الشبكات.</description>
     </item>
     <item>
-      <title>لماذا تحتاج مدير كلمات مرور وكيف تبدأ خلال 10 دقائق</title>
-      <link>https://technical-insights.com/article/password-manager-why-you-need-one</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/password-manager-why-you-need-one</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description>تكرار كلمة المرور خطر حقيقي. إليك الحل العملي بدون تعقيد.</description>
+      <title>ثغرة N-central (CVE-2026-18577) استُغلّت فعليًا بعد تجاوز الترقيع الأول</title>
+      <link>https://technical-insights.com/article/n-able-n-central-cve-2026-18577-exploited</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/n-able-n-central-cve-2026-18577-exploited</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description>N-able أصدرت ترقيعًا جديدًا بعد ما اكتشف مهاجمون طريقة لتجاوز الحل الأول للثغرة.</description>
     </item>
     <item>
-      <title>ترقية اللابتوب من HDD إلى SSD: أكبر فرق تحسّه فوراً</title>
-      <link>https://technical-insights.com/article/ssd-vs-hdd-laptop-upgrade</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/ssd-vs-hdd-laptop-upgrade</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-      <description>ترقية SSD تعطي إحساس جهاز جديد — خطوات عملية وباختيار الحجم المناسب.</description>
+      <title>ثغرة CosmosEscape في Azure Cosmos DB: كشف المفتاح الأساسي بالكامل</title>
+      <link>https://technical-insights.com/article/azure-cosmos-db-cosmosescape-flaw</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/azure-cosmos-db-cosmosescape-flaw</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description>ثغرة حرجة سمحت بالوصول الكامل للقراءة والكتابة على حسابات Cosmos DB المتأثرة.</description>
     </item>
     <item>
-      <title>بطارية الهاتف تفرغ بسرعة؟ 7 حلول مجرّبة</title>
-      <link>https://technical-insights.com/article/phone-battery-draining-fast-2026</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/phone-battery-draining-fast-2026</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
-      <description>من إعدادات الخلفية إلى الشاشة والتطبيقات — حلول عملية بدون تطبيقات غريبة.</description>
+      <title>حملة رش كلمات مرور ضخمة تستهدف Azure CLI</title>
+      <link>https://technical-insights.com/article/azure-cli-password-spray-campaign</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/azure-cli-password-spray-campaign</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description>محاولات دخول آلية واسعة النطاق ضد حسابات Azure عن طريق أداة سطر الأوامر.</description>
     </item>
     <item>
-      <title>ويندوز يقلع ببطء؟ سرّع الإقلاع بهذه الخطوات</title>
-      <link>https://technical-insights.com/article/windows-slow-boot-fix</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/windows-slow-boot-fix</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <description>برامج الإقلاع، خدمات ويندوز، و SSD — أسرع طرق لتقليل وقت الإقلاع.</description>
+      <title>Ruby on Rails تُصلح ثغرة حرجة تسمح بتنفيذ كود عن بُعد</title>
+      <link>https://technical-insights.com/article/ruby-on-rails-critical-rce-patch</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/ruby-on-rails-critical-rce-patch</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description>الثغرة قابلة للاستغلال من مهاجم غير مُصادَق عليه لقراءة ملفات عشوائية وربما تنفيذ كود.</description>
     </item>
     <item>
-      <title>أندرويد أم آيفون في 2026؟ دليل اختيار بدون تحيّز</title>
-      <link>https://technical-insights.com/article/android-vs-iphone-2026-buyers-guide</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/android-vs-iphone-2026-buyers-guide</guid>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
-      <description>مقارنة عملية حسب الاستخدام والسعر والخصوصية والتحديثات.</description>
+      <title>ثغرات يوم الصفر (Zero-Day): الدليل الكامل</title>
+      <link>https://technical-insights.com/article/zero-day-vulnerabilities-explained</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/zero-day-vulnerabilities-explained</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <description>دورة الحياة الكاملة من الاكتشاف للتصحيح، ليه الحماية التقليدية عاجزة تمامًا عن اكتشافها، و3 استراتيجيات دفاعية عملية رغم استحالة المنع الكامل.</description>
     </item>
     <item>
-      <title>الشاشة الزرقاء في ويندوز: اقرأ الرمز ثم أصلح</title>
-      <link>https://technical-insights.com/article/blue-screen-windows-fix-guide</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/blue-screen-windows-fix-guide</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-      <description>فهم كود الخطأ هو نصف الحل — خطوات تشخيص آمنة قبل إعادة التثبيت.</description>
+      <title>فهم درجة CVSS: كيف تقرأ خطورة الثغرة صح</title>
+      <link>https://technical-insights.com/article/understanding-cvss-score</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/understanding-cvss-score</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description>4 مكونات أساسية بتشكّل الدرجة، ليه السياق أهم من الرقم المجرد، ودور قوائم KEV في تحديد الأولوية الحقيقية.</description>
     </item>
     <item>
-      <title>قاعدة 3-2-1: لا تفقد ملفاتك بعد اليوم</title>
-      <link>https://technical-insights.com/article/backup-3-2-1-rule</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/backup-3-2-1-rule</guid>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-      <description>ثلاث نسخ، وسيطين، ونسخة خارج الموقع — أبسط نظام حماية للبيانات.</description>
+      <title>منع تسريب البيانات (DLP): الدليل الكامل</title>
+      <link>https://technical-insights.com/article/data-loss-prevention-dlp-guide</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/data-loss-prevention-dlp-guide</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <description>4 طرق كشف بيانات حساسة بالتفصيل، 3 نقاط تطبيق رئيسية (شبكة/جهاز/سحابة)، وأشهر تحدي عملي (التنبيهات الكاذبة).</description>
     </item>
     <item>
-      <title>لابتوب ساخن ومروحة صاخبة؟ حلول عملية</title>
-      <link>https://technical-insights.com/article/laptop-overheating-quiet-fans</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/laptop-overheating-quiet-fans</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
-      <description>تنظيف، قاعدة تبريد، وإعدادات طاقة — بدون فتح الجهاز إن أمكن.</description>
+      <title>سياسة BYOD (استخدام الجهاز الشخصي للعمل): الدليل الكامل</title>
+      <link>https://technical-insights.com/article/byod-policy-security-guide</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/byod-policy-security-guide</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+      <description>3 مخاطر أساسية، الفرق بين MDM وMAM (لماذا الأخير أكثر توازنًا)، وعناصر سياسة عملية موثّقة.</description>
     </item>
     <item>
-      <title>التخزين ممتلئ على أندرويد؟ حرّر مساحة بدون حذف الذكريات</title>
-      <link>https://technical-insights.com/article/free-storage-on-android</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/free-storage-on-android</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
-      <description>كاش التطبيقات، الوسائط المكررة، والملفات الكبيرة — خطوات مرتبة.</description>
+      <title>الدليل الشامل لاستخدام Nmap في فحص الشبكة</title>
+      <link>https://technical-insights.com/article/nmap-network-scanning-complete-guide</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/nmap-network-scanning-complete-guide</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description>أنواع الفحص الأساسية بأوامر حقيقية، 3 استخدامات عملية شائعة، وتحذير قانوني مهم قبل أي استخدام.</description>
     </item>
     <item>
-      <title>تعلّم React: ماذا تبدأ به كمبتدئ؟</title>
-      <link>https://technical-insights.com/article/react-beginners-what-to-learn-first</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/react-beginners-what-to-learn-first</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <description>ترتيب تعلّم واضح من HTML/JS إلى المكوّنات والحالة.</description>
+      <title>كيف يعمل التخزين السحابي فعليًا: الدليل الكامل</title>
+      <link>https://technical-insights.com/article/how-cloud-storage-actually-works</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/how-cloud-storage-actually-works</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description>ليه التكرار عبر أقراص ومراكز بيانات متعددة سر الموثوقية، وإزاي المزامنة الذكية (Delta Sync) بتوفر وقت وبيانات.</description>
     </item>
     <item>
-      <title>إعادة ضبط المصنع بأمان: قائمة تحقق قبل المسح</title>
-      <link>https://technical-insights.com/article/factory-reset-safe-checklist</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/factory-reset-safe-checklist</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
-      <description>نسخ احتياطي، تسجيل خروج من الحسابات، ثم الضبط — حتى لا تعلق في قفل التفعيل.</description>
+      <title>الدليل الشامل لتحليل حركة الشبكة باستخدام Wireshark</title>
+      <link>https://technical-insights.com/article/wireshark-network-analysis-complete-guide</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/wireshark-network-analysis-complete-guide</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <description>فلاتر الالتقاط والعرض بالتفصيل، سيناريوهات تشخيص حقيقية (بطء، DNS مشبوه، فشل TLS)، ونصيحة أمان مهمة قبل الاستخدام.</description>
+    </item>
+    <item>
+      <title>كيف تعمل رموز QR فعليًا: الدليل الكامل</title>
+      <link>https://technical-insights.com/article/how-qr-codes-work</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/how-qr-codes-work</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <description>الفرق عن الباركود التقليدي، دور تصحيح الأخطاء المدمج، ونصيحة عملية عند إضافة لوجو لكود QR.</description>
+    </item>
+    <item>
+      <title>نمذجة التهديدات بطريقة STRIDE: فكّر زي المهاجم قبل ما تبني</title>
+      <link>https://technical-insights.com/article/threat-modeling-stride-basics</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/threat-modeling-stride-basics</guid>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
+      <description>الست فئات بالتفصيل مع أمثلة حقيقية، مثال تطبيقي كامل (نظام تسجيل دخول)، ومتى تطبّق STRIDE عمليًا.</description>
+    </item>
+    <item>
+      <title>فهم TLS Handshake: ماذا يحدث فعلًا خلف القفل الأخضر</title>
+      <link>https://technical-insights.com/article/tls-handshake-explained</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/tls-handshake-explained</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+      <description>5 خطوات Handshake بالتفصيل، ليه TLS 1.3 أسرع تقنيًا، وإزاي فهم العملية بيخليك تشخّص مشاكل TLS بثقة.</description>
+    </item>
+    <item>
+      <title>نظرة شاملة على OWASP Top 10: الدليل الكامل</title>
+      <link>https://technical-insights.com/article/owasp-top-10-overview</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/owasp-top-10-overview</guid>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <description>أهم الفئات بالتفصيل (Broken Access Control، Injection، Cryptographic Failures)، وليه القائمة بتتغيّر وإزاي تستخدمها عمليًا.</description>
+    </item>
+    <item>
+      <title>تدوير كلمة مرور المدير المحلي (LAPS): الدليل الكامل</title>
+      <link>https://technical-insights.com/article/windows-local-admin-password-rotation</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/windows-local-admin-password-rotation</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <description>إزاي LAPS بيقفل ثغرة الانتشار الجانبي تقنيًا، وليه صلاحية قراءة كلمات المرور المخزّنة أهم نقطة في التطبيق كله.</description>
+    </item>
+    <item>
+      <title>جدار حماية تطبيقات الويب (WAF): الدليل الكامل</title>
+      <link>https://technical-insights.com/article/web-application-firewall-waf-guide</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/web-application-firewall-waf-guide</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <description>الفرق الجوهري عن جدار الحماية الشبكي التقليدي، 4 أنواع هجمات بيحميك منها، ووضعي المراقبة والحجب بالتفصيل.</description>
+    </item>
+    <item>
+      <title>أساسيات أمان الحاويات (Container Security): الدليل الكامل</title>
+      <link>https://technical-insights.com/article/container-security-basics-guide</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/container-security-basics-guide</guid>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
+      <description>4 مخاطر أساسية مختلفة عن أمان الأجهزة الافتراضية التقليدي، و5 خطوات حماية عملية من فحص الصور لسياسات الشبكة.</description>
+    </item>
+    <item>
+      <title>أساسيات خطة التعافي من الكوارث (DRP): الدليل الكامل</title>
+      <link>https://technical-insights.com/article/disaster-recovery-plan-basics</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/disaster-recovery-plan-basics</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+      <description>الفرق بين النسخ الاحتياطي وخطة DR كاملة، مقياسا RTO/RPO موضّحان بالمثال، ومستويات الاستراتيجية من الأرخص للأسرع.</description>
+    </item>
+    <item>
+      <title>كيف تبني خطة استجابة للحوادث الأمنية من الصفر</title>
+      <link>https://technical-insights.com/article/incident-response-plan-from-scratch</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/incident-response-plan-from-scratch</guid>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+      <description>المراحل الست حسب إطار NIST، قائمة تحقق لأول ساعة من أي حادث، وأشهر خطأ بيزوّد الضرر بدل ما يقلله.</description>
+    </item>
+    <item>
+      <title>النسخ الاحتياطية غير القابلة للتعديل (Immutable Backups): الدليل الكامل</title>
+      <link>https://technical-insights.com/article/immutable-backups-ransomware-defense</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/immutable-backups-ransomware-defense</guid>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <description>ليه المهاجمين بيستهدفون النسخ الاحتياطية نفسها عمدًا، وإزاي القفل التقني على مستوى التخزين مختلف جذريًا عن مجرد صلاحيات الوصول.</description>
+    </item>
+    <item>
+      <title>المصادقة مقابل التفويض (Authentication vs Authorization): الدليل الكامل</title>
+      <link>https://technical-insights.com/article/authentication-vs-authorization-explained</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/authentication-vs-authorization-explained</guid>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
+      <description>الفرق الجوهري بين &apos;مين إنت&apos; و&apos;مسموح لك تعمل إيه&apos;، نماذج RBAC/ABAC/ACL، ومثال عملي يوضّح ليه الخلط بينهم يسبب ثغرات حقيقية.</description>
+    </item>
+    <item>
+      <title>كيف يعمل SIEM فعليًا: الفرق بين مجرد تجميع السجلات والقيمة الحقيقية</title>
+      <link>https://technical-insights.com/article/how-siem-actually-works</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/how-siem-actually-works</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+      <description>5 مكونات أساسية (جمع، تطبيع، ربط، تنبيه، تقارير)، وسيناريو Impossible Travel يوضّح القيمة الحقيقية.</description>
+    </item>
+    <item>
+      <title>كيف يعمل EDR فعليًا: الفرق الجوهري عن مضاد الفيروسات التقليدي</title>
+      <link>https://technical-insights.com/article/how-edr-actually-works</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/how-edr-actually-works</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+      <description>التحليل السلوكي بدل التوقيعات الثابتة، ليه EDR بيكتشف الهجمات بدون ملفات، وقيوده الواقعية.</description>
+    </item>
+    <item>
+      <title>فهم PKI وسلسلة الثقة: كيف تعرف أن الشهادة حقيقية فعلًا</title>
+      <link>https://technical-insights.com/article/pki-certificate-authority-explained</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/pki-certificate-authority-explained</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+      <description>زوج المفاتيح العام/الخاص، سلسلة الثقة من Root CA للشهادة الوسيطة، أنواع الشهادات (DV/OV/EV)، وليه تحذير الشهادة غير الموثوقة خطير فعلًا.</description>
+    </item>
+    <item>
+      <title>هجمات سلسلة التوريد: الدليل الكامل لما بيجي الخطر من مورّد موثوق</title>
+      <link>https://technical-insights.com/article/supply-chain-attacks-third-party-risk</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/supply-chain-attacks-third-party-risk</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description>3 أمثلة حقيقية موثّقة لنقاط الخطر بالتفصيل، وليه ثقتك في المورّد نفسها هي السلاح المُستغل.</description>
+    </item>
+    <item>
+      <title>الدليل الشامل لاستخدام PowerShell في إدارة الأنظمة</title>
+      <link>https://technical-insights.com/article/powershell-sysadmin-complete-guide</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/powershell-sysadmin-complete-guide</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description>من الأوامر الأساسية لكتابة سكريبتات حقيقية للأتمتة، مع أشهر الأخطاء وحلولها.</description>
+    </item>
+    <item>
+      <title>مركز العمليات الأمنية (SOC): الدليل الكامل</title>
+      <link>https://technical-insights.com/article/security-operations-center-soc-guide</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/security-operations-center-soc-guide</guid>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+      <description>3 مستويات فريق SOC التقليدية، تحدي التغطية الزمنية 24/7 (داخلي أو MSSP)، ومقاييس MTTD/MTTR لقياس الفعالية.</description>
+    </item>
+    <item>
+      <title>بناء برنامج إدارة التهديد الداخلي: الدليل الكامل</title>
+      <link>https://technical-insights.com/article/insider-risk-program-guide</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/insider-risk-program-guide</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <description>3 فئات مختلفة للتهديد الداخلي، علامات تحذيرية سلوكية حقيقية، وليه التوازن بين الأمان والثقة حساس جدًا.</description>
+    </item>
+    <item>
+      <title>دورة تطوير البرمجيات الآمنة (SSDLC): الدليل الكامل</title>
+      <link>https://technical-insights.com/article/secure-sdlc-guide</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/secure-sdlc-guide</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+      <description>الستة مراحل ودمج الأمان في كل واحدة، DevSecOps وربط الفحص بـCI/CD، وليه إصلاح الأمان في الآخر مكلف جدًا.</description>
+    </item>
+    <item>
+      <title>طرق المصادقة الثنائية: SMS مقابل تطبيق مقابل مفتاح مادي</title>
+      <link>https://technical-insights.com/article/mfa-methods-compared-sms-app-hardware</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/mfa-methods-compared-sms-app-hardware</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+      <description>مش كل أنواع المصادقة الثنائية بنفس مستوى الأمان — الفروق مهمة.</description>
+    </item>
+    <item>
+      <title>بناء برنامج إدارة ثغرات ناجح: الدليل الكامل</title>
+      <link>https://technical-insights.com/article/vulnerability-management-program-guide</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/vulnerability-management-program-guide</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+      <description>دورة الحياة الكاملة (اكتشاف، تقييم، إصلاح، تحقق)، نظام أولويات عملي غير درجة CVSS بس، وجدول أطر زمنية مقترحة.</description>
+    </item>
+    <item>
+      <title>iOS مقابل Android: الدليل الكامل للاختيار</title>
+      <link>https://technical-insights.com/article/ios-vs-android-choosing-guide</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/ios-vs-android-choosing-guide</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+      <description>3 عوامل عملية تستاهل التفكير الفعلي (التكامل، التخصيص، الميزانية)، والفرق الحقيقي في طول دعم التحديثات.</description>
+    </item>
+    <item>
+      <title>فهم Kerberos: كيف تعمل المصادقة فعليًا في Active Directory</title>
+      <link>https://technical-insights.com/article/kerberos-authentication-explained</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/kerberos-authentication-explained</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <description>تسلسل العملية خطوة بخطوة، ليه مزامنة الوقت حرجة جدًا، وأشهر الهجمات المتقدمة (Pass-the-Ticket وGolden Ticket) للوعي.</description>
+    </item>
+    <item>
+      <title>نظام تنظيم الملفات الرقمية: الدليل الكامل</title>
+      <link>https://technical-insights.com/article/digital-file-organization-system</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/digital-file-organization-system</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <description>ليه التصنيف حسب المشروع أفضل من حسب نوع الملف، ونظام تسمية متسق بصيغة تاريخ قابلة للترتيب.</description>
+    </item>
+    <item>
+      <title>الدليل الشامل لإعداد وإدارة Active Directory من الصفر</title>
+      <link>https://technical-insights.com/article/active-directory-complete-setup-guide</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/active-directory-complete-setup-guide</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <description>دليل مرجعي متكامل: من التثبيت الأول لتصميم OU وGroup Policy والأمان وأشهر الأخطاء وحلولها.</description>
+    </item>
+    <item>
+      <title>اختيار لابتوب للمبرمجين: الدليل الكامل</title>
+      <link>https://technical-insights.com/article/laptop-for-developers-guide</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/laptop-for-developers-guide</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <description>4 مكونات فعليًا بتفرق بالتفصيل، ومقارنة أنظمة التشغيل الثلاثة (macOS/Linux/Windows+WSL) حسب نوع العمل.</description>
+    </item>
+    <item>
+      <title>تصنيف البيانات: مش كل الملفات محتاجة نفس مستوى الحماية</title>
+      <link>https://technical-insights.com/article/data-classification-basics</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/data-classification-basics</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description>نظام تصنيف بأربع مستويات بالتفصيل، وليه محاولة تصنيف كل شيء دفعة واحدة من أول يوم أشهر خطأ عملي يفشل المشروع كله.</description>
+    </item>
+    <item>
+      <title>كيف يعمل GPS فعليًا: الدليل الكامل</title>
+      <link>https://technical-insights.com/article/how-gps-actually-works</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/how-gps-actually-works</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>المبدأ الرياضي لتحديد الموقع بأربع أقمار صناعية، وليه الدقة بتختلف بين المدن الكثيفة والأماكن المفتوحة.</description>
+    </item>
+    <item>
+      <title>مراقبة انتهاء صلاحية الشهادات: الدليل الكامل لتجنب الخطأ المحرج</title>
+      <link>https://technical-insights.com/article/certificate-expiry-monitoring</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/certificate-expiry-monitoring</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description>ليه التجديد التلقائي (ACME/Let&apos;s Encrypt) الحل الأمثل، خطوات بديلة لو التجديد يدوي، وأمر تحقق سريع لأي موقع.</description>
+    </item>
+    <item>
+      <title>كيف يعمل توليد الصور بالذكاء الاصطناعي: الدليل الكامل</title>
+      <link>https://technical-insights.com/article/how-ai-image-generation-works</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/how-ai-image-generation-works</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <description>مبدأ إزالة الضوضاء التدريجية (Diffusion)، ليه صياغة الوصف بتفرق كتير، وليه الأيدي تحديدًا صعبة تقنيًا على النماذج.</description>
+    </item>
+    <item>
+      <title>كيف تعمل النماذج اللغوية الكبيرة (LLM) فعليًا</title>
+      <link>https://technical-insights.com/article/how-large-language-models-work</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/how-large-language-models-work</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <description>ليه النموذج بيتوقع الكلمة التالية مش بيسترجع حقائق، وليه ده بالظبط بيفسّر ظاهرة الهلوسة (Hallucination).</description>
+    </item>
+    <item>
+      <title>مبدأ الرقابة المزدوجة (Dual Control): ليه عملية حساسة محتاجة موافقة شخصين</title>
+      <link>https://technical-insights.com/article/dual-control-critical-operations</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/dual-control-critical-operations</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <description>3 زوايا ليه المبدأ ده مهم فعليًا، أمثلة تطبيق واقعية، وليه آلية الموافقة السريعة أساسية لنجاح التطبيق.</description>
+    </item>
+    <item>
+      <title>كتابة طلبات فعّالة للذكاء الاصطناعي: الدليل الكامل</title>
+      <link>https://technical-insights.com/article/effective-ai-prompting-guide</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/effective-ai-prompting-guide</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <description>4 مبادئ صياغة أساسية بالتفصيل، وليه الاستسلام على أول رد أشهر خطأ عملي في الاستخدام اليومي.</description>
+    </item>
+    <item>
+      <title>تشفير الأقراص بـ BitLocker: أساسيات لازم تعرفها</title>
+      <link>https://technical-insights.com/article/bitlocker-disk-encryption-basics</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/bitlocker-disk-encryption-basics</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <description>دور TPM في تأمين العملية بالتفصيل، خطوات تفعيل موسّعة، وليه نسيان حفظ مفتاح الاستعادة كارثة حقيقية مش مجرد إزعاج.</description>
+    </item>
+    <item>
+      <title>قائمة تحقق للعمل عن بُعد الآمن: 8 نقاط أساسية</title>
+      <link>https://technical-insights.com/article/secure-remote-work-checklist</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/secure-remote-work-checklist</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <description>قائمة عملية مختصرة تقدر تراجعها مع أي موظف عن بُعد جديد.</description>
+    </item>
+    <item>
+      <title>مدير كلمات المرور المدمج مقابل المستقل: الدليل الكامل</title>
+      <link>https://technical-insights.com/article/browser-vs-standalone-password-manager</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/browser-vs-standalone-password-manager</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <description>القيود الفعلية للمدير المدمج (عبر متصفحات وأجهزة مختلفة)، ومتى الانتقال لمدير مستقل يستاهل فعليًا.</description>
+    </item>
+    <item>
+      <title>Wi-Fi مقابل بيانات الموبايل: متى تستخدم كل واحدة</title>
+      <link>https://technical-insights.com/article/wifi-vs-mobile-data-when-to-use</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/wifi-vs-mobile-data-when-to-use</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <description>3 عوامل عملية غير السرعة (البطارية، الأمان على شبكات عامة، الاستقرار أثناء التنقل)، ونصيحة التبديل الذكي التلقائي.</description>
+    </item>
+    <item>
+      <title>تحديد معدل الطلبات (Rate Limiting): حماية الـAPI من الإغراق</title>
+      <link>https://technical-insights.com/article/api-rate-limiting-basics</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/api-rate-limiting-basics</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <description>4 استراتيجيات تحديد بالتفصيل (Fixed Window, Token Bucket)، وأين تطبّق التحديد فنيًا (Gateway مقابل التطبيق نفسه).</description>
     </item>
   </channel>
 </rss>
