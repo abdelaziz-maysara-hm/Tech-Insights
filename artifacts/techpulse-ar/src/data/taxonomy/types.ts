@@ -64,4 +64,7 @@ export interface ContentDimensions {
   contentType?: ContentTypeId;
   vendorIds?: string[];
   productIds?: string[];
+  difficulty?: 'beginner' | 'intermediate' | 'advanced';
+  lastReviewed?: string;
+  technicalStatus?: 'reviewed' | 'needs-review' | 'legacy' | 'evergreen';
 }

@@ -13,6 +13,7 @@
     "serve": "vite preview --config vite.config.ts --host 0.0.0.0",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "rss": "node scripts/generate-rss.mjs",
+    "audit:phase3": "node scripts/content-audit-phase3.mjs",
     "generate": "node scripts/generator/index.mjs",
     "generate:articles": "node scripts/generator/index.mjs --type=articles",
     "generate:videos": "node scripts/generator/index.mjs --type=videos",

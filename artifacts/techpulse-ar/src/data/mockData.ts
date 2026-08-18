@@ -5,7 +5,30 @@ export interface BilingualText {
   en: string;
 }
 
-export interface Article {
+export type ArticleContentType =
+  | 'troubleshooting'
+  | 'guide'
+  | 'how-to'
+  | 'comparison'
+  | 'reference'
+  | 'concept';
+
+export type ArticleDifficulty = 'beginner' | 'intermediate' | 'advanced';
+export type ArticleTechnicalStatus = 'reviewed' | 'needs-review' | 'legacy' | 'evergreen';
+
+/** Optional migration metadata. Legacy articles continue to use taxonomy inference. */
+export interface ArticleMetadata {
+  domainIds?: string[];
+  topicIds?: string[];
+  contentType?: ArticleContentType;
+  vendorIds?: string[];
+  productIds?: string[];
+  difficulty?: ArticleDifficulty;
+  lastReviewed?: string;
+  technicalStatus?: ArticleTechnicalStatus;
+}
+
+export interface Article extends ArticleMetadata {
   id: string;
   slug: string;
   title: BilingualText;
