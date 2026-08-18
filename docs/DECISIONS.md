@@ -35,3 +35,6 @@ Use browser/client-side processing where practical, private, and technically saf
 
 ## ADR-012 — Never fabricate technical information
 Vendor commands, configurations, version behavior, specifications, and references must be verified rather than generated as plausible filler.
+
+## ADR-013 — Localized routes use shared pages and stable slugs
+Arabic and English routes use `/ar/` and `/en/` prefixes over the same page components and stable slugs. The URL language overrides saved browser preference. Legacy unprefixed routes remain compatible until the later redirect/indexing migration batches; unsupported language prefixes retain normal not-found semantics.

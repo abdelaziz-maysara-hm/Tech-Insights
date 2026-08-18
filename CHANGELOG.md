@@ -2,6 +2,14 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 4A — Bilingual Routing Foundation
+
+- Added centralized Arabic/English route-prefix handling without duplicating page components.
+- `/ar/...` and `/en/...` now select the URL language ahead of saved browser preference.
+- Language switching keeps the equivalent route, query string, and hash; legacy unprefixed routes remain available.
+- Added focused routing tests, including deployment base paths and unsupported-language behavior.
+- Preserved the Phase 3 sitemap/RSS scope at 235 URLs and 50 items; localized SEO expansion remains Phase 4B/4C work.
+
 ## Phase 3 — Content Model and Automated Audit
 
 - Commit: `4524d8f548cc5ed3e20b038ba3aacb76a050ed18`.

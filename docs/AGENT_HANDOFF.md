@@ -10,12 +10,14 @@
 
 ## Current handoff
 
-- Completed: Phases 0, 1, 1.5, 2, and 3.
-- Next: Phase 4A only — bilingual routing architecture. Phase 4 is high risk and must be batched.
+- Completed: Phases 0, 1, 1.5, 2, 3, and 4A.
+- Next: Phase 4B only — localized metadata, canonicals, and structured data. Phase 4 remains high risk and must stay batched.
 - Branch/workflow: `main`; use fast-forward pull, focused commits, normal push, never force-push.
 - Production domain: `https://netsecatlas.com`.
 - Legacy redirect domain: `technical-insights.com`.
-- Baseline: typecheck/build pass; sitemap 235; RSS 50; main JS ~677.88 kB; articles chunk ~974.30 kB.
+- Baseline after 4A: routing tests 5/5, typecheck/build pass; sitemap 235; RSS 50; main JS ~679.56 kB; articles chunk ~974.30 kB.
+- Phase 4A routing source: `src/lib/localizedRouting.ts` and `src/hooks/useLocalizedLocation.ts`. `/ar/...` and `/en/...` share the existing page components; legacy unprefixed URLs remain supported. Unsupported prefixes such as `/fr/...` are not interpreted as languages.
+- Phase 4A deliberately did not add localized sitemap entries, hreflang, redirects, or complete localized canonical/schema behavior; those remain 4B–4E.
 
 ## Validation
 

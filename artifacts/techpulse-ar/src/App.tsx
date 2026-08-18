@@ -21,6 +21,7 @@ import NotFound from '@/pages/not-found';
 import { LanguageProvider } from '@/context/LanguageContext';
 import { ThemeProvider } from '@/context/ThemeContext';
 import { useSEO } from '@/hooks/useSEO';
+import { useLocalizedLocation } from '@/hooks/useLocalizedLocation';
 
 function ScrollToTop() {
   const [pathname] = useLocation();
@@ -70,7 +71,10 @@ function App() {
   return (
     <ThemeProvider defaultTheme="dark">
       <LanguageProvider>
-        <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, '')}>
+        <WouterRouter
+          base={import.meta.env.BASE_URL.replace(/\/$/, '')}
+          hook={useLocalizedLocation}
+        >
           <Router />
         </WouterRouter>
       </LanguageProvider>

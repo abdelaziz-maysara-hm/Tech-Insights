@@ -68,12 +68,12 @@ Added optional explicit migration metadata and deterministic audit reporting. Of
 
 ## Remaining phases
 
-### Phase 4 — Bilingual Routing & Technical SEO — NEXT (HIGH RISK)
+### Phase 4 — Bilingual Routing & Technical SEO — IN PROGRESS (HIGH RISK)
 
 Implement in independently valid batches:
 
-- **4A:** routing architecture for real `/en/` and `/ar/` URLs.
-- **4B:** localized metadata, canonicals, and structured data.
+- **4A — COMPLETE:** centralized routing architecture for real `/en/` and `/ar/` URLs, URL-first language selection, equivalent-route language switching, legacy route compatibility, and focused route-helper tests.
+- **4B — NEXT:** localized metadata, canonicals, and structured data.
 - **4C:** hreflang and sitemap language alternates.
 - **4D:** backward-compatible redirects while preserving existing article URLs.
 - **4E:** 404, redirect, schema, route, and indexing validation.

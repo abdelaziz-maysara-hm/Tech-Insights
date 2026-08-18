@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import { useTheme } from '@/context/ThemeContext';
 import { useAllArticles } from '@/hooks/useAllArticles';
+import { navigate } from 'wouter/use-browser-location';
+import { getEquivalentLocalizedPath } from '@/lib/localizedRouting';
 
 export function Navbar() {
   const { language, setLanguage, t } = useLanguage();
@@ -26,7 +28,11 @@ export function Navbar() {
   }, [language]);
 
   const toggleLanguage = () => {
-    setLanguage(language === 'ar' ? 'en' : 'ar');
+    const nextLanguage = language === 'ar' ? 'en' : 'ar';
+    const currentUrl = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+    const basePath = import.meta.env.BASE_URL.replace(/\/$/, '');
+    setLanguage(nextLanguage);
+    navigate(getEquivalentLocalizedPath(currentUrl, nextLanguage, basePath));
   };
 
   const toggleTheme = () => {

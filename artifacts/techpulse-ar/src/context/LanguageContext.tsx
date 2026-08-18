@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useState } from 'react';
+import { detectLanguageFromPath } from '@/lib/localizedRouting';
 
 export type Language = 'ar' | 'en';
 
@@ -60,14 +61,37 @@ const translations: Record<string, Record<Language, string>> = {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguageState] = useState<Language>('ar');
+  const basePath = import.meta.env.BASE_URL.replace(/\/$/, '');
+  const getUrlLanguage = () =>
+    typeof window === 'undefined'
+      ? null
+      : detectLanguageFromPath(window.location.pathname, basePath);
+  const [language, setLanguageState] = useState<Language>(() => {
+    const urlLanguage = getUrlLanguage();
+    if (urlLanguage) return urlLanguage;
+    if (typeof localStorage === 'undefined') return 'ar';
+    const saved = localStorage.getItem('techpulse_lang');
+    return saved === 'ar' || saved === 'en' ? saved : 'ar';
+  });
 
   useEffect(() => {
-    const saved = localStorage.getItem('techpulse_lang') as Language;
-    if (saved && (saved === 'ar' || saved === 'en')) {
-      setLanguageState(saved);
-    }
-  }, []);
+    const syncLanguageFromUrl = () => {
+      const urlLanguage = getUrlLanguage();
+      if (urlLanguage) {
+        setLanguageState(urlLanguage);
+        localStorage.setItem('techpulse_lang', urlLanguage);
+      }
+    };
+
+    window.addEventListener('popstate', syncLanguageFromUrl);
+    window.addEventListener('pushState', syncLanguageFromUrl);
+    window.addEventListener('replaceState', syncLanguageFromUrl);
+    return () => {
+      window.removeEventListener('popstate', syncLanguageFromUrl);
+      window.removeEventListener('pushState', syncLanguageFromUrl);
+      window.removeEventListener('replaceState', syncLanguageFromUrl);
+    };
+  }, [basePath]);
 
   useEffect(() => {
     document.documentElement.dir = language === 'ar' ? 'rtl' : 'ltr';
