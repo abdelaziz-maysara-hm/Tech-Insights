@@ -1,4 +1,37 @@
-# CHANGELOG.md — Content Generator Audit & Fixes
+# Changelog
+
+Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
+
+## Phase 3 — Content Model and Automated Audit
+
+- Commit: `4524d8f548cc5ed3e20b038ba3aacb76a050ed18`.
+- Added backward-compatible explicit metadata and explicit-over-inference discovery rules.
+- Audited 213 inventory items and produced machine-readable, readable, and first-100 roadmap reports under `docs/content-audit/`.
+- Established a 74% reusable-content assessment without deleting or rewriting legacy content.
+
+## Phase 2 Repair
+
+- Commit: `3c0dae768788135ca0e5cb95c6d5ecbb5b190b7a`.
+- Repaired an incomplete Phase 2 merge, restored Phase 1.5 typing behavior, and revalidated 235 sitemap URLs and 50 RSS items.
+
+## Phase 2 — Information Architecture
+
+- Added multidimensional domains, topics, content types, vendor/product registry, discovery helpers, vendor hubs, and new professional routes.
+- A partial merge reached `main`; the subsequent repair above is the validated baseline.
+
+## Phase 1.5 — Technical Baseline
+
+- Corrected TypeScript errors and formalized the `Article`/`ArticleListItem` split.
+- Established passing typecheck and production-build baselines.
+
+## Phase 1 — Brand Foundation
+
+- Pivoted Technical Insights to NetSec Atlas.
+- Centralized site identity and established `netsecatlas.com` in SEO, sitemap, and RSS generation.
+
+---
+
+# Historical Technical Insights Content Generator Audit & Fixes
 
 **التاريخ:** 3 أغسطس 2026
 **بواسطة:** Claude (تحليل + إصلاح)، بالتنسيق مع شغل متزامن من جلسة/جلسات تانية على نفس الـ repo
