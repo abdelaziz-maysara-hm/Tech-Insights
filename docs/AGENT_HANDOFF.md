@@ -10,14 +10,17 @@
 
 ## Current handoff
 
-- Completed: Phases 0, 1, 1.5, 2, 3, and 4A.
-- Next: Phase 4B only — localized metadata, canonicals, and structured data. Phase 4 remains high risk and must stay batched.
+- Completed: Phases 0, 1, 1.5, 2, 3, 4A, and 4B.
+- Next: Phase 4C only — hreflang and localized sitemap strategy. Phase 4 remains high risk and must stay batched.
 - Branch/workflow: `main`; use fast-forward pull, focused commits, normal push, never force-push.
 - Production domain: `https://netsecatlas.com`.
 - Legacy redirect domain: `technical-insights.com`.
-- Baseline after 4A: routing tests 5/5, typecheck/build pass; sitemap 235; RSS 50; main JS ~679.56 kB; articles chunk ~974.30 kB.
+- Baseline after 4B: Phase 4 tests 11/11, typecheck/build pass; sitemap 235; RSS 50; main JS ~680.15 kB; articles chunk ~974.30 kB.
 - Phase 4A routing source: `src/lib/localizedRouting.ts` and `src/hooks/useLocalizedLocation.ts`. `/ar/...` and `/en/...` share the existing page components; legacy unprefixed URLs remain supported. Unsupported prefixes such as `/fr/...` are not interpreted as languages.
 - Phase 4A deliberately did not add localized sitemap entries, hreflang, redirects, or complete localized canonical/schema behavior; those remain 4B–4E.
+- Phase 4B canonical source is `src/lib/seoUrl.ts`. Prefixed URLs canonicalize to the same language; legacy unprefixed routes temporarily canonicalize to the Arabic equivalent. No redirects were added.
+- Translation inventory finding: all 129 articles have non-empty Arabic/English title, excerpt, and body fields; all 75 comparisons have both title, excerpt, and verdict; all 9 static pages have both title and content. Field completeness does not prove human-reviewed editorial equivalence, so Phase 4C must gate hreflang/alternates conservatively.
+- The static SPA shell intentionally carries no canonical or `og:url`; `useSEO` creates the route-correct values after hydration. Full pre-rendered localized metadata would require SSR/static rendering and is not claimed by Phase 4B.
 
 ## Validation
 

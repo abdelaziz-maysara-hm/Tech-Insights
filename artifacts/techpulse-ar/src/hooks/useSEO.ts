@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import { SITE, siteUrl } from '@/config/site';
+import { getProductionCanonicalUrl } from '@/lib/seoUrl';
 
 interface SEOProps {
   title?: string;
@@ -70,7 +71,11 @@ export function useSEO({
     const fullTitle = title ? `${title} | ${SITE.name}` : defaultTitle;
     const desc = description || defaultDesc;
     const img = image || siteUrl('/favicon.svg');
-    const url = siteUrl(path);
+    const browserPath = typeof window === 'undefined' ? '/' : window.location.pathname;
+    const basePath = import.meta.env.BASE_URL.replace(/\/$/, '');
+    const url = getProductionCanonicalUrl(path ?? browserPath, browserPath, basePath);
+    const localizedRootUrl = getProductionCanonicalUrl('/', browserPath, basePath);
+    const localizedSearchUrl = getProductionCanonicalUrl('/search', browserPath, basePath);
 
     document.title = fullTitle;
     document.documentElement.lang = language;
@@ -118,11 +123,11 @@ export function useSEO({
         '@context': 'https://schema.org',
         '@type': 'WebSite',
         name: SITE.name,
-        url: SITE.url,
-        inLanguage: ['ar', 'en'],
+        url: localizedRootUrl,
+        inLanguage: language,
         potentialAction: {
           '@type': 'SearchAction',
-          target: siteUrl('/search?q={search_term_string}'),
+          target: `${localizedSearchUrl}?q={search_term_string}`,
           'query-input': 'required name=search_term_string',
         },
       });

@@ -16,6 +16,8 @@ export default function ArticleDetail() {
     description: article?.excerpt?.[language],
     image: article?.heroImage,
     type: 'article',
+    datePublished: article?.date,
+    authorName: article?.author?.name?.[language],
   });
 
   if (isLoading) {

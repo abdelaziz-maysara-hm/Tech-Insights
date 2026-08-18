@@ -2,6 +2,14 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 4B — Localized Canonicals, Metadata and Structured Data
+
+- Centralized production canonical generation for Arabic and English routes on `netsecatlas.com`.
+- Synchronized canonical and Open Graph URLs, localized WebSite/SearchAction URLs, and Article JSON-LD URLs with the active URL prefix.
+- Established deterministic `/ar/...` canonicals for legacy unprefixed routes without adding redirects.
+- Removed the static SPA-shell canonical and `og:url` so hydration cannot inherit a knowingly wrong language URL.
+- Verified the current inventory exposes complete Arabic and English fields for 129 articles, 75 comparisons, and 9 static pages; editorial equivalence remains a Phase 4C review concern.
+
 ## Phase 4A — Bilingual Routing Foundation
 
 - Added centralized Arabic/English route-prefix handling without duplicating page components.

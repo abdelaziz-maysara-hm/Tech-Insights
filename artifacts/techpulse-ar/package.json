@@ -13,6 +13,7 @@
     "serve": "vite preview --config vite.config.ts --host 0.0.0.0",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test:routing": "node --test scripts/localized-routing.test.ts",
+    "test:seo": "node --test scripts/seo-url.test.ts",
     "rss": "node scripts/generate-rss.mjs",
     "audit:phase3": "node scripts/content-audit-phase3.mjs",
     "generate": "node scripts/generator/index.mjs",

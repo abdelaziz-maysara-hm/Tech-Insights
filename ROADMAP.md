@@ -73,8 +73,8 @@ Added optional explicit migration metadata and deterministic audit reporting. Of
 Implement in independently valid batches:
 
 - **4A — COMPLETE:** centralized routing architecture for real `/en/` and `/ar/` URLs, URL-first language selection, equivalent-route language switching, legacy route compatibility, and focused route-helper tests.
-- **4B — NEXT:** localized metadata, canonicals, and structured data.
-- **4C:** hreflang and sitemap language alternates.
+- **4B — COMPLETE:** centralized localized production canonicals, language-specific metadata, Open Graph URLs, and URL-bearing WebSite/Article structured data. Legacy unprefixed routes temporarily canonicalize deterministically to `/ar/...` without redirecting.
+- **4C — NEXT:** hreflang and localized sitemap strategy based on verified translation availability; do not assume field presence alone proves editorial equivalence.
 - **4D:** backward-compatible redirects while preserving existing article URLs.
 - **4E:** 404, redirect, schema, route, and indexing validation.
 

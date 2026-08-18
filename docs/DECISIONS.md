@@ -38,3 +38,6 @@ Vendor commands, configurations, version behavior, specifications, and reference
 
 ## ADR-013 — Localized routes use shared pages and stable slugs
 Arabic and English routes use `/ar/` and `/en/` prefixes over the same page components and stable slugs. The URL language overrides saved browser preference. Legacy unprefixed routes remain compatible until the later redirect/indexing migration batches; unsupported language prefixes retain normal not-found semantics.
+
+## ADR-014 — Canonicals are production-only and URL-language aware
+Canonical and URL-bearing runtime metadata are generated centrally from `https://netsecatlas.com`, never from the browser host. Valid `/ar/` and `/en/` prefixes remain canonical to their own language. Until Phase 4D redirects are approved, legacy unprefixed routes use deterministic Arabic-equivalent canonicals rather than a localStorage-dependent target. Query strings and fragments are excluded. The shared static SPA shell omits canonical and `og:url` values so it does not advertise the wrong localized URL before hydration.
