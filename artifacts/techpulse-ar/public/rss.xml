@@ -7,20 +7,6 @@
     <language>ar</language>
     <atom:link href="https://technical-insights.com/rss.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>أفضل سماعات لاسلكية بميزانية متوسطة: دليل شراء عملي</title>
-      <link>https://technical-insights.com/article/wireless-headphones-buying-guide</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/wireless-headphones-buying-guide</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
-      <description>مش لازم تدفع أعلى سعر عشان تحصل على تجربة صوت ممتازة. إليك دليل عملي يساعدك تختار سماعات لاسلكية مناسبة لاستخدامك بميزانية معقولة.</description>
-    </item>
-    <item>
-      <title>أفضل استخدامات الذكاء الاصطناعي في حياتك اليومية (مش بس ChatGPT)</title>
-      <link>https://technical-insights.com/article/ai-everyday-uses-guide</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/ai-everyday-uses-guide</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description>الذكاء الاصطناعي بقى أداة عملية فعليًا في حياتنا اليومية، مش بس تقنية تجريبية. إليك استخدامات حقيقية تقدر تبدأ فيها من النهاردة من غير خبرة تقنية.</description>
-    </item>
-    <item>
       <title>ثغرات SonicWall الأخيرة تُستغل فعليًا في هجمات فدية</title>
       <link>https://technical-insights.com/article/sonicwall-sma1000-ransomware-exploitation-2026</link>
       <guid isPermaLink="true">https://technical-insights.com/article/sonicwall-sma1000-ransomware-exploitation-2026</guid>
@@ -33,13 +19,6 @@
       <guid isPermaLink="true">https://technical-insights.com/article/n-able-n-central-cve-2026-18577-exploited</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
       <description>N-able أصدرت ترقيعًا جديدًا بعد ما اكتشف مهاجمون طريقة لتجاوز الحل الأول للثغرة.</description>
-    </item>
-    <item>
-      <title>دليل اختيار لابتوب مناسب لك: للطلاب، للعمل، وللتصميم</title>
-      <link>https://technical-insights.com/article/laptop-buying-guide-2026</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/laptop-buying-guide-2026</guid>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-      <description>اللابتوب المناسب مختلف تمامًا حسب استخدامك — الطالب محتاج حاجة غير اللي محتاجها المصمم أو موظف المكتب. إليك دليل عملي يساعدك تختار صح من أول مرة.</description>
     </item>
     <item>
       <title>ثغرة CosmosEscape في Azure Cosmos DB: كشف المفتاح الأساسي بالكامل</title>
@@ -61,69 +40,6 @@
       <guid isPermaLink="true">https://technical-insights.com/article/ruby-on-rails-critical-rce-patch</guid>
       <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
       <description>الثغرة قابلة للاستغلال من مهاجم غير مُصادَق عليه لقراءة ملفات عشوائية وربما تنفيذ كود.</description>
-    </item>
-    <item>
-      <title>دليل شراء موبايل جديد 2026: إيه المواصفات اللي تستاهل تدفع فيها فلوس أكتر</title>
-      <link>https://technical-insights.com/article/mobile-buying-guide-2026</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/mobile-buying-guide-2026</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description>مش كل المواصفات المكتوبة على صندوق الموبايل بنفس الأهمية لكل مستخدم. إليك دليل عملي يساعدك تحدد فين تستحق تصرف ميزانيتك فعليًا وفين ممكن توفر.</description>
-    </item>
-    <item>
-      <title>الطابعة مش بتشتغل أو مش بتطبع صح؟ الحلول الشائعة</title>
-      <link>https://technical-insights.com/article/printer-not-working-fixes</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/printer-not-working-fixes</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <description>مشاكل الطباعة من أكتر المواقف اللي بتضيّع وقت، خصوصًا في لحظة مستعجلة. إليك الحلول الشائعة لأشهر مشاكل الطابعات المنزلية والمكتبية.</description>
-    </item>
-    <item>
-      <title>موبايلك بطيء بعد فترة استخدام؟ الأسباب والحلول العملية</title>
-      <link>https://technical-insights.com/article/phone-slow-performance-fixes</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/phone-slow-performance-fixes</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description>بطء الموبايل التدريجي مشكلة شائعة جدًا مع الاستخدام اليومي. إليك الأسباب الحقيقية وخطوات عملية تقدر تعملها بنفسك قبل ما تفكر في تغييره.</description>
-    </item>
-    <item>
-      <title>نسيت كلمة مرور حسابك المهم؟ خطوات الاسترجاع الآمنة</title>
-      <link>https://technical-insights.com/article/forgotten-password-account-recovery</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/forgotten-password-account-recovery</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
-      <description>نسيان كلمة المرور موقف شائع ومقلق، خصوصًا لو الحساب فيه بيانات مهمة. إليك خطوات الاسترجاع الآمنة، وإزاي تحمي نفسك من الوقوع في نفس المشكلة تاني.</description>
-    </item>
-    <item>
-      <title>النسخ الاحتياطي لبياناتك: دليل بسيط عشان متضيعش صورك وملفاتك</title>
-      <link>https://technical-insights.com/article/data-backup-simple-guide</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/data-backup-simple-guide</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <description>تعطّل مفاجئ في الجهاز أو ضياعه بيقدر يمحي سنين من الصور والملفات المهمة في لحظة. إليك خطة نسخ احتياطي بسيطة وعملية تقدر تطبقها اليوم.</description>
-    </item>
-    <item>
-      <title>بطارية اللابتوب بتخلص بسرعة؟ إزاي تطيل عمرها وتشخّص المشكلة</title>
-      <link>https://technical-insights.com/article/laptop-battery-health-guide</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/laptop-battery-health-guide</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
-      <description>تدهور بطارية اللابتوب أمر طبيعي مع الوقت، بس فيه فرق بين التدهور الطبيعي والمشكلة الحقيقية. إليك إزاي تفرّق بينهم وإزاي تطيل عمر البطارية فعليًا.</description>
-    </item>
-    <item>
-      <title>مشاكل الواي فاي الشائعة وحلولها خطوة بخطوة</title>
-      <link>https://technical-insights.com/article/wifi-connection-problems-fixes</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/wifi-connection-problems-fixes</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-      <description>الإنترنت بطيء أو بيفصل باستمرار؟ إليك أشهر أسباب مشاكل الواي فاي في المنزل وخطوات عملية تقدر تجربها بنفسك قبل ما تتصل بمزوّد الخدمة.</description>
-    </item>
-    <item>
-      <title>مساحة تخزين موبايلك امتلأت؟ إزاي تفضي مساحة بسرعة وبأمان</title>
-      <link>https://technical-insights.com/article/phone-storage-full-fixes</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/phone-storage-full-fixes</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <description>امتلاء مساحة الموبايل مشكلة شائعة جدًا وبتوقّف تحديثات وصور مهمة. إليك أسرع الطرق الآمنة لتفضية مساحة حقيقية من غير ما تفقد حاجة مهمة.</description>
-    </item>
-    <item>
-      <title>لابتوبك بطيء؟ 10 أسباب حقيقية وحلول عملية لتسريعه</title>
-      <link>https://technical-insights.com/article/laptop-slow-performance-fixes</link>
-      <guid isPermaLink="true">https://technical-insights.com/article/laptop-slow-performance-fixes</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
-      <description>لو لابتوبك بقى بطيء فجأة أو تدريجيًا، إليك الأسباب الحقيقية الأكتر شيوعًا وخطوات عملية تقدر تعملها دلوقتي لتحسين الأداء.</description>
     </item>
     <item>
       <title>ثغرات يوم الصفر (Zero-Day): الدليل الكامل</title>
@@ -355,6 +271,90 @@
       <guid isPermaLink="true">https://technical-insights.com/article/laptop-for-developers-guide</guid>
       <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
       <description>4 مكونات فعليًا بتفرق بالتفصيل، ومقارنة أنظمة التشغيل الثلاثة (macOS/Linux/Windows+WSL) حسب نوع العمل.</description>
+    </item>
+    <item>
+      <title>تصنيف البيانات: مش كل الملفات محتاجة نفس مستوى الحماية</title>
+      <link>https://technical-insights.com/article/data-classification-basics</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/data-classification-basics</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description>نظام تصنيف بأربع مستويات بالتفصيل، وليه محاولة تصنيف كل شيء دفعة واحدة من أول يوم أشهر خطأ عملي يفشل المشروع كله.</description>
+    </item>
+    <item>
+      <title>كيف يعمل GPS فعليًا: الدليل الكامل</title>
+      <link>https://technical-insights.com/article/how-gps-actually-works</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/how-gps-actually-works</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>المبدأ الرياضي لتحديد الموقع بأربع أقمار صناعية، وليه الدقة بتختلف بين المدن الكثيفة والأماكن المفتوحة.</description>
+    </item>
+    <item>
+      <title>مراقبة انتهاء صلاحية الشهادات: الدليل الكامل لتجنب الخطأ المحرج</title>
+      <link>https://technical-insights.com/article/certificate-expiry-monitoring</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/certificate-expiry-monitoring</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description>ليه التجديد التلقائي (ACME/Let&apos;s Encrypt) الحل الأمثل، خطوات بديلة لو التجديد يدوي، وأمر تحقق سريع لأي موقع.</description>
+    </item>
+    <item>
+      <title>كيف يعمل توليد الصور بالذكاء الاصطناعي: الدليل الكامل</title>
+      <link>https://technical-insights.com/article/how-ai-image-generation-works</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/how-ai-image-generation-works</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <description>مبدأ إزالة الضوضاء التدريجية (Diffusion)، ليه صياغة الوصف بتفرق كتير، وليه الأيدي تحديدًا صعبة تقنيًا على النماذج.</description>
+    </item>
+    <item>
+      <title>كيف تعمل النماذج اللغوية الكبيرة (LLM) فعليًا</title>
+      <link>https://technical-insights.com/article/how-large-language-models-work</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/how-large-language-models-work</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <description>ليه النموذج بيتوقع الكلمة التالية مش بيسترجع حقائق، وليه ده بالظبط بيفسّر ظاهرة الهلوسة (Hallucination).</description>
+    </item>
+    <item>
+      <title>مبدأ الرقابة المزدوجة (Dual Control): ليه عملية حساسة محتاجة موافقة شخصين</title>
+      <link>https://technical-insights.com/article/dual-control-critical-operations</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/dual-control-critical-operations</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <description>3 زوايا ليه المبدأ ده مهم فعليًا، أمثلة تطبيق واقعية، وليه آلية الموافقة السريعة أساسية لنجاح التطبيق.</description>
+    </item>
+    <item>
+      <title>كتابة طلبات فعّالة للذكاء الاصطناعي: الدليل الكامل</title>
+      <link>https://technical-insights.com/article/effective-ai-prompting-guide</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/effective-ai-prompting-guide</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <description>4 مبادئ صياغة أساسية بالتفصيل، وليه الاستسلام على أول رد أشهر خطأ عملي في الاستخدام اليومي.</description>
+    </item>
+    <item>
+      <title>تشفير الأقراص بـ BitLocker: أساسيات لازم تعرفها</title>
+      <link>https://technical-insights.com/article/bitlocker-disk-encryption-basics</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/bitlocker-disk-encryption-basics</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <description>دور TPM في تأمين العملية بالتفصيل، خطوات تفعيل موسّعة، وليه نسيان حفظ مفتاح الاستعادة كارثة حقيقية مش مجرد إزعاج.</description>
+    </item>
+    <item>
+      <title>قائمة تحقق للعمل عن بُعد الآمن: 8 نقاط أساسية</title>
+      <link>https://technical-insights.com/article/secure-remote-work-checklist</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/secure-remote-work-checklist</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <description>قائمة عملية مختصرة تقدر تراجعها مع أي موظف عن بُعد جديد.</description>
+    </item>
+    <item>
+      <title>مدير كلمات المرور المدمج مقابل المستقل: الدليل الكامل</title>
+      <link>https://technical-insights.com/article/browser-vs-standalone-password-manager</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/browser-vs-standalone-password-manager</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <description>القيود الفعلية للمدير المدمج (عبر متصفحات وأجهزة مختلفة)، ومتى الانتقال لمدير مستقل يستاهل فعليًا.</description>
+    </item>
+    <item>
+      <title>Wi-Fi مقابل بيانات الموبايل: متى تستخدم كل واحدة</title>
+      <link>https://technical-insights.com/article/wifi-vs-mobile-data-when-to-use</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/wifi-vs-mobile-data-when-to-use</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <description>3 عوامل عملية غير السرعة (البطارية، الأمان على شبكات عامة، الاستقرار أثناء التنقل)، ونصيحة التبديل الذكي التلقائي.</description>
+    </item>
+    <item>
+      <title>تحديد معدل الطلبات (Rate Limiting): حماية الـAPI من الإغراق</title>
+      <link>https://technical-insights.com/article/api-rate-limiting-basics</link>
+      <guid isPermaLink="true">https://technical-insights.com/article/api-rate-limiting-basics</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <description>4 استراتيجيات تحديد بالتفصيل (Fixed Window, Token Bucket)، وأين تطبّق التحديد فنيًا (Gateway مقابل التطبيق نفسه).</description>
     </item>
   </channel>
 </rss>
