@@ -3725,5 +3725,390 @@
     ],
     "isFeatured": false,
     "isTrending": true
+  },
+  {
+    "id": "art-gen-0118",
+    "slug": "laptop-slow-performance-fixes",
+    "title": {
+      "ar": "لابتوبك بطيء؟ 10 أسباب حقيقية وحلول عملية لتسريعه",
+      "en": "Laptop Running Slow? 10 Real Causes and Practical Fixes"
+    },
+    "excerpt": {
+      "ar": "لو لابتوبك بقى بطيء فجأة أو تدريجيًا، إليك الأسباب الحقيقية الأكتر شيوعًا وخطوات عملية تقدر تعملها دلوقتي لتحسين الأداء.",
+      "en": "If your laptop has become slow, here are the most common real causes and practical steps you can take right now to improve performance."
+    },
+    "categoryId": "laptops",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-07-08",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "laptop",
+      "performance",
+      "maintenance",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0119",
+    "slug": "phone-storage-full-fixes",
+    "title": {
+      "ar": "مساحة تخزين موبايلك امتلأت؟ إزاي تفضي مساحة بسرعة وبأمان",
+      "en": "Phone Storage Full? How to Free Up Space Quickly and Safely"
+    },
+    "excerpt": {
+      "ar": "امتلاء مساحة الموبايل مشكلة شائعة جدًا وبتوقّف تحديثات وصور مهمة. إليك أسرع الطرق الآمنة لتفضية مساحة حقيقية من غير ما تفقد حاجة مهمة.",
+      "en": "A full phone is a very common problem that blocks updates and important photos. Here are the fastest, safest ways to free real space without losing anything important."
+    },
+    "categoryId": "mobile",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-07-11",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "storage",
+      "smartphone",
+      "android",
+      "ios",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0120",
+    "slug": "wifi-connection-problems-fixes",
+    "title": {
+      "ar": "مشاكل الواي فاي الشائعة وحلولها خطوة بخطوة",
+      "en": "Common Wi-Fi Problems and Their Step-by-Step Fixes"
+    },
+    "excerpt": {
+      "ar": "الإنترنت بطيء أو بيفصل باستمرار؟ إليك أشهر أسباب مشاكل الواي فاي في المنزل وخطوات عملية تقدر تجربها بنفسك قبل ما تتصل بمزوّد الخدمة.",
+      "en": "Internet slow or dropping constantly? Here are the most common home Wi-Fi problems and practical steps you can try yourself before calling your provider."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-07-14",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "wifi",
+      "network",
+      "troubleshooting",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0121",
+    "slug": "laptop-battery-health-guide",
+    "title": {
+      "ar": "بطارية اللابتوب بتخلص بسرعة؟ إزاي تطيل عمرها وتشخّص المشكلة",
+      "en": "Laptop Battery Draining Fast? How to Extend Its Life and Diagnose the Problem"
+    },
+    "excerpt": {
+      "ar": "تدهور بطارية اللابتوب أمر طبيعي مع الوقت، بس فيه فرق بين التدهور الطبيعي والمشكلة الحقيقية. إليك إزاي تفرّق بينهم وإزاي تطيل عمر البطارية فعليًا.",
+      "en": "Laptop battery wear is natural over time, but there's a difference between normal degradation and a real problem. Here's how to tell them apart and genuinely extend battery life."
+    },
+    "categoryId": "laptops",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-07-17",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "battery",
+      "laptop",
+      "maintenance",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0122",
+    "slug": "data-backup-simple-guide",
+    "title": {
+      "ar": "النسخ الاحتياطي لبياناتك: دليل بسيط عشان متضيعش صورك وملفاتك",
+      "en": "Backing Up Your Data: A Simple Guide So You Never Lose Your Photos and Files"
+    },
+    "excerpt": {
+      "ar": "تعطّل مفاجئ في الجهاز أو ضياعه بيقدر يمحي سنين من الصور والملفات المهمة في لحظة. إليك خطة نسخ احتياطي بسيطة وعملية تقدر تطبقها اليوم.",
+      "en": "A sudden device failure or loss can wipe out years of important photos and files in an instant. Here's a simple, practical backup plan you can set up today."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-07-20",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "backup",
+      "data",
+      "cloud",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0123",
+    "slug": "forgotten-password-account-recovery",
+    "title": {
+      "ar": "نسيت كلمة مرور حسابك المهم؟ خطوات الاسترجاع الآمنة",
+      "en": "Forgot Your Important Account Password? Safe Recovery Steps"
+    },
+    "excerpt": {
+      "ar": "نسيان كلمة المرور موقف شائع ومقلق، خصوصًا لو الحساب فيه بيانات مهمة. إليك خطوات الاسترجاع الآمنة، وإزاي تحمي نفسك من الوقوع في نفس المشكلة تاني.",
+      "en": "Forgetting a password is a common, worrying situation, especially for accounts holding important data. Here are safe recovery steps, and how to avoid the same problem again."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-07-23",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "password",
+      "account-recovery",
+      "security",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0124",
+    "slug": "phone-slow-performance-fixes",
+    "title": {
+      "ar": "موبايلك بطيء بعد فترة استخدام؟ الأسباب والحلول العملية",
+      "en": "Phone Slowing Down Over Time? Real Causes and Practical Fixes"
+    },
+    "excerpt": {
+      "ar": "بطء الموبايل التدريجي مشكلة شائعة جدًا مع الاستخدام اليومي. إليك الأسباب الحقيقية وخطوات عملية تقدر تعملها بنفسك قبل ما تفكر في تغييره.",
+      "en": "Gradual phone slowdown is a very common issue with everyday use. Here are the real causes and practical steps you can take yourself before considering a replacement."
+    },
+    "categoryId": "mobile",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-07-26",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "smartphone",
+      "performance",
+      "android",
+      "ios",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0125",
+    "slug": "printer-not-working-fixes",
+    "title": {
+      "ar": "الطابعة مش بتشتغل أو مش بتطبع صح؟ الحلول الشائعة",
+      "en": "Printer Not Working or Printing Correctly? Common Fixes"
+    },
+    "excerpt": {
+      "ar": "مشاكل الطباعة من أكتر المواقف اللي بتضيّع وقت، خصوصًا في لحظة مستعجلة. إليك الحلول الشائعة لأشهر مشاكل الطابعات المنزلية والمكتبية.",
+      "en": "Printer problems are among the most time-wasting situations, especially when you're in a hurry. Here are common fixes for the most frequent home and office printer issues."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-07-29",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "printer",
+      "troubleshooting",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0126",
+    "slug": "mobile-buying-guide-2026",
+    "title": {
+      "ar": "دليل شراء موبايل جديد 2026: إيه المواصفات اللي تستاهل تدفع فيها فلوس أكتر",
+      "en": "Buying a New Phone in 2026: Which Specs Are Actually Worth Paying More For"
+    },
+    "excerpt": {
+      "ar": "مش كل المواصفات المكتوبة على صندوق الموبايل بنفس الأهمية لكل مستخدم. إليك دليل عملي يساعدك تحدد فين تستحق تصرف ميزانيتك فعليًا وفين ممكن توفر.",
+      "en": "Not every spec printed on a phone's box matters equally to every user. Here's a practical guide to help you decide where your budget is genuinely worth spending, and where you can save."
+    },
+    "categoryId": "mobile",
+    "subcategoryId": "best-picks",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-01",
+    "readTime": 8,
+    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "smartphone",
+      "buying-guide",
+      "android",
+      "ios"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0127",
+    "slug": "laptop-buying-guide-2026",
+    "title": {
+      "ar": "دليل اختيار لابتوب مناسب لك: للطلاب، للعمل، وللتصميم",
+      "en": "Choosing the Right Laptop for You: Students, Work, and Design"
+    },
+    "excerpt": {
+      "ar": "اللابتوب المناسب مختلف تمامًا حسب استخدامك — الطالب محتاج حاجة غير اللي محتاجها المصمم أو موظف المكتب. إليك دليل عملي يساعدك تختار صح من أول مرة.",
+      "en": "The right laptop varies completely by use case -- a student needs something different from what a designer or office worker needs. Here's a practical guide to help you choose correctly the first time."
+    },
+    "categoryId": "laptops",
+    "subcategoryId": "best-picks",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-02",
+    "readTime": 8,
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "laptop",
+      "buying-guide",
+      "students",
+      "work"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0128",
+    "slug": "ai-everyday-uses-guide",
+    "title": {
+      "ar": "أفضل استخدامات الذكاء الاصطناعي في حياتك اليومية (مش بس ChatGPT)",
+      "en": "The Best Everyday Uses of AI (It's Not Just ChatGPT)"
+    },
+    "excerpt": {
+      "ar": "الذكاء الاصطناعي بقى أداة عملية فعليًا في حياتنا اليومية، مش بس تقنية تجريبية. إليك استخدامات حقيقية تقدر تبدأ فيها من النهاردة من غير خبرة تقنية.",
+      "en": "AI has become a genuinely practical everyday tool, not just an experimental technology. Here are real uses you can start today, no technical background required."
+    },
+    "categoryId": "ai",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-04",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "productivity",
+      "guide"
+    ],
+    "isFeatured": false,
+    "isTrending": false
+  },
+  {
+    "id": "art-gen-0129",
+    "slug": "wireless-headphones-buying-guide",
+    "title": {
+      "ar": "أفضل سماعات لاسلكية بميزانية متوسطة: دليل شراء عملي",
+      "en": "Best Wireless Headphones on a Mid-Range Budget: A Practical Buying Guide"
+    },
+    "excerpt": {
+      "ar": "مش لازم تدفع أعلى سعر عشان تحصل على تجربة صوت ممتازة. إليك دليل عملي يساعدك تختار سماعات لاسلكية مناسبة لاستخدامك بميزانية معقولة.",
+      "en": "You don't need to pay top dollar for an excellent listening experience. Here's a practical guide to choosing wireless headphones that fit your use case on a reasonable budget."
+    },
+    "categoryId": "reviews",
+    "subcategoryId": "audio",
+    "author": {
+      "name": {
+        "ar": "فريق رؤى تقنية",
+        "en": "Technical Insights Team"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    "date": "2026-08-06",
+    "readTime": 6,
+    "heroImage": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "headphones",
+      "audio",
+      "buying-guide",
+      "review"
+    ],
+    "isFeatured": false,
+    "isTrending": false
   }
 ]
