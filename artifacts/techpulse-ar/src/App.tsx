@@ -11,6 +11,12 @@ import Videos from '@/pages/Videos';
 import Categories from '@/pages/Categories';
 import Search from '@/pages/Search';
 import PageDetail from '@/pages/PageDetail';
+import Troubleshooting from '@/pages/Troubleshooting';
+import Guides from '@/pages/Guides';
+import Tools from '@/pages/Tools';
+import Vendors from '@/pages/Vendors';
+import VendorDetail from '@/pages/VendorDetail';
+import DomainPage from '@/pages/Domain';
 import NotFound from '@/pages/not-found';
 import { LanguageProvider } from '@/context/LanguageContext';
 import { ThemeProvider } from '@/context/ThemeContext';
@@ -46,6 +52,12 @@ function Router() {
           <Route path="/categories" component={Categories} />
           <Route path="/search" component={Search} />
           <Route path="/page/:slug" component={PageDetail} />
+          <Route path="/troubleshooting" component={Troubleshooting} />
+          <Route path="/guides" component={Guides} />
+          <Route path="/tools" component={Tools} />
+          <Route path="/vendors/:vendor" component={VendorDetail} />
+          <Route path="/vendors" component={Vendors} />
+          <Route path="/domain/:domain" component={DomainPage} />
           <Route component={NotFound} />
         </Switch>
       </main>
@@ -67,4 +79,3 @@ function App() {
 }
 
 export default App;
-
