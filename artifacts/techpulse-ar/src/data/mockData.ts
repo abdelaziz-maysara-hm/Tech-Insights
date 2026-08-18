@@ -15,6 +15,7 @@ export type ArticleContentType =
 
 export type ArticleDifficulty = 'beginner' | 'intermediate' | 'advanced';
 export type ArticleTechnicalStatus = 'reviewed' | 'needs-review' | 'legacy' | 'evergreen';
+export type TranslationStatus = 'unreviewed' | 'reviewed' | 'invalid';
 
 /** Optional migration metadata. Legacy articles continue to use taxonomy inference. */
 export interface ArticleMetadata {
@@ -26,6 +27,7 @@ export interface ArticleMetadata {
   difficulty?: ArticleDifficulty;
   lastReviewed?: string;
   technicalStatus?: ArticleTechnicalStatus;
+  translationStatus?: TranslationStatus;
 }
 
 export interface Article extends ArticleMetadata {
@@ -89,6 +91,7 @@ export interface Comparison {
   verdict: BilingualText;
   overallWinner: 1 | 2;
   heroImage: string;
+  translationStatus?: TranslationStatus;
 }
 
 export const p1 = {

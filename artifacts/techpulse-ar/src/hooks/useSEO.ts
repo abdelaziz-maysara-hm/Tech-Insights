@@ -2,6 +2,12 @@ import { useEffect } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import { SITE, siteUrl } from '@/config/site';
 import { getProductionCanonicalUrl } from '@/lib/seoUrl';
+import {
+  getHreflangAlternates,
+  isHreflangEligible,
+  replaceHreflangLinks,
+  type TranslationStatus,
+} from '@/lib/hreflang';
 
 interface SEOProps {
   title?: string;
@@ -11,6 +17,7 @@ interface SEOProps {
   type?: 'website' | 'article';
   datePublished?: string;
   authorName?: string;
+  translationStatus?: TranslationStatus;
 }
 
 function upsertMeta(attr: 'name' | 'property', key: string, content: string) {
@@ -57,6 +64,7 @@ export function useSEO({
   type = 'website',
   datePublished,
   authorName,
+  translationStatus,
 }: SEOProps = {}) {
   const { language } = useLanguage();
 
@@ -76,6 +84,11 @@ export function useSEO({
     const url = getProductionCanonicalUrl(path ?? browserPath, browserPath, basePath);
     const localizedRootUrl = getProductionCanonicalUrl('/', browserPath, basePath);
     const localizedSearchUrl = getProductionCanonicalUrl('/search', browserPath, basePath);
+    const hreflangRoute = path ?? browserPath;
+    const alternates = getHreflangAlternates(
+      hreflangRoute,
+      isHreflangEligible(hreflangRoute, translationStatus),
+    );
 
     document.title = fullTitle;
     document.documentElement.lang = language;
@@ -96,6 +109,7 @@ export function useSEO({
     upsertMeta('name', 'twitter:image', img);
 
     upsertLink('canonical', url);
+    replaceHreflangLinks(alternates);
 
     if (type === 'article' && title) {
       upsertJsonLd('jsonld-article', {
@@ -132,5 +146,5 @@ export function useSEO({
         },
       });
     }
-  }, [title, description, image, path, type, language, datePublished, authorName]);
+  }, [title, description, image, path, type, language, datePublished, authorName, translationStatus]);
 }

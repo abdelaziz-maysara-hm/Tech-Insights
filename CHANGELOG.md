@@ -2,6 +2,14 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 4C-2 — Central Hreflang Infrastructure and Eligibility
+
+- Added typed, centralized translation status and hreflang URL generation with Arabic, English, and Arabic-canonical `x-default` targets.
+- Kept all 213 content records ineligible by default; only an explicit `translationStatus: reviewed` can activate content alternates.
+- Approved a conservative set of maintained application/discovery route classes separately from editorial content; query-driven search and videos remain excluded.
+- Added SPA-safe alternate-link replacement so eligible/ineligible navigation cannot retain stale or duplicate tags.
+- Preserved user language navigation independently from search-engine hreflang eligibility.
+
 ## Phase 4C-1 — Translation Pair Audit
 
 - Added a deterministic, build-time-only translation audit for articles, comparisons, static pages, and discovery routes.

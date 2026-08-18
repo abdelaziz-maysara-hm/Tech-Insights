@@ -74,7 +74,7 @@ Implement in independently valid batches:
 
 - **4A — COMPLETE:** centralized routing architecture for real `/en/` and `/ar/` URLs, URL-first language selection, equivalent-route language switching, legacy route compatibility, and focused route-helper tests.
 - **4B — COMPLETE:** centralized localized production canonicals, language-specific metadata, Open Graph URLs, and URL-bearing WebSite/Article structured data. Legacy unprefixed routes temporarily canonicalize deterministically to `/ar/...` without redirecting.
-- **4C — IN PROGRESS:** 4C-1 added deterministic translation-pair auditing. The owner identified current translations as literal and technically unreliable; no unreviewed content is eligible for hreflang. Hreflang/head management and localized sitemap work remain in 4C-2/4C-3.
+- **4C — IN PROGRESS:** 4C-1 translation auditing and 4C-2 centralized hreflang eligibility/head management are complete. Current content remains ineligible without explicit human review. Localized sitemap work remains in 4C-3.
 - **4D:** backward-compatible redirects while preserving existing article URLs.
 - **4E:** 404, redirect, schema, route, and indexing validation.
 

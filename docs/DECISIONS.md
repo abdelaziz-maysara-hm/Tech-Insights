@@ -44,3 +44,6 @@ Canonical and URL-bearing runtime metadata are generated centrally from `https:/
 
 ## ADR-015 — Hreflang requires explicit translation review
 Field completeness and automated language heuristics do not prove semantic, technical, or editorial equivalence. A content pair is eligible for `VALID_PAIR` only when it passes automated structural checks and carries an explicit human-reviewed translation marker. The owner has identified the current translations as literal and technically unreliable; unreviewed `REVIEW_PAIR` and structurally defective `INVALID_PAIR` records must not receive reciprocal hreflang or localized sitemap alternates.
+
+## ADR-016 — Discovery eligibility and x-default are explicit
+Application/discovery routes may be hreflang-eligible independently from editorial content when their maintained UI/data is meaningfully bilingual. Current approved classes are home, article/comparison listings, categories, troubleshooting, guides, tools, vendors/vendor details, and domain pages; search and videos are excluded pending separate review. Eligible pairs use reciprocal Arabic and English localized canonicals, with `x-default` pointing to the Arabic localized canonical. Legacy unprefixed URLs are never alternate targets. User language navigation is not evidence of SEO translation eligibility.

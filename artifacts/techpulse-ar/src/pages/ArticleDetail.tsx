@@ -18,6 +18,7 @@ export default function ArticleDetail() {
     type: 'article',
     datePublished: article?.date,
     authorName: article?.author?.name?.[language],
+    translationStatus: article?.translationStatus,
   });
 
   if (isLoading) {

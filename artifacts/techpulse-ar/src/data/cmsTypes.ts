@@ -1,4 +1,4 @@
-import { BilingualText } from './mockData';
+import { BilingualText, TranslationStatus } from './mockData';
 
 export interface CmsVideo {
   id: string;
@@ -19,4 +19,5 @@ export interface CmsPage {
   content: BilingualText;
   updatedAt: string;
   showInFooter?: boolean;
+  translationStatus?: TranslationStatus;
 }

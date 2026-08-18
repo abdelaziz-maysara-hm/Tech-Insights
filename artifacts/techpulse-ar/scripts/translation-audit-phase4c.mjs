@@ -68,9 +68,9 @@ function pairSignals({ title, summary, body }) {
   };
 }
 
-function classifyContent({ id, slug, kind, title, summary, body, translationReview }) {
+function classifyContent({ id, slug, kind, title, summary, body, translationStatus }) {
   const signals = pairSignals({ title, summary, body });
-  const humanReviewed = translationReview?.status === 'human-reviewed';
+  const humanReviewed = translationStatus === 'reviewed';
   let status = PAIR_STATUS.REVIEW;
   let reason = 'Automated checks cannot establish technical or editorial translation equivalence.';
   let confidence = 'high';

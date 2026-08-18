@@ -12,7 +12,7 @@ export default function PageDetail() {
   const { language } = useLanguage();
   const page = cmsPages.find((p) => p.slug === slug);
 
-  useSEO({ title: page?.title[language] });
+  useSEO({ title: page?.title[language], translationStatus: page?.translationStatus });
 
   if (!page) return <NotFound />;
 

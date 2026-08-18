@@ -10,7 +10,7 @@ export default function ComparisonDetail() {
   
   const comp = cmsComparisons.find(c => c.slug === slug);
   
-  useSEO(comp ? { title: comp.title[language], description: comp.excerpt[language] } : {});
+  useSEO(comp ? { title: comp.title[language], description: comp.excerpt[language], translationStatus: comp.translationStatus } : {});
 
   if (!comp) {
     return <div className="container py-20 text-center text-2xl">Comparison not found</div>;

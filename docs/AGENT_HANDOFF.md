@@ -11,7 +11,7 @@
 ## Current handoff
 
 - Completed: Phases 0, 1, 1.5, 2, 3, 4A, and 4B.
-- In progress: Phase 4C only. 4C-1 translation audit is complete; next is 4C-2 centralized hreflang eligibility/head management, followed by 4C-3 localized sitemap strategy. Phase 4 remains high risk and must stay batched.
+- In progress: Phase 4C only. 4C-1 translation audit and 4C-2 centralized hreflang eligibility/head management are complete; next is 4C-3 localized sitemap strategy. Phase 4 remains high risk and must stay batched.
 - Branch/workflow: `main`; use fast-forward pull, focused commits, normal push, never force-push.
 - Production domain: `https://netsecatlas.com`.
 - Legacy redirect domain: `technical-insights.com`.
@@ -21,6 +21,7 @@
 - Phase 4B canonical source is `src/lib/seoUrl.ts`. Prefixed URLs canonicalize to the same language; legacy unprefixed routes temporarily canonicalize to the Arabic equivalent. No redirects were added.
 - Translation inventory finding: all 129 articles have non-empty Arabic/English title, excerpt, and body fields; all 75 comparisons have both title, excerpt, and verdict; all 9 static pages have both title and content. Field completeness does not prove human-reviewed editorial equivalence, so Phase 4C must gate hreflang/alternates conservatively.
 - Translation quality finding: the owner identifies the existing translations as literal and technically unreliable. The 4C-1 audit therefore requires an explicit human-reviewed marker before `VALID_PAIR`; current automated results are 0 valid, 223 review, and 18 invalid across 241 evaluated pairs. See `docs/i18n/phase4c-translation-audit.*`.
+- Phase 4C-2 source is `src/lib/hreflang.ts`. Content alternates require explicit `translationStatus: reviewed`; no current content is approved. Maintained discovery classes are evaluated separately. User language switching remains available even where SEO alternates are withheld. `x-default` targets the Arabic localized canonical, never a legacy URL.
 - The static SPA shell intentionally carries no canonical or `og:url`; `useSEO` creates the route-correct values after hydration. Full pre-rendered localized metadata would require SSR/static rendering and is not claimed by Phase 4B.
 
 ## Validation
