@@ -2,6 +2,13 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 4C-1 — Translation Pair Audit
+
+- Added a deterministic, build-time-only translation audit for articles, comparisons, static pages, and discovery routes.
+- Distinguished field completeness, automated candidacy, and explicit human review instead of treating bilingual fields as proof of a correct technical translation.
+- Recorded the owner's finding that current translations are literal and technically unreliable; unreviewed pairs remain excluded from hreflang eligibility.
+- Generated machine-readable and readable reports under `docs/i18n/` without adding production-bundle code.
+
 ## Phase 4B — Localized Canonicals, Metadata and Structured Data
 
 - Centralized production canonical generation for Arabic and English routes on `netsecatlas.com`.

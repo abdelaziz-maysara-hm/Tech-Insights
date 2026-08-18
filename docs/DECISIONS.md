@@ -41,3 +41,6 @@ Arabic and English routes use `/ar/` and `/en/` prefixes over the same page comp
 
 ## ADR-014 — Canonicals are production-only and URL-language aware
 Canonical and URL-bearing runtime metadata are generated centrally from `https://netsecatlas.com`, never from the browser host. Valid `/ar/` and `/en/` prefixes remain canonical to their own language. Until Phase 4D redirects are approved, legacy unprefixed routes use deterministic Arabic-equivalent canonicals rather than a localStorage-dependent target. Query strings and fragments are excluded. The shared static SPA shell omits canonical and `og:url` values so it does not advertise the wrong localized URL before hydration.
+
+## ADR-015 — Hreflang requires explicit translation review
+Field completeness and automated language heuristics do not prove semantic, technical, or editorial equivalence. A content pair is eligible for `VALID_PAIR` only when it passes automated structural checks and carries an explicit human-reviewed translation marker. The owner has identified the current translations as literal and technically unreliable; unreviewed `REVIEW_PAIR` and structurally defective `INVALID_PAIR` records must not receive reciprocal hreflang or localized sitemap alternates.

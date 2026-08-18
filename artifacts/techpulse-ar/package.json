@@ -14,6 +14,8 @@
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test:routing": "node --test scripts/localized-routing.test.ts",
     "test:seo": "node --test scripts/seo-url.test.ts",
+    "audit:i18n": "node scripts/translation-audit-phase4c.mjs",
+    "test:i18n": "pnpm run audit:i18n && node --test scripts/translation-audit-phase4c.test.mjs",
     "rss": "node scripts/generate-rss.mjs",
     "audit:phase3": "node scripts/content-audit-phase3.mjs",
     "generate": "node scripts/generator/index.mjs",
