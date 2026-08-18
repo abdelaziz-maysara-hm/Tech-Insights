@@ -2,7 +2,7 @@ import { useRoute, Link } from 'wouter';
 import { useLanguage } from '@/context/LanguageContext';
 import { useAllArticles } from '@/hooks/useAllArticles';
 import { useArticleBody } from '@/hooks/useArticleBody';
-import { Clock, ArrowLeft, ArrowRight, PlayCircle } from 'lucide-react';
+import { Clock } from 'lucide-react';
 import { useSEO } from '@/hooks/useSEO';
 import { ArticleCard } from '@/components/ArticleCard';
 
@@ -11,8 +11,6 @@ export default function ArticleDetail() {
   const { language, t } = useLanguage();
   const { allArticles } = useAllArticles();
   const { article, isLoading } = useArticleBody(params?.slug);
-  const isRtl = language === 'ar';
-
   useSEO({
     title: article?.title?.[language],
     description: article?.excerpt?.[language],
@@ -38,7 +36,8 @@ export default function ArticleDetail() {
   const authorLabel =
     article.author?.name?.[language] ||
     article.author?.name?.ar ||
-    (typeof article.author === 'string' ? article.author : language === 'ar' ? 'فريق رؤى تقنية' : 'Technical Insights Team');
+    article.author?.name?.en ||
+    'NetSec Atlas';
 
   const related = allArticles
     .filter(a => a.categoryId === article.categoryId && a.id !== article.id)

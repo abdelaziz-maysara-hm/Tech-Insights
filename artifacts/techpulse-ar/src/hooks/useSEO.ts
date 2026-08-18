@@ -1,8 +1,6 @@
 import { useEffect } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
-
-const SITE_URL = 'https://technical-insights.com';
-const SITE_NAME = 'Technical Insights';
+import { SITE, siteUrl } from '@/config/site';
 
 interface SEOProps {
   title?: string;
@@ -63,16 +61,16 @@ export function useSEO({
 
   useEffect(() => {
     const defaultTitle =
-      language === 'ar' ? 'رؤى تقنية - موقع تقني عربي' : 'Technical Insights - Arabic Tech Magazine';
+      language === 'ar' ? `${SITE.name} - ${SITE.taglineAr}` : `${SITE.name} - ${SITE.taglineEn}`;
     const defaultDesc =
       language === 'ar'
-        ? 'دليلك الأول في عالم التقنية: مراجعات، أخبار، مقارنات، وشروحات.'
-        : 'Your guide to tech: reviews, news, comparisons, and how-tos.';
+        ? SITE.descriptionAr
+        : SITE.descriptionEn;
 
-    const fullTitle = title ? `${title} | ${SITE_NAME}` : defaultTitle;
+    const fullTitle = title ? `${title} | ${SITE.name}` : defaultTitle;
     const desc = description || defaultDesc;
-    const img = image || `${SITE_URL}/favicon.svg`;
-    const url = path ? `${SITE_URL}${path.startsWith('/') ? path : `/${path}`}` : SITE_URL;
+    const img = image || siteUrl('/favicon.svg');
+    const url = siteUrl(path);
 
     document.title = fullTitle;
     document.documentElement.lang = language;
@@ -84,7 +82,7 @@ export function useSEO({
     upsertMeta('property', 'og:type', type);
     upsertMeta('property', 'og:url', url);
     upsertMeta('property', 'og:image', img);
-    upsertMeta('property', 'og:site_name', SITE_NAME);
+    upsertMeta('property', 'og:site_name', SITE.name);
     upsertMeta('property', 'og:locale', language === 'ar' ? 'ar_AR' : 'en_US');
 
     upsertMeta('name', 'twitter:card', 'summary_large_image');
@@ -105,12 +103,12 @@ export function useSEO({
         datePublished: datePublished || undefined,
         author: {
           '@type': 'Person',
-          name: authorName || SITE_NAME,
+          name: authorName || (language === 'ar' ? SITE.defaultAuthorAr : SITE.defaultAuthorEn),
         },
         publisher: {
           '@type': 'Organization',
-          name: SITE_NAME,
-          url: SITE_URL,
+          name: SITE.organization.name,
+          url: SITE.organization.url,
         },
         inLanguage: language === 'ar' ? 'ar' : 'en',
       });
@@ -119,12 +117,12 @@ export function useSEO({
       upsertJsonLd('jsonld-website', {
         '@context': 'https://schema.org',
         '@type': 'WebSite',
-        name: SITE_NAME,
-        url: SITE_URL,
+        name: SITE.name,
+        url: SITE.url,
         inLanguage: ['ar', 'en'],
         potentialAction: {
           '@type': 'SearchAction',
-          target: `${SITE_URL}/search?q={search_term_string}`,
+          target: siteUrl('/search?q={search_term_string}'),
           'query-input': 'required name=search_term_string',
         },
       });

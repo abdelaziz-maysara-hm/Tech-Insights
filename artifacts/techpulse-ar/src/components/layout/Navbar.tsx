@@ -39,8 +39,8 @@ export function Navbar() {
         {/* Logo */}
         <div className="flex-shrink-0 flex items-center">
           <Link href="/" className="text-2xl font-bold text-gradient flex items-center gap-2">
-            <span className="bg-primary text-primary-foreground p-1 rounded-md text-xl">TI</span>
-            {language === 'ar' ? 'رؤى تقنية' : 'Technical Insights'}
+            <span className="bg-primary text-primary-foreground p-1 rounded-md text-xl">NSA</span>
+            NetSec Atlas
           </Link>
         </div>
 
@@ -48,8 +48,10 @@ export function Navbar() {
         <nav className="hidden md:flex items-center space-x-6 space-x-reverse font-medium text-sm">
           <Link href="/" className="hover:text-primary transition-colors px-2">{t('home')}</Link>
           <Link href="/articles" className="hover:text-primary transition-colors px-2">{t('articles')}</Link>
+          <Link href="/troubleshooting" className="hover:text-primary transition-colors px-2">{language === 'ar' ? 'استكشاف الأعطال' : 'Troubleshooting'}</Link>
+          <Link href="/guides" className="hover:text-primary transition-colors px-2">{language === 'ar' ? 'أدلة' : 'Guides'}</Link>
           <Link href="/comparisons" className="hover:text-primary transition-colors px-2">{t('comparisons')}</Link>
-          <Link href="/videos" className="hover:text-primary transition-colors px-2">{t('videos')}</Link>
+          <Link href="/tools" className="hover:text-primary transition-colors px-2">{language === 'ar' ? 'أدوات' : 'Tools'}</Link>
         </nav>
 
         {/* Search Bar (Desktop) */}
@@ -150,8 +152,11 @@ export function Navbar() {
           <nav className="flex flex-col gap-2">
             <Link href="/" className="px-4 py-2 rounded-md hover:bg-muted">{t('home')}</Link>
             <Link href="/articles" className="px-4 py-2 rounded-md hover:bg-muted">{t('articles')}</Link>
+            <Link href="/troubleshooting" className="px-4 py-2 rounded-md hover:bg-muted">{language === 'ar' ? 'استكشاف الأعطال' : 'Troubleshooting'}</Link>
+            <Link href="/guides" className="px-4 py-2 rounded-md hover:bg-muted">{language === 'ar' ? 'أدلة' : 'Guides'}</Link>
             <Link href="/comparisons" className="px-4 py-2 rounded-md hover:bg-muted">{t('comparisons')}</Link>
-            <Link href="/videos" className="px-4 py-2 rounded-md hover:bg-muted">{t('videos')}</Link>
+            <Link href="/tools" className="px-4 py-2 rounded-md hover:bg-muted">{language === 'ar' ? 'أدوات' : 'Tools'}</Link>
+            <Link href="/vendors" className="px-4 py-2 rounded-md hover:bg-muted">{language === 'ar' ? 'الموردون' : 'Vendors'}</Link>
             <Link href="/categories" className="px-4 py-2 rounded-md hover:bg-muted">{t('categories')}</Link>
           </nav>
         </div>

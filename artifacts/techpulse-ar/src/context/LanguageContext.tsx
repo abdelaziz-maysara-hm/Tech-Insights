@@ -52,7 +52,7 @@ const translations: Record<string, Record<Language, string>> = {
   
   // Footer
   aboutUs: { ar: 'من نحن', en: 'About Us' },
-  aboutText: { ar: 'رؤى تقنية هو دليلك العربي الأول في عالم التقنية، نقدم لك أحدث الأخبار، المراجعات، والمقارنات بحيادية واحترافية.', en: 'Technical Insights is your premium tech guide, providing the latest news, reviews, and comparisons with deep expertise.' },
+  aboutText: { ar: 'معرفة عملية في الشبكات والأمن وتقنية المعلومات: استكشاف الأعطال، أدلة، مقارنات وأدوات للمحترفين.', en: 'Practical network, security and IT knowledge: troubleshooting, guides, comparisons and professional tools.' },
   followUs: { ar: 'تابعنا', en: 'Follow Us' },
   allRightsReserved: { ar: 'جميع الحقوق محفوظة.', en: 'All rights reserved.' }
 };

@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
-const SITE = 'https://technical-insights.com';
+const SITE = 'https://netsecatlas.com';
 
 function loadJson(rel) {
   try {
@@ -59,9 +59,9 @@ const items = articles
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Technical Insights — رؤى تقنية</title>
+    <title>NetSec Atlas</title>
     <link>${SITE}</link>
-    <description>دليلك الأول في عالم التقنية: مراجعات، أخبار، مقارنات، وشروحات.</description>
+    <description>Practical Network, Security &amp; IT Knowledge</description>
     <language>ar</language>
     <atom:link href="${SITE}/rss.xml" rel="self" type="application/rss+xml" />
 ${items}

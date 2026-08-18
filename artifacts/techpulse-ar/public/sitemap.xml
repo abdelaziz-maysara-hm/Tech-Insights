@@ -1,1289 +1,1396 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://technical-insights.com/</loc>
+    <loc>https://netsecatlas.com/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/articles</loc>
+    <loc>https://netsecatlas.com/articles</loc>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparisons</loc>
+    <loc>https://netsecatlas.com/comparisons</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/videos</loc>
+    <loc>https://netsecatlas.com/troubleshooting</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/guides</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/tools</loc>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/categories</loc>
+    <loc>https://netsecatlas.com/vendors</loc>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/search</loc>
+    <loc>https://netsecatlas.com/domain/cybersecurity</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/domain/networking</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/domain/infrastructure</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/videos</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/categories</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/search</loc>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/page/about</loc>
+    <loc>https://netsecatlas.com/page/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/page/privacy</loc>
+    <loc>https://netsecatlas.com/page/privacy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/articles?c=cybersecurity</loc>
-    <lastmod>2026-08-08</lastmod>
+    <loc>https://netsecatlas.com/articles?c=cybersecurity</loc>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/articles?c=mobile</loc>
-    <lastmod>2026-08-08</lastmod>
+    <loc>https://netsecatlas.com/articles?c=mobile</loc>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/articles?c=laptops</loc>
-    <lastmod>2026-08-08</lastmod>
+    <loc>https://netsecatlas.com/articles?c=laptops</loc>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/articles?c=howto</loc>
-    <lastmod>2026-08-08</lastmod>
+    <loc>https://netsecatlas.com/articles?c=howto</loc>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/articles?c=ai</loc>
-    <lastmod>2026-08-08</lastmod>
+    <loc>https://netsecatlas.com/articles?c=ai</loc>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/articles?c=reviews</loc>
-    <lastmod>2026-08-08</lastmod>
+    <loc>https://netsecatlas.com/articles?c=reviews</loc>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/articles?c=windows</loc>
-    <lastmod>2026-08-08</lastmod>
+    <loc>https://netsecatlas.com/articles?c=windows</loc>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/articles?c=comparisons</loc>
-    <lastmod>2026-08-08</lastmod>
+    <loc>https://netsecatlas.com/articles?c=comparisons</loc>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/articles?c=technology</loc>
-    <lastmod>2026-08-08</lastmod>
+    <loc>https://netsecatlas.com/articles?c=technology</loc>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/2fa-practical-guide</loc>
+    <loc>https://netsecatlas.com/article/2fa-practical-guide</loc>
     <lastmod>2022-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/phishing-spot-before-click</loc>
+    <loc>https://netsecatlas.com/article/phishing-spot-before-click</loc>
     <lastmod>2022-03-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/palo-alto-security-policy-basics</loc>
+    <loc>https://netsecatlas.com/article/palo-alto-security-policy-basics</loc>
     <lastmod>2022-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/forcepoint-ssl-vpn-radius</loc>
+    <loc>https://netsecatlas.com/article/forcepoint-ssl-vpn-radius</loc>
     <lastmod>2022-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/fortigate-ssl-vpn-checklist</loc>
+    <loc>https://netsecatlas.com/article/fortigate-ssl-vpn-checklist</loc>
     <lastmod>2022-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/password-manager-start</loc>
+    <loc>https://netsecatlas.com/article/password-manager-start</loc>
     <lastmod>2023-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/ad-powershell-daily-tasks</loc>
+    <loc>https://netsecatlas.com/article/ad-powershell-daily-tasks</loc>
     <lastmod>2023-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/home-router-security-basics</loc>
+    <loc>https://netsecatlas.com/article/home-router-security-basics</loc>
     <lastmod>2023-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/vpn-basics-what-it-does</loc>
+    <loc>https://netsecatlas.com/article/vpn-basics-what-it-does</loc>
     <lastmod>2023-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/windows-disk-cleanup-safe</loc>
+    <loc>https://netsecatlas.com/article/windows-disk-cleanup-safe</loc>
     <lastmod>2024-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/student-laptop-specs</loc>
+    <loc>https://netsecatlas.com/article/student-laptop-specs</loc>
     <lastmod>2024-04-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/chatgpt-study-without-harm</loc>
+    <loc>https://netsecatlas.com/article/chatgpt-study-without-harm</loc>
     <lastmod>2024-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/kaspersky-security-center-tagging</loc>
+    <loc>https://netsecatlas.com/article/kaspersky-security-center-tagging</loc>
     <lastmod>2024-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/rdp-multi-user-rds-licensing</loc>
+    <loc>https://netsecatlas.com/article/rdp-multi-user-rds-licensing</loc>
     <lastmod>2024-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/windows-server-evaluation-to-standard</loc>
+    <loc>https://netsecatlas.com/article/windows-server-evaluation-to-standard</loc>
     <lastmod>2025-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/dns-reverse-lookup-zone-setup</loc>
+    <loc>https://netsecatlas.com/article/dns-reverse-lookup-zone-setup</loc>
     <lastmod>2025-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/group-policy-basics-for-sysadmins</loc>
+    <loc>https://netsecatlas.com/article/group-policy-basics-for-sysadmins</loc>
     <lastmod>2025-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/backup-3-2-1-rule-practical</loc>
+    <loc>https://netsecatlas.com/article/backup-3-2-1-rule-practical</loc>
     <lastmod>2025-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/zero-trust-explained-practically</loc>
+    <loc>https://netsecatlas.com/article/zero-trust-explained-practically</loc>
     <lastmod>2026-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/email-security-gateway-basics</loc>
+    <loc>https://netsecatlas.com/article/email-security-gateway-basics</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/vlan-basics-why-segment</loc>
+    <loc>https://netsecatlas.com/article/vlan-basics-why-segment</loc>
     <lastmod>2025-03-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/snmp-monitoring-basics</loc>
+    <loc>https://netsecatlas.com/article/snmp-monitoring-basics</loc>
     <lastmod>2025-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/802-1x-certificate-authentication</loc>
+    <loc>https://netsecatlas.com/article/802-1x-certificate-authentication</loc>
     <lastmod>2025-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/log-retention-siem-basics</loc>
+    <loc>https://netsecatlas.com/article/log-retention-siem-basics</loc>
     <lastmod>2025-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/windows-patch-management-strategy</loc>
+    <loc>https://netsecatlas.com/article/windows-patch-management-strategy</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/dhcp-failover-high-availability</loc>
+    <loc>https://netsecatlas.com/article/dhcp-failover-high-availability</loc>
     <lastmod>2026-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/syslog-server-setup-basics</loc>
+    <loc>https://netsecatlas.com/article/syslog-server-setup-basics</loc>
     <lastmod>2026-03-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/network-segmentation-compliance</loc>
+    <loc>https://netsecatlas.com/article/network-segmentation-compliance</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/hyper-v-vs-checkpoints-basics</loc>
+    <loc>https://netsecatlas.com/article/hyper-v-vs-checkpoints-basics</loc>
     <lastmod>2025-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/mfa-fatigue-attacks-explained</loc>
+    <loc>https://netsecatlas.com/article/mfa-fatigue-attacks-explained</loc>
     <lastmod>2025-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/windows-event-viewer-security-logs</loc>
+    <loc>https://netsecatlas.com/article/windows-event-viewer-security-logs</loc>
     <lastmod>2025-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/wifi-6-vs-wifi-5-practical</loc>
+    <loc>https://netsecatlas.com/article/wifi-6-vs-wifi-5-practical</loc>
     <lastmod>2025-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/dark-web-monitoring-basics</loc>
+    <loc>https://netsecatlas.com/article/dark-web-monitoring-basics</loc>
     <lastmod>2025-12-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/ssd-vs-hdd-server-storage</loc>
+    <loc>https://netsecatlas.com/article/ssd-vs-hdd-server-storage</loc>
     <lastmod>2026-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/least-privilege-principle-practical</loc>
+    <loc>https://netsecatlas.com/article/least-privilege-principle-practical</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/ransomware-first-hour-response</loc>
+    <loc>https://netsecatlas.com/article/ransomware-first-hour-response</loc>
     <lastmod>2025-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/cloud-cost-optimization-basics</loc>
+    <loc>https://netsecatlas.com/article/cloud-cost-optimization-basics</loc>
     <lastmod>2025-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/printer-security-overlooked-risk</loc>
+    <loc>https://netsecatlas.com/article/printer-security-overlooked-risk</loc>
     <lastmod>2025-12-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/browser-isolation-basics</loc>
+    <loc>https://netsecatlas.com/article/browser-isolation-basics</loc>
     <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/shadow-it-risk-management</loc>
+    <loc>https://netsecatlas.com/article/shadow-it-risk-management</loc>
     <lastmod>2026-03-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/usb-device-control-policy</loc>
+    <loc>https://netsecatlas.com/article/usb-device-control-policy</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/certificate-expiry-monitoring</loc>
+    <loc>https://netsecatlas.com/article/certificate-expiry-monitoring</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/incident-response-tabletop-exercises</loc>
+    <loc>https://netsecatlas.com/article/incident-response-tabletop-exercises</loc>
     <lastmod>2025-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/nist-password-guidelines-vs-old-rules</loc>
+    <loc>https://netsecatlas.com/article/nist-password-guidelines-vs-old-rules</loc>
     <lastmod>2025-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/network-access-control-nac-basics</loc>
+    <loc>https://netsecatlas.com/article/network-access-control-nac-basics</loc>
     <lastmod>2026-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/cloud-vs-onprem-backup-considerations</loc>
+    <loc>https://netsecatlas.com/article/cloud-vs-onprem-backup-considerations</loc>
     <lastmod>2026-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/vulnerability-scanning-vs-penetration-testing</loc>
+    <loc>https://netsecatlas.com/article/vulnerability-scanning-vs-penetration-testing</loc>
     <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/dns-security-filtering-dnssec</loc>
+    <loc>https://netsecatlas.com/article/dns-security-filtering-dnssec</loc>
     <lastmod>2026-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/bitlocker-disk-encryption-basics</loc>
+    <loc>https://netsecatlas.com/article/bitlocker-disk-encryption-basics</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/windows-firewall-advanced-rules</loc>
+    <loc>https://netsecatlas.com/article/windows-firewall-advanced-rules</loc>
     <lastmod>2025-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/phishing-simulation-training-programs</loc>
+    <loc>https://netsecatlas.com/article/phishing-simulation-training-programs</loc>
     <lastmod>2026-01-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/cross-site-scripting-xss-basics</loc>
+    <loc>https://netsecatlas.com/article/cross-site-scripting-xss-basics</loc>
     <lastmod>2026-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/windows-server-core-vs-desktop-experience</loc>
+    <loc>https://netsecatlas.com/article/windows-server-core-vs-desktop-experience</loc>
     <lastmod>2026-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/api-key-management-best-practices</loc>
+    <loc>https://netsecatlas.com/article/api-key-management-best-practices</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/physical-security-server-room-basics</loc>
+    <loc>https://netsecatlas.com/article/physical-security-server-room-basics</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/supply-chain-attacks-third-party-risk</loc>
+    <loc>https://netsecatlas.com/article/supply-chain-attacks-third-party-risk</loc>
     <lastmod>2026-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/container-image-security-scanning</loc>
+    <loc>https://netsecatlas.com/article/container-image-security-scanning</loc>
     <lastmod>2025-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/guest-wifi-network-isolation</loc>
+    <loc>https://netsecatlas.com/article/guest-wifi-network-isolation</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/spf-dkim-dmarc-email-basics</loc>
+    <loc>https://netsecatlas.com/article/spf-dkim-dmarc-email-basics</loc>
     <lastmod>2026-02-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/cyber-insurance-what-it-covers</loc>
+    <loc>https://netsecatlas.com/article/cyber-insurance-what-it-covers</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/it-change-management-process-basics</loc>
+    <loc>https://netsecatlas.com/article/it-change-management-process-basics</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/data-classification-basics</loc>
+    <loc>https://netsecatlas.com/article/data-classification-basics</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/mfa-methods-compared-sms-app-hardware</loc>
+    <loc>https://netsecatlas.com/article/mfa-methods-compared-sms-app-hardware</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/sql-injection-basics-explained</loc>
+    <loc>https://netsecatlas.com/article/sql-injection-basics-explained</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/windows-task-scheduler-automation</loc>
+    <loc>https://netsecatlas.com/article/windows-task-scheduler-automation</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/insider-threat-detection-basics</loc>
+    <loc>https://netsecatlas.com/article/insider-threat-detection-basics</loc>
     <lastmod>2026-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/sd-wan-basics-explained</loc>
+    <loc>https://netsecatlas.com/article/sd-wan-basics-explained</loc>
     <lastmod>2026-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/secure-remote-work-checklist</loc>
+    <loc>https://netsecatlas.com/article/secure-remote-work-checklist</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/windows-local-admin-password-rotation</loc>
+    <loc>https://netsecatlas.com/article/windows-local-admin-password-rotation</loc>
     <lastmod>2026-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/sonicwall-sma1000-ransomware-exploitation-2026</loc>
+    <loc>https://netsecatlas.com/article/sonicwall-sma1000-ransomware-exploitation-2026</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/n-able-n-central-cve-2026-18577-exploited</loc>
+    <loc>https://netsecatlas.com/article/n-able-n-central-cve-2026-18577-exploited</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/azure-cosmos-db-cosmosescape-flaw</loc>
+    <loc>https://netsecatlas.com/article/azure-cosmos-db-cosmosescape-flaw</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/azure-cli-password-spray-campaign</loc>
+    <loc>https://netsecatlas.com/article/azure-cli-password-spray-campaign</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/ruby-on-rails-critical-rce-patch</loc>
+    <loc>https://netsecatlas.com/article/ruby-on-rails-critical-rce-patch</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/honeypot-deception-basics</loc>
+    <loc>https://netsecatlas.com/article/honeypot-deception-basics</loc>
     <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/security-awareness-training-metrics</loc>
+    <loc>https://netsecatlas.com/article/security-awareness-training-metrics</loc>
     <lastmod>2026-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/air-gapped-networks-explained</loc>
+    <loc>https://netsecatlas.com/article/air-gapped-networks-explained</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/cloud-storage-misconfiguration-risks</loc>
+    <loc>https://netsecatlas.com/article/cloud-storage-misconfiguration-risks</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/api-rate-limiting-basics</loc>
+    <loc>https://netsecatlas.com/article/api-rate-limiting-basics</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/dual-control-critical-operations</loc>
+    <loc>https://netsecatlas.com/article/dual-control-critical-operations</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/threat-modeling-stride-basics</loc>
+    <loc>https://netsecatlas.com/article/threat-modeling-stride-basics</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/active-directory-complete-setup-guide</loc>
+    <loc>https://netsecatlas.com/article/active-directory-complete-setup-guide</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/powershell-sysadmin-complete-guide</loc>
+    <loc>https://netsecatlas.com/article/powershell-sysadmin-complete-guide</loc>
     <lastmod>2026-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/incident-response-plan-from-scratch</loc>
+    <loc>https://netsecatlas.com/article/incident-response-plan-from-scratch</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/wireshark-network-analysis-complete-guide</loc>
+    <loc>https://netsecatlas.com/article/wireshark-network-analysis-complete-guide</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/kerberos-authentication-explained</loc>
+    <loc>https://netsecatlas.com/article/kerberos-authentication-explained</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/pki-certificate-authority-explained</loc>
+    <loc>https://netsecatlas.com/article/pki-certificate-authority-explained</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/disaster-recovery-plan-basics</loc>
+    <loc>https://netsecatlas.com/article/disaster-recovery-plan-basics</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/nmap-network-scanning-complete-guide</loc>
+    <loc>https://netsecatlas.com/article/nmap-network-scanning-complete-guide</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/vulnerability-management-program-guide</loc>
+    <loc>https://netsecatlas.com/article/vulnerability-management-program-guide</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/how-edr-actually-works</loc>
+    <loc>https://netsecatlas.com/article/how-edr-actually-works</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/container-security-basics-guide</loc>
+    <loc>https://netsecatlas.com/article/container-security-basics-guide</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/byod-policy-security-guide</loc>
+    <loc>https://netsecatlas.com/article/byod-policy-security-guide</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/secure-sdlc-guide</loc>
+    <loc>https://netsecatlas.com/article/secure-sdlc-guide</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/how-siem-actually-works</loc>
+    <loc>https://netsecatlas.com/article/how-siem-actually-works</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/web-application-firewall-waf-guide</loc>
+    <loc>https://netsecatlas.com/article/web-application-firewall-waf-guide</loc>
     <lastmod>2026-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/data-loss-prevention-dlp-guide</loc>
+    <loc>https://netsecatlas.com/article/data-loss-prevention-dlp-guide</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/insider-risk-program-guide</loc>
+    <loc>https://netsecatlas.com/article/insider-risk-program-guide</loc>
     <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/authentication-vs-authorization-explained</loc>
+    <loc>https://netsecatlas.com/article/authentication-vs-authorization-explained</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/owasp-top-10-overview</loc>
+    <loc>https://netsecatlas.com/article/owasp-top-10-overview</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/understanding-cvss-score</loc>
+    <loc>https://netsecatlas.com/article/understanding-cvss-score</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/security-operations-center-soc-guide</loc>
+    <loc>https://netsecatlas.com/article/security-operations-center-soc-guide</loc>
     <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/immutable-backups-ransomware-defense</loc>
+    <loc>https://netsecatlas.com/article/immutable-backups-ransomware-defense</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/tls-handshake-explained</loc>
+    <loc>https://netsecatlas.com/article/tls-handshake-explained</loc>
     <lastmod>2026-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/zero-day-vulnerabilities-explained</loc>
+    <loc>https://netsecatlas.com/article/zero-day-vulnerabilities-explained</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/smartphone-battery-longevity-guide</loc>
+    <loc>https://netsecatlas.com/article/smartphone-battery-longevity-guide</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/effective-ai-prompting-guide</loc>
+    <loc>https://netsecatlas.com/article/effective-ai-prompting-guide</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/how-gps-actually-works</loc>
+    <loc>https://netsecatlas.com/article/how-gps-actually-works</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/laptop-for-developers-guide</loc>
+    <loc>https://netsecatlas.com/article/laptop-for-developers-guide</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/wifi-vs-mobile-data-when-to-use</loc>
+    <loc>https://netsecatlas.com/article/wifi-vs-mobile-data-when-to-use</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/how-large-language-models-work</loc>
+    <loc>https://netsecatlas.com/article/how-large-language-models-work</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/how-qr-codes-work</loc>
+    <loc>https://netsecatlas.com/article/how-qr-codes-work</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/digital-file-organization-system</loc>
+    <loc>https://netsecatlas.com/article/digital-file-organization-system</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/browser-vs-standalone-password-manager</loc>
+    <loc>https://netsecatlas.com/article/browser-vs-standalone-password-manager</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/how-ai-image-generation-works</loc>
+    <loc>https://netsecatlas.com/article/how-ai-image-generation-works</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/how-cloud-storage-actually-works</loc>
+    <loc>https://netsecatlas.com/article/how-cloud-storage-actually-works</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/article/ios-vs-android-choosing-guide</loc>
+    <loc>https://netsecatlas.com/article/ios-vs-android-choosing-guide</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/iphone-16-vs-galaxy-s25</loc>
+    <loc>https://netsecatlas.com/article/laptop-slow-performance-fixes</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/article/phone-storage-full-fixes</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/article/wifi-connection-problems-fixes</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/article/laptop-battery-health-guide</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/article/data-backup-simple-guide</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/article/forgotten-password-account-recovery</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/article/phone-slow-performance-fixes</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/article/printer-not-working-fixes</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/article/mobile-buying-guide-2026</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/article/laptop-buying-guide-2026</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/article/ai-everyday-uses-guide</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/article/wireless-headphones-buying-guide</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/comparison/iphone-16-vs-galaxy-s25</loc>
     <lastmod>2022-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/pixel-9-vs-nothing-phone-3</loc>
+    <loc>https://netsecatlas.com/comparison/pixel-9-vs-nothing-phone-3</loc>
     <lastmod>2022-03-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/macbook-air-m3-vs-dell-xps-13</loc>
+    <loc>https://netsecatlas.com/comparison/macbook-air-m3-vs-dell-xps-13</loc>
     <lastmod>2022-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/thinkpad-x1-vs-hp-elitebook</loc>
+    <loc>https://netsecatlas.com/comparison/thinkpad-x1-vs-hp-elitebook</loc>
     <lastmod>2022-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/palo-alto-ngfw-vs-fortinet-fortigate</loc>
+    <loc>https://netsecatlas.com/comparison/palo-alto-ngfw-vs-fortinet-fortigate</loc>
     <lastmod>2022-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/palo-alto-ngfw-vs-forcepoint-ngfw</loc>
+    <loc>https://netsecatlas.com/comparison/palo-alto-ngfw-vs-forcepoint-ngfw</loc>
     <lastmod>2022-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/fortinet-fortigate-vs-forcepoint-ngfw</loc>
+    <loc>https://netsecatlas.com/comparison/fortinet-fortigate-vs-forcepoint-ngfw</loc>
     <lastmod>2022-12-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/cisco-ftd-vs-palo-alto-ngfw</loc>
+    <loc>https://netsecatlas.com/comparison/cisco-ftd-vs-palo-alto-ngfw</loc>
     <lastmod>2023-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/palo-alto-ngfw-vs-check-point</loc>
+    <loc>https://netsecatlas.com/comparison/palo-alto-ngfw-vs-check-point</loc>
     <lastmod>2023-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/fortinet-fortigate-vs-sophos-firewall</loc>
+    <loc>https://netsecatlas.com/comparison/fortinet-fortigate-vs-sophos-firewall</loc>
     <lastmod>2023-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/wireguard-vs-openvpn</loc>
+    <loc>https://netsecatlas.com/comparison/wireguard-vs-openvpn</loc>
     <lastmod>2023-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/windows-nps-vs-freeradius</loc>
+    <loc>https://netsecatlas.com/comparison/windows-nps-vs-freeradius</loc>
     <lastmod>2023-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/okta-vs-microsoft-entra-id</loc>
+    <loc>https://netsecatlas.com/comparison/okta-vs-microsoft-entra-id</loc>
     <lastmod>2023-12-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/crowdstrike-falcon-vs-microsoft-defender</loc>
+    <loc>https://netsecatlas.com/comparison/crowdstrike-falcon-vs-microsoft-defender</loc>
     <lastmod>2024-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/crowdstrike-falcon-vs-sentinelone</loc>
+    <loc>https://netsecatlas.com/comparison/crowdstrike-falcon-vs-sentinelone</loc>
     <lastmod>2024-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/microsoft-defender-vs-sentinelone</loc>
+    <loc>https://netsecatlas.com/comparison/microsoft-defender-vs-sentinelone</loc>
     <lastmod>2024-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/chatgpt-vs-claude</loc>
+    <loc>https://netsecatlas.com/comparison/chatgpt-vs-claude</loc>
     <lastmod>2024-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/aws-vs-azure</loc>
+    <loc>https://netsecatlas.com/comparison/aws-vs-azure</loc>
     <lastmod>2024-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/1password-vs-bitwarden</loc>
+    <loc>https://netsecatlas.com/comparison/1password-vs-bitwarden</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/ps5-vs-xbox-series-x</loc>
+    <loc>https://netsecatlas.com/comparison/ps5-vs-xbox-series-x</loc>
     <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/apple-watch-10-vs-galaxy-watch-7</loc>
+    <loc>https://netsecatlas.com/comparison/apple-watch-10-vs-galaxy-watch-7</loc>
     <lastmod>2025-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/kaspersky-endpoint-security-vs-bitdefender-gravityzone</loc>
+    <loc>https://netsecatlas.com/comparison/kaspersky-endpoint-security-vs-bitdefender-gravityzone</loc>
     <lastmod>2025-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/windows-rds-vs-citrix-virtual-apps</loc>
+    <loc>https://netsecatlas.com/comparison/windows-rds-vs-citrix-virtual-apps</loc>
     <lastmod>2025-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/group-policy-vs-microsoft-intune</loc>
+    <loc>https://netsecatlas.com/comparison/group-policy-vs-microsoft-intune</loc>
     <lastmod>2025-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/veeam-backup-replication-vs-acronis-cyber-protect</loc>
+    <loc>https://netsecatlas.com/comparison/veeam-backup-replication-vs-acronis-cyber-protect</loc>
     <lastmod>2025-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/splunk-vs-wazuh</loc>
+    <loc>https://netsecatlas.com/comparison/splunk-vs-wazuh</loc>
     <lastmod>2026-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/forcepoint-email-security-vs-proofpoint-email-protection</loc>
+    <loc>https://netsecatlas.com/comparison/forcepoint-email-security-vs-proofpoint-email-protection</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/vmware-vsphere-vs-proxmox-ve</loc>
+    <loc>https://netsecatlas.com/comparison/vmware-vsphere-vs-proxmox-ve</loc>
     <lastmod>2025-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/pfsense-vs-opnsense</loc>
+    <loc>https://netsecatlas.com/comparison/pfsense-vs-opnsense</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/zabbix-vs-nagios</loc>
+    <loc>https://netsecatlas.com/comparison/zabbix-vs-nagios</loc>
     <lastmod>2025-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/ubiquiti-unifi-vs-cisco-meraki</loc>
+    <loc>https://netsecatlas.com/comparison/ubiquiti-unifi-vs-cisco-meraki</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/ansible-vs-powershell-dsc</loc>
+    <loc>https://netsecatlas.com/comparison/ansible-vs-powershell-dsc</loc>
     <lastmod>2026-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/cloudflare-vs-akamai</loc>
+    <loc>https://netsecatlas.com/comparison/cloudflare-vs-akamai</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/duo-security-vs-microsoft-authenticator</loc>
+    <loc>https://netsecatlas.com/comparison/duo-security-vs-microsoft-authenticator</loc>
     <lastmod>2025-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/terraform-vs-ansible</loc>
+    <loc>https://netsecatlas.com/comparison/terraform-vs-ansible</loc>
     <lastmod>2025-12-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/datto-vs-veeam</loc>
+    <loc>https://netsecatlas.com/comparison/datto-vs-veeam</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/qualys-vs-nessus</loc>
+    <loc>https://netsecatlas.com/comparison/qualys-vs-nessus</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/google-workspace-vs-microsoft-365</loc>
+    <loc>https://netsecatlas.com/comparison/google-workspace-vs-microsoft-365</loc>
     <lastmod>2026-04-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/tailscale-vs-traditional-site-to-site-vpn</loc>
+    <loc>https://netsecatlas.com/comparison/tailscale-vs-traditional-site-to-site-vpn</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/bitwarden-business-vs-keeper</loc>
+    <loc>https://netsecatlas.com/comparison/bitwarden-business-vs-keeper</loc>
     <lastmod>2025-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/rapid7-insightvm-vs-tenable-io</loc>
+    <loc>https://netsecatlas.com/comparison/rapid7-insightvm-vs-tenable-io</loc>
     <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/postman-vs-insomnia</loc>
+    <loc>https://netsecatlas.com/comparison/postman-vs-insomnia</loc>
     <lastmod>2026-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/github-actions-vs-jenkins</loc>
+    <loc>https://netsecatlas.com/comparison/github-actions-vs-jenkins</loc>
     <lastmod>2026-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/grafana-vs-kibana</loc>
+    <loc>https://netsecatlas.com/comparison/grafana-vs-kibana</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/anydesk-vs-teamviewer</loc>
+    <loc>https://netsecatlas.com/comparison/anydesk-vs-teamviewer</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/bitlocker-vs-veracrypt</loc>
+    <loc>https://netsecatlas.com/comparison/bitlocker-vs-veracrypt</loc>
     <lastmod>2025-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/burp-suite-vs-owasp-zap</loc>
+    <loc>https://netsecatlas.com/comparison/burp-suite-vs-owasp-zap</loc>
     <lastmod>2026-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/snort-vs-suricata</loc>
+    <loc>https://netsecatlas.com/comparison/snort-vs-suricata</loc>
     <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/gitlab-vs-github</loc>
+    <loc>https://netsecatlas.com/comparison/gitlab-vs-github</loc>
     <lastmod>2026-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/docker-vs-podman</loc>
+    <loc>https://netsecatlas.com/comparison/docker-vs-podman</loc>
     <lastmod>2026-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/cisco-ise-vs-aruba-clearpass</loc>
+    <loc>https://netsecatlas.com/comparison/cisco-ise-vs-aruba-clearpass</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/sysmon-vs-windows-default-auditing</loc>
+    <loc>https://netsecatlas.com/comparison/sysmon-vs-windows-default-auditing</loc>
     <lastmod>2026-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/have-i-been-pwned-vs-enterprise-breach-monitoring-services</loc>
+    <loc>https://netsecatlas.com/comparison/have-i-been-pwned-vs-enterprise-breach-monitoring-services</loc>
     <lastmod>2026-02-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/nextcloud-vs-owncloud</loc>
+    <loc>https://netsecatlas.com/comparison/nextcloud-vs-owncloud</loc>
     <lastmod>2026-03-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/prometheus-vs-datadog</loc>
+    <loc>https://netsecatlas.com/comparison/prometheus-vs-datadog</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/metasploit-vs-manual-exploitation</loc>
+    <loc>https://netsecatlas.com/comparison/metasploit-vs-manual-exploitation</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/microsoft-purview-vs-traditional-dlp-tools</loc>
+    <loc>https://netsecatlas.com/comparison/microsoft-purview-vs-traditional-dlp-tools</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/yubikey-vs-authenticator-app</loc>
+    <loc>https://netsecatlas.com/comparison/yubikey-vs-authenticator-app</loc>
     <lastmod>2026-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/palo-alto-prisma-access-vs-zscaler</loc>
+    <loc>https://netsecatlas.com/comparison/palo-alto-prisma-access-vs-zscaler</loc>
     <lastmod>2026-02-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/elastic-stack-elk-vs-splunk</loc>
+    <loc>https://netsecatlas.com/comparison/elastic-stack-elk-vs-splunk</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/rclone-vs-rsync</loc>
+    <loc>https://netsecatlas.com/comparison/rclone-vs-rsync</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/netskope-vs-palo-alto-prisma-saas</loc>
+    <loc>https://netsecatlas.com/comparison/netskope-vs-palo-alto-prisma-saas</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/wsus-vs-microsoft-intune</loc>
+    <loc>https://netsecatlas.com/comparison/wsus-vs-microsoft-intune</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/microsoft-laps-vs-manual-password-management</loc>
+    <loc>https://netsecatlas.com/comparison/microsoft-laps-vs-manual-password-management</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/wazuh-vs-ossec</loc>
+    <loc>https://netsecatlas.com/comparison/wazuh-vs-ossec</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/twingate-vs-traditional-vpn-client</loc>
+    <loc>https://netsecatlas.com/comparison/twingate-vs-traditional-vpn-client</loc>
     <lastmod>2026-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/solarwinds-npm-vs-prtg-network-monitor</loc>
+    <loc>https://netsecatlas.com/comparison/solarwinds-npm-vs-prtg-network-monitor</loc>
     <lastmod>2026-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/burp-suite-vs-nikto</loc>
+    <loc>https://netsecatlas.com/comparison/burp-suite-vs-nikto</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/wireshark-vs-tcpdump</loc>
+    <loc>https://netsecatlas.com/comparison/wireshark-vs-tcpdump</loc>
     <lastmod>2026-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/okta-vs-jumpcloud</loc>
+    <loc>https://netsecatlas.com/comparison/okta-vs-jumpcloud</loc>
     <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/crowdstrike-falcon-vs-microsoft-sentinel</loc>
+    <loc>https://netsecatlas.com/comparison/crowdstrike-falcon-vs-microsoft-sentinel</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/aws-guardduty-vs-microsoft-defender-for-cloud</loc>
+    <loc>https://netsecatlas.com/comparison/aws-guardduty-vs-microsoft-defender-for-cloud</loc>
     <lastmod>2026-04-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/hashicorp-vault-vs-aws-secrets-manager</loc>
+    <loc>https://netsecatlas.com/comparison/hashicorp-vault-vs-aws-secrets-manager</loc>
     <lastmod>2026-04-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/datadog-vs-new-relic</loc>
+    <loc>https://netsecatlas.com/comparison/datadog-vs-new-relic</loc>
     <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/comparison/auth0-vs-firebase-authentication</loc>
+    <loc>https://netsecatlas.com/comparison/auth0-vs-firebase-authentication</loc>
     <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/page/terms</loc>
+    <loc>https://netsecatlas.com/page/terms</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.55</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/page/cookies</loc>
+    <loc>https://netsecatlas.com/page/cookies</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.55</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/page/disclaimer</loc>
+    <loc>https://netsecatlas.com/page/disclaimer</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.55</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/page/editorial-policy</loc>
+    <loc>https://netsecatlas.com/page/editorial-policy</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.55</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/page/contact</loc>
+    <loc>https://netsecatlas.com/page/contact</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.55</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/page/contribute</loc>
+    <loc>https://netsecatlas.com/page/contribute</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.55</priority>
   </url>
   <url>
-    <loc>https://technical-insights.com/page/advertising</loc>
+    <loc>https://netsecatlas.com/page/advertising</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.55</priority>

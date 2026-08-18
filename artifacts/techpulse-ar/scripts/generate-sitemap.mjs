@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
-const SITE = 'https://technical-insights.com';
+const SITE = 'https://netsecatlas.com';
 
 function loadJson(rel) {
   try {
@@ -25,6 +25,13 @@ const staticRoutes = [
   { path: '/', priority: '1.0', changefreq: 'daily' },
   { path: '/articles', priority: '0.95', changefreq: 'daily' },
   { path: '/comparisons', priority: '0.9', changefreq: 'daily' },
+  { path: '/troubleshooting', priority: '0.9', changefreq: 'daily' },
+  { path: '/guides', priority: '0.9', changefreq: 'weekly' },
+  { path: '/tools', priority: '0.85', changefreq: 'weekly' },
+  { path: '/vendors', priority: '0.85', changefreq: 'weekly' },
+  { path: '/domain/cybersecurity', priority: '0.85', changefreq: 'weekly' },
+  { path: '/domain/networking', priority: '0.85', changefreq: 'weekly' },
+  { path: '/domain/infrastructure', priority: '0.85', changefreq: 'weekly' },
   { path: '/videos', priority: '0.85', changefreq: 'weekly' },
   { path: '/categories', priority: '0.85', changefreq: 'weekly' },
   { path: '/search', priority: '0.4', changefreq: 'monthly' },

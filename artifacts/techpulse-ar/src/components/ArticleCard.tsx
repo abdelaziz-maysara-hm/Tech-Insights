@@ -1,21 +1,21 @@
 import { Link } from 'wouter';
-import { Article } from '@/data/mockData';
+import type { ArticleListItem } from '@/data/mockData';
 import { useLanguage } from '@/context/LanguageContext';
 import { Clock, PlayCircle } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 
-function authorName(article: Article, language: 'ar' | 'en'): string {
-  const a: any = article.author;
-  if (!a) return language === 'ar' ? 'فريق رؤى تقنية' : 'Technical Insights Team';
-  if (typeof a === 'string') return a;
-  if (a.name && typeof a.name === 'object') return a.name[language] || a.name.ar || a.name.en || '';
-  if (typeof a.name === 'string') return a.name;
-  return language === 'ar' ? 'فريق رؤى تقنية' : 'Technical Insights Team';
+function authorName(article: ArticleListItem, language: 'ar' | 'en'): string {
+  return (
+    article.author.name[language] ||
+    article.author.name.ar ||
+    article.author.name.en ||
+    'NetSec Atlas'
+  );
 }
 
 interface ArticleCardProps {
-  article: Article;
+  article: ArticleListItem;
   featured?: boolean;
   className?: string;
 }

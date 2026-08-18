@@ -2,7 +2,9 @@
  * Weighted search ranking + synonym expansion.
  * Weights (RP-032): Title 10, Tags 8, Technology/category 7, Summary 5, Body 3
  */
-import type { Article } from '@/data/mockData';
+import type { Article, ArticleListItem } from '@/data/mockData';
+
+type SearchableArticle = ArticleListItem | Article;
 
 /** Synonym groups (RP-033) — query terms expand to all group members. */
 const SYNONYM_GROUPS: string[][] = [
@@ -53,7 +55,7 @@ function fieldScore(text: string | undefined | null, terms: string[], weight: nu
 }
 
 export interface RankedArticle {
-  article: Article;
+  article: SearchableArticle;
   score: number;
 }
 
@@ -61,7 +63,7 @@ export interface RankedArticle {
  * Rank articles by relevance to query. Returns only positive-score matches, highest first.
  */
 export function rankArticles(
-  articles: Article[],
+  articles: SearchableArticle[],
   query: string,
   categoryFilter?: string,
 ): RankedArticle[] {
@@ -89,8 +91,9 @@ export function rankArticles(
     score += fieldScore(a.subcategoryId, terms, 7);
     score += fieldScore(a.excerpt?.ar, terms, 5);
     score += fieldScore(a.excerpt?.en, terms, 5);
-    score += fieldScore(a.body?.ar, terms, 3);
-    score += fieldScore(a.body?.en, terms, 3);
+    const body = 'body' in a ? a.body : undefined;
+    score += fieldScore(body?.ar, terms, 3);
+    score += fieldScore(body?.en, terms, 3);
 
     if (score > 0) ranked.push({ article: a, score });
   }

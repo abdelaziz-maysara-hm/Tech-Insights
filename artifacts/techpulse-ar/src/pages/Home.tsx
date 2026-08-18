@@ -23,7 +23,7 @@ export default function Home() {
     <div className="min-h-screen pb-20">
       <section className="container mx-auto px-4 pt-10 pb-8 text-center">
         <h1 className="text-3xl md:text-5xl font-extrabold mb-4">
-          {language === 'ar' ? 'رؤى تقنية' : 'Technical Insights'}
+          NetSec Atlas
         </h1>
         <p className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto">
           {t('aboutText')}
@@ -85,10 +85,10 @@ export default function Home() {
       <section className="container mx-auto px-4 mb-14">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {[
-            { href: '/articles?c=howto', ar: 'شروحات عملية', en: 'Practical Guides', desc_ar: 'حلول سريعة لمشاكل يومية', desc_en: 'Quick fixes for daily issues' },
+            { href: '/troubleshooting', ar: 'استكشاف الأعطال', en: 'Troubleshooting', desc_ar: 'حلول عملية لمشكلات الشبكات والأنظمة', desc_en: 'Practical network and systems fixes' },
             { href: '/comparisons', ar: 'مقارنات', en: 'Comparisons', desc_ar: 'جداول تساعدك تختار', desc_en: 'Tables that help you choose' },
-            { href: '/articles?c=cybersecurity', ar: 'الأمان', en: 'Security', desc_ar: 'حمِ حساباتك وجهازك', desc_en: 'Protect accounts and devices' },
-            { href: '/videos', ar: 'فيديوهات', en: 'Videos', desc_ar: 'شروحات مرئية داخل الموقع', desc_en: 'In-site video explainers' },
+            { href: '/guides', ar: 'أدلة عملية', en: 'Practical Guides', desc_ar: 'مسارات تنفيذ واضحة للمحترفين', desc_en: 'Clear implementation paths for professionals' },
+            { href: '/tools', ar: 'أدوات', en: 'Tools', desc_ar: 'أدوات شبكات وأمن مهنية', desc_en: 'Professional network and security tools' },
           ].map((item) => (
             <Link key={item.href} href={item.href} className="block p-5 rounded-xl border border-border bg-card hover:border-primary/60 hover:shadow-md transition-all">
               <h3 className="font-bold text-lg mb-1">{language === 'ar' ? item.ar : item.en}</h3>

@@ -19,8 +19,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1 space-y-4">
             <Link href="/" className="text-2xl font-bold text-gradient flex items-center gap-2">
-              <span className="bg-primary text-primary-foreground p-1 rounded-md text-xl">TI</span>
-              {language === 'ar' ? 'رؤى تقنية' : 'Technical Insights'}
+              <span className="bg-primary text-primary-foreground p-1 rounded-md text-xl">NSA</span>
+              NetSec Atlas
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed">
               {t('aboutText')}
@@ -58,6 +58,10 @@ export function Footer() {
             <h3 className="font-bold text-lg mb-4">{language === 'ar' ? 'روابط هامة' : 'Important Links'}</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><Link href="/articles" className="hover:text-primary">{t('articles')}</Link></li>
+              <li><Link href="/troubleshooting" className="hover:text-primary">{language === 'ar' ? 'استكشاف الأعطال' : 'Troubleshooting'}</Link></li>
+              <li><Link href="/guides" className="hover:text-primary">{language === 'ar' ? 'أدلة' : 'Guides'}</Link></li>
+              <li><Link href="/tools" className="hover:text-primary">{language === 'ar' ? 'أدوات' : 'Tools'}</Link></li>
+              <li><Link href="/vendors" className="hover:text-primary">{language === 'ar' ? 'الموردون' : 'Vendors'}</Link></li>
               <li><Link href="/comparisons" className="hover:text-primary">{t('comparisons')}</Link></li>
               <li><Link href="/videos" className="hover:text-primary">{t('videos')}</Link></li>
               {footerPages.map((page) => (
@@ -90,7 +94,7 @@ export function Footer() {
 
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} {language === 'ar' ? 'رؤى تقنية' : 'Technical Insights'}. {language === 'ar' ? 'جميع الحقوق محفوظة.' : 'All rights reserved.'}
+            © {new Date().getFullYear()} NetSec Atlas. {language === 'ar' ? 'جميع الحقوق محفوظة.' : 'All rights reserved.'}
           </p>
           <div className="flex items-center gap-4">
             <button onClick={scrollToTop} className="bg-muted p-2 rounded-full text-muted-foreground hover:text-primary hover:bg-muted/80 transition-colors">
