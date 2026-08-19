@@ -2,6 +2,13 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 4E ? Routing and Indexing Validation
+
+- Repaired the corrupted Arabic 404 copy and made its home link language- and base-path-aware.
+- Marked not-found responses `noindex, nofollow` and removed stale canonical, hreflang, and JSON-LD signals while the not-found view is active.
+- Added automated validation for the complete route surface, catch-all ordering, 404 indexing policy, sitemap uniqueness/localization, RSS output, and production-domain consistency.
+- Closed Phase 4 with 32 focused routing, redirect, canonical, hreflang, sitemap, and indexing tests passing alongside the full workspace typecheck and production build.
+
 ## Phase 4D ? Backward-Compatible Legacy Route Migration
 
 - Added a centralized allowlisted migration from maintained unprefixed routes to their Arabic localized equivalents.

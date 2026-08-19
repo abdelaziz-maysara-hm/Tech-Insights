@@ -53,3 +53,6 @@ The production sitemap excludes transitional unprefixed URLs and noncanonical qu
 
 ## ADR-018 ? Legacy route migration is allowlisted and host-aware
 Maintained unprefixed application and content routes migrate to the same stable slug under `/ar/`, preserving query strings, fragments, and deployment base paths. Already-localized, unknown, API, and asset paths are never redirected by a catch-all. GitHub Pages receives a history-replacing browser redirect for backward compatibility; this is not represented as an HTTP 301. Direct old-domain HTTP redirects require production hosting control and remain a separate Phase 10 activation with explicit one-to-one mappings.
+
+## ADR-019 ? Not-found views must not emit indexable page signals
+The SPA catch-all remains localized and navigable, but it explicitly emits `noindex, nofollow` and removes canonical, hreflang, Article, and WebSite structured-data elements while active. This prevents an unknown route from inheriting valid metadata left by prior client navigation. Returning a true HTTP 404 still depends on host-level routing and is validated separately during production deployment.

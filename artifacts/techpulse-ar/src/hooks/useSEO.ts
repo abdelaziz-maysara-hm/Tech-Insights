@@ -18,6 +18,7 @@ interface SEOProps {
   datePublished?: string;
   authorName?: string;
   translationStatus?: TranslationStatus;
+  indexable?: boolean;
 }
 
 function upsertMeta(attr: 'name' | 'property', key: string, content: string) {
@@ -65,6 +66,7 @@ export function useSEO({
   datePublished,
   authorName,
   translationStatus,
+  indexable = true,
 }: SEOProps = {}) {
   const { language } = useLanguage();
 
@@ -108,6 +110,20 @@ export function useSEO({
     upsertMeta('name', 'twitter:description', desc);
     upsertMeta('name', 'twitter:image', img);
 
+    if (!indexable) {
+      upsertMeta('name', 'robots', 'noindex, nofollow');
+      document.querySelector('link[rel="canonical"]')?.remove();
+      replaceHreflangLinks([]);
+      upsertJsonLd('jsonld-article', null);
+      upsertJsonLd('jsonld-website', null);
+
+      return () => {
+        document.querySelector('meta[name="robots"]')?.remove();
+      };
+    }
+
+    upsertMeta('name', 'robots', 'index, follow');
+
     upsertLink('canonical', url);
     replaceHreflangLinks(alternates);
 
@@ -146,5 +162,5 @@ export function useSEO({
         },
       });
     }
-  }, [title, description, image, path, type, language, datePublished, authorName, translationStatus]);
+  }, [title, description, image, path, type, language, datePublished, authorName, translationStatus, indexable]);
 }

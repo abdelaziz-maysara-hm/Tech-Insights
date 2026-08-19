@@ -10,8 +10,8 @@
 
 ## Current handoff
 
-- Completed: Phases 0, 1, 1.5, 2, 3, 4A, 4B, 4C, and 4D.
-- Next: Phase 4E only ? 404, redirect, schema, route, and indexing validation.
+- Completed: Phases 0, 1, 1.5, 2, 3, and 4 (4A?4E).
+- Next: Phase 5A only ? add explicit metadata for KEEP content using the Phase 3 audit; do not combine it with 5B rewriting.
 - Branch/workflow: `main`; use fast-forward pull, focused commits, normal push, never force-push.
 - Production domain: `https://netsecatlas.com`.
 - Legacy redirect domain: `technical-insights.com`.
@@ -24,6 +24,7 @@
 - Phase 4C-2 source is `src/lib/hreflang.ts`. Content alternates require explicit `translationStatus: reviewed`; no current content is approved. Maintained discovery classes are evaluated separately. User language switching remains available even where SEO alternates are withheld. `x-default` targets the Arabic localized canonical, never a legacy URL.
 - Phase 4C-3 source is `scripts/generate-sitemap.mjs`, consuming `src/config/hreflang-policy.json`. Sitemap baseline is now 267 canonical URLs: 241 Arabic plus 26 English approved discovery URLs. It contains no legacy/unprefixed locations, no query filters, and no English editorial content pending review. RSS remains a single 50-item feed.
 - Phase 4D source is `src/lib/legacyRedirect.ts`, activated once in `src/App.tsx`. It redirects only the maintained legacy route surface to `/ar/...`, preserves query/hash/base paths, and ignores localized, unknown, API, and asset paths. This is the backward-compatible GitHub Pages runtime layer, not a claim of HTTP 301 behavior. Direct `technical-insights.com` to `netsecatlas.com` 301 activation remains Phase 10 work.
+- Phase 4E adds explicit non-indexable SEO behavior through `useSEO({ indexable: false })` and applies it to the localized 404 view. `scripts/phase4e-validation.test.mjs` verifies the complete route surface, catch-all order, 404 indexing cleanup, 267 localized sitemap URLs, 50 RSS items, and absence of the legacy host. Phase 4 closes with 32 focused tests plus passing workspace typecheck and production build.
 - The static SPA shell intentionally carries no canonical or `og:url`; `useSEO` creates the route-correct values after hydration. Full pre-rendered localized metadata would require SSR/static rendering and is not claimed by Phase 4B.
 
 ## Validation

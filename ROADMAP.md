@@ -68,7 +68,7 @@ Added optional explicit migration metadata and deterministic audit reporting. Of
 
 ## Remaining phases
 
-### Phase 4 ? Bilingual Routing & Technical SEO ? IN PROGRESS (HIGH RISK)
+### Phase 4 ? Bilingual Routing & Technical SEO ? COMPLETE
 
 Implement in independently valid batches:
 
@@ -76,7 +76,7 @@ Implement in independently valid batches:
 - **4B ? COMPLETE:** centralized localized production canonicals, language-specific metadata, Open Graph URLs, and URL-bearing WebSite/Article structured data. Legacy unprefixed routes temporarily canonicalize deterministically to `/ar/...` without redirecting.
 - **4C ? COMPLETE:** deterministic translation auditing, explicit hreflang eligibility/head management, and canonical localized sitemap alternates are implemented. Current editorial content remains Arabic-only in the sitemap until explicit human translation review.
 - **4D ? COMPLETE:** maintained legacy unprefixed application and content routes redirect to their Arabic localized equivalents while preserving path identity, query strings, fragments, deployment base paths, and localized/unknown-route semantics. Cross-domain HTTP 301 activation remains deliberately deferred to Phase 10.
-- **4E:** 404, redirect, schema, route, and indexing validation.
+- **4E ? COMPLETE:** localized 404 presentation and navigation, explicit `noindex, nofollow`, removal of stale canonical/hreflang/structured-data signals, and automated route/sitemap/RSS/production-domain validation.
 
 URL migration can damage indexing. Do not combine all batches or change URLs without verified mappings.
 
