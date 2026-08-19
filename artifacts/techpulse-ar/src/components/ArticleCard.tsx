@@ -41,7 +41,11 @@ export function ArticleCard({ article, featured = false, className }: ArticleCar
           src={article.heroImage}
           alt={article.title[language]}
           className="w-full h-[400px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
-          loading="lazy"
+          width={1200}
+          height={675}
+          loading="eager"
+          decoding="async"
+          fetchPriority="high"
           onError={handleHeroError}
         />
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8 z-20">
@@ -87,6 +91,7 @@ export function ArticleCard({ article, featured = false, className }: ArticleCar
           alt={article.title[language]}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           loading="lazy"
+          decoding="async"
           onError={handleHeroError}
         />
         <div className="absolute top-3 right-3 flex gap-2">
