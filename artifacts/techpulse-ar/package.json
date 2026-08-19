@@ -21,6 +21,8 @@
     "test:sitemap": "pnpm run sitemap && node --test scripts/sitemap-localization.test.mjs",
     "test:static-routes": "node --test scripts/static-route-fallbacks.test.mjs",
     "test:seo-prerender": "node --test scripts/seo-prerender.test.mjs",
+    "check:bundle-budget": "node scripts/check-bundle-budget.mjs",
+    "test:bundle-budget": "node scripts/check-bundle-budget.mjs",
     "test:redirects": "node --test scripts/legacy-redirect.test.ts",
     "test:phase4e": "node --test scripts/phase4e-validation.test.mjs",
     "rss": "node scripts/generate-rss.mjs",
