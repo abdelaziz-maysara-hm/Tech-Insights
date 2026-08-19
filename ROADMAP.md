@@ -35,50 +35,28 @@ Validated baseline on `main` after Phase 3 commit `4524d8f548cc5ed3e20b038ba3aac
 - **Localization:** `src/context/LanguageContext.tsx`; bilingual fields use `{ ar, en }`.
 - **SEO:** centralized site identity in `src/config/site.ts`; runtime metadata in `src/hooks/useSEO.ts`.
 - **Sitemap/RSS:** `scripts/generate-sitemap.mjs` and `scripts/generate-rss.mjs`; generated outputs are `public/sitemap.xml` and `public/rss.xml`.
-- **Content generation:** `scripts/generator/`; live content is generated/merged into `src/content/`. `articles-index.json` is generated from articles with `body` omitted.
-- **CMS/deployment:** root `vercel.json` installs the pnpm workspace, builds `@workspace/techpulse-ar`, publishes `dist/public`, supports SPA rewrites, and reserves `/api/cms/*`. The CMS API is under `artifacts/techpulse-ar/api/`. Deployment configuration must be verified before launch; README deployment/domain text is legacy and not authoritative.
+- **Content generation:** `scripts/generator/` and `scripts/generate-content.mjs`.
+- **Deployment:** Vercel config is `artifacts/techpulse-ar/vercel.json`. It sets the SPA rewrites, and reserves `/api/cms/*`. The CMS API is under `artifacts/techpulse-ar/api/`. Deployment configuration must be verified before launch; README deployment/domain text is legacy and not authoritative.
 
-Never edit generated sitemap, RSS, article index, or `dist/` as the source of truth. Change source/configuration and regenerate.
-
-## Completed phases
+## Phased delivery
 
 ### Phase 0 — Repository Audit — COMPLETE
 
-Audited Technical Insights and confirmed the pivot could preserve the application architecture.
-
 ### Phase 1 — Brand Foundation — COMPLETE
-
-Technical Insights became NetSec Atlas; site configuration, UI positioning, SEO identity, sitemap/RSS domain, and homepage positioning were established.
 
 ### Phase 1.5 — Technical Baseline — COMPLETE
 
-Corrected TypeScript failures, clarified `Article` versus `ArticleListItem`, and established passing typecheck/build baselines.
-
 ### Phase 2 — Information Architecture — COMPLETE
-
-Added multidimensional domains, topics, content types, vendors/products, discovery, vendor hubs, and routes for Cybersecurity, Networking, Infrastructure, Troubleshooting, Guides, Tools, Vendors, and Comparisons. A partial Phase 2 merge temporarily reached `main`; it was repaired by commit `3c0dae7` and follow-up verification.
 
 ### Phase 3 — Content Model & Automated Audit — COMPLETE
 
-Added optional explicit migration metadata and deterministic audit reporting. Of 204 editorial items, 100 are KEEP, 51 REWORK, and 53 REMOVE recommendations; 74% are reusable. Inventory: 213 total, 129 articles, 75 comparisons, 9 static pages. Strategic fit: 65 enterprise, 75 professional IT, 11 mixed, 9 consumer, 44 unrelated. Technical value: 50 high, 80 medium, 74 low. Coverage: Cybersecurity 77, Infrastructure 47, Networking 41; 45 vendor-associated items and 29 troubleshooting items. See:
-
-- `docs/content-audit/phase3-content-audit.md`
-- `docs/content-audit/phase3-content-audit.json`
-- `docs/content-audit/phase3-first-100-roadmap.md`
-
-## Remaining phases
-
 ### Phase 4 — Bilingual Routing & Technical SEO — COMPLETE
-
-Implement in independently valid batches:
 
 - **4A — COMPLETE:** centralized routing architecture for real `/en/` and `/ar/` URLs, URL-first language selection, equivalent-route language switching, legacy route compatibility, and focused route-helper tests.
 - **4B — COMPLETE:** centralized localized production canonicals, language-specific metadata, Open Graph URLs, and URL-bearing WebSite/Article structured data. Legacy unprefixed routes temporarily canonicalize deterministically to `/ar/...` without redirecting.
 - **4C — COMPLETE:** deterministic translation auditing, explicit hreflang eligibility/head management, and canonical localized sitemap alternates are implemented. Current editorial content remains Arabic-only in the sitemap until explicit human translation review.
 - **4D — COMPLETE:** maintained legacy unprefixed application and content routes redirect to their Arabic localized equivalents while preserving path identity, query strings, fragments, deployment base paths, and localized/unknown-route semantics. Cross-domain HTTP 301 activation remains deliberately deferred to Phase 10.
 - **4E — COMPLETE:** localized 404 presentation and navigation, explicit `noindex, nofollow`, removal of stale canonical/hreflang/structured-data signals, and automated route/sitemap/RSS/production-domain validation.
-
-URL migration can damage indexing. Do not combine all batches or change URLs without verified mappings.
 
 ### Phase 5 — Content Migration & Cleanup
 
@@ -89,6 +67,14 @@ URL migration can damage indexing. Do not combine all batches or change URLs wit
 - **5E:** content, links, sitemap, and SEO validation.
 
 No deletion is allowed merely because Phase 3 recommended REMOVE.
+
+### Phase 6A — Static SEO Prerendering — COMPLETE
+
+Build-time injection of route-specific SEO HTML into sitemap-materialized GitHub Pages paths (title, description, canonical, Open Graph/Twitter, eligibility-aware hreflang, Article JSON-LD). Not SSR; React still hydrates from the Vite SPA shell. HTTP 200 direct navigation preserved.
+
+### Phase 6B — Performance & Bundle Optimization — COMPLETE
+
+Route-level `React.lazy` / `Suspense` code splitting, Vite `manualChunks` (react-vendor, router, icons, vendor), featured-hero LCP priority (`eager` + `fetchPriority="high"`), Inter font weight trim (400/600/700 + `display=swap`), and automated `check:bundle-budget` / `test:bundle-budget` gates. Measured entry JS ~702 kB → ~191 kB; articles bodies remain a separate dynamic ~1003 kB chunk. SEO prerender, hreflang safeguards, and GitHub Pages static routes preserved.
 
 ### Phase 6 — High-Value Content Expansion
 
@@ -105,7 +91,7 @@ Prefer safe browser/client-side processing. Advanced configuration analyzers may
 
 ### Phase 8 — Performance & Bundle Optimization
 
-Baseline: main 677.88 kB; articles 974.30 kB. Add route-level lazy loading, code splitting, dependency/bundle analysis, search/index optimization, and further article-loading improvements. Optimize production runtime, not cosmetic `node_modules` size.
+Core route-level splitting, vendor chunking, LCP image priority, font trim, and bundle budgets were delivered under **Phase 6B** (entry JS ~702 kB → ~191 kB; articles dynamic chunk ~1003 kB). Remaining Phase 8 work: search/index optimization, further article-loading improvements, and field Core Web Vitals measurement. Optimize production runtime, not cosmetic `node_modules` size.
 
 ### Phase 9 — Quality Assurance
 
