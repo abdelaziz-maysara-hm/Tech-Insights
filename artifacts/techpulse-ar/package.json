@@ -6,7 +6,7 @@
   "scripts": {
     "sitemap": "node scripts/generate-sitemap.mjs",
     "dev": "vite --config vite.config.ts --host 0.0.0.0",
-    "build": "node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs && vite build --config vite.config.ts && node scripts/generate-static-route-fallbacks.mjs && cp dist/public/index.html dist/public/404.html",
+    "build": "node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs && vite build --config vite.config.ts && node scripts/seo-prerender.mjs",
     "build:server": "node build-server.mjs",
     "build:render": "pnpm run build && pnpm run build:server",
     "start:render": "node dist/render-server.mjs",
@@ -20,6 +20,7 @@
     "test:hreflang": "node --test scripts/hreflang.test.ts",
     "test:sitemap": "pnpm run sitemap && node --test scripts/sitemap-localization.test.mjs",
     "test:static-routes": "node --test scripts/static-route-fallbacks.test.mjs",
+    "test:seo-prerender": "node --test scripts/seo-prerender.test.mjs",
     "test:redirects": "node --test scripts/legacy-redirect.test.ts",
     "test:phase4e": "node --test scripts/phase4e-validation.test.mjs",
     "rss": "node scripts/generate-rss.mjs",
