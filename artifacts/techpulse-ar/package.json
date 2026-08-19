@@ -30,6 +30,8 @@
     "test:phase5b-2": "node --test scripts/phase5b-batch2.test.mjs",
     "apply:phase5b-3": "node scripts/apply-phase5b-batch3.mjs",
     "test:phase5b-3": "node --test scripts/phase5b-batch3.test.mjs",
+    "apply:phase5b-4": "node scripts/apply-phase5b-batch4.mjs",
+    "test:phase5b-4": "node --test scripts/phase5b-batch4.test.mjs",
     "generate": "node scripts/generator/index.mjs",
     "generate:articles": "node scripts/generator/index.mjs --type=articles",
     "generate:videos": "node scripts/generator/index.mjs --type=videos",

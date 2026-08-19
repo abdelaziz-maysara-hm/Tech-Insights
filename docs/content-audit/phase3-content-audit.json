@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T08:47:22.589Z",
+  "generatedAt": "2026-08-19T09:14:03.842Z",
   "methodology": {
     "note": "Repository-only deterministic heuristics; no fabricated SEO metrics.",
     "dispositionDenominator": "Editorial items: articles plus comparisons",
@@ -70,19 +70,19 @@
   },
   "statistics": {
     "disposition": {
-      "KEEP": 103,
+      "KEEP": 104,
       "REMOVE": 53,
-      "REWORK": 48
+      "REWORK": 47
     },
     "dispositionPercent": {
-      "KEEP": 50.5,
+      "KEEP": 51,
       "REMOVE": 26,
-      "REWORK": 23.5
+      "REWORK": 23
     },
     "strategicFit": {
       "consumer": 9,
-      "enterprise": 68,
-      "mixed": 8,
+      "enterprise": 69,
+      "mixed": 7,
       "professional-it": 75,
       "unrelated": 44
     },
@@ -247,8 +247,8 @@
   "domainCoverage": [
     {
       "domainId": "cybersecurity",
-      "count": 80,
-      "high": 23,
+      "count": 81,
+      "high": 24,
       "medium": 41,
       "low": 16,
       "topics": {
@@ -260,7 +260,7 @@
         "dns": 1,
         "routing-switching": 1,
         "iam-pam": 2,
-        "dlp": 8,
+        "dlp": 9,
         "vulnerability-management": 8,
         "threat-detection": 1,
         "backup-recovery": 3,
@@ -3391,21 +3391,25 @@
     {
       "id": "art-gen-0115",
       "slug": "how-ai-image-generation-works",
-      "titleAr": "??? ???? ????? ????? ??????? ?????????: ?????? ??????",
-      "titleEn": "How AI Image Generation Works: The Complete Guide",
+      "titleAr": "????? ????? ??????? ????????? ?? ????????: ???????? ???????? ?????? ?????",
+      "titleEn": "Enterprise AI Image Generation: Data, Risk, and Publishing Controls",
       "source": "article",
-      "currentCategory": "ai",
-      "inferredDomains": [],
-      "inferredTopics": [],
+      "currentCategory": "cybersecurity",
+      "inferredDomains": [
+        "cybersecurity"
+      ],
+      "inferredTopics": [
+        "dlp"
+      ],
       "inferredVendors": [],
       "inferredProducts": [],
       "inferredContentType": "guide",
-      "strategicFit": "mixed",
-      "proposedDisposition": "REWORK",
-      "confidence": "medium",
-      "reason": "Generic AI material needs a professional IT/security angle",
+      "strategicFit": "enterprise",
+      "proposedDisposition": "KEEP",
+      "confidence": "high",
+      "reason": "cybersecurity professional technical content",
       "currentURL": "/article/how-ai-image-generation-works",
-      "wordCount": 406,
+      "wordCount": 597,
       "lastUpdated": "2026-05-16",
       "technicalValue": "high",
       "potentiallyThin": false
@@ -6269,16 +6273,16 @@
     },
     {
       "priority": "medium",
-      "action": "REWORK",
-      "titleAr": "??? ???? ????? ????? ??????? ?????????: ?????? ??????",
-      "titleEn": "How AI Image Generation Works: The Complete Guide",
+      "action": "KEEP",
+      "titleAr": "????? ????? ??????? ????????? ?? ????????: ???????? ???????? ?????? ?????",
+      "titleEn": "Enterprise AI Image Generation: Data, Risk, and Publishing Controls",
       "language": "ar+en",
       "contentType": "guide",
-      "domain": null,
-      "topic": null,
+      "domain": "cybersecurity",
+      "topic": "dlp",
       "vendor": null,
       "product": null,
-      "reason": "Generic AI material needs a professional IT/security angle",
+      "reason": "cybersecurity professional technical content",
       "intent": "Build practical professional understanding",
       "currentURL": "/article/how-ai-image-generation-works"
     },

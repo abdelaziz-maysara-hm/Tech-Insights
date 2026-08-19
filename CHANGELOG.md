@@ -2,6 +2,13 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 5B ? Batch 4: Enterprise AI Image Controls
+
+- Reworked generic image-generation content into an enterprise security and publishing workflow.
+- Added data classification, managed access, rights review, synthetic impersonation response, provenance limitations, and auditable approval.
+- Preserved the stable slug and synchronized independently written Arabic and English content with the lightweight index.
+- Improved the deterministic audit to 104 KEEP / 47 REWORK / 53 REMOVE.
+
 ## Phase 5B ? Batch 3: LLM Trust Boundaries for Enterprise IT
 
 - Reworked a generic LLM explainer into practical guidance for IT and security teams.

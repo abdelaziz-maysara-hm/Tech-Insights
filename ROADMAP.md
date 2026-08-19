@@ -83,7 +83,7 @@ URL migration can damage indexing. Do not combine all batches or change URLs wit
 ### Phase 5 ? Content Migration & Cleanup
 
 - **5A ? COMPLETE:** explicit audit-derived taxonomy metadata for all 100 KEEP records, synchronized between full and lightweight article sources, without claiming technical or translation review.
-- **5B ? IN PROGRESS:** priority REWORK content; Batches 1?3 converted three generic AI articles into professional safe-training, evidence-led troubleshooting, and enterprise LLM trust guidance while preserving stable URLs. Current audit: 103 KEEP / 48 REWORK / 53 REMOVE.
+- **5B ? IN PROGRESS:** priority REWORK content; Batches 1?4 converted four generic AI articles into professional safe-training, troubleshooting, LLM trust, and synthetic-media governance guidance while preserving stable URLs. Current audit: 104 KEEP / 47 REWORK / 53 REMOVE.
 - **5C:** owner-approved consumer cleanup/NOINDEX decisions.
 - **5D:** redirect mapping before removal.
 - **5E:** content, links, sitemap, and SEO validation.
