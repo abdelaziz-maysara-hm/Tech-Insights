@@ -42,23 +42,23 @@ Never edit generated sitemap, RSS, article index, or `dist/` as the source of tr
 
 ## Completed phases
 
-### Phase 0 — Repository Audit — COMPLETE
+### Phase 0 ? Repository Audit ? COMPLETE
 
 Audited Technical Insights and confirmed the pivot could preserve the application architecture.
 
-### Phase 1 — Brand Foundation — COMPLETE
+### Phase 1 ? Brand Foundation ? COMPLETE
 
 Technical Insights became NetSec Atlas; site configuration, UI positioning, SEO identity, sitemap/RSS domain, and homepage positioning were established.
 
-### Phase 1.5 — Technical Baseline — COMPLETE
+### Phase 1.5 ? Technical Baseline ? COMPLETE
 
 Corrected TypeScript failures, clarified `Article` versus `ArticleListItem`, and established passing typecheck/build baselines.
 
-### Phase 2 — Information Architecture — COMPLETE
+### Phase 2 ? Information Architecture ? COMPLETE
 
 Added multidimensional domains, topics, content types, vendors/products, discovery, vendor hubs, and routes for Cybersecurity, Networking, Infrastructure, Troubleshooting, Guides, Tools, Vendors, and Comparisons. A partial Phase 2 merge temporarily reached `main`; it was repaired by commit `3c0dae7` and follow-up verification.
 
-### Phase 3 — Content Model & Automated Audit — COMPLETE
+### Phase 3 ? Content Model & Automated Audit ? COMPLETE
 
 Added optional explicit migration metadata and deterministic audit reporting. Of 204 editorial items, 100 are KEEP, 51 REWORK, and 53 REMOVE recommendations; 74% are reusable. Inventory: 213 total, 129 articles, 75 comparisons, 9 static pages. Strategic fit: 65 enterprise, 75 professional IT, 11 mixed, 9 consumer, 44 unrelated. Technical value: 50 high, 80 medium, 74 low. Coverage: Cybersecurity 77, Infrastructure 47, Networking 41; 45 vendor-associated items and 29 troubleshooting items. See:
 
@@ -68,19 +68,19 @@ Added optional explicit migration metadata and deterministic audit reporting. Of
 
 ## Remaining phases
 
-### Phase 4 — Bilingual Routing & Technical SEO — IN PROGRESS (HIGH RISK)
+### Phase 4 ? Bilingual Routing & Technical SEO ? IN PROGRESS (HIGH RISK)
 
 Implement in independently valid batches:
 
-- **4A — COMPLETE:** centralized routing architecture for real `/en/` and `/ar/` URLs, URL-first language selection, equivalent-route language switching, legacy route compatibility, and focused route-helper tests.
-- **4B — COMPLETE:** centralized localized production canonicals, language-specific metadata, Open Graph URLs, and URL-bearing WebSite/Article structured data. Legacy unprefixed routes temporarily canonicalize deterministically to `/ar/...` without redirecting.
-- **4C — COMPLETE:** deterministic translation auditing, explicit hreflang eligibility/head management, and canonical localized sitemap alternates are implemented. Current editorial content remains Arabic-only in the sitemap until explicit human translation review.
-- **4D:** backward-compatible redirects while preserving existing article URLs.
+- **4A ? COMPLETE:** centralized routing architecture for real `/en/` and `/ar/` URLs, URL-first language selection, equivalent-route language switching, legacy route compatibility, and focused route-helper tests.
+- **4B ? COMPLETE:** centralized localized production canonicals, language-specific metadata, Open Graph URLs, and URL-bearing WebSite/Article structured data. Legacy unprefixed routes temporarily canonicalize deterministically to `/ar/...` without redirecting.
+- **4C ? COMPLETE:** deterministic translation auditing, explicit hreflang eligibility/head management, and canonical localized sitemap alternates are implemented. Current editorial content remains Arabic-only in the sitemap until explicit human translation review.
+- **4D ? COMPLETE:** maintained legacy unprefixed application and content routes redirect to their Arabic localized equivalents while preserving path identity, query strings, fragments, deployment base paths, and localized/unknown-route semantics. Cross-domain HTTP 301 activation remains deliberately deferred to Phase 10.
 - **4E:** 404, redirect, schema, route, and indexing validation.
 
 URL migration can damage indexing. Do not combine all batches or change URLs without verified mappings.
 
-### Phase 5 — Content Migration & Cleanup
+### Phase 5 ? Content Migration & Cleanup
 
 - **5A:** explicit metadata for KEEP content.
 - **5B:** priority REWORK content.
@@ -90,11 +90,11 @@ URL migration can damage indexing. Do not combine all batches or change URLs wit
 
 No deletion is allowed merely because Phase 3 recommended REMOVE.
 
-### Phase 6 — High-Value Content Expansion
+### Phase 6 ? High-Value Content Expansion
 
-This is where large-scale new production starts. Use the first-100 roadmap and produce 10–20 pages per reviewed batch depending on complexity. Prioritize exact-error troubleshooting, configuration, migrations, interoperability, vendor-specific guides, and professional comparisons. Quality outranks count.
+This is where large-scale new production starts. Use the first-100 roadmap and produce 10?20 pages per reviewed batch depending on complexity. Prioritize exact-error troubleshooting, configuration, migrations, interoperability, vendor-specific guides, and professional comparisons. Quality outranks count.
 
-### Phase 7 — Professional Tools
+### Phase 7 ? Professional Tools
 
 - Networking: Subnet, CIDR, IP Range, and VLSM calculators.
 - DNS/email: DNS and MX lookup, SPF analyzer, DMARC analyzer/generator.
@@ -103,27 +103,27 @@ This is where large-scale new production starts. Use the first-100 roadmap and p
 
 Prefer safe browser/client-side processing. Advanced configuration analyzers may follow only with an explicit threat/security model.
 
-### Phase 8 — Performance & Bundle Optimization
+### Phase 8 ? Performance & Bundle Optimization
 
 Baseline: main 677.88 kB; articles 974.30 kB. Add route-level lazy loading, code splitting, dependency/bundle analysis, search/index optimization, and further article-loading improvements. Optimize production runtime, not cosmetic `node_modules` size.
 
-### Phase 9 — Quality Assurance
+### Phase 9 ? Quality Assurance
 
 Automate route and broken-link testing, content integrity, bilingual RTL/LTR behavior, mobile, accessibility, SEO/schema, sitemap/RSS, redirects, tools, and browser compatibility.
 
-### Phase 10 — Domain Migration & Launch
+### Phase 10 ? Domain Migration & Launch
 
 Configure `netsecatlas.com`; map `technical-insights.com` URLs with direct 301s; avoid homepage-only redirects and chains; verify canonicals, Search Console, sitemap, analytics, Cloudflare, Vercel, and production smoke tests.
 
-### Phase 11 — Post-Launch Growth
+### Phase 11 ? Post-Launch Growth
 
 Monitor crawl/index health, broken links, Search Console, performance, content freshness, troubleshooting/vendor/topic gaps, comparisons, tools, backlinks, and returning users.
 
 ## Content production strategy
 
-Lifecycle: `IDEA → RESEARCH → DRAFT → TECHNICAL REVIEW → SEO/STRUCTURE REVIEW → PUBLISH → MONITOR → UPDATE`.
+Lifecycle: `IDEA ? RESEARCH ? DRAFT ? TECHNICAL REVIEW ? SEO/STRUCTURE REVIEW ? PUBLISH ? MONITOR ? UPDATE`.
 
-Troubleshooting lifecycle: `ERROR/PROBLEM → ENVIRONMENT → CAUSES → DIAGNOSIS → RESOLUTION → VERIFICATION → ROLLBACK/SAFETY → REFERENCES`. Include only sections relevant to the problem.
+Troubleshooting lifecycle: `ERROR/PROBLEM ? ENVIRONMENT ? CAUSES ? DIAGNOSIS ? RESOLUTION ? VERIFICATION ? ROLLBACK/SAFETY ? REFERENCES`. Include only sections relevant to the problem.
 
 ### Publication quality gate
 

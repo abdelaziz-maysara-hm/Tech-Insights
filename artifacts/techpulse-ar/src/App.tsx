@@ -22,6 +22,20 @@ import { LanguageProvider } from '@/context/LanguageContext';
 import { ThemeProvider } from '@/context/ThemeContext';
 import { useSEO } from '@/hooks/useSEO';
 import { useLocalizedLocation } from '@/hooks/useLocalizedLocation';
+import { getLegacyRedirectTarget } from '@/lib/legacyRedirect';
+
+function LegacyRouteRedirect() {
+  useEffect(() => {
+    const currentLocation = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+    const target = getLegacyRedirectTarget(currentLocation, import.meta.env.BASE_URL);
+
+    if (target && target !== currentLocation) {
+      window.location.replace(target);
+    }
+  }, []);
+
+  return null;
+}
 
 function ScrollToTop() {
   const [pathname] = useLocation();
@@ -71,6 +85,7 @@ function App() {
   return (
     <ThemeProvider defaultTheme="dark">
       <LanguageProvider>
+        <LegacyRouteRedirect />
         <WouterRouter
           base={import.meta.env.BASE_URL.replace(/\/$/, '')}
           hook={useLocalizedLocation}

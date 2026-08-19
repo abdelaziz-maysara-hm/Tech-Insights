@@ -10,19 +10,20 @@
 
 ## Current handoff
 
-- Completed: Phases 0, 1, 1.5, 2, 3, 4A, 4B, and 4C.
-- Next: Phase 4D only — legacy URL redirect migration. Do not combine it with Phase 4E validation.
+- Completed: Phases 0, 1, 1.5, 2, 3, 4A, 4B, 4C, and 4D.
+- Next: Phase 4E only ? 404, redirect, schema, route, and indexing validation.
 - Branch/workflow: `main`; use fast-forward pull, focused commits, normal push, never force-push.
 - Production domain: `https://netsecatlas.com`.
 - Legacy redirect domain: `technical-insights.com`.
 - Baseline after 4B: Phase 4 tests 11/11, typecheck/build pass; sitemap 235; RSS 50; main JS ~680.15 kB; articles chunk ~974.30 kB.
 - Phase 4A routing source: `src/lib/localizedRouting.ts` and `src/hooks/useLocalizedLocation.ts`. `/ar/...` and `/en/...` share the existing page components; legacy unprefixed URLs remain supported. Unsupported prefixes such as `/fr/...` are not interpreted as languages.
-- Phase 4A deliberately did not add localized sitemap entries, hreflang, redirects, or complete localized canonical/schema behavior; those remain 4B–4E.
+- Phase 4A deliberately did not add localized sitemap entries, hreflang, redirects, or complete localized canonical/schema behavior; those remain 4B?4E.
 - Phase 4B canonical source is `src/lib/seoUrl.ts`. Prefixed URLs canonicalize to the same language; legacy unprefixed routes temporarily canonicalize to the Arabic equivalent. No redirects were added.
 - Translation inventory finding: all 129 articles have non-empty Arabic/English title, excerpt, and body fields; all 75 comparisons have both title, excerpt, and verdict; all 9 static pages have both title and content. Field completeness does not prove human-reviewed editorial equivalence, so Phase 4C must gate hreflang/alternates conservatively.
 - Translation quality finding: the owner identifies the existing translations as literal and technically unreliable. The 4C-1 audit therefore requires an explicit human-reviewed marker before `VALID_PAIR`; current automated results are 0 valid, 223 review, and 18 invalid across 241 evaluated pairs. See `docs/i18n/phase4c-translation-audit.*`.
 - Phase 4C-2 source is `src/lib/hreflang.ts`. Content alternates require explicit `translationStatus: reviewed`; no current content is approved. Maintained discovery classes are evaluated separately. User language switching remains available even where SEO alternates are withheld. `x-default` targets the Arabic localized canonical, never a legacy URL.
 - Phase 4C-3 source is `scripts/generate-sitemap.mjs`, consuming `src/config/hreflang-policy.json`. Sitemap baseline is now 267 canonical URLs: 241 Arabic plus 26 English approved discovery URLs. It contains no legacy/unprefixed locations, no query filters, and no English editorial content pending review. RSS remains a single 50-item feed.
+- Phase 4D source is `src/lib/legacyRedirect.ts`, activated once in `src/App.tsx`. It redirects only the maintained legacy route surface to `/ar/...`, preserves query/hash/base paths, and ignores localized, unknown, API, and asset paths. This is the backward-compatible GitHub Pages runtime layer, not a claim of HTTP 301 behavior. Direct `technical-insights.com` to `netsecatlas.com` 301 activation remains Phase 10 work.
 - The static SPA shell intentionally carries no canonical or `og:url`; `useSEO` creates the route-correct values after hydration. Full pre-rendered localized metadata would require SSR/static rendering and is not claimed by Phase 4B.
 
 ## Validation
