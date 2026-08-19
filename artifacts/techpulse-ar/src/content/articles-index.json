@@ -3,18 +3,18 @@
     "id": "art-gen-0001",
     "slug": "2fa-practical-guide",
     "title": {
-      "ar": "المصادقة الثنائية (2FA): دليل عملي لحماية حساباتك",
+      "ar": "???????? ???????? (2FA): ???? ???? ?????? ???????",
       "en": "Two-Factor Authentication (2FA): A Practical Complete Guide"
     },
     "excerpt": {
-      "ar": "كل أنواع المصادقة الثنائية، إزاي تفعّلها صح، وأشهر الهجمات اللي بتستهدفها وإزاي تحمي نفسك منها.",
+      "ar": "?? ????? ???????? ????????? ???? ??????? ??? ????? ??????? ???? ????????? ????? ???? ???? ????.",
       "en": "Every type of two-factor authentication, how to set it up correctly, and the common attacks targeting it with how to protect yourself."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -34,18 +34,18 @@
     "id": "art-gen-0002",
     "slug": "phishing-spot-before-click",
     "title": {
-      "ar": "التصيد الإلكتروني: كيف تكتشفه قبل ما تضغط",
+      "ar": "?????? ??????????: ??? ?????? ??? ?? ????",
       "en": "Phishing: How to Spot It Before You Click"
     },
     "excerpt": {
-      "ar": "أنواع التصيد المختلفة، علامات تقنية حقيقية تكتشفها، وخطوات فورية لو ضغطت على رابط مشبوه بالغلط.",
+      "ar": "????? ?????? ????????? ?????? ????? ?????? ???????? ?????? ????? ?? ???? ??? ???? ????? ??????.",
       "en": "The different types of phishing, real technical signs to spot, and immediate steps if you accidentally clicked a suspicious link."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -59,24 +59,35 @@
       "social-engineering"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "siem-soc"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0003",
     "slug": "palo-alto-security-policy-basics",
     "title": {
-      "ar": "أساسيات Security Policy في Palo Alto: الدليل الكامل",
+      "ar": "??????? Security Policy ?? Palo Alto: ?????? ??????",
       "en": "Palo Alto Security Policy Basics: The Complete Guide"
     },
     "excerpt": {
-      "ar": "الترتيب الصحيح خطوة بخطوة لبناء سياسة أمان قوية: المناطق، App-ID، User-ID، Security Profiles، وأشهر الأخطاء التي تضعف الحماية.",
+      "ar": "??????? ?????? ???? ????? ????? ????? ???? ????: ???????? App-ID? User-ID? Security Profiles? ????? ??????? ???? ???? ???????.",
       "en": "The correct step-by-step order for building a strong security policy: zones, App-ID, User-ID, Security Profiles, and the most common mistakes that weaken protection."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -91,24 +102,37 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "firewalls"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "palo-alto"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0004",
     "slug": "forcepoint-ssl-vpn-radius",
     "title": {
-      "ar": "إعداد Forcepoint SSL VPN مع RADIUS: الدليل الكامل خطوة بخطوة",
+      "ar": "????? Forcepoint SSL VPN ?? RADIUS: ?????? ?????? ???? ?????",
       "en": "Setting Up Forcepoint SSL VPN with RADIUS: The Complete Step-by-Step Guide"
     },
     "excerpt": {
-      "ar": "دليل تفصيلي كامل لربط Forcepoint NGFW SSL VPN مع RADIUS من SMC، مع أشهر الأخطاء وخطوات التحقق.",
+      "ar": "???? ?????? ???? ???? Forcepoint NGFW SSL VPN ?? RADIUS ?? SMC? ?? ???? ??????? ?????? ??????.",
       "en": "A complete detailed guide to connecting Forcepoint NGFW SSL VPN with RADIUS from SMC, with common errors and verification steps."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "vpn-remote",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -123,24 +147,39 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "networking"
+    ],
+    "topicIds": [
+      "firewalls",
+      "vpn",
+      "pki-certificates"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [
+      "forcepoint"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0005",
     "slug": "fortigate-ssl-vpn-checklist",
     "title": {
-      "ar": "إعداد FortiGate SSL VPN: الدليل الكامل خطوة بخطوة",
+      "ar": "????? FortiGate SSL VPN: ?????? ?????? ???? ?????",
       "en": "Setting Up FortiGate SSL VPN: The Complete Step-by-Step Guide"
     },
     "excerpt": {
-      "ar": "الخطوات الخمس المترابطة لإعداد SSL VPN صح من أول مرة، مع تشخيص أشهر الأعطال الشائعة.",
+      "ar": "??????? ????? ????????? ?????? SSL VPN ?? ?? ??? ???? ?? ????? ???? ??????? ???????.",
       "en": "The five interconnected steps to set up SSL VPN correctly the first time, with diagnosis of the most common failures."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "vpn-remote",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -155,24 +194,41 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "networking"
+    ],
+    "topicIds": [
+      "firewalls",
+      "vpn",
+      "pki-certificates"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "fortinet"
+    ],
+    "productIds": [
+      "fortigate"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0006",
     "slug": "password-manager-start",
     "title": {
-      "ar": "مديرو كلمات المرور: لماذا تحتاجه وكيف تبدأ",
+      "ar": "????? ????? ??????: ????? ?????? ???? ????",
       "en": "Password Managers: Why You Need One and How to Start"
     },
     "excerpt": {
-      "ar": "إزاي مديرو كلمات المرور بيشتغلوا فعليًا، ليه أأمن من الحفظ الذهني، وخطة هجرة عملية من غير ما تتقفل برّه حساباتك.",
+      "ar": "???? ????? ????? ?????? ???????? ??????? ??? ???? ?? ????? ??????? ???? ???? ????? ?? ??? ?? ????? ???? ???????.",
       "en": "How password managers actually work, why they're safer than memorizing, and a practical migration plan without locking yourself out."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -192,18 +248,18 @@
     "id": "art-gen-0007",
     "slug": "ad-powershell-daily-tasks",
     "title": {
-      "ar": "مهام Active Directory اليومية بـ PowerShell: الدليل الكامل",
+      "ar": "???? Active Directory ??????? ?? PowerShell: ?????? ??????",
       "en": "Daily Active Directory Tasks with PowerShell: The Complete Guide"
     },
     "excerpt": {
-      "ar": "أوامر عملية كاملة للاستعلام والإنشاء والإدارة، سكريبتات دفعية جاهزة، ونصائح أمان أساسية قبل تشغيل أي سكريبت.",
+      "ar": "????? ????? ????? ????????? ???????? ????????? ???????? ????? ?????? ?????? ???? ?????? ??? ????? ?? ??????.",
       "en": "Complete practical commands for querying, creating, and managing accounts, ready-made bulk scripts, and essential safety tips before running any script."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -217,24 +273,39 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [
+      "active-directory"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [
+      "active-directory"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0008",
     "slug": "home-router-security-basics",
     "title": {
-      "ar": "أمان الراوتر المنزلي: الدليل الكامل خطوة بخطوة",
+      "ar": "???? ??????? ???????: ?????? ?????? ???? ?????",
       "en": "Home Router Security: The Complete Step-by-Step Guide"
     },
     "excerpt": {
-      "ar": "7 خطوات مرتبة حسب الأولوية لتأمين راوترك، وعلامات حقيقية تشير لاحتمال اختراقه.",
+      "ar": "7 ????? ????? ??? ???????? ?????? ??????? ??????? ?????? ???? ??????? ???????.",
       "en": "7 priority-ranked steps to secure your router, and real signs indicating it might be compromised."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -249,24 +320,36 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [
+      "wireless"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0009",
     "slug": "vpn-basics-what-it-does",
     "title": {
-      "ar": "VPN للمبتدئين: ماذا يفعل وماذا لا يفعل؟",
+      "ar": "VPN ?????????: ???? ???? ????? ?? ?????",
       "en": "VPN Basics: What It Does and Doesn't Do"
     },
     "excerpt": {
-      "ar": "إزاي الـVPN بيشتغل تقنيًا، إيه اللي بيحميك منه فعلًا وإيه اللي مش بيحميك منه، وأشهر المفاهيم الخاطئة عنه.",
+      "ar": "???? ???VPN ?????? ??????? ??? ???? ?????? ??? ????? ???? ???? ?? ?????? ???? ????? ???????? ??????? ???.",
       "en": "How VPN actually works technically, what it genuinely protects you from and doesn't, and the most common misconceptions about it."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "vpn-remote",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -280,24 +363,36 @@
       "network-security"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [
+      "vpn"
+    ],
+    "contentType": "concept",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0010",
     "slug": "windows-disk-cleanup-safe",
     "title": {
-      "ar": "تنظيف مساحة القرص في Windows بأمان: الدليل الكامل",
+      "ar": "????? ????? ????? ?? Windows ?????: ?????? ??????",
       "en": "Safe Disk Cleanup on Windows: The Complete Guide"
     },
     "excerpt": {
-      "ar": "الأدوات الرسمية بالتفصيل، إيه اللي آمن تمامًا وإيه اللي محتاج حذر، ونصيحة النقل قبل الحذف.",
+      "ar": "??????? ??????? ????????? ??? ???? ??? ?????? ???? ???? ????? ???? ?????? ????? ??? ?????.",
       "en": "The official tools in detail, what's completely safe versus what needs caution, and the move-before-delete precaution."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -317,18 +412,18 @@
     "id": "art-gen-0011",
     "slug": "student-laptop-specs",
     "title": {
-      "ar": "مواصفات لابتوب للطالب: الدليل الكامل لما يكفي فعلًا",
+      "ar": "??????? ?????? ??????: ?????? ?????? ??? ???? ?????",
       "en": "Student Laptop Specs: The Complete Guide to What Actually Matters"
     },
     "excerpt": {
-      "ar": "ليه 16 جيجا رام هي النقطة المثالية، وأي مواصفات تقدر تتنازل عنها بأمان من غير ما تضيع فلوسك.",
+      "ar": "??? 16 ???? ??? ?? ?????? ????????? ??? ??????? ???? ?????? ???? ????? ?? ??? ?? ???? ?????.",
       "en": "Why 16GB RAM is the sweet spot, and which specs you can safely skip without wasting your money."
     },
     "categoryId": "laptops",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -348,18 +443,18 @@
     "id": "art-gen-0012",
     "slug": "chatgpt-study-without-harm",
     "title": {
-      "ar": "استخدام ChatGPT في المذاكرة بدون ما يضر فهمك: الدليل الكامل",
+      "ar": "??????? ChatGPT ?? ???????? ???? ?? ??? ????: ?????? ??????",
       "en": "Using ChatGPT for Studying Without Hurting Understanding: The Complete Guide"
     },
     "excerpt": {
-      "ar": "4 استخدامات مفيدة فعليًا (شرح متدرج، اختبار نفسك)، و3 استخدامات ضارة بالتعلم الحقيقي.",
+      "ar": "4 ????????? ????? ?????? (??? ?????? ?????? ????)? ?3 ????????? ???? ??????? ???????.",
       "en": "4 genuinely useful uses (layered explanations, self-testing), and 3 uses that genuinely harm real learning."
     },
     "categoryId": "ai",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -380,18 +475,18 @@
     "id": "art-gen-0013",
     "slug": "kaspersky-security-center-tagging",
     "title": {
-      "ar": "تنظيم الأجهزة في Kaspersky Security Center بالـ Tags: الدليل الكامل",
+      "ar": "????? ??????? ?? Kaspersky Security Center ???? Tags: ?????? ??????",
       "en": "Organizing Devices in Kaspersky Security Center with Tags: The Complete Guide"
     },
     "excerpt": {
-      "ar": "الفرق بين Administration Groups وTags، خطوات تطبيق عملية كاملة، وأشهر أخطاء التصنيف اللي بتلغي الفايدة.",
+      "ar": "????? ??? Administration Groups ?Tags? ????? ????? ????? ?????? ????? ????? ??????? ???? ????? ???????.",
       "en": "The difference between Administration Groups and Tags, complete practical implementation steps, and the most common tagging mistakes that eliminate the benefit."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "endpoint",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -406,24 +501,39 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "endpoint-security"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "kaspersky"
+    ],
+    "productIds": [
+      "ksc"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0014",
     "slug": "rdp-multi-user-rds-licensing",
     "title": {
-      "ar": "تفعيل RDP متعدد المستخدمين وترخيص RDS بشكل صحيح: الدليل الكامل",
+      "ar": "????? RDP ????? ?????????? ?????? RDS ???? ????: ?????? ??????",
       "en": "Enabling Multi-User RDP and Licensing RDS Correctly: The Complete Guide"
     },
     "excerpt": {
-      "ar": "الفرق الجوهري بين RDP وRDS، خطوات إعداد تفصيلية، الفرق بين Per User وPer Device، وأشهر أخطاء الترخيص.",
+      "ar": "????? ??????? ??? RDP ?RDS? ????? ????? ???????? ????? ??? Per User ?Per Device? ????? ????? ???????.",
       "en": "The fundamental RDP vs RDS difference, detailed setup steps, Per User vs Per Device explained, and the most common licensing mistakes."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "vpn-remote",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -439,24 +549,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0015",
     "slug": "windows-server-evaluation-to-standard",
     "title": {
-      "ar": "تحويل Windows Server من Evaluation إلى Standard بدون إعادة تثبيت",
+      "ar": "????? Windows Server ?? Evaluation ??? Standard ???? ????? ?????",
       "en": "Converting Windows Server from Evaluation to Standard Without Reinstalling"
     },
     "excerpt": {
-      "ar": "ليه المشكلة دي بتحصل، خطوات DISM التفصيلية كاملة، وأشهر أخطاء التحويل اللي بتسبب مشاكل غير متوقعة.",
+      "ar": "??? ??????? ?? ?????? ????? DISM ????????? ?????? ????? ????? ??????? ???? ????? ????? ??? ??????.",
       "en": "Why this problem happens, complete detailed DISM steps, and the most common conversion mistakes that cause unexpected problems."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -471,24 +590,39 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [
+      "windows-server"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [
+      "windows-server"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0016",
     "slug": "dns-reverse-lookup-zone-setup",
     "title": {
-      "ar": "إعداد منطقة DNS العكسية (Reverse Lookup Zone): الدليل الكامل",
+      "ar": "????? ????? DNS ??????? (Reverse Lookup Zone): ?????? ??????",
       "en": "Setting Up a DNS Reverse Lookup Zone: The Complete Guide"
     },
     "excerpt": {
-      "ar": "ليه PTR مهم فعليًا، خطوات إنشاء المنطقة العكسية بالتفصيل، أوامر تحقق حقيقية، وأشهر مشاكل الإعداد وحلولها.",
+      "ar": "??? PTR ??? ??????? ????? ????? ??????? ??????? ????????? ????? ???? ??????? ????? ????? ??????? ???????.",
       "en": "Why PTR actually matters, detailed reverse zone creation steps, real verification commands, and the most common setup problems with fixes."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -503,24 +637,35 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "networking"
+    ],
+    "topicIds": [
+      "dns"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0017",
     "slug": "group-policy-basics-for-sysadmins",
     "title": {
-      "ar": "أساسيات Group Policy: الدليل الكامل لمدير النظام",
+      "ar": "??????? Group Policy: ?????? ?????? ????? ??????",
       "en": "Group Policy Fundamentals: The Complete Guide for Sysadmins"
     },
     "excerpt": {
-      "ar": "ترتيب تطبيق السياسات LSDOU بالتفصيل، Security Filtering وWMI Filtering، أدوات التشخيص الأساسية، وأشهر الأخطاء وحلولها.",
+      "ar": "????? ????? ???????? LSDOU ????????? Security Filtering ?WMI Filtering? ????? ??????? ????????? ????? ??????? ???????.",
       "en": "The LSDOU application order in detail, Security and WMI Filtering, essential diagnostic tools, and the most common mistakes with their fixes."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -535,24 +680,36 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "infrastructure"
+    ],
+    "topicIds": [
+      "active-directory"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0018",
     "slug": "backup-3-2-1-rule-practical",
     "title": {
-      "ar": "قاعدة النسخ الاحتياطي 3-2-1: الدليل العملي الكامل",
+      "ar": "????? ????? ????????? 3-2-1: ?????? ?????? ??????",
       "en": "The 3-2-1 Backup Rule: The Complete Practical Guide"
     },
     "excerpt": {
-      "ar": "شرح القاعدة بالتفصيل، تطبيقها بميزانيات مختلفة، أشهر أخطاء النسخ الاحتياطي، وليه اختبار الاستعادة أهم خطوة في الموضوع كله.",
+      "ar": "??? ??????? ????????? ??????? ????????? ??????? ???? ????? ????? ?????????? ???? ?????? ????????? ??? ???? ?? ??????? ???.",
       "en": "The rule explained in detail, applying it on different budgets, common backup mistakes, and why restore testing is the most important step of all."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -567,24 +724,35 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [
+      "backup-recovery"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0019",
     "slug": "zero-trust-explained-practically",
     "title": {
-      "ar": "Zero Trust بدون تعقيد: الدليل الكامل للمبدأ والتطبيق العملي",
+      "ar": "Zero Trust ???? ?????: ?????? ?????? ?????? ???????? ??????",
       "en": "Zero Trust Without the Jargon: The Complete Principle and Practical Implementation Guide"
     },
     "excerpt": {
-      "ar": "المبدأ الأساسي، الفرق عن الأمان التقليدي، ركائز NIST الست، وخطة تطبيق تدريجية واقعية بدون ميزانية ضخمة.",
+      "ar": "?????? ???????? ????? ?? ?????? ????????? ????? NIST ????? ???? ????? ??????? ?????? ???? ??????? ????.",
       "en": "The core principle, how it differs from traditional security, the six NIST pillars, and a realistic phased rollout plan without a huge budget."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -599,24 +767,34 @@
       "nist"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0020",
     "slug": "email-security-gateway-basics",
     "title": {
-      "ar": "بوابة أمان البريد الإلكتروني: الدليل الكامل لما بتحميه فعليًا",
+      "ar": "????? ???? ?????? ??????????: ?????? ?????? ??? ?????? ??????",
       "en": "Email Security Gateways: The Complete Guide to What They Actually Protect Against"
     },
     "excerpt": {
-      "ar": "4 وظائف أساسية بتضيفها بوابة أمان متخصصة فوق الحماية المدمجة، ومتى الاستثمار الإضافي يستاهل فعليًا.",
+      "ar": "4 ????? ?????? ??????? ????? ???? ?????? ??? ??????? ???????? ???? ????????? ??????? ?????? ??????.",
       "en": "4 core functions a dedicated security gateway adds on top of built-in protection, and when the extra investment is genuinely worth it."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -631,24 +809,35 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [
+      "forcepoint"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0021",
     "slug": "vlan-basics-why-segment",
     "title": {
-      "ar": "أساسيات VLAN: الدليل الكامل لليه ولإزاي تقسّم الشبكة",
+      "ar": "??????? VLAN: ?????? ?????? ???? ?????? ????? ??????",
       "en": "VLAN Basics: The Complete Guide to Why and How to Segment a Network"
     },
     "excerpt": {
-      "ar": "خطوات إعداد VLAN تفصيلية (Access/Trunk، Inter-VLAN Routing)، وأشهر 3 أخطاء بتضيّع فايدة التقسيم بالكامل.",
+      "ar": "????? ????? VLAN ??????? (Access/Trunk? Inter-VLAN Routing)? ????? 3 ????? ?????? ????? ??????? ???????.",
       "en": "Detailed VLAN setup steps (Access/Trunk, Inter-VLAN Routing), and the 3 most common mistakes that waste segmentation's entire benefit."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -663,24 +852,35 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "networking"
+    ],
+    "topicIds": [
+      "routing-switching"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0022",
     "slug": "snmp-monitoring-basics",
     "title": {
-      "ar": "أساسيات مراقبة الشبكة بـ SNMP: الدليل الكامل",
+      "ar": "??????? ?????? ?????? ?? SNMP: ?????? ??????",
       "en": "Network Monitoring Basics with SNMP: The Complete Guide"
     },
     "excerpt": {
-      "ar": "الفرق بين v1/v2c وv3 بالتفصيل، خطوات إعداد كاملة، وأشهر 3 أخطاء بتعرّض بيانات جهازك.",
+      "ar": "????? ??? v1/v2c ?v3 ????????? ????? ????? ?????? ????? 3 ????? ?????? ?????? ?????.",
       "en": "The v1/v2c vs v3 difference in detail, complete setup steps, and the 3 most common mistakes that expose your device's data."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -695,24 +895,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "networking"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0023",
     "slug": "802-1x-certificate-authentication",
     "title": {
-      "ar": "المصادقة بالشهادات عبر 802.1X: الدليل الكامل",
+      "ar": "???????? ????????? ??? 802.1X: ?????? ??????",
       "en": "Certificate-Based Authentication with 802.1X: The Complete Guide"
     },
     "excerpt": {
-      "ar": "الفرق بين EAP-TLS وPEAP، خطوات تطبيق عملية كاملة، وليه التفعيل الصارم المفاجئ أشهر خطأ.",
+      "ar": "????? ??? EAP-TLS ?PEAP? ????? ????? ????? ?????? ???? ??????? ?????? ??????? ???? ???.",
       "en": "The EAP-TLS vs PEAP difference, complete practical implementation steps, and why sudden strict enforcement is the most common mistake."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -727,24 +936,37 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "networking",
+      "infrastructure"
+    ],
+    "topicIds": [
+      "pki-certificates",
+      "nac"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0024",
     "slug": "log-retention-siem-basics",
     "title": {
-      "ar": "الاحتفاظ بالسجلات (Log Retention): الدليل الكامل لتحديد المدة الصحيحة",
+      "ar": "???????? ???????? (Log Retention): ?????? ?????? ?????? ????? ???????",
       "en": "Log Retention: The Complete Guide to Setting the Right Duration"
     },
     "excerpt": {
-      "ar": "مدد مقترحة حسب نوع السجل، استراتيجية التخزين المتدرج (ساخن/بارد)، ونصيحة توثيق القرار بدل رقم عشوائي.",
+      "ar": "??? ?????? ??? ??? ?????? ?????????? ??????? ??????? (????/????)? ?????? ????? ?????? ??? ??? ??????.",
       "en": "Suggested durations by log type, a tiered hot/cold storage strategy, and advice to document the decision instead of picking an arbitrary number."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -759,24 +981,36 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "infrastructure"
+    ],
+    "topicIds": [
+      "siem-soc"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0025",
     "slug": "windows-patch-management-strategy",
     "title": {
-      "ar": "استراتيجية تحديث الأنظمة (Patch Management): الدليل الكامل",
+      "ar": "?????????? ????? ??????? (Patch Management): ?????? ??????",
       "en": "A Patch Management Strategy for a Small Environment"
     },
     "excerpt": {
-      "ar": "نظام الحلقات بالتفصيل (اختبار/إنتاج)، استثناء التحديثات الحرجة، ومقارنة أدوات حسب حجم البيئة (WSUS/SaaS/Intune).",
+      "ar": "???? ??????? ???????? (??????/?????)? ??????? ????????? ??????? ??????? ????? ??? ??? ?????? (WSUS/SaaS/Intune).",
       "en": "The ring system explained in detail (test/production), the critical-patch exception, and tool comparison by environment size (WSUS/SaaS/Intune)."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -791,24 +1025,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0026",
     "slug": "dhcp-failover-high-availability",
     "title": {
-      "ar": "إعداد DHCP Failover لضمان استمرارية الشبكة: الدليل الكامل",
+      "ar": "????? DHCP Failover ????? ????????? ??????: ?????? ??????",
       "en": "Setting Up DHCP Failover for Network Continuity: The Complete Guide"
     },
     "excerpt": {
-      "ar": "الفرق بين Hot Standby وLoad Balance بالتفصيل، خطوات إعداد كاملة، وأمر PowerShell للتحقق من نجاح الإعداد.",
+      "ar": "????? ??? Hot Standby ?Load Balance ????????? ????? ????? ?????? ???? PowerShell ?????? ?? ???? ???????.",
       "en": "Hot Standby vs Load Balance explained in detail, complete setup steps, and a PowerShell command to verify success."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -823,24 +1066,36 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "networking",
+      "infrastructure"
+    ],
+    "topicIds": [
+      "dhcp-ipam"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0027",
     "slug": "syslog-server-setup-basics",
     "title": {
-      "ar": "إعداد خادم Syslog مركزي: الدليل الكامل من أين تبدأ",
+      "ar": "????? ???? Syslog ?????: ?????? ?????? ?? ??? ????",
       "en": "Setting Up a Central Syslog Server: The Complete Guide to Where to Start"
     },
     "excerpt": {
-      "ar": "مقارنة الأدوات المتاحة حسب حجم البيئة، خطوات الإعداد التفصيلية، وليه التجميع بدون مراجعة دورية بيدّيك إحساس زائف بالأمان.",
+      "ar": "?????? ??????? ??????? ??? ??? ??????? ????? ??????? ?????????? ???? ??????? ???? ?????? ????? ?????? ????? ???? ???????.",
       "en": "Comparing available tools by environment size, detailed setup steps, and why collection without periodic review gives false confidence."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -855,24 +1110,35 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0028",
     "slug": "network-segmentation-compliance",
     "title": {
-      "ar": "تقسيم الشبكة لأغراض الامتثال: نظرة عملية مبسطة",
+      "ar": "????? ?????? ?????? ????????: ???? ????? ?????",
       "en": "Network Segmentation for Compliance: A Simplified Practical View"
     },
     "excerpt": {
-      "ar": "الفرق بين العزل الكامل والمنطقي، خطوات تطبيق عملية موثّقة، وفايدة تقليل نطاق المراجعة غير الامتثال نفسه.",
+      "ar": "????? ??? ????? ?????? ????????? ????? ????? ????? ??????? ?????? ????? ???? ???????? ??? ???????? ????.",
       "en": "The difference between full and logical isolation, documented practical implementation steps, and the audit-scope-reduction benefit beyond compliance itself."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -887,24 +1153,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "networking"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0029",
     "slug": "hyper-v-vs-checkpoints-basics",
     "title": {
-      "ar": "استخدام Checkpoints في Hyper-V بأمان: الدليل الكامل",
+      "ar": "??????? Checkpoints ?? Hyper-V ?????: ?????? ??????",
       "en": "Using Hyper-V Checkpoints Safely: The Complete Guide"
     },
     "excerpt": {
-      "ar": "ليه Checkpoint مش بديل عن نسخة احتياطية، المشكلة العملية مع التراكم (أداء وتخزين)، وخطوات استخدام آمنة.",
+      "ar": "??? Checkpoint ?? ???? ?? ???? ????????? ??????? ??????? ?? ??????? (???? ??????)? ?????? ??????? ????.",
       "en": "Why a checkpoint isn't a backup substitute, the practical problem with buildup (performance and storage), and safe usage steps."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -919,24 +1194,38 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [
+      "vmware-virtualization",
+      "backup-recovery"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0030",
     "slug": "mfa-fatigue-attacks-explained",
     "title": {
-      "ar": "هجمات إرهاق المصادقة الثنائية (MFA Fatigue): الدليل الكامل لحماية فريقك",
+      "ar": "????? ????? ???????? ???????? (MFA Fatigue): ?????? ?????? ?????? ?????",
       "en": "MFA Fatigue Attacks: The Complete Guide to Protecting Your Team"
     },
     "excerpt": {
-      "ar": "ليه الهجوم ده فعّال بشكل مقلق، وخمس طرق حماية عملية من Number Matching للمفاتيح المادية.",
+      "ar": "??? ?????? ?? ????? ???? ????? ???? ??? ????? ????? ?? Number Matching ???????? ???????.",
       "en": "Why this attack is concerningly effective, and five practical defenses from number matching to hardware keys."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -951,24 +1240,35 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "iam-pam"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0031",
     "slug": "windows-event-viewer-security-logs",
     "title": {
-      "ar": "قراءة سجلات الأمان في Event Viewer بذكاء: الدليل الكامل",
+      "ar": "????? ????? ?????? ?? Event Viewer ?????: ?????? ??????",
       "en": "Reading Windows Security Logs in Event Viewer Smartly: The Complete Guide"
     },
     "excerpt": {
-      "ar": "شرح تفصيلي لأهم 5 Event IDs، ليه 1102 أقوى علامة تحذير على الإطلاق، واستراتيجية مراقبة عملية.",
+      "ar": "??? ?????? ???? 5 Event IDs? ??? 1102 ???? ????? ????? ??? ???????? ??????????? ?????? ?????.",
       "en": "A detailed breakdown of the 5 key Event IDs, why 1102 is the strongest warning sign of all, and a practical monitoring strategy."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -983,24 +1283,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0032",
     "slug": "wifi-6-vs-wifi-5-practical",
     "title": {
-      "ar": "Wi-Fi 6 مقابل Wi-Fi 5: الدليل الكامل لتقييم الترقية",
+      "ar": "Wi-Fi 6 ????? Wi-Fi 5: ?????? ?????? ?????? ???????",
       "en": "Wi-Fi 6 vs Wi-Fi 5: The Complete Guide to Assessing the Upgrade"
     },
     "excerpt": {
-      "ar": "تقنية OFDMA الجوهرية بالتفصيل، 4 سيناريوهات تستاهل الترقية فعليًا، ونصيحة عملية قبل الشراء.",
+      "ar": "????? OFDMA ???????? ????????? 4 ?????????? ?????? ??????? ??????? ?????? ????? ??? ??????.",
       "en": "The core OFDMA technology in detail, 4 scenarios where upgrading is genuinely worth it, and practical advice before buying."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1015,24 +1324,35 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "networking"
+    ],
+    "topicIds": [
+      "wireless"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0033",
     "slug": "dark-web-monitoring-basics",
     "title": {
-      "ar": "مراقبة الدارك ويب لبيانات شركتك: الدليل الكامل لتحديد إذا كنت محتاجها",
+      "ar": "?????? ?????? ??? ??????? ?????: ?????? ?????? ?????? ??? ??? ???????",
       "en": "Dark Web Monitoring for Your Company's Data: The Complete Guide to Deciding If You Need It"
     },
     "excerpt": {
-      "ar": "الفرق الجوهري بين اكتشاف ومنع، 3 معايير لتحديد قيمة الاستثمار، وليه التنبيه بدون خطة استجابة استثمار ضائع.",
+      "ar": "????? ??????? ??? ?????? ????? 3 ?????? ?????? ???? ?????????? ???? ??????? ???? ??? ??????? ??????? ????.",
       "en": "The core difference between detection and prevention, 3 criteria for assessing investment value, and why an alert without a response plan is wasted investment."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1047,24 +1367,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0034",
     "slug": "ssd-vs-hdd-server-storage",
     "title": {
-      "ar": "SSD مقابل HDD في تخزين السيرفرات: الدليل الكامل",
+      "ar": "SSD ????? HDD ?? ????? ?????????: ?????? ??????",
       "en": "SSD vs HDD for Server Storage: It's Not Just About Speed"
     },
     "excerpt": {
-      "ar": "4 عوامل مقارنة حقيقية غير السرعة، استراتيجية الهجين (Hybrid) العملية، وسيناريو تطبيقي واضح.",
+      "ar": "4 ????? ?????? ?????? ??? ??????? ?????????? ?????? (Hybrid) ???????? ???????? ?????? ????.",
       "en": "4 real comparison factors beyond speed, the practical hybrid strategy, and a clear applied scenario."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1079,24 +1408,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0035",
     "slug": "least-privilege-principle-practical",
     "title": {
-      "ar": "مبدأ أقل الصلاحيات (Least Privilege): الدليل الكامل للتطبيق بدون فوضى",
+      "ar": "???? ??? ????????? (Least Privilege): ?????? ?????? ??????? ???? ????",
       "en": "The Least Privilege Principle: The Complete Guide to a Rollout Without Chaos"
     },
     "excerpt": {
-      "ar": "ليه الصلاحيات بتتراكم مع الوقت، 5 خطوات تطبيق آمن بالتفصيل، وأشهر 3 أخطاء بتخلق مقاومة للمشروع كله.",
+      "ar": "??? ????????? ??????? ?? ?????? 5 ????? ????? ??? ????????? ????? 3 ????? ????? ?????? ??????? ???.",
       "en": "Why permissions accumulate over time, 5 detailed safe rollout steps, and the 3 most common mistakes that create resistance to the whole project."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1117,18 +1455,18 @@
     "id": "art-gen-0036",
     "slug": "ransomware-first-hour-response",
     "title": {
-      "ar": "أول ساعة بعد اكتشاف Ransomware: الدليل الكامل لإيه تعمل بالظبط",
+      "ar": "??? ???? ??? ?????? Ransomware: ?????? ?????? ???? ???? ??????",
       "en": "The First Hour After Discovering Ransomware: The Complete Guide to What to Actually Do"
     },
     "excerpt": {
-      "ar": "خطوات فورية بالترتيب الصحيح، وأشهر 3 أخطاء بتزود الضرر بدل ما تقلله.",
+      "ar": "????? ????? ???????? ??????? ????? 3 ????? ????? ????? ??? ?? ?????.",
       "en": "Immediate steps in the correct order, and the 3 most common mistakes that increase damage instead of reducing it."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1143,24 +1481,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0037",
     "slug": "cloud-cost-optimization-basics",
     "title": {
-      "ar": "تقليل فاتورة السحابة: الدليل الكامل لخطوات عملية قبل المفاجأة",
+      "ar": "????? ?????? ???????: ?????? ?????? ?????? ????? ??? ????????",
       "en": "Cutting Your Cloud Bill: The Complete Guide to Practical Steps Before the Surprise"
     },
     "excerpt": {
-      "ar": "4 أسباب شائعة للفاتورة العالية غير المتوقعة، وخطوات تحكم عملية من التنبيهات لخصومات الالتزام طويل المدى.",
+      "ar": "4 ????? ????? ???????? ??????? ??? ????????? ?????? ???? ????? ?? ????????? ??????? ???????? ???? ?????.",
       "en": "4 common causes of an unexpectedly high bill, and practical control steps from budget alerts to long-term commitment discounts."
     },
     "categoryId": "technology",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1175,24 +1522,35 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [
+      "cloud"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0038",
     "slug": "printer-security-overlooked-risk",
     "title": {
-      "ar": "أمان الطابعات: الدليل الكامل للخطر اللي بينسوه أغلب مديري الأنظمة",
+      "ar": "???? ????????: ?????? ?????? ????? ???? ?????? ???? ????? ???????",
       "en": "Printer Security: The Complete Guide to the Risk Most Sysadmins Forget"
     },
     "excerpt": {
-      "ar": "3 مخاطر ملموسة (تسريب مستندات، تحرك جانبي، إغراق طباعة)، و5 خطوات حماية تفصيلية.",
+      "ar": "3 ????? ?????? (????? ???????? ???? ?????? ????? ?????)? ?5 ????? ????? ???????.",
       "en": "Networked printers become an easy entry point when they don't get the same security attention as everything else."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "endpoint",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1207,24 +1565,36 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [
+      "endpoint-security"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0039",
     "slug": "browser-isolation-basics",
     "title": {
-      "ar": "عزل المتصفح (Browser Isolation): طبقة حماية إضافية بسيطة",
+      "ar": "??? ??????? (Browser Isolation): ???? ????? ?????? ?????",
       "en": "Browser Isolation: A Simple Extra Protection Layer"
     },
     "excerpt": {
-      "ar": "ليه التقنية دي فعّالة ضد هجمات يوم الصفر غير المكتشفة، و3 معايير لتحديد إذا كان الاستثمار يستاهل.",
+      "ar": "??? ??????? ?? ?????? ?? ????? ??? ????? ??? ????????? ?3 ?????? ?????? ??? ??? ????????? ??????.",
       "en": "Why this technology is effective against undetected zero-day attacks, and 3 criteria for assessing if the investment is worth it."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "endpoint",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1239,24 +1609,35 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "endpoint-security"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0040",
     "slug": "shadow-it-risk-management",
     "title": {
-      "ar": "الـ Shadow IT: الدليل الكامل لإدارة استخدام الأدوات غير المعتمدة",
+      "ar": "??? Shadow IT: ?????? ?????? ?????? ??????? ??????? ??? ????????",
       "en": "Shadow IT: The Complete Guide to Managing Unapproved Tool Usage"
     },
     "excerpt": {
-      "ar": "ليه المنع الكامل بيغيّر مكان المخاطرة مش بيلغيها، واستراتيجية عملية من الاكتشاف لتصنيف المخاطر.",
+      "ar": "??? ????? ?????? ?????? ???? ???????? ?? ???????? ??????????? ????? ?? ???????? ?????? ???????.",
       "en": "Why total prohibition just moves the risk instead of eliminating it, and a practical strategy from discovery to risk classification."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1271,24 +1652,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0041",
     "slug": "usb-device-control-policy",
     "title": {
-      "ar": "سياسة التحكم في أجهزة USB: الدليل الكامل لأمان بدون تعطيل الشغل",
+      "ar": "????? ?????? ?? ????? USB: ?????? ?????? ????? ???? ????? ?????",
       "en": "USB Device Control Policy: The Complete Guide to Security Without Blocking Work"
     },
     "excerpt": {
-      "ar": "4 مستويات تحكم متدرّج بدل المنع الكامل، وخطوات تطبيق عملية عبر Group Policy.",
+      "ar": "4 ??????? ???? ?????? ??? ????? ??????? ?????? ????? ????? ??? Group Policy.",
       "en": "4 levels of graduated control instead of total blocking, and practical implementation steps via Group Policy."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "endpoint",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1303,24 +1693,36 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "endpoint-security",
+      "active-directory"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0042",
     "slug": "certificate-expiry-monitoring",
     "title": {
-      "ar": "مراقبة انتهاء صلاحية الشهادات: الدليل الكامل لتجنب الخطأ المحرج",
+      "ar": "?????? ?????? ?????? ????????: ?????? ?????? ????? ????? ??????",
       "en": "Certificate Expiry Monitoring: The Complete Guide to Avoiding the Embarrassing Mistake"
     },
     "excerpt": {
-      "ar": "ليه التجديد التلقائي (ACME/Let's Encrypt) الحل الأمثل، خطوات بديلة لو التجديد يدوي، وأمر تحقق سريع لأي موقع.",
+      "ar": "??? ??????? ???????? (ACME/Let's Encrypt) ???? ??????? ????? ????? ?? ??????? ????? ???? ???? ???? ??? ????.",
       "en": "Why automatic renewal (ACME/Let's Encrypt) is the ideal solution, alternative steps if renewal is manual, and a quick verification command for any site."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1335,24 +1737,35 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [
+      "pki-certificates"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0043",
     "slug": "incident-response-tabletop-exercises",
     "title": {
-      "ar": "تمارين المحاكاة (Tabletop Exercises): تدرّب قبل ما يحصل فعلًا",
+      "ar": "?????? ???????? (Tabletop Exercises): ????? ??? ?? ???? ?????",
       "en": "Tabletop Exercises: Practice Before It Actually Happens"
     },
     "excerpt": {
-      "ar": "5 خطوات تنظيم تفصيلية بدل 4، وليه اكتشاف الفجوة أثناء التمرين أرخص بكثير من اكتشافها وسط أزمة حقيقية.",
+      "ar": "5 ????? ????? ??????? ??? 4? ???? ?????? ?????? ????? ??????? ???? ????? ?? ???????? ??? ???? ??????.",
       "en": "5 detailed organizing steps up from 4, and why discovering a gap during the exercise is far cheaper than mid-actual-crisis."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1367,24 +1780,31 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0044",
     "slug": "nist-password-guidelines-vs-old-rules",
     "title": {
-      "ar": "إرشادات NIST لكلمات المرور: الدليل الكامل لليه التعقيد ما بقاش الحل",
+      "ar": "??????? NIST ?????? ??????: ?????? ?????? ???? ??????? ?? ???? ????",
       "en": "NIST Password Guidelines: The Complete Guide to Why Complexity Rules Stopped Being the Answer"
     },
     "excerpt": {
-      "ar": "ليه القواعد القديمة كانت غلط من الأساس، 4 توصيات NIST بالتفصيل، ومثال عملي يوضّح الفرق الحقيقي في القوة.",
+      "ar": "??? ??????? ??????? ???? ??? ?? ??????? 4 ?????? NIST ????????? ????? ???? ????? ????? ??????? ?? ?????.",
       "en": "Why the old rules were wrong from the start, 4 detailed NIST recommendations, and a practical example showing the real difference in strength."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1405,18 +1825,18 @@
     "id": "art-gen-0045",
     "slug": "network-access-control-nac-basics",
     "title": {
-      "ar": "التحكم في الوصول للشبكة (NAC): مين يقدر يتصل أصلًا؟",
+      "ar": "?????? ?? ?????? ?????? (NAC): ??? ???? ???? ??????",
       "en": "Network Access Control (NAC): Who's Even Allowed to Connect?"
     },
     "excerpt": {
-      "ar": "سيناريو عملي يوضّح القيمة الحقيقية، 4 خطوات بداية تفصيلية، وليه التفعيل الصارم المفاجئ أشهر خطأ.",
+      "ar": "??????? ???? ????? ?????? ????????? 4 ????? ????? ???????? ???? ??????? ?????? ??????? ???? ???.",
       "en": "A practical scenario illustrating real value, 4 detailed starting steps, and why sudden strict enforcement is the most common mistake."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1431,24 +1851,36 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [
+      "nac"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0046",
     "slug": "cloud-vs-onprem-backup-considerations",
     "title": {
-      "ar": "النسخ الاحتياطي السحابي مقابل المحلي: الدليل الكامل لاعتبارات عملية غير التكلفة",
+      "ar": "????? ????????? ??????? ????? ??????: ?????? ?????? ????????? ????? ??? ???????",
       "en": "Cloud vs On-Prem Backup: The Complete Guide to Practical Considerations Beyond Cost"
     },
     "excerpt": {
-      "ar": "5 عوامل مقارنة تفصيلية (سرعة، سيادة بيانات، اعتماد إنترنت، حماية كارثية، تكلفة كاملة)، واستراتيجية هجينة عملية.",
+      "ar": "5 ????? ?????? ??????? (????? ????? ??????? ?????? ??????? ????? ??????? ????? ?????)? ??????????? ????? ?????.",
       "en": "5 detailed comparison factors (speed, data sovereignty, internet dependency, disaster protection, total cost), and a practical hybrid strategy."
     },
     "categoryId": "technology",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1463,24 +1895,36 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [
+      "backup-recovery",
+      "cloud"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0047",
     "slug": "vulnerability-scanning-vs-penetration-testing",
     "title": {
-      "ar": "فحص الثغرات مقابل اختبار الاختراق: الدليل الكامل",
+      "ar": "??? ??????? ????? ?????? ????????: ?????? ??????",
       "en": "Vulnerability Scanning vs Penetration Testing: The Complete Guide"
     },
     "excerpt": {
-      "ar": "الفرق العملي في النتائج بمثال واضح، أشهر خطأ (الاعتماد على واحد بس)، وإزاي يكمّلوا بعض في استراتيجية واحدة.",
+      "ar": "????? ?????? ?? ??????? ????? ????? ???? ??? (???????? ??? ???? ??)? ????? ??????? ??? ?? ?????????? ?????.",
       "en": "The practical difference in results with a clear example, the most common mistake (relying on just one), and how they complement each other in one strategy."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1495,24 +1939,35 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "vulnerability-management"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0048",
     "slug": "dns-security-filtering-dnssec",
     "title": {
-      "ar": "أمان DNS: الدليل الكامل من فلترة المواقع الضارة لـ DNSSEC",
+      "ar": "???? DNS: ?????? ?????? ?? ????? ??????? ?????? ?? DNSSEC",
       "en": "DNS Security: The Complete Guide from Malicious Site Filtering to DNSSEC"
     },
     "excerpt": {
-      "ar": "ليه كل اتصال بيمر من DNS بدون استثناء، إزاي فلترة DNS بتشتغل فعليًا، والفرق الجوهري بين الطبقتين.",
+      "ar": "??? ?? ????? ???? ?? DNS ???? ???????? ???? ????? DNS ?????? ??????? ?????? ??????? ??? ????????.",
       "en": "Why every connection passes through DNS without exception, how DNS filtering actually works, and the fundamental difference between both layers."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1527,24 +1982,36 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [
+      "dns"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0049",
     "slug": "bitlocker-disk-encryption-basics",
     "title": {
-      "ar": "تشفير الأقراص بـ BitLocker: أساسيات لازم تعرفها",
+      "ar": "????? ??????? ?? BitLocker: ??????? ???? ??????",
       "en": "Disk Encryption with BitLocker: Basics You Need to Know"
     },
     "excerpt": {
-      "ar": "دور TPM في تأمين العملية بالتفصيل، خطوات تفعيل موسّعة، وليه نسيان حفظ مفتاح الاستعادة كارثة حقيقية مش مجرد إزعاج.",
+      "ar": "??? TPM ?? ????? ??????? ????????? ????? ????? ??????? ???? ????? ??? ????? ????????? ????? ?????? ?? ???? ?????.",
       "en": "TPM's role in securing the process in detail, expanded activation steps, and why forgetting to save the recovery key is a genuine disaster, not just an inconvenience."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1559,24 +2026,35 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "backup-recovery"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0050",
     "slug": "windows-firewall-advanced-rules",
     "title": {
-      "ar": "قواعد Windows Firewall المتقدمة: أكتر من مجرد تشغيل/إيقاف",
+      "ar": "????? Windows Firewall ????????: ???? ?? ???? ?????/?????",
       "en": "Advanced Windows Firewall Rules: More Than Just On/Off"
     },
     "excerpt": {
-      "ar": "ليه القواعد الصادرة مهمة بنفس قدر الواردة، 4 قواعد عملية تفصيلية، والخطأ الشائع فعليًا (تعطيل مؤقت بينسى تفعيله).",
+      "ar": "??? ??????? ??????? ???? ???? ??? ???????? 4 ????? ????? ???????? ?????? ?????? ?????? (????? ???? ????? ??????).",
       "en": "Why outbound rules matter as much as inbound, 4 detailed practical rules, and the actual common mistake (a temporary disable that never gets re-enabled)."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1591,24 +2069,36 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [
+      "firewalls"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0051",
     "slug": "phishing-simulation-training-programs",
     "title": {
-      "ar": "برامج محاكاة التصيد الإلكتروني: الدليل الكامل لتصميم برنامج فعّال",
+      "ar": "????? ?????? ?????? ??????????: ?????? ?????? ?????? ?????? ?????",
       "en": "Phishing Simulation Training Programs: The Complete Guide to Effective Design"
     },
     "excerpt": {
-      "ar": "ليه العقاب بيعكس النتيجة، 4 مبادئ تصميم بالتفصيل، وسيناريو يوضّح ليه قياس النجاح مش بس نسبة الوقوع.",
+      "ar": "??? ?????? ????? ???????? 4 ????? ????? ????????? ???????? ????? ??? ???? ?????? ?? ?? ???? ??????.",
       "en": "Why punishment backfires, 4 design principles in detail, and a scenario showing why measuring success isn't just click rate."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1623,24 +2113,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0052",
     "slug": "cross-site-scripting-xss-basics",
     "title": {
-      "ar": "ثغرات XSS: الدليل الكامل لكيف موقع بسيط يسرق بيانات المستخدم",
+      "ar": "????? XSS: ?????? ?????? ???? ???? ???? ???? ?????? ????????",
       "en": "XSS Vulnerabilities: The Complete Guide to How a Simple Site Can Steal User Data"
     },
     "excerpt": {
-      "ar": "3 أنواع XSS بالتفصيل (Stored/Reflected/DOM-based)، 4 طرق حماية عملية، ومثال كامل يوضّح آلية السرقة خطوة بخطوة.",
+      "ar": "3 ????? XSS ???????? (Stored/Reflected/DOM-based)? 4 ??? ????? ?????? ????? ???? ????? ???? ?????? ???? ?????.",
       "en": "3 XSS types in detail (Stored/Reflected/DOM-based), 4 practical protections, and a complete example showing the theft mechanism step by step."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1655,24 +2154,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0053",
     "slug": "windows-server-core-vs-desktop-experience",
     "title": {
-      "ar": "Windows Server Core مقابل Desktop Experience: الدليل الكامل",
+      "ar": "Windows Server Core ????? Desktop Experience: ?????? ??????",
       "en": "Windows Server Core vs Desktop Experience: Which Should You Choose?"
     },
     "excerpt": {
-      "ar": "3 مميزات Server Core بالتفصيل، استراتيجية انتقال تدريجي عملية، وأداة Windows Admin Center كجسر بين الاتنين.",
+      "ar": "3 ?????? Server Core ????????? ?????????? ?????? ?????? ?????? ????? Windows Admin Center ???? ??? ???????.",
       "en": "3 Server Core advantages in detail, a practical gradual transition strategy, and Windows Admin Center as a bridge between both."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1687,24 +2195,39 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [
+      "windows-server"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [
+      "windows-server"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0054",
     "slug": "api-key-management-best-practices",
     "title": {
-      "ar": "إدارة مفاتيح API بأمان: أخطاء شائعة وحلول بسيطة",
+      "ar": "????? ?????? API ?????: ????? ????? ????? ?????",
       "en": "Secure API Key Management: Common Mistakes and Simple Fixes"
     },
     "excerpt": {
-      "ar": "ليه مسح المفتاح من الكود مش كافٍ إطلاقًا (طبيعة Git)، 4 ممارسات أساسية بالتفصيل، ونصيحة المراجعة الدورية للمفاتيح النشطة.",
+      "ar": "??? ??? ??????? ?? ????? ?? ???? ??????? (????? Git)? 4 ??????? ?????? ????????? ?????? ???????? ??????? ???????? ??????.",
       "en": "Why removing the key from code alone isn't enough at all (Git's nature), 4 core practices in detail, and advice on periodically reviewing active keys."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1719,24 +2242,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0055",
     "slug": "physical-security-server-room-basics",
     "title": {
-      "ar": "الأمان الفيزيائي لغرفة السيرفرات: الدليل الكامل للأساسيات المتجاهَلة",
+      "ar": "?????? ????????? ????? ?????????: ?????? ?????? ????????? ??????????",
       "en": "Physical Security for the Server Room: The Complete Guide to Overlooked Basics"
     },
     "excerpt": {
-      "ar": "ليه أي حد يوصل فيزيائيًا للسيرفر يقدر يتجاوز الحماية الرقمية، و5 أساسيات عملية بالتفصيل.",
+      "ar": "??? ?? ?? ???? ????????? ??????? ???? ?????? ??????? ???????? ?5 ??????? ????? ????????.",
       "en": "Why anyone with physical server access can bypass digital protection, and 5 practical basics in detail."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1751,24 +2283,34 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "infrastructure"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0056",
     "slug": "supply-chain-attacks-third-party-risk",
     "title": {
-      "ar": "هجمات سلسلة التوريد: الدليل الكامل لما بيجي الخطر من مورّد موثوق",
+      "ar": "????? ????? ???????: ?????? ?????? ??? ???? ????? ?? ????? ?????",
       "en": "Supply Chain Attacks: The Complete Guide to When the Risk Comes from a Trusted Vendor"
     },
     "excerpt": {
-      "ar": "3 أمثلة حقيقية موثّقة لنقاط الخطر بالتفصيل، وليه ثقتك في المورّد نفسها هي السلاح المُستغل.",
+      "ar": "3 ????? ?????? ?????? ????? ????? ????????? ???? ???? ?? ??????? ????? ?? ?????? ????????.",
       "en": "3 real documented examples of risk points in detail, and why your own trust in the vendor is the weapon being exploited."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1783,24 +2325,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0057",
     "slug": "container-image-security-scanning",
     "title": {
-      "ar": "فحص أمان صور الحاويات (Container Images): الدليل الكامل",
+      "ar": "??? ???? ??? ???????? (Container Images): ?????? ??????",
       "en": "Scanning Container Image Security: The Complete Guide"
     },
     "excerpt": {
-      "ar": "إزاي أدوات الفحص بتشتغل فعليًا، 4 خطوات عملية تفصيلية، وليه الفحص لمرة واحدة وقت البناء بس مش كافٍ.",
+      "ar": "???? ????? ????? ?????? ??????? 4 ????? ????? ???????? ???? ????? ???? ????? ??? ?????? ?? ?? ????.",
       "en": "How scanning tools actually work, 4 detailed practical steps, and why one-time build-time scanning alone isn't enough."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1815,24 +2366,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0058",
     "slug": "guest-wifi-network-isolation",
     "title": {
-      "ar": "عزل شبكة الضيوف (Guest Wi-Fi): إعداد بسيط بفايدة كبيرة",
+      "ar": "??? ???? ?????? (Guest Wi-Fi): ????? ???? ?????? ?????",
       "en": "Guest Wi-Fi Isolation: A Simple Setup with a Big Payoff"
     },
     "excerpt": {
-      "ar": "5 خطوات إعداد تفصيلية بدل 4، وليه مشاركة كلمة المرور الداخلية بتلغي الفايدة كاملة بغض النظر عن باقي الإعدادات.",
+      "ar": "5 ????? ????? ??????? ??? 4? ???? ?????? ???? ?????? ???????? ????? ??????? ????? ??? ????? ?? ???? ?????????.",
       "en": "5 detailed setup steps up from 4, and why sharing the internal password eliminates the entire benefit regardless of other settings."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1847,24 +2407,35 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "networking"
+    ],
+    "topicIds": [
+      "wireless"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0059",
     "slug": "spf-dkim-dmarc-email-basics",
     "title": {
-      "ar": "SPF وDKIM وDMARC: الدليل الكامل لمنع انتحال دومين إيميلك",
+      "ar": "SPF ?DKIM ?DMARC: ?????? ?????? ???? ?????? ????? ??????",
       "en": "SPF, DKIM, and DMARC: The Complete Guide to Stopping Email Domain Spoofing"
     },
     "excerpt": {
-      "ar": "إزاي كل سجل بيشتغل تقنيًا بالتفصيل، وليه البدء بوضع مراقبة DMARC (p=none) أهم خطوة لتجنب كارثة عملية.",
+      "ar": "???? ?? ??? ?????? ?????? ????????? ???? ????? ???? ?????? DMARC (p=none) ??? ???? ????? ????? ?????.",
       "en": "How each record technically works in detail, and why starting DMARC in monitor mode (p=none) is the most important step to avoid a practical disaster."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1880,24 +2451,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0060",
     "slug": "cyber-insurance-what-it-covers",
     "title": {
-      "ar": "التأمين ضد المخاطر السيبرانية: الدليل الكامل لإيه اللي بيغطيه فعليًا",
+      "ar": "??????? ?? ??????? ??????????: ?????? ?????? ???? ???? ?????? ??????",
       "en": "Cyber Insurance: The Complete Guide to What It Actually Covers"
     },
     "excerpt": {
-      "ar": "3 أشياء غالبًا مش مغطاة (وأهمها الفدية نفسها)، والسؤال الأهم عن الحد الأدنى الأمني اللي لازم تسأله قبل الشراء.",
+      "ar": "3 ????? ?????? ?? ????? (?????? ?????? ?????)? ??????? ????? ?? ???? ?????? ?????? ???? ???? ????? ??? ??????.",
       "en": "3 things often not covered (most importantly the ransom itself), and the most important security-baseline question to ask before buying."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1912,24 +2492,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0061",
     "slug": "it-change-management-process-basics",
     "title": {
-      "ar": "عملية إدارة التغيير في IT: ليه أي تعديل محتاج توثيق",
+      "ar": "????? ????? ??????? ?? IT: ??? ?? ????? ????? ?????",
       "en": "IT Change Management: Why Every Change Needs Documentation"
     },
     "excerpt": {
-      "ar": "4 عناصر أساسية بالتفصيل، ليه المبالغة في التعقيد من أول يوم أخطر من عدم وجود عملية أصلًا، ونصيحة التطبيق التدريجي.",
+      "ar": "4 ????? ?????? ????????? ??? ???????? ?? ??????? ?? ??? ??? ???? ?? ??? ???? ????? ?????? ?????? ??????? ????????.",
       "en": "4 core elements in detail, why over-complicating from day one is more dangerous than having no process at all, and gradual implementation advice."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1950,18 +2539,18 @@
     "id": "art-gen-0062",
     "slug": "data-classification-basics",
     "title": {
-      "ar": "تصنيف البيانات: مش كل الملفات محتاجة نفس مستوى الحماية",
+      "ar": "????? ????????: ?? ?? ??????? ?????? ??? ????? ???????",
       "en": "Data Classification: Not Every File Needs the Same Protection Level"
     },
     "excerpt": {
-      "ar": "نظام تصنيف بأربع مستويات بالتفصيل، وليه محاولة تصنيف كل شيء دفعة واحدة من أول يوم أشهر خطأ عملي يفشل المشروع كله.",
+      "ar": "???? ????? ????? ??????? ????????? ???? ?????? ????? ?? ??? ???? ????? ?? ??? ??? ???? ??? ???? ???? ??????? ???.",
       "en": "A detailed four-level classification system, and why trying to classify everything at once from day one is the most common practical mistake that fails the whole project."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -1982,18 +2571,18 @@
     "id": "art-gen-0063",
     "slug": "mfa-methods-compared-sms-app-hardware",
     "title": {
-      "ar": "طرق المصادقة الثنائية: SMS مقابل تطبيق مقابل مفتاح مادي",
+      "ar": "??? ???????? ????????: SMS ????? ????? ????? ????? ????",
       "en": "MFA Methods Compared: SMS vs App vs Hardware Key"
     },
     "excerpt": {
-      "ar": "مش كل أنواع المصادقة الثنائية بنفس مستوى الأمان — الفروق مهمة.",
+      "ar": "?? ?? ????? ???????? ???????? ???? ????? ?????? ? ?????? ????.",
       "en": "Not all MFA types offer the same security level -- the differences matter."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2007,24 +2596,35 @@
       "identity"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "iam-pam"
+    ],
+    "contentType": "concept",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0064",
     "slug": "sql-injection-basics-explained",
     "title": {
-      "ar": "حقن SQL: ليه سطر كود واحد ضعيف يقدر يسرّب قاعدة بيانات كاملة",
+      "ar": "??? SQL: ??? ??? ??? ???? ???? ???? ????? ????? ?????? ?????",
       "en": "SQL Injection: How One Weak Line of Code Can Leak an Entire Database"
     },
     "excerpt": {
-      "ar": "شرح مبسط لثغرة قديمة لسه شائعة جدًا، وإزاي تتجنبها من الأساس.",
+      "ar": "??? ???? ????? ????? ??? ????? ????? ????? ??????? ?? ??????.",
       "en": "A simplified explanation of an old vulnerability that's still very common, and how to avoid it from the ground up."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2038,24 +2638,35 @@
       "owasp"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "vulnerability-management"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0065",
     "slug": "windows-task-scheduler-automation",
     "title": {
-      "ar": "أتمتة المهام بـ Task Scheduler: أكتر من مجرد تذكيرات",
+      "ar": "????? ?????? ?? Task Scheduler: ???? ?? ???? ???????",
       "en": "Task Automation with Task Scheduler: More Than Just Reminders"
     },
     "excerpt": {
-      "ar": "3 استخدامات عملية بالتفصيل، خطوات إنشاء مهمة صحيحة، وليه استخدام حساب المستخدم الشخصي أشهر سبب فشل صامت.",
+      "ar": "3 ????????? ????? ????????? ????? ????? ???? ?????? ???? ??????? ???? ???????? ?????? ???? ??? ??? ????.",
       "en": "3 practical uses in detail, correct task creation steps, and why using a personal user account is the most common cause of silent failure."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2076,18 +2687,18 @@
     "id": "art-gen-0066",
     "slug": "insider-threat-detection-basics",
     "title": {
-      "ar": "التهديد الداخلي (Insider Threat): الدليل الكامل لاكتشافه",
+      "ar": "??????? ??????? (Insider Threat): ?????? ?????? ????????",
       "en": "Insider Threats: Not Every Risk Comes from Outside"
     },
     "excerpt": {
-      "ar": "الفرق الجوهري بين تهديد متعمد وغير متعمد، 3 علامات تحذيرية سلوكية تستاهل انتباه حقيقي بالتفصيل.",
+      "ar": "????? ??????? ??? ????? ????? ???? ?????? 3 ?????? ??????? ?????? ?????? ?????? ????? ????????.",
       "en": "The fundamental difference between deliberate and unintentional threats, 3 behavioral warning signs deserving genuine attention in detail."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2102,24 +2713,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0067",
     "slug": "sd-wan-basics-explained",
     "title": {
-      "ar": "SD-WAN بدون تعقيد: الدليل الكامل لإيه اللي بيحله فعليًا",
+      "ar": "SD-WAN ???? ?????: ?????? ?????? ???? ???? ????? ??????",
       "en": "SD-WAN Without the Jargon: The Complete Guide to What It Actually Solves"
     },
     "excerpt": {
-      "ar": "إزاي التوجيه الذكي حسب نوع التطبيق بيشتغل، وليه الخلط بين إدارة الشبكة والأمان غلط شائع خطير.",
+      "ar": "???? ??????? ????? ??? ??? ??????? ??????? ???? ????? ??? ????? ?????? ??????? ??? ???? ????.",
       "en": "If you have multiple branches, the traditional way of connecting them is costly and inflexible -- SD-WAN is a practical alternative."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2134,24 +2754,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "networking"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0068",
     "slug": "secure-remote-work-checklist",
     "title": {
-      "ar": "قائمة تحقق للعمل عن بُعد الآمن: 8 نقاط أساسية",
+      "ar": "????? ???? ????? ?? ???? ?????: 8 ???? ??????",
       "en": "A Secure Remote Work Checklist: 8 Essential Points"
     },
     "excerpt": {
-      "ar": "قائمة عملية مختصرة تقدر تراجعها مع أي موظف عن بُعد جديد.",
+      "ar": "????? ????? ?????? ???? ??????? ?? ?? ???? ?? ???? ????.",
       "en": "A short, practical list you can review with any new remote employee."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2165,24 +2794,36 @@
       "vpn"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [
+      "vpn"
+    ],
+    "contentType": "concept",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0069",
     "slug": "windows-local-admin-password-rotation",
     "title": {
-      "ar": "تدوير كلمة مرور المدير المحلي (LAPS): الدليل الكامل",
+      "ar": "????? ???? ???? ?????? ?????? (LAPS): ?????? ??????",
       "en": "Local Admin Password Rotation (LAPS): Why It Matters a Lot"
     },
     "excerpt": {
-      "ar": "إزاي LAPS بيقفل ثغرة الانتشار الجانبي تقنيًا، وليه صلاحية قراءة كلمات المرور المخزّنة أهم نقطة في التطبيق كله.",
+      "ar": "???? LAPS ????? ???? ???????? ??????? ??????? ???? ?????? ????? ????? ?????? ???????? ??? ???? ?? ??????? ???.",
       "en": "How LAPS technically closes the lateral-movement gap, and why the stored-password read permission is the most important point in the whole implementation."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2197,24 +2838,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0070",
     "slug": "sonicwall-sma1000-ransomware-exploitation-2026",
     "title": {
-      "ar": "ثغرات SonicWall الأخيرة تُستغل فعليًا في هجمات فدية",
+      "ar": "????? SonicWall ??????? ?????? ?????? ?? ????? ????",
       "en": "Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks"
     },
     "excerpt": {
-      "ar": "عصابة INC Ransomware تستهدف أجهزة SonicWall SMA1000 غير المُحدَّثة للوصول الجذري والتحرك الجانبي داخل الشبكات.",
+      "ar": "????? INC Ransomware ?????? ????? SonicWall SMA1000 ??? ?????????? ?????? ?????? ??????? ??????? ???? ???????.",
       "en": "The INC Ransomware gang is targeting vulnerable SonicWall SMA1000 appliances for root access and lateral movement inside networks."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "news-updates",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2228,24 +2878,34 @@
       "news"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [],
+    "contentType": "concept",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0071",
     "slug": "n-able-n-central-cve-2026-18577-exploited",
     "title": {
-      "ar": "ثغرة N-central (CVE-2026-18577) استُغلّت فعليًا بعد تجاوز الترقيع الأول",
+      "ar": "???? N-central (CVE-2026-18577) ???????? ?????? ??? ????? ??????? ?????",
       "en": "N-central Vulnerability (CVE-2026-18577) Exploited After Bypassing an Earlier Patch"
     },
     "excerpt": {
-      "ar": "N-able أصدرت ترقيعًا جديدًا بعد ما اكتشف مهاجمون طريقة لتجاوز الحل الأول للثغرة.",
+      "ar": "N-able ????? ??????? ?????? ??? ?? ????? ??????? ????? ?????? ???? ????? ??????.",
       "en": "N-able issued a new patch after attackers found a way to bypass the earlier fix for the vulnerability."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "news-updates",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2260,24 +2920,37 @@
       "vulnerability"
     ],
     "isFeatured": false,
-    "isTrending": true
+    "isTrending": true,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "vulnerability-management"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0072",
     "slug": "azure-cosmos-db-cosmosescape-flaw",
     "title": {
-      "ar": "ثغرة CosmosEscape في Azure Cosmos DB: كشف المفتاح الأساسي بالكامل",
+      "ar": "???? CosmosEscape ?? Azure Cosmos DB: ??? ??????? ??????? ???????",
       "en": "CosmosEscape Flaw in Azure Cosmos DB Exposed Full Primary Keys"
     },
     "excerpt": {
-      "ar": "ثغرة حرجة سمحت بالوصول الكامل للقراءة والكتابة على حسابات Cosmos DB المتأثرة.",
+      "ar": "???? ???? ???? ??????? ?????? ??????? ???????? ??? ?????? Cosmos DB ????????.",
       "en": "A critical flaw allowed full read and write access to affected Cosmos DB accounts."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "news-updates",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2291,24 +2964,38 @@
       "news"
     ],
     "isFeatured": false,
-    "isTrending": true
+    "isTrending": true,
+    "domainIds": [
+      "cybersecurity",
+      "infrastructure"
+    ],
+    "topicIds": [
+      "cloud"
+    ],
+    "contentType": "concept",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0073",
     "slug": "azure-cli-password-spray-campaign",
     "title": {
-      "ar": "حملة رش كلمات مرور ضخمة تستهدف Azure CLI",
+      "ar": "???? ?? ????? ???? ???? ?????? Azure CLI",
       "en": "Massive Password Spray Campaign Targeting Azure CLI"
     },
     "excerpt": {
-      "ar": "محاولات دخول آلية واسعة النطاق ضد حسابات Azure عن طريق أداة سطر الأوامر.",
+      "ar": "??????? ???? ???? ????? ?????? ?? ?????? Azure ?? ???? ???? ??? ???????.",
       "en": "Large-scale automated login attempts against Azure accounts via the command-line tool."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "news-updates",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2323,24 +3010,38 @@
       "identity"
     ],
     "isFeatured": false,
-    "isTrending": true
+    "isTrending": true,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [
+      "iam-pam",
+      "cloud"
+    ],
+    "contentType": "concept",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0074",
     "slug": "ruby-on-rails-critical-rce-patch",
     "title": {
-      "ar": "Ruby on Rails تُصلح ثغرة حرجة تسمح بتنفيذ كود عن بُعد",
+      "ar": "Ruby on Rails ????? ???? ???? ???? ?????? ??? ?? ????",
       "en": "Ruby on Rails Patches a Critical Remote Code Execution Vulnerability"
     },
     "excerpt": {
-      "ar": "الثغرة قابلة للاستغلال من مهاجم غير مُصادَق عليه لقراءة ملفات عشوائية وربما تنفيذ كود.",
+      "ar": "?????? ????? ????????? ?? ????? ??? ??????? ???? ?????? ????? ??????? ????? ????? ???.",
       "en": "The flaw is exploitable by an unauthenticated attacker to read arbitrary files and potentially achieve code execution."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "news-updates",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2355,24 +3056,35 @@
       "web-security"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "vulnerability-management"
+    ],
+    "contentType": "concept",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0075",
     "slug": "honeypot-deception-basics",
     "title": {
-      "ar": "الفخاخ الرقمية (Honeypots): كيف تكتشف المهاجم قبل ما يوصل لأي حاجة حقيقية",
+      "ar": "?????? ??????? (Honeypots): ??? ????? ??????? ??? ?? ???? ??? ???? ??????",
       "en": "Honeypots: Catching an Attacker Before They Reach Anything Real"
     },
     "excerpt": {
-      "ar": "الفرق بين Low-Interaction وHigh-Interaction بالتفصيل، خطوات بداية عملية، ونصيحة العزل الصارم الأساسية.",
+      "ar": "????? ??? Low-Interaction ?High-Interaction ????????? ????? ????? ?????? ?????? ????? ?????? ????????.",
       "en": "The Low-Interaction vs High-Interaction difference in detail, practical starting steps, and the essential strict-isolation advice."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2393,18 +3105,18 @@
     "id": "art-gen-0076",
     "slug": "security-awareness-training-metrics",
     "title": {
-      "ar": "قياس فعالية تدريب الوعي الأمني: الدليل الكامل لأرقام غير نسبة النقر",
+      "ar": "???? ?????? ????? ????? ??????: ?????? ?????? ?????? ??? ???? ?????",
       "en": "Measuring Security Awareness Training: The Complete Guide Beyond Click Rate"
     },
     "excerpt": {
-      "ar": "نسبة اللي وقعوا في محاكاة التصيد مؤشر واحد بس، وممكن يضلّلك لو اعتمدت عليه بس.",
+      "ar": "???? ???? ????? ?? ?????? ?????? ???? ???? ??? ????? ?????? ?? ?????? ???? ??.",
       "en": "The phishing-simulation click rate is just one signal, and can be misleading if it's all you track."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2419,24 +3131,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0077",
     "slug": "air-gapped-networks-explained",
     "title": {
-      "ar": "الشبكات المعزولة فيزيائيًا (Air-Gapped): متى تحتاجها فعلًا",
+      "ar": "??????? ???????? ????????? (Air-Gapped): ??? ??????? ?????",
       "en": "Air-Gapped Networks: When You Actually Need One"
     },
     "excerpt": {
-      "ar": "متى التعقيد الإضافي يستاهل فعليًا، وليه النقل عبر وسائط فيزيائية (زي Stuxnet) هو نقطة الضعف الحقيقية.",
+      "ar": "??? ??????? ??????? ?????? ??????? ???? ????? ??? ????? ???????? (?? Stuxnet) ?? ???? ????? ????????.",
       "en": "When the extra complexity is genuinely worth it, and why physical media transfer (like Stuxnet) is the real weak point."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2451,24 +3172,34 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0078",
     "slug": "cloud-storage-misconfiguration-risks",
     "title": {
-      "ar": "أخطاء إعداد التخزين السحابي: الدليل الكامل لأشهر سبب لتسريبات البيانات",
+      "ar": "????? ????? ??????? ???????: ?????? ?????? ????? ??? ???????? ????????",
       "en": "Cloud Storage Misconfiguration: The Complete Guide to the Most Common Cause of Data Leaks"
     },
     "excerpt": {
-      "ar": "ليه معظم التسريبات الضخمة مش نتيجة هجوم متطور، و5 خطوات وقاية تفصيلية من الإعداد الافتراضي للمراجعة الدورية.",
+      "ar": "??? ???? ????????? ?????? ?? ????? ???? ?????? ?5 ????? ????? ??????? ?? ??????? ????????? ???????? ???????.",
       "en": "Why most massive leaks aren't the result of a sophisticated attack, and 5 detailed prevention steps from default settings to periodic review."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2483,24 +3214,36 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": true
+    "isTrending": true,
+    "domainIds": [
+      "cybersecurity",
+      "infrastructure"
+    ],
+    "topicIds": [
+      "cloud"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0079",
     "slug": "api-rate-limiting-basics",
     "title": {
-      "ar": "تحديد معدل الطلبات (Rate Limiting): حماية الـAPI من الإغراق",
+      "ar": "????? ???? ??????? (Rate Limiting): ????? ???API ?? ???????",
       "en": "API Rate Limiting: Protecting Your API from Being Overwhelmed"
     },
     "excerpt": {
-      "ar": "4 استراتيجيات تحديد بالتفصيل (Fixed Window, Token Bucket)، وأين تطبّق التحديد فنيًا (Gateway مقابل التطبيق نفسه).",
+      "ar": "4 ??????????? ????? ???????? (Fixed Window, Token Bucket)? ???? ????? ??????? ????? (Gateway ????? ??????? ????).",
       "en": "4 detailed limiting strategies (fixed window, token bucket), and where to technically implement it (gateway vs the application itself)."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2515,24 +3258,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": true
+    "isTrending": true,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0080",
     "slug": "dual-control-critical-operations",
     "title": {
-      "ar": "مبدأ الرقابة المزدوجة (Dual Control): ليه عملية حساسة محتاجة موافقة شخصين",
+      "ar": "???? ??????? ???????? (Dual Control): ??? ????? ????? ?????? ?????? ?????",
       "en": "Dual Control: Why a Sensitive Operation Needs Two People's Approval"
     },
     "excerpt": {
-      "ar": "3 زوايا ليه المبدأ ده مهم فعليًا، أمثلة تطبيق واقعية، وليه آلية الموافقة السريعة أساسية لنجاح التطبيق.",
+      "ar": "3 ????? ??? ?????? ?? ??? ??????? ????? ????? ??????? ???? ???? ???????? ??????? ?????? ????? ???????.",
       "en": "3 angles on why this principle genuinely matters, real application examples, and why a fast approval mechanism is essential for successful implementation."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2553,18 +3305,18 @@
     "id": "art-gen-0081",
     "slug": "threat-modeling-stride-basics",
     "title": {
-      "ar": "نمذجة التهديدات بطريقة STRIDE: فكّر زي المهاجم قبل ما تبني",
+      "ar": "????? ????????? ?????? STRIDE: ???? ?? ??????? ??? ?? ????",
       "en": "Threat Modeling with STRIDE: Think Like an Attacker Before You Build"
     },
     "excerpt": {
-      "ar": "الست فئات بالتفصيل مع أمثلة حقيقية، مثال تطبيقي كامل (نظام تسجيل دخول)، ومتى تطبّق STRIDE عمليًا.",
+      "ar": "???? ???? ???????? ?? ????? ??????? ???? ?????? ???? (???? ????? ????)? ???? ????? STRIDE ??????.",
       "en": "The six categories in detail with real examples, a complete applied example (a login system), and when to apply STRIDE practically."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2585,18 +3337,18 @@
     "id": "art-gen-0082",
     "slug": "active-directory-complete-setup-guide",
     "title": {
-      "ar": "الدليل الشامل لإعداد وإدارة Active Directory من الصفر",
+      "ar": "?????? ?????? ?????? ?????? Active Directory ?? ?????",
       "en": "The Complete Guide to Setting Up and Managing Active Directory From Scratch"
     },
     "excerpt": {
-      "ar": "دليل مرجعي متكامل: من التثبيت الأول لتصميم OU وGroup Policy والأمان وأشهر الأخطاء وحلولها.",
+      "ar": "???? ????? ??????: ?? ??????? ????? ?????? OU ?Group Policy ??????? ????? ??????? ???????.",
       "en": "A complete reference guide: from initial installation through OU design, Group Policy, security, and the most common errors with their fixes."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2611,24 +3363,40 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "infrastructure"
+    ],
+    "topicIds": [
+      "active-directory"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [
+      "active-directory"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0083",
     "slug": "powershell-sysadmin-complete-guide",
     "title": {
-      "ar": "الدليل الشامل لاستخدام PowerShell في إدارة الأنظمة",
+      "ar": "?????? ?????? ???????? PowerShell ?? ????? ???????",
       "en": "The Complete Guide to Using PowerShell for System Administration"
     },
     "excerpt": {
-      "ar": "من الأوامر الأساسية لكتابة سكريبتات حقيقية للأتمتة، مع أشهر الأخطاء وحلولها.",
+      "ar": "?? ??????? ???????? ?????? ???????? ?????? ???????? ?? ???? ??????? ???????.",
       "en": "From basic commands to writing real automation scripts, with common mistakes and their fixes."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2643,24 +3411,33 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0084",
     "slug": "incident-response-plan-from-scratch",
     "title": {
-      "ar": "كيف تبني خطة استجابة للحوادث الأمنية من الصفر",
+      "ar": "??? ???? ??? ??????? ??????? ??????? ?? ?????",
       "en": "How to Build a Security Incident Response Plan From Scratch"
     },
     "excerpt": {
-      "ar": "المراحل الست حسب إطار NIST، قائمة تحقق لأول ساعة من أي حادث، وأشهر خطأ بيزوّد الضرر بدل ما يقلله.",
+      "ar": "??????? ???? ??? ???? NIST? ????? ???? ???? ???? ?? ?? ????? ????? ??? ?????? ????? ??? ?? ?????.",
       "en": "The six phases per the NIST framework, a first-hour checklist for any incident, and the most common mistake that increases damage instead of reducing it."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2675,24 +3452,35 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "threat-detection"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0085",
     "slug": "wireshark-network-analysis-complete-guide",
     "title": {
-      "ar": "الدليل الشامل لتحليل حركة الشبكة باستخدام Wireshark",
+      "ar": "?????? ?????? ?????? ???? ?????? ???????? Wireshark",
       "en": "The Complete Guide to Network Traffic Analysis with Wireshark"
     },
     "excerpt": {
-      "ar": "فلاتر الالتقاط والعرض بالتفصيل، سيناريوهات تشخيص حقيقية (بطء، DNS مشبوه، فشل TLS)، ونصيحة أمان مهمة قبل الاستخدام.",
+      "ar": "????? ???????? ?????? ????????? ?????????? ????? ?????? (???? DNS ?????? ??? TLS)? ?????? ???? ???? ??? ?????????.",
       "en": "Capture and display filters in detail, real diagnostic scenarios (slowness, suspicious DNS, TLS failures), and an important safety note before use."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2706,24 +3494,36 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "networking"
+    ],
+    "topicIds": [
+      "pki-certificates",
+      "dns"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0086",
     "slug": "kerberos-authentication-explained",
     "title": {
-      "ar": "فهم Kerberos: كيف تعمل المصادقة فعليًا في Active Directory",
+      "ar": "??? Kerberos: ??? ???? ???????? ?????? ?? Active Directory",
       "en": "Understanding Kerberos: How Authentication Actually Works in Active Directory"
     },
     "excerpt": {
-      "ar": "تسلسل العملية خطوة بخطوة، ليه مزامنة الوقت حرجة جدًا، وأشهر الهجمات المتقدمة (Pass-the-Ticket وGolden Ticket) للوعي.",
+      "ar": "????? ??????? ???? ?????? ??? ?????? ????? ???? ????? ????? ??????? ???????? (Pass-the-Ticket ?Golden Ticket) ?????.",
       "en": "The step-by-step process, why time synchronization is critical, and the most common advanced attacks (Pass-the-Ticket and Golden Ticket) for awareness."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2738,24 +3538,39 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [
+      "active-directory"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [
+      "active-directory"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0087",
     "slug": "pki-certificate-authority-explained",
     "title": {
-      "ar": "فهم PKI وسلسلة الثقة: كيف تعرف أن الشهادة حقيقية فعلًا",
+      "ar": "??? PKI ?????? ?????: ??? ???? ?? ??????? ?????? ?????",
       "en": "Understanding PKI and the Chain of Trust: How You Know a Certificate Is Actually Real"
     },
     "excerpt": {
-      "ar": "زوج المفاتيح العام/الخاص، سلسلة الثقة من Root CA للشهادة الوسيطة، أنواع الشهادات (DV/OV/EV)، وليه تحذير الشهادة غير الموثوقة خطير فعلًا.",
+      "ar": "??? ???????? ?????/?????? ????? ????? ?? Root CA ??????? ???????? ????? ???????? (DV/OV/EV)? ???? ????? ??????? ??? ???????? ???? ?????.",
       "en": "The public/private key pair, the chain of trust from Root CA to intermediate certificates, certificate types (DV/OV/EV), and why the untrusted certificate warning is genuinely dangerous."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2770,24 +3585,35 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [
+      "pki-certificates"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0088",
     "slug": "disaster-recovery-plan-basics",
     "title": {
-      "ar": "أساسيات خطة التعافي من الكوارث (DRP): الدليل الكامل",
+      "ar": "??????? ??? ??????? ?? ??????? (DRP): ?????? ??????",
       "en": "Disaster Recovery Plan (DRP) Basics: The Complete Guide"
     },
     "excerpt": {
-      "ar": "الفرق بين النسخ الاحتياطي وخطة DR كاملة، مقياسا RTO/RPO موضّحان بالمثال، ومستويات الاستراتيجية من الأرخص للأسرع.",
+      "ar": "????? ??? ????? ????????? ???? DR ?????? ?????? RTO/RPO ??????? ???????? ???????? ???????????? ?? ?????? ??????.",
       "en": "The difference between backup and a full DR plan, RTO/RPO metrics explained with examples, and strategy tiers from cheapest to fastest."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2802,24 +3628,35 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [
+      "backup-recovery"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0089",
     "slug": "nmap-network-scanning-complete-guide",
     "title": {
-      "ar": "الدليل الشامل لاستخدام Nmap في فحص الشبكة",
+      "ar": "?????? ?????? ???????? Nmap ?? ??? ??????",
       "en": "The Complete Guide to Network Scanning with Nmap"
     },
     "excerpt": {
-      "ar": "أنواع الفحص الأساسية بأوامر حقيقية، 3 استخدامات عملية شائعة، وتحذير قانوني مهم قبل أي استخدام.",
+      "ar": "????? ????? ???????? ?????? ??????? 3 ????????? ????? ?????? ?????? ?????? ??? ??? ?? ???????.",
       "en": "Core scan types with real commands, 3 common practical use cases, and an important legal warning before any use."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2833,24 +3670,33 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "networking"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0090",
     "slug": "vulnerability-management-program-guide",
     "title": {
-      "ar": "بناء برنامج إدارة ثغرات ناجح: الدليل الكامل",
+      "ar": "???? ?????? ????? ????? ????: ?????? ??????",
       "en": "Building a Successful Vulnerability Management Program: The Complete Guide"
     },
     "excerpt": {
-      "ar": "دورة الحياة الكاملة (اكتشاف، تقييم، إصلاح، تحقق)، نظام أولويات عملي غير درجة CVSS بس، وجدول أطر زمنية مقترحة.",
+      "ar": "???? ?????? ??????? (??????? ?????? ?????? ????)? ???? ??????? ???? ??? ???? CVSS ??? ????? ??? ????? ??????.",
       "en": "The full lifecycle (discovery, assessment, remediation, verification), a practical priority system beyond just the CVSS score, and a suggested timeframe table."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2865,24 +3711,35 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "vulnerability-management"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0091",
     "slug": "how-edr-actually-works",
     "title": {
-      "ar": "كيف يعمل EDR فعليًا: الفرق الجوهري عن مضاد الفيروسات التقليدي",
+      "ar": "??? ???? EDR ??????: ????? ??????? ?? ???? ????????? ????????",
       "en": "How EDR Actually Works: The Fundamental Difference from Traditional Antivirus"
     },
     "excerpt": {
-      "ar": "التحليل السلوكي بدل التوقيعات الثابتة، ليه EDR بيكتشف الهجمات بدون ملفات، وقيوده الواقعية.",
+      "ar": "??????? ??????? ??? ????????? ???????? ??? EDR ?????? ??????? ???? ?????? ?????? ????????.",
       "en": "Behavioral analysis instead of fixed signatures, why EDR catches fileless attacks, and its realistic limitations."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "endpoint",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2897,24 +3754,35 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "endpoint-security"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0092",
     "slug": "container-security-basics-guide",
     "title": {
-      "ar": "أساسيات أمان الحاويات (Container Security): الدليل الكامل",
+      "ar": "??????? ???? ???????? (Container Security): ?????? ??????",
       "en": "Container Security Basics: The Complete Guide"
     },
     "excerpt": {
-      "ar": "4 مخاطر أساسية مختلفة عن أمان الأجهزة الافتراضية التقليدي، و5 خطوات حماية عملية من فحص الصور لسياسات الشبكة.",
+      "ar": "4 ????? ?????? ?????? ?? ???? ??????? ?????????? ????????? ?5 ????? ????? ????? ?? ??? ????? ??????? ??????.",
       "en": "4 core risks different from traditional VM security, and 5 practical protection steps from image scanning to network policies."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2929,24 +3797,34 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0093",
     "slug": "byod-policy-security-guide",
     "title": {
-      "ar": "سياسة BYOD (استخدام الجهاز الشخصي للعمل): الدليل الكامل",
+      "ar": "????? BYOD (??????? ?????? ?????? ?????): ?????? ??????",
       "en": "BYOD Policy (Bring Your Own Device): The Complete Guide"
     },
     "excerpt": {
-      "ar": "3 مخاطر أساسية، الفرق بين MDM وMAM (لماذا الأخير أكثر توازنًا)، وعناصر سياسة عملية موثّقة.",
+      "ar": "3 ????? ??????? ????? ??? MDM ?MAM (????? ?????? ???? ???????)? ?????? ????? ????? ??????.",
       "en": "3 core risks, the MDM vs MAM difference (why the latter is more balanced), and elements of a practical documented policy."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2961,24 +3839,35 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "endpoint-security"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0094",
     "slug": "secure-sdlc-guide",
     "title": {
-      "ar": "دورة تطوير البرمجيات الآمنة (SSDLC): الدليل الكامل",
+      "ar": "???? ????? ????????? ?????? (SSDLC): ?????? ??????",
       "en": "Secure Software Development Lifecycle (SSDLC): The Complete Guide"
     },
     "excerpt": {
-      "ar": "الستة مراحل ودمج الأمان في كل واحدة، DevSecOps وربط الفحص بـCI/CD، وليه إصلاح الأمان في الآخر مكلف جدًا.",
+      "ar": "????? ????? ???? ?????? ?? ?? ?????? DevSecOps ???? ????? ??CI/CD? ???? ????? ?????? ?? ????? ???? ????.",
       "en": "The six phases and integrating security into each, DevSecOps and linking scanning to CI/CD, and why fixing security at the end is very costly."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -2993,24 +3882,33 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0095",
     "slug": "how-siem-actually-works",
     "title": {
-      "ar": "كيف يعمل SIEM فعليًا: الفرق بين مجرد تجميع السجلات والقيمة الحقيقية",
+      "ar": "??? ???? SIEM ??????: ????? ??? ???? ????? ??????? ??????? ????????",
       "en": "How SIEM Actually Works: The Difference Between Simple Log Collection and Real Value"
     },
     "excerpt": {
-      "ar": "5 مكونات أساسية (جمع، تطبيع، ربط، تنبيه، تقارير)، وسيناريو Impossible Travel يوضّح القيمة الحقيقية.",
+      "ar": "5 ?????? ?????? (???? ?????? ???? ?????? ??????)? ???????? Impossible Travel ????? ?????? ????????.",
       "en": "5 core components (collection, normalization, correlation, alerting, reporting), and an Impossible Travel scenario illustrating real value."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3025,24 +3923,35 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "siem-soc"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0096",
     "slug": "web-application-firewall-waf-guide",
     "title": {
-      "ar": "جدار حماية تطبيقات الويب (WAF): الدليل الكامل",
+      "ar": "???? ????? ??????? ????? (WAF): ?????? ??????",
       "en": "Web Application Firewall (WAF): The Complete Guide"
     },
     "excerpt": {
-      "ar": "الفرق الجوهري عن جدار الحماية الشبكي التقليدي، 4 أنواع هجمات بيحميك منها، ووضعي المراقبة والحجب بالتفصيل.",
+      "ar": "????? ??????? ?? ???? ??????? ?????? ????????? 4 ????? ????? ?????? ????? ????? ???????? ?????? ????????.",
       "en": "The fundamental difference from a traditional network firewall, 4 attack types it protects against, and the monitor vs blocking modes in detail."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3057,24 +3966,36 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [
+      "firewalls"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0097",
     "slug": "data-loss-prevention-dlp-guide",
     "title": {
-      "ar": "منع تسريب البيانات (DLP): الدليل الكامل",
+      "ar": "??? ????? ???????? (DLP): ?????? ??????",
       "en": "Data Loss Prevention (DLP): The Complete Guide"
     },
     "excerpt": {
-      "ar": "4 طرق كشف بيانات حساسة بالتفصيل، 3 نقاط تطبيق رئيسية (شبكة/جهاز/سحابة)، وأشهر تحدي عملي (التنبيهات الكاذبة).",
+      "ar": "4 ??? ??? ?????? ????? ????????? 3 ???? ????? ?????? (????/????/?????)? ????? ???? ???? (????????? ???????).",
       "en": "4 detailed sensitive-data detection methods, 3 main application points (network/endpoint/cloud), and the most common practical challenge (false positives)."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3089,24 +4010,39 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking",
+      "infrastructure"
+    ],
+    "topicIds": [
+      "endpoint-security",
+      "dlp",
+      "cloud"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0098",
     "slug": "insider-risk-program-guide",
     "title": {
-      "ar": "بناء برنامج إدارة التهديد الداخلي: الدليل الكامل",
+      "ar": "???? ?????? ????? ??????? ???????: ?????? ??????",
       "en": "Building an Insider Risk Program: The Complete Guide"
     },
     "excerpt": {
-      "ar": "3 فئات مختلفة للتهديد الداخلي، علامات تحذيرية سلوكية حقيقية، وليه التوازن بين الأمان والثقة حساس جدًا.",
+      "ar": "3 ???? ?????? ??????? ???????? ?????? ??????? ?????? ??????? ???? ??????? ??? ?????? ?????? ???? ????.",
       "en": "3 different insider threat categories, real behavioral warning signs, and why balancing security against trust is so delicate."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3121,24 +4057,33 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0099",
     "slug": "authentication-vs-authorization-explained",
     "title": {
-      "ar": "المصادقة مقابل التفويض (Authentication vs Authorization): الدليل الكامل",
+      "ar": "???????? ????? ??????? (Authentication vs Authorization): ?????? ??????",
       "en": "Authentication vs Authorization: The Complete Guide"
     },
     "excerpt": {
-      "ar": "الفرق الجوهري بين 'مين إنت' و'مسموح لك تعمل إيه'، نماذج RBAC/ABAC/ACL، ومثال عملي يوضّح ليه الخلط بينهم يسبب ثغرات حقيقية.",
+      "ar": "????? ??????? ??? '??? ???' ?'????? ?? ???? ???'? ????? RBAC/ABAC/ACL? ????? ???? ????? ??? ????? ????? ???? ????? ??????.",
       "en": "The fundamental difference between 'who are you' and 'what are you allowed to do', RBAC/ABAC/ACL models, and a practical example showing why confusing them causes real vulnerabilities."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3159,18 +4104,18 @@
     "id": "art-gen-0100",
     "slug": "owasp-top-10-overview",
     "title": {
-      "ar": "نظرة شاملة على OWASP Top 10: الدليل الكامل",
+      "ar": "???? ????? ??? OWASP Top 10: ?????? ??????",
       "en": "OWASP Top 10 Overview: The Complete Guide"
     },
     "excerpt": {
-      "ar": "أهم الفئات بالتفصيل (Broken Access Control، Injection، Cryptographic Failures)، وليه القائمة بتتغيّر وإزاي تستخدمها عمليًا.",
+      "ar": "??? ?????? ???????? (Broken Access Control? Injection? Cryptographic Failures)? ???? ??????? ??????? ????? ???????? ??????.",
       "en": "Key categories in detail (Broken Access Control, Injection, Cryptographic Failures), and why the list changes and how to use it practically."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3185,24 +4130,33 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0101",
     "slug": "understanding-cvss-score",
     "title": {
-      "ar": "فهم درجة CVSS: كيف تقرأ خطورة الثغرة صح",
+      "ar": "??? ???? CVSS: ??? ???? ????? ?????? ??",
       "en": "Understanding the CVSS Score: How to Correctly Read Vulnerability Severity"
     },
     "excerpt": {
-      "ar": "4 مكونات أساسية بتشكّل الدرجة، ليه السياق أهم من الرقم المجرد، ودور قوائم KEV في تحديد الأولوية الحقيقية.",
+      "ar": "4 ?????? ?????? ?????? ??????? ??? ?????? ??? ?? ????? ??????? ???? ????? KEV ?? ????? ???????? ????????.",
       "en": "4 core components forming the score, why context matters more than the raw number, and the KEV list's role in determining real priority."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3217,24 +4171,35 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "vulnerability-management"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0102",
     "slug": "security-operations-center-soc-guide",
     "title": {
-      "ar": "مركز العمليات الأمنية (SOC): الدليل الكامل",
+      "ar": "???? ???????? ??????? (SOC): ?????? ??????",
       "en": "Security Operations Center (SOC): The Complete Guide"
     },
     "excerpt": {
-      "ar": "3 مستويات فريق SOC التقليدية، تحدي التغطية الزمنية 24/7 (داخلي أو MSSP)، ومقاييس MTTD/MTTR لقياس الفعالية.",
+      "ar": "3 ??????? ???? SOC ?????????? ???? ??????? ??????? 24/7 (????? ?? MSSP)? ??????? MTTD/MTTR ????? ????????.",
       "en": "The 3 traditional SOC team tiers, the 24/7 time-coverage challenge (internal vs MSSP), and MTTD/MTTR metrics for measuring effectiveness."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3249,24 +4214,35 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "siem-soc"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0103",
     "slug": "immutable-backups-ransomware-defense",
     "title": {
-      "ar": "النسخ الاحتياطية غير القابلة للتعديل (Immutable Backups): الدليل الكامل",
+      "ar": "????? ?????????? ??? ??????? ??????? (Immutable Backups): ?????? ??????",
       "en": "Immutable Backups: The Complete Guide to Ransomware's Last Line of Defense"
     },
     "excerpt": {
-      "ar": "ليه المهاجمين بيستهدفون النسخ الاحتياطية نفسها عمدًا، وإزاي القفل التقني على مستوى التخزين مختلف جذريًا عن مجرد صلاحيات الوصول.",
+      "ar": "??? ????????? ????????? ????? ?????????? ????? ?????? ????? ????? ?????? ??? ????? ??????? ????? ?????? ?? ???? ??????? ??????.",
       "en": "Why attackers deliberately target backups themselves, and how a technical storage-level lock differs fundamentally from just access permissions."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3281,24 +4257,36 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "infrastructure"
+    ],
+    "topicIds": [
+      "backup-recovery"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0104",
     "slug": "tls-handshake-explained",
     "title": {
-      "ar": "فهم TLS Handshake: ماذا يحدث فعلًا خلف القفل الأخضر",
+      "ar": "??? TLS Handshake: ???? ???? ????? ??? ????? ??????",
       "en": "Understanding the TLS Handshake: What Actually Happens Behind the Green Lock"
     },
     "excerpt": {
-      "ar": "5 خطوات Handshake بالتفصيل، ليه TLS 1.3 أسرع تقنيًا، وإزاي فهم العملية بيخليك تشخّص مشاكل TLS بثقة.",
+      "ar": "5 ????? Handshake ????????? ??? TLS 1.3 ???? ??????? ????? ??? ??????? ?????? ????? ????? TLS ????.",
       "en": "The 5 handshake steps in detail, why TLS 1.3 is technically faster, and how understanding the process lets you diagnose TLS problems confidently."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3319,18 +4307,18 @@
     "id": "art-gen-0105",
     "slug": "zero-day-vulnerabilities-explained",
     "title": {
-      "ar": "ثغرات يوم الصفر (Zero-Day): الدليل الكامل",
+      "ar": "????? ??? ????? (Zero-Day): ?????? ??????",
       "en": "Zero-Day Vulnerabilities: The Complete Guide"
     },
     "excerpt": {
-      "ar": "دورة الحياة الكاملة من الاكتشاف للتصحيح، ليه الحماية التقليدية عاجزة تمامًا عن اكتشافها، و3 استراتيجيات دفاعية عملية رغم استحالة المنع الكامل.",
+      "ar": "???? ?????? ??????? ?? ???????? ???????? ??? ??????? ????????? ????? ?????? ?? ????????? ?3 ??????????? ?????? ????? ??? ??????? ????? ??????.",
       "en": "The complete lifecycle from discovery to patching, why traditional protection is entirely unable to detect it, and 3 practical defensive strategies despite total prevention being impossible."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3345,24 +4333,35 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "vulnerability-management"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0106",
     "slug": "smartphone-battery-longevity-guide",
     "title": {
-      "ar": "إطالة عمر بطارية الهاتف: الدليل الكامل",
+      "ar": "????? ??? ?????? ??????: ?????? ??????",
       "en": "Extending Smartphone Battery Life: The Complete Guide"
     },
     "excerpt": {
-      "ar": "3 عوامل حقيقية بتسرّع تدهور البطارية بالتفصيل، وعادات عملية بتحافظ على صحتها فعليًا على المدى الطويل.",
+      "ar": "3 ????? ?????? ?????? ????? ???????? ????????? ?????? ????? ?????? ??? ????? ?????? ??? ????? ??????.",
       "en": "3 real factors accelerating battery degradation in detail, and practical habits that genuinely preserve its health long-term."
     },
     "categoryId": "mobile",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3382,18 +4381,18 @@
     "id": "art-gen-0107",
     "slug": "effective-ai-prompting-guide",
     "title": {
-      "ar": "كتابة طلبات فعّالة للذكاء الاصطناعي: الدليل الكامل",
+      "ar": "????? ????? ?????? ?????? ?????????: ?????? ??????",
       "en": "Writing Effective AI Prompts: The Complete Guide"
     },
     "excerpt": {
-      "ar": "4 مبادئ صياغة أساسية بالتفصيل، وليه الاستسلام على أول رد أشهر خطأ عملي في الاستخدام اليومي.",
+      "ar": "4 ????? ????? ?????? ????????? ???? ????????? ??? ??? ?? ???? ??? ???? ?? ????????? ??????.",
       "en": "4 core phrasing principles in detail, and why settling for the first response is the most common practical mistake in daily use."
     },
     "categoryId": "ai",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3414,18 +4413,18 @@
     "id": "art-gen-0108",
     "slug": "how-gps-actually-works",
     "title": {
-      "ar": "كيف يعمل GPS فعليًا: الدليل الكامل",
+      "ar": "??? ???? GPS ??????: ?????? ??????",
       "en": "How GPS Actually Works: The Complete Guide"
     },
     "excerpt": {
-      "ar": "المبدأ الرياضي لتحديد الموقع بأربع أقمار صناعية، وليه الدقة بتختلف بين المدن الكثيفة والأماكن المفتوحة.",
+      "ar": "?????? ??????? ?????? ?????? ????? ????? ??????? ???? ????? ?????? ??? ????? ??????? ???????? ????????.",
       "en": "The mathematical principle of locating via four satellites, and why accuracy differs between dense cities and open areas."
     },
     "categoryId": "technology",
     "subcategoryId": "concepts",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3446,18 +4445,18 @@
     "id": "art-gen-0109",
     "slug": "laptop-for-developers-guide",
     "title": {
-      "ar": "اختيار لابتوب للمبرمجين: الدليل الكامل",
+      "ar": "?????? ?????? ?????????: ?????? ??????",
       "en": "Choosing a Laptop for Developers: The Complete Guide"
     },
     "excerpt": {
-      "ar": "4 مكونات فعليًا بتفرق بالتفصيل، ومقارنة أنظمة التشغيل الثلاثة (macOS/Linux/Windows+WSL) حسب نوع العمل.",
+      "ar": "4 ?????? ?????? ????? ????????? ??????? ????? ??????? ??????? (macOS/Linux/Windows+WSL) ??? ??? ?????.",
       "en": "4 components that genuinely matter in detail, and a comparison of the three OS options (macOS/Linux/Windows+WSL) by work type."
     },
     "categoryId": "laptops",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3472,24 +4471,35 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [
+      "linux"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0110",
     "slug": "wifi-vs-mobile-data-when-to-use",
     "title": {
-      "ar": "Wi-Fi مقابل بيانات الموبايل: متى تستخدم كل واحدة",
+      "ar": "Wi-Fi ????? ?????? ????????: ??? ?????? ?? ?????",
       "en": "Wi-Fi vs Mobile Data: When to Use Each"
     },
     "excerpt": {
-      "ar": "3 عوامل عملية غير السرعة (البطارية، الأمان على شبكات عامة، الاستقرار أثناء التنقل)، ونصيحة التبديل الذكي التلقائي.",
+      "ar": "3 ????? ????? ??? ?????? (????????? ?????? ??? ????? ????? ????????? ????? ??????)? ?????? ??????? ????? ????????.",
       "en": "3 practical factors beyond speed (battery, security on public networks, stability while moving), and smart auto-switching advice."
     },
     "categoryId": "mobile",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3504,24 +4514,37 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": true
+    "isTrending": true,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [
+      "routing-switching",
+      "wireless"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0111",
     "slug": "how-large-language-models-work",
     "title": {
-      "ar": "كيف تعمل النماذج اللغوية الكبيرة (LLM) فعليًا",
+      "ar": "??? ???? ??????? ??????? ??????? (LLM) ??????",
       "en": "How Large Language Models (LLMs) Actually Work"
     },
     "excerpt": {
-      "ar": "ليه النموذج بيتوقع الكلمة التالية مش بيسترجع حقائق، وليه ده بالظبط بيفسّر ظاهرة الهلوسة (Hallucination).",
+      "ar": "??? ??????? ?????? ?????? ??????? ?? ??????? ?????? ???? ?? ?????? ?????? ????? ??????? (Hallucination).",
       "en": "Why the model predicts the next word rather than retrieving facts, and why this exactly explains the hallucination phenomenon."
     },
     "categoryId": "ai",
     "subcategoryId": "concepts",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3542,18 +4565,18 @@
     "id": "art-gen-0112",
     "slug": "how-qr-codes-work",
     "title": {
-      "ar": "كيف تعمل رموز QR فعليًا: الدليل الكامل",
+      "ar": "??? ???? ???? QR ??????: ?????? ??????",
       "en": "How QR Codes Actually Work: The Complete Guide"
     },
     "excerpt": {
-      "ar": "الفرق عن الباركود التقليدي، دور تصحيح الأخطاء المدمج، ونصيحة عملية عند إضافة لوجو لكود QR.",
+      "ar": "????? ?? ???????? ????????? ??? ????? ??????? ??????? ?????? ????? ??? ????? ???? ???? QR.",
       "en": "The difference from traditional barcodes, the role of built-in error correction, and practical advice when adding a logo to a QR code."
     },
     "categoryId": "technology",
     "subcategoryId": "concepts",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3573,18 +4596,18 @@
     "id": "art-gen-0113",
     "slug": "digital-file-organization-system",
     "title": {
-      "ar": "نظام تنظيم الملفات الرقمية: الدليل الكامل",
+      "ar": "???? ????? ??????? ???????: ?????? ??????",
       "en": "A Digital File Organization System: The Complete Guide"
     },
     "excerpt": {
-      "ar": "ليه التصنيف حسب المشروع أفضل من حسب نوع الملف، ونظام تسمية متسق بصيغة تاريخ قابلة للترتيب.",
+      "ar": "??? ??????? ??? ??????? ???? ?? ??? ??? ?????? ????? ????? ???? ????? ????? ????? ???????.",
       "en": "Why classifying by project beats classifying by file type, and a consistent naming system with a sortable date format."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3604,18 +4627,18 @@
     "id": "art-gen-0114",
     "slug": "browser-vs-standalone-password-manager",
     "title": {
-      "ar": "مدير كلمات المرور المدمج مقابل المستقل: الدليل الكامل",
+      "ar": "???? ????? ?????? ?????? ????? ???????: ?????? ??????",
       "en": "Browser vs Standalone Password Manager: The Complete Guide"
     },
     "excerpt": {
-      "ar": "القيود الفعلية للمدير المدمج (عبر متصفحات وأجهزة مختلفة)، ومتى الانتقال لمدير مستقل يستاهل فعليًا.",
+      "ar": "?????? ??????? ?????? ?????? (??? ??????? ?????? ??????)? ???? ???????? ????? ????? ?????? ??????.",
       "en": "The built-in manager's actual limitations (across different browsers and devices), and when switching to a standalone manager is genuinely worth it."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3630,24 +4653,35 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": true
+    "isTrending": true,
+    "domainIds": [
+      "networking"
+    ],
+    "topicIds": [
+      "routing-switching"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0115",
     "slug": "how-ai-image-generation-works",
     "title": {
-      "ar": "كيف يعمل توليد الصور بالذكاء الاصطناعي: الدليل الكامل",
+      "ar": "??? ???? ????? ????? ??????? ?????????: ?????? ??????",
       "en": "How AI Image Generation Works: The Complete Guide"
     },
     "excerpt": {
-      "ar": "مبدأ إزالة الضوضاء التدريجية (Diffusion)، ليه صياغة الوصف بتفرق كتير، وليه الأيدي تحديدًا صعبة تقنيًا على النماذج.",
+      "ar": "???? ????? ??????? ????????? (Diffusion)? ??? ????? ????? ????? ????? ???? ?????? ??????? ???? ?????? ??? ???????.",
       "en": "The gradual denoising (diffusion) principle, why prompt phrasing matters so much, and why hands specifically are technically difficult for models."
     },
     "categoryId": "ai",
     "subcategoryId": "concepts",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3667,18 +4701,18 @@
     "id": "art-gen-0116",
     "slug": "how-cloud-storage-actually-works",
     "title": {
-      "ar": "كيف يعمل التخزين السحابي فعليًا: الدليل الكامل",
+      "ar": "??? ???? ??????? ??????? ??????: ?????? ??????",
       "en": "How Cloud Storage Actually Works: The Complete Guide"
     },
     "excerpt": {
-      "ar": "ليه التكرار عبر أقراص ومراكز بيانات متعددة سر الموثوقية، وإزاي المزامنة الذكية (Delta Sync) بتوفر وقت وبيانات.",
+      "ar": "??? ??????? ??? ????? ?????? ?????? ?????? ?? ?????????? ????? ???????? ?????? (Delta Sync) ????? ??? ???????.",
       "en": "Why redundancy across multiple disks and data centers is the reliability secret, and how smart delta sync saves time and data."
     },
     "categoryId": "technology",
     "subcategoryId": "concepts",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3692,24 +4726,35 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [
+      "cloud"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0117",
     "slug": "ios-vs-android-choosing-guide",
     "title": {
-      "ar": "iOS مقابل Android: الدليل الكامل للاختيار",
+      "ar": "iOS ????? Android: ?????? ?????? ????????",
       "en": "iOS vs Android: The Complete Choosing Guide"
     },
     "excerpt": {
-      "ar": "3 عوامل عملية تستاهل التفكير الفعلي (التكامل، التخصيص، الميزانية)، والفرق الحقيقي في طول دعم التحديثات.",
+      "ar": "3 ????? ????? ?????? ??????? ?????? (???????? ???????? ?????????)? ?????? ??????? ?? ??? ??? ?????????.",
       "en": "3 practical factors deserving genuine thought (integration, customization, budget), and the real difference in update support duration."
     },
     "categoryId": "mobile",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3730,18 +4775,18 @@
     "id": "art-gen-0118",
     "slug": "laptop-slow-performance-fixes",
     "title": {
-      "ar": "لابتوبك بطيء؟ 10 أسباب حقيقية وحلول عملية لتسريعه",
+      "ar": "??????? ????? 10 ????? ?????? ????? ????? ???????",
       "en": "Laptop Running Slow? 10 Real Causes and Practical Fixes"
     },
     "excerpt": {
-      "ar": "لو لابتوبك بقى بطيء فجأة أو تدريجيًا، إليك الأسباب الحقيقية الأكتر شيوعًا وخطوات عملية تقدر تعملها دلوقتي لتحسين الأداء.",
+      "ar": "?? ??????? ??? ???? ???? ?? ????????? ???? ??????? ???????? ?????? ?????? ?????? ????? ???? ?????? ?????? ?????? ??????.",
       "en": "If your laptop has become slow, here are the most common real causes and practical steps you can take right now to improve performance."
     },
     "categoryId": "laptops",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3762,18 +4807,18 @@
     "id": "art-gen-0119",
     "slug": "phone-storage-full-fixes",
     "title": {
-      "ar": "مساحة تخزين موبايلك امتلأت؟ إزاي تفضي مساحة بسرعة وبأمان",
+      "ar": "????? ????? ??????? ??????? ???? ???? ????? ????? ??????",
       "en": "Phone Storage Full? How to Free Up Space Quickly and Safely"
     },
     "excerpt": {
-      "ar": "امتلاء مساحة الموبايل مشكلة شائعة جدًا وبتوقّف تحديثات وصور مهمة. إليك أسرع الطرق الآمنة لتفضية مساحة حقيقية من غير ما تفقد حاجة مهمة.",
+      "ar": "?????? ????? ???????? ????? ????? ???? ??????? ??????? ???? ????. ???? ???? ????? ?????? ?????? ????? ?????? ?? ??? ?? ???? ???? ????.",
       "en": "A full phone is a very common problem that blocks updates and important photos. Here are the fastest, safest ways to free real space without losing anything important."
     },
     "categoryId": "mobile",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3789,24 +4834,33 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0120",
     "slug": "wifi-connection-problems-fixes",
     "title": {
-      "ar": "مشاكل الواي فاي الشائعة وحلولها خطوة بخطوة",
+      "ar": "????? ????? ??? ??????? ??????? ???? ?????",
       "en": "Common Wi-Fi Problems and Their Step-by-Step Fixes"
     },
     "excerpt": {
-      "ar": "الإنترنت بطيء أو بيفصل باستمرار؟ إليك أشهر أسباب مشاكل الواي فاي في المنزل وخطوات عملية تقدر تجربها بنفسك قبل ما تتصل بمزوّد الخدمة.",
+      "ar": "???????? ???? ?? ????? ????????? ???? ???? ????? ????? ????? ??? ?? ?????? ?????? ????? ???? ?????? ????? ??? ?? ???? ?????? ??????.",
       "en": "Internet slow or dropping constantly? Here are the most common home Wi-Fi problems and practical steps you can try yourself before calling your provider."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3821,24 +4875,35 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "networking"
+    ],
+    "topicIds": [
+      "wireless"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0121",
     "slug": "laptop-battery-health-guide",
     "title": {
-      "ar": "بطارية اللابتوب بتخلص بسرعة؟ إزاي تطيل عمرها وتشخّص المشكلة",
+      "ar": "?????? ???????? ????? ?????? ???? ???? ????? ?????? ???????",
       "en": "Laptop Battery Draining Fast? How to Extend Its Life and Diagnose the Problem"
     },
     "excerpt": {
-      "ar": "تدهور بطارية اللابتوب أمر طبيعي مع الوقت، بس فيه فرق بين التدهور الطبيعي والمشكلة الحقيقية. إليك إزاي تفرّق بينهم وإزاي تطيل عمر البطارية فعليًا.",
+      "ar": "????? ?????? ???????? ??? ????? ?? ?????? ?? ??? ??? ??? ??????? ??????? ???????? ????????. ???? ???? ????? ????? ????? ???? ??? ???????? ??????.",
       "en": "Laptop battery wear is natural over time, but there's a difference between normal degradation and a real problem. Here's how to tell them apart and genuinely extend battery life."
     },
     "categoryId": "laptops",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3859,18 +4924,18 @@
     "id": "art-gen-0122",
     "slug": "data-backup-simple-guide",
     "title": {
-      "ar": "النسخ الاحتياطي لبياناتك: دليل بسيط عشان متضيعش صورك وملفاتك",
+      "ar": "????? ????????? ????????: ???? ???? ???? ?????? ???? ???????",
       "en": "Backing Up Your Data: A Simple Guide So You Never Lose Your Photos and Files"
     },
     "excerpt": {
-      "ar": "تعطّل مفاجئ في الجهاز أو ضياعه بيقدر يمحي سنين من الصور والملفات المهمة في لحظة. إليك خطة نسخ احتياطي بسيطة وعملية تقدر تطبقها اليوم.",
+      "ar": "????? ????? ?? ?????? ?? ????? ????? ???? ???? ?? ????? ???????? ?????? ?? ????. ???? ??? ??? ??????? ????? ?????? ???? ?????? ?????.",
       "en": "A sudden device failure or loss can wipe out years of important photos and files in an instant. Here's a simple, practical backup plan you can set up today."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3885,24 +4950,36 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure"
+    ],
+    "topicIds": [
+      "backup-recovery",
+      "cloud"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0123",
     "slug": "forgotten-password-account-recovery",
     "title": {
-      "ar": "نسيت كلمة مرور حسابك المهم؟ خطوات الاسترجاع الآمنة",
+      "ar": "???? ???? ???? ????? ?????? ????? ????????? ??????",
       "en": "Forgot Your Important Account Password? Safe Recovery Steps"
     },
     "excerpt": {
-      "ar": "نسيان كلمة المرور موقف شائع ومقلق، خصوصًا لو الحساب فيه بيانات مهمة. إليك خطوات الاسترجاع الآمنة، وإزاي تحمي نفسك من الوقوع في نفس المشكلة تاني.",
+      "ar": "????? ???? ?????? ???? ???? ?????? ?????? ?? ?????? ??? ?????? ????. ???? ????? ????????? ??????? ????? ???? ???? ?? ?????? ?? ??? ??????? ????.",
       "en": "Forgetting a password is a common, worrying situation, especially for accounts holding important data. Here are safe recovery steps, and how to avoid the same problem again."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3917,24 +4994,35 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "backup-recovery"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0124",
     "slug": "phone-slow-performance-fixes",
     "title": {
-      "ar": "موبايلك بطيء بعد فترة استخدام؟ الأسباب والحلول العملية",
+      "ar": "??????? ???? ??? ???? ???????? ??????? ??????? ???????",
       "en": "Phone Slowing Down Over Time? Real Causes and Practical Fixes"
     },
     "excerpt": {
-      "ar": "بطء الموبايل التدريجي مشكلة شائعة جدًا مع الاستخدام اليومي. إليك الأسباب الحقيقية وخطوات عملية تقدر تعملها بنفسك قبل ما تفكر في تغييره.",
+      "ar": "??? ???????? ???????? ????? ????? ???? ?? ????????? ??????. ???? ??????? ???????? ?????? ????? ???? ?????? ????? ??? ?? ???? ?? ??????.",
       "en": "Gradual phone slowdown is a very common issue with everyday use. Here are the real causes and practical steps you can take yourself before considering a replacement."
     },
     "categoryId": "mobile",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3956,18 +5044,18 @@
     "id": "art-gen-0125",
     "slug": "printer-not-working-fixes",
     "title": {
-      "ar": "الطابعة مش بتشتغل أو مش بتطبع صح؟ الحلول الشائعة",
+      "ar": "??????? ?? ?????? ?? ?? ????? ??? ?????? ???????",
       "en": "Printer Not Working or Printing Correctly? Common Fixes"
     },
     "excerpt": {
-      "ar": "مشاكل الطباعة من أكتر المواقف اللي بتضيّع وقت، خصوصًا في لحظة مستعجلة. إليك الحلول الشائعة لأشهر مشاكل الطابعات المنزلية والمكتبية.",
+      "ar": "????? ??????? ?? ???? ??????? ???? ?????? ???? ?????? ?? ???? ???????. ???? ?????? ??????? ????? ????? ???????? ???????? ?????????.",
       "en": "Printer problems are among the most time-wasting situations, especially when you're in a hurry. Here are common fixes for the most frequent home and office printer issues."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -3987,18 +5075,18 @@
     "id": "art-gen-0126",
     "slug": "mobile-buying-guide-2026",
     "title": {
-      "ar": "دليل شراء موبايل جديد 2026: إيه المواصفات اللي تستاهل تدفع فيها فلوس أكتر",
+      "ar": "???? ???? ?????? ???? 2026: ??? ????????? ???? ?????? ???? ???? ???? ????",
       "en": "Buying a New Phone in 2026: Which Specs Are Actually Worth Paying More For"
     },
     "excerpt": {
-      "ar": "مش كل المواصفات المكتوبة على صندوق الموبايل بنفس الأهمية لكل مستخدم. إليك دليل عملي يساعدك تحدد فين تستحق تصرف ميزانيتك فعليًا وفين ممكن توفر.",
+      "ar": "?? ?? ????????? ???????? ??? ????? ???????? ???? ??????? ??? ??????. ???? ???? ???? ?????? ???? ??? ????? ???? ???????? ?????? ???? ???? ????.",
       "en": "Not every spec printed on a phone's box matters equally to every user. Here's a practical guide to help you decide where your budget is genuinely worth spending, and where you can save."
     },
     "categoryId": "mobile",
     "subcategoryId": "best-picks",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -4019,18 +5107,18 @@
     "id": "art-gen-0127",
     "slug": "laptop-buying-guide-2026",
     "title": {
-      "ar": "دليل اختيار لابتوب مناسب لك: للطلاب، للعمل، وللتصميم",
+      "ar": "???? ?????? ?????? ????? ??: ??????? ?????? ????????",
       "en": "Choosing the Right Laptop for You: Students, Work, and Design"
     },
     "excerpt": {
-      "ar": "اللابتوب المناسب مختلف تمامًا حسب استخدامك — الطالب محتاج حاجة غير اللي محتاجها المصمم أو موظف المكتب. إليك دليل عملي يساعدك تختار صح من أول مرة.",
+      "ar": "???????? ??????? ????? ?????? ??? ???????? ? ?????? ????? ???? ??? ???? ??????? ?????? ?? ???? ??????. ???? ???? ???? ?????? ????? ?? ?? ??? ???.",
       "en": "The right laptop varies completely by use case -- a student needs something different from what a designer or office worker needs. Here's a practical guide to help you choose correctly the first time."
     },
     "categoryId": "laptops",
     "subcategoryId": "best-picks",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -4051,18 +5139,18 @@
     "id": "art-gen-0128",
     "slug": "ai-everyday-uses-guide",
     "title": {
-      "ar": "أفضل استخدامات الذكاء الاصطناعي في حياتك اليومية (مش بس ChatGPT)",
+      "ar": "???? ????????? ?????? ????????? ?? ????? ??????? (?? ?? ChatGPT)",
       "en": "The Best Everyday Uses of AI (It's Not Just ChatGPT)"
     },
     "excerpt": {
-      "ar": "الذكاء الاصطناعي بقى أداة عملية فعليًا في حياتنا اليومية، مش بس تقنية تجريبية. إليك استخدامات حقيقية تقدر تبدأ فيها من النهاردة من غير خبرة تقنية.",
+      "ar": "?????? ????????? ??? ???? ????? ?????? ?? ?????? ???????? ?? ?? ????? ???????. ???? ????????? ?????? ???? ???? ???? ?? ???????? ?? ??? ???? ?????.",
       "en": "AI has become a genuinely practical everyday tool, not just an experimental technology. Here are real uses you can start today, no technical background required."
     },
     "categoryId": "ai",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -4083,18 +5171,18 @@
     "id": "art-gen-0129",
     "slug": "wireless-headphones-buying-guide",
     "title": {
-      "ar": "أفضل سماعات لاسلكية بميزانية متوسطة: دليل شراء عملي",
+      "ar": "???? ?????? ??????? ???????? ??????: ???? ???? ????",
       "en": "Best Wireless Headphones on a Mid-Range Budget: A Practical Buying Guide"
     },
     "excerpt": {
-      "ar": "مش لازم تدفع أعلى سعر عشان تحصل على تجربة صوت ممتازة. إليك دليل عملي يساعدك تختار سماعات لاسلكية مناسبة لاستخدامك بميزانية معقولة.",
+      "ar": "?? ???? ???? ???? ??? ???? ???? ??? ????? ??? ??????. ???? ???? ???? ?????? ????? ?????? ??????? ?????? ????????? ???????? ??????.",
       "en": "You don't need to pay top dollar for an excellent listening experience. Here's a practical guide to choosing wireless headphones that fit your use case on a reasonable budget."
     },
     "categoryId": "reviews",
     "subcategoryId": "audio",
     "author": {
       "name": {
-        "ar": "فريق رؤى تقنية",
+        "ar": "???? ??? ?????",
         "en": "Technical Insights Team"
       },
       "avatar": "https://i.pravatar.cc/150?img=11"
@@ -4109,6 +5197,17 @@
       "review"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [
+      "networking"
+    ],
+    "topicIds": [
+      "wireless"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   }
 ]

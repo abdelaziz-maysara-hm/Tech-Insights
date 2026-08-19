@@ -56,3 +56,6 @@ Maintained unprefixed application and content routes migrate to the same stable 
 
 ## ADR-019 ? Not-found views must not emit indexable page signals
 The SPA catch-all remains localized and navigable, but it explicitly emits `noindex, nofollow` and removes canonical, hreflang, Article, and WebSite structured-data elements while active. This prevents an unknown route from inheriting valid metadata left by prior client navigation. Returning a true HTTP 404 still depends on host-level routing and is validated separately during production deployment.
+
+## ADR-020 ? KEEP metadata is explicit but not an approval claim
+Phase 5A copies deterministic taxonomy dimensions from the Phase 3 audit into KEEP records so discovery no longer depends on inference. The migration sets technical status to `needs-review` and translation status to `unreviewed`; a strategic KEEP classification does not prove current technical accuracy, translation quality, difficulty, or a human review date. Empty vendor/product/topic arrays are explicit audit results rather than missing metadata.

@@ -82,7 +82,7 @@ URL migration can damage indexing. Do not combine all batches or change URLs wit
 
 ### Phase 5 ? Content Migration & Cleanup
 
-- **5A:** explicit metadata for KEEP content.
+- **5A ? COMPLETE:** explicit audit-derived taxonomy metadata for all 100 KEEP records, synchronized between full and lightweight article sources, without claiming technical or translation review.
 - **5B:** priority REWORK content.
 - **5C:** owner-approved consumer cleanup/NOINDEX decisions.
 - **5D:** redirect mapping before removal.

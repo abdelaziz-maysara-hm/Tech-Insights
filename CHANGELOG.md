@@ -2,6 +2,13 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 5A ? Explicit Metadata for KEEP Content
+
+- Applied explicit Phase 3 audit taxonomy metadata to 100 KEEP records: 99 articles and one comparison.
+- Synchronized article metadata between the full content source and lightweight listing index.
+- Kept technical and translation states conservative (`needs-review` and `unreviewed`) and did not invent difficulty or review dates.
+- Added a reproducible migration script and tests that verify exact audit parity and index/source consistency.
+
 ## Phase 4E ? Routing and Indexing Validation
 
 - Repaired the corrupted Arabic 404 copy and made its home link language- and base-path-aware.
