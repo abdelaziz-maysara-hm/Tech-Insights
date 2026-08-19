@@ -1,4 +1,4 @@
-# Phase 5B ? Batch 3
+# Phase 5B — Batch 3
 
 Reworked `how-large-language-models-work` while preserving its stable URL.
 

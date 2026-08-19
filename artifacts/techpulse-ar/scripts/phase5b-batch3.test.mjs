@@ -12,7 +12,7 @@ test('repositions the LLM explainer for enterprise IT and security', () => {
   assert.deepEqual(article.domainIds, ['cybersecurity', 'infrastructure']);
   assert.deepEqual(article.topicIds, ['dlp']);
   assert.equal(article.contentType, 'concept');
-  assert.match(article.body.ar, /???? ??????? ???/);
+  assert.match(article.body.ar, /فحوص القراءة فقط/);
   assert.match(article.body.en, /Retrieval-Augmented Generation/);
   assert.match(article.body.en, /rollback/);
 });

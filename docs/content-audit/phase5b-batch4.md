@@ -1,4 +1,4 @@
-# Phase 5B ? Batch 4
+# Phase 5B — Batch 4
 
 Reworked `how-ai-image-generation-works` while preserving its stable URL.
 

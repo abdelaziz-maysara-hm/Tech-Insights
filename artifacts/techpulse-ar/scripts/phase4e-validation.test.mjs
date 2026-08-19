@@ -28,7 +28,7 @@ test('marks not-found pages noindex and removes canonical structured signals', a
     readFile(NOT_FOUND_PATH, 'utf8'),
   ]);
   assert.match(notFound, /indexable:\s*false/);
-  assert.match(notFound, /?????? ??? ??????/);
+  assert.match(notFound, /الصفحة غير موجودة/);
   assert.match(seo, /noindex, nofollow/);
   assert.match(seo, /link\[rel="canonical"\]/);
   assert.match(seo, /replaceHreflangLinks\(\[\]\)/);

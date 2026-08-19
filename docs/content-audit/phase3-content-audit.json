@@ -474,7 +474,7 @@
     {
       "id": "art-gen-0001",
       "slug": "2fa-practical-guide",
-      "titleAr": "???????? ???????? (2FA): ???? ???? ?????? ???????",
+      "titleAr": "المصادقة الثنائية (2FA): دليل عملي لحماية حساباتك",
       "titleEn": "Two-Factor Authentication (2FA): A Practical Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -496,7 +496,7 @@
     {
       "id": "art-gen-0002",
       "slug": "phishing-spot-before-click",
-      "titleAr": "?????? ??????????: ??? ?????? ??? ?? ????",
+      "titleAr": "التصيد الإلكتروني: كيف تكتشفه قبل ما تضغط",
       "titleEn": "Phishing: How to Spot It Before You Click",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -522,7 +522,7 @@
     {
       "id": "art-gen-0003",
       "slug": "palo-alto-security-policy-basics",
-      "titleAr": "??????? Security Policy ?? Palo Alto: ?????? ??????",
+      "titleAr": "أساسيات Security Policy في Palo Alto: الدليل الكامل",
       "titleEn": "Palo Alto Security Policy Basics: The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -550,7 +550,7 @@
     {
       "id": "art-gen-0004",
       "slug": "forcepoint-ssl-vpn-radius",
-      "titleAr": "????? Forcepoint SSL VPN ?? RADIUS: ?????? ?????? ???? ?????",
+      "titleAr": "إعداد Forcepoint SSL VPN مع RADIUS: الدليل الكامل خطوة بخطوة",
       "titleEn": "Setting Up Forcepoint SSL VPN with RADIUS: The Complete Step-by-Step Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -580,7 +580,7 @@
     {
       "id": "art-gen-0005",
       "slug": "fortigate-ssl-vpn-checklist",
-      "titleAr": "????? FortiGate SSL VPN: ?????? ?????? ???? ?????",
+      "titleAr": "إعداد FortiGate SSL VPN: الدليل الكامل خطوة بخطوة",
       "titleEn": "Setting Up FortiGate SSL VPN: The Complete Step-by-Step Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -612,7 +612,7 @@
     {
       "id": "art-gen-0006",
       "slug": "password-manager-start",
-      "titleAr": "????? ????? ??????: ????? ?????? ???? ????",
+      "titleAr": "مديرو كلمات المرور: لماذا تحتاجه وكيف تبدأ",
       "titleEn": "Password Managers: Why You Need One and How to Start",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -636,7 +636,7 @@
     {
       "id": "art-gen-0007",
       "slug": "ad-powershell-daily-tasks",
-      "titleAr": "???? Active Directory ??????? ?? PowerShell: ?????? ??????",
+      "titleAr": "مهام Active Directory اليومية بـ PowerShell: الدليل الكامل",
       "titleEn": "Daily Active Directory Tasks with PowerShell: The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -666,7 +666,7 @@
     {
       "id": "art-gen-0008",
       "slug": "home-router-security-basics",
-      "titleAr": "???? ??????? ???????: ?????? ?????? ???? ?????",
+      "titleAr": "أمان الراوتر المنزلي: الدليل الكامل خطوة بخطوة",
       "titleEn": "Home Router Security: The Complete Step-by-Step Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -693,7 +693,7 @@
     {
       "id": "art-gen-0009",
       "slug": "vpn-basics-what-it-does",
-      "titleAr": "VPN ?????????: ???? ???? ????? ?? ?????",
+      "titleAr": "VPN للمبتدئين: ماذا يفعل وماذا لا يفعل؟",
       "titleEn": "VPN Basics: What It Does and Doesn't Do",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -720,7 +720,7 @@
     {
       "id": "art-gen-0010",
       "slug": "windows-disk-cleanup-safe",
-      "titleAr": "????? ????? ????? ?? Windows ?????: ?????? ??????",
+      "titleAr": "تنظيف مساحة القرص في Windows بأمان: الدليل الكامل",
       "titleEn": "Safe Disk Cleanup on Windows: The Complete Guide",
       "source": "article",
       "currentCategory": "windows",
@@ -742,7 +742,7 @@
     {
       "id": "art-gen-0011",
       "slug": "student-laptop-specs",
-      "titleAr": "??????? ?????? ??????: ?????? ?????? ??? ???? ?????",
+      "titleAr": "مواصفات لابتوب للطالب: الدليل الكامل لما يكفي فعلًا",
       "titleEn": "Student Laptop Specs: The Complete Guide to What Actually Matters",
       "source": "article",
       "currentCategory": "laptops",
@@ -764,7 +764,7 @@
     {
       "id": "art-gen-0012",
       "slug": "chatgpt-study-without-harm",
-      "titleAr": "??????? ??????? ?????? ????????? ?? ??????? ?????? ?????: ???? ????",
+      "titleAr": "استخدام مساعدات الذكاء الاصطناعي في التدريب التقني بأمان: دليل عملي",
       "titleEn": "Using AI Assistants Safely for Technical Training: A Practical Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -791,7 +791,7 @@
     {
       "id": "art-gen-0013",
       "slug": "kaspersky-security-center-tagging",
-      "titleAr": "????? ??????? ?? Kaspersky Security Center ???? Tags: ?????? ??????",
+      "titleAr": "تنظيم الأجهزة في Kaspersky Security Center بالـ Tags: الدليل الكامل",
       "titleEn": "Organizing Devices in Kaspersky Security Center with Tags: The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -821,7 +821,7 @@
     {
       "id": "art-gen-0014",
       "slug": "rdp-multi-user-rds-licensing",
-      "titleAr": "????? RDP ????? ?????????? ?????? RDS ???? ????: ?????? ??????",
+      "titleAr": "تفعيل RDP متعدد المستخدمين وترخيص RDS بشكل صحيح: الدليل الكامل",
       "titleEn": "Enabling Multi-User RDP and Licensing RDS Correctly: The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -845,7 +845,7 @@
     {
       "id": "art-gen-0015",
       "slug": "windows-server-evaluation-to-standard",
-      "titleAr": "????? Windows Server ?? Evaluation ??? Standard ???? ????? ?????",
+      "titleAr": "تحويل Windows Server من Evaluation إلى Standard بدون إعادة تثبيت",
       "titleEn": "Converting Windows Server from Evaluation to Standard Without Reinstalling",
       "source": "article",
       "currentCategory": "windows",
@@ -875,7 +875,7 @@
     {
       "id": "art-gen-0016",
       "slug": "dns-reverse-lookup-zone-setup",
-      "titleAr": "????? ????? DNS ??????? (Reverse Lookup Zone): ?????? ??????",
+      "titleAr": "إعداد منطقة DNS العكسية (Reverse Lookup Zone): الدليل الكامل",
       "titleEn": "Setting Up a DNS Reverse Lookup Zone: The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -901,7 +901,7 @@
     {
       "id": "art-gen-0017",
       "slug": "group-policy-basics-for-sysadmins",
-      "titleAr": "??????? Group Policy: ?????? ?????? ????? ??????",
+      "titleAr": "أساسيات Group Policy: الدليل الكامل لمدير النظام",
       "titleEn": "Group Policy Fundamentals: The Complete Guide for Sysadmins",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -928,7 +928,7 @@
     {
       "id": "art-gen-0018",
       "slug": "backup-3-2-1-rule-practical",
-      "titleAr": "????? ????? ????????? 3-2-1: ?????? ?????? ??????",
+      "titleAr": "قاعدة النسخ الاحتياطي 3-2-1: الدليل العملي الكامل",
       "titleEn": "The 3-2-1 Backup Rule: The Complete Practical Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -954,7 +954,7 @@
     {
       "id": "art-gen-0019",
       "slug": "zero-trust-explained-practically",
-      "titleAr": "Zero Trust ???? ?????: ?????? ?????? ?????? ???????? ??????",
+      "titleAr": "Zero Trust بدون تعقيد: الدليل الكامل للمبدأ والتطبيق العملي",
       "titleEn": "Zero Trust Without the Jargon: The Complete Principle and Practical Implementation Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -979,7 +979,7 @@
     {
       "id": "art-gen-0020",
       "slug": "email-security-gateway-basics",
-      "titleAr": "????? ???? ?????? ??????????: ?????? ?????? ??? ?????? ??????",
+      "titleAr": "بوابة أمان البريد الإلكتروني: الدليل الكامل لما بتحميه فعليًا",
       "titleEn": "Email Security Gateways: The Complete Guide to What They Actually Protect Against",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1005,7 +1005,7 @@
     {
       "id": "art-gen-0021",
       "slug": "vlan-basics-why-segment",
-      "titleAr": "??????? VLAN: ?????? ?????? ???? ?????? ????? ??????",
+      "titleAr": "أساسيات VLAN: الدليل الكامل لليه ولإزاي تقسّم الشبكة",
       "titleEn": "VLAN Basics: The Complete Guide to Why and How to Segment a Network",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1031,7 +1031,7 @@
     {
       "id": "art-gen-0022",
       "slug": "snmp-monitoring-basics",
-      "titleAr": "??????? ?????? ?????? ?? SNMP: ?????? ??????",
+      "titleAr": "أساسيات مراقبة الشبكة بـ SNMP: الدليل الكامل",
       "titleEn": "Network Monitoring Basics with SNMP: The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1055,7 +1055,7 @@
     {
       "id": "art-gen-0023",
       "slug": "802-1x-certificate-authentication",
-      "titleAr": "???????? ????????? ??? 802.1X: ?????? ??????",
+      "titleAr": "المصادقة بالشهادات عبر 802.1X: الدليل الكامل",
       "titleEn": "Certificate-Based Authentication with 802.1X: The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1083,7 +1083,7 @@
     {
       "id": "art-gen-0024",
       "slug": "log-retention-siem-basics",
-      "titleAr": "???????? ???????? (Log Retention): ?????? ?????? ?????? ????? ???????",
+      "titleAr": "الاحتفاظ بالسجلات (Log Retention): الدليل الكامل لتحديد المدة الصحيحة",
       "titleEn": "Log Retention: The Complete Guide to Setting the Right Duration",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1110,7 +1110,7 @@
     {
       "id": "art-gen-0025",
       "slug": "windows-patch-management-strategy",
-      "titleAr": "?????????? ????? ??????? (Patch Management): ?????? ??????",
+      "titleAr": "استراتيجية تحديث الأنظمة (Patch Management): الدليل الكامل",
       "titleEn": "A Patch Management Strategy for a Small Environment",
       "source": "article",
       "currentCategory": "windows",
@@ -1134,7 +1134,7 @@
     {
       "id": "art-gen-0026",
       "slug": "dhcp-failover-high-availability",
-      "titleAr": "????? DHCP Failover ????? ????????? ??????: ?????? ??????",
+      "titleAr": "إعداد DHCP Failover لضمان استمرارية الشبكة: الدليل الكامل",
       "titleEn": "Setting Up DHCP Failover for Network Continuity: The Complete Guide",
       "source": "article",
       "currentCategory": "windows",
@@ -1161,7 +1161,7 @@
     {
       "id": "art-gen-0027",
       "slug": "syslog-server-setup-basics",
-      "titleAr": "????? ???? Syslog ?????: ?????? ?????? ?? ??? ????",
+      "titleAr": "إعداد خادم Syslog مركزي: الدليل الكامل من أين تبدأ",
       "titleEn": "Setting Up a Central Syslog Server: The Complete Guide to Where to Start",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1187,7 +1187,7 @@
     {
       "id": "art-gen-0028",
       "slug": "network-segmentation-compliance",
-      "titleAr": "????? ?????? ?????? ????????: ???? ????? ?????",
+      "titleAr": "تقسيم الشبكة لأغراض الامتثال: نظرة عملية مبسطة",
       "titleEn": "Network Segmentation for Compliance: A Simplified Practical View",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1211,7 +1211,7 @@
     {
       "id": "art-gen-0029",
       "slug": "hyper-v-vs-checkpoints-basics",
-      "titleAr": "??????? Checkpoints ?? Hyper-V ?????: ?????? ??????",
+      "titleAr": "استخدام Checkpoints في Hyper-V بأمان: الدليل الكامل",
       "titleEn": "Using Hyper-V Checkpoints Safely: The Complete Guide",
       "source": "article",
       "currentCategory": "windows",
@@ -1240,7 +1240,7 @@
     {
       "id": "art-gen-0030",
       "slug": "mfa-fatigue-attacks-explained",
-      "titleAr": "????? ????? ???????? ???????? (MFA Fatigue): ?????? ?????? ?????? ?????",
+      "titleAr": "هجمات إرهاق المصادقة الثنائية (MFA Fatigue): الدليل الكامل لحماية فريقك",
       "titleEn": "MFA Fatigue Attacks: The Complete Guide to Protecting Your Team",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1266,7 +1266,7 @@
     {
       "id": "art-gen-0031",
       "slug": "windows-event-viewer-security-logs",
-      "titleAr": "????? ????? ?????? ?? Event Viewer ?????: ?????? ??????",
+      "titleAr": "قراءة سجلات الأمان في Event Viewer بذكاء: الدليل الكامل",
       "titleEn": "Reading Windows Security Logs in Event Viewer Smartly: The Complete Guide",
       "source": "article",
       "currentCategory": "windows",
@@ -1290,7 +1290,7 @@
     {
       "id": "art-gen-0032",
       "slug": "wifi-6-vs-wifi-5-practical",
-      "titleAr": "Wi-Fi 6 ????? Wi-Fi 5: ?????? ?????? ?????? ???????",
+      "titleAr": "Wi-Fi 6 مقابل Wi-Fi 5: الدليل الكامل لتقييم الترقية",
       "titleEn": "Wi-Fi 6 vs Wi-Fi 5: The Complete Guide to Assessing the Upgrade",
       "source": "article",
       "currentCategory": "howto",
@@ -1316,7 +1316,7 @@
     {
       "id": "art-gen-0033",
       "slug": "dark-web-monitoring-basics",
-      "titleAr": "?????? ?????? ??? ??????? ?????: ?????? ?????? ?????? ??? ??? ???????",
+      "titleAr": "مراقبة الدارك ويب لبيانات شركتك: الدليل الكامل لتحديد إذا كنت محتاجها",
       "titleEn": "Dark Web Monitoring for Your Company's Data: The Complete Guide to Deciding If You Need It",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1340,7 +1340,7 @@
     {
       "id": "art-gen-0034",
       "slug": "ssd-vs-hdd-server-storage",
-      "titleAr": "SSD ????? HDD ?? ????? ?????????: ?????? ??????",
+      "titleAr": "SSD مقابل HDD في تخزين السيرفرات: الدليل الكامل",
       "titleEn": "SSD vs HDD for Server Storage: It's Not Just About Speed",
       "source": "article",
       "currentCategory": "howto",
@@ -1364,7 +1364,7 @@
     {
       "id": "art-gen-0035",
       "slug": "least-privilege-principle-practical",
-      "titleAr": "???? ??? ????????? (Least Privilege): ?????? ?????? ??????? ???? ????",
+      "titleAr": "مبدأ أقل الصلاحيات (Least Privilege): الدليل الكامل للتطبيق بدون فوضى",
       "titleEn": "The Least Privilege Principle: The Complete Guide to a Rollout Without Chaos",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1388,7 +1388,7 @@
     {
       "id": "art-gen-0036",
       "slug": "ransomware-first-hour-response",
-      "titleAr": "??? ???? ??? ?????? Ransomware: ?????? ?????? ???? ???? ??????",
+      "titleAr": "أول ساعة بعد اكتشاف Ransomware: الدليل الكامل لإيه تعمل بالظبط",
       "titleEn": "The First Hour After Discovering Ransomware: The Complete Guide to What to Actually Do",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1412,7 +1412,7 @@
     {
       "id": "art-gen-0037",
       "slug": "cloud-cost-optimization-basics",
-      "titleAr": "????? ?????? ???????: ?????? ?????? ?????? ????? ??? ????????",
+      "titleAr": "تقليل فاتورة السحابة: الدليل الكامل لخطوات عملية قبل المفاجأة",
       "titleEn": "Cutting Your Cloud Bill: The Complete Guide to Practical Steps Before the Surprise",
       "source": "article",
       "currentCategory": "technology",
@@ -1438,7 +1438,7 @@
     {
       "id": "art-gen-0038",
       "slug": "printer-security-overlooked-risk",
-      "titleAr": "???? ????????: ?????? ?????? ????? ???? ?????? ???? ????? ???????",
+      "titleAr": "أمان الطابعات: الدليل الكامل للخطر اللي بينسوه أغلب مديري الأنظمة",
       "titleEn": "Printer Security: The Complete Guide to the Risk Most Sysadmins Forget",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1465,7 +1465,7 @@
     {
       "id": "art-gen-0039",
       "slug": "browser-isolation-basics",
-      "titleAr": "??? ??????? (Browser Isolation): ???? ????? ?????? ?????",
+      "titleAr": "عزل المتصفح (Browser Isolation): طبقة حماية إضافية بسيطة",
       "titleEn": "Browser Isolation: A Simple Extra Protection Layer",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1491,7 +1491,7 @@
     {
       "id": "art-gen-0040",
       "slug": "shadow-it-risk-management",
-      "titleAr": "??? Shadow IT: ?????? ?????? ?????? ??????? ??????? ??? ????????",
+      "titleAr": "الـ Shadow IT: الدليل الكامل لإدارة استخدام الأدوات غير المعتمدة",
       "titleEn": "Shadow IT: The Complete Guide to Managing Unapproved Tool Usage",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1515,7 +1515,7 @@
     {
       "id": "art-gen-0041",
       "slug": "usb-device-control-policy",
-      "titleAr": "????? ?????? ?? ????? USB: ?????? ?????? ????? ???? ????? ?????",
+      "titleAr": "سياسة التحكم في أجهزة USB: الدليل الكامل لأمان بدون تعطيل الشغل",
       "titleEn": "USB Device Control Policy: The Complete Guide to Security Without Blocking Work",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1542,7 +1542,7 @@
     {
       "id": "art-gen-0042",
       "slug": "certificate-expiry-monitoring",
-      "titleAr": "?????? ?????? ?????? ????????: ?????? ?????? ????? ????? ??????",
+      "titleAr": "مراقبة انتهاء صلاحية الشهادات: الدليل الكامل لتجنب الخطأ المحرج",
       "titleEn": "Certificate Expiry Monitoring: The Complete Guide to Avoiding the Embarrassing Mistake",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1568,7 +1568,7 @@
     {
       "id": "art-gen-0043",
       "slug": "incident-response-tabletop-exercises",
-      "titleAr": "?????? ???????? (Tabletop Exercises): ????? ??? ?? ???? ?????",
+      "titleAr": "تمارين المحاكاة (Tabletop Exercises): تدرّب قبل ما يحصل فعلًا",
       "titleEn": "Tabletop Exercises: Practice Before It Actually Happens",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1590,7 +1590,7 @@
     {
       "id": "art-gen-0044",
       "slug": "nist-password-guidelines-vs-old-rules",
-      "titleAr": "??????? NIST ?????? ??????: ?????? ?????? ???? ??????? ?? ???? ????",
+      "titleAr": "إرشادات NIST لكلمات المرور: الدليل الكامل لليه التعقيد ما بقاش الحل",
       "titleEn": "NIST Password Guidelines: The Complete Guide to Why Complexity Rules Stopped Being the Answer",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1614,7 +1614,7 @@
     {
       "id": "art-gen-0045",
       "slug": "network-access-control-nac-basics",
-      "titleAr": "?????? ?? ?????? ?????? (NAC): ??? ???? ???? ??????",
+      "titleAr": "التحكم في الوصول للشبكة (NAC): مين يقدر يتصل أصلًا؟",
       "titleEn": "Network Access Control (NAC): Who's Even Allowed to Connect?",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1641,7 +1641,7 @@
     {
       "id": "art-gen-0046",
       "slug": "cloud-vs-onprem-backup-considerations",
-      "titleAr": "????? ????????? ??????? ????? ??????: ?????? ?????? ????????? ????? ??? ???????",
+      "titleAr": "النسخ الاحتياطي السحابي مقابل المحلي: الدليل الكامل لاعتبارات عملية غير التكلفة",
       "titleEn": "Cloud vs On-Prem Backup: The Complete Guide to Practical Considerations Beyond Cost",
       "source": "article",
       "currentCategory": "technology",
@@ -1668,7 +1668,7 @@
     {
       "id": "art-gen-0047",
       "slug": "vulnerability-scanning-vs-penetration-testing",
-      "titleAr": "??? ??????? ????? ?????? ????????: ?????? ??????",
+      "titleAr": "فحص الثغرات مقابل اختبار الاختراق: الدليل الكامل",
       "titleEn": "Vulnerability Scanning vs Penetration Testing: The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1694,7 +1694,7 @@
     {
       "id": "art-gen-0048",
       "slug": "dns-security-filtering-dnssec",
-      "titleAr": "???? DNS: ?????? ?????? ?? ????? ??????? ?????? ?? DNSSEC",
+      "titleAr": "أمان DNS: الدليل الكامل من فلترة المواقع الضارة لـ DNSSEC",
       "titleEn": "DNS Security: The Complete Guide from Malicious Site Filtering to DNSSEC",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1721,7 +1721,7 @@
     {
       "id": "art-gen-0049",
       "slug": "bitlocker-disk-encryption-basics",
-      "titleAr": "????? ??????? ?? BitLocker: ??????? ???? ??????",
+      "titleAr": "تشفير الأقراص بـ BitLocker: أساسيات لازم تعرفها",
       "titleEn": "Disk Encryption with BitLocker: Basics You Need to Know",
       "source": "article",
       "currentCategory": "windows",
@@ -1747,7 +1747,7 @@
     {
       "id": "art-gen-0050",
       "slug": "windows-firewall-advanced-rules",
-      "titleAr": "????? Windows Firewall ????????: ???? ?? ???? ?????/?????",
+      "titleAr": "قواعد Windows Firewall المتقدمة: أكتر من مجرد تشغيل/إيقاف",
       "titleEn": "Advanced Windows Firewall Rules: More Than Just On/Off",
       "source": "article",
       "currentCategory": "windows",
@@ -1774,7 +1774,7 @@
     {
       "id": "art-gen-0051",
       "slug": "phishing-simulation-training-programs",
-      "titleAr": "????? ?????? ?????? ??????????: ?????? ?????? ?????? ?????? ?????",
+      "titleAr": "برامج محاكاة التصيد الإلكتروني: الدليل الكامل لتصميم برنامج فعّال",
       "titleEn": "Phishing Simulation Training Programs: The Complete Guide to Effective Design",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1798,7 +1798,7 @@
     {
       "id": "art-gen-0052",
       "slug": "cross-site-scripting-xss-basics",
-      "titleAr": "????? XSS: ?????? ?????? ???? ???? ???? ???? ?????? ????????",
+      "titleAr": "ثغرات XSS: الدليل الكامل لكيف موقع بسيط يسرق بيانات المستخدم",
       "titleEn": "XSS Vulnerabilities: The Complete Guide to How a Simple Site Can Steal User Data",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1822,7 +1822,7 @@
     {
       "id": "art-gen-0053",
       "slug": "windows-server-core-vs-desktop-experience",
-      "titleAr": "Windows Server Core ????? Desktop Experience: ?????? ??????",
+      "titleAr": "Windows Server Core مقابل Desktop Experience: الدليل الكامل",
       "titleEn": "Windows Server Core vs Desktop Experience: Which Should You Choose?",
       "source": "article",
       "currentCategory": "windows",
@@ -1852,7 +1852,7 @@
     {
       "id": "art-gen-0054",
       "slug": "api-key-management-best-practices",
-      "titleAr": "????? ?????? API ?????: ????? ????? ????? ?????",
+      "titleAr": "إدارة مفاتيح API بأمان: أخطاء شائعة وحلول بسيطة",
       "titleEn": "Secure API Key Management: Common Mistakes and Simple Fixes",
       "source": "article",
       "currentCategory": "howto",
@@ -1876,7 +1876,7 @@
     {
       "id": "art-gen-0055",
       "slug": "physical-security-server-room-basics",
-      "titleAr": "?????? ????????? ????? ?????????: ?????? ?????? ????????? ??????????",
+      "titleAr": "الأمان الفيزيائي لغرفة السيرفرات: الدليل الكامل للأساسيات المتجاهَلة",
       "titleEn": "Physical Security for the Server Room: The Complete Guide to Overlooked Basics",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1901,7 +1901,7 @@
     {
       "id": "art-gen-0056",
       "slug": "supply-chain-attacks-third-party-risk",
-      "titleAr": "????? ????? ???????: ?????? ?????? ??? ???? ????? ?? ????? ?????",
+      "titleAr": "هجمات سلسلة التوريد: الدليل الكامل لما بيجي الخطر من مورّد موثوق",
       "titleEn": "Supply Chain Attacks: The Complete Guide to When the Risk Comes from a Trusted Vendor",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1925,7 +1925,7 @@
     {
       "id": "art-gen-0057",
       "slug": "container-image-security-scanning",
-      "titleAr": "??? ???? ??? ???????? (Container Images): ?????? ??????",
+      "titleAr": "فحص أمان صور الحاويات (Container Images): الدليل الكامل",
       "titleEn": "Scanning Container Image Security: The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1949,7 +1949,7 @@
     {
       "id": "art-gen-0058",
       "slug": "guest-wifi-network-isolation",
-      "titleAr": "??? ???? ?????? (Guest Wi-Fi): ????? ???? ?????? ?????",
+      "titleAr": "عزل شبكة الضيوف (Guest Wi-Fi): إعداد بسيط بفايدة كبيرة",
       "titleEn": "Guest Wi-Fi Isolation: A Simple Setup with a Big Payoff",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1975,7 +1975,7 @@
     {
       "id": "art-gen-0059",
       "slug": "spf-dkim-dmarc-email-basics",
-      "titleAr": "SPF ?DKIM ?DMARC: ?????? ?????? ???? ?????? ????? ??????",
+      "titleAr": "SPF وDKIM وDMARC: الدليل الكامل لمنع انتحال دومين إيميلك",
       "titleEn": "SPF, DKIM, and DMARC: The Complete Guide to Stopping Email Domain Spoofing",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -1999,7 +1999,7 @@
     {
       "id": "art-gen-0060",
       "slug": "cyber-insurance-what-it-covers",
-      "titleAr": "??????? ?? ??????? ??????????: ?????? ?????? ???? ???? ?????? ??????",
+      "titleAr": "التأمين ضد المخاطر السيبرانية: الدليل الكامل لإيه اللي بيغطيه فعليًا",
       "titleEn": "Cyber Insurance: The Complete Guide to What It Actually Covers",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2023,7 +2023,7 @@
     {
       "id": "art-gen-0061",
       "slug": "it-change-management-process-basics",
-      "titleAr": "????? ????? ??????? ?? IT: ??? ?? ????? ????? ?????",
+      "titleAr": "عملية إدارة التغيير في IT: ليه أي تعديل محتاج توثيق",
       "titleEn": "IT Change Management: Why Every Change Needs Documentation",
       "source": "article",
       "currentCategory": "howto",
@@ -2045,7 +2045,7 @@
     {
       "id": "art-gen-0062",
       "slug": "data-classification-basics",
-      "titleAr": "????? ????????: ?? ?? ??????? ?????? ??? ????? ???????",
+      "titleAr": "تصنيف البيانات: مش كل الملفات محتاجة نفس مستوى الحماية",
       "titleEn": "Data Classification: Not Every File Needs the Same Protection Level",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2067,7 +2067,7 @@
     {
       "id": "art-gen-0063",
       "slug": "mfa-methods-compared-sms-app-hardware",
-      "titleAr": "??? ???????? ????????: SMS ????? ????? ????? ????? ????",
+      "titleAr": "طرق المصادقة الثنائية: SMS مقابل تطبيق مقابل مفتاح مادي",
       "titleEn": "MFA Methods Compared: SMS vs App vs Hardware Key",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2093,7 +2093,7 @@
     {
       "id": "art-gen-0064",
       "slug": "sql-injection-basics-explained",
-      "titleAr": "??? SQL: ??? ??? ??? ???? ???? ???? ????? ????? ?????? ?????",
+      "titleAr": "حقن SQL: ليه سطر كود واحد ضعيف يقدر يسرّب قاعدة بيانات كاملة",
       "titleEn": "SQL Injection: How One Weak Line of Code Can Leak an Entire Database",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2119,7 +2119,7 @@
     {
       "id": "art-gen-0065",
       "slug": "windows-task-scheduler-automation",
-      "titleAr": "????? ?????? ?? Task Scheduler: ???? ?? ???? ???????",
+      "titleAr": "أتمتة المهام بـ Task Scheduler: أكتر من مجرد تذكيرات",
       "titleEn": "Task Automation with Task Scheduler: More Than Just Reminders",
       "source": "article",
       "currentCategory": "windows",
@@ -2141,7 +2141,7 @@
     {
       "id": "art-gen-0066",
       "slug": "insider-threat-detection-basics",
-      "titleAr": "??????? ??????? (Insider Threat): ?????? ?????? ????????",
+      "titleAr": "التهديد الداخلي (Insider Threat): الدليل الكامل لاكتشافه",
       "titleEn": "Insider Threats: Not Every Risk Comes from Outside",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2165,7 +2165,7 @@
     {
       "id": "art-gen-0067",
       "slug": "sd-wan-basics-explained",
-      "titleAr": "SD-WAN ???? ?????: ?????? ?????? ???? ???? ????? ??????",
+      "titleAr": "SD-WAN بدون تعقيد: الدليل الكامل لإيه اللي بيحله فعليًا",
       "titleEn": "SD-WAN Without the Jargon: The Complete Guide to What It Actually Solves",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2189,7 +2189,7 @@
     {
       "id": "art-gen-0068",
       "slug": "secure-remote-work-checklist",
-      "titleAr": "????? ???? ????? ?? ???? ?????: 8 ???? ??????",
+      "titleAr": "قائمة تحقق للعمل عن بُعد الآمن: 8 نقاط أساسية",
       "titleEn": "A Secure Remote Work Checklist: 8 Essential Points",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2216,7 +2216,7 @@
     {
       "id": "art-gen-0069",
       "slug": "windows-local-admin-password-rotation",
-      "titleAr": "????? ???? ???? ?????? ?????? (LAPS): ?????? ??????",
+      "titleAr": "تدوير كلمة مرور المدير المحلي (LAPS): الدليل الكامل",
       "titleEn": "Local Admin Password Rotation (LAPS): Why It Matters a Lot",
       "source": "article",
       "currentCategory": "windows",
@@ -2240,7 +2240,7 @@
     {
       "id": "art-gen-0070",
       "slug": "sonicwall-sma1000-ransomware-exploitation-2026",
-      "titleAr": "????? SonicWall ??????? ?????? ?????? ?? ????? ????",
+      "titleAr": "ثغرات SonicWall الأخيرة تُستغل فعليًا في هجمات فدية",
       "titleEn": "Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2265,7 +2265,7 @@
     {
       "id": "art-gen-0071",
       "slug": "n-able-n-central-cve-2026-18577-exploited",
-      "titleAr": "???? N-central (CVE-2026-18577) ???????? ?????? ??? ????? ??????? ?????",
+      "titleAr": "ثغرة N-central (CVE-2026-18577) استُغلّت فعليًا بعد تجاوز الترقيع الأول",
       "titleEn": "N-central Vulnerability (CVE-2026-18577) Exploited After Bypassing an Earlier Patch",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2293,7 +2293,7 @@
     {
       "id": "art-gen-0072",
       "slug": "azure-cosmos-db-cosmosescape-flaw",
-      "titleAr": "???? CosmosEscape ?? Azure Cosmos DB: ??? ??????? ??????? ???????",
+      "titleAr": "ثغرة CosmosEscape في Azure Cosmos DB: كشف المفتاح الأساسي بالكامل",
       "titleEn": "CosmosEscape Flaw in Azure Cosmos DB Exposed Full Primary Keys",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2322,7 +2322,7 @@
     {
       "id": "art-gen-0073",
       "slug": "azure-cli-password-spray-campaign",
-      "titleAr": "???? ?? ????? ???? ???? ?????? Azure CLI",
+      "titleAr": "حملة رش كلمات مرور ضخمة تستهدف Azure CLI",
       "titleEn": "Massive Password Spray Campaign Targeting Azure CLI",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2351,7 +2351,7 @@
     {
       "id": "art-gen-0074",
       "slug": "ruby-on-rails-critical-rce-patch",
-      "titleAr": "Ruby on Rails ????? ???? ???? ???? ?????? ??? ?? ????",
+      "titleAr": "Ruby on Rails تُصلح ثغرة حرجة تسمح بتنفيذ كود عن بُعد",
       "titleEn": "Ruby on Rails Patches a Critical Remote Code Execution Vulnerability",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2377,7 +2377,7 @@
     {
       "id": "art-gen-0075",
       "slug": "honeypot-deception-basics",
-      "titleAr": "?????? ??????? (Honeypots): ??? ????? ??????? ??? ?? ???? ??? ???? ??????",
+      "titleAr": "الفخاخ الرقمية (Honeypots): كيف تكتشف المهاجم قبل ما يوصل لأي حاجة حقيقية",
       "titleEn": "Honeypots: Catching an Attacker Before They Reach Anything Real",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2399,7 +2399,7 @@
     {
       "id": "art-gen-0076",
       "slug": "security-awareness-training-metrics",
-      "titleAr": "???? ?????? ????? ????? ??????: ?????? ?????? ?????? ??? ???? ?????",
+      "titleAr": "قياس فعالية تدريب الوعي الأمني: الدليل الكامل لأرقام غير نسبة النقر",
       "titleEn": "Measuring Security Awareness Training: The Complete Guide Beyond Click Rate",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2423,7 +2423,7 @@
     {
       "id": "art-gen-0077",
       "slug": "air-gapped-networks-explained",
-      "titleAr": "??????? ???????? ????????? (Air-Gapped): ??? ??????? ?????",
+      "titleAr": "الشبكات المعزولة فيزيائيًا (Air-Gapped): متى تحتاجها فعلًا",
       "titleEn": "Air-Gapped Networks: When You Actually Need One",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2448,7 +2448,7 @@
     {
       "id": "art-gen-0078",
       "slug": "cloud-storage-misconfiguration-risks",
-      "titleAr": "????? ????? ??????? ???????: ?????? ?????? ????? ??? ???????? ????????",
+      "titleAr": "أخطاء إعداد التخزين السحابي: الدليل الكامل لأشهر سبب لتسريبات البيانات",
       "titleEn": "Cloud Storage Misconfiguration: The Complete Guide to the Most Common Cause of Data Leaks",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2475,7 +2475,7 @@
     {
       "id": "art-gen-0079",
       "slug": "api-rate-limiting-basics",
-      "titleAr": "????? ???? ??????? (Rate Limiting): ????? ???API ?? ???????",
+      "titleAr": "تحديد معدل الطلبات (Rate Limiting): حماية الـAPI من الإغراق",
       "titleEn": "API Rate Limiting: Protecting Your API from Being Overwhelmed",
       "source": "article",
       "currentCategory": "howto",
@@ -2499,7 +2499,7 @@
     {
       "id": "art-gen-0080",
       "slug": "dual-control-critical-operations",
-      "titleAr": "???? ??????? ???????? (Dual Control): ??? ????? ????? ?????? ?????? ?????",
+      "titleAr": "مبدأ الرقابة المزدوجة (Dual Control): ليه عملية حساسة محتاجة موافقة شخصين",
       "titleEn": "Dual Control: Why a Sensitive Operation Needs Two People's Approval",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2521,7 +2521,7 @@
     {
       "id": "art-gen-0081",
       "slug": "threat-modeling-stride-basics",
-      "titleAr": "????? ????????? ?????? STRIDE: ???? ?? ??????? ??? ?? ????",
+      "titleAr": "نمذجة التهديدات بطريقة STRIDE: فكّر زي المهاجم قبل ما تبني",
       "titleEn": "Threat Modeling with STRIDE: Think Like an Attacker Before You Build",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2543,7 +2543,7 @@
     {
       "id": "art-gen-0082",
       "slug": "active-directory-complete-setup-guide",
-      "titleAr": "?????? ?????? ?????? ?????? Active Directory ?? ?????",
+      "titleAr": "الدليل الشامل لإعداد وإدارة Active Directory من الصفر",
       "titleEn": "The Complete Guide to Setting Up and Managing Active Directory From Scratch",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2574,7 +2574,7 @@
     {
       "id": "art-gen-0083",
       "slug": "powershell-sysadmin-complete-guide",
-      "titleAr": "?????? ?????? ???????? PowerShell ?? ????? ???????",
+      "titleAr": "الدليل الشامل لاستخدام PowerShell في إدارة الأنظمة",
       "titleEn": "The Complete Guide to Using PowerShell for System Administration",
       "source": "article",
       "currentCategory": "windows",
@@ -2598,7 +2598,7 @@
     {
       "id": "art-gen-0084",
       "slug": "incident-response-plan-from-scratch",
-      "titleAr": "??? ???? ??? ??????? ??????? ??????? ?? ?????",
+      "titleAr": "كيف تبني خطة استجابة للحوادث الأمنية من الصفر",
       "titleEn": "How to Build a Security Incident Response Plan From Scratch",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2624,7 +2624,7 @@
     {
       "id": "art-gen-0085",
       "slug": "wireshark-network-analysis-complete-guide",
-      "titleAr": "?????? ?????? ?????? ???? ?????? ???????? Wireshark",
+      "titleAr": "الدليل الشامل لتحليل حركة الشبكة باستخدام Wireshark",
       "titleEn": "The Complete Guide to Network Traffic Analysis with Wireshark",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2651,7 +2651,7 @@
     {
       "id": "art-gen-0086",
       "slug": "kerberos-authentication-explained",
-      "titleAr": "??? Kerberos: ??? ???? ???????? ?????? ?? Active Directory",
+      "titleAr": "فهم Kerberos: كيف تعمل المصادقة فعليًا في Active Directory",
       "titleEn": "Understanding Kerberos: How Authentication Actually Works in Active Directory",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2681,7 +2681,7 @@
     {
       "id": "art-gen-0087",
       "slug": "pki-certificate-authority-explained",
-      "titleAr": "??? PKI ?????? ?????: ??? ???? ?? ??????? ?????? ?????",
+      "titleAr": "فهم PKI وسلسلة الثقة: كيف تعرف أن الشهادة حقيقية فعلًا",
       "titleEn": "Understanding PKI and the Chain of Trust: How You Know a Certificate Is Actually Real",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2707,7 +2707,7 @@
     {
       "id": "art-gen-0088",
       "slug": "disaster-recovery-plan-basics",
-      "titleAr": "??????? ??? ??????? ?? ??????? (DRP): ?????? ??????",
+      "titleAr": "أساسيات خطة التعافي من الكوارث (DRP): الدليل الكامل",
       "titleEn": "Disaster Recovery Plan (DRP) Basics: The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2733,7 +2733,7 @@
     {
       "id": "art-gen-0089",
       "slug": "nmap-network-scanning-complete-guide",
-      "titleAr": "?????? ?????? ???????? Nmap ?? ??? ??????",
+      "titleAr": "الدليل الشامل لاستخدام Nmap في فحص الشبكة",
       "titleEn": "The Complete Guide to Network Scanning with Nmap",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2757,7 +2757,7 @@
     {
       "id": "art-gen-0090",
       "slug": "vulnerability-management-program-guide",
-      "titleAr": "???? ?????? ????? ????? ????: ?????? ??????",
+      "titleAr": "بناء برنامج إدارة ثغرات ناجح: الدليل الكامل",
       "titleEn": "Building a Successful Vulnerability Management Program: The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2783,7 +2783,7 @@
     {
       "id": "art-gen-0091",
       "slug": "how-edr-actually-works",
-      "titleAr": "??? ???? EDR ??????: ????? ??????? ?? ???? ????????? ????????",
+      "titleAr": "كيف يعمل EDR فعليًا: الفرق الجوهري عن مضاد الفيروسات التقليدي",
       "titleEn": "How EDR Actually Works: The Fundamental Difference from Traditional Antivirus",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2809,7 +2809,7 @@
     {
       "id": "art-gen-0092",
       "slug": "container-security-basics-guide",
-      "titleAr": "??????? ???? ???????? (Container Security): ?????? ??????",
+      "titleAr": "أساسيات أمان الحاويات (Container Security): الدليل الكامل",
       "titleEn": "Container Security Basics: The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2834,7 +2834,7 @@
     {
       "id": "art-gen-0093",
       "slug": "byod-policy-security-guide",
-      "titleAr": "????? BYOD (??????? ?????? ?????? ?????): ?????? ??????",
+      "titleAr": "سياسة BYOD (استخدام الجهاز الشخصي للعمل): الدليل الكامل",
       "titleEn": "BYOD Policy (Bring Your Own Device): The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2860,7 +2860,7 @@
     {
       "id": "art-gen-0094",
       "slug": "secure-sdlc-guide",
-      "titleAr": "???? ????? ????????? ?????? (SSDLC): ?????? ??????",
+      "titleAr": "دورة تطوير البرمجيات الآمنة (SSDLC): الدليل الكامل",
       "titleEn": "Secure Software Development Lifecycle (SSDLC): The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2884,7 +2884,7 @@
     {
       "id": "art-gen-0095",
       "slug": "how-siem-actually-works",
-      "titleAr": "??? ???? SIEM ??????: ????? ??? ???? ????? ??????? ??????? ????????",
+      "titleAr": "كيف يعمل SIEM فعليًا: الفرق بين مجرد تجميع السجلات والقيمة الحقيقية",
       "titleEn": "How SIEM Actually Works: The Difference Between Simple Log Collection and Real Value",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2910,7 +2910,7 @@
     {
       "id": "art-gen-0096",
       "slug": "web-application-firewall-waf-guide",
-      "titleAr": "???? ????? ??????? ????? (WAF): ?????? ??????",
+      "titleAr": "جدار حماية تطبيقات الويب (WAF): الدليل الكامل",
       "titleEn": "Web Application Firewall (WAF): The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2937,7 +2937,7 @@
     {
       "id": "art-gen-0097",
       "slug": "data-loss-prevention-dlp-guide",
-      "titleAr": "??? ????? ???????? (DLP): ?????? ??????",
+      "titleAr": "منع تسريب البيانات (DLP): الدليل الكامل",
       "titleEn": "Data Loss Prevention (DLP): The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2967,7 +2967,7 @@
     {
       "id": "art-gen-0098",
       "slug": "insider-risk-program-guide",
-      "titleAr": "???? ?????? ????? ??????? ???????: ?????? ??????",
+      "titleAr": "بناء برنامج إدارة التهديد الداخلي: الدليل الكامل",
       "titleEn": "Building an Insider Risk Program: The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -2991,7 +2991,7 @@
     {
       "id": "art-gen-0099",
       "slug": "authentication-vs-authorization-explained",
-      "titleAr": "???????? ????? ??????? (Authentication vs Authorization): ?????? ??????",
+      "titleAr": "المصادقة مقابل التفويض (Authentication vs Authorization): الدليل الكامل",
       "titleEn": "Authentication vs Authorization: The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -3015,7 +3015,7 @@
     {
       "id": "art-gen-0100",
       "slug": "owasp-top-10-overview",
-      "titleAr": "???? ????? ??? OWASP Top 10: ?????? ??????",
+      "titleAr": "نظرة شاملة على OWASP Top 10: الدليل الكامل",
       "titleEn": "OWASP Top 10 Overview: The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -3039,7 +3039,7 @@
     {
       "id": "art-gen-0101",
       "slug": "understanding-cvss-score",
-      "titleAr": "??? ???? CVSS: ??? ???? ????? ?????? ??",
+      "titleAr": "فهم درجة CVSS: كيف تقرأ خطورة الثغرة صح",
       "titleEn": "Understanding the CVSS Score: How to Correctly Read Vulnerability Severity",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -3065,7 +3065,7 @@
     {
       "id": "art-gen-0102",
       "slug": "security-operations-center-soc-guide",
-      "titleAr": "???? ???????? ??????? (SOC): ?????? ??????",
+      "titleAr": "مركز العمليات الأمنية (SOC): الدليل الكامل",
       "titleEn": "Security Operations Center (SOC): The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -3091,7 +3091,7 @@
     {
       "id": "art-gen-0103",
       "slug": "immutable-backups-ransomware-defense",
-      "titleAr": "????? ?????????? ??? ??????? ??????? (Immutable Backups): ?????? ??????",
+      "titleAr": "النسخ الاحتياطية غير القابلة للتعديل (Immutable Backups): الدليل الكامل",
       "titleEn": "Immutable Backups: The Complete Guide to Ransomware's Last Line of Defense",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -3118,7 +3118,7 @@
     {
       "id": "art-gen-0104",
       "slug": "tls-handshake-explained",
-      "titleAr": "??? TLS Handshake: ???? ???? ????? ??? ????? ??????",
+      "titleAr": "فهم TLS Handshake: ماذا يحدث فعلًا خلف القفل الأخضر",
       "titleEn": "Understanding the TLS Handshake: What Actually Happens Behind the Green Lock",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -3142,7 +3142,7 @@
     {
       "id": "art-gen-0105",
       "slug": "zero-day-vulnerabilities-explained",
-      "titleAr": "????? ??? ????? (Zero-Day): ?????? ??????",
+      "titleAr": "ثغرات يوم الصفر (Zero-Day): الدليل الكامل",
       "titleEn": "Zero-Day Vulnerabilities: The Complete Guide",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -3168,7 +3168,7 @@
     {
       "id": "art-gen-0106",
       "slug": "smartphone-battery-longevity-guide",
-      "titleAr": "????? ??? ?????? ??????: ?????? ??????",
+      "titleAr": "إطالة عمر بطارية الهاتف: الدليل الكامل",
       "titleEn": "Extending Smartphone Battery Life: The Complete Guide",
       "source": "article",
       "currentCategory": "mobile",
@@ -3190,8 +3190,8 @@
     {
       "id": "art-gen-0107",
       "slug": "effective-ai-prompting-guide",
-      "titleAr": "????? ????? AI ??????? ?????? ?????: ???? ???? ?????????",
-      "titleEn": "Writing Safe AI Prompts for Technical Troubleshooting: An Engineer?s Template",
+      "titleAr": "صياغة طلبات AI للتشخيص التقني بأمان: قالب عملي للمهندسين",
+      "titleEn": "Writing Safe AI Prompts for Technical Troubleshooting: An Engineer’s Template",
       "source": "article",
       "currentCategory": "cybersecurity",
       "inferredDomains": [
@@ -3218,7 +3218,7 @@
     {
       "id": "art-gen-0108",
       "slug": "how-gps-actually-works",
-      "titleAr": "??? ???? GPS ??????: ?????? ??????",
+      "titleAr": "كيف يعمل GPS فعليًا: الدليل الكامل",
       "titleEn": "How GPS Actually Works: The Complete Guide",
       "source": "article",
       "currentCategory": "technology",
@@ -3240,7 +3240,7 @@
     {
       "id": "art-gen-0109",
       "slug": "laptop-for-developers-guide",
-      "titleAr": "?????? ?????? ?????????: ?????? ??????",
+      "titleAr": "اختيار لابتوب للمبرمجين: الدليل الكامل",
       "titleEn": "Choosing a Laptop for Developers: The Complete Guide",
       "source": "article",
       "currentCategory": "laptops",
@@ -3266,7 +3266,7 @@
     {
       "id": "art-gen-0110",
       "slug": "wifi-vs-mobile-data-when-to-use",
-      "titleAr": "Wi-Fi ????? ?????? ????????: ??? ?????? ?? ?????",
+      "titleAr": "Wi-Fi مقابل بيانات الموبايل: متى تستخدم كل واحدة",
       "titleEn": "Wi-Fi vs Mobile Data: When to Use Each",
       "source": "article",
       "currentCategory": "mobile",
@@ -3294,7 +3294,7 @@
     {
       "id": "art-gen-0111",
       "slug": "how-large-language-models-work",
-      "titleAr": "??? ???? ??????? ??????? ??????? ?? ????? IT: ???? ???? ????? ????????",
+      "titleAr": "كيف تعمل النماذج اللغوية الكبيرة في بيئات IT: دليل عملي للثقة والمخاطر",
       "titleEn": "How LLMs Work in Enterprise IT: A Practical Guide to Trust and Risk",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -3321,7 +3321,7 @@
     {
       "id": "art-gen-0112",
       "slug": "how-qr-codes-work",
-      "titleAr": "??? ???? ???? QR ??????: ?????? ??????",
+      "titleAr": "كيف تعمل رموز QR فعليًا: الدليل الكامل",
       "titleEn": "How QR Codes Actually Work: The Complete Guide",
       "source": "article",
       "currentCategory": "technology",
@@ -3343,7 +3343,7 @@
     {
       "id": "art-gen-0113",
       "slug": "digital-file-organization-system",
-      "titleAr": "???? ????? ??????? ???????: ?????? ??????",
+      "titleAr": "نظام تنظيم الملفات الرقمية: الدليل الكامل",
       "titleEn": "A Digital File Organization System: The Complete Guide",
       "source": "article",
       "currentCategory": "howto",
@@ -3365,7 +3365,7 @@
     {
       "id": "art-gen-0114",
       "slug": "browser-vs-standalone-password-manager",
-      "titleAr": "???? ????? ?????? ?????? ????? ???????: ?????? ??????",
+      "titleAr": "مدير كلمات المرور المدمج مقابل المستقل: الدليل الكامل",
       "titleEn": "Browser vs Standalone Password Manager: The Complete Guide",
       "source": "article",
       "currentCategory": "howto",
@@ -3391,7 +3391,7 @@
     {
       "id": "art-gen-0115",
       "slug": "how-ai-image-generation-works",
-      "titleAr": "????? ????? ??????? ????????? ?? ????????: ???????? ???????? ?????? ?????",
+      "titleAr": "توليد الصور بالذكاء الاصطناعي في المؤسسات: البيانات والمخاطر وضوابط النشر",
       "titleEn": "Enterprise AI Image Generation: Data, Risk, and Publishing Controls",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -3417,7 +3417,7 @@
     {
       "id": "art-gen-0116",
       "slug": "how-cloud-storage-actually-works",
-      "titleAr": "??? ???? ??????? ??????? ??????: ?????? ??????",
+      "titleAr": "كيف يعمل التخزين السحابي فعليًا: الدليل الكامل",
       "titleEn": "How Cloud Storage Actually Works: The Complete Guide",
       "source": "article",
       "currentCategory": "technology",
@@ -3443,7 +3443,7 @@
     {
       "id": "art-gen-0117",
       "slug": "ios-vs-android-choosing-guide",
-      "titleAr": "iOS ????? Android: ?????? ?????? ????????",
+      "titleAr": "iOS مقابل Android: الدليل الكامل للاختيار",
       "titleEn": "iOS vs Android: The Complete Choosing Guide",
       "source": "article",
       "currentCategory": "mobile",
@@ -3465,7 +3465,7 @@
     {
       "id": "art-gen-0118",
       "slug": "laptop-slow-performance-fixes",
-      "titleAr": "??????? ????? 10 ????? ?????? ????? ????? ???????",
+      "titleAr": "لابتوبك بطيء؟ 10 أسباب حقيقية وحلول عملية لتسريعه",
       "titleEn": "Laptop Running Slow? 10 Real Causes and Practical Fixes",
       "source": "article",
       "currentCategory": "laptops",
@@ -3487,7 +3487,7 @@
     {
       "id": "art-gen-0119",
       "slug": "phone-storage-full-fixes",
-      "titleAr": "????? ????? ??????? ??????? ???? ???? ????? ????? ??????",
+      "titleAr": "مساحة تخزين موبايلك امتلأت؟ إزاي تفضي مساحة بسرعة وبأمان",
       "titleEn": "Phone Storage Full? How to Free Up Space Quickly and Safely",
       "source": "article",
       "currentCategory": "mobile",
@@ -3511,7 +3511,7 @@
     {
       "id": "art-gen-0120",
       "slug": "wifi-connection-problems-fixes",
-      "titleAr": "????? ????? ??? ??????? ??????? ???? ?????",
+      "titleAr": "مشاكل الواي فاي الشائعة وحلولها خطوة بخطوة",
       "titleEn": "Common Wi-Fi Problems and Their Step-by-Step Fixes",
       "source": "article",
       "currentCategory": "howto",
@@ -3537,7 +3537,7 @@
     {
       "id": "art-gen-0121",
       "slug": "laptop-battery-health-guide",
-      "titleAr": "?????? ???????? ????? ?????? ???? ???? ????? ?????? ???????",
+      "titleAr": "بطارية اللابتوب بتخلص بسرعة؟ إزاي تطيل عمرها وتشخّص المشكلة",
       "titleEn": "Laptop Battery Draining Fast? How to Extend Its Life and Diagnose the Problem",
       "source": "article",
       "currentCategory": "laptops",
@@ -3559,7 +3559,7 @@
     {
       "id": "art-gen-0122",
       "slug": "data-backup-simple-guide",
-      "titleAr": "????? ????????? ????????: ???? ???? ???? ?????? ???? ???????",
+      "titleAr": "النسخ الاحتياطي لبياناتك: دليل بسيط عشان متضيعش صورك وملفاتك",
       "titleEn": "Backing Up Your Data: A Simple Guide So You Never Lose Your Photos and Files",
       "source": "article",
       "currentCategory": "howto",
@@ -3586,7 +3586,7 @@
     {
       "id": "art-gen-0123",
       "slug": "forgotten-password-account-recovery",
-      "titleAr": "???? ???? ???? ????? ?????? ????? ????????? ??????",
+      "titleAr": "نسيت كلمة مرور حسابك المهم؟ خطوات الاسترجاع الآمنة",
       "titleEn": "Forgot Your Important Account Password? Safe Recovery Steps",
       "source": "article",
       "currentCategory": "cybersecurity",
@@ -3612,7 +3612,7 @@
     {
       "id": "art-gen-0124",
       "slug": "phone-slow-performance-fixes",
-      "titleAr": "??????? ???? ??? ???? ???????? ??????? ??????? ???????",
+      "titleAr": "موبايلك بطيء بعد فترة استخدام؟ الأسباب والحلول العملية",
       "titleEn": "Phone Slowing Down Over Time? Real Causes and Practical Fixes",
       "source": "article",
       "currentCategory": "mobile",
@@ -3634,7 +3634,7 @@
     {
       "id": "art-gen-0125",
       "slug": "printer-not-working-fixes",
-      "titleAr": "??????? ?? ?????? ?? ?? ????? ??? ?????? ???????",
+      "titleAr": "الطابعة مش بتشتغل أو مش بتطبع صح؟ الحلول الشائعة",
       "titleEn": "Printer Not Working or Printing Correctly? Common Fixes",
       "source": "article",
       "currentCategory": "howto",
@@ -3656,7 +3656,7 @@
     {
       "id": "art-gen-0126",
       "slug": "mobile-buying-guide-2026",
-      "titleAr": "???? ???? ?????? ???? 2026: ??? ????????? ???? ?????? ???? ???? ???? ????",
+      "titleAr": "دليل شراء موبايل جديد 2026: إيه المواصفات اللي تستاهل تدفع فيها فلوس أكتر",
       "titleEn": "Buying a New Phone in 2026: Which Specs Are Actually Worth Paying More For",
       "source": "article",
       "currentCategory": "mobile",
@@ -3678,7 +3678,7 @@
     {
       "id": "art-gen-0127",
       "slug": "laptop-buying-guide-2026",
-      "titleAr": "???? ?????? ?????? ????? ??: ??????? ?????? ????????",
+      "titleAr": "دليل اختيار لابتوب مناسب لك: للطلاب، للعمل، وللتصميم",
       "titleEn": "Choosing the Right Laptop for You: Students, Work, and Design",
       "source": "article",
       "currentCategory": "laptops",
@@ -3700,7 +3700,7 @@
     {
       "id": "art-gen-0128",
       "slug": "ai-everyday-uses-guide",
-      "titleAr": "???? ????????? ?????? ????????? ?? ????? ??????? (?? ?? ChatGPT)",
+      "titleAr": "أفضل استخدامات الذكاء الاصطناعي في حياتك اليومية (مش بس ChatGPT)",
       "titleEn": "The Best Everyday Uses of AI (It's Not Just ChatGPT)",
       "source": "article",
       "currentCategory": "ai",
@@ -3722,7 +3722,7 @@
     {
       "id": "art-gen-0129",
       "slug": "wireless-headphones-buying-guide",
-      "titleAr": "???? ?????? ??????? ???????? ??????: ???? ???? ????",
+      "titleAr": "أفضل سماعات لاسلكية بميزانية متوسطة: دليل شراء عملي",
       "titleEn": "Best Wireless Headphones on a Mid-Range Budget: A Practical Buying Guide",
       "source": "article",
       "currentCategory": "reviews",
@@ -3748,7 +3748,7 @@
     {
       "id": "cmp-gen-0001",
       "slug": "iphone-16-vs-galaxy-s25",
-      "titleAr": "iPhone 16 ?? Galaxy S25",
+      "titleAr": "iPhone 16 ضد Galaxy S25",
       "titleEn": "iPhone 16 vs Galaxy S25",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -3770,7 +3770,7 @@
     {
       "id": "cmp-gen-0002",
       "slug": "pixel-9-vs-nothing-phone-3",
-      "titleAr": "Pixel 9 ?? Nothing Phone 3",
+      "titleAr": "Pixel 9 ضد Nothing Phone 3",
       "titleEn": "Pixel 9 vs Nothing Phone 3",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -3792,7 +3792,7 @@
     {
       "id": "cmp-gen-0003",
       "slug": "macbook-air-m3-vs-dell-xps-13",
-      "titleAr": "MacBook Air M3 ?? Dell XPS 13",
+      "titleAr": "MacBook Air M3 ضد Dell XPS 13",
       "titleEn": "MacBook Air M3 vs Dell XPS 13",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -3814,7 +3814,7 @@
     {
       "id": "cmp-gen-0004",
       "slug": "thinkpad-x1-vs-hp-elitebook",
-      "titleAr": "ThinkPad X1 ?? HP EliteBook",
+      "titleAr": "ThinkPad X1 ضد HP EliteBook",
       "titleEn": "ThinkPad X1 vs HP EliteBook",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -3836,7 +3836,7 @@
     {
       "id": "cmp-gen-0005",
       "slug": "palo-alto-ngfw-vs-fortinet-fortigate",
-      "titleAr": "Palo Alto NGFW ?? Fortinet FortiGate",
+      "titleAr": "Palo Alto NGFW ضد Fortinet FortiGate",
       "titleEn": "Palo Alto NGFW vs Fortinet FortiGate",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -3865,7 +3865,7 @@
     {
       "id": "cmp-gen-0006",
       "slug": "palo-alto-ngfw-vs-forcepoint-ngfw",
-      "titleAr": "Palo Alto NGFW ?? Forcepoint NGFW",
+      "titleAr": "Palo Alto NGFW ضد Forcepoint NGFW",
       "titleEn": "Palo Alto NGFW vs Forcepoint NGFW",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -3895,7 +3895,7 @@
     {
       "id": "cmp-gen-0007",
       "slug": "fortinet-fortigate-vs-forcepoint-ngfw",
-      "titleAr": "Fortinet FortiGate ?? Forcepoint NGFW",
+      "titleAr": "Fortinet FortiGate ضد Forcepoint NGFW",
       "titleEn": "Fortinet FortiGate vs Forcepoint NGFW",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -3928,7 +3928,7 @@
     {
       "id": "cmp-gen-0008",
       "slug": "cisco-ftd-vs-palo-alto-ngfw",
-      "titleAr": "Cisco FTD ?? Palo Alto NGFW",
+      "titleAr": "Cisco FTD ضد Palo Alto NGFW",
       "titleEn": "Cisco FTD vs Palo Alto NGFW",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -3959,7 +3959,7 @@
     {
       "id": "cmp-gen-0009",
       "slug": "palo-alto-ngfw-vs-check-point",
-      "titleAr": "Palo Alto NGFW ?? Check Point",
+      "titleAr": "Palo Alto NGFW ضد Check Point",
       "titleEn": "Palo Alto NGFW vs Check Point",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -3988,7 +3988,7 @@
     {
       "id": "cmp-gen-0010",
       "slug": "fortinet-fortigate-vs-sophos-firewall",
-      "titleAr": "Fortinet FortiGate ?? Sophos Firewall",
+      "titleAr": "Fortinet FortiGate ضد Sophos Firewall",
       "titleEn": "Fortinet FortiGate vs Sophos Firewall",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4020,7 +4020,7 @@
     {
       "id": "cmp-gen-0011",
       "slug": "wireguard-vs-openvpn",
-      "titleAr": "WireGuard ?? OpenVPN",
+      "titleAr": "WireGuard ضد OpenVPN",
       "titleEn": "WireGuard vs OpenVPN",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4046,7 +4046,7 @@
     {
       "id": "cmp-gen-0012",
       "slug": "windows-nps-vs-freeradius",
-      "titleAr": "Windows NPS ?? FreeRADIUS",
+      "titleAr": "Windows NPS ضد FreeRADIUS",
       "titleEn": "Windows NPS vs FreeRADIUS",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4072,7 +4072,7 @@
     {
       "id": "cmp-gen-0013",
       "slug": "okta-vs-microsoft-entra-id",
-      "titleAr": "Okta ?? Microsoft Entra ID",
+      "titleAr": "Okta ضد Microsoft Entra ID",
       "titleEn": "Okta vs Microsoft Entra ID",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4100,7 +4100,7 @@
     {
       "id": "cmp-gen-0014",
       "slug": "crowdstrike-falcon-vs-microsoft-defender",
-      "titleAr": "CrowdStrike Falcon ?? Microsoft Defender",
+      "titleAr": "CrowdStrike Falcon ضد Microsoft Defender",
       "titleEn": "CrowdStrike Falcon vs Microsoft Defender",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4128,7 +4128,7 @@
     {
       "id": "cmp-gen-0015",
       "slug": "crowdstrike-falcon-vs-sentinelone",
-      "titleAr": "CrowdStrike Falcon ?? SentinelOne",
+      "titleAr": "CrowdStrike Falcon ضد SentinelOne",
       "titleEn": "CrowdStrike Falcon vs SentinelOne",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4154,7 +4154,7 @@
     {
       "id": "cmp-gen-0016",
       "slug": "microsoft-defender-vs-sentinelone",
-      "titleAr": "Microsoft Defender ?? SentinelOne",
+      "titleAr": "Microsoft Defender ضد SentinelOne",
       "titleEn": "Microsoft Defender vs SentinelOne",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4180,7 +4180,7 @@
     {
       "id": "cmp-gen-0017",
       "slug": "chatgpt-vs-claude",
-      "titleAr": "ChatGPT ?? Claude",
+      "titleAr": "ChatGPT ضد Claude",
       "titleEn": "ChatGPT vs Claude",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4202,7 +4202,7 @@
     {
       "id": "cmp-gen-0018",
       "slug": "aws-vs-azure",
-      "titleAr": "AWS ?? Azure",
+      "titleAr": "AWS ضد Azure",
       "titleEn": "AWS vs Azure",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4230,7 +4230,7 @@
     {
       "id": "cmp-gen-0019",
       "slug": "1password-vs-bitwarden",
-      "titleAr": "1Password ?? Bitwarden",
+      "titleAr": "1Password ضد Bitwarden",
       "titleEn": "1Password vs Bitwarden",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4252,7 +4252,7 @@
     {
       "id": "cmp-gen-0020",
       "slug": "ps5-vs-xbox-series-x",
-      "titleAr": "PS5 ?? Xbox Series X",
+      "titleAr": "PS5 ضد Xbox Series X",
       "titleEn": "PS5 vs Xbox Series X",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4274,7 +4274,7 @@
     {
       "id": "cmp-gen-0021",
       "slug": "apple-watch-10-vs-galaxy-watch-7",
-      "titleAr": "Apple Watch 10 ?? Galaxy Watch 7",
+      "titleAr": "Apple Watch 10 ضد Galaxy Watch 7",
       "titleEn": "Apple Watch 10 vs Galaxy Watch 7",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4296,7 +4296,7 @@
     {
       "id": "cmp-gen-0022",
       "slug": "kaspersky-endpoint-security-vs-bitdefender-gravityzone",
-      "titleAr": "Kaspersky Endpoint Security ?? Bitdefender GravityZone",
+      "titleAr": "Kaspersky Endpoint Security ضد Bitdefender GravityZone",
       "titleEn": "Kaspersky Endpoint Security vs Bitdefender GravityZone",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4324,7 +4324,7 @@
     {
       "id": "cmp-gen-0023",
       "slug": "windows-rds-vs-citrix-virtual-apps",
-      "titleAr": "Windows RDS ?? Citrix Virtual Apps",
+      "titleAr": "Windows RDS ضد Citrix Virtual Apps",
       "titleEn": "Windows RDS vs Citrix Virtual Apps",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4346,7 +4346,7 @@
     {
       "id": "cmp-gen-0024",
       "slug": "group-policy-vs-microsoft-intune",
-      "titleAr": "Group Policy ?? Microsoft Intune",
+      "titleAr": "Group Policy ضد Microsoft Intune",
       "titleEn": "Group Policy vs Microsoft Intune",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4372,7 +4372,7 @@
     {
       "id": "cmp-gen-0025",
       "slug": "veeam-backup-replication-vs-acronis-cyber-protect",
-      "titleAr": "Veeam Backup & Replication ?? Acronis Cyber Protect",
+      "titleAr": "Veeam Backup & Replication ضد Acronis Cyber Protect",
       "titleEn": "Veeam Backup & Replication vs Acronis Cyber Protect",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4398,7 +4398,7 @@
     {
       "id": "cmp-gen-0026",
       "slug": "splunk-vs-wazuh",
-      "titleAr": "Splunk ?? Wazuh",
+      "titleAr": "Splunk ضد Wazuh",
       "titleEn": "Splunk vs Wazuh",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4424,7 +4424,7 @@
     {
       "id": "cmp-gen-0027",
       "slug": "forcepoint-email-security-vs-proofpoint-email-protection",
-      "titleAr": "Forcepoint Email Security ?? Proofpoint Email Protection",
+      "titleAr": "Forcepoint Email Security ضد Proofpoint Email Protection",
       "titleEn": "Forcepoint Email Security vs Proofpoint Email Protection",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4452,7 +4452,7 @@
     {
       "id": "cmp-gen-0028",
       "slug": "vmware-vsphere-vs-proxmox-ve",
-      "titleAr": "VMware vSphere ?? Proxmox VE",
+      "titleAr": "VMware vSphere ضد Proxmox VE",
       "titleEn": "VMware vSphere vs Proxmox VE",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4482,7 +4482,7 @@
     {
       "id": "cmp-gen-0029",
       "slug": "pfsense-vs-opnsense",
-      "titleAr": "pfSense ?? OPNsense",
+      "titleAr": "pfSense ضد OPNsense",
       "titleEn": "pfSense vs OPNsense",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4504,7 +4504,7 @@
     {
       "id": "cmp-gen-0030",
       "slug": "zabbix-vs-nagios",
-      "titleAr": "Zabbix ?? Nagios",
+      "titleAr": "Zabbix ضد Nagios",
       "titleEn": "Zabbix vs Nagios",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4526,7 +4526,7 @@
     {
       "id": "cmp-gen-0031",
       "slug": "ubiquiti-unifi-vs-cisco-meraki",
-      "titleAr": "Ubiquiti UniFi ?? Cisco Meraki",
+      "titleAr": "Ubiquiti UniFi ضد Cisco Meraki",
       "titleEn": "Ubiquiti UniFi vs Cisco Meraki",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4550,7 +4550,7 @@
     {
       "id": "cmp-gen-0032",
       "slug": "ansible-vs-powershell-dsc",
-      "titleAr": "Ansible ?? PowerShell DSC",
+      "titleAr": "Ansible ضد PowerShell DSC",
       "titleEn": "Ansible vs PowerShell DSC",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4577,7 +4577,7 @@
     {
       "id": "cmp-gen-0033",
       "slug": "cloudflare-vs-akamai",
-      "titleAr": "Cloudflare ?? Akamai",
+      "titleAr": "Cloudflare ضد Akamai",
       "titleEn": "Cloudflare vs Akamai",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4603,7 +4603,7 @@
     {
       "id": "cmp-gen-0034",
       "slug": "duo-security-vs-microsoft-authenticator",
-      "titleAr": "Duo Security ?? Microsoft Authenticator",
+      "titleAr": "Duo Security ضد Microsoft Authenticator",
       "titleEn": "Duo Security vs Microsoft Authenticator",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4629,7 +4629,7 @@
     {
       "id": "cmp-gen-0035",
       "slug": "terraform-vs-ansible",
-      "titleAr": "Terraform ?? Ansible",
+      "titleAr": "Terraform ضد Ansible",
       "titleEn": "Terraform vs Ansible",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4651,7 +4651,7 @@
     {
       "id": "cmp-gen-0036",
       "slug": "datto-vs-veeam",
-      "titleAr": "Datto ?? Veeam",
+      "titleAr": "Datto ضد Veeam",
       "titleEn": "Datto vs Veeam",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4677,7 +4677,7 @@
     {
       "id": "cmp-gen-0037",
       "slug": "qualys-vs-nessus",
-      "titleAr": "Qualys ?? Nessus",
+      "titleAr": "Qualys ضد Nessus",
       "titleEn": "Qualys vs Nessus",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4699,7 +4699,7 @@
     {
       "id": "cmp-gen-0038",
       "slug": "google-workspace-vs-microsoft-365",
-      "titleAr": "Google Workspace ?? Microsoft 365",
+      "titleAr": "Google Workspace ضد Microsoft 365",
       "titleEn": "Google Workspace vs Microsoft 365",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4727,7 +4727,7 @@
     {
       "id": "cmp-gen-0039",
       "slug": "tailscale-vs-traditional-site-to-site-vpn",
-      "titleAr": "Tailscale ?? Traditional Site-to-Site VPN",
+      "titleAr": "Tailscale ضد Traditional Site-to-Site VPN",
       "titleEn": "Tailscale vs Traditional Site-to-Site VPN",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4753,7 +4753,7 @@
     {
       "id": "cmp-gen-0040",
       "slug": "bitwarden-business-vs-keeper",
-      "titleAr": "Bitwarden Business ?? Keeper",
+      "titleAr": "Bitwarden Business ضد Keeper",
       "titleEn": "Bitwarden Business vs Keeper",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4775,7 +4775,7 @@
     {
       "id": "cmp-gen-0041",
       "slug": "rapid7-insightvm-vs-tenable-io",
-      "titleAr": "Rapid7 InsightVM ?? Tenable.io",
+      "titleAr": "Rapid7 InsightVM ضد Tenable.io",
       "titleEn": "Rapid7 InsightVM vs Tenable.io",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4805,7 +4805,7 @@
     {
       "id": "cmp-gen-0042",
       "slug": "postman-vs-insomnia",
-      "titleAr": "Postman ?? Insomnia",
+      "titleAr": "Postman ضد Insomnia",
       "titleEn": "Postman vs Insomnia",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4827,7 +4827,7 @@
     {
       "id": "cmp-gen-0043",
       "slug": "github-actions-vs-jenkins",
-      "titleAr": "GitHub Actions ?? Jenkins",
+      "titleAr": "GitHub Actions ضد Jenkins",
       "titleEn": "GitHub Actions vs Jenkins",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4849,7 +4849,7 @@
     {
       "id": "cmp-gen-0044",
       "slug": "grafana-vs-kibana",
-      "titleAr": "Grafana ?? Kibana",
+      "titleAr": "Grafana ضد Kibana",
       "titleEn": "Grafana vs Kibana",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4871,7 +4871,7 @@
     {
       "id": "cmp-gen-0045",
       "slug": "anydesk-vs-teamviewer",
-      "titleAr": "AnyDesk ?? TeamViewer",
+      "titleAr": "AnyDesk ضد TeamViewer",
       "titleEn": "AnyDesk vs TeamViewer",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4893,7 +4893,7 @@
     {
       "id": "cmp-gen-0046",
       "slug": "bitlocker-vs-veracrypt",
-      "titleAr": "BitLocker ?? VeraCrypt",
+      "titleAr": "BitLocker ضد VeraCrypt",
       "titleEn": "BitLocker vs VeraCrypt",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4917,7 +4917,7 @@
     {
       "id": "cmp-gen-0047",
       "slug": "burp-suite-vs-owasp-zap",
-      "titleAr": "Burp Suite ?? OWASP ZAP",
+      "titleAr": "Burp Suite ضد OWASP ZAP",
       "titleEn": "Burp Suite vs OWASP ZAP",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4939,7 +4939,7 @@
     {
       "id": "cmp-gen-0048",
       "slug": "snort-vs-suricata",
-      "titleAr": "Snort ?? Suricata",
+      "titleAr": "Snort ضد Suricata",
       "titleEn": "Snort vs Suricata",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4961,7 +4961,7 @@
     {
       "id": "cmp-gen-0049",
       "slug": "gitlab-vs-github",
-      "titleAr": "GitLab ?? GitHub",
+      "titleAr": "GitLab ضد GitHub",
       "titleEn": "GitLab vs GitHub",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -4983,7 +4983,7 @@
     {
       "id": "cmp-gen-0050",
       "slug": "docker-vs-podman",
-      "titleAr": "Docker ?? Podman",
+      "titleAr": "Docker ضد Podman",
       "titleEn": "Docker vs Podman",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5007,7 +5007,7 @@
     {
       "id": "cmp-gen-0051",
       "slug": "cisco-ise-vs-aruba-clearpass",
-      "titleAr": "Cisco ISE ?? Aruba ClearPass",
+      "titleAr": "Cisco ISE ضد Aruba ClearPass",
       "titleEn": "Cisco ISE vs Aruba ClearPass",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5037,7 +5037,7 @@
     {
       "id": "cmp-gen-0052",
       "slug": "sysmon-vs-windows-default-auditing",
-      "titleAr": "Sysmon ?? Windows Default Auditing",
+      "titleAr": "Sysmon ضد Windows Default Auditing",
       "titleEn": "Sysmon vs Windows Default Auditing",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5063,7 +5063,7 @@
     {
       "id": "cmp-gen-0053",
       "slug": "have-i-been-pwned-vs-enterprise-breach-monitoring-services",
-      "titleAr": "Have I Been Pwned ?? Enterprise Breach Monitoring Services",
+      "titleAr": "Have I Been Pwned ضد Enterprise Breach Monitoring Services",
       "titleEn": "Have I Been Pwned vs Enterprise Breach Monitoring Services",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5085,7 +5085,7 @@
     {
       "id": "cmp-gen-0054",
       "slug": "nextcloud-vs-owncloud",
-      "titleAr": "Nextcloud ?? ownCloud",
+      "titleAr": "Nextcloud ضد ownCloud",
       "titleEn": "Nextcloud vs ownCloud",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5111,7 +5111,7 @@
     {
       "id": "cmp-gen-0055",
       "slug": "prometheus-vs-datadog",
-      "titleAr": "Prometheus ?? Datadog",
+      "titleAr": "Prometheus ضد Datadog",
       "titleEn": "Prometheus vs Datadog",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5133,7 +5133,7 @@
     {
       "id": "cmp-gen-0056",
       "slug": "metasploit-vs-manual-exploitation",
-      "titleAr": "Metasploit ?? Manual Exploitation",
+      "titleAr": "Metasploit ضد Manual Exploitation",
       "titleEn": "Metasploit vs Manual Exploitation",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5155,7 +5155,7 @@
     {
       "id": "cmp-gen-0057",
       "slug": "microsoft-purview-vs-traditional-dlp-tools",
-      "titleAr": "Microsoft Purview ?? Traditional DLP Tools",
+      "titleAr": "Microsoft Purview ضد Traditional DLP Tools",
       "titleEn": "Microsoft Purview vs Traditional DLP Tools",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5183,7 +5183,7 @@
     {
       "id": "cmp-gen-0058",
       "slug": "yubikey-vs-authenticator-app",
-      "titleAr": "YubiKey ?? Authenticator App",
+      "titleAr": "YubiKey ضد Authenticator App",
       "titleEn": "YubiKey vs Authenticator App",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5207,7 +5207,7 @@
     {
       "id": "cmp-gen-0059",
       "slug": "palo-alto-prisma-access-vs-zscaler",
-      "titleAr": "Palo Alto Prisma Access ?? Zscaler",
+      "titleAr": "Palo Alto Prisma Access ضد Zscaler",
       "titleEn": "Palo Alto Prisma Access vs Zscaler",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5233,7 +5233,7 @@
     {
       "id": "cmp-gen-0060",
       "slug": "elastic-stack-elk-vs-splunk",
-      "titleAr": "Elastic Stack (ELK) ?? Splunk",
+      "titleAr": "Elastic Stack (ELK) ضد Splunk",
       "titleEn": "Elastic Stack (ELK) vs Splunk",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5259,7 +5259,7 @@
     {
       "id": "cmp-gen-0061",
       "slug": "rclone-vs-rsync",
-      "titleAr": "Rclone ?? rsync",
+      "titleAr": "Rclone ضد rsync",
       "titleEn": "Rclone vs rsync",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5285,7 +5285,7 @@
     {
       "id": "cmp-gen-0062",
       "slug": "netskope-vs-palo-alto-prisma-saas",
-      "titleAr": "Netskope ?? Palo Alto Prisma SaaS",
+      "titleAr": "Netskope ضد Palo Alto Prisma SaaS",
       "titleEn": "Netskope vs Palo Alto Prisma SaaS",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5315,7 +5315,7 @@
     {
       "id": "cmp-gen-0063",
       "slug": "wsus-vs-microsoft-intune",
-      "titleAr": "WSUS ?? Microsoft Intune",
+      "titleAr": "WSUS ضد Microsoft Intune",
       "titleEn": "WSUS vs Microsoft Intune",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5341,7 +5341,7 @@
     {
       "id": "cmp-gen-0064",
       "slug": "microsoft-laps-vs-manual-password-management",
-      "titleAr": "Microsoft LAPS ?? Manual Password Management",
+      "titleAr": "Microsoft LAPS ضد Manual Password Management",
       "titleEn": "Microsoft LAPS vs Manual Password Management",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5365,7 +5365,7 @@
     {
       "id": "cmp-gen-0065",
       "slug": "wazuh-vs-ossec",
-      "titleAr": "Wazuh ?? OSSEC",
+      "titleAr": "Wazuh ضد OSSEC",
       "titleEn": "Wazuh vs OSSEC",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5387,7 +5387,7 @@
     {
       "id": "cmp-gen-0066",
       "slug": "twingate-vs-traditional-vpn-client",
-      "titleAr": "Twingate ?? Traditional VPN Client",
+      "titleAr": "Twingate ضد Traditional VPN Client",
       "titleEn": "Twingate vs Traditional VPN Client",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5414,7 +5414,7 @@
     {
       "id": "cmp-gen-0067",
       "slug": "solarwinds-npm-vs-prtg-network-monitor",
-      "titleAr": "SolarWinds NPM ?? PRTG Network Monitor",
+      "titleAr": "SolarWinds NPM ضد PRTG Network Monitor",
       "titleEn": "SolarWinds NPM vs PRTG Network Monitor",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5438,7 +5438,7 @@
     {
       "id": "cmp-gen-0068",
       "slug": "burp-suite-vs-nikto",
-      "titleAr": "Burp Suite ?? Nikto",
+      "titleAr": "Burp Suite ضد Nikto",
       "titleEn": "Burp Suite vs Nikto",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5460,7 +5460,7 @@
     {
       "id": "cmp-gen-0069",
       "slug": "wireshark-vs-tcpdump",
-      "titleAr": "Wireshark ?? tcpdump",
+      "titleAr": "Wireshark ضد tcpdump",
       "titleEn": "Wireshark vs tcpdump",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5484,7 +5484,7 @@
     {
       "id": "cmp-gen-0070",
       "slug": "okta-vs-jumpcloud",
-      "titleAr": "Okta ?? JumpCloud",
+      "titleAr": "Okta ضد JumpCloud",
       "titleEn": "Okta vs JumpCloud",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5511,7 +5511,7 @@
     {
       "id": "cmp-gen-0071",
       "slug": "crowdstrike-falcon-vs-microsoft-sentinel",
-      "titleAr": "CrowdStrike Falcon ?? Microsoft Sentinel",
+      "titleAr": "CrowdStrike Falcon ضد Microsoft Sentinel",
       "titleEn": "CrowdStrike Falcon vs Microsoft Sentinel",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5542,7 +5542,7 @@
     {
       "id": "cmp-gen-0072",
       "slug": "aws-guardduty-vs-microsoft-defender-for-cloud",
-      "titleAr": "AWS GuardDuty ?? Microsoft Defender for Cloud",
+      "titleAr": "AWS GuardDuty ضد Microsoft Defender for Cloud",
       "titleEn": "AWS GuardDuty vs Microsoft Defender for Cloud",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5570,7 +5570,7 @@
     {
       "id": "cmp-gen-0073",
       "slug": "hashicorp-vault-vs-aws-secrets-manager",
-      "titleAr": "HashiCorp Vault ?? AWS Secrets Manager",
+      "titleAr": "HashiCorp Vault ضد AWS Secrets Manager",
       "titleEn": "HashiCorp Vault vs AWS Secrets Manager",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5596,7 +5596,7 @@
     {
       "id": "cmp-gen-0074",
       "slug": "datadog-vs-new-relic",
-      "titleAr": "Datadog ?? New Relic",
+      "titleAr": "Datadog ضد New Relic",
       "titleEn": "Datadog vs New Relic",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5620,7 +5620,7 @@
     {
       "id": "cmp-gen-0075",
       "slug": "auth0-vs-firebase-authentication",
-      "titleAr": "Auth0 ?? Firebase Authentication",
+      "titleAr": "Auth0 ضد Firebase Authentication",
       "titleEn": "Auth0 vs Firebase Authentication",
       "source": "comparison",
       "currentCategory": "comparisons",
@@ -5644,7 +5644,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "?????? ??????????: ??? ?????? ??? ?? ????",
+      "titleAr": "التصيد الإلكتروني: كيف تكتشفه قبل ما تضغط",
       "titleEn": "Phishing: How to Spot It Before You Click",
       "language": "ar+en",
       "contentType": "guide",
@@ -5659,7 +5659,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "??????? Security Policy ?? Palo Alto: ?????? ??????",
+      "titleAr": "أساسيات Security Policy في Palo Alto: الدليل الكامل",
       "titleEn": "Palo Alto Security Policy Basics: The Complete Guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -5674,7 +5674,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "????? Forcepoint SSL VPN ?? RADIUS: ?????? ?????? ???? ?????",
+      "titleAr": "إعداد Forcepoint SSL VPN مع RADIUS: الدليل الكامل خطوة بخطوة",
       "titleEn": "Setting Up Forcepoint SSL VPN with RADIUS: The Complete Step-by-Step Guide",
       "language": "ar+en",
       "contentType": "troubleshooting",
@@ -5689,7 +5689,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "????? FortiGate SSL VPN: ?????? ?????? ???? ?????",
+      "titleAr": "إعداد FortiGate SSL VPN: الدليل الكامل خطوة بخطوة",
       "titleEn": "Setting Up FortiGate SSL VPN: The Complete Step-by-Step Guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -5704,7 +5704,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "???? Active Directory ??????? ?? PowerShell: ?????? ??????",
+      "titleAr": "مهام Active Directory اليومية بـ PowerShell: الدليل الكامل",
       "titleEn": "Daily Active Directory Tasks with PowerShell: The Complete Guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -5719,7 +5719,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "???? ??????? ???????: ?????? ?????? ???? ?????",
+      "titleAr": "أمان الراوتر المنزلي: الدليل الكامل خطوة بخطوة",
       "titleEn": "Home Router Security: The Complete Step-by-Step Guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -5734,7 +5734,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "??????? ??????? ?????? ????????? ?? ??????? ?????? ?????: ???? ????",
+      "titleAr": "استخدام مساعدات الذكاء الاصطناعي في التدريب التقني بأمان: دليل عملي",
       "titleEn": "Using AI Assistants Safely for Technical Training: A Practical Guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -5749,7 +5749,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "????? Windows Server ?? Evaluation ??? Standard ???? ????? ?????",
+      "titleAr": "تحويل Windows Server من Evaluation إلى Standard بدون إعادة تثبيت",
       "titleEn": "Converting Windows Server from Evaluation to Standard Without Reinstalling",
       "language": "ar+en",
       "contentType": "troubleshooting",
@@ -5764,7 +5764,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "????? ????? DNS ??????? (Reverse Lookup Zone): ?????? ??????",
+      "titleAr": "إعداد منطقة DNS العكسية (Reverse Lookup Zone): الدليل الكامل",
       "titleEn": "Setting Up a DNS Reverse Lookup Zone: The Complete Guide",
       "language": "ar+en",
       "contentType": "troubleshooting",
@@ -5779,7 +5779,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "??????? Group Policy: ?????? ?????? ????? ??????",
+      "titleAr": "أساسيات Group Policy: الدليل الكامل لمدير النظام",
       "titleEn": "Group Policy Fundamentals: The Complete Guide for Sysadmins",
       "language": "ar+en",
       "contentType": "troubleshooting",
@@ -5794,7 +5794,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "Zero Trust ???? ?????: ?????? ?????? ?????? ???????? ??????",
+      "titleAr": "Zero Trust بدون تعقيد: الدليل الكامل للمبدأ والتطبيق العملي",
       "titleEn": "Zero Trust Without the Jargon: The Complete Principle and Practical Implementation Guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -5809,7 +5809,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "???????? ????????? ??? 802.1X: ?????? ??????",
+      "titleAr": "المصادقة بالشهادات عبر 802.1X: الدليل الكامل",
       "titleEn": "Certificate-Based Authentication with 802.1X: The Complete Guide",
       "language": "ar+en",
       "contentType": "troubleshooting",
@@ -5824,7 +5824,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "????? DHCP Failover ????? ????????? ??????: ?????? ??????",
+      "titleAr": "إعداد DHCP Failover لضمان استمرارية الشبكة: الدليل الكامل",
       "titleEn": "Setting Up DHCP Failover for Network Continuity: The Complete Guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -5839,7 +5839,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "????? ???? Syslog ?????: ?????? ?????? ?? ??? ????",
+      "titleAr": "إعداد خادم Syslog مركزي: الدليل الكامل من أين تبدأ",
       "titleEn": "Setting Up a Central Syslog Server: The Complete Guide to Where to Start",
       "language": "ar+en",
       "contentType": "guide",
@@ -5854,7 +5854,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "??????? Checkpoints ?? Hyper-V ?????: ?????? ??????",
+      "titleAr": "استخدام Checkpoints في Hyper-V بأمان: الدليل الكامل",
       "titleEn": "Using Hyper-V Checkpoints Safely: The Complete Guide",
       "language": "ar+en",
       "contentType": "troubleshooting",
@@ -5869,7 +5869,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "????? ?????? ???????: ?????? ?????? ?????? ????? ??? ????????",
+      "titleAr": "تقليل فاتورة السحابة: الدليل الكامل لخطوات عملية قبل المفاجأة",
       "titleEn": "Cutting Your Cloud Bill: The Complete Guide to Practical Steps Before the Surprise",
       "language": "ar+en",
       "contentType": "guide",
@@ -5884,7 +5884,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "????? ?????? ?? ????? USB: ?????? ?????? ????? ???? ????? ?????",
+      "titleAr": "سياسة التحكم في أجهزة USB: الدليل الكامل لأمان بدون تعطيل الشغل",
       "titleEn": "USB Device Control Policy: The Complete Guide to Security Without Blocking Work",
       "language": "ar+en",
       "contentType": "guide",
@@ -5899,7 +5899,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "?????? ?????? ?????? ????????: ?????? ?????? ????? ????? ??????",
+      "titleAr": "مراقبة انتهاء صلاحية الشهادات: الدليل الكامل لتجنب الخطأ المحرج",
       "titleEn": "Certificate Expiry Monitoring: The Complete Guide to Avoiding the Embarrassing Mistake",
       "language": "ar+en",
       "contentType": "troubleshooting",
@@ -5914,7 +5914,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "?????? ???????? (Tabletop Exercises): ????? ??? ?? ???? ?????",
+      "titleAr": "تمارين المحاكاة (Tabletop Exercises): تدرّب قبل ما يحصل فعلًا",
       "titleEn": "Tabletop Exercises: Practice Before It Actually Happens",
       "language": "ar+en",
       "contentType": "guide",
@@ -5929,7 +5929,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "?????? ?? ?????? ?????? (NAC): ??? ???? ???? ??????",
+      "titleAr": "التحكم في الوصول للشبكة (NAC): مين يقدر يتصل أصلًا؟",
       "titleEn": "Network Access Control (NAC): Who's Even Allowed to Connect?",
       "language": "ar+en",
       "contentType": "troubleshooting",
@@ -5944,7 +5944,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "???? DNS: ?????? ?????? ?? ????? ??????? ?????? ?? DNSSEC",
+      "titleAr": "أمان DNS: الدليل الكامل من فلترة المواقع الضارة لـ DNSSEC",
       "titleEn": "DNS Security: The Complete Guide from Malicious Site Filtering to DNSSEC",
       "language": "ar+en",
       "contentType": "guide",
@@ -5959,7 +5959,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "????? ??????? ?? BitLocker: ??????? ???? ??????",
+      "titleAr": "تشفير الأقراص بـ BitLocker: أساسيات لازم تعرفها",
       "titleEn": "Disk Encryption with BitLocker: Basics You Need to Know",
       "language": "ar+en",
       "contentType": "guide",
@@ -5974,7 +5974,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "????? Windows Firewall ????????: ???? ?? ???? ?????/?????",
+      "titleAr": "قواعد Windows Firewall المتقدمة: أكتر من مجرد تشغيل/إيقاف",
       "titleEn": "Advanced Windows Firewall Rules: More Than Just On/Off",
       "language": "ar+en",
       "contentType": "troubleshooting",
@@ -5989,7 +5989,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "????? XSS: ?????? ?????? ???? ???? ???? ???? ?????? ????????",
+      "titleAr": "ثغرات XSS: الدليل الكامل لكيف موقع بسيط يسرق بيانات المستخدم",
       "titleEn": "XSS Vulnerabilities: The Complete Guide to How a Simple Site Can Steal User Data",
       "language": "ar+en",
       "contentType": "guide",
@@ -6004,7 +6004,7 @@
     {
       "priority": "high",
       "action": "KEEP",
-      "titleAr": "Windows Server Core ????? Desktop Experience: ?????? ??????",
+      "titleAr": "Windows Server Core مقابل Desktop Experience: الدليل الكامل",
       "titleEn": "Windows Server Core vs Desktop Experience: Which Should You Choose?",
       "language": "ar+en",
       "contentType": "guide",
@@ -6019,7 +6019,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "SPF ?DKIM ?DMARC: ?????? ?????? ???? ?????? ????? ??????",
+      "titleAr": "SPF وDKIM وDMARC: الدليل الكامل لمنع انتحال دومين إيميلك",
       "titleEn": "SPF, DKIM, and DMARC: The Complete Guide to Stopping Email Domain Spoofing",
       "language": "ar+en",
       "contentType": "guide",
@@ -6034,7 +6034,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "SD-WAN ???? ?????: ?????? ?????? ???? ???? ????? ??????",
+      "titleAr": "SD-WAN بدون تعقيد: الدليل الكامل لإيه اللي بيحله فعليًا",
       "titleEn": "SD-WAN Without the Jargon: The Complete Guide to What It Actually Solves",
       "language": "ar+en",
       "contentType": "guide",
@@ -6049,7 +6049,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "????? ???? ????? ?? ???? ?????: 8 ???? ??????",
+      "titleAr": "قائمة تحقق للعمل عن بُعد الآمن: 8 نقاط أساسية",
       "titleEn": "A Secure Remote Work Checklist: 8 Essential Points",
       "language": "ar+en",
       "contentType": "concept",
@@ -6064,7 +6064,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "????? ????? ??????? ???????: ?????? ?????? ????? ??? ???????? ????????",
+      "titleAr": "أخطاء إعداد التخزين السحابي: الدليل الكامل لأشهر سبب لتسريبات البيانات",
       "titleEn": "Cloud Storage Misconfiguration: The Complete Guide to the Most Common Cause of Data Leaks",
       "language": "ar+en",
       "contentType": "guide",
@@ -6079,7 +6079,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "?????? ?????? ?????? ?????? Active Directory ?? ?????",
+      "titleAr": "الدليل الشامل لإعداد وإدارة Active Directory من الصفر",
       "titleEn": "The Complete Guide to Setting Up and Managing Active Directory From Scratch",
       "language": "ar+en",
       "contentType": "troubleshooting",
@@ -6094,7 +6094,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "?????? ?????? ???????? PowerShell ?? ????? ???????",
+      "titleAr": "الدليل الشامل لاستخدام PowerShell في إدارة الأنظمة",
       "titleEn": "The Complete Guide to Using PowerShell for System Administration",
       "language": "ar+en",
       "contentType": "troubleshooting",
@@ -6109,7 +6109,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "??? ???? ??? ??????? ??????? ??????? ?? ?????",
+      "titleAr": "كيف تبني خطة استجابة للحوادث الأمنية من الصفر",
       "titleEn": "How to Build a Security Incident Response Plan From Scratch",
       "language": "ar+en",
       "contentType": "troubleshooting",
@@ -6124,7 +6124,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "?????? ?????? ?????? ???? ?????? ???????? Wireshark",
+      "titleAr": "الدليل الشامل لتحليل حركة الشبكة باستخدام Wireshark",
       "titleEn": "The Complete Guide to Network Traffic Analysis with Wireshark",
       "language": "ar+en",
       "contentType": "guide",
@@ -6139,7 +6139,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "??? Kerberos: ??? ???? ???????? ?????? ?? Active Directory",
+      "titleAr": "فهم Kerberos: كيف تعمل المصادقة فعليًا في Active Directory",
       "titleEn": "Understanding Kerberos: How Authentication Actually Works in Active Directory",
       "language": "ar+en",
       "contentType": "guide",
@@ -6154,7 +6154,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "??? PKI ?????? ?????: ??? ???? ?? ??????? ?????? ?????",
+      "titleAr": "فهم PKI وسلسلة الثقة: كيف تعرف أن الشهادة حقيقية فعلًا",
       "titleEn": "Understanding PKI and the Chain of Trust: How You Know a Certificate Is Actually Real",
       "language": "ar+en",
       "contentType": "guide",
@@ -6169,7 +6169,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "?????? ?????? ???????? Nmap ?? ??? ??????",
+      "titleAr": "الدليل الشامل لاستخدام Nmap في فحص الشبكة",
       "titleEn": "The Complete Guide to Network Scanning with Nmap",
       "language": "ar+en",
       "contentType": "guide",
@@ -6184,7 +6184,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "???? ?????? ????? ????? ????: ?????? ??????",
+      "titleAr": "بناء برنامج إدارة ثغرات ناجح: الدليل الكامل",
       "titleEn": "Building a Successful Vulnerability Management Program: The Complete Guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -6199,7 +6199,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "??? ???? EDR ??????: ????? ??????? ?? ???? ????????? ????????",
+      "titleAr": "كيف يعمل EDR فعليًا: الفرق الجوهري عن مضاد الفيروسات التقليدي",
       "titleEn": "How EDR Actually Works: The Fundamental Difference from Traditional Antivirus",
       "language": "ar+en",
       "contentType": "troubleshooting",
@@ -6214,7 +6214,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "???? ????? ??????? ????? (WAF): ?????? ??????",
+      "titleAr": "جدار حماية تطبيقات الويب (WAF): الدليل الكامل",
       "titleEn": "Web Application Firewall (WAF): The Complete Guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -6229,7 +6229,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "???? ????? ??? OWASP Top 10: ?????? ??????",
+      "titleAr": "نظرة شاملة على OWASP Top 10: الدليل الكامل",
       "titleEn": "OWASP Top 10 Overview: The Complete Guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -6244,8 +6244,8 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "????? ????? AI ??????? ?????? ?????: ???? ???? ?????????",
-      "titleEn": "Writing Safe AI Prompts for Technical Troubleshooting: An Engineer?s Template",
+      "titleAr": "صياغة طلبات AI للتشخيص التقني بأمان: قالب عملي للمهندسين",
+      "titleEn": "Writing Safe AI Prompts for Technical Troubleshooting: An Engineer’s Template",
       "language": "ar+en",
       "contentType": "troubleshooting",
       "domain": "cybersecurity",
@@ -6259,7 +6259,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "??? ???? ??????? ??????? ??????? ?? ????? IT: ???? ???? ????? ????????",
+      "titleAr": "كيف تعمل النماذج اللغوية الكبيرة في بيئات IT: دليل عملي للثقة والمخاطر",
       "titleEn": "How LLMs Work in Enterprise IT: A Practical Guide to Trust and Risk",
       "language": "ar+en",
       "contentType": "concept",
@@ -6274,7 +6274,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "????? ????? ??????? ????????? ?? ????????: ???????? ???????? ?????? ?????",
+      "titleAr": "توليد الصور بالذكاء الاصطناعي في المؤسسات: البيانات والمخاطر وضوابط النشر",
       "titleEn": "Enterprise AI Image Generation: Data, Risk, and Publishing Controls",
       "language": "ar+en",
       "contentType": "guide",
@@ -6289,7 +6289,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "????? ????? ??? ??????? ??????? ???? ?????",
+      "titleAr": "مشاكل الواي فاي الشائعة وحلولها خطوة بخطوة",
       "titleEn": "Common Wi-Fi Problems and Their Step-by-Step Fixes",
       "language": "ar+en",
       "contentType": "troubleshooting",
@@ -6304,7 +6304,7 @@
     {
       "priority": "medium",
       "action": "REWORK",
-      "titleAr": "???? ????????? ?????? ????????? ?? ????? ??????? (?? ?? ChatGPT)",
+      "titleAr": "أفضل استخدامات الذكاء الاصطناعي في حياتك اليومية (مش بس ChatGPT)",
       "titleEn": "The Best Everyday Uses of AI (It's Not Just ChatGPT)",
       "language": "ar+en",
       "contentType": "guide",
@@ -6319,7 +6319,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "VPN ?????????: ???? ???? ????? ?? ?????",
+      "titleAr": "VPN للمبتدئين: ماذا يفعل وماذا لا يفعل؟",
       "titleEn": "VPN Basics: What It Does and Doesn't Do",
       "language": "ar+en",
       "contentType": "concept",
@@ -6334,7 +6334,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "????? ??????? ?? Kaspersky Security Center ???? Tags: ?????? ??????",
+      "titleAr": "تنظيم الأجهزة في Kaspersky Security Center بالـ Tags: الدليل الكامل",
       "titleEn": "Organizing Devices in Kaspersky Security Center with Tags: The Complete Guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -6349,7 +6349,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "????? RDP ????? ?????????? ?????? RDS ???? ????: ?????? ??????",
+      "titleAr": "تفعيل RDP متعدد المستخدمين وترخيص RDS بشكل صحيح: الدليل الكامل",
       "titleEn": "Enabling Multi-User RDP and Licensing RDS Correctly: The Complete Guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -6364,7 +6364,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "????? ????? ????????? 3-2-1: ?????? ?????? ??????",
+      "titleAr": "قاعدة النسخ الاحتياطي 3-2-1: الدليل العملي الكامل",
       "titleEn": "The 3-2-1 Backup Rule: The Complete Practical Guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -6379,7 +6379,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "????? ???? ?????? ??????????: ?????? ?????? ??? ?????? ??????",
+      "titleAr": "بوابة أمان البريد الإلكتروني: الدليل الكامل لما بتحميه فعليًا",
       "titleEn": "Email Security Gateways: The Complete Guide to What They Actually Protect Against",
       "language": "ar+en",
       "contentType": "guide",
@@ -6394,7 +6394,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "??????? VLAN: ?????? ?????? ???? ?????? ????? ??????",
+      "titleAr": "أساسيات VLAN: الدليل الكامل لليه ولإزاي تقسّم الشبكة",
       "titleEn": "VLAN Basics: The Complete Guide to Why and How to Segment a Network",
       "language": "ar+en",
       "contentType": "guide",
@@ -6409,7 +6409,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "??????? ?????? ?????? ?? SNMP: ?????? ??????",
+      "titleAr": "أساسيات مراقبة الشبكة بـ SNMP: الدليل الكامل",
       "titleEn": "Network Monitoring Basics with SNMP: The Complete Guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -6424,7 +6424,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "???????? ???????? (Log Retention): ?????? ?????? ?????? ????? ???????",
+      "titleAr": "الاحتفاظ بالسجلات (Log Retention): الدليل الكامل لتحديد المدة الصحيحة",
       "titleEn": "Log Retention: The Complete Guide to Setting the Right Duration",
       "language": "ar+en",
       "contentType": "guide",
@@ -6439,7 +6439,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "?????????? ????? ??????? (Patch Management): ?????? ??????",
+      "titleAr": "استراتيجية تحديث الأنظمة (Patch Management): الدليل الكامل",
       "titleEn": "A Patch Management Strategy for a Small Environment",
       "language": "ar+en",
       "contentType": "guide",
@@ -6454,7 +6454,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "????? ?????? ?????? ????????: ???? ????? ?????",
+      "titleAr": "تقسيم الشبكة لأغراض الامتثال: نظرة عملية مبسطة",
       "titleEn": "Network Segmentation for Compliance: A Simplified Practical View",
       "language": "ar+en",
       "contentType": "guide",
@@ -6469,7 +6469,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "????? ????? ???????? ???????? (MFA Fatigue): ?????? ?????? ?????? ?????",
+      "titleAr": "هجمات إرهاق المصادقة الثنائية (MFA Fatigue): الدليل الكامل لحماية فريقك",
       "titleEn": "MFA Fatigue Attacks: The Complete Guide to Protecting Your Team",
       "language": "ar+en",
       "contentType": "guide",
@@ -6484,7 +6484,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "????? ????? ?????? ?? Event Viewer ?????: ?????? ??????",
+      "titleAr": "قراءة سجلات الأمان في Event Viewer بذكاء: الدليل الكامل",
       "titleEn": "Reading Windows Security Logs in Event Viewer Smartly: The Complete Guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -6499,7 +6499,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "Wi-Fi 6 ????? Wi-Fi 5: ?????? ?????? ?????? ???????",
+      "titleAr": "Wi-Fi 6 مقابل Wi-Fi 5: الدليل الكامل لتقييم الترقية",
       "titleEn": "Wi-Fi 6 vs Wi-Fi 5: The Complete Guide to Assessing the Upgrade",
       "language": "ar+en",
       "contentType": "guide",
@@ -6514,7 +6514,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "?????? ?????? ??? ??????? ?????: ?????? ?????? ?????? ??? ??? ???????",
+      "titleAr": "مراقبة الدارك ويب لبيانات شركتك: الدليل الكامل لتحديد إذا كنت محتاجها",
       "titleEn": "Dark Web Monitoring for Your Company's Data: The Complete Guide to Deciding If You Need It",
       "language": "ar+en",
       "contentType": "guide",
@@ -6529,7 +6529,7 @@
     {
       "priority": "medium",
       "action": "KEEP",
-      "titleAr": "SSD ????? HDD ?? ????? ?????????: ?????? ??????",
+      "titleAr": "SSD مقابل HDD في تخزين السيرفرات: الدليل الكامل",
       "titleEn": "SSD vs HDD for Server Storage: It's Not Just About Speed",
       "language": "ar+en",
       "contentType": "guide",
@@ -6544,7 +6544,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "??? ???? ??? ?????? Ransomware: ?????? ?????? ???? ???? ??????",
+      "titleAr": "أول ساعة بعد اكتشاف Ransomware: الدليل الكامل لإيه تعمل بالظبط",
       "titleEn": "The First Hour After Discovering Ransomware: The Complete Guide to What to Actually Do",
       "language": "ar+en",
       "contentType": "guide",
@@ -6559,7 +6559,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "???? ????????: ?????? ?????? ????? ???? ?????? ???? ????? ???????",
+      "titleAr": "أمان الطابعات: الدليل الكامل للخطر اللي بينسوه أغلب مديري الأنظمة",
       "titleEn": "Printer Security: The Complete Guide to the Risk Most Sysadmins Forget",
       "language": "ar+en",
       "contentType": "guide",
@@ -6574,7 +6574,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "??? ??????? (Browser Isolation): ???? ????? ?????? ?????",
+      "titleAr": "عزل المتصفح (Browser Isolation): طبقة حماية إضافية بسيطة",
       "titleEn": "Browser Isolation: A Simple Extra Protection Layer",
       "language": "ar+en",
       "contentType": "guide",
@@ -6589,7 +6589,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "??? Shadow IT: ?????? ?????? ?????? ??????? ??????? ??? ????????",
+      "titleAr": "الـ Shadow IT: الدليل الكامل لإدارة استخدام الأدوات غير المعتمدة",
       "titleEn": "Shadow IT: The Complete Guide to Managing Unapproved Tool Usage",
       "language": "ar+en",
       "contentType": "guide",
@@ -6604,7 +6604,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "????? ????????? ??????? ????? ??????: ?????? ?????? ????????? ????? ??? ???????",
+      "titleAr": "النسخ الاحتياطي السحابي مقابل المحلي: الدليل الكامل لاعتبارات عملية غير التكلفة",
       "titleEn": "Cloud vs On-Prem Backup: The Complete Guide to Practical Considerations Beyond Cost",
       "language": "ar+en",
       "contentType": "guide",
@@ -6619,7 +6619,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "??? ??????? ????? ?????? ????????: ?????? ??????",
+      "titleAr": "فحص الثغرات مقابل اختبار الاختراق: الدليل الكامل",
       "titleEn": "Vulnerability Scanning vs Penetration Testing: The Complete Guide",
       "language": "ar+en",
       "contentType": "troubleshooting",
@@ -6634,7 +6634,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "????? ?????? ?????? ??????????: ?????? ?????? ?????? ?????? ?????",
+      "titleAr": "برامج محاكاة التصيد الإلكتروني: الدليل الكامل لتصميم برنامج فعّال",
       "titleEn": "Phishing Simulation Training Programs: The Complete Guide to Effective Design",
       "language": "ar+en",
       "contentType": "guide",
@@ -6649,7 +6649,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "????? ?????? API ?????: ????? ????? ????? ?????",
+      "titleAr": "إدارة مفاتيح API بأمان: أخطاء شائعة وحلول بسيطة",
       "titleEn": "Secure API Key Management: Common Mistakes and Simple Fixes",
       "language": "ar+en",
       "contentType": "troubleshooting",
@@ -6664,7 +6664,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "?????? ????????? ????? ?????????: ?????? ?????? ????????? ??????????",
+      "titleAr": "الأمان الفيزيائي لغرفة السيرفرات: الدليل الكامل للأساسيات المتجاهَلة",
       "titleEn": "Physical Security for the Server Room: The Complete Guide to Overlooked Basics",
       "language": "ar+en",
       "contentType": "guide",
@@ -6679,7 +6679,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "????? ????? ???????: ?????? ?????? ??? ???? ????? ?? ????? ?????",
+      "titleAr": "هجمات سلسلة التوريد: الدليل الكامل لما بيجي الخطر من مورّد موثوق",
       "titleEn": "Supply Chain Attacks: The Complete Guide to When the Risk Comes from a Trusted Vendor",
       "language": "ar+en",
       "contentType": "guide",
@@ -6694,7 +6694,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "??? ???? ??? ???????? (Container Images): ?????? ??????",
+      "titleAr": "فحص أمان صور الحاويات (Container Images): الدليل الكامل",
       "titleEn": "Scanning Container Image Security: The Complete Guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -6709,7 +6709,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "??? ???? ?????? (Guest Wi-Fi): ????? ???? ?????? ?????",
+      "titleAr": "عزل شبكة الضيوف (Guest Wi-Fi): إعداد بسيط بفايدة كبيرة",
       "titleEn": "Guest Wi-Fi Isolation: A Simple Setup with a Big Payoff",
       "language": "ar+en",
       "contentType": "guide",
@@ -6724,7 +6724,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "??????? ?? ??????? ??????????: ?????? ?????? ???? ???? ?????? ??????",
+      "titleAr": "التأمين ضد المخاطر السيبرانية: الدليل الكامل لإيه اللي بيغطيه فعليًا",
       "titleEn": "Cyber Insurance: The Complete Guide to What It Actually Covers",
       "language": "ar+en",
       "contentType": "guide",
@@ -6739,7 +6739,7 @@
     {
       "priority": "low",
       "action": "REWORK",
-      "titleAr": "????? ????? ??????? ?? IT: ??? ?? ????? ????? ?????",
+      "titleAr": "عملية إدارة التغيير في IT: ليه أي تعديل محتاج توثيق",
       "titleEn": "IT Change Management: Why Every Change Needs Documentation",
       "language": "ar+en",
       "contentType": "guide",
@@ -6754,7 +6754,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "??? ???????? ????????: SMS ????? ????? ????? ????? ????",
+      "titleAr": "طرق المصادقة الثنائية: SMS مقابل تطبيق مقابل مفتاح مادي",
       "titleEn": "MFA Methods Compared: SMS vs App vs Hardware Key",
       "language": "ar+en",
       "contentType": "concept",
@@ -6769,7 +6769,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "??? SQL: ??? ??? ??? ???? ???? ???? ????? ????? ?????? ?????",
+      "titleAr": "حقن SQL: ليه سطر كود واحد ضعيف يقدر يسرّب قاعدة بيانات كاملة",
       "titleEn": "SQL Injection: How One Weak Line of Code Can Leak an Entire Database",
       "language": "ar+en",
       "contentType": "guide",
@@ -6784,7 +6784,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "??????? ??????? (Insider Threat): ?????? ?????? ????????",
+      "titleAr": "التهديد الداخلي (Insider Threat): الدليل الكامل لاكتشافه",
       "titleEn": "Insider Threats: Not Every Risk Comes from Outside",
       "language": "ar+en",
       "contentType": "guide",
@@ -6799,7 +6799,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "????? ???? ???? ?????? ?????? (LAPS): ?????? ??????",
+      "titleAr": "تدوير كلمة مرور المدير المحلي (LAPS): الدليل الكامل",
       "titleEn": "Local Admin Password Rotation (LAPS): Why It Matters a Lot",
       "language": "ar+en",
       "contentType": "guide",
@@ -6814,7 +6814,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "????? SonicWall ??????? ?????? ?????? ?? ????? ????",
+      "titleAr": "ثغرات SonicWall الأخيرة تُستغل فعليًا في هجمات فدية",
       "titleEn": "Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks",
       "language": "ar+en",
       "contentType": "concept",
@@ -6829,7 +6829,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "???? N-central (CVE-2026-18577) ???????? ?????? ??? ????? ??????? ?????",
+      "titleAr": "ثغرة N-central (CVE-2026-18577) استُغلّت فعليًا بعد تجاوز الترقيع الأول",
       "titleEn": "N-central Vulnerability (CVE-2026-18577) Exploited After Bypassing an Earlier Patch",
       "language": "ar+en",
       "contentType": "troubleshooting",
@@ -6844,7 +6844,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "???? CosmosEscape ?? Azure Cosmos DB: ??? ??????? ??????? ???????",
+      "titleAr": "ثغرة CosmosEscape في Azure Cosmos DB: كشف المفتاح الأساسي بالكامل",
       "titleEn": "CosmosEscape Flaw in Azure Cosmos DB Exposed Full Primary Keys",
       "language": "ar+en",
       "contentType": "concept",
@@ -6859,7 +6859,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "???? ?? ????? ???? ???? ?????? Azure CLI",
+      "titleAr": "حملة رش كلمات مرور ضخمة تستهدف Azure CLI",
       "titleEn": "Massive Password Spray Campaign Targeting Azure CLI",
       "language": "ar+en",
       "contentType": "concept",
@@ -6874,7 +6874,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "Ruby on Rails ????? ???? ???? ???? ?????? ??? ?? ????",
+      "titleAr": "Ruby on Rails تُصلح ثغرة حرجة تسمح بتنفيذ كود عن بُعد",
       "titleEn": "Ruby on Rails Patches a Critical Remote Code Execution Vulnerability",
       "language": "ar+en",
       "contentType": "concept",
@@ -6889,7 +6889,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "???? ?????? ????? ????? ??????: ?????? ?????? ?????? ??? ???? ?????",
+      "titleAr": "قياس فعالية تدريب الوعي الأمني: الدليل الكامل لأرقام غير نسبة النقر",
       "titleEn": "Measuring Security Awareness Training: The Complete Guide Beyond Click Rate",
       "language": "ar+en",
       "contentType": "guide",
@@ -6904,7 +6904,7 @@
     {
       "priority": "low",
       "action": "KEEP",
-      "titleAr": "??????? ???????? ????????? (Air-Gapped): ??? ??????? ?????",
+      "titleAr": "الشبكات المعزولة فيزيائيًا (Air-Gapped): متى تحتاجها فعلًا",
       "titleEn": "Air-Gapped Networks: When You Actually Need One",
       "language": "ar+en",
       "contentType": "guide",
@@ -6919,7 +6919,7 @@
     {
       "priority": "high",
       "action": "NEW",
-      "titleAr": "???? ????: vmware",
+      "titleAr": "دليل عملي: vmware",
       "titleEn": "Practical vmware implementation and troubleshooting guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -6934,7 +6934,7 @@
     {
       "priority": "high",
       "action": "NEW",
-      "titleAr": "???? ????: kaspersky",
+      "titleAr": "دليل عملي: kaspersky",
       "titleEn": "Practical kaspersky implementation and troubleshooting guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -6949,7 +6949,7 @@
     {
       "priority": "high",
       "action": "NEW",
-      "titleAr": "???? ????: f5",
+      "titleAr": "دليل عملي: f5",
       "titleEn": "Practical f5 implementation and troubleshooting guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -6964,7 +6964,7 @@
     {
       "priority": "high",
       "action": "NEW",
-      "titleAr": "???? ????: beyondtrust",
+      "titleAr": "دليل عملي: beyondtrust",
       "titleEn": "Practical beyondtrust implementation and troubleshooting guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -6979,7 +6979,7 @@
     {
       "priority": "high",
       "action": "NEW",
-      "titleAr": "???? ????: splunk",
+      "titleAr": "دليل عملي: splunk",
       "titleEn": "Practical splunk implementation and troubleshooting guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -6994,7 +6994,7 @@
     {
       "priority": "high",
       "action": "NEW",
-      "titleAr": "???? ????: broadcom",
+      "titleAr": "دليل عملي: broadcom",
       "titleEn": "Practical broadcom implementation and troubleshooting guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -7009,7 +7009,7 @@
     {
       "priority": "high",
       "action": "NEW",
-      "titleAr": "???? ????: trellix",
+      "titleAr": "دليل عملي: trellix",
       "titleEn": "Practical trellix implementation and troubleshooting guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -7024,7 +7024,7 @@
     {
       "priority": "high",
       "action": "NEW",
-      "titleAr": "???? ????: rapid7",
+      "titleAr": "دليل عملي: rapid7",
       "titleEn": "Practical rapid7 implementation and troubleshooting guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -7039,7 +7039,7 @@
     {
       "priority": "high",
       "action": "NEW",
-      "titleAr": "???? ????: infoblox",
+      "titleAr": "دليل عملي: infoblox",
       "titleEn": "Practical infoblox implementation and troubleshooting guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -7054,7 +7054,7 @@
     {
       "priority": "high",
       "action": "NEW",
-      "titleAr": "???? ????: sophos",
+      "titleAr": "دليل عملي: sophos",
       "titleEn": "Practical sophos implementation and troubleshooting guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -7069,7 +7069,7 @@
     {
       "priority": "high",
       "action": "NEW",
-      "titleAr": "???? ????: dns",
+      "titleAr": "دليل عملي: dns",
       "titleEn": "Practical dns implementation and troubleshooting guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -7084,7 +7084,7 @@
     {
       "priority": "high",
       "action": "NEW",
-      "titleAr": "???? ????: routing-switching",
+      "titleAr": "دليل عملي: routing-switching",
       "titleEn": "Practical routing switching implementation and troubleshooting guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -7099,7 +7099,7 @@
     {
       "priority": "high",
       "action": "NEW",
-      "titleAr": "???? ????: threat-detection",
+      "titleAr": "دليل عملي: threat-detection",
       "titleEn": "Practical threat detection implementation and troubleshooting guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -7114,7 +7114,7 @@
     {
       "priority": "high",
       "action": "NEW",
-      "titleAr": "???? ????: nac",
+      "titleAr": "دليل عملي: nac",
       "titleEn": "Practical nac implementation and troubleshooting guide",
       "language": "ar+en",
       "contentType": "guide",
@@ -7129,7 +7129,7 @@
     {
       "priority": "high",
       "action": "NEW",
-      "titleAr": "???? ????: dhcp-ipam",
+      "titleAr": "دليل عملي: dhcp-ipam",
       "titleEn": "Practical dhcp ipam implementation and troubleshooting guide",
       "language": "ar+en",
       "contentType": "guide",

@@ -8,9 +8,9 @@ export default function NotFound() {
   const homeHref = localizePath('/', language, import.meta.env.BASE_URL);
 
   useSEO({
-    title: isArabic ? '?????? ??? ??????' : 'Page Not Found',
+    title: isArabic ? 'الصفحة غير موجودة' : 'Page Not Found',
     description: isArabic
-      ? '?????? ???? ???? ???? ??? ?????? ?? ?? ?????.'
+      ? 'الصفحة التي تبحث عنها غير موجودة أو تم نقلها.'
       : 'The page you are looking for does not exist or has been moved.',
     indexable: false,
   });
@@ -19,18 +19,18 @@ export default function NotFound() {
     <div className="min-h-[60vh] flex flex-col items-center justify-center p-4 text-center">
       <h1 className="text-6xl font-bold text-primary mb-4">404</h1>
       <h2 className="text-2xl font-semibold mb-6">
-        {isArabic ? '?????? ??? ??????' : 'Page Not Found'}
+        {isArabic ? 'الصفحة غير موجودة' : 'Page Not Found'}
       </h2>
       <p className="text-muted-foreground mb-8">
         {isArabic
-          ? '?????? ?????? ???? ???? ???? ??? ?????? ?? ?? ?????.'
+          ? 'عذرًا، الصفحة التي تبحث عنها غير موجودة أو تم نقلها.'
           : 'Sorry, the page you are looking for does not exist or has been moved.'}
       </p>
       <a
         href={homeHref}
         className="bg-primary text-primary-foreground px-6 py-3 rounded-full font-medium hover:bg-primary/90 transition-colors"
       >
-        {isArabic ? '?????? ????????' : 'Back to Home'}
+        {isArabic ? 'العودة للرئيسية' : 'Back to Home'}
       </a>
     </div>
   );

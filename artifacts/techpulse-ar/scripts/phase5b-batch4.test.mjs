@@ -12,7 +12,7 @@ test('repositions image generation around enterprise security controls', () => {
   assert.deepEqual(article.domainIds, ['cybersecurity']);
   assert.deepEqual(article.topicIds, ['dlp']);
   assert.equal(article.contentType, 'guide');
-  assert.match(article.body.ar, /????? ????????/);
+  assert.match(article.body.ar, /تصنيف البيانات/);
   assert.match(article.body.en, /Impersonation and misleading-media risk/);
   assert.match(article.body.en, /auditable approval workflow/);
 });

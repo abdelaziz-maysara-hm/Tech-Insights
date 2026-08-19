@@ -24,7 +24,7 @@ test('repositions the first REWORK item for professional technical use', () => {
 test('provides substantial independent Arabic and English guidance', () => {
   assert.ok(article.body.ar.length > 2200);
   assert.ok(article.body.en.length > 2500);
-  assert.match(article.body.ar, /???? ??? ???????/);
+  assert.match(article.body.ar, /بيئة غير إنتاجية/);
   assert.match(article.body.en, /outside production/);
   assert.doesNotMatch(article.body.en, /private tutor available 24 hours/i);
 });

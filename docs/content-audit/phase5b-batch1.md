@@ -1,4 +1,4 @@
-# Phase 5B ? Batch 1
+# Phase 5B — Batch 1
 
 Reworked `chatgpt-study-without-harm`, the first high-priority REWORK entry, while preserving its stable URL.
 

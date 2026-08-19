@@ -1,4 +1,4 @@
-# Phase 5B ? Batch 2
+# Phase 5B — Batch 2
 
 Reworked `effective-ai-prompting-guide` while preserving its stable URL.
 

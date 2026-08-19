@@ -10,14 +10,14 @@
 
 ## Current handoff
 
-- Completed: Phases 0, 1, 1.5, 2, 3, 4 (4A?4E), 5A, and Phase 5B Batches 1?4.
+- Completed: Phases 0, 1, 1.5, 2, 3, 4 (4A–4E), 5A, and Phase 5B Batches 1–4.
 - Next: continue Phase 5B priority REWORK content in another small verified batch. Do not combine it with consumer cleanup or removal decisions.
 - Branch/workflow: `main`; use fast-forward pull, focused commits, normal push, never force-push.
 - Production domain: `https://netsecatlas.com`.
 - Legacy redirect domain: `technical-insights.com`.
 - Baseline after 4B: Phase 4 tests 11/11, typecheck/build pass; sitemap 235; RSS 50; main JS ~680.15 kB; articles chunk ~974.30 kB.
 - Phase 4A routing source: `src/lib/localizedRouting.ts` and `src/hooks/useLocalizedLocation.ts`. `/ar/...` and `/en/...` share the existing page components; legacy unprefixed URLs remain supported. Unsupported prefixes such as `/fr/...` are not interpreted as languages.
-- Phase 4A deliberately did not add localized sitemap entries, hreflang, redirects, or complete localized canonical/schema behavior; those remain 4B?4E.
+- Phase 4A deliberately did not add localized sitemap entries, hreflang, redirects, or complete localized canonical/schema behavior; those remain 4B–4E.
 - Phase 4B canonical source is `src/lib/seoUrl.ts`. Prefixed URLs canonicalize to the same language; legacy unprefixed routes temporarily canonicalize to the Arabic equivalent. No redirects were added.
 - Translation inventory finding: all 129 articles have non-empty Arabic/English title, excerpt, and body fields; all 75 comparisons have both title, excerpt, and verdict; all 9 static pages have both title and content. Field completeness does not prove human-reviewed editorial equivalence, so Phase 4C must gate hreflang/alternates conservatively.
 - Translation quality finding: the owner identifies the existing translations as literal and technically unreliable. The 4C-1 audit therefore requires an explicit human-reviewed marker before `VALID_PAIR`; current automated results are 0 valid, 223 review, and 18 invalid across 241 evaluated pairs. See `docs/i18n/phase4c-translation-audit.*`.

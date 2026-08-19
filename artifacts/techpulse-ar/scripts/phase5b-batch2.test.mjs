@@ -12,7 +12,7 @@ test('turns generic prompting into evidence-led technical troubleshooting', () =
   assert.deepEqual(article.domainIds, ['cybersecurity', 'infrastructure', 'troubleshooting']);
   assert.deepEqual(article.topicIds, ['dlp']);
   assert.equal(article.contentType, 'troubleshooting');
-  assert.match(article.body.ar, /???? ????? ???/);
+  assert.match(article.body.ar, /فحوص قراءة فقط/);
   assert.match(article.body.en, /read-only checks/);
 });
 
