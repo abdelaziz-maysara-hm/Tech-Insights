@@ -10,7 +10,7 @@
 
 ## Current handoff
 
-- Completed: Phases 0, 1, 1.5, 2, 3, 4 (4A?4E), 5A, and Phase 5B Batches 1?2.
+- Completed: Phases 0, 1, 1.5, 2, 3, 4 (4A?4E), 5A, and Phase 5B Batches 1?3.
 - Next: continue Phase 5B priority REWORK content in another small verified batch. Do not combine it with consumer cleanup or removal decisions.
 - Branch/workflow: `main`; use fast-forward pull, focused commits, normal push, never force-push.
 - Production domain: `https://netsecatlas.com`.
@@ -28,6 +28,7 @@
 - Phase 5A uses `scripts/apply-phase5a-metadata.mjs` and the unchanged Phase 3 audit to apply exact explicit metadata to 99 KEEP articles and one KEEP comparison. Full articles and `articles-index.json` are synchronized. `technicalStatus: needs-review` and `translationStatus: unreviewed` are intentional: KEEP is a reuse decision, not human technical/translation approval. See `docs/content-audit/phase5a-keep-metadata.md`.
 - Phase 5B Batch 1 reworks `chatgpt-study-without-harm` into safe AI-assisted technical training while preserving the slug. The refreshed audit is 101 KEEP / 50 REWORK / 53 REMOVE. Its Arabic and English bodies are independently written, but remain `needs-review` and `unreviewed`. See `docs/content-audit/phase5b-batch1.md`.
 - Phase 5B Batch 2 reworks `effective-ai-prompting-guide` into evidence-led technical troubleshooting prompts while preserving the slug. The refreshed audit is 102 KEEP / 49 REWORK / 53 REMOVE. See `docs/content-audit/phase5b-batch2.md`.
+- Phase 5B Batch 3 reworks `how-large-language-models-work` into enterprise IT guidance on LLM trust boundaries, RAG validation, and safe operational use while preserving the slug. The refreshed audit is 103 KEEP / 48 REWORK / 53 REMOVE. See `docs/content-audit/phase5b-batch3.md`.
 - The static SPA shell intentionally carries no canonical or `og:url`; `useSEO` creates the route-correct values after hydration. Full pre-rendered localized metadata would require SSR/static rendering and is not claimed by Phase 4B.
 
 ## Validation

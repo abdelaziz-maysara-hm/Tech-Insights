@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T08:42:41.449Z",
+  "generatedAt": "2026-08-19T08:47:22.589Z",
   "methodology": {
     "note": "Repository-only deterministic heuristics; no fabricated SEO metrics.",
     "dispositionDenominator": "Editorial items: articles plus comparisons",
@@ -70,19 +70,19 @@
   },
   "statistics": {
     "disposition": {
-      "KEEP": 102,
+      "KEEP": 103,
       "REMOVE": 53,
-      "REWORK": 49
+      "REWORK": 48
     },
     "dispositionPercent": {
-      "KEEP": 50,
+      "KEEP": 50.5,
       "REMOVE": 26,
-      "REWORK": 24
+      "REWORK": 23.5
     },
     "strategicFit": {
       "consumer": 9,
-      "enterprise": 67,
-      "mixed": 9,
+      "enterprise": 68,
+      "mixed": 8,
       "professional-it": 75,
       "unrelated": 44
     },
@@ -101,7 +101,7 @@
   "consumerLegacy": {
     "smartphonesMobile": 7,
     "laptopsHardware": 6,
-    "genericAi": 6,
+    "genericAi": 5,
     "consumerApps": 0,
     "generalTechnology": 44,
     "consumerOrUnrelated": 53,
@@ -247,8 +247,8 @@
   "domainCoverage": [
     {
       "domainId": "cybersecurity",
-      "count": 79,
-      "high": 22,
+      "count": 80,
+      "high": 23,
       "medium": 41,
       "low": 16,
       "topics": {
@@ -260,7 +260,7 @@
         "dns": 1,
         "routing-switching": 1,
         "iam-pam": 2,
-        "dlp": 7,
+        "dlp": 8,
         "vulnerability-management": 8,
         "threat-detection": 1,
         "backup-recovery": 3,
@@ -292,8 +292,8 @@
     },
     {
       "domainId": "infrastructure",
-      "count": 49,
-      "high": 17,
+      "count": 50,
+      "high": 18,
       "medium": 17,
       "low": 15,
       "topics": {
@@ -304,7 +304,7 @@
         "pki-certificates": 3,
         "dhcp-ipam": 1,
         "iam-pam": 2,
-        "dlp": 3,
+        "dlp": 4,
         "vmware-virtualization": 2,
         "backup-recovery": 8,
         "cloud": 19,
@@ -3294,21 +3294,26 @@
     {
       "id": "art-gen-0111",
       "slug": "how-large-language-models-work",
-      "titleAr": "??? ???? ??????? ??????? ??????? (LLM) ??????",
-      "titleEn": "How Large Language Models (LLMs) Actually Work",
+      "titleAr": "??? ???? ??????? ??????? ??????? ?? ????? IT: ???? ???? ????? ????????",
+      "titleEn": "How LLMs Work in Enterprise IT: A Practical Guide to Trust and Risk",
       "source": "article",
-      "currentCategory": "ai",
-      "inferredDomains": [],
-      "inferredTopics": [],
+      "currentCategory": "cybersecurity",
+      "inferredDomains": [
+        "cybersecurity",
+        "infrastructure"
+      ],
+      "inferredTopics": [
+        "dlp"
+      ],
       "inferredVendors": [],
       "inferredProducts": [],
-      "inferredContentType": "guide",
-      "strategicFit": "mixed",
-      "proposedDisposition": "REWORK",
-      "confidence": "medium",
-      "reason": "Generic AI material needs a professional IT/security angle",
+      "inferredContentType": "concept",
+      "strategicFit": "enterprise",
+      "proposedDisposition": "KEEP",
+      "confidence": "high",
+      "reason": "cybersecurity, infrastructure professional technical content",
       "currentURL": "/article/how-large-language-models-work",
-      "wordCount": 374,
+      "wordCount": 521,
       "lastUpdated": "2026-05-15",
       "technicalValue": "high",
       "potentiallyThin": false
@@ -6249,16 +6254,16 @@
     },
     {
       "priority": "medium",
-      "action": "REWORK",
-      "titleAr": "??? ???? ??????? ??????? ??????? (LLM) ??????",
-      "titleEn": "How Large Language Models (LLMs) Actually Work",
+      "action": "KEEP",
+      "titleAr": "??? ???? ??????? ??????? ??????? ?? ????? IT: ???? ???? ????? ????????",
+      "titleEn": "How LLMs Work in Enterprise IT: A Practical Guide to Trust and Risk",
       "language": "ar+en",
-      "contentType": "guide",
-      "domain": null,
-      "topic": null,
+      "contentType": "concept",
+      "domain": "cybersecurity",
+      "topic": "dlp",
       "vendor": null,
       "product": null,
-      "reason": "Generic AI material needs a professional IT/security angle",
+      "reason": "cybersecurity, infrastructure professional technical content",
       "intent": "Build practical professional understanding",
       "currentURL": "/article/how-large-language-models-work"
     },

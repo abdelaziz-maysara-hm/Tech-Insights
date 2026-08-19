@@ -2,6 +2,13 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 5B ? Batch 3: LLM Trust Boundaries for Enterprise IT
+
+- Reworked a generic LLM explainer into practical guidance for IT and security teams.
+- Added operational coverage of tokens, context windows, RAG validation, data boundaries, evidence, rollback, and measurable verification.
+- Preserved the stable article slug and synchronized independently written Arabic and English content with the lightweight index.
+- Improved the deterministic audit to 103 KEEP / 48 REWORK / 53 REMOVE.
+
 ## Phase 5B ? Batch 2: Evidence-Led AI Troubleshooting Prompts
 
 - Reworked generic AI prompting advice into a structured engineering troubleshooting workflow.

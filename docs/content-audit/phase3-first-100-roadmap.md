@@ -45,7 +45,7 @@ Qualitative priorities only; no fabricated SEO metrics.
 | 39 | medium | KEEP | Web Application Firewall (WAF): The Complete Guide | guide | cybersecurity |  | Build practical professional understanding |
 | 40 | medium | KEEP | OWASP Top 10 Overview: The Complete Guide | guide | cybersecurity |  | Build practical professional understanding |
 | 41 | medium | KEEP | Writing Safe AI Prompts for Technical Troubleshooting: An Engineer?s Template | troubleshooting | cybersecurity |  | Resolve a specific engineering problem |
-| 42 | medium | REWORK | How Large Language Models (LLMs) Actually Work | guide |  |  | Build practical professional understanding |
+| 42 | medium | KEEP | How LLMs Work in Enterprise IT: A Practical Guide to Trust and Risk | concept | cybersecurity |  | Build practical professional understanding |
 | 43 | medium | REWORK | How AI Image Generation Works: The Complete Guide | guide |  |  | Build practical professional understanding |
 | 44 | medium | KEEP | Common Wi-Fi Problems and Their Step-by-Step Fixes | troubleshooting | networking |  | Resolve a specific engineering problem |
 | 45 | medium | REWORK | The Best Everyday Uses of AI (It's Not Just ChatGPT) | guide |  |  | Build practical professional understanding |
