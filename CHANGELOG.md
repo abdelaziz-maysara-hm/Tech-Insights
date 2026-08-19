@@ -2,6 +2,13 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 5B ? Batch 1: Safe AI-Assisted Technical Training
+
+- Reworked the first priority REWORK article from generic study advice into a professional workflow for safe AI-assisted technical training.
+- Added data-sanitization, official-source verification, read-only diagnosis, lab testing, rollback, and outcome-verification guidance in independently written Arabic and English.
+- Preserved the stable article slug and synchronized the full article and lightweight index.
+- Improved the deterministic audit to 101 KEEP / 50 REWORK / 53 REMOVE without claiming human technical or translation approval.
+
 ## Phase 5A ? Explicit Metadata for KEEP Content
 
 - Applied explicit Phase 3 audit taxonomy metadata to 100 KEEP records: 99 articles and one comparison.

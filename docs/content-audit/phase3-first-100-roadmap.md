@@ -10,7 +10,7 @@ Qualitative priorities only; no fabricated SEO metrics.
 | 4 | high | KEEP | Setting Up FortiGate SSL VPN: The Complete Step-by-Step Guide | guide | networking | fortinet | Build practical professional understanding |
 | 5 | high | KEEP | Daily Active Directory Tasks with PowerShell: The Complete Guide | guide | infrastructure | microsoft | Build practical professional understanding |
 | 6 | high | KEEP | Home Router Security: The Complete Step-by-Step Guide | guide | cybersecurity |  | Build practical professional understanding |
-| 7 | high | REWORK | Using ChatGPT for Studying Without Hurting Understanding: The Complete Guide | guide |  |  | Build practical professional understanding |
+| 7 | high | KEEP | Using AI Assistants Safely for Technical Training: A Practical Guide | guide | cybersecurity |  | Build practical professional understanding |
 | 8 | high | KEEP | Converting Windows Server from Evaluation to Standard Without Reinstalling | troubleshooting | infrastructure | microsoft | Resolve a specific engineering problem |
 | 9 | high | KEEP | Setting Up a DNS Reverse Lookup Zone: The Complete Guide | troubleshooting | networking |  | Resolve a specific engineering problem |
 | 10 | high | KEEP | Group Policy Fundamentals: The Complete Guide for Sysadmins | troubleshooting | cybersecurity |  | Resolve a specific engineering problem |

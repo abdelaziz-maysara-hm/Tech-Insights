@@ -1,6 +1,6 @@
 # NetSec Atlas Phase 3 Content Audit
 
-Generated: 2026-08-18T13:11:18.758Z
+Generated: 2026-08-19T08:35:46.998Z
 
 > Repository-only deterministic audit. Counts are evidence from current content; no search-volume, CPC or keyword-difficulty values are invented.
 
@@ -12,8 +12,8 @@ Generated: 2026-08-18T13:11:18.758Z
 
 - Total inventoried: 213 (129 articles, 75 comparisons, 9 static pages)
 - Editorial disposition denominator: 204
-- KEEP: 100 (49%)
-- REWORK: 51 (25%)
+- KEEP: 101 (49.5%)
+- REWORK: 50 (24.5%)
 - REMOVE: 53 (26%)
 - NOINDEX: 0 (0%)
 - Consumer/unrelated: 53 (26%)
@@ -25,8 +25,8 @@ Generated: 2026-08-18T13:11:18.758Z
 | name | count |
 | --- | --- |
 | consumer | 9 |
-| enterprise | 65 |
-| mixed | 11 |
+| enterprise | 66 |
+| mixed | 10 |
 | professional-it | 75 |
 | unrelated | 44 |
 
@@ -62,9 +62,9 @@ Generated: 2026-08-18T13:11:18.758Z
 
 | domainId | count | high | medium | low |
 | --- | --- | --- | --- | --- |
-| cybersecurity | 77 | 20 | 41 | 16 |
+| cybersecurity | 78 | 21 | 41 | 16 |
 | networking | 41 | 16 | 15 | 10 |
-| infrastructure | 47 | 15 | 17 | 15 |
+| infrastructure | 48 | 16 | 17 | 15 |
 
 ## Troubleshooting
 
@@ -96,7 +96,6 @@ Generated: 2026-08-18T13:11:18.758Z
 - **siem-soc** (topic): Fewer than two detected aligned items
 - **endpoint-security** (topic): Fewer than two detected aligned items
 - **dhcp-ipam** (topic): Fewer than two detected aligned items
-- **dlp** (topic): Fewer than two detected aligned items
 - **nac** (topic): Fewer than two detected aligned items
 
 ## Outputs

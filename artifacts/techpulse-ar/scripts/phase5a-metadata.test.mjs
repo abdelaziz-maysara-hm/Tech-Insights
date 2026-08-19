@@ -17,10 +17,10 @@ const sourceMaps = {
   comparison: [new Map(comparisons.map((item) => [item.id, item]))],
 };
 
-test('the Phase 3 KEEP inventory remains stable', () => {
-  assert.equal(keepRecords.length, 100);
-  assert.equal(keepRecords.filter((record) => record.source === 'article').length, 99);
-  assert.equal(keepRecords.filter((record) => record.source === 'comparison').length, 1);
+test('the Phase 5A KEEP baseline does not regress as REWORK content improves', () => {
+  assert.ok(keepRecords.length >= 100);
+  assert.ok(keepRecords.filter((record) => record.source === 'article').length >= 99);
+  assert.ok(keepRecords.filter((record) => record.source === 'comparison').length >= 1);
 });
 
 test('every KEEP record carries exact explicit audit metadata', () => {

@@ -59,3 +59,6 @@ The SPA catch-all remains localized and navigable, but it explicitly emits `noin
 
 ## ADR-020 ? KEEP metadata is explicit but not an approval claim
 Phase 5A copies deterministic taxonomy dimensions from the Phase 3 audit into KEEP records so discovery no longer depends on inference. The migration sets technical status to `needs-review` and translation status to `unreviewed`; a strategic KEEP classification does not prove current technical accuracy, translation quality, difficulty, or a human review date. Empty vendor/product/topic arrays are explicit audit results rather than missing metadata.
+
+## ADR-021 ? REWORK preserves URLs and requires measurable professional value
+Phase 5B keeps established slugs while replacing off-mission material with independently written Arabic and English professional content. A batch must add concrete operational value, explicit taxonomy, safety boundaries, and regression tests, and must improve the deterministic disposition before completion. Automated work remains `needs-review` and `unreviewed` until separate human technical and translation review.
