@@ -2,6 +2,14 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 4C-3 — Localized Sitemap and Alternates
+
+- Replaced transitional unprefixed sitemap locations with localized production canonicals.
+- Added reciprocal XHTML Arabic/English/x-default alternates only for the 26 approved discovery routes.
+- Kept all 213 unreviewed/invalid editorial records Arabic-only in sitemap discovery without falsely declaring translation equivalence.
+- Removed nine noncanonical query-filter URLs and added the 15 existing vendor detail routes.
+- Generated 267 unique canonical URLs: 241 Arabic and 26 English; legacy URL count is zero.
+
 ## Phase 4C-2 — Central Hreflang Infrastructure and Eligibility
 
 - Added typed, centralized translation status and hreflang URL generation with Arabic, English, and Arabic-canonical `x-default` targets.

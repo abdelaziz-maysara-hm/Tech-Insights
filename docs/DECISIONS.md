@@ -47,3 +47,6 @@ Field completeness and automated language heuristics do not prove semantic, tech
 
 ## ADR-016 — Discovery eligibility and x-default are explicit
 Application/discovery routes may be hreflang-eligible independently from editorial content when their maintained UI/data is meaningfully bilingual. Current approved classes are home, article/comparison listings, categories, troubleshooting, guides, tools, vendors/vendor details, and domain pages; search and videos are excluded pending separate review. Eligible pairs use reciprocal Arabic and English localized canonicals, with `x-default` pointing to the Arabic localized canonical. Legacy unprefixed URLs are never alternate targets. User language navigation is not evidence of SEO translation eligibility.
+
+## ADR-017 — Sitemap contains canonical localized URLs only
+The production sitemap excludes transitional unprefixed URLs and noncanonical query-filter variants. Every current route identity is represented by its Arabic localized canonical. English locations and reciprocal XHTML alternates are added only when the shared hreflang policy explicitly approves the route or content translation status is reviewed. This keeps sitemap discovery aligned with HTML canonicals without fabricating translation quality.

@@ -1,27 +1,34 @@
-/**
- * Generates public/sitemap.xml from CMS JSON + static routes.
- */
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+/** Generates canonical localized sitemap entries from source content and hreflang policy. */
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const root = join(__dirname, '..');
+const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const SITE = 'https://netsecatlas.com';
+const today = new Date().toISOString().slice(0, 10);
+const policy = JSON.parse(readFileSync(join(root, 'src/config/hreflang-policy.json'), 'utf8'));
+const eligibleDiscoveryRoutes = new Set(policy.eligibleDiscoveryRoutes);
+const reviewedContentRoutes = new Set(policy.reviewedContentRoutes);
 
-function loadJson(rel) {
+function loadJson(relativePath) {
   try {
-    const raw = readFileSync(join(root, rel), 'utf8');
-    const data = JSON.parse(raw);
-    return Array.isArray(data) ? data : [];
+    const value = JSON.parse(readFileSync(join(root, relativePath), 'utf8'));
+    return Array.isArray(value) ? value : [];
   } catch {
     return [];
   }
 }
 
-const today = new Date().toISOString().slice(0, 10);
+function escapeXml(value) {
+  return String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&apos;');
+}
 
-const staticRoutes = [
+const baseRoutes = [
   { path: '/', priority: '1.0', changefreq: 'daily' },
   { path: '/articles', priority: '0.95', changefreq: 'daily' },
   { path: '/comparisons', priority: '0.9', changefreq: 'daily' },
@@ -35,85 +42,77 @@ const staticRoutes = [
   { path: '/videos', priority: '0.85', changefreq: 'weekly' },
   { path: '/categories', priority: '0.85', changefreq: 'weekly' },
   { path: '/search', priority: '0.4', changefreq: 'monthly' },
-  { path: '/page/about', priority: '0.5', changefreq: 'monthly' },
-  { path: '/page/privacy', priority: '0.4', changefreq: 'yearly' },
-];
-
-const categories = [
-  'cybersecurity', 'mobile', 'laptops', 'howto', 'ai', 'reviews', 'windows', 'comparisons', 'technology',
 ];
 
 const articles = loadJson('src/content/articles.json');
-const pages = loadJson('src/content/pages.json');
-const videos = loadJson('src/content/videos.json');
 const comparisons = loadJson('src/content/comparisons.json');
+const pages = loadJson('src/content/pages.json');
+const vendorRoutes = policy.eligibleDiscoveryRoutes
+  .filter((path) => path.startsWith('/vendors/'))
+  .map((path) => ({ path, priority: '0.8', changefreq: 'weekly' }));
 
-const urls = [...staticRoutes];
-
-for (const c of categories) {
-  urls.push({
-    path: `/articles?c=${c}`,
-    priority: '0.75',
+const routes = [
+  ...baseRoutes,
+  ...vendorRoutes,
+  ...articles.filter((item) => item?.slug).map((item) => ({
+    path: `/article/${item.slug}`,
+    priority: item.isFeatured ? '0.9' : '0.8',
     changefreq: 'weekly',
-    lastmod: today,
-  });
+    lastmod: typeof item.date === 'string' ? item.date.slice(0, 10) : today,
+    translationStatus: item.translationStatus,
+  })),
+  ...comparisons.filter((item) => item?.slug).map((item) => ({
+    path: `/comparison/${item.slug}`,
+    priority: '0.85',
+    changefreq: 'weekly',
+    lastmod: typeof item.date === 'string' ? item.date.slice(0, 10) : today,
+    translationStatus: item.translationStatus,
+  })),
+  ...pages.filter((item) => item?.slug).map((item) => ({
+    path: `/page/${item.slug}`,
+    priority: '0.55',
+    changefreq: 'monthly',
+    lastmod: typeof item.updatedAt === 'string' ? item.updatedAt.slice(0, 10) : today,
+    translationStatus: item.translationStatus,
+  })),
+];
+
+const uniqueRoutes = [...new Map(routes.map((route) => [route.path, route])).values()];
+const entries = [];
+for (const route of uniqueRoutes) {
+  const eligible = eligibleDiscoveryRoutes.has(route.path)
+    || route.translationStatus === 'reviewed'
+    || reviewedContentRoutes.has(route.path);
+  const languages = eligible ? ['ar', 'en'] : ['ar'];
+  for (const language of languages) entries.push({ ...route, language, eligible });
 }
 
-for (const a of articles) {
-  if (a?.slug) {
-    urls.push({
-      path: `/article/${a.slug}`,
-      priority: a.isFeatured ? '0.9' : '0.8',
-      changefreq: 'weekly',
-      lastmod: typeof a.date === 'string' ? a.date.slice(0, 10) : today,
-    });
-  }
+function localizedUrl(path, language) {
+  return `${SITE}/${language}${path === '/' ? '/' : path}`;
 }
 
-for (const c of comparisons) {
-  if (c?.slug) {
-    urls.push({
-      path: `/comparison/${c.slug}`,
-      priority: '0.85',
-      changefreq: 'weekly',
-      lastmod: typeof c.date === 'string' ? c.date.slice(0, 10) : today,
-    });
-  }
+function alternateXml(path) {
+  const ar = localizedUrl(path, 'ar');
+  const en = localizedUrl(path, 'en');
+  return [
+    ['ar', ar],
+    ['en', en],
+    ['x-default', ar],
+  ].map(([language, href]) => `\n    <xhtml:link rel="alternate" hreflang="${language}" href="${escapeXml(href)}" />`).join('');
 }
 
-for (const p of pages) {
-  if (p?.slug) {
-    urls.push({
-      path: `/page/${p.slug}`,
-      priority: '0.55',
-      changefreq: 'monthly',
-      lastmod: typeof p.updatedAt === 'string' ? p.updatedAt.slice(0, 10) : today,
-    });
-  }
-}
+const body = entries.map((entry) => {
+  const loc = localizedUrl(entry.path, entry.language);
+  const alternates = entry.eligible ? alternateXml(entry.path) : '';
+  const lastmod = entry.lastmod ? `\n    <lastmod>${escapeXml(entry.lastmod)}</lastmod>` : '';
+  return `  <url>\n    <loc>${escapeXml(loc)}</loc>${alternates}${lastmod}\n    <changefreq>${entry.changefreq}</changefreq>\n    <priority>${entry.priority}</priority>\n  </url>`;
+}).join('\n');
 
-if (videos.length) {
-  urls.push({ path: '/videos', priority: '0.85', changefreq: 'weekly', lastmod: today });
-}
+const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${body}\n</urlset>\n`;
+const outputDirectory = join(root, 'public');
+mkdirSync(outputDirectory, { recursive: true });
+writeFileSync(join(outputDirectory, 'sitemap.xml'), xml, 'utf8');
 
-const seen = new Set();
-const unique = [];
-for (const u of urls) {
-  if (seen.has(u.path)) continue;
-  seen.add(u.path);
-  unique.push(u);
-}
-
-const body = unique
-  .map((u) => {
-    const lastmod = u.lastmod ? `\n    <lastmod>${u.lastmod}</lastmod>` : '';
-    return `  <url>\n    <loc>${SITE}${u.path}</loc>${lastmod}\n    <changefreq>${u.changefreq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>`;
-  })
-  .join('\n');
-
-const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
-
-const outDir = join(root, 'public');
-mkdirSync(outDir, { recursive: true });
-writeFileSync(join(outDir, 'sitemap.xml'), xml, 'utf8');
-console.log(`[sitemap] wrote ${unique.length} URLs → public/sitemap.xml`);
+const arCount = entries.filter((entry) => entry.language === 'ar').length;
+const enCount = entries.filter((entry) => entry.language === 'en').length;
+console.log(`[sitemap] wrote ${entries.length} canonical URLs (${arCount} ar, ${enCount} en) → public/sitemap.xml`);

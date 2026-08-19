@@ -1,4 +1,5 @@
 import { SITE } from '../config/site.ts';
+import policy from '../config/hreflang-policy.json' with { type: 'json' };
 import { localizePath, stripLanguagePrefix } from './localizedRouting.ts';
 
 export type TranslationStatus = 'unreviewed' | 'reviewed' | 'invalid';
@@ -8,23 +9,8 @@ export type HreflangAlternate = {
   href: string;
 };
 
-const REVIEWED_CONTENT_ROUTES: Readonly<Record<string, TranslationStatus>> = Object.freeze({});
-
-const ELIGIBLE_DISCOVERY_ROUTES = new Set([
-  '/',
-  '/articles',
-  '/comparisons',
-  '/categories',
-  '/troubleshooting',
-  '/guides',
-  '/tools',
-  '/vendors',
-]);
-
-const ELIGIBLE_DISCOVERY_PATTERNS = [
-  /^\/vendors\/[^/]+$/,
-  /^\/domain\/[^/]+$/,
-];
+const REVIEWED_CONTENT_ROUTES = new Set<string>(policy.reviewedContentRoutes);
+const ELIGIBLE_DISCOVERY_ROUTES = new Set<string>(policy.eligibleDiscoveryRoutes);
 
 function pathnameOnly(value: string): string {
   const raw = /^https?:\/\//i.test(value) ? new URL(value).pathname : value;
@@ -39,13 +25,12 @@ export function getCanonicalRouteIdentity(value: string, basePath = ''): string 
 }
 
 export function getTranslationStatus(routePath: string): TranslationStatus {
-  return REVIEWED_CONTENT_ROUTES[getCanonicalRouteIdentity(routePath)] ?? 'unreviewed';
+  return REVIEWED_CONTENT_ROUTES.has(getCanonicalRouteIdentity(routePath)) ? 'reviewed' : 'unreviewed';
 }
 
 export function isDiscoveryRouteHreflangEligible(routePath: string): boolean {
   const route = getCanonicalRouteIdentity(routePath);
-  return ELIGIBLE_DISCOVERY_ROUTES.has(route)
-    || ELIGIBLE_DISCOVERY_PATTERNS.some((pattern) => pattern.test(route));
+  return ELIGIBLE_DISCOVERY_ROUTES.has(route);
 }
 
 export function isHreflangEligible(

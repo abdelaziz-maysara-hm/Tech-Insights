@@ -1,0 +1,31 @@
+{
+  "reviewedContentRoutes": [],
+  "eligibleDiscoveryRoutes": [
+    "/",
+    "/articles",
+    "/comparisons",
+    "/categories",
+    "/troubleshooting",
+    "/guides",
+    "/tools",
+    "/vendors",
+    "/domain/cybersecurity",
+    "/domain/networking",
+    "/domain/infrastructure",
+    "/vendors/fortinet",
+    "/vendors/palo-alto",
+    "/vendors/cisco",
+    "/vendors/microsoft",
+    "/vendors/vmware",
+    "/vendors/kaspersky",
+    "/vendors/forcepoint",
+    "/vendors/f5",
+    "/vendors/beyondtrust",
+    "/vendors/splunk",
+    "/vendors/broadcom",
+    "/vendors/trellix",
+    "/vendors/rapid7",
+    "/vendors/infoblox",
+    "/vendors/sophos"
+  ]
+}
