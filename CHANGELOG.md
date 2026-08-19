@@ -2,6 +2,13 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 5B ? Batch 2: Evidence-Led AI Troubleshooting Prompts
+
+- Reworked generic AI prompting advice into a structured engineering troubleshooting workflow.
+- Required observed facts, declared assumptions, read-only checks, state-change labeling, risks, rollback, and measurable verification.
+- Preserved the stable slug and synchronized independently written Arabic and English content with the lightweight index.
+- Improved the deterministic audit to 102 KEEP / 49 REWORK / 53 REMOVE.
+
 ## Phase 5B ? Batch 1: Safe AI-Assisted Technical Training
 
 - Reworked the first priority REWORK article from generic study advice into a professional workflow for safe AI-assisted technical training.

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T08:35:46.998Z",
+  "generatedAt": "2026-08-19T08:42:41.449Z",
   "methodology": {
     "note": "Repository-only deterministic heuristics; no fabricated SEO metrics.",
     "dispositionDenominator": "Editorial items: articles plus comparisons",
@@ -70,19 +70,19 @@
   },
   "statistics": {
     "disposition": {
-      "KEEP": 101,
+      "KEEP": 102,
       "REMOVE": 53,
-      "REWORK": 50
+      "REWORK": 49
     },
     "dispositionPercent": {
-      "KEEP": 49.5,
+      "KEEP": 50,
       "REMOVE": 26,
-      "REWORK": 24.5
+      "REWORK": 24
     },
     "strategicFit": {
       "consumer": 9,
-      "enterprise": 66,
-      "mixed": 10,
+      "enterprise": 67,
+      "mixed": 9,
       "professional-it": 75,
       "unrelated": 44
     },
@@ -247,8 +247,8 @@
   "domainCoverage": [
     {
       "domainId": "cybersecurity",
-      "count": 78,
-      "high": 21,
+      "count": 79,
+      "high": 22,
       "medium": 41,
       "low": 16,
       "topics": {
@@ -260,7 +260,7 @@
         "dns": 1,
         "routing-switching": 1,
         "iam-pam": 2,
-        "dlp": 6,
+        "dlp": 7,
         "vulnerability-management": 8,
         "threat-detection": 1,
         "backup-recovery": 3,
@@ -292,8 +292,8 @@
     },
     {
       "domainId": "infrastructure",
-      "count": 48,
-      "high": 16,
+      "count": 49,
+      "high": 17,
       "medium": 17,
       "low": 15,
       "topics": {
@@ -304,7 +304,7 @@
         "pki-certificates": 3,
         "dhcp-ipam": 1,
         "iam-pam": 2,
-        "dlp": 2,
+        "dlp": 3,
         "vmware-virtualization": 2,
         "backup-recovery": 8,
         "cloud": 19,
@@ -3190,21 +3190,27 @@
     {
       "id": "art-gen-0107",
       "slug": "effective-ai-prompting-guide",
-      "titleAr": "????? ????? ?????? ?????? ?????????: ?????? ??????",
-      "titleEn": "Writing Effective AI Prompts: The Complete Guide",
+      "titleAr": "????? ????? AI ??????? ?????? ?????: ???? ???? ?????????",
+      "titleEn": "Writing Safe AI Prompts for Technical Troubleshooting: An Engineer?s Template",
       "source": "article",
-      "currentCategory": "ai",
-      "inferredDomains": [],
-      "inferredTopics": [],
+      "currentCategory": "cybersecurity",
+      "inferredDomains": [
+        "cybersecurity",
+        "infrastructure",
+        "troubleshooting"
+      ],
+      "inferredTopics": [
+        "dlp"
+      ],
       "inferredVendors": [],
       "inferredProducts": [],
       "inferredContentType": "troubleshooting",
-      "strategicFit": "mixed",
-      "proposedDisposition": "REWORK",
-      "confidence": "medium",
-      "reason": "Generic AI material needs a professional IT/security angle",
+      "strategicFit": "enterprise",
+      "proposedDisposition": "KEEP",
+      "confidence": "high",
+      "reason": "cybersecurity, infrastructure, troubleshooting professional technical content",
       "currentURL": "/article/effective-ai-prompting-guide",
-      "wordCount": 436,
+      "wordCount": 440,
       "lastUpdated": "2026-05-14",
       "technicalValue": "high",
       "potentiallyThin": false
@@ -6228,16 +6234,16 @@
     },
     {
       "priority": "medium",
-      "action": "REWORK",
-      "titleAr": "????? ????? ?????? ?????? ?????????: ?????? ??????",
-      "titleEn": "Writing Effective AI Prompts: The Complete Guide",
+      "action": "KEEP",
+      "titleAr": "????? ????? AI ??????? ?????? ?????: ???? ???? ?????????",
+      "titleEn": "Writing Safe AI Prompts for Technical Troubleshooting: An Engineer?s Template",
       "language": "ar+en",
       "contentType": "troubleshooting",
-      "domain": null,
-      "topic": null,
+      "domain": "cybersecurity",
+      "topic": "dlp",
       "vendor": null,
       "product": null,
-      "reason": "Generic AI material needs a professional IT/security angle",
+      "reason": "cybersecurity, infrastructure, troubleshooting professional technical content",
       "intent": "Resolve a specific engineering problem",
       "currentURL": "/article/effective-ai-prompting-guide"
     },

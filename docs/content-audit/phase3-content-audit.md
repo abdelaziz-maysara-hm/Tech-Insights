@@ -1,6 +1,6 @@
 # NetSec Atlas Phase 3 Content Audit
 
-Generated: 2026-08-19T08:35:46.998Z
+Generated: 2026-08-19T08:42:41.449Z
 
 > Repository-only deterministic audit. Counts are evidence from current content; no search-volume, CPC or keyword-difficulty values are invented.
 
@@ -12,8 +12,8 @@ Generated: 2026-08-19T08:35:46.998Z
 
 - Total inventoried: 213 (129 articles, 75 comparisons, 9 static pages)
 - Editorial disposition denominator: 204
-- KEEP: 101 (49.5%)
-- REWORK: 50 (24.5%)
+- KEEP: 102 (50%)
+- REWORK: 49 (24%)
 - REMOVE: 53 (26%)
 - NOINDEX: 0 (0%)
 - Consumer/unrelated: 53 (26%)
@@ -25,8 +25,8 @@ Generated: 2026-08-19T08:35:46.998Z
 | name | count |
 | --- | --- |
 | consumer | 9 |
-| enterprise | 66 |
-| mixed | 10 |
+| enterprise | 67 |
+| mixed | 9 |
 | professional-it | 75 |
 | unrelated | 44 |
 
@@ -62,9 +62,9 @@ Generated: 2026-08-19T08:35:46.998Z
 
 | domainId | count | high | medium | low |
 | --- | --- | --- | --- | --- |
-| cybersecurity | 78 | 21 | 41 | 16 |
+| cybersecurity | 79 | 22 | 41 | 16 |
 | networking | 41 | 16 | 15 | 10 |
-| infrastructure | 48 | 16 | 17 | 15 |
+| infrastructure | 49 | 17 | 17 | 15 |
 
 ## Troubleshooting
 

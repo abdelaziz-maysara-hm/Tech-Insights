@@ -26,6 +26,8 @@
     "test:phase5a": "node --test scripts/phase5a-metadata.test.mjs",
     "apply:phase5b-1": "node scripts/apply-phase5b-batch1.mjs",
     "test:phase5b-1": "node --test scripts/phase5b-batch1.test.mjs",
+    "apply:phase5b-2": "node scripts/apply-phase5b-batch2.mjs",
+    "test:phase5b-2": "node --test scripts/phase5b-batch2.test.mjs",
     "generate": "node scripts/generator/index.mjs",
     "generate:articles": "node scripts/generator/index.mjs --type=articles",
     "generate:videos": "node scripts/generator/index.mjs --type=videos",

@@ -10,7 +10,7 @@
 
 ## Current handoff
 
-- Completed: Phases 0, 1, 1.5, 2, 3, 4 (4A?4E), 5A, and Phase 5B Batch 1.
+- Completed: Phases 0, 1, 1.5, 2, 3, 4 (4A?4E), 5A, and Phase 5B Batches 1?2.
 - Next: continue Phase 5B priority REWORK content in another small verified batch. Do not combine it with consumer cleanup or removal decisions.
 - Branch/workflow: `main`; use fast-forward pull, focused commits, normal push, never force-push.
 - Production domain: `https://netsecatlas.com`.
@@ -27,6 +27,7 @@
 - Phase 4E adds explicit non-indexable SEO behavior through `useSEO({ indexable: false })` and applies it to the localized 404 view. `scripts/phase4e-validation.test.mjs` verifies the complete route surface, catch-all order, 404 indexing cleanup, 267 localized sitemap URLs, 50 RSS items, and absence of the legacy host. Phase 4 closes with 32 focused tests plus passing workspace typecheck and production build.
 - Phase 5A uses `scripts/apply-phase5a-metadata.mjs` and the unchanged Phase 3 audit to apply exact explicit metadata to 99 KEEP articles and one KEEP comparison. Full articles and `articles-index.json` are synchronized. `technicalStatus: needs-review` and `translationStatus: unreviewed` are intentional: KEEP is a reuse decision, not human technical/translation approval. See `docs/content-audit/phase5a-keep-metadata.md`.
 - Phase 5B Batch 1 reworks `chatgpt-study-without-harm` into safe AI-assisted technical training while preserving the slug. The refreshed audit is 101 KEEP / 50 REWORK / 53 REMOVE. Its Arabic and English bodies are independently written, but remain `needs-review` and `unreviewed`. See `docs/content-audit/phase5b-batch1.md`.
+- Phase 5B Batch 2 reworks `effective-ai-prompting-guide` into evidence-led technical troubleshooting prompts while preserving the slug. The refreshed audit is 102 KEEP / 49 REWORK / 53 REMOVE. See `docs/content-audit/phase5b-batch2.md`.
 - The static SPA shell intentionally carries no canonical or `og:url`; `useSEO` creates the route-correct values after hydration. Full pre-rendered localized metadata would require SSR/static rendering and is not claimed by Phase 4B.
 
 ## Validation

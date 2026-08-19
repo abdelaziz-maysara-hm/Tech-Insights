@@ -44,7 +44,7 @@ Qualitative priorities only; no fabricated SEO metrics.
 | 38 | medium | KEEP | How EDR Actually Works: The Fundamental Difference from Traditional Antivirus | troubleshooting | cybersecurity |  | Resolve a specific engineering problem |
 | 39 | medium | KEEP | Web Application Firewall (WAF): The Complete Guide | guide | cybersecurity |  | Build practical professional understanding |
 | 40 | medium | KEEP | OWASP Top 10 Overview: The Complete Guide | guide | cybersecurity |  | Build practical professional understanding |
-| 41 | medium | REWORK | Writing Effective AI Prompts: The Complete Guide | troubleshooting |  |  | Resolve a specific engineering problem |
+| 41 | medium | KEEP | Writing Safe AI Prompts for Technical Troubleshooting: An Engineer?s Template | troubleshooting | cybersecurity |  | Resolve a specific engineering problem |
 | 42 | medium | REWORK | How Large Language Models (LLMs) Actually Work | guide |  |  | Build practical professional understanding |
 | 43 | medium | REWORK | How AI Image Generation Works: The Complete Guide | guide |  |  | Build practical professional understanding |
 | 44 | medium | KEEP | Common Wi-Fi Problems and Their Step-by-Step Fixes | troubleshooting | networking |  | Resolve a specific engineering problem |
