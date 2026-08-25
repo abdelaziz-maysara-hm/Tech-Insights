@@ -11,7 +11,7 @@ export type AtlasTool = {
 export const ATLAS_TOOLS: AtlasTool[] = [
   {
     id: 'screen',
-    href: 'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.0/Atlas_Screen_Recorder_Portable.zip',
+    href: 'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.1/Atlas_Screen_Recorder_Portable.zip',
     group: { ar: 'تسجيل', en: 'Recording' },
     title: { ar: 'Atlas Screen Recorder', en: 'Atlas Screen Recorder' },
     body: {
@@ -19,11 +19,11 @@ export const ATLAS_TOOLS: AtlasTool[] = [
       en: 'Screen capture with system audio and mic. Windows portable, no watermark.',
     },
     download:
-      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.0/Atlas_Screen_Recorder_Portable.zip',
+      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.1/Atlas_Screen_Recorder_Portable.zip',
   },
   {
     id: 'sound',
-    href: 'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.0/Atlas_Sound_Recorder_Portable.zip',
+    href: 'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.1/Atlas_Sound_Recorder_Portable.zip',
     group: { ar: 'تسجيل', en: 'Recording' },
     title: { ar: 'Atlas Sound Recorder', en: 'Atlas Sound Recorder' },
     body: {
@@ -31,7 +31,7 @@ export const ATLAS_TOOLS: AtlasTool[] = [
       en: 'Local WAV recorder. Python bundled, no FFmpeg required.',
     },
     download:
-      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.0/Atlas_Sound_Recorder_Portable.zip',
+      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.1/Atlas_Sound_Recorder_Portable.zip',
   },
   {
     id: 'hash',
