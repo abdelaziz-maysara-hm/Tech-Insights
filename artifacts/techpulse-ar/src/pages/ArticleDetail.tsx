@@ -5,6 +5,8 @@ import { useArticleBody } from '@/hooks/useArticleBody';
 import { Clock } from 'lucide-react';
 import { useSEO } from '@/hooks/useSEO';
 import { ArticleCard } from '@/components/ArticleCard';
+import { AdawatyTools } from '@/components/AdawatyTools';
+import { adawatyLinksForArticle } from '@/data/adawaty';
 
 export default function ArticleDetail() {
   const [, params] = useRoute('/article/:slug');
@@ -45,6 +47,12 @@ export default function ArticleDetail() {
   const related = allArticles
     .filter(a => a.categoryId === article.categoryId && a.id !== article.id)
     .slice(0, 3);
+
+  const adawatyLinks = adawatyLinksForArticle({
+    categoryId: article.categoryId,
+    tags: article.tags,
+    title: article.title,
+  });
 
   return (
     <div className="min-h-screen pb-20">
@@ -106,6 +114,8 @@ export default function ArticleDetail() {
               ))}
             </div>
           )}
+
+          <AdawatyTools links={adawatyLinks} />
         </div>
 
         {related.length > 0 && (

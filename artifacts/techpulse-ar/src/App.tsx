@@ -20,7 +20,6 @@ const PageDetail = lazy(() => import('@/pages/PageDetail'));
 const Troubleshooting = lazy(() => import('@/pages/Troubleshooting'));
 const Guides = lazy(() => import('@/pages/Guides'));
 const Tools = lazy(() => import('@/pages/Tools'));
-const ToolDetail = lazy(() => import('@/pages/ToolDetail'));
 const VendorDetail = lazy(() => import('@/pages/VendorDetail'));
 const Vendors = lazy(() => import('@/pages/Vendors'));
 const DomainPage = lazy(() => import('@/pages/Domain'));
@@ -88,7 +87,6 @@ function Router() {
             <Route path="/page/:slug" component={PageDetail} />
             <Route path="/troubleshooting" component={Troubleshooting} />
             <Route path="/guides" component={Guides} />
-            <Route path="/tools/:slug" component={ToolDetail} />
             <Route path="/tools" component={Tools} />
             <Route path="/vendors/:vendor" component={VendorDetail} />
             <Route path="/vendors" component={Vendors} />

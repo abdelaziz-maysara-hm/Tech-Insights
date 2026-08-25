@@ -57,7 +57,7 @@ export function Navbar() {
           <Link href="/troubleshooting" className="hover:text-primary transition-colors px-2">{language === 'ar' ? 'استكشاف الأعطال' : 'Troubleshooting'}</Link>
           <Link href="/guides" className="hover:text-primary transition-colors px-2">{language === 'ar' ? 'أدلة' : 'Guides'}</Link>
           <Link href="/comparisons" className="hover:text-primary transition-colors px-2">{t('comparisons')}</Link>
-          <Link href="/tools" className="hover:text-primary transition-colors px-2">{language === 'ar' ? 'أدوات' : 'Tools'}</Link>
+          <Link href="/tools" className="hover:text-primary transition-colors px-2">{language === 'ar' ? 'تطبيقات' : 'Apps'}</Link>
         </nav>
 
         {/* Search Bar (Desktop) */}
@@ -161,7 +161,7 @@ export function Navbar() {
             <Link href="/troubleshooting" className="px-4 py-2 rounded-md hover:bg-muted">{language === 'ar' ? 'استكشاف الأعطال' : 'Troubleshooting'}</Link>
             <Link href="/guides" className="px-4 py-2 rounded-md hover:bg-muted">{language === 'ar' ? 'أدلة' : 'Guides'}</Link>
             <Link href="/comparisons" className="px-4 py-2 rounded-md hover:bg-muted">{t('comparisons')}</Link>
-            <Link href="/tools" className="px-4 py-2 rounded-md hover:bg-muted">{language === 'ar' ? 'أدوات' : 'Tools'}</Link>
+            <Link href="/tools" className="px-4 py-2 rounded-md hover:bg-muted">{language === 'ar' ? 'تطبيقات' : 'Apps'}</Link>
             <Link href="/vendors" className="px-4 py-2 rounded-md hover:bg-muted">{language === 'ar' ? 'الموردون' : 'Vendors'}</Link>
             <Link href="/categories" className="px-4 py-2 rounded-md hover:bg-muted">{t('categories')}</Link>
           </nav>
