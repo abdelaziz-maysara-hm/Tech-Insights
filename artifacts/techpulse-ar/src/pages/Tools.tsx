@@ -12,7 +12,7 @@ const APPS = [
       en: 'Record the screen with system audio and mic. Windows portable, no watermark, no account.',
     },
     download:
-      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.1/Atlas_Screen_Recorder_Portable.zip',
+      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.2/Atlas_Screen_Recorder_Portable.zip',
   },
   {
     id: 'sound',
@@ -22,7 +22,7 @@ const APPS = [
       en: 'Record WAV audio locally. Python is bundled.',
     },
     download:
-      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.1/Atlas_Sound_Recorder_Portable.zip',
+      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.2/Atlas_Sound_Recorder_Portable.zip',
   },
 ] as const;
 
