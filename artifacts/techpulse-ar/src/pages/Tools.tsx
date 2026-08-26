@@ -5,6 +5,16 @@ import { ExternalLink } from 'lucide-react';
 
 const APPS = [
   {
+    id: 'capture',
+    title: 'Atlas Capture',
+    body: {
+      ar: 'سكرين شوت لمنطقة أو الشاشة كاملة، نسخ للحافظة، من غير إعلانات. Ctrl+Shift+S.',
+      en: 'Region or full-screen screenshot, copy to clipboard, no ads. Ctrl+Shift+S.',
+    },
+    download:
+      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.4/Atlas_Capture_Portable.zip',
+  },
+  {
     id: 'screen',
     title: 'Atlas Screen Recorder',
     body: {
@@ -12,7 +22,7 @@ const APPS = [
       en: 'Record the screen with system audio and mic. Windows portable, no watermark, no account.',
     },
     download:
-      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.3/Atlas_Screen_Recorder_Portable.zip',
+      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.4/Atlas_Screen_Recorder_Portable.zip',
   },
   {
     id: 'sound',
@@ -22,7 +32,7 @@ const APPS = [
       en: 'Record WAV audio locally. Python is bundled.',
     },
     download:
-      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.3/Atlas_Sound_Recorder_Portable.zip',
+      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.4/Atlas_Sound_Recorder_Portable.zip',
   },
 ] as const;
 
@@ -33,8 +43,8 @@ export default function Tools() {
     title: language === 'ar' ? 'تطبيقات Atlas' : 'Atlas Apps',
     description:
       language === 'ar'
-        ? 'حمّل Atlas Screen Recorder و Atlas Sound Recorder من NetSec Atlas. أدوات الأمن على أدواتي.'
-        : 'Download Atlas Screen Recorder and Atlas Sound Recorder from NetSec Atlas. Security tools live on Adawaty.',
+        ? 'حمّل Atlas Capture ومسجّلات الشاشة والصوت من NetSec Atlas. أدوات الأمن على أدواتي.'
+        : 'Download Atlas Capture, Screen Recorder and Sound Recorder from NetSec Atlas. Security tools live on Adawaty.',
     path: '/tools',
   });
 
@@ -46,8 +56,8 @@ export default function Tools() {
         </h1>
         <p className="text-muted-foreground">
           {language === 'ar'
-            ? 'برامج ويندوز للتسجيل المحلي. أدوات الأمن والشبكات المجانية على أدواتي.'
-            : 'Windows apps for local recording. Free security and network utilities live on Adawaty.'}
+            ? 'برامج ويندوز للقطة والتسجيل المحلي. أدوات الأمن والشبكات المجانية على أدواتي.'
+            : 'Windows apps for capture and local recording. Free security and network utilities live on Adawaty.'}
         </p>
       </div>
 
