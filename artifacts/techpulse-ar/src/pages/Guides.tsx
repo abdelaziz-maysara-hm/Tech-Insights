@@ -30,6 +30,12 @@ export default function Guides() {
             ? 'أدلة عملية للتنفيذ والتكوين — ليست مقالات أخبار عامة.'
             : 'Practical implementation and configuration guides — not generic news posts.'}
         </p>
+        <Link
+          href="/tools#manual"
+          className="mt-5 inline-flex min-h-10 items-center rounded-md bg-primary px-4 text-sm font-semibold text-primary-foreground"
+        >
+          {language === 'ar' ? 'دليل تطبيقات Atlas' : 'Atlas apps setup guide'}
+        </Link>
       </div>
 
       {items.length > 0 ? (
