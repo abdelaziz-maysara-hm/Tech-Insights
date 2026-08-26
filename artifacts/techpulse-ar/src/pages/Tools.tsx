@@ -14,7 +14,7 @@ const APPS = [
     hotkey: 'Ctrl+Shift+S',
     save: 'Documents\\AtlasRecordings\\Capture',
     download:
-      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.4/Atlas_Capture_Portable.zip',
+      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v2.0/Atlas_Capture_Win.zip',
   },
   {
     id: 'clip',
@@ -26,7 +26,7 @@ const APPS = [
     hotkey: 'Ctrl+Shift+V',
     save: 'Documents\\AtlasRecordings\\clip_history.json',
     download:
-      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.5/Atlas_Clip_Portable.zip',
+      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v2.0/Atlas_Clip_Win.zip',
   },
   {
     id: 'pdf',
@@ -38,7 +38,7 @@ const APPS = [
     hotkey: '—',
     save: 'Documents\\AtlasRecordings\\PDF',
     download:
-      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.5/Atlas_PDF_Portable.zip',
+      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v2.0/Atlas_PDF_Win.zip',
   },
   {
     id: 'screen',
@@ -50,7 +50,7 @@ const APPS = [
     hotkey: 'Ctrl+Shift+R',
     save: 'Documents\\AtlasRecordings\\Screen',
     download:
-      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.4/Atlas_Screen_Recorder_Portable.zip',
+      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v2.0/Atlas_Screen_Recorder_Win.zip',
   },
   {
     id: 'sound',
@@ -62,7 +62,7 @@ const APPS = [
     hotkey: 'Ctrl+Shift+R',
     save: 'Documents\\AtlasRecordings\\Sound',
     download:
-      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.4/Atlas_Sound_Recorder_Portable.zip',
+      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v2.0/Atlas_Sound_Recorder_Win.zip',
   },
 ] as const;
 
@@ -84,8 +84,8 @@ export default function Tools() {
         <h1 className="text-3xl md:text-4xl font-bold mb-3">{ar ? 'تطبيقات Atlas' : 'Atlas Apps'}</h1>
         <p className="text-muted-foreground">
           {ar
-            ? 'برامج ويندوز محلية. فك الضغط، Setup مرة واحدة، شغّل. الملفات على جهازك.'
-            : 'Local Windows apps. Extract, run Setup once, then Run. Files stay on your PC.'}
+            ? 'نسخة EXE لويندوز. فك الضغط، شغّل الملف. من غير Python ولا Setup.'
+            : 'Windows EXE. Extract and run. No Python, no Setup.'}
         </p>
         <a href="#manual" className="inline-block mt-4 text-sm font-medium text-primary hover:underline">
           {ar ? 'دليل الإعداد والاستخدام ↓' : 'Setup and usage guide ↓'}
@@ -115,17 +115,17 @@ export default function Tools() {
 
         <h3 className="mt-8 text-lg font-semibold">{ar ? '١. التثبيت (مرة واحدة)' : '1. Setup (once)'}</h3>
         <ol className="mt-3 list-decimal space-y-2 ps-5 text-sm text-muted-foreground leading-relaxed">
-          <li>{ar ? 'حمّل ملف ZIP من الكرت فوق.' : 'Download the ZIP from the card above.'}</li>
+          <li>{ar ? 'حمّل ملف ZIP من الكرت فوق (نسخة EXE).' : 'Download the EXE zip from the card above.'}</li>
           <li>{ar ? 'فك الضغط في أي مجلد (مثال: Desktop).' : 'Extract it anywhere (e.g. Desktop).'}</li>
           <li>
             {ar
-              ? 'شغّل Setup.bat مرة واحدة. هيجهّز Python والمكتبات (دقيقة أو اتنين، نت مطلوب في المرة دي بس).'
-              : 'Run Setup.bat once. It installs Python packages (1–2 minutes, internet needed this time only).'}
+              ? 'شغّل Atlas_….exe من داخل المجلد. سيب ملفات _internal كما هي.'
+              : 'Run Atlas_….exe from inside the folder. Keep the _internal files next to it.'}
           </li>
           <li>
             {ar
-              ? 'بعد كده شغّل Run_Atlas_….bat في كل مرة. مفيش تثبيت في النظام ولا حساب.'
-              : 'After that, use Run_Atlas_….bat every time. No system install, no account.'}
+              ? 'مفيش Python ولا Setup.bat. SmartScreen: More info ثم Run anyway.'
+              : 'No Python and no Setup.bat. SmartScreen: More info, then Run anyway.'}
           </li>
         </ol>
 
