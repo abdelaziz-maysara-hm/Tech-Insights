@@ -50,7 +50,7 @@ const APPS = [
     hotkey: 'Ctrl+Shift+R',
     save: 'Documents\\AtlasRecordings\\Screen',
     download:
-      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v2.0/Atlas_Screen_Recorder_Win.zip',
+      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v2.1/Atlas_Screen_Recorder_Win.zip',
   },
   {
     id: 'sound',
@@ -182,7 +182,9 @@ export default function Tools() {
 
         <h3 className="mt-8 text-lg font-semibold">{ar ? '٤. مكان الملفات' : '4. Where files go'}</h3>
         <p className="mt-3 text-sm text-muted-foreground">
-          Documents\AtlasRecordings\ — Capture, Screen, Sound, PDF, clip_history.json
+          {ar
+            ? 'الافتراضي: مجلد المستخدم AtlasRecordings (مش Documents). من Screen اضغط Change folder أو Open Folder. بعد الإيقاف يسألك يفتح الملف.'
+            : 'Default: %USERPROFILE%\AtlasRecordings (not Documents). In Screen use Change folder or Open Folder. After Stop it offers to reveal the file.'}
         </p>
 
         <h3 className="mt-8 text-lg font-semibold">{ar ? '٥. لو حاجة وقفت' : '5. If something fails'}</h3>
