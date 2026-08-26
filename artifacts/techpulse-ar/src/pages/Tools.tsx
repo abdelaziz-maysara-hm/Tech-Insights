@@ -189,8 +189,8 @@ export default function Tools() {
         <ul className="mt-3 list-disc space-y-2 ps-5 text-sm text-muted-foreground leading-relaxed">
           <li>
             {ar
-              ? 'Setup فشل: تأكد من النت، شغّله تاني كـ Run as administrator مش لازم، بس أعد المحاولة.'
-              : 'Setup failed: check the internet and run Setup.bat again.'}
+              ? 'exe مش بيشتغل: فك الضغط كامل، وسيب مجلد _internal جنب الملف. SmartScreen: Run anyway.'
+              : 'exe will not start: extract the whole folder and keep _internal next to the exe. SmartScreen: Run anyway.'}
           </li>
           <li>
             {ar
