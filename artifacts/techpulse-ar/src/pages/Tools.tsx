@@ -15,6 +15,27 @@ const APPS = [
       'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.4/Atlas_Capture_Portable.zip',
   },
   {
+    id: 'clip',
+    title: 'Atlas Clip',
+    body: {
+      ar: 'سجل الحافظة على الجهاز. تثبيت وبحث. Ctrl+Shift+V.',
+      en: 'Local clipboard history. Pin and search. Ctrl+Shift+V.',
+    },
+    download:
+      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.5/Atlas_Clip_Portable.zip',
+  },
+  {
+    id: 'pdf',
+    title: 'Atlas PDF',
+    body: {
+      ar: 'دمج وتقسيم وتدوير PDF وصور إلى PDF من غير رفع.',
+      en: 'Merge, split, rotate PDFs and images to PDF. No upload.',
+    },
+    download:
+      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v1.5/Atlas_PDF_Portable.zip',
+  },
+
+  {
     id: 'screen',
     title: 'Atlas Screen Recorder',
     body: {
@@ -56,8 +77,8 @@ export default function Tools() {
         </h1>
         <p className="text-muted-foreground">
           {language === 'ar'
-            ? 'برامج ويندوز للقطة والتسجيل المحلي. أدوات الأمن والشبكات المجانية على أدواتي.'
-            : 'Windows apps for capture and local recording. Free security and network utilities live on Adawaty.'}
+            ? 'برامج ويندوز للقطة والحافظة وPDF والتسجيل. أدوات الأمن على أدواتي.'
+            : 'Windows apps for capture, clipboard, PDF, and recording. Security utilities live on Adawaty.'}
         </p>
       </div>
 
