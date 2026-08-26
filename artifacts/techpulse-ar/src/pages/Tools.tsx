@@ -50,7 +50,7 @@ const APPS = [
     hotkey: 'Ctrl+Shift+R',
     save: 'Documents\\AtlasRecordings\\Screen',
     download:
-      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v2.1/Atlas_Screen_Recorder_Win.zip',
+      'https://github.com/abdelaziz-maysara-hm/atlas-recorders/releases/download/v2.2/Atlas_Screen_Recorder_Win.zip',
   },
   {
     id: 'sound',
