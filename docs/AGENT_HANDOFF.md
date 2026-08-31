@@ -10,8 +10,8 @@
 
 ## Current handoff
 
-- Completed: Phases 0, 1, 1.5, 2, 3, 4 (4A–4E), 5A, and Phase 5B Batches 1–4.
-- Next: continue Phase 5B priority REWORK content in another small verified batch. Do not combine it with consumer cleanup or removal decisions.
+- Completed: Phases 0, 1, 1.5, 2, 3, 4 (4A–4E), 5A, and Phase 5B Batches 1–5.
+- Next: continue Phase 5B priority REWORK content in another small verified batch -- 40 comparisons remain in the REWORK list (all previously showing ~19-27 words before the Batch 5 word-count-calculation fix; re-check actual `potentiallyThin` status per item now that the metric is fixed before assuming which still need rework). Do not combine it with consumer cleanup or removal decisions.
 - Branch/workflow: `main`; use fast-forward pull, focused commits, normal push, never force-push.
 - Production domain: `https://netsecatlas.com`.
 - Legacy redirect domain: `technical-insights.com`.
@@ -30,6 +30,7 @@
 - Phase 5B Batch 2 reworks `effective-ai-prompting-guide` into evidence-led technical troubleshooting prompts while preserving the slug. The refreshed audit is 102 KEEP / 49 REWORK / 53 REMOVE. See `docs/content-audit/phase5b-batch2.md`.
 - Phase 5B Batch 3 reworks `how-large-language-models-work` into enterprise IT guidance on LLM trust boundaries, RAG validation, and safe operational use while preserving the slug. The refreshed audit is 103 KEEP / 48 REWORK / 53 REMOVE. See `docs/content-audit/phase5b-batch3.md`.
 - Phase 5B Batch 4 reworks `how-ai-image-generation-works` into enterprise guidance for data handling, rights review, synthetic impersonation response, and controlled publishing while preserving the slug. The refreshed audit is 104 KEEP / 47 REWORK / 53 REMOVE. See `docs/content-audit/phase5b-batch4.md`.
+- Phase 5B Batch 5 reworks `palo-alto-ngfw-vs-forcepoint-ngfw` (a comparison, not an article) with content grounded in cited sources (G2 verified user ratings, PeerSpot enterprise pricing review) rather than unsourced claims. While doing this, found and fixed a structural issue in `scripts/content-audit-phase3.mjs`'s `wordCount` calculation: it used `body ?? excerpt` for every content type, but comparisons have no `body` field by design, making `potentiallyThin` structurally true for every comparison on the site regardless of quality (confirmed: even the one comparison already classified KEEP had wordCount 23). Fixed for `source === 'comparison'` records to sum excerpt + verdict + all spec rows instead. The refreshed audit remains 104 KEEP / 47 REWORK / 53 REMOVE (`proposedDisposition` isn't driven by `potentiallyThin`), but the diagnostic signal is now meaningful for all 75 comparisons, not just this one. See `docs/content-audit/phase5b-batch5.md`.
 - The static SPA shell intentionally carries no canonical or `og:url`; `useSEO` creates the route-correct values after hydration. Full pre-rendered localized metadata would require SSR/static rendering and is not claimed by Phase 4B.
 
 ## Validation

@@ -109,7 +109,23 @@ function classify(item, source) {
     reason = 'General technology content with little network, security or infrastructure utility';
     confidence = 'medium';
   }
-  const wordCount = String(item.body?.en ?? item.excerpt?.en ?? '').trim().split(/\s+/).filter(Boolean).length;
+  let wordCount;
+  if (source === 'comparison') {
+    // Comparisons have no `body` field by design -- their real content
+    // lives across excerpt, verdict, and the labeled spec rows.
+    // Falling back to body-or-excerpt-only (like articles) made this
+    // structurally incapable of exceeding ~25 words for ANY comparison
+    // on the site, confirmed directly: even the one comparison already
+    // classified KEEP had wordCount 23, well under the 250 threshold
+    // that determines `potentiallyThin` -- the metric was measuring a
+    // field this content type doesn't have, not actual thinness.
+    const specText = Object.values(item.specs ?? {})
+      .map((spec) => [spec.label?.en, spec.device1Value?.en, spec.device2Value?.en].filter(Boolean).join(' '))
+      .join(' ');
+    wordCount = String([item.excerpt?.en, item.verdict?.en, specText].filter(Boolean).join(' ')).trim().split(/\s+/).filter(Boolean).length;
+  } else {
+    wordCount = String(item.body?.en ?? item.excerpt?.en ?? '').trim().split(/\s+/).filter(Boolean).length;
+  }
   return {
     id: item.id, slug: item.slug, titleAr: item.title?.ar ?? '', titleEn: item.title?.en ?? '', source,
     currentCategory: item.categoryId ?? null, inferredDomains: domains, inferredTopics: topics,

@@ -1,6 +1,6 @@
 # NetSec Atlas Phase 3 Content Audit
 
-Generated: 2026-08-19T09:14:03.842Z
+Generated: 2026-08-31T02:51:03.175Z
 
 > Repository-only deterministic audit. Counts are evidence from current content; no search-volume, CPC or keyword-difficulty values are invented.
 
@@ -17,7 +17,7 @@ Generated: 2026-08-19T09:14:03.842Z
 - REMOVE: 53 (26%)
 - NOINDEX: 0 (0%)
 - Consumer/unrelated: 53 (26%)
-- Potentially thin: 74
+- Potentially thin: 73
 - Duplicate/near-duplicate groups: 0
 
 ## Strategic fit
@@ -63,7 +63,7 @@ Generated: 2026-08-19T09:14:03.842Z
 | domainId | count | high | medium | low |
 | --- | --- | --- | --- | --- |
 | cybersecurity | 81 | 24 | 41 | 16 |
-| networking | 41 | 16 | 15 | 10 |
+| networking | 42 | 16 | 15 | 11 |
 | infrastructure | 50 | 18 | 17 | 15 |
 
 ## Troubleshooting

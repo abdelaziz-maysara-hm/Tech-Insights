@@ -2,6 +2,14 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 5B — Batch 5: Source-Grounded Firewall Comparison + Word-Count Metric Fix
+
+- Reworked `palo-alto-ngfw-vs-forcepoint-ngfw`'s excerpt and verdict with content grounded in cited sources (G2.com verified user ratings: Palo Alto NGFW 4.5/5 across 155 reviews vs. Forcepoint NGFW 4.4/5 across 35 reviews; PeerSpot's 2026 enterprise pricing/licensing comparison) rather than unsourced generic claims.
+- Updated the market-share/support spec row to state the actual cited review counts and ratings directly.
+- Found and fixed a structural bug in `content-audit-phase3.mjs`'s word-count calculation: it used `body ?? excerpt` for every content type, but comparisons have no `body` field by design, making every comparison on the site structurally register as thin (confirmed: even the one comparison already classified KEEP had wordCount 23). Fixed comparison-type word counts to sum excerpt + verdict + all spec rows instead -- a metric fix that benefits all 75 comparisons' diagnostic accuracy, not just this one.
+- Preserved the stable slug and kept independently written Arabic and English content at conservative technical/translation review states.
+- Improved the deterministic audit's diagnostic accuracy; disposition counts remain 104 KEEP / 47 REWORK / 53 REMOVE (`proposedDisposition` is driven by strategic fit, not the word-count metric alone). Confirmed all 40 remaining REWORK comparisons are still genuinely thin under the corrected metric, not just artifacts of the old bug.
+
 ## Phase 5B — Batch 4: Enterprise AI Image Controls
 
 - Reworked generic image-generation content into an enterprise security and publishing workflow.

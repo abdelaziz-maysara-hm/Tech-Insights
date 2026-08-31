@@ -482,8 +482,8 @@
       "en": "Palo Alto NGFW vs Forcepoint NGFW"
     },
     "excerpt": {
-      "ar": "Palo Alto أفضل لو أولويتك أكبر مجتمع دعم وموارد تدريب متاحة. Forcepoint خيار قوي لو DLP ومنع تسريب البيانات أولوية حقيقي",
-      "en": "Palo Alto is the safer choice if you prioritize the largest support community and training resources. Forcepoint is a strong pick if DLP and"
+      "ar": "Palo Alto NGFW وForcepoint NGFW جدار حماية من الجيل التالي (Next-Generation Firewall) موجّهان للمؤسسات، لكن بفلسفتين مختلفتين: Palo Alto مبني حول App-ID وUser-ID لفرض سياسات دقيقة على مستوى التطبيق، بينما Forcepoint بيركّز تاريخيًا على منع تسريب البيانات (DLP) المدمج كجزء أساسي من الجدار نفسه، مش إضافة منفصلة.",
+      "en": "Palo Alto NGFW and Forcepoint NGFW are both enterprise next-generation firewalls, but with different design philosophies: Palo Alto is built around App-ID and User-ID for granular application-level policy enforcement, while Forcepoint has historically focused on built-in data loss prevention (DLP) as a core part of the firewall itself, not a bolt-on add-on."
     },
     "device1Name": "Palo Alto NGFW",
     "device2Name": "Forcepoint NGFW",
@@ -501,12 +501,12 @@
           "en": "Market share & support community"
         },
         "device1Value": {
-          "ar": "أوسع بكثير، موارد ومهندسون متاحون أكتر",
-          "en": "Much wider, more available engineers and resources"
+          "ar": "أوسع بكثير -- 155 مراجعة موثقة على G2 بتقييم 4.5/5",
+          "en": "Much wider -- 155 verified reviews on G2 at a 4.5/5 rating"
         },
         "device2Value": {
-          "ar": "أضيق، سوق أكثر تخصصًا",
-          "en": "Narrower, more niche market"
+          "ar": "أضيق -- 35 مراجعة موثقة على G2 بتقييم 4.4/5",
+          "en": "Narrower -- 35 verified reviews on G2 at a 4.4/5 rating"
         },
         "device1Score": 9,
         "device2Score": 6,
@@ -565,8 +565,8 @@
       }
     },
     "verdict": {
-      "ar": "Palo Alto أفضل لو أولويتك أكبر مجتمع دعم وموارد تدريب متاحة. Forcepoint خيار قوي لو DLP ومنع تسريب البيانات أولوية حقيقية عندك، خصوصًا في القطاع الحكومي والمالي.",
-      "en": "Palo Alto is the safer choice if you prioritize the largest support community and training resources. Forcepoint is a strong pick if DLP and data-leak prevention are a real priority, especially in government and financial sectors."
+      "ar": "وفق مراجعات مستخدمين حقيقية على منصة G2 (بتاريخ 2026)، حصل Palo Alto NGFW على تقييم 4.5 من 5 (155 مراجعة) مقابل 4.4 من 5 لـForcepoint NGFW (35 مراجعة) — يعكس ده حجم قاعدة المستخدمين والدعم الأوسع لصالح Palo Alto. لكن هذا لا يعني أفضلية مطلقة: اختر Palo Alto لو أولويتك مجتمع دعم أكبر، تكامل واسع مع أدوات أمنية أخرى، وسياسات دقيقة على مستوى التطبيق. اختر Forcepoint لو منع تسريب البيانات (DLP) أولوية جوهرية عندك (خصوصًا في القطاعين الحكومي والمالي)، أو لو بتدوّر على نموذج ترخيص أبسط نسبيًا. كلا المنتجين مصنّف ضمن قادة السوق في تقييمات Gartner وG2 لجدران الحماية من الجيل التالي، والفارق الحقيقي بينهم عملي أكتر منه في الجودة العامة. من ناحية التسعير والترخيص، مراجعات مؤسسية مستقلة (PeerSpot، 2026) بتوصف Forcepoint بأنها أكثر فعالية من ناحية التكلفة مع خيارات أجهزة مرنة، رغم إن هيكل الترخيص بتاعها معقّد نسبيًا؛ بينما Palo Alto بتوصف بأنها أغلى مع رسوم ترخيص مرتفعة، لكن مبرَّرة للمؤسسات الكبيرة بفضل قيمتها الأمنية الأوسع. لا يوجد لدى أي من المنتجين تسعير معلَن حاليًا، لذا يُنصح بطلب عرض سعر مبني على معدل النقل الفعلي وحزمة الاشتراك المطلوبة قبل مقارنة التكلفة الإجمالية للملكية.",
+      "en": "According to real user reviews on G2 (as of 2026), Palo Alto NGFW holds a 4.5/5 rating (155 reviews) versus Forcepoint NGFW's 4.4/5 (35 reviews) -- reflecting Palo Alto's larger user base and broader support ecosystem. That doesn't mean one is universally better: choose Palo Alto if you prioritize a larger support community, broad integration with other security tooling, and granular application-level policy control. Choose Forcepoint if data loss prevention (DLP) is a core requirement (especially in government and financial sectors), or if you want a comparatively simpler licensing model. Both products are recognized as market leaders in Gartner and G2 next-generation firewall evaluations -- the real difference between them is practical fit, not overall quality. On pricing and licensing, independent enterprise reviews (PeerSpot, 2026) describe Forcepoint as generally more cost-effective with flexible hardware options, though its licensing structure is comparatively complex; Palo Alto is described as pricier with steep licensing fees, justified for large enterprises by its broader security value. Neither product currently publishes list pricing, so request a quote scoped to your actual throughput and subscription bundle before comparing total cost of ownership."
     }
   },
   {

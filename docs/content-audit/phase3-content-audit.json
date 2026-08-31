@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T09:14:03.842Z",
+  "generatedAt": "2026-08-31T02:51:03.175Z",
   "methodology": {
     "note": "Repository-only deterministic heuristics; no fabricated SEO metrics.",
     "dispositionDenominator": "Editorial items: articles plus comparisons",
@@ -94,7 +94,7 @@
     "vendorAssociated": 45,
     "troubleshooting": 29,
     "duplicateNearDuplicateGroups": 0,
-    "potentiallyThin": 74,
+    "potentiallyThin": 73,
     "reusableItems": 151,
     "reusablePercent": 74
   },
@@ -271,19 +271,19 @@
     },
     {
       "domainId": "networking",
-      "count": 41,
+      "count": 42,
       "high": 16,
       "medium": 15,
-      "low": 10,
+      "low": 11,
       "topics": {
-        "firewalls": 7,
+        "firewalls": 8,
         "vpn": 7,
         "endpoint-security": 2,
         "pki-certificates": 4,
         "dns": 3,
         "dhcp-ipam": 1,
         "routing-switching": 3,
-        "dlp": 2,
+        "dlp": 3,
         "cloud": 1,
         "linux": 1,
         "wireless": 6,
@@ -3762,7 +3762,7 @@
       "confidence": "high",
       "reason": "Consumer device or buying content outside the NetSec Atlas mission",
       "currentURL": "/comparison/iphone-16-vs-galaxy-s25",
-      "wordCount": 23,
+      "wordCount": 97,
       "lastUpdated": "2022-01-01",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -3784,7 +3784,7 @@
       "confidence": "high",
       "reason": "Consumer device or buying content outside the NetSec Atlas mission",
       "currentURL": "/comparison/pixel-9-vs-nothing-phone-3",
-      "wordCount": 25,
+      "wordCount": 90,
       "lastUpdated": "2022-03-08",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -3806,7 +3806,7 @@
       "confidence": "high",
       "reason": "Consumer device or buying content outside the NetSec Atlas mission",
       "currentURL": "/comparison/macbook-air-m3-vs-dell-xps-13",
-      "wordCount": 24,
+      "wordCount": 109,
       "lastUpdated": "2022-05-15",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -3828,7 +3828,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/thinkpad-x1-vs-hp-elitebook",
-      "wordCount": 21,
+      "wordCount": 103,
       "lastUpdated": "2022-07-22",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -3857,7 +3857,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/palo-alto-ngfw-vs-fortinet-fortigate",
-      "wordCount": 19,
+      "wordCount": 121,
       "lastUpdated": "2022-09-02",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -3870,7 +3870,8 @@
       "source": "comparison",
       "currentCategory": "comparisons",
       "inferredDomains": [
-        "cybersecurity"
+        "cybersecurity",
+        "networking"
       ],
       "inferredTopics": [
         "firewalls",
@@ -3887,10 +3888,10 @@
       "confidence": "high",
       "reason": "palo-alto, forcepoint professional technical content",
       "currentURL": "/comparison/palo-alto-ngfw-vs-forcepoint-ngfw",
-      "wordCount": 24,
+      "wordCount": 301,
       "lastUpdated": "2022-11-09",
       "technicalValue": "low",
-      "potentiallyThin": true
+      "potentiallyThin": false
     },
     {
       "id": "cmp-gen-0007",
@@ -3920,7 +3921,7 @@
       "confidence": "high",
       "reason": "fortinet, forcepoint professional technical content",
       "currentURL": "/comparison/fortinet-fortigate-vs-forcepoint-ngfw",
-      "wordCount": 22,
+      "wordCount": 91,
       "lastUpdated": "2022-12-16",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -3951,7 +3952,7 @@
       "confidence": "high",
       "reason": "palo-alto, cisco professional technical content",
       "currentURL": "/comparison/cisco-ftd-vs-palo-alto-ngfw",
-      "wordCount": 23,
+      "wordCount": 99,
       "lastUpdated": "2023-03-23",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -3980,7 +3981,7 @@
       "confidence": "high",
       "reason": "palo-alto professional technical content",
       "currentURL": "/comparison/palo-alto-ngfw-vs-check-point",
-      "wordCount": 23,
+      "wordCount": 90,
       "lastUpdated": "2023-05-03",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4012,7 +4013,7 @@
       "confidence": "high",
       "reason": "fortinet, sophos professional technical content",
       "currentURL": "/comparison/fortinet-fortigate-vs-sophos-firewall",
-      "wordCount": 25,
+      "wordCount": 99,
       "lastUpdated": "2023-07-10",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4038,7 +4039,7 @@
       "confidence": "high",
       "reason": "networking professional technical content",
       "currentURL": "/comparison/wireguard-vs-openvpn",
-      "wordCount": 23,
+      "wordCount": 113,
       "lastUpdated": "2023-09-17",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4064,7 +4065,7 @@
       "confidence": "high",
       "reason": "infrastructure professional technical content",
       "currentURL": "/comparison/windows-nps-vs-freeradius",
-      "wordCount": 22,
+      "wordCount": 111,
       "lastUpdated": "2023-10-24",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4092,7 +4093,7 @@
       "confidence": "high",
       "reason": "microsoft professional technical content",
       "currentURL": "/comparison/okta-vs-microsoft-entra-id",
-      "wordCount": 26,
+      "wordCount": 103,
       "lastUpdated": "2023-12-04",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4120,7 +4121,7 @@
       "confidence": "high",
       "reason": "microsoft professional technical content",
       "currentURL": "/comparison/crowdstrike-falcon-vs-microsoft-defender",
-      "wordCount": 23,
+      "wordCount": 104,
       "lastUpdated": "2024-03-11",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4146,7 +4147,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/crowdstrike-falcon-vs-sentinelone",
-      "wordCount": 20,
+      "wordCount": 89,
       "lastUpdated": "2024-05-18",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4172,7 +4173,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/microsoft-defender-vs-sentinelone",
-      "wordCount": 21,
+      "wordCount": 68,
       "lastUpdated": "2024-07-25",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4194,7 +4195,7 @@
       "confidence": "medium",
       "reason": "Generic AI material needs a professional IT/security angle",
       "currentURL": "/comparison/chatgpt-vs-claude",
-      "wordCount": 24,
+      "wordCount": 90,
       "lastUpdated": "2024-08-05",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4222,7 +4223,7 @@
       "confidence": "high",
       "reason": "microsoft professional technical content",
       "currentURL": "/comparison/aws-vs-azure",
-      "wordCount": 24,
+      "wordCount": 90,
       "lastUpdated": "2024-10-12",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4244,7 +4245,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/1password-vs-bitwarden",
-      "wordCount": 22,
+      "wordCount": 94,
       "lastUpdated": "2024-12-19",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4266,7 +4267,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/ps5-vs-xbox-series-x",
-      "wordCount": 26,
+      "wordCount": 80,
       "lastUpdated": "2025-03-26",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4288,7 +4289,7 @@
       "confidence": "high",
       "reason": "Consumer device or buying content outside the NetSec Atlas mission",
       "currentURL": "/comparison/apple-watch-10-vs-galaxy-watch-7",
-      "wordCount": 23,
+      "wordCount": 69,
       "lastUpdated": "2025-05-06",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4316,7 +4317,7 @@
       "confidence": "high",
       "reason": "kaspersky professional technical content",
       "currentURL": "/comparison/kaspersky-endpoint-security-vs-bitdefender-gravityzone",
-      "wordCount": 20,
+      "wordCount": 92,
       "lastUpdated": "2025-07-13",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4338,7 +4339,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/windows-rds-vs-citrix-virtual-apps",
-      "wordCount": 22,
+      "wordCount": 103,
       "lastUpdated": "2025-08-20",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4364,7 +4365,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/group-policy-vs-microsoft-intune",
-      "wordCount": 21,
+      "wordCount": 98,
       "lastUpdated": "2025-10-27",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4390,7 +4391,7 @@
       "confidence": "high",
       "reason": "infrastructure professional technical content",
       "currentURL": "/comparison/veeam-backup-replication-vs-acronis-cyber-protect",
-      "wordCount": 20,
+      "wordCount": 97,
       "lastUpdated": "2025-12-07",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4416,7 +4417,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/splunk-vs-wazuh",
-      "wordCount": 24,
+      "wordCount": 111,
       "lastUpdated": "2026-03-14",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4444,7 +4445,7 @@
       "confidence": "high",
       "reason": "forcepoint professional technical content",
       "currentURL": "/comparison/forcepoint-email-security-vs-proofpoint-email-protection",
-      "wordCount": 21,
+      "wordCount": 91,
       "lastUpdated": "2026-05-21",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4474,7 +4475,7 @@
       "confidence": "high",
       "reason": "vmware professional technical content",
       "currentURL": "/comparison/vmware-vsphere-vs-proxmox-ve",
-      "wordCount": 22,
+      "wordCount": 100,
       "lastUpdated": "2025-09-01",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4496,7 +4497,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/pfsense-vs-opnsense",
-      "wordCount": 23,
+      "wordCount": 96,
       "lastUpdated": "2025-10-08",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4518,7 +4519,7 @@
       "confidence": "medium",
       "reason": " professional technical content",
       "currentURL": "/comparison/zabbix-vs-nagios",
-      "wordCount": 26,
+      "wordCount": 97,
       "lastUpdated": "2025-12-15",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4542,7 +4543,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/ubiquiti-unifi-vs-cisco-meraki",
-      "wordCount": 18,
+      "wordCount": 95,
       "lastUpdated": "2026-02-22",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4569,7 +4570,7 @@
       "confidence": "high",
       "reason": "networking, infrastructure professional technical content",
       "currentURL": "/comparison/ansible-vs-powershell-dsc",
-      "wordCount": 23,
+      "wordCount": 91,
       "lastUpdated": "2026-03-02",
       "technicalValue": "medium",
       "potentiallyThin": false
@@ -4595,7 +4596,7 @@
       "confidence": "high",
       "reason": "infrastructure professional technical content",
       "currentURL": "/comparison/cloudflare-vs-akamai",
-      "wordCount": 20,
+      "wordCount": 117,
       "lastUpdated": "2026-05-09",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4621,7 +4622,7 @@
       "confidence": "high",
       "reason": "microsoft professional technical content",
       "currentURL": "/comparison/duo-security-vs-microsoft-authenticator",
-      "wordCount": 24,
+      "wordCount": 94,
       "lastUpdated": "2025-10-16",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4643,7 +4644,7 @@
       "confidence": "medium",
       "reason": " professional technical content",
       "currentURL": "/comparison/terraform-vs-ansible",
-      "wordCount": 19,
+      "wordCount": 89,
       "lastUpdated": "2025-12-23",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4669,7 +4670,7 @@
       "confidence": "high",
       "reason": "infrastructure professional technical content",
       "currentURL": "/comparison/datto-vs-veeam",
-      "wordCount": 24,
+      "wordCount": 107,
       "lastUpdated": "2026-01-03",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4691,7 +4692,7 @@
       "confidence": "medium",
       "reason": " professional technical content",
       "currentURL": "/comparison/qualys-vs-nessus",
-      "wordCount": 20,
+      "wordCount": 92,
       "lastUpdated": "2026-02-10",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4719,7 +4720,7 @@
       "confidence": "high",
       "reason": "microsoft professional technical content",
       "currentURL": "/comparison/google-workspace-vs-microsoft-365",
-      "wordCount": 21,
+      "wordCount": 111,
       "lastUpdated": "2026-04-17",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4745,7 +4746,7 @@
       "confidence": "high",
       "reason": "networking professional technical content",
       "currentURL": "/comparison/tailscale-vs-traditional-site-to-site-vpn",
-      "wordCount": 21,
+      "wordCount": 95,
       "lastUpdated": "2026-05-24",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4767,7 +4768,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/bitwarden-business-vs-keeper",
-      "wordCount": 18,
+      "wordCount": 82,
       "lastUpdated": "2025-11-04",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4797,7 +4798,7 @@
       "confidence": "high",
       "reason": "rapid7 professional technical content",
       "currentURL": "/comparison/rapid7-insightvm-vs-tenable-io",
-      "wordCount": 19,
+      "wordCount": 95,
       "lastUpdated": "2025-12-11",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4819,7 +4820,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/postman-vs-insomnia",
-      "wordCount": 22,
+      "wordCount": 94,
       "lastUpdated": "2026-02-18",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4841,7 +4842,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/github-actions-vs-jenkins",
-      "wordCount": 21,
+      "wordCount": 100,
       "lastUpdated": "2026-03-25",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4863,7 +4864,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/grafana-vs-kibana",
-      "wordCount": 22,
+      "wordCount": 103,
       "lastUpdated": "2026-04-05",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4885,7 +4886,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/anydesk-vs-teamviewer",
-      "wordCount": 21,
+      "wordCount": 97,
       "lastUpdated": "2026-05-12",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4909,7 +4910,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/bitlocker-vs-veracrypt",
-      "wordCount": 19,
+      "wordCount": 80,
       "lastUpdated": "2025-12-19",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4931,7 +4932,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/burp-suite-vs-owasp-zap",
-      "wordCount": 21,
+      "wordCount": 99,
       "lastUpdated": "2026-01-26",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4953,7 +4954,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/snort-vs-suricata",
-      "wordCount": 21,
+      "wordCount": 94,
       "lastUpdated": "2026-02-06",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4975,7 +4976,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/gitlab-vs-github",
-      "wordCount": 23,
+      "wordCount": 101,
       "lastUpdated": "2026-03-13",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -4999,7 +5000,7 @@
       "confidence": "medium",
       "reason": "cybersecurity professional technical content",
       "currentURL": "/comparison/docker-vs-podman",
-      "wordCount": 20,
+      "wordCount": 104,
       "lastUpdated": "2026-04-20",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5029,7 +5030,7 @@
       "confidence": "high",
       "reason": "cisco professional technical content",
       "currentURL": "/comparison/cisco-ise-vs-aruba-clearpass",
-      "wordCount": 22,
+      "wordCount": 99,
       "lastUpdated": "2026-05-27",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5055,7 +5056,7 @@
       "confidence": "high",
       "reason": "cybersecurity professional technical content",
       "currentURL": "/comparison/sysmon-vs-windows-default-auditing",
-      "wordCount": 27,
+      "wordCount": 109,
       "lastUpdated": "2026-01-07",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5077,7 +5078,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/have-i-been-pwned-vs-enterprise-breach-monitoring-services",
-      "wordCount": 24,
+      "wordCount": 113,
       "lastUpdated": "2026-02-14",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5103,7 +5104,7 @@
       "confidence": "high",
       "reason": "infrastructure professional technical content",
       "currentURL": "/comparison/nextcloud-vs-owncloud",
-      "wordCount": 21,
+      "wordCount": 94,
       "lastUpdated": "2026-03-21",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5125,7 +5126,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/prometheus-vs-datadog",
-      "wordCount": 24,
+      "wordCount": 107,
       "lastUpdated": "2026-04-01",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5147,7 +5148,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/metasploit-vs-manual-exploitation",
-      "wordCount": 20,
+      "wordCount": 114,
       "lastUpdated": "2026-05-08",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5175,7 +5176,7 @@
       "confidence": "high",
       "reason": "microsoft professional technical content",
       "currentURL": "/comparison/microsoft-purview-vs-traditional-dlp-tools",
-      "wordCount": 22,
+      "wordCount": 109,
       "lastUpdated": "2026-06-15",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5199,7 +5200,7 @@
       "confidence": "medium",
       "reason": "cybersecurity professional technical content",
       "currentURL": "/comparison/yubikey-vs-authenticator-app",
-      "wordCount": 21,
+      "wordCount": 96,
       "lastUpdated": "2026-01-22",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5225,7 +5226,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/palo-alto-prisma-access-vs-zscaler",
-      "wordCount": 22,
+      "wordCount": 119,
       "lastUpdated": "2026-02-02",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5251,7 +5252,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/elastic-stack-elk-vs-splunk",
-      "wordCount": 23,
+      "wordCount": 115,
       "lastUpdated": "2026-03-09",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5277,7 +5278,7 @@
       "confidence": "high",
       "reason": "infrastructure professional technical content",
       "currentURL": "/comparison/rclone-vs-rsync",
-      "wordCount": 23,
+      "wordCount": 117,
       "lastUpdated": "2026-04-16",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5307,7 +5308,7 @@
       "confidence": "high",
       "reason": "palo-alto professional technical content",
       "currentURL": "/comparison/netskope-vs-palo-alto-prisma-saas",
-      "wordCount": 23,
+      "wordCount": 112,
       "lastUpdated": "2026-05-23",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5333,7 +5334,7 @@
       "confidence": "high",
       "reason": "microsoft professional technical content",
       "currentURL": "/comparison/wsus-vs-microsoft-intune",
-      "wordCount": 24,
+      "wordCount": 109,
       "lastUpdated": "2026-06-03",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5357,7 +5358,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/microsoft-laps-vs-manual-password-management",
-      "wordCount": 24,
+      "wordCount": 103,
       "lastUpdated": "2026-02-10",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5379,7 +5380,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/wazuh-vs-ossec",
-      "wordCount": 23,
+      "wordCount": 117,
       "lastUpdated": "2026-03-17",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5406,7 +5407,7 @@
       "confidence": "high",
       "reason": "cybersecurity, networking professional technical content",
       "currentURL": "/comparison/twingate-vs-traditional-vpn-client",
-      "wordCount": 23,
+      "wordCount": 120,
       "lastUpdated": "2026-03-24",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5430,7 +5431,7 @@
       "confidence": "medium",
       "reason": "networking professional technical content",
       "currentURL": "/comparison/solarwinds-npm-vs-prtg-network-monitor",
-      "wordCount": 23,
+      "wordCount": 98,
       "lastUpdated": "2026-04-04",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5452,7 +5453,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/burp-suite-vs-nikto",
-      "wordCount": 24,
+      "wordCount": 100,
       "lastUpdated": "2026-05-11",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5476,7 +5477,7 @@
       "confidence": "medium",
       "reason": "networking professional technical content",
       "currentURL": "/comparison/wireshark-vs-tcpdump",
-      "wordCount": 23,
+      "wordCount": 112,
       "lastUpdated": "2026-06-18",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5503,7 +5504,7 @@
       "confidence": "high",
       "reason": "infrastructure professional technical content",
       "currentURL": "/comparison/okta-vs-jumpcloud",
-      "wordCount": 21,
+      "wordCount": 112,
       "lastUpdated": "2026-02-25",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5534,7 +5535,7 @@
       "confidence": "high",
       "reason": "microsoft professional technical content",
       "currentURL": "/comparison/crowdstrike-falcon-vs-microsoft-sentinel",
-      "wordCount": 20,
+      "wordCount": 101,
       "lastUpdated": "2026-03-05",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5562,7 +5563,7 @@
       "confidence": "high",
       "reason": "microsoft professional technical content",
       "currentURL": "/comparison/aws-guardduty-vs-microsoft-defender-for-cloud",
-      "wordCount": 23,
+      "wordCount": 101,
       "lastUpdated": "2026-04-12",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5588,7 +5589,7 @@
       "confidence": "high",
       "reason": "infrastructure professional technical content",
       "currentURL": "/comparison/hashicorp-vault-vs-aws-secrets-manager",
-      "wordCount": 24,
+      "wordCount": 113,
       "lastUpdated": "2026-04-19",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5612,7 +5613,7 @@
       "confidence": "medium",
       "reason": "cybersecurity professional technical content",
       "currentURL": "/comparison/datadog-vs-new-relic",
-      "wordCount": 22,
+      "wordCount": 110,
       "lastUpdated": "2026-05-26",
       "technicalValue": "low",
       "potentiallyThin": true
@@ -5634,7 +5635,7 @@
       "confidence": "medium",
       "reason": "General technology content with little network, security or infrastructure utility",
       "currentURL": "/comparison/auth0-vs-firebase-authentication",
-      "wordCount": 20,
+      "wordCount": 120,
       "lastUpdated": "2026-06-06",
       "technicalValue": "low",
       "potentiallyThin": true

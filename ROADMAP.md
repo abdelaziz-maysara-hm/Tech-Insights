@@ -61,7 +61,7 @@ Validated baseline on `main` after Phase 3 commit `4524d8f548cc5ed3e20b038ba3aac
 ### Phase 5 — Content Migration & Cleanup
 
 - **5A — COMPLETE:** explicit audit-derived taxonomy metadata for all 100 KEEP records, synchronized between full and lightweight article sources, without claiming technical or translation review.
-- **5B — IN PROGRESS:** priority REWORK content; Batches 1–4 converted four generic AI articles into professional safe-training, troubleshooting, LLM trust, and synthetic-media governance guidance while preserving stable URLs. Current audit: 104 KEEP / 47 REWORK / 53 REMOVE.
+- **5B — IN PROGRESS:** priority REWORK content; Batches 1–4 converted four generic AI articles into professional safe-training, troubleshooting, LLM trust, and synthetic-media governance guidance while preserving stable URLs. Batch 5 reworked a comparison (`palo-alto-ngfw-vs-forcepoint-ngfw`) with source-grounded content, and fixed a structural word-count-calculation bug affecting all 75 comparisons (comparisons have no `body` field, so the old metric was structurally incapable of registering any comparison as non-thin). Current audit: 104 KEEP / 47 REWORK / 53 REMOVE; 40 comparisons remain in REWORK, confirmed still genuinely thin under the corrected metric.
 - **5C:** owner-approved consumer cleanup/NOINDEX decisions.
 - **5D:** redirect mapping before removal.
 - **5E:** content, links, sitemap, and SEO validation.
