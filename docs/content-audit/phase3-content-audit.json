@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T04:57:36.564Z",
+  "generatedAt": "2026-08-31T05:02:53.057Z",
   "methodology": {
     "note": "Repository-only deterministic heuristics; no fabricated SEO metrics.",
     "dispositionDenominator": "Editorial items: articles plus comparisons",
@@ -70,21 +70,21 @@
   },
   "statistics": {
     "disposition": {
-      "KEEP": 104,
-      "REMOVE": 53,
-      "REWORK": 47
+      "KEEP": 109,
+      "REMOVE": 47,
+      "REWORK": 48
     },
     "dispositionPercent": {
-      "KEEP": 51,
-      "REMOVE": 26,
-      "REWORK": 23
+      "KEEP": 53.4,
+      "REMOVE": 23,
+      "REWORK": 23.5
     },
     "strategicFit": {
       "consumer": 9,
-      "enterprise": 69,
+      "enterprise": 70,
       "mixed": 7,
-      "professional-it": 75,
-      "unrelated": 44
+      "professional-it": 80,
+      "unrelated": 38
     },
     "technicalValue": {
       "high": 50,
@@ -94,18 +94,18 @@
     "vendorAssociated": 45,
     "troubleshooting": 29,
     "duplicateNearDuplicateGroups": 0,
-    "potentiallyThin": 72,
-    "reusableItems": 151,
-    "reusablePercent": 74
+    "potentiallyThin": 71,
+    "reusableItems": 157,
+    "reusablePercent": 77
   },
   "consumerLegacy": {
     "smartphonesMobile": 7,
     "laptopsHardware": 6,
     "genericAi": 5,
     "consumerApps": 0,
-    "generalTechnology": 44,
-    "consumerOrUnrelated": 53,
-    "percentage": 26
+    "generalTechnology": 38,
+    "consumerOrUnrelated": 47,
+    "percentage": 23
   },
   "vendorCoverage": [
     {
@@ -292,10 +292,10 @@
     },
     {
       "domainId": "infrastructure",
-      "count": 51,
+      "count": 50,
       "high": 18,
       "medium": 17,
-      "low": 16,
+      "low": 15,
       "topics": {
         "firewalls": 2,
         "vpn": 1,
@@ -308,7 +308,7 @@
         "dlp": 4,
         "vmware-virtualization": 2,
         "backup-recovery": 8,
-        "cloud": 19,
+        "cloud": 18,
         "linux": 4,
         "windows-server": 2,
         "nac": 1
@@ -348,9 +348,9 @@
   },
   "comparisonAnalysis": {
     "total": 75,
-    "enterpriseProfessional": 41,
-    "reworkable": 41,
-    "consumerUnrelated": 33
+    "enterpriseProfessional": 42,
+    "reworkable": 42,
+    "consumerUnrelated": 32
   },
   "duplicateGroups": [],
   "gaps": [
@@ -484,10 +484,10 @@
       "inferredVendors": [],
       "inferredProducts": [],
       "inferredContentType": "guide",
-      "strategicFit": "unrelated",
-      "proposedDisposition": "REMOVE",
+      "strategicFit": "professional-it",
+      "proposedDisposition": "KEEP",
       "confidence": "medium",
-      "reason": "General technology content with little network, security or infrastructure utility",
+      "reason": " professional technical content",
       "currentURL": "/article/2fa-practical-guide",
       "wordCount": 555,
       "lastUpdated": "2022-01-01",
@@ -624,10 +624,10 @@
       "inferredVendors": [],
       "inferredProducts": [],
       "inferredContentType": "guide",
-      "strategicFit": "unrelated",
-      "proposedDisposition": "REMOVE",
+      "strategicFit": "enterprise",
+      "proposedDisposition": "KEEP",
       "confidence": "medium",
-      "reason": "General technology content with little network, security or infrastructure utility",
+      "reason": " professional technical content",
       "currentURL": "/article/password-manager-start",
       "wordCount": 400,
       "lastUpdated": "2023-02-09",
@@ -1376,10 +1376,10 @@
       "inferredVendors": [],
       "inferredProducts": [],
       "inferredContentType": "guide",
-      "strategicFit": "unrelated",
-      "proposedDisposition": "REMOVE",
+      "strategicFit": "professional-it",
+      "proposedDisposition": "KEEP",
       "confidence": "medium",
-      "reason": "General technology content with little network, security or infrastructure utility",
+      "reason": " professional technical content",
       "currentURL": "/article/least-privilege-principle-practical",
       "wordCount": 415,
       "lastUpdated": "2026-03-23",
@@ -1602,10 +1602,10 @@
       "inferredVendors": [],
       "inferredProducts": [],
       "inferredContentType": "guide",
-      "strategicFit": "unrelated",
-      "proposedDisposition": "REMOVE",
+      "strategicFit": "professional-it",
+      "proposedDisposition": "KEEP",
       "confidence": "medium",
-      "reason": "General technology content with little network, security or infrastructure utility",
+      "reason": " professional technical content",
       "currentURL": "/article/nist-password-guidelines-vs-old-rules",
       "wordCount": 413,
       "lastUpdated": "2025-12-05",
@@ -3003,10 +3003,10 @@
       "inferredVendors": [],
       "inferredProducts": [],
       "inferredContentType": "guide",
-      "strategicFit": "unrelated",
-      "proposedDisposition": "REMOVE",
+      "strategicFit": "professional-it",
+      "proposedDisposition": "KEEP",
       "confidence": "medium",
-      "reason": "General technology content with little network, security or infrastructure utility",
+      "reason": " professional technical content",
       "currentURL": "/article/authentication-vs-authorization-explained",
       "wordCount": 448,
       "lastUpdated": "2026-06-12",
@@ -4080,12 +4080,8 @@
       "titleEn": "Okta vs Microsoft Entra ID",
       "source": "comparison",
       "currentCategory": "comparisons",
-      "inferredDomains": [
-        "infrastructure"
-      ],
-      "inferredTopics": [
-        "cloud"
-      ],
+      "inferredDomains": [],
+      "inferredTopics": [],
       "inferredVendors": [
         "microsoft"
       ],
@@ -4093,13 +4089,13 @@
       "inferredContentType": "comparison",
       "strategicFit": "enterprise",
       "proposedDisposition": "REWORK",
-      "confidence": "high",
+      "confidence": "medium",
       "reason": "microsoft professional technical content",
       "currentURL": "/comparison/okta-vs-microsoft-entra-id",
-      "wordCount": 103,
+      "wordCount": 274,
       "lastUpdated": "2023-12-04",
       "technicalValue": "low",
-      "potentiallyThin": true
+      "potentiallyThin": false
     },
     {
       "id": "cmp-gen-0014",
@@ -5633,10 +5629,10 @@
       "inferredVendors": [],
       "inferredProducts": [],
       "inferredContentType": "comparison",
-      "strategicFit": "unrelated",
-      "proposedDisposition": "REMOVE",
+      "strategicFit": "professional-it",
+      "proposedDisposition": "REWORK",
       "confidence": "medium",
-      "reason": "General technology content with little network, security or infrastructure utility",
+      "reason": " professional technical content",
       "currentURL": "/comparison/auth0-vs-firebase-authentication",
       "wordCount": 120,
       "lastUpdated": "2026-06-06",
@@ -5704,6 +5700,21 @@
       "reason": "fortinet professional technical content",
       "intent": "Build practical professional understanding",
       "currentURL": "/article/fortigate-ssl-vpn-checklist"
+    },
+    {
+      "priority": "high",
+      "action": "KEEP",
+      "titleAr": "مديرو كلمات المرور: لماذا تحتاجه وكيف تبدأ",
+      "titleEn": "Password Managers: Why You Need One and How to Start",
+      "language": "ar+en",
+      "contentType": "guide",
+      "domain": null,
+      "topic": "iam-pam",
+      "vendor": null,
+      "product": null,
+      "reason": " professional technical content",
+      "intent": "Build practical professional understanding",
+      "currentURL": "/article/password-manager-start"
     },
     {
       "priority": "high",
@@ -6006,7 +6017,7 @@
       "currentURL": "/article/cross-site-scripting-xss-basics"
     },
     {
-      "priority": "high",
+      "priority": "medium",
       "action": "KEEP",
       "titleAr": "Windows Server Core مقابل Desktop Experience: الدليل الكامل",
       "titleEn": "Windows Server Core vs Desktop Experience: Which Should You Choose?",
@@ -6323,6 +6334,21 @@
     {
       "priority": "medium",
       "action": "KEEP",
+      "titleAr": "المصادقة الثنائية (2FA): دليل عملي لحماية حساباتك",
+      "titleEn": "Two-Factor Authentication (2FA): A Practical Complete Guide",
+      "language": "ar+en",
+      "contentType": "guide",
+      "domain": null,
+      "topic": null,
+      "vendor": null,
+      "product": null,
+      "reason": " professional technical content",
+      "intent": "Build practical professional understanding",
+      "currentURL": "/article/2fa-practical-guide"
+    },
+    {
+      "priority": "medium",
+      "action": "KEEP",
       "titleAr": "VPN للمبتدئين: ماذا يفعل وماذا لا يفعل؟",
       "titleEn": "VPN Basics: What It Does and Doesn't Do",
       "language": "ar+en",
@@ -6516,7 +6542,7 @@
       "currentURL": "/article/wifi-6-vs-wifi-5-practical"
     },
     {
-      "priority": "medium",
+      "priority": "low",
       "action": "KEEP",
       "titleAr": "مراقبة الدارك ويب لبيانات شركتك: الدليل الكامل لتحديد إذا كنت محتاجها",
       "titleEn": "Dark Web Monitoring for Your Company's Data: The Complete Guide to Deciding If You Need It",
@@ -6531,7 +6557,7 @@
       "currentURL": "/article/dark-web-monitoring-basics"
     },
     {
-      "priority": "medium",
+      "priority": "low",
       "action": "KEEP",
       "titleAr": "SSD مقابل HDD في تخزين السيرفرات: الدليل الكامل",
       "titleEn": "SSD vs HDD for Server Storage: It's Not Just About Speed",
@@ -6544,6 +6570,21 @@
       "reason": "infrastructure professional technical content",
       "intent": "Build practical professional understanding",
       "currentURL": "/article/ssd-vs-hdd-server-storage"
+    },
+    {
+      "priority": "low",
+      "action": "KEEP",
+      "titleAr": "مبدأ أقل الصلاحيات (Least Privilege): الدليل الكامل للتطبيق بدون فوضى",
+      "titleEn": "The Least Privilege Principle: The Complete Guide to a Rollout Without Chaos",
+      "language": "ar+en",
+      "contentType": "guide",
+      "domain": null,
+      "topic": "iam-pam",
+      "vendor": null,
+      "product": null,
+      "reason": " professional technical content",
+      "intent": "Build practical professional understanding",
+      "currentURL": "/article/least-privilege-principle-practical"
     },
     {
       "priority": "low",
@@ -6604,6 +6645,21 @@
       "reason": "cybersecurity professional technical content",
       "intent": "Build practical professional understanding",
       "currentURL": "/article/shadow-it-risk-management"
+    },
+    {
+      "priority": "low",
+      "action": "KEEP",
+      "titleAr": "إرشادات NIST لكلمات المرور: الدليل الكامل لليه التعقيد ما بقاش الحل",
+      "titleEn": "NIST Password Guidelines: The Complete Guide to Why Complexity Rules Stopped Being the Answer",
+      "language": "ar+en",
+      "contentType": "guide",
+      "domain": null,
+      "topic": "iam-pam",
+      "vendor": null,
+      "product": null,
+      "reason": " professional technical content",
+      "intent": "Build practical professional understanding",
+      "currentURL": "/article/nist-password-guidelines-vs-old-rules"
     },
     {
       "priority": "low",
@@ -6861,66 +6917,6 @@
       "currentURL": "/article/azure-cosmos-db-cosmosescape-flaw"
     },
     {
-      "priority": "low",
-      "action": "KEEP",
-      "titleAr": "حملة رش كلمات مرور ضخمة تستهدف Azure CLI",
-      "titleEn": "Massive Password Spray Campaign Targeting Azure CLI",
-      "language": "ar+en",
-      "contentType": "concept",
-      "domain": "infrastructure",
-      "topic": "iam-pam",
-      "vendor": "microsoft",
-      "product": null,
-      "reason": "microsoft professional technical content",
-      "intent": "Build practical professional understanding",
-      "currentURL": "/article/azure-cli-password-spray-campaign"
-    },
-    {
-      "priority": "low",
-      "action": "KEEP",
-      "titleAr": "Ruby on Rails تُصلح ثغرة حرجة تسمح بتنفيذ كود عن بُعد",
-      "titleEn": "Ruby on Rails Patches a Critical Remote Code Execution Vulnerability",
-      "language": "ar+en",
-      "contentType": "concept",
-      "domain": "cybersecurity",
-      "topic": "vulnerability-management",
-      "vendor": null,
-      "product": null,
-      "reason": "cybersecurity professional technical content",
-      "intent": "Build practical professional understanding",
-      "currentURL": "/article/ruby-on-rails-critical-rce-patch"
-    },
-    {
-      "priority": "low",
-      "action": "KEEP",
-      "titleAr": "قياس فعالية تدريب الوعي الأمني: الدليل الكامل لأرقام غير نسبة النقر",
-      "titleEn": "Measuring Security Awareness Training: The Complete Guide Beyond Click Rate",
-      "language": "ar+en",
-      "contentType": "guide",
-      "domain": "cybersecurity",
-      "topic": null,
-      "vendor": null,
-      "product": null,
-      "reason": "cybersecurity professional technical content",
-      "intent": "Build practical professional understanding",
-      "currentURL": "/article/security-awareness-training-metrics"
-    },
-    {
-      "priority": "low",
-      "action": "KEEP",
-      "titleAr": "الشبكات المعزولة فيزيائيًا (Air-Gapped): متى تحتاجها فعلًا",
-      "titleEn": "Air-Gapped Networks: When You Actually Need One",
-      "language": "ar+en",
-      "contentType": "guide",
-      "domain": "cybersecurity",
-      "topic": null,
-      "vendor": null,
-      "product": null,
-      "reason": "cybersecurity, networking professional technical content",
-      "intent": "Build practical professional understanding",
-      "currentURL": "/article/air-gapped-networks-explained"
-    },
-    {
       "priority": "high",
       "action": "NEW",
       "titleAr": "دليل عملي: vmware",
@@ -7147,7 +7143,7 @@
     }
   ],
   "strategicAnswer": {
-    "contentReusePercentage": 74,
+    "contentReusePercentage": 77,
     "architectureCodeReuse": "High: the bilingual model, lazy article body loading, taxonomy, routes, generators, sitemap and RSS are reusable.",
     "strongestAssets": [
       "Security and infrastructure article base",

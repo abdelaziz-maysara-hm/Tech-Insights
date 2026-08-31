@@ -40,7 +40,14 @@ const productTerms = {
   'vcenter-vsphere': ['vcenter', 'vsphere'], ksc: ['kaspersky security center'], 'forcepoint-dlp': ['forcepoint dlp'],
   'bigip-ltm': ['big-ip ltm'], 'password-safe': ['beyondtrust password safe'], insightvm: ['insightvm'],
 };
-const professional = /firewall|vpn|dns|dhcp|network|security|endpoint|siem|soc|iam|pam|dlp|server|active directory|linux|vmware|esxi|backup|certificate|pki|azure|aws|cloud|ransomware|vulnerability|cve|incident|routing|switching|vlan|sysadmin|infrastructure|zero trust|802\.1x/i;
+// Added identity/access-management terms (identity, sso, mfa, authentication,
+// access management) after discovering the professional regex had zero IAM
+// domain coverage -- not even "identity" itself -- causing an accurate,
+// well-sourced okta-vs-microsoft-entra-id comparison to misclassify as
+// 'unrelated' and flip to REMOVE purely because its content used full IAM
+// terminology ("Access Management", "identity") rather than the bare "iam"
+// abbreviation the regex was looking for.
+const professional = /firewall|vpn|dns|dhcp|network|security|endpoint|siem|soc|iam|pam|dlp|server|active directory|linux|vmware|esxi|backup|certificate|pki|azure|aws|cloud|ransomware|vulnerability|cve|incident|routing|switching|vlan|sysadmin|infrastructure|zero trust|802\.1x|identity|single sign-on|\bsso\b|\bmfa\b|authentication|access management/i;
 const consumer = /iphone|galaxy s|pixel phone|smartphone|mobile data|battery longevity|laptop for|macbook air|dell xps|phone|android|ios|airpods|consumer app/i;
 const genericAi = /large language model|ai image|prompting|chatgpt/i;
 const commands = /```|powershell|cmd\b|bash\b|\bnetsh\b|\bnmap\b|\bnslookup\b|\bping\b|\btracert\b|configuration|error code|verify|diagnos|step-by-step|step by step/i;

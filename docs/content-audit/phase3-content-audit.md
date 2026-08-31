@@ -1,23 +1,23 @@
 # NetSec Atlas Phase 3 Content Audit
 
-Generated: 2026-08-31T04:57:36.564Z
+Generated: 2026-08-31T05:02:53.057Z
 
 > Repository-only deterministic audit. Counts are evidence from current content; no search-volume, CPC or keyword-difficulty values are invented.
 
 ## Executive answer
 
-**74% of the editorial inventory is reusable (KEEP + REWORK).** The pivot remains worth pursuing because the code architecture is strongly reusable and the professional corpus is substantial, while consumer legacy can be isolated later without destructive Phase 3 changes.
+**77% of the editorial inventory is reusable (KEEP + REWORK).** The pivot remains worth pursuing because the code architecture is strongly reusable and the professional corpus is substantial, while consumer legacy can be isolated later without destructive Phase 3 changes.
 
 ## Inventory and disposition
 
 - Total inventoried: 213 (129 articles, 75 comparisons, 9 static pages)
 - Editorial disposition denominator: 204
-- KEEP: 104 (51%)
-- REWORK: 47 (23%)
-- REMOVE: 53 (26%)
+- KEEP: 109 (53.4%)
+- REWORK: 48 (23.5%)
+- REMOVE: 47 (23%)
 - NOINDEX: 0 (0%)
-- Consumer/unrelated: 53 (26%)
-- Potentially thin: 72
+- Consumer/unrelated: 47 (23%)
+- Potentially thin: 71
 - Duplicate/near-duplicate groups: 0
 
 ## Strategic fit
@@ -25,10 +25,10 @@ Generated: 2026-08-31T04:57:36.564Z
 | name | count |
 | --- | --- |
 | consumer | 9 |
-| enterprise | 69 |
+| enterprise | 70 |
 | mixed | 7 |
-| professional-it | 75 |
-| unrelated | 44 |
+| professional-it | 80 |
+| unrelated | 38 |
 
 ## Technical value
 
@@ -64,7 +64,7 @@ Generated: 2026-08-31T04:57:36.564Z
 | --- | --- | --- | --- | --- |
 | cybersecurity | 81 | 24 | 41 | 16 |
 | networking | 42 | 16 | 15 | 11 |
-| infrastructure | 51 | 18 | 17 | 16 |
+| infrastructure | 50 | 18 | 17 | 15 |
 
 ## Troubleshooting
 
@@ -72,7 +72,7 @@ Generated: 2026-08-31T04:57:36.564Z
 
 ## Comparisons
 
-75 comparisons: 41 enterprise/professional, 41 reworkable, 33 consumer/unrelated.
+75 comparisons: 42 enterprise/professional, 42 reworkable, 32 consumer/unrelated.
 
 ## Major gaps
 

@@ -1079,8 +1079,8 @@
       "en": "Okta vs Microsoft Entra ID"
     },
     "excerpt": {
-      "ar": "Okta أفضل لو بيئتك متنوعة (multi-cloud) ومش معتمدة على Microsoft بشكل أساسي. Entra ID منطقي جدًا وأرخص لو أصلًا مشترك في",
-      "en": "Okta is the better fit for a diverse, multi-cloud environment not centered on Microsoft. Entra ID makes strong sense — and is cheaper — if y"
+      "ar": "Okta وMicrosoft Entra ID كلاهما \"قائد\" (Leader) في تقييم Gartner Magic Quadrant لإدارة الوصول لعدة سنوات متتالية -- ليس اختيارًا بين منتج قوي وضعيف، بل بين فلسفتين مختلفتين: Okta محايدة تجاه المنصات بكتالوج تكامل يتجاوز 18,000 تطبيق جاهز، بينما Entra ID مبنية أساسًا لتكون الطبقة الافتراضية داخل بيئة Microsoft 365 (أكثر من 700 ألف عميل مدفوع).",
+      "en": "Okta and Microsoft Entra ID are both rated \"Leaders\" in Gartner's Magic Quadrant for Access Management for multiple consecutive years -- this isn't a choice between a strong product and a weak one, but between two different philosophies: Okta is platform-neutral with an integration catalog exceeding 18,000 pre-built apps, while Entra ID is built to be the default layer inside a Microsoft 365 environment (over 700,000 paid customers)."
     },
     "device1Name": "Okta",
     "device2Name": "Microsoft Entra ID",
@@ -1145,8 +1145,8 @@
       }
     },
     "verdict": {
-      "ar": "Okta أفضل لو بيئتك متنوعة (multi-cloud) ومش معتمدة على Microsoft بشكل أساسي. Entra ID منطقي جدًا وأرخص لو أصلًا مشترك في Microsoft 365.",
-      "en": "Okta is the better fit for a diverse, multi-cloud environment not centered on Microsoft. Entra ID makes strong sense — and is cheaper — if you're already on Microsoft 365."
+      "ar": "Okta أفضل لو بيئتك متنوعة (multi-cloud) ومش معتمدة على Microsoft بشكل أساسي. Entra ID منطقي جدًا وأرخص لو أصلًا مشترك في Microsoft 365. من ناحية الترخيص: Entra ID P1 مُضمّنة في باقة Microsoft 365 E3، يعني المؤسسات اللي بالفعل مشتركة في E3 بتاخد إدارة الهوية فعليًا بدون أي تكلفة إضافية لكل مستخدم -- ميزة تكلفة هيكلية حقيقية للبيئات المعتمدة على Microsoft، مش مجرد تسعير تنافسي. من ناحية الثقة وسجل الحوادث: Okta أعلنت رسميًا عن اختراق في نظام الدعم الفني في أكتوبر 2023 (أكدته Okta نفسها وعملاء متأثرون منهم BeyondTrust وCloudflare) أدى لكشف رموز جلسات (session tokens) لحوالي 1% من قاعدة عملائها (134 من أصل ~18,400 عميل) -- الاختراق أثّر على نظام دعم العملاء، مش منصة الهوية الأساسية نفسها، لكنه عامل حقيقي يستحق الاعتبار في أي تقييم مؤسسي لمخاطر مزوّد هوية تحديدًا، حيث يكون المزوّد نفسه نقطة اختراق واحدة -- بالضبط المخاطرة اللي المنتج نفسه مصمم أصلًا لمنعها في أماكن تانية.",
+      "en": "Okta is the better fit for a diverse, multi-cloud environment not centered on Microsoft. Entra ID makes strong sense — and is cheaper — if you're already on Microsoft 365. On licensing: Entra ID P1 is included in Microsoft 365 E3, meaning organizations already paying for E3 effectively get identity management at no additional per-user cost -- a real structural cost advantage for Microsoft-centric estates, not just aggressive pricing. On trust and incident history: Okta publicly disclosed a support-system breach in October 2023 (confirmed by Okta itself and by affected customers including BeyondTrust and Cloudflare) that exposed session tokens for roughly 1% of its customer base (134 of ~18,400 customers) -- the breach affected Okta's customer support case system, not its core identity platform, but it's a legitimate factor in any enterprise risk evaluation of an identity vendor specifically, where the vendor itself becoming a single point of compromise is the exact risk the product exists to prevent elsewhere."
     }
   },
   {

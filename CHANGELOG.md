@@ -2,6 +2,14 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 5B — Batch 7: Okta vs Entra ID + Critical Audit-Tool Classification Fix
+
+- Expanded `okta-vs-microsoft-entra-id`'s excerpt and verdict with cited detail: both products' Gartner Magic Quadrant "Leader" status (Okta's ninth consecutive year per Okta's own 2025 announcement), Okta's 18,000+ integrations, Entra ID's 700,000+ paid customers, real E3-bundled licensing economics, and a balanced, carefully-worded mention of Okta's October 2023 support-system breach (confirmed by Okta itself and affected customers) as a legitimate identity-vendor risk factor -- explicitly scoped as affecting the support system, not the core platform.
+- **Found and fixed a significant classification bug**: the content update caused this article to flip from REWORK to REMOVE in the automated audit. Root cause: `content-audit-phase3.mjs`'s `professional` relevance regex had zero identity/access-management vocabulary -- not even the word "identity". Fixed by adding identity/SSO/MFA/authentication terms.
+- **This fix's impact reached far beyond one article**: re-running the audit reclassified 6 items total. Five genuinely valuable, professionally-written security articles (2FA guide, password manager guide, least-privilege guide, NIST password guidelines, authentication-vs-authorization) had been sitting in the REMOVE list purely because of this missing vocabulary, not because of any actual content problem. One comparison (`auth0-vs-firebase-authentication`) moved from REMOVE to REWORK. Nothing was ever deleted -- this project's rules require explicit owner review before any REMOVE action -- but this closes a real gap in the audit tool's accuracy before any future cleanup pass.
+- Disposition counts updated: 109 KEEP / 48 REWORK / 47 REMOVE (previously 104/47/53). 38 comparisons remain in REWORK.
+- **Recommended follow-up**: spot-check the REMOVE list for other missing-vocabulary domains (e.g. cloud-native/Kubernetes, OT/ICS security) before trusting it for a large cleanup pass -- this exact bug class may recur elsewhere.
+
 ## Phase 5B — Batch 6: WireGuard vs OpenVPN, Cited Technical Depth
 
 - Expanded `wireguard-vs-openvpn`'s excerpt and verdict with real, cited technical detail: codebase size comparison (~4,000 vs. ~100,000 lines, per both projects' own docs), the official Linux kernel 5.6 merge date (March 2020, per The Register and Linux Kernel Newbies -- third-party validation, not just the project's own claim), specific cryptographic primitives (Curve25519, ChaCha20-Poly1305, BLAKE2s) and the deliberate no-cipher-negotiation tradeoff, and real-world commercial VPN provider adoption context.
