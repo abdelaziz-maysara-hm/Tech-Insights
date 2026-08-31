@@ -2,6 +2,15 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 5B — Batch 8: CrowdStrike vs SentinelOne, First Recovered-Comparison Content Review
+
+- Reworked `crowdstrike-falcon-vs-sentinelone`, the first content review from the 25 comparisons recovered by the REMOVE-list audit-tool fix (previously misclassified, never actually content-reviewed).
+- Handled the biased-source problem directly: both vendors' own comparison pages (`crowdstrike.com/.../compare/...`, `sentinelone.com/vs/crowdstrike/`) are self-promotional and each claims superiority. Used independent sources instead for anything stated as fact.
+- Added the July 19, 2024 CrowdStrike Falcon outage (a faulty sensor update causing a global crash of ~8.5 million Windows devices, disrupting airlines, hospitals, and point-of-sale systems) as a genuine, independently-documented trust/risk factor relevant to any kernel-level EDR agent evaluation.
+- Added an explicit caution that MITRE ATT&CK Evaluation percentages cited by either vendor are that vendor's own interpretation of MITRE's raw data, not an official MITRE ranking -- stated directly rather than repeating either vendor's headline figure as settled fact.
+- Noted SentinelOne's native ransomware rollback (Storyline Active Response) against CrowdStrike's independently-documented managed-response results as a genuine two-sided capability tradeoff.
+- 66 comparisons remain in REWORK; 24 of 25 newly-recovered comparisons still need this same review.
+
 ## Phase 5B — Major Audit-Tool Fix: 30 of 47 REMOVE Items Were Misclassified (64%)
 
 - **Acted directly on Batch 7's own recommendation** to spot-check the REMOVE list for other missing-vocabulary domains before trusting it for cleanup. Reviewed all 47 items by title and found the problem was far larger than the single IAM gap already fixed: **30 of 47 (64%) were unambiguously professional/security tooling or content by title alone** -- SIEM tools (Splunk, Wazuh, Elastic/ELK), IDS/IPS (Snort, Suricata), pentest tools (Metasploit, Burp Suite, Nikto, OWASP ZAP), EDR/XDR (CrowdStrike, SentinelOne, Microsoft Defender), password managers (1Password, Bitwarden, Keeper), disk encryption (BitLocker, VeraCrypt), CI/CD (Jenkins, GitHub Actions, GitLab), observability (Grafana, Prometheus, Datadog), firewalls, enterprise Windows management, and core security-concept articles (threat modeling/STRIDE, honeypots, TLS handshake, data classification, dual control).

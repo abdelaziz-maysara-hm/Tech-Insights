@@ -1235,8 +1235,8 @@
       "en": "CrowdStrike Falcon vs SentinelOne"
     },
     "excerpt": {
-      "ar": "CrowdStrike الخيار الأضمن لو عايز أوسع انتشار وموارد دعم متاحة. SentinelOne بديل قوي وجدير بالتجربة خصوصًا لو الاستجابة",
-      "en": "CrowdStrike is the safer choice for the widest deployment base and available support resources. SentinelOne is a strong, worth-trying altern"
+      "ar": "CrowdStrike Falcon وSentinelOne كلاهما \"قائد\" (Leader) في تقييم Gartner Magic Quadrant لمنصات حماية الأطراف الطرفية لسنوات متتالية، لكن بفلسفتين هندسيتين مختلفتين: CrowdStrike بيعتمد على تحليل سحابي مركزي وذكاء تهديدات واسع، وSentinelOne بيركّز على استجابة تلقائية كاملة على الجهاز نفسه (Autonomous) بدون اعتماد دائم على اتصال سحابي.",
+      "en": "CrowdStrike Falcon and SentinelOne are both rated \"Leaders\" in Gartner's Magic Quadrant for Endpoint Protection Platforms for multiple consecutive years, but with different engineering philosophies: CrowdStrike relies on centralized cloud analysis and broad threat intelligence, while SentinelOne focuses on fully autonomous, on-device response without constant dependence on cloud connectivity."
     },
     "device1Name": "CrowdStrike Falcon",
     "device2Name": "SentinelOne",
@@ -1284,8 +1284,8 @@
       }
     },
     "verdict": {
-      "ar": "CrowdStrike الخيار الأضمن لو عايز أوسع انتشار وموارد دعم متاحة. SentinelOne بديل قوي وجدير بالتجربة خصوصًا لو الاستجابة الآلية بدون اتصال سحابي مستمر مهمة عندك.",
-      "en": "CrowdStrike is the safer choice for the widest deployment base and available support resources. SentinelOne is a strong, worth-trying alternative, especially if on-device automated response without constant cloud reliance matters to you."
+      "ar": "CrowdStrike الخيار الأضمن لو عايز أوسع انتشار وموارد دعم متاحة. SentinelOne بديل قوي وجدير بالتجربة خصوصًا لو الاستجابة الآلية بدون اتصال سحابي مستمر مهمة عندك. عامل ثقة ومخاطرة مهم ولا يمكن تجاهله: في 19 يوليو 2024، تسبّب تحديث محتوى خاطئ لمستشعر CrowdStrike Falcon في انهيار عالمي أثّر على حوالي 8.5 مليون جهاز Windows، وعطّل شركات طيران ومستشفيات وأنظمة نقاط بيع حول العالم -- واحد من أكبر أعطال تقنية المعلومات في التاريخ، وذو صلة مباشرة بتقييم أي مزوّد EDR يعمل عامله بصلاحيات مستوى النواة (kernel-level) على كل جهاز محمي. بخصوص تقييمات MITRE ATT&CK: كلا المزوّدين بيستشهد بنتائج قوية في جولات مختلفة، لكن يجب التعامل بحذر مع النسب المئوية المُعلنة من الشركات نفسها -- MITRE نفسها بتنشر بيانات الكشف/الحماية الخام بدون ترتيب أو تقييم المزوّدين، فأي رقم كشف مُعلن هو تفسير الشركة نفسها، مش حكم رسمي من MITRE. ميزة Storyline Active Response (STAR) في SentinelOne بتوفّر استرجاع تلقائي بضغطة واحدة لملفات الفدية باستخدام نسخ الظل، وهي قدرة لا تضاهيها CrowdStrike بنفس الطريقة مباشرة؛ في المقابل، فئة Falcon Complete MDR من CrowdStrike عندها نتائج استجابة مُدارة موثّقة بشكل مستقل لم يتم تقييم عرض SentinelOne المُدار ضدها بنفس المستوى.",
+      "en": "CrowdStrike is the safer choice for the widest deployment base and available support resources. SentinelOne is a strong, worth-trying alternative, especially if on-device automated response without constant cloud reliance matters to you. An important, unavoidable trust-and-risk factor: on July 19, 2024, a faulty CrowdStrike Falcon sensor content update triggered a global crash affecting roughly 8.5 million Windows devices, disrupting airlines, hospitals, and point-of-sale systems worldwide -- among the largest IT outages in history, and directly relevant to evaluating any EDR vendor whose agent runs with kernel-level privileges on every protected endpoint. On MITRE ATT&CK Evaluations: both vendors cite strong results in different rounds, but treat vendor-reported percentages with care -- MITRE itself publishes raw detection/protection data without ranking or scoring vendors, so any single published detection figure is the vendor's own interpretation, not an official MITRE verdict. SentinelOne's Storyline Active Response (STAR) offers native one-click ransomware rollback using volume shadow copies, a capability CrowdStrike doesn't natively match the same way; CrowdStrike's Falcon Complete MDR tier, in turn, has independently documented managed-response results that SentinelOne's managed offering hasn't been evaluated against at the same level."
     }
   },
   {

@@ -1,6 +1,6 @@
 # NetSec Atlas Phase 3 Content Audit
 
-Generated: 2026-08-31T05:33:29.110Z
+Generated: 2026-08-31T05:39:35.509Z
 
 > Repository-only deterministic audit. Counts are evidence from current content; no search-volume, CPC or keyword-difficulty values are invented.
 
@@ -17,7 +17,7 @@ Generated: 2026-08-31T05:33:29.110Z
 - REMOVE: 17 (8.3%)
 - NOINDEX: 0 (0%)
 - Consumer/unrelated: 17 (8.3%)
-- Potentially thin: 71
+- Potentially thin: 70
 - Duplicate/near-duplicate groups: 0
 
 ## Strategic fit
@@ -62,9 +62,9 @@ Generated: 2026-08-31T05:33:29.110Z
 
 | domainId | count | high | medium | low |
 | --- | --- | --- | --- | --- |
-| cybersecurity | 81 | 24 | 41 | 16 |
+| cybersecurity | 82 | 24 | 41 | 17 |
 | networking | 42 | 16 | 15 | 11 |
-| infrastructure | 50 | 18 | 17 | 15 |
+| infrastructure | 51 | 18 | 17 | 16 |
 
 ## Troubleshooting
 
@@ -93,8 +93,6 @@ Generated: 2026-08-31T05:33:29.110Z
 - **dhcp-ipam** (topic): Fewer than two detected aligned items
 - **cloud** (topic): Fewer than two detected aligned items
 - **vpn** (topic): Fewer than two detected aligned items
-- **siem-soc** (topic): Fewer than two detected aligned items
-- **endpoint-security** (topic): Fewer than two detected aligned items
 - **dhcp-ipam** (topic): Fewer than two detected aligned items
 - **nac** (topic): Fewer than two detected aligned items
 

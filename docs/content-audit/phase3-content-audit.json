@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T05:33:29.110Z",
+  "generatedAt": "2026-08-31T05:39:35.509Z",
   "methodology": {
     "note": "Repository-only deterministic heuristics; no fabricated SEO metrics.",
     "dispositionDenominator": "Editorial items: articles plus comparisons",
@@ -94,7 +94,7 @@
     "vendorAssociated": 45,
     "troubleshooting": 29,
     "duplicateNearDuplicateGroups": 0,
-    "potentiallyThin": 71,
+    "potentiallyThin": 70,
     "reusableItems": 187,
     "reusablePercent": 91.7
   },
@@ -247,15 +247,15 @@
   "domainCoverage": [
     {
       "domainId": "cybersecurity",
-      "count": 81,
+      "count": 82,
       "high": 24,
       "medium": 41,
-      "low": 16,
+      "low": 17,
       "topics": {
         "firewalls": 7,
         "vpn": 3,
-        "siem-soc": 6,
-        "endpoint-security": 10,
+        "siem-soc": 7,
+        "endpoint-security": 11,
         "active-directory": 3,
         "dns": 1,
         "routing-switching": 1,
@@ -264,7 +264,7 @@
         "vulnerability-management": 8,
         "threat-detection": 1,
         "backup-recovery": 3,
-        "cloud": 4,
+        "cloud": 5,
         "wireless": 2,
         "nac": 1
       }
@@ -292,15 +292,15 @@
     },
     {
       "domainId": "infrastructure",
-      "count": 50,
+      "count": 51,
       "high": 18,
       "medium": 17,
-      "low": 15,
+      "low": 16,
       "topics": {
         "firewalls": 2,
         "vpn": 1,
-        "siem-soc": 1,
-        "endpoint-security": 1,
+        "siem-soc": 2,
+        "endpoint-security": 2,
         "active-directory": 4,
         "pki-certificates": 3,
         "dhcp-ipam": 1,
@@ -308,7 +308,7 @@
         "dlp": 4,
         "vmware-virtualization": 2,
         "backup-recovery": 8,
-        "cloud": 18,
+        "cloud": 19,
         "linux": 4,
         "windows-server": 2,
         "nac": 1
@@ -443,18 +443,6 @@
     {
       "type": "topic",
       "id": "vpn",
-      "domain": "infrastructure",
-      "reason": "Fewer than two detected aligned items"
-    },
-    {
-      "type": "topic",
-      "id": "siem-soc",
-      "domain": "infrastructure",
-      "reason": "Fewer than two detected aligned items"
-    },
-    {
-      "type": "topic",
-      "id": "endpoint-security",
       "domain": "infrastructure",
       "reason": "Fewer than two detected aligned items"
     },
@@ -4132,9 +4120,14 @@
       "titleEn": "CrowdStrike Falcon vs SentinelOne",
       "source": "comparison",
       "currentCategory": "comparisons",
-      "inferredDomains": [],
+      "inferredDomains": [
+        "cybersecurity",
+        "infrastructure"
+      ],
       "inferredTopics": [
-        "siem-soc"
+        "siem-soc",
+        "endpoint-security",
+        "cloud"
       ],
       "inferredVendors": [
         "microsoft"
@@ -4143,13 +4136,13 @@
       "inferredContentType": "comparison",
       "strategicFit": "enterprise",
       "proposedDisposition": "REWORK",
-      "confidence": "medium",
+      "confidence": "high",
       "reason": "microsoft professional technical content",
       "currentURL": "/comparison/crowdstrike-falcon-vs-sentinelone",
-      "wordCount": 89,
+      "wordCount": 270,
       "lastUpdated": "2024-05-18",
       "technicalValue": "low",
-      "potentiallyThin": true
+      "potentiallyThin": false
     },
     {
       "id": "cmp-gen-0016",
