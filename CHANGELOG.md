@@ -2,6 +2,13 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 5B — Batch 6: WireGuard vs OpenVPN, Cited Technical Depth
+
+- Expanded `wireguard-vs-openvpn`'s excerpt and verdict with real, cited technical detail: codebase size comparison (~4,000 vs. ~100,000 lines, per both projects' own docs), the official Linux kernel 5.6 merge date (March 2020, per The Register and Linux Kernel Newbies -- third-party validation, not just the project's own claim), specific cryptographic primitives (Curve25519, ChaCha20-Poly1305, BLAKE2s) and the deliberate no-cipher-negotiation tradeoff, and real-world commercial VPN provider adoption context.
+- Unlike Batch 5, this comparison's existing spec table was already directionally accurate -- the fix here was purely expanding the excerpt/verdict with sourced depth, not correcting wrong claims.
+- Preserved the stable slug; kept independently written Arabic and English content at conservative technical/translation review states.
+- wordCount for this article: 239 → 282; `potentiallyThin`: true → false. 39 comparisons remain in REWORK.
+
 ## Phase 5B — Batch 5: Source-Grounded Firewall Comparison + Word-Count Metric Fix
 
 - Reworked `palo-alto-ngfw-vs-forcepoint-ngfw`'s excerpt and verdict with content grounded in cited sources (G2.com verified user ratings: Palo Alto NGFW 4.5/5 across 155 reviews vs. Forcepoint NGFW 4.4/5 across 35 reviews; PeerSpot's 2026 enterprise pricing/licensing comparison) rather than unsourced generic claims.

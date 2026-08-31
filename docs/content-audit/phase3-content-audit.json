@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T02:51:03.175Z",
+  "generatedAt": "2026-08-31T04:57:36.564Z",
   "methodology": {
     "note": "Repository-only deterministic heuristics; no fabricated SEO metrics.",
     "dispositionDenominator": "Editorial items: articles plus comparisons",
@@ -94,7 +94,7 @@
     "vendorAssociated": 45,
     "troubleshooting": 29,
     "duplicateNearDuplicateGroups": 0,
-    "potentiallyThin": 73,
+    "potentiallyThin": 72,
     "reusableItems": 151,
     "reusablePercent": 74
   },
@@ -285,19 +285,20 @@
         "routing-switching": 3,
         "dlp": 3,
         "cloud": 1,
-        "linux": 1,
+        "linux": 2,
         "wireless": 6,
         "nac": 3
       }
     },
     {
       "domainId": "infrastructure",
-      "count": 50,
+      "count": 51,
       "high": 18,
       "medium": 17,
-      "low": 15,
+      "low": 16,
       "topics": {
         "firewalls": 2,
+        "vpn": 1,
         "siem-soc": 1,
         "endpoint-security": 1,
         "active-directory": 4,
@@ -308,7 +309,7 @@
         "vmware-virtualization": 2,
         "backup-recovery": 8,
         "cloud": 19,
-        "linux": 3,
+        "linux": 4,
         "windows-server": 2,
         "nac": 1
       }
@@ -441,8 +442,8 @@
     },
     {
       "type": "topic",
-      "id": "linux",
-      "domain": "networking",
+      "id": "vpn",
+      "domain": "infrastructure",
       "reason": "Fewer than two detected aligned items"
     },
     {
@@ -4026,10 +4027,12 @@
       "source": "comparison",
       "currentCategory": "comparisons",
       "inferredDomains": [
-        "networking"
+        "networking",
+        "infrastructure"
       ],
       "inferredTopics": [
-        "vpn"
+        "vpn",
+        "linux"
       ],
       "inferredVendors": [],
       "inferredProducts": [],
@@ -4037,12 +4040,12 @@
       "strategicFit": "professional-it",
       "proposedDisposition": "REWORK",
       "confidence": "high",
-      "reason": "networking professional technical content",
+      "reason": "networking, infrastructure professional technical content",
       "currentURL": "/comparison/wireguard-vs-openvpn",
-      "wordCount": 113,
+      "wordCount": 282,
       "lastUpdated": "2023-09-17",
       "technicalValue": "low",
-      "potentiallyThin": true
+      "potentiallyThin": false
     },
     {
       "id": "cmp-gen-0012",

@@ -889,8 +889,8 @@
       "en": "WireGuard vs OpenVPN"
     },
     "excerpt": {
-      "ar": "WireGuard أفضل لمعظم الاستخدامات الحديثة بسبب السرعة والبساطة. OpenVPN لسه منطقي في بيئات مؤسسية قديمة محتاجة مرونة إعدا",
-      "en": "WireGuard is the better default for most modern use cases thanks to speed and simplicity. OpenVPN still makes sense in older enterprise envi"
+      "ar": "WireGuard وOpenVPN بروتوكولا VPN مفتوحا المصدر، لكن بفلسفتين مختلفتين تمامًا في التصميم. WireGuard مبني حديثًا (2015) بكود أصغر بكثير (حوالي 4,000 سطر مقابل نحو 100,000 سطر لـOpenVPN، حسب توثيق المشروعين نفسهما)، وانضم رسميًا لنواة Linux (kernel 5.6) في مارس 2020 -- تأكيد قوي على نضجه واستقراره من مجتمع Linux نفسه، وليس فقط من فريق WireGuard.",
+      "en": "WireGuard and OpenVPN are both open-source VPN protocols, but with fundamentally different design philosophies. WireGuard is newer (2015) with a far smaller codebase (roughly 4,000 lines versus around 100,000 for OpenVPN, per both projects' own documentation), and was officially merged into the Linux kernel (5.6) in March 2020 -- strong validation of its maturity from the Linux community itself, not just WireGuard's own team."
     },
     "device1Name": "WireGuard",
     "device2Name": "OpenVPN",
@@ -972,8 +972,8 @@
       }
     },
     "verdict": {
-      "ar": "WireGuard أفضل لمعظم الاستخدامات الحديثة بسبب السرعة والبساطة. OpenVPN لسه منطقي في بيئات مؤسسية قديمة محتاجة مرونة إعداد أعلى أو سجل تدقيق أطول.",
-      "en": "WireGuard is the better default for most modern use cases thanks to speed and simplicity. OpenVPN still makes sense in older enterprise environments needing more configuration flexibility or a longer audit track record."
+      "ar": "WireGuard أفضل لمعظم الاستخدامات الحديثة بسبب السرعة والبساطة. OpenVPN لسه منطقي في بيئات مؤسسية قديمة محتاجة مرونة إعداد أعلى أو سجل تدقيق أطول. حجم كود WireGuard الصغير (هدف تصميم أساسي وضعه مطوّره جيسون دونفيلد) بيخلّيه أسهل بكتير للمراجعة الأمنية الفردية المتعمقة، بعكس OpenVPN اللي مساحته الأكبر بكتير عادة بتحتاج فرق تدقيق متخصصة. WireGuard بيستخدم خوارزميات تشفير حديثة وثابتة (Curve25519 لتبادل المفاتيح، ChaCha20-Poly1305 للتشفير، BLAKE2s للتجزئة) -- وبشكل متعمد مبيدعمش التفاوض على نوع التشفير، فبيضحّي بالمرونة مقابل مساحة هجوم أصغر. مرونة OpenVPN في اختيار خوارزميات التشفير أنسب للبيئات اللي عندها متطلبات امتثال محددة، لكن هذه المرونة نفسها مساحة أكبر تحتاج تأمين صحيح. من الناحية العملية، انتشار WireGuard تجاوز مرحلة التجربة المحدودة منذ فترة: بيُقدَّم كخيار بروتوكول قياسي في معظم خدمات VPN التجارية الحديثة اليوم، بعد ما انتقل من موديول خارج نواة Linux لجزء أساسي فيها خلال سنوات قليلة بس من إطلاقه سنة 2015.",
+      "en": "WireGuard is the better default for most modern use cases thanks to speed and simplicity. OpenVPN still makes sense in older enterprise environments needing more configuration flexibility or a longer audit track record. WireGuard's small codebase (Jason Donenfeld's original design goal) makes it easier for individual security researchers to audit end-to-end, unlike OpenVPN's much larger surface area, which typically requires dedicated audit teams. WireGuard uses modern, fixed cryptographic primitives (Curve25519 for key exchange, ChaCha20-Poly1305 for encryption, BLAKE2s for hashing) -- it deliberately does not support cipher negotiation, trading configurability for a smaller attack surface. OpenVPN's configurable cipher suite is more flexible for environments with specific compliance requirements, but that flexibility is itself a larger surface to secure correctly. In practice, WireGuard's adoption is well beyond a niche experiment: it is offered as a standard protocol option by most modern commercial VPN providers today, having moved from an out-of-tree module to Linux kernel default within a few years of its 2015 introduction."
     }
   },
   {
