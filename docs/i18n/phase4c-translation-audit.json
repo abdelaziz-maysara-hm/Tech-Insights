@@ -9,15 +9,15 @@
   "totals": {
     "evaluated": 241,
     "VALID_PAIR": 0,
-    "REVIEW_PAIR": 233,
-    "INVALID_PAIR": 8
+    "REVIEW_PAIR": 234,
+    "INVALID_PAIR": 7
   },
   "byType": {
     "articles": {
       "evaluated": 129,
       "VALID_PAIR": 0,
-      "REVIEW_PAIR": 126,
-      "INVALID_PAIR": 3
+      "REVIEW_PAIR": 127,
+      "INVALID_PAIR": 2
     },
     "comparisons": {
       "evaluated": 75,
@@ -245,23 +245,21 @@
         "slug": "windows-disk-cleanup-safe",
         "kind": "article",
         "route": "/article/windows-disk-cleanup-safe",
-        "status": "INVALID_PAIR",
-        "reason": "Structural or language validation failed: placeholder-language.",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
-        "automatedCandidate": false,
+        "automatedCandidate": true,
         "humanReviewed": false,
         "metrics": {
           "fieldComplete": true,
-          "automatedCandidate": false,
+          "automatedCandidate": true,
           "arWords": 306,
           "enWords": 338,
           "lengthRatio": 0.905,
           "arLanguageShare": 0.829,
           "enLanguageShare": 1,
-          "signals": [
-            "placeholder-language"
-          ]
+          "signals": []
         }
       },
       {

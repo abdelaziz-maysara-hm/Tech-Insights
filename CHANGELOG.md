@@ -2,6 +2,14 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 5B — i18n Audit Follow-Up Fix: Context-Length-Gated Arabic "Soon" Detection
+
+- Closed the deeper gap Batch 9 documented but didn't fix: the placeholder-language detector still false-flagged standalone "قريبًا" (soon) used as ordinary temporal language in normal-length sentences (e.g. `windows-disk-cleanup-safe`'s "you might need to revert to a previous version soon"), since Arabic's everyday usage of the word isn't as narrow/specific as English "coming soon."
+- **Fix**: restricted the Arabic "soon" pattern to only count as a placeholder signal when the combined title+body word count is short (≤20 words) -- genuine placeholder text is brief by nature, while ordinary usage is embedded in complete, substantial writing.
+- **Verified both directions with direct tests**, not assumed: synthetic short placeholders ("قريبًا!"/"Coming soon!", Arabic-only "المحتوى قريبًا") still correctly flagged; the exact long-sentence false-positive pattern from Batch 9 no longer flagged.
+- **Verified against real site content**: `INVALID_PAIR` count dropped from 8 to 7. `windows-disk-cleanup-safe` moved to `REVIEW_PAIR`. The remaining 7 are unrelated, genuine issues (3 PowerShell-heavy items correctly flagged for English-majority content, 4 static pages with genuinely trivial titles) -- none are placeholder-language false positives.
+- This closes the last known gap in the placeholder-language detector found during this session's explicit bilingual-quality review.
+
 ## Phase 5B — Batch 9: 1Password vs Bitwarden + i18n Audit False-Positive Fix
 
 - **Bilingual quality check, done explicitly per owner request** ("make sure English isn't just a translation, but genuinely real, understandable content"): manually re-read Batch 8's content first. Confirmed the English was natural, idiomatic writing (not literal translation), but sentence structure/order was near-identical to the Arabic, since both were written from the same facts in the same sequence. For this batch, deliberately wrote Arabic and English with **different emphasis and sentence order** rather than a sentence-by-sentence mirror.

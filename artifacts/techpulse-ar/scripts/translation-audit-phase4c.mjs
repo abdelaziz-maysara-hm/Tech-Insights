@@ -14,14 +14,23 @@ const pages = readJson('pages.json');
 
 const arabicPattern = /[\u0600-\u06ff]/g;
 const latinPattern = /[A-Za-z]/g;
-// Fixed a false-positive bug found while reworking 1password-vs-bitwarden:
-// "قريب[ًاا]" (soon) matched as a bare substring inside unrelated words like
-// "تقريبًا" (approximately) -- \b doesn't recognize Arabic letters as word
-// characters in JS regex by default, so the pattern had no real word-boundary
-// protection on its Arabic side. Added a negative lookbehind so the Arabic
-// pattern only matches when not immediately preceded by another Arabic
-// letter (a genuine standalone word, not embedded inside a longer one).
-const placeholderPattern = /\b(?:todo|tbd|lorem ipsum|placeholder|coming soon)\b|(?<![\u0600-\u06FF])قريب[ًاا]|تحت الإنشاء/i;
+// Fixed a deeper design gap documented after the substring bug fix above:
+// standalone "قريبًا" (soon) used as ordinary, correctly-spelled temporal
+// language in a normal-length sentence (e.g. "قد تحتاج للعودة لنسخة سابقة
+// قريبًا" -- "you might need to revert to a previous version soon") was
+// still false-flagged as unfinished placeholder content. Unlike English
+// "coming soon," which is a fairly specific two-word phrase rarely used for
+// anything else, Arabic "قريبًا" alone is common, ordinary temporal
+// vocabulary -- so a bare word match can't reliably distinguish "this
+// content isn't ready yet" from routine usage. Genuine placeholder text is
+// also typically brief (a stand-in message, not embedded in a full
+// article), so the fix restricts the Arabic pattern to only fire when the
+// combined title+body text is short -- the word is plausibly the entire
+// "coming soon" message itself, not one word inside an otherwise complete,
+// substantial piece of writing.
+const arabicSoonPattern = /(?<![\u0600-\u06FF])قريب[ًاا]/;
+const placeholderPattern = /\b(?:todo|tbd|lorem ipsum|placeholder|coming soon)\b|تحت الإنشاء/i;
+const ARABIC_SOON_MAX_CONTEXT_WORDS = 20;
 
 export const PAIR_STATUS = Object.freeze({
   VALID: 'VALID_PAIR',
@@ -60,7 +69,11 @@ function pairSignals({ title, summary, body }) {
   if (arBody.trim() === enBody.trim()) reasons.push('identical-bodies');
   if (languageShare(arBody, 'ar') < 0.55) reasons.push('arabic-side-not-predominantly-arabic');
   if (languageShare(enBody, 'en') < 0.75) reasons.push('english-side-not-predominantly-english');
-  if (placeholderPattern.test(`${title?.ar ?? ''} ${title?.en ?? ''} ${arBody} ${enBody}`)) reasons.push('placeholder-language');
+  const combinedText = `${title?.ar ?? ''} ${title?.en ?? ''} ${arBody} ${enBody}`;
+  const combinedWordCount = wordCount(`${arBody} ${enBody}`);
+  const hasGenericPlaceholder = placeholderPattern.test(combinedText);
+  const hasShortArabicSoon = combinedWordCount <= ARABIC_SOON_MAX_CONTEXT_WORDS && arabicSoonPattern.test(combinedText);
+  if (hasGenericPlaceholder || hasShortArabicSoon) reasons.push('placeholder-language');
   if (ratio < 0.25) reasons.push('suspicious-length-ratio');
 
   return {

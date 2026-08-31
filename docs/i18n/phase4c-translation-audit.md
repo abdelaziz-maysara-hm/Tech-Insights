@@ -13,12 +13,12 @@
 
 | Content type | Evaluated | VALID_PAIR | REVIEW_PAIR | INVALID_PAIR |
 | --- | ---: | ---: | ---: | ---: |
-| articles | 129 | 0 (0.0%) | 126 (97.7%) | 3 (2.3%) |
+| articles | 129 | 0 (0.0%) | 127 (98.4%) | 2 (1.6%) |
 | comparisons | 75 | 0 (0.0%) | 74 (98.7%) | 1 (1.3%) |
 | staticPages | 9 | 0 (0.0%) | 5 (55.6%) | 4 (44.4%) |
 | dynamicDiscoveryPages | 28 | 0 (0.0%) | 28 (100.0%) | 0 (0.0%) |
 
-**Total:** 241 evaluated; 0 valid; 233 review; 8 invalid.
+**Total:** 241 evaluated; 0 valid; 234 review; 7 invalid.
 
 ## Important distinction
 
@@ -31,7 +31,6 @@ Only the third state, combined with passing automated checks, is eligible for VA
 ## Invalid examples
 
 - `article:ad-powershell-daily-tasks` — Structural or language validation failed: arabic-side-not-predominantly-arabic.
-- `article:windows-disk-cleanup-safe` — Structural or language validation failed: placeholder-language.
 - `article:powershell-sysadmin-complete-guide` — Structural or language validation failed: arabic-side-not-predominantly-arabic.
 - `comparison:ansible-vs-powershell-dsc` — Structural or language validation failed: arabic-side-not-predominantly-arabic.
 - `static-page:disclaimer` — Structural or language validation failed: missing-or-trivial-title.
