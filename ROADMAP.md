@@ -6,6 +6,13 @@
 - **Production domain:** <https://netsecatlas.com>
 - **Previous identity:** Technical Insights
 - **Mission:** A practical bilingual Arabic/English knowledge platform for cybersecurity, networking, infrastructure, troubleshooting, enterprise vendors/products, professional comparisons, and engineering tools.
+- **North star (owner's own words, recorded verbatim in intent):** Become the largest, most complete knowledge base for the security field across every sub-domain -- the single reference site that a student, a fresh graduate, a junior just starting out, and a senior practitioner can all return to for any kind of question in the field, across every content type this site supports (articles, comparisons, videos, vendor/product alternatives, and more). All of it grounded in each product's own official/authoritative sources, so the site earns the role of primary reference, not just another aggregator.
+- **What this means operationally:**
+  - Content must span the full experience range (fundamentals for newcomers through advanced troubleshooting for seniors), not just one skill level.
+  - Every factual claim about a specific vendor/product (features, licensing, comparisons, ratings) must cite a real, checkable source (vendor docs, G2/PeerSpot/Gartner-style review platforms, or equivalent) -- never invented. This was already the working practice in Phase 5B Batch 5; this line makes it an explicit, permanent project rule, not just a habit.
+  - Content-type breadth matters as much as depth: articles, comparisons, videos, and vendor/product "alternatives" pages are all first-class citizens of the mission, not just articles.
+  - **"Alternatives" is a distinct, planned content type, not a subset of comparisons.** Confirmed via direct research (G2.com, the leading B2B software review platform, maintains two entirely separate page structures: `/products/{product}/alternatives` -- a broad "Top 10 Alternatives" list -- and `/compare/{product1}-vs-{product2}` -- a deep head-to-head). They serve different, complementary search intents: "X alternatives" targets a user still exploring a wide consideration set (often dissatisfied with or priced out of X), while "X vs Y" targets a user who has already narrowed to two specific options and wants a detailed decision. An alternatives page should link out to the site's own "vs" comparison pages for each listed alternative where one exists. This is a new content type requiring its own schema/data file, page component, and sitemap coverage -- not yet built as of this roadmap entry.
+  - Vendor/product coverage should aim for comprehensiveness across the field over time -- see the vendor coverage gaps already logged in `docs/AGENT_HANDOFF.md`'s Known debt (F5, BeyondTrust, Broadcom, Trellix, Infoblox, VMware) as a concrete starting checklist, not the finish line.
 - **Differentiation:** Real technical problem-solving, not generic technology news or content volume.
 
 ## CURRENT PROJECT STATE
@@ -79,6 +86,19 @@ Route-level `React.lazy` / `Suspense` code splitting, Vite `manualChunks` (react
 ### Phase 6 — High-Value Content Expansion
 
 This is where large-scale new production starts. Use the first-100 roadmap and produce 10–20 pages per reviewed batch depending on complexity. Prioritize exact-error troubleshooting, configuration, migrations, interoperability, vendor-specific guides, and professional comparisons. Quality outranks count.
+
+#### Phase 6C — PLANNED, not started: Alternatives pages as a distinct content type
+
+Decision recorded under North star above (Mission section): "alternatives" pages (e.g. "Top 5 Alternatives to CrowdStrike Falcon") are a distinct content type from head-to-head comparisons, not a subset of them -- confirmed via direct research on G2.com, which maintains both `/products/{product}/alternatives` (broad ranked list) and `/compare/{a}-vs-{b}` (deep 2-way) as separate page structures serving different search intents.
+
+Required before any content, in order:
+1. Extend `mockData.ts` with an `AlternativesPage` type (own schema: a target product, a list of 5-10 ranked alternatives with brief per-item rationale and a citation, not a 2-way spec table).
+2. Fill known vendor-registry gaps for whichever product the first page targets. Confirmed gap: **CrowdStrike is not yet in `src/data/taxonomy/vendors.ts`**, despite already being referenced in two REWORK comparisons (`crowdstrike-falcon-vs-microsoft-defender`, `crowdstrike-falcon-vs-microsoft-sentinel`) -- add it (and any other vendor the first alternatives page needs) before the page can link a proper vendor ID.
+3. New page component + route (e.g. `/alternatives/:slug`).
+4. Sitemap/RSS generator coverage, following the existing Comparisons pattern already in `scripts/generator/`.
+5. Cross-linking: an alternatives page should link out to the site's own "vs" comparison page for each listed alternative where one already exists.
+
+Every claim about a listed alternative (features, pricing tier, review scores) must cite a real, checkable source (G2/PeerSpot/vendor docs) -- this content type has zero tolerance for invented specifics, per the North star rule above. Treat this as its own multi-batch effort (schema+infra batch, then content batches), not a single session's work.
 
 ### Phase 7 — Professional Tools
 
