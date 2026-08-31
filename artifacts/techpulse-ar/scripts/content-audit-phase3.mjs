@@ -47,7 +47,42 @@ const productTerms = {
 // 'unrelated' and flip to REMOVE purely because its content used full IAM
 // terminology ("Access Management", "identity") rather than the bare "iam"
 // abbreviation the regex was looking for.
-const professional = /firewall|vpn|dns|dhcp|network|security|endpoint|siem|soc|iam|pam|dlp|server|active directory|linux|vmware|esxi|backup|certificate|pki|azure|aws|cloud|ransomware|vulnerability|cve|incident|routing|switching|vlan|sysadmin|infrastructure|zero trust|802\.1x|identity|single sign-on|\bsso\b|\bmfa\b|authentication|access management/i;
+// Extended with (1) additional professional-domain vocabulary (SIEM/IDS/IPS,
+// pentest, DevOps/CI-CD, observability, disk encryption, threat modeling) and
+// (2) a KNOWN_PROFESSIONAL_PRODUCTS name list, after discovering the original
+// regex missed most of these domains entirely -- found while investigating why
+// 30 of 47 REMOVE-classified items (64%) were, by title alone, obviously
+// professional/security tooling (snort-vs-suricata, burp-suite-vs-nikto,
+// crowdstrike-falcon-vs-sentinelone, threat-modeling-stride-basics, etc.).
+// The root issue: comparisons/articles with short excerpts often name a
+// specific product (Snort, Suricata, CrowdStrike) without ever using a
+// generic term like "security" or "network" in the tested text, so no
+// keyword-based regex alone can reliably catch them -- a known product name
+// list closes that gap directly, matched against device1Name/device2Name and
+// title/slug specifically, not just the full free-text regex.
+const professional = /firewall|vpn|dns|dhcp|network|security|endpoint|siem|soc|iam|pam|dlp|server|active directory|linux|vmware|esxi|backup|certificate|pki|azure|aws|cloud|ransomware|vulnerability|cve|incident|routing|switching|vlan|sysadmin|infrastructure|zero trust|802\.1x|identity|single sign-on|\bsso\b|\bmfa\b|authentication|access management|\bids\b|\bips\b|intrusion detection|intrusion prevention|penetration test|\bpentest\b|exploit|threat model|\bstride\b|honeypot|deception|dual control|data classification|tls handshake|encryption|disk encryption|log management|observability|monitoring|ci\/cd|continuous integration|continuous deployment|virtual desktop|group policy|password manager|breach monitoring|vulnerability scan/i;
+
+// Specific known professional/security product and tool names, checked
+// against device1Name/device2Name (comparisons) and title/slug directly.
+// Not an attempt at an exhaustive vendor database (that's
+// src/data/taxonomy/vendors.ts's job for full articles) -- just enough to
+// stop short-excerpt comparisons naming a well-known tool from falling
+// through to 'unrelated' purely because the excerpt didn't also happen to
+// use a generic keyword.
+const KNOWN_PROFESSIONAL_PRODUCTS = [
+  'snort', 'suricata', 'wazuh', 'ossec', 'splunk', 'elastic stack', 'elk', 'kibana',
+  'grafana', 'prometheus', 'datadog', 'metasploit', 'burp suite', 'nikto', 'owasp zap',
+  'crowdstrike', 'sentinelone', 'microsoft defender', 'zscaler', 'prisma access',
+  'pfsense', 'opnsense', 'ubiquiti', 'unifi', 'cisco meraki', 'fortigate', 'fortinet',
+  'palo alto', 'bitwarden', '1password', 'keeper', 'have i been pwned', 'bitlocker',
+  'veracrypt', 'citrix', 'group policy', 'microsoft intune', 'microsoft laps',
+  'jenkins', 'github actions', 'gitlab', 'github', 'postman', 'insomnia',
+];
+function matchesKnownProduct(item) {
+  const haystack = [item.slug, item.title?.en, item.title?.ar, item.device1Name, item.device2Name]
+    .filter(Boolean).join(' ').toLowerCase();
+  return KNOWN_PROFESSIONAL_PRODUCTS.some((name) => haystack.includes(name));
+}
 const consumer = /iphone|galaxy s|pixel phone|smartphone|mobile data|battery longevity|laptop for|macbook air|dell xps|phone|android|ios|airpods|consumer app/i;
 const genericAi = /large language model|ai image|prompting|chatgpt/i;
 const commands = /```|powershell|cmd\b|bash\b|\bnetsh\b|\bnmap\b|\bnslookup\b|\bping\b|\btracert\b|configuration|error code|verify|diagnos|step-by-step|step by step/i;
@@ -94,7 +129,7 @@ function classify(item, source) {
   const type = inferType(item, source, summary);
   const valueLevel = technicalValue(item, value);
   let strategicFit = 'unrelated';
-  if (professional.test(summary) || domains.length) strategicFit = vendors.length || valueLevel === 'high' ? 'enterprise' : 'professional-it';
+  if (professional.test(summary) || domains.length || matchesKnownProduct(item)) strategicFit = vendors.length || valueLevel === 'high' ? 'enterprise' : 'professional-it';
   else if (consumer.test(summary)) strategicFit = 'consumer';
   else if (genericAi.test(summary) || item.categoryId === 'technology' || item.categoryId === 'howto') strategicFit = 'mixed';
   let proposedDisposition;

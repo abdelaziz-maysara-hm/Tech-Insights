@@ -34,61 +34,61 @@ Qualitative priorities only; no fabricated SEO metrics.
 | 28 | medium | KEEP | SD-WAN Without the Jargon: The Complete Guide to What It Actually Solves | guide | networking |  | Build practical professional understanding |
 | 29 | medium | KEEP | A Secure Remote Work Checklist: 8 Essential Points | concept | cybersecurity |  | Build practical professional understanding |
 | 30 | medium | KEEP | Cloud Storage Misconfiguration: The Complete Guide to the Most Common Cause of Data Leaks | guide | cybersecurity |  | Build practical professional understanding |
-| 31 | medium | KEEP | The Complete Guide to Setting Up and Managing Active Directory From Scratch | troubleshooting | cybersecurity | microsoft | Resolve a specific engineering problem |
-| 32 | medium | KEEP | The Complete Guide to Using PowerShell for System Administration | troubleshooting | infrastructure |  | Resolve a specific engineering problem |
-| 33 | medium | KEEP | How to Build a Security Incident Response Plan From Scratch | troubleshooting | cybersecurity |  | Resolve a specific engineering problem |
-| 34 | medium | KEEP | The Complete Guide to Network Traffic Analysis with Wireshark | guide | networking |  | Build practical professional understanding |
-| 35 | medium | KEEP | Understanding Kerberos: How Authentication Actually Works in Active Directory | guide | infrastructure | microsoft | Build practical professional understanding |
-| 36 | medium | KEEP | Understanding PKI and the Chain of Trust: How You Know a Certificate Is Actually Real | guide | infrastructure |  | Build practical professional understanding |
-| 37 | medium | KEEP | The Complete Guide to Network Scanning with Nmap | guide | networking |  | Build practical professional understanding |
-| 38 | medium | KEEP | Building a Successful Vulnerability Management Program: The Complete Guide | guide | cybersecurity |  | Build practical professional understanding |
-| 39 | medium | KEEP | How EDR Actually Works: The Fundamental Difference from Traditional Antivirus | troubleshooting | cybersecurity |  | Resolve a specific engineering problem |
-| 40 | medium | KEEP | Web Application Firewall (WAF): The Complete Guide | guide | cybersecurity |  | Build practical professional understanding |
-| 41 | medium | KEEP | OWASP Top 10 Overview: The Complete Guide | guide | cybersecurity |  | Build practical professional understanding |
-| 42 | medium | KEEP | Writing Safe AI Prompts for Technical Troubleshooting: An Engineer’s Template | troubleshooting | cybersecurity |  | Resolve a specific engineering problem |
-| 43 | medium | KEEP | How LLMs Work in Enterprise IT: A Practical Guide to Trust and Risk | concept | cybersecurity |  | Build practical professional understanding |
-| 44 | medium | KEEP | Enterprise AI Image Generation: Data, Risk, and Publishing Controls | guide | cybersecurity |  | Build practical professional understanding |
-| 45 | medium | KEEP | Common Wi-Fi Problems and Their Step-by-Step Fixes | troubleshooting | networking |  | Resolve a specific engineering problem |
-| 46 | medium | REWORK | The Best Everyday Uses of AI (It's Not Just ChatGPT) | guide |  |  | Build practical professional understanding |
-| 47 | medium | KEEP | Two-Factor Authentication (2FA): A Practical Complete Guide | guide |  |  | Build practical professional understanding |
-| 48 | medium | KEEP | VPN Basics: What It Does and Doesn't Do | concept | cybersecurity |  | Build practical professional understanding |
-| 49 | medium | KEEP | Organizing Devices in Kaspersky Security Center with Tags: The Complete Guide | guide | cybersecurity | kaspersky | Build practical professional understanding |
-| 50 | medium | KEEP | Enabling Multi-User RDP and Licensing RDS Correctly: The Complete Guide | guide | infrastructure |  | Build practical professional understanding |
-| 51 | medium | KEEP | The 3-2-1 Backup Rule: The Complete Practical Guide | guide | infrastructure |  | Build practical professional understanding |
-| 52 | medium | KEEP | Email Security Gateways: The Complete Guide to What They Actually Protect Against | guide | cybersecurity | forcepoint | Build practical professional understanding |
-| 53 | medium | KEEP | VLAN Basics: The Complete Guide to Why and How to Segment a Network | guide | networking |  | Build practical professional understanding |
-| 54 | medium | KEEP | Network Monitoring Basics with SNMP: The Complete Guide | guide | networking |  | Build practical professional understanding |
-| 55 | medium | KEEP | Log Retention: The Complete Guide to Setting the Right Duration | guide | cybersecurity |  | Build practical professional understanding |
-| 56 | medium | KEEP | A Patch Management Strategy for a Small Environment | guide | infrastructure |  | Build practical professional understanding |
-| 57 | medium | KEEP | Network Segmentation for Compliance: A Simplified Practical View | guide | networking |  | Build practical professional understanding |
-| 58 | medium | KEEP | MFA Fatigue Attacks: The Complete Guide to Protecting Your Team | guide | cybersecurity |  | Build practical professional understanding |
-| 59 | medium | KEEP | Reading Windows Security Logs in Event Viewer Smartly: The Complete Guide | guide | cybersecurity |  | Build practical professional understanding |
-| 60 | medium | KEEP | Wi-Fi 6 vs Wi-Fi 5: The Complete Guide to Assessing the Upgrade | guide | networking |  | Build practical professional understanding |
-| 61 | low | KEEP | Dark Web Monitoring for Your Company's Data: The Complete Guide to Deciding If You Need It | guide | cybersecurity |  | Build practical professional understanding |
-| 62 | low | KEEP | SSD vs HDD for Server Storage: It's Not Just About Speed | guide | infrastructure |  | Build practical professional understanding |
-| 63 | low | KEEP | The Least Privilege Principle: The Complete Guide to a Rollout Without Chaos | guide |  |  | Build practical professional understanding |
-| 64 | low | KEEP | The First Hour After Discovering Ransomware: The Complete Guide to What to Actually Do | guide | cybersecurity |  | Build practical professional understanding |
-| 65 | low | KEEP | Printer Security: The Complete Guide to the Risk Most Sysadmins Forget | guide | cybersecurity |  | Build practical professional understanding |
-| 66 | low | KEEP | Browser Isolation: A Simple Extra Protection Layer | guide | cybersecurity |  | Build practical professional understanding |
-| 67 | low | KEEP | Shadow IT: The Complete Guide to Managing Unapproved Tool Usage | guide | cybersecurity |  | Build practical professional understanding |
-| 68 | low | KEEP | NIST Password Guidelines: The Complete Guide to Why Complexity Rules Stopped Being the Answer | guide |  |  | Build practical professional understanding |
-| 69 | low | KEEP | Cloud vs On-Prem Backup: The Complete Guide to Practical Considerations Beyond Cost | guide | infrastructure |  | Build practical professional understanding |
-| 70 | low | KEEP | Vulnerability Scanning vs Penetration Testing: The Complete Guide | troubleshooting | cybersecurity |  | Resolve a specific engineering problem |
-| 71 | low | KEEP | Phishing Simulation Training Programs: The Complete Guide to Effective Design | guide | cybersecurity |  | Build practical professional understanding |
-| 72 | low | KEEP | Secure API Key Management: Common Mistakes and Simple Fixes | troubleshooting | cybersecurity |  | Resolve a specific engineering problem |
-| 73 | low | KEEP | Physical Security for the Server Room: The Complete Guide to Overlooked Basics | guide | cybersecurity |  | Build practical professional understanding |
-| 74 | low | KEEP | Supply Chain Attacks: The Complete Guide to When the Risk Comes from a Trusted Vendor | guide | cybersecurity |  | Build practical professional understanding |
-| 75 | low | KEEP | Scanning Container Image Security: The Complete Guide | guide | cybersecurity |  | Build practical professional understanding |
-| 76 | low | KEEP | Guest Wi-Fi Isolation: A Simple Setup with a Big Payoff | guide | networking |  | Build practical professional understanding |
-| 77 | low | KEEP | Cyber Insurance: The Complete Guide to What It Actually Covers | guide | cybersecurity |  | Build practical professional understanding |
-| 78 | low | REWORK | IT Change Management: Why Every Change Needs Documentation | guide |  |  | Build practical professional understanding |
-| 79 | low | KEEP | MFA Methods Compared: SMS vs App vs Hardware Key | concept | cybersecurity |  | Build practical professional understanding |
-| 80 | low | KEEP | SQL Injection: How One Weak Line of Code Can Leak an Entire Database | guide | cybersecurity |  | Build practical professional understanding |
-| 81 | low | KEEP | Insider Threats: Not Every Risk Comes from Outside | guide | cybersecurity |  | Build practical professional understanding |
-| 82 | low | KEEP | Local Admin Password Rotation (LAPS): Why It Matters a Lot | guide | cybersecurity |  | Build practical professional understanding |
-| 83 | low | KEEP | Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks | concept | cybersecurity |  | Build practical professional understanding |
-| 84 | low | KEEP | N-central Vulnerability (CVE-2026-18577) Exploited After Bypassing an Earlier Patch | troubleshooting | cybersecurity | microsoft | Resolve a specific engineering problem |
-| 85 | low | KEEP | CosmosEscape Flaw in Azure Cosmos DB Exposed Full Primary Keys | concept | cybersecurity | microsoft | Build practical professional understanding |
+| 31 | medium | KEEP | Threat Modeling with STRIDE: Think Like an Attacker Before You Build | guide |  |  | Build practical professional understanding |
+| 32 | medium | KEEP | The Complete Guide to Setting Up and Managing Active Directory From Scratch | troubleshooting | cybersecurity | microsoft | Resolve a specific engineering problem |
+| 33 | medium | KEEP | The Complete Guide to Using PowerShell for System Administration | troubleshooting | infrastructure |  | Resolve a specific engineering problem |
+| 34 | medium | KEEP | How to Build a Security Incident Response Plan From Scratch | troubleshooting | cybersecurity |  | Resolve a specific engineering problem |
+| 35 | medium | KEEP | The Complete Guide to Network Traffic Analysis with Wireshark | guide | networking |  | Build practical professional understanding |
+| 36 | medium | KEEP | Understanding Kerberos: How Authentication Actually Works in Active Directory | guide | infrastructure | microsoft | Build practical professional understanding |
+| 37 | medium | KEEP | Understanding PKI and the Chain of Trust: How You Know a Certificate Is Actually Real | guide | infrastructure |  | Build practical professional understanding |
+| 38 | medium | KEEP | The Complete Guide to Network Scanning with Nmap | guide | networking |  | Build practical professional understanding |
+| 39 | medium | KEEP | Building a Successful Vulnerability Management Program: The Complete Guide | guide | cybersecurity |  | Build practical professional understanding |
+| 40 | medium | KEEP | How EDR Actually Works: The Fundamental Difference from Traditional Antivirus | troubleshooting | cybersecurity |  | Resolve a specific engineering problem |
+| 41 | medium | KEEP | Web Application Firewall (WAF): The Complete Guide | guide | cybersecurity |  | Build practical professional understanding |
+| 42 | medium | KEEP | OWASP Top 10 Overview: The Complete Guide | guide | cybersecurity |  | Build practical professional understanding |
+| 43 | medium | KEEP | Understanding the TLS Handshake: What Actually Happens Behind the Green Lock | troubleshooting |  |  | Resolve a specific engineering problem |
+| 44 | medium | KEEP | Writing Safe AI Prompts for Technical Troubleshooting: An Engineer’s Template | troubleshooting | cybersecurity |  | Resolve a specific engineering problem |
+| 45 | medium | KEEP | How LLMs Work in Enterprise IT: A Practical Guide to Trust and Risk | concept | cybersecurity |  | Build practical professional understanding |
+| 46 | medium | KEEP | Enterprise AI Image Generation: Data, Risk, and Publishing Controls | guide | cybersecurity |  | Build practical professional understanding |
+| 47 | medium | KEEP | Common Wi-Fi Problems and Their Step-by-Step Fixes | troubleshooting | networking |  | Resolve a specific engineering problem |
+| 48 | medium | REWORK | The Best Everyday Uses of AI (It's Not Just ChatGPT) | guide |  |  | Build practical professional understanding |
+| 49 | medium | KEEP | Two-Factor Authentication (2FA): A Practical Complete Guide | guide |  |  | Build practical professional understanding |
+| 50 | medium | KEEP | VPN Basics: What It Does and Doesn't Do | concept | cybersecurity |  | Build practical professional understanding |
+| 51 | medium | KEEP | Organizing Devices in Kaspersky Security Center with Tags: The Complete Guide | guide | cybersecurity | kaspersky | Build practical professional understanding |
+| 52 | medium | KEEP | Enabling Multi-User RDP and Licensing RDS Correctly: The Complete Guide | guide | infrastructure |  | Build practical professional understanding |
+| 53 | medium | KEEP | The 3-2-1 Backup Rule: The Complete Practical Guide | guide | infrastructure |  | Build practical professional understanding |
+| 54 | medium | KEEP | Email Security Gateways: The Complete Guide to What They Actually Protect Against | guide | cybersecurity | forcepoint | Build practical professional understanding |
+| 55 | medium | KEEP | VLAN Basics: The Complete Guide to Why and How to Segment a Network | guide | networking |  | Build practical professional understanding |
+| 56 | medium | KEEP | Network Monitoring Basics with SNMP: The Complete Guide | guide | networking |  | Build practical professional understanding |
+| 57 | medium | KEEP | Log Retention: The Complete Guide to Setting the Right Duration | guide | cybersecurity |  | Build practical professional understanding |
+| 58 | medium | KEEP | A Patch Management Strategy for a Small Environment | guide | infrastructure |  | Build practical professional understanding |
+| 59 | medium | KEEP | Network Segmentation for Compliance: A Simplified Practical View | guide | networking |  | Build practical professional understanding |
+| 60 | medium | KEEP | MFA Fatigue Attacks: The Complete Guide to Protecting Your Team | guide | cybersecurity |  | Build practical professional understanding |
+| 61 | low | KEEP | Reading Windows Security Logs in Event Viewer Smartly: The Complete Guide | guide | cybersecurity |  | Build practical professional understanding |
+| 62 | low | KEEP | Wi-Fi 6 vs Wi-Fi 5: The Complete Guide to Assessing the Upgrade | guide | networking |  | Build practical professional understanding |
+| 63 | low | KEEP | Dark Web Monitoring for Your Company's Data: The Complete Guide to Deciding If You Need It | guide | cybersecurity |  | Build practical professional understanding |
+| 64 | low | KEEP | SSD vs HDD for Server Storage: It's Not Just About Speed | guide | infrastructure |  | Build practical professional understanding |
+| 65 | low | KEEP | The Least Privilege Principle: The Complete Guide to a Rollout Without Chaos | guide |  |  | Build practical professional understanding |
+| 66 | low | KEEP | The First Hour After Discovering Ransomware: The Complete Guide to What to Actually Do | guide | cybersecurity |  | Build practical professional understanding |
+| 67 | low | KEEP | Printer Security: The Complete Guide to the Risk Most Sysadmins Forget | guide | cybersecurity |  | Build practical professional understanding |
+| 68 | low | KEEP | Browser Isolation: A Simple Extra Protection Layer | guide | cybersecurity |  | Build practical professional understanding |
+| 69 | low | KEEP | Shadow IT: The Complete Guide to Managing Unapproved Tool Usage | guide | cybersecurity |  | Build practical professional understanding |
+| 70 | low | KEEP | NIST Password Guidelines: The Complete Guide to Why Complexity Rules Stopped Being the Answer | guide |  |  | Build practical professional understanding |
+| 71 | low | KEEP | Cloud vs On-Prem Backup: The Complete Guide to Practical Considerations Beyond Cost | guide | infrastructure |  | Build practical professional understanding |
+| 72 | low | KEEP | Vulnerability Scanning vs Penetration Testing: The Complete Guide | troubleshooting | cybersecurity |  | Resolve a specific engineering problem |
+| 73 | low | KEEP | Phishing Simulation Training Programs: The Complete Guide to Effective Design | guide | cybersecurity |  | Build practical professional understanding |
+| 74 | low | KEEP | Secure API Key Management: Common Mistakes and Simple Fixes | troubleshooting | cybersecurity |  | Resolve a specific engineering problem |
+| 75 | low | KEEP | Physical Security for the Server Room: The Complete Guide to Overlooked Basics | guide | cybersecurity |  | Build practical professional understanding |
+| 76 | low | KEEP | Supply Chain Attacks: The Complete Guide to When the Risk Comes from a Trusted Vendor | guide | cybersecurity |  | Build practical professional understanding |
+| 77 | low | KEEP | Scanning Container Image Security: The Complete Guide | guide | cybersecurity |  | Build practical professional understanding |
+| 78 | low | KEEP | Guest Wi-Fi Isolation: A Simple Setup with a Big Payoff | guide | networking |  | Build practical professional understanding |
+| 79 | low | KEEP | Cyber Insurance: The Complete Guide to What It Actually Covers | guide | cybersecurity |  | Build practical professional understanding |
+| 80 | low | REWORK | IT Change Management: Why Every Change Needs Documentation | guide |  |  | Build practical professional understanding |
+| 81 | low | KEEP | Data Classification: Not Every File Needs the Same Protection Level | troubleshooting |  |  | Resolve a specific engineering problem |
+| 82 | low | KEEP | MFA Methods Compared: SMS vs App vs Hardware Key | concept | cybersecurity |  | Build practical professional understanding |
+| 83 | low | KEEP | SQL Injection: How One Weak Line of Code Can Leak an Entire Database | guide | cybersecurity |  | Build practical professional understanding |
+| 84 | low | KEEP | Insider Threats: Not Every Risk Comes from Outside | guide | cybersecurity |  | Build practical professional understanding |
+| 85 | low | KEEP | Local Admin Password Rotation (LAPS): Why It Matters a Lot | guide | cybersecurity |  | Build practical professional understanding |
 | 86 | high | NEW | Practical vmware implementation and troubleshooting guide | guide |  | vmware | Solve implementation and troubleshooting gaps |
 | 87 | high | NEW | Practical kaspersky implementation and troubleshooting guide | guide |  | kaspersky | Solve implementation and troubleshooting gaps |
 | 88 | high | NEW | Practical f5 implementation and troubleshooting guide | guide |  | f5 | Solve implementation and troubleshooting gaps |

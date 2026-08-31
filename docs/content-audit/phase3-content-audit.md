@@ -1,22 +1,22 @@
 # NetSec Atlas Phase 3 Content Audit
 
-Generated: 2026-08-31T05:02:53.057Z
+Generated: 2026-08-31T05:33:29.110Z
 
 > Repository-only deterministic audit. Counts are evidence from current content; no search-volume, CPC or keyword-difficulty values are invented.
 
 ## Executive answer
 
-**77% of the editorial inventory is reusable (KEEP + REWORK).** The pivot remains worth pursuing because the code architecture is strongly reusable and the professional corpus is substantial, while consumer legacy can be isolated later without destructive Phase 3 changes.
+**91.7% of the editorial inventory is reusable (KEEP + REWORK).** The pivot remains worth pursuing because the code architecture is strongly reusable and the professional corpus is substantial, while consumer legacy can be isolated later without destructive Phase 3 changes.
 
 ## Inventory and disposition
 
 - Total inventoried: 213 (129 articles, 75 comparisons, 9 static pages)
 - Editorial disposition denominator: 204
-- KEEP: 109 (53.4%)
-- REWORK: 48 (23.5%)
-- REMOVE: 47 (23%)
+- KEEP: 114 (55.9%)
+- REWORK: 73 (35.8%)
+- REMOVE: 17 (8.3%)
 - NOINDEX: 0 (0%)
-- Consumer/unrelated: 47 (23%)
+- Consumer/unrelated: 17 (8.3%)
 - Potentially thin: 71
 - Duplicate/near-duplicate groups: 0
 
@@ -25,10 +25,10 @@ Generated: 2026-08-31T05:02:53.057Z
 | name | count |
 | --- | --- |
 | consumer | 9 |
-| enterprise | 70 |
+| enterprise | 82 |
 | mixed | 7 |
-| professional-it | 80 |
-| unrelated | 38 |
+| professional-it | 98 |
+| unrelated | 8 |
 
 ## Technical value
 
@@ -42,16 +42,16 @@ Generated: 2026-08-31T05:02:53.057Z
 
 | vendorId | articleCount | troubleshootingCount | guideHowToCount | comparisonCount | keep | rework |
 | --- | --- | --- | --- | --- | --- | --- |
-| fortinet | 1 | 0 | 1 | 3 | 1 | 2 |
-| palo-alto | 1 | 0 | 1 | 6 | 1 | 4 |
-| cisco | 0 | 0 | 0 | 3 | 0 | 2 |
-| microsoft | 10 | 4 | 4 | 14 | 10 | 9 |
+| fortinet | 1 | 0 | 1 | 3 | 1 | 3 |
+| palo-alto | 1 | 0 | 1 | 6 | 1 | 6 |
+| cisco | 0 | 0 | 0 | 3 | 0 | 3 |
+| microsoft | 10 | 4 | 4 | 14 | 10 | 14 |
 | vmware | 0 | 0 | 0 | 1 | 0 | 1 |
 | kaspersky | 1 | 0 | 1 | 1 | 1 | 1 |
 | forcepoint | 2 | 1 | 1 | 3 | 2 | 3 |
 | f5 | 0 | 0 | 0 | 0 | 0 | 0 |
 | beyondtrust | 0 | 0 | 0 | 0 | 0 | 0 |
-| splunk | 0 | 0 | 0 | 2 | 0 | 0 |
+| splunk | 0 | 0 | 0 | 2 | 0 | 2 |
 | broadcom | 0 | 0 | 0 | 0 | 0 | 0 |
 | trellix | 0 | 0 | 0 | 0 | 0 | 0 |
 | rapid7 | 0 | 0 | 0 | 1 | 0 | 1 |
@@ -72,7 +72,7 @@ Generated: 2026-08-31T05:02:53.057Z
 
 ## Comparisons
 
-75 comparisons: 42 enterprise/professional, 42 reworkable, 32 consumer/unrelated.
+75 comparisons: 67 enterprise/professional, 67 reworkable, 7 consumer/unrelated.
 
 ## Major gaps
 
