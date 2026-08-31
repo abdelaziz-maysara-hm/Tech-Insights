@@ -14,7 +14,14 @@ const pages = readJson('pages.json');
 
 const arabicPattern = /[\u0600-\u06ff]/g;
 const latinPattern = /[A-Za-z]/g;
-const placeholderPattern = /\b(?:todo|tbd|lorem ipsum|placeholder|coming soon)\b|قريب[ًاا]|تحت الإنشاء/i;
+// Fixed a false-positive bug found while reworking 1password-vs-bitwarden:
+// "قريب[ًاا]" (soon) matched as a bare substring inside unrelated words like
+// "تقريبًا" (approximately) -- \b doesn't recognize Arabic letters as word
+// characters in JS regex by default, so the pattern had no real word-boundary
+// protection on its Arabic side. Added a negative lookbehind so the Arabic
+// pattern only matches when not immediately preceded by another Arabic
+// letter (a genuine standalone word, not embedded inside a longer one).
+const placeholderPattern = /\b(?:todo|tbd|lorem ipsum|placeholder|coming soon)\b|(?<![\u0600-\u06FF])قريب[ًاا]|تحت الإنشاء/i;
 
 export const PAIR_STATUS = Object.freeze({
   VALID: 'VALID_PAIR',

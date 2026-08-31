@@ -2,6 +2,15 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 5B — Batch 9: 1Password vs Bitwarden + i18n Audit False-Positive Fix
+
+- **Bilingual quality check, done explicitly per owner request** ("make sure English isn't just a translation, but genuinely real, understandable content"): manually re-read Batch 8's content first. Confirmed the English was natural, idiomatic writing (not literal translation), but sentence structure/order was near-identical to the Arabic, since both were written from the same facts in the same sequence. For this batch, deliberately wrote Arabic and English with **different emphasis and sentence order** rather than a sentence-by-sentence mirror.
+- Reworked `1password-vs-bitwarden` with cited detail from multiple independent sources: both products' zero-knowledge/AES-256/SOC 2 Type 2 parity, 1Password's Secret Key (independently ETH Zurich-audited February 2026), Bitwarden's fully open-source, publicly-audited codebase, real 2026 market-share and user-count figures, specific pricing, and a business-buyer-specific SSO architecture distinction.
+- **Found and fixed a real false-positive bug** in `translation-audit-phase4c.mjs`: the Arabic word "تقريبًا" (approximately) contains "قريبًا" (soon) as a substring, and JS regex `\b` doesn't recognize Arabic letters as word characters -- so the placeholder-language detector had no real boundary protection on its Arabic pattern and flagged normal text as an unfinished placeholder. Fixed with a negative lookbehind requiring the match not be immediately preceded by another Arabic letter.
+- **Verified impact precisely**: re-running the full i18n audit dropped INVALID_PAIR count from 19 to 8 -- 11 items beyond this one were the same false positive.
+- **Documented, not fixed, a deeper pre-existing gap**: spot-checked one remaining INVALID_PAIR (`windows-disk-cleanup-safe`, unrelated pre-existing content) and found standalone "قريبًا" used as ordinary "soon" in a normal sentence still false-flags -- Arabic's everyday temporal usage of the word isn't as rare/specific as English "coming soon," so this needs a smarter fix in a future session, not attempted here.
+- This comparison's disposition moved to KEEP (not REWORK) after the update. 66 comparisons remain in REWORK; 23 of the 25 newly-recovered comparisons still need their first content review.
+
 ## Phase 5B — Batch 8: CrowdStrike vs SentinelOne, First Recovered-Comparison Content Review
 
 - Reworked `crowdstrike-falcon-vs-sentinelone`, the first content review from the 25 comparisons recovered by the REMOVE-list audit-tool fix (previously misclassified, never actually content-reviewed).

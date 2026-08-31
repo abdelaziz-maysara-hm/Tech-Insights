@@ -1,6 +1,6 @@
 # NetSec Atlas Phase 3 Content Audit
 
-Generated: 2026-08-31T05:39:35.509Z
+Generated: 2026-08-31T05:45:49.697Z
 
 > Repository-only deterministic audit. Counts are evidence from current content; no search-volume, CPC or keyword-difficulty values are invented.
 
@@ -12,12 +12,12 @@ Generated: 2026-08-31T05:39:35.509Z
 
 - Total inventoried: 213 (129 articles, 75 comparisons, 9 static pages)
 - Editorial disposition denominator: 204
-- KEEP: 114 (55.9%)
-- REWORK: 73 (35.8%)
+- KEEP: 115 (56.4%)
+- REWORK: 72 (35.3%)
 - REMOVE: 17 (8.3%)
 - NOINDEX: 0 (0%)
 - Consumer/unrelated: 17 (8.3%)
-- Potentially thin: 70
+- Potentially thin: 69
 - Duplicate/near-duplicate groups: 0
 
 ## Strategic fit
@@ -35,8 +35,8 @@ Generated: 2026-08-31T05:39:35.509Z
 | name | count |
 | --- | --- |
 | high | 50 |
-| low | 74 |
-| medium | 80 |
+| low | 73 |
+| medium | 81 |
 
 ## Vendor coverage
 
@@ -62,9 +62,9 @@ Generated: 2026-08-31T05:39:35.509Z
 
 | domainId | count | high | medium | low |
 | --- | --- | --- | --- | --- |
-| cybersecurity | 82 | 24 | 41 | 17 |
+| cybersecurity | 83 | 24 | 42 | 17 |
 | networking | 42 | 16 | 15 | 11 |
-| infrastructure | 51 | 18 | 17 | 16 |
+| infrastructure | 52 | 18 | 18 | 16 |
 
 ## Troubleshooting
 
@@ -72,7 +72,7 @@ Generated: 2026-08-31T05:39:35.509Z
 
 ## Comparisons
 
-75 comparisons: 67 enterprise/professional, 67 reworkable, 7 consumer/unrelated.
+75 comparisons: 67 enterprise/professional, 66 reworkable, 7 consumer/unrelated.
 
 ## Major gaps
 

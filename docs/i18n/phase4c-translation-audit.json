@@ -9,21 +9,21 @@
   "totals": {
     "evaluated": 241,
     "VALID_PAIR": 0,
-    "REVIEW_PAIR": 223,
-    "INVALID_PAIR": 18
+    "REVIEW_PAIR": 233,
+    "INVALID_PAIR": 8
   },
   "byType": {
     "articles": {
       "evaluated": 129,
       "VALID_PAIR": 0,
-      "REVIEW_PAIR": 117,
-      "INVALID_PAIR": 12
+      "REVIEW_PAIR": 126,
+      "INVALID_PAIR": 3
     },
     "comparisons": {
       "evaluated": 75,
       "VALID_PAIR": 0,
-      "REVIEW_PAIR": 73,
-      "INVALID_PAIR": 2
+      "REVIEW_PAIR": 74,
+      "INVALID_PAIR": 1
     },
     "staticPages": {
       "evaluated": 9,
@@ -300,10 +300,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 335,
-          "enWords": 422,
-          "lengthRatio": 0.794,
-          "arLanguageShare": 1,
+          "arWords": 446,
+          "enWords": 495,
+          "lengthRatio": 0.901,
+          "arLanguageShare": 0.963,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -1435,23 +1435,21 @@
         "slug": "sql-injection-basics-explained",
         "kind": "article",
         "route": "/article/sql-injection-basics-explained",
-        "status": "INVALID_PAIR",
-        "reason": "Structural or language validation failed: placeholder-language.",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
-        "automatedCandidate": false,
+        "automatedCandidate": true,
         "humanReviewed": false,
         "metrics": {
           "fieldComplete": true,
-          "automatedCandidate": false,
+          "automatedCandidate": true,
           "arWords": 145,
           "enWords": 170,
           "lengthRatio": 0.853,
           "arLanguageShare": 0.862,
           "enLanguageShare": 1,
-          "signals": [
-            "placeholder-language"
-          ]
+          "signals": []
         }
       },
       {
@@ -1723,23 +1721,21 @@
         "slug": "air-gapped-networks-explained",
         "kind": "article",
         "route": "/article/air-gapped-networks-explained",
-        "status": "INVALID_PAIR",
-        "reason": "Structural or language validation failed: placeholder-language.",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
-        "automatedCandidate": false,
+        "automatedCandidate": true,
         "humanReviewed": false,
         "metrics": {
           "fieldComplete": true,
-          "automatedCandidate": false,
+          "automatedCandidate": true,
           "arWords": 318,
           "enWords": 351,
           "lengthRatio": 0.906,
           "arLanguageShare": 0.965,
           "enLanguageShare": 1,
-          "signals": [
-            "placeholder-language"
-          ]
+          "signals": []
         }
       },
       {
@@ -1858,7 +1854,7 @@
         "kind": "article",
         "route": "/article/powershell-sysadmin-complete-guide",
         "status": "INVALID_PAIR",
-        "reason": "Structural or language validation failed: arabic-side-not-predominantly-arabic, placeholder-language.",
+        "reason": "Structural or language validation failed: arabic-side-not-predominantly-arabic.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": false,
@@ -1872,8 +1868,7 @@
           "arLanguageShare": 0.543,
           "enLanguageShare": 1,
           "signals": [
-            "arabic-side-not-predominantly-arabic",
-            "placeholder-language"
+            "arabic-side-not-predominantly-arabic"
           ]
         }
       },
@@ -2234,23 +2229,21 @@
         "slug": "owasp-top-10-overview",
         "kind": "article",
         "route": "/article/owasp-top-10-overview",
-        "status": "INVALID_PAIR",
-        "reason": "Structural or language validation failed: placeholder-language.",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
-        "automatedCandidate": false,
+        "automatedCandidate": true,
         "humanReviewed": false,
         "metrics": {
           "fieldComplete": true,
-          "automatedCandidate": false,
+          "automatedCandidate": true,
           "arWords": 388,
           "enWords": 440,
           "lengthRatio": 0.882,
           "arLanguageShare": 0.863,
           "enLanguageShare": 1,
-          "signals": [
-            "placeholder-language"
-          ]
+          "signals": []
         }
       },
       {
@@ -2368,23 +2361,21 @@
         "slug": "smartphone-battery-longevity-guide",
         "kind": "article",
         "route": "/article/smartphone-battery-longevity-guide",
-        "status": "INVALID_PAIR",
-        "reason": "Structural or language validation failed: placeholder-language.",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
-        "automatedCandidate": false,
+        "automatedCandidate": true,
         "humanReviewed": false,
         "metrics": {
           "fieldComplete": true,
-          "automatedCandidate": false,
+          "automatedCandidate": true,
           "arWords": 388,
           "enWords": 427,
           "lengthRatio": 0.909,
           "arLanguageShare": 0.983,
           "enLanguageShare": 1,
-          "signals": [
-            "placeholder-language"
-          ]
+          "signals": []
         }
       },
       {
@@ -2401,10 +2392,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 362,
-          "enWords": 436,
-          "lengthRatio": 0.83,
-          "arLanguageShare": 0.99,
+          "arWords": 403,
+          "enWords": 440,
+          "lengthRatio": 0.916,
+          "arLanguageShare": 0.946,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -2414,23 +2405,21 @@
         "slug": "how-gps-actually-works",
         "kind": "article",
         "route": "/article/how-gps-actually-works",
-        "status": "INVALID_PAIR",
-        "reason": "Structural or language validation failed: placeholder-language.",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
-        "automatedCandidate": false,
+        "automatedCandidate": true,
         "humanReviewed": false,
         "metrics": {
           "fieldComplete": true,
-          "automatedCandidate": false,
+          "automatedCandidate": true,
           "arWords": 398,
           "enWords": 419,
           "lengthRatio": 0.95,
           "arLanguageShare": 0.956,
           "enLanguageShare": 1,
-          "signals": [
-            "placeholder-language"
-          ]
+          "signals": []
         }
       },
       {
@@ -2491,10 +2480,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 324,
-          "enWords": 374,
-          "lengthRatio": 0.866,
-          "arLanguageShare": 0.962,
+          "arWords": 483,
+          "enWords": 521,
+          "lengthRatio": 0.927,
+          "arLanguageShare": 0.942,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -2504,23 +2493,21 @@
         "slug": "how-qr-codes-work",
         "kind": "article",
         "route": "/article/how-qr-codes-work",
-        "status": "INVALID_PAIR",
-        "reason": "Structural or language validation failed: placeholder-language.",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
-        "automatedCandidate": false,
+        "automatedCandidate": true,
         "humanReviewed": false,
         "metrics": {
           "fieldComplete": true,
-          "automatedCandidate": false,
+          "automatedCandidate": true,
           "arWords": 308,
           "enWords": 355,
           "lengthRatio": 0.868,
           "arLanguageShare": 0.912,
           "enLanguageShare": 1,
-          "signals": [
-            "placeholder-language"
-          ]
+          "signals": []
         }
       },
       {
@@ -2581,10 +2568,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 364,
-          "enWords": 406,
-          "lengthRatio": 0.897,
-          "arLanguageShare": 0.983,
+          "arWords": 527,
+          "enWords": 597,
+          "lengthRatio": 0.883,
+          "arLanguageShare": 0.969,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -2616,23 +2603,21 @@
         "slug": "ios-vs-android-choosing-guide",
         "kind": "article",
         "route": "/article/ios-vs-android-choosing-guide",
-        "status": "INVALID_PAIR",
-        "reason": "Structural or language validation failed: placeholder-language.",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
-        "automatedCandidate": false,
+        "automatedCandidate": true,
         "humanReviewed": false,
         "metrics": {
           "fieldComplete": true,
-          "automatedCandidate": false,
+          "automatedCandidate": true,
           "arWords": 276,
           "enWords": 320,
           "lengthRatio": 0.863,
           "arLanguageShare": 0.958,
           "enLanguageShare": 1,
-          "signals": [
-            "placeholder-language"
-          ]
+          "signals": []
         }
       },
       {
@@ -2662,23 +2647,21 @@
         "slug": "phone-storage-full-fixes",
         "kind": "article",
         "route": "/article/phone-storage-full-fixes",
-        "status": "INVALID_PAIR",
-        "reason": "Structural or language validation failed: placeholder-language.",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
-        "automatedCandidate": false,
+        "automatedCandidate": true,
         "humanReviewed": false,
         "metrics": {
           "fieldComplete": true,
-          "automatedCandidate": false,
+          "automatedCandidate": true,
           "arWords": 308,
           "enWords": 324,
           "lengthRatio": 0.951,
           "arLanguageShare": 0.983,
           "enLanguageShare": 1,
-          "signals": [
-            "placeholder-language"
-          ]
+          "signals": []
         }
       },
       {
@@ -2708,23 +2691,21 @@
         "slug": "laptop-battery-health-guide",
         "kind": "article",
         "route": "/article/laptop-battery-health-guide",
-        "status": "INVALID_PAIR",
-        "reason": "Structural or language validation failed: placeholder-language.",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
-        "automatedCandidate": false,
+        "automatedCandidate": true,
         "humanReviewed": false,
         "metrics": {
           "fieldComplete": true,
-          "automatedCandidate": false,
+          "automatedCandidate": true,
           "arWords": 379,
           "enWords": 379,
           "lengthRatio": 1,
           "arLanguageShare": 0.943,
           "enLanguageShare": 1,
-          "signals": [
-            "placeholder-language"
-          ]
+          "signals": []
         }
       },
       {
@@ -2976,23 +2957,21 @@
         "slug": "thinkpad-x1-vs-hp-elitebook",
         "kind": "comparison",
         "route": "/comparison/thinkpad-x1-vs-hp-elitebook",
-        "status": "INVALID_PAIR",
-        "reason": "Structural or language validation failed: placeholder-language.",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
-        "automatedCandidate": false,
+        "automatedCandidate": true,
         "humanReviewed": false,
         "metrics": {
           "fieldComplete": true,
-          "automatedCandidate": false,
+          "automatedCandidate": true,
           "arWords": 26,
           "enWords": 26,
           "lengthRatio": 1,
           "arLanguageShare": 1,
           "enLanguageShare": 1,
-          "signals": [
-            "placeholder-language"
-          ]
+          "signals": []
         }
       },
       {
@@ -3031,10 +3010,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 27,
-          "enWords": 36,
-          "lengthRatio": 0.75,
-          "arLanguageShare": 0.842,
+          "arWords": 184,
+          "enWords": 185,
+          "lengthRatio": 0.995,
+          "arLanguageShare": 0.895,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -3141,10 +3120,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 23,
-          "enWords": 33,
-          "lengthRatio": 0.697,
-          "arLanguageShare": 0.868,
+          "arWords": 142,
+          "enWords": 161,
+          "lengthRatio": 0.882,
+          "arLanguageShare": 0.886,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -3185,10 +3164,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 23,
-          "enWords": 30,
-          "lengthRatio": 0.767,
-          "arLanguageShare": 0.629,
+          "arWords": 150,
+          "enWords": 159,
+          "lengthRatio": 0.943,
+          "arLanguageShare": 0.841,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -3229,10 +3208,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 25,
-          "enWords": 32,
-          "lengthRatio": 0.781,
-          "arLanguageShare": 0.836,
+          "arWords": 185,
+          "enWords": 184,
+          "lengthRatio": 0.995,
+          "arLanguageShare": 0.819,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -3317,10 +3296,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 24,
-          "enWords": 30,
-          "lengthRatio": 0.8,
-          "arLanguageShare": 0.855,
+          "arWords": 126,
+          "enWords": 135,
+          "lengthRatio": 0.933,
+          "arLanguageShare": 0.863,
           "enLanguageShare": 1,
           "signals": []
         }

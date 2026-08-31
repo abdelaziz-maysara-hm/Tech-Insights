@@ -1479,8 +1479,8 @@
       "en": "1Password vs Bitwarden"
     },
     "excerpt": {
-      "ar": "1Password أنعم في التجربة اليومية. Bitwarden خيار ممتاز لو الميزانية أولوية أو بتفضّل مفتوح المصدر — الفرق العملي بينهم",
-      "en": "1Password feels smoother day-to-day. Bitwarden is an excellent choice if budget matters or you prefer open source — the practical gap betwee"
+      "ar": "بعد اختراق LastPass الشهير سنة 2022، بقى تدقيق أمان خزائن كلمات المرور موضوع جدّي فعلًا، وكل من 1Password وBitwarden من أكتر المنتجات اللي استقبلت المستخدمين اللي هربوا وقتها. مفيش فرق جوهري بينهم في الأمان الأساسي: الاثنين zero-knowledge، وتشفير AES-256، وشهادة SOC 2 Type 2. الفارق العملي: 1Password عندها ميزة Secret Key (عامل حماية ثانٍ إضافي بجانب كلمة السر الرئيسية، اتفحصه ETH Zurich بشكل مستقل في فبراير 2026 ومطلعش أي ثغرة هجوم جديدة)، بينما Bitwarden مميزّة إنها مفتوحة المصدر بالكامل (العميل والسيرفر مع بعض) وقابلة للتدقيق من أي حد، مش بس تدقيق داخلي.",
+      "en": "Password vault security got real scrutiny after the 2022 LastPass breach, and both 1Password and Bitwarden are among the products that absorbed the users who left. Both are zero-knowledge, AES-256 encrypted, and SOC 2 Type 2 certified -- on core security architecture, there's no meaningful gap between them. 1Password adds a Secret Key (a second, high-entropy factor beyond your master password) and was independently tested by ETH Zurich in February 2026 with no new attack vectors reported. Bitwarden's differentiator is that its client and server code are fully open source and publicly auditable (Cure53 and Insight Risk Consulting have both published findings), not just internally audited."
     },
     "device1Name": "1Password",
     "device2Name": "Bitwarden",
@@ -1545,8 +1545,8 @@
       }
     },
     "verdict": {
-      "ar": "1Password أنعم في التجربة اليومية. Bitwarden خيار ممتاز لو الميزانية أولوية أو بتفضّل مفتوح المصدر — الفرق العملي بينهم أصغر بكتير من فرق السعر.",
-      "en": "1Password feels smoother day-to-day. Bitwarden is an excellent choice if budget matters or you prefer open source — the practical gap between them is much smaller than the price gap."
+      "ar": "1Password أنعم في التجربة اليومية. Bitwarden خيار ممتاز لو الميزانية أولوية أو بتفضّل مفتوح المصدر — الفرق العملي بينهم أصغر بكتير من فرق السعر. من ناحية موقع السوق: Bitwarden تخطت 15 مليون مستخدم و80 ألف شركة حول العالم لغاية يوليو 2026، وتتبّع الحصة السوقية حطّها بفارق بسيط قدّام 1Password إجمالًا (8% مقابل 7%). التسعير هو نقطة الاختلاف الحقيقية بينهم -- 1Password تقريبًا 36-72 دولار سنويًا للأفراد والعائلات، مقابل خطة Bitwarden المدفوعة بحوالي 10 دولار سنويًا بس، وعندها كمان خطة مجانية فعليًا مفيدة ومش موجودة عند 1Password. بالنسبة لمشتري الشركات تحديدًا: فتح قفل SSO في 1Password بيوثّق التطبيق نفسه مقابل مزوّد الهوية بتاعك، بينما SSO بدون كلمة سر في Bitwarden ممكن يشتغل ضد سيرفر سحابي أو مستضاف ذاتيًا -- ده اختيار معماري حقيقي، مش بس مسألة تسعير.",
+      "en": "1Password feels smoother day-to-day. Bitwarden is an excellent choice if budget matters or you prefer open source — the practical gap between them is much smaller than the price gap. On market position: Bitwarden had passed 15 million users and 80,000 businesses worldwide as of July 2026, and market-share tracking put it narrowly ahead of 1Password overall (8% vs. 7%). Pricing is where the two genuinely diverge -- 1Password runs roughly $36-72/year for individuals and families, versus Bitwarden's Premium tier at about $10/year, with a genuinely usable free tier Bitwarden offers and 1Password doesn't. For a business buyer specifically: 1Password's native SSO unlock authenticates the app itself against your identity provider, while Bitwarden's passwordless SSO can run against either a cloud or a self-hosted server -- a real architectural choice, not just a pricing one."
     }
   },
   {

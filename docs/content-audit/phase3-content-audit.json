@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T05:39:35.509Z",
+  "generatedAt": "2026-08-31T05:45:49.697Z",
   "methodology": {
     "note": "Repository-only deterministic heuristics; no fabricated SEO metrics.",
     "dispositionDenominator": "Editorial items: articles plus comparisons",
@@ -70,14 +70,14 @@
   },
   "statistics": {
     "disposition": {
-      "KEEP": 114,
+      "KEEP": 115,
       "REMOVE": 17,
-      "REWORK": 73
+      "REWORK": 72
     },
     "dispositionPercent": {
-      "KEEP": 55.9,
+      "KEEP": 56.4,
       "REMOVE": 8.3,
-      "REWORK": 35.8
+      "REWORK": 35.3
     },
     "strategicFit": {
       "consumer": 9,
@@ -88,13 +88,13 @@
     },
     "technicalValue": {
       "high": 50,
-      "low": 74,
-      "medium": 80
+      "low": 73,
+      "medium": 81
     },
     "vendorAssociated": 45,
     "troubleshooting": 29,
     "duplicateNearDuplicateGroups": 0,
-    "potentiallyThin": 70,
+    "potentiallyThin": 69,
     "reusableItems": 187,
     "reusablePercent": 91.7
   },
@@ -247,14 +247,14 @@
   "domainCoverage": [
     {
       "domainId": "cybersecurity",
-      "count": 82,
+      "count": 83,
       "high": 24,
-      "medium": 41,
+      "medium": 42,
       "low": 17,
       "topics": {
         "firewalls": 7,
         "vpn": 3,
-        "siem-soc": 7,
+        "siem-soc": 8,
         "endpoint-security": 11,
         "active-directory": 3,
         "dns": 1,
@@ -292,14 +292,14 @@
     },
     {
       "domainId": "infrastructure",
-      "count": 51,
+      "count": 52,
       "high": 18,
-      "medium": 17,
+      "medium": 18,
       "low": 16,
       "topics": {
         "firewalls": 2,
         "vpn": 1,
-        "siem-soc": 2,
+        "siem-soc": 3,
         "endpoint-security": 2,
         "active-directory": 4,
         "pki-certificates": 3,
@@ -349,7 +349,7 @@
   "comparisonAnalysis": {
     "total": 75,
     "enterpriseProfessional": 67,
-    "reworkable": 67,
+    "reworkable": 66,
     "consumerUnrelated": 7
   },
   "duplicateGroups": [],
@@ -4227,20 +4227,25 @@
       "titleEn": "1Password vs Bitwarden",
       "source": "comparison",
       "currentCategory": "comparisons",
-      "inferredDomains": [],
-      "inferredTopics": [],
+      "inferredDomains": [
+        "cybersecurity",
+        "infrastructure"
+      ],
+      "inferredTopics": [
+        "siem-soc"
+      ],
       "inferredVendors": [],
       "inferredProducts": [],
       "inferredContentType": "comparison",
       "strategicFit": "professional-it",
-      "proposedDisposition": "REWORK",
-      "confidence": "medium",
-      "reason": " professional technical content",
+      "proposedDisposition": "KEEP",
+      "confidence": "high",
+      "reason": "cybersecurity, infrastructure professional technical content",
       "currentURL": "/comparison/1password-vs-bitwarden",
-      "wordCount": 94,
+      "wordCount": 283,
       "lastUpdated": "2024-12-19",
-      "technicalValue": "low",
-      "potentiallyThin": true
+      "technicalValue": "medium",
+      "potentiallyThin": false
     },
     {
       "id": "cmp-gen-0020",
