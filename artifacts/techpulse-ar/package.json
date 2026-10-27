@@ -25,6 +25,7 @@
     "test:bundle-budget": "node scripts/check-bundle-budget.mjs",
     "test:redirects": "node --test scripts/legacy-redirect.test.ts",
     "test:phase4e": "node --test scripts/phase4e-validation.test.mjs",
+    "test:web-tools": "node --test scripts/web-tools.test.ts",
     "rss": "node scripts/generate-rss.mjs",
     "audit:phase3": "node scripts/content-audit-phase3.mjs",
     "apply:phase5a": "node scripts/apply-phase5a-metadata.mjs",

@@ -11,7 +11,7 @@ const RSS_PATH = new URL('../public/rss.xml', import.meta.url);
 const expectedRoutes = [
   '/', '/articles', '/article/:slug', '/comparisons', '/comparison/:slug',
   '/videos', '/categories', '/search', '/page/:slug', '/troubleshooting',
-  '/guides', '/tools', '/vendors/:vendor', '/vendors', '/domain/:domain',
+  '/guides', '/tools', '/tools/:slug', '/vendors/:vendor', '/vendors', '/domain/:domain',
 ];
 
 test('keeps the complete route surface with the catch-all last', async () => {
@@ -38,7 +38,7 @@ test('marks not-found pages noindex and removes canonical structured signals', a
 test('keeps sitemap canonical-only and production-domain consistent', async () => {
   const sitemap = await readFile(SITEMAP_PATH, 'utf8');
   const locations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
-  assert.equal(locations.length, 267);
+  assert.equal(locations.length, 275);
   assert.equal(new Set(locations).size, locations.length);
   assert.ok(locations.every((url) => /^https:\/\/netsecatlas\.com\/(ar|en)\//.test(url)));
   assert.doesNotMatch(sitemap, /technical-insights\.com/i);

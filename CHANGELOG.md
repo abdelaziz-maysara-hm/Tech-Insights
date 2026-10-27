@@ -2,6 +2,17 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 7 — Batch 1: Client-Side Network & Email-Security Web Tools
+
+- Added the first four browser-only web tools at `/{ar,en}/tools/:slug`, all bilingual and running fully client-side (no backend, no network calls, nothing the user types leaves the browser):
+  - `vlsm-subnet-calculator` — largest-first VLSM allocation inside a parent IPv4 block, with masks, wildcards, usable ranges, unused space per subnet, and remaining free ranges.
+  - `ip-range-to-cidr-wildcard` — minimal CIDR cover for any start–end range (or CIDR/single address), with netmask and ACL wildcard per block, plus a prefix/netmask/wildcard converter that rejects non-contiguous masks.
+  - `spf-record-analyzer` — RFC 7208 syntax analysis of a pasted record (quoted multi-string input joined as receivers do): per-term qualifier/result, DNS-lookup count at the top level against the 10-lookup limit, `+all`/`?all`, terms after `all`, ignored `redirect`, duplicate modifiers, `ptr`, 255-char strings and the 450-octet guidance. Nested include lookups are explicitly not counted (no DNS access) and the UI says so.
+  - `dmarc-record-analyzer` — analyzer and generator based on RFC 9989 (May 2026, obsoletes RFC 7489): `v=DMARC1` first and exact, effective `p`/`sp`/`np` with fallback, `t=y` test mode, `psd`, historic `pct`/`rf`/`ri`, duplicate tags, invalid values falling back to defaults, `fo` syntax, non-mailto URIs.
+- Content (intro, how-to, notes, FAQ, RFC references) lives in `src/content/web-tools.json`, written independently per language; pure logic lives in `src/lib/tools/` and UI in `src/components/tools/` + `src/pages/ToolDetail.tsx` (each tool widget is a lazy chunk).
+- Wiring: App route `/tools/:slug`, legacy-redirect pattern, hreflang discovery routes (bilingual UI, per ADR-016), sitemap generator (+8 URLs: 275 total, 245 ar / 30 en, 60 alternate blocks), SEO prerender `tool` branch with WebApplication JSON-LD, a "Free web tools" section on `/tools` (existing Atlas Apps content unchanged), and tool matches on `/search`.
+- Tests: new `test:web-tools` (21 tests: subnet math, VLSM, range→CIDR, SPF, DMARC, builder, content completeness), a tool-route case in `test:seo-prerender`, and updated sitemap/route counts in `test:sitemap` and `test:phase4e`.
+
 ## Phase 5B — i18n Audit Follow-Up Fix: Context-Length-Gated Arabic "Soon" Detection
 
 - Closed the deeper gap Batch 9 documented but didn't fix: the placeholder-language detector still false-flagged standalone "قريبًا" (soon) used as ordinary temporal language in normal-length sentences (e.g. `windows-disk-cleanup-safe`'s "you might need to revert to a previous version soon"), since Arabic's everyday usage of the word isn't as narrow/specific as English "coming soon."

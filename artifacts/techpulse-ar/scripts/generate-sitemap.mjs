@@ -47,6 +47,7 @@ const baseRoutes = [
 const articles = loadJson('src/content/articles.json');
 const comparisons = loadJson('src/content/comparisons.json');
 const pages = loadJson('src/content/pages.json');
+const webTools = loadJson('src/content/web-tools.json');
 const vendorRoutes = policy.eligibleDiscoveryRoutes
   .filter((path) => path.startsWith('/vendors/'))
   .map((path) => ({ path, priority: '0.8', changefreq: 'weekly' }));
@@ -54,6 +55,12 @@ const vendorRoutes = policy.eligibleDiscoveryRoutes
 const routes = [
   ...baseRoutes,
   ...vendorRoutes,
+  ...webTools.filter((item) => item?.slug).map((item) => ({
+    path: `/tools/${item.slug}`,
+    priority: '0.8',
+    changefreq: 'monthly',
+    lastmod: typeof item.updated === 'string' ? item.updated.slice(0, 10) : today,
+  })),
   ...articles.filter((item) => item?.slug).map((item) => ({
     path: `/article/${item.slug}`,
     priority: item.isFeatured ? '0.9' : '0.8',

@@ -134,6 +134,27 @@ export function injectSeoIntoShell(shellHtml, seo) {
     tags.push(
       `<script type="application/ld+json" id="jsonld-website">${safeJsonLd(jsonLd)}</script>`,
     );
+  } else if (seo.source === 'tool' && seo.title) {
+    const jsonLd = {
+      '@context': 'https://schema.org',
+      '@type': 'WebApplication',
+      name: seo.title,
+      description: desc,
+      url: seo.canonical,
+      inLanguage: seo.lang === 'ar' ? 'ar' : 'en',
+      applicationCategory: 'UtilitiesApplication',
+      operatingSystem: 'Any (web browser)',
+      isAccessibleForFree: true,
+      offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+      publisher: {
+        '@type': 'Organization',
+        name: SITE.organization.name,
+        url: SITE.organization.url,
+      },
+    };
+    tags.push(
+      `<script type="application/ld+json" id="jsonld-tool">${safeJsonLd(jsonLd)}</script>`,
+    );
   }
 
   const injection = tags.map((t) => `    ${t}`).join('\n') + '\n';

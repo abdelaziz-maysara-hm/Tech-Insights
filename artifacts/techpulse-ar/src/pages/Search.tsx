@@ -6,6 +6,8 @@ import { useAllArticles } from '@/hooks/useAllArticles';
 import { Search as SearchIcon } from 'lucide-react';
 import type { Category } from '@/data/mockData';
 import { rankArticles } from '@/lib/searchRanking';
+import { Link } from 'wouter';
+import { searchWebTools } from '@/data/webTools';
 
 const CATEGORIES: Category[] = [
   'cybersecurity',
@@ -45,6 +47,8 @@ export default function Search() {
   const results = useMemo(() => {
     return rankArticles(allArticles, query, category).map((r) => r.article);
   }, [allArticles, query, category]);
+
+  const toolMatches = useMemo(() => (category === 'all' ? searchWebTools(query) : []), [query, category]);
 
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -102,6 +106,22 @@ export default function Search() {
           </p>
         )}
       </div>
+
+      {toolMatches.length > 0 && (
+        <section className="max-w-3xl mx-auto mb-10" aria-label={language === 'ar' ? 'أدوات مطابقة' : 'Matching tools'}>
+          <h2 className="text-lg font-semibold mb-3">{language === 'ar' ? 'أدوات مطابقة' : 'Matching tools'}</h2>
+          <ul className="space-y-2">
+            {toolMatches.map((tool) => (
+              <li key={tool.slug}>
+                <Link href={`/tools/${tool.slug}`} className="block rounded-lg border border-border bg-card p-4 hover:border-primary">
+                  <span className="font-semibold">{tool.title[language]}</span>
+                  <span className="block text-sm text-muted-foreground mt-1">{tool.summary[language]}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {results.length > 0 ? (

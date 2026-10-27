@@ -26,6 +26,10 @@
     "/vendors/trellix",
     "/vendors/rapid7",
     "/vendors/infoblox",
-    "/vendors/sophos"
+    "/vendors/sophos",
+    "/tools/vlsm-subnet-calculator",
+    "/tools/ip-range-to-cidr-wildcard",
+    "/tools/spf-record-analyzer",
+    "/tools/dmarc-record-analyzer"
   ]
 }

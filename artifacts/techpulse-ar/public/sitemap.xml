@@ -427,6 +427,78 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://netsecatlas.com/ar/tools/vlsm-subnet-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools/vlsm-subnet-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools/vlsm-subnet-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools/vlsm-subnet-calculator" />
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/tools/vlsm-subnet-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools/vlsm-subnet-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools/vlsm-subnet-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools/vlsm-subnet-calculator" />
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/tools/ip-range-to-cidr-wildcard</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools/ip-range-to-cidr-wildcard" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools/ip-range-to-cidr-wildcard" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools/ip-range-to-cidr-wildcard" />
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/tools/ip-range-to-cidr-wildcard</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools/ip-range-to-cidr-wildcard" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools/ip-range-to-cidr-wildcard" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools/ip-range-to-cidr-wildcard" />
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/tools/spf-record-analyzer</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools/spf-record-analyzer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools/spf-record-analyzer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools/spf-record-analyzer" />
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/tools/spf-record-analyzer</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools/spf-record-analyzer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools/spf-record-analyzer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools/spf-record-analyzer" />
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/tools/dmarc-record-analyzer</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools/dmarc-record-analyzer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools/dmarc-record-analyzer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools/dmarc-record-analyzer" />
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/tools/dmarc-record-analyzer</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools/dmarc-record-analyzer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools/dmarc-record-analyzer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools/dmarc-record-analyzer" />
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://netsecatlas.com/ar/article/2fa-practical-guide</loc>
     <lastmod>2022-01-01</lastmod>
     <changefreq>weekly</changefreq>

@@ -171,6 +171,7 @@ export function loadContentIndexes() {
   const articles = loadJson('src/content/articles.json');
   const comparisons = loadJson('src/content/comparisons.json');
   const pages = loadJson('src/content/pages.json');
+  const webTools = loadJson('src/content/web-tools.json');
   const policy = loadPolicy();
   let vendors = [];
   let domains = [];
@@ -184,6 +185,7 @@ export function loadContentIndexes() {
     articlesBySlug: new Map(articles.map((a) => [a.slug, a])),
     comparisonsBySlug: new Map(comparisons.map((c) => [c.slug, c])),
     pagesBySlug: new Map(pages.map((p) => [p.slug, p])),
+    toolsBySlug: new Map(webTools.map((t) => [t.slug, t])),
     vendorsById: new Map(vendors.map((v) => [v.id, v])),
     domainsById: new Map(domains.map((d) => [d.id, d])),
     reviewedContentRoutes: new Set(policy.reviewedContentRoutes || []),
@@ -290,6 +292,17 @@ export function resolveRouteSeo(pathname, indexes) {
         title: pickLocalized(item.title, lang),
         description: lang === 'ar' ? SITE.descriptionAr : SITE.descriptionEn,
         source: 'page',
+      };
+    }
+  }
+  if ((m = identity.match(/^\/tools\/([^/]+)$/))) {
+    const tool = indexes.toolsBySlug?.get(m[1]);
+    if (tool) {
+      return {
+        ...base,
+        title: pickLocalized(tool.title, lang),
+        description: pickLocalized(tool.metaDescription, lang),
+        source: 'tool',
       };
     }
   }

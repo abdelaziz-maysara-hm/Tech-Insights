@@ -227,3 +227,29 @@ test('escape helpers and json-ld safety', () => {
   assert.ok(safeJsonLd({ a: '</script>' }).includes('\\u003c'));
   assert.equal(pickLocalized({ ar: 'أ', en: 'E' }, 'ar'), 'أ');
 });
+
+test('web tool routes resolve localized metadata, alternates and WebApplication JSON-LD', () => {
+  const indexes = makeIndexes({
+    toolsBySlug: new Map([
+      [
+        'sample-tool',
+        {
+          slug: 'sample-tool',
+          title: { ar: 'أداة تجريبية', en: 'Sample Tool' },
+          metaDescription: { ar: 'وصف الأداة', en: 'Tool description' },
+        },
+      ],
+    ]),
+    eligibleDiscoveryRoutes: new Set(['/tools/sample-tool']),
+  });
+  const ar = resolveRouteSeo('/ar/tools/sample-tool', indexes);
+  assert.equal(ar.source, 'tool');
+  assert.equal(ar.title, 'أداة تجريبية');
+  assert.equal(ar.alternates.length, 3);
+  const en = resolveRouteSeo('/en/tools/sample-tool', indexes);
+  assert.equal(en.title, 'Sample Tool');
+  assert.equal(en.description, 'Tool description');
+  const html = injectSeoIntoShell(shell, en);
+  assert.match(html, /"@type":"WebApplication"/);
+  assert.equal(resolveRouteSeo('/ar/tools/missing', indexes).source, 'fallback');
+});

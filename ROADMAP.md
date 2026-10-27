@@ -102,6 +102,8 @@ Every claim about a listed alternative (features, pricing tier, review scores) m
 
 ### Phase 7 — Professional Tools
 
+**Status: IN PROGRESS.** Batch 1 shipped four client-side tools under `/{ar,en}/tools/:slug`: VLSM calculator, IP range → CIDR/wildcard converter, SPF analyzer, and DMARC analyzer/generator (RFC 9989). Plain subnet/CIDR, hash, JWT and similar utilities already exist on adawaty.tools and are linked from `/tools`, so they are lower priority here. Remaining candidates: certificate/PEM decoder, IOC defanger/extractor, syslog parser, timestamp converter, IPv6 subnet calculator. DNS/MX lookups need a network resolver and therefore a separate privacy/threat decision.
+
 - Networking: Subnet, CIDR, IP Range, and VLSM calculators.
 - DNS/email: DNS and MX lookup, SPF analyzer, DMARC analyzer/generator.
 - Security: hash utilities, JWT and certificate decoders, IOC utilities.

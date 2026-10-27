@@ -2,6 +2,8 @@ import { useLanguage } from '@/context/LanguageContext';
 import { useSEO } from '@/hooks/useSEO';
 import { ADAWATY_ORIGIN, ADAWATY_SECURITY } from '@/data/adawaty';
 import { ExternalLink } from 'lucide-react';
+import { Link } from 'wouter';
+import { WEB_TOOLS, WEB_TOOL_CATEGORY_LABELS } from '@/data/webTools';
 
 const APPS = [
   {
@@ -90,6 +92,9 @@ export default function Tools() {
         <a href="#manual" className="inline-block mt-4 text-sm font-medium text-primary hover:underline">
           {ar ? 'دليل الإعداد والاستخدام ↓' : 'Setup and usage guide ↓'}
         </a>
+        <a href="#web-tools" className="inline-block mt-4 ms-4 text-sm font-medium text-primary hover:underline">
+          {ar ? 'أدوات ويب مجانية ↓' : 'Free web tools ↓'}
+        </a>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -109,6 +114,32 @@ export default function Tools() {
           </article>
         ))}
       </div>
+
+      <section id="web-tools" className="mt-14 scroll-mt-24" aria-labelledby="web-tools-heading">
+        <h2 id="web-tools-heading" className="text-2xl font-bold">
+          {ar ? 'أدوات ويب مجانية' : 'Free web tools'}
+        </h2>
+        <p className="mt-2 max-w-3xl text-sm text-muted-foreground">
+          {ar
+            ? 'تعمل داخل المتصفح مباشرةً، بلا تثبيت ولا تسجيل، ولا تُرسل ما تكتبه إلى أي خادم.'
+            : 'They run right in the browser — no install, no sign-up, and nothing you type leaves your device.'}
+        </p>
+        <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2">
+          {WEB_TOOLS.map((tool) => (
+            <Link
+              key={tool.slug}
+              href={`/tools/${tool.slug}`}
+              className="block rounded-xl border border-border bg-card p-5 transition-colors hover:border-primary"
+            >
+              <span className="text-xs font-medium text-primary">
+                {WEB_TOOL_CATEGORY_LABELS[tool.category][language]}
+              </span>
+              <h3 className="mt-1 text-lg font-bold">{tool.title[language]}</h3>
+              <p className="mt-2 text-sm text-muted-foreground">{tool.summary[language]}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
 
       <section id="manual" className="mt-16 max-w-3xl scroll-mt-24">
         <h2 className="text-2xl font-bold">{ar ? 'دليل الإعداد والاستخدام' : 'Setup and usage'}</h2>

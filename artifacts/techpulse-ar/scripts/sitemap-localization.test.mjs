@@ -8,10 +8,10 @@ const arLocations = locations.filter((location) => location.startsWith('https://
 const enLocations = locations.filter((location) => location.startsWith('https://netsecatlas.com/en/'));
 
 test('emits only unique localized production canonical locations', () => {
-  assert.equal(locations.length, 267);
+  assert.equal(locations.length, 275);
   assert.equal(new Set(locations).size, locations.length);
-  assert.equal(arLocations.length, 241);
-  assert.equal(enLocations.length, 26);
+  assert.equal(arLocations.length, 245);
+  assert.equal(enLocations.length, 30);
   assert.ok(locations.every((location) => /^https:\/\/netsecatlas\.com\/(ar|en)\//.test(location)));
 });
 
@@ -25,7 +25,7 @@ test('adds reciprocal XHTML alternates only to eligible pairs', () => {
   assert.match(xml, /xmlns:xhtml="http:\/\/www\.w3\.org\/1999\/xhtml"/);
   const urlBlocks = [...xml.matchAll(/<url>\s*([\s\S]*?)\s*<\/url>/g)].map((match) => match[1]);
   const eligibleBlocks = urlBlocks.filter((block) => block.includes('xhtml:link'));
-  assert.equal(eligibleBlocks.length, 52);
+  assert.equal(eligibleBlocks.length, 60);
   for (const block of eligibleBlocks) {
     assert.equal((block.match(/hreflang="ar"/g) ?? []).length, 1);
     assert.equal((block.match(/hreflang="en"/g) ?? []).length, 1);
@@ -35,7 +35,7 @@ test('adds reciprocal XHTML alternates only to eligible pairs', () => {
 
 test('uses Arabic localized canonicals for x-default', () => {
   const defaults = [...xml.matchAll(/hreflang="x-default" href="([^"]+)"/g)].map((match) => match[1]);
-  assert.equal(defaults.length, 52);
+  assert.equal(defaults.length, 60);
   assert.ok(defaults.every((href) => href.startsWith('https://netsecatlas.com/ar/')));
 });
 
