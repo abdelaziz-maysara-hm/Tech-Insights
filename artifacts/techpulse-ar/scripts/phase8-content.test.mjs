@@ -19,7 +19,7 @@ const dist = fileURLToPath(new URL('../dist/public/', import.meta.url));
 const slugs = new Set(articles.map((a) => a.slug));
 const NEW = readdirSync(new URL('./phase8/content/', import.meta.url)).filter((f) => f.endsWith('.mjs')).map((f) => f.replace(/\.mjs$/, ''));
 const ENGLISH = readdirSync(new URL('./phase8/english/', import.meta.url)).filter((f) => f.endsWith('.md')).map((f) => f.replace(/\.md$/, ''));
-const COMPARISONS_EN = readdirSync(new URL('./phase8/comparisons-en/', import.meta.url)).filter((f) => f.endsWith('.json')).map((f) => f.replace(/\.json$/, ''));
+const COMPARISONS_EN = (existsSync(new URL('./phase8/comparisons-en/', import.meta.url)) ? readdirSync(new URL('./phase8/comparisons-en/', import.meta.url)) : []).filter((f) => f.endsWith('.json')).map((f) => f.replace(/\.json$/, ''));
 
 test('13 planned articles are published, dated, referenced and bilingual', () => {
   assert.equal(NEW.length, 13);
