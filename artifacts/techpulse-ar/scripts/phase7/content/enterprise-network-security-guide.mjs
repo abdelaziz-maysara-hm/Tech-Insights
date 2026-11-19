@@ -159,7 +159,7 @@ export default {
 - [NIST SP 800-207: Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final)
 - [NIST SP 800-41 Rev. 1: Guidelines on Firewalls and Firewall Policy](https://csrc.nist.gov/pubs/sp/800/41/r1/final)
 - [Fortinet: SSL VPN tunnel mode to IPsec VPN migration (FortiOS 7.6.3)](https://docs.fortinet.com/document/fortigate/7.6.3/administration-guide/155142/ssl-vpn-tunnel-mode-to-ipsec-vpn-migration)
-- [CISA: Network Infrastructure Security Guide](https://www.cisa.gov/resources-tools/resources/network-infrastructure-security-guide)
+- [NSA: Network Infrastructure Security Guide](https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/2949885/nsa-details-network-infrastructure-best-practices/)
 `,
     en: `## Why network security needs a plan, not a box
 
@@ -302,7 +302,7 @@ No. VLANs only separate broadcast domains; blocking traffic between segments req
 - [NIST SP 800-207: Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final)
 - [NIST SP 800-41 Rev. 1: Guidelines on Firewalls and Firewall Policy](https://csrc.nist.gov/pubs/sp/800/41/r1/final)
 - [Fortinet: SSL VPN tunnel mode to IPsec VPN migration (FortiOS 7.6.3)](https://docs.fortinet.com/document/fortigate/7.6.3/administration-guide/155142/ssl-vpn-tunnel-mode-to-ipsec-vpn-migration)
-- [CISA: Network Infrastructure Security Guide](https://www.cisa.gov/resources-tools/resources/network-infrastructure-security-guide)
+- [NSA: Network Infrastructure Security Guide](https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/2949885/nsa-details-network-infrastructure-best-practices/)
 `,
   },
 };

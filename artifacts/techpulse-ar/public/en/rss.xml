@@ -252,11 +252,11 @@
       <category>dns</category>
     </item>
     <item>
-      <title>Enterprise Email Security: The Complete Guide to SPF, DKIM and DMARC</title>
+      <title>Enterprise Email Security: The Complete Guide to SPF, DKIM, DMARC and Inbound Defence</title>
       <link>https://netsecatlas.com/en/article/enterprise-email-security-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/enterprise-email-security-guide</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>How to protect your domain and users: SPF, DKIM and DMARC authentication, Gmail, Yahoo and Outlook sender requirements, MTA-STS, mail gateways and phishing awareness.</description>
+      <description>A working plan for securing corporate email end to end: authenticating your own domain with SPF, DKIM and DMARC, filtering what arrives, protecting mailboxes from takeover and handling a reported phish from first click to closure.</description>
       <category>email-security</category>
       <category>spf</category>
       <category>dkim</category>
@@ -265,11 +265,11 @@
       <category>pillar</category>
     </item>
     <item>
-      <title>Endpoint Security and Vulnerability Management: The Complete Guide</title>
+      <title>Endpoint Security and Vulnerability Management: The Complete Guide to Hardening, EDR and Patching</title>
       <link>https://netsecatlas.com/en/article/endpoint-vulnerability-management-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/endpoint-vulnerability-management-guide</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Build an integrated programme: asset inventory, endpoint protection and EDR, safe exclusions, scanning, CVSS/EPSS/KEV prioritisation and patching.</description>
+      <description>How to run endpoint protection and vulnerability management as one programme: building an accurate asset inventory, hardening devices, using EPP and EDR well, prioritising flaws with KEV and EPSS instead of CVSS alone, and patching on deadlines you can actually meet.</description>
       <category>endpoint-security</category>
       <category>edr</category>
       <category>vulnerability-management</category>
@@ -277,11 +277,11 @@
       <category>pillar</category>
     </item>
     <item>
-      <title>Active Directory and Identity Security: The Complete Guide</title>
+      <title>Active Directory and Identity Security: The Complete Guide to Protecting Your Domain</title>
       <link>https://netsecatlas.com/en/article/active-directory-identity-security-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/active-directory-identity-security-guide</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Why attackers go after Active Directory first and how to protect it: the tier model, service accounts, Kerberos, LAPS, Group Policy and monitoring.</description>
+      <description>A defender&apos;s plan for Active Directory: how attackers climb from one workstation to Domain Admin, and the controls that stop them, from tiered administration, gMSAs and Windows LAPS to AD CS template reviews, the event IDs worth alerting on and a tested forest recovery.</description>
       <category>active-directory</category>
       <category>identity</category>
       <category>kerberos</category>
@@ -289,11 +289,11 @@
       <category>pillar</category>
     </item>
     <item>
-      <title>SOC and Incident Response: The Complete Guide</title>
+      <title>SOC and Incident Response: The Complete Guide to Detection, Triage and Recovery</title>
       <link>https://netsecatlas.com/en/article/soc-incident-response-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/soc-incident-response-guide</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>How to build a realistic detection and response capability: log sources, SIEM, detection rules, NIST response phases, playbooks and the metrics that matter.</description>
+      <description>How to build security operations that catch real attacks and an incident response process that holds up under pressure: choosing log sources, writing detections, triaging alerts, running the response lifecycle from NIST SP 800-61 Rev. 3, and measuring whether any of it works.</description>
       <category>soc</category>
       <category>siem</category>
       <category>incident-response</category>
@@ -301,11 +301,11 @@
       <category>pillar</category>
     </item>
     <item>
-      <title>Enterprise Network Security: The Complete Guide</title>
+      <title>Enterprise Network Security: The Complete Guide to Segmentation, Access Control and Remote Access</title>
       <link>https://netsecatlas.com/en/article/enterprise-network-security-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/enterprise-network-security-guide</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Design a secure enterprise network: defense layers, firewall policy, remote access after SSL VPN tunnel mode removal, segmentation and monitoring.</description>
+      <description>A practical design for securing a corporate network: a hardened perimeter, internal segmentation, 802.1X access control, remote access after the FortiOS SSL VPN tunnel-mode removal, firewall policy you can maintain, the infrastructure services everyone forgets, and a 90-day plan.</description>
       <category>network-security</category>
       <category>firewall</category>
       <category>vpn</category>
