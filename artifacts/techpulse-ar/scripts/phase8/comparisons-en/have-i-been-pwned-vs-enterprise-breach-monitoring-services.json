@@ -1,0 +1,22 @@
+{
+  "title": "Have I Been Pwned or a Commercial Breach Monitoring Service?",
+  "excerpt": "Have I Been Pwned is a free, widely used way to check whether email addresses appear in known breaches. Commercial services watch more sources continuously. Here is when each is enough.",
+  "verdict": "Have I Been Pwned is an excellent free starting point for individuals and small teams, including domain-wide notifications once you verify a domain. Commercial breach monitoring is worth paying for when a large organisation needs continuous coverage of more sources, such as criminal forums and markets, with analyst support.",
+  "specs": {
+    "spec1": {
+      "label": "Cost",
+      "device1Value": "Free for individuals and basic checks",
+      "device2Value": "Paid, designed for monitoring whole organisations"
+    },
+    "spec2": {
+      "label": "Depth of continuous monitoring",
+      "device1Value": "Alerts when an address appears in a newly loaded breach",
+      "device2Value": "Continuous monitoring across wider sources, including criminal forums and markets"
+    },
+    "spec3": {
+      "label": "Getting started",
+      "device1Value": "Instant: enter an email address and see the result",
+      "device2Value": "Requires setup and a business subscription"
+    }
+  }
+}

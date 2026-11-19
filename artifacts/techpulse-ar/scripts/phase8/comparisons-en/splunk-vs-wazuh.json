@@ -1,0 +1,22 @@
+{
+  "title": "Splunk or Wazuh: A Commercial SIEM Leader vs an Open-Source Security Platform",
+  "excerpt": "For teams starting or rethinking security monitoring. Splunk is a powerful commercial analytics platform; Wazuh is a free, open-source security platform with SIEM and endpoint monitoring features. Cost and in-house skills usually decide.",
+  "verdict": "Splunk is the better fit for large organisations with the budget for it and large data volumes that need deep, fast analysis. Wazuh is a strong free alternative for smaller teams that want to start security monitoring without licence costs, provided someone is comfortable running Linux infrastructure.",
+  "specs": {
+    "spec1": {
+      "label": "Cost",
+      "device1Value": "High, typically tied to data volume or workload",
+      "device2Value": "Free and open source"
+    },
+    "spec2": {
+      "label": "Maturity for large-scale analysis",
+      "device1Value": "Among the most powerful and mature platforms available",
+      "device2Value": "Very capable, with a smaller community and fewer resources"
+    },
+    "spec3": {
+      "label": "Getting started with a small team",
+      "device1Value": "Steeper learning curve and significant cost",
+      "device2Value": "Free to start, but needs Linux skills"
+    }
+  }
+}

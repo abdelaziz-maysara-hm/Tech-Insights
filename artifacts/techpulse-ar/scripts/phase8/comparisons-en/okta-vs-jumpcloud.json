@@ -1,0 +1,22 @@
+{
+  "title": "Okta or JumpCloud: Identity Platform vs Identity Plus Device Management",
+  "excerpt": "Okta focuses on enterprise identity and access; JumpCloud combines directory, identity and device management in one platform aimed at small and mid-sized organisations.",
+  "verdict": "Okta is the stronger choice for large organisations that need deep, advanced identity features and integrations. JumpCloud suits small and mid-sized teams that want identity and device management together in one simple platform at a lower starting price.",
+  "specs": {
+    "spec1": {
+      "label": "Depth of enterprise identity features",
+      "device1Value": "Among the deepest and most mature",
+      "device2Value": "Strong, with an added focus on device management"
+    },
+    "spec2": {
+      "label": "Built-in device management",
+      "device1Value": "Limited; relies on separate tools",
+      "device2Value": "A core part of the platform"
+    },
+    "spec3": {
+      "label": "Pricing for a very small team",
+      "device1Value": "Higher starting point",
+      "device2Value": "Simpler and cheaper to start with"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Elastic Stack (ELK) or Splunk: Log Analytics at Scale",
+  "excerpt": "Both can collect, search and analyse huge volumes of logs. Elastic offers flexibility and lower cost at scale for teams that can run it; Splunk offers a polished, integrated product with strong enterprise support.",
+  "verdict": "Elastic is far more economical for very large data volumes if you have a capable team to build and run it. Splunk is easier to get value from quickly and comes with comprehensive support, for organisations willing to pay more for an integrated product.",
+  "specs": {
+    "spec1": {
+      "label": "Cost at very large data volumes",
+      "device1Value": "Much cheaper at very large scale",
+      "device2Value": "Licence costs grow noticeably with volume or workload"
+    },
+    "spec2": {
+      "label": "Initial setup",
+      "device1Value": "Several components to assemble (Elasticsearch, Logstash or Beats, Kibana)",
+      "device2Value": "An integrated product, ready to use"
+    },
+    "spec3": {
+      "label": "Vendor support",
+      "device1Value": "Available, but less comprehensive than fully commercial options",
+      "device2Value": "Comprehensive, well-established enterprise support"
+    }
+  }
+}

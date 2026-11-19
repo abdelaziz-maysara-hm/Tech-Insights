@@ -1,0 +1,22 @@
+{
+  "title": "Wazuh or OSSEC: Open-Source Host Intrusion Detection",
+  "excerpt": "Wazuh started as a fork of OSSEC and has grown into a broader open-source security platform. OSSEC is the original host-based intrusion detection system. Here is how they compare for new deployments.",
+  "verdict": "Wazuh is the better choice for most new projects, thanks to active development, its own indexer and dashboard and wider integrations. OSSEC is still acceptable where an existing, stable deployment is doing its job.",
+  "specs": {
+    "spec1": {
+      "label": "Active development",
+      "device1Value": "A younger fork with very active development",
+      "device2Value": "The original project, now developing more slowly"
+    },
+    "spec2": {
+      "label": "Dashboards and analysis",
+      "device1Value": "Ships with its own indexer and web dashboard for visual analysis",
+      "device2Value": "Needs manual integration with external analysis tools"
+    },
+    "spec3": {
+      "label": "Starting a new project",
+      "device1Value": "More current documentation",
+      "device2Value": "Older documentation and a smaller active community"
+    }
+  }
+}

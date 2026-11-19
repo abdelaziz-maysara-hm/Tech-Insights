@@ -1,0 +1,22 @@
+{
+  "title": "FortiGate or Sophos Firewall for Small and Mid-Sized Businesses",
+  "excerpt": "A practical look at two firewalls popular with smaller organisations: appliance performance, how easy each is for a one- or two-person IT team, and what you pay at the small-business end of the range.",
+  "verdict": "Choose FortiGate when you need SD-WAN and higher throughput, or expect to grow into them. Choose Sophos when the budget is tight, the IT team is small and quick setup matters more than raw performance.",
+  "specs": {
+    "spec1": {
+      "label": "Appliance performance",
+      "device1Value": "Strong, thanks to dedicated security processors",
+      "device2Value": "Good, without the same specialised hardware"
+    },
+    "spec2": {
+      "label": "Ease of use for a very small team",
+      "device1Value": "Good",
+      "device2Value": "One of the most beginner-friendly interfaces available"
+    },
+    "spec3": {
+      "label": "Price for small and mid-sized businesses",
+      "device1Value": "Competitive",
+      "device2Value": "Often the cheapest option in this segment"
+    }
+  }
+}

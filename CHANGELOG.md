@@ -4,6 +4,8 @@ Significant NetSec Atlas milestones are recorded here. Historical Technical Insi
 
 ## Phase 9 (2026-11-19): independent English editions, honest review flags, workflow upgrade
 
+- **Phase 9 batches 7–9:** independent English for the last 9 articles (including the five pillar guides, 1,550–1,800 words each) and all 68 remaining comparisons (title, excerpt, verdict, spec text; scores and winners unchanged). New `scripts/phase8/arabic/` override; Arabic OWASP article updated to the 2025 Top 10. Dead CISA network-guide link replaced with the NSA source. Totals: 123/123 articles, 69/69 comparisons independent; humanReviewed=0.
+
 - **New flag `englishEdition: 'independent'`** marks records whose English was written as a separate native piece on the same topic (AI-assisted, not a translation of the Arabic). It is **not** a human review: `translationStatus: 'reviewed'` is reserved for a human reviewer, and the 21 Phase 8 records that had been set to `reviewed` are now `unreviewed` + `englishEdition: 'independent'`. The translation audit reports independent editions separately and never counts them as `VALID_PAIR` (0 valid pairs until a human signs off).
 - **Source format:** English rewrites live in `scripts/phase8/english/<slug>.md` (front matter `title`/`excerpt`, then the body); comparison rewrites in `scripts/phase8/comparisons-en/<slug>.json` (`title`, `excerpt`, `verdict`, `specs`). `scripts/phase8/apply-content.mjs` applies them after the Phase 7 modules.
 - **Batched English rewrites** (see PR list in the handoff), each with FAQ and official references; external links checked.

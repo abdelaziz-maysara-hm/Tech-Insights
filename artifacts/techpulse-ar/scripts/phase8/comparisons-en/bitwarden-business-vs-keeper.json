@@ -1,0 +1,22 @@
+{
+  "title": "Bitwarden Business or Keeper: Password Management for Teams",
+  "excerpt": "Two business password managers compared on price per user, transparency of the code and the depth of admin reporting and control.",
+  "verdict": "Bitwarden Business offers excellent value and transparency for small and mid-sized teams, with open-source code and published audits. Keeper suits larger organisations that want deeper admin reporting and control and have the budget for it.",
+  "specs": {
+    "spec1": {
+      "label": "Cost for teams",
+      "device1Value": "Among the cheapest business plans available",
+      "device2Value": "More expensive, with extra enterprise features"
+    },
+    "spec2": {
+      "label": "Open source and transparency",
+      "device1Value": "Open source and independently audited",
+      "device2Value": "Closed source"
+    },
+    "spec3": {
+      "label": "Enterprise reporting and monitoring",
+      "device1Value": "Basic",
+      "device2Value": "Deeper reporting and control for large organisations"
+    }
+  }
+}

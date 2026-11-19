@@ -1,0 +1,22 @@
+{
+  "title": "Burp Suite or ZAP (formerly OWASP ZAP): Web Application Testing Tools",
+  "excerpt": "Burp Suite Professional is the commercial standard for web application testers; ZAP is the leading free, open-source alternative. Here is how they differ in cost, depth and ease of learning.",
+  "verdict": "Burp Suite Professional is the stronger tool for professional penetration testers with a budget, thanks to the depth of its manual and automated features. ZAP is an excellent free option for beginners, developers and open-source projects, and it fits well into automated pipelines.",
+  "specs": {
+    "spec1": {
+      "label": "Cost",
+      "device1Value": "The full Professional edition is paid",
+      "device2Value": "Free and open source"
+    },
+    "spec2": {
+      "label": "Depth of advanced features",
+      "device1Value": "Among the deepest tools for web application testing",
+      "device2Value": "Very capable for a free tool, though less deep"
+    },
+    "spec3": {
+      "label": "Getting started as a beginner",
+      "device1Value": "Slightly steeper learning curve",
+      "device2Value": "Simpler interface that suits newcomers"
+    }
+  }
+}

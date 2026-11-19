@@ -1,0 +1,22 @@
+{
+  "title": "Datto or Veeam: Backup for Managed Service Providers vs In-House IT",
+  "excerpt": "Datto is built around managed service providers protecting many clients; Veeam covers everything from small businesses to large enterprises. The deciding question is who you are backing up for.",
+  "verdict": "Datto is a strong fit for MSPs that manage backup and business continuity for many client organisations from one place. Veeam is the better choice when you are protecting a single organisation, your own, and want flexible recovery options at any scale.",
+  "specs": {
+    "spec1": {
+      "label": "Target customer",
+      "device1Value": "Built mainly for managed service providers",
+      "device2Value": "Fits small businesses through to large enterprises"
+    },
+    "spec2": {
+      "label": "Recovery speed",
+      "device1Value": "Strong focus on business continuity and fast recovery",
+      "device2Value": "Also excellent, with many flexible recovery options"
+    },
+    "spec3": {
+      "label": "Managing a single organisation",
+      "device1Value": "Designed for many clients at once",
+      "device2Value": "Simpler and better suited to one environment"
+    }
+  }
+}

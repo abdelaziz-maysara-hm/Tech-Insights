@@ -1,0 +1,22 @@
+{
+  "title": "Google Workspace or Microsoft 365: Picking a Productivity Suite",
+  "excerpt": "The two dominant productivity suites compared on real-time collaboration, fit with traditional Windows and Active Directory environments, and whether you need full desktop apps.",
+  "verdict": "Google Workspace suits teams that work mainly in the browser and value effortless real-time collaboration. Microsoft 365 is the better fit for organisations that need full desktop Office applications and deep integration with existing Windows and Active Directory infrastructure.",
+  "specs": {
+    "spec1": {
+      "label": "Real-time co-editing",
+      "device1Value": "Historically among the smoothest and most mature",
+      "device2Value": "Much improved, though still slightly less seamless"
+    },
+    "spec2": {
+      "label": "Fit with traditional enterprise IT",
+      "device1Value": "Less integrated with Windows and Active Directory",
+      "device2Value": "Deep, native integration with Windows and Active Directory"
+    },
+    "spec3": {
+      "label": "Full desktop applications",
+      "device1Value": "Mainly browser-based, with limited desktop apps",
+      "device2Value": "Full desktop Word, Excel and Outlook alongside web versions"
+    }
+  }
+}

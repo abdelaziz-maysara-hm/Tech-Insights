@@ -1,0 +1,22 @@
+{
+  "title": "Ansible or PowerShell DSC: Automating Configuration Across Your Estate",
+  "excerpt": "Both tools let you describe how systems should be configured and keep them that way. Ansible works across Linux, Windows and network devices; PowerShell Desired State Configuration grew up in the Windows world.",
+  "verdict": "Ansible is the better fit for mixed estates of Linux and Windows servers plus network devices, and its YAML playbooks are approachable for beginners. PowerShell DSC suits Windows and Active Directory shops that want tight integration with the Microsoft ecosystem and already have strong PowerShell skills.",
+  "specs": {
+    "spec1": {
+      "label": "Cross-platform support",
+      "device1Value": "Linux, Windows and a wide range of network devices",
+      "device2Value": "Designed mainly for Windows"
+    },
+    "spec2": {
+      "label": "Learning curve",
+      "device1Value": "YAML playbooks that beginners can read",
+      "device2Value": "Needs solid PowerShell experience"
+    },
+    "spec3": {
+      "label": "Active Directory integration",
+      "device1Value": "Available through modules",
+      "device2Value": "Native, as part of the Microsoft ecosystem"
+    }
+  }
+}

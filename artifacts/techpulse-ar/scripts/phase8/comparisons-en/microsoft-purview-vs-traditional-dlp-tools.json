@@ -1,0 +1,22 @@
+{
+  "title": "Microsoft Purview or Standalone DLP Tools: Protecting Data Inside and Outside Microsoft 365",
+  "excerpt": "Microsoft Purview brings data loss prevention into Microsoft 365; standalone DLP products aim to cover many platforms. The best choice depends on where your sensitive data actually lives.",
+  "verdict": "Purview is the natural choice for organisations that keep most of their data in Microsoft 365, with one console and native integration. Standalone DLP tools fit better in diverse environments with significant data in systems outside the Microsoft ecosystem.",
+  "specs": {
+    "spec1": {
+      "label": "Microsoft 365 integration",
+      "device1Value": "Native, as part of the same platform",
+      "device2Value": "Needs separate integration work for each service"
+    },
+    "spec2": {
+      "label": "Coverage outside Microsoft",
+      "device1Value": "More limited beyond the Microsoft ecosystem",
+      "device2Value": "Often designed for broad multi-platform coverage"
+    },
+    "spec3": {
+      "label": "Unified management",
+      "device1Value": "One console for Microsoft 365 data",
+      "device2Value": "Often managed separately per system"
+    }
+  }
+}

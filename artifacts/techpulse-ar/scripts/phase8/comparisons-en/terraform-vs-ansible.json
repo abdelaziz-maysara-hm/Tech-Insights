@@ -1,0 +1,22 @@
+{
+  "title": "Terraform or Ansible: Provisioning vs Configuration Management",
+  "excerpt": "These two tools are often compared but solve different problems. Terraform creates and changes infrastructure; Ansible configures systems once they exist. Understanding the split helps you use each where it fits.",
+  "verdict": "Think of them as partners rather than rivals. Use Terraform to declare and provision cloud and on-premises infrastructure, with a state file tracking every resource. Use Ansible to configure operating systems and applications on that infrastructure. Many teams run both in the same pipeline.",
+  "specs": {
+    "spec1": {
+      "label": "Main job",
+      "device1Value": "Provisioning and managing infrastructure as code",
+      "device2Value": "Configuring systems after they are built"
+    },
+    "spec2": {
+      "label": "State tracking",
+      "device1Value": "Keeps a state file recording every managed resource",
+      "device2Value": "No state file; checks the current condition on each run"
+    },
+    "spec3": {
+      "label": "Multi-cloud provisioning",
+      "device1Value": "One of the most popular tools for exactly this",
+      "device2Value": "Possible, but not what it was designed for"
+    }
+  }
+}

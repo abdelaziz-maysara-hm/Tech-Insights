@@ -1,0 +1,22 @@
+{
+  "title": "Datadog or New Relic: Observability Platforms Compared",
+  "excerpt": "Both are full observability platforms covering metrics, logs and traces. Datadog emphasises breadth, including security products; New Relic built its name on application performance monitoring.",
+  "verdict": "Datadog is the more complete choice if you want one platform for infrastructure monitoring, logs and security. New Relic is a strong option when application performance monitoring is the main priority and you want pricing that is easier to predict.",
+  "specs": {
+    "spec1": {
+      "label": "Breadth of features",
+      "device1Value": "Very wide: monitoring, security and logs in one platform",
+      "device2Value": "Also broad, historically centred on APM"
+    },
+    "spec2": {
+      "label": "Pricing model",
+      "device1Value": "Many separately priced components",
+      "device2Value": "Simpler and easier to predict"
+    },
+    "spec3": {
+      "label": "Depth of application performance monitoring",
+      "device1Value": "Also very strong",
+      "device2Value": "A long-time specialist in APM"
+    }
+  }
+}

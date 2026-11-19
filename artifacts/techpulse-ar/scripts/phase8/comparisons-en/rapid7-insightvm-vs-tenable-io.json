@@ -1,0 +1,22 @@
+{
+  "title": "Rapid7 InsightVM or Tenable Vulnerability Management (formerly Tenable.io)",
+  "excerpt": "Two leading enterprise vulnerability management platforms compared on integration with response tools, ease of getting started and how well each prioritises real risk.",
+  "verdict": "Both are among the strongest enterprise vulnerability management platforms and the practical gap is small. The decision usually depends on what else you run: InsightVM fits naturally alongside other Rapid7 products, while Tenable has a very broad partner ecosystem and a widely known scanning engine.",
+  "specs": {
+    "spec1": {
+      "label": "Integration with response tools",
+      "device1Value": "Tight integration with other Rapid7 products, including SOAR",
+      "device2Value": "Broad integration through many partnerships"
+    },
+    "spec2": {
+      "label": "Getting started",
+      "device1Value": "Fairly clear interface",
+      "device2Value": "Historically one of the easiest to start with"
+    },
+    "spec3": {
+      "label": "Risk prioritisation",
+      "device1Value": "Very strong at highlighting real risk",
+      "device2Value": "Also strong and widely regarded as an industry standard"
+    }
+  }
+}

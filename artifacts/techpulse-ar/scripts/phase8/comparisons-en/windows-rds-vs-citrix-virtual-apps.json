@@ -1,0 +1,22 @@
+{
+  "title": "Windows Remote Desktop Services or Citrix Virtual Apps: Is the Extra Layer Worth It?",
+  "excerpt": "For organisations publishing desktops and applications to remote users. The comparison weighs licensing cost, performance over poor connections and how much specialist skill each platform needs.",
+  "verdict": "Remote Desktop Services is the cheaper, simpler route for small and mid-sized organisations that need straightforward remote desktops and published apps. Citrix earns its extra cost when many branch offices or remote users sit on slow or unreliable links and need consistently good performance, along with richer management features.",
+  "specs": {
+    "spec1": {
+      "label": "Upfront licensing cost",
+      "device1Value": "Much lower: RDS client access licences only",
+      "device2Value": "Much higher: an additional licensing layer on top of Windows"
+    },
+    "spec2": {
+      "label": "Performance over poor connections",
+      "device1Value": "Good",
+      "device2Value": "Historically among the best, thanks to the HDX protocol"
+    },
+    "spec3": {
+      "label": "Simplicity in a small environment",
+      "device1Value": "Straightforward, as part of Windows Server",
+      "device2Value": "More complex and usually needs specialist skills"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Tailscale or a Traditional Site-to-Site VPN: Mesh Networking vs Classic Tunnels",
+  "excerpt": "Tailscale builds a WireGuard-based mesh between devices with very little configuration. A traditional site-to-site VPN links whole networks through gateways. Here is when each makes sense.",
+  "verdict": "Tailscale is much faster and simpler for small and mid-sized teams spread across locations and home offices. A traditional site-to-site VPN still makes sense for larger organisations that need precise, centrally controlled routing and firewalling between networks.",
+  "specs": {
+    "spec1": {
+      "label": "Setup",
+      "device1Value": "Very quick, WireGuard-based, without traditional network plumbing",
+      "device2Value": "More involved: addressing, routing and firewall rules"
+    },
+    "spec2": {
+      "label": "Fit for distributed remote teams",
+      "device1Value": "Built for exactly this",
+      "device2Value": "Possible, but not its main purpose"
+    },
+    "spec3": {
+      "label": "Central network-level control",
+      "device1Value": "Simpler, less granular network control",
+      "device2Value": "Full, very granular network-level control"
+    }
+  }
+}

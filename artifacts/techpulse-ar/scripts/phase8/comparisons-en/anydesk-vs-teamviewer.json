@@ -1,0 +1,22 @@
+{
+  "title": "AnyDesk or TeamViewer: Remote Support Tools Compared",
+  "excerpt": "Two of the best-known remote access tools for IT support, compared on responsiveness, commercial pricing and enterprise support features. Whichever you choose, lock it down: remote access tools are a favourite of scammers and intruders.",
+  "verdict": "AnyDesk is quick, responsive and usually cheaper for everyday remote support. TeamViewer is the more complete platform for large organisations that need integrated IT support features and management. With either, enforce MFA on accounts, restrict who can connect and review connection logs.",
+  "specs": {
+    "spec1": {
+      "label": "Responsiveness",
+      "device1Value": "Known for staying responsive even on slow connections",
+      "device2Value": "Very good, slightly heavier on weak links"
+    },
+    "spec2": {
+      "label": "Commercial pricing",
+      "device1Value": "Usually cheaper across most plans",
+      "device2Value": "Broader features, usually at a higher price"
+    },
+    "spec3": {
+      "label": "Enterprise IT support features",
+      "device1Value": "Good and expanding",
+      "device2Value": "Historically among the most mature and complete"
+    }
+  }
+}

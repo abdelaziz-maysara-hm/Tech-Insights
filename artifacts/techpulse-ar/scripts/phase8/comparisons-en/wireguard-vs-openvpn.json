@@ -1,0 +1,27 @@
+{
+  "title": "WireGuard or OpenVPN: Picking a VPN Protocol in 2026",
+  "excerpt": "Both are open-source VPN protocols, but they are built very differently. WireGuard is young, small and opinionated, and has been part of the Linux kernel since version 5.6 in 2020. OpenVPN is older, larger and highly configurable. Here is how that plays out in practice.",
+  "verdict": "For most new deployments WireGuard is the better default: it is faster, simpler to configure and its small codebase is easier to audit. It uses a fixed set of modern cryptography (Curve25519, ChaCha20-Poly1305 and BLAKE2s) and deliberately offers no cipher negotiation, trading flexibility for a smaller attack surface. OpenVPN still makes sense where you need its flexibility, such as running over TCP on custom ports through restrictive networks, or where compliance rules demand specific cipher suites and a long audit history. Remember that its flexibility also means more settings to get right.",
+  "specs": {
+    "spec1": {
+      "label": "Speed",
+      "device1Value": "Noticeably faster thanks to its lean design",
+      "device2Value": "Slower, especially on low-power hardware"
+    },
+    "spec2": {
+      "label": "How easy it is to set up",
+      "device1Value": "Short, simple configuration files",
+      "device2Value": "More involved: certificates and several configuration files"
+    },
+    "spec3": {
+      "label": "Maturity and audit history",
+      "device1Value": "Newer, but a small codebase that is easier to audit",
+      "device2Value": "Much older, with a long record of audits and enterprise use"
+    },
+    "spec4": {
+      "label": "Transport and port flexibility",
+      "device1Value": "UDP only, so less flexible",
+      "device2Value": "Very flexible: TCP or UDP on any port"
+    }
+  }
+}

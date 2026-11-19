@@ -1,0 +1,22 @@
+{
+  "title": "Cisco ISE or Aruba ClearPass: Choosing a Network Access Control Platform",
+  "excerpt": "Two leading NAC platforms for 802.1X, guest access and device profiling. Cisco ISE shines in Cisco networks; Aruba ClearPass, from HPE Aruba Networking, is known for multi-vendor flexibility.",
+  "verdict": "Cisco ISE makes the most sense when your switches and wireless are already Cisco. ClearPass is the better fit for mixed-vendor networks that need flexible NAC policy, and many teams find it easier to get started with.",
+  "specs": {
+    "spec1": {
+      "label": "Fit with existing Cisco infrastructure",
+      "device1Value": "Very smooth in an all-Cisco network",
+      "device2Value": "Works across multi-vendor infrastructure"
+    },
+    "spec2": {
+      "label": "Initial setup",
+      "device1Value": "More complex and needs deeper expertise",
+      "device2Value": "Usually clearer and easier to start with"
+    },
+    "spec3": {
+      "label": "Flexibility in multi-vendor networks",
+      "device1Value": "Strongest within the Cisco ecosystem",
+      "device2Value": "Designed to be vendor-neutral"
+    }
+  }
+}

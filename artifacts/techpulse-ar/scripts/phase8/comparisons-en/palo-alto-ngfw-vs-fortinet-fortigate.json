@@ -1,0 +1,27 @@
+{
+  "title": "Palo Alto NGFW or Fortinet FortiGate: Which Firewall Fits Your Organisation?",
+  "excerpt": "Two of the most widely deployed next-generation firewalls, compared on what changes day-to-day operations: depth of application control, how hard each is to run with a small team, total cost and throughput with TLS inspection switched on.",
+  "verdict": "Choose Palo Alto when application-level control and advanced threat analysis are the priority and the budget can carry higher licensing and support costs, which is typical of larger enterprises. Choose FortiGate when price-to-performance and simpler day-to-day management matter more, which suits most mid-sized organisations. Either way, size the appliance for the throughput you will see with full TLS inspection enabled, not the headline firewall figure.",
+  "specs": {
+    "spec1": {
+      "label": "How deeply it identifies applications",
+      "device1Value": "App-ID is one of the most mature application engines available",
+      "device2Value": "Capable, and well integrated with the rest of the Fortinet Security Fabric"
+    },
+    "spec2": {
+      "label": "Running it with a small team",
+      "device1Value": "Takes longer to learn well",
+      "device2Value": "FortiManager and the FortiGate GUI are usually quicker for small teams to pick up"
+    },
+    "spec3": {
+      "label": "Total cost of ownership",
+      "device1Value": "Generally higher once licences and support are added",
+      "device2Value": "Generally lower for similar protection"
+    },
+    "spec4": {
+      "label": "Throughput with full TLS inspection",
+      "device1Value": "Strong when the appliance is sized for that load",
+      "device2Value": "Also strong, helped by Fortinet's purpose-built security processors (SPUs)"
+    }
+  }
+}

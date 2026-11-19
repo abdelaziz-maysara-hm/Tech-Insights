@@ -1,0 +1,22 @@
+{
+  "title": "Cloudflare or Akamai: CDN and DDoS Protection From Small Sites to Global Enterprises",
+  "excerpt": "Two major edge networks compared on how easy they are to start with, how big their global networks are and how well they hold up against very large attacks.",
+  "verdict": "Cloudflare is an excellent, quick-to-deploy choice for most websites, from small blogs to large businesses, with a useful free tier. Akamai is aimed at very large enterprises that want top-tier protection, global performance and managed services, with an enterprise budget and contract to match.",
+  "specs": {
+    "spec1": {
+      "label": "Getting started with a small or mid-sized site",
+      "device1Value": "Generous free plan and very fast setup",
+      "device2Value": "Aimed mainly at large enterprises; setup is more involved"
+    },
+    "spec2": {
+      "label": "Size of the global network",
+      "device1Value": "Very large and still expanding",
+      "device2Value": "One of the oldest and largest CDN networks in the world"
+    },
+    "spec3": {
+      "label": "DDoS protection at very large scale",
+      "device1Value": "Very strong and enough for most needs",
+      "device2Value": "A long record of protecting the largest sites against massive attacks"
+    }
+  }
+}

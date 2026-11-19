@@ -1,0 +1,22 @@
+{
+  "title": "Security Key (YubiKey) or Authenticator App: Which Second Factor Should You Use?",
+  "excerpt": "Hardware security keys and authenticator apps both beat SMS codes, but they protect against different things. This comparison weighs phishing resistance against cost and convenience.",
+  "verdict": "A FIDO2 security key such as a YubiKey gives the strongest protection for high-value accounts, because it will not authenticate to a fake site, though it costs money and is one more thing to carry. An authenticator app is a practical and much better-than-SMS choice for most people, but its one-time codes can still be relayed by a real-time phishing site.",
+  "specs": {
+    "spec1": {
+      "label": "Phishing resistance",
+      "device1Value": "Very high: the key checks the site it is talking to",
+      "device2Value": "Good, but codes can be stolen by real-time phishing proxies"
+    },
+    "spec2": {
+      "label": "Day-to-day convenience",
+      "device1Value": "One more device to carry",
+      "device2Value": "Lives on the phone you already use"
+    },
+    "spec3": {
+      "label": "Cost",
+      "device1Value": "A purchase per user, ideally with a spare",
+      "device2Value": "Free from reputable providers"
+    }
+  }
+}

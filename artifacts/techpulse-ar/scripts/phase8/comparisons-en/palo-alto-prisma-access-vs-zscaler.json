@@ -1,0 +1,22 @@
+{
+  "title": "Palo Alto Prisma Access or Zscaler: Choosing a SASE Platform",
+  "excerpt": "Both deliver security from the cloud for remote users and branches. Prisma Access extends an existing Palo Alto estate; Zscaler was built as a cloud service from the beginning.",
+  "verdict": "Prisma Access makes most sense for organisations already invested in Palo Alto firewalls and Panorama, where policy and skills carry over. Zscaler is a mature, specialised choice for organisations starting a SASE strategy without an existing vendor commitment.",
+  "specs": {
+    "spec1": {
+      "label": "Fit with existing Palo Alto infrastructure",
+      "device1Value": "Very smooth if you already run Palo Alto firewalls",
+      "device2Value": "Vendor-neutral, delivered purely as a cloud service"
+    },
+    "spec2": {
+      "label": "Maturity as a cloud-native platform",
+      "device1Value": "Strong, though a more recent direction for the vendor",
+      "device2Value": "One of the earliest cloud-native security services"
+    },
+    "spec3": {
+      "label": "Managing branches from one place",
+      "device1Value": "Strong when the rest of the estate is Palo Alto",
+      "device2Value": "A single cloud console designed for this"
+    }
+  }
+}

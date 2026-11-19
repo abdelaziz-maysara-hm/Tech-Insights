@@ -1,0 +1,22 @@
+{
+  "title": "Prometheus or Datadog: Self-Hosted Metrics vs a Managed Observability Platform",
+  "excerpt": "Prometheus is the open-source standard for metrics in cloud-native environments; Datadog is a fully managed monitoring service. The trade-off is control and cost versus convenience.",
+  "verdict": "Prometheus is the better choice when you want full control of your data and have engineers who can run and scale it. Datadog is faster to adopt for teams that want a ready-made service with many integrations and no monitoring infrastructure to manage, at a usage-based price.",
+  "specs": {
+    "spec1": {
+      "label": "Hosting model and cost",
+      "device1Value": "Open source and self-hosted; you pay only for infrastructure",
+      "device2Value": "Fully managed cloud service with usage-based pricing"
+    },
+    "spec2": {
+      "label": "Initial setup",
+      "device1Value": "More manual setup and tuning",
+      "device2Value": "Very quick, with hundreds of ready-made integrations"
+    },
+    "spec3": {
+      "label": "Control of your data",
+      "device1Value": "Full control; data stays with you",
+      "device2Value": "Data is held by a third-party cloud service"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Microsoft Defender for Endpoint or SentinelOne: Cost vs Cross-Platform Consistency",
+  "excerpt": "A short comparison for organisations deciding whether the endpoint protection in their Microsoft licence is enough, or whether a separate platform will serve a mixed estate better.",
+  "verdict": "If you already live in Microsoft 365, Defender is the more economical option, since it is often already paid for. SentinelOne is the better fit when much of your estate is macOS, Linux or other non-Windows systems and you want consistent protection everywhere.",
+  "specs": {
+    "spec1": {
+      "label": "Cost in a Microsoft environment",
+      "device1Value": "Often included with E5",
+      "device2Value": "An additional purchase"
+    },
+    "spec2": {
+      "label": "Cross-platform consistency",
+      "device1Value": "Strongest on Windows",
+      "device2Value": "More even across operating systems"
+    }
+  }
+}

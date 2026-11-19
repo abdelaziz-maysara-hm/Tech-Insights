@@ -1,0 +1,22 @@
+{
+  "title": "Netskope or Palo Alto Prisma SaaS: Securing Cloud Application Use",
+  "excerpt": "Two approaches to cloud access security brokering (CASB): a specialist built around cloud application security, and a CASB that sits inside Palo Alto's wider security platform.",
+  "verdict": "Netskope is the more specialised option for deep cloud application visibility and control. Prisma SaaS makes more sense when you want CASB as part of a unified platform with your other Palo Alto products.",
+  "specs": {
+    "spec1": {
+      "label": "Focus on cloud application security",
+      "device1Value": "One of the specialist pioneers in CASB",
+      "device2Value": "Strong, as part of a broader cloud security platform"
+    },
+    "spec2": {
+      "label": "Fit with existing Palo Alto infrastructure",
+      "device1Value": "Vendor-neutral",
+      "device2Value": "Natural integration if you already use Palo Alto"
+    },
+    "spec3": {
+      "label": "Depth of cloud app classification",
+      "device1Value": "A large, specialised catalogue of classified cloud apps",
+      "device2Value": "A broad app catalogue shared across the Palo Alto platform"
+    }
+  }
+}

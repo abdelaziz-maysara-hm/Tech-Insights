@@ -1,0 +1,27 @@
+{
+  "title": "Windows NPS or FreeRADIUS: Choosing a RADIUS Server for Wi-Fi and VPN Authentication",
+  "excerpt": "Network Policy Server ships with Windows Server; FreeRADIUS is the open-source standard on Linux. The comparison covers cost, Active Directory integration, flexibility and the skills each one expects from your team.",
+  "verdict": "Use NPS if your environment is Windows and Active Directory end to end: it is the quickest way to get 802.1X and VPN authentication working. Choose FreeRADIUS if your team is comfortable on Linux and needs more control, complex policies or scripting, at no licence cost.",
+  "specs": {
+    "spec1": {
+      "label": "Cost",
+      "device1Value": "Included with your Windows Server licence",
+      "device2Value": "Free and open source"
+    },
+    "spec2": {
+      "label": "Active Directory integration",
+      "device1Value": "Native, since it is part of the same ecosystem",
+      "device2Value": "Possible, but needs extra configuration"
+    },
+    "spec3": {
+      "label": "Flexibility and customisation",
+      "device1Value": "Limited to what the Windows console exposes",
+      "device2Value": "Very high, with modules and scripting"
+    },
+    "spec4": {
+      "label": "Learning curve",
+      "device1Value": "Gentle for Windows administrators",
+      "device2Value": "Steeper; expects Linux skills and text-based configuration"
+    }
+  }
+}

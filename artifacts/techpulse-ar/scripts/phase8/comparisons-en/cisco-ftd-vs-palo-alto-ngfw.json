@@ -1,0 +1,22 @@
+{
+  "title": "Cisco Secure Firewall (FTD) or Palo Alto NGFW: Ecosystem Fit vs Best-of-Breed",
+  "excerpt": "For organisations deciding whether to stay inside the Cisco ecosystem or bring in Palo Alto. The comparison looks at integration with existing Cisco gear, the management experience and the strength of each vendor's threat research.",
+  "verdict": "If your network already runs on Cisco, FTD fits naturally and reduces integration work. If you are starting from scratch, or if advanced threat analysis and a cleaner management experience are the priority, Palo Alto is usually the stronger choice.",
+  "specs": {
+    "spec1": {
+      "label": "Fit with existing Cisco infrastructure",
+      "device1Value": "Very smooth in a Cisco network",
+      "device2Value": "Needs extra integration work in a mostly Cisco environment"
+    },
+    "spec2": {
+      "label": "Management console",
+      "device1Value": "Firewall Management Center is heavier and takes time to learn",
+      "device2Value": "Panorama is generally easier for most administrators"
+    },
+    "spec3": {
+      "label": "Threat research reputation",
+      "device1Value": "Strong, backed by Cisco Talos",
+      "device2Value": "Consistently near the top of independent industry assessments"
+    }
+  }
+}

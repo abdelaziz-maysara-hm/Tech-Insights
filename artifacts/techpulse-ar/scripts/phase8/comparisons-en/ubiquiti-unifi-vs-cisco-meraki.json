@@ -1,0 +1,22 @@
+{
+  "title": "Ubiquiti UniFi or Cisco Meraki: Buy Once or Subscribe?",
+  "excerpt": "Two cloud-managed networking families for offices and campuses, built on very different commercial models. UniFi is bought outright; every Meraki device needs an active licence to keep working.",
+  "verdict": "UniFi gives excellent value for small and mid-sized organisations watching their budget, since there is no mandatory subscription. Meraki suits organisations that want vendor support with defined service levels and very mature cloud management, and are prepared for the ongoing licence cost for as long as the hardware is in use.",
+  "specs": {
+    "spec1": {
+      "label": "Total cost",
+      "device1Value": "Hardware bought once; no mandatory annual licence",
+      "device2Value": "A per-device licence is required for the life of the device"
+    },
+    "spec2": {
+      "label": "Cloud management",
+      "device1Value": "Good, through the UniFi controller and Site Manager",
+      "device2Value": "Among the most mature cloud dashboards available"
+    },
+    "spec3": {
+      "label": "Enterprise support and service levels",
+      "device1Value": "Largely community-based and less formal",
+      "device2Value": "Official Cisco support with clear service levels"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Zabbix or Nagios: Picking an Open-Source Monitoring Platform",
+  "excerpt": "Both are long-running open-source tools for monitoring servers, networks and services. Zabbix offers more out of the box; Nagios offers one of the largest plugin ecosystems in monitoring.",
+  "verdict": "For most teams starting fresh, Zabbix is quicker to get going, with automatic discovery and built-in dashboards. Nagios is still a good choice if you already have a Nagios setup or rely on its vast collection of community plugins.",
+  "specs": {
+    "spec1": {
+      "label": "Initial setup",
+      "device1Value": "More automatic discovery of devices",
+      "device2Value": "More manual configuration at the start"
+    },
+    "spec2": {
+      "label": "Dashboards and graphs",
+      "device1Value": "Modern and built in",
+      "device2Value": "Basic; advanced graphing usually needs add-ons"
+    },
+    "spec3": {
+      "label": "Long-term maturity",
+      "device1Value": "Mature and widely used",
+      "device2Value": "One of the oldest open-source monitoring tools"
+    }
+  }
+}

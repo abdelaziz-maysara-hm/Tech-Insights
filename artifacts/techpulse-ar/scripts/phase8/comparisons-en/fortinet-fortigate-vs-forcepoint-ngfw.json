@@ -1,0 +1,22 @@
+{
+  "title": "FortiGate or Forcepoint NGFW: Broad Network Protection vs a Data-Protection Focus",
+  "excerpt": "A comparison for teams choosing between an all-round firewall with SD-WAN built in and a firewall whose vendor is best known for protecting data. The right answer depends on whether branch connectivity or data loss prevention is the bigger problem.",
+  "verdict": "FortiGate is the stronger general-purpose choice: integrated SD-WAN, broad protection features and competitive pricing make it easy to justify for most networks. Forcepoint earns its place when preventing data loss is the top requirement and you value that focus over SD-WAN maturity.",
+  "specs": {
+    "spec1": {
+      "label": "Value for money",
+      "device1Value": "Among the best in its class",
+      "device2Value": "Competitive, though less widely deployed"
+    },
+    "spec2": {
+      "label": "Built-in SD-WAN",
+      "device1Value": "A core Fortinet strength",
+      "device2Value": "Available, but less mature as an integrated feature"
+    },
+    "spec3": {
+      "label": "Main security emphasis",
+      "device1Value": "Broad, all-in-one network protection",
+      "device2Value": "Stronger emphasis on data loss prevention"
+    }
+  }
+}
