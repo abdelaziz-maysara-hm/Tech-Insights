@@ -7,7 +7,6 @@ const sources = {
   'articles-index.json': 13_000, // Phase 7 retired 28 off-topic/merged items
   'comparisons.json': 25_000,
   'pages.json': 600,
-  'collections.json': 600,
   'videos.json': 900,
 };
 

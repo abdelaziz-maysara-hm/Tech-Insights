@@ -10,7 +10,7 @@
  *  - drops placeholder avatar photos (bylines are the editorial team)
  *
  * Idempotent: safe to re-run. Run: node scripts/phase7/apply-content.mjs
- * NOTE: scripts/generator/* would overwrite these edits if re-run.
+ * (The old bulk generator was removed in phase 8; content JSON is hand-edited.)
  */
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { fileURLToPath, pathToFileURL } from 'node:url';

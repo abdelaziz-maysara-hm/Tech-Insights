@@ -48,4 +48,5 @@ Thumbs.db
 .cache/
 .local/
 
-artifacts/techpulse-ar/content/generated/
+artifacts/techpulse-ar/content/generated/  (legacy generator output; generator removed in phase 8)
+artifacts/techpulse-ar/public/content/

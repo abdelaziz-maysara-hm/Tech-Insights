@@ -80,7 +80,7 @@ export function useSEO({
 
     const fullTitle = title ? `${title} | ${SITE.name}` : defaultTitle;
     const desc = description || defaultDesc;
-    const img = image || siteUrl('/favicon.svg');
+    const img = image || siteUrl('/og-default.png');
     const browserPath = typeof window === 'undefined' ? '/' : window.location.pathname;
     const basePath = import.meta.env.BASE_URL.replace(/\/$/, '');
     const url = getProductionCanonicalUrl(path ?? browserPath, browserPath, basePath);

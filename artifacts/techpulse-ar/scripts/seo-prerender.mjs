@@ -92,11 +92,18 @@ export function injectSeoIntoShell(shellHtml, seo, extras = {}) {
   tags.push(`<meta property="og:type" content="${escapeAttr(seo.type)}" />`);
   tags.push(`<meta property="og:site_name" content="${escapeAttr(SITE.name)}" />`);
   tags.push(`<meta property="og:locale" content="${seo.lang === 'ar' ? 'ar_AR' : 'en_US'}" />`);
-  if (seo.image) tags.push(`<meta property="og:image" content="${escapeAttr(seo.image)}" />`);
+  // Pages without their own image (hubs, lists, legal pages) share a branded
+  // 1200x630 card so every shared link gets a preview.
+  const ogImage = seo.image || `${SITE.url}/og-default.png`;
+  tags.push(`<meta property="og:image" content="${escapeAttr(ogImage)}" />`);
+  if (!seo.image) {
+    tags.push('<meta property="og:image:width" content="1200" />');
+    tags.push('<meta property="og:image:height" content="630" />');
+  }
   tags.push(`<meta name="twitter:card" content="summary_large_image" />`);
   tags.push(`<meta name="twitter:title" content="${escapeAttr(docTitle)}" />`);
   tags.push(`<meta name="twitter:description" content="${escapeAttr(desc)}" />`);
-  if (seo.image) tags.push(`<meta name="twitter:image" content="${escapeAttr(seo.image)}" />`);
+  tags.push(`<meta name="twitter:image" content="${escapeAttr(ogImage)}" />`);
 
   if (seo.type === 'article' && seo.title) {
     const jsonLd = {

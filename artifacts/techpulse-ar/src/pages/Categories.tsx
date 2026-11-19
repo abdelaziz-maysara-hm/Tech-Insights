@@ -1,5 +1,6 @@
 import { useLanguage } from '@/context/LanguageContext';
 import { Category } from '@/data/mockData';
+import { ACTIVE_CATEGORIES } from '@/lib/activeCategories';
 import { Link } from 'wouter';
 import { useSEO } from '@/hooks/useSEO';
 import { useAllArticles } from '@/hooks/useAllArticles';
@@ -8,7 +9,7 @@ export default function Categories() {
   const { language, t } = useLanguage();
   const { allArticles } = useAllArticles();
 
-  const categories: Category[] = ['cybersecurity', 'mobile', 'laptops', 'howto', 'ai', 'reviews', 'windows', 'comparisons', 'technology'];
+  const categories: Category[] = ACTIVE_CATEGORIES;
 
   useSEO({ title: t('categories') });
 
