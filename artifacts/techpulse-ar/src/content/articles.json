@@ -52,7 +52,8 @@
       "forticlient-ems"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-012",
@@ -105,7 +106,8 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-011",
@@ -155,7 +157,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-010",
@@ -210,7 +213,8 @@
       "pan-os"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-009",
@@ -260,7 +264,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-008",
@@ -308,7 +313,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-007",
@@ -359,7 +365,8 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-006",
@@ -411,7 +418,8 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-005",
@@ -468,7 +476,8 @@
       "pan-os"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-004",
@@ -522,7 +531,8 @@
       "fortigate"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-003",
@@ -578,7 +588,8 @@
       "pan-os"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-002",
@@ -630,7 +641,8 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-001",
@@ -683,7 +695,8 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p7-012",
@@ -1001,7 +1014,8 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p7-006",
@@ -1369,15 +1383,15 @@
     "slug": "phishing-spot-before-click",
     "title": {
       "ar": "التصيد الإلكتروني: كيف تكتشفه قبل ما تضغط",
-      "en": "Phishing: How to Spot It Before You Click"
+      "en": "Spotting Phishing Before You Click: A Field Guide for Staff and IT"
     },
     "excerpt": {
       "ar": "أنواع التصيد المختلفة، علامات تقنية حقيقية تكتشفها، وخطوات فورية لو ضغطت على رابط مشبوه بالغلط.",
-      "en": "The different types of phishing, real technical signs to spot, and immediate steps if you accidentally clicked a suspicious link."
+      "en": "The tells that give phishing away (pressure, mismatched senders, odd links and attachments), what to do with a suspicious message, and how IT makes reporting easy."
     },
     "body": {
       "ar": "## التصيد مش نوع واحد بس\n\n### Phishing عام\n\nإيميلات جماعية بتستهدف أكبر عدد ممكن، بتقلد بنوك أو خدمات معروفة، وبتعتمد على الكمية مش الدقة.\n\n### Spear Phishing\n\nهجوم مستهدف على شخص أو مؤسسة محددة، بمعلومات حقيقية عنك (اسمك، منصبك، حتى مشروع بتشتغل عليه) عشان يبدو مقنع أكتر.\n\n### Whaling\n\nSpear Phishing بس مستهدف لكبار المسؤولين (مدير تنفيذي، مدير مالي) — الرسائل غالبًا بتتظاهر إنها من مسؤول أعلى بتطلب تحويل مالي عاجل.\n\n### Vishing وSmishing\n\nنفس فكرة التصيد لكن عن طريق مكالمة هاتفية (Vishing) أو رسالة نصية (Smishing) بدل الإيميل.\n\n## علامات تقنية حقيقية تكتشفها\n\n### 1. افحص عنوان المرسل الفعلي، مش الاسم الظاهر\n\nالاسم الظاهر ممكن يكون \"Microsoft Support\"، لكن العنوان الفعلي (اضغط على الاسم أو مرّر الماوس فوقه) ممكن يكون `support@micr0soft-verify.com` — دومين مختلف تمامًا.\n\n### 2. افحص رابط أي زر قبل الضغط\n\nمرّر الماوس فوق أي رابط (من غير ما تضغط) وشوف العنوان الحقيقي الظاهر أسفل المتصفح. دومينات التصيد بتستخدم حيل زي `paypal-secure-verify.com` (مش `paypal.com` فعليًا) أو أحرف متشابهة بصريًا (0 بدل O، rn بدل m).\n\n### 3. الإلحاح المصطنع\n\n\"حسابك هيتقفل خلال 24 ساعة\" أو \"تحويل عاجل مطلوب فورًا\" — الضغط النفسي أسلوب كلاسيكي عشان تتصرف بسرعة من غير تفكير.\n\n### 4. مرفقات غير متوقعة\n\nملف .zip أو .exe أو حتى مستند Office بيطلب منك \"تفعيل الماكرو\" من مرسل ماكنتش متوقع منه ملف — علامة تحذير قوية.\n\n### 5. فحص رؤوس الإيميل (للحالات المشكوك فيها)\n\nمعظم برامج البريد بتسمحلك تشوف \"Original Message\" أو \"Headers\" — بتوريك السيرفر الحقيقي اللي بعت منه الإيميل، مش بس الاسم الظاهر.\n\n## لو ضغطت على رابط مشبوه بالغلط — إيه تعمل فورًا\n\n1. **متدخلش أي بيانات** لو فتحت صفحة تسجيل دخول مشبوهة — أقفلها فورًا.\n2. لو دخلت بياناتك فعلًا، **غيّر كلمة المرور فورًا** من جهاز تاني موثوق، مش من نفس الجهاز.\n3. **فعّل 2FA** على الحساب المتأثر لو مش مفعّل أصلًا.\n4. راقب الحساب لأي نشاط غريب في الأيام التالية.\n5. **بلّغ فريق IT فورًا** لو ده حساب عمل — التبليغ السريع بيقلل الضرر المحتمل على باقي المؤسسة.\n\n## الخلاصة\n\nمفيش أداة تقنية واحدة تقدر تمنع كل محاولات التصيد — العين المدرّبة اللي بتفحص المرسل والرابط قبل الضغط لسه أقوى خط دفاع. التبليغ السريع لو حصل خطأ أهم من محاولة إخفاء الموضوع.",
-      "en": "## Phishing isn't just one type\n\n### General phishing\n\nMass emails targeting as many people as possible, impersonating known banks or services, relying on volume over precision.\n\n### Spear phishing\n\nA targeted attack on a specific person or organization, using real information about you (your name, role, even a project you're working on) to seem more convincing.\n\n### Whaling\n\nSpear phishing targeting senior executives (CEO, CFO) -- messages often pretend to be from a higher authority requesting an urgent financial transfer.\n\n### Vishing and smishing\n\nThe same phishing concept but via a phone call (vishing) or text message (smishing) instead of email.\n\n## Real technical signs to spot\n\n### 1. Check the actual sender address, not the display name\n\nThe display name might say 'Microsoft Support', but the actual address (click the name or hover over it) might be support@micr0soft-verify.com -- a completely different domain.\n\n### 2. Check any button's link before clicking\n\nHover over a link (without clicking) and see the real destination shown at the bottom of the browser. Phishing domains use tricks like paypal-secure-verify.com (not actually paypal.com) or visually similar characters (0 instead of O, rn instead of m).\n\n### 3. Manufactured urgency\n\n'Your account will be locked in 24 hours' or 'urgent transfer required immediately' -- psychological pressure is a classic tactic to make you act fast without thinking.\n\n### 4. Unexpected attachments\n\nA .zip or .exe file, or even an Office document asking you to 'enable macros', from a sender you didn't expect a file from -- a strong warning sign.\n\n### 5. Checking email headers (for suspicious cases)\n\nMost mail clients let you view 'Original Message' or 'Headers' -- showing the actual sending server, not just the display name.\n\n## If you accidentally clicked a suspicious link -- what to do immediately\n\nDon't enter any data if a suspicious login page opened -- close it immediately. If you did enter your credentials, change the password immediately from a different, trusted device -- not the same one. Enable 2FA on the affected account if it isn't already. Monitor the account for unusual activity over the following days. Report it to your IT team immediately if it's a work account -- fast reporting reduces the potential damage to the rest of the organization.\n\n## Bottom line\n\nNo single technical tool can prevent every phishing attempt -- a trained eye checking the sender and link before clicking remains the strongest line of defense. Reporting a mistake quickly matters more than trying to hide it."
+      "en": "Phishing works because it borrows trust. The message looks like it came from your bank, your CEO or Microsoft, and it asks you to act before you think. Filters catch most of it. What gets through has to be caught by people, so it helps to know exactly what to look for.\n\n## Five questions to ask before you click\n\n1. **Is it trying to rush me?** \"Your account will be closed in 24 hours\", \"wire this before the auditor arrives\". Urgency is the most reliable tell.\n2. **Who really sent it?** Look at the actual address, not the display name. `IT Support <helpdesk@micros0ft-support.co>` is not your IT team.\n3. **Where does the link go?** Hover (or long-press on mobile) to see the real URL. Watch for look-alike domains and login pages hosted on file-sharing or form services.\n4. **Was I expecting this attachment?** Unexpected invoices, voicemails and \"scanned documents\" are classic lures, especially archives, HTML files and macro-enabled documents.\n5. **Does the request make sense?** A supplier changing bank details by email or a manager asking for gift cards should always be verified through a different channel.\n\n## Phishing that doesn't look like email\n\n- **Smishing and voice calls**: texts with delivery or bank links; callers posing as the helpdesk asking you to approve an MFA prompt.\n- **QR codes** in emails or posters that lead to credential-harvesting pages.\n- **Collaboration tools**: messages in Teams or Slack from external \"IT\" accounts.\n- **MFA push spam**: a flood of approval requests. Never approve one you didn't start; see [MFA fatigue attacks](/article/mfa-fatigue-attacks-explained).\n\n## If you think you've received one\n\n- Don't click, reply or forward it to colleagues \"to check\".\n- Use the **Report** button in your mail client, or send it to the address IT gave you.\n- If you already clicked or entered a password, tell IT straight away. Minutes matter, and nobody should be punished for reporting fast.\n\n## What IT should put in place\n\n- A one-click report button that feeds a mailbox someone actually triages.\n- External-sender banners, and DMARC on your own domains so attackers can't send as you (see [SPF, DKIM and DMARC explained](/article/spf-dkim-dmarc-email-basics)).\n- Phishing-resistant MFA for high-risk accounts.\n- Realistic training and simulations that measure reporting, not just clicks. See [phishing simulation programmes](/article/phishing-simulation-training-programs).\n\n## FAQ\n\n**Is a padlock in the browser proof a site is safe?**\nNo. It only means the connection is encrypted. Phishing sites routinely use valid certificates.\n\n**What if the email comes from a real colleague's account?**\nAccounts get compromised. If the request is unusual, confirm it by phone or chat using details you already have.\n\n## References\n\n- [Recognize and report phishing (CISA)](https://www.cisa.gov/secure-our-world/recognize-and-report-phishing)\n"
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1389,7 +1403,7 @@
       "avatar": ""
     },
     "date": "2022-03-08",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1557200134-90327ee9fafa?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8cGhpc2hpbmclMjBlbWFpbCUyMHdhcm5pbmd8ZW58MXwwfHx8MTc4NTg3MjEyNHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "phishing",
@@ -1408,7 +1422,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0003",
@@ -1457,7 +1472,8 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0004",
@@ -1568,15 +1584,15 @@
     "slug": "password-manager-start",
     "title": {
       "ar": "مديرو كلمات المرور: لماذا تحتاجه وكيف تبدأ",
-      "en": "Password Managers: Why You Need One and How to Start"
+      "en": "Password Managers at Work: Why They Matter and How to Roll One Out"
     },
     "excerpt": {
       "ar": "إزاي مديرو كلمات المرور بيشتغلوا فعليًا، ليه أأمن من الحفظ الذهني، وخطة هجرة عملية من غير ما تتقفل برّه حساباتك.",
-      "en": "How password managers actually work, why they're safer than memorizing, and a practical migration plan without locking yourself out."
+      "en": "Why reused passwords are the real problem, how password managers work, what to look for in a business product, and a rollout plan that people will actually adopt."
     },
     "body": {
       "ar": "## المشكلة اللي بيحلها\n\nلو بتستخدم نفس كلمة المرور (أو نسخ متشابهة منها) في مواقع كتير، تسريب موقع واحد ضعيف بيعرّض كل حساباتك التانية للخطر — أسلوب هجوم اسمه Credential Stuffing، وهو أشهر سبب لاختراق حسابات فعليًا. الحل الوحيد العملي: كلمة مرور فريدة وطويلة لكل موقع، وده مستحيل تحفظه ذهنيًا.\n\n## إزاي بيشتغل فعليًا (تقنيًا)\n\nمدير كلمات المرور بيخزن كل كلماتك في \"خزنة\" (Vault) مشفّرة بمفتاح واحد بس: **كلمة المرور الرئيسية** بتاعتك. أغلب المديرين الجيدين بيستخدموا معمارية \"Zero-Knowledge\" — يعني حتى الشركة نفسها المالكة للخدمة **مش تقدر تشوف** بياناتك، لأن التشفير وفك التشفير بيحصلوا محليًا على جهازك بس، والخزنة المشفّرة بس اللي بتتزامن مع السحابة.\n\n## أنواع مديرو كلمات المرور\n\n1. **مدمج في المتصفح** (Chrome, Safari, Firefox): مجاني وبسيط، لكن مربوط بمتصفح واحد ومش دايمًا بأقوى معايير الأمان.\n2. **مستقل مجاني/مفتوح المصدر** (Bitwarden): يعمل عبر كل المتصفحات والأجهزة، مجاني بميزات كافية لمعظم الاستخدام، قابل للتدقيق لأنه مفتوح المصدر.\n3. **مستقل مدفوع** (1Password، Dashlane): تجربة استخدام أنعم، ميزات مؤسسية إضافية، دعم فني مباشر.\n\n## خطة هجرة عملية (بدون قلق)\n\n1. **اختر مدير وثبّته** كإضافة متصفح + تطبيق موبايل.\n2. **ابدأ بكلمة مرور رئيسية قوية جدًا وسهلة التذكر** — جملة طويلة (Passphrase) أفضل من كلمة معقدة قصيرة، مثلًا `أحمد!يحب!القهوة!الصباح!2019` أسهل تتذكرها وأقوى من `Xk9#mP2`.\n2. **استورد كلمات المرور الموجودة** (معظم المديرين بيدعموا استيراد من المتصفح مباشرة).\n3. **غيّر كلمات المرور المكررة تدريجيًا**، مش كلها دفعة واحدة — ابدأ بالحسابات الأهم (بريد، بنك) الأسبوع الأول.\n4. **فعّل المصادقة الثنائية على مدير كلمات المرور نفسه** — ده أهم حساب عندك، لازم يكون الأقوى حماية.\n5. **احتفظ بنسخة من الكود الاحتياطي للاسترجاع** في مكان فيزيائي آمن (مش على نفس الجهاز) — لو نسيت كلمة المرور الرئيسية بمعمارية Zero-Knowledge، مفيش طريقة استرجاع تانية.\n\n## أشهر المخاوف والرد عليها\n\n**\"لو الشركة اتخترقت، مش هيسرقوا كل كلمات مروري؟\"**\nحتى لو حصل اختراق للسيرفرات، البيانات المسروقة هتكون مشفّرة بمفتاح مش موجود عندهم أصلًا (معمارية Zero-Knowledge) — عديم الفائدة بدون كلمة مرورك الرئيسية.\n\n**\"إيه لو الأداة نفسها وقعت أو الشركة قفلت؟\"**\nمعظم المديرين بيوفروا تصدير كامل لبياناتك بصيغة قابلة للقراءة وقت الحاجة — مش أسير للأداة.\n\n## مدير كلمات المرور المدمج في المتصفح أم مدير مستقل؟\n\n### مميزات المدير المدمج في المتصفح\n\n#### السهولة الفائقة والتكامل الفوري\n\nمفيش تثبيت إضافي، مفيش تعلّم أداة جديدة — الحفظ والملء التلقائي بيشتغلوا فورًا من غير أي إعداد. لمستخدم عادي بمتصفح واحد بس، ده حل عملي جدًا وكافٍ لمعظم الاحتياجات اليومية.\n\n### القيود الفعلية للمدير المدمج\n\n#### محدودية عبر المتصفحات والأجهزة المختلفة\n\nلو بتستخدم Chrome على اللابتوب وSafari على الآيفون، كلمات المرور المحفوظة في Chrome مش هتظهر تلقائيًا في Safari — كل متصفح بيحتفظ بمدير منفصل، وده بيخلق فوضى حقيقية لمستخدم بيستخدم أنظمة متعددة.\n\n#### ميزات أمان متقدمة أقل\n\nمديرو كلمات المرور المستقلة (زي Bitwarden أو 1Password) بيوفروا ميزات إضافية غالبًا مش متاحة في الحل المدمج: مشاركة آمنة لكلمة مرور مع شخص تاني، تخزين ملاحظات آمنة أو مستندات حساسة، وتنبيهات استباقية لو كلمة مرور معينة ظهرت في تسريب بيانات معروف.\n\n### متى المدير المستقل يستاهل الانتقال إليه\n\n#### استخدام أكتر من متصفح أو نظام تشغيل بانتظام\n\nلو بتتنقل بين Windows وmacOS وiOS بشكل يومي، مدير مستقل بيوفر تجربة موحّدة عبر كل الأنظمة من غير الحاجة لتذكر كلمات مرور مختلفة على كل جهاز.\n\n#### مشاركة كلمات مرور مع فريق أو عائلة بشكل منظم\n\nبعض المديرين المستقلين بيوفروا \"خزائن مشتركة\" (Shared Vaults) بتسمح بمشاركة آمنة ومنظمة لكلمات مرور معينة مع أشخاص محددين، من غير كشف الكلمة نفسها بشكل مباشر.\n\n### نصيحة عملية للانتقال\n\nلو قررت الانتقال، معظم المديرين المستقلين بيوفروا استيراد مباشر من متصفحك الحالي — العملية بتاخد دقائق قليلة، ومهم تتأكد من حذف كلمات المرور المحفوظة في المتصفح بعد الانتقال بنجاح لتجنب ازدواجية غير ضرورية.\n\n## الخلاصة\n\nكلمة مرور رئيسية واحدة قوية تتذكرها، وباقي حساباتك بكلمات فريدة ومعقدة تلقائيًا — مقايضة بسيطة بفايدة أمنية ضخمة.",
-      "en": "## The problem it solves\n\nIf you reuse the same password (or similar variations) across many sites, one weak site's breach exposes all your other accounts too -- an attack called credential stuffing, and the most common real cause of account compromise. The only practical fix: a unique, long password per site, which is impossible to memorize.\n\n## How it actually works (technically)\n\nA password manager stores all your passwords in an encrypted 'vault' locked by one key: your master password. Most good managers use a 'zero-knowledge' architecture -- meaning even the company running the service cannot see your data, because encryption and decryption happen locally on your device only, and just the encrypted vault syncs to the cloud.\n\n## Types of password managers\n\nBrowser-built-in (Chrome, Safari, Firefox): free and simple, but tied to one browser and not always the strongest security standard. Standalone free/open-source (Bitwarden): works across every browser and device, free with enough features for most use, auditable since it's open source. Standalone paid (1Password, Dashlane): smoother experience, extra enterprise features, direct support.\n\n## A practical migration plan (without anxiety)\n\nChoose a manager and install it as a browser extension plus mobile app. Start with a very strong, easy-to-remember master password -- a long passphrase beats a short complex password (length matters more than symbols). Import existing passwords (most managers support direct browser import). Change duplicated passwords gradually, not all at once -- start with your most important accounts (email, bank) in the first week. Enable two-factor authentication on the password manager itself -- it's your most important account, it deserves the strongest protection. Keep a copy of the recovery backup code somewhere physically safe (not on the same device) -- if you forget the master password under a zero-knowledge architecture, there's no other way back in.\n\n## Common concerns, addressed\n\n**'If the company gets breached, won't they steal all my passwords?'** Even if the servers are breached, the stolen data is encrypted with a key they never had (zero-knowledge architecture) -- useless without your master password.\n\n**'What if the tool itself goes down or the company closes?'** Most managers offer a full data export in a readable format whenever you need it -- you're not locked into the tool.\n\n## Built-in browser manager or a standalone one?\n\n### Built-in browser manager advantages\n\n#### Extreme ease and instant integration\n\nNo extra installation, no learning a new tool -- saving and autofill work immediately with zero setup. For a regular user with just one browser, this is a very practical solution sufficient for most daily needs.\n\n### The built-in manager's actual limitations\n\n#### Limited across different browsers and devices\n\nIf you use Chrome on your laptop and Safari on your iPhone, passwords saved in Chrome won't automatically appear in Safari -- each browser keeps a separate manager, creating real chaos for a user working across multiple systems.\n\n#### Fewer advanced security features\n\nStandalone password managers (like Bitwarden or 1Password) offer additional features often unavailable in the built-in solution: securely sharing a password with another person, storing secure notes or sensitive documents, and proactive alerts if a specific password appears in a known data breach.\n\n### When switching to a standalone manager is worth it\n\n#### Regularly using more than one browser or OS\n\nIf you move between Windows, macOS, and iOS daily, a standalone manager provides a unified experience across every system without needing to remember different passwords on each device.\n\n#### Organized password sharing with a team or family\n\nSome standalone managers offer 'shared vaults' allowing secure, organized sharing of specific passwords with specific people, without directly revealing the password itself.\n\n### Practical switching advice\n\nIf you decide to switch, most standalone managers offer direct import from your current browser -- the process takes a few minutes, and it's important to delete passwords saved in the browser after a successful switch to avoid unnecessary duplication.\n\n## Bottom line\n\nOne strong master password you remember, and every other account gets a unique, complex password automatically -- a simple trade-off for a massive security benefit."
+      "en": "Most people have dozens of accounts and a handful of passwords. When one site is breached, attackers try the same email and password everywhere else; this is credential stuffing, and it works because reuse is normal. A password manager breaks that pattern by making a unique, random password for every account the easy option.\n\n## How a password manager works\n\n- You remember one strong **master password** (or use a passkey or device unlock).\n- The manager generates and stores a different random password for each site.\n- The vault is encrypted on your device before it syncs, so in well-designed products the provider cannot read your passwords.\n- Browser and mobile integration fills credentials only on the matching site, which also helps against phishing look-alikes.\n\n## Choosing one for a business\n\nLook for:\n\n- **SSO integration** with your identity provider, and MFA on the vault itself.\n- **Shared vaults** with granular permissions, so teams stop sharing passwords in chat or spreadsheets.\n- **Admin controls**: enforced policies, offboarding that revokes access, and recovery options that don't depend on one person.\n- **Audit logs** of who accessed shared credentials.\n- **Independent security assessments** published by the vendor.\n\n## Rolling it out\n\n1. **Start with IT and admins.** Move privileged and shared credentials first.\n2. **Create team vaults** for shared accounts (social media, vendor portals) and delete the old spreadsheet.\n3. **Onboard everyone else** with a short session: install, import browser-saved passwords, change the most important ones.\n4. **Set expectations**: unique passwords for work accounts, master password never reused, MFA on.\n5. **Clean up gradually**: password health reports show reused and weak passwords to fix over time.\n\n## Keep the master password strong\n\nA long passphrase of several random words is easier to remember and stronger than a short complex password. Current guidance favours length over forced complexity and routine expiry; see [NIST password guidelines](/article/nist-password-guidelines-vs-old-rules). Pair it with MFA; our [two-factor authentication guide](/article/2fa-practical-guide) compares the methods.\n\n## FAQ\n\n**Isn't putting all passwords in one place risky?**\nThe vault is one well-protected target with MFA, compared with dozens of reused passwords spread across sites. For most organisations that's a large net gain.\n\n**What about the browser's built-in password saving?**\nIt's better than reuse, but business managers add sharing, central policy and offboarding that browsers lack.\n\n## References\n\n- [NIST SP 800-63B: Digital Identity Guidelines, Authentication](https://pages.nist.gov/800-63-4/sp800-63b.html)\n"
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1605,7 +1621,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0007",
@@ -1662,15 +1679,15 @@
     "slug": "home-router-security-basics",
     "title": {
       "ar": "تأمين الراوتر في المكاتب الصغيرة والمنزل: خطوات أساسية",
-      "en": "Securing a Small-Office or Home Router: Essential Steps"
+      "en": "Locking Down a Small-Office Router: The Settings That Matter"
     },
     "excerpt": {
       "ar": "7 خطوات مرتبة حسب الأولوية لتأمين راوترك، وعلامات حقيقية تشير لاحتمال اختراقه.",
-      "en": "7 priority-ranked steps to secure your router, and real signs indicating it might be compromised."
+      "en": "A practical hardening list for small-office and home routers: firmware, admin access, Wi-Fi encryption, WPS and UPnP, guest networks, and what to check every few months."
     },
     "body": {
       "ar": "## ليه راوترك المنزلي هدف حقيقي\n\nالراوتر هو البوابة بين كل أجهزتك والإنترنت — لو اتخترق، المهاجم يقدر يشوف كل حركة المرور، يعيد توجيهك لمواقع مزيفة، أو يستخدم جهازك كجزء من شبكة هجوم أكبر (Botnet) من غير ما تلاحظ.\n\n## الخطوات الأساسية (رتبتها حسب الأولوية)\n\n### 1. غيّر كلمة مرور الإدارة الافتراضية فورًا\n\nمعظم الراوترات بتتباع بكلمة مرور افتراضية معروفة (admin/admin مثلًا) — قوائم كاملة بيها متاحة أونلاين. غيّرها لكلمة مرور قوية وفريدة أول حاجة تعملها.\n\n### 2. حدّث الفرموير (Firmware) دوريًا\n\nثغرات الراوترات بتتكشف باستمرار، والتحديثات بتصلّحها. راجع إعدادات التحديث التلقائي لو متاحة، أو افحص يدويًا كل شهرين على الأقل.\n\n### 3. استخدم WPA3 (أو WPA2 كحد أدنى) لتشفير الواي فاي\n\nتجنب WEP وWPA القديمين تمامًا — سهلين الاختراق. لو راوترك بيدعم WPA3، فعّله.\n\n### 4. غيّر اسم الشبكة الافتراضي (SSID)\n\nمش عشان يخفيها (ده مش بيحمي فعليًا)، لكن عشان الاسم الافتراضي بيوري نوع/موديل الراوتر أحيانًا، وده معلومة تسهّل على المهاجم يدوّر على ثغرات معروفة لنفس الموديل.\n\n### 5. عطّل WPS (Wi-Fi Protected Setup)\n\nميزة مريحة لكن معروف عنها ثغرات أمنية جوهرية في تصميمها — عطّلها لو مش مستخدمها فعليًا.\n\n### 6. أنشئ شبكة ضيوف منفصلة\n\nلو عندك زوار بيتصلوا بالواي فاي بشكل متكرر، شبكة ضيوف منفصلة تمنعهم من الوصول لأجهزتك الشخصية على الشبكة الأساسية.\n\n### 7. عطّل الإدارة عن بُعد (Remote Management) إلا لو محتاجها فعليًا\n\nميزة بتسمح بالدخول لإعدادات الراوتر من برّه الشبكة المنزلية — لو مش مستخدمها، عطّلها تمامًا.\n\n## علامات تشير لاحتمال اختراق راوترك\n\n1. بطء غير مبرر في الإنترنت رغم عدم زيادة الاستخدام.\n2. أجهزة غريبة ظاهرة في قائمة المتصلين مش عارف مصدرها.\n3. إعدادات DNS اتغيّرت من غير ما تعملها إنت.\n4. صفحة إدارة الراوتر مش قابلة للدخول بكلمة مرورك المعتادة.\n\n## الخلاصة\n\nمعظم الخطوات دي مجانية وبتاخد دقايق بس، لكن الفرق بينها وبين راوتر بإعدادات المصنع الافتراضية ضخم جدًا من ناحية الأمان.",
-      "en": "## Why your home router is a real target\n\nThe router is the gateway between all your devices and the internet -- if compromised, an attacker can see all your traffic, redirect you to fake sites, or use your device as part of a larger attack network (botnet) without you noticing.\n\n## Basic steps (ranked by priority)\n\n### 1. Change the default admin password immediately\n\nMost routers ship with a known default password (admin/admin, for example) -- full lists are available online. Change it to a strong, unique password as your very first step.\n\n### 2. Update the firmware regularly\n\nRouter vulnerabilities are discovered constantly, and updates fix them. Check for auto-update settings if available, or check manually at least every two months.\n\n### 3. Use WPA3 (or WPA2 at minimum) for Wi-Fi encryption\n\nAvoid old WEP and WPA entirely -- they're easy to break. If your router supports WPA3, enable it.\n\n### 4. Change the default network name (SSID)\n\nNot to hide it (that doesn't actually protect you), but because the default name sometimes reveals the router's type/model, giving an attacker an easy lead to known vulnerabilities for that specific model.\n\n### 5. Disable WPS (Wi-Fi Protected Setup)\n\nA convenient feature, but known for fundamental design flaws -- disable it if you're not actually using it.\n\n### 6. Set up a separate guest network\n\nIf you have visitors connecting to Wi-Fi frequently, a separate guest network keeps them off your personal devices on the main network.\n\n### 7. Disable remote management unless genuinely needed\n\nA feature allowing router settings access from outside the home network -- if you don't use it, disable it entirely.\n\n## Signs your router might be compromised\n\nUnexplained internet slowness despite no increase in usage. Unfamiliar devices showing up in the connected devices list. DNS settings changed without you making the change. The router's admin page won't accept your usual password.\n\n## Bottom line\n\nMost of these steps are free and take only minutes, but the security difference between them and factory default settings is huge."
+      "en": "For a small office or a remote worker, the router is often the only firewall between the internet and every device on the network. Most ship with settings chosen for easy setup, not for security. Fifteen minutes in the admin page fixes the biggest gaps.\n\n## 1. Update the firmware, then keep it updated\n\nRouter vulnerabilities are actively exploited, often by botnets scanning the whole internet. Install the latest firmware, enable automatic updates if available, and replace devices the vendor no longer supports. An end-of-life router will never get another fix.\n\n## 2. Secure the admin interface\n\n- Change the default admin password to a long unique one.\n- **Disable remote administration** from the internet unless you truly need it. If you do, restrict it to specific IPs.\n- Prefer HTTPS for the admin page, and log out when done.\n\n## 3. Use strong Wi-Fi encryption\n\n- Choose **WPA3**, or WPA2/WPA3 mixed mode if older devices need it. Avoid WEP and WPA (TKIP) entirely.\n- Use a long passphrase, and change it when staff leave.\n- Rename the network so it doesn't reveal the router model or the business's address.\n\n## 4. Turn off features you don't use\n\n- **WPS**: the PIN method has well-known weaknesses. Disable it.\n- **UPnP**: lets devices open ports on the router by themselves. Convenient, and abused by malware. Disable it unless something specific needs it.\n- **Port forwarding**: review every rule. Never expose RDP or file shares directly; use a VPN instead.\n\n## 5. Separate guests and gadgets\n\nPut visitors and smart devices (TVs, cameras, printers) on a **guest network** isolated from work computers. Our guide to [guest Wi-Fi isolation](/article/guest-wifi-network-isolation) explains the setup.\n\n## 6. Check DNS and logs occasionally\n\nAttackers who compromise routers often change DNS settings to redirect traffic. Every few months, confirm the DNS servers are the ones you chose (a filtering resolver is a good option; see [DNS security](/article/dns-security-filtering-dnssec)) and glance at connected devices.\n\n## FAQ\n\n**Is the ISP-supplied router good enough?**\nSometimes. Check whether it receives regular firmware updates and lets you disable WPS, UPnP and remote admin. If not, use your own router behind it.\n\n**Do I still need endpoint security?**\nYes. The router protects the edge; laptops still need patches, disk encryption and endpoint protection.\n\n## References\n\n- [Secure by Design Alert: Security Design Improvements for SOHO Device Manufacturers (CISA)](https://www.cisa.gov/resources-tools/resources/secure-design-alert-security-design-improvements-soho-device-manufacturers)\n"
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1682,7 +1699,7 @@
       "avatar": ""
     },
     "date": "2023-07-23",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1733810763720-4c83af0668ea?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8d2lmaSUyMHJvdXRlciUyMGhvbWUlMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzN8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "router-security",
@@ -1703,22 +1720,23 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0009",
     "slug": "vpn-basics-what-it-does",
     "title": {
       "ar": "VPN للمبتدئين: ماذا يفعل وماذا لا يفعل؟",
-      "en": "VPN Basics: What It Does and Doesn't Do"
+      "en": "What a VPN Really Protects (and What It Doesn't)"
     },
     "excerpt": {
       "ar": "إزاي الـVPN بيشتغل تقنيًا، إيه اللي بيحميك منه فعلًا وإيه اللي مش بيحميك منه، وأشهر المفاهيم الخاطئة عنه.",
-      "en": "How VPN actually works technically, what it genuinely protects you from and doesn't, and the most common misconceptions about it."
+      "en": "A clear look at what VPNs do for remote access and public Wi-Fi, where they stop helping, and how business VPN differs from consumer privacy services."
     },
     "body": {
       "ar": "## إزاي بيشتغل تقنيًا\n\nVPN (Virtual Private Network) بيعمل \"نفق\" مشفّر بين جهازك وسيرفر وسيط. كل حركة الإنترنت بتاعتك بتعدي من خلال النفق ده مشفّرة، وبعدين بتخرج للإنترنت من عنوان IP بتاع السيرفر الوسيط، مش عنوانك الحقيقي.\n\n### البروتوكولات الشائعة\n\n- **WireGuard**: الأحدث والأسرع، كود بسيط نسبيًا وسهل التدقيق أمنيًا.\n- **OpenVPN**: أقدم وأكثر اختبارًا عبر السنين، أبطأ نسبيًا من WireGuard.\n- **IKEv2/IPsec**: جيد للأجهزة المحمولة، بيعيد الاتصال بسرعة عند تبديل الشبكة (واي فاي لبيانات الموبايل مثلًا).\n\n## إيه اللي VPN فعلًا بيحميك منه\n\n1. **مراقبة مزوّد الإنترنت (ISP)**: بدون VPN، مزوّد الإنترنت بيقدر يشوف كل المواقع اللي بتزورها. مع VPN، بيشوف بس إنك متصل بسيرفر VPN، مش تفاصيل تصفحك.\n2. **شبكات Wi-Fi العامة غير الموثوقة**: على شبكة مقهى أو مطار مفتوحة، أي حد على نفس الشبكة يقدر يعترض بياناتك غير المشفّرة نظريًا. VPN بيشفّر كل حاجة قبل ما تخرج من جهازك.\n3. **إخفاء موقعك الجغرافي الظاهري**: المواقع هتشوفك متصل من مكان سيرفر الـVPN، مش موقعك الفعلي.\n\n## إيه اللي VPN مش بيحميك منه (مفاهيم خاطئة شائعة)\n\n1. **مش بيحميك من التصيد الإلكتروني** — لو ضغطت على رابط تصيد ودخلت بياناتك، الـVPN مش هيوقفك، لأن المشكلة في الموقع نفسه مش في الشبكة.\n2. **مش بيخليك \"مجهول تمامًا\" أونلاين** — مزوّد خدمة الـVPN نفسه بيقدر يشوف حركة مرورك (إلا لو عندهم سياسة \"No-Logs\" حقيقية موثّقة ومُدقّقة). المواقع اللي بتزورها كمان لسه بتقدر تتبعك عن طريق الكوكيز وبصمة المتصفح (Browser Fingerprinting).\n3. **مش بديل عن مضاد فيروسات** — لو حمّلت ملف خبيث، الـVPN مش هيوقفه.\n4. **مش بيحميك من موقع أنت مسجل دخول فيه بحسابك** — لو داخل على حساب جوجل أو فيسبوك بتاعك، الشركة عارفة هويتك بغض النظر عن الـVPN.\n\n## Split Tunneling: ميزة عملية مفيدة\n\nبعض تطبيقات VPN بتديك خيار \"Split Tunneling\" — يعني تحدد أي تطبيقات تعدي من نفق الـVPN وأيها تعدي مباشرة على الإنترنت العادي. مفيد لو محتاج سرعة كاملة لبرنامج معين (زي الألعاب) مع الحفاظ على حماية باقي التطبيقات.\n\n## اختيار خدمة VPN: نقاط تستاهل المراجعة\n\n1. **سياسة عدم الاحتفاظ بالسجلات (No-Logs)** — يُفضّل شركة خضعت لتدقيق مستقل يؤكد الالتزام بيها، مش مجرد ادّعاء تسويقي.\n2. **مكان تسجيل الشركة قانونيًا** — بعض الدول عندها قوانين احتفاظ ببيانات إجبارية.\n3. **الأداء والسرعة** — جرّب فترة تجريبية قبل الاشتراك السنوي.\n\n## الخلاصة\n\nVPN أداة قوية لحماية خصوصية حركة المرور بتاعتك من مزوّد الإنترنت والشبكات غير الموثوقة — لكنه مش \"درع حماية شامل\" ضد كل أنواع المخاطر أونلاين.",
-      "en": "## How it actually works technically\n\nA VPN (Virtual Private Network) creates an encrypted 'tunnel' between your device and an intermediary server. All your internet traffic passes through this tunnel encrypted, then exits to the internet from the intermediary server's IP address, not your real one.\n\n### Common protocols\n\nWireGuard: the newest and fastest, relatively simple code that's easier to audit. OpenVPN: older and more battle-tested over the years, relatively slower than WireGuard. IKEv2/IPsec: good for mobile devices, reconnects quickly when switching networks (Wi-Fi to mobile data, for example).\n\n## What a VPN genuinely protects you from\n\nISP monitoring: without a VPN, your internet provider can see every site you visit. With a VPN, they only see that you're connected to a VPN server, not your browsing details. Untrusted public Wi-Fi: on an open cafe or airport network, anyone on the same network could theoretically intercept your unencrypted data. A VPN encrypts everything before it leaves your device. Hiding your apparent geographic location: sites will see you connecting from the VPN server's location, not your real one.\n\n## What a VPN does NOT protect you from (common misconceptions)\n\nIt does not protect you from phishing -- if you click a phishing link and enter your data, the VPN won't stop you, because the problem is the site itself, not the network. It does not make you 'completely anonymous' online -- the VPN provider itself can see your traffic (unless they have a genuinely documented, audited no-logs policy), and sites you visit can still track you via cookies and browser fingerprinting. It's not a substitute for antivirus -- if you download a malicious file, the VPN won't stop it. It doesn't protect you on a site you're logged into with your own account -- if you're signed into your Google or Facebook account, the company knows who you are regardless of the VPN.\n\n## Split tunneling: a useful practical feature\n\nSome VPN apps offer 'split tunneling' -- letting you choose which apps go through the VPN tunnel and which go directly on the regular internet. Useful if you need full speed for a specific app (like gaming) while keeping the rest of your apps protected.\n\n## Choosing a VPN service: points worth reviewing\n\nA no-logs policy -- prefer a provider that's undergone an independent audit confirming compliance, not just a marketing claim. The company's legal jurisdiction -- some countries have mandatory data retention laws. Performance and speed -- try a trial period before committing to an annual plan.\n\n## Bottom line\n\nA VPN is a strong tool for protecting your traffic's privacy from your ISP and untrusted networks -- but it's not a comprehensive shield against every kind of online risk."
+      "en": "\"Use a VPN\" is common advice, but VPNs are often credited with protections they don't provide. Knowing the boundaries helps you use one properly and avoid a false sense of security.\n\n## What a VPN does\n\nA VPN builds an encrypted tunnel between your device and a VPN gateway. Everything inside the tunnel is hidden from the network you're physically on.\n\n- **On public Wi-Fi**, the café or hotel network can't read or tamper with your traffic.\n- **For remote work**, the business VPN lets you reach internal systems (file servers, intranet apps) as if you were in the office.\n- **Your apparent IP address** becomes the gateway's, which matters for allow-listing and geolocation.\n\n## What it doesn't do\n\n- **It doesn't stop phishing or malware.** If you enter your password on a fake site, the tunnel carries it there securely.\n- **It doesn't make you anonymous.** The VPN provider sees your traffic metadata instead of your ISP. With a business VPN, your employer does.\n- **It doesn't fix a compromised device.** An infected laptop on VPN brings the infection closer to the internal network.\n- **It doesn't replace HTTPS.** After traffic leaves the gateway, it travels normally across the internet.\n\n## Business VPN vs consumer VPN\n\n| | Business remote-access VPN | Consumer VPN service |\n|---|---|---|\n| Purpose | Reach internal company resources | Privacy on untrusted networks, location change |\n| Who runs the gateway | Your IT team or provider | A commercial VPN company |\n| Typical tech | IPsec or vendor clients (FortiClient, GlobalProtect) | WireGuard, OpenVPN |\n\n## Doing business VPN well\n\n- Require **MFA** for every VPN login and keep the gateway patched; VPN appliances are a favourite target.\n- Grant access to the systems people need, not the whole network. This is where [zero trust](/article/zero-trust-explained-practically) and ZTNA come in.\n- Check device health before connecting where your platform supports it.\n- For Fortinet environments, note that SSL VPN tunnel mode is gone in recent FortiOS; see [migrating to IPsec](/article/fortios-ssl-vpn-tunnel-mode-removal-ipsec-migration).\n\n## FAQ\n\n**Should staff use a VPN on hotel Wi-Fi even for cloud apps?**\nModern cloud apps already use TLS, so the gain is smaller than it used to be. A VPN still helps against captive-portal tricks and DNS tampering.\n\n**Split tunnelling or full tunnel?**\nFull tunnel gives more visibility and control; split tunnelling reduces load. Many organisations split trusted SaaS traffic and tunnel the rest.\n\n## References\n\n- [NIST SP 800-46 Rev. 2: Guide to Enterprise Telework, Remote Access, and BYOD Security](https://csrc.nist.gov/pubs/sp/800/46/r2/final)\n"
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "vpn-remote",
@@ -1730,7 +1748,7 @@
       "avatar": ""
     },
     "date": "2023-10-03",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1603985529862-9e12198c9a60?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8dnBuJTIwcHJpdmFjeSUyMG5ldHdvcmt8ZW58MXwwfHx8MTc4NTg3MjEzNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "vpn",
@@ -1750,22 +1768,23 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0010",
     "slug": "windows-disk-cleanup-safe",
     "title": {
       "ar": "تنظيف مساحة القرص في Windows بأمان: ما يُحذف وما لا يُحذف",
-      "en": "Safe Disk Cleanup on Windows: What to Delete and What to Keep"
+      "en": "Freeing Disk Space on Windows Safely: What You Can Delete and What to Leave"
     },
     "excerpt": {
       "ar": "الأدوات الرسمية بالتفصيل، إيه اللي آمن تمامًا وإيه اللي محتاج حذر، ونصيحة النقل قبل الحذف.",
-      "en": "The official tools in detail, what's completely safe versus what needs caution, and the move-before-delete precaution."
+      "en": "Which Windows folders and caches are safe to clear, which ones break things if you touch them, and the built-in tools that do the job without risk."
     },
     "body": {
       "ar": "## ابدأ دايمًا بالأدوات الرسمية قبل أي أداة طرف ثالث\n\nكتير من أدوات \"تنظيف وتسريع الويندوز\" من شركات خارجية بتحذف ملفات أكتر من اللازم أو بتضيف برامج غير مرغوبة. Windows نفسه عنده أدوات مدمجة كافية لمعظم الاحتياجات، وأأمن بكتير.\n\n## الأداة الأولى: Storage Sense\n\nمن Settings → System → Storage، فعّل Storage Sense — بيشتغل تلقائيًا في الخلفية وبيمسح ملفات مؤقتة ومحتويات سلة المهملات القديمة حسب جدول تحدده إنت (أسبوعي، شهري، إلخ).\n\n## الأداة الثانية: Disk Cleanup (كمسؤول)\n\nللتنظيف اليدوي الأعمق، شغّل Disk Cleanup كمسؤول (Run as Administrator) — النسخة العادية بتوريك خيارات محدودة، لكن كمسؤول بتقدر توصل لـ\"Clean up system files\" اللي بيشمل ملفات تحديثات Windows القديمة (ممكن تكون جيجابايتات كتير).\n\n## إيه اللي آمن تمامًا إنك تحذفه\n\n1. **Temporary Files**: ملفات مؤقتة من برامج مختلفة، آمنة تمامًا للحذف.\n2. **Windows Update Cleanup**: نسخ قديمة من ملفات التحديثات بعد التثبيت الناجح — آمنة إلا لو محتاج ترجع لنسخة Windows سابقة قريبًا.\n3. **Recycle Bin**: راجعها الأول للتأكد إنك مش محتاج حاجة فيها، وبعدين فرّغها.\n4. **Downloads**: مش أداة تنظيف تلقائي، لكن راجعها يدويًا — كتير من الناس بتتراكم عندهم ملفات تثبيت قديمة مالهاش داعي.\n\n## إيه اللي محتاج حذر أكتر\n\n### Temporary Internet Files / Cache\n\nآمن الحذف عمومًا، لكن هيخليك تسجل دخول تاني على بعض المواقع وتحمّل بيانات الصفحات من جديد أول مرة تفتحها.\n\n### System Restore Points القديمة\n\nبتاخد مساحة كبيرة، لكن حذفها معناها فقدان القدرة على الرجوع لحالة سابقة للنظام — احذفها بس لو متأكد إن النظام مستقر حاليًا.\n\n## نصيحة عملية: انقل قبل ما تحذف\n\nقبل أي عملية حذف كبيرة، انقل أي ملفات وسائط شخصية (صور، فيديوهات) لمكان تاني (قرص خارجي أو سحابة) — مش لأنها هتتحذف بالضرورة، لكن كإجراء احترازي بسيط.\n\n## الخلاصة\n\nالأدوات الرسمية (Storage Sense وDisk Cleanup كمسؤول) كافية لمعظم الاحتياجات وأأمن بكتير من أدوات الطرف الثالث. راجع الملفات الشخصية قبل أي عملية تنظيف كبيرة كإجراء احترازي بسيط.",
-      "en": "## Always start with the official tools before any third-party tool\n\nMany third-party 'Windows cleanup and speedup' tools delete more than necessary or bundle unwanted software. Windows itself has enough built-in tools for most needs, and they're far safer.\n\n## The first tool: Storage Sense\n\nFrom Settings -> System -> Storage, enable Storage Sense -- it runs automatically in the background, clearing temp files and old recycle bin contents on a schedule you set (weekly, monthly, etc.).\n\n## The second tool: Disk Cleanup (as administrator)\n\nFor deeper manual cleanup, run Disk Cleanup as Administrator -- the regular version shows limited options, but as admin you can access 'Clean up system files', which includes old Windows update files (can be many gigabytes).\n\n## What's completely safe to delete\n\nTemporary files: temp files from various programs, completely safe to delete. Windows Update Cleanup: old copies of update files after successful installation -- safe unless you need to roll back to a previous Windows version soon. Recycle Bin: review it first to confirm you don't need anything in it, then empty it. Downloads: not an automatic cleanup tool, but review it manually -- many people accumulate unnecessary old installer files here.\n\n## What needs more caution\n\n### Temporary internet files / cache\n\nGenerally safe to delete, but you'll be logged out of some sites and need to reload page data fresh the first time you visit again.\n\n### Old System Restore Points\n\nTake up significant space, but deleting them means losing the ability to roll back to a previous system state -- only delete if you're confident the system is currently stable.\n\n## Practical advice: move before you delete\n\nBefore any large deletion, move personal media files (photos, videos) elsewhere (an external drive or cloud) -- not necessarily because they'll be deleted, but as a simple precaution.\n\n## Bottom line\n\nThe official tools (Storage Sense and Disk Cleanup as admin) cover most needs and are far safer than third-party tools. Review personal files before any large cleanup as a simple precaution."
+      "en": "A full system drive slows Windows down, blocks updates and can stop services that need temporary space. The fix is rarely deleting files by hand from `C:\\Windows`. Windows has safe cleanup tools; the risk comes from guesswork.\n\n## Safe to clean\n\n- **Temporary files**: `%TEMP%` and `C:\\Windows\\Temp`. Files in use will refuse to delete; skip them.\n- **Windows Update cleanup**: superseded update files, removed through Disk Cleanup or Storage Sense rather than manually.\n- **Delivery Optimization files**: cached update pieces shared with other PCs.\n- **Recycle Bin and Downloads**: check with the user first; Downloads often holds the only copy of something.\n- **Browser caches**: cleared from the browser's own settings.\n- **Previous Windows installation** (`Windows.old`) once you're sure you won't roll back a feature update.\n\n## Leave alone\n\n- **`C:\\Windows\\WinSxS`**: the component store. Deleting from it manually can break updates and features. Use `DISM /Online /Cleanup-Image /StartComponentCleanup` instead.\n- **`C:\\Windows\\Installer`**: needed to repair and uninstall software.\n- **`pagefile.sys` and `hiberfil.sys`**: managed by Windows. Disable hibernation with `powercfg /h off` if you don't need it, rather than deleting the file.\n- **System32 and driver folders**: nothing to gain, plenty to break.\n- **Restore points** on systems where they're your only rollback.\n\n## The right tools\n\n1. **Storage Sense** (Settings > System > Storage) can clean temp files and the Recycle Bin automatically.\n2. **Disk Cleanup** (`cleanmgr`), with \"Clean up system files\", for update leftovers.\n3. **DISM component cleanup** for the WinSxS store on servers and long-lived PCs.\n4. A disk-usage viewer to find what's actually big; it's often a user's video folder or an old VM, not Windows.\n\n## On servers\n\nCheck logs and application data first: IIS logs, SQL backups, and old installers in random folders are common culprits. Rotate logs or move them to a central [syslog server](/article/syslog-server-setup-basics) instead of letting them grow forever.\n\n## FAQ\n\n**Are \"PC cleaner\" apps worth it?**\nUsually not. Built-in tools do the same job, and some cleaners delete things they shouldn't or bundle unwanted software.\n\n**How much free space should a system drive keep?**\nEnough for the next feature update and normal temp use; many admins alert below 15 to 20 percent.\n\n## References\n\n- [Clean up the WinSxS folder (Microsoft Learn)](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/clean-up-the-winsxs-folder)\n- [Free up drive space in Windows (Microsoft Support)](https://support.microsoft.com/en-us/windows/free-up-drive-space-in-windows-85529ccb-c365-490d-b548-831022bc9b32)\n"
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -1777,7 +1796,7 @@
       "avatar": ""
     },
     "date": "2024-01-10",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1639322537228-f710d846310a?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8M3x8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "windows",
@@ -1785,7 +1804,8 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0012",
@@ -2131,15 +2151,15 @@
     "slug": "zero-trust-explained-practically",
     "title": {
       "ar": "Zero Trust بدون تعقيد: المبدأ وخطوات التطبيق العملي",
-      "en": "Zero Trust Without the Jargon: The Principle and Practical Steps"
+      "en": "Zero Trust in Plain Terms: The Idea and the First Practical Steps"
     },
     "excerpt": {
       "ar": "المبدأ الأساسي، الفرق عن الأمان التقليدي، ركائز NIST الست، وخطة تطبيق تدريجية واقعية بدون ميزانية ضخمة.",
-      "en": "The core principle, how it differs from traditional security, the six NIST pillars, and a realistic phased rollout plan without a huge budget."
+      "en": "Zero trust means no implicit trust based on network location. Here's what that looks like in practice and where a small or mid-size team should begin."
     },
     "body": {
       "ar": "## المبدأ الأساسي: \"لا تثق أبدًا، تحقق دائمًا\"\n\nالأمان التقليدي بيعتمد على فكرة \"القلعة والخندق\" — كل حاجة جوه الشبكة موثوقة، والدفاع كله على المحيط الخارجي (Perimeter). المشكلة: لو مهاجم اخترق نقطة دخول واحدة (موظف وقع في تصيد مثلًا)، يقدر يتحرك بحرية جوه الشبكة كلها.\n\nZero Trust بيقلب المفهوم: **وجود المستخدم أو الجهاز \"جوه\" الشبكة مش سبب كافٍ للثقة فيه إطلاقًا**. كل طلب وصول — بغض النظر عن مصدره — لازم يتحقق منه بناءً على الهوية، حالة الجهاز، والسياق (الوقت، الموقع، حساسية المورد المطلوب).\n\n## الركائز الست حسب NIST (SP 800-207)\n\n1. **الهوية (Identity)**: تحقق قوي من هوية كل مستخدم، مش بس كلمة مرور.\n2. **الأجهزة (Devices)**: تقييم حالة الجهاز (محدّث؟ مضاد فيروسات شغال؟) قبل منح الوصول.\n3. **الشبكات (Networks)**: تقسيم دقيق (Micro-segmentation) بدل شبكة مسطحة واحدة.\n4. **التطبيقات وأحمال العمل (Applications & Workloads)**: التحقق مستمر حتى بعد منح الوصول الأولي.\n5. **البيانات (Data)**: تصنيف البيانات وتشفيرها بناءً على حساسيتها.\n6. **التحليلات والأتمتة الظاهرة**: مراقبة مستمرة وردود فعل آلية على أي شذوذ.\n\n## ليه الشركات الصغيرة بتفتكر إنه مكلف جدًا (وده غلط)\n\nZero Trust مش منتج واحد تشتريه بميزانية ضخمة — هو **فلسفة تتطبق تدريجيًا** عبر أدوات موجودة عندك غالبًا أصلًا. أي شركة عندها Microsoft 365 أو Google Workspace عندها فعليًا أدوات كافية تبدأ بيها.\n\n## خطة تطبيق تدريجية واقعية (بدون ميزانية ضخمة)\n\n### المرحلة 1 (الشهر الأول): الهوية\n\n1. فعّل المصادقة الثنائية (2FA) على **كل** الحسابات الإدارية بدون استثناء — ده الأولوية القصوى.\n2. راجع صلاحيات المستخدمين وشيل أي صلاحية زيادة عن الحاجة الفعلية (مبدأ أقل الصلاحيات).\n3. فعّل سياسات وصول شرطية (Conditional Access) لو متاحة — زي منع الدخول من دول غير متوقعة.\n\n### المرحلة 2 (الشهر التاني-التالت): الشبكة\n\n1. قسّم الشبكة لأجزاء أصغر (VLANs) بدل شبكة مسطحة واحدة.\n2. اعزل الأنظمة الحساسة (خوادم قواعد البيانات مثلًا) في قطاع منفصل بقواعد جدار حماية صارمة.\n\n### المرحلة 3 (مستمرة): المراقبة والتحسين\n\n1. راجع سجلات الوصول دوريًا لأنماط غير معتادة.\n2. حدّث السياسات بناءً على ما تتعلمه — Zero Trust مش مشروع له نهاية، هو عملية مستمرة.\n\n## أشهر خطأ في التطبيق\n\nالتفكير في Zero Trust كمنتج واحد \"يحل المشكلة كلها\" بمجرد الشراء. الحقيقة: هو تركيبة من سياسات وأدوات متعددة، وأي أداة واحدة (حتى لو غالية) بدون باقي الركائز مش هتحقق الحماية المرجوة.\n\n## الخلاصة\n\nمتحاولش تطبقه كله دفعة واحدة. 2FA الشامل وتقسيم الشبكة خطوتان واقعيتان تقدر تبدأ بيهم النهاردة بأدوات موجودة عندك غالبًا أصلًا، وباقي الركائز بتتضاف تدريجيًا مع الوقت.",
-      "en": "## The core principle: 'never trust, always verify'\n\nTraditional security relies on a 'castle and moat' model -- everything inside the network is trusted, and defense focuses on the outer perimeter. The problem: if an attacker breaches one entry point (an employee falling for phishing, say), they can move freely throughout the entire network.\n\nZero Trust flips this: being 'inside' the network is not, by itself, a reason to be trusted at all. Every access request -- regardless of its source -- must be verified based on identity, device health, and context (time, location, sensitivity of the requested resource).\n\n## The six pillars per NIST (SP 800-207)\n\nIdentity: strong verification of every user, not just a password. Devices: assessing device health (updated? antivirus running?) before granting access. Networks: fine-grained micro-segmentation instead of one flat network. Applications & workloads: continuous verification even after initial access is granted. Data: classifying and encrypting data based on sensitivity. Visibility, analytics & automation: continuous monitoring and automated response to anomalies.\n\n## Why small businesses think it's too expensive (and why that's wrong)\n\nZero Trust isn't one product you buy with a huge budget -- it's a philosophy applied gradually through tools you often already have. Any company with Microsoft 365 or Google Workspace already has enough tools to start.\n\n## A realistic phased rollout plan (without a huge budget)\n\n### Phase 1 (month 1): Identity\n\nEnable 2FA on every administrative account without exception -- top priority. Review user permissions and trim anything beyond actual need (least privilege). Enable conditional access policies if available -- like blocking logins from unexpected countries.\n\n### Phase 2 (months 2-3): Network\n\nSegment the network into smaller pieces (VLANs) instead of one flat network. Isolate sensitive systems (like database servers) in a separate segment with strict firewall rules.\n\n### Phase 3 (ongoing): Monitoring and improvement\n\nReview access logs periodically for unusual patterns. Update policies based on what you learn -- Zero Trust isn't a project with an end date, it's an ongoing process.\n\n## The most common implementation mistake\n\nThinking of Zero Trust as one product that 'solves everything' once purchased. The reality: it's a combination of multiple policies and tools, and any single tool (however expensive) without the other pillars won't achieve the intended protection.\n\n## Bottom line\n\nDon't try to implement it all at once. Comprehensive 2FA and network segmentation are two realistic steps you can start today with tools you likely already have, and the remaining pillars get added gradually over time."
+      "en": "Zero trust gets sold as a product. It isn't one. It's a design principle: **don't grant access because a request comes from \"inside\" the network; verify every request based on who is asking, from what device, for what resource.**\n\n## Why the old model broke\n\nThe traditional model trusted anything on the LAN. Once an attacker got in, through phishing, a stolen VPN password or an infected laptop, they could move sideways with little resistance. Cloud apps and remote work also mean most access no longer comes from \"inside\" anyway.\n\n## The core ideas\n\n- **Verify explicitly**: authenticate and authorise every access using identity, device health and context.\n- **Least privilege**: give only the access needed, for as long as it's needed. See [least privilege in practice](/article/least-privilege-principle-practical).\n- **Assume breach**: segment, monitor and limit blast radius as if an attacker is already present.\n\n## Where to start\n\n1. **Strong identity first.** Single sign-on for as many apps as possible, MFA for everyone, and phishing-resistant MFA for admins.\n2. **Know your devices.** Only managed, patched, encrypted devices get access to sensitive apps. Conditional access policies can enforce this.\n3. **Replace flat network access.** Instead of a VPN that drops users onto the whole LAN, publish specific apps through an identity-aware proxy or ZTNA. If a VPN remains, restrict what each group can reach.\n4. **Segment the network.** Separate servers, users, management interfaces and IoT; see [VLAN basics](/article/vlan-basics-why-segment).\n5. **Log and review.** Send authentication and access logs to a central place, and alert on anomalies.\n\n## Common mistakes\n\n- Buying a \"zero trust\" product and calling it done.\n- Leaving legacy exceptions (service accounts without MFA, old protocols) that become the way in.\n- Making the policy so strict that people find workarounds. Usability is part of security.\n\n## FAQ\n\n**Does zero trust mean we don't trust employees?**\nNo. It means trust is based on verified signals for each request rather than network location. Employees usually see fewer VPN prompts, not more friction.\n\n**Is it only for large enterprises?**\nThe principles scale down well. A small team with SSO, MFA, managed devices and basic segmentation is already most of the way there.\n\n## References\n\n- [NIST SP 800-207: Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final)\n- [CISA Zero Trust Maturity Model](https://www.cisa.gov/zero-trust-maturity-model)\n"
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -2151,7 +2171,7 @@
       "avatar": ""
     },
     "date": "2026-01-19",
-    "readTime": 11,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1728756666032-d0b5552b6384?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8Y3liZXJzZWN1cml0eSUyMG5ldHdvcmslMjBzaGllbGR8ZW58MXwwfHx8MTc4NTg3MjE0N3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "zero-trust",
@@ -2170,22 +2190,23 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0020",
     "slug": "email-security-gateway-basics",
     "title": {
       "ar": "بوابة أمان البريد الإلكتروني: ما الذي تحميه فعليًا",
-      "en": "Email Security Gateways: What They Actually Protect Against"
+      "en": "What an Email Security Gateway Actually Stops (and What Slips Through)"
     },
     "excerpt": {
       "ar": "4 وظائف أساسية بتضيفها بوابة أمان متخصصة فوق الحماية المدمجة، ومتى الاستثمار الإضافي يستاهل فعليًا.",
-      "en": "4 core functions a dedicated security gateway adds on top of built-in protection, and when the extra investment is genuinely worth it."
+      "en": "How secure email gateways and cloud email security filter spam, malware and phishing, the gaps they leave, and the controls you still need around them."
     },
     "body": {
       "ar": "## ليه الحماية المدمجة في Microsoft 365 أو Google Workspace مش كافية دايمًا\n\nMicrosoft 365 وGoogle Workspace فيهم فلترة سبام ومضاد فيروسات أساسي جيد، وبيوقفوا نسبة كبيرة من الرسائل الواضحة الضرر. المشكلة: المهاجمين المحترفين بيصمموا هجماتهم عشان تتخطى بالظبط الفلاتر الأساسية دي — رسالة تصيد مستهدفة (Spear Phishing) بمعلومات حقيقية عن الشركة غالبًا هتعدي الفلترة العادية بسهولة.\n\n## الوظائف الأساسية اللي بوابة أمان بريد متخصصة بتضيفها\n\n### 1. فحص المرفقات في بيئة معزولة (Sandboxing)\n\nبدل ما يفحص الملف بمقارنته بتوقيعات فيروسات معروفة بس، الـSandbox بيشغّل الملف فعليًا في بيئة معزولة تمامًا ويراقب سلوكه — لو حاول يعمل حاجة مشبوهة (تشفير ملفات، اتصال بسيرفر خارجي)، بيتحجب حتى لو مش موجود في أي قاعدة بيانات فيروسات معروفة.\n\n### 2. كشف انتحال النطاقات المشابهة (Look-alike Domains)\n\nمهاجم بيسجّل نطاق زي `micr0soft-support.com` (رقم 0 بدل الحرف o) ويبعت منه رسائل تبدو رسمية جدًا. بوابات الأمان المتخصصة بتقارن النطاق المرسل بقائمة نطاقات معروفة وبتنبّه على أي تشابه مريب.\n\n### 3. تشفير تلقائي للرسائل الحساسة (Data Loss Prevention)\n\nبتفحص محتوى الرسالة نفسها (مش بس المرفقات) عن أنماط بيانات حساسة (أرقام بطاقات ائتمان، أرقام قومية) وبتشفّر أو بتمنع الإرسال تلقائيًا لو لقت نمط زي ده بيتسرب لخارج الشركة.\n\n### 4. حماية من انتحال الهوية الداخلية (Internal Impersonation)\n\nبتكتشف لو رسالة جاية من داخل الشركة نفسها بتحاول تنتحل شخصية مدير أو موظف تاني (زي حساب مخترق بيبعت طلب تحويل مالي عاجل) — نمط هجوم شائع جدًا في الشركات الكبيرة.\n\n## متى تستاهل الاستثمار الإضافي\n\n1. **قطاع مالي أو حكومي** — أي تسريب بيانات فيه عواقب قانونية ومالية ضخمة.\n2. **شركة اتعرضت لمحاولة تصيد ناجحة قبل كده** — دليل عملي على إن الحماية الحالية مش كافية.\n3. **عدد موظفين كبير نسبيًا** — كل ما زاد العدد، زادت احتمالية وقوع شخص واحد على الأقل في هجوم مستهدف.\n\n## الخلاصة\n\nالحماية المدمجة نقطة بداية جيدة ومناسبة لشركة صغيرة بمخاطر محدودة، لكن للقطاعات الحساسة أو الشركات الكبيرة، طبقة بوابة أمان متخصصة (Sandboxing + كشف انتحال + DLP) مش رفاهية — هي ضرورة عملية بناءً على حجم الخطر الفعلي.",
-      "en": "## Why built-in protection in Microsoft 365 or Google Workspace isn't always enough\n\nMicrosoft 365 and Google Workspace have solid baseline spam filtering and antivirus, stopping a large share of obviously malicious messages. The problem: sophisticated attackers design their attacks specifically to bypass these basic filters -- a targeted spear phishing message with real company information often sails right past standard filtering.\n\n## Core features a dedicated email security gateway adds\n\n### 1. Attachment sandboxing\n\nInstead of just comparing a file against known virus signatures, a sandbox actually runs the file in a fully isolated environment and watches its behavior -- if it tries anything suspicious (encrypting files, contacting an external server), it's blocked even if it's not in any known virus database.\n\n### 2. Look-alike domain detection\n\nAn attacker registers a domain like micr0soft-support.com (a zero instead of the letter o) and sends very official-looking messages from it. Dedicated security gateways compare the sending domain against known domain lists and flag suspicious similarities.\n\n### 3. Automatic encryption of sensitive messages (Data Loss Prevention)\n\nScans the message content itself (not just attachments) for sensitive data patterns (credit card numbers, national IDs) and automatically encrypts or blocks sending if such a pattern is about to leak outside the company.\n\n### 4. Internal impersonation protection\n\nDetects when a message from inside the company itself is trying to impersonate a manager or another employee (like a compromised account requesting an urgent financial transfer) -- a very common attack pattern in large companies.\n\n## When the extra investment is worth it\n\nA financial or government sector -- any data leak carries huge legal and financial consequences. A company that's already suffered a successful phishing attempt -- practical proof current protection isn't sufficient. A relatively large employee count -- the more people, the higher the chance at least one falls for a targeted attack.\n\n## Bottom line\n\nBuilt-in protection is a good starting point suited to a small business with limited risk, but for sensitive sectors or large companies, a dedicated gateway layer (sandboxing + impersonation detection + DLP) isn't a luxury -- it's a practical necessity based on actual risk level."
+      "en": "Email remains the top delivery route for phishing and malware, so most organisations put a filter in front of the mailbox. That might be a traditional secure email gateway (SEG) that sits in the MX path, or an API-based cloud email security product that plugs into Microsoft 365 or Google Workspace. Either way, it's worth knowing exactly what it covers.\n\n## What gateways do well\n\n- **Spam and bulk mail**: reputation, content analysis and rate limits remove the noise.\n- **Known malware**: signature and sandbox scanning of attachments.\n- **Malicious links**: URL reputation, and time-of-click rewriting that rechecks a link when it's opened rather than only on delivery.\n- **Authentication checks**: SPF, DKIM and DMARC evaluation of inbound mail, which catches a lot of spoofing.\n- **Data loss rules** on outbound mail, such as blocking card numbers or tagging sensitive attachments.\n\n## What gets through\n\n- **Business email compromise (BEC)**: a plain-text request from a look-alike domain or a compromised partner account has no payload to detect.\n- **Messages from legitimate services**: phishing links hosted on well-known file-sharing or form platforms.\n- **Delayed weaponisation**: a link that was clean on delivery and turns malicious later (partly covered by time-of-click checks).\n- **Anything outside email**: Teams, Slack, SMS and QR codes.\n\n## Controls to pair with it\n\n- **DMARC on your own domains**, so attackers can't spoof you to customers; see [rolling out DMARC](/article/dmarc-rollout-none-to-reject).\n- **Process controls** for payments: bank-detail changes confirmed by phone, dual approval for large transfers (see [dual control](/article/dual-control-critical-operations)).\n- **A report button** and someone who triages reports quickly, removing similar messages from all mailboxes.\n- **Endpoint protection** for what reaches the device anyway.\n- **Awareness training** focused on recognising requests, not just links; see [spotting phishing](/article/phishing-spot-before-click).\n\n## FAQ\n\n**Do we need a gateway if we use Microsoft 365?**\nBuilt-in protection has improved a lot. Many organisations add a third-party layer for better BEC detection or management features. Test with your own mail flow before deciding.\n\n**SEG or API-based?**\nGateways change MX records and filter before delivery; API products scan inside the mailbox and can pull messages after delivery. Some organisations combine both.\n\n## References\n\n- [Microsoft Defender for Office 365 overview (Microsoft Learn)](https://learn.microsoft.com/en-us/defender-office-365/mdo-about)\n"
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -2197,7 +2218,7 @@
       "avatar": ""
     },
     "date": "2026-04-26",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8ZW1haWwlMjBpbmJveCUyMHNlY3VyaXR5fGVufDF8MHx8fDE3ODU4NzIxNDh8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "email-security",
@@ -2217,7 +2238,8 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0021",
@@ -2264,22 +2286,23 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0022",
     "slug": "snmp-monitoring-basics",
     "title": {
       "ar": "أساسيات مراقبة الشبكة بـSNMP: الإصدارات والأمان",
-      "en": "Network Monitoring with SNMP: Versions and Security"
+      "en": "SNMP for Network Monitoring: Choosing a Version and Securing It"
     },
     "excerpt": {
       "ar": "الفرق بين v1/v2c وv3 بالتفصيل، خطوات إعداد كاملة، وأشهر 3 أخطاء بتعرّض بيانات جهازك.",
-      "en": "The v1/v2c vs v3 difference in detail, complete setup steps, and the 3 most common mistakes that expose your device's data."
+      "en": "How SNMP polling and traps work, why v1 and v2c community strings are a liability, and how to configure SNMPv3 with authentication, encryption and restricted access."
     },
     "body": {
       "ar": "## الفكرة الأساسية: مراقبة مركزية بدل الدخول لكل جهاز لوحده\n\nبدون SNMP، مراقبة حالة عشرات أو مئات الأجهزة (سويتشات، راوترات، سيرفرات) بتحتاج تدخل على كل واحد لوحده يدويًا — مستحيل عمليًا مع نمو العدد. SNMP (Simple Network Management Protocol) بيخلي أداة واحدة مركزية تسأل كل الأجهزة عن حالتها (استخدام المعالج، الذاكرة، حالة المنافذ، درجة الحرارة أحيانًا) من مكان واحد بشكل دوري.\n\n## الفرق الجوهري بين الإصدارات\n\n### SNMP v1/v2c\n\nالأقدم والأبسط إعدادًا، بيعتمد على \"Community String\" (زي كلمة مرور بسيطة) بتتبعت **بدون تشفير** عبر الشبكة — أي حد بيقدر يعترض حركة المرور يقدر يشوفها بوضوح.\n\n### SNMP v3\n\nبيضيف مصادقة حقيقية وتشفير كامل للبيانات المتبادلة — الخيار الأنسب أمنيًا، خصوصًا لو المراقبة بتعدي على شبكة مش موثوقة بالكامل.\n\n## خطوات الإعداد التفصيلية\n\n### 1. فعّل SNMP على الجهاز المطلوب مراقبته\n\nكل جهاز (سويتش، راوتر، سيرفر) عنده إعداد منفصل لتفعيل SNMP — راجع توثيق الموديل تحديدًا لأن الخطوات بتختلف شوية بين المصنّعين.\n\n### 2. حدد Community String قوي (لو v2c) أو أعداد مصادقة v3\n\nلو مضطر تستخدم v2c لأسباب توافق مع أجهزة قديمة، على الأقل غيّر Community String من الافتراضي \"public\" اللي معروف عالميًا.\n\n### 3. قيّد الوصول لعنوان IP أداة المراقبة بس\n\nمن إعدادات جدار الحماية على الجهاز نفسه أو جدار حماية الشبكة، اسمح لطلبات SNMP بس من عنوان IP أداة المراقبة المركزية — مش من أي مكان.\n\n### 4. اربط الجهاز بأداة المراقبة\n\nأدوات زي Zabbix أو PRTG أو Nagios بتدعم SNMP كمصدر بيانات أساسي — بتحتاج تضيف الجهاز بعنوان IP والـCommunity String أو بيانات v3.\n\n### 5. اضبط تنبيهات ذكية، مش كل حاجة\n\nابدأ بتنبيهات عالية القيمة: امتلاء مساحة التخزين، ارتفاع استخدام المعالج فوق حد معين لفترة مستمرة، أو توقف منفذ شبكة كان شغال.\n\n## أشهر الأخطاء\n\n### استخدام v1/v2 على شبكة غير موثوقة تمامًا\n\nلو المراقبة بتعدي عبر إنترنت عام أو شبكة مش تحت سيطرتك الكاملة، استخدام v1/v2 معناها إرسال بيانات حساسة (حتى لو مجرد إحصائيات أداء) بدون أي حماية.\n\n### ترك Community String الافتراضي\n\n\"public\" و\"private\" هما القيمتان الافتراضيتان الأشهر على معظم الأجهزة — لو ماتغيّرتش، أي أداة فحص بسيطة تقدر توصل لبيانات جهازك.\n\n### تنبيهات كتير أوي من غير أولوية\n\nلو كل تنبيه بسيط بيبعت إشعار، الفريق هيبدأ يتجاهل التنبيهات كلها بعد فترة (Alert Fatigue) — ركّز على الحالات اللي فعلًا بتحتاج تدخل فوري.\n\n## الخلاصة\n\nSNMP + أداة مراقبة مركزية بيوفر وقت اكتشاف مشاكل حقيقي (بدل ما تكتشفها من شكوى مستخدم)، لكن الأمان مهم بنفس القدر — v3 هو الخيار الافتراضي الصح، وv1/v2 يستاهل بس لبيئات معزولة تمامًا.",
-      "en": "## The core idea: central monitoring instead of logging into each device\n\nWithout SNMP, monitoring the health of dozens or hundreds of devices (switches, routers, servers) requires manually logging into each one individually -- practically impossible as the count grows. SNMP (Simple Network Management Protocol) lets one central tool periodically query every device's health (CPU, memory, port status, sometimes temperature) from a single place.\n\n## The core difference between versions\n\n### SNMP v1/v2c\n\nThe oldest and simplest to configure, relying on a 'community string' (like a simple password) sent unencrypted across the network -- anyone able to intercept traffic can see it clearly.\n\n### SNMP v3\n\nAdds real authentication and full encryption of exchanged data -- the security-appropriate choice, especially if monitoring traffic crosses a not-fully-trusted network.\n\n## Detailed setup steps\n\n### 1. Enable SNMP on the device to be monitored\n\nEach device (switch, router, server) has a separate setting to enable SNMP -- check the specific model's documentation, since steps differ somewhat between manufacturers.\n\n### 2. Set a strong community string (v2c) or v3 authentication settings\n\nIf forced to use v2c for legacy device compatibility, at minimum change the community string from the globally-known default 'public'.\n\n### 3. Restrict access to only the monitoring tool's IP\n\nFrom the device's own firewall settings or the network firewall, allow SNMP requests only from the central monitoring tool's IP -- not from anywhere.\n\n### 4. Connect the device to the monitoring tool\n\nTools like Zabbix, PRTG, or Nagios support SNMP as a core data source -- you'll add the device with its IP and community string or v3 credentials.\n\n### 5. Set smart alerts, not everything\n\nStart with high-value alerts: storage filling up, CPU usage exceeding a threshold for a sustained period, or a previously-working network port going down.\n\n## Common mistakes\n\n### Using v1/v2 on a not-fully-trusted network\n\nIf monitoring crosses the public internet or a network not fully under your control, using v1/v2 means sending sensitive data (even just performance stats) with zero protection.\n\n### Leaving the default community string\n\n'public' and 'private' are the most common defaults across many devices -- if unchanged, any basic scanning tool can reach your device's data.\n\n### Too many alerts with no priority\n\nIf every minor event sends a notification, the team eventually starts ignoring all alerts (alert fatigue) -- focus on cases that genuinely need immediate action.\n\n## Bottom line\n\nSNMP plus central monitoring saves real problem-detection time (instead of finding out from a user complaint), but security matters equally -- v3 should be the default choice, and v1/v2 is only acceptable for fully isolated environments."
+      "en": "SNMP is still the common language of network monitoring. Switches, routers, firewalls, UPS units and printers all speak it, and every monitoring tool can read it. It's also frequently left in its least secure configuration.\n\n## How SNMP works\n\n- **Managers** (your monitoring server) **poll agents** on devices over UDP 161, asking for values such as interface counters, CPU and temperature.\n- Values are identified by **OIDs** and described in **MIBs**.\n- Agents can also send **traps or informs** to the manager over UDP 162 when something happens, such as a link going down.\n\n## The versions\n\n| Version | Authentication | Encryption | Verdict |\n|---|---|---|---|\n| v1 | Community string, plain text | None | Avoid |\n| v2c | Community string, plain text | None | Only if a device can't do v3, and tightly restricted |\n| v3 | Username with SHA-based auth | AES | Use this |\n\nThe community string in v1/v2c is effectively a password sent in clear text. Default strings like `public` and `private` are among the first things attackers try, and write access (`private`) can let them change device configuration.\n\n## Securing SNMP\n\n1. **Use SNMPv3 with authPriv**: authentication and privacy (encryption) both on, with SHA-2 family and AES where the device supports them.\n2. **Read-only by default.** Monitoring rarely needs write access.\n3. **Restrict who can query**: ACLs on the device permitting only the monitoring server's IP.\n4. **Keep it off the internet.** Block UDP 161/162 at the perimeter and carry SNMP on a management network or VLAN.\n5. **Remove default communities** on every device, including printers and UPS cards.\n6. **Use views** on devices that support them to limit which OIDs a user can read.\n\n## What to monitor first\n\nInterface utilisation and errors, device CPU and memory, environmental sensors, and link up/down traps. Feed traps and logs to a central system so alerts correlate with events, alongside your [syslog server](/article/syslog-server-setup-basics).\n\n## FAQ\n\n**Can SNMP replace syslog?**\nNo, they complement each other. SNMP gives metrics and state; syslog gives event detail.\n\n**What about streaming telemetry?**\nNewer platforms offer gRPC/gNMI telemetry for high-frequency data. SNMP remains the widest-supported baseline.\n\n## References\n\n- [RFC 3414: User-based Security Model for SNMPv3](https://www.rfc-editor.org/rfc/rfc3414)\n- [RFC 3826: AES Cipher in the SNMP User-based Security Model](https://www.rfc-editor.org/rfc/rfc3826)\n"
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -2291,7 +2314,7 @@
       "avatar": ""
     },
     "date": "2025-05-13",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMG1vbml0b3JpbmclMjBkYXNoYm9hcmR8ZW58MXwwfHx8MTc4NTg3MjE1MXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "snmp",
@@ -2309,22 +2332,23 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0023",
     "slug": "802-1x-certificate-authentication",
     "title": {
       "ar": "المصادقة بالشهادات عبر 802.1X: المكونات وخطوات النشر",
-      "en": "Certificate-Based 802.1X Authentication: Components and Rollout Steps"
+      "en": "802.1X with Certificates: How the Pieces Fit and How to Roll It Out"
     },
     "excerpt": {
       "ar": "الفرق بين EAP-TLS وPEAP، خطوات تطبيق عملية كاملة، وليه التفعيل الصارم المفاجئ أشهر خطأ.",
-      "en": "The EAP-TLS vs PEAP difference, complete practical implementation steps, and why sudden strict enforcement is the most common mistake."
+      "en": "The supplicant, authenticator and RADIUS server roles, why EAP-TLS beats passwords for network access, and a staged rollout that avoids locking users out."
     },
     "body": {
       "ar": "## المشكلة اللي بيحلها فعليًا\n\nكلمة مرور الواي فاي وحدها مش كافية أمنيًا — أي حد عنده الباسورد (حتى لو اتسرّب أو اتشارك من غير قصد) يقدر يتصل بالشبكة بنفس صلاحيات أي موظف تاني. 802.1X بيحوّل المصادقة من \"مين عنده الباسورد المشترك\" لـ\"مين هويته الفردية متأكد منها فعليًا\" — فرق جوهري في مستوى الأمان.\n\n## المكونات الأساسية الثلاثة\n\n### 1. Supplicant (طالب الوصول)\n\nالجهاز اللي عايز يتصل بالشبكة — لابتوب، موبايل، أو أي جهاز طرفي. عنده برنامج أو إعداد بيتفاوض مع باقي المكونات.\n\n### 2. Authenticator (الوسيط)\n\nالسويتش الشبكي أو نقطة الوصول اللاسلكية — بيمرر طلب المصادقة للسيرفر المسؤول، ومش بيدّي أي وصول فعلي للشبكة لحد ما يوصله رد بالموافقة.\n\n### 3. Authentication Server (سيرفر التحقق)\n\nعادةً RADIUS (زي Windows NPS أو FreeRADIUS) — بيتحقق من الهوية فعليًا، إما عن طريق شهادة رقمية أو حساب مستخدم مرتبط بـActive Directory.\n\n## طريقتان أساسيتان للمصادقة\n\n### EAP-TLS (بالشهادات الرقمية)\n\nالأقوى أمنيًا — كل جهاز عنده شهادة رقمية فريدة، ومفيش كلمة مرور تتنقل عبر الشبكة أصلًا يمكن اعتراضها. يحتاج بنية تحتية لإدارة الشهادات (PKI) مُعدّة مسبقًا.\n\n### PEAP-MSCHAPv2 (باسم مستخدم وكلمة مرور)\n\nأسهل إعدادًا نسبيًا، بيستخدم حساب Active Directory عادي بدل شهادة منفصلة — أضعف شوية من EAP-TLS لكن كافي لمعظم البيئات، وأسرع في التطبيق الأولي.\n\n## خطوات تطبيق عملية\n\n### 1. جهّز خادم RADIUS\n\nثبّت وربطه بـActive Directory (للمصادقة بحساب المستخدم) أو ببنية شهادات (لـEAP-TLS).\n\n### 2. فعّل 802.1X على منافذ السويتش أو نقاط الوصول\n\nكل منتج شبكي عنده طريقة إعداد مختلفة شوية — راجع توثيق الموديل المحدد.\n\n### 3. وزّع الشهادات أو بيانات الاعتماد على الأجهزة المعتمدة\n\nلو مستخدم EAP-TLS، توزيع الشهادات آليًا عبر Group Policy بيوفر وقت كبير مقارنة بالتوزيع اليدوي لكل جهاز.\n\n### 4. اختبر في وضع \"مراقبة\" قبل التطبيق الصارم\n\nبعض المعدات بتدعم وضع بيسجّل من كان هيُرفض من غير ما يمنعه فعليًا — بيديك فرصة تكتشف أجهزة معتمدة نسيت تضيفها قبل ما تعطّلها فعليًا.\n\n## أشهر خطأ في التطبيق\n\nتفعيل 802.1X الصارم فجأة على كل الشبكة من غير مرحلة اختبار — أجهزة قديمة أو معدّات IoT مش بتدعم 802.1X أصلًا هتفقد الاتصال تمامًا، وده بيسبب أزمة تشغيلية غير متوقعة.\n\n## الخلاصة\n\n802.1X بيرفع مستوى أمان الشبكة بشكل جوهري، لكن يحتاج بنية تحتية (RADIUS، وربما PKI) ومرحلة اختبار حقيقية قبل التطبيق الكامل — التسرّع في التفعيل الصارم أشهر سبب لأزمات تشغيلية غير متوقعة.",
-      "en": "## The problem it actually solves\n\nA Wi-Fi password alone isn't secure enough -- anyone with it (even if leaked or accidentally shared) can connect to the network with the same privileges as any other employee. 802.1X shifts authentication from 'who has the shared password' to 'whose individual identity is actually verified' -- a fundamental difference in security level.\n\n## The three core components\n\n### 1. Supplicant (the requester)\n\nThe device wanting to join the network -- laptop, phone, or any endpoint. Has software or configuration negotiating with the other components.\n\n### 2. Authenticator (the intermediary)\n\nThe network switch or wireless access point -- passes the authentication request to the responsible server, granting no actual network access until it receives an approval response.\n\n### 3. Authentication server (the verifier)\n\nUsually RADIUS (like Windows NPS or FreeRADIUS) -- actually verifies identity, either via a digital certificate or a user account linked to Active Directory.\n\n## Two core authentication methods\n\n### EAP-TLS (via digital certificates)\n\nThe strongest security-wise -- every device has a unique digital certificate, and no password ever travels across the network to potentially intercept. Needs a pre-established certificate management infrastructure (PKI).\n\n### PEAP-MSCHAPv2 (via username and password)\n\nRelatively easier to set up, uses a regular Active Directory account instead of a separate certificate -- somewhat weaker than EAP-TLS but sufficient for most environments, and faster for initial rollout.\n\n## Practical implementation steps\n\n### 1. Prepare the RADIUS server\n\nInstall and link it to Active Directory (for user-account auth) or a certificate infrastructure (for EAP-TLS).\n\n### 2. Enable 802.1X on switch ports or access points\n\nEvery network product has a slightly different setup method -- check the specific model's documentation.\n\n### 3. Distribute certificates or credentials to approved devices\n\nIf using EAP-TLS, automatic certificate distribution via Group Policy saves significant time compared to manual per-device distribution.\n\n### 4. Test in monitor mode before strict enforcement\n\nSome equipment supports a mode logging who would be rejected without actually blocking them -- gives you a chance to catch approved devices you forgot to add before actually disabling them.\n\n## The most common implementation mistake\n\nSuddenly enabling strict 802.1X across the whole network without a testing phase -- old devices or IoT equipment not supporting 802.1X at all will lose connectivity entirely, causing an unexpected operational crisis.\n\n## Bottom line\n\n802.1X fundamentally raises network security level, but needs infrastructure (RADIUS, possibly PKI) and a genuine testing phase before full rollout -- rushing strict enforcement is the most common cause of unexpected operational crises."
+      "en": "802.1X decides whether a device may use a switch port or Wi-Fi network before it gets an IP address. With certificate-based EAP-TLS, the decision is based on a certificate the device holds, not a password someone can phish or share.\n\n## The three roles\n\n- **Supplicant**: the client (Windows, macOS, a phone) that presents credentials.\n- **Authenticator**: the switch or wireless controller. It doesn't decide anything; it relays EAP messages and enforces the result.\n- **Authentication server**: usually RADIUS (Microsoft NPS, Cisco ISE, FreeRADIUS, Aruba ClearPass), which checks the credentials and returns accept or reject, often with a VLAN assignment.\n\n## Why certificates\n\n- Nothing for users to type, so nothing to phish.\n- Both sides authenticate: the client verifies the RADIUS server certificate, which stops evil-twin access points from harvesting credentials.\n- Access is revoked by revoking or not renewing a certificate.\n\nPassword-based methods such as PEAP-MSCHAPv2 are simpler to start but weaker, especially if clients aren't set to validate the server certificate.\n\n## What you need\n\n1. **A PKI** to issue device and/or user certificates; see [PKI and the chain of trust](/article/pki-certificate-authority-explained).\n2. **Automated enrolment**: Group Policy auto-enrolment for domain machines, or MDM (Intune, others) via SCEP or PKCS profiles.\n3. **A RADIUS server** with policies matching certificate attributes and groups.\n4. **Switch and Wi-Fi configuration** pointing to RADIUS, with sensible fallback behaviour.\n\n## A rollout that doesn't break things\n\n1. **Pilot on Wi-Fi first** with IT devices. It's easier to fix than wired.\n2. **Run wired ports in monitor or low-impact mode**, logging authentication results without blocking.\n3. **Handle devices that can't do 802.1X** (printers, phones, cameras) with MAC Authentication Bypass into a restricted VLAN, and treat MAB as weaker.\n4. **Enforce gradually**, building by building, with a documented way to restore a port quickly.\n5. **Monitor certificate expiry and CRL availability**. An expired CA or unreachable CRL can take everyone offline; see [certificate expiry monitoring](/article/certificate-expiry-monitoring).\n\n## FAQ\n\n**Machine or user certificates?**\nMachine certificates let devices connect before login (needed for Group Policy and scripts). Many deployments use both.\n\n**Is 802.1X the same as NAC?**\n802.1X is the authentication mechanism; NAC adds posture checks, profiling and policy. See [network access control basics](/article/network-access-control-nac-basics).\n\n## References\n\n- [RFC 5216: The EAP-TLS Authentication Protocol](https://www.rfc-editor.org/rfc/rfc5216)\n- [Network Policy Server (Microsoft Learn)](https://learn.microsoft.com/en-us/windows-server/networking/technologies/nps/nps-top)\n"
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -2336,7 +2360,7 @@
       "avatar": ""
     },
     "date": "2025-07-20",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1695668548342-c0c1ad479aee?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8bmV0d29yayUyMGF1dGhlbnRpY2F0aW9uJTIwc2VydmVyfGVufDF8MHx8fDE3ODU4NzIxNTJ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "802.1x",
@@ -2358,22 +2382,23 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0024",
     "slug": "log-retention-siem-basics",
     "title": {
       "ar": "الاحتفاظ بالسجلات (Log Retention): كيف تحدد المدة الصحيحة",
-      "en": "Log Retention: How to Set the Right Duration"
+      "en": "How Long to Keep Logs: Setting a Retention Policy That Holds Up"
     },
     "excerpt": {
       "ar": "مدد مقترحة حسب نوع السجل، استراتيجية التخزين المتدرج (ساخن/بارد)، ونصيحة توثيق القرار بدل رقم عشوائي.",
-      "en": "Suggested durations by log type, a tiered hot/cold storage strategy, and advice to document the decision instead of picking an arbitrary number."
+      "en": "Balancing investigation needs, legal requirements and storage cost: hot versus archive tiers, which logs deserve longer retention, and how to make sure the logs are actually there when you need them."
     },
     "body": {
       "ar": "## المعضلة الأساسية: قصير جدًا خطر، طويل جدًا مكلف\n\nاحتفاظ قصير جدًا بالسجلات معناه لو حصل اختراق ماتكتشفوش إلا بعد شهرين (سيناريو شائع فعليًا — متوسط وقت اكتشاف الاختراقات في كتير من الدراسات بيتعدى الشهر بسهولة)، مفيش سجلات ترجع لبداية الحادثة أصلًا — التحقيق بيبقى شبه مستحيل. احتفاظ طويل جدًا من غير داعي معناه تكلفة تخزين متصاعدة بلا فايدة أمنية إضافية حقيقية.\n\n## مدد مقترحة حسب نوع السجل (نقطة بداية، مش قاعدة مطلقة)\n\n### سجلات أمنية حساسة جدًا (Firewall, VPN, Active Directory)\n\n90-180 يوم على الأقل. دي السجلات اللي هتحتاجها فعليًا وقت أي تحقيق في اختراق محتمل — أهم فئة تستاهل احتفاظ أطول.\n\n### قطاعات منظّمة بمتطلبات قانونية (مالي، حكومي، طبي)\n\nقد تصل لسنة كاملة أو أكتر حسب اللائحة المحددة (PCI-DSS، HIPAA، إلخ) — راجع المتطلب القانوني الفعلي بدل الافتراض.\n\n### سجلات عادية أقل حساسية (استخدام تطبيقات عادي، أداء نظام)\n\n30-90 يوم كافية غالبًا — قيمتها التحقيقية أقل بكتير من السجلات الأمنية.\n\n## استراتيجية التخزين المتدرج (Tiered Storage)\n\nبدل ما تخزّن كل حاجة على نفس الوسيط بنفس التكلفة، قسّم لمرحلتين:\n\n### المرحلة الساخنة (Hot Storage)\n\nسجلات آخر 30-90 يوم، على تخزين سريع الوصول (قرص محلي أو SSD) — ده اللي هتحتاجه للتحقيقات الفورية والتحليل اليومي.\n\n### المرحلة الباردة (Cold/Archive Storage)\n\nسجلات أقدم، على تخزين أرخص بكتير (تخزين سحابي أرشيفي مثلًا) — لسه موجودة لو احتجتها لتحقيق قديم أو متطلب امتثال، لكن بتكلفة أقل بكتير من التخزين السريع.\n\n## نصيحة عملية: وثّق القرار، متعتمدش على رقم عشوائي\n\nحدد مدة الاحتفاظ بناءً على: متطلب قانوني فعلي لقطاعك (لو موجود)، متوسط الوقت اللي بياخده اكتشاف حادث في بيئتك، وميزانية التخزين المتاحة. وثّق القرار ده رسميًا — مدقق خارجي هيسألك \"ليه المدة دي بالذات؟\"، والإجابة لازم تكون مبنية على تحليل مش تخمين.\n\n## الخلاصة\n\nمفيش رقم واحد صح لكل حاجة — حدد المدة حسب نوع السجل ومتطلبات القطاع، واستخدم تخزين متدرج (ساخن/بارد) عشان توازن بين التكلفة والاحتياج الفعلي وقت أي تحقيق.",
-      "en": "## The core dilemma: too short is dangerous, too long is expensive\n\nToo-short retention means if a breach occurs, it's often not discovered for months (a genuinely common scenario -- average breach discovery time in many studies easily exceeds a month), leaving no logs going back to the incident's start -- investigation becomes nearly impossible. Unnecessarily long retention means escalating storage cost with no real added security benefit.\n\n## Suggested durations by log type (a starting point, not an absolute rule)\n\n### Highly sensitive security logs (firewall, VPN, Active Directory)\n\nAt least 90-180 days. These are the logs you'll genuinely need during any breach investigation -- the most important category deserving longer retention.\n\n### Regulated sectors with legal requirements (financial, government, medical)\n\nCould reach a full year or more depending on the specific regulation (PCI-DSS, HIPAA, etc.) -- check the actual legal requirement instead of assuming.\n\n### Regular, less sensitive logs (normal app usage, system performance)\n\n30-90 days is often enough -- their investigative value is much lower than security logs.\n\n## A tiered storage strategy\n\nInstead of storing everything on the same medium at the same cost, split into two tiers:\n\n### Hot storage\n\nThe last 30-90 days of logs, on fast-access storage (local disk or SSD) -- what you'll need for immediate investigations and daily analysis.\n\n### Cold/archive storage\n\nOlder logs, on much cheaper storage (archival cloud storage, say) -- still available if needed for an old investigation or compliance requirement, but at far lower cost than fast storage.\n\n## Practical advice: document the decision, don't rely on an arbitrary number\n\nSet retention duration based on: an actual legal requirement for your sector (if any), the average time your environment takes to discover an incident, and available storage budget. Document this decision formally -- an external auditor will ask 'why this specific duration?', and the answer should be based on analysis, not a guess.\n\n## Bottom line\n\nThere's no single correct number for everything -- set duration per log type and sector requirement, and use tiered storage (hot/cold) to balance cost against actual need during any investigation."
+      "en": "During an incident, the first question is usually \"when did this start?\" Attackers often sit in a network for weeks before being noticed, so logs that roll over after seven days may be gone exactly when you need them. Retention is a decision, not a default.\n\n## What drives the number\n\n- **Investigation needs**: you want logs covering at least the time an attacker might stay undetected, plus margin.\n- **Legal and regulatory requirements**: sector regulations, contracts and standards such as PCI DSS set minimums for some data. Check what applies to you.\n- **Privacy law**: keeping personal data longer than necessary is itself a risk. Retention must have an end as well as a start.\n- **Cost**: ingest and storage add up, especially in a SIEM priced per gigabyte.\n\n## Tiered retention\n\n| Tier | Purpose | Typical approach |\n|---|---|---|\n| Hot (searchable in the SIEM) | Detection, triage | Weeks to a few months |\n| Warm/cold | Investigations | Several months, slower search |\n| Archive | Legal hold, long-tail forensics | A year or more in cheap, immutable storage |\n\nPCI DSS, for example, requires a year of audit log history with the most recent three months immediately available. That's a useful benchmark even if it doesn't apply to you.\n\n## Which logs deserve longest retention\n\n- Authentication: domain controllers, identity provider, VPN, MFA.\n- Firewall and proxy connections at the perimeter.\n- EDR telemetry and alerts.\n- Privileged activity and changes to security settings.\n- DNS query logs, which are invaluable for tracing malware callbacks.\n\n## Making retention real\n\n- **Centralise**: logs on the device that's compromised can be deleted. Ship them to a [central syslog server](/article/syslog-server-setup-basics) or SIEM.\n- **Synchronise time** with NTP so timelines line up.\n- **Protect integrity**: restrict deletion and use immutable storage for archives.\n- **Test retrieval**: once a quarter, pull a three-month-old event. Retention you can't search isn't retention.\n- **Document it** in a policy: data type, retention period, location, owner.\n\n## FAQ\n\n**Is there one \"correct\" retention period?**\nNo. Many organisations land on around 90 days hot and 12 months total, adjusted for regulations and budget.\n\n**Should we log everything?**\nCollect what you'll use for detection and investigation. Noisy, unused logs cost money and hide signal. See [how a SIEM works](/article/how-siem-actually-works).\n\n## References\n\n- [NIST SP 800-92: Guide to Computer Security Log Management](https://csrc.nist.gov/pubs/sp/800/92/final)\n- [PCI Security Standards Council document library](https://www.pcisecuritystandards.org/document_library/)\n"
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -2385,7 +2410,7 @@
       "avatar": ""
     },
     "date": "2025-09-27",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "siem",
@@ -2406,22 +2431,23 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0025",
     "slug": "windows-patch-management-strategy",
     "title": {
       "ar": "استراتيجية إدارة التحديثات (Patch Management) لبيئة صغيرة",
-      "en": "A Patch Management Strategy for a Small Environment"
+      "en": "Patch Management for a Small IT Team: A Strategy That Fits"
     },
     "excerpt": {
       "ar": "نظام الحلقات بالتفصيل (اختبار/إنتاج)، استثناء التحديثات الحرجة، ومقارنة أدوات حسب حجم البيئة (WSUS/SaaS/Intune).",
-      "en": "The ring system explained in detail (test/production), the critical-patch exception, and tool comparison by environment size (WSUS/SaaS/Intune)."
+      "en": "A realistic patching process for small environments: inventory, rings, timelines by severity, handling the systems you can't reboot, and proving it worked."
     },
     "body": {
       "ar": "## المعضلة الأساسية: السرعة مقابل الاستقرار\n\nتحديث فوري لكل الأجهزة بمجرد صدوره ممكن يكسر تطبيق مهم من غير سابق إنذار — التحديثات نفسها أحيانًا بتيجي بعيوب. تأجيل التحديث لفترة طويلة عشان \"نتأكد إنه آمن\" بيسيب ثغرات معروفة مفتوحة لفترة أطول، وده بالظبط النافذة الزمنية اللي المهاجمين بيستغلوها.\n\n## الاستراتيجية العملية: نظام الحلقات (Rings)\n\n### الحلقة الأولى: الاختبار (Ring 1)\n\nمجموعة صغيرة من الأجهزة (5-10% من إجمالي البيئة)، يُفضّل تكون متنوعة (أجهزة مختلفة، مستخدمين مختلفين) عشان تكتشف مشاكل التوافق بدري. التحديثات بتتطبق هنا الأول.\n\n### فترة المراقبة (3-5 أيام)\n\nبعد تطبيق التحديث على Ring 1، استنى فترة مراقبة قبل ما تكمل — راقب تقارير الأعطال، شكاوى المستخدمين، أو سلوك غير متوقع.\n\n### الحلقة الثانية: الإنتاج (Ring 2)\n\nلو مفيش مشاكل ظهرت خلال فترة المراقبة، طبّق التحديث على باقي البيئة. ممكن كمان تقسّم دي لمجموعات فرعية (زي حسب القسم) لو البيئة كبيرة جدًا.\n\n## استثناء مهم: التحديثات الحرجة (Zero-Day)\n\nثغرة Zero-Day مُستغلّة فعليًا في هجمات حقيقية مش وقتها الانتظار لدورة الاختبار العادية — الخطر من التأخير أكبر بكتير من خطر مشكلة توافق نادرة. طبّق فورًا بعد اختبار سريع جدًا (ساعات مش أيام) على عينة صغيرة جدًا.\n\n## أدوات مناسبة حسب حجم البيئة\n\n### WSUS (مجاني، Windows Server)\n\nمناسب لبيئة عندها أصلًا Windows Server، بيدّيك تحكم كامل في توقيت النشر والمجموعات المستهدفة من غير تكلفة ترخيص إضافية.\n\n### أدوات SaaS سحابية\n\nمناسبة لو مفيش سيرفر Windows أصلًا أو بيئة صغيرة جدًا، بتكلفة اشتراك شهري لكن بدون عبء إدارة بنية تحتية.\n\n### Microsoft Intune (لبيئة هجينة أو بعيدة)\n\nأفضل لو عندك أجهزة بعيدة مش دايمًا على شبكة الشركة — WSUS بيحتاج الجهاز يكون متصل بالشبكة الداخلية، Intune مش محتاج ده.\n\n## نافذة الصيانة الثابتة\n\nحدد يوم ووقت أسبوعي ثابت للتحديثات العادية (زي كل يوم أربعاء الساعة 8 مساءً) — الثبات ده بيسهّل التخطيط للفريق وللمستخدمين، ويقلل المفاجآت.\n\n## الخلاصة\n\nنظام حلقتين بسيط (اختبار وإنتاج) مع استثناء واضح للتحديثات الحرجة بيوازن بين الأمان والاستقرار من غير تعقيد إداري زيادة عن اللزوم — مش محتاج أداة مؤسسية ضخمة لبيئة صغيرة أو متوسطة.",
-      "en": "## The core dilemma: speed versus stability\n\nPatching everything immediately upon release can break an important application with no prior warning -- updates themselves sometimes ship with defects. Delaying patches for a long time 'to be sure they're safe' leaves known vulnerabilities open longer, exactly the window attackers exploit.\n\n## The practical strategy: a ring system\n\n### Ring 1: testing\n\nA small group of devices (5-10% of the total environment), ideally diverse (different device types, different users) to catch compatibility issues early. Patches apply here first.\n\n### Monitoring period (3-5 days)\n\nAfter patching Ring 1, wait a monitoring period before proceeding -- watch for crash reports, user complaints, or unexpected behavior.\n\n### Ring 2: production\n\nIf no problems surface during monitoring, roll the patch out to the rest of the environment. This can also be split into sub-groups (by department, say) if the environment is very large.\n\n## An important exception: critical (zero-day) patches\n\nA zero-day vulnerability actively exploited in real attacks isn't the time to wait for the normal testing cycle -- the risk of delay far outweighs the risk of a rare compatibility issue. Apply immediately after a very quick check (hours, not days) on a very small sample.\n\n## Tools suited by environment size\n\n### WSUS (free, Windows Server)\n\nSuits an environment already running Windows Server, giving full control over rollout timing and target groups with no additional licensing cost.\n\n### Cloud SaaS tools\n\nSuits an environment with no Windows Server at all, or a very small environment, at a monthly subscription cost but without infrastructure management overhead.\n\n### Microsoft Intune (for a hybrid or remote environment)\n\nBetter if you have remote devices not always on the company network -- WSUS needs the device connected to the internal network, Intune doesn't.\n\n## A fixed maintenance window\n\nSet a consistent weekly day and time for regular patches (like every Wednesday at 8 PM) -- this consistency eases planning for both the team and users, and reduces surprises.\n\n## Bottom line\n\nA simple two-ring system (test and production) with a clear exception for critical patches balances security and stability without unnecessary administrative complexity -- no need for a huge enterprise tool for a small-to-mid environment."
+      "en": "Small teams rarely lose to exotic attacks. They lose to a known vulnerability with a patch that's been available for months. A light, repeatable process beats an ambitious one that's skipped when things get busy.\n\n## 1. Know what you have\n\nYou can't patch what you don't know about. Keep an inventory of servers, workstations, network devices and key applications, including versions. Your endpoint management or vulnerability scanner can usually produce this automatically.\n\n## 2. Patch in rings\n\n- **Ring 0, test**: a few IT machines and non-critical servers, patched as soon as updates release.\n- **Ring 1, pilot**: a representative group of users, a few days later.\n- **Ring 2, broad**: everyone else once the pilot is quiet.\n- **Critical servers**: a scheduled window after pilot results, with a rollback plan.\n\nWindows Update for Business, Intune or WSUS can enforce these rings for Windows devices.\n\n## 3. Set timelines by risk, not habit\n\n- **Actively exploited vulnerabilities** (for example, on CISA's KEV catalogue) and internet-facing systems: days, not weeks.\n- **Critical and high severity** elsewhere: within a couple of weeks.\n- **Everything else**: the monthly cycle.\n\nUse [CVSS](/article/understanding-cvss-score) as one input, but exploitation status and exposure matter more.\n\n## 4. Don't forget the non-Windows stuff\n\nFirewalls, VPN appliances, hypervisors, browsers, PDF readers, Java and third-party apps are frequent entry points. VPN and firewall firmware deserves top priority; edge devices are heavily targeted.\n\n## 5. Plan for the systems you can't patch\n\nLegacy or vendor-locked systems need compensating controls: isolate them on their own segment, restrict access, monitor closely, and record the exception with an owner and review date.\n\n## 6. Verify\n\n\"Deployed\" isn't \"installed\". Use compliance reports or a [vulnerability scan](/article/vulnerability-scanning-vs-penetration-testing) to confirm, and chase machines that are offline or failing.\n\n## FAQ\n\n**Should we wait a week after Patch Tuesday?**\nWaiting for broad deployment is reasonable; the test ring shouldn't wait. For actively exploited flaws, move faster.\n\n**What about automatic reboots?**\nGive users deadlines with warnings rather than open-ended snoozes. Unrebooted machines are unpatched machines.\n\n## References\n\n- [CISA Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)\n- [NIST SP 800-40 Rev. 4: Guide to Enterprise Patch Management Planning](https://csrc.nist.gov/pubs/sp/800/40/r4/final)\n"
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -2433,7 +2459,7 @@
       "avatar": ""
     },
     "date": "2025-11-07",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1762340915398-000c216e7cd6?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8c29mdHdhcmUlMjB1cGRhdGUlMjBjb21wdXRlcnxlbnwxfDB8fHwxNzg1ODcyMTU0fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "patch-management",
@@ -2451,22 +2477,23 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0026",
     "slug": "dhcp-failover-high-availability",
     "title": {
       "ar": "إعداد DHCP Failover لضمان استمرارية الشبكة",
-      "en": "Setting Up DHCP Failover for Network Continuity"
+      "en": "DHCP Failover on Windows Server: Keeping Addresses Flowing When a Server Fails"
     },
     "excerpt": {
       "ar": "الفرق بين Hot Standby وLoad Balance بالتفصيل، خطوات إعداد كاملة، وأمر PowerShell للتحقق من نجاح الإعداد.",
-      "en": "Hot Standby vs Load Balance explained in detail, complete setup steps, and a PowerShell command to verify success."
+      "en": "How Windows Server DHCP failover works, load balance versus hot standby, the MCLT setting, and the steps to configure and test it."
     },
     "body": {
       "ar": "## ليه سيرفر DHCP واحد نقطة فشل خطيرة فعلًا\n\nلو سيرفر الـDHCP الوحيد وقع، أي جهاز جديد بينضم للشبكة أو أي جهاز موجود انتهت صلاحية عنوان IP بتاعه (Lease Expiry) هيفقد الاتصال بالشبكة بالكامل — مش بس مشكلة بطء، انقطاع فعلي. في بيئة فيها مئات الأجهزة، ده معناه توقف شبه كامل للعمل لحد ما السيرفر يرجع.\n\n## الحل: DHCP Failover بين سيرفرين\n\n### المتطلبات الأساسية\n\nسيرفرين Windows Server (2012 R2 أو أحدث) يقدروا يوصلوا لبعض على الشبكة، وكل واحد فيهم عنده دور DHCP مثبّت.\n\n### خطوات الإعداد التفصيلية\n\n1. من DHCP Console على السيرفر الأول، افتح خصائص الـScope المطلوب حمايته.\n2. اختر \"Configure Failover\"، وحدد السيرفر التاني كشريك.\n3. اختر وضع التشغيل (تفصيل أسفل).\n4. حدد Shared Secret (كلمة سر مشتركة بين السيرفرين للتحقق المتبادل).\n5. تأكد من نجاح التزامن الأولي بين السيرفرين قبل ما تعتبر الإعداد مكتمل.\n\n## الفرق بين وضعي التشغيل\n\n### Hot Standby\n\nسيرفر واحد نشط (Active) بيدير كل الطلبات، والتاني احتياطي بس (Standby) بياخد الدور لو الأول وقع. أبسط في المفهوم، ومناسب لبيئات صغيرة مش محتاجة توزيع حمل فعلي.\n\n### Load Balance\n\nالاتنين شغالين مع بعض بالتوازي، وبيتوزع الحمل بينهم حسب نسبة تحددها إنت (50/50 افتراضيًا). أفضل لبيئات فيها حمل طلبات كبير، لكن أعقد شوية في التشخيص لو حصلت مشكلة.\n\n## التحقق من نجاح الإعداد\n\n```powershell\nGet-DhcpServerv4FailoverRelationship\n```\n\nالأمر ده بيوريك حالة العلاقة بين السيرفرين — تأكد إن الحالة \"Normal\" مش \"Communication Interrupted\" أو أي حالة تانية بتشير لمشكلة.\n\n## أشهر الأخطاء\n\n### نسيان مزامنة الـScope Options\n\nبعض الإعدادات الإضافية (زي DNS Servers أو Default Gateway المخصصة) ممكن متتزامنش تلقائيًا مع كل تحديث — راجعها يدويًا بعد أي تعديل كبير.\n\n### عدم اختبار السيناريو الفعلي\n\nكتير من الفرق بتعمل الإعداد وتفترض إنه شغال، من غير ما تختبر فعليًا بإيقاف السيرفر الأول عمدًا (في وقت صيانة مخطط) والتأكد إن السيرفر التاني فعلًا استلم الدور.\n\n## الخلاصة\n\nDHCP Failover إعداد بسيط نسبيًا مقارنة بالمشكلة الضخمة اللي بيمنعها (توقف الشبكة بالكامل بسبب سيرفر واحد). Hot Standby كافي لمعظم البيئات الصغيرة والمتوسطة، وLoad Balance أفضل لو الحمل فعليًا كبير.",
-      "en": "## Why a single DHCP server is genuinely a dangerous single point of failure\n\nIf your only DHCP server goes down, any new device joining the network or any existing device whose IP lease expires loses network connectivity entirely -- not just a slowdown, an actual outage. In an environment with hundreds of devices, this means near-total work stoppage until the server returns.\n\n## The fix: DHCP Failover between two servers\n\n### Core requirements\n\nTwo Windows Servers (2012 R2 or newer) that can reach each other on the network, each with the DHCP role installed.\n\n### Detailed setup steps\n\nFrom the DHCP Console on the first server, open the properties of the scope you want to protect. Choose 'Configure Failover' and select the second server as a partner. Choose the operating mode (detailed below). Set a shared secret (a shared password for mutual verification between servers). Confirm initial synchronization succeeded before considering setup complete.\n\n## The difference between operating modes\n\n### Hot Standby\n\nOne server is Active and handles all requests, the other is purely Standby, taking over if the first goes down. Simpler conceptually, suits smaller environments not needing actual load distribution.\n\n### Load Balance\n\nBoth run in parallel, with load split between them by a ratio you set (50/50 by default). Better for environments with heavy request load, but slightly more complex to diagnose if something goes wrong.\n\n## Verifying the setup succeeded\n\n```powershell\nGet-DhcpServerv4FailoverRelationship\n```\nShows the relationship status between the two servers -- confirm the status is 'Normal', not 'Communication Interrupted' or any other status indicating a problem.\n\n## Common mistakes\n\n### Forgetting to sync scope options\n\nSome additional settings (like custom DNS servers or default gateway) might not sync automatically with every update -- review them manually after any major change.\n\n### Not actually testing the scenario\n\nMany teams set this up and assume it works, without actually testing by deliberately stopping the first server (during a planned maintenance window) and confirming the second genuinely took over.\n\n## Bottom line\n\nDHCP Failover is a relatively simple setup compared to the massive problem it prevents (complete network outage from a single server). Hot Standby is enough for most small-to-mid environments, and Load Balance is better if the load is genuinely heavy."
+      "en": "When the only DHCP server goes down, nothing breaks immediately. Clients keep their leases. Then leases start expiring, new laptops and phones can't join, and the outage spreads slowly. DHCP failover, built into Windows Server since 2012, removes that single point of failure.\n\n## How it works\n\nTwo DHCP servers share the same scopes and replicate lease information with each other. If one fails, the partner keeps serving the whole scope. No shared storage or clustering is needed.\n\n## The two modes\n\n- **Load balance**: both servers answer clients, splitting the work (50/50 by default). Good when both sit at the same site.\n- **Hot standby**: one active server; the standby keeps a reserved percentage of addresses (5% by default) and takes over fully when the partner is down. Common for a branch office backed by a central server.\n\n## Settings to understand\n\n- **Maximum Client Lead Time (MCLT)**: how long a surviving server waits before taking over the partner's address pool after the partner enters the \"partner down\" state. One hour by default.\n- **State switchover interval**: whether the server automatically moves to partner-down after a period of lost communication. Without it, an admin must mark the partner down manually.\n- **Shared secret**: authenticates replication messages between the servers. Use it.\n\n## Setting it up\n\n1. Install the DHCP role on the second server and authorise it in Active Directory.\n2. On the server holding the scope, right-click the scope (or IPv4) and choose **Configure Failover**.\n3. Pick the partner, the mode, MCLT, and the shared secret.\n4. Confirm that scope options and reservations replicated. After later changes, use **Replicate Scope** or `Invoke-DhcpServerv4FailoverReplication`, because configuration changes don't sync automatically.\n5. If clients are on other subnets, add **both** servers as DHCP relay (IP helper) targets on routers and switches.\n\n## Test it\n\nStop the DHCP service on one server during a quiet window, renew a client lease, and confirm the partner answers. Then restore the service and check the relationship returns to normal.\n\n## FAQ\n\n**Does failover cover IPv6?**\nNo. Windows DHCP failover supports IPv4 scopes only.\n\n**Is split-scope still needed?**\nNot for Windows Server 2012 and later. Failover replaced the old 80/20 split-scope practice.\n\n## References\n\n- [DHCP failover overview (Microsoft Learn)](https://learn.microsoft.com/en-us/windows-server/networking/technologies/dhcp/dhcp-failover)\n"
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -2478,7 +2505,7 @@
       "avatar": ""
     },
     "date": "2026-01-14",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1691435828932-911a7801adfb?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMHNlcnZlciUyMHJvb218ZW58MXwwfHx8MTc4NTg3MjE1NXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "dhcp",
@@ -2499,22 +2526,23 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0027",
     "slug": "syslog-server-setup-basics",
     "title": {
       "ar": "إعداد خادم Syslog مركزي: من أين تبدأ",
-      "en": "Setting Up a Central Syslog Server: Where to Start"
+      "en": "Building a Central Syslog Server: A Practical Starting Point"
     },
     "excerpt": {
       "ar": "مقارنة الأدوات المتاحة حسب حجم البيئة، خطوات الإعداد التفصيلية، وليه التجميع بدون مراجعة دورية بيدّيك إحساس زائف بالأمان.",
-      "en": "Comparing available tools by environment size, detailed setup steps, and why collection without periodic review gives false confidence."
+      "en": "Why centralised logging matters, how to choose UDP, TCP or TLS transport, a basic rsyslog setup, and the habits that keep a log server useful."
     },
     "body": {
       "ar": "## ليه السجلات المحلية مش كافية\n\nكل جهاز شبكة (جدار حماية، سويتش، سيرفر) بيسجّل أحداثه محليًا، لكن لو الجهاز اتخترق أو وقع فعليًا، السجلات دي أول حاجة المهاجم بيحاول يمسحها أو يعدّلها — التحقيق بعد حادث بدون سجلات موثوقة شبه مستحيل. سيرفر Syslog مركزي بياخد نسخة فورية بره الجهاز نفسه، فحتى لو الجهاز الأصلي اتخترق بالكامل، السجلات محفوظة في مكان تاني.\n\n## اختيار الأداة المناسبة لحجم بيئتك\n\n### rsyslog (مجاني، Linux)\n\nمناسب لبيئة صغيرة-متوسطة، بسيط الإعداد، ومفيهوش تكلفة ترخيص. محدود نسبيًا في التحليل والتنبيهات المتقدمة.\n\n### Wazuh (مفتوح المصدر، أشمل)\n\nبيضيف طبقة تحليل وتنبيهات فوق التجميع الأساسي، وبيتكامل مع Elastic Stack لتحليل بصري قوي. مناسب لو محتاج أكتر من مجرد تجميع السجلات.\n\n### حلول تجارية (Splunk وغيرها)\n\nالأقوى في التحليل والتوسع، لكن التكلفة بترتفع بشكل ملحوظ مع حجم البيانات — مناسب لمؤسسات كبيرة بميزانية مخصصة.\n\n## خطوات الإعداد الأساسية\n\n### 1. جهّز السيرفر المركزي\n\nثبّت الأداة المختارة على سيرفر مخصص (مش على جهاز إنتاج نشط) بمساحة تخزين كافية — السجلات بتتراكم بسرعة أكبر مما تتوقع.\n\n### 2. فعّل إرسال Syslog على كل جهاز\n\nكل جهاز (Firewall, Switch, Server) عنده إعداد منفصل لتفعيل إرسال Syslog، عادةً بيطلب عنوان IP السيرفر المركزي والبروتوكول (UDP 514 تقليديًا، أو TCP/TLS لنقل أكثر أمانًا).\n\n### 3. رتّب السجلات بشكل منظم\n\nقسّم السجلات في مجلدات أو فهارس حسب المصدر (نوع الجهاز) والتاريخ — بدون تنظيم، البحث عن حادث معين وسط ملايين السجلات مستحيل عمليًا.\n\n### 4. اعمل تنبيهات أساسية على أنماط مشبوهة\n\nابدأ بأنماط واضحة وعالية القيمة: محاولات دخول فاشلة متكررة على نفس الحساب، إنشاء حساب إداري جديد، أو تغيير مفاجئ في إعدادات جدار الحماية.\n\n## نصيحة عملية: لا تكتفي بالتجميع\n\nجمع السجلات بدون مراجعة دورية أو تنبيهات فعّالة بيدّيك إحساس زائف بالأمان — السجلات موجودة، لكن محدش بيراجعها إلا بعد الحادث. حدد وقت مراجعة دورية (أسبوعي على الأقل) حتى لو مافيش تنبيه واضح.\n\n## الخلاصة\n\nسيرفر Syslog مركزي بسيط هو أول خطوة حقيقية وأرخصها قبل أي حل SIEM متقدم — بيديك دليل موثوق وقت أي تحقيق، وبيكشف أنماط مشبوهة كانت هتضيع لو كل جهاز محتفظ بسجلاته لوحده.",
-      "en": "## Why local logs aren't enough\n\nEvery network device (firewall, switch, server) logs its events locally, but if the device is actually compromised, these logs are the first thing an attacker tries to erase or alter -- post-incident investigation without reliable logs is nearly impossible. A central syslog server keeps an off-device copy in real time, so even if the original device is fully compromised, the logs survive elsewhere.\n\n## Choosing the right tool for your environment's size\n\n### rsyslog (free, Linux)\n\nSuits a small-to-medium environment, simple to set up, no licensing cost. Relatively limited in advanced analysis and alerting.\n\n### Wazuh (open-source, more comprehensive)\n\nAdds an analysis and alerting layer on top of basic collection, and integrates with Elastic Stack for strong visual analysis. Suits needing more than just log collection.\n\n### Commercial solutions (Splunk and others)\n\nThe strongest for analysis and scale, but cost rises noticeably with data volume -- suits large organizations with a dedicated budget.\n\n## Basic setup steps\n\n### 1. Prepare the central server\n\nInstall the chosen tool on a dedicated server (not an active production machine) with enough storage -- logs accumulate faster than you'd expect.\n\n### 2. Enable syslog forwarding on every device\n\nEach device (firewall, switch, server) has a separate setting to enable syslog forwarding, usually requiring the central server's IP and protocol (UDP 514 traditionally, or TCP/TLS for more secure transport).\n\n### 3. Organize logs systematically\n\nSplit logs into folders or indices by source (device type) and date -- without organization, finding a specific incident among millions of log lines is practically impossible.\n\n### 4. Set basic alerts on suspicious patterns\n\nStart with clear, high-value patterns: repeated failed logins on the same account, new admin account creation, or a sudden firewall configuration change.\n\n## Practical advice: don't just collect\n\nCollecting logs without periodic review or effective alerting gives false confidence -- the logs exist, but nobody reviews them until after an incident. Set a periodic review time (at least weekly) even without an obvious alert.\n\n## Bottom line\n\nA simple central syslog server is the real, cheapest first step before any advanced SIEM solution -- it gives you reliable evidence during any investigation, and surfaces suspicious patterns that would otherwise be lost if each device kept its own logs alone."
+      "en": "Firewalls, switches, Linux servers and many appliances can send their logs off-box with syslog. Collecting them on one server gives you a single place to search during an incident, and a copy an attacker can't easily wipe from the device they compromised.\n\n## Transport choices\n\n- **UDP 514**: the classic. Simple, supported everywhere, but messages can be lost silently and travel unencrypted.\n- **TCP (often 514 or 601)**: reliable delivery, still unencrypted.\n- **TLS (6514)**: reliable and encrypted, defined in RFC 5425. Use it where devices support it, especially across untrusted links.\n\nWhatever you choose, keep syslog traffic on a management network where possible.\n\n## A minimal rsyslog receiver\n\nOn a Linux server with rsyslog, enable a listener and write each sender's logs to its own file:\n\n```\nmodule(load=\"imudp\")\ninput(type=\"imudp\" port=\"514\")\nmodule(load=\"imtcp\")\ninput(type=\"imtcp\" port=\"514\")\n\ntemplate(name=\"PerHost\" type=\"string\" string=\"/var/log/remote/%HOSTNAME%/%PROGRAMNAME%.log\")\nif $fromhost-ip != '127.0.0.1' then {\n  action(type=\"omfile\" dynaFile=\"PerHost\")\n  stop\n}\n```\n\nRestart rsyslog, open the port only to your devices' subnets, then point each device's syslog setting at the server.\n\n## Habits that make it useful\n\n- **Synchronise time**: configure NTP on every device and the server. Logs with wrong timestamps can't build a timeline.\n- **Rotate and compress** with logrotate, and set retention deliberately; see [log retention](/article/log-retention-siem-basics).\n- **Restrict access**: few people need shell access to the log server, and nobody should be able to edit history.\n- **Watch disk space**: a full log disk means silent loss.\n- **Choose severity levels** on devices sensibly. Debug logging from a firewall can drown everything else.\n- **Monitor the monitor**: alert when an important device stops sending logs.\n\n## When to move beyond plain syslog\n\nFlat files are fine for a few devices. Once you need correlation, dashboards and alerts, forward from the syslog server into a SIEM or log platform (Wazuh, Graylog, Elastic, Splunk, Microsoft Sentinel). See [how a SIEM works](/article/how-siem-actually-works). Windows doesn't speak syslog natively; use an agent or Windows Event Forwarding for its logs.\n\n## FAQ\n\n**rsyslog or syslog-ng?**\nBoth are mature. rsyslog ships by default on most major distributions; pick whichever your team knows.\n\n**Can I send Windows event logs to syslog?**\nYes, with an agent such as NXLog or a SIEM agent.\n\n## References\n\n- [RFC 5424: The Syslog Protocol](https://www.rfc-editor.org/rfc/rfc5424)\n- [RFC 5425: TLS Transport Mapping for Syslog](https://www.rfc-editor.org/rfc/rfc5425)\n- [rsyslog documentation](https://www.rsyslog.com/doc/)\n"
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -2526,7 +2554,7 @@
       "avatar": ""
     },
     "date": "2026-03-21",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1608742213509-815b97c30b36?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8c2VydmVyJTIwbG9ncyUyMHRlcm1pbmFsJTIwc2NyZWVufGVufDF8MHx8fDE3ODU4NzIxNTd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "syslog",
@@ -2546,22 +2574,23 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0028",
     "slug": "network-segmentation-compliance",
     "title": {
       "ar": "تقسيم الشبكة لأغراض الامتثال: نظرة عملية مبسطة",
-      "en": "Network Segmentation for Compliance: A Simplified Practical View"
+      "en": "Network Segmentation for Compliance: Shrinking Scope Without Overengineering"
     },
     "excerpt": {
       "ar": "الفرق بين العزل الكامل والمنطقي، خطوات تطبيق عملية موثّقة، وفايدة تقليل نطاق المراجعة غير الامتثال نفسه.",
-      "en": "The difference between full and logical isolation, documented practical implementation steps, and the audit-scope-reduction benefit beyond compliance itself."
+      "en": "How segmentation reduces the systems an audit has to cover (PCI DSS is the classic case), what a segmentation design needs, and how to prove it works."
     },
     "body": {
       "ar": "## الفكرة الأساسية وراء متطلبات الامتثال\n\nلوائح زي PCI-DSS (لأي شركة بتتعامل مع بيانات بطاقات دفع) بتطلب عزل الأنظمة اللي بتلمس البيانات الحساسة عن باقي الشبكة — مش عشان بيروقراطية، لكن لمبدأ بسيط: كل ما قللت عدد الأنظمة اللي ليها وصول مباشر، كل ما قل نطاق المراجعة (Audit Scope) والمخاطر الفعلية في نفس الوقت.\n\n## الفرق بين العزل الكامل والعزل الجزئي\n\n### عزل كامل (Air-Gapped)\n\nالأنظمة الحساسة معزولة فيزيائيًا تمامًا عن أي شبكة تانية — الأكثر أمانًا، لكن الأصعب إدارة وأقلها مرونة عمليًا لمعظم الشركات.\n\n### عزل منطقي (Logical Segmentation)\n\nالأنظمة على VLAN أو subnet منفصل، مع جدار حماية بقواعد صارمة يتحكم في أي مرور مسموح بينه وبين باقي الشبكة — التوازن العملي الأكثر شيوعًا بين الأمان وسهولة الإدارة.\n\n## خطوات التطبيق العملية\n\n### 1. حدد بدقة مين محتاج وصول فعلي للبيانات الحساسة\n\nمش \"القسم كله\" — حدد الأشخاص والأنظمة اللي فعليًا محتاجة تلمس البيانات دي كجزء من عملها. أي وصول أوسع من الحاجة الفعلية بيوسّع نطاق المراجعة من غير داعي.\n\n### 2. اعزل الأنظمة دي في VLAN أو subnet منفصل\n\nاستخدم نفس مبادئ تقسيم الشبكة الأساسية، لكن بتركيز خاص على الأنظمة اللي بتلمس البيانات المنظّمة تحديدًا (زي سيرفرات معالجة الدفع).\n\n### 3. حط جدار حماية بقواعد ضيقة جدًا بين القطاع المعزول والباقي\n\nالقاعدة الافتراضية لازم تكون رفض كل حاجة، وتسمح فقط بالمرور المطلوب فعليًا (منفذ معين، بروتوكول معين، من مصدر محدد).\n\n### 4. راجع القواعد دوريًا بشكل موثّق\n\nأي وصول زيادة عن الحاجة الفعلية لازم يتشال، والمراجعة نفسها لازم تكون موثّقة (تاريخ المراجعة، مين راجع، إيه اللي اتغيّر) — المدقق الخارجي هيطلب الدليل ده.\n\n## الفايدة العملية الإضافية غير الامتثال نفسه\n\n### تقليل نطاق المراجعة (Audit Scope Reduction)\n\nلو الأنظمة المعزولة واضحة الحدود، المدقق الخارجي محتاج يراجع بس الأنظمة دي وضوابطها، مش الشبكة كلها — بيوفر وقت وتكلفة تدقيق حقيقية كل سنة.\n\n### تقليل مساحة الاختراق الفعلية\n\nحتى لو مفيش متطلب امتثال أصلًا، العزل نفسه بيقلل الضرر المحتمل لو جهاز في الشبكة العادية اتخترق — المهاجم مش هيقدر يوصل مباشرة للبيانات الحساسة حتى لو سيطر على جزء تاني من الشبكة.\n\n## الخلاصة\n\nالعزل مش بس صندوق تعليم في استمارة امتثال — هو تقليل حقيقي وملموس لمساحة أي اختراق محتمل، وبيوفر وقت وتكلفة تدقيق سنوي حقيقي. الاستثمار فيه يستاهل حتى لو الشركة مش خاضعة لمتطلب امتثال إجباري بعد.",
-      "en": "## The core idea behind compliance requirements\n\nRegulations like PCI-DSS (for any company handling payment card data) require isolating systems touching sensitive data from the rest of the network -- not for bureaucracy's sake, but a simple principle: the fewer systems with direct access, the smaller both the audit scope and the actual risk at the same time.\n\n## The difference between full and partial isolation\n\n### Full isolation (air-gapped)\n\nSensitive systems are completely physically isolated from any other network -- the most secure, but the hardest to manage and least flexible practically for most companies.\n\n### Logical segmentation\n\nSystems on a separate VLAN or subnet, with a strictly-ruled firewall controlling any allowed traffic between it and the rest of the network -- the most common practical balance between security and manageability.\n\n## Practical implementation steps\n\n### 1. Precisely identify who genuinely needs access to sensitive data\n\nNot 'the whole department' -- identify the actual people and systems that genuinely need to touch this data as part of their work. Any access broader than actual need unnecessarily widens the audit scope.\n\n### 2. Isolate these systems in a separate VLAN or subnet\n\nUse the same basic network segmentation principles, but with special focus on systems specifically touching regulated data (like payment processing servers).\n\n### 3. Put a tightly-ruled firewall between the isolated segment and everything else\n\nThe default rule should deny everything, allowing only genuinely required traffic (a specific port, protocol, from a specific source).\n\n### 4. Review rules periodically, and document it\n\nAny access beyond actual need must be removed, and the review itself must be documented (review date, who reviewed, what changed) -- an external auditor will ask for this evidence.\n\n## The additional practical benefit beyond compliance itself\n\n### Audit scope reduction\n\nIf isolated systems have clear boundaries, an external auditor only needs to review those systems and their controls, not the entire network -- saving real time and audit cost every year.\n\n### Reducing actual breach surface\n\nEven without a compliance requirement, isolation itself reduces potential damage if a device on the regular network is compromised -- the attacker can't directly reach sensitive data even after controlling another part of the network.\n\n## Bottom line\n\nIsolation isn't just a checkbox on a compliance form -- it's a real, tangible reduction in any potential breach's surface, and it saves real annual audit time and cost. The investment is worth it even if a company isn't yet subject to a mandatory compliance requirement."
+      "en": "Compliance frameworks care about where sensitive data lives and what can reach it. On a flat network, everything can reach everything, so every device is in scope for the audit. Segmentation shrinks that scope, and it's good security in its own right.\n\n## The idea in one example\n\nUnder PCI DSS, any system that stores, processes or transmits cardholder data, plus anything connected to it, is in scope. If payment terminals and the card database sit on an isolated segment with tightly controlled access, the rest of the office network can fall out of scope. That means fewer systems to harden, scan and document.\n\nThe same logic applies to health records, industrial control systems, or a research network holding sensitive IP.\n\n## What a segmentation design needs\n\n1. **Data-flow mapping**: where does the sensitive data enter, move and rest? Which systems truly need to talk to it?\n2. **Zones**: group systems by sensitivity and function, for example card environment, servers, users, management and guests.\n3. **Enforcement points**: firewalls or ACLs between zones with **default deny**, allowing only documented flows (source, destination, port, business reason).\n4. **Separate administration**: admin access to the sensitive zone through a jump host with MFA, not from every workstation.\n5. **Logging** of traffic crossing zone boundaries.\n\nVLANs separate broadcast domains but don't filter traffic by themselves; the filtering happens at the firewall or ACL. See [VLAN basics](/article/vlan-basics-why-segment).\n\n## Proving it works\n\nAuditors will want evidence, not diagrams:\n\n- **Segmentation testing**: PCI DSS requires penetration testing of segmentation controls, at least annually for merchants and more often for service providers.\n- **Rule reviews** on a schedule, removing rules nobody can justify.\n- **Change control** so new connections into the zone are approved and recorded; see [change management](/article/it-change-management-process-basics).\n\n## Common pitfalls\n\n- \"Temporary\" any-any rules that become permanent.\n- Shared services (AD, backup, monitoring) that connect into the zone and drag themselves into scope. Plan for them explicitly.\n- Wi-Fi and remote access that bypass the firewall between zones.\n\n## FAQ\n\n**Is micro-segmentation required?**\nNot by most frameworks. Start with well-enforced zones; per-workload controls are a later refinement.\n\n**Does segmentation alone make us compliant?**\nNo. It reduces scope; the in-scope systems still need every control the framework requires.\n\n## References\n\n- [PCI SSC document library (PCI DSS and scoping/segmentation guidance)](https://www.pcisecuritystandards.org/document_library/)\n- [NIST SP 800-207: Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final)\n"
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -2573,7 +2602,7 @@
       "avatar": ""
     },
     "date": "2026-05-01",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YXVkaXQlMjBkb2N1bWVudHMlMjBvZmZpY2V8ZW58MXwwfHx8MTc4NTg5ODQ2Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "compliance",
@@ -2591,22 +2620,23 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0029",
     "slug": "hyper-v-vs-checkpoints-basics",
     "title": {
       "ar": "استخدام Checkpoints في Hyper-V بأمان: متى تفيد ومتى تضر",
-      "en": "Using Hyper-V Checkpoints Safely: When They Help and When They Hurt"
+      "en": "Hyper-V Checkpoints: Useful for Changes, Dangerous as Backups"
     },
     "excerpt": {
       "ar": "ليه Checkpoint مش بديل عن نسخة احتياطية، المشكلة العملية مع التراكم (أداء وتخزين)، وخطوات استخدام آمنة.",
-      "en": "Why a checkpoint isn't a backup substitute, the practical problem with buildup (performance and storage), and safe usage steps."
+      "en": "The difference between standard and production checkpoints, why long-lived checkpoints hurt performance and storage, and the rules for using them safely."
     },
     "body": {
       "ar": "## ليه Checkpoint مش بديل عن نسخة احتياطية حقيقية\n\nالفرق الجوهري: Checkpoint بيتخزن على **نفس** السيرفر المضيف (Host) اللي الجهاز الافتراضي شغال عليه. لو القرص الفعلي بتاع السيرفر نفسه اتلف أو السيرفر كله وقع، الـCheckpoint هيضيع مع الجهاز الافتراضي الأصلي — مفيش حماية حقيقية من فشل الهاردوير. نسخة احتياطية حقيقية لازم تكون على وسيط منفصل تمامًا.\n\n## الاستخدام الصحيح: اختبار قصير المدى قابل للتراجع\n\n### السيناريو المثالي\n\nقبل تحديث نظام تشغيل داخل الجهاز الافتراضي، أو تغيير إعداد كبير، أو تثبيت برنامج جديد مش متأكد من تأثيره — اعمل Checkpoint، جرّب التغيير، ولو حصلت مشكلة ارجع للحالة السابقة فورًا.\n\n### المدة المناسبة\n\nساعات أو أيام قليلة كحد أقصى، مش أسابيع. الهدف اختبار سريع، مش نسخة احتياطية طويلة المدى.\n\n## المشكلة العملية مع تراكم الـCheckpoints\n\n### تأثير مباشر على الأداء\n\nكل Checkpoint إضافي بيخلي Hyper-V يحتاج يتتبع التغييرات منذ إنشائه — كل ما زاد عدد الـCheckpoints المتراكمة، كل ما زاد الحمل على أداء القرص والمعالج، وده بيبان كبطء ملحوظ في الجهاز الافتراضي.\n\n### استهلاك مساحة تخزين ضخم\n\nكل Checkpoint بياخد مساحة إضافية بتكبر مع الوقت (لأنه بيسجل كل التغييرات منذ إنشائه) — تراكم عدة Checkpoints قديمة ممكن ياكل مساحة تخزين كبيرة جدًا من غير ما حد ينتبه.\n\n## خطوات عملية آمنة\n\n### 1. اعمل Checkpoint قبل التغيير مباشرة\n\nمش قبلها بأيام — أقرب ما يكون للتغيير الفعلي.\n\n### 2. جرّب التغيير وتأكد من نجاحه\n\nاختبر فعليًا إن كل حاجة شغالة صح قبل ما تقرر.\n\n### 3. احذف الـCheckpoint فورًا بعد التأكد\n\nلو التغيير نجح، احذف الـCheckpoint على طول — مفيش داعي تسيبه. لو فشل، ارجع للحالة السابقة (Revert) وبعدين احذف الـCheckpoint.\n\n### 4. راجع دوريًا أي Checkpoints منسية\n\nبعض الفرق بتنسى تحذف Checkpoints قديمة بعد أسابيع — راجعها دوريًا (شهريًا مثلًا) للتأكد من عدم التراكم.\n\n## الخلاصة\n\nCheckpoint أداة اختبار قصيرة المدى قابلة للتراجع، مش استراتيجية نسخ احتياطي — قاعدة 3-2-1 (نسخ متعددة، وسائط مختلفة، نسخة خارج الموقع) لسه هي الأساس الحقيقي للحماية من فقدان البيانات.",
-      "en": "## Why a checkpoint isn't a substitute for a real backup\n\nThe core difference: a checkpoint is stored on the same host server the VM runs on. If that host's actual disk fails or the whole server goes down, the checkpoint is lost along with the original VM -- no real protection from hardware failure. A genuine backup must be on completely separate media.\n\n## The correct use: short-term, reversible testing\n\n### The ideal scenario\n\nBefore updating the OS inside a VM, or a major configuration change, or installing new software you're unsure about the impact of -- take a checkpoint, try the change, and if something breaks, revert immediately.\n\n### The appropriate duration\n\nHours or a few days at most, not weeks. The goal is quick testing, not long-term backup.\n\n## The practical problem with checkpoint buildup\n\n### A direct performance impact\n\nEvery additional checkpoint means Hyper-V has to track changes since its creation -- the more accumulated checkpoints, the higher the load on disk and CPU performance, showing up as noticeable VM slowness.\n\n### Massive storage consumption\n\nEach checkpoint takes up growing additional space over time (since it logs every change since creation) -- accumulating several old checkpoints can consume huge storage without anyone noticing.\n\n## Safe practical steps\n\n### 1. Create the checkpoint right before the change\n\nNot days ahead -- as close to the actual change as possible.\n\n### 2. Test the change and confirm success\n\nActually verify everything works correctly before deciding.\n\n### 3. Delete the checkpoint immediately after confirming\n\nIf the change succeeded, delete the checkpoint right away -- no need to keep it. If it failed, revert first, then delete the checkpoint.\n\n### 4. Periodically review for forgotten checkpoints\n\nSome teams forget to delete old checkpoints after weeks -- review periodically (monthly, say) to confirm none are accumulating.\n\n## Bottom line\n\nA checkpoint is a short-term, reversible testing tool, not a backup strategy -- the 3-2-1 rule (multiple copies, different media, one offsite) remains the real foundation for protecting against data loss."
+      "en": "A Hyper-V checkpoint captures a virtual machine at a point in time so you can return to it. Before a risky update or configuration change, that's very handy. Left in place for weeks or treated as a backup, it causes real problems.\n\n## Standard vs production checkpoints\n\n- **Production checkpoints** (the default since Windows Server 2016) use VSS inside Windows guests, or file system freeze on Linux, for an application-consistent snapshot. Memory state isn't saved, so applying one is like booting after a clean shutdown.\n- **Standard checkpoints** save the VM's memory and device state as well. Restoring returns the VM to the exact running moment, which can confuse applications with time-sensitive or replicated data, such as domain controllers and databases.\n\n## What happens on disk\n\nCreating a checkpoint switches the VM to a new **differencing disk (.avhdx)**. Every write after that goes into it, and the chain grows. Consequences of keeping checkpoints too long:\n\n- The differencing disk keeps growing and can fill the volume, which pauses the VM.\n- Disk performance degrades as reads traverse the chain.\n- Deleting an old checkpoint triggers a merge that can take a long time and load the storage.\n\n## Rules for safe use\n\n1. **Short-lived only**: create before a change, delete once the change is verified, ideally within days.\n2. **Not a backup**: checkpoints live on the same storage as the VM. If that storage fails or ransomware encrypts it, both are gone. Use real backups following the [3-2-1 rule](/article/backup-3-2-1-rule-practical).\n3. **Prefer production checkpoints** for servers.\n4. **Be careful with domain controllers and replicated apps**. Modern AD has protections (VM-Generation ID), but restoring old states of replicated systems still needs care.\n5. **Never edit or delete .avhdx files by hand**. Delete checkpoints from Hyper-V Manager or PowerShell (`Remove-VMCheckpoint`) so the merge runs properly.\n6. **Monitor for forgotten checkpoints**: `Get-VM | Get-VMCheckpoint` across hosts, reviewed weekly.\n\n## FAQ\n\n**Do backup tools create checkpoints?**\nMany do, temporarily, and remove them after the backup. A failed job can leave one behind, so the weekly check catches those too.\n\n**Can I disable checkpoints on a VM?**\nYes, in VM settings. Some teams do this for databases to prevent accidental use.\n\n## References\n\n- [Choose between standard or production checkpoints in Hyper-V (Microsoft Learn)](https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/choose-between-standard-or-production-checkpoints-in-hyper-v)\n"
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -2618,7 +2648,7 @@
       "avatar": ""
     },
     "date": "2025-07-08",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8YmFja3VwJTIwZGF0YSUyMHN0b3JhZ2UlMjBkaXNrfGVufDF8MHx8fDE3ODU4NzIxNDR8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "hyper-v",
@@ -2641,22 +2671,23 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0030",
     "slug": "mfa-fatigue-attacks-explained",
     "title": {
       "ar": "هجمات إرهاق المصادقة الثنائية (MFA Fatigue) وكيف تحمي فريقك",
-      "en": "MFA Fatigue Attacks and How to Protect Your Team"
+      "en": "MFA Fatigue (Push Bombing): How It Works and How to Shut It Down"
     },
     "excerpt": {
       "ar": "ليه الهجوم ده فعّال بشكل مقلق، وخمس طرق حماية عملية من Number Matching للمفاتيح المادية.",
-      "en": "Why this attack is concerningly effective, and five practical defenses from number matching to hardware keys."
+      "en": "Attackers with a stolen password spam push approvals until someone taps Approve. Number matching, phishing-resistant methods, and user guidance stop it."
     },
     "body": {
       "ar": "## إزاي الهجوم بيشتغل بالتفصيل\n\nالمهاجم عنده كلمة المرور بالفعل (غالبًا من تسريب بيانات موقع تاني، أو هجوم تصيد سابق نجح). المشكلة: عنده الباسورد بس مش عنده عامل المصادقة الثاني. بدل ما يستسلم، بيبدأ يحاول يسجّل دخول بشكل متكرر ومتتالي — كل محاولة بتبعت إشعار موافقة MFA للمستخدم الحقيقي. الهدف: إن المستخدم يضغط \"موافق\" في لحظة ملل أو تشتت أو نص الليل، من غير ما يفكر إن ده مش هو اللي طلب الدخول.\n\n## ليه الهجوم ده فعّال بشكل مقلق\n\nالإشعارات دي بتوصل أحيانًا عشرات المرات في وقت قصير — بعض الحالات الموثّقة كانت المهاجم بيبعت الإشعار كل دقيقتين لساعات متواصلة، لحد ما المستخدم يوافق بس عشان يوقف الإزعاج، أو بيفتكر غلط إنه هو اللي طلب الدخول من جهاز تاني.\n\n## طرق الحماية العملية\n\n### 1. Number Matching بدل الموافقة بضغطة واحدة\n\nبدل إشعار بسيط \"موافق/رفض\"، النظام بيوري رقم على شاشة تسجيل الدخول، والمستخدم لازم يدخل نفس الرقم في التطبيق — ده بيمنع الموافقة العشوائية أو التلقائية بدون انتباه فعلي.\n\n### 2. تحديد عدد محاولات المصادقة في فترة زمنية قصيرة (Rate Limiting)\n\nلو النظام بيسمح بمحاولة مصادقة واحدة كل دقيقة مثلًا بدل عدد غير محدود، الهجوم بيبطّئ بشكل كبير ويبقى أسهل اكتشافه.\n\n### 3. تدريب الموظفين بوضوح على القاعدة الذهبية\n\nأي طلب MFA غير متوقع (مش إنت اللي طلبته) = بلّغ فورًا، **متوافقش أبدًا** حتى لو الإشعار بيتكرر ومزعج. التدريب ده لازم يكون صريح ومباشر، مش افتراض إن الموظفين هيفهموا لوحدهم.\n\n### 4. راقب سجلات محاولات MFA الفاشلة أو المتكررة\n\nعدد كبير غير معتاد من طلبات المصادقة على نفس الحساب في وقت قصير مؤشر مبكر قوي جدًا — حتى لو الموظف ماوافقش، محاولة الهجوم نفسها لازم تتكشف وتتحقق فيها.\n\n### 5. فكّر في مفتاح مادي للحسابات عالية الحساسية\n\nHardware Security Key مقاوم لهجوم MFA Fatigue بالكامل — مفيش إشعار يقدر المهاجم \"يضغط عليه بالغلط\"، لازم وجود فيزيائي حقيقي للمفتاح.\n\n## الخلاصة\n\nMFA أقوى بكتير من كلمة مرور وحدها، لكن أي نوع مصادقة له نقاط ضعف لو مش متظبط صح — Number Matching + تدريب واضح + مراقبة سجلات = يحوّل MFA Fatigue من هجوم فعّال لمحاولة سهلة الاكتشاف والفشل.",
-      "en": "## How the attack works in detail\n\nThe attacker already has the password (often from a data breach on another site, or a prior successful phishing attack). The problem: they have the password but not the second authentication factor. Instead of giving up, they start repeatedly, consecutively attempting to log in -- each attempt sends an MFA approval prompt to the real user. The goal: get the user to tap 'approve' in a moment of boredom, distraction, or the middle of the night, without thinking that they didn't actually request this login.\n\n## Why this attack is concerningly effective\n\nThese notifications sometimes arrive dozens of times in a short period -- some documented cases had the attacker sending a prompt every couple of minutes for hours straight, until the user approves just to stop the annoyance, or mistakenly assumes they themselves requested access from another device.\n\n## Practical defenses\n\n### 1. Number matching instead of one-tap approval\n\nInstead of a simple 'approve/deny' prompt, the system shows a number on the login screen, and the user must enter that same number in the app -- preventing careless or automatic approval without genuine attention.\n\n### 2. Rate-limiting authentication attempts in a short window\n\nIf the system allows only one auth attempt per minute, say, instead of unlimited attempts, the attack slows dramatically and becomes much easier to detect.\n\n### 3. Train staff clearly on the golden rule\n\nAny unexpected MFA prompt (that you didn't request) means report immediately, never approve, even if the notification repeats and is annoying. This training must be explicit and direct, not assumed staff will figure it out on their own.\n\n### 4. Monitor failed or repeated MFA attempt logs\n\nAn unusually large number of authentication requests on the same account in a short time is a very strong early indicator -- even if the employee never approved, the attempt itself needs to be flagged and investigated.\n\n### 5. Consider a hardware key for highly sensitive accounts\n\nA hardware security key is fully resistant to MFA fatigue attacks -- there's no prompt an attacker can 'trick someone into tapping', genuine physical possession of the key is required.\n\n## Bottom line\n\nMFA is far stronger than a password alone, but any auth type has weaknesses if not configured correctly -- number matching plus clear training plus log monitoring turns MFA fatigue from an effective attack into an easily detected, easily failed attempt."
+      "en": "MFA fatigue, also called push bombing or prompt spamming, starts after an attacker already has a valid password. They trigger login after login, and the victim's phone fills with approval requests, often late at night. Sooner or later someone taps **Approve** to make it stop, or because a caller claiming to be IT tells them to.\n\n## Why it works\n\n- Simple \"Approve / Deny\" pushes give the user no context about where the login came from.\n- Repetition wears people down, and tired people make mistakes.\n- Attackers combine it with social engineering, phoning as the helpdesk to \"confirm\" the prompt.\n\n## Technical controls\n\n1. **Number matching**: the login screen shows a number the user must type into the authenticator app. A user who didn't start the login has no number to enter. Microsoft Authenticator enforces this for push notifications.\n2. **Show context**: app name and location on the prompt help users spot logins that aren't theirs.\n3. **Phishing-resistant MFA** for admins and high-risk roles: FIDO2 security keys, passkeys or Windows Hello for Business. These can't be approved remotely.\n4. **Limit and alert**: rate-limit push attempts, and alert the SOC on repeated denied or ignored prompts for one account.\n5. **Conditional access**: block or step up sign-ins from unusual locations, unmanaged devices or risky IPs, so the push never gets sent.\n\n## User guidance\n\n- Never approve a prompt you didn't start, even \"just once\".\n- IT will never call and ask you to approve a sign-in.\n- Repeated unexpected prompts mean your password is known: report it and change it immediately.\n\nMake reporting a one-step action with no blame attached.\n\n## If someone approved a malicious prompt\n\nRevoke the user's sessions and refresh tokens, reset the password, review registered MFA methods (attackers often add their own), check mailbox rules and recent sign-ins, and hunt for activity from the attacker's session.\n\n## FAQ\n\n**Are SMS codes better than push here?**\nNot really. SMS is vulnerable to SIM swapping and phishing. Number matching or phishing-resistant methods are the better upgrade. See our [MFA methods compared](/article/2fa-practical-guide).\n\n## References\n\n- [How number matching works in MFA push notifications (Microsoft Learn)](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-mfa-number-match)\n- [CISA: Implementing Phishing-Resistant MFA](https://www.cisa.gov/sites/default/files/publications/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf)\n"
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -2668,7 +2699,7 @@
       "avatar": ""
     },
     "date": "2025-08-15",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1620287341401-e2945a4b9daa?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8cGhpc2hpbmclMjBlbWFpbCUyMHdhcm5pbmd8ZW58MXwwfHx8MTc4NTg3MjEyNHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "mfa",
@@ -2688,7 +2719,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0031",
@@ -2733,7 +2765,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0032",
@@ -4031,7 +4064,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0060",
@@ -4881,7 +4915,8 @@
       "active-directory"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0087",
@@ -5251,7 +5286,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0096",
@@ -5824,146 +5860,6 @@
     "translationStatus": "unreviewed"
   },
   {
-    "id": "art-gen-0116",
-    "slug": "how-cloud-storage-actually-works",
-    "title": {
-      "ar": "كيف يعمل التخزين السحابي فعليًا",
-      "en": "How Cloud Storage Actually Works"
-    },
-    "excerpt": {
-      "ar": "ليه التكرار عبر أقراص ومراكز بيانات متعددة سر الموثوقية، وإزاي المزامنة الذكية (Delta Sync) بتوفر وقت وبيانات.",
-      "en": "Why redundancy across multiple disks and data centers is the reliability secret, and how smart delta sync saves time and data."
-    },
-    "body": {
-      "ar": "## الفكرة الأساسية: ملفاتك مش على \"سحابة\" حرفيًا\n\nمصطلح \"التخزين السحابي\" بيوهم إن الملفات معلّقة في مكان مجرد بعيد — الحقيقة أبسط وأكثر واقعية: ملفاتك متخزّنة فعليًا على أقراص صلبة حقيقية جدًا، في مراكز بيانات ضخمة (Data Centers) بتحتوي آلاف الخوادم، غالبًا موزّعة جغرافيًا عبر مناطق مختلفة عشان تضمن استمرارية الخدمة حتى لو مركز بيانات واحد واجه مشكلة.\n\n## التكرار (Redundancy): سر الموثوقية الفعلية\n\n### نسخ متعددة تلقائية من كل ملف\n\nمزوّدي التخزين السحابي الكبار (زي Google Drive أو Dropbox) بينسخوا كل ملف تلقائيًا على أكتر من قرص صلب، وغالبًا في أكتر من مركز بيانات جغرافي مختلف — لو قرص واحد أو حتى مركز بيانات كامل واجه عطل فيزيائي، البيانات لسه موجودة وسليمة في مكان تاني.\n\n### ليه ده بيديك موثوقية أعلى من قرصك الشخصي\n\nقرص صلب شخصي واحد نقطة فشل واحدة — لو اتعطّل، البيانات اللي عليه بس (من غير نسخة احتياطية منفصلة) بتضيع. التكرار المدمج في التخزين السحابي بيوفر مستوى حماية أعلى بكثير من أي قرص فردي، من غير ما تحتاج تدير النسخ الاحتياطي بنفسك يدويًا.\n\n## المزامنة: إزاي التغيير بيظهر على كل أجهزتك\n\n### مراقبة التغييرات المحلية باستمرار\n\nتطبيق المزامنة على جهازك بيراقب باستمرار أي تغيير في المجلد المتزامن — بمجرد ما تعدّل ملف، التطبيق بيكتشف التغيير ده ويرفع النسخة الجديدة للسحابة تلقائيًا، وبعدين يبلّغ باقي أجهزتك المتصلة بنفس الحساب إن فيه تحديث متاح للتنزيل.\n\n### مزامنة جزئية ذكية (Delta Sync)\n\nالأنظمة الحديثة مش بترفع الملف كامل من الصفر مع كل تعديل بسيط — بترفع بس الجزء اللي اتغيّر فعليًا (Delta) من الملف، وده بيوفر وقت وبيانات بشكل كبير جدًا خصوصًا لملفات كبيرة اتغيّر فيها جزء بسيط بس.\n\n## نقطة مهمة: التشفير أثناء النقل والتخزين\n\nمعظم مزوّدي الخدمة الكبار بيشفّروا بياناتك أثناء النقل (بين جهازك والسيرفر) وأثناء التخزين نفسه على القرص — لكن مهم تعرف إن المزوّد نفسه غالبًا عنده مفتاح فك التشفير (إلا لو استخدمت خدمة End-to-End Encryption مخصصة)، فالخصوصية الكاملة من المزوّد نفسه مش مضمونة تلقائيًا في كل الخدمات.\n\n## الخلاصة\n\nالتخزين السحابي بيعتمد على تكرار البيانات عبر أقراص ومراكز بيانات متعددة لضمان موثوقية أعلى من أي قرص فردي، ومزامنة ذكية بترفع بس التغييرات الفعلية بدل الملف كامل — فهم الآلية دي بيوضح ليه الخدمة موثوقة بشكل عام، وليه التشفير الكامل من طرف لطرف يحتاج خدمة مخصصة لو الخصوصية الكاملة أولوية.",
-      "en": "## The core idea: your files aren't literally 'in a cloud'\n\nThe term 'cloud storage' misleadingly suggests files are floating in some abstract distant place -- the reality is simpler and more concrete: your files are actually stored on very real hard drives, in massive data centers containing thousands of servers, often geographically distributed across different regions to ensure service continuity even if one data center faces an issue.\n\n## Redundancy: the secret to actual reliability\n\n### Multiple automatic copies of every file\n\nMajor cloud storage providers (like Google Drive or Dropbox) automatically copy every file across more than one hard drive, often in more than one different geographic data center -- if one drive or even an entire data center faces a physical failure, the data still exists intact elsewhere.\n\n### Why this gives you higher reliability than your personal disk\n\nA single personal hard drive is one point of failure -- if it fails, the data on it alone (without a separate backup) is lost. The built-in redundancy in cloud storage provides a much higher protection level than any individual drive, without needing to manually manage backups yourself.\n\n## Syncing: how a change appears on all your devices\n\n### Continuously monitoring local changes\n\nThe sync app on your device continuously monitors any change in the synced folder -- once you modify a file, the app detects this change and automatically uploads the new version to the cloud, then notifies your other devices connected to the same account that an update is available for download.\n\n### Smart partial sync (delta sync)\n\nModern systems don't upload the entire file from scratch with every small edit -- they upload only the actually changed part (delta) of the file, saving significant time and data, especially for large files where only a small part changed.\n\n## An important point: encryption in transit and at rest\n\nMost major providers encrypt your data both in transit (between your device and the server) and at rest on the disk itself -- but it's important to know the provider itself often holds the decryption key (unless you use a dedicated end-to-end encryption service), so complete privacy from the provider itself isn't automatically guaranteed in every service.\n\n## Bottom line\n\nCloud storage relies on data redundancy across multiple disks and data centers to ensure higher reliability than any individual drive, and smart syncing uploading only actual changes instead of the whole file -- understanding this mechanism explains why the service is generally reliable, and why full end-to-end encryption needs a dedicated service if complete privacy is a priority."
-    },
-    "categoryId": "technology",
-    "subcategoryId": "concepts",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": ""
-    },
-    "date": "2026-06-23",
-    "readTime": 7,
-    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "cloud-storage",
-      "technology",
-      "guide"
-    ],
-    "isFeatured": true,
-    "isTrending": false,
-    "domainIds": [
-      "infrastructure"
-    ],
-    "topicIds": [
-      "cloud"
-    ],
-    "contentType": "guide",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
-    "id": "art-gen-0120",
-    "slug": "wifi-connection-problems-fixes",
-    "title": {
-      "ar": "مشاكل الواي فاي الشائعة وحلولها خطوة بخطوة",
-      "en": "Common Wi-Fi Problems and Their Step-by-Step Fixes"
-    },
-    "excerpt": {
-      "ar": "الإنترنت بطيء أو بيفصل باستمرار؟ إليك أشهر أسباب مشاكل الواي فاي في المنزل وخطوات عملية تقدر تجربها بنفسك قبل ما تتصل بمزوّد الخدمة.",
-      "en": "Internet slow or dropping constantly? Here are the most common home Wi-Fi problems and practical steps you can try yourself before calling your provider."
-    },
-    "body": {
-      "ar": "## قبل ما تتصل بمزوّد الخدمة\n\nأغلب مشاكل الواي فاي في المنزل ليها حل بسيط تقدر تعمله بنفسك في دقايق، من غير ما تحتاج فني أو تنتظر مكالمة دعم فني طويلة.\n\n## الأسباب الأكتر شيوعًا\n\n**١. الراوتر بعيد أو في مكان غلط**\nالحوائط السميكة والمرايا والأجهزة الكهربائية (زي الميكروويف) بتضعف إشارة الواي فاي بشكل كبير.\n\n**٢. ازدحام الشبكة من أجهزة كتير متصلة**\nكل جهاز متصل بياخد جزء من سرعة الإنترنت المتاحة — لو عندك أجهزة كتير شغالة (تحميل، بث فيديو، ألعاب) في نفس الوقت، السرعة هتحس بيها أقل لكل جهاز.\n\n**٣. تداخل مع شبكات واي فاي تانية**\nفي المباني السكنية المزدحمة، شبكات الجيران على نفس التردد بتسبب تداخل وبطء.\n\n**٤. الراوتر محتاج إعادة تشغيل**\nزي أي جهاز إلكتروني، الراوتر بيتراكم فيه أخطاء صغيرة بمرور الوقت وبيحتاج إعادة تشغيل دورية.\n\n**٥. برنامج الراوتر (Firmware) قديم**\nتحديثات الفيرموير بتحل مشاكل استقرار وأمان — راوتر بفيرموير قديم جدًا ممكن يكون هو نفسه سبب المشكلة.\n\n## خطوات عملية للحل\n\n### الخطوة ١: أعد تشغيل الراوتر\nافصل الراوتر عن الكهرباء لمدة 30 ثانية، ثم وصّله تاني. الخطوة البسيطة دي بتحل نسبة كبيرة من المشاكل المؤقتة.\n\n### الخطوة ٢: غيّر مكان الراوتر\nحطّه في مكان مرتفع ومفتوح، في منتصف المنزل قدر الإمكان، بعيد عن الحوائط السميكة والأجهزة الكهربائية.\n\n### الخطوة ٣: غيّر قناة (Channel) الواي فاي\nلو في تداخل مع شبكات الجيران، غيّر القناة من إعدادات الراوتر (غالبًا موجودة تحت إعدادات الشبكة اللاسلكية المتقدمة) — القنوات 1، 6، 11 عادة أقل ازدحامًا في نطاق 2.4GHz.\n\n### الخطوة ٤: استخدم نطاق 5GHz لو متاح\nنطاق 5GHz أسرع وأقل ازدحامًا من 2.4GHz، رغم إن مداه أقصر شوية — مناسب جدًا للأجهزة القريبة من الراوتر.\n\n### الخطوة ٥: حدّث فيرموير الراوتر\nمن لوحة تحكم الراوتر (بتفتحها عادة بكتابة عنوان IP زي 192.168.1.1 في المتصفح)، دوّر على قسم التحديثات وحدّثه لو متاح تحديث جديد.\n\n### الخطوة ٦: فكّر في موسّع شبكة (Extender) أو نظام Mesh\nلو البيت كبير أو فيه أكتر من طابق، موسّع الإشارة أو نظام شبكة Mesh بيحل مشكلة ضعف التغطية في الأماكن البعيدة بشكل جذري.\n\n## لو المشكلة لسه مستمرة\n\nجرّب توصيل جهاز بكابل إيثرنت مباشر بالراوتر — لو السرعة كويسة بالكابل لكن بطيئة بالواي فاي، المشكلة في الشبكة اللاسلكية نفسها. لو بطيئة حتى بالكابل، المشكلة غالبًا من مزوّد الخدمة نفسه، وعندها تقدر تتصل بيهم بثقة إنك جربت كل الحلول المتاحة.\n\n## الخلاصة\n\nالترتيب الصحيح للتجربة: إعادة تشغيل ← تغيير المكان ← تغيير القناة ← تحديث الفيرموير ← موسّع شبكة لو محتاج. أغلب المشاكل بتتحل من أول خطوتين أو تلاتة.",
-      "en": "## Before calling your provider\n\nMost home Wi-Fi problems have a simple fix you can do yourself in minutes, without needing a technician or a long support call.\n\n## The most common causes\n\nYour router being far away or poorly placed -- thick walls, mirrors, and electrical devices like microwaves significantly weaken the Wi-Fi signal. Network congestion from many connected devices, since every connected device takes a share of available bandwidth, so heavy simultaneous use (downloading, streaming, gaming) noticeably reduces speed per device. Interference from neighboring Wi-Fi networks, especially common in crowded residential buildings where networks share the same frequency. A router that simply needs a restart, since like any electronic device it accumulates small errors over time. And outdated router firmware, since firmware updates fix stability and security issues -- a very outdated router can itself be the source of the problem.\n\n## Practical steps to fix it\n\nRestart the router: unplug it for 30 seconds, then plug it back in -- this simple step resolves a large share of temporary issues. Relocate the router to an elevated, open spot near the center of the home, away from thick walls and electrical appliances. Change the Wi-Fi channel if there's interference from neighboring networks, from the router's advanced wireless settings -- channels 1, 6, and 11 are usually less congested on the 2.4GHz band. Use the 5GHz band if available, since it's faster and less congested than 2.4GHz, though with slightly shorter range -- great for devices near the router. Update the router's firmware from its control panel (usually accessed by typing an IP address like 192.168.1.1 in your browser), checking the updates section for anything new. And consider a Wi-Fi extender or mesh system if your home is large or multi-story, which fundamentally solves weak coverage in far rooms.\n\n## If the problem persists\n\nTry connecting a device directly to the router with an Ethernet cable. If speed is fine over the cable but slow over Wi-Fi, the issue is the wireless network itself. If it's slow even over the cable, the issue is likely with your internet provider, and you can now call them confident you've already tried everything on your end.\n\n## Bottom line\n\nThe right order to try: restart -> relocate -> change channel -> update firmware -> add an extender if needed. Most problems get solved within the first two or three steps."
-    },
-    "categoryId": "howto",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": ""
-    },
-    "date": "2026-07-14",
-    "readTime": 7,
-    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "wifi",
-      "network",
-      "troubleshooting",
-      "guide"
-    ],
-    "isFeatured": false,
-    "isTrending": false,
-    "domainIds": [
-      "networking"
-    ],
-    "topicIds": [
-      "wireless"
-    ],
-    "contentType": "troubleshooting",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
-    "id": "art-gen-0123",
-    "slug": "forgotten-password-account-recovery",
-    "title": {
-      "ar": "نسيت كلمة مرور حسابك المهم؟ خطوات الاسترجاع الآمنة",
-      "en": "Forgot Your Important Account Password? Safe Recovery Steps"
-    },
-    "excerpt": {
-      "ar": "نسيان كلمة المرور موقف شائع ومقلق، خصوصًا لو الحساب فيه بيانات مهمة. إليك خطوات الاسترجاع الآمنة، وإزاي تحمي نفسك من الوقوع في نفس المشكلة تاني.",
-      "en": "Forgetting a password is a common, worrying situation, especially for accounts holding important data. Here are safe recovery steps, and how to avoid the same problem again."
-    },
-    "body": {
-      "ar": "## أول حاجة: متبقاش في حالة استعجال\n\nالمهاجمين بيستغلوا حالة القلق دي عن طريق رسائل تصيّد بتدّعي إنها بتساعدك تسترجع حسابك — أي رسالة زي دي وصلتلك من غير ما تطلب استرجاع بنفسك، تجاهلها ولا تضغط على أي رابط فيها.\n\n## خطوات الاسترجاع الآمنة العامة\n\n### الخطوة ١: استخدم خيار نسيت كلمة المرور من الموقع أو التطبيق نفسه مباشرة\nاكتب عنوان الموقع بنفسك في المتصفح (أو افتح التطبيق الرسمي) بدل ما تضغط على أي رابط في إيميل أو رسالة.\n\n### الخطوة ٢: تأكد إن بريدك الاحتياطي أو رقم موبايلك محدّث\nمعظم خدمات الاسترجاع بترسل رابط أو كود على البريد الاحتياطي أو الموبايل المسجّل — لو مش محدّث، الاسترجاع هيبقى أصعب بكتير.\n\n### الخطوة ٣: لو الحساب فيه 2FA مفعّل، هتحتاج رموز الاسترجاع\nلو حفظت رموز الاسترجاع (Backup Codes) وقت تفعيل المصادقة الثنائية، هي أسرع طريقة تدخل بيها من غير الجهاز الأساسي.\n\n### الخطوة ٤: لو مفيش وصول للبريد الاحتياطي ولا الرقم\nمعظم الخدمات الكبيرة (جوجل، مايكروسوفت، فيسبوك) بتوفر عملية استرجاع بديلة بأسئلة تحقق من الهوية، بس بتاخد وقت أطول (أيام في بعض الأحيان) لأسباب أمنية.\n\n## حالات خاصة تستاهل انتباه\n\n**البريد الإلكتروني الأساسي**\nده أخطر حساب ممكن تنساه، لأنه بوابة استرجاع كل حساباتك التانية. لو نسيته، ابدأ بيه فورًا قبل أي حساب تاني.\n\n**حسابات البنوك والمحافظ الإلكترونية**\nمعظمها بيتطلب تحقق هوية شخصي (زيارة فرع أو مكالمة موثقة) بدل مجرد إيميل — ده طبيعي وليس عيب في النظام، هو حماية إضافية لحساسية البيانات.\n\n## إزاي تمنع الموقف ده من التكرار\n\n### استخدم مدير كلمات مرور\nأدوات زي Bitwarden أو 1Password بتحفظ كلمات المرور بتاعتك مشفرة، وكل اللي محتاج تفتكره كلمة مرور واحدة قوية بس.\n\n### فعّل 2FA واحفظ رموز الاسترجاع في مكان آمن\nاطبعها أو احفظها في مكان منفصل تمامًا عن الجهاز نفسه (لو الجهاز ضاع، الرموز لازم تكون في مكان تاني).\n\n### راجع بيانات الاسترجاع بشكل دوري\nتأكد إن البريد الاحتياطي ورقم الموبايل محدّثين كل فترة، خصوصًا لو غيّرت رقمك.\n\n## الخلاصة\n\nنسيان كلمة المرور موقف عادي جدًا وليه حل آمن دايمًا، طالما مافيش استعجال وماضغطتش على روابط مشبوهة. أفضل استثمار طويل المدى: مدير كلمات مرور + 2FA + رموز استرجاع محفوظة في مكان آمن.",
-      "en": "## First: don't rush\n\nAttackers exploit this anxious moment with phishing messages claiming to help you recover your account -- if you receive such a message without having requested a recovery yourself, ignore it and don't click any link inside it.\n\n## General safe recovery steps\n\nUse the forgot-password option directly from the site or app itself: type the site's address yourself in your browser (or open the official app) rather than clicking a link in an email or message. Make sure your backup email or phone number is up to date, since most recovery flows send a link or code there -- if it's outdated, recovery becomes much harder. If the account has 2FA enabled, you'll need your backup codes -- if you saved them when setting up two-factor authentication, they're the fastest way in without your primary device. If you don't have access to your backup email or phone, most major services (Google, Microsoft, Facebook) offer an alternative identity-verification recovery process, though it takes longer (sometimes days) for security reasons.\n\n## Special cases worth extra attention\n\nYour primary email is the riskiest account to forget, since it's the recovery gateway for all your other accounts -- if you've forgotten it, start there before anything else. Bank accounts and e-wallets usually require in-person identity verification (a branch visit or a verified call) rather than just an email -- this is normal, not a system flaw; it's extra protection given how sensitive the data is.\n\n## How to prevent this from happening again\n\nUse a password manager: tools like Bitwarden or 1Password store your passwords encrypted, and all you need to remember is one strong master password. Enable 2FA and save your backup codes somewhere safe -- print them or store them somewhere entirely separate from the device itself, so if the device is lost, the codes are still accessible elsewhere. And review your recovery info periodically, making sure your backup email and phone number stay current, especially after changing your number.\n\n## Bottom line\n\nForgetting a password is a completely normal situation with a safe solution, as long as you don't rush and don't click suspicious links. The best long-term investment: a password manager, 2FA, and backup codes stored somewhere safe."
-    },
-    "categoryId": "cybersecurity",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": ""
-    },
-    "date": "2026-07-23",
-    "readTime": 6,
-    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "password",
-      "account-recovery",
-      "security",
-      "guide"
-    ],
-    "isFeatured": false,
-    "isTrending": false,
-    "domainIds": [
-      "cybersecurity"
-    ],
-    "topicIds": [
-      "backup-recovery"
-    ],
-    "contentType": "troubleshooting",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
     "id": "art-gen-0125",
     "slug": "printer-not-working-fixes",
     "title": {
@@ -5999,7 +5895,7 @@
     ],
     "isFeatured": false,
     "isTrending": false,
-    "translationStatus": "reviewed",
+    "translationStatus": "unreviewed",
     "domainIds": [
       "infrastructure",
       "troubleshooting"
@@ -6015,6 +5911,7 @@
     "productIds": [
       "windows-server"
     ],
-    "technicalStatus": "needs-review"
+    "technicalStatus": "needs-review",
+    "englishEdition": "independent"
   }
 ]

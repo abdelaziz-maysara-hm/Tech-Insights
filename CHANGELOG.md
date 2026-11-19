@@ -2,10 +2,18 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 9 (2026-11-19): independent English editions, honest review flags, workflow upgrade
+
+- **New flag `englishEdition: 'independent'`** marks records whose English was written as a separate native piece on the same topic (AI-assisted, not a translation of the Arabic). It is **not** a human review: `translationStatus: 'reviewed'` is reserved for a human reviewer, and the 21 Phase 8 records that had been set to `reviewed` are now `unreviewed` + `englishEdition: 'independent'`. The translation audit reports independent editions separately and never counts them as `VALID_PAIR` (0 valid pairs until a human signs off).
+- **Source format:** English rewrites live in `scripts/phase8/english/<slug>.md` (front matter `title`/`excerpt`, then the body); comparison rewrites in `scripts/phase8/comparisons-en/<slug>.json` (`title`, `excerpt`, `verdict`, `specs`). `scripts/phase8/apply-content.mjs` applies them after the Phase 7 modules.
+- **Batched English rewrites** (see PR list in the handoff), each with FAQ and official references; external links checked.
+- **Off-topic consumer how-tos redirected** to the closest IT-security page: cloud storage basics → cloud storage misconfiguration risks, home Wi-Fi fixes → Wi-Fi 6 vs Wi-Fi 5 for business, forgotten-password recovery → password managers. The three AI articles had already been reworked for enterprise IT in Phase 5B and stay.
+- **Deploy workflow** moved off the deprecated Node 20 action runtime: checkout v7, setup-node v7, configure-pages v6, upload-pages-artifact v5, deploy-pages v5.
+
 ## Phase 8 (2026-11-19): content plan batch 2, independent English, generator removed, performance
 
 - **13 new articles** from the content plan (FortiGate production setup, Wazuh + Sysmon lab, Palo Alto NAT, email-in-spam diagnosis, ATT&CK to detections, Nessus Essentials, FortiGate↔Palo Alto IPsec, Entra Conditional Access baseline, custom Wazuh brute-force rule, Fortinet ZTNA, 2027 career roadmap, firewall misconfiguration audit, 15 Microsoft 365 settings). Arabic and English are written separately on the same topic, each with FAQ and official references.
-- **Independent English rewrites** of 7 existing articles (SIEM, SPF/DKIM/DMARC, Kerberos, VLANs, Event Viewer, Palo Alto policy, security roundup). Only rewritten records are `translationStatus: 'reviewed'`; the rest stay `unreviewed` under `publishUnreviewedTranslations`.
+- **Independent English rewrites** of 7 existing articles (SIEM, SPF/DKIM/DMARC, Kerberos, VLANs, Event Viewer, Palo Alto policy, security roundup). (Superseded in Phase 9: these are flagged `englishEdition: 'independent'`, not `reviewed`.)
 - **Repositioned off-audience items:** printer troubleshooting rewritten for IT teams (spooler, Point and Print, PrintNightmare); ThinkPad vs EliteBook rewritten as a fleet security comparison; ChatGPT vs Claude redirected to the professional AI-use guide.
 - **Accuracy:** security roundup re-verified against each SecurityWeek report and retitled (two items were not exploited). DMARC content moved to RFC 9989 (`pct` removed, `t=y` testing flag).
 - **Generator removed:** `scripts/generator/`, the `generate:*` scripts, `collections.json`, `GENERATION_REPORT.json` and two unused `src/data` files. Nothing in build, deploy or tests used them, and they could overwrite hand edits.

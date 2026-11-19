@@ -1,3 +1,8 @@
+---
+title: Reading the Windows Security Log in Event Viewer: What to Look For
+excerpt: Cut through the noise of the Windows Security log: the event IDs that matter, filters and custom views that save time, and a short daily routine for admins without a SIEM.
+---
+
 Open the Security log on a busy domain controller and you'll see thousands of events an hour. Almost all of it is normal. The skill is knowing which handful of event IDs deserve your attention, and making Event Viewer show you only those.
 
 ## First, make sure the events exist

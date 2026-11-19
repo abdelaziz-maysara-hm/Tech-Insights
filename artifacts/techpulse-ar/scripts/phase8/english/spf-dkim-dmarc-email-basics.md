@@ -1,3 +1,8 @@
+---
+title: SPF, DKIM and DMARC Explained: Stop People Spoofing Your Domain
+excerpt: Why email lets anyone claim to be you, what SPF, DKIM and DMARC each prove, how alignment ties them together, and the order to deploy them safely.
+---
+
 SMTP was designed for a small, trusting network. Nothing in the original protocol stops a server anywhere from sending mail that says it's from `ceo@yourcompany.com`. SPF, DKIM and DMARC are the add-ons that let receivers check that claim. Each proves something different, and you need all three.
 
 ## What each one proves

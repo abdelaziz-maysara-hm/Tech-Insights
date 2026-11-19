@@ -48,7 +48,8 @@
       "forticlient-ems"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-012",
@@ -97,7 +98,8 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-011",
@@ -143,7 +145,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-010",
@@ -194,7 +197,8 @@
       "pan-os"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-009",
@@ -240,7 +244,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-008",
@@ -284,7 +289,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-007",
@@ -331,7 +337,8 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-006",
@@ -379,7 +386,8 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-005",
@@ -432,7 +440,8 @@
       "pan-os"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-004",
@@ -482,7 +491,8 @@
       "fortigate"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-003",
@@ -534,7 +544,8 @@
       "pan-os"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-002",
@@ -582,7 +593,8 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p8-001",
@@ -631,7 +643,8 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p7-012",
@@ -925,7 +938,8 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p7-006",
@@ -1265,11 +1279,11 @@
     "slug": "phishing-spot-before-click",
     "title": {
       "ar": "التصيد الإلكتروني: كيف تكتشفه قبل ما تضغط",
-      "en": "Phishing: How to Spot It Before You Click"
+      "en": "Spotting Phishing Before You Click: A Field Guide for Staff and IT"
     },
     "excerpt": {
       "ar": "أنواع التصيد المختلفة، علامات تقنية حقيقية تكتشفها، وخطوات فورية لو ضغطت على رابط مشبوه بالغلط.",
-      "en": "The different types of phishing, real technical signs to spot, and immediate steps if you accidentally clicked a suspicious link."
+      "en": "The tells that give phishing away (pressure, mismatched senders, odd links and attachments), what to do with a suspicious message, and how IT makes reporting easy."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1281,7 +1295,7 @@
       "avatar": ""
     },
     "date": "2022-03-08",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1557200134-90327ee9fafa?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8cGhpc2hpbmclMjBlbWFpbCUyMHdhcm5pbmd8ZW58MXwwfHx8MTc4NTg3MjEyNHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "phishing",
@@ -1300,7 +1314,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0003",
@@ -1345,7 +1360,8 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0004",
@@ -1448,11 +1464,11 @@
     "slug": "password-manager-start",
     "title": {
       "ar": "مديرو كلمات المرور: لماذا تحتاجه وكيف تبدأ",
-      "en": "Password Managers: Why You Need One and How to Start"
+      "en": "Password Managers at Work: Why They Matter and How to Roll One Out"
     },
     "excerpt": {
       "ar": "إزاي مديرو كلمات المرور بيشتغلوا فعليًا، ليه أأمن من الحفظ الذهني، وخطة هجرة عملية من غير ما تتقفل برّه حساباتك.",
-      "en": "How password managers actually work, why they're safer than memorizing, and a practical migration plan without locking yourself out."
+      "en": "Why reused passwords are the real problem, how password managers work, what to look for in a business product, and a rollout plan that people will actually adopt."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1481,7 +1497,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0007",
@@ -1534,11 +1551,11 @@
     "slug": "home-router-security-basics",
     "title": {
       "ar": "تأمين الراوتر في المكاتب الصغيرة والمنزل: خطوات أساسية",
-      "en": "Securing a Small-Office or Home Router: Essential Steps"
+      "en": "Locking Down a Small-Office Router: The Settings That Matter"
     },
     "excerpt": {
       "ar": "7 خطوات مرتبة حسب الأولوية لتأمين راوترك، وعلامات حقيقية تشير لاحتمال اختراقه.",
-      "en": "7 priority-ranked steps to secure your router, and real signs indicating it might be compromised."
+      "en": "A practical hardening list for small-office and home routers: firmware, admin access, Wi-Fi encryption, WPS and UPnP, guest networks, and what to check every few months."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1550,7 +1567,7 @@
       "avatar": ""
     },
     "date": "2023-07-23",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1733810763720-4c83af0668ea?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8d2lmaSUyMHJvdXRlciUyMGhvbWUlMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzN8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "router-security",
@@ -1571,18 +1588,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0009",
     "slug": "vpn-basics-what-it-does",
     "title": {
       "ar": "VPN للمبتدئين: ماذا يفعل وماذا لا يفعل؟",
-      "en": "VPN Basics: What It Does and Doesn't Do"
+      "en": "What a VPN Really Protects (and What It Doesn't)"
     },
     "excerpt": {
       "ar": "إزاي الـVPN بيشتغل تقنيًا، إيه اللي بيحميك منه فعلًا وإيه اللي مش بيحميك منه، وأشهر المفاهيم الخاطئة عنه.",
-      "en": "How VPN actually works technically, what it genuinely protects you from and doesn't, and the most common misconceptions about it."
+      "en": "A clear look at what VPNs do for remote access and public Wi-Fi, where they stop helping, and how business VPN differs from consumer privacy services."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "vpn-remote",
@@ -1594,7 +1612,7 @@
       "avatar": ""
     },
     "date": "2023-10-03",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1603985529862-9e12198c9a60?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8dnBuJTIwcHJpdmFjeSUyMG5ldHdvcmt8ZW58MXwwfHx8MTc4NTg3MjEzNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "vpn",
@@ -1614,18 +1632,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0010",
     "slug": "windows-disk-cleanup-safe",
     "title": {
       "ar": "تنظيف مساحة القرص في Windows بأمان: ما يُحذف وما لا يُحذف",
-      "en": "Safe Disk Cleanup on Windows: What to Delete and What to Keep"
+      "en": "Freeing Disk Space on Windows Safely: What You Can Delete and What to Leave"
     },
     "excerpt": {
       "ar": "الأدوات الرسمية بالتفصيل، إيه اللي آمن تمامًا وإيه اللي محتاج حذر، ونصيحة النقل قبل الحذف.",
-      "en": "The official tools in detail, what's completely safe versus what needs caution, and the move-before-delete precaution."
+      "en": "Which Windows folders and caches are safe to clear, which ones break things if you touch them, and the built-in tools that do the job without risk."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -1637,7 +1656,7 @@
       "avatar": ""
     },
     "date": "2024-01-10",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1639322537228-f710d846310a?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8M3x8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "windows",
@@ -1645,7 +1664,8 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0012",
@@ -1963,11 +1983,11 @@
     "slug": "zero-trust-explained-practically",
     "title": {
       "ar": "Zero Trust بدون تعقيد: المبدأ وخطوات التطبيق العملي",
-      "en": "Zero Trust Without the Jargon: The Principle and Practical Steps"
+      "en": "Zero Trust in Plain Terms: The Idea and the First Practical Steps"
     },
     "excerpt": {
       "ar": "المبدأ الأساسي، الفرق عن الأمان التقليدي، ركائز NIST الست، وخطة تطبيق تدريجية واقعية بدون ميزانية ضخمة.",
-      "en": "The core principle, how it differs from traditional security, the six NIST pillars, and a realistic phased rollout plan without a huge budget."
+      "en": "Zero trust means no implicit trust based on network location. Here's what that looks like in practice and where a small or mid-size team should begin."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1979,7 +1999,7 @@
       "avatar": ""
     },
     "date": "2026-01-19",
-    "readTime": 11,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1728756666032-d0b5552b6384?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8Y3liZXJzZWN1cml0eSUyMG5ldHdvcmslMjBzaGllbGR8ZW58MXwwfHx8MTc4NTg3MjE0N3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "zero-trust",
@@ -1998,18 +2018,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0020",
     "slug": "email-security-gateway-basics",
     "title": {
       "ar": "بوابة أمان البريد الإلكتروني: ما الذي تحميه فعليًا",
-      "en": "Email Security Gateways: What They Actually Protect Against"
+      "en": "What an Email Security Gateway Actually Stops (and What Slips Through)"
     },
     "excerpt": {
       "ar": "4 وظائف أساسية بتضيفها بوابة أمان متخصصة فوق الحماية المدمجة، ومتى الاستثمار الإضافي يستاهل فعليًا.",
-      "en": "4 core functions a dedicated security gateway adds on top of built-in protection, and when the extra investment is genuinely worth it."
+      "en": "How secure email gateways and cloud email security filter spam, malware and phishing, the gaps they leave, and the controls you still need around them."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -2021,7 +2042,7 @@
       "avatar": ""
     },
     "date": "2026-04-26",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8ZW1haWwlMjBpbmJveCUyMHNlY3VyaXR5fGVufDF8MHx8fDE3ODU4NzIxNDh8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "email-security",
@@ -2041,7 +2062,8 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0021",
@@ -2084,18 +2106,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0022",
     "slug": "snmp-monitoring-basics",
     "title": {
       "ar": "أساسيات مراقبة الشبكة بـSNMP: الإصدارات والأمان",
-      "en": "Network Monitoring with SNMP: Versions and Security"
+      "en": "SNMP for Network Monitoring: Choosing a Version and Securing It"
     },
     "excerpt": {
       "ar": "الفرق بين v1/v2c وv3 بالتفصيل، خطوات إعداد كاملة، وأشهر 3 أخطاء بتعرّض بيانات جهازك.",
-      "en": "The v1/v2c vs v3 difference in detail, complete setup steps, and the 3 most common mistakes that expose your device's data."
+      "en": "How SNMP polling and traps work, why v1 and v2c community strings are a liability, and how to configure SNMPv3 with authentication, encryption and restricted access."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -2107,7 +2130,7 @@
       "avatar": ""
     },
     "date": "2025-05-13",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMG1vbml0b3JpbmclMjBkYXNoYm9hcmR8ZW58MXwwfHx8MTc4NTg3MjE1MXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "snmp",
@@ -2125,18 +2148,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0023",
     "slug": "802-1x-certificate-authentication",
     "title": {
       "ar": "المصادقة بالشهادات عبر 802.1X: المكونات وخطوات النشر",
-      "en": "Certificate-Based 802.1X Authentication: Components and Rollout Steps"
+      "en": "802.1X with Certificates: How the Pieces Fit and How to Roll It Out"
     },
     "excerpt": {
       "ar": "الفرق بين EAP-TLS وPEAP، خطوات تطبيق عملية كاملة، وليه التفعيل الصارم المفاجئ أشهر خطأ.",
-      "en": "The EAP-TLS vs PEAP difference, complete practical implementation steps, and why sudden strict enforcement is the most common mistake."
+      "en": "The supplicant, authenticator and RADIUS server roles, why EAP-TLS beats passwords for network access, and a staged rollout that avoids locking users out."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -2148,7 +2172,7 @@
       "avatar": ""
     },
     "date": "2025-07-20",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1695668548342-c0c1ad479aee?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8bmV0d29yayUyMGF1dGhlbnRpY2F0aW9uJTIwc2VydmVyfGVufDF8MHx8fDE3ODU4NzIxNTJ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "802.1x",
@@ -2170,18 +2194,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0024",
     "slug": "log-retention-siem-basics",
     "title": {
       "ar": "الاحتفاظ بالسجلات (Log Retention): كيف تحدد المدة الصحيحة",
-      "en": "Log Retention: How to Set the Right Duration"
+      "en": "How Long to Keep Logs: Setting a Retention Policy That Holds Up"
     },
     "excerpt": {
       "ar": "مدد مقترحة حسب نوع السجل، استراتيجية التخزين المتدرج (ساخن/بارد)، ونصيحة توثيق القرار بدل رقم عشوائي.",
-      "en": "Suggested durations by log type, a tiered hot/cold storage strategy, and advice to document the decision instead of picking an arbitrary number."
+      "en": "Balancing investigation needs, legal requirements and storage cost: hot versus archive tiers, which logs deserve longer retention, and how to make sure the logs are actually there when you need them."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -2193,7 +2218,7 @@
       "avatar": ""
     },
     "date": "2025-09-27",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "siem",
@@ -2214,18 +2239,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0025",
     "slug": "windows-patch-management-strategy",
     "title": {
       "ar": "استراتيجية إدارة التحديثات (Patch Management) لبيئة صغيرة",
-      "en": "A Patch Management Strategy for a Small Environment"
+      "en": "Patch Management for a Small IT Team: A Strategy That Fits"
     },
     "excerpt": {
       "ar": "نظام الحلقات بالتفصيل (اختبار/إنتاج)، استثناء التحديثات الحرجة، ومقارنة أدوات حسب حجم البيئة (WSUS/SaaS/Intune).",
-      "en": "The ring system explained in detail (test/production), the critical-patch exception, and tool comparison by environment size (WSUS/SaaS/Intune)."
+      "en": "A realistic patching process for small environments: inventory, rings, timelines by severity, handling the systems you can't reboot, and proving it worked."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -2237,7 +2263,7 @@
       "avatar": ""
     },
     "date": "2025-11-07",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1762340915398-000c216e7cd6?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8c29mdHdhcmUlMjB1cGRhdGUlMjBjb21wdXRlcnxlbnwxfDB8fHwxNzg1ODcyMTU0fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "patch-management",
@@ -2255,18 +2281,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0026",
     "slug": "dhcp-failover-high-availability",
     "title": {
       "ar": "إعداد DHCP Failover لضمان استمرارية الشبكة",
-      "en": "Setting Up DHCP Failover for Network Continuity"
+      "en": "DHCP Failover on Windows Server: Keeping Addresses Flowing When a Server Fails"
     },
     "excerpt": {
       "ar": "الفرق بين Hot Standby وLoad Balance بالتفصيل، خطوات إعداد كاملة، وأمر PowerShell للتحقق من نجاح الإعداد.",
-      "en": "Hot Standby vs Load Balance explained in detail, complete setup steps, and a PowerShell command to verify success."
+      "en": "How Windows Server DHCP failover works, load balance versus hot standby, the MCLT setting, and the steps to configure and test it."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -2278,7 +2305,7 @@
       "avatar": ""
     },
     "date": "2026-01-14",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1691435828932-911a7801adfb?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMHNlcnZlciUyMHJvb218ZW58MXwwfHx8MTc4NTg3MjE1NXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "dhcp",
@@ -2299,18 +2326,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0027",
     "slug": "syslog-server-setup-basics",
     "title": {
       "ar": "إعداد خادم Syslog مركزي: من أين تبدأ",
-      "en": "Setting Up a Central Syslog Server: Where to Start"
+      "en": "Building a Central Syslog Server: A Practical Starting Point"
     },
     "excerpt": {
       "ar": "مقارنة الأدوات المتاحة حسب حجم البيئة، خطوات الإعداد التفصيلية، وليه التجميع بدون مراجعة دورية بيدّيك إحساس زائف بالأمان.",
-      "en": "Comparing available tools by environment size, detailed setup steps, and why collection without periodic review gives false confidence."
+      "en": "Why centralised logging matters, how to choose UDP, TCP or TLS transport, a basic rsyslog setup, and the habits that keep a log server useful."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -2322,7 +2350,7 @@
       "avatar": ""
     },
     "date": "2026-03-21",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1608742213509-815b97c30b36?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8c2VydmVyJTIwbG9ncyUyMHRlcm1pbmFsJTIwc2NyZWVufGVufDF8MHx8fDE3ODU4NzIxNTd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "syslog",
@@ -2342,18 +2370,19 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0028",
     "slug": "network-segmentation-compliance",
     "title": {
       "ar": "تقسيم الشبكة لأغراض الامتثال: نظرة عملية مبسطة",
-      "en": "Network Segmentation for Compliance: A Simplified Practical View"
+      "en": "Network Segmentation for Compliance: Shrinking Scope Without Overengineering"
     },
     "excerpt": {
       "ar": "الفرق بين العزل الكامل والمنطقي، خطوات تطبيق عملية موثّقة، وفايدة تقليل نطاق المراجعة غير الامتثال نفسه.",
-      "en": "The difference between full and logical isolation, documented practical implementation steps, and the audit-scope-reduction benefit beyond compliance itself."
+      "en": "How segmentation reduces the systems an audit has to cover (PCI DSS is the classic case), what a segmentation design needs, and how to prove it works."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -2365,7 +2394,7 @@
       "avatar": ""
     },
     "date": "2026-05-01",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YXVkaXQlMjBkb2N1bWVudHMlMjBvZmZpY2V8ZW58MXwwfHx8MTc4NTg5ODQ2Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "compliance",
@@ -2383,18 +2412,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0029",
     "slug": "hyper-v-vs-checkpoints-basics",
     "title": {
       "ar": "استخدام Checkpoints في Hyper-V بأمان: متى تفيد ومتى تضر",
-      "en": "Using Hyper-V Checkpoints Safely: When They Help and When They Hurt"
+      "en": "Hyper-V Checkpoints: Useful for Changes, Dangerous as Backups"
     },
     "excerpt": {
       "ar": "ليه Checkpoint مش بديل عن نسخة احتياطية، المشكلة العملية مع التراكم (أداء وتخزين)، وخطوات استخدام آمنة.",
-      "en": "Why a checkpoint isn't a backup substitute, the practical problem with buildup (performance and storage), and safe usage steps."
+      "en": "The difference between standard and production checkpoints, why long-lived checkpoints hurt performance and storage, and the rules for using them safely."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -2406,7 +2436,7 @@
       "avatar": ""
     },
     "date": "2025-07-08",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8YmFja3VwJTIwZGF0YSUyMHN0b3JhZ2UlMjBkaXNrfGVufDF8MHx8fDE3ODU4NzIxNDR8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "hyper-v",
@@ -2429,18 +2459,19 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0030",
     "slug": "mfa-fatigue-attacks-explained",
     "title": {
       "ar": "هجمات إرهاق المصادقة الثنائية (MFA Fatigue) وكيف تحمي فريقك",
-      "en": "MFA Fatigue Attacks and How to Protect Your Team"
+      "en": "MFA Fatigue (Push Bombing): How It Works and How to Shut It Down"
     },
     "excerpt": {
       "ar": "ليه الهجوم ده فعّال بشكل مقلق، وخمس طرق حماية عملية من Number Matching للمفاتيح المادية.",
-      "en": "Why this attack is concerningly effective, and five practical defenses from number matching to hardware keys."
+      "en": "Attackers with a stolen password spam push approvals until someone taps Approve. Number matching, phishing-resistant methods, and user guidance stop it."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -2452,7 +2483,7 @@
       "avatar": ""
     },
     "date": "2025-08-15",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1620287341401-e2945a4b9daa?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8cGhpc2hpbmclMjBlbWFpbCUyMHdhcm5pbmd8ZW58MXwwfHx8MTc4NTg3MjEyNHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "mfa",
@@ -2472,7 +2503,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0031",
@@ -2513,7 +2545,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0032",
@@ -3699,7 +3732,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0060",
@@ -4473,7 +4507,8 @@
       "active-directory"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0087",
@@ -4811,7 +4846,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "reviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0096",
@@ -5336,134 +5372,6 @@
     "translationStatus": "unreviewed"
   },
   {
-    "id": "art-gen-0116",
-    "slug": "how-cloud-storage-actually-works",
-    "title": {
-      "ar": "كيف يعمل التخزين السحابي فعليًا",
-      "en": "How Cloud Storage Actually Works"
-    },
-    "excerpt": {
-      "ar": "ليه التكرار عبر أقراص ومراكز بيانات متعددة سر الموثوقية، وإزاي المزامنة الذكية (Delta Sync) بتوفر وقت وبيانات.",
-      "en": "Why redundancy across multiple disks and data centers is the reliability secret, and how smart delta sync saves time and data."
-    },
-    "categoryId": "technology",
-    "subcategoryId": "concepts",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": ""
-    },
-    "date": "2026-06-23",
-    "readTime": 7,
-    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "cloud-storage",
-      "technology",
-      "guide"
-    ],
-    "isFeatured": true,
-    "isTrending": false,
-    "domainIds": [
-      "infrastructure"
-    ],
-    "topicIds": [
-      "cloud"
-    ],
-    "contentType": "guide",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
-    "id": "art-gen-0120",
-    "slug": "wifi-connection-problems-fixes",
-    "title": {
-      "ar": "مشاكل الواي فاي الشائعة وحلولها خطوة بخطوة",
-      "en": "Common Wi-Fi Problems and Their Step-by-Step Fixes"
-    },
-    "excerpt": {
-      "ar": "الإنترنت بطيء أو بيفصل باستمرار؟ إليك أشهر أسباب مشاكل الواي فاي في المنزل وخطوات عملية تقدر تجربها بنفسك قبل ما تتصل بمزوّد الخدمة.",
-      "en": "Internet slow or dropping constantly? Here are the most common home Wi-Fi problems and practical steps you can try yourself before calling your provider."
-    },
-    "categoryId": "howto",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": ""
-    },
-    "date": "2026-07-14",
-    "readTime": 7,
-    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "wifi",
-      "network",
-      "troubleshooting",
-      "guide"
-    ],
-    "isFeatured": false,
-    "isTrending": false,
-    "domainIds": [
-      "networking"
-    ],
-    "topicIds": [
-      "wireless"
-    ],
-    "contentType": "troubleshooting",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
-    "id": "art-gen-0123",
-    "slug": "forgotten-password-account-recovery",
-    "title": {
-      "ar": "نسيت كلمة مرور حسابك المهم؟ خطوات الاسترجاع الآمنة",
-      "en": "Forgot Your Important Account Password? Safe Recovery Steps"
-    },
-    "excerpt": {
-      "ar": "نسيان كلمة المرور موقف شائع ومقلق، خصوصًا لو الحساب فيه بيانات مهمة. إليك خطوات الاسترجاع الآمنة، وإزاي تحمي نفسك من الوقوع في نفس المشكلة تاني.",
-      "en": "Forgetting a password is a common, worrying situation, especially for accounts holding important data. Here are safe recovery steps, and how to avoid the same problem again."
-    },
-    "categoryId": "cybersecurity",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": ""
-    },
-    "date": "2026-07-23",
-    "readTime": 6,
-    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "password",
-      "account-recovery",
-      "security",
-      "guide"
-    ],
-    "isFeatured": false,
-    "isTrending": false,
-    "domainIds": [
-      "cybersecurity"
-    ],
-    "topicIds": [
-      "backup-recovery"
-    ],
-    "contentType": "troubleshooting",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
     "id": "art-gen-0125",
     "slug": "printer-not-working-fixes",
     "title": {
@@ -5495,7 +5403,7 @@
     ],
     "isFeatured": false,
     "isTrending": false,
-    "translationStatus": "reviewed",
+    "translationStatus": "unreviewed",
     "domainIds": [
       "infrastructure",
       "troubleshooting"
@@ -5511,6 +5419,7 @@
     "productIds": [
       "windows-server"
     ],
-    "technicalStatus": "needs-review"
+    "technicalStatus": "needs-review",
+    "englishEdition": "independent"
   }
 ]

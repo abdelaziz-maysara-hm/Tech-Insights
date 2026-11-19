@@ -377,28 +377,6 @@
       <category>windows-server</category>
     </item>
     <item>
-      <title>نسيت كلمة مرور حسابك المهم؟ خطوات الاسترجاع الآمنة</title>
-      <link>https://netsecatlas.com/ar/article/forgotten-password-account-recovery</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/forgotten-password-account-recovery</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
-      <description>نسيان كلمة المرور موقف شائع ومقلق، خصوصًا لو الحساب فيه بيانات مهمة. إليك خطوات الاسترجاع الآمنة، وإزاي تحمي نفسك من الوقوع في نفس المشكلة تاني.</description>
-      <category>password</category>
-      <category>account-recovery</category>
-      <category>security</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>مشاكل الواي فاي الشائعة وحلولها خطوة بخطوة</title>
-      <link>https://netsecatlas.com/ar/article/wifi-connection-problems-fixes</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/wifi-connection-problems-fixes</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-      <description>الإنترنت بطيء أو بيفصل باستمرار؟ إليك أشهر أسباب مشاكل الواي فاي في المنزل وخطوات عملية تقدر تجربها بنفسك قبل ما تتصل بمزوّد الخدمة.</description>
-      <category>wifi</category>
-      <category>network</category>
-      <category>troubleshooting</category>
-      <category>guide</category>
-    </item>
-    <item>
       <title>ثغرات يوم الصفر (Zero-Day): ما هي وكيف تستعد لها</title>
       <link>https://netsecatlas.com/ar/article/zero-day-vulnerabilities-explained</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/zero-day-vulnerabilities-explained</guid>
@@ -450,16 +428,6 @@
       <description>أنواع الفحص الأساسية بأوامر حقيقية، 3 استخدامات عملية شائعة، وتحذير قانوني مهم قبل أي استخدام.</description>
       <category>nmap</category>
       <category>network-scanning</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>كيف يعمل التخزين السحابي فعليًا</title>
-      <link>https://netsecatlas.com/ar/article/how-cloud-storage-actually-works</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/how-cloud-storage-actually-works</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
-      <description>ليه التكرار عبر أقراص ومراكز بيانات متعددة سر الموثوقية، وإزاي المزامنة الذكية (Delta Sync) بتوفر وقت وبيانات.</description>
-      <category>cloud-storage</category>
-      <category>technology</category>
       <category>guide</category>
     </item>
     <item>
@@ -580,6 +548,39 @@
       <category>edr</category>
       <category>endpoint-security</category>
       <category>malware</category>
+      <category>guide</category>
+    </item>
+    <item>
+      <title>فهم PKI وسلسلة الثقة: كيف تعرف أن الشهادة حقيقية فعلًا</title>
+      <link>https://netsecatlas.com/ar/article/pki-certificate-authority-explained</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/pki-certificate-authority-explained</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+      <description>زوج المفاتيح العام/الخاص، سلسلة الثقة من Root CA للشهادة الوسيطة، أنواع الشهادات (DV/OV/EV)، وليه تحذير الشهادة غير الموثوقة خطير فعلًا.</description>
+      <category>pki</category>
+      <category>certificates</category>
+      <category>ssl</category>
+      <category>guide</category>
+    </item>
+    <item>
+      <title>هجمات سلسلة التوريد: عندما يأتي الخطر من مورّد موثوق</title>
+      <link>https://netsecatlas.com/ar/article/supply-chain-attacks-third-party-risk</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/supply-chain-attacks-third-party-risk</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description>3 أمثلة حقيقية موثّقة لنقاط الخطر بالتفصيل، وليه ثقتك في المورّد نفسها هي السلاح المُستغل.</description>
+      <category>supply-chain</category>
+      <category>third-party-risk</category>
+      <category>security</category>
+      <category>guide</category>
+    </item>
+    <item>
+      <title>PowerShell لمديري الأنظمة: من الأساسيات إلى الأتمتة</title>
+      <link>https://netsecatlas.com/ar/article/powershell-sysadmin-complete-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/powershell-sysadmin-complete-guide</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description>من الأوامر الأساسية لكتابة سكريبتات حقيقية للأتمتة، مع أشهر الأخطاء وحلولها.</description>
+      <category>powershell</category>
+      <category>automation</category>
+      <category>windows-server</category>
       <category>guide</category>
     </item>
   </channel>

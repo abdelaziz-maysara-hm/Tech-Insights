@@ -1,5 +1,5 @@
 {
-  "_note": "Permanent content redirects (identity path -> identity path, language-less). Prerender writes meta-refresh + canonical stubs at /ar, /en and legacy un-prefixed paths; the SPA redirects client-side. Phase 7 (2026-11-19): off-topic consumer content and merged short articles. Phase 8 (2026-11-19): chatgpt-vs-claude (consumer AI comparison) redirected to the professional AI-use guide.",
+  "_note": "Permanent content redirects (identity path -> identity path, language-less). Prerender writes meta-refresh + canonical stubs at /ar, /en and legacy un-prefixed paths; the SPA redirects client-side. Phase 7 (2026-11-19): off-topic consumer content and merged short articles. Phase 8 (2026-11-19): chatgpt-vs-claude (consumer AI comparison) redirected to the professional AI-use guide. Phase 9 (2026-11-19): consumer how-to articles (cloud storage, home Wi-Fi, password recovery) redirected; the three AI articles were already reworked for enterprise IT in phase 5B and stay to the closest IT-security page.",
   "redirects": {
     "/article/ios-vs-android-choosing-guide": "/article/byod-policy-security-guide",
     "/article/phone-storage-full-fixes": "/article/byod-policy-security-guide",
@@ -34,6 +34,9 @@
     "/comparison/macbook-air-m3-vs-dell-xps-13": "/comparisons",
     "/comparison/ps5-vs-xbox-series-x": "/comparisons",
     "/comparison/apple-watch-10-vs-galaxy-watch-7": "/comparisons",
-    "/comparison/chatgpt-vs-claude": "/article/chatgpt-study-without-harm"
+    "/comparison/chatgpt-vs-claude": "/article/chatgpt-study-without-harm",
+    "/article/how-cloud-storage-actually-works": "/article/cloud-storage-misconfiguration-risks",
+    "/article/wifi-connection-problems-fixes": "/article/wifi-6-vs-wifi-5-practical",
+    "/article/forgotten-password-account-recovery": "/article/password-manager-start"
   }
 }

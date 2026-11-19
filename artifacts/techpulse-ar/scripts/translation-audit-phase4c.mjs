@@ -88,7 +88,7 @@ function pairSignals({ title, summary, body }) {
   };
 }
 
-function classifyContent({ id, slug, kind, title, summary, body, translationStatus }) {
+function classifyContent({ id, slug, kind, title, summary, body, translationStatus, englishEdition }) {
   const signals = pairSignals({ title, summary, body });
   const humanReviewed = translationStatus === 'reviewed';
   let status = PAIR_STATUS.REVIEW;
@@ -101,6 +101,8 @@ function classifyContent({ id, slug, kind, title, summary, body, translationStat
   } else if (humanReviewed && signals.automatedCandidate) {
     status = PAIR_STATUS.VALID;
     reason = 'Automated checks passed and the record carries an explicit human-reviewed translation marker.';
+  } else if (signals.automatedCandidate && englishEdition === 'independent') {
+    reason = 'English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.';
   } else if (signals.automatedCandidate) {
     reason = 'Field-complete automated candidate, but no explicit human technical/editorial review is recorded.';
   } else {
@@ -118,6 +120,7 @@ function classifyContent({ id, slug, kind, title, summary, body, translationStat
     fieldComplete: signals.fieldComplete,
     automatedCandidate: signals.automatedCandidate,
     humanReviewed,
+    independentEnglish: englishEdition === 'independent',
     metrics: signals,
   };
 }
@@ -175,6 +178,8 @@ const groups = {
 function counts(records) {
   const result = Object.fromEntries(Object.values(PAIR_STATUS).map((status) => [status, 0]));
   for (const record of records) result[record.status] += 1;
+  result.independentEnglish = records.filter((record) => record.independentEnglish).length;
+  result.humanReviewed = records.filter((record) => record.humanReviewed).length;
   return result;
 }
 
@@ -186,6 +191,7 @@ const report = {
     validPairGate: 'Explicit human-reviewed translation marker plus passing automated checks.',
     currentOwnerFinding: 'Existing translations are considered literal and technically unreliable until reviewed.',
     seoEffect: 'Only VALID_PAIR records may receive reciprocal hreflang or localized sitemap alternates.',
+    independentEnglish: "englishEdition: 'independent' marks English written as a separate, native piece on the same topic (AI-assisted). It is not a human review and never produces VALID_PAIR on its own.",
   },
   totals: { evaluated: allRecords.length, ...counts(allRecords) },
   byType: Object.fromEntries(Object.entries(groups).map(([name, records]) => [name, { evaluated: records.length, ...counts(records) }])),
