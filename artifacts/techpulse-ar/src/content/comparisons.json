@@ -1515,7 +1515,7 @@
           "en": "Among the most mature options for this use case"
         },
         "device2Value": {
-          "ar": "6",
+          "ar": "مدعوم، لكنه أقل تخصصًا في البيئات الافتراضية الكبيرة",
           "en": "Supported, but less specialised for large virtual estates"
         },
         "winner": 0
@@ -1530,7 +1530,7 @@
           "en": "Takes more expertise to use fully"
         },
         "device2Value": {
-          "ar": "6",
+          "ar": "مصمم ليكون بسيطًا لفرق تقنية المعلومات الصغيرة",
           "en": "Designed to be simple for small teams to run"
         },
         "winner": 0
@@ -1686,7 +1686,7 @@
           "en": "Strong and long established in these sectors"
         },
         "device2Value": {
-          "ar": "9",
+          "ar": "مستخدم على نطاق واسع في قطاعات متعددة، من بينها هذان القطاعان",
           "en": "Widely used across sectors, including these"
         },
         "winner": 0
@@ -4461,7 +4461,7 @@
           "en": "A large, specialised catalogue of classified cloud apps"
         },
         "device2Value": {
-          "ar": "9",
+          "ar": "كتالوج واسع لتصنيف التطبيقات مشترك عبر منصة Palo Alto",
           "en": "A broad app catalogue shared across the Palo Alto platform"
         },
         "winner": 0

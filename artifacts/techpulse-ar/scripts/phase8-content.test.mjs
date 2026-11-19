@@ -130,3 +130,9 @@ test('every article and comparison has an independent English edition', () => {
   assert.deepEqual(articles.filter((a) => a.englishEdition !== 'independent').map((a) => a.slug), []);
   assert.deepEqual(comparisons.filter((c) => c.englishEdition !== 'independent').map((c) => c.slug), []);
 });
+
+test('no comparison spec value is a bare number', () => {
+  for (const c of comparisons) for (const [k, s] of Object.entries(c.specs))
+    for (const f of ['label', 'device1Value', 'device2Value']) for (const l of ['ar', 'en'])
+      assert.doesNotMatch(s[f][l], /^\s*\d+\s*$/, `${c.slug} ${k} ${f} ${l}`);
+});
