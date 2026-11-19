@@ -21,8 +21,8 @@ const NEW = readdirSync(new URL('./phase8/content/', import.meta.url)).filter((f
 const ENGLISH = readdirSync(new URL('./phase8/english/', import.meta.url)).filter((f) => f.endsWith('.md')).map((f) => f.replace(/\.md$/, ''));
 const COMPARISONS_EN = (existsSync(new URL('./phase8/comparisons-en/', import.meta.url)) ? readdirSync(new URL('./phase8/comparisons-en/', import.meta.url)) : []).filter((f) => f.endsWith('.json')).map((f) => f.replace(/\.json$/, ''));
 
-test('13 planned articles are published, dated, referenced and bilingual', () => {
-  assert.equal(NEW.length, 13);
+test('25 planned articles (13 Phase 8 + 12 Phase 9 batch) are published, dated, referenced and bilingual', () => {
+  assert.equal(NEW.length, 25);
   for (const slug of NEW) {
     const a = articles.find((x) => x.slug === slug);
     assert.ok(a, slug);

@@ -8,6 +8,150 @@
     <lastBuildDate>Thu, 19 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://netsecatlas.com/en/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Troubleshooting TLS Certificate Errors with openssl s_client</title>
+      <link>https://netsecatlas.com/en/article/tls-certificate-errors-troubleshooting</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/tls-certificate-errors-troubleshooting</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Diagnose the five most common certificate errors (missing chain, name mismatch, expiry, untrusted CA, clock) using openssl s_client and fix each one.</description>
+      <category>tls</category>
+      <category>ssl</category>
+      <category>certificates</category>
+      <category>openssl</category>
+      <category>troubleshooting</category>
+    </item>
+    <item>
+      <title>Subnetting Cheat Sheet: CIDR Prefixes, Masks and the Block-Size Trick</title>
+      <link>https://netsecatlas.com/en/article/subnetting-cheat-sheet-cidr</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/subnetting-cheat-sheet-cidr</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>A printable CIDR table from /8 to /32 with masks and host counts, a mental block-size method for subnetting in seconds, and the RFC 1918 private ranges.</description>
+      <category>subnetting</category>
+      <category>cidr</category>
+      <category>ipv4</category>
+      <category>networking</category>
+      <category>cheat-sheet</category>
+    </item>
+    <item>
+      <title>Network Loops and Broadcast Storms: STP, BPDU Guard and Storm Control</title>
+      <link>https://netsecatlas.com/en/article/stp-loop-broadcast-storm-troubleshooting</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/stp-loop-broadcast-storm-troubleshooting</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Spot a Layer 2 loop from MAC flapping and CPU spikes, isolate it fast, then prevent repeats with PortFast, BPDU Guard, a fixed root bridge and storm control.</description>
+      <category>stp</category>
+      <category>spanning-tree</category>
+      <category>broadcast-storm</category>
+      <category>cisco</category>
+      <category>switching</category>
+    </item>
+    <item>
+      <title>SSH Hardening for Linux Servers: Keys, sshd_config and Safe Rollout</title>
+      <link>https://netsecatlas.com/en/article/ssh-hardening-linux-servers</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/ssh-hardening-linux-servers</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Harden OpenSSH safely: ed25519 and hardware-backed keys, the key sshd_config settings, the first-value-wins rule in sshd_config.d, and testing with sshd -t.</description>
+      <category>ssh</category>
+      <category>linux</category>
+      <category>hardening</category>
+      <category>sshd-config</category>
+      <category>keys</category>
+    </item>
+    <item>
+      <title>Protect RDP from Brute-Force Attacks: Seven Practical Controls</title>
+      <link>https://netsecatlas.com/en/article/secure-rdp-brute-force-protection</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/secure-rdp-brute-force-protection</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Why internet-exposed RDP gets hammered and how to lock it down with VPN or ZTNA, NLA, lockout policy, MFA and monitoring, plus a checklist and exposure review.</description>
+      <category>rdp</category>
+      <category>brute-force</category>
+      <category>remote-desktop</category>
+      <category>hardening</category>
+      <category>windows</category>
+    </item>
+    <item>
+      <title>PowerShell Network Troubleshooting Commands Every Admin Should Know</title>
+      <link>https://netsecatlas.com/en/article/powershell-network-troubleshooting-commands</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/powershell-network-troubleshooting-commands</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>The PowerShell cmdlets that answer real network questions: configuration, port reachability, DNS, listening ports, firewall state, and a one-screen health check.</description>
+      <category>powershell</category>
+      <category>test-netconnection</category>
+      <category>networking</category>
+      <category>troubleshooting</category>
+      <category>windows</category>
+    </item>
+    <item>
+      <title>IP Address Conflict Troubleshooting: Find the Duplicate and Stop Repeats</title>
+      <link>https://netsecatlas.com/en/article/ip-address-conflict-troubleshooting</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/ip-address-conflict-troubleshooting</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Go from Windows event 4199 to the other MAC, switch port and DHCP lease, then fix it for good with reservations, DHCP snooping and Dynamic ARP Inspection.</description>
+      <category>ip-conflict</category>
+      <category>dhcp</category>
+      <category>arp</category>
+      <category>dhcp-snooping</category>
+      <category>troubleshooting</category>
+    </item>
+    <item>
+      <title>FortiGate Debug Flow: Find Why Traffic Is Dropped, Step by Step</title>
+      <link>https://netsecatlas.com/en/article/fortigate-debug-flow-troubleshooting</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/fortigate-debug-flow-troubleshooting</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>The correct diagnose debug flow sequence, how to read its messages (policy 0 means implicit deny), the NP offload caveat, and confirming paths with the sniffer.</description>
+      <category>fortigate</category>
+      <category>debug-flow</category>
+      <category>troubleshooting</category>
+      <category>firewall</category>
+      <category>sniffer</category>
+    </item>
+    <item>
+      <title>Email Header Analysis for Phishing: Reading Received and Auth Results</title>
+      <link>https://netsecatlas.com/en/article/email-header-analysis-phishing</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/email-header-analysis-phishing</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Read a suspicious message like an analyst: From vs Reply-To vs Return-Path, tracing Received lines, and interpreting SPF, DKIM and DMARC verdicts.</description>
+      <category>email</category>
+      <category>phishing</category>
+      <category>headers</category>
+      <category>spf</category>
+      <category>dmarc</category>
+    </item>
+    <item>
+      <title>DNS Troubleshooting with nslookup, dig and Resolve-DnsName</title>
+      <link>https://netsecatlas.com/en/article/dns-troubleshooting-nslookup-dig</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/dns-troubleshooting-nslookup-dig</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>A practical method for name-resolution problems: query a specific server, follow delegation with dig +trace, and decode NXDOMAIN, SERVFAIL and REFUSED.</description>
+      <category>dns</category>
+      <category>nslookup</category>
+      <category>dig</category>
+      <category>resolve-dnsname</category>
+      <category>troubleshooting</category>
+    </item>
+    <item>
+      <title>Common Network Ports Cheat Sheet: TCP/UDP Numbers Admins Should Know</title>
+      <link>https://netsecatlas.com/en/article/common-network-ports-cheat-sheet</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/common-network-ports-cheat-sheet</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>The ports you meet daily, grouped by web, mail, Active Directory, remote admin and databases, plus commands to list listening ports on Windows and Linux.</description>
+      <category>ports</category>
+      <category>tcp</category>
+      <category>udp</category>
+      <category>firewall</category>
+      <category>cheat-sheet</category>
+    </item>
+    <item>
+      <title>Find the Source of AD Account Lockouts with Event 4740 and PowerShell</title>
+      <link>https://netsecatlas.com/en/article/ad-account-lockout-source-event-4740</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/ad-account-lockout-source-event-4740</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Locate the device locking a user out: query the PDC emulator for event 4740, decode 4625 and 4771 failures, and clear stale saved credentials and spraying.</description>
+      <category>active-directory</category>
+      <category>account-lockout</category>
+      <category>event-4740</category>
+      <category>powershell</category>
+      <category>troubleshooting</category>
+    </item>
+    <item>
       <title>Deploying ZTNA with FortiGate and FortiClient EMS</title>
       <link>https://netsecatlas.com/en/article/ztna-fortigate-forticlient-ems</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/ztna-fortigate-forticlient-ems</guid>
@@ -449,138 +593,6 @@
       <category>threat-modeling</category>
       <category>stride</category>
       <category>secure-design</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>The TLS Handshake Step by Step: What Happens Before the Padlock Appears</title>
-      <link>https://netsecatlas.com/en/article/tls-handshake-explained</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/tls-handshake-explained</guid>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
-      <description>How a TLS 1.3 connection is set up (Client Hello, key exchange, certificate verification, Finished), what changed from TLS 1.2, and how to troubleshoot common handshake failures.</description>
-      <category>tls</category>
-      <category>https</category>
-      <category>encryption</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Windows LAPS: Unique, Rotating Local Admin Passwords on Every Machine</title>
-      <link>https://netsecatlas.com/en/article/windows-local-admin-password-rotation</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/windows-local-admin-password-rotation</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Why one shared local admin password lets attackers hop across a whole fleet, how Windows LAPS fixes it with per-device rotated passwords stored in AD or Entra ID, and how to deploy it safely.</description>
-      <category>laps</category>
-      <category>active-directory</category>
-      <category>windows-security</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Web Application Firewalls: What a WAF Blocks and When It&apos;s Worth Deploying</title>
-      <link>https://netsecatlas.com/en/article/web-application-firewall-waf-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/web-application-firewall-waf-guide</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description>How WAFs inspect HTTP traffic with signatures, rule sets and anomaly scoring, deployment options from cloud to on-prem, tuning without breaking the app, and why a WAF complements secure code rather than replacing it.</description>
-      <category>waf</category>
-      <category>web-security</category>
-      <category>application-security</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Securing Containers from Build to Runtime</title>
-      <link>https://netsecatlas.com/en/article/container-security-basics-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/container-security-basics-guide</guid>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
-      <description>The container security layers that matter: trusted images, least-privilege runtime settings, Kubernetes access control and network policies, secrets handling, and runtime monitoring.</description>
-      <category>containers</category>
-      <category>docker</category>
-      <category>kubernetes</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Disaster Recovery Planning: Setting RTO and RPO and Proving You Can Hit Them</title>
-      <link>https://netsecatlas.com/en/article/disaster-recovery-plan-basics</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/disaster-recovery-plan-basics</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
-      <description>How to build a disaster recovery plan that works: business impact analysis, recovery time and recovery point objectives, recovery tiers, runbooks, and the testing that turns a document into a capability.</description>
-      <category>disaster-recovery</category>
-      <category>backup</category>
-      <category>business-continuity</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Immutable Backups: Making Sure Ransomware Can&apos;t Delete Your Way Back</title>
-      <link>https://netsecatlas.com/en/article/immutable-backups-ransomware-defense</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/immutable-backups-ransomware-defense</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Why attackers target backups first, how immutability works (object lock, WORM, hardened repositories), choosing retention, the compliance-versus-governance trade-off, and testing restores.</description>
-      <category>backup</category>
-      <category>ransomware</category>
-      <category>disaster-recovery</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Authentication vs Authorization: Who You Are Versus What You May Do</title>
-      <link>https://netsecatlas.com/en/article/authentication-vs-authorization-explained</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/authentication-vs-authorization-explained</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-      <description>A clear explanation of authentication and authorization with everyday IT examples, how protocols like Kerberos, OAuth 2.0, OpenID Connect and SAML fit, and the common bugs when the two are confused.</description>
-      <category>authentication</category>
-      <category>authorization</category>
-      <category>identity</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>How a SIEM Works: From Raw Logs to an Alert Worth Answering</title>
-      <link>https://netsecatlas.com/en/article/how-siem-actually-works</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/how-siem-actually-works</guid>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
-      <description>What a SIEM actually does between collecting logs and paging an analyst: parsing, normalisation, correlation and tuning, with a worked example of a real detection.</description>
-      <category>siem</category>
-      <category>security-operations</category>
-      <category>correlation</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>How EDR Works and Why It Isn&apos;t Just Better Antivirus</title>
-      <link>https://netsecatlas.com/en/article/how-edr-actually-works</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/how-edr-actually-works</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-      <description>What endpoint detection and response records, how it detects attacks that signature antivirus misses, the response actions it gives analysts, and what it takes to run one well.</description>
-      <category>edr</category>
-      <category>endpoint-security</category>
-      <category>malware</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>PKI and the Chain of Trust: How a Certificate Proves Who&apos;s on the Other End</title>
-      <link>https://netsecatlas.com/en/article/pki-certificate-authority-explained</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/pki-certificate-authority-explained</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-      <description>How public key infrastructure works: key pairs, certificate authorities, root and intermediate certificates, chain validation, revocation, and the operational basics of running an internal CA.</description>
-      <category>pki</category>
-      <category>certificates</category>
-      <category>ssl</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Supply Chain Attacks: Managing the Risk That Arrives Through Trusted Vendors</title>
-      <link>https://netsecatlas.com/en/article/supply-chain-attacks-third-party-risk</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/supply-chain-attacks-third-party-risk</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description>How attackers compromise software updates, service providers and open-source packages to reach many victims at once, and the vendor-risk and technical controls that limit the damage.</description>
-      <category>supply-chain</category>
-      <category>third-party-risk</category>
-      <category>security</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>PowerShell for Sysadmins: From First Commands to Reliable Automation</title>
-      <link>https://netsecatlas.com/en/article/powershell-sysadmin-complete-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/powershell-sysadmin-complete-guide</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description>The core ideas that make PowerShell different (cmdlets, objects, the pipeline), everyday commands for services, processes, files and AD, a first real script with logging and error handling, and the mistakes to avoid.</description>
-      <category>powershell</category>
-      <category>automation</category>
-      <category>windows-server</category>
       <category>guide</category>
     </item>
   </channel>

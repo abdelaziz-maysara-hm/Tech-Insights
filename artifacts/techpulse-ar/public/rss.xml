@@ -8,6 +8,150 @@
     <lastBuildDate>Thu, 19 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://netsecatlas.com/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>تشخيص أخطاء شهادات TLS: السلسلة الناقصة والاسم الخاطئ والانتهاء باستخدام openssl</title>
+      <link>https://netsecatlas.com/ar/article/tls-certificate-errors-troubleshooting</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/tls-certificate-errors-troubleshooting</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>الأسباب الخمسة الأكثر شيوعًا لأخطاء الشهادات، وكيف تكشفها بالأمر openssl s_client مع ‎-servername و‎-showcerts، وطريقة الإصلاح لكل حالة.</description>
+      <category>tls</category>
+      <category>ssl</category>
+      <category>certificates</category>
+      <category>openssl</category>
+      <category>troubleshooting</category>
+    </item>
+    <item>
+      <title>مرجع تقسيم الشبكات CIDR: جدول البادئات وحيلة حجم الكتلة بسرعة</title>
+      <link>https://netsecatlas.com/ar/article/subnetting-cheat-sheet-cidr</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/subnetting-cheat-sheet-cidr</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>جدول كامل للبادئات من /8 إلى /32 مع الأقنعة وعدد الأجهزة، وطريقة حساب الشبكة الفرعية ذهنيًا في ثوانٍ، ونطاقات RFC 1918 الخاصة.</description>
+      <category>subnetting</category>
+      <category>cidr</category>
+      <category>ipv4</category>
+      <category>networking</category>
+      <category>cheat-sheet</category>
+    </item>
+    <item>
+      <title>حل حلقات الشبكة وعواصف البث: STP وBPDU Guard وStorm Control</title>
+      <link>https://netsecatlas.com/ar/article/stp-loop-broadcast-storm-troubleshooting</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/stp-loop-broadcast-storm-troubleshooting</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>كيف تكتشف حلقة الطبقة الثانية من رسائل MACFLAP وارتفاع المعالج، وتعزلها بسرعة، ثم تمنع تكرارها بـPortFast وBPDU Guard وتحديد Root Bridge.</description>
+      <category>stp</category>
+      <category>spanning-tree</category>
+      <category>broadcast-storm</category>
+      <category>cisco</category>
+      <category>switching</category>
+    </item>
+    <item>
+      <title>تقوية SSH على خوادم لينكس: المفاتيح والإعدادات الآمنة دون أن تُغلق على نفسك</title>
+      <link>https://netsecatlas.com/ar/article/ssh-hardening-linux-servers</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/ssh-hardening-linux-servers</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>إعدادات sshd_config الأهم، مفاتيح ed25519 والمفاتيح المادية، قاعدة أول قيمة تفوز في sshd_config.d، والاختبار بـsshd -t قبل إعادة التشغيل.</description>
+      <category>ssh</category>
+      <category>linux</category>
+      <category>hardening</category>
+      <category>sshd-config</category>
+      <category>keys</category>
+    </item>
+    <item>
+      <title>حماية RDP من هجمات التخمين: سبع ضوابط عملية لخوادم ويندوز</title>
+      <link>https://netsecatlas.com/ar/article/secure-rdp-brute-force-protection</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/secure-rdp-brute-force-protection</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>لماذا يُعد RDP المكشوف على الإنترنت هدفًا دائمًا، وكيف تحميه بالـVPN أو ZTNA وNLA والقفل والمراقبة، مع قائمة تدقيق ومراجعة بعد التعرّض.</description>
+      <category>rdp</category>
+      <category>brute-force</category>
+      <category>remote-desktop</category>
+      <category>hardening</category>
+      <category>windows</category>
+    </item>
+    <item>
+      <title>أوامر PowerShell لتشخيص الشبكة: Test-NetConnection وما بعده</title>
+      <link>https://netsecatlas.com/ar/article/powershell-network-troubleshooting-commands</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/powershell-network-troubleshooting-commands</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>أهم أوامر PowerShell لتشخيص الشبكة مرتبة حسب السؤال: الإعدادات، الوصول للمنفذ، DNS، المنافذ المستمعة، الجدار الناري، وسكربت فحص سريع.</description>
+      <category>powershell</category>
+      <category>test-netconnection</category>
+      <category>networking</category>
+      <category>troubleshooting</category>
+      <category>windows</category>
+    </item>
+    <item>
+      <title>حل تعارض عناوين IP: كيف تجد الجهاز المكرر وتمنع المشكلة</title>
+      <link>https://netsecatlas.com/ar/article/ip-address-conflict-troubleshooting</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/ip-address-conflict-troubleshooting</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>من الحدث 4199 في ويندوز إلى عنوان MAC ومنفذ المحول وسجلات DHCP، ثم الإصلاح بالحجوزات وDHCP Snooping وDynamic ARP Inspection.</description>
+      <category>ip-conflict</category>
+      <category>dhcp</category>
+      <category>arp</category>
+      <category>dhcp-snooping</category>
+      <category>troubleshooting</category>
+    </item>
+    <item>
+      <title>تشخيص FortiGate بأمر debug flow: لماذا تُسقط الحركة وكيف تقرأ المخرجات</title>
+      <link>https://netsecatlas.com/ar/article/fortigate-debug-flow-troubleshooting</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/fortigate-debug-flow-troubleshooting</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>تسلسل أوامر diagnose debug flow الصحيح، تفسير رسائل المخرجات مثل policy 0، تأثير تسريع NP6 وNP7، واستخدام sniffer لتأكيد مسار الحزم.</description>
+      <category>fortigate</category>
+      <category>debug-flow</category>
+      <category>troubleshooting</category>
+      <category>firewall</category>
+      <category>sniffer</category>
+    </item>
+    <item>
+      <title>تحليل رأس البريد الإلكتروني لكشف التصيد: From وReturn-Path وAuthentication-Results</title>
+      <link>https://netsecatlas.com/ar/article/email-header-analysis-phishing</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/email-header-analysis-phishing</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>اقرأ رأس الرسالة المشبوهة كمحلل: الفرق بين From وReply-To وReturn-Path، تتبع سطور Received، وتفسير نتائج SPF وDKIM وDMARC.</description>
+      <category>email</category>
+      <category>phishing</category>
+      <category>headers</category>
+      <category>spf</category>
+      <category>dmarc</category>
+    </item>
+    <item>
+      <title>تشخيص مشكلات DNS باستخدام nslookup وdig وResolve-DnsName</title>
+      <link>https://netsecatlas.com/ar/article/dns-troubleshooting-nslookup-dig</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/dns-troubleshooting-nslookup-dig</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>منهجية عملية لحل مشكلات أسماء النطاقات: اختبار خادم محدد، تتبع التفويض بـdig +trace، وتفسير أكواد الاستجابة مثل NXDOMAIN وSERVFAIL.</description>
+      <category>dns</category>
+      <category>nslookup</category>
+      <category>dig</category>
+      <category>resolve-dnsname</category>
+      <category>troubleshooting</category>
+    </item>
+    <item>
+      <title>مرجع منافذ الشبكة الشائعة TCP وUDP وكيف تعرف ما يستمع على جهازك</title>
+      <link>https://netsecatlas.com/ar/article/common-network-ports-cheat-sheet</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/common-network-ports-cheat-sheet</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>جداول المنافذ الأكثر استخدامًا للويب والبريد والدليل النشط والإدارة عن بعد وقواعد البيانات، مع أوامر كشف المنافذ المفتوحة على ويندوز ولينكس.</description>
+      <category>ports</category>
+      <category>tcp</category>
+      <category>udp</category>
+      <category>firewall</category>
+      <category>cheat-sheet</category>
+    </item>
+    <item>
+      <title>تتبع مصدر قفل حسابات Active Directory عبر الحدث 4740 خطوة بخطوة</title>
+      <link>https://netsecatlas.com/ar/article/ad-account-lockout-source-event-4740</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/ad-account-lockout-source-event-4740</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>كيف تجد الجهاز الذي يقفل حساب المستخدم: الاستعلام من PDC Emulator عن الحدث 4740، أكواد الفشل 4625 و4771، والأسباب الشائعة مثل كلمات المرور المحفوظة.</description>
+      <category>active-directory</category>
+      <category>account-lockout</category>
+      <category>event-4740</category>
+      <category>powershell</category>
+      <category>troubleshooting</category>
+    </item>
+    <item>
       <title>تطبيق ZTNA باستخدام FortiGate وFortiClient EMS: من التصميم إلى أول سياسة</title>
       <link>https://netsecatlas.com/ar/article/ztna-fortigate-forticlient-ems</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/ztna-fortigate-forticlient-ems</guid>
@@ -449,138 +593,6 @@
       <category>threat-modeling</category>
       <category>stride</category>
       <category>secure-design</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>فهم TLS Handshake: ماذا يحدث فعلًا خلف القفل الأخضر</title>
-      <link>https://netsecatlas.com/ar/article/tls-handshake-explained</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/tls-handshake-explained</guid>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
-      <description>5 خطوات Handshake بالتفصيل، ليه TLS 1.3 أسرع تقنيًا، وإزاي فهم العملية بيخليك تشخّص مشاكل TLS بثقة.</description>
-      <category>tls</category>
-      <category>https</category>
-      <category>encryption</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>تدوير كلمة مرور المسؤول المحلي بـWindows LAPS</title>
-      <link>https://netsecatlas.com/ar/article/windows-local-admin-password-rotation</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/windows-local-admin-password-rotation</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description>إزاي LAPS بيقفل ثغرة الانتشار الجانبي تقنيًا، وليه صلاحية قراءة كلمات المرور المخزّنة أهم نقطة في التطبيق كله.</description>
-      <category>laps</category>
-      <category>active-directory</category>
-      <category>windows-security</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>جدار حماية تطبيقات الويب (WAF): كيف يعمل ومتى تحتاجه</title>
-      <link>https://netsecatlas.com/ar/article/web-application-firewall-waf-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/web-application-firewall-waf-guide</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description>الفرق الجوهري عن جدار الحماية الشبكي التقليدي، 4 أنواع هجمات بيحميك منها، ووضعي المراقبة والحجب بالتفصيل.</description>
-      <category>waf</category>
-      <category>web-security</category>
-      <category>application-security</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>أساسيات أمان الحاويات (Container Security): من الصورة إلى التشغيل</title>
-      <link>https://netsecatlas.com/ar/article/container-security-basics-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/container-security-basics-guide</guid>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
-      <description>4 مخاطر أساسية مختلفة عن أمان الأجهزة الافتراضية التقليدي، و5 خطوات حماية عملية من فحص الصور لسياسات الشبكة.</description>
-      <category>containers</category>
-      <category>docker</category>
-      <category>kubernetes</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>أساسيات خطة التعافي من الكوارث (DRP): RTO وRPO والاختبار</title>
-      <link>https://netsecatlas.com/ar/article/disaster-recovery-plan-basics</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/disaster-recovery-plan-basics</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
-      <description>الفرق بين النسخ الاحتياطي وخطة DR كاملة، مقياسا RTO/RPO موضّحان بالمثال، ومستويات الاستراتيجية من الأرخص للأسرع.</description>
-      <category>disaster-recovery</category>
-      <category>backup</category>
-      <category>business-continuity</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>النسخ الاحتياطية غير القابلة للتعديل: خط الدفاع الأخير ضد الفدية</title>
-      <link>https://netsecatlas.com/ar/article/immutable-backups-ransomware-defense</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/immutable-backups-ransomware-defense</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
-      <description>ليه المهاجمين بيستهدفون النسخ الاحتياطية نفسها عمدًا، وإزاي القفل التقني على مستوى التخزين مختلف جذريًا عن مجرد صلاحيات الوصول.</description>
-      <category>backup</category>
-      <category>ransomware</category>
-      <category>disaster-recovery</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>المصادقة مقابل التفويض (Authentication vs Authorization): الفرق بأمثلة</title>
-      <link>https://netsecatlas.com/ar/article/authentication-vs-authorization-explained</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/authentication-vs-authorization-explained</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-      <description>الفرق الجوهري بين &apos;مين إنت&apos; و&apos;مسموح لك تعمل إيه&apos;، نماذج RBAC/ABAC/ACL، ومثال عملي يوضّح ليه الخلط بينهم يسبب ثغرات حقيقية.</description>
-      <category>authentication</category>
-      <category>authorization</category>
-      <category>identity</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>كيف يعمل SIEM فعليًا: الفرق بين مجرد تجميع السجلات والقيمة الحقيقية</title>
-      <link>https://netsecatlas.com/ar/article/how-siem-actually-works</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/how-siem-actually-works</guid>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
-      <description>5 مكونات أساسية (جمع، تطبيع، ربط، تنبيه، تقارير)، وسيناريو Impossible Travel يوضّح القيمة الحقيقية.</description>
-      <category>siem</category>
-      <category>security-operations</category>
-      <category>correlation</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>كيف يعمل EDR فعليًا: الفرق الجوهري عن مضاد الفيروسات التقليدي</title>
-      <link>https://netsecatlas.com/ar/article/how-edr-actually-works</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/how-edr-actually-works</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-      <description>التحليل السلوكي بدل التوقيعات الثابتة، ليه EDR بيكتشف الهجمات بدون ملفات، وقيوده الواقعية.</description>
-      <category>edr</category>
-      <category>endpoint-security</category>
-      <category>malware</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>فهم PKI وسلسلة الثقة: كيف تعرف أن الشهادة حقيقية فعلًا</title>
-      <link>https://netsecatlas.com/ar/article/pki-certificate-authority-explained</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/pki-certificate-authority-explained</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-      <description>زوج المفاتيح العام/الخاص، سلسلة الثقة من Root CA للشهادة الوسيطة، أنواع الشهادات (DV/OV/EV)، وليه تحذير الشهادة غير الموثوقة خطير فعلًا.</description>
-      <category>pki</category>
-      <category>certificates</category>
-      <category>ssl</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>هجمات سلسلة التوريد: عندما يأتي الخطر من مورّد موثوق</title>
-      <link>https://netsecatlas.com/ar/article/supply-chain-attacks-third-party-risk</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/supply-chain-attacks-third-party-risk</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description>3 أمثلة حقيقية موثّقة لنقاط الخطر بالتفصيل، وليه ثقتك في المورّد نفسها هي السلاح المُستغل.</description>
-      <category>supply-chain</category>
-      <category>third-party-risk</category>
-      <category>security</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>PowerShell لمديري الأنظمة: من الأساسيات إلى الأتمتة</title>
-      <link>https://netsecatlas.com/ar/article/powershell-sysadmin-complete-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/powershell-sysadmin-complete-guide</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description>من الأوامر الأساسية لكتابة سكريبتات حقيقية للأتمتة، مع أشهر الأخطاء وحلولها.</description>
-      <category>powershell</category>
-      <category>automation</category>
-      <category>windows-server</category>
       <category>guide</category>
     </item>
   </channel>
