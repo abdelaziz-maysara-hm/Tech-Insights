@@ -50,6 +50,7 @@ jobs:
       - name: Content and SEO checks
         run: |
           pnpm --filter @workspace/techpulse-ar run test:phase7
+          pnpm --filter @workspace/techpulse-ar run test:phase8
           pnpm --filter @workspace/techpulse-ar run test:seo-prerender
 
       # The custom domain is configured in Settings -> Pages (build type:

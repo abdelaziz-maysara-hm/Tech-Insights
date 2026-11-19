@@ -40,7 +40,8 @@
     "test:phase5b-3": "node --test scripts/phase5b-batch3.test.mjs",
     "apply:phase5b-4": "node scripts/apply-phase5b-batch4.mjs",
     "test:phase5b-4": "node --test scripts/phase5b-batch4.test.mjs",
-    "test:phase7": "node --test scripts/phase7-content.test.mjs"
+    "test:phase7": "node --test scripts/phase7-content.test.mjs",
+    "test:phase8": "node --test scripts/phase8-content.test.mjs"
   },
   "devDependencies": {
     "@hookform/resolvers": "^3.10.0",

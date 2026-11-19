@@ -51,7 +51,7 @@ test('every KEEP record carries exact explicit audit metadata', () => {
       assert.deepEqual(item.vendorIds, record.inferredVendors);
       assert.deepEqual(item.productIds, record.inferredProducts);
       assert.equal(item.technicalStatus, 'needs-review');
-      assert.equal(item.translationStatus, 'unreviewed');
+      assert.ok(['unreviewed', 'reviewed'].includes(item.translationStatus), `${item.slug} translationStatus`);
     }
   }
 });

@@ -48,5 +48,7 @@ Thumbs.db
 .cache/
 .local/
 
-artifacts/techpulse-ar/content/generated/  (legacy generator output; generator removed in phase 8)
+# Legacy bulk-generator output (generator removed in phase 8)
+artifacts/techpulse-ar/content/generated/
+# Per-article body files, written by scripts/generate-article-bodies.mjs at build/dev time
 artifacts/techpulse-ar/public/content/

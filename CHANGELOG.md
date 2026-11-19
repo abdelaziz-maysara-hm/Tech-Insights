@@ -2,6 +2,17 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## Phase 8 (2026-11-19): content plan batch 2, independent English, generator removed, performance
+
+- **13 new articles** from the content plan (FortiGate production setup, Wazuh + Sysmon lab, Palo Alto NAT, email-in-spam diagnosis, ATT&CK to detections, Nessus Essentials, FortiGate↔Palo Alto IPsec, Entra Conditional Access baseline, custom Wazuh brute-force rule, Fortinet ZTNA, 2027 career roadmap, firewall misconfiguration audit, 15 Microsoft 365 settings). Arabic and English are written separately on the same topic, each with FAQ and official references.
+- **Independent English rewrites** of 7 existing articles (SIEM, SPF/DKIM/DMARC, Kerberos, VLANs, Event Viewer, Palo Alto policy, security roundup). Only rewritten records are `translationStatus: 'reviewed'`; the rest stay `unreviewed` under `publishUnreviewedTranslations`.
+- **Repositioned off-audience items:** printer troubleshooting rewritten for IT teams (spooler, Point and Print, PrintNightmare); ThinkPad vs EliteBook rewritten as a fleet security comparison; ChatGPT vs Claude redirected to the professional AI-use guide.
+- **Accuracy:** security roundup re-verified against each SecurityWeek report and retitled (two items were not exploited). DMARC content moved to RFC 9989 (`pct` removed, `t=y` testing flag).
+- **Generator removed:** `scripts/generator/`, the `generate:*` scripts, `collections.json`, `GENERATION_REPORT.json` and two unused `src/data` files. Nothing in build, deploy or tests used them, and they could overwrite hand edits.
+- **Performance:** article bodies are written per slug to `public/content/articles/<slug>.json` at build time and fetched on demand, replacing a 1.07 MB chunk with every article.
+- **SEO/accessibility:** default 1200×630 OG image for pages without one; category filters and lists hide empty categories; skip-to-content link; labelled mobile menu button.
+- **Deploy:** the workflow keeps `CNAME` in the artifact and fails the build if it is missing or wrong, and runs the phase 7/8 content checks.
+
 ## SEO indexing fixes: static content, English URLs, RSS, internal links, site pages
 
 - **Crawlable static HTML for every route.** The prerender now writes the full page content (article body, comparison table, tool guide, listings, breadcrumbs, related links, site navigation) into `<div id="root">`, not only `<head>` metadata. `main.tsx` keeps it on screen until React has rendered the route, then swaps it, so there is no blank flash.

@@ -8,6 +8,168 @@
     <lastBuildDate>Thu, 19 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://netsecatlas.com/ar/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>تطبيق ZTNA باستخدام FortiGate وFortiClient EMS: من التصميم إلى أول سياسة</title>
+      <link>https://netsecatlas.com/ar/article/ztna-fortigate-forticlient-ems</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/ztna-fortigate-forticlient-ems</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>كيف يعمل ZTNA عند Fortinet: دور EMS والشهادات ووسوم الحالة الأمنية، إعداد ZTNA Server وسياسة الوصول على FortiGate، وخطة الانتقال من VPN.</description>
+      <category>ztna</category>
+      <category>zero-trust</category>
+      <category>fortigate</category>
+      <category>forticlient-ems</category>
+      <category>remote-access</category>
+    </item>
+    <item>
+      <title>مختبر SOC مجاني في البيت باستخدام Wazuh وSysmon</title>
+      <link>https://netsecatlas.com/ar/article/wazuh-sysmon-free-soc-lab</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/wazuh-sysmon-free-soc-lab</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>خطوات بناء مختبر مراقبة أمنية مجاني: خادم Wazuh، وكيل على Windows مع Sysmon، توليد أحداث هجوم آمنة، وقراءة التنبيهات كما يفعل محلل SOC.</description>
+      <category>wazuh</category>
+      <category>sysmon</category>
+      <category>soc</category>
+      <category>lab</category>
+      <category>siem</category>
+      <category>detection</category>
+    </item>
+    <item>
+      <title>كتابة قاعدة Wazuh مخصصة لكشف هجمات التخمين (Brute Force)</title>
+      <link>https://netsecatlas.com/ar/article/wazuh-custom-rule-brute-force</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/wazuh-custom-rule-brute-force</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>كيف تكتب قاعدة ترابط في Wazuh لكشف محاولات تخمين كلمات المرور على SSH وRDP بعتبة تناسب بيئتك، وتختبرها بـwazuh-logtest، وتربطها بالاستجابة التلقائية.</description>
+      <category>wazuh</category>
+      <category>detection-engineering</category>
+      <category>brute-force</category>
+      <category>ssh</category>
+      <category>rdp</category>
+      <category>siem</category>
+    </item>
+    <item>
+      <title>أنواع NAT في Palo Alto بأمثلة عملية: Source وDestination وU-Turn</title>
+      <link>https://netsecatlas.com/ar/article/palo-alto-nat-types-examples</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/palo-alto-nat-types-examples</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>شرح أنواع NAT في PAN-OS بأمثلة: DIPP للإنترنت، Static للخوادم، Destination NAT للنشر، وU-Turn، مع القاعدة الذهبية لربط NAT بسياسة الأمان.</description>
+      <category>palo-alto</category>
+      <category>pan-os</category>
+      <category>nat</category>
+      <category>firewall</category>
+      <category>dnat</category>
+      <category>snat</category>
+    </item>
+    <item>
+      <title>خارطة طريق مهندس أمن الشبكات 2027: ماذا تتعلم وبأي ترتيب</title>
+      <link>https://netsecatlas.com/ar/article/network-security-engineer-roadmap-2027</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/network-security-engineer-roadmap-2027</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>خطة تعلم عملية على مراحل لمن يريد العمل كمهندس أمن شبكات: الأساسيات، جدار ناري واحد بعمق، VPN والهوية، السجلات، السحابة والأتمتة، مع مختبرات وشهادات اختيارية.</description>
+      <category>career</category>
+      <category>roadmap</category>
+      <category>network-security</category>
+      <category>certifications</category>
+      <category>learning-path</category>
+    </item>
+    <item>
+      <title>أول فحص ثغرات باستخدام Nessus Essentials: من التثبيت إلى قراءة التقرير</title>
+      <link>https://netsecatlas.com/ar/article/nessus-essentials-first-scan</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/nessus-essentials-first-scan</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>تثبيت Nessus Essentials المجاني، الفرق بين الفحص العادي والفحص بصلاحيات، تشغيل أول فحص بأمان، وقراءة النتائج وترتيب الإصلاح.</description>
+      <category>nessus</category>
+      <category>vulnerability-scanning</category>
+      <category>tenable</category>
+      <category>credentialed-scan</category>
+      <category>lab</category>
+    </item>
+    <item>
+      <title>من MITRE ATT&amp;CK إلى قواعد كشف فعلية: منهج عملي لفرق SOC</title>
+      <link>https://netsecatlas.com/ar/article/mitre-attack-to-detections</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/mitre-attack-to-detections</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>كيف تختار تقنيات ATT&amp;CK المهمة لبيئتك، وتربطها بمصادر السجلات، وتكتب قاعدة كشف وتختبرها، وتتابع التغطية دون أن تتحول المصفوفة إلى لوحة ألوان بلا معنى.</description>
+      <category>mitre-attack</category>
+      <category>detection-engineering</category>
+      <category>soc</category>
+      <category>sigma</category>
+      <category>siem</category>
+    </item>
+    <item>
+      <title>15 إعدادًا أمنيًا في Microsoft 365 يجب ضبطها الآن</title>
+      <link>https://netsecatlas.com/ar/article/microsoft-365-security-settings</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/microsoft-365-security-settings</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>قائمة عملية بخمسة عشر إعدادًا في Microsoft 365 تغلق أكثر طرق الاختراق شيوعًا: الهوية والمسؤولين، البريد، المشاركة، والتدقيق، مع مكان كل إعداد.</description>
+      <category>microsoft-365</category>
+      <category>entra-id</category>
+      <category>exchange-online</category>
+      <category>hardening</category>
+      <category>defender-for-office-365</category>
+    </item>
+    <item>
+      <title>نفق IPsec بين FortiGate وPalo Alto: إعداد كامل واستكشاف الأعطال</title>
+      <link>https://netsecatlas.com/ar/article/ipsec-site-to-site-fortigate-palo-alto</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/ipsec-site-to-site-fortigate-palo-alto</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>إعداد نفق IPsec IKEv2 قائم على التوجيه بين FortiGate وPalo Alto: جدول المعاملات المشتركة، الإعداد على الطرفين، Proxy-ID، وأوامر التشخيص.</description>
+      <category>ipsec</category>
+      <category>site-to-site</category>
+      <category>fortigate</category>
+      <category>palo-alto</category>
+      <category>ikev2</category>
+      <category>vpn</category>
+    </item>
+    <item>
+      <title>إعداد FortiGate من الصفر لبيئة الشركات: خطوة بخطوة</title>
+      <link>https://netsecatlas.com/ar/article/fortigate-initial-setup-enterprise-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/fortigate-initial-setup-enterprise-guide</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>من أول دخول إلى أول سياسة: تحديث FortiOS، تأمين واجهة الإدارة، الواجهات والمناطق، التوجيه، السياسات، ملفات الحماية، السجلات والنسخ الاحتياطي.</description>
+      <category>fortigate</category>
+      <category>fortios</category>
+      <category>firewall</category>
+      <category>hardening</category>
+      <category>initial-setup</category>
+    </item>
+    <item>
+      <title>أخطاء إعداد الجدران النارية الأكثر شيوعًا وكيف تراجعها</title>
+      <link>https://netsecatlas.com/ar/article/firewall-misconfigurations-audit</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/firewall-misconfigurations-audit</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>عشرة أخطاء نجدها في مراجعات الجدران النارية: قواعد any-any، قواعد ظل وغير مستخدمة، إدارة مكشوفة، غياب التسجيل وتصفية الخروج، ومنهج مراجعة ربع سنوي عملي.</description>
+      <category>firewall</category>
+      <category>audit</category>
+      <category>misconfiguration</category>
+      <category>rulebase</category>
+      <category>hardening</category>
+    </item>
+    <item>
+      <title>سياسات Conditional Access الأساسية في Entra ID: البداية الصحيحة</title>
+      <link>https://netsecatlas.com/ar/article/entra-conditional-access-baseline</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/entra-conditional-access-baseline</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>مجموعة السياسات الأساسية التي تبدأ بها أي مؤسسة في Entra ID: MFA للمسؤولين والجميع، حظر المصادقة القديمة، حسابات الطوارئ، ووضع Report-only قبل التفعيل.</description>
+      <category>entra-id</category>
+      <category>conditional-access</category>
+      <category>mfa</category>
+      <category>microsoft-365</category>
+      <category>identity</category>
+      <category>zero-trust</category>
+    </item>
+    <item>
+      <title>لماذا يصل بريد شركتك إلى Spam؟ تشخيص SPF وDKIM وDMARC خطوة بخطوة</title>
+      <link>https://netsecatlas.com/ar/article/company-email-spam-spf-dmarc-diagnosis</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/company-email-spam-spf-dmarc-diagnosis</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>طريقة منهجية لمعرفة سبب وصول رسائل شركتك إلى البريد المزعج: قراءة رأس Authentication-Results، فحص SPF وDKIM وDMARC، السمعة، ومتطلبات Gmail وMicrosoft.</description>
+      <category>email</category>
+      <category>spf</category>
+      <category>dkim</category>
+      <category>dmarc</category>
+      <category>deliverability</category>
+      <category>troubleshooting</category>
+    </item>
+    <item>
       <title>أهم معرّفات أحداث أمان Windows لفرق SOC: ماذا تراقب ولماذا</title>
       <link>https://netsecatlas.com/ar/article/windows-security-event-ids-soc</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/windows-security-event-ids-soc</guid>
@@ -67,11 +229,11 @@
       <category>troubleshooting</category>
     </item>
     <item>
-      <title>ملخص الثغرات المستغلة — أغسطس 2026: SonicWall وN-central وAzure</title>
+      <title>ملخص أمني لصيف 2026: SonicWall وN-central وAzure وRails</title>
       <link>https://netsecatlas.com/ar/article/exploited-vulnerabilities-roundup-august-2026</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/exploited-vulnerabilities-roundup-august-2026</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>خمسة أحداث أمنية من أوائل أغسطس 2026 في مكان واحد: ما حدث، ومن يتأثر، وماذا تفعل الآن، مع الدروس المشتركة لفرق تقنية المعلومات.</description>
+      <description>خمسة أحداث أمنية من يوليو وأغسطس 2026: ثغرتان مستغلتان في SonicWall وN-central، حملة رش كلمات مرور عبر Azure CLI، وثغرتان أُصلحتا قبل الاستغلال في Cosmos DB وRails.</description>
       <category>news</category>
       <category>vulnerability</category>
       <category>roundup</category>
@@ -203,14 +365,16 @@
       <category>guide</category>
     </item>
     <item>
-      <title>الطابعة مش بتشتغل أو مش بتطبع صح؟ الحلول الشائعة</title>
+      <title>استكشاف أعطال الطباعة في الشركات وتأمينها: Spooler والتعريفات والطابعات الشبكية</title>
       <link>https://netsecatlas.com/ar/article/printer-not-working-fixes</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/printer-not-working-fixes</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <description>مشاكل الطباعة من أكتر المواقف اللي بتضيّع وقت، خصوصًا في لحظة مستعجلة. إليك الحلول الشائعة لأشهر مشاكل الطابعات المنزلية والمكتبية.</description>
-      <category>printer</category>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>منهج لمحترفي الدعم: تحديد نطاق العطل، خدمة Print Spooler، الطابعات الشبكية، سياسات Point and Print بعد PrintNightmare، وتعطيل الخدمة حيث لا حاجة لها.</description>
+      <category>printing</category>
+      <category>print-spooler</category>
+      <category>printnightmare</category>
       <category>troubleshooting</category>
-      <category>guide</category>
+      <category>windows-server</category>
     </item>
     <item>
       <title>نسيت كلمة مرور حسابك المهم؟ خطوات الاسترجاع الآمنة</title>
@@ -417,151 +581,6 @@
       <category>endpoint-security</category>
       <category>malware</category>
       <category>guide</category>
-    </item>
-    <item>
-      <title>فهم PKI وسلسلة الثقة: كيف تعرف أن الشهادة حقيقية فعلًا</title>
-      <link>https://netsecatlas.com/ar/article/pki-certificate-authority-explained</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/pki-certificate-authority-explained</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-      <description>زوج المفاتيح العام/الخاص، سلسلة الثقة من Root CA للشهادة الوسيطة، أنواع الشهادات (DV/OV/EV)، وليه تحذير الشهادة غير الموثوقة خطير فعلًا.</description>
-      <category>pki</category>
-      <category>certificates</category>
-      <category>ssl</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>هجمات سلسلة التوريد: عندما يأتي الخطر من مورّد موثوق</title>
-      <link>https://netsecatlas.com/ar/article/supply-chain-attacks-third-party-risk</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/supply-chain-attacks-third-party-risk</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description>3 أمثلة حقيقية موثّقة لنقاط الخطر بالتفصيل، وليه ثقتك في المورّد نفسها هي السلاح المُستغل.</description>
-      <category>supply-chain</category>
-      <category>third-party-risk</category>
-      <category>security</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>PowerShell لمديري الأنظمة: من الأساسيات إلى الأتمتة</title>
-      <link>https://netsecatlas.com/ar/article/powershell-sysadmin-complete-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/powershell-sysadmin-complete-guide</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description>من الأوامر الأساسية لكتابة سكريبتات حقيقية للأتمتة، مع أشهر الأخطاء وحلولها.</description>
-      <category>powershell</category>
-      <category>automation</category>
-      <category>windows-server</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>بناء برنامج لإدارة مخاطر التهديد الداخلي</title>
-      <link>https://netsecatlas.com/ar/article/insider-risk-program-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/insider-risk-program-guide</guid>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-      <description>3 فئات مختلفة للتهديد الداخلي، علامات تحذيرية سلوكية حقيقية، وليه التوازن بين الأمان والثقة حساس جدًا.</description>
-      <category>insider-threat</category>
-      <category>risk-management</category>
-      <category>hr-security</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>دورة تطوير البرمجيات الآمنة (SSDLC): الأمان في كل مرحلة</title>
-      <link>https://netsecatlas.com/ar/article/secure-sdlc-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/secure-sdlc-guide</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-      <description>الستة مراحل ودمج الأمان في كل واحدة، DevSecOps وربط الفحص بـCI/CD، وليه إصلاح الأمان في الآخر مكلف جدًا.</description>
-      <category>ssdlc</category>
-      <category>devsecops</category>
-      <category>secure-coding</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>فهم Kerberos: كيف تعمل المصادقة فعليًا في Active Directory</title>
-      <link>https://netsecatlas.com/ar/article/kerberos-authentication-explained</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/kerberos-authentication-explained</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-      <description>تسلسل العملية خطوة بخطوة، ليه مزامنة الوقت حرجة جدًا، وأشهر الهجمات المتقدمة (Pass-the-Ticket وGolden Ticket) للوعي.</description>
-      <category>kerberos</category>
-      <category>active-directory</category>
-      <category>authentication</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>إعداد وإدارة Active Directory من الصفر: خطوة بخطوة</title>
-      <link>https://netsecatlas.com/ar/article/active-directory-complete-setup-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/active-directory-complete-setup-guide</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
-      <description>دليل مرجعي متكامل: من التثبيت الأول لتصميم OU وGroup Policy والأمان وأشهر الأخطاء وحلولها.</description>
-      <category>active-directory</category>
-      <category>windows-server</category>
-      <category>group-policy</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>تصنيف البيانات: مش كل الملفات محتاجة نفس مستوى الحماية</title>
-      <link>https://netsecatlas.com/ar/article/data-classification-basics</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/data-classification-basics</guid>
-      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-      <description>نظام تصنيف بأربع مستويات بالتفصيل، وليه محاولة تصنيف كل شيء دفعة واحدة من أول يوم أشهر خطأ عملي يفشل المشروع كله.</description>
-      <category>data-classification</category>
-      <category>compliance</category>
-      <category>governance</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>مراقبة انتهاء صلاحية الشهادات: تجنب الانقطاع المحرج</title>
-      <link>https://netsecatlas.com/ar/article/certificate-expiry-monitoring</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/certificate-expiry-monitoring</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description>ليه التجديد التلقائي (ACME/Let&apos;s Encrypt) الحل الأمثل، خطوات بديلة لو التجديد يدوي، وأمر تحقق سريع لأي موقع.</description>
-      <category>ssl</category>
-      <category>certificates</category>
-      <category>monitoring</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>توليد الصور بالذكاء الاصطناعي في المؤسسات: البيانات والمخاطر وضوابط النشر</title>
-      <link>https://netsecatlas.com/ar/article/how-ai-image-generation-works</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/how-ai-image-generation-works</guid>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <description>دليل عملي لاستخدام مولدات الصور داخل المؤسسات مع حماية البيانات، وفحص الملكية، وكشف الانتحال، واعتماد المخرجات قبل النشر.</description>
-      <category>generative-ai</category>
-      <category>data-privacy</category>
-      <category>deepfake</category>
-      <category>content-provenance</category>
-      <category>governance</category>
-    </item>
-    <item>
-      <title>كيف تعمل النماذج اللغوية الكبيرة في بيئات IT: دليل عملي للثقة والمخاطر</title>
-      <link>https://netsecatlas.com/ar/article/how-large-language-models-work</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/how-large-language-models-work</guid>
-      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-      <description>شرح عملي للـtokens ونافذة السياق وRAG، ولماذا يجب التعامل مع مخرجات LLM كاقتراحات تحتاج إلى أدلة وضوابط أمنية.</description>
-      <category>llm</category>
-      <category>ai-security</category>
-      <category>rag</category>
-      <category>data-privacy</category>
-      <category>technical-validation</category>
-    </item>
-    <item>
-      <title>مبدأ الرقابة المزدوجة (Dual Control): ليه عملية حساسة محتاجة موافقة شخصين</title>
-      <link>https://netsecatlas.com/ar/article/dual-control-critical-operations</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/dual-control-critical-operations</guid>
-      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
-      <description>3 زوايا ليه المبدأ ده مهم فعليًا، أمثلة تطبيق واقعية، وليه آلية الموافقة السريعة أساسية لنجاح التطبيق.</description>
-      <category>dual-control</category>
-      <category>access-control</category>
-      <category>insider-threat</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>صياغة طلبات AI للتشخيص التقني بأمان: قالب عملي للمهندسين</title>
-      <link>https://netsecatlas.com/ar/article/effective-ai-prompting-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/effective-ai-prompting-guide</guid>
-      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
-      <description>قالب تشخيص منظم يفصل الحقائق عن الافتراضات، يبدأ بفحوص القراءة فقط، ويطلب مخاطر التنفيذ والتحقق وخطة التراجع.</description>
-      <category>ai-security</category>
-      <category>troubleshooting</category>
-      <category>change-safety</category>
-      <category>data-privacy</category>
     </item>
   </channel>
 </rss>
