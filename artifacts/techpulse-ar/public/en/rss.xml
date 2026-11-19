@@ -194,11 +194,11 @@
       <category>endpoint-security</category>
     </item>
     <item>
-      <title>Kerberoasting: How It Works, How to Detect and Prevent It</title>
+      <title>Kerberoasting Explained: Spotting Service-Ticket Abuse and Shutting It Down</title>
       <link>https://netsecatlas.com/en/article/kerberoasting-detection-prevention</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/kerberoasting-detection-prevention</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Why any domain account can attack service accounts, how to detect it with event 4769, and how to prevent it with gMSAs, long passwords and AES.</description>
+      <description>How any domain user can request service tickets and crack service-account passwords offline, why RC4 makes it easier, how to detect it with event 4769 and honey SPNs, and the fixes that make it impractical (gMSA, long passwords, AES).</description>
       <category>kerberos</category>
       <category>active-directory</category>
       <category>kerberoasting</category>
@@ -206,11 +206,11 @@
       <category>detection</category>
     </item>
     <item>
-      <title>SSL VPN Tunnel Mode Removed in FortiOS 7.6.3: A Migration Plan to IPsec VPN</title>
+      <title>FortiOS 7.6.3 Drops SSL VPN Tunnel Mode: Planning Your Move to IPsec</title>
       <link>https://netsecatlas.com/en/article/fortios-ssl-vpn-tunnel-mode-removal-ipsec-migration</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/fortios-ssl-vpn-tunnel-mode-removal-ipsec-migration</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>What changed in FortiOS 7.6.3, why you must migrate before upgrading, and how to move users, groups and policies to IPsec over TCP 443 step by step.</description>
+      <description>What Fortinet removed in FortiOS 7.6.3, why IPsec over TCP 443 is the replacement, and a step-by-step migration that builds IPsec before the upgrade so remote users never lose access.</description>
       <category>fortinet</category>
       <category>fortigate</category>
       <category>ipsec</category>
@@ -240,11 +240,11 @@
       <category>patching</category>
     </item>
     <item>
-      <title>Rolling Out DMARC from p=none to p=reject: A Phased Plan</title>
+      <title>DMARC from p=none to p=reject Without Breaking Your Own Email</title>
       <link>https://netsecatlas.com/en/article/dmarc-rollout-none-to-reject</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/dmarc-rollout-none-to-reject</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>A practical four-phase plan: inventory and monitoring, fixing alignment, gradual quarantine, then reject — with DNS record examples and common pitfalls.</description>
+      <description>A phased DMARC rollout under RFC 9989: monitor with aggregate reports, fix every legitimate sender&apos;s alignment, test quarantine with t=y, then enforce reject, plus lock down parked domains on day one.</description>
       <category>dmarc</category>
       <category>spf</category>
       <category>dkim</category>
@@ -313,11 +313,11 @@
       <category>pillar</category>
     </item>
     <item>
-      <title>Two-Factor Authentication (2FA): A Practical Guide and Methods Compared</title>
+      <title>Choosing Two-Factor Authentication Methods: SMS, Apps, Push and Security Keys Compared</title>
       <link>https://netsecatlas.com/en/article/2fa-practical-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/2fa-practical-guide</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Every type of two-factor authentication, how to set it up correctly, and the common attacks targeting it with how to protect yourself.</description>
+      <description>Why passwords need a second factor, how SMS codes, authenticator apps, push approvals and FIDO2 security keys or passkeys compare on phishing resistance and usability, and a rollout order for personal and business accounts.</description>
       <category>2fa</category>
       <category>authentication</category>
       <category>guide</category>

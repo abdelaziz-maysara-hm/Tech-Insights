@@ -126,6 +126,19 @@ for (const file of readdirSync(join(here, 'english')).filter((f) => f.endsWith('
   a.englishEdition = 'independent';
   rewritten += 1;
 }
+// Arabic updates of existing articles (same front-matter format), e.g. OWASP Top 10:2025
+let arabicUpdates = 0;
+for (const file of (existsSync(join(here, 'arabic')) ? readdirSync(join(here, 'arabic')) : []).filter((f) => f.endsWith('.md')).sort()) {
+  const slug = file.replace(/\.md$/, '');
+  const a = bySlug.get(slug);
+  if (!a) throw new Error(`arabic update: missing ${slug}`);
+  const src = parseFrontMatter(readFileSync(join(here, 'arabic', file), 'utf8'), file);
+  a.title = { ...a.title, ar: src.title };
+  a.excerpt = { ...a.excerpt, ar: src.excerpt };
+  a.body = { ...a.body, ar: src.body };
+  a.readTime = readTime(a.body);
+  arabicUpdates += 1;
+}
 // records written independently at creation (outside content/): keep the flag
 for (const slug of ['exploited-vulnerabilities-roundup-august-2026']) {
   if (bySlug.get(slug)) bySlug.get(slug).englishEdition = 'independent';
@@ -154,5 +167,5 @@ for (const a of articles) if (a.englishEdition === 'independent' && a.translatio
 writeJson('src/content/articles.json', articles);
 writeJson('src/content/articles-index.json', articles.map(({ body, ...rest }) => rest));
 writeJson('src/content/comparisons.json', comparisons);
-console.log(`[phase8] added=${added} repurposed=${repurposed} englishRewrites=${rewritten} comparisonRewrites=${comparisonsRewritten} articles=${articles.length} ` +
+console.log(`[phase8] added=${added} repurposed=${repurposed} englishRewrites=${rewritten} arabicUpdates=${arabicUpdates} comparisonRewrites=${comparisonsRewritten} articles=${articles.length} ` +
   `independentEnglish=${articles.filter((a) => a.englishEdition === 'independent').length}/${articles.length} articles, ${comparisons.filter((c) => c.englishEdition === 'independent').length}/${comparisons.length} comparisons, humanReviewed=${articles.filter((a) => a.translationStatus === 'reviewed').length}`);
