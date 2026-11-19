@@ -377,11 +377,11 @@
       <category>windows-server</category>
     </item>
     <item>
-      <title>Zero-Day Vulnerabilities: What They Are and How to Prepare</title>
+      <title>Zero-Day Vulnerabilities: What They Are and How to Be Ready</title>
       <link>https://netsecatlas.com/en/article/zero-day-vulnerabilities-explained</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/zero-day-vulnerabilities-explained</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
-      <description>The complete lifecycle from discovery to patching, why traditional protection is entirely unable to detect it, and 3 practical defensive strategies despite total prevention being impossible.</description>
+      <description>What makes a vulnerability a zero-day, how they&apos;re found, traded and exploited, why edge devices are frequent targets, and the resilience measures that limit damage before a patch exists.</description>
       <category>zero-day</category>
       <category>vulnerability-management</category>
       <category>security</category>
@@ -399,22 +399,22 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Data Loss Prevention (DLP): Channels, Policies and Rollout</title>
+      <title>Data Loss Prevention (DLP): Covering the Channels Without Drowning in Alerts</title>
       <link>https://netsecatlas.com/en/article/data-loss-prevention-dlp-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/data-loss-prevention-dlp-guide</guid>
       <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
-      <description>4 detailed sensitive-data detection methods, 3 main application points (network/endpoint/cloud), and the most common practical challenge (false positives).</description>
+      <description>Where data leaves an organisation (email, endpoints, cloud, web), how DLP detects sensitive content, and a phased rollout from audit to enforcement that users will tolerate.</description>
       <category>dlp</category>
       <category>data-security</category>
       <category>compliance</category>
       <category>guide</category>
     </item>
     <item>
-      <title>BYOD Policy (Bring Your Own Device): Controls and Security</title>
+      <title>BYOD Without Regret: Policy and Controls for Personal Devices at Work</title>
       <link>https://netsecatlas.com/en/article/byod-policy-security-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/byod-policy-security-guide</guid>
       <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
-      <description>3 core risks, the MDM vs MAM difference (why the latter is more balanced), and elements of a practical documented policy.</description>
+      <description>Deciding what personal phones and laptops may access, MAM versus full MDM enrolment, the minimum security requirements, privacy boundaries, and what happens when a device is lost or an employee leaves.</description>
       <category>byod</category>
       <category>mdm</category>
       <category>endpoint-security</category>
@@ -441,11 +441,11 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Threat Modeling with STRIDE: Think Like an Attacker Before You Build</title>
+      <title>Threat Modeling with STRIDE: Finding Design Flaws Before You Build</title>
       <link>https://netsecatlas.com/en/article/threat-modeling-stride-basics</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/threat-modeling-stride-basics</guid>
       <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
-      <description>The six categories in detail with real examples, a complete applied example (a login system), and when to apply STRIDE practically.</description>
+      <description>A practical walkthrough of STRIDE threat modeling: drawing a data-flow diagram, applying the six threat categories, choosing mitigations, and fitting it into normal development and change work.</description>
       <category>threat-modeling</category>
       <category>stride</category>
       <category>secure-design</category>
@@ -463,33 +463,33 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Local Admin Password Rotation with Windows LAPS: Why It Matters</title>
+      <title>Windows LAPS: Unique, Rotating Local Admin Passwords on Every Machine</title>
       <link>https://netsecatlas.com/en/article/windows-local-admin-password-rotation</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/windows-local-admin-password-rotation</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description>How LAPS technically closes the lateral-movement gap, and why the stored-password read permission is the most important point in the whole implementation.</description>
+      <description>Why one shared local admin password lets attackers hop across a whole fleet, how Windows LAPS fixes it with per-device rotated passwords stored in AD or Entra ID, and how to deploy it safely.</description>
       <category>laps</category>
       <category>active-directory</category>
       <category>windows-security</category>
       <category>guide</category>
     </item>
     <item>
-      <title>Web Application Firewalls (WAF): How They Work and When You Need One</title>
+      <title>Web Application Firewalls: What a WAF Blocks and When It&apos;s Worth Deploying</title>
       <link>https://netsecatlas.com/en/article/web-application-firewall-waf-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/web-application-firewall-waf-guide</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description>The fundamental difference from a traditional network firewall, 4 attack types it protects against, and the monitor vs blocking modes in detail.</description>
+      <description>How WAFs inspect HTTP traffic with signatures, rule sets and anomaly scoring, deployment options from cloud to on-prem, tuning without breaking the app, and why a WAF complements secure code rather than replacing it.</description>
       <category>waf</category>
       <category>web-security</category>
       <category>application-security</category>
       <category>guide</category>
     </item>
     <item>
-      <title>Container Security Basics: From Image to Runtime</title>
+      <title>Securing Containers from Build to Runtime</title>
       <link>https://netsecatlas.com/en/article/container-security-basics-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/container-security-basics-guide</guid>
       <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
-      <description>4 core risks different from traditional VM security, and 5 practical protection steps from image scanning to network policies.</description>
+      <description>The container security layers that matter: trusted images, least-privilege runtime settings, Kubernetes access control and network policies, secrets handling, and runtime monitoring.</description>
       <category>containers</category>
       <category>docker</category>
       <category>kubernetes</category>
@@ -518,11 +518,11 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Authentication vs Authorization: The Difference, with Examples</title>
+      <title>Authentication vs Authorization: Who You Are Versus What You May Do</title>
       <link>https://netsecatlas.com/en/article/authentication-vs-authorization-explained</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/authentication-vs-authorization-explained</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-      <description>The fundamental difference between &apos;who are you&apos; and &apos;what are you allowed to do&apos;, RBAC/ABAC/ACL models, and a practical example showing why confusing them causes real vulnerabilities.</description>
+      <description>A clear explanation of authentication and authorization with everyday IT examples, how protocols like Kerberos, OAuth 2.0, OpenID Connect and SAML fit, and the common bugs when the two are confused.</description>
       <category>authentication</category>
       <category>authorization</category>
       <category>identity</category>
@@ -540,11 +540,11 @@
       <category>guide</category>
     </item>
     <item>
-      <title>How EDR Actually Works: The Fundamental Difference from Traditional Antivirus</title>
+      <title>How EDR Works and Why It Isn&apos;t Just Better Antivirus</title>
       <link>https://netsecatlas.com/en/article/how-edr-actually-works</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/how-edr-actually-works</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Behavioral analysis instead of fixed signatures, why EDR catches fileless attacks, and its realistic limitations.</description>
+      <description>What endpoint detection and response records, how it detects attacks that signature antivirus misses, the response actions it gives analysts, and what it takes to run one well.</description>
       <category>edr</category>
       <category>endpoint-security</category>
       <category>malware</category>
