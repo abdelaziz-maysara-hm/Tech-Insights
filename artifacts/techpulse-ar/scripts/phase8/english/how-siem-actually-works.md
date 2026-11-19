@@ -1,3 +1,8 @@
+---
+title: How a SIEM Works: From Raw Logs to an Alert Worth Answering
+excerpt: What a SIEM actually does between collecting logs and paging an analyst: parsing, normalisation, correlation and tuning, with a worked example of a real detection.
+---
+
 Plenty of organisations own a SIEM. Fewer get much out of it. The difference is rarely the product; it's whether the platform is doing the work in the middle, between "logs arrive" and "an analyst gets paged". This piece walks through that middle.
 
 ## A log store is not a SIEM

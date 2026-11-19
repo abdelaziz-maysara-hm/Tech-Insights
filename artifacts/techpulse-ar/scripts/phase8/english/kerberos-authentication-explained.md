@@ -1,3 +1,8 @@
+---
+title: Kerberos in Active Directory, Explained for Admins and Defenders
+excerpt: How Kerberos tickets work in Active Directory (AS, TGS and AP exchanges), why clocks and SPNs matter, and which attacks abuse it, with the events and settings that defend it.
+---
+
 Every time someone in your domain opens a file share, signs in to a server or connects to SQL, Kerberos is doing the work. Most admins only meet it when it breaks ("clock skew too great") or when a penetration test report says "Kerberoasting". Understanding the flow makes both situations much easier.
 
 ## The idea in one paragraph

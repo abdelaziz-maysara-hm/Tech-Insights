@@ -18,7 +18,8 @@ const policy = readJson('../src/config/hreflang-policy.json');
 const dist = fileURLToPath(new URL('../dist/public/', import.meta.url));
 const slugs = new Set(articles.map((a) => a.slug));
 const NEW = readdirSync(new URL('./phase8/content/', import.meta.url)).filter((f) => f.endsWith('.mjs')).map((f) => f.replace(/\.mjs$/, ''));
-const ENGLISH = readdirSync(new URL('./phase8/english/', import.meta.url)).filter((f) => f.endsWith('.mjs')).map((f) => f.replace(/\.mjs$/, ''));
+const ENGLISH = readdirSync(new URL('./phase8/english/', import.meta.url)).filter((f) => f.endsWith('.md')).map((f) => f.replace(/\.md$/, ''));
+const COMPARISONS_EN = readdirSync(new URL('./phase8/comparisons-en/', import.meta.url)).filter((f) => f.endsWith('.json')).map((f) => f.replace(/\.json$/, ''));
 
 test('13 planned articles are published, dated, referenced and bilingual', () => {
   assert.equal(NEW.length, 13);
@@ -26,7 +27,8 @@ test('13 planned articles are published, dated, referenced and bilingual', () =>
     const a = articles.find((x) => x.slug === slug);
     assert.ok(a, slug);
     assert.equal(a.date, '2026-11-19');
-    assert.equal(a.translationStatus, 'reviewed');
+    assert.equal(a.englishEdition, 'independent');
+    assert.notEqual(a.translationStatus, 'reviewed');
     for (const lang of ['ar', 'en']) {
       assert.match(a.body[lang], /^## (الأسئلة الشائعة|FAQ)$/m, `${slug} ${lang} FAQ`);
       assert.match(a.body[lang], /^## (المراجع|References)$/m, `${slug} ${lang} references`);
@@ -39,11 +41,17 @@ test('13 planned articles are published, dated, referenced and bilingual', () =>
   }
 });
 
-test('English rewrites are marked reviewed; everything else stays unreviewed', () => {
-  const reviewed = new Set([...NEW, ...ENGLISH, 'printer-not-working-fixes']);
+test('independent English editions are flagged separately, never as human-reviewed', () => {
+  const independent = new Set([...NEW, ...ENGLISH, 'printer-not-working-fixes', 'exploited-vulnerabilities-roundup-august-2026']);
   for (const a of articles) {
-    if (reviewed.has(a.slug)) assert.equal(a.translationStatus, 'reviewed', a.slug);
-    else assert.notEqual(a.translationStatus, 'reviewed', `${a.slug} marked reviewed without a rewrite`);
+    assert.notEqual(a.translationStatus, 'reviewed', `${a.slug}: only a human may mark a translation reviewed`);
+    if (independent.has(a.slug)) assert.equal(a.englishEdition, 'independent', a.slug);
+    else assert.equal(a.englishEdition, undefined, `${a.slug} flagged without a rewrite`);
+  }
+  const indepComparisons = new Set([...COMPARISONS_EN, 'thinkpad-x1-vs-hp-elitebook']);
+  for (const c of comparisons) {
+    assert.notEqual(c.translationStatus, 'reviewed', c.slug);
+    if (indepComparisons.has(c.slug)) assert.equal(c.englishEdition, 'independent', c.slug);
   }
   assert.equal(policy.publishUnreviewedTranslations, true);
 });
@@ -60,6 +68,17 @@ test('repurposed and redirected off-audience items', () => {
   assert.match(printer.body.en, /PrintNightmare/);
   const thinkpad = comparisons.find((c) => c.slug === 'thinkpad-x1-vs-hp-elitebook');
   assert.match(thinkpad.title.en, /Corporate Fleet/);
+  // Phase 9: consumer how-to articles redirected to the closest IT-security page.
+  const phase9 = {
+    'how-cloud-storage-actually-works': 'cloud-storage-misconfiguration-risks',
+    'wifi-connection-problems-fixes': 'wifi-6-vs-wifi-5-practical',
+    'forgotten-password-account-recovery': 'password-manager-start',
+  };
+  for (const [from, to] of Object.entries(phase9)) {
+    assert.equal(redirects[`/article/${from}`], `/article/${to}`);
+    assert.ok(!slugs.has(from), from);
+    assert.ok(slugs.has(to), to);
+  }
 });
 
 test('DMARC content follows RFC 9989 (no pct-based ramp)', () => {

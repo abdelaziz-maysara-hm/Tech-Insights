@@ -13,12 +13,12 @@
 
 | Content type | Evaluated | VALID_PAIR | REVIEW_PAIR | INVALID_PAIR |
 | --- | ---: | ---: | ---: | ---: |
-| articles | 126 | 21 (16.7%) | 103 (81.7%) | 2 (1.6%) |
+| articles | 123 | 0 (0.0%) | 121 (98.4%) | 2 (1.6%) |
 | comparisons | 69 | 0 (0.0%) | 68 (98.6%) | 1 (1.4%) |
 | staticPages | 10 | 0 (0.0%) | 7 (70.0%) | 3 (30.0%) |
 | dynamicDiscoveryPages | 28 | 0 (0.0%) | 28 (100.0%) | 0 (0.0%) |
 
-**Total:** 233 evaluated; 21 valid; 206 review; 6 invalid.
+**Total:** 230 evaluated; 0 valid; 224 review; 6 invalid.
 
 ## Important distinction
 

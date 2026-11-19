@@ -4,38 +4,49 @@
     "note": "Heuristics detect obvious defects only. They do not prove semantic, technical, or editorial equivalence.",
     "validPairGate": "Explicit human-reviewed translation marker plus passing automated checks.",
     "currentOwnerFinding": "Existing translations are considered literal and technically unreliable until reviewed.",
-    "seoEffect": "Only VALID_PAIR records may receive reciprocal hreflang or localized sitemap alternates."
+    "seoEffect": "Only VALID_PAIR records may receive reciprocal hreflang or localized sitemap alternates.",
+    "independentEnglish": "englishEdition: 'independent' marks English written as a separate, native piece on the same topic (AI-assisted). It is not a human review and never produces VALID_PAIR on its own."
   },
   "totals": {
-    "evaluated": 233,
-    "VALID_PAIR": 21,
-    "REVIEW_PAIR": 206,
-    "INVALID_PAIR": 6
+    "evaluated": 230,
+    "VALID_PAIR": 0,
+    "REVIEW_PAIR": 224,
+    "INVALID_PAIR": 6,
+    "independentEnglish": 38,
+    "humanReviewed": 0
   },
   "byType": {
     "articles": {
-      "evaluated": 126,
-      "VALID_PAIR": 21,
-      "REVIEW_PAIR": 103,
-      "INVALID_PAIR": 2
+      "evaluated": 123,
+      "VALID_PAIR": 0,
+      "REVIEW_PAIR": 121,
+      "INVALID_PAIR": 2,
+      "independentEnglish": 37,
+      "humanReviewed": 0
     },
     "comparisons": {
       "evaluated": 69,
       "VALID_PAIR": 0,
       "REVIEW_PAIR": 68,
-      "INVALID_PAIR": 1
+      "INVALID_PAIR": 1,
+      "independentEnglish": 1,
+      "humanReviewed": 0
     },
     "staticPages": {
       "evaluated": 10,
       "VALID_PAIR": 0,
       "REVIEW_PAIR": 7,
-      "INVALID_PAIR": 3
+      "INVALID_PAIR": 3,
+      "independentEnglish": 0,
+      "humanReviewed": 0
     },
     "dynamicDiscoveryPages": {
       "evaluated": 28,
       "VALID_PAIR": 0,
       "REVIEW_PAIR": 28,
-      "INVALID_PAIR": 0
+      "INVALID_PAIR": 0,
+      "independentEnglish": 0,
+      "humanReviewed": 0
     }
   },
   "records": {
@@ -45,12 +56,13 @@
         "slug": "ztna-fortigate-forticlient-ems",
         "kind": "article",
         "route": "/article/ztna-fortigate-forticlient-ems",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -67,12 +79,13 @@
         "slug": "wazuh-sysmon-free-soc-lab",
         "kind": "article",
         "route": "/article/wazuh-sysmon-free-soc-lab",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -89,12 +102,13 @@
         "slug": "wazuh-custom-rule-brute-force",
         "kind": "article",
         "route": "/article/wazuh-custom-rule-brute-force",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -111,12 +125,13 @@
         "slug": "palo-alto-nat-types-examples",
         "kind": "article",
         "route": "/article/palo-alto-nat-types-examples",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -133,12 +148,13 @@
         "slug": "network-security-engineer-roadmap-2027",
         "kind": "article",
         "route": "/article/network-security-engineer-roadmap-2027",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -155,12 +171,13 @@
         "slug": "nessus-essentials-first-scan",
         "kind": "article",
         "route": "/article/nessus-essentials-first-scan",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -177,12 +194,13 @@
         "slug": "mitre-attack-to-detections",
         "kind": "article",
         "route": "/article/mitre-attack-to-detections",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -199,12 +217,13 @@
         "slug": "microsoft-365-security-settings",
         "kind": "article",
         "route": "/article/microsoft-365-security-settings",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -221,12 +240,13 @@
         "slug": "ipsec-site-to-site-fortigate-palo-alto",
         "kind": "article",
         "route": "/article/ipsec-site-to-site-fortigate-palo-alto",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -243,12 +263,13 @@
         "slug": "fortigate-initial-setup-enterprise-guide",
         "kind": "article",
         "route": "/article/fortigate-initial-setup-enterprise-guide",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -265,12 +286,13 @@
         "slug": "firewall-misconfigurations-audit",
         "kind": "article",
         "route": "/article/firewall-misconfigurations-audit",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -287,12 +309,13 @@
         "slug": "entra-conditional-access-baseline",
         "kind": "article",
         "route": "/article/entra-conditional-access-baseline",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -309,12 +332,13 @@
         "slug": "company-email-spam-spf-dmarc-diagnosis",
         "kind": "article",
         "route": "/article/company-email-spam-spf-dmarc-diagnosis",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -337,6 +361,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -359,6 +384,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -381,6 +407,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -403,6 +430,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -425,6 +453,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -441,12 +470,13 @@
         "slug": "exploited-vulnerabilities-roundup-august-2026",
         "kind": "article",
         "route": "/article/exploited-vulnerabilities-roundup-august-2026",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -469,6 +499,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -491,6 +522,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -513,6 +545,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -535,6 +568,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -557,6 +591,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -579,6 +614,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -601,6 +637,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -618,17 +655,18 @@
         "kind": "article",
         "route": "/article/phishing-spot-before-click",
         "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
           "arWords": 362,
-          "enWords": 417,
-          "lengthRatio": 0.868,
+          "enWords": 445,
+          "lengthRatio": 0.813,
           "arLanguageShare": 0.882,
           "enLanguageShare": 1,
           "signals": []
@@ -639,12 +677,13 @@
         "slug": "palo-alto-security-policy-basics",
         "kind": "article",
         "route": "/article/palo-alto-security-policy-basics",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -667,6 +706,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -689,6 +729,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -706,17 +747,18 @@
         "kind": "article",
         "route": "/article/password-manager-start",
         "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
           "arWords": 610,
-          "enWords": 675,
-          "lengthRatio": 0.904,
+          "enWords": 392,
+          "lengthRatio": 0.643,
           "arLanguageShare": 0.936,
           "enLanguageShare": 1,
           "signals": []
@@ -733,6 +775,7 @@
         "fieldComplete": true,
         "automatedCandidate": false,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": false,
@@ -752,17 +795,18 @@
         "kind": "article",
         "route": "/article/home-router-security-basics",
         "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
           "arWords": 300,
-          "enWords": 341,
-          "lengthRatio": 0.88,
+          "enWords": 393,
+          "lengthRatio": 0.763,
           "arLanguageShare": 0.94,
           "enLanguageShare": 1,
           "signals": []
@@ -774,17 +818,18 @@
         "kind": "article",
         "route": "/article/vpn-basics-what-it-does",
         "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
           "arWords": 388,
-          "enWords": 450,
-          "lengthRatio": 0.862,
+          "enWords": 421,
+          "lengthRatio": 0.922,
           "arLanguageShare": 0.901,
           "enLanguageShare": 1,
           "signals": []
@@ -796,17 +841,18 @@
         "kind": "article",
         "route": "/article/windows-disk-cleanup-safe",
         "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
           "arWords": 306,
-          "enWords": 338,
-          "lengthRatio": 0.905,
+          "enWords": 379,
+          "lengthRatio": 0.807,
           "arLanguageShare": 0.829,
           "enLanguageShare": 1,
           "signals": []
@@ -823,6 +869,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -845,6 +892,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -867,6 +915,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -889,6 +938,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -911,6 +961,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -933,6 +984,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -955,6 +1007,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -972,17 +1025,18 @@
         "kind": "article",
         "route": "/article/zero-trust-explained-practically",
         "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
           "arWords": 391,
-          "enWords": 414,
-          "lengthRatio": 0.944,
+          "enWords": 375,
+          "lengthRatio": 0.959,
           "arLanguageShare": 0.907,
           "enLanguageShare": 1,
           "signals": []
@@ -994,17 +1048,18 @@
         "kind": "article",
         "route": "/article/email-security-gateway-basics",
         "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
           "arWords": 326,
-          "enWords": 357,
-          "lengthRatio": 0.913,
+          "enWords": 366,
+          "lengthRatio": 0.891,
           "arLanguageShare": 0.892,
           "enLanguageShare": 1,
           "signals": []
@@ -1015,12 +1070,13 @@
         "slug": "vlan-basics-why-segment",
         "kind": "article",
         "route": "/article/vlan-basics-why-segment",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1038,17 +1094,18 @@
         "kind": "article",
         "route": "/article/snmp-monitoring-basics",
         "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
           "arWords": 404,
-          "enWords": 434,
-          "lengthRatio": 0.931,
+          "enWords": 380,
+          "lengthRatio": 0.941,
           "arLanguageShare": 0.884,
           "enLanguageShare": 1,
           "signals": []
@@ -1060,17 +1117,18 @@
         "kind": "article",
         "route": "/article/802-1x-certificate-authentication",
         "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
           "arWords": 375,
-          "enWords": 420,
-          "lengthRatio": 0.893,
+          "enWords": 380,
+          "lengthRatio": 0.987,
           "arLanguageShare": 0.89,
           "enLanguageShare": 1,
           "signals": []
@@ -1082,17 +1140,18 @@
         "kind": "article",
         "route": "/article/log-retention-siem-basics",
         "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
           "arWords": 307,
-          "enWords": 349,
-          "lengthRatio": 0.88,
+          "enWords": 403,
+          "lengthRatio": 0.762,
           "arLanguageShare": 0.943,
           "enLanguageShare": 1,
           "signals": []
@@ -1104,17 +1163,18 @@
         "kind": "article",
         "route": "/article/windows-patch-management-strategy",
         "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
           "arWords": 326,
-          "enWords": 366,
-          "lengthRatio": 0.891,
+          "enWords": 357,
+          "lengthRatio": 0.913,
           "arLanguageShare": 0.937,
           "enLanguageShare": 1,
           "signals": []
@@ -1126,17 +1186,18 @@
         "kind": "article",
         "route": "/article/dhcp-failover-high-availability",
         "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
           "arWords": 329,
-          "enWords": 375,
-          "lengthRatio": 0.877,
+          "enWords": 374,
+          "lengthRatio": 0.88,
           "arLanguageShare": 0.824,
           "enLanguageShare": 1,
           "signals": []
@@ -1148,17 +1209,18 @@
         "kind": "article",
         "route": "/article/syslog-server-setup-basics",
         "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
           "arWords": 332,
-          "enWords": 379,
-          "lengthRatio": 0.876,
+          "enWords": 382,
+          "lengthRatio": 0.869,
           "arLanguageShare": 0.939,
           "enLanguageShare": 1,
           "signals": []
@@ -1170,17 +1232,18 @@
         "kind": "article",
         "route": "/article/network-segmentation-compliance",
         "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
           "arWords": 368,
-          "enWords": 415,
-          "lengthRatio": 0.887,
+          "enWords": 389,
+          "lengthRatio": 0.946,
           "arLanguageShare": 0.951,
           "enLanguageShare": 1,
           "signals": []
@@ -1192,17 +1255,18 @@
         "kind": "article",
         "route": "/article/hyper-v-vs-checkpoints-basics",
         "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
           "arWords": 314,
-          "enWords": 339,
-          "lengthRatio": 0.926,
+          "enWords": 378,
+          "lengthRatio": 0.831,
           "arLanguageShare": 0.877,
           "enLanguageShare": 1,
           "signals": []
@@ -1214,17 +1278,18 @@
         "kind": "article",
         "route": "/article/mfa-fatigue-attacks-explained",
         "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
           "arWords": 339,
-          "enWords": 403,
-          "lengthRatio": 0.841,
+          "enWords": 363,
+          "lengthRatio": 0.934,
           "arLanguageShare": 0.938,
           "enLanguageShare": 1,
           "signals": []
@@ -1235,12 +1300,13 @@
         "slug": "windows-event-viewer-security-logs",
         "kind": "article",
         "route": "/article/windows-event-viewer-security-logs",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1263,6 +1329,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1285,6 +1352,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1307,6 +1375,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1329,6 +1398,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1351,6 +1421,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1373,6 +1444,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1395,6 +1467,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1417,6 +1490,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1439,6 +1513,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1461,6 +1536,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1483,6 +1559,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1505,6 +1582,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1527,6 +1605,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1549,6 +1628,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1571,6 +1651,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1593,6 +1674,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1615,6 +1697,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1637,6 +1720,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1659,6 +1743,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1681,6 +1766,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1703,6 +1789,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1725,6 +1812,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1747,6 +1835,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1769,6 +1858,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1791,6 +1881,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1813,6 +1904,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1835,6 +1927,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1851,12 +1944,13 @@
         "slug": "spf-dkim-dmarc-email-basics",
         "kind": "article",
         "route": "/article/spf-dkim-dmarc-email-basics",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1879,6 +1973,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1901,6 +1996,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1923,6 +2019,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1945,6 +2042,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1967,6 +2065,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -1989,6 +2088,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2011,6 +2111,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2033,6 +2134,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2055,6 +2157,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2077,6 +2180,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2099,6 +2203,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2121,6 +2226,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2143,6 +2249,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2165,6 +2272,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2187,6 +2295,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2209,6 +2318,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2231,6 +2341,7 @@
         "fieldComplete": true,
         "automatedCandidate": false,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": false,
@@ -2255,6 +2366,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2271,12 +2383,13 @@
         "slug": "kerberos-authentication-explained",
         "kind": "article",
         "route": "/article/kerberos-authentication-explained",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2299,6 +2412,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2321,6 +2435,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2343,6 +2458,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2365,6 +2481,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2387,6 +2504,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2409,6 +2527,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2431,6 +2550,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2447,12 +2567,13 @@
         "slug": "how-siem-actually-works",
         "kind": "article",
         "route": "/article/how-siem-actually-works",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2475,6 +2596,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2497,6 +2619,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2519,6 +2642,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2541,6 +2665,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2563,6 +2688,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2585,6 +2711,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2607,6 +2734,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2629,6 +2757,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2651,6 +2780,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2673,6 +2803,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2695,6 +2826,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2717,6 +2849,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2729,82 +2862,17 @@
         }
       },
       {
-        "id": "art-gen-0116",
-        "slug": "how-cloud-storage-actually-works",
-        "kind": "article",
-        "route": "/article/how-cloud-storage-actually-works",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 366,
-          "enWords": 430,
-          "lengthRatio": 0.851,
-          "arLanguageShare": 0.958,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0120",
-        "slug": "wifi-connection-problems-fixes",
-        "kind": "article",
-        "route": "/article/wifi-connection-problems-fixes",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 403,
-          "enWords": 398,
-          "lengthRatio": 0.988,
-          "arLanguageShare": 0.974,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0123",
-        "slug": "forgotten-password-account-recovery",
-        "kind": "article",
-        "route": "/article/forgotten-password-account-recovery",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 345,
-          "enWords": 372,
-          "lengthRatio": 0.927,
-          "arLanguageShare": 0.978,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
         "id": "art-gen-0125",
         "slug": "printer-not-working-fixes",
         "kind": "article",
         "route": "/article/printer-not-working-fixes",
-        "status": "VALID_PAIR",
-        "reason": "Automated checks passed and the record carries an explicit human-reviewed translation marker.",
+        "status": "REVIEW_PAIR",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
-        "humanReviewed": true,
+        "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2824,11 +2892,12 @@
         "kind": "comparison",
         "route": "/comparison/thinkpad-x1-vs-hp-elitebook",
         "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "reason": "English is an independently written edition on the same topic (AI-assisted), not a translation; no human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": true,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2851,6 +2920,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2873,6 +2943,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2895,6 +2966,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2917,6 +2989,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2939,6 +3012,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2961,6 +3035,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -2983,6 +3058,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3005,6 +3081,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3027,6 +3104,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3049,6 +3127,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3071,6 +3150,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3093,6 +3173,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3115,6 +3196,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3137,6 +3219,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3159,6 +3242,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3181,6 +3265,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3203,6 +3288,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3225,6 +3311,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3247,6 +3334,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3269,6 +3357,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3291,6 +3380,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3313,6 +3403,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3335,6 +3426,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3357,6 +3449,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3379,6 +3472,7 @@
         "fieldComplete": true,
         "automatedCandidate": false,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": false,
@@ -3403,6 +3497,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3425,6 +3520,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3447,6 +3543,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3469,6 +3566,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3491,6 +3589,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3513,6 +3612,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3535,6 +3635,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3557,6 +3658,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3579,6 +3681,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3601,6 +3704,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3623,6 +3727,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3645,6 +3750,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3667,6 +3773,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3689,6 +3796,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3711,6 +3819,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3733,6 +3842,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3755,6 +3865,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3777,6 +3888,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3799,6 +3911,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3821,6 +3934,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3843,6 +3957,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3865,6 +3980,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3887,6 +4003,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3909,6 +4026,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3931,6 +4049,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3953,6 +4072,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3975,6 +4095,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -3997,6 +4118,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4019,6 +4141,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4041,6 +4164,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4063,6 +4187,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4085,6 +4210,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4107,6 +4233,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4129,6 +4256,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4151,6 +4279,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4173,6 +4302,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4195,6 +4325,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4217,6 +4348,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4239,6 +4371,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4261,6 +4394,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4283,6 +4417,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4305,6 +4440,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4327,6 +4463,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4351,6 +4488,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4373,6 +4511,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4395,6 +4534,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4417,6 +4557,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4439,6 +4580,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4461,6 +4603,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4483,6 +4626,7 @@
         "fieldComplete": true,
         "automatedCandidate": true,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
@@ -4505,6 +4649,7 @@
         "fieldComplete": false,
         "automatedCandidate": false,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": false,
           "automatedCandidate": false,
@@ -4529,6 +4674,7 @@
         "fieldComplete": false,
         "automatedCandidate": false,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": false,
           "automatedCandidate": false,
@@ -4553,6 +4699,7 @@
         "fieldComplete": false,
         "automatedCandidate": false,
         "humanReviewed": false,
+        "independentEnglish": false,
         "metrics": {
           "fieldComplete": false,
           "automatedCandidate": false,

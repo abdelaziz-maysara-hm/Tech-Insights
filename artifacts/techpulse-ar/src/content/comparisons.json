@@ -92,7 +92,8 @@
     "verdict": {
       "ar": "من زاوية الأمن والإدارة الطرازان متقاربان جدًا: كلاهما يوفر حماية للبرامج الثابتة وأدوات لإدارة BIOS وتحديثه عن بُعد. اختر حسب أدوات الإدارة التي يعرفها فريقك وعقد الدعم المحلي، ثم اشترط TPM 2.0 وتشفير BitLocker وتكامل Intune في كل طراز. راجع أيضًا دليل BitLocker لدينا.",
       "en": "For security and manageability the two are very close: both offer firmware protection plus remote BIOS and update tooling. Choose on the management tools your team already runs and local support terms, then require TPM 2.0, BitLocker and Intune integration on every SKU. See our BitLocker guide for the encryption side."
-    }
+    },
+    "englishEdition": "independent"
   },
   {
     "id": "cmp-gen-0005",

@@ -1,3 +1,8 @@
+---
+title: Palo Alto Security Policy Basics: Zones, Rule Order and App-ID
+excerpt: How PAN-OS evaluates security rules, a rulebase layout that stays readable, App-ID done right, and the mistakes that quietly open your firewall.
+---
+
 A Palo Alto firewall reads its security rulebase the way you read a list of instructions: top to bottom, stopping at the first line that applies. Everything else about writing good PAN-OS policy follows from that one behaviour.
 
 ## How PAN-OS picks a rule

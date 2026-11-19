@@ -334,11 +334,11 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Password Managers: Why You Need One and How to Start</title>
+      <title>Password Managers at Work: Why They Matter and How to Roll One Out</title>
       <link>https://netsecatlas.com/en/article/password-manager-start</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/password-manager-start</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>How password managers actually work, why they&apos;re safer than memorizing, and a practical migration plan without locking yourself out.</description>
+      <description>Why reused passwords are the real problem, how password managers work, what to look for in a business product, and a rollout plan that people will actually adopt.</description>
       <category>password-manager</category>
       <category>passwords</category>
       <category>identity</category>
@@ -375,28 +375,6 @@
       <category>printnightmare</category>
       <category>troubleshooting</category>
       <category>windows-server</category>
-    </item>
-    <item>
-      <title>Forgot Your Important Account Password? Safe Recovery Steps</title>
-      <link>https://netsecatlas.com/en/article/forgotten-password-account-recovery</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/forgotten-password-account-recovery</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Forgetting a password is a common, worrying situation, especially for accounts holding important data. Here are safe recovery steps, and how to avoid the same problem again.</description>
-      <category>password</category>
-      <category>account-recovery</category>
-      <category>security</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Common Wi-Fi Problems and Their Step-by-Step Fixes</title>
-      <link>https://netsecatlas.com/en/article/wifi-connection-problems-fixes</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/wifi-connection-problems-fixes</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Internet slow or dropping constantly? Here are the most common home Wi-Fi problems and practical steps you can try yourself before calling your provider.</description>
-      <category>wifi</category>
-      <category>network</category>
-      <category>troubleshooting</category>
-      <category>guide</category>
     </item>
     <item>
       <title>Zero-Day Vulnerabilities: What They Are and How to Prepare</title>
@@ -450,16 +428,6 @@
       <description>Core scan types with real commands, 3 common practical use cases, and an important legal warning before any use.</description>
       <category>nmap</category>
       <category>network-scanning</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>How Cloud Storage Actually Works</title>
-      <link>https://netsecatlas.com/en/article/how-cloud-storage-actually-works</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/how-cloud-storage-actually-works</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Why redundancy across multiple disks and data centers is the reliability secret, and how smart delta sync saves time and data.</description>
-      <category>cloud-storage</category>
-      <category>technology</category>
       <category>guide</category>
     </item>
     <item>
@@ -580,6 +548,39 @@
       <category>edr</category>
       <category>endpoint-security</category>
       <category>malware</category>
+      <category>guide</category>
+    </item>
+    <item>
+      <title>Understanding PKI and the Chain of Trust: How You Know a Certificate Is Actually Real</title>
+      <link>https://netsecatlas.com/en/article/pki-certificate-authority-explained</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/pki-certificate-authority-explained</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+      <description>The public/private key pair, the chain of trust from Root CA to intermediate certificates, certificate types (DV/OV/EV), and why the untrusted certificate warning is genuinely dangerous.</description>
+      <category>pki</category>
+      <category>certificates</category>
+      <category>ssl</category>
+      <category>guide</category>
+    </item>
+    <item>
+      <title>Supply Chain Attacks: When the Risk Comes from a Trusted Vendor</title>
+      <link>https://netsecatlas.com/en/article/supply-chain-attacks-third-party-risk</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/supply-chain-attacks-third-party-risk</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description>3 real documented examples of risk points in detail, and why your own trust in the vendor is the weapon being exploited.</description>
+      <category>supply-chain</category>
+      <category>third-party-risk</category>
+      <category>security</category>
+      <category>guide</category>
+    </item>
+    <item>
+      <title>PowerShell for System Administrators: From Basics to Automation</title>
+      <link>https://netsecatlas.com/en/article/powershell-sysadmin-complete-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/powershell-sysadmin-complete-guide</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description>From basic commands to writing real automation scripts, with common mistakes and their fixes.</description>
+      <category>powershell</category>
+      <category>automation</category>
+      <category>windows-server</category>
       <category>guide</category>
     </item>
   </channel>

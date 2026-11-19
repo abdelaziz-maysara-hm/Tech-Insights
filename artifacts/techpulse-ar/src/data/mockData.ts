@@ -28,6 +28,8 @@ export interface ArticleMetadata {
   lastReviewed?: string;
   technicalStatus?: ArticleTechnicalStatus;
   translationStatus?: TranslationStatus;
+  /** 'independent' = English written as a separate native piece (AI-assisted); not a human review. */
+  englishEdition?: 'independent';
 }
 
 export interface Article extends ArticleMetadata {
@@ -92,6 +94,8 @@ export interface Comparison extends ArticleMetadata {
   overallWinner: 1 | 2;
   heroImage: string;
   translationStatus?: TranslationStatus;
+  /** 'independent' = English written as a separate native piece (AI-assisted); not a human review. */
+  englishEdition?: 'independent';
 }
 
 export const p1 = {

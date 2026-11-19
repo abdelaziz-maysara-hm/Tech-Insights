@@ -1,3 +1,8 @@
+---
+title: VLANs Explained: Segmenting a Flat Network Without the Headaches
+excerpt: Why a flat network turns one infected laptop into a company-wide incident, how VLANs and trunks work, a practical segmentation plan, and the mistakes that undo it.
+---
+
 In a flat network, every device can talk to every other device. That's convenient right up until one laptop gets ransomware and finds the file servers, the backup appliance and the CCTV recorder all one hop away. VLANs are the cheapest first step out of that situation.
 
 ## What a VLAN actually is
