@@ -5,104 +5,202 @@
     <link>https://netsecatlas.com/ar/</link>
     <description>أحدث المقالات العملية في الشبكات والأمن السيبراني والبنية التحتية من NetSec Atlas.</description>
     <language>ar</language>
-    <lastBuildDate>Thu, 06 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://netsecatlas.com/ar/rss.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>أفضل سماعات لاسلكية بميزانية متوسطة: دليل شراء عملي</title>
-      <link>https://netsecatlas.com/ar/article/wireless-headphones-buying-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/wireless-headphones-buying-guide</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
-      <description>مش لازم تدفع أعلى سعر عشان تحصل على تجربة صوت ممتازة. إليك دليل عملي يساعدك تختار سماعات لاسلكية مناسبة لاستخدامك بميزانية معقولة.</description>
-      <category>headphones</category>
-      <category>audio</category>
-      <category>buying-guide</category>
-      <category>review</category>
+      <title>أهم معرّفات أحداث أمان Windows لفرق SOC: ماذا تراقب ولماذا</title>
+      <link>https://netsecatlas.com/ar/article/windows-security-event-ids-soc</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/windows-security-event-ids-soc</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>جدول مرجعي لأحداث Windows الأمنية الأهم: تسجيل الدخول، الحسابات والمجموعات، Kerberos، العمليات والخدمات والمهام المجدولة، ومسح السجلات، مع سياسات التدقيق اللازمة.</description>
+      <category>windows</category>
+      <category>event-logs</category>
+      <category>soc</category>
+      <category>siem</category>
+      <category>detection</category>
     </item>
     <item>
-      <title>أفضل استخدامات الذكاء الاصطناعي في حياتك اليومية (مش بس ChatGPT)</title>
-      <link>https://netsecatlas.com/ar/article/ai-everyday-uses-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/ai-everyday-uses-guide</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description>الذكاء الاصطناعي بقى أداة عملية فعليًا في حياتنا اليومية، مش بس تقنية تجريبية. إليك استخدامات حقيقية تقدر تبدأ فيها من النهاردة من غير خبرة تقنية.</description>
-      <category>ai</category>
-      <category>chatgpt</category>
-      <category>productivity</category>
+      <title>استثناءات KES 12 في Kaspersky Security Center: إعداد آمن واستيراد XML</title>
+      <link>https://netsecatlas.com/ar/article/kes-12-exclusions-kaspersky-security-center</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/kes-12-exclusions-kaspersky-security-center</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>الفرق بين استثناءات الفحص والتطبيقات الموثوقة في KES 12، وكيف تضيفها في السياسة، وتستوردها بصيغة XML، وتتجنب النقاط العمياء الخطيرة.</description>
+      <category>kaspersky</category>
+      <category>kes</category>
+      <category>kaspersky-security-center</category>
+      <category>exclusions</category>
+      <category>endpoint-security</category>
+    </item>
+    <item>
+      <title>هجوم Kerberoasting: كيف يعمل وكيف تكشفه وتمنعه</title>
+      <link>https://netsecatlas.com/ar/article/kerberoasting-detection-prevention</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/kerberoasting-detection-prevention</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>لماذا تستطيع أي حساب في النطاق مهاجمة حسابات الخدمة، وكيف تكشف الهجوم بالحدث 4769، وكيف تمنعه بـgMSA وكلمات مرور طويلة وتشفير AES.</description>
+      <category>kerberos</category>
+      <category>active-directory</category>
+      <category>kerberoasting</category>
+      <category>service-accounts</category>
+      <category>detection</category>
+    </item>
+    <item>
+      <title>إلغاء SSL VPN Tunnel Mode في FortiOS 7.6.3: خطة الترحيل إلى IPsec VPN</title>
+      <link>https://netsecatlas.com/ar/article/fortios-ssl-vpn-tunnel-mode-removal-ipsec-migration</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/fortios-ssl-vpn-tunnel-mode-removal-ipsec-migration</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>ما الذي تغيّر في FortiOS 7.6.3، ولماذا يجب الترحيل قبل الترقية، وكيف تنقل المستخدمين والمجموعات والسياسات إلى IPsec عبر TCP 443 خطوة بخطوة.</description>
+      <category>fortinet</category>
+      <category>fortigate</category>
+      <category>ipsec</category>
+      <category>ssl-vpn</category>
+      <category>migration</category>
+    </item>
+    <item>
+      <title>خطأ FortiClient ‎-7200 في SSL VPN: الأسباب والحلول</title>
+      <link>https://netsecatlas.com/ar/article/forticlient-error-7200-fix</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/forticlient-error-7200-fix</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>الخطأ ‎-7200 نادرًا ما يعني كلمة مرور خاطئة. هذه الأسباب الفعلية بالترتيب، من تعطل Tunnel Mode بعد FortiOS 7.6.3 إلى قوة التشفير والشهادات، مع أوامر التشخيص.</description>
+      <category>fortinet</category>
+      <category>forticlient</category>
+      <category>ssl-vpn</category>
+      <category>troubleshooting</category>
+    </item>
+    <item>
+      <title>ملخص الثغرات المستغلة — أغسطس 2026: SonicWall وN-central وAzure</title>
+      <link>https://netsecatlas.com/ar/article/exploited-vulnerabilities-roundup-august-2026</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/exploited-vulnerabilities-roundup-august-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>خمسة أحداث أمنية من أوائل أغسطس 2026 في مكان واحد: ما حدث، ومن يتأثر، وماذا تفعل الآن، مع الدروس المشتركة لفرق تقنية المعلومات.</description>
+      <category>news</category>
+      <category>vulnerability</category>
+      <category>roundup</category>
+      <category>patching</category>
+    </item>
+    <item>
+      <title>تطبيق DMARC من p=none إلى p=reject: خطة مرحلية</title>
+      <link>https://netsecatlas.com/ar/article/dmarc-rollout-none-to-reject</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/dmarc-rollout-none-to-reject</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>خطة عملية من أربع مراحل: الجرد والمراقبة، إصلاح المحاذاة، quarantine بنسبة تدريجية، ثم reject، مع أمثلة سجلات DNS وأخطاء شائعة.</description>
+      <category>dmarc</category>
+      <category>spf</category>
+      <category>dkim</category>
+      <category>email-security</category>
+      <category>dns</category>
+    </item>
+    <item>
+      <title>أمن البريد المؤسسي: الدليل الشامل لـSPF وDKIM وDMARC والتصيد</title>
+      <link>https://netsecatlas.com/ar/article/enterprise-email-security-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/enterprise-email-security-guide</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>كيف تحمي نطاقك ومستخدميك: مصادقة البريد بـSPF وDKIM وDMARC، متطلبات Gmail وYahoo وOutlook للمرسلين، MTA-STS، بوابات البريد، والتوعية بالتصيد.</description>
+      <category>email-security</category>
+      <category>spf</category>
+      <category>dkim</category>
+      <category>dmarc</category>
+      <category>phishing</category>
+      <category>pillar</category>
+    </item>
+    <item>
+      <title>أمن الأجهزة الطرفية وإدارة الثغرات: الدليل الشامل</title>
+      <link>https://netsecatlas.com/ar/article/endpoint-vulnerability-management-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/endpoint-vulnerability-management-guide</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>كيف تبني برنامجًا متكاملًا: جرد الأصول، حماية الأجهزة الطرفية وEDR، الاستثناءات الآمنة، فحص الثغرات، تحديد الأولويات بـCVSS وEPSS وقائمة KEV، والترقيع.</description>
+      <category>endpoint-security</category>
+      <category>edr</category>
+      <category>vulnerability-management</category>
+      <category>patching</category>
+      <category>pillar</category>
+    </item>
+    <item>
+      <title>أمن Active Directory والهوية: الدليل الشامل</title>
+      <link>https://netsecatlas.com/ar/article/active-directory-identity-security-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/active-directory-identity-security-guide</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>لماذا يستهدف المهاجمون Active Directory أولًا، وكيف تحميه: نموذج المستويات، حسابات الخدمة، Kerberos، LAPS، سياسات المجموعات، والمراقبة.</description>
+      <category>active-directory</category>
+      <category>identity</category>
+      <category>kerberos</category>
+      <category>privileged-access</category>
+      <category>pillar</category>
+    </item>
+    <item>
+      <title>مركز العمليات الأمنية والاستجابة للحوادث: الدليل الشامل</title>
+      <link>https://netsecatlas.com/ar/article/soc-incident-response-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/soc-incident-response-guide</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>كيف تبني قدرة رصد واستجابة واقعية: مصادر السجلات، الـSIEM، قواعد الكشف، مراحل الاستجابة وفق NIST، كتيبات التشغيل، والمقاييس التي تهم الإدارة.</description>
+      <category>soc</category>
+      <category>siem</category>
+      <category>incident-response</category>
+      <category>detection</category>
+      <category>pillar</category>
+    </item>
+    <item>
+      <title>أمن الشبكات المؤسسية: الدليل الشامل للجدران النارية والـVPN</title>
+      <link>https://netsecatlas.com/ar/article/enterprise-network-security-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/enterprise-network-security-guide</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>مرجع عملي لتصميم شبكة مؤسسية آمنة: طبقات الحماية، سياسات الجدار الناري، الوصول عن بُعد بعد إلغاء SSL VPN Tunnel Mode، التقسيم بالـVLAN، والمراقبة.</description>
+      <category>network-security</category>
+      <category>firewall</category>
+      <category>vpn</category>
+      <category>segmentation</category>
+      <category>pillar</category>
+    </item>
+    <item>
+      <title>المصادقة الثنائية (2FA): دليل عملي لحماية حساباتك وطرقها مقارنة</title>
+      <link>https://netsecatlas.com/ar/article/2fa-practical-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/2fa-practical-guide</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>كل أنواع المصادقة الثنائية، إزاي تفعّلها صح، وأشهر الهجمات اللي بتستهدفها وإزاي تحمي نفسك منها.</description>
+      <category>2fa</category>
+      <category>authentication</category>
       <category>guide</category>
     </item>
     <item>
-      <title>ثغرات SonicWall الأخيرة تُستغل فعليًا في هجمات فدية</title>
-      <link>https://netsecatlas.com/ar/article/sonicwall-sma1000-ransomware-exploitation-2026</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/sonicwall-sma1000-ransomware-exploitation-2026</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
-      <description>عصابة INC Ransomware تستهدف أجهزة SonicWall SMA1000 غير المُحدَّثة للوصول الجذري والتحرك الجانبي داخل الشبكات.</description>
-      <category>sonicwall</category>
-      <category>ransomware</category>
-      <category>news</category>
+      <title>إعداد FortiGate SSL VPN خطوة بخطوة (مع تنبيه FortiOS 7.6.3)</title>
+      <link>https://netsecatlas.com/ar/article/fortigate-ssl-vpn-checklist</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/fortigate-ssl-vpn-checklist</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>الخطوات الخمس المترابطة لإعداد SSL VPN صح من أول مرة، مع تشخيص أشهر الأعطال الشائعة.</description>
+      <category>fortinet</category>
+      <category>fortigate</category>
+      <category>ssl-vpn</category>
+      <category>guide</category>
     </item>
     <item>
-      <title>ثغرة N-central (CVE-2026-18577) استُغلّت فعليًا بعد تجاوز الترقيع الأول</title>
-      <link>https://netsecatlas.com/ar/article/n-able-n-central-cve-2026-18577-exploited</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/n-able-n-central-cve-2026-18577-exploited</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
-      <description>N-able أصدرت ترقيعًا جديدًا بعد ما اكتشف مهاجمون طريقة لتجاوز الحل الأول للثغرة.</description>
-      <category>n-able</category>
-      <category>rmm</category>
-      <category>news</category>
-      <category>vulnerability</category>
-    </item>
-    <item>
-      <title>دليل اختيار لابتوب مناسب لك: للطلاب، للعمل، وللتصميم</title>
-      <link>https://netsecatlas.com/ar/article/laptop-buying-guide-2026</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/laptop-buying-guide-2026</guid>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-      <description>اللابتوب المناسب مختلف تمامًا حسب استخدامك — الطالب محتاج حاجة غير اللي محتاجها المصمم أو موظف المكتب. إليك دليل عملي يساعدك تختار صح من أول مرة.</description>
-      <category>laptop</category>
-      <category>buying-guide</category>
-      <category>students</category>
-      <category>work</category>
-    </item>
-    <item>
-      <title>ثغرة CosmosEscape في Azure Cosmos DB: كشف المفتاح الأساسي بالكامل</title>
-      <link>https://netsecatlas.com/ar/article/azure-cosmos-db-cosmosescape-flaw</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/azure-cosmos-db-cosmosescape-flaw</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description>ثغرة حرجة سمحت بالوصول الكامل للقراءة والكتابة على حسابات Cosmos DB المتأثرة.</description>
-      <category>azure</category>
-      <category>cloud-security</category>
-      <category>news</category>
-    </item>
-    <item>
-      <title>حملة رش كلمات مرور ضخمة تستهدف Azure CLI</title>
-      <link>https://netsecatlas.com/ar/article/azure-cli-password-spray-campaign</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/azure-cli-password-spray-campaign</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description>محاولات دخول آلية واسعة النطاق ضد حسابات Azure عن طريق أداة سطر الأوامر.</description>
-      <category>azure</category>
-      <category>password-spray</category>
-      <category>news</category>
+      <title>مديرو كلمات المرور: لماذا تحتاجه وكيف تبدأ</title>
+      <link>https://netsecatlas.com/ar/article/password-manager-start</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/password-manager-start</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>إزاي مديرو كلمات المرور بيشتغلوا فعليًا، ليه أأمن من الحفظ الذهني، وخطة هجرة عملية من غير ما تتقفل برّه حساباتك.</description>
+      <category>password-manager</category>
+      <category>passwords</category>
       <category>identity</category>
     </item>
     <item>
-      <title>Ruby on Rails تُصلح ثغرة حرجة تسمح بتنفيذ كود عن بُعد</title>
-      <link>https://netsecatlas.com/ar/article/ruby-on-rails-critical-rce-patch</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/ruby-on-rails-critical-rce-patch</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description>الثغرة قابلة للاستغلال من مهاجم غير مُصادَق عليه لقراءة ملفات عشوائية وربما تنفيذ كود.</description>
-      <category>ruby-on-rails</category>
-      <category>rce</category>
-      <category>news</category>
-      <category>web-security</category>
+      <title>قائمة تحقق للعمل عن بُعد الآمن: 12 ضابطًا لفرق تقنية المعلومات</title>
+      <link>https://netsecatlas.com/ar/article/secure-remote-work-checklist</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/secure-remote-work-checklist</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>اثنا عشر ضابطًا عمليًا لتأمين الموظفين عن بُعد: الوصول الآمن وMFA، حماية الجهاز وتشفيره، التحديثات، الشبكة المنزلية، النسخ الاحتياطي، والاستجابة عند فقدان جهاز.</description>
+      <category>remote-work</category>
+      <category>security-checklist</category>
+      <category>vpn</category>
     </item>
     <item>
-      <title>دليل شراء موبايل جديد 2026: إيه المواصفات اللي تستاهل تدفع فيها فلوس أكتر</title>
-      <link>https://netsecatlas.com/ar/article/mobile-buying-guide-2026</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/mobile-buying-guide-2026</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description>مش كل المواصفات المكتوبة على صندوق الموبايل بنفس الأهمية لكل مستخدم. إليك دليل عملي يساعدك تحدد فين تستحق تصرف ميزانيتك فعليًا وفين ممكن توفر.</description>
-      <category>smartphone</category>
-      <category>buying-guide</category>
-      <category>android</category>
-      <category>ios</category>
+      <title>OWASP Top 10: نظرة عامة على أخطر ثغرات تطبيقات الويب</title>
+      <link>https://netsecatlas.com/ar/article/owasp-top-10-overview</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/owasp-top-10-overview</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>أهم الفئات بالتفصيل (Broken Access Control، Injection، Cryptographic Failures)، وليه القائمة بتتغيّر وإزاي تستخدمها عمليًا.</description>
+      <category>owasp</category>
+      <category>web-security</category>
+      <category>secure-design</category>
+      <category>guide</category>
     </item>
     <item>
       <title>الطابعة مش بتشتغل أو مش بتطبع صح؟ الحلول الشائعة</title>
@@ -112,18 +210,6 @@
       <description>مشاكل الطباعة من أكتر المواقف اللي بتضيّع وقت، خصوصًا في لحظة مستعجلة. إليك الحلول الشائعة لأشهر مشاكل الطابعات المنزلية والمكتبية.</description>
       <category>printer</category>
       <category>troubleshooting</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>موبايلك بطيء بعد فترة استخدام؟ الأسباب والحلول العملية</title>
-      <link>https://netsecatlas.com/ar/article/phone-slow-performance-fixes</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/phone-slow-performance-fixes</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description>بطء الموبايل التدريجي مشكلة شائعة جدًا مع الاستخدام اليومي. إليك الأسباب الحقيقية وخطوات عملية تقدر تعملها بنفسك قبل ما تفكر في تغييره.</description>
-      <category>smartphone</category>
-      <category>performance</category>
-      <category>android</category>
-      <category>ios</category>
       <category>guide</category>
     </item>
     <item>
@@ -138,28 +224,6 @@
       <category>guide</category>
     </item>
     <item>
-      <title>النسخ الاحتياطي لبياناتك: دليل بسيط عشان متضيعش صورك وملفاتك</title>
-      <link>https://netsecatlas.com/ar/article/data-backup-simple-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/data-backup-simple-guide</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <description>تعطّل مفاجئ في الجهاز أو ضياعه بيقدر يمحي سنين من الصور والملفات المهمة في لحظة. إليك خطة نسخ احتياطي بسيطة وعملية تقدر تطبقها اليوم.</description>
-      <category>backup</category>
-      <category>data</category>
-      <category>cloud</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>بطارية اللابتوب بتخلص بسرعة؟ إزاي تطيل عمرها وتشخّص المشكلة</title>
-      <link>https://netsecatlas.com/ar/article/laptop-battery-health-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/laptop-battery-health-guide</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
-      <description>تدهور بطارية اللابتوب أمر طبيعي مع الوقت، بس فيه فرق بين التدهور الطبيعي والمشكلة الحقيقية. إليك إزاي تفرّق بينهم وإزاي تطيل عمر البطارية فعليًا.</description>
-      <category>battery</category>
-      <category>laptop</category>
-      <category>maintenance</category>
-      <category>guide</category>
-    </item>
-    <item>
       <title>مشاكل الواي فاي الشائعة وحلولها خطوة بخطوة</title>
       <link>https://netsecatlas.com/ar/article/wifi-connection-problems-fixes</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/wifi-connection-problems-fixes</guid>
@@ -171,30 +235,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>مساحة تخزين موبايلك امتلأت؟ إزاي تفضي مساحة بسرعة وبأمان</title>
-      <link>https://netsecatlas.com/ar/article/phone-storage-full-fixes</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/phone-storage-full-fixes</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <description>امتلاء مساحة الموبايل مشكلة شائعة جدًا وبتوقّف تحديثات وصور مهمة. إليك أسرع الطرق الآمنة لتفضية مساحة حقيقية من غير ما تفقد حاجة مهمة.</description>
-      <category>storage</category>
-      <category>smartphone</category>
-      <category>android</category>
-      <category>ios</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>لابتوبك بطيء؟ 10 أسباب حقيقية وحلول عملية لتسريعه</title>
-      <link>https://netsecatlas.com/ar/article/laptop-slow-performance-fixes</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/laptop-slow-performance-fixes</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
-      <description>لو لابتوبك بقى بطيء فجأة أو تدريجيًا، إليك الأسباب الحقيقية الأكتر شيوعًا وخطوات عملية تقدر تعملها دلوقتي لتحسين الأداء.</description>
-      <category>laptop</category>
-      <category>performance</category>
-      <category>maintenance</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>ثغرات يوم الصفر (Zero-Day): الدليل الكامل</title>
+      <title>ثغرات يوم الصفر (Zero-Day): ما هي وكيف تستعد لها</title>
       <link>https://netsecatlas.com/ar/article/zero-day-vulnerabilities-explained</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/zero-day-vulnerabilities-explained</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
@@ -216,7 +257,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>منع تسريب البيانات (DLP): الدليل الكامل</title>
+      <title>منع تسريب البيانات (DLP): القنوات والسياسات والتطبيق</title>
       <link>https://netsecatlas.com/ar/article/data-loss-prevention-dlp-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/data-loss-prevention-dlp-guide</guid>
       <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
@@ -227,7 +268,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>سياسة BYOD (استخدام الجهاز الشخصي للعمل): الدليل الكامل</title>
+      <title>سياسة BYOD (استخدام الأجهزة الشخصية للعمل): الضوابط والأمان</title>
       <link>https://netsecatlas.com/ar/article/byod-policy-security-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/byod-policy-security-guide</guid>
       <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
@@ -238,7 +279,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>الدليل الشامل لاستخدام Nmap في فحص الشبكة</title>
+      <title>فحص الشبكة باستخدام Nmap: الأوامر الأساسية والاستخدام المسؤول</title>
       <link>https://netsecatlas.com/ar/article/nmap-network-scanning-complete-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/nmap-network-scanning-complete-guide</guid>
       <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
@@ -248,7 +289,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>كيف يعمل التخزين السحابي فعليًا: الدليل الكامل</title>
+      <title>كيف يعمل التخزين السحابي فعليًا</title>
       <link>https://netsecatlas.com/ar/article/how-cloud-storage-actually-works</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/how-cloud-storage-actually-works</guid>
       <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
@@ -258,23 +299,13 @@
       <category>guide</category>
     </item>
     <item>
-      <title>الدليل الشامل لتحليل حركة الشبكة باستخدام Wireshark</title>
+      <title>تحليل حركة الشبكة باستخدام Wireshark: الفلاتر وحالات عملية</title>
       <link>https://netsecatlas.com/ar/article/wireshark-network-analysis-complete-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/wireshark-network-analysis-complete-guide</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
       <description>فلاتر الالتقاط والعرض بالتفصيل، سيناريوهات تشخيص حقيقية (بطء، DNS مشبوه، فشل TLS)، ونصيحة أمان مهمة قبل الاستخدام.</description>
       <category>wireshark</category>
       <category>network-analysis</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>كيف تعمل رموز QR فعليًا: الدليل الكامل</title>
-      <link>https://netsecatlas.com/ar/article/how-qr-codes-work</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/how-qr-codes-work</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description>الفرق عن الباركود التقليدي، دور تصحيح الأخطاء المدمج، ونصيحة عملية عند إضافة لوجو لكود QR.</description>
-      <category>qr-code</category>
-      <category>technology</category>
       <category>guide</category>
     </item>
     <item>
@@ -300,18 +331,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>نظرة شاملة على OWASP Top 10: الدليل الكامل</title>
-      <link>https://netsecatlas.com/ar/article/owasp-top-10-overview</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/owasp-top-10-overview</guid>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
-      <description>أهم الفئات بالتفصيل (Broken Access Control، Injection، Cryptographic Failures)، وليه القائمة بتتغيّر وإزاي تستخدمها عمليًا.</description>
-      <category>owasp</category>
-      <category>web-security</category>
-      <category>secure-design</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>تدوير كلمة مرور المدير المحلي (LAPS): الدليل الكامل</title>
+      <title>تدوير كلمة مرور المسؤول المحلي بـWindows LAPS</title>
       <link>https://netsecatlas.com/ar/article/windows-local-admin-password-rotation</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/windows-local-admin-password-rotation</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
@@ -322,7 +342,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>جدار حماية تطبيقات الويب (WAF): الدليل الكامل</title>
+      <title>جدار حماية تطبيقات الويب (WAF): كيف يعمل ومتى تحتاجه</title>
       <link>https://netsecatlas.com/ar/article/web-application-firewall-waf-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/web-application-firewall-waf-guide</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
@@ -333,7 +353,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>أساسيات أمان الحاويات (Container Security): الدليل الكامل</title>
+      <title>أساسيات أمان الحاويات (Container Security): من الصورة إلى التشغيل</title>
       <link>https://netsecatlas.com/ar/article/container-security-basics-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/container-security-basics-guide</guid>
       <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
@@ -344,7 +364,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>أساسيات خطة التعافي من الكوارث (DRP): الدليل الكامل</title>
+      <title>أساسيات خطة التعافي من الكوارث (DRP): RTO وRPO والاختبار</title>
       <link>https://netsecatlas.com/ar/article/disaster-recovery-plan-basics</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/disaster-recovery-plan-basics</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
@@ -355,18 +375,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>كيف تبني خطة استجابة للحوادث الأمنية من الصفر</title>
-      <link>https://netsecatlas.com/ar/article/incident-response-plan-from-scratch</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/incident-response-plan-from-scratch</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
-      <description>المراحل الست حسب إطار NIST، قائمة تحقق لأول ساعة من أي حادث، وأشهر خطأ بيزوّد الضرر بدل ما يقلله.</description>
-      <category>incident-response</category>
-      <category>nist</category>
-      <category>security-planning</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>النسخ الاحتياطية غير القابلة للتعديل (Immutable Backups): الدليل الكامل</title>
+      <title>النسخ الاحتياطية غير القابلة للتعديل: خط الدفاع الأخير ضد الفدية</title>
       <link>https://netsecatlas.com/ar/article/immutable-backups-ransomware-defense</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/immutable-backups-ransomware-defense</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
@@ -377,7 +386,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>المصادقة مقابل التفويض (Authentication vs Authorization): الدليل الكامل</title>
+      <title>المصادقة مقابل التفويض (Authentication vs Authorization): الفرق بأمثلة</title>
       <link>https://netsecatlas.com/ar/article/authentication-vs-authorization-explained</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/authentication-vs-authorization-explained</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
@@ -421,7 +430,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>هجمات سلسلة التوريد: الدليل الكامل لما بيجي الخطر من مورّد موثوق</title>
+      <title>هجمات سلسلة التوريد: عندما يأتي الخطر من مورّد موثوق</title>
       <link>https://netsecatlas.com/ar/article/supply-chain-attacks-third-party-risk</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/supply-chain-attacks-third-party-risk</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
@@ -432,7 +441,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>الدليل الشامل لاستخدام PowerShell في إدارة الأنظمة</title>
+      <title>PowerShell لمديري الأنظمة: من الأساسيات إلى الأتمتة</title>
       <link>https://netsecatlas.com/ar/article/powershell-sysadmin-complete-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/powershell-sysadmin-complete-guide</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
@@ -443,18 +452,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>مركز العمليات الأمنية (SOC): الدليل الكامل</title>
-      <link>https://netsecatlas.com/ar/article/security-operations-center-soc-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/security-operations-center-soc-guide</guid>
-      <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
-      <description>3 مستويات فريق SOC التقليدية، تحدي التغطية الزمنية 24/7 (داخلي أو MSSP)، ومقاييس MTTD/MTTR لقياس الفعالية.</description>
-      <category>soc</category>
-      <category>security-operations</category>
-      <category>mssp</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>بناء برنامج إدارة التهديد الداخلي: الدليل الكامل</title>
+      <title>بناء برنامج لإدارة مخاطر التهديد الداخلي</title>
       <link>https://netsecatlas.com/ar/article/insider-risk-program-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/insider-risk-program-guide</guid>
       <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
@@ -465,7 +463,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>دورة تطوير البرمجيات الآمنة (SSDLC): الدليل الكامل</title>
+      <title>دورة تطوير البرمجيات الآمنة (SSDLC): الأمان في كل مرحلة</title>
       <link>https://netsecatlas.com/ar/article/secure-sdlc-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/secure-sdlc-guide</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
@@ -473,38 +471,6 @@
       <category>ssdlc</category>
       <category>devsecops</category>
       <category>secure-coding</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>طرق المصادقة الثنائية: SMS مقابل تطبيق مقابل مفتاح مادي</title>
-      <link>https://netsecatlas.com/ar/article/mfa-methods-compared-sms-app-hardware</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/mfa-methods-compared-sms-app-hardware</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-      <description>مش كل أنواع المصادقة الثنائية بنفس مستوى الأمان — الفروق مهمة.</description>
-      <category>mfa</category>
-      <category>authentication</category>
-      <category>identity</category>
-    </item>
-    <item>
-      <title>بناء برنامج إدارة ثغرات ناجح: الدليل الكامل</title>
-      <link>https://netsecatlas.com/ar/article/vulnerability-management-program-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/vulnerability-management-program-guide</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-      <description>دورة الحياة الكاملة (اكتشاف، تقييم، إصلاح، تحقق)، نظام أولويات عملي غير درجة CVSS بس، وجدول أطر زمنية مقترحة.</description>
-      <category>vulnerability-management</category>
-      <category>cvss</category>
-      <category>security-operations</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>iOS مقابل Android: الدليل الكامل للاختيار</title>
-      <link>https://netsecatlas.com/ar/article/ios-vs-android-choosing-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/ios-vs-android-choosing-guide</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-      <description>3 عوامل عملية تستاهل التفكير الفعلي (التكامل، التخصيص، الميزانية)، والفرق الحقيقي في طول دعم التحديثات.</description>
-      <category>ios</category>
-      <category>android</category>
-      <category>smartphone</category>
       <category>guide</category>
     </item>
     <item>
@@ -519,17 +485,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>نظام تنظيم الملفات الرقمية: الدليل الكامل</title>
-      <link>https://netsecatlas.com/ar/article/digital-file-organization-system</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/digital-file-organization-system</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-      <description>ليه التصنيف حسب المشروع أفضل من حسب نوع الملف، ونظام تسمية متسق بصيغة تاريخ قابلة للترتيب.</description>
-      <category>productivity</category>
-      <category>file-management</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>الدليل الشامل لإعداد وإدارة Active Directory من الصفر</title>
+      <title>إعداد وإدارة Active Directory من الصفر: خطوة بخطوة</title>
       <link>https://netsecatlas.com/ar/article/active-directory-complete-setup-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/active-directory-complete-setup-guide</guid>
       <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
@@ -540,15 +496,72 @@
       <category>guide</category>
     </item>
     <item>
-      <title>اختيار لابتوب للمبرمجين: الدليل الكامل</title>
-      <link>https://netsecatlas.com/ar/article/laptop-for-developers-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/ar/article/laptop-for-developers-guide</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
-      <description>4 مكونات فعليًا بتفرق بالتفصيل، ومقارنة أنظمة التشغيل الثلاثة (macOS/Linux/Windows+WSL) حسب نوع العمل.</description>
-      <category>laptop</category>
-      <category>developers</category>
-      <category>programming</category>
+      <title>تصنيف البيانات: مش كل الملفات محتاجة نفس مستوى الحماية</title>
+      <link>https://netsecatlas.com/ar/article/data-classification-basics</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/data-classification-basics</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description>نظام تصنيف بأربع مستويات بالتفصيل، وليه محاولة تصنيف كل شيء دفعة واحدة من أول يوم أشهر خطأ عملي يفشل المشروع كله.</description>
+      <category>data-classification</category>
+      <category>compliance</category>
+      <category>governance</category>
       <category>guide</category>
+    </item>
+    <item>
+      <title>مراقبة انتهاء صلاحية الشهادات: تجنب الانقطاع المحرج</title>
+      <link>https://netsecatlas.com/ar/article/certificate-expiry-monitoring</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/certificate-expiry-monitoring</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description>ليه التجديد التلقائي (ACME/Let&apos;s Encrypt) الحل الأمثل، خطوات بديلة لو التجديد يدوي، وأمر تحقق سريع لأي موقع.</description>
+      <category>ssl</category>
+      <category>certificates</category>
+      <category>monitoring</category>
+      <category>guide</category>
+    </item>
+    <item>
+      <title>توليد الصور بالذكاء الاصطناعي في المؤسسات: البيانات والمخاطر وضوابط النشر</title>
+      <link>https://netsecatlas.com/ar/article/how-ai-image-generation-works</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/how-ai-image-generation-works</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <description>دليل عملي لاستخدام مولدات الصور داخل المؤسسات مع حماية البيانات، وفحص الملكية، وكشف الانتحال، واعتماد المخرجات قبل النشر.</description>
+      <category>generative-ai</category>
+      <category>data-privacy</category>
+      <category>deepfake</category>
+      <category>content-provenance</category>
+      <category>governance</category>
+    </item>
+    <item>
+      <title>كيف تعمل النماذج اللغوية الكبيرة في بيئات IT: دليل عملي للثقة والمخاطر</title>
+      <link>https://netsecatlas.com/ar/article/how-large-language-models-work</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/how-large-language-models-work</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <description>شرح عملي للـtokens ونافذة السياق وRAG، ولماذا يجب التعامل مع مخرجات LLM كاقتراحات تحتاج إلى أدلة وضوابط أمنية.</description>
+      <category>llm</category>
+      <category>ai-security</category>
+      <category>rag</category>
+      <category>data-privacy</category>
+      <category>technical-validation</category>
+    </item>
+    <item>
+      <title>مبدأ الرقابة المزدوجة (Dual Control): ليه عملية حساسة محتاجة موافقة شخصين</title>
+      <link>https://netsecatlas.com/ar/article/dual-control-critical-operations</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/dual-control-critical-operations</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <description>3 زوايا ليه المبدأ ده مهم فعليًا، أمثلة تطبيق واقعية، وليه آلية الموافقة السريعة أساسية لنجاح التطبيق.</description>
+      <category>dual-control</category>
+      <category>access-control</category>
+      <category>insider-threat</category>
+      <category>guide</category>
+    </item>
+    <item>
+      <title>صياغة طلبات AI للتشخيص التقني بأمان: قالب عملي للمهندسين</title>
+      <link>https://netsecatlas.com/ar/article/effective-ai-prompting-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/ar/article/effective-ai-prompting-guide</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <description>قالب تشخيص منظم يفصل الحقائق عن الافتراضات، يبدأ بفحوص القراءة فقط، ويطلب مخاطر التنفيذ والتحقق وخطة التراجع.</description>
+      <category>ai-security</category>
+      <category>troubleshooting</category>
+      <category>change-safety</category>
+      <category>data-privacy</category>
     </item>
   </channel>
 </rss>

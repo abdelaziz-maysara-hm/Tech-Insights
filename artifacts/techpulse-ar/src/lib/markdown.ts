@@ -174,3 +174,14 @@ export function countWords(markdown: string): number {
     .split(/\s+/)
     .filter(Boolean).length;
 }
+
+/**
+ * Article bodies link to language-less identity paths (e.g. `/article/x`).
+ * Prefix them with the reader's language so English readers stay in English
+ * and nobody bounces through a legacy redirect. Already-prefixed, external,
+ * anchor and asset links are left untouched.
+ */
+export function localizeInternalLinks(html: string, lang: string): string {
+  const prefix = lang === 'en' ? 'en' : 'ar';
+  return String(html ?? '').replace(/href="\/(?!ar\/|en\/|\/)([^"]*)"/g, (_m, rest: string) => `href="/${prefix}/${rest}"`);
+}

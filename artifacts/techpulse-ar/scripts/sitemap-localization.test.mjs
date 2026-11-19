@@ -21,8 +21,11 @@ const contentItems = [...articles, ...comparisons, ...pages].filter((item) => it
 const englishContent = contentItems.filter((item) =>
   item.translationStatus === 'reviewed'
   || (policy.publishUnreviewedTranslations === true && item.translationStatus !== 'invalid'));
-const expectedAr = BASE_ROUTES + vendorHubs + webTools.length + contentItems.length;
-const expectedEn = policy.eligibleDiscoveryRoutes.length + englishContent.length;
+// Phase 7: every playlist and video page is published in both languages.
+const videoRoutes = JSON.parse(readFileSync(new URL('../src/content/videos.json', import.meta.url), 'utf8')).length
+  + JSON.parse(readFileSync(new URL('../src/content/video-playlists.json', import.meta.url), 'utf8')).length;
+const expectedAr = BASE_ROUTES + vendorHubs + webTools.length + contentItems.length + videoRoutes;
+const expectedEn = policy.eligibleDiscoveryRoutes.length + englishContent.length + videoRoutes;
 
 test('emits only unique localized production canonical locations', () => {
   assert.equal(arLocations.length, expectedAr);

@@ -13,12 +13,12 @@
 
 | Content type | Evaluated | VALID_PAIR | REVIEW_PAIR | INVALID_PAIR |
 | --- | ---: | ---: | ---: | ---: |
-| articles | 129 | 0 (0.0%) | 127 (98.4%) | 2 (1.6%) |
-| comparisons | 75 | 0 (0.0%) | 74 (98.7%) | 1 (1.3%) |
-| staticPages | 9 | 0 (0.0%) | 6 (66.7%) | 3 (33.3%) |
+| articles | 113 | 0 (0.0%) | 111 (98.2%) | 2 (1.8%) |
+| comparisons | 70 | 0 (0.0%) | 69 (98.6%) | 1 (1.4%) |
+| staticPages | 10 | 0 (0.0%) | 7 (70.0%) | 3 (30.0%) |
 | dynamicDiscoveryPages | 28 | 0 (0.0%) | 28 (100.0%) | 0 (0.0%) |
 
-**Total:** 241 evaluated; 0 valid; 235 review; 6 invalid.
+**Total:** 221 evaluated; 0 valid; 215 review; 6 invalid.
 
 ## Important distinction
 

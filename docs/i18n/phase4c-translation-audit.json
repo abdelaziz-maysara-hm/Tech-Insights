@@ -7,28 +7,28 @@
     "seoEffect": "Only VALID_PAIR records may receive reciprocal hreflang or localized sitemap alternates."
   },
   "totals": {
-    "evaluated": 241,
+    "evaluated": 221,
     "VALID_PAIR": 0,
-    "REVIEW_PAIR": 235,
+    "REVIEW_PAIR": 215,
     "INVALID_PAIR": 6
   },
   "byType": {
     "articles": {
-      "evaluated": 129,
+      "evaluated": 113,
       "VALID_PAIR": 0,
-      "REVIEW_PAIR": 127,
+      "REVIEW_PAIR": 111,
       "INVALID_PAIR": 2
     },
     "comparisons": {
-      "evaluated": 75,
+      "evaluated": 70,
       "VALID_PAIR": 0,
-      "REVIEW_PAIR": 74,
+      "REVIEW_PAIR": 69,
       "INVALID_PAIR": 1
     },
     "staticPages": {
-      "evaluated": 9,
+      "evaluated": 10,
       "VALID_PAIR": 0,
-      "REVIEW_PAIR": 6,
+      "REVIEW_PAIR": 7,
       "INVALID_PAIR": 3
     },
     "dynamicDiscoveryPages": {
@@ -40,6 +40,270 @@
   },
   "records": {
     "articles": [
+      {
+        "id": "art-p7-012",
+        "slug": "windows-security-event-ids-soc",
+        "kind": "article",
+        "route": "/article/windows-security-event-ids-soc",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "confidence": "high",
+        "fieldComplete": true,
+        "automatedCandidate": true,
+        "humanReviewed": false,
+        "metrics": {
+          "fieldComplete": true,
+          "automatedCandidate": true,
+          "arWords": 827,
+          "enWords": 857,
+          "lengthRatio": 0.965,
+          "arLanguageShare": 0.683,
+          "enLanguageShare": 1,
+          "signals": []
+        }
+      },
+      {
+        "id": "art-p7-011",
+        "slug": "kes-12-exclusions-kaspersky-security-center",
+        "kind": "article",
+        "route": "/article/kes-12-exclusions-kaspersky-security-center",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "confidence": "high",
+        "fieldComplete": true,
+        "automatedCandidate": true,
+        "humanReviewed": false,
+        "metrics": {
+          "fieldComplete": true,
+          "automatedCandidate": true,
+          "arWords": 759,
+          "enWords": 886,
+          "lengthRatio": 0.857,
+          "arLanguageShare": 0.82,
+          "enLanguageShare": 1,
+          "signals": []
+        }
+      },
+      {
+        "id": "art-p7-010",
+        "slug": "kerberoasting-detection-prevention",
+        "kind": "article",
+        "route": "/article/kerberoasting-detection-prevention",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "confidence": "high",
+        "fieldComplete": true,
+        "automatedCandidate": true,
+        "humanReviewed": false,
+        "metrics": {
+          "fieldComplete": true,
+          "automatedCandidate": true,
+          "arWords": 678,
+          "enWords": 736,
+          "lengthRatio": 0.921,
+          "arLanguageShare": 0.62,
+          "enLanguageShare": 1,
+          "signals": []
+        }
+      },
+      {
+        "id": "art-p7-009",
+        "slug": "fortios-ssl-vpn-tunnel-mode-removal-ipsec-migration",
+        "kind": "article",
+        "route": "/article/fortios-ssl-vpn-tunnel-mode-removal-ipsec-migration",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "confidence": "high",
+        "fieldComplete": true,
+        "automatedCandidate": true,
+        "humanReviewed": false,
+        "metrics": {
+          "fieldComplete": true,
+          "automatedCandidate": true,
+          "arWords": 679,
+          "enWords": 719,
+          "lengthRatio": 0.944,
+          "arLanguageShare": 0.666,
+          "enLanguageShare": 1,
+          "signals": []
+        }
+      },
+      {
+        "id": "art-p7-008",
+        "slug": "forticlient-error-7200-fix",
+        "kind": "article",
+        "route": "/article/forticlient-error-7200-fix",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "confidence": "high",
+        "fieldComplete": true,
+        "automatedCandidate": true,
+        "humanReviewed": false,
+        "metrics": {
+          "fieldComplete": true,
+          "automatedCandidate": true,
+          "arWords": 710,
+          "enWords": 759,
+          "lengthRatio": 0.935,
+          "arLanguageShare": 0.608,
+          "enLanguageShare": 1,
+          "signals": []
+        }
+      },
+      {
+        "id": "art-p7-007",
+        "slug": "exploited-vulnerabilities-roundup-august-2026",
+        "kind": "article",
+        "route": "/article/exploited-vulnerabilities-roundup-august-2026",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "confidence": "high",
+        "fieldComplete": true,
+        "automatedCandidate": true,
+        "humanReviewed": false,
+        "metrics": {
+          "fieldComplete": true,
+          "automatedCandidate": true,
+          "arWords": 674,
+          "enWords": 754,
+          "lengthRatio": 0.894,
+          "arLanguageShare": 0.677,
+          "enLanguageShare": 1,
+          "signals": []
+        }
+      },
+      {
+        "id": "art-p7-006",
+        "slug": "dmarc-rollout-none-to-reject",
+        "kind": "article",
+        "route": "/article/dmarc-rollout-none-to-reject",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "confidence": "high",
+        "fieldComplete": true,
+        "automatedCandidate": true,
+        "humanReviewed": false,
+        "metrics": {
+          "fieldComplete": true,
+          "automatedCandidate": true,
+          "arWords": 601,
+          "enWords": 659,
+          "lengthRatio": 0.912,
+          "arLanguageShare": 0.699,
+          "enLanguageShare": 1,
+          "signals": []
+        }
+      },
+      {
+        "id": "art-p7-005",
+        "slug": "enterprise-email-security-guide",
+        "kind": "article",
+        "route": "/article/enterprise-email-security-guide",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "confidence": "high",
+        "fieldComplete": true,
+        "automatedCandidate": true,
+        "humanReviewed": false,
+        "metrics": {
+          "fieldComplete": true,
+          "automatedCandidate": true,
+          "arWords": 1230,
+          "enWords": 1339,
+          "lengthRatio": 0.919,
+          "arLanguageShare": 0.728,
+          "enLanguageShare": 1,
+          "signals": []
+        }
+      },
+      {
+        "id": "art-p7-004",
+        "slug": "endpoint-vulnerability-management-guide",
+        "kind": "article",
+        "route": "/article/endpoint-vulnerability-management-guide",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "confidence": "high",
+        "fieldComplete": true,
+        "automatedCandidate": true,
+        "humanReviewed": false,
+        "metrics": {
+          "fieldComplete": true,
+          "automatedCandidate": true,
+          "arWords": 1229,
+          "enWords": 1339,
+          "lengthRatio": 0.918,
+          "arLanguageShare": 0.812,
+          "enLanguageShare": 1,
+          "signals": []
+        }
+      },
+      {
+        "id": "art-p7-003",
+        "slug": "active-directory-identity-security-guide",
+        "kind": "article",
+        "route": "/article/active-directory-identity-security-guide",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "confidence": "high",
+        "fieldComplete": true,
+        "automatedCandidate": true,
+        "humanReviewed": false,
+        "metrics": {
+          "fieldComplete": true,
+          "automatedCandidate": true,
+          "arWords": 1304,
+          "enWords": 1367,
+          "lengthRatio": 0.954,
+          "arLanguageShare": 0.747,
+          "enLanguageShare": 1,
+          "signals": []
+        }
+      },
+      {
+        "id": "art-p7-002",
+        "slug": "soc-incident-response-guide",
+        "kind": "article",
+        "route": "/article/soc-incident-response-guide",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "confidence": "high",
+        "fieldComplete": true,
+        "automatedCandidate": true,
+        "humanReviewed": false,
+        "metrics": {
+          "fieldComplete": true,
+          "automatedCandidate": true,
+          "arWords": 1314,
+          "enWords": 1462,
+          "lengthRatio": 0.899,
+          "arLanguageShare": 0.884,
+          "enLanguageShare": 1,
+          "signals": []
+        }
+      },
+      {
+        "id": "art-p7-001",
+        "slug": "enterprise-network-security-guide",
+        "kind": "article",
+        "route": "/article/enterprise-network-security-guide",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "confidence": "high",
+        "fieldComplete": true,
+        "automatedCandidate": true,
+        "humanReviewed": false,
+        "metrics": {
+          "fieldComplete": true,
+          "automatedCandidate": true,
+          "arWords": 1383,
+          "enWords": 1478,
+          "lengthRatio": 0.936,
+          "arLanguageShare": 0.782,
+          "enLanguageShare": 1,
+          "signals": []
+        }
+      },
       {
         "id": "art-gen-0001",
         "slug": "2fa-practical-guide",
@@ -54,10 +318,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 492,
-          "enWords": 555,
-          "lengthRatio": 0.886,
-          "arLanguageShare": 0.89,
+          "arWords": 620,
+          "enWords": 699,
+          "lengthRatio": 0.887,
+          "arLanguageShare": 0.88,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -142,10 +406,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 332,
-          "enWords": 387,
-          "lengthRatio": 0.858,
-          "arLanguageShare": 0.828,
+          "arWords": 536,
+          "enWords": 608,
+          "lengthRatio": 0.882,
+          "arLanguageShare": 0.748,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -164,10 +428,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 356,
-          "enWords": 400,
-          "lengthRatio": 0.89,
-          "arLanguageShare": 0.931,
+          "arWords": 610,
+          "enWords": 675,
+          "lengthRatio": 0.904,
+          "arLanguageShare": 0.936,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -258,28 +522,6 @@
           "enWords": 338,
           "lengthRatio": 0.905,
           "arLanguageShare": 0.829,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0011",
-        "slug": "student-laptop-specs",
-        "kind": "article",
-        "route": "/article/student-laptop-specs",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 330,
-          "enWords": 348,
-          "lengthRatio": 0.948,
-          "arLanguageShare": 0.93,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -1407,50 +1649,6 @@
         }
       },
       {
-        "id": "art-gen-0063",
-        "slug": "mfa-methods-compared-sms-app-hardware",
-        "kind": "article",
-        "route": "/article/mfa-methods-compared-sms-app-hardware",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 137,
-          "enWords": 160,
-          "lengthRatio": 0.856,
-          "arLanguageShare": 0.857,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0064",
-        "slug": "sql-injection-basics-explained",
-        "kind": "article",
-        "route": "/article/sql-injection-basics-explained",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 145,
-          "enWords": 170,
-          "lengthRatio": 0.853,
-          "arLanguageShare": 0.862,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
         "id": "art-gen-0065",
         "slug": "windows-task-scheduler-automation",
         "kind": "article",
@@ -1530,10 +1728,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 141,
-          "enWords": 103,
-          "lengthRatio": 0.73,
-          "arLanguageShare": 0.968,
+          "arWords": 441,
+          "enWords": 493,
+          "lengthRatio": 0.895,
+          "arLanguageShare": 0.758,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -1556,116 +1754,6 @@
           "enWords": 430,
           "lengthRatio": 0.916,
           "arLanguageShare": 0.902,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0070",
-        "slug": "sonicwall-sma1000-ransomware-exploitation-2026",
-        "kind": "article",
-        "route": "/article/sonicwall-sma1000-ransomware-exploitation-2026",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 114,
-          "enWords": 113,
-          "lengthRatio": 0.991,
-          "arLanguageShare": 0.667,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0071",
-        "slug": "n-able-n-central-cve-2026-18577-exploited",
-        "kind": "article",
-        "route": "/article/n-able-n-central-cve-2026-18577-exploited",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 133,
-          "enWords": 138,
-          "lengthRatio": 0.964,
-          "arLanguageShare": 0.688,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0072",
-        "slug": "azure-cosmos-db-cosmosescape-flaw",
-        "kind": "article",
-        "route": "/article/azure-cosmos-db-cosmosescape-flaw",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 120,
-          "enWords": 119,
-          "lengthRatio": 0.992,
-          "arLanguageShare": 0.658,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0073",
-        "slug": "azure-cli-password-spray-campaign",
-        "kind": "article",
-        "route": "/article/azure-cli-password-spray-campaign",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 132,
-          "enWords": 126,
-          "lengthRatio": 0.955,
-          "arLanguageShare": 0.664,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0074",
-        "slug": "ruby-on-rails-critical-rce-patch",
-        "kind": "article",
-        "route": "/article/ruby-on-rails-critical-rce-patch",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 135,
-          "enWords": 143,
-          "lengthRatio": 0.944,
-          "arLanguageShare": 0.744,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -1871,28 +1959,6 @@
         }
       },
       {
-        "id": "art-gen-0084",
-        "slug": "incident-response-plan-from-scratch",
-        "kind": "article",
-        "route": "/article/incident-response-plan-from-scratch",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 409,
-          "enWords": 456,
-          "lengthRatio": 0.897,
-          "arLanguageShare": 0.941,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
         "id": "art-gen-0085",
         "slug": "wireshark-network-analysis-complete-guide",
         "kind": "article",
@@ -1998,28 +2064,6 @@
           "enWords": 438,
           "lengthRatio": 0.861,
           "arLanguageShare": 0.903,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0090",
-        "slug": "vulnerability-management-program-guide",
-        "kind": "article",
-        "route": "/article/vulnerability-management-program-guide",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 422,
-          "enWords": 456,
-          "lengthRatio": 0.925,
-          "arLanguageShare": 0.864,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -2236,10 +2280,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 388,
-          "enWords": 440,
-          "lengthRatio": 0.882,
-          "arLanguageShare": 0.863,
+          "arWords": 519,
+          "enWords": 590,
+          "lengthRatio": 0.88,
+          "arLanguageShare": 0.861,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -2262,28 +2306,6 @@
           "enWords": 479,
           "lengthRatio": 0.873,
           "arLanguageShare": 0.912,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0102",
-        "slug": "security-operations-center-soc-guide",
-        "kind": "article",
-        "route": "/article/security-operations-center-soc-guide",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 420,
-          "enWords": 471,
-          "lengthRatio": 0.892,
-          "arLanguageShare": 0.901,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -2355,28 +2377,6 @@
         }
       },
       {
-        "id": "art-gen-0106",
-        "slug": "smartphone-battery-longevity-guide",
-        "kind": "article",
-        "route": "/article/smartphone-battery-longevity-guide",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 388,
-          "enWords": 427,
-          "lengthRatio": 0.909,
-          "arLanguageShare": 0.983,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
         "id": "art-gen-0107",
         "slug": "effective-ai-prompting-guide",
         "kind": "article",
@@ -2399,72 +2399,6 @@
         }
       },
       {
-        "id": "art-gen-0108",
-        "slug": "how-gps-actually-works",
-        "kind": "article",
-        "route": "/article/how-gps-actually-works",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 398,
-          "enWords": 419,
-          "lengthRatio": 0.95,
-          "arLanguageShare": 0.956,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0109",
-        "slug": "laptop-for-developers-guide",
-        "kind": "article",
-        "route": "/article/laptop-for-developers-guide",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 399,
-          "enWords": 426,
-          "lengthRatio": 0.937,
-          "arLanguageShare": 0.893,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0110",
-        "slug": "wifi-vs-mobile-data-when-to-use",
-        "kind": "article",
-        "route": "/article/wifi-vs-mobile-data-when-to-use",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 223,
-          "enWords": 250,
-          "lengthRatio": 0.892,
-          "arLanguageShare": 0.966,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
         "id": "art-gen-0111",
         "slug": "how-large-language-models-work",
         "kind": "article",
@@ -2482,72 +2416,6 @@
           "enWords": 521,
           "lengthRatio": 0.927,
           "arLanguageShare": 0.942,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0112",
-        "slug": "how-qr-codes-work",
-        "kind": "article",
-        "route": "/article/how-qr-codes-work",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 308,
-          "enWords": 355,
-          "lengthRatio": 0.868,
-          "arLanguageShare": 0.912,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0113",
-        "slug": "digital-file-organization-system",
-        "kind": "article",
-        "route": "/article/digital-file-organization-system",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 309,
-          "enWords": 336,
-          "lengthRatio": 0.92,
-          "arLanguageShare": 0.964,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0114",
-        "slug": "browser-vs-standalone-password-manager",
-        "kind": "article",
-        "route": "/article/browser-vs-standalone-password-manager",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 321,
-          "enWords": 365,
-          "lengthRatio": 0.879,
-          "arLanguageShare": 0.944,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -2597,72 +2465,6 @@
         }
       },
       {
-        "id": "art-gen-0117",
-        "slug": "ios-vs-android-choosing-guide",
-        "kind": "article",
-        "route": "/article/ios-vs-android-choosing-guide",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 276,
-          "enWords": 320,
-          "lengthRatio": 0.863,
-          "arLanguageShare": 0.958,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0118",
-        "slug": "laptop-slow-performance-fixes",
-        "kind": "article",
-        "route": "/article/laptop-slow-performance-fixes",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 575,
-          "enWords": 516,
-          "lengthRatio": 0.897,
-          "arLanguageShare": 0.925,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0119",
-        "slug": "phone-storage-full-fixes",
-        "kind": "article",
-        "route": "/article/phone-storage-full-fixes",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 308,
-          "enWords": 324,
-          "lengthRatio": 0.951,
-          "arLanguageShare": 0.983,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
         "id": "art-gen-0120",
         "slug": "wifi-connection-problems-fixes",
         "kind": "article",
@@ -2680,50 +2482,6 @@
           "enWords": 398,
           "lengthRatio": 0.988,
           "arLanguageShare": 0.974,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0121",
-        "slug": "laptop-battery-health-guide",
-        "kind": "article",
-        "route": "/article/laptop-battery-health-guide",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 379,
-          "enWords": 379,
-          "lengthRatio": 1,
-          "arLanguageShare": 0.943,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0122",
-        "slug": "data-backup-simple-guide",
-        "kind": "article",
-        "route": "/article/data-backup-simple-guide",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 358,
-          "enWords": 391,
-          "lengthRatio": 0.916,
-          "arLanguageShare": 0.94,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -2751,28 +2509,6 @@
         }
       },
       {
-        "id": "art-gen-0124",
-        "slug": "phone-slow-performance-fixes",
-        "kind": "article",
-        "route": "/article/phone-slow-performance-fixes",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 383,
-          "enWords": 386,
-          "lengthRatio": 0.992,
-          "arLanguageShare": 0.998,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
         "id": "art-gen-0125",
         "slug": "printer-not-working-fixes",
         "kind": "article",
@@ -2793,163 +2529,9 @@
           "enLanguageShare": 1,
           "signals": []
         }
-      },
-      {
-        "id": "art-gen-0126",
-        "slug": "mobile-buying-guide-2026",
-        "kind": "article",
-        "route": "/article/mobile-buying-guide-2026",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 318,
-          "enWords": 381,
-          "lengthRatio": 0.835,
-          "arLanguageShare": 0.984,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0127",
-        "slug": "laptop-buying-guide-2026",
-        "kind": "article",
-        "route": "/article/laptop-buying-guide-2026",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 352,
-          "enWords": 396,
-          "lengthRatio": 0.889,
-          "arLanguageShare": 0.968,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0128",
-        "slug": "ai-everyday-uses-guide",
-        "kind": "article",
-        "route": "/article/ai-everyday-uses-guide",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 325,
-          "enWords": 376,
-          "lengthRatio": 0.864,
-          "arLanguageShare": 1,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "art-gen-0129",
-        "slug": "wireless-headphones-buying-guide",
-        "kind": "article",
-        "route": "/article/wireless-headphones-buying-guide",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 295,
-          "enWords": 341,
-          "lengthRatio": 0.865,
-          "arLanguageShare": 0.962,
-          "enLanguageShare": 1,
-          "signals": []
-        }
       }
     ],
     "comparisons": [
-      {
-        "id": "cmp-gen-0001",
-        "slug": "iphone-16-vs-galaxy-s25",
-        "kind": "comparison",
-        "route": "/comparison/iphone-16-vs-galaxy-s25",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 23,
-          "enWords": 26,
-          "lengthRatio": 0.885,
-          "arLanguageShare": 0.736,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "cmp-gen-0002",
-        "slug": "pixel-9-vs-nothing-phone-3",
-        "kind": "comparison",
-        "route": "/comparison/pixel-9-vs-nothing-phone-3",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 24,
-          "enWords": 30,
-          "lengthRatio": 0.8,
-          "arLanguageShare": 0.851,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "cmp-gen-0003",
-        "slug": "macbook-air-m3-vs-dell-xps-13",
-        "kind": "comparison",
-        "route": "/comparison/macbook-air-m3-vs-dell-xps-13",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 24,
-          "enWords": 28,
-          "lengthRatio": 0.857,
-          "arLanguageShare": 0.72,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
       {
         "id": "cmp-gen-0004",
         "slug": "thinkpad-x1-vs-hp-elitebook",
@@ -3298,50 +2880,6 @@
           "enWords": 135,
           "lengthRatio": 0.933,
           "arLanguageShare": 0.863,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "cmp-gen-0020",
-        "slug": "ps5-vs-xbox-series-x",
-        "kind": "comparison",
-        "route": "/comparison/ps5-vs-xbox-series-x",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 21,
-          "enWords": 26,
-          "lengthRatio": 0.808,
-          "arLanguageShare": 0.777,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "cmp-gen-0021",
-        "slug": "apple-watch-10-vs-galaxy-watch-7",
-        "kind": "comparison",
-        "route": "/comparison/apple-watch-10-vs-galaxy-watch-7",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 19,
-          "enWords": 23,
-          "lengthRatio": 0.826,
-          "arLanguageShare": 0.575,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -4556,6 +4094,28 @@
           "enWords": 209,
           "lengthRatio": 0.789,
           "arLanguageShare": 0.892,
+          "enLanguageShare": 1,
+          "signals": []
+        }
+      },
+      {
+        "id": "page-p7-team",
+        "slug": "team",
+        "kind": "static-page",
+        "route": "/page/team",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "confidence": "high",
+        "fieldComplete": true,
+        "automatedCandidate": true,
+        "humanReviewed": false,
+        "metrics": {
+          "fieldComplete": true,
+          "automatedCandidate": true,
+          "arWords": 144,
+          "enWords": 180,
+          "lengthRatio": 0.8,
+          "arLanguageShare": 0.859,
           "enLanguageShare": 1,
           "signals": []
         }

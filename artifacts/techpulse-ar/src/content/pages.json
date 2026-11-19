@@ -18,6 +18,23 @@
     "showInFooter": true
   },
   {
+    "id": "page-p7-team",
+    "slug": "team",
+    "title": {
+      "ar": "فريق NetSec Atlas",
+      "en": "The NetSec Atlas Team"
+    },
+    "description": {
+      "ar": "من يكتب محتوى NetSec Atlas وكيف نعمل: فريق تحرير يكتب ويراجع أدلة عملية في الشبكات والأمن السيبراني اعتمادًا على الوثائق الرسمية.",
+      "en": "Who writes NetSec Atlas and how we work: an editorial team that writes and reviews practical networking and cybersecurity guides based on official documentation."
+    },
+    "content": {
+      "ar": "## فريق NetSec Atlas\n\nتُنشر مقالات NetSec Atlas باسم **فريق NetSec Atlas**، وهو الفريق التحريري للمنصة. نكتب بالعربية أولًا ثم نوفّر نسخة إنجليزية، ونركّز على ما يحتاجه مهندسو الشبكات ومسؤولو الأنظمة وفرق الأمن في عملهم اليومي.\n\n### كيف نكتب\n\n- **المصادر الرسمية أولًا:** نعتمد على وثائق المصنّعين (مثل Microsoft وFortinet وKaspersky) والمعايير (مثل RFC وإرشادات NIST وCISA)، ونضع روابط المراجع في نهاية المقالات.\n- **التاريخ والإصدار:** نذكر الإصدار الذي ينطبق عليه الشرح عندما يكون ذلك مهمًا، ونحدّث المقال أو ننبّه عند تغيّر المنتج.\n- **لا ادعاءات غير موثقة:** لا ننسب لأنفسنا شهادات أو خبرات لا يمكن التحقق منها، ولا نخترع أرقامًا أو نتائج.\n- **الترجمة:** النسخ الإنجليزية مُعدّة من الفريق نفسه، وما لم تتم مراجعته بعد يبقى قيد المراجعة.\n\n### التصحيحات\n\nإذا وجدت خطأ تقنيًا أو معلومة قديمة، راسلنا عبر [صفحة التواصل](/ar/page/contact). نراجع كل بلاغ ونصحّح المقال ونحدّث تاريخه. تفاصيل منهجيتنا في [السياسة التحريرية](/ar/page/editorial-policy).",
+      "en": "## The NetSec Atlas Team\n\nNetSec Atlas articles are published under the byline **NetSec Atlas Team**, the platform's editorial team. We write in Arabic first and provide an English version, focusing on what network engineers, system administrators and security teams need in their daily work.\n\n### How we write\n\n- **Official sources first:** we rely on vendor documentation (such as Microsoft, Fortinet and Kaspersky) and standards (such as RFCs and NIST and CISA guidance), and list references at the end of articles.\n- **Dates and versions:** we state the version a guide applies to when it matters, and update or flag articles when a product changes.\n- **No unverifiable claims:** we don't claim certifications or experience that can't be verified, and we don't invent numbers or results.\n- **Translation:** English versions are prepared by the same team; anything not yet reviewed is marked as pending review.\n\n### Corrections\n\nFound a technical error or outdated information? Write to us via the [contact page](/en/page/contact). We review every report, correct the article and update its date. Our methodology is in the [editorial policy](/en/page/editorial-policy)."
+    },
+    "showInFooter": true
+  },
+  {
     "id": "page-gen-06",
     "slug": "contact",
     "title": {

@@ -5,104 +5,202 @@
     <link>https://netsecatlas.com/en/</link>
     <description>The latest practical articles on networking, cybersecurity and infrastructure from NetSec Atlas.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://netsecatlas.com/en/rss.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Best Wireless Headphones on a Mid-Range Budget: A Practical Buying Guide</title>
-      <link>https://netsecatlas.com/en/article/wireless-headphones-buying-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/wireless-headphones-buying-guide</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
-      <description>You don&apos;t need to pay top dollar for an excellent listening experience. Here&apos;s a practical guide to choosing wireless headphones that fit your use case on a reasonable budget.</description>
-      <category>headphones</category>
-      <category>audio</category>
-      <category>buying-guide</category>
-      <category>review</category>
+      <title>Key Windows Security Event IDs for SOC Teams: What to Monitor and Why</title>
+      <link>https://netsecatlas.com/en/article/windows-security-event-ids-soc</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/windows-security-event-ids-soc</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Reference table of key Windows security events — logons, accounts and groups, Kerberos, processes, services, scheduled tasks, log clearing — and the audit policy they need.</description>
+      <category>windows</category>
+      <category>event-logs</category>
+      <category>soc</category>
+      <category>siem</category>
+      <category>detection</category>
     </item>
     <item>
-      <title>The Best Everyday Uses of AI (It&apos;s Not Just ChatGPT)</title>
-      <link>https://netsecatlas.com/en/article/ai-everyday-uses-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/ai-everyday-uses-guide</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description>AI has become a genuinely practical everyday tool, not just an experimental technology. Here are real uses you can start today, no technical background required.</description>
-      <category>ai</category>
-      <category>chatgpt</category>
-      <category>productivity</category>
+      <title>KES 12 Exclusions in Kaspersky Security Center: Safe Setup and XML Import</title>
+      <link>https://netsecatlas.com/en/article/kes-12-exclusions-kaspersky-security-center</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/kes-12-exclusions-kaspersky-security-center</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>The difference between scan exclusions and trusted applications in KES 12, how to add them in policy, import them as XML, and avoid dangerous blind spots.</description>
+      <category>kaspersky</category>
+      <category>kes</category>
+      <category>kaspersky-security-center</category>
+      <category>exclusions</category>
+      <category>endpoint-security</category>
+    </item>
+    <item>
+      <title>Kerberoasting: How It Works, How to Detect and Prevent It</title>
+      <link>https://netsecatlas.com/en/article/kerberoasting-detection-prevention</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/kerberoasting-detection-prevention</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Why any domain account can attack service accounts, how to detect it with event 4769, and how to prevent it with gMSAs, long passwords and AES.</description>
+      <category>kerberos</category>
+      <category>active-directory</category>
+      <category>kerberoasting</category>
+      <category>service-accounts</category>
+      <category>detection</category>
+    </item>
+    <item>
+      <title>SSL VPN Tunnel Mode Removed in FortiOS 7.6.3: A Migration Plan to IPsec VPN</title>
+      <link>https://netsecatlas.com/en/article/fortios-ssl-vpn-tunnel-mode-removal-ipsec-migration</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/fortios-ssl-vpn-tunnel-mode-removal-ipsec-migration</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>What changed in FortiOS 7.6.3, why you must migrate before upgrading, and how to move users, groups and policies to IPsec over TCP 443 step by step.</description>
+      <category>fortinet</category>
+      <category>fortigate</category>
+      <category>ipsec</category>
+      <category>ssl-vpn</category>
+      <category>migration</category>
+    </item>
+    <item>
+      <title>FortiClient Error -7200 in SSL VPN: Causes and Fixes</title>
+      <link>https://netsecatlas.com/en/article/forticlient-error-7200-fix</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/forticlient-error-7200-fix</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Error -7200 rarely means a wrong password. The real causes in order — tunnel mode after FortiOS 7.6.3, portals, cipher strength, certificates — plus debug commands.</description>
+      <category>fortinet</category>
+      <category>forticlient</category>
+      <category>ssl-vpn</category>
+      <category>troubleshooting</category>
+    </item>
+    <item>
+      <title>Exploited Vulnerabilities Roundup — August 2026</title>
+      <link>https://netsecatlas.com/en/article/exploited-vulnerabilities-roundup-august-2026</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/exploited-vulnerabilities-roundup-august-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Five security events from early August 2026 in one place: what happened, who is affected, what to do now, and the shared lessons for IT teams.</description>
+      <category>news</category>
+      <category>vulnerability</category>
+      <category>roundup</category>
+      <category>patching</category>
+    </item>
+    <item>
+      <title>Rolling Out DMARC from p=none to p=reject: A Phased Plan</title>
+      <link>https://netsecatlas.com/en/article/dmarc-rollout-none-to-reject</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/dmarc-rollout-none-to-reject</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>A practical four-phase plan: inventory and monitoring, fixing alignment, gradual quarantine, then reject — with DNS record examples and common pitfalls.</description>
+      <category>dmarc</category>
+      <category>spf</category>
+      <category>dkim</category>
+      <category>email-security</category>
+      <category>dns</category>
+    </item>
+    <item>
+      <title>Enterprise Email Security: The Complete Guide to SPF, DKIM and DMARC</title>
+      <link>https://netsecatlas.com/en/article/enterprise-email-security-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/enterprise-email-security-guide</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>How to protect your domain and users: SPF, DKIM and DMARC authentication, Gmail, Yahoo and Outlook sender requirements, MTA-STS, mail gateways and phishing awareness.</description>
+      <category>email-security</category>
+      <category>spf</category>
+      <category>dkim</category>
+      <category>dmarc</category>
+      <category>phishing</category>
+      <category>pillar</category>
+    </item>
+    <item>
+      <title>Endpoint Security and Vulnerability Management: The Complete Guide</title>
+      <link>https://netsecatlas.com/en/article/endpoint-vulnerability-management-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/endpoint-vulnerability-management-guide</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Build an integrated programme: asset inventory, endpoint protection and EDR, safe exclusions, scanning, CVSS/EPSS/KEV prioritisation and patching.</description>
+      <category>endpoint-security</category>
+      <category>edr</category>
+      <category>vulnerability-management</category>
+      <category>patching</category>
+      <category>pillar</category>
+    </item>
+    <item>
+      <title>Active Directory and Identity Security: The Complete Guide</title>
+      <link>https://netsecatlas.com/en/article/active-directory-identity-security-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/active-directory-identity-security-guide</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Why attackers go after Active Directory first and how to protect it: the tier model, service accounts, Kerberos, LAPS, Group Policy and monitoring.</description>
+      <category>active-directory</category>
+      <category>identity</category>
+      <category>kerberos</category>
+      <category>privileged-access</category>
+      <category>pillar</category>
+    </item>
+    <item>
+      <title>SOC and Incident Response: The Complete Guide</title>
+      <link>https://netsecatlas.com/en/article/soc-incident-response-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/soc-incident-response-guide</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>How to build a realistic detection and response capability: log sources, SIEM, detection rules, NIST response phases, playbooks and the metrics that matter.</description>
+      <category>soc</category>
+      <category>siem</category>
+      <category>incident-response</category>
+      <category>detection</category>
+      <category>pillar</category>
+    </item>
+    <item>
+      <title>Enterprise Network Security: The Complete Guide</title>
+      <link>https://netsecatlas.com/en/article/enterprise-network-security-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/enterprise-network-security-guide</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Design a secure enterprise network: defense layers, firewall policy, remote access after SSL VPN tunnel mode removal, segmentation and monitoring.</description>
+      <category>network-security</category>
+      <category>firewall</category>
+      <category>vpn</category>
+      <category>segmentation</category>
+      <category>pillar</category>
+    </item>
+    <item>
+      <title>Two-Factor Authentication (2FA): A Practical Guide and Methods Compared</title>
+      <link>https://netsecatlas.com/en/article/2fa-practical-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/2fa-practical-guide</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Every type of two-factor authentication, how to set it up correctly, and the common attacks targeting it with how to protect yourself.</description>
+      <category>2fa</category>
+      <category>authentication</category>
       <category>guide</category>
     </item>
     <item>
-      <title>Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks</title>
-      <link>https://netsecatlas.com/en/article/sonicwall-sma1000-ransomware-exploitation-2026</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/sonicwall-sma1000-ransomware-exploitation-2026</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
-      <description>The INC Ransomware gang is targeting vulnerable SonicWall SMA1000 appliances for root access and lateral movement inside networks.</description>
-      <category>sonicwall</category>
-      <category>ransomware</category>
-      <category>news</category>
+      <title>Setting Up FortiGate SSL VPN Step by Step (with the FortiOS 7.6.3 Caveat)</title>
+      <link>https://netsecatlas.com/en/article/fortigate-ssl-vpn-checklist</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/fortigate-ssl-vpn-checklist</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>The five interconnected steps to set up SSL VPN correctly the first time, with diagnosis of the most common failures.</description>
+      <category>fortinet</category>
+      <category>fortigate</category>
+      <category>ssl-vpn</category>
+      <category>guide</category>
     </item>
     <item>
-      <title>N-central Vulnerability (CVE-2026-18577) Exploited After Bypassing an Earlier Patch</title>
-      <link>https://netsecatlas.com/en/article/n-able-n-central-cve-2026-18577-exploited</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/n-able-n-central-cve-2026-18577-exploited</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
-      <description>N-able issued a new patch after attackers found a way to bypass the earlier fix for the vulnerability.</description>
-      <category>n-able</category>
-      <category>rmm</category>
-      <category>news</category>
-      <category>vulnerability</category>
-    </item>
-    <item>
-      <title>Choosing the Right Laptop for You: Students, Work, and Design</title>
-      <link>https://netsecatlas.com/en/article/laptop-buying-guide-2026</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/laptop-buying-guide-2026</guid>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-      <description>The right laptop varies completely by use case -- a student needs something different from what a designer or office worker needs. Here&apos;s a practical guide to help you choose correctly the first time.</description>
-      <category>laptop</category>
-      <category>buying-guide</category>
-      <category>students</category>
-      <category>work</category>
-    </item>
-    <item>
-      <title>CosmosEscape Flaw in Azure Cosmos DB Exposed Full Primary Keys</title>
-      <link>https://netsecatlas.com/en/article/azure-cosmos-db-cosmosescape-flaw</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/azure-cosmos-db-cosmosescape-flaw</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description>A critical flaw allowed full read and write access to affected Cosmos DB accounts.</description>
-      <category>azure</category>
-      <category>cloud-security</category>
-      <category>news</category>
-    </item>
-    <item>
-      <title>Massive Password Spray Campaign Targeting Azure CLI</title>
-      <link>https://netsecatlas.com/en/article/azure-cli-password-spray-campaign</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/azure-cli-password-spray-campaign</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Large-scale automated login attempts against Azure accounts via the command-line tool.</description>
-      <category>azure</category>
-      <category>password-spray</category>
-      <category>news</category>
+      <title>Password Managers: Why You Need One and How to Start</title>
+      <link>https://netsecatlas.com/en/article/password-manager-start</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/password-manager-start</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>How password managers actually work, why they&apos;re safer than memorizing, and a practical migration plan without locking yourself out.</description>
+      <category>password-manager</category>
+      <category>passwords</category>
       <category>identity</category>
     </item>
     <item>
-      <title>Ruby on Rails Patches a Critical Remote Code Execution Vulnerability</title>
-      <link>https://netsecatlas.com/en/article/ruby-on-rails-critical-rce-patch</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/ruby-on-rails-critical-rce-patch</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description>The flaw is exploitable by an unauthenticated attacker to read arbitrary files and potentially achieve code execution.</description>
-      <category>ruby-on-rails</category>
-      <category>rce</category>
-      <category>news</category>
-      <category>web-security</category>
+      <title>A Secure Remote Work Checklist: 12 Controls for IT Teams</title>
+      <link>https://netsecatlas.com/en/article/secure-remote-work-checklist</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/secure-remote-work-checklist</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Twelve practical controls for remote staff: secure access and MFA, device protection and encryption, updates, home networks, backups and lost devices.</description>
+      <category>remote-work</category>
+      <category>security-checklist</category>
+      <category>vpn</category>
     </item>
     <item>
-      <title>Buying a New Phone in 2026: Which Specs Are Actually Worth Paying More For</title>
-      <link>https://netsecatlas.com/en/article/mobile-buying-guide-2026</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/mobile-buying-guide-2026</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Not every spec printed on a phone&apos;s box matters equally to every user. Here&apos;s a practical guide to help you decide where your budget is genuinely worth spending, and where you can save.</description>
-      <category>smartphone</category>
-      <category>buying-guide</category>
-      <category>android</category>
-      <category>ios</category>
+      <title>OWASP Top 10: An Overview of the Most Critical Web Application Risks</title>
+      <link>https://netsecatlas.com/en/article/owasp-top-10-overview</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/owasp-top-10-overview</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Key categories in detail (Broken Access Control, Injection, Cryptographic Failures), and why the list changes and how to use it practically.</description>
+      <category>owasp</category>
+      <category>web-security</category>
+      <category>secure-design</category>
+      <category>guide</category>
     </item>
     <item>
       <title>Printer Not Working or Printing Correctly? Common Fixes</title>
@@ -112,18 +210,6 @@
       <description>Printer problems are among the most time-wasting situations, especially when you&apos;re in a hurry. Here are common fixes for the most frequent home and office printer issues.</description>
       <category>printer</category>
       <category>troubleshooting</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Phone Slowing Down Over Time? Real Causes and Practical Fixes</title>
-      <link>https://netsecatlas.com/en/article/phone-slow-performance-fixes</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/phone-slow-performance-fixes</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Gradual phone slowdown is a very common issue with everyday use. Here are the real causes and practical steps you can take yourself before considering a replacement.</description>
-      <category>smartphone</category>
-      <category>performance</category>
-      <category>android</category>
-      <category>ios</category>
       <category>guide</category>
     </item>
     <item>
@@ -138,28 +224,6 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Backing Up Your Data: A Simple Guide So You Never Lose Your Photos and Files</title>
-      <link>https://netsecatlas.com/en/article/data-backup-simple-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/data-backup-simple-guide</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <description>A sudden device failure or loss can wipe out years of important photos and files in an instant. Here&apos;s a simple, practical backup plan you can set up today.</description>
-      <category>backup</category>
-      <category>data</category>
-      <category>cloud</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Laptop Battery Draining Fast? How to Extend Its Life and Diagnose the Problem</title>
-      <link>https://netsecatlas.com/en/article/laptop-battery-health-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/laptop-battery-health-guide</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Laptop battery wear is natural over time, but there&apos;s a difference between normal degradation and a real problem. Here&apos;s how to tell them apart and genuinely extend battery life.</description>
-      <category>battery</category>
-      <category>laptop</category>
-      <category>maintenance</category>
-      <category>guide</category>
-    </item>
-    <item>
       <title>Common Wi-Fi Problems and Their Step-by-Step Fixes</title>
       <link>https://netsecatlas.com/en/article/wifi-connection-problems-fixes</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/wifi-connection-problems-fixes</guid>
@@ -171,30 +235,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Phone Storage Full? How to Free Up Space Quickly and Safely</title>
-      <link>https://netsecatlas.com/en/article/phone-storage-full-fixes</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/phone-storage-full-fixes</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <description>A full phone is a very common problem that blocks updates and important photos. Here are the fastest, safest ways to free real space without losing anything important.</description>
-      <category>storage</category>
-      <category>smartphone</category>
-      <category>android</category>
-      <category>ios</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Laptop Running Slow? 10 Real Causes and Practical Fixes</title>
-      <link>https://netsecatlas.com/en/article/laptop-slow-performance-fixes</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/laptop-slow-performance-fixes</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
-      <description>If your laptop has become slow, here are the most common real causes and practical steps you can take right now to improve performance.</description>
-      <category>laptop</category>
-      <category>performance</category>
-      <category>maintenance</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Zero-Day Vulnerabilities: The Complete Guide</title>
+      <title>Zero-Day Vulnerabilities: What They Are and How to Prepare</title>
       <link>https://netsecatlas.com/en/article/zero-day-vulnerabilities-explained</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/zero-day-vulnerabilities-explained</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
@@ -216,7 +257,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Data Loss Prevention (DLP): The Complete Guide</title>
+      <title>Data Loss Prevention (DLP): Channels, Policies and Rollout</title>
       <link>https://netsecatlas.com/en/article/data-loss-prevention-dlp-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/data-loss-prevention-dlp-guide</guid>
       <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
@@ -227,7 +268,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>BYOD Policy (Bring Your Own Device): The Complete Guide</title>
+      <title>BYOD Policy (Bring Your Own Device): Controls and Security</title>
       <link>https://netsecatlas.com/en/article/byod-policy-security-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/byod-policy-security-guide</guid>
       <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
@@ -238,7 +279,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>The Complete Guide to Network Scanning with Nmap</title>
+      <title>Network Scanning with Nmap: Core Commands and Responsible Use</title>
       <link>https://netsecatlas.com/en/article/nmap-network-scanning-complete-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/nmap-network-scanning-complete-guide</guid>
       <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
@@ -248,7 +289,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>How Cloud Storage Actually Works: The Complete Guide</title>
+      <title>How Cloud Storage Actually Works</title>
       <link>https://netsecatlas.com/en/article/how-cloud-storage-actually-works</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/how-cloud-storage-actually-works</guid>
       <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
@@ -258,23 +299,13 @@
       <category>guide</category>
     </item>
     <item>
-      <title>The Complete Guide to Network Traffic Analysis with Wireshark</title>
+      <title>Network Traffic Analysis with Wireshark: Filters and Practical Cases</title>
       <link>https://netsecatlas.com/en/article/wireshark-network-analysis-complete-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/wireshark-network-analysis-complete-guide</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
       <description>Capture and display filters in detail, real diagnostic scenarios (slowness, suspicious DNS, TLS failures), and an important safety note before use.</description>
       <category>wireshark</category>
       <category>network-analysis</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>How QR Codes Actually Work: The Complete Guide</title>
-      <link>https://netsecatlas.com/en/article/how-qr-codes-work</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/how-qr-codes-work</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description>The difference from traditional barcodes, the role of built-in error correction, and practical advice when adding a logo to a QR code.</description>
-      <category>qr-code</category>
-      <category>technology</category>
       <category>guide</category>
     </item>
     <item>
@@ -300,18 +331,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>OWASP Top 10 Overview: The Complete Guide</title>
-      <link>https://netsecatlas.com/en/article/owasp-top-10-overview</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/owasp-top-10-overview</guid>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Key categories in detail (Broken Access Control, Injection, Cryptographic Failures), and why the list changes and how to use it practically.</description>
-      <category>owasp</category>
-      <category>web-security</category>
-      <category>secure-design</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Local Admin Password Rotation (LAPS): Why It Matters a Lot</title>
+      <title>Local Admin Password Rotation with Windows LAPS: Why It Matters</title>
       <link>https://netsecatlas.com/en/article/windows-local-admin-password-rotation</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/windows-local-admin-password-rotation</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
@@ -322,7 +342,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Web Application Firewall (WAF): The Complete Guide</title>
+      <title>Web Application Firewalls (WAF): How They Work and When You Need One</title>
       <link>https://netsecatlas.com/en/article/web-application-firewall-waf-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/web-application-firewall-waf-guide</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
@@ -333,7 +353,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Container Security Basics: The Complete Guide</title>
+      <title>Container Security Basics: From Image to Runtime</title>
       <link>https://netsecatlas.com/en/article/container-security-basics-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/container-security-basics-guide</guid>
       <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
@@ -344,7 +364,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Disaster Recovery Plan (DRP) Basics: The Complete Guide</title>
+      <title>Disaster Recovery Plan (DRP) Basics: RTO, RPO and Testing</title>
       <link>https://netsecatlas.com/en/article/disaster-recovery-plan-basics</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/disaster-recovery-plan-basics</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
@@ -355,18 +375,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>How to Build a Security Incident Response Plan From Scratch</title>
-      <link>https://netsecatlas.com/en/article/incident-response-plan-from-scratch</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/incident-response-plan-from-scratch</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
-      <description>The six phases per the NIST framework, a first-hour checklist for any incident, and the most common mistake that increases damage instead of reducing it.</description>
-      <category>incident-response</category>
-      <category>nist</category>
-      <category>security-planning</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Immutable Backups: The Complete Guide to Ransomware&apos;s Last Line of Defense</title>
+      <title>Immutable Backups: Ransomware&apos;s Last Line of Defence</title>
       <link>https://netsecatlas.com/en/article/immutable-backups-ransomware-defense</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/immutable-backups-ransomware-defense</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
@@ -377,7 +386,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Authentication vs Authorization: The Complete Guide</title>
+      <title>Authentication vs Authorization: The Difference, with Examples</title>
       <link>https://netsecatlas.com/en/article/authentication-vs-authorization-explained</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/authentication-vs-authorization-explained</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
@@ -421,7 +430,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Supply Chain Attacks: The Complete Guide to When the Risk Comes from a Trusted Vendor</title>
+      <title>Supply Chain Attacks: When the Risk Comes from a Trusted Vendor</title>
       <link>https://netsecatlas.com/en/article/supply-chain-attacks-third-party-risk</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/supply-chain-attacks-third-party-risk</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
@@ -432,7 +441,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>The Complete Guide to Using PowerShell for System Administration</title>
+      <title>PowerShell for System Administrators: From Basics to Automation</title>
       <link>https://netsecatlas.com/en/article/powershell-sysadmin-complete-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/powershell-sysadmin-complete-guide</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
@@ -443,18 +452,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Security Operations Center (SOC): The Complete Guide</title>
-      <link>https://netsecatlas.com/en/article/security-operations-center-soc-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/security-operations-center-soc-guide</guid>
-      <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
-      <description>The 3 traditional SOC team tiers, the 24/7 time-coverage challenge (internal vs MSSP), and MTTD/MTTR metrics for measuring effectiveness.</description>
-      <category>soc</category>
-      <category>security-operations</category>
-      <category>mssp</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Building an Insider Risk Program: The Complete Guide</title>
+      <title>Building an Insider Risk Programme</title>
       <link>https://netsecatlas.com/en/article/insider-risk-program-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/insider-risk-program-guide</guid>
       <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
@@ -465,7 +463,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Secure Software Development Lifecycle (SSDLC): The Complete Guide</title>
+      <title>The Secure Software Development Lifecycle (SSDLC): Security at Every Stage</title>
       <link>https://netsecatlas.com/en/article/secure-sdlc-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/secure-sdlc-guide</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
@@ -473,38 +471,6 @@
       <category>ssdlc</category>
       <category>devsecops</category>
       <category>secure-coding</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>MFA Methods Compared: SMS vs App vs Hardware Key</title>
-      <link>https://netsecatlas.com/en/article/mfa-methods-compared-sms-app-hardware</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/mfa-methods-compared-sms-app-hardware</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Not all MFA types offer the same security level -- the differences matter.</description>
-      <category>mfa</category>
-      <category>authentication</category>
-      <category>identity</category>
-    </item>
-    <item>
-      <title>Building a Successful Vulnerability Management Program: The Complete Guide</title>
-      <link>https://netsecatlas.com/en/article/vulnerability-management-program-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/vulnerability-management-program-guide</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-      <description>The full lifecycle (discovery, assessment, remediation, verification), a practical priority system beyond just the CVSS score, and a suggested timeframe table.</description>
-      <category>vulnerability-management</category>
-      <category>cvss</category>
-      <category>security-operations</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>iOS vs Android: The Complete Choosing Guide</title>
-      <link>https://netsecatlas.com/en/article/ios-vs-android-choosing-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/ios-vs-android-choosing-guide</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-      <description>3 practical factors deserving genuine thought (integration, customization, budget), and the real difference in update support duration.</description>
-      <category>ios</category>
-      <category>android</category>
-      <category>smartphone</category>
       <category>guide</category>
     </item>
     <item>
@@ -519,17 +485,7 @@
       <category>guide</category>
     </item>
     <item>
-      <title>A Digital File Organization System: The Complete Guide</title>
-      <link>https://netsecatlas.com/en/article/digital-file-organization-system</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/digital-file-organization-system</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Why classifying by project beats classifying by file type, and a consistent naming system with a sortable date format.</description>
-      <category>productivity</category>
-      <category>file-management</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>The Complete Guide to Setting Up and Managing Active Directory From Scratch</title>
+      <title>Setting Up and Managing Active Directory from Scratch, Step by Step</title>
       <link>https://netsecatlas.com/en/article/active-directory-complete-setup-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/active-directory-complete-setup-guide</guid>
       <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
@@ -540,15 +496,72 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Choosing a Laptop for Developers: The Complete Guide</title>
-      <link>https://netsecatlas.com/en/article/laptop-for-developers-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/laptop-for-developers-guide</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
-      <description>4 components that genuinely matter in detail, and a comparison of the three OS options (macOS/Linux/Windows+WSL) by work type.</description>
-      <category>laptop</category>
-      <category>developers</category>
-      <category>programming</category>
+      <title>Data Classification: Not Every File Needs the Same Protection Level</title>
+      <link>https://netsecatlas.com/en/article/data-classification-basics</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/data-classification-basics</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <description>A detailed four-level classification system, and why trying to classify everything at once from day one is the most common practical mistake that fails the whole project.</description>
+      <category>data-classification</category>
+      <category>compliance</category>
+      <category>governance</category>
       <category>guide</category>
+    </item>
+    <item>
+      <title>Certificate Expiry Monitoring: Avoiding the Embarrassing Outage</title>
+      <link>https://netsecatlas.com/en/article/certificate-expiry-monitoring</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/certificate-expiry-monitoring</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description>Why automatic renewal (ACME/Let&apos;s Encrypt) is the ideal solution, alternative steps if renewal is manual, and a quick verification command for any site.</description>
+      <category>ssl</category>
+      <category>certificates</category>
+      <category>monitoring</category>
+      <category>guide</category>
+    </item>
+    <item>
+      <title>Enterprise AI Image Generation: Data, Risk, and Publishing Controls</title>
+      <link>https://netsecatlas.com/en/article/how-ai-image-generation-works</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/how-ai-image-generation-works</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <description>A practical workflow for protecting data, reviewing rights, detecting impersonation, and approving generated images before publication.</description>
+      <category>generative-ai</category>
+      <category>data-privacy</category>
+      <category>deepfake</category>
+      <category>content-provenance</category>
+      <category>governance</category>
+    </item>
+    <item>
+      <title>How LLMs Work in Enterprise IT: A Practical Guide to Trust and Risk</title>
+      <link>https://netsecatlas.com/en/article/how-large-language-models-work</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/how-large-language-models-work</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <description>A practical explanation of tokens, context windows, and RAG—and why LLM output needs evidence and security controls.</description>
+      <category>llm</category>
+      <category>ai-security</category>
+      <category>rag</category>
+      <category>data-privacy</category>
+      <category>technical-validation</category>
+    </item>
+    <item>
+      <title>Dual Control: Why a Sensitive Operation Needs Two People&apos;s Approval</title>
+      <link>https://netsecatlas.com/en/article/dual-control-critical-operations</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/dual-control-critical-operations</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <description>3 angles on why this principle genuinely matters, real application examples, and why a fast approval mechanism is essential for successful implementation.</description>
+      <category>dual-control</category>
+      <category>access-control</category>
+      <category>insider-threat</category>
+      <category>guide</category>
+    </item>
+    <item>
+      <title>Writing Safe AI Prompts for Technical Troubleshooting: An Engineer’s Template</title>
+      <link>https://netsecatlas.com/en/article/effective-ai-prompting-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/effective-ai-prompting-guide</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <description>A structured diagnostic prompt that separates facts from assumptions, starts read-only, and requires risks, verification, and rollback.</description>
+      <category>ai-security</category>
+      <category>troubleshooting</category>
+      <category>change-safety</category>
+      <category>data-privacy</category>
     </item>
   </channel>
 </rss>

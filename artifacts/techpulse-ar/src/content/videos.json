@@ -1,262 +1,2221 @@
 [
   {
-    "id": "vid-gen-0001",
+    "id": "vid-fortigate-firewall-policy-internet-access",
+    "slug": "fortigate-firewall-policy-internet-access",
+    "youtubeId": "36wU22YqrGw",
     "title": {
-      "ar": "أساسيات الشبكات: كيف تعمل الإنترنت من الداخل",
-      "en": "Networking fundamentals: how the internet actually works"
+      "ar": "إنشاء Firewall Policy على FortiGate للسماح بالوصول للإنترنت",
+      "en": "Creating a FortiGate firewall policy for internet access"
     },
+    "originalTitle": "Configure a Firewall Policy for a PC to Access Internet | FortiGate",
     "description": {
-      "ar": "شرح تأسيسي لمفاهيم الشبكات الأساسية اللي بيتبنى عليها أي فهم لاحق للأمن السيبراني.",
-      "en": "A foundational walkthrough of core networking concepts that any later cybersecurity understanding builds on."
+      "ar": "فيديو قصير من قناة Fortinet الرسمية يوضح إنشاء سياسة جدار حماية تسمح لجهاز داخلي بالوصول إلى الإنترنت.",
+      "en": "A short video from the official Fortinet channel showing how to create a policy that lets an internal PC reach the internet."
     },
+    "notes": {
+      "ar": [
+        "السياسة تُقرأ من الأعلى للأسفل وأول تطابق ينفَّذ.",
+        "فعّل NAT على سياسة الخروج للإنترنت عند استخدام عناوين خاصة.",
+        "فعّل Log Allowed Traffic أثناء الاختبار ثم راجع حجم السجلات."
+      ],
+      "en": [
+        "Policies are evaluated top-down; the first match wins.",
+        "Enable NAT on outbound internet policies when internal hosts use private addresses.",
+        "Log allowed traffic while testing, then review log volume."
+      ]
+    },
+    "channel": {
+      "name": "Fortinet",
+      "url": "https://www.youtube.com/@fortinet"
+    },
+    "duration": "PT3M58S",
+    "durationText": "3:58",
+    "language": "en",
+    "playlist": "firewalls-vpn",
+    "position": 1,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-fortigate-static-route-setup",
+    "slug": "fortigate-static-route-setup",
+    "youtubeId": "bSVqTERvTeY",
+    "title": {
+      "ar": "إعداد Static Route على FortiGate",
+      "en": "Setting up a static route on FortiGate"
+    },
+    "originalTitle": "How to setup Static Route on FortiGate",
+    "description": {
+      "ar": "شرح من Fortinet Video Library لإضافة مسار ثابت على FortiGate، وهي خطوة أساسية قبل أي سياسة أو VPN.",
+      "en": "A Fortinet Video Library walkthrough of adding a static route on FortiGate, a prerequisite for most policies and VPNs."
+    },
+    "notes": {
+      "ar": [
+        "المسار الافتراضي 0.0.0.0/0 يشير إلى بوابة مزود الخدمة.",
+        "المسافة الإدارية (Distance) تحدد المسار المفضل عند وجود أكثر من مسار.",
+        "تحقق من جدول التوجيه بالأمر get router info routing-table all."
+      ],
+      "en": [
+        "The default route 0.0.0.0/0 points at the ISP gateway.",
+        "Administrative distance decides which route wins when several exist.",
+        "Verify with get router info routing-table all."
+      ]
+    },
+    "channel": {
+      "name": "Fortinet Video Library",
+      "url": "https://www.youtube.com/@fortinetvideolibrary"
+    },
+    "duration": "PT4M58S",
+    "durationText": "4:58",
+    "language": "en",
+    "playlist": "firewalls-vpn",
+    "position": 2,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-fortigate-ssl-vpn-full-tunnel",
+    "slug": "fortigate-ssl-vpn-full-tunnel",
+    "youtubeId": "L4nP3TiDHoo",
+    "title": {
+      "ar": "إعداد SSL VPN بوضع Full Tunnel للمستخدمين عن بُعد",
+      "en": "SSL VPN full-tunnel setup for remote users"
+    },
+    "originalTitle": "SSL VPN Full Tunnel Setup for Remote Users",
+    "description": {
+      "ar": "فيديو رسمي من Fortinet يشرح إعداد SSL VPN بوضع النفق الكامل. مهم: الإصدارات الحديثة من FortiOS (7.6.3 وما بعدها) أوقفت وضع النفق في SSL VPN، فاستخدمه للإصدارات الأقدم فقط.",
+      "en": "An official Fortinet video on SSL VPN full-tunnel mode. Note: recent FortiOS releases (7.6.3 and later) removed SSL VPN tunnel mode, so this applies to older versions only."
+    },
+    "notes": {
+      "ar": [
+        "Full Tunnel يمرر كل حركة المستخدم عبر الجدار الناري.",
+        "تأكد من وجود سياسة من واجهة ssl.root إلى الإنترنت عند استخدام Full Tunnel.",
+        "خطط للانتقال إلى IPsec VPN قبل الترقية إلى FortiOS 7.6.3."
+      ],
+      "en": [
+        "Full tunnel sends all user traffic through the firewall.",
+        "Full tunnel needs a policy from ssl.root to the internet.",
+        "Plan the move to IPsec VPN before upgrading to FortiOS 7.6.3."
+      ]
+    },
+    "channel": {
+      "name": "Fortinet Video Library",
+      "url": "https://www.youtube.com/@fortinetvideolibrary"
+    },
+    "duration": "PT5M11S",
+    "durationText": "5:11",
+    "language": "en",
+    "playlist": "firewalls-vpn",
+    "position": 3,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-fortigate-ipsec-vpn-fortios-7-2",
+    "slug": "fortigate-ipsec-vpn-fortios-7-2",
+    "youtubeId": "1pMQGhSbAis",
+    "title": {
+      "ar": "إعداد IPsec VPN في FortiOS 7.2",
+      "en": "Setting up IPsec VPN in FortiOS 7.2"
+    },
+    "originalTitle": "Setting up IPSec VPN in FortiOS 7.2",
+    "description": {
+      "ar": "شرح رسمي لإعداد IPsec VPN باستخدام معالج FortiOS 7.2.",
+      "en": "An official walkthrough of setting up IPsec VPN with the FortiOS 7.2 wizard."
+    },
+    "notes": {
+      "ar": [
+        "المرحلة الأولى (Phase 1) تتفاوض على قناة IKE الآمنة.",
+        "المرحلة الثانية (Phase 2) تحدد الشبكات المحمية (Selectors).",
+        "استخدم IKEv2 وخوارزميات حديثة مثل AES-256 وSHA-256 أو أقوى."
+      ],
+      "en": [
+        "Phase 1 negotiates the secure IKE channel.",
+        "Phase 2 defines the protected networks (selectors).",
+        "Prefer IKEv2 with modern algorithms such as AES-256 and SHA-256 or stronger."
+      ]
+    },
+    "channel": {
+      "name": "Fortinet Video Library",
+      "url": "https://www.youtube.com/@fortinetvideolibrary"
+    },
+    "duration": "PT5M33S",
+    "durationText": "5:33",
+    "language": "en",
+    "playlist": "firewalls-vpn",
+    "position": 4,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-fortigate-ssl-vpn-to-ipsec-migration",
+    "slug": "fortigate-ssl-vpn-to-ipsec-migration",
+    "youtubeId": "U2gX3ff0jnE",
+    "title": {
+      "ar": "الانتقال من SSL VPN إلى IPsec VPN عند الترقية من FortiOS 7.4 إلى 7.6",
+      "en": "Migrating from SSL VPN to IPsec VPN when moving from FortiOS 7.4 to 7.6"
+    },
+    "originalTitle": "52- FortiOS 7.4 to 7.6: Migrate from SSL VPN to IPsec VPN | FortiGate Step-by-Step (Full Guide 2026)",
+    "description": {
+      "ar": "شرح عملي مطوّل لنقل المستخدمين عن بُعد من SSL VPN إلى IPsec VPN قبل الترقية إلى FortiOS 7.6.",
+      "en": "A long hands-on walkthrough of moving remote users from SSL VPN to IPsec VPN before upgrading to FortiOS 7.6."
+    },
+    "notes": {
+      "ar": [
+        "جرّب IPsec Dial-up على مجموعة صغيرة قبل إيقاف SSL VPN.",
+        "وزّع ملف FortiClient الجديد عبر EMS أو ملف إعدادات جاهز.",
+        "افتح منفذ UDP 500 و4500 أو فعّل IKE over TCP حسب الإصدار والشبكة."
+      ],
+      "en": [
+        "Pilot IPsec dial-up with a small group before turning SSL VPN off.",
+        "Push the new FortiClient profile through EMS or a prepared config file.",
+        "Allow UDP 500/4500, or use IKE over TCP where your version and network require it."
+      ]
+    },
+    "channel": {
+      "name": "IT LEARNING LABS",
+      "url": "https://www.youtube.com/@IT-Learning-Labs"
+    },
+    "duration": "PT37M47S",
+    "durationText": "37:47",
+    "language": "en",
+    "playlist": "firewalls-vpn",
+    "position": 5,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-fortinet-ztna-overview",
+    "slug": "fortinet-ztna-overview",
+    "youtubeId": "xqL2LqDP0gw",
+    "title": {
+      "ar": "نظرة عامة على ZTNA من Fortinet",
+      "en": "Fortinet ZTNA overview"
+    },
+    "originalTitle": "ZTNA Overview",
+    "description": {
+      "ar": "مقدمة رسمية لمفهوم الوصول الصفري الثقة (ZTNA) في منظومة Fortinet.",
+      "en": "An official introduction to Zero Trust Network Access in the Fortinet ecosystem."
+    },
+    "notes": {
+      "ar": [
+        "ZTNA يمنح الوصول لتطبيق محدد بدل الشبكة كاملة.",
+        "هوية المستخدم وحالة الجهاز تُفحص في كل جلسة.",
+        "FortiClient EMS يوفر Tags لحالة الجهاز تُستخدم في السياسات."
+      ],
+      "en": [
+        "ZTNA grants access to a specific application, not the whole network.",
+        "User identity and device posture are checked per session.",
+        "FortiClient EMS supplies posture tags used in policies."
+      ]
+    },
+    "channel": {
+      "name": "Fortinet Video Library",
+      "url": "https://www.youtube.com/@fortinetvideolibrary"
+    },
+    "duration": "PT5M27S",
+    "durationText": "5:27",
+    "language": "en",
+    "playlist": "firewalls-vpn",
+    "position": 6,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-fortinet-ztna-getting-started",
+    "slug": "fortinet-ztna-getting-started",
+    "youtubeId": "LldfWVbC17w",
+    "title": {
+      "ar": "البدء مع ZTNA على FortiGate",
+      "en": "Getting started with ZTNA on FortiGate"
+    },
+    "originalTitle": "Getting Started with ZTNA",
+    "description": {
+      "ar": "شرح رسمي أطول لخطوات البدء في ZTNA بين FortiGate وFortiClient EMS.",
+      "en": "A longer official walkthrough of getting started with ZTNA between FortiGate and FortiClient EMS."
+    },
+    "notes": {
+      "ar": [
+        "تحتاج FortiClient EMS وشهادة جهاز لكل عميل.",
+        "ZTNA Access Proxy ينشر التطبيق خلف FortiGate.",
+        "ابدأ بتطبيق واحد غير حرج ثم وسّع."
+      ],
+      "en": [
+        "You need FortiClient EMS and a device certificate per client.",
+        "The ZTNA access proxy publishes the app behind FortiGate.",
+        "Start with one non-critical application, then expand."
+      ]
+    },
+    "channel": {
+      "name": "Fortinet Video Library",
+      "url": "https://www.youtube.com/@fortinetvideolibrary"
+    },
+    "duration": "PT14M39S",
+    "durationText": "14:39",
+    "language": "en",
+    "playlist": "firewalls-vpn",
+    "position": 7,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-palo-alto-nat-tutorial",
+    "slug": "palo-alto-nat-tutorial",
+    "youtubeId": "zLqsSuOVzzU",
+    "title": {
+      "ar": "شرح NAT في جدار Palo Alto",
+      "en": "NAT on Palo Alto firewalls explained"
+    },
+    "originalTitle": "Tutorial: Network Address Translation",
+    "description": {
+      "ar": "شرح رسمي من مجتمع Palo Alto Networks لأنواع NAT وطريقة إعدادها.",
+      "en": "An official Palo Alto Networks community tutorial on NAT types and configuration."
+    },
+    "notes": {
+      "ar": [
+        "قواعد NAT تُقيَّم قبل قواعد الأمان لكن التنفيذ بعدها.",
+        "قاعدة الأمان تستخدم العنوان قبل NAT والمنطقة بعد NAT.",
+        "Source NAT للخروج، وDestination NAT لنشر خادم داخلي."
+      ],
+      "en": [
+        "NAT rules are evaluated before security rules, but applied after.",
+        "Security rules use the pre-NAT address and the post-NAT zone.",
+        "Source NAT for outbound, destination NAT to publish an internal server."
+      ]
+    },
+    "channel": {
+      "name": "Palo Alto Networks LIVEcommunity",
+      "url": "https://www.youtube.com/@PaloAltoNetworksLiveCommunity"
+    },
+    "duration": "PT10M6S",
+    "durationText": "10:06",
+    "language": "en",
+    "playlist": "firewalls-vpn",
+    "position": 8,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-palo-alto-nat-security-policy",
+    "slug": "palo-alto-nat-security-policy",
+    "youtubeId": "Ahrao6kBg8w",
+    "title": {
+      "ar": "فهم العلاقة بين NAT وSecurity Policy في Palo Alto",
+      "en": "Understanding NAT and security policy together on Palo Alto"
+    },
+    "originalTitle": "Tutorial: Understanding the NAT/Security Policy Configuration",
+    "description": {
+      "ar": "شرح رسمي يوضح كيف تتفاعل قواعد NAT مع قواعد الأمان، وهو أكثر ما يربك المبتدئين.",
+      "en": "An official tutorial on how NAT rules interact with security rules, the most common point of confusion."
+    },
+    "notes": {
+      "ar": [
+        "اكتب قاعدة الأمان بعنوان IP الأصلي (Pre-NAT).",
+        "المنطقة الوجهة في قاعدة الأمان هي منطقة ما بعد NAT.",
+        "استخدم Test Policy Match للتحقق قبل الاعتماد."
+      ],
+      "en": [
+        "Write the security rule with the original (pre-NAT) IP.",
+        "The destination zone in the security rule is the post-NAT zone.",
+        "Use Test Policy Match before committing."
+      ]
+    },
+    "channel": {
+      "name": "Palo Alto Networks LIVEcommunity",
+      "url": "https://www.youtube.com/@PaloAltoNetworksLiveCommunity"
+    },
+    "duration": "PT12M47S",
+    "durationText": "12:47",
+    "language": "en",
+    "playlist": "firewalls-vpn",
+    "position": 9,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-palo-alto-u-turn-nat",
+    "slug": "palo-alto-u-turn-nat",
+    "youtubeId": "Bdbn1pbe74o",
+    "title": {
+      "ar": "إعداد U-Turn NAT في Palo Alto",
+      "en": "Configuring U-turn NAT on Palo Alto"
+    },
+    "originalTitle": "Video Tutorial: How to Configure U-Turn NAT",
+    "description": {
+      "ar": "شرح رسمي لحالة شائعة: مستخدمون داخليون يصلون إلى خادم داخلي عبر عنوانه العام.",
+      "en": "An official tutorial for a common case: internal users reaching an internal server via its public address."
+    },
+    "notes": {
+      "ar": [
+        "البديل الأنظف غالبًا هو Split DNS.",
+        "U-Turn يحتاج غالبًا Source NAT مع Destination NAT.",
+        "راقب السجلات للتأكد من عدم كسر التطبيقات الأخرى."
+      ],
+      "en": [
+        "Split DNS is often the cleaner alternative.",
+        "U-turn usually needs source NAT combined with destination NAT.",
+        "Watch the logs to make sure other apps are not affected."
+      ]
+    },
+    "channel": {
+      "name": "Palo Alto Networks LIVEcommunity",
+      "url": "https://www.youtube.com/@PaloAltoNetworksLiveCommunity"
+    },
+    "duration": "PT5M39S",
+    "durationText": "5:39",
+    "language": "en",
+    "playlist": "firewalls-vpn",
+    "position": 10,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-fortigate-arabic-full-course",
+    "slug": "fortigate-arabic-full-course",
+    "youtubeId": "3ycUby-VCoY",
+    "title": {
+      "ar": "شرح FortiGate بالعربي (دورة كاملة)",
+      "en": "FortiGate firewall full course in Arabic"
+    },
+    "originalTitle": "FortiGate Firewall شرح بالعربي",
+    "description": {
+      "ar": "دورة عربية طويلة عن جدار FortiGate من قناة Information Technology، مناسبة لمن يفضّل الشرح بالعربية.",
+      "en": "A long Arabic-language FortiGate course from the Information Technology channel, for viewers who prefer Arabic."
+    },
+    "notes": {
+      "ar": [
+        "تابعها مع مختبر FortiGate VM لتطبيق كل جزء.",
+        "قارن الواجهة بإصدارك الحالي، فبعض القوائم تغيّرت في الإصدارات الحديثة.",
+        "ارجع لمقالنا عن الانتقال من SSL VPN قبل تطبيق أجزاء VPN على 7.6."
+      ],
+      "en": [
+        "Follow along with a FortiGate VM lab.",
+        "Menus differ in newer FortiOS releases; compare with your version.",
+        "Read our SSL VPN migration article before applying the VPN parts on 7.6."
+      ]
+    },
+    "channel": {
+      "name": "Information Technology",
+      "url": "https://www.youtube.com/@FREE4ARAB1"
+    },
+    "duration": "PT9H38M20S",
+    "durationText": "9:38:20",
+    "language": "ar",
+    "playlist": "firewalls-vpn",
+    "position": 11,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-palo-alto-arabic-introduction",
+    "slug": "palo-alto-arabic-introduction",
+    "youtubeId": "hvIatX1UpBw",
+    "title": {
+      "ar": "مقدمة Palo Alto Firewall بالعربي",
+      "en": "Palo Alto firewall introduction in Arabic"
+    },
+    "originalTitle": "01-Palo Alto Firewall (Introduction) By Eng-Mostafa El Lathy | Arabic",
+    "description": {
+      "ar": "الدرس الأول من سلسلة عربية عن جدار Palo Alto للمهندس مصطفى الليثي.",
+      "en": "The first lesson of an Arabic Palo Alto firewall series by Eng. Mostafa El Lathy."
+    },
+    "notes": {
+      "ar": [
+        "Palo Alto يعتمد على App-ID لتمييز التطبيقات لا المنافذ فقط.",
+        "المناطق (Zones) أساس كتابة السياسات.",
+        "كل تغيير لا يُطبَّق إلا بعد Commit."
+      ],
+      "en": [
+        "Palo Alto identifies applications with App-ID, not just ports.",
+        "Zones are the basis of every policy.",
+        "Changes only apply after a commit."
+      ]
+    },
+    "channel": {
+      "name": "Information Technology",
+      "url": "https://www.youtube.com/@FREE4ARAB1"
+    },
+    "duration": "PT5M10S",
+    "durationText": "5:10",
+    "language": "ar",
+    "playlist": "firewalls-vpn",
+    "position": 12,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-computer-networks-crash-course",
+    "slug": "computer-networks-crash-course",
     "youtubeId": "3QhU9jd03a0",
-    "date": "2022-01-01",
-    "categoryId": "cybersecurity",
-    "subcategoryId": "network-security",
-    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+    "title": {
+      "ar": "كيف تعمل شبكات الحاسوب (Crash Course)",
+      "en": "How computer networks work (Crash Course)"
+    },
+    "originalTitle": "Computer Networks: Crash Course Computer Science #28",
+    "description": {
+      "ar": "حلقة تأسيسية من CrashCourse تشرح فكرة شبكات الحاسوب بشكل مبسط.",
+      "en": "A foundational CrashCourse episode explaining how computer networks work."
+    },
+    "notes": {
+      "ar": [
+        "الشبكة المحلية LAN تربط الأجهزة في مكان واحد.",
+        "عنوان MAC يعرّف بطاقة الشبكة على مستوى الطبقة الثانية.",
+        "التوجيه يربط الشبكات ببعضها."
+      ],
+      "en": [
+        "A LAN connects devices in one location.",
+        "A MAC address identifies a network card at layer 2.",
+        "Routing connects networks to each other."
+      ]
+    },
+    "channel": {
+      "name": "CrashCourse",
+      "url": "https://www.youtube.com/@crashcourse"
+    },
+    "duration": null,
+    "durationText": null,
+    "language": "en",
+    "playlist": "network-fundamentals",
+    "position": 1,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
   },
   {
-    "id": "vid-gen-0002",
+    "id": "vid-osi-model-network-plus",
+    "slug": "osi-model-network-plus",
+    "youtubeId": "AYgXr1dynKU",
     "title": {
-      "ar": "مقدمة شاملة في الأمن السيبراني للمبتدئين",
-      "en": "A complete cybersecurity introduction for beginners"
+      "ar": "فهم نموذج OSI (Network+ N10-009)",
+      "en": "Understanding the OSI model (Network+ N10-009)"
     },
+    "originalTitle": "Understanding the OSI Model - CompTIA Network+ N10-009 - 1.1",
     "description": {
-      "ar": "نظرة عامة على المجالات الأساسية للأمن السيبراني ومن أين تبدأ التعلم فيه.",
-      "en": "An overview of the core areas of cybersecurity and where to start learning."
+      "ar": "درس من Professor Messer ضمن منهج Network+ N10-009 الحالي عن طبقات OSI السبع.",
+      "en": "A Professor Messer lesson from the current Network+ N10-009 syllabus on the seven OSI layers."
     },
-    "youtubeId": "inWWhr5tnEA",
-    "date": "2022-04-08",
-    "categoryId": "cybersecurity",
-    "subcategoryId": "guides-tips",
-    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+    "notes": {
+      "ar": [
+        "استخدم الطبقات لتقسيم المشكلة عند استكشاف الأعطال.",
+        "الطبقة 2 = MAC وSwitch، الطبقة 3 = IP وRouter.",
+        "الجدار الناري الحديث يعمل حتى الطبقة 7."
+      ],
+      "en": [
+        "Use the layers to split a problem when troubleshooting.",
+        "Layer 2 = MAC and switches; layer 3 = IP and routers.",
+        "Modern firewalls inspect up to layer 7."
+      ]
+    },
+    "channel": {
+      "name": "Professor Messer",
+      "url": "https://www.youtube.com/@professormesser"
+    },
+    "duration": "PT13M51S",
+    "durationText": "13:51",
+    "language": "en",
+    "playlist": "network-fundamentals",
+    "position": 2,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
   },
   {
-    "id": "vid-gen-0003",
+    "id": "vid-what-are-vlans",
+    "slug": "what-are-vlans",
+    "youtubeId": "MmwF1oHOvmg",
     "title": {
-      "ar": "تعلّم Linux من الصفر: الأوامر الأساسية",
-      "en": "Learn Linux from scratch: essential commands"
+      "ar": "ما هي VLAN؟ أبسط شرح",
+      "en": "What are VLANs? The simplest explanation"
     },
+    "originalTitle": "What are VLANs? -- the simplest explanation",
     "description": {
-      "ar": "دليل عملي لأوامر Linux الأساسية اللي أي مدير أنظمة محتاجها يوميًا.",
-      "en": "A practical guide to the essential Linux commands any sysadmin needs daily."
+      "ar": "يشرح الفيديو وظيفتي VLAN: تقسيم السويتش الواحد إلى سويتشات افتراضية، ومدّها بين السويتشات عبر منافذ Trunk ووسوم 802.1Q والـ Native VLAN.",
+      "en": "Explains the two functions of VLANs: splitting one switch into virtual switches and extending them across switches using trunk ports, 802.1Q tags and the native VLAN."
     },
-    "youtubeId": "sWbUDq4S6Y8",
-    "date": "2022-07-15",
-    "categoryId": "howto",
-    "subcategoryId": "guides-tips",
-    "heroImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&h=450&q=80"
+    "notes": {
+      "ar": [
+        "منفذ Access يحمل VLAN واحدة بدون وسم.",
+        "منفذ Trunk يحمل عدة VLANs بوسم 802.1Q.",
+        "الإطار غير الموسوم على Trunk ينتمي إلى Native VLAN."
+      ],
+      "en": [
+        "An access port carries one untagged VLAN.",
+        "A trunk carries several VLANs tagged with 802.1Q.",
+        "An untagged frame on a trunk belongs to the native VLAN."
+      ]
+    },
+    "channel": {
+      "name": "Practical Networking",
+      "url": "https://www.youtube.com/@PracticalNetworking"
+    },
+    "duration": "PT11M29S",
+    "durationText": "11:29",
+    "language": "en",
+    "playlist": "network-fundamentals",
+    "position": 3,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
   },
   {
-    "id": "vid-gen-0004",
+    "id": "vid-native-vlan-explained",
+    "slug": "native-vlan-explained",
+    "youtubeId": "Fmq1E1Qr2W4",
     "title": {
-      "ar": "مقدمة عملية في الذكاء الاصطناعي",
-      "en": "A practical introduction to artificial intelligence"
+      "ar": "شرح Native VLAN بالرسم",
+      "en": "The native VLAN, illustrated"
     },
+    "originalTitle": "Native VLAN - the DEFINITIVE illustration",
     "description": {
-      "ar": "شرح مبسط لأساسيات الذكاء الاصطناعي وتطبيقاته العملية الحالية.",
-      "en": "A simplified explanation of AI fundamentals and its current practical applications."
+      "ar": "توضيح مرئي لمفهوم Native VLAN وكيف تتعامل منافذ Trunk مع الإطارات غير الموسومة.",
+      "en": "A visual explanation of the native VLAN and how trunks handle untagged frames."
     },
-    "youtubeId": "ad79nYk2-go",
-    "date": "2022-11-22",
-    "categoryId": "ai",
-    "subcategoryId": "concepts",
-    "heroImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&h=450&q=80"
+    "notes": {
+      "ar": [
+        "يجب أن تتطابق Native VLAN على طرفي الـ Trunk.",
+        "لا تستخدم VLAN 1 كـ Native لأسباب أمنية.",
+        "خصص VLAN غير مستخدمة كـ Native لتقليل هجمات VLAN Hopping."
+      ],
+      "en": [
+        "The native VLAN must match on both ends of a trunk.",
+        "Avoid VLAN 1 as the native VLAN.",
+        "Use an unused VLAN as native to reduce VLAN-hopping risk."
+      ]
+    },
+    "channel": {
+      "name": "Practical Networking",
+      "url": "https://www.youtube.com/@PracticalNetworking"
+    },
+    "duration": "PT5M39S",
+    "durationText": "5:39",
+    "language": "en",
+    "playlist": "network-fundamentals",
+    "position": 4,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
   },
   {
-    "id": "vid-gen-0005",
+    "id": "vid-ccna-vlans-part-1",
+    "slug": "ccna-vlans-part-1",
+    "youtubeId": "cjFzOnm6u1g",
     "title": {
-      "ar": "تعلّم Python للمبتدئين تمامًا",
-      "en": "Learn Python for complete beginners"
+      "ar": "VLAN في منهج CCNA 200-301 (الجزء الأول)",
+      "en": "VLANs in the CCNA 200-301 course (part 1)"
     },
+    "originalTitle": "Free CCNA | VLANs (Part 1) | Day 16 | CCNA 200-301 Complete Course",
     "description": {
-      "ar": "دورة تأسيسية في Python لمن لم يبرمج من قبل.",
-      "en": "A foundational Python course for people who have never programmed before."
+      "ar": "الدرس 16 من دورة Jeremy's IT Lab المجانية لـ CCNA عن VLAN مع أوامر Cisco IOS.",
+      "en": "Day 16 of Jeremy's IT Lab free CCNA course, covering VLANs with Cisco IOS commands."
     },
-    "youtubeId": "kqtD5dpn9C8",
-    "date": "2023-02-02",
-    "categoryId": "howto",
-    "subcategoryId": "guides-tips",
-    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+    "notes": {
+      "ar": [
+        "الأمر switchport mode access يثبّت المنفذ كمنفذ Access.",
+        "show vlan brief يعرض الـ VLANs والمنافذ.",
+        "التوجيه بين الـ VLANs يحتاج Router أو Layer 3 Switch."
+      ],
+      "en": [
+        "switchport mode access pins a port as access.",
+        "show vlan brief lists VLANs and ports.",
+        "Inter-VLAN routing needs a router or layer 3 switch."
+      ]
+    },
+    "channel": {
+      "name": "Jeremy's IT Lab",
+      "url": "https://www.youtube.com/@JeremysITLab"
+    },
+    "duration": "PT23M45S",
+    "durationText": "23:45",
+    "language": "en",
+    "playlist": "network-fundamentals",
+    "position": 5,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
   },
   {
-    "id": "vid-gen-0006",
+    "id": "vid-vlan-arabic-explained",
+    "slug": "vlan-arabic-explained",
+    "youtubeId": "acsfdeJQ3Cs",
     "title": {
-      "ar": "تعلّم React خطوة بخطوة",
-      "en": "Learn React step by step"
+      "ar": "شرح VLAN وأهميتها بالعربي",
+      "en": "VLANs and why they matter (Arabic)"
     },
+    "originalTitle": "شرح مفصل عن الفيلان وأهميتها داخل الشبكة (VLAN)",
     "description": {
-      "ar": "مدخل عملي لبناء واجهات ويب باستخدام مكتبة React.",
-      "en": "A practical introduction to building web interfaces with React."
+      "ar": "شرح عربي مفصل من قناة شبكات عرب عن الـ VLAN وفوائدها داخل الشبكة.",
+      "en": "A detailed Arabic explanation from Chabakat Arab of VLANs and their benefits."
     },
-    "youtubeId": "Tn6-PIqc4UM",
-    "date": "2023-05-09",
-    "categoryId": "howto",
-    "subcategoryId": "guides-tips",
-    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+    "notes": {
+      "ar": [
+        "التقسيم يقلل نطاق البث (Broadcast Domain).",
+        "التقسيم الأمني يحتاج قواعد بين الـ VLANs لا مجرد فصلها.",
+        "وثّق أرقام الـ VLAN واستخدامها في جدول واحد."
+      ],
+      "en": [
+        "Segmentation shrinks the broadcast domain.",
+        "Security needs rules between VLANs, not just separation.",
+        "Document VLAN IDs and purposes in one table."
+      ]
+    },
+    "channel": {
+      "name": "Chabakat Arab | شبكات عرب",
+      "url": "https://www.youtube.com/@chabakatarab"
+    },
+    "duration": "PT13M40S",
+    "durationText": "13:40",
+    "language": "ar",
+    "playlist": "network-fundamentals",
+    "position": 6,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
   },
   {
-    "id": "vid-gen-0007",
+    "id": "vid-how-8021x-works",
+    "slug": "how-8021x-works",
+    "youtubeId": "SdC3ppnanAE",
     "title": {
-      "ar": "أساسيات Docker للمبتدئين",
-      "en": "Docker fundamentals for beginners"
+      "ar": "كيف يعمل 802.1X",
+      "en": "How 802.1X works"
     },
+    "originalTitle": "How 802.1X works",
     "description": {
-      "ar": "شرح مفهوم الحاويات (containers) وكيفية استخدام Docker عمليًا.",
-      "en": "Explains the container concept and how to use Docker in practice."
+      "ar": "شرح من CBT Nuggets لأدوار 802.1X الثلاثة: Supplicant وAuthenticator وAuthentication Server.",
+      "en": "A CBT Nuggets explanation of the three 802.1X roles: supplicant, authenticator and authentication server."
     },
-    "youtubeId": "3c-iBn73dDE",
-    "date": "2023-09-16",
-    "categoryId": "howto",
-    "subcategoryId": "guides-tips",
-    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+    "notes": {
+      "ar": [
+        "السويتش لا يقرر بنفسه؛ يمرر الطلب إلى RADIUS.",
+        "EAP-TLS بالشهادات أقوى من كلمات المرور.",
+        "خطط لـ MAB للأجهزة التي لا تدعم 802.1X مثل الطابعات."
+      ],
+      "en": [
+        "The switch does not decide; it relays to RADIUS.",
+        "Certificate-based EAP-TLS beats passwords.",
+        "Plan MAB for devices without 802.1X support, such as printers."
+      ]
+    },
+    "channel": {
+      "name": "CBT Nuggets",
+      "url": "https://www.youtube.com/@cbtnuggets"
+    },
+    "duration": "PT7M33S",
+    "durationText": "7:33",
+    "language": "en",
+    "playlist": "network-fundamentals",
+    "position": 7,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
   },
   {
-    "id": "vid-gen-0008",
+    "id": "vid-wireshark-beginners-tutorial",
+    "slug": "wireshark-beginners-tutorial",
+    "youtubeId": "OU-A2EmVrKQ",
     "title": {
-      "ar": "مقدمة عملية في خدمات AWS السحابية",
-      "en": "A practical introduction to AWS cloud services"
+      "ar": "تعلّم Wireshark للمبتدئين",
+      "en": "Learn Wireshark for beginners"
     },
+    "originalTitle": "Learn Wireshark! Tutorial for BEGINNERS",
     "description": {
-      "ar": "جولة عملية على أهم خدمات Amazon Web Services للمبتدئين.",
-      "en": "A hands-on tour of the most important Amazon Web Services for beginners."
+      "ar": "مقدمة عملية في Wireshark من Chris Greer، أحد أشهر مدربي تحليل الحزم.",
+      "en": "A practical Wireshark introduction from Chris Greer, a well-known packet analysis trainer."
     },
-    "youtubeId": "ulprqHHWlng",
-    "date": "2023-12-23",
-    "categoryId": "technology",
-    "subcategoryId": "concepts",
-    "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80"
+    "notes": {
+      "ar": [
+        "Capture Filter يقلل ما يُلتقط، وDisplay Filter يقلل ما يُعرض.",
+        "Follow TCP Stream يعيد بناء المحادثة كاملة.",
+        "التقط على الجهاز الأقرب للمشكلة."
+      ],
+      "en": [
+        "Capture filters limit what is captured; display filters limit what is shown.",
+        "Follow TCP Stream rebuilds a whole conversation.",
+        "Capture as close to the problem as possible."
+      ]
+    },
+    "channel": {
+      "name": "Chris Greer",
+      "url": "https://www.youtube.com/@ChrisGreer"
+    },
+    "duration": "PT16M14S",
+    "durationText": "16:14",
+    "language": "en",
+    "playlist": "network-fundamentals",
+    "position": 8,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
   },
   {
-    "id": "vid-gen-0009",
+    "id": "vid-wireshark-arabic-explained",
+    "slug": "wireshark-arabic-explained",
+    "youtubeId": "UOsm5fPCPSs",
     "title": {
-      "ar": "مقدمة عملية في منصة Azure السحابية",
-      "en": "A practical introduction to the Azure cloud platform"
+      "ar": "شرح Wireshark بالعربي",
+      "en": "Wireshark explained in Arabic"
     },
+    "originalTitle": "شرح أداة وايرشارك Wireshark بالعربية| معرفة خبايا الشبكة واسرارها",
     "description": {
-      "ar": "جولة عملية على أساسيات Microsoft Azure للمبتدئين.",
-      "en": "A hands-on tour of Microsoft Azure fundamentals for beginners."
+      "ar": "شرح عربي طويل لأداة Wireshark من قناة Anas Education.",
+      "en": "A long Arabic-language Wireshark explanation from Anas Education."
     },
-    "youtubeId": "tDPoenO39xk",
-    "date": "2024-04-03",
-    "categoryId": "technology",
-    "subcategoryId": "concepts",
-    "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80"
+    "notes": {
+      "ar": [
+        "ابدأ بفلاتر بسيطة مثل ip.addr == وdns.",
+        "لوّن الحزم المهمة بقواعد Coloring Rules.",
+        "احفظ الملف بصيغة pcapng للاحتفاظ بالتعليقات."
+      ],
+      "en": [
+        "Start with simple filters such as ip.addr == and dns.",
+        "Use coloring rules to highlight important packets.",
+        "Save as pcapng to keep comments."
+      ]
+    },
+    "channel": {
+      "name": "Anas Education",
+      "url": "https://www.youtube.com/@Anas_Education"
+    },
+    "duration": "PT51M54S",
+    "durationText": "51:54",
+    "language": "ar",
+    "playlist": "network-fundamentals",
+    "position": 9,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
   },
   {
-    "id": "vid-gen-0010",
+    "id": "vid-nmap-tutorial-vulnerabilities",
+    "slug": "nmap-tutorial-vulnerabilities",
+    "youtubeId": "4t4kBkMsDbQ",
     "title": {
-      "ar": "دورة CCNA 200-301 كاملة ومجانية",
-      "en": "FREE CCNA 200-301 Complete Course"
+      "ar": "استخدام Nmap لاكتشاف الثغرات في الشبكة",
+      "en": "Using Nmap to find network vulnerabilities"
     },
+    "originalTitle": "Nmap Tutorial to find Network Vulnerabilities",
     "description": {
-      "ar": "سلسلة كاملة ومجانية لتغطية منهج CCNA 200-301 خطوة بخطوة من قناة Jeremy IT Lab.",
-      "en": "A complete, free playlist covering the CCNA 200-301 syllabus step by step from Jeremy's IT Lab."
+      "ar": "شرح من NetworkChuck لاستخدام Nmap في الفحص واكتشاف الخدمات المكشوفة.",
+      "en": "A NetworkChuck tutorial on scanning with Nmap and finding exposed services."
     },
-    "youtubeId": "",
-    "youtubePlaylistId": "PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ",
-    "date": "2024-07-10",
-    "categoryId": "cybersecurity",
-    "subcategoryId": "network-security",
-    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+    "notes": {
+      "ar": [
+        "لا تفحص شبكة بدون تفويض مكتوب.",
+        "-sV يكشف إصدارات الخدمات و-p- يفحص كل المنافذ.",
+        "سكربتات NSE مثل vuln مفيدة لكنها ليست بديلًا عن ماسح ثغرات."
+      ],
+      "en": [
+        "Never scan a network without written authorization.",
+        "-sV detects service versions; -p- scans all ports.",
+        "NSE scripts such as vuln help but do not replace a vulnerability scanner."
+      ]
+    },
+    "channel": {
+      "name": "NetworkChuck",
+      "url": "https://www.youtube.com/@NetworkChuck"
+    },
+    "duration": "PT17M9S",
+    "durationText": "17:09",
+    "language": "en",
+    "playlist": "network-fundamentals",
+    "position": 10,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
   },
   {
-    "id": "vid-gen-0011",
+    "id": "vid-how-nmap-really-works",
+    "slug": "how-nmap-really-works",
+    "youtubeId": "F2PXe_o7KqM",
     "title": {
-      "ar": "CCNA مجانًا // اليوم صفر - ما هي الشبكة؟",
-      "en": "FREE CCNA // Day 0 - What is a Network?"
+      "ar": "كيف يعمل Nmap فعليًا وكيف تكتشفه",
+      "en": "How Nmap really works and how to catch it"
     },
+    "originalTitle": "How Nmap really works // And how to catch it // Stealth scan vs TCP scan // Wireshark analysis",
     "description": {
-      "ar": "أول حلقة في سلسلة CCNA المجانية من Jeremy IT Lab: شرح مبسط لمفهوم الشبكة من الصفر.",
-      "en": "The first episode of Jeremy's IT Lab free CCNA series: a from-scratch explanation of what a network is."
+      "ar": "تحليل من David Bombal لفحص SYN مقابل فحص TCP الكامل مع مراقبة الحزم في Wireshark لاكتشاف الفحص.",
+      "en": "David Bombal compares SYN and full TCP scans and uses Wireshark to show how to detect them."
     },
+    "notes": {
+      "ar": [
+        "فحص SYN لا يكمل المصافحة الثلاثية.",
+        "كثرة RST من جهاز واحد مؤشر على فحص منافذ.",
+        "IDS مثل Suricata يكتشف أنماط الفحص الشائعة."
+      ],
+      "en": [
+        "A SYN scan never completes the three-way handshake.",
+        "Many RSTs from one host suggest a port scan.",
+        "An IDS such as Suricata detects common scan patterns."
+      ]
+    },
+    "channel": {
+      "name": "David Bombal",
+      "url": "https://www.youtube.com/@davidbombal"
+    },
+    "duration": "PT44M3S",
+    "durationText": "44:03",
+    "language": "en",
+    "playlist": "network-fundamentals",
+    "position": 11,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-soc-explained-arabic",
+    "slug": "soc-explained-arabic",
+    "youtubeId": "vu2w1_-SjYQ",
+    "title": {
+      "ar": "شرح مركز العمليات الأمنية SOC بالعربي",
+      "en": "Security Operations Center (SOC) explained in Arabic"
+    },
+    "originalTitle": "Security Operation Center (SOC) شرح بالعربي",
+    "description": {
+      "ar": "مقدمة عربية لمفهوم مركز العمليات الأمنية ومهامه.",
+      "en": "An Arabic introduction to the security operations center and its functions."
+    },
+    "notes": {
+      "ar": [
+        "SOC = أشخاص + عمليات + أدوات، وليس أداة SIEM فقط.",
+        "مستويات المحللين L1 وL2 وL3 تختلف في العمق.",
+        "مقاييس مثل MTTD وMTTR تقيس فعالية المركز."
+      ],
+      "en": [
+        "A SOC is people, process and tools, not just a SIEM.",
+        "L1, L2 and L3 analysts differ in depth.",
+        "MTTD and MTTR measure SOC effectiveness."
+      ]
+    },
+    "channel": {
+      "name": "Information Technology",
+      "url": "https://www.youtube.com/@FREE4ARAB1"
+    },
+    "duration": "PT10M55S",
+    "durationText": "10:55",
+    "language": "ar",
+    "playlist": "soc-incident-response",
+    "position": 1,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-wazuh-free-security-tool",
+    "slug": "wazuh-free-security-tool",
+    "youtubeId": "3CaG2GI1kn0",
+    "title": {
+      "ar": "Wazuh: أداة أمن مجانية من NetworkChuck",
+      "en": "Wazuh: a free security tool (NetworkChuck)"
+    },
+    "originalTitle": "you need this FREE CyberSecurity tool",
+    "description": {
+      "ar": "يعرض NetworkChuck أداة Wazuh المجانية مفتوحة المصدر لمراقبة الأمن.",
+      "en": "NetworkChuck introduces Wazuh, a free open-source security monitoring platform."
+    },
+    "notes": {
+      "ar": [
+        "Wazuh يتكون من Manager وIndexer وDashboard ووكلاء.",
+        "ابدأ بالتثبيت الشامل All-in-one في المختبر.",
+        "وكيل Windows يقرأ سجلات الأحداث ويرسلها للمدير."
+      ],
+      "en": [
+        "Wazuh has a manager, indexer, dashboard and agents.",
+        "Use the all-in-one install for a lab.",
+        "The Windows agent reads event logs and ships them to the manager."
+      ]
+    },
+    "channel": {
+      "name": "NetworkChuck",
+      "url": "https://www.youtube.com/@NetworkChuck"
+    },
+    "duration": "PT32M6S",
+    "durationText": "32:06",
+    "language": "en",
+    "playlist": "soc-incident-response",
+    "position": 2,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-wazuh-visibility-john-hammond",
+    "slug": "wazuh-visibility-john-hammond",
+    "youtubeId": "7Gn1GY5CIxg",
+    "title": {
+      "ar": "الرؤية الكاملة مع Wazuh (John Hammond)",
+      "en": "Full visibility with Wazuh (John Hammond)"
+    },
+    "originalTitle": "Wazuh gives visibility to EVERYTHING",
+    "description": {
+      "ar": "عرض من John Hammond لقدرات Wazuh في المراقبة والكشف.",
+      "en": "John Hammond demonstrates Wazuh monitoring and detection capabilities."
+    },
+    "notes": {
+      "ar": [
+        "File Integrity Monitoring يكشف تغيّر الملفات الحساسة.",
+        "قواعد Wazuh مرتبطة بتقنيات MITRE ATT&CK.",
+        "اضبط القواعد لتقليل التنبيهات الكاذبة."
+      ],
+      "en": [
+        "File integrity monitoring catches changes to sensitive files.",
+        "Wazuh rules map to MITRE ATT&CK techniques.",
+        "Tune rules to cut false positives."
+      ]
+    },
+    "channel": {
+      "name": "John Hammond",
+      "url": "https://www.youtube.com/@_JohnHammond"
+    },
+    "duration": "PT19M48S",
+    "durationText": "19:48",
+    "language": "en",
+    "playlist": "soc-incident-response",
+    "position": 3,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-learning-sysmon-what-is-sysmon",
+    "slug": "learning-sysmon-what-is-sysmon",
+    "youtubeId": "kESndPO5Fig",
+    "title": {
+      "ar": "ما هو Sysmon؟ (سلسلة TrustedSec)",
+      "en": "What is Sysmon? (TrustedSec series)"
+    },
+    "originalTitle": "Learning Sysmon - What is Sysmon? (Video 1)",
+    "description": {
+      "ar": "الحلقة الأولى من سلسلة TrustedSec عن أداة Sysmon من Microsoft Sysinternals.",
+      "en": "Episode one of the TrustedSec series on Microsoft Sysinternals Sysmon."
+    },
+    "notes": {
+      "ar": [
+        "Sysmon يضيف أحداثًا مفصلة مثل إنشاء العمليات (Event ID 1).",
+        "اتصالات الشبكة تظهر في Event ID 3.",
+        "جودة ملف الإعدادات تحدد قيمة البيانات."
+      ],
+      "en": [
+        "Sysmon adds detailed events such as process creation (Event ID 1).",
+        "Network connections appear as Event ID 3.",
+        "The config file decides how useful the data is."
+      ]
+    },
+    "channel": {
+      "name": "TrustedSec",
+      "url": "https://www.youtube.com/@TrustedSecTV"
+    },
+    "duration": "PT11M45S",
+    "durationText": "11:45",
+    "language": "en",
+    "playlist": "soc-incident-response",
+    "position": 4,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-learning-sysmon-installation",
+    "slug": "learning-sysmon-installation",
+    "youtubeId": "MlGc44dfFBg",
+    "title": {
+      "ar": "تثبيت Sysmon وإعداده",
+      "en": "Installing and configuring Sysmon"
+    },
+    "originalTitle": "Learning Sysmon - Installation (Video 2)",
+    "description": {
+      "ar": "الحلقة الثانية من سلسلة TrustedSec: تثبيت Sysmon بملف إعدادات.",
+      "en": "Episode two of the TrustedSec series: installing Sysmon with a configuration file."
+    },
+    "notes": {
+      "ar": [
+        "التثبيت: sysmon64.exe -accepteula -i config.xml.",
+        "التحديث: sysmon64.exe -c config.xml.",
+        "اختبر الإعدادات على جهاز واحد قبل النشر عبر GPO أو أداة إدارة."
+      ],
+      "en": [
+        "Install with sysmon64.exe -accepteula -i config.xml.",
+        "Update with sysmon64.exe -c config.xml.",
+        "Test on one machine before deploying via GPO or a management tool."
+      ]
+    },
+    "channel": {
+      "name": "TrustedSec",
+      "url": "https://www.youtube.com/@TrustedSecTV"
+    },
+    "duration": "PT25M30S",
+    "durationText": "25:30",
+    "language": "en",
+    "playlist": "soc-incident-response",
+    "position": 5,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-windows-logon-events-4624",
+    "slug": "windows-logon-events-4624",
+    "youtubeId": "EXsKJ9kIc6s",
+    "title": {
+      "ar": "أين الحدث 4624؟ أحداث الدخول مقابل التحقق من الحساب",
+      "en": "Where is 4624? Logon events vs account logon events"
+    },
+    "originalTitle": "Where's the 4624? - Logon Events vs. Account Logons",
+    "description": {
+      "ar": "شرح من 13Cubed للفرق بين فئة Logon Events وفئة Account Logon في سجلات Windows ومكان ظهور كل حدث.",
+      "en": "13Cubed explains the difference between Logon and Account Logon event categories and where each event is recorded."
+    },
+    "notes": {
+      "ar": [
+        "4624 يُسجَّل على الجهاز الذي تم الدخول إليه.",
+        "4768 و4769 (Kerberos) تُسجَّل على وحدة التحكم بالمجال.",
+        "نوع الدخول Logon Type 10 يعني RDP."
+      ],
+      "en": [
+        "4624 is logged on the machine being logged into.",
+        "4768/4769 (Kerberos) are logged on the domain controller.",
+        "Logon type 10 means RDP."
+      ]
+    },
+    "channel": {
+      "name": "13Cubed",
+      "url": "https://www.youtube.com/@13Cubed"
+    },
+    "duration": "PT6M37S",
+    "durationText": "6:37",
+    "language": "en",
+    "playlist": "soc-incident-response",
+    "position": 6,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-mitre-attack-framework-official",
+    "slug": "mitre-attack-framework-official",
+    "youtubeId": "Yxv1suJYMI8",
+    "title": {
+      "ar": "إطار MITRE ATT&CK (الفيديو الرسمي)",
+      "en": "The MITRE ATT&CK framework (official)"
+    },
+    "originalTitle": "MITRE ATT&CK® Framework",
+    "description": {
+      "ar": "فيديو تعريفي قصير من MITRE نفسها عن إطار ATT&CK.",
+      "en": "A short introduction to ATT&CK from MITRE itself."
+    },
+    "notes": {
+      "ar": [
+        "التكتيك = هدف المهاجم، والتقنية = طريقة تحقيقه.",
+        "كل تقنية لها معرّف مثل T1059.",
+        "استخدم ATT&CK Navigator لرسم تغطية الكشف لديك."
+      ],
+      "en": [
+        "Tactic = the adversary goal; technique = how it is achieved.",
+        "Each technique has an ID such as T1059.",
+        "Use ATT&CK Navigator to map your detection coverage."
+      ]
+    },
+    "channel": {
+      "name": "mitrecorp (The MITRE Corporation)",
+      "url": "https://www.youtube.com/@mitrecorp"
+    },
+    "duration": "PT3M43S",
+    "durationText": "3:43",
+    "language": "en",
+    "playlist": "soc-incident-response",
+    "position": 7,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-mitre-attack-introduction-hackersploit",
+    "slug": "mitre-attack-introduction-hackersploit",
+    "youtubeId": "LCec9K0aAkM",
+    "title": {
+      "ar": "مقدمة مفصلة في MITRE ATT&CK",
+      "en": "A detailed introduction to MITRE ATT&CK"
+    },
+    "originalTitle": "Introduction To The MITRE ATT&CK Framework",
+    "description": {
+      "ar": "شرح مفصل من HackerSploit لبنية ATT&CK وطريقة استخدامها.",
+      "en": "A detailed HackerSploit walkthrough of the ATT&CK structure and how to use it."
+    },
+    "notes": {
+      "ar": [
+        "ابدأ بالتقنيات الأكثر شيوعًا في بيئتك لا بكل المصفوفة.",
+        "اربط كل قاعدة SIEM بتقنية ATT&CK.",
+        "تقارير مجموعات التهديد في ATT&CK تساعد في تحديد الأولويات."
+      ],
+      "en": [
+        "Start with the techniques most relevant to you, not the whole matrix.",
+        "Map every SIEM rule to an ATT&CK technique.",
+        "ATT&CK group pages help prioritize."
+      ]
+    },
+    "channel": {
+      "name": "HackerSploit",
+      "url": "https://www.youtube.com/@HackerSploit"
+    },
+    "duration": "PT35M48S",
+    "durationText": "35:48",
+    "language": "en",
+    "playlist": "soc-incident-response",
+    "position": 8,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-sans-handling-ransomware-incidents",
+    "slug": "sans-handling-ransomware-incidents",
+    "youtubeId": "0M55onu7mVI",
+    "title": {
+      "ar": "التعامل مع حوادث الفدية (SANS)",
+      "en": "Handling ransomware incidents (SANS)"
+    },
+    "originalTitle": "Handling Ransomware Incidents: What YOU Need to Know!",
+    "description": {
+      "ar": "محاضرة من SANS DFIR عن التعامل مع حوادث برامج الفدية.",
+      "en": "A SANS DFIR talk on handling ransomware incidents."
+    },
+    "notes": {
+      "ar": [
+        "اعزل الأجهزة المصابة شبكيًا ولا تطفئها فورًا إن أمكن.",
+        "احمِ النسخ الاحتياطية أولًا.",
+        "وثّق كل خطوة بتوقيت لأغراض التحقيق والتأمين."
+      ],
+      "en": [
+        "Isolate infected hosts from the network; avoid powering them off if possible.",
+        "Protect the backups first.",
+        "Document every step with timestamps for investigation and insurance."
+      ]
+    },
+    "channel": {
+      "name": "SANS Digital Forensics and Incident Response",
+      "url": "https://www.youtube.com/@SANSForensics"
+    },
+    "duration": "PT57M53S",
+    "durationText": "57:53",
+    "language": "en",
+    "playlist": "soc-incident-response",
+    "position": 9,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-first-ransomware-incident-response-story",
+    "slug": "first-ransomware-incident-response-story",
+    "youtubeId": "7MFGVyco1yM",
+    "title": {
+      "ar": "قصة حقيقية للاستجابة لهجوم فدية (FIRST)",
+      "en": "A real-world ransomware response story (FIRST)"
+    },
+    "originalTitle": "Ransomware Incident Response - The Real-World Story of a Ransomware Attack",
+    "description": {
+      "ar": "محاضرة من منتدى FIRST تروي قصة استجابة حقيقية لهجوم فدية.",
+      "en": "A talk from FIRST recounting a real ransomware incident response."
+    },
+    "notes": {
+      "ar": [
+        "التواصل الداخلي والخارجي جزء من خطة الاستجابة.",
+        "تمارين الطاولة (Tabletop) تكشف الثغرات قبل الحادثة.",
+        "الدروس المستفادة يجب أن تتحول إلى تغييرات فعلية."
+      ],
+      "en": [
+        "Internal and external communication is part of the response plan.",
+        "Tabletop exercises reveal gaps before a real incident.",
+        "Lessons learned must become real changes."
+      ]
+    },
+    "channel": {
+      "name": "FIRST",
+      "url": "https://www.youtube.com/@FIRSTdotorg"
+    },
+    "duration": "PT40M58S",
+    "durationText": "40:58",
+    "language": "en",
+    "playlist": "soc-incident-response",
+    "position": 10,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-windows-server-active-directory-arabic",
+    "slug": "windows-server-active-directory-arabic",
+    "youtubeId": "VT0BPy2XGvk",
+    "title": {
+      "ar": "شرح Windows Server وActive Directory من الصفر بالعربي",
+      "en": "Windows Server and Active Directory from scratch (Arabic)"
+    },
+    "originalTitle": "شرح Windows Server و Active Directory من الصفر",
+    "description": {
+      "ar": "مقدمة عربية في Windows Server وActive Directory من قناة Mohammed Haidar.",
+      "en": "An Arabic introduction to Windows Server and Active Directory from Mohammed Haidar."
+    },
+    "notes": {
+      "ar": [
+        "وحدة التحكم بالمجال (DC) تحتاج DNS سليمًا.",
+        "نظّم المستخدمين في OUs لتطبيق GPO بسهولة.",
+        "وحدتا تحكم على الأقل لكل مجال للإتاحة."
+      ],
+      "en": [
+        "A domain controller depends on healthy DNS.",
+        "Organize users into OUs to apply GPOs cleanly.",
+        "Run at least two DCs per domain for availability."
+      ]
+    },
+    "channel": {
+      "name": "Mohammed Haidar",
+      "url": "https://www.youtube.com/@mhd.haidar"
+    },
+    "duration": "PT10M1S",
+    "durationText": "10:01",
+    "language": "ar",
+    "playlist": "identity-active-directory",
+    "position": 1,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-kerberos-authentication-deep-dive",
+    "slug": "kerberos-authentication-deep-dive",
+    "youtubeId": "5N242XcKAsM",
+    "title": {
+      "ar": "شرح مصادقة Kerberos بالتفصيل",
+      "en": "Kerberos authentication, a deep dive"
+    },
+    "originalTitle": "Kerberos Authentication Explained | A deep dive",
+    "description": {
+      "ar": "شرح مفصل من Destination Certification لتدفق Kerberos: TGT وتذاكر الخدمة.",
+      "en": "A detailed Destination Certification explanation of the Kerberos flow: TGTs and service tickets."
+    },
+    "notes": {
+      "ar": [
+        "KDC يصدر TGT ثم تذاكر خدمة TGS.",
+        "تذكرة الخدمة مشفّرة بمفتاح حساب الخدمة.",
+        "فرق التوقيت أكثر من 5 دقائق يكسر Kerberos افتراضيًا."
+      ],
+      "en": [
+        "The KDC issues a TGT, then service tickets.",
+        "A service ticket is encrypted with the service account key.",
+        "Clock skew over 5 minutes breaks Kerberos by default."
+      ]
+    },
+    "channel": {
+      "name": "Destination Certification",
+      "url": "https://www.youtube.com/@destcert"
+    },
+    "duration": "PT16M52S",
+    "durationText": "16:52",
+    "language": "en",
+    "playlist": "identity-active-directory",
+    "position": 2,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-learn-kerberoasting",
+    "slug": "learn-kerberoasting",
+    "youtubeId": "tRCvagjqx3c",
+    "title": {
+      "ar": "شرح هجوم Kerberoasting",
+      "en": "Learning the Kerberoasting attack"
+    },
+    "originalTitle": "Learn Active Directory Kerberoasting",
+    "description": {
+      "ar": "عرض عملي من John Hammond لهجوم Kerberoasting على Active Directory في بيئة مختبر.",
+      "en": "A John Hammond lab demonstration of Kerberoasting against Active Directory."
+    },
+    "notes": {
+      "ar": [
+        "أي مستخدم في المجال يستطيع طلب تذكرة لحساب له SPN.",
+        "كلمات مرور طويلة عشوائية أو gMSA تُبطل الهجوم عمليًا.",
+        "راقب الحدث 4769 بتشفير RC4 (0x17)."
+      ],
+      "en": [
+        "Any domain user can request a ticket for an account with an SPN.",
+        "Long random passwords or gMSAs make the attack impractical.",
+        "Watch event 4769 with RC4 encryption (0x17)."
+      ]
+    },
+    "channel": {
+      "name": "John Hammond",
+      "url": "https://www.youtube.com/@_JohnHammond"
+    },
+    "duration": "PT22M5S",
+    "durationText": "22:05",
+    "language": "en",
+    "playlist": "identity-active-directory",
+    "position": 3,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-active-directory-tiering",
+    "slug": "active-directory-tiering",
+    "youtubeId": "OPwR2UFDYR0",
+    "title": {
+      "ar": "تأمين Active Directory بنموذج الطبقات (Tiering)",
+      "en": "Securing Active Directory with tiering"
+    },
+    "originalTitle": "How to Secure Active Directory (AD Tiering) - Tutorial 15 min",
+    "description": {
+      "ar": "شرح من Truesec لنموذج الطبقات في إدارة Active Directory.",
+      "en": "A Truesec tutorial on the Active Directory tiering model."
+    },
+    "notes": {
+      "ar": [
+        "Tier 0 = وحدات التحكم والأنظمة المتحكمة في الهوية.",
+        "حسابات Tier 0 لا تسجل الدخول على أجهزة المستخدمين.",
+        "استخدم أجهزة إدارة مخصصة (PAW)."
+      ],
+      "en": [
+        "Tier 0 = domain controllers and identity-controlling systems.",
+        "Tier 0 accounts never log on to user workstations.",
+        "Use privileged access workstations (PAWs)."
+      ]
+    },
+    "channel": {
+      "name": "Truesec",
+      "url": "https://www.youtube.com/@TruesecPlay"
+    },
+    "duration": "PT15M6S",
+    "durationText": "15:06",
+    "language": "en",
+    "playlist": "identity-active-directory",
+    "position": 4,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-what-is-conditional-access",
+    "slug": "what-is-conditional-access",
+    "youtubeId": "ffMAw2IVO7A",
+    "title": {
+      "ar": "ما هو Conditional Access في Microsoft Entra ID؟",
+      "en": "What is Conditional Access in Microsoft Entra ID?"
+    },
+    "originalTitle": "What is conditional access? | Microsoft Entra ID",
+    "description": {
+      "ar": "شرح رسمي قصير من Microsoft Azure لفكرة الوصول المشروط.",
+      "en": "A short official Microsoft Azure explanation of Conditional Access."
+    },
+    "notes": {
+      "ar": [
+        "السياسة = إشارات (من؟ أين؟ أي جهاز؟) + قرار (سماح، MFA، حظر).",
+        "ابدأ بوضع Report-only قبل التفعيل.",
+        "استثنِ حسابات الطوارئ (Break-glass) دائمًا."
+      ],
+      "en": [
+        "A policy = signals (who, where, which device) + decision (allow, MFA, block).",
+        "Start in report-only mode.",
+        "Always exclude break-glass accounts."
+      ]
+    },
+    "channel": {
+      "name": "Microsoft Azure",
+      "url": "https://www.youtube.com/@MicrosoftAzure"
+    },
+    "duration": "PT5M49S",
+    "durationText": "5:49",
+    "language": "en",
+    "playlist": "identity-active-directory",
+    "position": 5,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-conditional-access-policy-plans",
+    "slug": "conditional-access-policy-plans",
+    "youtubeId": "BUI5LZPoHAs",
+    "title": {
+      "ar": "خطط سياسات Conditional Access الجديدة في Microsoft Entra",
+      "en": "New Conditional Access policy plans in Microsoft Entra"
+    },
+    "originalTitle": "New Conditional Access policy plans in Microsoft Entra",
+    "description": {
+      "ar": "عرض من Microsoft Mechanics لخطط السياسات الجاهزة في Microsoft Entra.",
+      "en": "A Microsoft Mechanics overview of prebuilt Conditional Access policy plans in Microsoft Entra."
+    },
+    "notes": {
+      "ar": [
+        "القوالب الجاهزة نقطة بداية جيدة لا نهاية.",
+        "راجع أثر السياسة في سجلات Sign-in.",
+        "احظر المصادقة القديمة (Legacy Authentication)."
+      ],
+      "en": [
+        "Templates are a starting point, not the finish line.",
+        "Check policy impact in sign-in logs.",
+        "Block legacy authentication."
+      ]
+    },
+    "channel": {
+      "name": "Microsoft Mechanics",
+      "url": "https://www.youtube.com/@MSFTMechanics"
+    },
+    "duration": "PT8M53S",
+    "durationText": "8:53",
+    "language": "en",
+    "playlist": "identity-active-directory",
+    "position": 6,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-conditional-access-beginner-guide",
+    "slug": "conditional-access-beginner-guide",
+    "youtubeId": "W8U1Ihi0l54",
+    "title": {
+      "ar": "Conditional Access للمبتدئين (Andy Malone)",
+      "en": "Conditional Access for beginners (Andy Malone)"
+    },
+    "originalTitle": "Microsoft Entra Conditional Access Made Easy Complete Beginner Guide 2026",
+    "description": {
+      "ar": "شرح مطوّل للمبتدئين من Andy Malone عن سياسات Conditional Access.",
+      "en": "A long beginner-friendly guide to Conditional Access from Andy Malone."
+    },
+    "notes": {
+      "ar": [
+        "اطلب MFA للمسؤولين أولًا ثم لكل المستخدمين.",
+        "استخدم Named Locations بحذر لأن الـ IP يمكن انتحاله عبر VPN.",
+        "وثّق كل سياسة وسبب كل استثناء."
+      ],
+      "en": [
+        "Require MFA for admins first, then everyone.",
+        "Use named locations carefully; IPs can be reached through VPNs.",
+        "Document every policy and every exclusion."
+      ]
+    },
+    "channel": {
+      "name": "Andy Malone MVP",
+      "url": "https://www.youtube.com/@AndyMaloneMVP"
+    },
+    "duration": "PT29M7S",
+    "durationText": "29:07",
+    "language": "en",
+    "playlist": "identity-active-directory",
+    "position": 7,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-microsoft-defender-for-endpoint-overview",
+    "slug": "microsoft-defender-for-endpoint-overview",
+    "youtubeId": "YFPyTPDfZeY",
+    "title": {
+      "ar": "نظرة عامة على Microsoft Defender for Endpoint",
+      "en": "Microsoft Defender for Endpoint overview"
+    },
+    "originalTitle": "Microsoft Defender for Endpoint Overview",
+    "description": {
+      "ar": "فيديو رسمي من Microsoft Security يعرض قدرات Defender for Endpoint.",
+      "en": "An official Microsoft Security overview of Defender for Endpoint."
+    },
+    "notes": {
+      "ar": [
+        "EDR يسجل سلوك العمليات لا التواقيع فقط.",
+        "Attack Surface Reduction rules تقلل أساليب الهجوم الشائعة.",
+        "اربط التنبيهات بـ SIEM لديك."
+      ],
+      "en": [
+        "EDR records process behaviour, not just signatures.",
+        "Attack surface reduction rules block common techniques.",
+        "Forward alerts to your SIEM."
+      ]
+    },
+    "channel": {
+      "name": "Microsoft Security",
+      "url": "https://www.youtube.com/@MicrosoftSecurity"
+    },
+    "duration": "PT6M41S",
+    "durationText": "6:41",
+    "language": "en",
+    "playlist": "endpoint-vulnerability",
+    "position": 1,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-kaspersky-security-center-install-part-1",
+    "slug": "kaspersky-security-center-install-part-1",
+    "youtubeId": "EtKWayHXMIE",
+    "title": {
+      "ar": "تثبيت Kaspersky Security Center (الجزء الأول)",
+      "en": "Installing Kaspersky Security Center (part 1)"
+    },
+    "originalTitle": "Part 1: How to install Kaspersky Security Center",
+    "description": {
+      "ar": "فيديو رسمي من Kaspersky يشرح تثبيت خادم الإدارة Kaspersky Security Center.",
+      "en": "An official Kaspersky video on installing the Kaspersky Security Center administration server."
+    },
+    "notes": {
+      "ar": [
+        "خادم الإدارة يحتاج قاعدة بيانات (SQL Server أو MySQL/MariaDB حسب الإصدار).",
+        "خطط لحسابات الخدمة والمنافذ قبل التثبيت.",
+        "تحقق من توافق إصدار KSC مع إصدار KES."
+      ],
+      "en": [
+        "The administration server needs a database (SQL Server or MySQL/MariaDB, depending on version).",
+        "Plan service accounts and ports before installing.",
+        "Check KSC/KES version compatibility."
+      ]
+    },
+    "channel": {
+      "name": "Kaspersky",
+      "url": "https://www.youtube.com/@Kaspersky"
+    },
+    "duration": "PT5M41S",
+    "durationText": "5:41",
+    "language": "en",
+    "playlist": "endpoint-vulnerability",
+    "position": 2,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-kaspersky-security-center-install-arabic",
+    "slug": "kaspersky-security-center-install-arabic",
+    "youtubeId": "AKqBH-3dVW4",
+    "title": {
+      "ar": "تنصيب Kaspersky Security Center خطوة بخطوة بالعربي",
+      "en": "Installing Kaspersky Security Center step by step (Arabic)"
+    },
+    "originalTitle": "تنصيب كاسبرسكي Kaspersky Security center خطوة بخطوة",
+    "description": {
+      "ar": "شرح عربي لتنصيب Kaspersky Security Center خطوة بخطوة.",
+      "en": "An Arabic step-by-step guide to installing Kaspersky Security Center."
+    },
+    "notes": {
+      "ar": [
+        "احتفظ بنسخة احتياطية من خادم الإدارة بأداة klbackup.",
+        "أنشئ مجموعات إدارة حسب الموقع أو الوظيفة.",
+        "اختبر السياسات على مجموعة تجريبية أولًا."
+      ],
+      "en": [
+        "Back up the administration server with klbackup.",
+        "Create administration groups by site or function.",
+        "Test policies on a pilot group first."
+      ]
+    },
+    "channel": {
+      "name": "SafeTech | التقنيات الامنة",
+      "url": "https://www.youtube.com/@Safe.Tech22"
+    },
+    "duration": "PT18M6S",
+    "durationText": "18:06",
+    "language": "ar",
+    "playlist": "endpoint-vulnerability",
+    "position": 3,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-certmike-explains-cvss",
+    "slug": "certmike-explains-cvss",
+    "youtubeId": "2zIQSzf7hQk",
+    "title": {
+      "ar": "شرح CVSS (CertMike)",
+      "en": "CVSS explained (CertMike)"
+    },
+    "originalTitle": "CertMike Explains CVSS",
+    "description": {
+      "ar": "شرح مختصر من Mike Chapple لنظام تقييم الثغرات CVSS.",
+      "en": "A short Mike Chapple explanation of the CVSS vulnerability scoring system."
+    },
+    "notes": {
+      "ar": [
+        "CVSS يقيس الخطورة التقنية لا الخطر على مؤسستك.",
+        "اجمع CVSS مع قائمة CISA KEV ونظام EPSS للأولوية.",
+        "المقاييس البيئية تعدّل الدرجة حسب بيئتك."
+      ],
+      "en": [
+        "CVSS measures technical severity, not risk to your organization.",
+        "Combine CVSS with CISA KEV and EPSS to prioritize.",
+        "Environmental metrics adjust the score to your context."
+      ]
+    },
+    "channel": {
+      "name": "Mike Chapple",
+      "url": "https://www.youtube.com/@CertMike"
+    },
+    "duration": "PT4M49S",
+    "durationText": "4:49",
+    "language": "en",
+    "playlist": "endpoint-vulnerability",
+    "position": 4,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-red-hat-cve-and-cvss",
+    "slug": "red-hat-cve-and-cvss",
+    "youtubeId": "oSyEGkX6sX0",
+    "title": {
+      "ar": "الفرق بين CVE وCVSS (Red Hat)",
+      "en": "CVE vs CVSS (Red Hat)"
+    },
+    "originalTitle": "CVE and CVSS explained | Security Detail",
+    "description": {
+      "ar": "فيديو قصير من Red Hat يوضح الفرق بين معرّف الثغرة CVE ودرجة خطورتها CVSS.",
+      "en": "A short Red Hat video on the difference between a CVE identifier and a CVSS score."
+    },
+    "notes": {
+      "ar": [
+        "CVE = اسم الثغرة، CVSS = درجة خطورتها.",
+        "المورّد قد يعطي درجة مختلفة عن NVD حسب منتجه.",
+        "اقرأ نشرة المورّد لمعرفة الإصدارات المتأثرة فعلًا."
+      ],
+      "en": [
+        "CVE = the name; CVSS = the severity.",
+        "Vendors may score differently from NVD for their product.",
+        "Read the vendor advisory for the actually affected versions."
+      ]
+    },
+    "channel": {
+      "name": "Red Hat",
+      "url": "https://www.youtube.com/@redhat"
+    },
+    "duration": "PT3M45S",
+    "durationText": "3:45",
+    "language": "en",
+    "playlist": "endpoint-vulnerability",
+    "position": 5,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-nessus-essentials-running-scans",
+    "slug": "nessus-essentials-running-scans",
+    "youtubeId": "kXecHO6ESqY",
+    "title": {
+      "ar": "تشغيل أول فحص بـ Nessus Essentials",
+      "en": "Running your first scans with Nessus Essentials"
+    },
+    "originalTitle": "Nessus Essentials: Beginners Guide to Running Scans",
+    "description": {
+      "ar": "دليل للمبتدئين لتشغيل الفحوص في Nessus Essentials المجاني.",
+      "en": "A beginner guide to running scans in the free Nessus Essentials."
+    },
+    "notes": {
+      "ar": [
+        "Nessus Essentials مجاني حتى 16 عنوان IP.",
+        "الفحص بصلاحيات (Credentialed) يكشف أكثر بكثير.",
+        "افحص في نافذة صيانة متفق عليها."
+      ],
+      "en": [
+        "Nessus Essentials is free for up to 16 IPs.",
+        "Credentialed scans find far more.",
+        "Scan during an agreed maintenance window."
+      ]
+    },
+    "channel": {
+      "name": "Cyb3r_0verwatch",
+      "url": "https://www.youtube.com/@Cyb3r_0verwatch"
+    },
+    "duration": "PT19M37S",
+    "durationText": "19:37",
+    "language": "en",
+    "playlist": "endpoint-vulnerability",
+    "position": 6,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-nessus-vulnerability-management-tutorial",
+    "slug": "nessus-vulnerability-management-tutorial",
+    "youtubeId": "lT6Px9zJM3s",
+    "title": {
+      "ar": "إدارة الثغرات بـ Nessus: دورة عملية للمبتدئين",
+      "en": "Vulnerability management with Nessus for beginners"
+    },
+    "originalTitle": "Nessus Tutorial for Beginners: Vulnerability Management (PUT THIS ON YOUR RESUME!)",
+    "description": {
+      "ar": "شرح عملي من Josh Madakor لدورة إدارة الثغرات باستخدام Nessus.",
+      "en": "A hands-on Josh Madakor walkthrough of the vulnerability management cycle with Nessus."
+    },
+    "notes": {
+      "ar": [
+        "الدورة: اكتشاف ← تقييم ← ترقيع ← إعادة فحص.",
+        "أعد الفحص بعد الترقيع لإثبات الإغلاق.",
+        "تابع الثغرات بمؤشر زمن الإغلاق حسب الخطورة."
+      ],
+      "en": [
+        "The cycle: discover, assess, remediate, rescan.",
+        "Rescan after patching to prove closure.",
+        "Track time-to-remediate by severity."
+      ]
+    },
+    "channel": {
+      "name": "Josh Madakor",
+      "url": "https://www.youtube.com/@JoshMadakor"
+    },
+    "duration": "PT28M21S",
+    "durationText": "28:21",
+    "language": "en",
+    "playlist": "endpoint-vulnerability",
+    "position": 7,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-certmike-dmarc-dkim-spf",
+    "slug": "certmike-dmarc-dkim-spf",
+    "youtubeId": "Q8NUW3CZRvw",
+    "title": {
+      "ar": "شرح SPF وDKIM وDMARC (CertMike)",
+      "en": "SPF, DKIM and DMARC explained (CertMike)"
+    },
+    "originalTitle": "CertMike Explains DMARC, DKIM and SPF",
+    "description": {
+      "ar": "شرح مختصر وواضح من Mike Chapple للبروتوكولات الثلاثة.",
+      "en": "A short, clear explanation of the three protocols from Mike Chapple."
+    },
+    "notes": {
+      "ar": [
+        "SPF يحدد الخوادم المسموح لها بالإرسال.",
+        "DKIM يوقّع الرسالة رقميًا.",
+        "DMARC يربطهما بعنوان From ويحدد السياسة والتقارير."
+      ],
+      "en": [
+        "SPF lists the servers allowed to send.",
+        "DKIM signs the message.",
+        "DMARC ties both to the From domain and sets policy and reporting."
+      ]
+    },
+    "channel": {
+      "name": "Mike Chapple",
+      "url": "https://www.youtube.com/@CertMike"
+    },
+    "duration": "PT6M20S",
+    "durationText": "6:20",
+    "language": "en",
+    "playlist": "email-web-security",
+    "position": 1,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-spf-dkim-dmarc-christian-lempa",
+    "slug": "spf-dkim-dmarc-christian-lempa",
+    "youtubeId": "Yg3QL8To6uQ",
+    "title": {
+      "ar": "SPF وDKIM وDMARC بشكل عملي (Christian Lempa)",
+      "en": "SPF, DKIM and DMARC in practice (Christian Lempa)"
+    },
+    "originalTitle": "SPF, DKIM, DMARC was never so simple! // EasyDMARC",
+    "description": {
+      "ar": "شرح عملي من Christian Lempa لإعداد السجلات الثلاثة (فيديو برعاية EasyDMARC حسب عنوانه).",
+      "en": "A practical walkthrough from Christian Lempa of setting up all three records (sponsored by EasyDMARC per its title)."
+    },
+    "notes": {
+      "ar": [
+        "سجل SPF واحد فقط لكل دومين.",
+        "لا تتجاوز 10 عمليات DNS Lookup في SPF.",
+        "ابدأ DMARC بـ p=none مع rua لجمع التقارير."
+      ],
+      "en": [
+        "Only one SPF record per domain.",
+        "Stay under 10 DNS lookups in SPF.",
+        "Start DMARC at p=none with rua reporting."
+      ]
+    },
+    "channel": {
+      "name": "Christian Lempa",
+      "url": "https://www.youtube.com/@christianlempa"
+    },
+    "duration": "PT26M",
+    "durationText": "26:00",
+    "language": "en",
+    "playlist": "email-web-security",
+    "position": 2,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-dmarc-policy-none-quarantine-reject",
+    "slug": "dmarc-policy-none-quarantine-reject",
+    "youtubeId": "RzHxR72Rpk4",
+    "title": {
+      "ar": "سياسات DMARC: none وquarantine وreject",
+      "en": "DMARC policies: none, quarantine and reject"
+    },
+    "originalTitle": "DMARC Policy Explained: p=none, p=quarantine, p=reject",
+    "description": {
+      "ar": "فيديو قصير من PowerDMARC (مزوّد خدمة DMARC) يشرح مستويات السياسة الثلاثة.",
+      "en": "A short video from PowerDMARC (a DMARC vendor) explaining the three policy levels."
+    },
+    "notes": {
+      "ar": [
+        "none = مراقبة فقط بدون تأثير على التسليم.",
+        "quarantine = إرسال الرسائل الفاشلة إلى Spam.",
+        "reject = رفض الرسائل الفاشلة نهائيًا."
+      ],
+      "en": [
+        "none = monitor only, no delivery impact.",
+        "quarantine = failing mail goes to spam.",
+        "reject = failing mail is refused."
+      ]
+    },
+    "channel": {
+      "name": "PowerDMARC",
+      "url": "https://www.youtube.com/@powerdmarc"
+    },
+    "duration": "PT4M13S",
+    "durationText": "4:13",
+    "language": "en",
+    "playlist": "email-web-security",
+    "position": 3,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-microsoft-365-spf-dkim-dmarc",
+    "slug": "microsoft-365-spf-dkim-dmarc",
+    "youtubeId": "sJ-5URX19d4",
+    "title": {
+      "ar": "إعداد SPF وDKIM وDMARC في Microsoft 365",
+      "en": "SPF, DKIM and DMARC in Microsoft 365"
+    },
+    "originalTitle": "Microsoft 365 SPF, DKIM and DMARC; Improve Your Email Security!",
+    "description": {
+      "ar": "شرح عملي من Jonathan Edwards لإعداد البروتوكولات الثلاثة في Microsoft 365.",
+      "en": "A practical Jonathan Edwards walkthrough of configuring the three protocols in Microsoft 365."
+    },
+    "notes": {
+      "ar": [
+        "SPF لـ Microsoft 365 يتضمن include:spf.protection.outlook.com.",
+        "فعّل DKIM من بوابة Defender بعد نشر سجلي CNAME.",
+        "راقب تقارير DMARC قبل التشديد."
+      ],
+      "en": [
+        "The Microsoft 365 SPF include is include:spf.protection.outlook.com.",
+        "Enable DKIM in the Defender portal after publishing the two CNAMEs.",
+        "Watch DMARC reports before tightening."
+      ]
+    },
+    "channel": {
+      "name": "Jonathan Edwards",
+      "url": "https://www.youtube.com/@bearded365guy"
+    },
+    "duration": "PT17M38S",
+    "durationText": "17:38",
+    "language": "en",
+    "playlist": "email-web-security",
+    "position": 4,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-phishing-email-header-analysis-soc",
+    "slug": "phishing-email-header-analysis-soc",
+    "youtubeId": "AzE0K_T1niw",
+    "title": {
+      "ar": "تحليل ترويسة البريد ونتائج SPF وDKIM وDMARC لمحلل SOC",
+      "en": "Email header analysis and SPF/DKIM/DMARC results for SOC analysts"
+    },
+    "originalTitle": "Phishing Course for SOC Analysts - Part 2 Email Header Analysis & Authentication (SPF, DKIM, DMARC)",
+    "description": {
+      "ar": "الجزء الثاني من دورة تحليل التصيد لمحللي SOC: قراءة ترويسة الرسالة ونتائج المصادقة.",
+      "en": "Part two of a phishing analysis course for SOC analysts: reading headers and authentication results."
+    },
+    "notes": {
+      "ar": [
+        "ابحث عن Authentication-Results في الترويسة.",
+        "اقرأ سلسلة Received من الأسفل للأعلى.",
+        "Return-Path المختلف عن From ليس دليل احتيال وحده."
+      ],
+      "en": [
+        "Look for Authentication-Results in the headers.",
+        "Read the Received chain bottom-up.",
+        "A Return-Path that differs from From is not proof of fraud by itself."
+      ]
+    },
+    "channel": {
+      "name": "Ahmed Farouk",
+      "url": "https://www.youtube.com/@ahmed.moh.farou2"
+    },
+    "duration": "PT42M38S",
+    "durationText": "42:38",
+    "playlist": "email-web-security",
+    "position": 5,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-owasp-top-10-2021-overview",
+    "slug": "owasp-top-10-2021-overview",
+    "youtubeId": "hryt-rCLJUA",
+    "title": {
+      "ar": "قائمة OWASP Top 10 2021 وكيف تستخدمها",
+      "en": "OWASP Top 10 2021 and how to use it"
+    },
+    "originalTitle": "OWASP Top 10 2021 - The List and How You Should Use It",
+    "description": {
+      "ar": "عرض لقائمة OWASP Top 10 إصدار 2021 وطريقة الاستفادة منها.",
+      "en": "An overview of the OWASP Top 10 2021 list and how to use it."
+    },
+    "notes": {
+      "ar": [
+        "Broken Access Control في المركز الأول بإصدار 2021.",
+        "القائمة وثيقة توعية وليست معيار اختبار كامل.",
+        "للاختبار التفصيلي استخدم OWASP ASVS."
+      ],
+      "en": [
+        "Broken Access Control is number one in the 2021 edition.",
+        "The list is an awareness document, not a full testing standard.",
+        "For detailed testing use OWASP ASVS."
+      ]
+    },
+    "channel": {
+      "name": "Cyber Citadel",
+      "url": "https://www.youtube.com/@CyberCitadel"
+    },
+    "duration": "PT8M51S",
+    "durationText": "8:51",
+    "language": "en",
+    "playlist": "email-web-security",
+    "position": 6,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-ccna-day-0-what-is-a-network",
+    "slug": "ccna-day-0-what-is-a-network",
     "youtubeId": "S7MNX_UD7vY",
-    "date": "2024-10-17",
-    "categoryId": "cybersecurity",
-    "subcategoryId": "network-security",
-    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+    "title": {
+      "ar": "CCNA مجانًا: ما هي الشبكة؟ (اليوم 0)",
+      "en": "Free CCNA: what is a network? (day 0)"
+    },
+    "originalTitle": "FREE CCNA // What is a Network? // Day 0",
+    "description": {
+      "ar": "الحلقة الافتتاحية من دورة NetworkChuck المجانية لـ CCNA.",
+      "en": "The opening episode of NetworkChuck's free CCNA course."
+    },
+    "notes": {
+      "ar": [
+        "CCNA 200-301 هي الشهادة الأساسية من Cisco.",
+        "طبّق كل درس على Packet Tracer أو مختبر حقيقي.",
+        "راجع موقع Cisco لمعرفة نسخة المنهج الحالية."
+      ],
+      "en": [
+        "CCNA 200-301 is Cisco's core associate certification.",
+        "Practise every lesson in Packet Tracer or a real lab.",
+        "Check Cisco's site for the current exam blueprint."
+      ]
+    },
+    "channel": {
+      "name": "NetworkChuck",
+      "url": "https://www.youtube.com/@NetworkChuck"
+    },
+    "duration": null,
+    "durationText": null,
+    "language": "en",
+    "playlist": "certifications-career",
+    "position": 1,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
   },
   {
-    "id": "vid-gen-0012",
-    "title": {
-      "ar": "CCNA مجانًا // نموذج OSI",
-      "en": "FREE CCNA // OSI Model"
-    },
-    "description": {
-      "ar": "شرح طبقات نموذج OSI السبع، أساس فهم أي مفهوم شبكات لاحق.",
-      "en": "An explanation of the seven OSI model layers, foundational to understanding later networking concepts."
-    },
+    "id": "vid-ccna-osi-model-episode",
+    "slug": "ccna-osi-model-episode",
     "youtubeId": "oIRkXulqJA4",
-    "date": "2025-02-24",
-    "categoryId": "cybersecurity",
-    "subcategoryId": "network-security",
-    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+    "title": {
+      "ar": "نموذج OSI: طبقتا التطبيق والنقل (CCNA)",
+      "en": "The OSI model: application and transport layers (CCNA)"
+    },
+    "originalTitle": "how the OSI model works on YouTube (Application and Transport Layers) // FREE CCNA // EP 5",
+    "description": {
+      "ar": "حلقة من دورة CCNA المجانية من NetworkChuck عن طبقتي التطبيق والنقل.",
+      "en": "An episode of NetworkChuck's free CCNA course on the application and transport layers."
+    },
+    "notes": {
+      "ar": [
+        "TCP موثوق ويستخدم المصافحة الثلاثية.",
+        "UDP أخف ويُستخدم في DNS والصوت.",
+        "رقم المنفذ يحدد التطبيق على الجهاز."
+      ],
+      "en": [
+        "TCP is reliable and uses the three-way handshake.",
+        "UDP is lighter, used by DNS and voice.",
+        "The port number identifies the application on a host."
+      ]
+    },
+    "channel": {
+      "name": "NetworkChuck",
+      "url": "https://www.youtube.com/@NetworkChuck"
+    },
+    "duration": null,
+    "durationText": null,
+    "language": "en",
+    "playlist": "certifications-career",
+    "position": 2,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
   },
   {
-    "id": "vid-gen-0013",
+    "id": "vid-security-plus-sy0-701-security-controls",
+    "slug": "security-plus-sy0-701-security-controls",
+    "youtubeId": "STM3EUvL7wg",
     "title": {
-      "ar": "دورة CCNA مجانية من NetworkChuck",
-      "en": "FREE CCNA Course by NetworkChuck"
+      "ar": "الضوابط الأمنية (Security+ SY0-701)",
+      "en": "Security controls (Security+ SY0-701)"
     },
+    "originalTitle": "Security Controls - CompTIA Security+ SY0-701 - 1.1",
     "description": {
-      "ar": "سلسلة تحضير لشهادة CCNA بأسلوب عملي وممتع من قناة NetworkChuck.",
-      "en": "A CCNA certification prep playlist with NetworkChuck's practical, engaging style."
+      "ar": "أول درس في منهج Security+ SY0-701 من Professor Messer عن أنواع الضوابط الأمنية.",
+      "en": "The first Security+ SY0-701 lesson from Professor Messer, on types of security controls."
     },
-    "youtubeId": "",
-    "youtubePlaylistId": "PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P",
-    "date": "2025-05-04",
-    "categoryId": "cybersecurity",
-    "subcategoryId": "network-security",
-    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+    "notes": {
+      "ar": [
+        "فئات الضوابط: تقنية، إدارية، تشغيلية، مادية.",
+        "أنواعها: وقائية، كاشفة، تصحيحية، رادعة، تعويضية، توجيهية.",
+        "Professor Messer يقدم المنهج كاملًا مجانًا."
+      ],
+      "en": [
+        "Control categories: technical, managerial, operational, physical.",
+        "Control types: preventive, detective, corrective, deterrent, compensating, directive.",
+        "Professor Messer offers the full syllabus free."
+      ]
+    },
+    "channel": {
+      "name": "Professor Messer",
+      "url": "https://www.youtube.com/@professormesser"
+    },
+    "duration": "PT11M49S",
+    "durationText": "11:49",
+    "language": "en",
+    "playlist": "certifications-career",
+    "position": 3,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
   },
   {
-    "id": "vid-gen-0014",
+    "id": "vid-security-plus-sy0-701-cia-triad",
+    "slug": "security-plus-sy0-701-cia-triad",
+    "youtubeId": "SBcDGb9l6yo",
     "title": {
-      "ar": "دورة تحضير شهادة CompTIA Security+ SY0-701",
-      "en": "CompTIA Security+ SY0-701 Training Course"
+      "ar": "ثالوث CIA: السرية والسلامة والإتاحة (Security+)",
+      "en": "The CIA triad (Security+ SY0-701)"
     },
+    "originalTitle": "The CIA Triad - CompTIA Security+ SY0-701 - 1.2",
     "description": {
-      "ar": "سلسلة Professor Messer الشهيرة لتحضير امتحان Security+ SY0-701 بشكل مجاني وشامل.",
-      "en": "Professor Messer's well-known free, comprehensive Security+ SY0-701 exam prep playlist."
+      "ar": "درس قصير من Professor Messer عن السرية والسلامة والإتاحة.",
+      "en": "A short Professor Messer lesson on confidentiality, integrity and availability."
     },
-    "youtubeId": "",
-    "youtubePlaylistId": "PLG49S3nxzAnnOmvg5UGVenB_qQgsh01uC",
-    "date": "2025-08-11",
-    "categoryId": "cybersecurity",
-    "subcategoryId": "guides-tips",
-    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+    "notes": {
+      "ar": [
+        "السرية: التشفير والتحكم في الوصول.",
+        "السلامة: التجزئة والتوقيع الرقمي.",
+        "الإتاحة: التكرار والنسخ الاحتياطي."
+      ],
+      "en": [
+        "Confidentiality: encryption and access control.",
+        "Integrity: hashing and digital signatures.",
+        "Availability: redundancy and backups."
+      ]
+    },
+    "channel": {
+      "name": "Professor Messer",
+      "url": "https://www.youtube.com/@professormesser"
+    },
+    "duration": "PT5M18S",
+    "durationText": "5:18",
+    "language": "en",
+    "playlist": "certifications-career",
+    "position": 4,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
   },
   {
-    "id": "vid-gen-0015",
+    "id": "vid-netriders-security-plus-sy0-601-intro-arabic",
+    "slug": "netriders-security-plus-sy0-601-intro-arabic",
+    "youtubeId": "dyKg_bQOXfU",
     "title": {
-      "ar": "دورة تحضير شهادة CompTIA Network+",
-      "en": "CompTIA Network+ Training Course"
+      "ar": "مقدمة دورة Security+ بالعربي (Netriders)",
+      "en": "Security+ course introduction in Arabic (Netriders)"
     },
+    "originalTitle": "00- Security+ (SY0-601) Course Introduction -  عربي",
     "description": {
-      "ar": "سلسلة Professor Messer لتحضير امتحان Network+ بشكل مجاني وشامل.",
-      "en": "Professor Messer's free, comprehensive Network+ exam prep playlist."
+      "ar": "مقدمة دورة Security+ بالعربية من أكاديمية نت رايدرز. تنبيه: الدورة مبنية على منهج SY0-601 الذي توقف، والمنهج الحالي هو SY0-701، فاستخدمها لفهم المفاهيم مع مراجعة الفروق.",
+      "en": "The Arabic Security+ course introduction from Netriders. Note: it follows the retired SY0-601 exam; the current exam is SY0-701, so use it for concepts and review the differences."
     },
-    "youtubeId": "",
-    "youtubePlaylistId": "PLG49S3nxzAnnXcPUJbwikr2xAcmKljbnQ",
-    "date": "2025-12-18",
-    "categoryId": "cybersecurity",
-    "subcategoryId": "network-security",
-    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+    "notes": {
+      "ar": [
+        "المفاهيم الأساسية لم تتغير كثيرًا بين الإصدارين.",
+        "راجع أهداف SY0-701 الرسمية من CompTIA.",
+        "اجمع الشرح العربي مع درس إنجليزي حديث لكل هدف."
+      ],
+      "en": [
+        "Core concepts changed little between versions.",
+        "Review the official SY0-701 objectives from CompTIA.",
+        "Pair the Arabic lessons with a current English lesson per objective."
+      ]
+    },
+    "channel": {
+      "name": "Netriders - نت رايدرز",
+      "url": "https://www.youtube.com/@NetridersAcad"
+    },
+    "duration": "PT40M49S",
+    "durationText": "40:49",
+    "language": "ar",
+    "playlist": "certifications-career",
+    "position": 5,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
   },
   {
-    "id": "vid-gen-0016",
+    "id": "vid-linux-full-course-beginners",
+    "slug": "linux-full-course-beginners",
+    "youtubeId": "sWbUDq4S6Y8",
     "title": {
-      "ar": "دورة الاختراق الأخلاقي العملي الكاملة",
-      "en": "Practical Ethical Hacking - Full Course"
+      "ar": "مقدمة في Linux: دورة كاملة للمبتدئين",
+      "en": "Introduction to Linux: full course for beginners"
     },
+    "originalTitle": "Introduction to Linux – Full Course for Beginners",
     "description": {
-      "ar": "دورة كاملة ومجانية في الاختراق الأخلاقي العملي من TCM Security.",
-      "en": "A complete, free practical ethical hacking course from TCM Security (The Cyber Mentor)."
+      "ar": "دورة كاملة من freeCodeCamp في أساسيات Linux، وهي مهارة أساسية لمهندسي الأمن والشبكات.",
+      "en": "A full freeCodeCamp course on Linux basics, a core skill for security and network engineers."
     },
+    "notes": {
+      "ar": [
+        "الأوامر الأساسية: ls وcd وgrep وchmod.",
+        "الصلاحيات rwx أساس أمان الملفات.",
+        "أغلب أدوات الأمن (Wazuh وSuricata) تعمل على Linux."
+      ],
+      "en": [
+        "Core commands: ls, cd, grep, chmod.",
+        "rwx permissions underpin file security.",
+        "Most security tooling (Wazuh, Suricata) runs on Linux."
+      ]
+    },
+    "channel": {
+      "name": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/@freecodecamp"
+    },
+    "duration": null,
+    "durationText": null,
+    "language": "en",
+    "playlist": "certifications-career",
+    "position": 6,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
+  },
+  {
+    "id": "vid-practical-ethical-hacking-full-course",
+    "slug": "practical-ethical-hacking-full-course",
     "youtubeId": "fNzpcB7ODxQ",
-    "date": "2026-03-25",
-    "categoryId": "cybersecurity",
-    "subcategoryId": "guides-tips",
-    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80"
+    "title": {
+      "ar": "دورة الاختراق الأخلاقي (12 ساعة)",
+      "en": "Ethical hacking full course (12 hours)"
+    },
+    "originalTitle": "Ethical Hacking in 12 Hours - Full Course - Learn to Hack!",
+    "description": {
+      "ar": "دورة طويلة من The Cyber Mentors (TCM) في الاختراق الأخلاقي، مفيدة لفهم عقلية المهاجم عند بناء الدفاع.",
+      "en": "A long ethical hacking course from The Cyber Mentors (TCM), useful for understanding the attacker mindset when building defences."
+    },
+    "notes": {
+      "ar": [
+        "طبّق فقط في مختبر تملكه أو بتفويض مكتوب.",
+        "جزء Active Directory مفيد لفرق الدفاع.",
+        "حوّل كل تقنية هجوم تتعلمها إلى قاعدة كشف."
+      ],
+      "en": [
+        "Practise only in your own lab or with written authorization.",
+        "The Active Directory section is useful for defenders.",
+        "Turn each attack technique into a detection rule."
+      ]
+    },
+    "channel": {
+      "name": "The Cyber Mentors",
+      "url": "https://www.youtube.com/@TCMSecurityAcademy"
+    },
+    "duration": null,
+    "durationText": null,
+    "language": "en",
+    "playlist": "certifications-career",
+    "position": 7,
+    "date": "2026-11-19",
+    "categoryId": "cybersecurity"
   }
 ]

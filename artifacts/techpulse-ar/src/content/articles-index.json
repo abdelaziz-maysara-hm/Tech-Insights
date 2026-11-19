@@ -1,10 +1,599 @@
 [
   {
+    "id": "art-p7-012",
+    "slug": "windows-security-event-ids-soc",
+    "title": {
+      "ar": "أهم معرّفات أحداث أمان Windows لفرق SOC: ماذا تراقب ولماذا",
+      "en": "Key Windows Security Event IDs for SOC Teams: What to Monitor and Why"
+    },
+    "excerpt": {
+      "ar": "جدول مرجعي لأحداث Windows الأمنية الأهم: تسجيل الدخول، الحسابات والمجموعات، Kerberos، العمليات والخدمات والمهام المجدولة، ومسح السجلات، مع سياسات التدقيق اللازمة.",
+      "en": "Reference table of key Windows security events — logons, accounts and groups, Kerberos, processes, services, scheduled tasks, log clearing — and the audit policy they need."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1740560051549-cc6799220d48?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NHx8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "windows",
+      "event-logs",
+      "soc",
+      "siem",
+      "detection"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "siem-soc",
+      "threat-detection",
+      "active-directory"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [
+      "windows-server"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
+  },
+  {
+    "id": "art-p7-011",
+    "slug": "kes-12-exclusions-kaspersky-security-center",
+    "title": {
+      "ar": "استثناءات KES 12 في Kaspersky Security Center: إعداد آمن واستيراد XML",
+      "en": "KES 12 Exclusions in Kaspersky Security Center: Safe Setup and XML Import"
+    },
+    "excerpt": {
+      "ar": "الفرق بين استثناءات الفحص والتطبيقات الموثوقة في KES 12، وكيف تضيفها في السياسة، وتستوردها بصيغة XML، وتتجنب النقاط العمياء الخطيرة.",
+      "en": "The difference between scan exclusions and trusted applications in KES 12, how to add them in policy, import them as XML, and avoid dangerous blind spots."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1751448555253-f39c06e29d82?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YW50aXZpcnVzJTIwZW5kcG9pbnQlMjBzZWN1cml0eXxlbnwxfDB8fHwxNzg1ODcyMTQwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "kaspersky",
+      "kes",
+      "kaspersky-security-center",
+      "exclusions",
+      "endpoint-security"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "endpoint-security"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "kaspersky"
+    ],
+    "productIds": [
+      "kes",
+      "ksc"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
+  },
+  {
+    "id": "art-p7-010",
+    "slug": "kerberoasting-detection-prevention",
+    "title": {
+      "ar": "هجوم Kerberoasting: كيف يعمل وكيف تكشفه وتمنعه",
+      "en": "Kerberoasting: How It Works, How to Detect and Prevent It"
+    },
+    "excerpt": {
+      "ar": "لماذا تستطيع أي حساب في النطاق مهاجمة حسابات الخدمة، وكيف تكشف الهجوم بالحدث 4769، وكيف تمنعه بـgMSA وكلمات مرور طويلة وتشفير AES.",
+      "en": "Why any domain account can attack service accounts, how to detect it with event 4769, and how to prevent it with gMSAs, long passwords and AES."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "kerberos",
+      "active-directory",
+      "kerberoasting",
+      "service-accounts",
+      "detection"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "active-directory",
+      "iam-pam",
+      "threat-detection"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [
+      "active-directory"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
+  },
+  {
+    "id": "art-p7-009",
+    "slug": "fortios-ssl-vpn-tunnel-mode-removal-ipsec-migration",
+    "title": {
+      "ar": "إلغاء SSL VPN Tunnel Mode في FortiOS 7.6.3: خطة الترحيل إلى IPsec VPN",
+      "en": "SSL VPN Tunnel Mode Removed in FortiOS 7.6.3: A Migration Plan to IPsec VPN"
+    },
+    "excerpt": {
+      "ar": "ما الذي تغيّر في FortiOS 7.6.3، ولماذا يجب الترحيل قبل الترقية، وكيف تنقل المستخدمين والمجموعات والسياسات إلى IPsec عبر TCP 443 خطوة بخطوة.",
+      "en": "What changed in FortiOS 7.6.3, why you must migrate before upgrading, and how to move users, groups and policies to IPsec over TCP 443 step by step."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "vpn-remote",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1603985529862-9e12198c9a60?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8dnBuJTIwcHJpdmFjeSUyMG5ldHdvcmt8ZW58MXwwfHx8MTc4NTg3MjEzNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "fortinet",
+      "fortigate",
+      "ipsec",
+      "ssl-vpn",
+      "migration"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "networking"
+    ],
+    "topicIds": [
+      "vpn",
+      "firewalls"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "fortinet"
+    ],
+    "productIds": [
+      "fortigate"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
+  },
+  {
+    "id": "art-p7-008",
+    "slug": "forticlient-error-7200-fix",
+    "title": {
+      "ar": "خطأ FortiClient ‎-7200 في SSL VPN: الأسباب والحلول",
+      "en": "FortiClient Error -7200 in SSL VPN: Causes and Fixes"
+    },
+    "excerpt": {
+      "ar": "الخطأ ‎-7200 نادرًا ما يعني كلمة مرور خاطئة. هذه الأسباب الفعلية بالترتيب، من تعطل Tunnel Mode بعد FortiOS 7.6.3 إلى قوة التشفير والشهادات، مع أوامر التشخيص.",
+      "en": "Error -7200 rarely means a wrong password. The real causes in order — tunnel mode after FortiOS 7.6.3, portals, cipher strength, certificates — plus debug commands."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "vpn-remote",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1683322499436-f4383dd59f5a?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMGZpcmV3YWxsJTIwc2VydmVyfGVufDF8MHx8fDE3ODU4NzIxMjl8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "fortinet",
+      "forticlient",
+      "ssl-vpn",
+      "troubleshooting"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "networking",
+      "troubleshooting"
+    ],
+    "topicIds": [
+      "vpn",
+      "firewalls"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [
+      "fortinet"
+    ],
+    "productIds": [
+      "fortigate"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
+  },
+  {
+    "id": "art-p7-007",
+    "slug": "exploited-vulnerabilities-roundup-august-2026",
+    "title": {
+      "ar": "ملخص الثغرات المستغلة — أغسطس 2026: SonicWall وN-central وAzure",
+      "en": "Exploited Vulnerabilities Roundup — August 2026"
+    },
+    "excerpt": {
+      "ar": "خمسة أحداث أمنية من أوائل أغسطس 2026 في مكان واحد: ما حدث، ومن يتأثر، وماذا تفعل الآن، مع الدروس المشتركة لفرق تقنية المعلومات.",
+      "en": "Five security events from early August 2026 in one place: what happened, who is affected, what to do now, and the shared lessons for IT teams."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "news-updates",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1614064642578-7faacdc6336e?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NHx8cmFuc29td2FyZSUyMGN5YmVyJTIwYXR0YWNrJTIwd2FybmluZ3xlbnwxfDB8fHwxNzg1ODcyMTYxfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "news",
+      "vulnerability",
+      "roundup",
+      "patching"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "vulnerability-management",
+      "threat-detection",
+      "cloud"
+    ],
+    "contentType": "reference",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
+  },
+  {
+    "id": "art-p7-006",
+    "slug": "dmarc-rollout-none-to-reject",
+    "title": {
+      "ar": "تطبيق DMARC من p=none إلى p=reject: خطة مرحلية",
+      "en": "Rolling Out DMARC from p=none to p=reject: A Phased Plan"
+    },
+    "excerpt": {
+      "ar": "خطة عملية من أربع مراحل: الجرد والمراقبة، إصلاح المحاذاة، quarantine بنسبة تدريجية، ثم reject، مع أمثلة سجلات DNS وأخطاء شائعة.",
+      "en": "A practical four-phase plan: inventory and monitoring, fixing alignment, gradual quarantine, then reject — with DNS record examples and common pitfalls."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1683117927786-f146451082fb?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8M3x8ZW1haWwlMjBpbmJveCUyMHNlY3VyaXR5fGVufDF8MHx8fDE3ODU4NzIxNDh8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "dmarc",
+      "spf",
+      "dkim",
+      "email-security",
+      "dns"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "dns",
+      "email-security"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
+  },
+  {
+    "id": "art-p7-005",
+    "slug": "enterprise-email-security-guide",
+    "title": {
+      "ar": "أمن البريد المؤسسي: الدليل الشامل لـSPF وDKIM وDMARC والتصيد",
+      "en": "Enterprise Email Security: The Complete Guide to SPF, DKIM and DMARC"
+    },
+    "excerpt": {
+      "ar": "كيف تحمي نطاقك ومستخدميك: مصادقة البريد بـSPF وDKIM وDMARC، متطلبات Gmail وYahoo وOutlook للمرسلين، MTA-STS، بوابات البريد، والتوعية بالتصيد.",
+      "en": "How to protect your domain and users: SPF, DKIM and DMARC authentication, Gmail, Yahoo and Outlook sender requirements, MTA-STS, mail gateways and phishing awareness."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8ZW1haWwlMjBpbmJveCUyMHNlY3VyaXR5fGVufDF8MHx8fDE3ODU4NzIxNDh8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "email-security",
+      "spf",
+      "dkim",
+      "dmarc",
+      "phishing",
+      "pillar"
+    ],
+    "isFeatured": true,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "dns",
+      "threat-detection",
+      "email-security"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
+  },
+  {
+    "id": "art-p7-004",
+    "slug": "endpoint-vulnerability-management-guide",
+    "title": {
+      "ar": "أمن الأجهزة الطرفية وإدارة الثغرات: الدليل الشامل",
+      "en": "Endpoint Security and Vulnerability Management: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "كيف تبني برنامجًا متكاملًا: جرد الأصول، حماية الأجهزة الطرفية وEDR، الاستثناءات الآمنة، فحص الثغرات، تحديد الأولويات بـCVSS وEPSS وقائمة KEV، والترقيع.",
+      "en": "Build an integrated programme: asset inventory, endpoint protection and EDR, safe exclusions, scanning, CVSS/EPSS/KEV prioritisation and patching."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "endpoint-security",
+      "edr",
+      "vulnerability-management",
+      "patching",
+      "pillar"
+    ],
+    "isFeatured": true,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "endpoint-security",
+      "vulnerability-management"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "kaspersky",
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
+  },
+  {
+    "id": "art-p7-003",
+    "slug": "active-directory-identity-security-guide",
+    "title": {
+      "ar": "أمن Active Directory والهوية: الدليل الشامل",
+      "en": "Active Directory and Identity Security: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "لماذا يستهدف المهاجمون Active Directory أولًا، وكيف تحميه: نموذج المستويات، حسابات الخدمة، Kerberos، LAPS، سياسات المجموعات، والمراقبة.",
+      "en": "Why attackers go after Active Directory first and how to protect it: the tier model, service accounts, Kerberos, LAPS, Group Policy and monitoring."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "active-directory",
+      "identity",
+      "kerberos",
+      "privileged-access",
+      "pillar"
+    ],
+    "isFeatured": true,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "infrastructure"
+    ],
+    "topicIds": [
+      "active-directory",
+      "iam-pam",
+      "windows-server"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [
+      "active-directory"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
+  },
+  {
+    "id": "art-p7-002",
+    "slug": "soc-incident-response-guide",
+    "title": {
+      "ar": "مركز العمليات الأمنية والاستجابة للحوادث: الدليل الشامل",
+      "en": "SOC and Incident Response: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "كيف تبني قدرة رصد واستجابة واقعية: مصادر السجلات، الـSIEM، قواعد الكشف، مراحل الاستجابة وفق NIST، كتيبات التشغيل، والمقاييس التي تهم الإدارة.",
+      "en": "How to build a realistic detection and response capability: log sources, SIEM, detection rules, NIST response phases, playbooks and the metrics that matter."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "soc",
+      "siem",
+      "incident-response",
+      "detection",
+      "pillar"
+    ],
+    "isFeatured": true,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "siem-soc",
+      "threat-detection"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
+  },
+  {
+    "id": "art-p7-001",
+    "slug": "enterprise-network-security-guide",
+    "title": {
+      "ar": "أمن الشبكات المؤسسية: الدليل الشامل للجدران النارية والـVPN",
+      "en": "Enterprise Network Security: The Complete Guide"
+    },
+    "excerpt": {
+      "ar": "مرجع عملي لتصميم شبكة مؤسسية آمنة: طبقات الحماية، سياسات الجدار الناري، الوصول عن بُعد بعد إلغاء SSL VPN Tunnel Mode، التقسيم بالـVLAN، والمراقبة.",
+      "en": "Design a secure enterprise network: defense layers, firewall policy, remote access after SSL VPN tunnel mode removal, segmentation and monitoring."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 7,
+    "heroImage": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YXVkaXQlMjBkb2N1bWVudHMlMjBvZmZpY2V8ZW58MXwwfHx8MTc4NTg5ODQ2Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "network-security",
+      "firewall",
+      "vpn",
+      "segmentation",
+      "pillar"
+    ],
+    "isFeatured": true,
+    "isTrending": false,
+    "domainIds": [
+      "networking",
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "firewalls",
+      "vpn",
+      "routing-switching",
+      "nac"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "fortinet",
+      "palo-alto"
+    ],
+    "productIds": [
+      "fortigate"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
+  },
+  {
     "id": "art-gen-0001",
     "slug": "2fa-practical-guide",
     "title": {
-      "ar": "المصادقة الثنائية (2FA): دليل عملي لحماية حساباتك",
-      "en": "Two-Factor Authentication (2FA): A Practical Complete Guide"
+      "ar": "المصادقة الثنائية (2FA): دليل عملي لحماية حساباتك وطرقها مقارنة",
+      "en": "Two-Factor Authentication (2FA): A Practical Guide and Methods Compared"
     },
     "excerpt": {
       "ar": "كل أنواع المصادقة الثنائية، إزاي تفعّلها صح، وأشهر الهجمات اللي بتستهدفها وإزاي تحمي نفسك منها.",
@@ -17,10 +606,10 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
-    "date": "2022-01-01",
-    "readTime": 10,
+    "date": "2026-11-19",
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1667453466805-75bbf36e8707?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8dHdvJTIwZmFjdG9yJTIwYXV0aGVudGljYXRpb24lMjBwaG9uZXxlbnwxfDB8fHwxNzg1ODcyMTIyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "2fa",
@@ -28,7 +617,14 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0002",
@@ -48,7 +644,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2022-03-08",
     "readTime": 9,
@@ -76,8 +672,8 @@
     "id": "art-gen-0003",
     "slug": "palo-alto-security-policy-basics",
     "title": {
-      "ar": "أساسيات Security Policy في Palo Alto: الدليل الكامل",
-      "en": "Palo Alto Security Policy Basics: The Complete Guide"
+      "ar": "أساسيات Security Policy في Palo Alto: القواعد والترتيب والمناطق",
+      "en": "Palo Alto Security Policy Basics: Rules, Order and Zones"
     },
     "excerpt": {
       "ar": "الترتيب الصحيح خطوة بخطوة لبناء سياسة أمان قوية: المناطق، App-ID، User-ID، Security Profiles، وأشهر الأخطاء التي تضعف الحماية.",
@@ -90,7 +686,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2022-06-15",
     "readTime": 10,
@@ -121,8 +717,8 @@
     "id": "art-gen-0004",
     "slug": "forcepoint-ssl-vpn-radius",
     "title": {
-      "ar": "إعداد Forcepoint SSL VPN مع RADIUS: الدليل الكامل خطوة بخطوة",
-      "en": "Setting Up Forcepoint SSL VPN with RADIUS: The Complete Step-by-Step Guide"
+      "ar": "إعداد Forcepoint SSL VPN مع RADIUS خطوة بخطوة",
+      "en": "Setting Up Forcepoint SSL VPN with RADIUS, Step by Step"
     },
     "excerpt": {
       "ar": "دليل تفصيلي كامل لربط Forcepoint NGFW SSL VPN مع RADIUS من SMC، مع أشهر الأخطاء وخطوات التحقق.",
@@ -135,7 +731,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2022-09-22",
     "readTime": 10,
@@ -168,8 +764,8 @@
     "id": "art-gen-0005",
     "slug": "fortigate-ssl-vpn-checklist",
     "title": {
-      "ar": "إعداد FortiGate SSL VPN: الدليل الكامل خطوة بخطوة",
-      "en": "Setting Up FortiGate SSL VPN: The Complete Step-by-Step Guide"
+      "ar": "إعداد FortiGate SSL VPN خطوة بخطوة (مع تنبيه FortiOS 7.6.3)",
+      "en": "Setting Up FortiGate SSL VPN Step by Step (with the FortiOS 7.6.3 Caveat)"
     },
     "excerpt": {
       "ar": "الخطوات الخمس المترابطة لإعداد SSL VPN صح من أول مرة، مع تشخيص أشهر الأعطال الشائعة.",
@@ -182,10 +778,10 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
-    "date": "2022-11-02",
-    "readTime": 9,
+    "date": "2026-11-19",
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1683322499436-f4383dd59f5a?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMGZpcmV3YWxsJTIwc2VydmVyfGVufDF8MHx8fDE3ODU4NzIxMjl8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "fortinet",
@@ -231,10 +827,10 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
-    "date": "2023-02-09",
-    "readTime": 9,
+    "date": "2026-11-19",
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8cGFzc3dvcmQlMjBzZWN1cml0eSUyMGxvY2t8ZW58MXwwfHx8MTc4NTg3MjEzMnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "password-manager",
@@ -242,14 +838,23 @@
       "identity"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [],
+    "topicIds": [
+      "iam-pam"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0007",
     "slug": "ad-powershell-daily-tasks",
     "title": {
-      "ar": "مهام Active Directory اليومية بـ PowerShell: الدليل الكامل",
-      "en": "Daily Active Directory Tasks with PowerShell: The Complete Guide"
+      "ar": "مهام Active Directory اليومية بـPowerShell: أوامر جاهزة للاستخدام",
+      "en": "Daily Active Directory Tasks with PowerShell: Ready-to-Use Commands"
     },
     "excerpt": {
       "ar": "أوامر عملية كاملة للاستعلام والإنشاء والإدارة، سكريبتات دفعية جاهزة، ونصائح أمان أساسية قبل تشغيل أي سكريبت.",
@@ -262,7 +867,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2023-05-16",
     "readTime": 11,
@@ -294,8 +899,8 @@
     "id": "art-gen-0008",
     "slug": "home-router-security-basics",
     "title": {
-      "ar": "أمان الراوتر المنزلي: الدليل الكامل خطوة بخطوة",
-      "en": "Home Router Security: The Complete Step-by-Step Guide"
+      "ar": "تأمين الراوتر في المكاتب الصغيرة والمنزل: خطوات أساسية",
+      "en": "Securing a Small-Office or Home Router: Essential Steps"
     },
     "excerpt": {
       "ar": "7 خطوات مرتبة حسب الأولوية لتأمين راوترك، وعلامات حقيقية تشير لاحتمال اختراقه.",
@@ -308,7 +913,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2023-07-23",
     "readTime": 8,
@@ -352,7 +957,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2023-10-03",
     "readTime": 8,
@@ -381,8 +986,8 @@
     "id": "art-gen-0010",
     "slug": "windows-disk-cleanup-safe",
     "title": {
-      "ar": "تنظيف مساحة القرص في Windows بأمان: الدليل الكامل",
-      "en": "Safe Disk Cleanup on Windows: The Complete Guide"
+      "ar": "تنظيف مساحة القرص في Windows بأمان: ما يُحذف وما لا يُحذف",
+      "en": "Safe Disk Cleanup on Windows: What to Delete and What to Keep"
     },
     "excerpt": {
       "ar": "الأدوات الرسمية بالتفصيل، إيه اللي آمن تمامًا وإيه اللي محتاج حذر، ونصيحة النقل قبل الحذف.",
@@ -395,7 +1000,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2024-01-10",
     "readTime": 7,
@@ -403,37 +1008,6 @@
     "tags": [
       "windows",
       "disk-cleanup",
-      "guide"
-    ],
-    "isFeatured": false,
-    "isTrending": false
-  },
-  {
-    "id": "art-gen-0011",
-    "slug": "student-laptop-specs",
-    "title": {
-      "ar": "مواصفات لابتوب للطالب: الدليل الكامل لما يكفي فعلًا",
-      "en": "Student Laptop Specs: The Complete Guide to What Actually Matters"
-    },
-    "excerpt": {
-      "ar": "ليه 16 جيجا رام هي النقطة المثالية، وأي مواصفات تقدر تتنازل عنها بأمان من غير ما تضيع فلوسك.",
-      "en": "Why 16GB RAM is the sweet spot, and which specs you can safely skip without wasting your money."
-    },
-    "categoryId": "laptops",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2024-04-17",
-    "readTime": 7,
-    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bGFwdG9wJTIwY29tcHV0ZXIlMjBzdHVkZW50fGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "laptop",
-      "students",
       "guide"
     ],
     "isFeatured": false,
@@ -457,7 +1031,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2024-06-24",
     "readTime": 7,
@@ -488,8 +1062,8 @@
     "id": "art-gen-0013",
     "slug": "kaspersky-security-center-tagging",
     "title": {
-      "ar": "تنظيم الأجهزة في Kaspersky Security Center بالـ Tags: الدليل الكامل",
-      "en": "Organizing Devices in Kaspersky Security Center with Tags: The Complete Guide"
+      "ar": "تنظيم الأجهزة في Kaspersky Security Center بالوسوم (Tags)",
+      "en": "Organising Devices in Kaspersky Security Center with Tags"
     },
     "excerpt": {
       "ar": "الفرق بين Administration Groups وTags، خطوات تطبيق عملية كاملة، وأشهر أخطاء التصنيف اللي بتلغي الفايدة.",
@@ -502,7 +1076,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2024-09-04",
     "readTime": 9,
@@ -535,8 +1109,8 @@
     "id": "art-gen-0014",
     "slug": "rdp-multi-user-rds-licensing",
     "title": {
-      "ar": "تفعيل RDP متعدد المستخدمين وترخيص RDS بشكل صحيح: الدليل الكامل",
-      "en": "Enabling Multi-User RDP and Licensing RDS Correctly: The Complete Guide"
+      "ar": "تفعيل RDP متعدد المستخدمين وترخيص RDS بشكل صحيح",
+      "en": "Enabling Multi-User RDP and Licensing RDS Correctly"
     },
     "excerpt": {
       "ar": "الفرق الجوهري بين RDP وRDS، خطوات إعداد تفصيلية، الفرق بين Per User وPer Device، وأشهر أخطاء الترخيص.",
@@ -549,7 +1123,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2024-12-11",
     "readTime": 10,
@@ -591,7 +1165,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-02-18",
     "readTime": 8,
@@ -624,8 +1198,8 @@
     "id": "art-gen-0016",
     "slug": "dns-reverse-lookup-zone-setup",
     "title": {
-      "ar": "إعداد منطقة DNS العكسية (Reverse Lookup Zone): الدليل الكامل",
-      "en": "Setting Up a DNS Reverse Lookup Zone: The Complete Guide"
+      "ar": "إعداد منطقة DNS العكسية (Reverse Lookup Zone) في Windows Server",
+      "en": "Setting Up a DNS Reverse Lookup Zone in Windows Server"
     },
     "excerpt": {
       "ar": "ليه PTR مهم فعليًا، خطوات إنشاء المنطقة العكسية بالتفصيل، أوامر تحقق حقيقية، وأشهر مشاكل الإعداد وحلولها.",
@@ -638,7 +1212,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-05-25",
     "readTime": 9,
@@ -667,8 +1241,8 @@
     "id": "art-gen-0017",
     "slug": "group-policy-basics-for-sysadmins",
     "title": {
-      "ar": "أساسيات Group Policy: الدليل الكامل لمدير النظام",
-      "en": "Group Policy Fundamentals: The Complete Guide for Sysadmins"
+      "ar": "أساسيات Group Policy لمديري الأنظمة: الربط والوراثة والتشخيص",
+      "en": "Group Policy Fundamentals for Sysadmins: Linking, Inheritance and Troubleshooting"
     },
     "excerpt": {
       "ar": "ترتيب تطبيق السياسات LSDOU بالتفصيل، Security Filtering وWMI Filtering، أدوات التشخيص الأساسية، وأشهر الأخطاء وحلولها.",
@@ -681,7 +1255,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-08-05",
     "readTime": 11,
@@ -725,7 +1299,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-10-12",
     "readTime": 10,
@@ -754,8 +1328,8 @@
     "id": "art-gen-0019",
     "slug": "zero-trust-explained-practically",
     "title": {
-      "ar": "Zero Trust بدون تعقيد: الدليل الكامل للمبدأ والتطبيق العملي",
-      "en": "Zero Trust Without the Jargon: The Complete Principle and Practical Implementation Guide"
+      "ar": "Zero Trust بدون تعقيد: المبدأ وخطوات التطبيق العملي",
+      "en": "Zero Trust Without the Jargon: The Principle and Practical Steps"
     },
     "excerpt": {
       "ar": "المبدأ الأساسي، الفرق عن الأمان التقليدي، ركائز NIST الست، وخطة تطبيق تدريجية واقعية بدون ميزانية ضخمة.",
@@ -768,7 +1342,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-01-19",
     "readTime": 11,
@@ -796,8 +1370,8 @@
     "id": "art-gen-0020",
     "slug": "email-security-gateway-basics",
     "title": {
-      "ar": "بوابة أمان البريد الإلكتروني: الدليل الكامل لما بتحميه فعليًا",
-      "en": "Email Security Gateways: The Complete Guide to What They Actually Protect Against"
+      "ar": "بوابة أمان البريد الإلكتروني: ما الذي تحميه فعليًا",
+      "en": "Email Security Gateways: What They Actually Protect Against"
     },
     "excerpt": {
       "ar": "4 وظائف أساسية بتضيفها بوابة أمان متخصصة فوق الحماية المدمجة، ومتى الاستثمار الإضافي يستاهل فعليًا.",
@@ -810,7 +1384,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-04-26",
     "readTime": 9,
@@ -839,8 +1413,8 @@
     "id": "art-gen-0021",
     "slug": "vlan-basics-why-segment",
     "title": {
-      "ar": "أساسيات VLAN: الدليل الكامل لليه ولإزاي تقسّم الشبكة",
-      "en": "VLAN Basics: The Complete Guide to Why and How to Segment a Network"
+      "ar": "أساسيات VLAN: لماذا وكيف تقسّم الشبكة",
+      "en": "VLAN Basics: Why and How to Segment a Network"
     },
     "excerpt": {
       "ar": "خطوات إعداد VLAN تفصيلية (Access/Trunk، Inter-VLAN Routing)، وأشهر 3 أخطاء بتضيّع فايدة التقسيم بالكامل.",
@@ -853,7 +1427,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-03-06",
     "readTime": 8,
@@ -882,8 +1456,8 @@
     "id": "art-gen-0022",
     "slug": "snmp-monitoring-basics",
     "title": {
-      "ar": "أساسيات مراقبة الشبكة بـ SNMP: الدليل الكامل",
-      "en": "Network Monitoring Basics with SNMP: The Complete Guide"
+      "ar": "أساسيات مراقبة الشبكة بـSNMP: الإصدارات والأمان",
+      "en": "Network Monitoring with SNMP: Versions and Security"
     },
     "excerpt": {
       "ar": "الفرق بين v1/v2c وv3 بالتفصيل، خطوات إعداد كاملة، وأشهر 3 أخطاء بتعرّض بيانات جهازك.",
@@ -896,7 +1470,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-05-13",
     "readTime": 8,
@@ -923,8 +1497,8 @@
     "id": "art-gen-0023",
     "slug": "802-1x-certificate-authentication",
     "title": {
-      "ar": "المصادقة بالشهادات عبر 802.1X: الدليل الكامل",
-      "en": "Certificate-Based Authentication with 802.1X: The Complete Guide"
+      "ar": "المصادقة بالشهادات عبر 802.1X: المكونات وخطوات النشر",
+      "en": "Certificate-Based 802.1X Authentication: Components and Rollout Steps"
     },
     "excerpt": {
       "ar": "الفرق بين EAP-TLS وPEAP، خطوات تطبيق عملية كاملة، وليه التفعيل الصارم المفاجئ أشهر خطأ.",
@@ -937,7 +1511,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-07-20",
     "readTime": 9,
@@ -968,8 +1542,8 @@
     "id": "art-gen-0024",
     "slug": "log-retention-siem-basics",
     "title": {
-      "ar": "الاحتفاظ بالسجلات (Log Retention): الدليل الكامل لتحديد المدة الصحيحة",
-      "en": "Log Retention: The Complete Guide to Setting the Right Duration"
+      "ar": "الاحتفاظ بالسجلات (Log Retention): كيف تحدد المدة الصحيحة",
+      "en": "Log Retention: How to Set the Right Duration"
     },
     "excerpt": {
       "ar": "مدد مقترحة حسب نوع السجل، استراتيجية التخزين المتدرج (ساخن/بارد)، ونصيحة توثيق القرار بدل رقم عشوائي.",
@@ -982,7 +1556,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-09-27",
     "readTime": 8,
@@ -1012,7 +1586,7 @@
     "id": "art-gen-0025",
     "slug": "windows-patch-management-strategy",
     "title": {
-      "ar": "استراتيجية تحديث الأنظمة (Patch Management): الدليل الكامل",
+      "ar": "استراتيجية إدارة التحديثات (Patch Management) لبيئة صغيرة",
       "en": "A Patch Management Strategy for a Small Environment"
     },
     "excerpt": {
@@ -1026,7 +1600,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-11-07",
     "readTime": 9,
@@ -1053,8 +1627,8 @@
     "id": "art-gen-0026",
     "slug": "dhcp-failover-high-availability",
     "title": {
-      "ar": "إعداد DHCP Failover لضمان استمرارية الشبكة: الدليل الكامل",
-      "en": "Setting Up DHCP Failover for Network Continuity: The Complete Guide"
+      "ar": "إعداد DHCP Failover لضمان استمرارية الشبكة",
+      "en": "Setting Up DHCP Failover for Network Continuity"
     },
     "excerpt": {
       "ar": "الفرق بين Hot Standby وLoad Balance بالتفصيل، خطوات إعداد كاملة، وأمر PowerShell للتحقق من نجاح الإعداد.",
@@ -1067,7 +1641,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-01-14",
     "readTime": 8,
@@ -1097,8 +1671,8 @@
     "id": "art-gen-0027",
     "slug": "syslog-server-setup-basics",
     "title": {
-      "ar": "إعداد خادم Syslog مركزي: الدليل الكامل من أين تبدأ",
-      "en": "Setting Up a Central Syslog Server: The Complete Guide to Where to Start"
+      "ar": "إعداد خادم Syslog مركزي: من أين تبدأ",
+      "en": "Setting Up a Central Syslog Server: Where to Start"
     },
     "excerpt": {
       "ar": "مقارنة الأدوات المتاحة حسب حجم البيئة، خطوات الإعداد التفصيلية، وليه التجميع بدون مراجعة دورية بيدّيك إحساس زائف بالأمان.",
@@ -1111,7 +1685,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-03-21",
     "readTime": 9,
@@ -1154,7 +1728,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-05-01",
     "readTime": 9,
@@ -1181,8 +1755,8 @@
     "id": "art-gen-0029",
     "slug": "hyper-v-vs-checkpoints-basics",
     "title": {
-      "ar": "استخدام Checkpoints في Hyper-V بأمان: الدليل الكامل",
-      "en": "Using Hyper-V Checkpoints Safely: The Complete Guide"
+      "ar": "استخدام Checkpoints في Hyper-V بأمان: متى تفيد ومتى تضر",
+      "en": "Using Hyper-V Checkpoints Safely: When They Help and When They Hurt"
     },
     "excerpt": {
       "ar": "ليه Checkpoint مش بديل عن نسخة احتياطية، المشكلة العملية مع التراكم (أداء وتخزين)، وخطوات استخدام آمنة.",
@@ -1195,7 +1769,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-07-08",
     "readTime": 7,
@@ -1227,8 +1801,8 @@
     "id": "art-gen-0030",
     "slug": "mfa-fatigue-attacks-explained",
     "title": {
-      "ar": "هجمات إرهاق المصادقة الثنائية (MFA Fatigue): الدليل الكامل لحماية فريقك",
-      "en": "MFA Fatigue Attacks: The Complete Guide to Protecting Your Team"
+      "ar": "هجمات إرهاق المصادقة الثنائية (MFA Fatigue) وكيف تحمي فريقك",
+      "en": "MFA Fatigue Attacks and How to Protect Your Team"
     },
     "excerpt": {
       "ar": "ليه الهجوم ده فعّال بشكل مقلق، وخمس طرق حماية عملية من Number Matching للمفاتيح المادية.",
@@ -1241,7 +1815,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-08-15",
     "readTime": 8,
@@ -1270,8 +1844,8 @@
     "id": "art-gen-0031",
     "slug": "windows-event-viewer-security-logs",
     "title": {
-      "ar": "قراءة سجلات الأمان في Event Viewer بذكاء: الدليل الكامل",
-      "en": "Reading Windows Security Logs in Event Viewer Smartly: The Complete Guide"
+      "ar": "قراءة سجلات الأمان في Event Viewer بذكاء",
+      "en": "Reading Windows Security Logs in Event Viewer Effectively"
     },
     "excerpt": {
       "ar": "شرح تفصيلي لأهم 5 Event IDs، ليه 1102 أقوى علامة تحذير على الإطلاق، واستراتيجية مراقبة عملية.",
@@ -1284,7 +1858,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-09-22",
     "readTime": 8,
@@ -1311,8 +1885,8 @@
     "id": "art-gen-0032",
     "slug": "wifi-6-vs-wifi-5-practical",
     "title": {
-      "ar": "Wi-Fi 6 مقابل Wi-Fi 5: الدليل الكامل لتقييم الترقية",
-      "en": "Wi-Fi 6 vs Wi-Fi 5: The Complete Guide to Assessing the Upgrade"
+      "ar": "Wi-Fi 6 مقابل Wi-Fi 5: هل تستحق الترقية في الشركة؟",
+      "en": "Wi-Fi 6 vs Wi-Fi 5: Is the Upgrade Worth It for a Business?"
     },
     "excerpt": {
       "ar": "تقنية OFDMA الجوهرية بالتفصيل، 4 سيناريوهات تستاهل الترقية فعليًا، ونصيحة عملية قبل الشراء.",
@@ -1325,7 +1899,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-11-02",
     "readTime": 7,
@@ -1354,8 +1928,8 @@
     "id": "art-gen-0033",
     "slug": "dark-web-monitoring-basics",
     "title": {
-      "ar": "مراقبة الدارك ويب لبيانات شركتك: الدليل الكامل لتحديد إذا كنت محتاجها",
-      "en": "Dark Web Monitoring for Your Company's Data: The Complete Guide to Deciding If You Need It"
+      "ar": "مراقبة الدارك ويب لبيانات شركتك: هل تحتاجها فعلًا؟",
+      "en": "Dark Web Monitoring for Your Company's Data: Do You Really Need It?"
     },
     "excerpt": {
       "ar": "الفرق الجوهري بين اكتشاف ومنع، 3 معايير لتحديد قيمة الاستثمار، وليه التنبيه بدون خطة استجابة استثمار ضائع.",
@@ -1368,7 +1942,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-12-09",
     "readTime": 7,
@@ -1395,7 +1969,7 @@
     "id": "art-gen-0034",
     "slug": "ssd-vs-hdd-server-storage",
     "title": {
-      "ar": "SSD مقابل HDD في تخزين السيرفرات: الدليل الكامل",
+      "ar": "SSD مقابل HDD في تخزين الخوادم: الأمر لا يتعلق بالسرعة فقط",
       "en": "SSD vs HDD for Server Storage: It's Not Just About Speed"
     },
     "excerpt": {
@@ -1409,7 +1983,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-02-16",
     "readTime": 7,
@@ -1436,8 +2010,8 @@
     "id": "art-gen-0035",
     "slug": "least-privilege-principle-practical",
     "title": {
-      "ar": "مبدأ أقل الصلاحيات (Least Privilege): الدليل الكامل للتطبيق بدون فوضى",
-      "en": "The Least Privilege Principle: The Complete Guide to a Rollout Without Chaos"
+      "ar": "مبدأ أقل الصلاحيات (Least Privilege): تطبيقه دون فوضى",
+      "en": "The Least Privilege Principle: Rolling It Out Without Chaos"
     },
     "excerpt": {
       "ar": "ليه الصلاحيات بتتراكم مع الوقت، 5 خطوات تطبيق آمن بالتفصيل، وأشهر 3 أخطاء بتخلق مقاومة للمشروع كله.",
@@ -1450,7 +2024,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-03-23",
     "readTime": 8,
@@ -1462,14 +2036,23 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [],
+    "topicIds": [
+      "iam-pam"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0036",
     "slug": "ransomware-first-hour-response",
     "title": {
-      "ar": "أول ساعة بعد اكتشاف Ransomware: الدليل الكامل لإيه تعمل بالظبط",
-      "en": "The First Hour After Discovering Ransomware: The Complete Guide to What to Actually Do"
+      "ar": "أول ساعة بعد اكتشاف هجوم فدية: ماذا تفعل بالضبط",
+      "en": "The First Hour After Discovering Ransomware: Exactly What to Do"
     },
     "excerpt": {
       "ar": "خطوات فورية بالترتيب الصحيح، وأشهر 3 أخطاء بتزود الضرر بدل ما تقلله.",
@@ -1482,7 +2065,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-09-03",
     "readTime": 8,
@@ -1509,8 +2092,8 @@
     "id": "art-gen-0037",
     "slug": "cloud-cost-optimization-basics",
     "title": {
-      "ar": "تقليل فاتورة السحابة: الدليل الكامل لخطوات عملية قبل المفاجأة",
-      "en": "Cutting Your Cloud Bill: The Complete Guide to Practical Steps Before the Surprise"
+      "ar": "تقليل فاتورة السحابة: خطوات عملية قبل المفاجأة",
+      "en": "Cutting Your Cloud Bill: Practical Steps Before the Surprise"
     },
     "excerpt": {
       "ar": "4 أسباب شائعة للفاتورة العالية غير المتوقعة، وخطوات تحكم عملية من التنبيهات لخصومات الالتزام طويل المدى.",
@@ -1523,7 +2106,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-11-10",
     "readTime": 8,
@@ -1552,8 +2135,8 @@
     "id": "art-gen-0038",
     "slug": "printer-security-overlooked-risk",
     "title": {
-      "ar": "أمان الطابعات: الدليل الكامل للخطر اللي بينسوه أغلب مديري الأنظمة",
-      "en": "Printer Security: The Complete Guide to the Risk Most Sysadmins Forget"
+      "ar": "أمان الطابعات: الخطر الذي ينساه معظم مديري الأنظمة",
+      "en": "Printer Security: The Risk Most Sysadmins Forget"
     },
     "excerpt": {
       "ar": "3 مخاطر ملموسة (تسريب مستندات، تحرك جانبي، إغراق طباعة)، و5 خطوات حماية تفصيلية.",
@@ -1566,7 +2149,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-12-17",
     "readTime": 8,
@@ -1610,7 +2193,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-01-24",
     "readTime": 7,
@@ -1639,8 +2222,8 @@
     "id": "art-gen-0040",
     "slug": "shadow-it-risk-management",
     "title": {
-      "ar": "الـ Shadow IT: الدليل الكامل لإدارة استخدام الأدوات غير المعتمدة",
-      "en": "Shadow IT: The Complete Guide to Managing Unapproved Tool Usage"
+      "ar": "الـShadow IT: إدارة استخدام الأدوات غير المعتمدة",
+      "en": "Shadow IT: Managing the Use of Unapproved Tools"
     },
     "excerpt": {
       "ar": "ليه المنع الكامل بيغيّر مكان المخاطرة مش بيلغيها، واستراتيجية عملية من الاكتشاف لتصنيف المخاطر.",
@@ -1653,7 +2236,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-03-04",
     "readTime": 7,
@@ -1680,8 +2263,8 @@
     "id": "art-gen-0041",
     "slug": "usb-device-control-policy",
     "title": {
-      "ar": "سياسة التحكم في أجهزة USB: الدليل الكامل لأمان بدون تعطيل الشغل",
-      "en": "USB Device Control Policy: The Complete Guide to Security Without Blocking Work"
+      "ar": "سياسة التحكم في أجهزة USB: أمان دون تعطيل العمل",
+      "en": "USB Device Control Policy: Security Without Blocking Work"
     },
     "excerpt": {
       "ar": "4 مستويات تحكم متدرّج بدل المنع الكامل، وخطوات تطبيق عملية عبر Group Policy.",
@@ -1694,7 +2277,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-04-11",
     "readTime": 7,
@@ -1724,8 +2307,8 @@
     "id": "art-gen-0042",
     "slug": "certificate-expiry-monitoring",
     "title": {
-      "ar": "مراقبة انتهاء صلاحية الشهادات: الدليل الكامل لتجنب الخطأ المحرج",
-      "en": "Certificate Expiry Monitoring: The Complete Guide to Avoiding the Embarrassing Mistake"
+      "ar": "مراقبة انتهاء صلاحية الشهادات: تجنب الانقطاع المحرج",
+      "en": "Certificate Expiry Monitoring: Avoiding the Embarrassing Outage"
     },
     "excerpt": {
       "ar": "ليه التجديد التلقائي (ACME/Let's Encrypt) الحل الأمثل، خطوات بديلة لو التجديد يدوي، وأمر تحقق سريع لأي موقع.",
@@ -1738,7 +2321,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-05-18",
     "readTime": 8,
@@ -1781,7 +2364,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-11-25",
     "readTime": 8,
@@ -1806,8 +2389,8 @@
     "id": "art-gen-0044",
     "slug": "nist-password-guidelines-vs-old-rules",
     "title": {
-      "ar": "إرشادات NIST لكلمات المرور: الدليل الكامل لليه التعقيد ما بقاش الحل",
-      "en": "NIST Password Guidelines: The Complete Guide to Why Complexity Rules Stopped Being the Answer"
+      "ar": "إرشادات NIST لكلمات المرور: لماذا لم يعد التعقيد هو الحل",
+      "en": "NIST Password Guidelines: Why Complexity Rules Stopped Being the Answer"
     },
     "excerpt": {
       "ar": "ليه القواعد القديمة كانت غلط من الأساس، 4 توصيات NIST بالتفصيل، ومثال عملي يوضّح الفرق الحقيقي في القوة.",
@@ -1820,7 +2403,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-12-05",
     "readTime": 8,
@@ -1832,7 +2415,16 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [],
+    "topicIds": [
+      "iam-pam"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0045",
@@ -1852,7 +2444,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-01-12",
     "readTime": 8,
@@ -1882,8 +2474,8 @@
     "id": "art-gen-0046",
     "slug": "cloud-vs-onprem-backup-considerations",
     "title": {
-      "ar": "النسخ الاحتياطي السحابي مقابل المحلي: الدليل الكامل لاعتبارات عملية غير التكلفة",
-      "en": "Cloud vs On-Prem Backup: The Complete Guide to Practical Considerations Beyond Cost"
+      "ar": "النسخ الاحتياطي السحابي مقابل المحلي: اعتبارات عملية غير التكلفة",
+      "en": "Cloud vs On-Prem Backup: Practical Considerations Beyond Cost"
     },
     "excerpt": {
       "ar": "5 عوامل مقارنة تفصيلية (سرعة، سيادة بيانات، اعتماد إنترنت، حماية كارثية، تكلفة كاملة)، واستراتيجية هجينة عملية.",
@@ -1896,7 +2488,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-02-19",
     "readTime": 8,
@@ -1926,8 +2518,8 @@
     "id": "art-gen-0047",
     "slug": "vulnerability-scanning-vs-penetration-testing",
     "title": {
-      "ar": "فحص الثغرات مقابل اختبار الاختراق: الدليل الكامل",
-      "en": "Vulnerability Scanning vs Penetration Testing: The Complete Guide"
+      "ar": "فحص الثغرات مقابل اختبار الاختراق: الفرق ومتى تحتاج كلًا منهما",
+      "en": "Vulnerability Scanning vs Penetration Testing: The Difference and When You Need Each"
     },
     "excerpt": {
       "ar": "الفرق العملي في النتائج بمثال واضح، أشهر خطأ (الاعتماد على واحد بس)، وإزاي يكمّلوا بعض في استراتيجية واحدة.",
@@ -1940,7 +2532,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-03-26",
     "readTime": 8,
@@ -1969,8 +2561,8 @@
     "id": "art-gen-0048",
     "slug": "dns-security-filtering-dnssec",
     "title": {
-      "ar": "أمان DNS: الدليل الكامل من فلترة المواقع الضارة لـ DNSSEC",
-      "en": "DNS Security: The Complete Guide from Malicious Site Filtering to DNSSEC"
+      "ar": "أمان DNS: من تصفية المواقع الضارة إلى DNSSEC",
+      "en": "DNS Security: From Malicious Site Filtering to DNSSEC"
     },
     "excerpt": {
       "ar": "ليه كل اتصال بيمر من DNS بدون استثناء، إزاي فلترة DNS بتشتغل فعليًا، والفرق الجوهري بين الطبقتين.",
@@ -1983,7 +2575,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-04-06",
     "readTime": 8,
@@ -2027,7 +2619,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-05-13",
     "readTime": 8,
@@ -2070,7 +2662,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-12-20",
     "readTime": 8,
@@ -2100,8 +2692,8 @@
     "id": "art-gen-0051",
     "slug": "phishing-simulation-training-programs",
     "title": {
-      "ar": "برامج محاكاة التصيد الإلكتروني: الدليل الكامل لتصميم برنامج فعّال",
-      "en": "Phishing Simulation Training Programs: The Complete Guide to Effective Design"
+      "ar": "برامج محاكاة التصيد الإلكتروني: كيف تصمم برنامجًا فعالًا",
+      "en": "Phishing Simulation Programs: How to Design One That Works"
     },
     "excerpt": {
       "ar": "ليه العقاب بيعكس النتيجة، 4 مبادئ تصميم بالتفصيل، وسيناريو يوضّح ليه قياس النجاح مش بس نسبة الوقوع.",
@@ -2114,7 +2706,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-01-27",
     "readTime": 8,
@@ -2141,8 +2733,8 @@
     "id": "art-gen-0052",
     "slug": "cross-site-scripting-xss-basics",
     "title": {
-      "ar": "ثغرات XSS: الدليل الكامل لكيف موقع بسيط يسرق بيانات المستخدم",
-      "en": "XSS Vulnerabilities: The Complete Guide to How a Simple Site Can Steal User Data"
+      "ar": "ثغرات XSS: كيف يسرق موقع بسيط بيانات المستخدم",
+      "en": "XSS Vulnerabilities: How a Simple Site Can Steal User Data"
     },
     "excerpt": {
       "ar": "3 أنواع XSS بالتفصيل (Stored/Reflected/DOM-based)، 4 طرق حماية عملية، ومثال كامل يوضّح آلية السرقة خطوة بخطوة.",
@@ -2155,7 +2747,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-02-07",
     "readTime": 8,
@@ -2182,7 +2774,7 @@
     "id": "art-gen-0053",
     "slug": "windows-server-core-vs-desktop-experience",
     "title": {
-      "ar": "Windows Server Core مقابل Desktop Experience: الدليل الكامل",
+      "ar": "Windows Server Core مقابل Desktop Experience: أيهما تختار؟",
       "en": "Windows Server Core vs Desktop Experience: Which Should You Choose?"
     },
     "excerpt": {
@@ -2196,7 +2788,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-03-14",
     "readTime": 8,
@@ -2243,7 +2835,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-04-21",
     "readTime": 8,
@@ -2270,8 +2862,8 @@
     "id": "art-gen-0055",
     "slug": "physical-security-server-room-basics",
     "title": {
-      "ar": "الأمان الفيزيائي لغرفة السيرفرات: الدليل الكامل للأساسيات المتجاهَلة",
-      "en": "Physical Security for the Server Room: The Complete Guide to Overlooked Basics"
+      "ar": "الأمان المادي لغرفة الخوادم: أساسيات يتجاهلها كثيرون",
+      "en": "Physical Security for the Server Room: Overlooked Basics"
     },
     "excerpt": {
       "ar": "ليه أي حد يوصل فيزيائيًا للسيرفر يقدر يتجاوز الحماية الرقمية، و5 أساسيات عملية بالتفصيل.",
@@ -2284,7 +2876,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-05-01",
     "readTime": 7,
@@ -2312,8 +2904,8 @@
     "id": "art-gen-0056",
     "slug": "supply-chain-attacks-third-party-risk",
     "title": {
-      "ar": "هجمات سلسلة التوريد: الدليل الكامل لما بيجي الخطر من مورّد موثوق",
-      "en": "Supply Chain Attacks: The Complete Guide to When the Risk Comes from a Trusted Vendor"
+      "ar": "هجمات سلسلة التوريد: عندما يأتي الخطر من مورّد موثوق",
+      "en": "Supply Chain Attacks: When the Risk Comes from a Trusted Vendor"
     },
     "excerpt": {
       "ar": "3 أمثلة حقيقية موثّقة لنقاط الخطر بالتفصيل، وليه ثقتك في المورّد نفسها هي السلاح المُستغل.",
@@ -2326,7 +2918,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-08",
     "readTime": 8,
@@ -2353,8 +2945,8 @@
     "id": "art-gen-0057",
     "slug": "container-image-security-scanning",
     "title": {
-      "ar": "فحص أمان صور الحاويات (Container Images): الدليل الكامل",
-      "en": "Scanning Container Image Security: The Complete Guide"
+      "ar": "فحص أمان صور الحاويات (Container Images) قبل النشر",
+      "en": "Scanning Container Images for Security Before Deployment"
     },
     "excerpt": {
       "ar": "إزاي أدوات الفحص بتشتغل فعليًا، 4 خطوات عملية تفصيلية، وليه الفحص لمرة واحدة وقت البناء بس مش كافٍ.",
@@ -2367,7 +2959,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2025-12-15",
     "readTime": 8,
@@ -2408,7 +3000,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-01-22",
     "readTime": 7,
@@ -2437,8 +3029,8 @@
     "id": "art-gen-0059",
     "slug": "spf-dkim-dmarc-email-basics",
     "title": {
-      "ar": "SPF وDKIM وDMARC: الدليل الكامل لمنع انتحال دومين إيميلك",
-      "en": "SPF, DKIM, and DMARC: The Complete Guide to Stopping Email Domain Spoofing"
+      "ar": "أساسيات SPF وDKIM وDMARC لمنع انتحال نطاق بريدك",
+      "en": "SPF, DKIM and DMARC Basics: Stopping Email Domain Spoofing"
     },
     "excerpt": {
       "ar": "إزاي كل سجل بيشتغل تقنيًا بالتفصيل، وليه البدء بوضع مراقبة DMARC (p=none) أهم خطوة لتجنب كارثة عملية.",
@@ -2451,7 +3043,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-02-02",
     "readTime": 8,
@@ -2479,8 +3071,8 @@
     "id": "art-gen-0060",
     "slug": "cyber-insurance-what-it-covers",
     "title": {
-      "ar": "التأمين ضد المخاطر السيبرانية: الدليل الكامل لإيه اللي بيغطيه فعليًا",
-      "en": "Cyber Insurance: The Complete Guide to What It Actually Covers"
+      "ar": "التأمين ضد المخاطر السيبرانية: ما الذي يغطيه فعليًا",
+      "en": "Cyber Insurance: What It Actually Covers"
     },
     "excerpt": {
       "ar": "3 أشياء غالبًا مش مغطاة (وأهمها الفدية نفسها)، والسؤال الأهم عن الحد الأدنى الأمني اللي لازم تسأله قبل الشراء.",
@@ -2493,7 +3085,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-03-09",
     "readTime": 8,
@@ -2534,7 +3126,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-04-16",
     "readTime": 7,
@@ -2566,7 +3158,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-05-23",
     "readTime": 7,
@@ -2578,87 +3170,10 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
-  },
-  {
-    "id": "art-gen-0063",
-    "slug": "mfa-methods-compared-sms-app-hardware",
-    "title": {
-      "ar": "طرق المصادقة الثنائية: SMS مقابل تطبيق مقابل مفتاح مادي",
-      "en": "MFA Methods Compared: SMS vs App vs Hardware Key"
-    },
-    "excerpt": {
-      "ar": "مش كل أنواع المصادقة الثنائية بنفس مستوى الأمان — الفروق مهمة.",
-      "en": "Not all MFA types offer the same security level -- the differences matter."
-    },
-    "categoryId": "cybersecurity",
-    "subcategoryId": "identity",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-06-03",
-    "readTime": 5,
-    "heroImage": "https://images.unsplash.com/photo-1603899122634-f086ca5f5ddd?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8cGhvbmUlMjB2ZXJpZmljYXRpb24lMjBjb2RlJTIwc2VjdXJpdHl8ZW58MXwwfHx8MTc4NTg5ODQ3M3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "mfa",
-      "authentication",
-      "identity"
-    ],
-    "isFeatured": false,
     "isTrending": false,
-    "domainIds": [
-      "cybersecurity"
-    ],
-    "topicIds": [
-      "iam-pam"
-    ],
-    "contentType": "concept",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
-    "id": "art-gen-0064",
-    "slug": "sql-injection-basics-explained",
-    "title": {
-      "ar": "حقن SQL: ليه سطر كود واحد ضعيف يقدر يسرّب قاعدة بيانات كاملة",
-      "en": "SQL Injection: How One Weak Line of Code Can Leak an Entire Database"
-    },
-    "excerpt": {
-      "ar": "شرح مبسط لثغرة قديمة لسه شائعة جدًا، وإزاي تتجنبها من الأساس.",
-      "en": "A simplified explanation of an old vulnerability that's still very common, and how to avoid it from the ground up."
-    },
-    "categoryId": "cybersecurity",
-    "subcategoryId": "concepts",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-02-10",
-    "readTime": 5,
-    "heroImage": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8Y29kZSUyMHByb2dyYW1taW5nJTIwZGF0YWJhc2V8ZW58MXwwfHx8MTc4NTg3MjE3N3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "sql-injection",
-      "web-security",
-      "owasp"
-    ],
-    "isFeatured": false,
-    "isTrending": false,
-    "domainIds": [
-      "cybersecurity"
-    ],
-    "topicIds": [
-      "vulnerability-management"
-    ],
-    "contentType": "guide",
+    "domainIds": [],
+    "topicIds": [],
+    "contentType": "troubleshooting",
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
@@ -2682,7 +3197,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-03-17",
     "readTime": 7,
@@ -2700,7 +3215,7 @@
     "id": "art-gen-0066",
     "slug": "insider-threat-detection-basics",
     "title": {
-      "ar": "التهديد الداخلي (Insider Threat): الدليل الكامل لاكتشافه",
+      "ar": "التهديد الداخلي (Insider Threat): مؤشرات الاكتشاف المبكر",
       "en": "Insider Threats: Not Every Risk Comes from Outside"
     },
     "excerpt": {
@@ -2714,7 +3229,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-03-24",
     "readTime": 7,
@@ -2741,8 +3256,8 @@
     "id": "art-gen-0067",
     "slug": "sd-wan-basics-explained",
     "title": {
-      "ar": "SD-WAN بدون تعقيد: الدليل الكامل لإيه اللي بيحله فعليًا",
-      "en": "SD-WAN Without the Jargon: The Complete Guide to What It Actually Solves"
+      "ar": "SD-WAN بدون تعقيد: ما المشكلات التي يحلها فعليًا",
+      "en": "SD-WAN Without the Jargon: What It Actually Solves"
     },
     "excerpt": {
       "ar": "إزاي التوجيه الذكي حسب نوع التطبيق بيشتغل، وليه الخلط بين إدارة الشبكة والأمان غلط شائع خطير.",
@@ -2755,7 +3270,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-04-04",
     "readTime": 8,
@@ -2782,12 +3297,12 @@
     "id": "art-gen-0068",
     "slug": "secure-remote-work-checklist",
     "title": {
-      "ar": "قائمة تحقق للعمل عن بُعد الآمن: 8 نقاط أساسية",
-      "en": "A Secure Remote Work Checklist: 8 Essential Points"
+      "ar": "قائمة تحقق للعمل عن بُعد الآمن: 12 ضابطًا لفرق تقنية المعلومات",
+      "en": "A Secure Remote Work Checklist: 12 Controls for IT Teams"
     },
     "excerpt": {
-      "ar": "قائمة عملية مختصرة تقدر تراجعها مع أي موظف عن بُعد جديد.",
-      "en": "A short, practical list you can review with any new remote employee."
+      "ar": "اثنا عشر ضابطًا عمليًا لتأمين الموظفين عن بُعد: الوصول الآمن وMFA، حماية الجهاز وتشفيره، التحديثات، الشبكة المنزلية، النسخ الاحتياطي، والاستجابة عند فقدان جهاز.",
+      "en": "Twelve practical controls for remote staff: secure access and MFA, device protection and encryption, updates, home networks, backups and lost devices."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -2796,10 +3311,10 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
-    "date": "2026-05-11",
-    "readTime": 4,
+    "date": "2026-11-19",
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bGFwdG9wJTIwaG9tZSUyMG9mZmljZSUyMHdvcmt8ZW58MXwwfHx8MTc4NTg3MjE4MXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "remote-work",
@@ -2825,8 +3340,8 @@
     "id": "art-gen-0069",
     "slug": "windows-local-admin-password-rotation",
     "title": {
-      "ar": "تدوير كلمة مرور المدير المحلي (LAPS): الدليل الكامل",
-      "en": "Local Admin Password Rotation (LAPS): Why It Matters a Lot"
+      "ar": "تدوير كلمة مرور المسؤول المحلي بـWindows LAPS",
+      "en": "Local Admin Password Rotation with Windows LAPS: Why It Matters"
     },
     "excerpt": {
       "ar": "إزاي LAPS بيقفل ثغرة الانتشار الجانبي تقنيًا، وليه صلاحية قراءة كلمات المرور المخزّنة أهم نقطة في التطبيق كله.",
@@ -2839,7 +3354,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-18",
     "readTime": 8,
@@ -2863,226 +3378,6 @@
     "translationStatus": "unreviewed"
   },
   {
-    "id": "art-gen-0070",
-    "slug": "sonicwall-sma1000-ransomware-exploitation-2026",
-    "title": {
-      "ar": "ثغرات SonicWall الأخيرة تُستغل فعليًا في هجمات فدية",
-      "en": "Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks"
-    },
-    "excerpt": {
-      "ar": "عصابة INC Ransomware تستهدف أجهزة SonicWall SMA1000 غير المُحدَّثة للوصول الجذري والتحرك الجانبي داخل الشبكات.",
-      "en": "The INC Ransomware gang is targeting vulnerable SonicWall SMA1000 appliances for root access and lateral movement inside networks."
-    },
-    "categoryId": "cybersecurity",
-    "subcategoryId": "news-updates",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-08-03",
-    "readTime": 3,
-    "heroImage": "https://images.unsplash.com/photo-1614064642578-7faacdc6336e?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NHx8cmFuc29td2FyZSUyMGN5YmVyJTIwYXR0YWNrJTIwd2FybmluZ3xlbnwxfDB8fHwxNzg1ODcyMTYxfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "sonicwall",
-      "ransomware",
-      "news"
-    ],
-    "isFeatured": true,
-    "isTrending": false,
-    "domainIds": [
-      "cybersecurity",
-      "networking"
-    ],
-    "topicIds": [],
-    "contentType": "concept",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
-    "id": "art-gen-0071",
-    "slug": "n-able-n-central-cve-2026-18577-exploited",
-    "title": {
-      "ar": "ثغرة N-central (CVE-2026-18577) استُغلّت فعليًا بعد تجاوز الترقيع الأول",
-      "en": "N-central Vulnerability (CVE-2026-18577) Exploited After Bypassing an Earlier Patch"
-    },
-    "excerpt": {
-      "ar": "N-able أصدرت ترقيعًا جديدًا بعد ما اكتشف مهاجمون طريقة لتجاوز الحل الأول للثغرة.",
-      "en": "N-able issued a new patch after attackers found a way to bypass the earlier fix for the vulnerability."
-    },
-    "categoryId": "cybersecurity",
-    "subcategoryId": "news-updates",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-08-03",
-    "readTime": 3,
-    "heroImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8cmVtb3RlJTIwbW9uaXRvcmluZyUyMGRhc2hib2FyZCUyMHNjcmVlbnxlbnwxfDB8fHwxNzg1ODk4NDc0fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "n-able",
-      "rmm",
-      "news",
-      "vulnerability"
-    ],
-    "isFeatured": false,
-    "isTrending": true,
-    "domainIds": [
-      "cybersecurity"
-    ],
-    "topicIds": [
-      "vulnerability-management"
-    ],
-    "contentType": "troubleshooting",
-    "vendorIds": [
-      "microsoft"
-    ],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
-    "id": "art-gen-0072",
-    "slug": "azure-cosmos-db-cosmosescape-flaw",
-    "title": {
-      "ar": "ثغرة CosmosEscape في Azure Cosmos DB: كشف المفتاح الأساسي بالكامل",
-      "en": "CosmosEscape Flaw in Azure Cosmos DB Exposed Full Primary Keys"
-    },
-    "excerpt": {
-      "ar": "ثغرة حرجة سمحت بالوصول الكامل للقراءة والكتابة على حسابات Cosmos DB المتأثرة.",
-      "en": "A critical flaw allowed full read and write access to affected Cosmos DB accounts."
-    },
-    "categoryId": "cybersecurity",
-    "subcategoryId": "news-updates",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-08-01",
-    "readTime": 3,
-    "heroImage": "https://images.unsplash.com/photo-1662947036644-ecfde1221ac7?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bWljcm9zb2Z0JTIwYXp1cmUlMjBjbG91ZCUyMGNvbXB1dGluZ3xlbnwxfDB8fHwxNzg1ODk4NDc0fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "azure",
-      "cloud-security",
-      "news"
-    ],
-    "isFeatured": false,
-    "isTrending": true,
-    "domainIds": [
-      "cybersecurity",
-      "infrastructure"
-    ],
-    "topicIds": [
-      "cloud"
-    ],
-    "contentType": "concept",
-    "vendorIds": [
-      "microsoft"
-    ],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
-    "id": "art-gen-0073",
-    "slug": "azure-cli-password-spray-campaign",
-    "title": {
-      "ar": "حملة رش كلمات مرور ضخمة تستهدف Azure CLI",
-      "en": "Massive Password Spray Campaign Targeting Azure CLI"
-    },
-    "excerpt": {
-      "ar": "محاولات دخول آلية واسعة النطاق ضد حسابات Azure عن طريق أداة سطر الأوامر.",
-      "en": "Large-scale automated login attempts against Azure accounts via the command-line tool."
-    },
-    "categoryId": "cybersecurity",
-    "subcategoryId": "news-updates",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-08-01",
-    "readTime": 3,
-    "heroImage": "https://images.unsplash.com/photo-1649433391420-542fcd3835ea?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8bWljcm9zb2Z0JTIwYXp1cmUlMjBjbG91ZCUyMGNvbXB1dGluZ3xlbnwxfDB8fHwxNzg1ODk4NDc0fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "azure",
-      "password-spray",
-      "news",
-      "identity"
-    ],
-    "isFeatured": false,
-    "isTrending": true,
-    "domainIds": [
-      "infrastructure"
-    ],
-    "topicIds": [
-      "iam-pam",
-      "cloud"
-    ],
-    "contentType": "concept",
-    "vendorIds": [
-      "microsoft"
-    ],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
-    "id": "art-gen-0074",
-    "slug": "ruby-on-rails-critical-rce-patch",
-    "title": {
-      "ar": "Ruby on Rails تُصلح ثغرة حرجة تسمح بتنفيذ كود عن بُعد",
-      "en": "Ruby on Rails Patches a Critical Remote Code Execution Vulnerability"
-    },
-    "excerpt": {
-      "ar": "الثغرة قابلة للاستغلال من مهاجم غير مُصادَق عليه لقراءة ملفات عشوائية وربما تنفيذ كود.",
-      "en": "The flaw is exploitable by an unauthenticated attacker to read arbitrary files and potentially achieve code execution."
-    },
-    "categoryId": "cybersecurity",
-    "subcategoryId": "news-updates",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-08-01",
-    "readTime": 3,
-    "heroImage": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8cnVieSUyMHByb2dyYW1taW5nJTIwY29kZSUyMGVkaXRvcnxlbnwxfDB8fHwxNzg1ODk4NDc2fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "ruby-on-rails",
-      "rce",
-      "news",
-      "web-security"
-    ],
-    "isFeatured": false,
-    "isTrending": false,
-    "domainIds": [
-      "cybersecurity"
-    ],
-    "topicIds": [
-      "vulnerability-management"
-    ],
-    "contentType": "concept",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
     "id": "art-gen-0075",
     "slug": "honeypot-deception-basics",
     "title": {
@@ -3100,7 +3395,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-02-06",
     "readTime": 8,
@@ -3112,14 +3407,21 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0076",
     "slug": "security-awareness-training-metrics",
     "title": {
-      "ar": "قياس فعالية تدريب الوعي الأمني: الدليل الكامل لأرقام غير نسبة النقر",
-      "en": "Measuring Security Awareness Training: The Complete Guide Beyond Click Rate"
+      "ar": "قياس فعالية تدريب الوعي الأمني: مقاييس أهم من نسبة النقر",
+      "en": "Measuring Security Awareness Training: Metrics Beyond Click Rate"
     },
     "excerpt": {
       "ar": "نسبة اللي وقعوا في محاكاة التصيد مؤشر واحد بس، وممكن يضلّلك لو اعتمدت عليه بس.",
@@ -3132,7 +3434,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-03-13",
     "readTime": 7,
@@ -3173,7 +3475,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-03-20",
     "readTime": 7,
@@ -3201,8 +3503,8 @@
     "id": "art-gen-0078",
     "slug": "cloud-storage-misconfiguration-risks",
     "title": {
-      "ar": "أخطاء إعداد التخزين السحابي: الدليل الكامل لأشهر سبب لتسريبات البيانات",
-      "en": "Cloud Storage Misconfiguration: The Complete Guide to the Most Common Cause of Data Leaks"
+      "ar": "أخطاء إعداد التخزين السحابي: السبب الأشهر لتسريب البيانات",
+      "en": "Cloud Storage Misconfiguration: The Most Common Cause of Data Leaks"
     },
     "excerpt": {
       "ar": "ليه معظم التسريبات الضخمة مش نتيجة هجوم متطور، و5 خطوات وقاية تفصيلية من الإعداد الافتراضي للمراجعة الدورية.",
@@ -3215,7 +3517,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-04-27",
     "readTime": 8,
@@ -3259,7 +3561,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-05-07",
     "readTime": 8,
@@ -3300,7 +3602,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-05-14",
     "readTime": 7,
@@ -3312,7 +3614,14 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": true
+    "isTrending": true,
+    "domainIds": [],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0081",
@@ -3332,7 +3641,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-21",
     "readTime": 8,
@@ -3344,14 +3653,21 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [],
+    "topicIds": [],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0082",
     "slug": "active-directory-complete-setup-guide",
     "title": {
-      "ar": "الدليل الشامل لإعداد وإدارة Active Directory من الصفر",
-      "en": "The Complete Guide to Setting Up and Managing Active Directory From Scratch"
+      "ar": "إعداد وإدارة Active Directory من الصفر: خطوة بخطوة",
+      "en": "Setting Up and Managing Active Directory from Scratch, Step by Step"
     },
     "excerpt": {
       "ar": "دليل مرجعي متكامل: من التثبيت الأول لتصميم OU وGroup Policy والأمان وأشهر الأخطاء وحلولها.",
@@ -3364,7 +3680,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-01",
     "readTime": 14,
@@ -3398,8 +3714,8 @@
     "id": "art-gen-0083",
     "slug": "powershell-sysadmin-complete-guide",
     "title": {
-      "ar": "الدليل الشامل لاستخدام PowerShell في إدارة الأنظمة",
-      "en": "The Complete Guide to Using PowerShell for System Administration"
+      "ar": "PowerShell لمديري الأنظمة: من الأساسيات إلى الأتمتة",
+      "en": "PowerShell for System Administrators: From Basics to Automation"
     },
     "excerpt": {
       "ar": "من الأوامر الأساسية لكتابة سكريبتات حقيقية للأتمتة، مع أشهر الأخطاء وحلولها.",
@@ -3412,7 +3728,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-08",
     "readTime": 13,
@@ -3436,54 +3752,11 @@
     "translationStatus": "unreviewed"
   },
   {
-    "id": "art-gen-0084",
-    "slug": "incident-response-plan-from-scratch",
-    "title": {
-      "ar": "كيف تبني خطة استجابة للحوادث الأمنية من الصفر",
-      "en": "How to Build a Security Incident Response Plan From Scratch"
-    },
-    "excerpt": {
-      "ar": "المراحل الست حسب إطار NIST، قائمة تحقق لأول ساعة من أي حادث، وأشهر خطأ بيزوّد الضرر بدل ما يقلله.",
-      "en": "The six phases per the NIST framework, a first-hour checklist for any incident, and the most common mistake that increases damage instead of reducing it."
-    },
-    "categoryId": "cybersecurity",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-06-15",
-    "readTime": 12,
-    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "incident-response",
-      "nist",
-      "security-planning",
-      "guide"
-    ],
-    "isFeatured": true,
-    "isTrending": false,
-    "domainIds": [
-      "cybersecurity"
-    ],
-    "topicIds": [
-      "threat-detection"
-    ],
-    "contentType": "troubleshooting",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
     "id": "art-gen-0085",
     "slug": "wireshark-network-analysis-complete-guide",
     "title": {
-      "ar": "الدليل الشامل لتحليل حركة الشبكة باستخدام Wireshark",
-      "en": "The Complete Guide to Network Traffic Analysis with Wireshark"
+      "ar": "تحليل حركة الشبكة باستخدام Wireshark: الفلاتر وحالات عملية",
+      "en": "Network Traffic Analysis with Wireshark: Filters and Practical Cases"
     },
     "excerpt": {
       "ar": "فلاتر الالتقاط والعرض بالتفصيل، سيناريوهات تشخيص حقيقية (بطء، DNS مشبوه، فشل TLS)، ونصيحة أمان مهمة قبل الاستخدام.",
@@ -3496,7 +3769,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-22",
     "readTime": 11,
@@ -3539,7 +3812,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-02",
     "readTime": 11,
@@ -3586,7 +3859,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-09",
     "readTime": 10,
@@ -3615,8 +3888,8 @@
     "id": "art-gen-0088",
     "slug": "disaster-recovery-plan-basics",
     "title": {
-      "ar": "أساسيات خطة التعافي من الكوارث (DRP): الدليل الكامل",
-      "en": "Disaster Recovery Plan (DRP) Basics: The Complete Guide"
+      "ar": "أساسيات خطة التعافي من الكوارث (DRP): RTO وRPO والاختبار",
+      "en": "Disaster Recovery Plan (DRP) Basics: RTO, RPO and Testing"
     },
     "excerpt": {
       "ar": "الفرق بين النسخ الاحتياطي وخطة DR كاملة، مقياسا RTO/RPO موضّحان بالمثال، ومستويات الاستراتيجية من الأرخص للأسرع.",
@@ -3629,7 +3902,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-16",
     "readTime": 10,
@@ -3658,8 +3931,8 @@
     "id": "art-gen-0089",
     "slug": "nmap-network-scanning-complete-guide",
     "title": {
-      "ar": "الدليل الشامل لاستخدام Nmap في فحص الشبكة",
-      "en": "The Complete Guide to Network Scanning with Nmap"
+      "ar": "فحص الشبكة باستخدام Nmap: الأوامر الأساسية والاستخدام المسؤول",
+      "en": "Network Scanning with Nmap: Core Commands and Responsible Use"
     },
     "excerpt": {
       "ar": "أنواع الفحص الأساسية بأوامر حقيقية، 3 استخدامات عملية شائعة، وتحذير قانوني مهم قبل أي استخدام.",
@@ -3672,7 +3945,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-23",
     "readTime": 9,
@@ -3688,49 +3961,6 @@
       "networking"
     ],
     "topicIds": [],
-    "contentType": "guide",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
-    "id": "art-gen-0090",
-    "slug": "vulnerability-management-program-guide",
-    "title": {
-      "ar": "بناء برنامج إدارة ثغرات ناجح: الدليل الكامل",
-      "en": "Building a Successful Vulnerability Management Program: The Complete Guide"
-    },
-    "excerpt": {
-      "ar": "دورة الحياة الكاملة (اكتشاف، تقييم، إصلاح، تحقق)، نظام أولويات عملي غير درجة CVSS بس، وجدول أطر زمنية مقترحة.",
-      "en": "The full lifecycle (discovery, assessment, remediation, verification), a practical priority system beyond just the CVSS score, and a suggested timeframe table."
-    },
-    "categoryId": "cybersecurity",
-    "subcategoryId": "network-security",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-06-03",
-    "readTime": 10,
-    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "vulnerability-management",
-      "cvss",
-      "security-operations",
-      "guide"
-    ],
-    "isFeatured": true,
-    "isTrending": false,
-    "domainIds": [
-      "cybersecurity"
-    ],
-    "topicIds": [
-      "vulnerability-management"
-    ],
     "contentType": "guide",
     "vendorIds": [],
     "productIds": [],
@@ -3755,7 +3985,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-10",
     "readTime": 9,
@@ -3784,8 +4014,8 @@
     "id": "art-gen-0092",
     "slug": "container-security-basics-guide",
     "title": {
-      "ar": "أساسيات أمان الحاويات (Container Security): الدليل الكامل",
-      "en": "Container Security Basics: The Complete Guide"
+      "ar": "أساسيات أمان الحاويات (Container Security): من الصورة إلى التشغيل",
+      "en": "Container Security Basics: From Image to Runtime"
     },
     "excerpt": {
       "ar": "4 مخاطر أساسية مختلفة عن أمان الأجهزة الافتراضية التقليدي، و5 خطوات حماية عملية من فحص الصور لسياسات الشبكة.",
@@ -3798,7 +4028,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-17",
     "readTime": 9,
@@ -3826,8 +4056,8 @@
     "id": "art-gen-0093",
     "slug": "byod-policy-security-guide",
     "title": {
-      "ar": "سياسة BYOD (استخدام الجهاز الشخصي للعمل): الدليل الكامل",
-      "en": "BYOD Policy (Bring Your Own Device): The Complete Guide"
+      "ar": "سياسة BYOD (استخدام الأجهزة الشخصية للعمل): الضوابط والأمان",
+      "en": "BYOD Policy (Bring Your Own Device): Controls and Security"
     },
     "excerpt": {
       "ar": "3 مخاطر أساسية، الفرق بين MDM وMAM (لماذا الأخير أكثر توازنًا)، وعناصر سياسة عملية موثّقة.",
@@ -3840,7 +4070,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-24",
     "readTime": 8,
@@ -3869,8 +4099,8 @@
     "id": "art-gen-0094",
     "slug": "secure-sdlc-guide",
     "title": {
-      "ar": "دورة تطوير البرمجيات الآمنة (SSDLC): الدليل الكامل",
-      "en": "Secure Software Development Lifecycle (SSDLC): The Complete Guide"
+      "ar": "دورة تطوير البرمجيات الآمنة (SSDLC): الأمان في كل مرحلة",
+      "en": "The Secure Software Development Lifecycle (SSDLC): Security at Every Stage"
     },
     "excerpt": {
       "ar": "الستة مراحل ودمج الأمان في كل واحدة، DevSecOps وربط الفحص بـCI/CD، وليه إصلاح الأمان في الآخر مكلف جدًا.",
@@ -3883,7 +4113,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-04",
     "readTime": 9,
@@ -3924,7 +4154,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-11",
     "readTime": 9,
@@ -3953,8 +4183,8 @@
     "id": "art-gen-0096",
     "slug": "web-application-firewall-waf-guide",
     "title": {
-      "ar": "جدار حماية تطبيقات الويب (WAF): الدليل الكامل",
-      "en": "Web Application Firewall (WAF): The Complete Guide"
+      "ar": "جدار حماية تطبيقات الويب (WAF): كيف يعمل ومتى تحتاجه",
+      "en": "Web Application Firewalls (WAF): How They Work and When You Need One"
     },
     "excerpt": {
       "ar": "الفرق الجوهري عن جدار الحماية الشبكي التقليدي، 4 أنواع هجمات بيحميك منها، ووضعي المراقبة والحجب بالتفصيل.",
@@ -3967,7 +4197,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-18",
     "readTime": 9,
@@ -3997,8 +4227,8 @@
     "id": "art-gen-0097",
     "slug": "data-loss-prevention-dlp-guide",
     "title": {
-      "ar": "منع تسريب البيانات (DLP): الدليل الكامل",
-      "en": "Data Loss Prevention (DLP): The Complete Guide"
+      "ar": "منع تسريب البيانات (DLP): القنوات والسياسات والتطبيق",
+      "en": "Data Loss Prevention (DLP): Channels, Policies and Rollout"
     },
     "excerpt": {
       "ar": "4 طرق كشف بيانات حساسة بالتفصيل، 3 نقاط تطبيق رئيسية (شبكة/جهاز/سحابة)، وأشهر تحدي عملي (التنبيهات الكاذبة).",
@@ -4011,7 +4241,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-25",
     "readTime": 9,
@@ -4044,8 +4274,8 @@
     "id": "art-gen-0098",
     "slug": "insider-risk-program-guide",
     "title": {
-      "ar": "بناء برنامج إدارة التهديد الداخلي: الدليل الكامل",
-      "en": "Building an Insider Risk Program: The Complete Guide"
+      "ar": "بناء برنامج لإدارة مخاطر التهديد الداخلي",
+      "en": "Building an Insider Risk Programme"
     },
     "excerpt": {
       "ar": "3 فئات مختلفة للتهديد الداخلي، علامات تحذيرية سلوكية حقيقية، وليه التوازن بين الأمان والثقة حساس جدًا.",
@@ -4058,7 +4288,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-05",
     "readTime": 9,
@@ -4085,8 +4315,8 @@
     "id": "art-gen-0099",
     "slug": "authentication-vs-authorization-explained",
     "title": {
-      "ar": "المصادقة مقابل التفويض (Authentication vs Authorization): الدليل الكامل",
-      "en": "Authentication vs Authorization: The Complete Guide"
+      "ar": "المصادقة مقابل التفويض (Authentication vs Authorization): الفرق بأمثلة",
+      "en": "Authentication vs Authorization: The Difference, with Examples"
     },
     "excerpt": {
       "ar": "الفرق الجوهري بين 'مين إنت' و'مسموح لك تعمل إيه'، نماذج RBAC/ABAC/ACL، ومثال عملي يوضّح ليه الخلط بينهم يسبب ثغرات حقيقية.",
@@ -4099,7 +4329,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-12",
     "readTime": 9,
@@ -4111,14 +4341,23 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [],
+    "topicIds": [
+      "iam-pam"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0100",
     "slug": "owasp-top-10-overview",
     "title": {
-      "ar": "نظرة شاملة على OWASP Top 10: الدليل الكامل",
-      "en": "OWASP Top 10 Overview: The Complete Guide"
+      "ar": "OWASP Top 10: نظرة عامة على أخطر ثغرات تطبيقات الويب",
+      "en": "OWASP Top 10: An Overview of the Most Critical Web Application Risks"
     },
     "excerpt": {
       "ar": "أهم الفئات بالتفصيل (Broken Access Control، Injection، Cryptographic Failures)، وليه القائمة بتتغيّر وإزاي تستخدمها عمليًا.",
@@ -4131,10 +4370,10 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
-    "date": "2026-06-19",
-    "readTime": 9,
+    "date": "2026-11-19",
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "owasp",
@@ -4172,7 +4411,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-26",
     "readTime": 8,
@@ -4198,54 +4437,11 @@
     "translationStatus": "unreviewed"
   },
   {
-    "id": "art-gen-0102",
-    "slug": "security-operations-center-soc-guide",
-    "title": {
-      "ar": "مركز العمليات الأمنية (SOC): الدليل الكامل",
-      "en": "Security Operations Center (SOC): The Complete Guide"
-    },
-    "excerpt": {
-      "ar": "3 مستويات فريق SOC التقليدية، تحدي التغطية الزمنية 24/7 (داخلي أو MSSP)، ومقاييس MTTD/MTTR لقياس الفعالية.",
-      "en": "The 3 traditional SOC team tiers, the 24/7 time-coverage challenge (internal vs MSSP), and MTTD/MTTR metrics for measuring effectiveness."
-    },
-    "categoryId": "cybersecurity",
-    "subcategoryId": "network-security",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-06-06",
-    "readTime": 9,
-    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "soc",
-      "security-operations",
-      "mssp",
-      "guide"
-    ],
-    "isFeatured": true,
-    "isTrending": false,
-    "domainIds": [
-      "cybersecurity"
-    ],
-    "topicIds": [
-      "siem-soc"
-    ],
-    "contentType": "guide",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
     "id": "art-gen-0103",
     "slug": "immutable-backups-ransomware-defense",
     "title": {
-      "ar": "النسخ الاحتياطية غير القابلة للتعديل (Immutable Backups): الدليل الكامل",
-      "en": "Immutable Backups: The Complete Guide to Ransomware's Last Line of Defense"
+      "ar": "النسخ الاحتياطية غير القابلة للتعديل: خط الدفاع الأخير ضد الفدية",
+      "en": "Immutable Backups: Ransomware's Last Line of Defence"
     },
     "excerpt": {
       "ar": "ليه المهاجمين بيستهدفون النسخ الاحتياطية نفسها عمدًا، وإزاي القفل التقني على مستوى التخزين مختلف جذريًا عن مجرد صلاحيات الوصول.",
@@ -4258,7 +4454,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-13",
     "readTime": 8,
@@ -4302,7 +4498,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-20",
     "readTime": 9,
@@ -4314,14 +4510,23 @@
       "guide"
     ],
     "isFeatured": true,
-    "isTrending": false
+    "isTrending": false,
+    "domainIds": [],
+    "topicIds": [
+      "pki-certificates"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed"
   },
   {
     "id": "art-gen-0105",
     "slug": "zero-day-vulnerabilities-explained",
     "title": {
-      "ar": "ثغرات يوم الصفر (Zero-Day): الدليل الكامل",
-      "en": "Zero-Day Vulnerabilities: The Complete Guide"
+      "ar": "ثغرات يوم الصفر (Zero-Day): ما هي وكيف تستعد لها",
+      "en": "Zero-Day Vulnerabilities: What They Are and How to Prepare"
     },
     "excerpt": {
       "ar": "دورة الحياة الكاملة من الاكتشاف للتصحيح، ليه الحماية التقليدية عاجزة تمامًا عن اكتشافها، و3 استراتيجيات دفاعية عملية رغم استحالة المنع الكامل.",
@@ -4334,7 +4539,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-27",
     "readTime": 9,
@@ -4360,37 +4565,6 @@
     "translationStatus": "unreviewed"
   },
   {
-    "id": "art-gen-0106",
-    "slug": "smartphone-battery-longevity-guide",
-    "title": {
-      "ar": "إطالة عمر بطارية الهاتف: الدليل الكامل",
-      "en": "Extending Smartphone Battery Life: The Complete Guide"
-    },
-    "excerpt": {
-      "ar": "3 عوامل حقيقية بتسرّع تدهور البطارية بالتفصيل، وعادات عملية بتحافظ على صحتها فعليًا على المدى الطويل.",
-      "en": "3 real factors accelerating battery degradation in detail, and practical habits that genuinely preserve its health long-term."
-    },
-    "categoryId": "mobile",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-05-07",
-    "readTime": 7,
-    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "battery",
-      "smartphone",
-      "guide"
-    ],
-    "isFeatured": false,
-    "isTrending": true
-  },
-  {
     "id": "art-gen-0107",
     "slug": "effective-ai-prompting-guide",
     "title": {
@@ -4408,7 +4582,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-05-14",
     "readTime": 7,
@@ -4437,126 +4611,6 @@
     "translationStatus": "unreviewed"
   },
   {
-    "id": "art-gen-0108",
-    "slug": "how-gps-actually-works",
-    "title": {
-      "ar": "كيف يعمل GPS فعليًا: الدليل الكامل",
-      "en": "How GPS Actually Works: The Complete Guide"
-    },
-    "excerpt": {
-      "ar": "المبدأ الرياضي لتحديد الموقع بأربع أقمار صناعية، وليه الدقة بتختلف بين المدن الكثيفة والأماكن المفتوحة.",
-      "en": "The mathematical principle of locating via four satellites, and why accuracy differs between dense cities and open areas."
-    },
-    "categoryId": "technology",
-    "subcategoryId": "concepts",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-05-21",
-    "readTime": 7,
-    "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "gps",
-      "technology",
-      "navigation",
-      "guide"
-    ],
-    "isFeatured": false,
-    "isTrending": true
-  },
-  {
-    "id": "art-gen-0109",
-    "slug": "laptop-for-developers-guide",
-    "title": {
-      "ar": "اختيار لابتوب للمبرمجين: الدليل الكامل",
-      "en": "Choosing a Laptop for Developers: The Complete Guide"
-    },
-    "excerpt": {
-      "ar": "4 مكونات فعليًا بتفرق بالتفصيل، ومقارنة أنظمة التشغيل الثلاثة (macOS/Linux/Windows+WSL) حسب نوع العمل.",
-      "en": "4 components that genuinely matter in detail, and a comparison of the three OS options (macOS/Linux/Windows+WSL) by work type."
-    },
-    "categoryId": "laptops",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-06-01",
-    "readTime": 8,
-    "heroImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "laptop",
-      "developers",
-      "programming",
-      "guide"
-    ],
-    "isFeatured": true,
-    "isTrending": false,
-    "domainIds": [
-      "infrastructure"
-    ],
-    "topicIds": [
-      "linux"
-    ],
-    "contentType": "guide",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
-    "id": "art-gen-0110",
-    "slug": "wifi-vs-mobile-data-when-to-use",
-    "title": {
-      "ar": "Wi-Fi مقابل بيانات الموبايل: متى تستخدم كل واحدة",
-      "en": "Wi-Fi vs Mobile Data: When to Use Each"
-    },
-    "excerpt": {
-      "ar": "3 عوامل عملية غير السرعة (البطارية، الأمان على شبكات عامة، الاستقرار أثناء التنقل)، ونصيحة التبديل الذكي التلقائي.",
-      "en": "3 practical factors beyond speed (battery, security on public networks, stability while moving), and smart auto-switching advice."
-    },
-    "categoryId": "mobile",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-05-08",
-    "readTime": 6,
-    "heroImage": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "wifi",
-      "mobile-data",
-      "smartphone",
-      "guide"
-    ],
-    "isFeatured": false,
-    "isTrending": true,
-    "domainIds": [
-      "cybersecurity",
-      "networking"
-    ],
-    "topicIds": [
-      "routing-switching",
-      "wireless"
-    ],
-    "contentType": "guide",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
     "id": "art-gen-0111",
     "slug": "how-large-language-models-work",
     "title": {
@@ -4574,7 +4628,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-05-15",
     "readTime": 7,
@@ -4603,111 +4657,6 @@
     "translationStatus": "unreviewed"
   },
   {
-    "id": "art-gen-0112",
-    "slug": "how-qr-codes-work",
-    "title": {
-      "ar": "كيف تعمل رموز QR فعليًا: الدليل الكامل",
-      "en": "How QR Codes Actually Work: The Complete Guide"
-    },
-    "excerpt": {
-      "ar": "الفرق عن الباركود التقليدي، دور تصحيح الأخطاء المدمج، ونصيحة عملية عند إضافة لوجو لكود QR.",
-      "en": "The difference from traditional barcodes, the role of built-in error correction, and practical advice when adding a logo to a QR code."
-    },
-    "categoryId": "technology",
-    "subcategoryId": "concepts",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-06-22",
-    "readTime": 6,
-    "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "qr-code",
-      "technology",
-      "guide"
-    ],
-    "isFeatured": true,
-    "isTrending": false
-  },
-  {
-    "id": "art-gen-0113",
-    "slug": "digital-file-organization-system",
-    "title": {
-      "ar": "نظام تنظيم الملفات الرقمية: الدليل الكامل",
-      "en": "A Digital File Organization System: The Complete Guide"
-    },
-    "excerpt": {
-      "ar": "ليه التصنيف حسب المشروع أفضل من حسب نوع الملف، ونظام تسمية متسق بصيغة تاريخ قابلة للترتيب.",
-      "en": "Why classifying by project beats classifying by file type, and a consistent naming system with a sortable date format."
-    },
-    "categoryId": "howto",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-06-02",
-    "readTime": 6,
-    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "productivity",
-      "file-management",
-      "guide"
-    ],
-    "isFeatured": false,
-    "isTrending": true
-  },
-  {
-    "id": "art-gen-0114",
-    "slug": "browser-vs-standalone-password-manager",
-    "title": {
-      "ar": "مدير كلمات المرور المدمج مقابل المستقل: الدليل الكامل",
-      "en": "Browser vs Standalone Password Manager: The Complete Guide"
-    },
-    "excerpt": {
-      "ar": "القيود الفعلية للمدير المدمج (عبر متصفحات وأجهزة مختلفة)، ومتى الانتقال لمدير مستقل يستاهل فعليًا.",
-      "en": "The built-in manager's actual limitations (across different browsers and devices), and when switching to a standalone manager is genuinely worth it."
-    },
-    "categoryId": "howto",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-05-09",
-    "readTime": 6,
-    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "password-manager",
-      "browser",
-      "productivity",
-      "guide"
-    ],
-    "isFeatured": false,
-    "isTrending": true,
-    "domainIds": [
-      "networking"
-    ],
-    "topicIds": [
-      "routing-switching"
-    ],
-    "contentType": "guide",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
     "id": "art-gen-0115",
     "slug": "how-ai-image-generation-works",
     "title": {
@@ -4725,7 +4674,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-05-16",
     "readTime": 8,
@@ -4756,8 +4705,8 @@
     "id": "art-gen-0116",
     "slug": "how-cloud-storage-actually-works",
     "title": {
-      "ar": "كيف يعمل التخزين السحابي فعليًا: الدليل الكامل",
-      "en": "How Cloud Storage Actually Works: The Complete Guide"
+      "ar": "كيف يعمل التخزين السحابي فعليًا",
+      "en": "How Cloud Storage Actually Works"
     },
     "excerpt": {
       "ar": "ليه التكرار عبر أقراص ومراكز بيانات متعددة سر الموثوقية، وإزاي المزامنة الذكية (Delta Sync) بتوفر وقت وبيانات.",
@@ -4770,7 +4719,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-06-23",
     "readTime": 7,
@@ -4795,112 +4744,6 @@
     "translationStatus": "unreviewed"
   },
   {
-    "id": "art-gen-0117",
-    "slug": "ios-vs-android-choosing-guide",
-    "title": {
-      "ar": "iOS مقابل Android: الدليل الكامل للاختيار",
-      "en": "iOS vs Android: The Complete Choosing Guide"
-    },
-    "excerpt": {
-      "ar": "3 عوامل عملية تستاهل التفكير الفعلي (التكامل، التخصيص، الميزانية)، والفرق الحقيقي في طول دعم التحديثات.",
-      "en": "3 practical factors deserving genuine thought (integration, customization, budget), and the real difference in update support duration."
-    },
-    "categoryId": "mobile",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-06-03",
-    "readTime": 7,
-    "heroImage": "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "ios",
-      "android",
-      "smartphone",
-      "guide"
-    ],
-    "isFeatured": false,
-    "isTrending": true
-  },
-  {
-    "id": "art-gen-0118",
-    "slug": "laptop-slow-performance-fixes",
-    "title": {
-      "ar": "لابتوبك بطيء؟ 10 أسباب حقيقية وحلول عملية لتسريعه",
-      "en": "Laptop Running Slow? 10 Real Causes and Practical Fixes"
-    },
-    "excerpt": {
-      "ar": "لو لابتوبك بقى بطيء فجأة أو تدريجيًا، إليك الأسباب الحقيقية الأكتر شيوعًا وخطوات عملية تقدر تعملها دلوقتي لتحسين الأداء.",
-      "en": "If your laptop has become slow, here are the most common real causes and practical steps you can take right now to improve performance."
-    },
-    "categoryId": "laptops",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-07-08",
-    "readTime": 7,
-    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "laptop",
-      "performance",
-      "maintenance",
-      "guide"
-    ],
-    "isFeatured": false,
-    "isTrending": false
-  },
-  {
-    "id": "art-gen-0119",
-    "slug": "phone-storage-full-fixes",
-    "title": {
-      "ar": "مساحة تخزين موبايلك امتلأت؟ إزاي تفضي مساحة بسرعة وبأمان",
-      "en": "Phone Storage Full? How to Free Up Space Quickly and Safely"
-    },
-    "excerpt": {
-      "ar": "امتلاء مساحة الموبايل مشكلة شائعة جدًا وبتوقّف تحديثات وصور مهمة. إليك أسرع الطرق الآمنة لتفضية مساحة حقيقية من غير ما تفقد حاجة مهمة.",
-      "en": "A full phone is a very common problem that blocks updates and important photos. Here are the fastest, safest ways to free real space without losing anything important."
-    },
-    "categoryId": "mobile",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-07-11",
-    "readTime": 6,
-    "heroImage": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "storage",
-      "smartphone",
-      "android",
-      "ios",
-      "guide"
-    ],
-    "isFeatured": false,
-    "isTrending": false,
-    "domainIds": [
-      "infrastructure"
-    ],
-    "topicIds": [],
-    "contentType": "troubleshooting",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
     "id": "art-gen-0120",
     "slug": "wifi-connection-problems-fixes",
     "title": {
@@ -4918,7 +4761,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-07-14",
     "readTime": 7,
@@ -4944,82 +4787,6 @@
     "translationStatus": "unreviewed"
   },
   {
-    "id": "art-gen-0121",
-    "slug": "laptop-battery-health-guide",
-    "title": {
-      "ar": "بطارية اللابتوب بتخلص بسرعة؟ إزاي تطيل عمرها وتشخّص المشكلة",
-      "en": "Laptop Battery Draining Fast? How to Extend Its Life and Diagnose the Problem"
-    },
-    "excerpt": {
-      "ar": "تدهور بطارية اللابتوب أمر طبيعي مع الوقت، بس فيه فرق بين التدهور الطبيعي والمشكلة الحقيقية. إليك إزاي تفرّق بينهم وإزاي تطيل عمر البطارية فعليًا.",
-      "en": "Laptop battery wear is natural over time, but there's a difference between normal degradation and a real problem. Here's how to tell them apart and genuinely extend battery life."
-    },
-    "categoryId": "laptops",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-07-17",
-    "readTime": 6,
-    "heroImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "battery",
-      "laptop",
-      "maintenance",
-      "guide"
-    ],
-    "isFeatured": false,
-    "isTrending": false
-  },
-  {
-    "id": "art-gen-0122",
-    "slug": "data-backup-simple-guide",
-    "title": {
-      "ar": "النسخ الاحتياطي لبياناتك: دليل بسيط عشان متضيعش صورك وملفاتك",
-      "en": "Backing Up Your Data: A Simple Guide So You Never Lose Your Photos and Files"
-    },
-    "excerpt": {
-      "ar": "تعطّل مفاجئ في الجهاز أو ضياعه بيقدر يمحي سنين من الصور والملفات المهمة في لحظة. إليك خطة نسخ احتياطي بسيطة وعملية تقدر تطبقها اليوم.",
-      "en": "A sudden device failure or loss can wipe out years of important photos and files in an instant. Here's a simple, practical backup plan you can set up today."
-    },
-    "categoryId": "howto",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-07-20",
-    "readTime": 6,
-    "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "backup",
-      "data",
-      "cloud",
-      "guide"
-    ],
-    "isFeatured": false,
-    "isTrending": false,
-    "domainIds": [
-      "infrastructure"
-    ],
-    "topicIds": [
-      "backup-recovery",
-      "cloud"
-    ],
-    "contentType": "guide",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
-  },
-  {
     "id": "art-gen-0123",
     "slug": "forgotten-password-account-recovery",
     "title": {
@@ -5037,7 +4804,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-07-23",
     "readTime": 6,
@@ -5063,39 +4830,6 @@
     "translationStatus": "unreviewed"
   },
   {
-    "id": "art-gen-0124",
-    "slug": "phone-slow-performance-fixes",
-    "title": {
-      "ar": "موبايلك بطيء بعد فترة استخدام؟ الأسباب والحلول العملية",
-      "en": "Phone Slowing Down Over Time? Real Causes and Practical Fixes"
-    },
-    "excerpt": {
-      "ar": "بطء الموبايل التدريجي مشكلة شائعة جدًا مع الاستخدام اليومي. إليك الأسباب الحقيقية وخطوات عملية تقدر تعملها بنفسك قبل ما تفكر في تغييره.",
-      "en": "Gradual phone slowdown is a very common issue with everyday use. Here are the real causes and practical steps you can take yourself before considering a replacement."
-    },
-    "categoryId": "mobile",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-07-26",
-    "readTime": 6,
-    "heroImage": "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "smartphone",
-      "performance",
-      "android",
-      "ios",
-      "guide"
-    ],
-    "isFeatured": false,
-    "isTrending": false
-  },
-  {
     "id": "art-gen-0125",
     "slug": "printer-not-working-fixes",
     "title": {
@@ -5113,7 +4847,7 @@
         "ar": "فريق NetSec Atlas",
         "en": "NetSec Atlas Team"
       },
-      "avatar": "https://i.pravatar.cc/150?img=11"
+      "avatar": ""
     },
     "date": "2026-07-29",
     "readTime": 5,
@@ -5125,144 +4859,5 @@
     ],
     "isFeatured": false,
     "isTrending": false
-  },
-  {
-    "id": "art-gen-0126",
-    "slug": "mobile-buying-guide-2026",
-    "title": {
-      "ar": "دليل شراء موبايل جديد 2026: إيه المواصفات اللي تستاهل تدفع فيها فلوس أكتر",
-      "en": "Buying a New Phone in 2026: Which Specs Are Actually Worth Paying More For"
-    },
-    "excerpt": {
-      "ar": "مش كل المواصفات المكتوبة على صندوق الموبايل بنفس الأهمية لكل مستخدم. إليك دليل عملي يساعدك تحدد فين تستحق تصرف ميزانيتك فعليًا وفين ممكن توفر.",
-      "en": "Not every spec printed on a phone's box matters equally to every user. Here's a practical guide to help you decide where your budget is genuinely worth spending, and where you can save."
-    },
-    "categoryId": "mobile",
-    "subcategoryId": "best-picks",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-08-01",
-    "readTime": 8,
-    "heroImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "smartphone",
-      "buying-guide",
-      "android",
-      "ios"
-    ],
-    "isFeatured": false,
-    "isTrending": false
-  },
-  {
-    "id": "art-gen-0127",
-    "slug": "laptop-buying-guide-2026",
-    "title": {
-      "ar": "دليل اختيار لابتوب مناسب لك: للطلاب، للعمل، وللتصميم",
-      "en": "Choosing the Right Laptop for You: Students, Work, and Design"
-    },
-    "excerpt": {
-      "ar": "اللابتوب المناسب مختلف تمامًا حسب استخدامك — الطالب محتاج حاجة غير اللي محتاجها المصمم أو موظف المكتب. إليك دليل عملي يساعدك تختار صح من أول مرة.",
-      "en": "The right laptop varies completely by use case -- a student needs something different from what a designer or office worker needs. Here's a practical guide to help you choose correctly the first time."
-    },
-    "categoryId": "laptops",
-    "subcategoryId": "best-picks",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-08-02",
-    "readTime": 8,
-    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "laptop",
-      "buying-guide",
-      "students",
-      "work"
-    ],
-    "isFeatured": false,
-    "isTrending": false
-  },
-  {
-    "id": "art-gen-0128",
-    "slug": "ai-everyday-uses-guide",
-    "title": {
-      "ar": "أفضل استخدامات الذكاء الاصطناعي في حياتك اليومية (مش بس ChatGPT)",
-      "en": "The Best Everyday Uses of AI (It's Not Just ChatGPT)"
-    },
-    "excerpt": {
-      "ar": "الذكاء الاصطناعي بقى أداة عملية فعليًا في حياتنا اليومية، مش بس تقنية تجريبية. إليك استخدامات حقيقية تقدر تبدأ فيها من النهاردة من غير خبرة تقنية.",
-      "en": "AI has become a genuinely practical everyday tool, not just an experimental technology. Here are real uses you can start today, no technical background required."
-    },
-    "categoryId": "ai",
-    "subcategoryId": "guides-tips",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-08-04",
-    "readTime": 7,
-    "heroImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "ai",
-      "chatgpt",
-      "productivity",
-      "guide"
-    ],
-    "isFeatured": false,
-    "isTrending": false
-  },
-  {
-    "id": "art-gen-0129",
-    "slug": "wireless-headphones-buying-guide",
-    "title": {
-      "ar": "أفضل سماعات لاسلكية بميزانية متوسطة: دليل شراء عملي",
-      "en": "Best Wireless Headphones on a Mid-Range Budget: A Practical Buying Guide"
-    },
-    "excerpt": {
-      "ar": "مش لازم تدفع أعلى سعر عشان تحصل على تجربة صوت ممتازة. إليك دليل عملي يساعدك تختار سماعات لاسلكية مناسبة لاستخدامك بميزانية معقولة.",
-      "en": "You don't need to pay top dollar for an excellent listening experience. Here's a practical guide to choosing wireless headphones that fit your use case on a reasonable budget."
-    },
-    "categoryId": "reviews",
-    "subcategoryId": "audio",
-    "author": {
-      "name": {
-        "ar": "فريق NetSec Atlas",
-        "en": "NetSec Atlas Team"
-      },
-      "avatar": "https://i.pravatar.cc/150?img=11"
-    },
-    "date": "2026-08-06",
-    "readTime": 6,
-    "heroImage": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&h=450&q=80",
-    "tags": [
-      "headphones",
-      "audio",
-      "buying-guide",
-      "review"
-    ],
-    "isFeatured": false,
-    "isTrending": false,
-    "domainIds": [
-      "networking"
-    ],
-    "topicIds": [
-      "wireless"
-    ],
-    "contentType": "guide",
-    "vendorIds": [],
-    "productIds": [],
-    "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
   }
 ]

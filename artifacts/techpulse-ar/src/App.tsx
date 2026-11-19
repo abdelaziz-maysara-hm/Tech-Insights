@@ -7,6 +7,7 @@ import { ThemeProvider } from '@/context/ThemeContext';
 import { useSEO } from '@/hooks/useSEO';
 import { useLocalizedLocation } from '@/hooks/useLocalizedLocation';
 import { getLegacyRedirectTarget } from '@/lib/legacyRedirect';
+import { getContentRedirectTarget } from '@/lib/contentRedirects';
 
 const Home = lazy(() => import('@/pages/Home'));
 const Articles = lazy(() => import('@/pages/Articles'));
@@ -14,6 +15,8 @@ const ArticleDetail = lazy(() => import('@/pages/ArticleDetail'));
 const Comparisons = lazy(() => import('@/pages/Comparisons'));
 const ComparisonDetail = lazy(() => import('@/pages/ComparisonDetail'));
 const Videos = lazy(() => import('@/pages/Videos'));
+const VideoPlaylist = lazy(() => import('@/pages/VideoPlaylist'));
+const VideoDetail = lazy(() => import('@/pages/VideoDetail'));
 const Categories = lazy(() => import('@/pages/Categories'));
 const Search = lazy(() => import('@/pages/Search'));
 const PageDetail = lazy(() => import('@/pages/PageDetail'));
@@ -52,6 +55,19 @@ function LegacyRouteRedirect() {
     }
   }, []);
 
+  return null;
+}
+
+/** Removed/merged content: forward to its replacement (static stubs do the same without JS). */
+function ContentRedirect() {
+  const [pathname] = useLocation();
+  useEffect(() => {
+    const target = getContentRedirectTarget(pathname);
+    if (!target) return;
+    const lang = window.location.pathname.match(/^\/(ar|en)(\/|$)/)?.[1] ?? 'ar';
+    const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+    window.location.replace(`${base}/${lang}${target}`);
+  }, [pathname]);
   return null;
 }
 
@@ -99,6 +115,7 @@ function Router() {
   return (
     <div className="min-h-[100dvh] flex flex-col font-sans">
       <ScrollToTop />
+      <ContentRedirect />
       <GlobalSEO />
       <AnalyticsPageViews />
       <Navbar />
@@ -111,6 +128,8 @@ function Router() {
             <Route path="/comparisons" component={Comparisons} />
             <Route path="/comparison/:slug" component={ComparisonDetail} />
             <Route path="/videos" component={Videos} />
+            <Route path="/videos/:playlist" component={VideoPlaylist} />
+            <Route path="/video/:slug" component={VideoDetail} />
             <Route path="/categories" component={Categories} />
             <Route path="/search" component={Search} />
             <Route path="/page/:slug" component={PageDetail} />

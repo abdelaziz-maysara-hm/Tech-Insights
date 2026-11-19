@@ -1,0 +1,292 @@
+[
+  {
+    "slug": "firewalls-vpn",
+    "pillar": "P1",
+    "title": {
+      "ar": "جدران الحماية وVPN: FortiGate وPalo Alto",
+      "en": "Firewalls & VPN: FortiGate and Palo Alto"
+    },
+    "description": {
+      "ar": "قائمة تشغيل مرتبة لإعداد سياسات FortiGate والتوجيه وSSL VPN وIPsec وZTNA، ثم NAT وسياسات الأمان في Palo Alto، مع شرح عربي.",
+      "en": "An ordered playlist on FortiGate policies, routing, SSL VPN, IPsec and ZTNA, then Palo Alto NAT and security policy, with Arabic lessons."
+    },
+    "intro": {
+      "ar": "ابدأ بأساسيات السياسة والتوجيه على FortiGate، ثم انتقل إلى الوصول عن بُعد. انتبه: FortiOS 7.6.3 أوقف وضع النفق في SSL VPN، لذلك وضعنا فيديو الانتقال إلى IPsec مباشرة بعد فيديو SSL VPN. القسم الأخير يغطي NAT في Palo Alto لأنه أكثر نقطة تسبب أخطاء في الإعداد.",
+      "en": "Start with FortiGate policy and routing basics, then move to remote access. Note that FortiOS 7.6.3 removed SSL VPN tunnel mode, so the IPsec migration video follows the SSL VPN one directly. The last section covers Palo Alto NAT, the most common source of configuration mistakes."
+    },
+    "pillarArticle": "enterprise-network-security-guide",
+    "relatedArticles": [
+      "fortios-ssl-vpn-tunnel-mode-removal-ipsec-migration",
+      "forticlient-error-7200-fix",
+      "fortigate-ssl-vpn-checklist",
+      "palo-alto-security-policy-basics",
+      "forcepoint-ssl-vpn-radius",
+      "zero-trust-explained-practically"
+    ],
+    "externalPlaylists": [],
+    "videos": [
+      "fortigate-firewall-policy-internet-access",
+      "fortigate-static-route-setup",
+      "fortigate-ssl-vpn-full-tunnel",
+      "fortigate-ipsec-vpn-fortios-7-2",
+      "fortigate-ssl-vpn-to-ipsec-migration",
+      "fortinet-ztna-overview",
+      "fortinet-ztna-getting-started",
+      "palo-alto-nat-tutorial",
+      "palo-alto-nat-security-policy",
+      "palo-alto-u-turn-nat",
+      "fortigate-arabic-full-course",
+      "palo-alto-arabic-introduction"
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "slug": "network-fundamentals",
+    "pillar": "P1",
+    "title": {
+      "ar": "أساسيات الشبكات وتقسيمها: VLAN و802.1X والتحليل",
+      "en": "Network Fundamentals & Segmentation: VLAN, 802.1X and Analysis"
+    },
+    "description": {
+      "ar": "من نموذج OSI إلى VLAN وTrunk و802.1X، ثم تحليل الحركة بـ Wireshark والفحص بـ Nmap، بالعربية والإنجليزية.",
+      "en": "From the OSI model to VLANs, trunks and 802.1X, then traffic analysis with Wireshark and scanning with Nmap, in Arabic and English."
+    },
+    "intro": {
+      "ar": "هذه القائمة هي الأساس الذي تُبنى عليه بقية المسارات. شاهدها بالترتيب، وطبّق كل جزء على Packet Tracer أو مختبر افتراضي، ثم استخدم حاسبة VLSM في الموقع لتخطيط عناوين كل VLAN.",
+      "en": "This playlist is the foundation for the other tracks. Watch it in order, practise each part in Packet Tracer or a virtual lab, then use the site's VLSM calculator to plan addressing per VLAN."
+    },
+    "pillarArticle": "enterprise-network-security-guide",
+    "relatedArticles": [
+      "vlan-basics-why-segment",
+      "802-1x-certificate-authentication",
+      "network-access-control-nac-basics",
+      "network-segmentation-compliance",
+      "wireshark-network-analysis-complete-guide",
+      "nmap-network-scanning-complete-guide"
+    ],
+    "externalPlaylists": [
+      {
+        "youtubePlaylistId": "PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ",
+        "title": "Free CCNA v1.1 200-301 | Complete Course 2026",
+        "channel": {
+          "name": "Jeremy's IT Lab",
+          "url": "https://www.youtube.com/@JeremysITLab"
+        }
+      }
+    ],
+    "videos": [
+      "computer-networks-crash-course",
+      "osi-model-network-plus",
+      "what-are-vlans",
+      "native-vlan-explained",
+      "ccna-vlans-part-1",
+      "vlan-arabic-explained",
+      "how-8021x-works",
+      "wireshark-beginners-tutorial",
+      "wireshark-arabic-explained",
+      "nmap-tutorial-vulnerabilities",
+      "how-nmap-really-works"
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "slug": "soc-incident-response",
+    "pillar": "P2",
+    "title": {
+      "ar": "SOC وSIEM والاستجابة للحوادث",
+      "en": "SOC, SIEM & Incident Response"
+    },
+    "description": {
+      "ar": "مسار عملي لمحلل SOC: Wazuh وSysmon وأحداث Windows وMITRE ATT&CK والتعامل مع حوادث الفدية.",
+      "en": "A practical SOC analyst track: Wazuh, Sysmon, Windows events, MITRE ATT&CK and handling ransomware incidents."
+    },
+    "intro": {
+      "ar": "ابنِ مختبرًا صغيرًا (Wazuh + جهاز Windows عليه Sysmon) وشاهد الفيديوهات بالترتيب: من فهم دور SOC، إلى جمع السجلات، إلى قراءة الأحداث وربطها بـ ATT&CK، وأخيرًا الاستجابة لحادثة فدية حقيقية.",
+      "en": "Build a small lab (Wazuh plus a Windows host running Sysmon) and watch in order: the SOC role, log collection, reading events and mapping them to ATT&CK, and finally responding to a real ransomware incident."
+    },
+    "pillarArticle": "soc-incident-response-guide",
+    "relatedArticles": [
+      "windows-security-event-ids-soc",
+      "how-siem-actually-works",
+      "log-retention-siem-basics",
+      "ransomware-first-hour-response",
+      "incident-response-tabletop-exercises",
+      "how-edr-actually-works"
+    ],
+    "externalPlaylists": [],
+    "videos": [
+      "soc-explained-arabic",
+      "wazuh-free-security-tool",
+      "wazuh-visibility-john-hammond",
+      "learning-sysmon-what-is-sysmon",
+      "learning-sysmon-installation",
+      "windows-logon-events-4624",
+      "mitre-attack-framework-official",
+      "mitre-attack-introduction-hackersploit",
+      "sans-handling-ransomware-incidents",
+      "first-ransomware-incident-response-story"
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "slug": "identity-active-directory",
+    "pillar": "P3",
+    "title": {
+      "ar": "Active Directory والهوية وConditional Access",
+      "en": "Active Directory, Identity & Conditional Access"
+    },
+    "description": {
+      "ar": "من أساسيات Active Directory وKerberos إلى هجوم Kerberoasting ونموذج الطبقات وسياسات Conditional Access في Microsoft Entra ID.",
+      "en": "From Active Directory and Kerberos basics to Kerberoasting, the tiering model and Conditional Access in Microsoft Entra ID."
+    },
+    "intro": {
+      "ar": "الهوية هي محيط الأمان الجديد. القائمة تبدأ بالأساسيات بالعربية، ثم تشرح Kerberos لأنه شرط لفهم Kerberoasting، ثم الدفاع بنموذج الطبقات، وتنتهي بالهوية السحابية عبر Conditional Access.",
+      "en": "Identity is the new security perimeter. The playlist starts with Arabic basics, explains Kerberos as a prerequisite for Kerberoasting, covers defence with tiering, and ends with cloud identity through Conditional Access."
+    },
+    "pillarArticle": "active-directory-identity-security-guide",
+    "relatedArticles": [
+      "kerberoasting-detection-prevention",
+      "kerberos-authentication-explained",
+      "active-directory-complete-setup-guide",
+      "group-policy-basics-for-sysadmins",
+      "windows-local-admin-password-rotation",
+      "2fa-practical-guide"
+    ],
+    "externalPlaylists": [],
+    "videos": [
+      "windows-server-active-directory-arabic",
+      "kerberos-authentication-deep-dive",
+      "learn-kerberoasting",
+      "active-directory-tiering",
+      "what-is-conditional-access",
+      "conditional-access-policy-plans",
+      "conditional-access-beginner-guide"
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "slug": "endpoint-vulnerability",
+    "pillar": "P4",
+    "title": {
+      "ar": "حماية الأجهزة الطرفية وإدارة الثغرات",
+      "en": "Endpoint Protection & Vulnerability Management"
+    },
+    "description": {
+      "ar": "Microsoft Defender for Endpoint وKaspersky Security Center وفهم CVE وCVSS والفحص بـ Nessus.",
+      "en": "Microsoft Defender for Endpoint, Kaspersky Security Center, understanding CVE and CVSS, and scanning with Nessus."
+    },
+    "intro": {
+      "ar": "تجمع القائمة جانبي الحماية: منصة حماية الأجهزة (EDR/EPP) التي تمنع وتكشف، وبرنامج إدارة الثغرات الذي يقلل سطح الهجوم. فيديوهات Kaspersky تكمّل مقالنا عن استثناءات KES 12.",
+      "en": "The playlist covers both sides of protection: the endpoint platform (EDR/EPP) that prevents and detects, and the vulnerability programme that shrinks the attack surface. The Kaspersky videos complement our KES 12 exclusions article."
+    },
+    "pillarArticle": "endpoint-vulnerability-management-guide",
+    "relatedArticles": [
+      "kes-12-exclusions-kaspersky-security-center",
+      "kaspersky-security-center-tagging",
+      "how-edr-actually-works",
+      "understanding-cvss-score",
+      "vulnerability-scanning-vs-penetration-testing",
+      "windows-patch-management-strategy"
+    ],
+    "externalPlaylists": [],
+    "videos": [
+      "microsoft-defender-for-endpoint-overview",
+      "kaspersky-security-center-install-part-1",
+      "kaspersky-security-center-install-arabic",
+      "certmike-explains-cvss",
+      "red-hat-cve-and-cvss",
+      "nessus-essentials-running-scans",
+      "nessus-vulnerability-management-tutorial"
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "slug": "email-web-security",
+    "pillar": "P5",
+    "title": {
+      "ar": "أمن البريد الإلكتروني والويب",
+      "en": "Email & Web Security"
+    },
+    "description": {
+      "ar": "SPF وDKIM وDMARC من الأساسيات حتى p=reject، وتحليل ترويسة رسائل التصيد، وقائمة OWASP Top 10.",
+      "en": "SPF, DKIM and DMARC from basics to p=reject, phishing header analysis, and the OWASP Top 10."
+    },
+    "intro": {
+      "ar": "شاهد هذه القائمة ثم افحص دومينك بأداتي تحليل SPF وDMARC في الموقع. الترتيب مقصود: المفاهيم، ثم السياسات، ثم التطبيق في Microsoft 365، ثم منظور محلل SOC.",
+      "en": "Watch this playlist, then check your own domain with the site's SPF and DMARC analyzers. The order is deliberate: concepts, policies, Microsoft 365 implementation, then the SOC analyst view."
+    },
+    "pillarArticle": "enterprise-email-security-guide",
+    "relatedArticles": [
+      "dmarc-rollout-none-to-reject",
+      "spf-dkim-dmarc-email-basics",
+      "email-security-gateway-basics",
+      "phishing-spot-before-click",
+      "owasp-top-10-overview",
+      "web-application-firewall-waf-guide"
+    ],
+    "externalPlaylists": [],
+    "tools": [
+      "spf-record-analyzer",
+      "dmarc-record-analyzer"
+    ],
+    "videos": [
+      "certmike-dmarc-dkim-spf",
+      "spf-dkim-dmarc-christian-lempa",
+      "dmarc-policy-none-quarantine-reject",
+      "microsoft-365-spf-dkim-dmarc",
+      "phishing-email-header-analysis-soc",
+      "owasp-top-10-2021-overview"
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "slug": "certifications-career",
+    "pillar": "career",
+    "title": {
+      "ar": "الشهادات والمسار المهني: CCNA وSecurity+",
+      "en": "Certifications & Career: CCNA and Security+"
+    },
+    "description": {
+      "ar": "بداية منظمة لمسار مهندس الشبكات والأمن: CCNA وSecurity+ وLinux وأساسيات الاختراق الأخلاقي.",
+      "en": "A structured start for network and security engineers: CCNA, Security+, Linux and ethical hacking basics."
+    },
+    "intro": {
+      "ar": "لا تحتاج كل الشهادات. الترتيب المقترح: أساسيات الشبكات (CCNA)، ثم Security+، ثم Linux، ثم التخصص. القوائم الكاملة لـ CCNA مرتبطة أسفل الصفحة مباشرة على يوتيوب.",
+      "en": "You do not need every certification. The suggested order: networking (CCNA), then Security+, then Linux, then specialise. The full CCNA playlists are linked at the bottom of the page."
+    },
+    "pillarArticle": "enterprise-network-security-guide",
+    "relatedArticles": [
+      "vulnerability-scanning-vs-penetration-testing",
+      "authentication-vs-authorization-explained",
+      "tls-handshake-explained"
+    ],
+    "externalPlaylists": [
+      {
+        "youtubePlaylistId": "PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ",
+        "title": "Free CCNA v1.1 200-301 | Complete Course 2026",
+        "channel": {
+          "name": "Jeremy's IT Lab",
+          "url": "https://www.youtube.com/@JeremysITLab"
+        }
+      },
+      {
+        "youtubePlaylistId": "PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P",
+        "title": "FREE CCNA 200-301 // Complete Course // NetworkChuck 2025",
+        "channel": {
+          "name": "NetworkChuck",
+          "url": "https://www.youtube.com/@NetworkChuck"
+        }
+      }
+    ],
+    "videos": [
+      "ccna-day-0-what-is-a-network",
+      "ccna-osi-model-episode",
+      "security-plus-sy0-701-security-controls",
+      "security-plus-sy0-701-cia-triad",
+      "netriders-security-plus-sy0-601-intro-arabic",
+      "linux-full-course-beginners",
+      "practical-ethical-hacking-full-course"
+    ],
+    "updatedAt": "2026-11-19"
+  }
+]

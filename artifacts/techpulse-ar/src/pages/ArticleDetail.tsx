@@ -7,8 +7,11 @@ import { useSEO } from '@/hooks/useSEO';
 import { ArticleCard } from '@/components/ArticleCard';
 import { AdawatyTools } from '@/components/AdawatyTools';
 import { adawatyLinksForArticle } from '@/data/adawaty';
-import { markdownToHtml } from '@/lib/markdown';
+import { localizeInternalLinks, markdownToHtml } from '@/lib/markdown';
 import { getRelatedArticles, getAdjacentArticles } from '@/lib/relatedContent';
+import { LiteYouTube } from '@/components/video/LiteYouTube';
+import { libraryPlaylists, libraryVideos } from '@/data/videoLibrary';
+import { playlistForArticle, videosForPlaylist } from '@/lib/videoLibrary';
 
 export default function ArticleDetail() {
   const [, params] = useRoute('/article/:slug');
@@ -51,6 +54,9 @@ export default function ArticleDetail() {
   const related = getRelatedArticles(article, allArticles, 6);
   const { previous, next } = getAdjacentArticles(article, allArticles);
 
+  const playlist = playlistForArticle(article.slug, libraryPlaylists);
+  const playlistVideos = playlist ? videosForPlaylist(playlist, libraryVideos) : [];
+
   const adawatyLinks = adawatyLinksForArticle({
     categoryId: article.categoryId,
     tags: article.tags,
@@ -85,20 +91,15 @@ export default function ArticleDetail() {
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">{article.excerpt[language]}</p>
 
           {article.youtubeVideoId && (
-            <div className="aspect-video mb-10 rounded-xl overflow-hidden">
-              <iframe
-                src={`https://www.youtube.com/embed/${article.youtubeVideoId}`}
-                title={article.title[language]}
-                className="w-full h-full"
-                allowFullScreen
-              />
+            <div className="mb-10">
+              <LiteYouTube id={article.youtubeVideoId} title={article.title[language]} playLabel={language === 'ar' ? 'تشغيل' : 'Play'} />
             </div>
           )}
 
           <div
             className="prose prose-invert max-w-none prose-headings:text-foreground prose-p:text-muted-foreground prose-a:text-primary"
             // markdownToHtml escapes all source text before formatting.
-            dangerouslySetInnerHTML={{ __html: markdownToHtml(article.body[language] || '') }}
+            dangerouslySetInnerHTML={{ __html: localizeInternalLinks(markdownToHtml(article.body[language] || ''), language) }}
           />
 
           {article.tags?.length > 0 && (
@@ -129,6 +130,24 @@ export default function ArticleDetail() {
                 </Link>
               )}
             </nav>
+          )}
+
+          {playlist && playlistVideos.length > 0 && (
+            <aside className="mt-10 rounded-xl border border-border bg-card p-5">
+              <h2 className="text-lg font-bold mb-2">
+                {language === 'ar' ? 'شاهد قائمة التشغيل المرتبطة' : 'Watch the related playlist'}
+              </h2>
+              <p className="text-sm text-muted-foreground mb-4">
+                <Link href={`/videos/${playlist.slug}`} className="text-primary hover:underline font-medium">{playlist.title[language]}</Link>
+                {' · '}
+                {playlistVideos.length} {language === 'ar' ? 'فيديو' : 'videos'}
+              </p>
+              <ol className="list-decimal ps-6 space-y-1 text-sm">
+                {playlistVideos.slice(0, 4).map((v) => (
+                  <li key={v.slug}><Link href={`/video/${v.slug}`} className="hover:text-primary">{v.title[language]}</Link></li>
+                ))}
+              </ol>
+            </aside>
           )}
 
           <AdawatyTools links={adawatyLinks} />

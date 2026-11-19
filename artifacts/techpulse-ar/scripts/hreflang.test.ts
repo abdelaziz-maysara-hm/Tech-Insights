@@ -23,9 +23,14 @@ test('reviewed is always eligible, invalid never, unreviewed per policy', () => 
   assert.equal(isHreflangEligible('/article/invalid-fixture', 'invalid'), false);
 });
 
-test('the policy switch never opens non-content routes such as search or videos', () => {
+test('the policy switch never opens query-driven routes such as search', () => {
   assert.equal(isHreflangEligible('/search', 'unreviewed'), false);
-  assert.equal(isHreflangEligible('/videos', 'unreviewed'), false);
+});
+
+test('the curated bilingual video library is hreflang eligible', () => {
+  assert.equal(isHreflangEligible('/videos', 'unreviewed'), true);
+  assert.equal(isHreflangEligible('/videos/firewalls-vpn', 'unreviewed'), true);
+  assert.equal(isHreflangEligible('/video/some-lesson', 'unreviewed'), true);
 });
 
 test('creates reciprocal production alternates and Arabic x-default', () => {
@@ -36,12 +41,12 @@ test('creates reciprocal production alternates and Arabic x-default', () => {
   ]);
 });
 
-test('approves maintained discovery classes but not query-driven search or videos', () => {
+test('approves maintained discovery classes but not query-driven search', () => {
   for (const route of ['/', '/troubleshooting', '/guides', '/tools', '/vendors', '/vendors/fortinet', '/articles', '/comparisons', '/domain/networking', '/categories']) {
     assert.equal(isDiscoveryRouteHreflangEligible(route), true, route);
   }
   assert.equal(isDiscoveryRouteHreflangEligible('/search'), false);
-  assert.equal(isDiscoveryRouteHreflangEligible('/videos'), false);
+  assert.equal(isDiscoveryRouteHreflangEligible('/videos'), true);
 });
 
 test('normalizes localized and legacy routes without duplicate prefixes', () => {

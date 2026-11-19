@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://netsecatlas.com/ar/video/fortigate-firewall-policy-internet-access</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/36wU22YqrGw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>إنشاء Firewall Policy على FortiGate للسماح بالوصول للإنترنت</video:title>
+      <video:description>فيديو قصير من قناة Fortinet الرسمية يوضح إنشاء سياسة جدار حماية تسمح لجهاز داخلي بالوصول إلى الإنترنت.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/36wU22YqrGw</video:player_loc>
+      <video:duration>238</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@fortinet">Fortinet</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/fortigate-firewall-policy-internet-access</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/36wU22YqrGw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Creating a FortiGate firewall policy for internet access</video:title>
+      <video:description>A short video from the official Fortinet channel showing how to create a policy that lets an internal PC reach the internet.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/36wU22YqrGw</video:player_loc>
+      <video:duration>238</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@fortinet">Fortinet</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/fortigate-static-route-setup</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/bSVqTERvTeY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>إعداد Static Route على FortiGate</video:title>
+      <video:description>شرح من Fortinet Video Library لإضافة مسار ثابت على FortiGate، وهي خطوة أساسية قبل أي سياسة أو VPN.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/bSVqTERvTeY</video:player_loc>
+      <video:duration>298</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@fortinetvideolibrary">Fortinet Video Library</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/fortigate-static-route-setup</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/bSVqTERvTeY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Setting up a static route on FortiGate</video:title>
+      <video:description>A Fortinet Video Library walkthrough of adding a static route on FortiGate, a prerequisite for most policies and VPNs.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/bSVqTERvTeY</video:player_loc>
+      <video:duration>298</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@fortinetvideolibrary">Fortinet Video Library</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/fortigate-ssl-vpn-full-tunnel</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/L4nP3TiDHoo/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>إعداد SSL VPN بوضع Full Tunnel للمستخدمين عن بُعد</video:title>
+      <video:description>فيديو رسمي من Fortinet يشرح إعداد SSL VPN بوضع النفق الكامل. مهم: الإصدارات الحديثة من FortiOS (7.6.3 وما بعدها) أوقفت وضع النفق في SSL VPN، فاستخدمه للإصدارات الأقدم فقط.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/L4nP3TiDHoo</video:player_loc>
+      <video:duration>311</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@fortinetvideolibrary">Fortinet Video Library</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/fortigate-ssl-vpn-full-tunnel</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/L4nP3TiDHoo/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>SSL VPN full-tunnel setup for remote users</video:title>
+      <video:description>An official Fortinet video on SSL VPN full-tunnel mode. Note: recent FortiOS releases (7.6.3 and later) removed SSL VPN tunnel mode, so this applies to older versions only.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/L4nP3TiDHoo</video:player_loc>
+      <video:duration>311</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@fortinetvideolibrary">Fortinet Video Library</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/fortigate-ipsec-vpn-fortios-7-2</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/1pMQGhSbAis/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>إعداد IPsec VPN في FortiOS 7.2</video:title>
+      <video:description>شرح رسمي لإعداد IPsec VPN باستخدام معالج FortiOS 7.2.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/1pMQGhSbAis</video:player_loc>
+      <video:duration>333</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@fortinetvideolibrary">Fortinet Video Library</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/fortigate-ipsec-vpn-fortios-7-2</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/1pMQGhSbAis/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Setting up IPsec VPN in FortiOS 7.2</video:title>
+      <video:description>An official walkthrough of setting up IPsec VPN with the FortiOS 7.2 wizard.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/1pMQGhSbAis</video:player_loc>
+      <video:duration>333</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@fortinetvideolibrary">Fortinet Video Library</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/fortigate-ssl-vpn-to-ipsec-migration</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/U2gX3ff0jnE/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>الانتقال من SSL VPN إلى IPsec VPN عند الترقية من FortiOS 7.4 إلى 7.6</video:title>
+      <video:description>شرح عملي مطوّل لنقل المستخدمين عن بُعد من SSL VPN إلى IPsec VPN قبل الترقية إلى FortiOS 7.6.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/U2gX3ff0jnE</video:player_loc>
+      <video:duration>2267</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@IT-Learning-Labs">IT LEARNING LABS</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/fortigate-ssl-vpn-to-ipsec-migration</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/U2gX3ff0jnE/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Migrating from SSL VPN to IPsec VPN when moving from FortiOS 7.4 to 7.6</video:title>
+      <video:description>A long hands-on walkthrough of moving remote users from SSL VPN to IPsec VPN before upgrading to FortiOS 7.6.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/U2gX3ff0jnE</video:player_loc>
+      <video:duration>2267</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@IT-Learning-Labs">IT LEARNING LABS</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/fortinet-ztna-overview</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/xqL2LqDP0gw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>نظرة عامة على ZTNA من Fortinet</video:title>
+      <video:description>مقدمة رسمية لمفهوم الوصول الصفري الثقة (ZTNA) في منظومة Fortinet.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/xqL2LqDP0gw</video:player_loc>
+      <video:duration>327</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@fortinetvideolibrary">Fortinet Video Library</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/fortinet-ztna-overview</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/xqL2LqDP0gw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Fortinet ZTNA overview</video:title>
+      <video:description>An official introduction to Zero Trust Network Access in the Fortinet ecosystem.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/xqL2LqDP0gw</video:player_loc>
+      <video:duration>327</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@fortinetvideolibrary">Fortinet Video Library</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/fortinet-ztna-getting-started</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/LldfWVbC17w/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>البدء مع ZTNA على FortiGate</video:title>
+      <video:description>شرح رسمي أطول لخطوات البدء في ZTNA بين FortiGate وFortiClient EMS.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/LldfWVbC17w</video:player_loc>
+      <video:duration>879</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@fortinetvideolibrary">Fortinet Video Library</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/fortinet-ztna-getting-started</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/LldfWVbC17w/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Getting started with ZTNA on FortiGate</video:title>
+      <video:description>A longer official walkthrough of getting started with ZTNA between FortiGate and FortiClient EMS.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/LldfWVbC17w</video:player_loc>
+      <video:duration>879</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@fortinetvideolibrary">Fortinet Video Library</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/palo-alto-nat-tutorial</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/zLqsSuOVzzU/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>شرح NAT في جدار Palo Alto</video:title>
+      <video:description>شرح رسمي من مجتمع Palo Alto Networks لأنواع NAT وطريقة إعدادها.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/zLqsSuOVzzU</video:player_loc>
+      <video:duration>606</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PaloAltoNetworksLiveCommunity">Palo Alto Networks LIVEcommunity</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/palo-alto-nat-tutorial</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/zLqsSuOVzzU/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>NAT on Palo Alto firewalls explained</video:title>
+      <video:description>An official Palo Alto Networks community tutorial on NAT types and configuration.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/zLqsSuOVzzU</video:player_loc>
+      <video:duration>606</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PaloAltoNetworksLiveCommunity">Palo Alto Networks LIVEcommunity</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/palo-alto-nat-security-policy</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Ahrao6kBg8w/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>فهم العلاقة بين NAT وSecurity Policy في Palo Alto</video:title>
+      <video:description>شرح رسمي يوضح كيف تتفاعل قواعد NAT مع قواعد الأمان، وهو أكثر ما يربك المبتدئين.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Ahrao6kBg8w</video:player_loc>
+      <video:duration>767</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PaloAltoNetworksLiveCommunity">Palo Alto Networks LIVEcommunity</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/palo-alto-nat-security-policy</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Ahrao6kBg8w/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Understanding NAT and security policy together on Palo Alto</video:title>
+      <video:description>An official tutorial on how NAT rules interact with security rules, the most common point of confusion.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Ahrao6kBg8w</video:player_loc>
+      <video:duration>767</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PaloAltoNetworksLiveCommunity">Palo Alto Networks LIVEcommunity</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/palo-alto-u-turn-nat</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Bdbn1pbe74o/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>إعداد U-Turn NAT في Palo Alto</video:title>
+      <video:description>شرح رسمي لحالة شائعة: مستخدمون داخليون يصلون إلى خادم داخلي عبر عنوانه العام.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Bdbn1pbe74o</video:player_loc>
+      <video:duration>339</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PaloAltoNetworksLiveCommunity">Palo Alto Networks LIVEcommunity</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/palo-alto-u-turn-nat</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Bdbn1pbe74o/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Configuring U-turn NAT on Palo Alto</video:title>
+      <video:description>An official tutorial for a common case: internal users reaching an internal server via its public address.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Bdbn1pbe74o</video:player_loc>
+      <video:duration>339</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PaloAltoNetworksLiveCommunity">Palo Alto Networks LIVEcommunity</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/fortigate-arabic-full-course</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/3ycUby-VCoY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>شرح FortiGate بالعربي (دورة كاملة)</video:title>
+      <video:description>دورة عربية طويلة عن جدار FortiGate من قناة Information Technology، مناسبة لمن يفضّل الشرح بالعربية.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/3ycUby-VCoY</video:player_loc>
+      <video:duration>34700</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@FREE4ARAB1">Information Technology</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/fortigate-arabic-full-course</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/3ycUby-VCoY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>FortiGate firewall full course in Arabic</video:title>
+      <video:description>A long Arabic-language FortiGate course from the Information Technology channel, for viewers who prefer Arabic.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/3ycUby-VCoY</video:player_loc>
+      <video:duration>34700</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@FREE4ARAB1">Information Technology</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/palo-alto-arabic-introduction</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/hvIatX1UpBw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>مقدمة Palo Alto Firewall بالعربي</video:title>
+      <video:description>الدرس الأول من سلسلة عربية عن جدار Palo Alto للمهندس مصطفى الليثي.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/hvIatX1UpBw</video:player_loc>
+      <video:duration>310</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@FREE4ARAB1">Information Technology</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/palo-alto-arabic-introduction</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/hvIatX1UpBw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Palo Alto firewall introduction in Arabic</video:title>
+      <video:description>The first lesson of an Arabic Palo Alto firewall series by Eng. Mostafa El Lathy.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/hvIatX1UpBw</video:player_loc>
+      <video:duration>310</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@FREE4ARAB1">Information Technology</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/computer-networks-crash-course</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/3QhU9jd03a0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>كيف تعمل شبكات الحاسوب (Crash Course)</video:title>
+      <video:description>حلقة تأسيسية من CrashCourse تشرح فكرة شبكات الحاسوب بشكل مبسط.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/3QhU9jd03a0</video:player_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@crashcourse">CrashCourse</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/computer-networks-crash-course</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/3QhU9jd03a0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>How computer networks work (Crash Course)</video:title>
+      <video:description>A foundational CrashCourse episode explaining how computer networks work.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/3QhU9jd03a0</video:player_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@crashcourse">CrashCourse</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/osi-model-network-plus</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/AYgXr1dynKU/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>فهم نموذج OSI (Network+ N10-009)</video:title>
+      <video:description>درس من Professor Messer ضمن منهج Network+ N10-009 الحالي عن طبقات OSI السبع.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/AYgXr1dynKU</video:player_loc>
+      <video:duration>831</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@professormesser">Professor Messer</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/osi-model-network-plus</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/AYgXr1dynKU/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Understanding the OSI model (Network+ N10-009)</video:title>
+      <video:description>A Professor Messer lesson from the current Network+ N10-009 syllabus on the seven OSI layers.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/AYgXr1dynKU</video:player_loc>
+      <video:duration>831</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@professormesser">Professor Messer</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/what-are-vlans</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/MmwF1oHOvmg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>ما هي VLAN؟ أبسط شرح</video:title>
+      <video:description>يشرح الفيديو وظيفتي VLAN: تقسيم السويتش الواحد إلى سويتشات افتراضية، ومدّها بين السويتشات عبر منافذ Trunk ووسوم 802.1Q والـ Native VLAN.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/MmwF1oHOvmg</video:player_loc>
+      <video:duration>689</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/what-are-vlans</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/MmwF1oHOvmg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>What are VLANs? The simplest explanation</video:title>
+      <video:description>Explains the two functions of VLANs: splitting one switch into virtual switches and extending them across switches using trunk ports, 802.1Q tags and the native VLAN.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/MmwF1oHOvmg</video:player_loc>
+      <video:duration>689</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/native-vlan-explained</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Fmq1E1Qr2W4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>شرح Native VLAN بالرسم</video:title>
+      <video:description>توضيح مرئي لمفهوم Native VLAN وكيف تتعامل منافذ Trunk مع الإطارات غير الموسومة.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Fmq1E1Qr2W4</video:player_loc>
+      <video:duration>339</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/native-vlan-explained</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Fmq1E1Qr2W4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>The native VLAN, illustrated</video:title>
+      <video:description>A visual explanation of the native VLAN and how trunks handle untagged frames.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Fmq1E1Qr2W4</video:player_loc>
+      <video:duration>339</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/ccna-vlans-part-1</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/cjFzOnm6u1g/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>VLAN في منهج CCNA 200-301 (الجزء الأول)</video:title>
+      <video:description>الدرس 16 من دورة Jeremy&apos;s IT Lab المجانية لـ CCNA عن VLAN مع أوامر Cisco IOS.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/cjFzOnm6u1g</video:player_loc>
+      <video:duration>1425</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@JeremysITLab">Jeremy&apos;s IT Lab</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/ccna-vlans-part-1</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/cjFzOnm6u1g/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>VLANs in the CCNA 200-301 course (part 1)</video:title>
+      <video:description>Day 16 of Jeremy&apos;s IT Lab free CCNA course, covering VLANs with Cisco IOS commands.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/cjFzOnm6u1g</video:player_loc>
+      <video:duration>1425</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@JeremysITLab">Jeremy&apos;s IT Lab</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/vlan-arabic-explained</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/acsfdeJQ3Cs/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>شرح VLAN وأهميتها بالعربي</video:title>
+      <video:description>شرح عربي مفصل من قناة شبكات عرب عن الـ VLAN وفوائدها داخل الشبكة.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/acsfdeJQ3Cs</video:player_loc>
+      <video:duration>820</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@chabakatarab">Chabakat Arab | شبكات عرب</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/vlan-arabic-explained</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/acsfdeJQ3Cs/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>VLANs and why they matter (Arabic)</video:title>
+      <video:description>A detailed Arabic explanation from Chabakat Arab of VLANs and their benefits.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/acsfdeJQ3Cs</video:player_loc>
+      <video:duration>820</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@chabakatarab">Chabakat Arab | شبكات عرب</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/how-8021x-works</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/SdC3ppnanAE/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>كيف يعمل 802.1X</video:title>
+      <video:description>شرح من CBT Nuggets لأدوار 802.1X الثلاثة: Supplicant وAuthenticator وAuthentication Server.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/SdC3ppnanAE</video:player_loc>
+      <video:duration>453</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@cbtnuggets">CBT Nuggets</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/how-8021x-works</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/SdC3ppnanAE/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>How 802.1X works</video:title>
+      <video:description>A CBT Nuggets explanation of the three 802.1X roles: supplicant, authenticator and authentication server.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/SdC3ppnanAE</video:player_loc>
+      <video:duration>453</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@cbtnuggets">CBT Nuggets</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/wireshark-beginners-tutorial</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/OU-A2EmVrKQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>تعلّم Wireshark للمبتدئين</video:title>
+      <video:description>مقدمة عملية في Wireshark من Chris Greer، أحد أشهر مدربي تحليل الحزم.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/OU-A2EmVrKQ</video:player_loc>
+      <video:duration>974</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@ChrisGreer">Chris Greer</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/wireshark-beginners-tutorial</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/OU-A2EmVrKQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Learn Wireshark for beginners</video:title>
+      <video:description>A practical Wireshark introduction from Chris Greer, a well-known packet analysis trainer.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/OU-A2EmVrKQ</video:player_loc>
+      <video:duration>974</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@ChrisGreer">Chris Greer</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/wireshark-arabic-explained</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/UOsm5fPCPSs/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>شرح Wireshark بالعربي</video:title>
+      <video:description>شرح عربي طويل لأداة Wireshark من قناة Anas Education.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/UOsm5fPCPSs</video:player_loc>
+      <video:duration>3114</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Anas_Education">Anas Education</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/wireshark-arabic-explained</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/UOsm5fPCPSs/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Wireshark explained in Arabic</video:title>
+      <video:description>A long Arabic-language Wireshark explanation from Anas Education.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/UOsm5fPCPSs</video:player_loc>
+      <video:duration>3114</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Anas_Education">Anas Education</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/nmap-tutorial-vulnerabilities</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/4t4kBkMsDbQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>استخدام Nmap لاكتشاف الثغرات في الشبكة</video:title>
+      <video:description>شرح من NetworkChuck لاستخدام Nmap في الفحص واكتشاف الخدمات المكشوفة.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/4t4kBkMsDbQ</video:player_loc>
+      <video:duration>1029</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@NetworkChuck">NetworkChuck</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/nmap-tutorial-vulnerabilities</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/4t4kBkMsDbQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Using Nmap to find network vulnerabilities</video:title>
+      <video:description>A NetworkChuck tutorial on scanning with Nmap and finding exposed services.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/4t4kBkMsDbQ</video:player_loc>
+      <video:duration>1029</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@NetworkChuck">NetworkChuck</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/how-nmap-really-works</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/F2PXe_o7KqM/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>كيف يعمل Nmap فعليًا وكيف تكتشفه</video:title>
+      <video:description>تحليل من David Bombal لفحص SYN مقابل فحص TCP الكامل مع مراقبة الحزم في Wireshark لاكتشاف الفحص.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/F2PXe_o7KqM</video:player_loc>
+      <video:duration>2643</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@davidbombal">David Bombal</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/how-nmap-really-works</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/F2PXe_o7KqM/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>How Nmap really works and how to catch it</video:title>
+      <video:description>David Bombal compares SYN and full TCP scans and uses Wireshark to show how to detect them.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/F2PXe_o7KqM</video:player_loc>
+      <video:duration>2643</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@davidbombal">David Bombal</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/soc-explained-arabic</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/vu2w1_-SjYQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>شرح مركز العمليات الأمنية SOC بالعربي</video:title>
+      <video:description>مقدمة عربية لمفهوم مركز العمليات الأمنية ومهامه.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/vu2w1_-SjYQ</video:player_loc>
+      <video:duration>655</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@FREE4ARAB1">Information Technology</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/soc-explained-arabic</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/vu2w1_-SjYQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Security Operations Center (SOC) explained in Arabic</video:title>
+      <video:description>An Arabic introduction to the security operations center and its functions.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/vu2w1_-SjYQ</video:player_loc>
+      <video:duration>655</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@FREE4ARAB1">Information Technology</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/wazuh-free-security-tool</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/3CaG2GI1kn0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Wazuh: أداة أمن مجانية من NetworkChuck</video:title>
+      <video:description>يعرض NetworkChuck أداة Wazuh المجانية مفتوحة المصدر لمراقبة الأمن.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/3CaG2GI1kn0</video:player_loc>
+      <video:duration>1926</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@NetworkChuck">NetworkChuck</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/wazuh-free-security-tool</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/3CaG2GI1kn0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Wazuh: a free security tool (NetworkChuck)</video:title>
+      <video:description>NetworkChuck introduces Wazuh, a free open-source security monitoring platform.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/3CaG2GI1kn0</video:player_loc>
+      <video:duration>1926</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@NetworkChuck">NetworkChuck</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/wazuh-visibility-john-hammond</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/7Gn1GY5CIxg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>الرؤية الكاملة مع Wazuh (John Hammond)</video:title>
+      <video:description>عرض من John Hammond لقدرات Wazuh في المراقبة والكشف.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/7Gn1GY5CIxg</video:player_loc>
+      <video:duration>1188</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@_JohnHammond">John Hammond</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/wazuh-visibility-john-hammond</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/7Gn1GY5CIxg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Full visibility with Wazuh (John Hammond)</video:title>
+      <video:description>John Hammond demonstrates Wazuh monitoring and detection capabilities.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/7Gn1GY5CIxg</video:player_loc>
+      <video:duration>1188</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@_JohnHammond">John Hammond</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/learning-sysmon-what-is-sysmon</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/kESndPO5Fig/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>ما هو Sysmon؟ (سلسلة TrustedSec)</video:title>
+      <video:description>الحلقة الأولى من سلسلة TrustedSec عن أداة Sysmon من Microsoft Sysinternals.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/kESndPO5Fig</video:player_loc>
+      <video:duration>705</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@TrustedSecTV">TrustedSec</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/learning-sysmon-what-is-sysmon</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/kESndPO5Fig/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>What is Sysmon? (TrustedSec series)</video:title>
+      <video:description>Episode one of the TrustedSec series on Microsoft Sysinternals Sysmon.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/kESndPO5Fig</video:player_loc>
+      <video:duration>705</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@TrustedSecTV">TrustedSec</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/learning-sysmon-installation</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/MlGc44dfFBg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>تثبيت Sysmon وإعداده</video:title>
+      <video:description>الحلقة الثانية من سلسلة TrustedSec: تثبيت Sysmon بملف إعدادات.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/MlGc44dfFBg</video:player_loc>
+      <video:duration>1530</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@TrustedSecTV">TrustedSec</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/learning-sysmon-installation</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/MlGc44dfFBg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Installing and configuring Sysmon</video:title>
+      <video:description>Episode two of the TrustedSec series: installing Sysmon with a configuration file.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/MlGc44dfFBg</video:player_loc>
+      <video:duration>1530</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@TrustedSecTV">TrustedSec</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/windows-logon-events-4624</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/EXsKJ9kIc6s/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>أين الحدث 4624؟ أحداث الدخول مقابل التحقق من الحساب</video:title>
+      <video:description>شرح من 13Cubed للفرق بين فئة Logon Events وفئة Account Logon في سجلات Windows ومكان ظهور كل حدث.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/EXsKJ9kIc6s</video:player_loc>
+      <video:duration>397</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@13Cubed">13Cubed</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/windows-logon-events-4624</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/EXsKJ9kIc6s/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Where is 4624? Logon events vs account logon events</video:title>
+      <video:description>13Cubed explains the difference between Logon and Account Logon event categories and where each event is recorded.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/EXsKJ9kIc6s</video:player_loc>
+      <video:duration>397</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@13Cubed">13Cubed</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/mitre-attack-framework-official</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Yxv1suJYMI8/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>إطار MITRE ATT&amp;CK (الفيديو الرسمي)</video:title>
+      <video:description>فيديو تعريفي قصير من MITRE نفسها عن إطار ATT&amp;CK.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Yxv1suJYMI8</video:player_loc>
+      <video:duration>223</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@mitrecorp">mitrecorp (The MITRE Corporation)</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/mitre-attack-framework-official</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Yxv1suJYMI8/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>The MITRE ATT&amp;CK framework (official)</video:title>
+      <video:description>A short introduction to ATT&amp;CK from MITRE itself.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Yxv1suJYMI8</video:player_loc>
+      <video:duration>223</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@mitrecorp">mitrecorp (The MITRE Corporation)</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/mitre-attack-introduction-hackersploit</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/LCec9K0aAkM/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>مقدمة مفصلة في MITRE ATT&amp;CK</video:title>
+      <video:description>شرح مفصل من HackerSploit لبنية ATT&amp;CK وطريقة استخدامها.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/LCec9K0aAkM</video:player_loc>
+      <video:duration>2148</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@HackerSploit">HackerSploit</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/mitre-attack-introduction-hackersploit</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/LCec9K0aAkM/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>A detailed introduction to MITRE ATT&amp;CK</video:title>
+      <video:description>A detailed HackerSploit walkthrough of the ATT&amp;CK structure and how to use it.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/LCec9K0aAkM</video:player_loc>
+      <video:duration>2148</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@HackerSploit">HackerSploit</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/sans-handling-ransomware-incidents</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/0M55onu7mVI/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>التعامل مع حوادث الفدية (SANS)</video:title>
+      <video:description>محاضرة من SANS DFIR عن التعامل مع حوادث برامج الفدية.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/0M55onu7mVI</video:player_loc>
+      <video:duration>3473</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@SANSForensics">SANS Digital Forensics and Incident Response</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/sans-handling-ransomware-incidents</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/0M55onu7mVI/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Handling ransomware incidents (SANS)</video:title>
+      <video:description>A SANS DFIR talk on handling ransomware incidents.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/0M55onu7mVI</video:player_loc>
+      <video:duration>3473</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@SANSForensics">SANS Digital Forensics and Incident Response</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/first-ransomware-incident-response-story</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/7MFGVyco1yM/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>قصة حقيقية للاستجابة لهجوم فدية (FIRST)</video:title>
+      <video:description>محاضرة من منتدى FIRST تروي قصة استجابة حقيقية لهجوم فدية.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/7MFGVyco1yM</video:player_loc>
+      <video:duration>2458</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@FIRSTdotorg">FIRST</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/first-ransomware-incident-response-story</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/7MFGVyco1yM/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>A real-world ransomware response story (FIRST)</video:title>
+      <video:description>A talk from FIRST recounting a real ransomware incident response.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/7MFGVyco1yM</video:player_loc>
+      <video:duration>2458</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@FIRSTdotorg">FIRST</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/windows-server-active-directory-arabic</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/VT0BPy2XGvk/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>شرح Windows Server وActive Directory من الصفر بالعربي</video:title>
+      <video:description>مقدمة عربية في Windows Server وActive Directory من قناة Mohammed Haidar.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/VT0BPy2XGvk</video:player_loc>
+      <video:duration>601</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@mhd.haidar">Mohammed Haidar</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/windows-server-active-directory-arabic</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/VT0BPy2XGvk/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Windows Server and Active Directory from scratch (Arabic)</video:title>
+      <video:description>An Arabic introduction to Windows Server and Active Directory from Mohammed Haidar.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/VT0BPy2XGvk</video:player_loc>
+      <video:duration>601</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@mhd.haidar">Mohammed Haidar</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/kerberos-authentication-deep-dive</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/5N242XcKAsM/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>شرح مصادقة Kerberos بالتفصيل</video:title>
+      <video:description>شرح مفصل من Destination Certification لتدفق Kerberos: TGT وتذاكر الخدمة.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/5N242XcKAsM</video:player_loc>
+      <video:duration>1012</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@destcert">Destination Certification</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/kerberos-authentication-deep-dive</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/5N242XcKAsM/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Kerberos authentication, a deep dive</video:title>
+      <video:description>A detailed Destination Certification explanation of the Kerberos flow: TGTs and service tickets.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/5N242XcKAsM</video:player_loc>
+      <video:duration>1012</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@destcert">Destination Certification</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/learn-kerberoasting</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/tRCvagjqx3c/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>شرح هجوم Kerberoasting</video:title>
+      <video:description>عرض عملي من John Hammond لهجوم Kerberoasting على Active Directory في بيئة مختبر.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/tRCvagjqx3c</video:player_loc>
+      <video:duration>1325</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@_JohnHammond">John Hammond</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/learn-kerberoasting</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/tRCvagjqx3c/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Learning the Kerberoasting attack</video:title>
+      <video:description>A John Hammond lab demonstration of Kerberoasting against Active Directory.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/tRCvagjqx3c</video:player_loc>
+      <video:duration>1325</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@_JohnHammond">John Hammond</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/active-directory-tiering</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/OPwR2UFDYR0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>تأمين Active Directory بنموذج الطبقات (Tiering)</video:title>
+      <video:description>شرح من Truesec لنموذج الطبقات في إدارة Active Directory.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/OPwR2UFDYR0</video:player_loc>
+      <video:duration>906</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@TruesecPlay">Truesec</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/active-directory-tiering</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/OPwR2UFDYR0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Securing Active Directory with tiering</video:title>
+      <video:description>A Truesec tutorial on the Active Directory tiering model.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/OPwR2UFDYR0</video:player_loc>
+      <video:duration>906</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@TruesecPlay">Truesec</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/what-is-conditional-access</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ffMAw2IVO7A/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>ما هو Conditional Access في Microsoft Entra ID؟</video:title>
+      <video:description>شرح رسمي قصير من Microsoft Azure لفكرة الوصول المشروط.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/ffMAw2IVO7A</video:player_loc>
+      <video:duration>349</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@MicrosoftAzure">Microsoft Azure</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/what-is-conditional-access</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ffMAw2IVO7A/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>What is Conditional Access in Microsoft Entra ID?</video:title>
+      <video:description>A short official Microsoft Azure explanation of Conditional Access.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/ffMAw2IVO7A</video:player_loc>
+      <video:duration>349</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@MicrosoftAzure">Microsoft Azure</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/conditional-access-policy-plans</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/BUI5LZPoHAs/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>خطط سياسات Conditional Access الجديدة في Microsoft Entra</video:title>
+      <video:description>عرض من Microsoft Mechanics لخطط السياسات الجاهزة في Microsoft Entra.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/BUI5LZPoHAs</video:player_loc>
+      <video:duration>533</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@MSFTMechanics">Microsoft Mechanics</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/conditional-access-policy-plans</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/BUI5LZPoHAs/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>New Conditional Access policy plans in Microsoft Entra</video:title>
+      <video:description>A Microsoft Mechanics overview of prebuilt Conditional Access policy plans in Microsoft Entra.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/BUI5LZPoHAs</video:player_loc>
+      <video:duration>533</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@MSFTMechanics">Microsoft Mechanics</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/conditional-access-beginner-guide</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/W8U1Ihi0l54/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Conditional Access للمبتدئين (Andy Malone)</video:title>
+      <video:description>شرح مطوّل للمبتدئين من Andy Malone عن سياسات Conditional Access.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/W8U1Ihi0l54</video:player_loc>
+      <video:duration>1747</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@AndyMaloneMVP">Andy Malone MVP</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/conditional-access-beginner-guide</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/W8U1Ihi0l54/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Conditional Access for beginners (Andy Malone)</video:title>
+      <video:description>A long beginner-friendly guide to Conditional Access from Andy Malone.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/W8U1Ihi0l54</video:player_loc>
+      <video:duration>1747</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@AndyMaloneMVP">Andy Malone MVP</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/microsoft-defender-for-endpoint-overview</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/YFPyTPDfZeY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>نظرة عامة على Microsoft Defender for Endpoint</video:title>
+      <video:description>فيديو رسمي من Microsoft Security يعرض قدرات Defender for Endpoint.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/YFPyTPDfZeY</video:player_loc>
+      <video:duration>401</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@MicrosoftSecurity">Microsoft Security</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/microsoft-defender-for-endpoint-overview</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/YFPyTPDfZeY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Microsoft Defender for Endpoint overview</video:title>
+      <video:description>An official Microsoft Security overview of Defender for Endpoint.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/YFPyTPDfZeY</video:player_loc>
+      <video:duration>401</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@MicrosoftSecurity">Microsoft Security</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/kaspersky-security-center-install-part-1</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/EtKWayHXMIE/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>تثبيت Kaspersky Security Center (الجزء الأول)</video:title>
+      <video:description>فيديو رسمي من Kaspersky يشرح تثبيت خادم الإدارة Kaspersky Security Center.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/EtKWayHXMIE</video:player_loc>
+      <video:duration>341</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Kaspersky">Kaspersky</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/kaspersky-security-center-install-part-1</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/EtKWayHXMIE/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Installing Kaspersky Security Center (part 1)</video:title>
+      <video:description>An official Kaspersky video on installing the Kaspersky Security Center administration server.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/EtKWayHXMIE</video:player_loc>
+      <video:duration>341</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Kaspersky">Kaspersky</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/kaspersky-security-center-install-arabic</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/AKqBH-3dVW4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>تنصيب Kaspersky Security Center خطوة بخطوة بالعربي</video:title>
+      <video:description>شرح عربي لتنصيب Kaspersky Security Center خطوة بخطوة.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/AKqBH-3dVW4</video:player_loc>
+      <video:duration>1086</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Safe.Tech22">SafeTech | التقنيات الامنة</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/kaspersky-security-center-install-arabic</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/AKqBH-3dVW4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Installing Kaspersky Security Center step by step (Arabic)</video:title>
+      <video:description>An Arabic step-by-step guide to installing Kaspersky Security Center.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/AKqBH-3dVW4</video:player_loc>
+      <video:duration>1086</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Safe.Tech22">SafeTech | التقنيات الامنة</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/certmike-explains-cvss</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/2zIQSzf7hQk/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>شرح CVSS (CertMike)</video:title>
+      <video:description>شرح مختصر من Mike Chapple لنظام تقييم الثغرات CVSS.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/2zIQSzf7hQk</video:player_loc>
+      <video:duration>289</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@CertMike">Mike Chapple</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/certmike-explains-cvss</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/2zIQSzf7hQk/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>CVSS explained (CertMike)</video:title>
+      <video:description>A short Mike Chapple explanation of the CVSS vulnerability scoring system.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/2zIQSzf7hQk</video:player_loc>
+      <video:duration>289</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@CertMike">Mike Chapple</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/red-hat-cve-and-cvss</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/oSyEGkX6sX0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>الفرق بين CVE وCVSS (Red Hat)</video:title>
+      <video:description>فيديو قصير من Red Hat يوضح الفرق بين معرّف الثغرة CVE ودرجة خطورتها CVSS.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/oSyEGkX6sX0</video:player_loc>
+      <video:duration>225</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@redhat">Red Hat</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/red-hat-cve-and-cvss</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/oSyEGkX6sX0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>CVE vs CVSS (Red Hat)</video:title>
+      <video:description>A short Red Hat video on the difference between a CVE identifier and a CVSS score.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/oSyEGkX6sX0</video:player_loc>
+      <video:duration>225</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@redhat">Red Hat</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/nessus-essentials-running-scans</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/kXecHO6ESqY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>تشغيل أول فحص بـ Nessus Essentials</video:title>
+      <video:description>دليل للمبتدئين لتشغيل الفحوص في Nessus Essentials المجاني.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/kXecHO6ESqY</video:player_loc>
+      <video:duration>1177</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Cyb3r_0verwatch">Cyb3r_0verwatch</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/nessus-essentials-running-scans</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/kXecHO6ESqY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Running your first scans with Nessus Essentials</video:title>
+      <video:description>A beginner guide to running scans in the free Nessus Essentials.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/kXecHO6ESqY</video:player_loc>
+      <video:duration>1177</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Cyb3r_0verwatch">Cyb3r_0verwatch</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/nessus-vulnerability-management-tutorial</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/lT6Px9zJM3s/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>إدارة الثغرات بـ Nessus: دورة عملية للمبتدئين</video:title>
+      <video:description>شرح عملي من Josh Madakor لدورة إدارة الثغرات باستخدام Nessus.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/lT6Px9zJM3s</video:player_loc>
+      <video:duration>1701</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@JoshMadakor">Josh Madakor</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/nessus-vulnerability-management-tutorial</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/lT6Px9zJM3s/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Vulnerability management with Nessus for beginners</video:title>
+      <video:description>A hands-on Josh Madakor walkthrough of the vulnerability management cycle with Nessus.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/lT6Px9zJM3s</video:player_loc>
+      <video:duration>1701</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@JoshMadakor">Josh Madakor</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/certmike-dmarc-dkim-spf</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Q8NUW3CZRvw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>شرح SPF وDKIM وDMARC (CertMike)</video:title>
+      <video:description>شرح مختصر وواضح من Mike Chapple للبروتوكولات الثلاثة.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Q8NUW3CZRvw</video:player_loc>
+      <video:duration>380</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@CertMike">Mike Chapple</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/certmike-dmarc-dkim-spf</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Q8NUW3CZRvw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>SPF, DKIM and DMARC explained (CertMike)</video:title>
+      <video:description>A short, clear explanation of the three protocols from Mike Chapple.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Q8NUW3CZRvw</video:player_loc>
+      <video:duration>380</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@CertMike">Mike Chapple</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/spf-dkim-dmarc-christian-lempa</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Yg3QL8To6uQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>SPF وDKIM وDMARC بشكل عملي (Christian Lempa)</video:title>
+      <video:description>شرح عملي من Christian Lempa لإعداد السجلات الثلاثة (فيديو برعاية EasyDMARC حسب عنوانه).</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Yg3QL8To6uQ</video:player_loc>
+      <video:duration>1560</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@christianlempa">Christian Lempa</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/spf-dkim-dmarc-christian-lempa</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Yg3QL8To6uQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>SPF, DKIM and DMARC in practice (Christian Lempa)</video:title>
+      <video:description>A practical walkthrough from Christian Lempa of setting up all three records (sponsored by EasyDMARC per its title).</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Yg3QL8To6uQ</video:player_loc>
+      <video:duration>1560</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@christianlempa">Christian Lempa</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/dmarc-policy-none-quarantine-reject</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/RzHxR72Rpk4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>سياسات DMARC: none وquarantine وreject</video:title>
+      <video:description>فيديو قصير من PowerDMARC (مزوّد خدمة DMARC) يشرح مستويات السياسة الثلاثة.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/RzHxR72Rpk4</video:player_loc>
+      <video:duration>253</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@powerdmarc">PowerDMARC</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/dmarc-policy-none-quarantine-reject</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/RzHxR72Rpk4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>DMARC policies: none, quarantine and reject</video:title>
+      <video:description>A short video from PowerDMARC (a DMARC vendor) explaining the three policy levels.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/RzHxR72Rpk4</video:player_loc>
+      <video:duration>253</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@powerdmarc">PowerDMARC</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/microsoft-365-spf-dkim-dmarc</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/sJ-5URX19d4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>إعداد SPF وDKIM وDMARC في Microsoft 365</video:title>
+      <video:description>شرح عملي من Jonathan Edwards لإعداد البروتوكولات الثلاثة في Microsoft 365.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/sJ-5URX19d4</video:player_loc>
+      <video:duration>1058</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@bearded365guy">Jonathan Edwards</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/microsoft-365-spf-dkim-dmarc</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/sJ-5URX19d4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>SPF, DKIM and DMARC in Microsoft 365</video:title>
+      <video:description>A practical Jonathan Edwards walkthrough of configuring the three protocols in Microsoft 365.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/sJ-5URX19d4</video:player_loc>
+      <video:duration>1058</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@bearded365guy">Jonathan Edwards</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/phishing-email-header-analysis-soc</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/AzE0K_T1niw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>تحليل ترويسة البريد ونتائج SPF وDKIM وDMARC لمحلل SOC</video:title>
+      <video:description>الجزء الثاني من دورة تحليل التصيد لمحللي SOC: قراءة ترويسة الرسالة ونتائج المصادقة.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/AzE0K_T1niw</video:player_loc>
+      <video:duration>2558</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@ahmed.moh.farou2">Ahmed Farouk</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/phishing-email-header-analysis-soc</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/AzE0K_T1niw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Email header analysis and SPF/DKIM/DMARC results for SOC analysts</video:title>
+      <video:description>Part two of a phishing analysis course for SOC analysts: reading headers and authentication results.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/AzE0K_T1niw</video:player_loc>
+      <video:duration>2558</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@ahmed.moh.farou2">Ahmed Farouk</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/owasp-top-10-2021-overview</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/hryt-rCLJUA/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>قائمة OWASP Top 10 2021 وكيف تستخدمها</video:title>
+      <video:description>عرض لقائمة OWASP Top 10 إصدار 2021 وطريقة الاستفادة منها.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/hryt-rCLJUA</video:player_loc>
+      <video:duration>531</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@CyberCitadel">Cyber Citadel</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/owasp-top-10-2021-overview</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/hryt-rCLJUA/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>OWASP Top 10 2021 and how to use it</video:title>
+      <video:description>An overview of the OWASP Top 10 2021 list and how to use it.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/hryt-rCLJUA</video:player_loc>
+      <video:duration>531</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@CyberCitadel">Cyber Citadel</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/ccna-day-0-what-is-a-network</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/S7MNX_UD7vY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>CCNA مجانًا: ما هي الشبكة؟ (اليوم 0)</video:title>
+      <video:description>الحلقة الافتتاحية من دورة NetworkChuck المجانية لـ CCNA.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/S7MNX_UD7vY</video:player_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@NetworkChuck">NetworkChuck</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/ccna-day-0-what-is-a-network</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/S7MNX_UD7vY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Free CCNA: what is a network? (day 0)</video:title>
+      <video:description>The opening episode of NetworkChuck&apos;s free CCNA course.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/S7MNX_UD7vY</video:player_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@NetworkChuck">NetworkChuck</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/ccna-osi-model-episode</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/oIRkXulqJA4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>نموذج OSI: طبقتا التطبيق والنقل (CCNA)</video:title>
+      <video:description>حلقة من دورة CCNA المجانية من NetworkChuck عن طبقتي التطبيق والنقل.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/oIRkXulqJA4</video:player_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@NetworkChuck">NetworkChuck</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/ccna-osi-model-episode</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/oIRkXulqJA4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>The OSI model: application and transport layers (CCNA)</video:title>
+      <video:description>An episode of NetworkChuck&apos;s free CCNA course on the application and transport layers.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/oIRkXulqJA4</video:player_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@NetworkChuck">NetworkChuck</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/security-plus-sy0-701-security-controls</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/STM3EUvL7wg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>الضوابط الأمنية (Security+ SY0-701)</video:title>
+      <video:description>أول درس في منهج Security+ SY0-701 من Professor Messer عن أنواع الضوابط الأمنية.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/STM3EUvL7wg</video:player_loc>
+      <video:duration>709</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@professormesser">Professor Messer</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/security-plus-sy0-701-security-controls</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/STM3EUvL7wg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Security controls (Security+ SY0-701)</video:title>
+      <video:description>The first Security+ SY0-701 lesson from Professor Messer, on types of security controls.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/STM3EUvL7wg</video:player_loc>
+      <video:duration>709</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@professormesser">Professor Messer</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/security-plus-sy0-701-cia-triad</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/SBcDGb9l6yo/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>ثالوث CIA: السرية والسلامة والإتاحة (Security+)</video:title>
+      <video:description>درس قصير من Professor Messer عن السرية والسلامة والإتاحة.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/SBcDGb9l6yo</video:player_loc>
+      <video:duration>318</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@professormesser">Professor Messer</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/security-plus-sy0-701-cia-triad</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/SBcDGb9l6yo/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>The CIA triad (Security+ SY0-701)</video:title>
+      <video:description>A short Professor Messer lesson on confidentiality, integrity and availability.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/SBcDGb9l6yo</video:player_loc>
+      <video:duration>318</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@professormesser">Professor Messer</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/netriders-security-plus-sy0-601-intro-arabic</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/dyKg_bQOXfU/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>مقدمة دورة Security+ بالعربي (Netriders)</video:title>
+      <video:description>مقدمة دورة Security+ بالعربية من أكاديمية نت رايدرز. تنبيه: الدورة مبنية على منهج SY0-601 الذي توقف، والمنهج الحالي هو SY0-701، فاستخدمها لفهم المفاهيم مع مراجعة الفروق.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/dyKg_bQOXfU</video:player_loc>
+      <video:duration>2449</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@NetridersAcad">Netriders - نت رايدرز</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/netriders-security-plus-sy0-601-intro-arabic</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/dyKg_bQOXfU/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Security+ course introduction in Arabic (Netriders)</video:title>
+      <video:description>The Arabic Security+ course introduction from Netriders. Note: it follows the retired SY0-601 exam; the current exam is SY0-701, so use it for concepts and review the differences.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/dyKg_bQOXfU</video:player_loc>
+      <video:duration>2449</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@NetridersAcad">Netriders - نت رايدرز</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/linux-full-course-beginners</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/sWbUDq4S6Y8/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>مقدمة في Linux: دورة كاملة للمبتدئين</video:title>
+      <video:description>دورة كاملة من freeCodeCamp في أساسيات Linux، وهي مهارة أساسية لمهندسي الأمن والشبكات.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/sWbUDq4S6Y8</video:player_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@freecodecamp">freeCodeCamp.org</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/linux-full-course-beginners</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/sWbUDq4S6Y8/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Introduction to Linux: full course for beginners</video:title>
+      <video:description>A full freeCodeCamp course on Linux basics, a core skill for security and network engineers.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/sWbUDq4S6Y8</video:player_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@freecodecamp">freeCodeCamp.org</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/practical-ethical-hacking-full-course</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/fNzpcB7ODxQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>دورة الاختراق الأخلاقي (12 ساعة)</video:title>
+      <video:description>دورة طويلة من The Cyber Mentors (TCM) في الاختراق الأخلاقي، مفيدة لفهم عقلية المهاجم عند بناء الدفاع.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/fNzpcB7ODxQ</video:player_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@TCMSecurityAcademy">The Cyber Mentors</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/practical-ethical-hacking-full-course</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/fNzpcB7ODxQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Ethical hacking full course (12 hours)</video:title>
+      <video:description>A long ethical hacking course from The Cyber Mentors (TCM), useful for understanding the attacker mindset when building defences.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/fNzpcB7ODxQ</video:player_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@TCMSecurityAcademy">The Cyber Mentors</video:uploader>
+    </video:video>
+  </url>
+</urlset>
