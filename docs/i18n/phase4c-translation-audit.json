@@ -9,8 +9,8 @@
   "totals": {
     "evaluated": 241,
     "VALID_PAIR": 0,
-    "REVIEW_PAIR": 234,
-    "INVALID_PAIR": 7
+    "REVIEW_PAIR": 235,
+    "INVALID_PAIR": 6
   },
   "byType": {
     "articles": {
@@ -28,8 +28,8 @@
     "staticPages": {
       "evaluated": 9,
       "VALID_PAIR": 0,
-      "REVIEW_PAIR": 5,
-      "INVALID_PAIR": 4
+      "REVIEW_PAIR": 6,
+      "INVALID_PAIR": 3
     },
     "dynamicDiscoveryPages": {
       "evaluated": 28,
@@ -4565,23 +4565,21 @@
         "slug": "contact",
         "kind": "static-page",
         "route": "/page/contact",
-        "status": "INVALID_PAIR",
-        "reason": "Structural or language validation failed: placeholder-language.",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
         "confidence": "high",
         "fieldComplete": true,
-        "automatedCandidate": false,
+        "automatedCandidate": true,
         "humanReviewed": false,
         "metrics": {
           "fieldComplete": true,
-          "automatedCandidate": false,
-          "arWords": 97,
-          "enWords": 113,
-          "lengthRatio": 0.858,
-          "arLanguageShare": 0.893,
+          "automatedCandidate": true,
+          "arWords": 90,
+          "enWords": 105,
+          "lengthRatio": 0.857,
+          "arLanguageShare": 0.791,
           "enLanguageShare": 1,
-          "signals": [
-            "placeholder-language"
-          ]
+          "signals": []
         }
       },
       {
