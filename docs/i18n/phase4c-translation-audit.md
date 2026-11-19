@@ -33,7 +33,7 @@ Only the third state, combined with passing automated checks, is eligible for VA
 - `article:ad-powershell-daily-tasks` — Structural or language validation failed: arabic-side-not-predominantly-arabic.
 - `article:powershell-sysadmin-complete-guide` — Structural or language validation failed: arabic-side-not-predominantly-arabic.
 - `comparison:ansible-vs-powershell-dsc` — Structural or language validation failed: arabic-side-not-predominantly-arabic.
+- `static-page:contact` — Structural or language validation failed: placeholder-language.
 - `static-page:disclaimer` — Structural or language validation failed: missing-or-trivial-title.
-- `static-page:contact` — Structural or language validation failed: missing-or-trivial-title.
 - `static-page:contribute` — Structural or language validation failed: missing-or-trivial-title.
 - `static-page:advertising` — Structural or language validation failed: missing-or-trivial-title.

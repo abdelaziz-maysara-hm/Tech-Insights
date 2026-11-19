@@ -1,10 +1,22 @@
 import { Link } from 'wouter';
 import { useLanguage } from '@/context/LanguageContext';
-import { Twitter, Facebook, Instagram, Youtube, ArrowUp } from 'lucide-react';
+import { Twitter, Facebook, Instagram, Youtube, Linkedin, Rss, ArrowUp } from 'lucide-react';
+import { SITE } from '@/config/site';
 import pagesJson from '@/content/pages.json';
 import { CmsPage } from '@/data/cmsTypes';
 
 const footerPages = (pagesJson as unknown as CmsPage[]).filter((p) => p.showInFooter);
+
+// Only render social icons for profiles that are actually configured in
+// src/config/site.ts (empty strings are hidden instead of linking to "#").
+const SOCIAL_ICONS = [
+  { key: 'x', label: 'X / Twitter', Icon: Twitter },
+  { key: 'linkedin', label: 'LinkedIn', Icon: Linkedin },
+  { key: 'facebook', label: 'Facebook', Icon: Facebook },
+  { key: 'instagram', label: 'Instagram', Icon: Instagram },
+  { key: 'youtube', label: 'YouTube', Icon: Youtube },
+] as const;
+const socialLinks = SOCIAL_ICONS.filter(({ key }) => Boolean(SITE.social[key]));
 
 export function Footer() {
   const { language, t } = useLanguage();
@@ -26,20 +38,24 @@ export function Footer() {
               {t('aboutText')}
             </p>
             <div className="flex items-center gap-4 pt-2">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Youtube className="h-5 w-5" />
-              </a>
-              <a href="/rss.xml" className="text-muted-foreground hover:text-primary transition-colors text-xs font-medium" title="RSS">
-                RSS
+              {socialLinks.map(({ key, label, Icon }) => (
+                <a
+                  key={key}
+                  href={SITE.social[key]}
+                  target="_blank"
+                  rel="noopener noreferrer me"
+                  aria-label={label}
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  <Icon className="h-5 w-5" />
+                </a>
+              ))}
+              <a
+                href={`/${language}/rss.xml`}
+                className="text-muted-foreground hover:text-primary transition-colors text-xs font-medium flex items-center gap-1"
+                title="RSS"
+              >
+                <Rss className="h-4 w-4" /> RSS
               </a>
             </div>
           </div>
@@ -74,22 +90,19 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-bold text-lg mb-4">{language === 'ar' ? 'النشرة البريدية' : 'Newsletter'}</h3>
+            <h3 className="font-bold text-lg mb-4">{language === 'ar' ? 'تابع الجديد' : 'Stay updated'}</h3>
             <p className="text-sm text-muted-foreground mb-4">
               {language === 'ar'
-                ? 'اشترك ليصلك أحدث الأخبار التقنية والمراجعات أسبوعياً.'
-                : 'Subscribe to get the latest tech news and reviews weekly.'}
+                ? 'تابع أحدث المقالات العملية في الشبكات والأمن عبر خلاصة RSS في قارئ الأخبار المفضل لديك.'
+                : 'Follow the latest practical networking and security articles through our RSS feed in your favourite reader.'}
             </p>
-            <form className="flex gap-2" onSubmit={e => e.preventDefault()}>
-              <input
-                type="email"
-                placeholder={language === 'ar' ? 'البريد الإلكتروني' : 'Email address'}
-                className="flex-1 bg-background border border-border rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-primary"
-              />
-              <button className="bg-primary text-primary-foreground px-4 py-2 rounded-md text-sm font-medium hover:bg-primary/90 transition-colors">
-                {language === 'ar' ? 'اشترك' : 'Subscribe'}
-              </button>
-            </form>
+            <a
+              href={`/${language}/rss.xml`}
+              className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-md text-sm font-medium hover:bg-primary/90 transition-colors"
+            >
+              <Rss className="h-4 w-4" />
+              {language === 'ar' ? 'اشترك عبر RSS' : 'Subscribe via RSS'}
+            </a>
           </div>
         </div>
 

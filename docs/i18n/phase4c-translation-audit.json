@@ -4539,6 +4539,74 @@
     ],
     "staticPages": [
       {
+        "id": "page-gen-09",
+        "slug": "about",
+        "kind": "static-page",
+        "route": "/page/about",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "confidence": "high",
+        "fieldComplete": true,
+        "automatedCandidate": true,
+        "humanReviewed": false,
+        "metrics": {
+          "fieldComplete": true,
+          "automatedCandidate": true,
+          "arWords": 165,
+          "enWords": 209,
+          "lengthRatio": 0.789,
+          "arLanguageShare": 0.892,
+          "enLanguageShare": 1,
+          "signals": []
+        }
+      },
+      {
+        "id": "page-gen-06",
+        "slug": "contact",
+        "kind": "static-page",
+        "route": "/page/contact",
+        "status": "INVALID_PAIR",
+        "reason": "Structural or language validation failed: placeholder-language.",
+        "confidence": "high",
+        "fieldComplete": true,
+        "automatedCandidate": false,
+        "humanReviewed": false,
+        "metrics": {
+          "fieldComplete": true,
+          "automatedCandidate": false,
+          "arWords": 97,
+          "enWords": 113,
+          "lengthRatio": 0.858,
+          "arLanguageShare": 0.893,
+          "enLanguageShare": 1,
+          "signals": [
+            "placeholder-language"
+          ]
+        }
+      },
+      {
+        "id": "page-gen-05",
+        "slug": "editorial-policy",
+        "kind": "static-page",
+        "route": "/page/editorial-policy",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "confidence": "high",
+        "fieldComplete": true,
+        "automatedCandidate": true,
+        "humanReviewed": false,
+        "metrics": {
+          "fieldComplete": true,
+          "automatedCandidate": true,
+          "arWords": 112,
+          "enWords": 148,
+          "lengthRatio": 0.757,
+          "arLanguageShare": 0.972,
+          "enLanguageShare": 1,
+          "signals": []
+        }
+      },
+      {
         "id": "page-gen-01",
         "slug": "privacy",
         "kind": "static-page",
@@ -4552,32 +4620,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 15,
-          "enWords": 16,
-          "lengthRatio": 0.938,
-          "arLanguageShare": 1,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "page-gen-02",
-        "slug": "terms",
-        "kind": "static-page",
-        "route": "/page/terms",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 12,
-          "enWords": 17,
-          "lengthRatio": 0.706,
-          "arLanguageShare": 1,
+          "arWords": 223,
+          "enWords": 261,
+          "lengthRatio": 0.854,
+          "arLanguageShare": 0.855,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -4596,10 +4642,32 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 14,
-          "enWords": 16,
-          "lengthRatio": 0.875,
-          "arLanguageShare": 1,
+          "arWords": 122,
+          "enWords": 125,
+          "lengthRatio": 0.976,
+          "arLanguageShare": 0.875,
+          "enLanguageShare": 1,
+          "signals": []
+        }
+      },
+      {
+        "id": "page-gen-02",
+        "slug": "terms",
+        "kind": "static-page",
+        "route": "/page/terms",
+        "status": "REVIEW_PAIR",
+        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
+        "confidence": "high",
+        "fieldComplete": true,
+        "automatedCandidate": true,
+        "humanReviewed": false,
+        "metrics": {
+          "fieldComplete": true,
+          "automatedCandidate": true,
+          "arWords": 145,
+          "enWords": 170,
+          "lengthRatio": 0.853,
+          "arLanguageShare": 0.962,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -4618,56 +4686,10 @@
         "metrics": {
           "fieldComplete": false,
           "automatedCandidate": false,
-          "arWords": 14,
-          "enWords": 15,
-          "lengthRatio": 0.933,
-          "arLanguageShare": 1,
-          "enLanguageShare": 1,
-          "signals": [
-            "missing-or-trivial-title"
-          ]
-        }
-      },
-      {
-        "id": "page-gen-05",
-        "slug": "editorial-policy",
-        "kind": "static-page",
-        "route": "/page/editorial-policy",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 13,
-          "enWords": 14,
-          "lengthRatio": 0.929,
-          "arLanguageShare": 1,
-          "enLanguageShare": 1,
-          "signals": []
-        }
-      },
-      {
-        "id": "page-gen-06",
-        "slug": "contact",
-        "kind": "static-page",
-        "route": "/page/contact",
-        "status": "INVALID_PAIR",
-        "reason": "Structural or language validation failed: missing-or-trivial-title.",
-        "confidence": "high",
-        "fieldComplete": false,
-        "automatedCandidate": false,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": false,
-          "automatedCandidate": false,
-          "arWords": 13,
-          "enWords": 12,
-          "lengthRatio": 0.923,
-          "arLanguageShare": 1,
+          "arWords": 89,
+          "enWords": 100,
+          "lengthRatio": 0.89,
+          "arLanguageShare": 0.975,
           "enLanguageShare": 1,
           "signals": [
             "missing-or-trivial-title"
@@ -4688,10 +4710,10 @@
         "metrics": {
           "fieldComplete": false,
           "automatedCandidate": false,
-          "arWords": 14,
-          "enWords": 15,
-          "lengthRatio": 0.933,
-          "arLanguageShare": 1,
+          "arWords": 82,
+          "enWords": 95,
+          "lengthRatio": 0.863,
+          "arLanguageShare": 0.965,
           "enLanguageShare": 1,
           "signals": [
             "missing-or-trivial-title"
@@ -4712,36 +4734,14 @@
         "metrics": {
           "fieldComplete": false,
           "automatedCandidate": false,
-          "arWords": 11,
-          "enWords": 12,
-          "lengthRatio": 0.917,
-          "arLanguageShare": 1,
+          "arWords": 65,
+          "enWords": 76,
+          "lengthRatio": 0.855,
+          "arLanguageShare": 0.894,
           "enLanguageShare": 1,
           "signals": [
             "missing-or-trivial-title"
           ]
-        }
-      },
-      {
-        "id": "page-gen-09",
-        "slug": "about",
-        "kind": "static-page",
-        "route": "/page/about",
-        "status": "REVIEW_PAIR",
-        "reason": "Field-complete automated candidate, but no explicit human technical/editorial review is recorded.",
-        "confidence": "high",
-        "fieldComplete": true,
-        "automatedCandidate": true,
-        "humanReviewed": false,
-        "metrics": {
-          "fieldComplete": true,
-          "automatedCandidate": true,
-          "arWords": 14,
-          "enWords": 18,
-          "lengthRatio": 0.778,
-          "arLanguageShare": 1,
-          "enLanguageShare": 1,
-          "signals": []
         }
       }
     ],

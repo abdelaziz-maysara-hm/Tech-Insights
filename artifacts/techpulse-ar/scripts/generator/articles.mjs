@@ -8,7 +8,7 @@ import { bi } from './localization.mjs';
 import { uniqueSlug } from './slugs.mjs';
 
 const DEFAULT_AUTHOR = {
-  name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+  name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
   avatar: 'https://i.pravatar.cc/150?img=11',
 };
 

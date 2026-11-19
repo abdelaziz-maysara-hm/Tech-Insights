@@ -1,30 +1,74 @@
 [
   {
+    "id": "page-gen-09",
+    "slug": "about",
+    "title": {
+      "ar": "من نحن",
+      "en": "About NetSec Atlas"
+    },
+    "description": {
+      "ar": "تعرّف على NetSec Atlas: منصة عربية/إنجليزية تقدم معرفة عملية في الشبكات والأمن السيبراني والبنية التحتية لمهندسي الشبكات وفرق الأمن ومسؤولي الأنظمة.",
+      "en": "Meet NetSec Atlas: a bilingual Arabic/English platform with practical networking, cybersecurity and infrastructure knowledge for network engineers, security teams and system administrators."
+    },
+    "content": {
+      "ar": "## من نحن\n\n**NetSec Atlas** منصة معرفية ثنائية اللغة (العربية والإنجليزية) تركّز على الجانب العملي في الشبكات والأمن السيبراني وتقنية المعلومات. هدفنا أن نوفّر للمهندس والمسؤول التقني إجابات واضحة وقابلة للتطبيق، بدل الشروحات النظرية المطوّلة.\n\n### لمن نكتب؟\n\n- مهندسو الشبكات ومسؤولو الأنظمة.\n- فرق الأمن السيبراني ومراكز العمليات الأمنية (SOC).\n- فرق البنية التحتية والدعم الفني.\n- الطلاب والمهتمون الذين يريدون فهمًا عمليًا للمفاهيم التقنية.\n\n### ماذا تجد هنا؟\n\n- **مقالات وأدلة عملية:** خطوات تكوين وشروحات للمفاهيم الأساسية والمتقدمة.\n- **استكشاف الأعطال:** حلول منظّمة لمشكلات الشبكات والأنظمة الشائعة.\n- **مقارنات:** مقارنات بين الحلول والتقنيات والموردين لمساعدتك على الاختيار.\n- **أدوات مجانية:** أدوات تعمل داخل المتصفح مثل حاسبة VLSM وتحويل نطاقات IP إلى CIDR ومحللات سجلات SPF وDMARC.\n- **صفحات الموردين:** محتوى منظّم حسب الموردين مثل Fortinet وPalo Alto وCisco وMicrosoft وغيرهم.\n\n### مبادئنا\n\nنلتزم بالدقة والوضوح والحياد، ونصحّح الأخطاء فور اكتشافها. تفاصيل ذلك موجودة في [السياسة التحريرية](/ar/page/editorial-policy).\n\n### تواصل معنا\n\nلديك اقتراح أو ملاحظة أو وجدت خطأ؟ يسعدنا أن نسمع منك عبر [صفحة التواصل](/ar/page/contact).",
+      "en": "## About NetSec Atlas\n\n**NetSec Atlas** is a bilingual (Arabic and English) knowledge platform focused on the practical side of networking, cybersecurity and IT. Our goal is to give engineers and IT professionals clear, actionable answers instead of long theoretical write-ups.\n\n### Who we write for\n\n- Network engineers and system administrators.\n- Cybersecurity teams and security operations centres (SOC).\n- Infrastructure and technical support teams.\n- Students and enthusiasts who want a practical understanding of technical concepts.\n\n### What you will find here\n\n- **Practical articles and guides:** configuration steps and explanations of core and advanced concepts.\n- **Troubleshooting:** structured fixes for common network and systems problems.\n- **Comparisons:** side-by-side comparisons of solutions, technologies and vendors to help you choose.\n- **Free tools:** in-browser tools such as a VLSM subnet calculator, an IP range to CIDR converter, and SPF and DMARC record analyzers.\n- **Vendor hubs:** content organised by vendor, including Fortinet, Palo Alto Networks, Cisco, Microsoft and more.\n\n### Our principles\n\nWe aim for accuracy, clarity and neutrality, and we correct mistakes as soon as we find them. See our [editorial policy](/en/page/editorial-policy) for details.\n\n### Get in touch\n\nHave a suggestion, feedback or spotted an error? We would love to hear from you via the [contact page](/en/page/contact)."
+    },
+    "updatedAt": "2026-11-19",
+    "showInFooter": true
+  },
+  {
+    "id": "page-gen-06",
+    "slug": "contact",
+    "title": {
+      "ar": "تواصل معنا",
+      "en": "Contact Us"
+    },
+    "description": {
+      "ar": "تواصل مع فريق NetSec Atlas للاقتراحات أو الإبلاغ عن خطأ في المحتوى أو استفسارات التعاون والإعلان.",
+      "en": "Contact the NetSec Atlas team with suggestions, content corrections, or collaboration and advertising enquiries."
+    },
+    "content": {
+      "ar": "## تواصل معنا\n\nيسعدنا تواصلك مع فريق NetSec Atlas في أي من الحالات التالية:\n\n- **الإبلاغ عن خطأ:** إذا وجدت معلومة غير دقيقة أو قديمة في أي مقال، أرسل لنا رابط الصفحة ووصفًا مختصرًا للخطأ.\n- **اقتراح موضوع:** أخبرنا بالمشكلات أو التقنيات التي تريد أن نكتب عنها.\n- **المساهمة بالمحتوى:** راجع صفحة [ساهم معنا](/ar/page/contribute).\n- **الإعلان والشراكات:** راجع صفحة [الإعلان](/ar/page/advertising).\n\n### وسائل التواصل\n\n- **البريد الإلكتروني:** [TODO: أضف بريد التواصل الرسمي هنا قبل النشر]\n\nنحاول الرد على الرسائل في أقرب وقت ممكن. لا ترسل كلمات مرور أو بيانات حساسة أو معلومات سرية عن أنظمة مؤسستك عبر البريد.",
+      "en": "## Contact Us\n\nWe are happy to hear from you in any of the following cases:\n\n- **Report an error:** if you find inaccurate or outdated information in an article, send us the page link and a short description of the problem.\n- **Suggest a topic:** tell us which problems or technologies you would like us to cover.\n- **Contribute content:** see the [contribute page](/en/page/contribute).\n- **Advertising and partnerships:** see the [advertising page](/en/page/advertising).\n\n### How to reach us\n\n- **Email:** [TODO: add the official contact email here before publishing]\n\nWe try to reply as soon as possible. Please do not send passwords, sensitive data or confidential details about your organisation's systems by email."
+    },
+    "updatedAt": "2026-11-19",
+    "showInFooter": true
+  },
+  {
+    "id": "page-gen-05",
+    "slug": "editorial-policy",
+    "title": {
+      "ar": "السياسة التحريرية",
+      "en": "Editorial Policy"
+    },
+    "description": {
+      "ar": "معايير NetSec Atlas في الدقة والحياد والمصادر وتصحيح الأخطاء وتحديث المحتوى.",
+      "en": "NetSec Atlas standards for accuracy, neutrality, sources, corrections and content updates."
+    },
+    "content": {
+      "ar": "## السياسة التحريرية\n\n### الدقة\n\n- نعتمد على الوثائق الرسمية للمورّدين ومعايير الصناعة (مثل وثائق RFC) كمصادر أساسية كلما أمكن.\n- نكتب خطوات قابلة للتطبيق ونوضّح المتطلبات والقيود والمخاطر المحتملة.\n\n### الحياد\n\n- المقارنات تعتمد على معايير معلنة، ونوضّح متى يكون كل خيار مناسبًا بدل إعلان فائز مطلق.\n- المحتوى الإعلاني، إن وُجد، يُميَّز بوضوح عن المحتوى التحريري.\n\n### التحديث وتصحيح الأخطاء\n\n- نراجع المقالات ونحدّثها عند صدور إصدارات جديدة أو تغيّر أفضل الممارسات.\n- عند اكتشاف خطأ نصحّحه في أقرب وقت. يمكنك الإبلاغ عن أي خطأ عبر [صفحة التواصل](/ar/page/contact).\n\n### اللغتان\n\nيُنشر المحتوى بالعربية والإنجليزية. النسخة العربية هي النسخة الأساسية، والنسخة الإنجليزية ترجمة لها؛ وإذا لاحظت اختلافًا بين النسختين فأخبرنا لنصحّحه.",
+      "en": "## Editorial Policy\n\n### Accuracy\n\n- Wherever possible we rely on official vendor documentation and industry standards (such as RFCs) as primary sources.\n- We write actionable steps and call out prerequisites, limitations and potential risks.\n\n### Neutrality\n\n- Comparisons use stated criteria, and we explain when each option fits instead of naming an absolute winner.\n- Any sponsored content is clearly separated from editorial content.\n\n### Updates and corrections\n\n- We review and update articles when new versions are released or best practices change.\n- When we find a mistake we fix it as soon as possible. You can report errors via the [contact page](/en/page/contact).\n\n### Two languages\n\nContent is published in Arabic and English. The Arabic version is the primary version and the English version is a translation of it; if you notice a difference between the two, let us know so we can fix it."
+    },
+    "updatedAt": "2026-11-19",
+    "showInFooter": true
+  },
+  {
     "id": "page-gen-01",
     "slug": "privacy",
     "title": {
       "ar": "سياسة الخصوصية",
       "en": "Privacy Policy"
     },
-    "content": {
-      "ar": "## سياسة الخصوصية\n\nنوضح كيف نتعامل مع البيانات والكوكيز والإعلانات.\n\nنحدّث هذه الصفحة عند الحاجة.",
-      "en": "## Privacy Policy\n\nHow we handle data, cookies, and ads.\n\nThis page is updated as needed."
-    },
-    "updatedAt": "2026-08-02",
-    "showInFooter": true
-  },
-  {
-    "id": "page-gen-02",
-    "slug": "terms",
-    "title": {
-      "ar": "الشروط والأحكام",
-      "en": "Terms of Use"
+    "description": {
+      "ar": "كيف يتعامل NetSec Atlas مع بيانات الزوار وملفات تعريف الارتباط والإعلانات وأدوات التحليل.",
+      "en": "How NetSec Atlas handles visitor data, cookies, advertising and analytics."
     },
     "content": {
-      "ar": "## الشروط والأحكام\n\nقواعد استخدام الموقع والمحتوى.\n\nنحدّث هذه الصفحة عند الحاجة.",
-      "en": "## Terms of Use\n\nRules for using the site and content.\n\nThis page is updated as needed."
+      "ar": "## سياسة الخصوصية\n\nتوضّح هذه الصفحة كيف يتعامل موقع NetSec Atlas (netsecatlas.com) مع بيانات الزوار.\n\n### البيانات التي نجمعها\n\n- لا يتطلب الموقع إنشاء حساب، ولا نطلب منك إدخال بيانات شخصية لقراءة المحتوى.\n- **الأدوات التقنية** (مثل حاسبة VLSM ومحللات SPF وDMARC) تعمل بالكامل داخل متصفحك، ولا تُرسل المدخلات التي تكتبها إلى خوادمنا.\n- إذا راسلتنا عبر البريد الإلكتروني فسنستخدم عنوانك ومحتوى رسالتك للرد عليك فقط.\n\n### خدمات الطرف الثالث\n\n- **الاستضافة:** يُستضاف الموقع على GitHub Pages، وقد تسجّل GitHub بيانات تقنية مثل عنوان IP لأغراض الأمان والتشغيل وفق سياسة الخصوصية الخاصة بها.\n- **الإعلانات:** نستخدم Google AdSense لعرض الإعلانات. تستخدم Google وشركاؤها ملفات تعريف الارتباط لعرض إعلانات بناءً على زياراتك السابقة لهذا الموقع أو لمواقع أخرى. يمكنك إيقاف الإعلانات المخصّصة من [إعدادات الإعلانات في Google](https://adssettings.google.com).\n- **التحليلات:** قد نستخدم Google Analytics لقياس عدد الزيارات والصفحات الأكثر قراءة بشكل إجمالي، بهدف تحسين المحتوى.\n- **الخطوط والصور:** قد تُحمَّل بعض الخطوط من Google Fonts وبعض الصور من خدمات خارجية مثل Unsplash، ما قد يكشف عنوان IP الخاص بك لتلك الخدمات.\n\n### ملفات تعريف الارتباط\n\nلمزيد من التفاصيل راجع [سياسة ملفات تعريف الارتباط](/ar/page/cookies).\n\n### حقوقك\n\nيمكنك ضبط متصفحك لرفض ملفات تعريف الارتباط أو حذفها في أي وقت، ويمكنك التواصل معنا عبر [صفحة التواصل](/ar/page/contact) لأي استفسار يتعلق بالخصوصية.\n\n### التحديثات\n\nقد نحدّث هذه السياسة عند تغيّر الخدمات التي نستخدمها، ويظهر تاريخ آخر تحديث في بيانات الصفحة.",
+      "en": "## Privacy Policy\n\nThis page explains how NetSec Atlas (netsecatlas.com) handles visitor data.\n\n### Data we collect\n\n- The site does not require an account, and you do not need to provide personal data to read our content.\n- **Technical tools** (such as the VLSM calculator and the SPF and DMARC analyzers) run entirely in your browser; the values you type are not sent to our servers.\n- If you email us, we use your address and message only to reply to you.\n\n### Third-party services\n\n- **Hosting:** the site is hosted on GitHub Pages. GitHub may log technical data such as IP addresses for security and operations under its own privacy policy.\n- **Advertising:** we use Google AdSense to show ads. Google and its partners use cookies to serve ads based on your previous visits to this or other websites. You can opt out of personalised advertising in [Google Ads Settings](https://adssettings.google.com).\n- **Analytics:** we may use Google Analytics to measure aggregate traffic and the most-read pages so we can improve our content.\n- **Fonts and images:** some fonts may load from Google Fonts and some images from external services such as Unsplash, which may expose your IP address to those services.\n\n### Cookies\n\nSee our [cookie policy](/en/page/cookies) for details.\n\n### Your choices\n\nYou can set your browser to refuse or delete cookies at any time, and you can reach us through the [contact page](/en/page/contact) with any privacy question.\n\n### Updates\n\nWe may update this policy when the services we use change; the last-updated date is kept in the page metadata."
     },
-    "updatedAt": "2026-08-02",
+    "updatedAt": "2026-11-19",
     "showInFooter": true
   },
   {
@@ -34,12 +78,34 @@
       "ar": "سياسة ملفات تعريف الارتباط",
       "en": "Cookie Policy"
     },
-    "content": {
-      "ar": "## سياسة ملفات تعريف الارتباط\n\nأنواع الكوكيز ولماذا تُستخدم.\n\nنحدّث هذه الصفحة عند الحاجة.",
-      "en": "## Cookie Policy\n\nCookie types and why they are used.\n\nThis page is updated as needed."
+    "description": {
+      "ar": "أنواع ملفات تعريف الارتباط التي قد يستخدمها NetSec Atlas وأسبابها وكيفية التحكم بها.",
+      "en": "The types of cookies NetSec Atlas may use, why, and how to control them."
     },
-    "updatedAt": "2026-08-02",
-    "showInFooter": false
+    "content": {
+      "ar": "## سياسة ملفات تعريف الارتباط\n\nملفات تعريف الارتباط (الكوكيز) ملفات نصية صغيرة يحفظها المتصفح عند زيارة المواقع.\n\n### كيف نستخدمها\n\n- **التفضيلات:** يحفظ الموقع اختياراتك مثل اللغة والمظهر (فاتح/داكن) في التخزين المحلي لمتصفحك (Local Storage) وليس في ملفات تعريف ارتباط، لتظهر لك في الزيارة التالية.\n- **الإعلانات:** تستخدم Google AdSense ملفات تعريف الارتباط لعرض الإعلانات وقياس أدائها، وقد تكون الإعلانات مخصّصة بناءً على زياراتك السابقة.\n- **التحليلات:** عند تفعيل Google Analytics تُستخدم ملفات تعريف ارتباط لقياس الزيارات بشكل إجمالي.\n\n### التحكم بملفات تعريف الارتباط\n\n- يمكنك حذف ملفات تعريف الارتباط أو حظرها من إعدادات المتصفح.\n- يمكنك إيقاف الإعلانات المخصّصة من [إعدادات الإعلانات في Google](https://adssettings.google.com).\n\nقد يؤدي حظر بعض ملفات تعريف الارتباط إلى عدم حفظ تفضيلاتك. لمزيد من المعلومات راجع [سياسة الخصوصية](/ar/page/privacy).",
+      "en": "## Cookie Policy\n\nCookies are small text files that your browser stores when you visit websites.\n\n### How we use them\n\n- **Preferences:** the site stores choices such as language and theme (light/dark) in your browser's local storage (not cookies) so they apply on your next visit.\n- **Advertising:** Google AdSense uses cookies to serve ads and measure their performance; ads may be personalised based on your previous visits.\n- **Analytics:** when Google Analytics is enabled, cookies are used to measure aggregate traffic.\n\n### Controlling cookies\n\n- You can delete or block cookies in your browser settings.\n- You can opt out of personalised advertising in [Google Ads Settings](https://adssettings.google.com).\n\nBlocking some cookies may stop your preferences from being remembered. See the [privacy policy](/en/page/privacy) for more."
+    },
+    "updatedAt": "2026-11-19",
+    "showInFooter": true
+  },
+  {
+    "id": "page-gen-02",
+    "slug": "terms",
+    "title": {
+      "ar": "شروط الاستخدام",
+      "en": "Terms of Use"
+    },
+    "description": {
+      "ar": "شروط استخدام موقع NetSec Atlas ومحتواه وأدواته.",
+      "en": "Terms for using the NetSec Atlas website, its content and tools."
+    },
+    "content": {
+      "ar": "## شروط الاستخدام\n\nباستخدامك موقع NetSec Atlas فإنك توافق على الشروط التالية.\n\n### استخدام المحتوى\n\n- المحتوى مقدَّم لأغراض تعليمية ومعلوماتية.\n- يمكنك الاقتباس من المحتوى لأغراض غير تجارية مع ذكر المصدر ووضع رابط إلى الصفحة الأصلية.\n- لا يجوز نسخ المقالات كاملة أو إعادة نشرها دون إذن مسبق.\n\n### الاستخدام المسؤول\n\n- تُشرح تقنيات الأمن في الموقع لأغراض الحماية والتعلّم فقط. لا تستخدم أي معلومة لاختبار أنظمة لا تملكها أو لا تملك تصريحًا مكتوبًا باختبارها.\n- طبّق أي تغييرات على أنظمة الإنتاج بعد اختبارها في بيئة تجريبية وأخذ نسخة احتياطية.\n\n### الأدوات\n\nتُقدَّم الأدوات كما هي دون ضمانات. راجع النتائج قبل الاعتماد عليها في بيئات الإنتاج.\n\n### الروابط الخارجية\n\nقد يحتوي الموقع على روابط لمواقع أخرى، ولسنا مسؤولين عن محتواها أو سياساتها.\n\n### التعديلات\n\nقد نعدّل هذه الشروط من وقت لآخر، واستمرارك في استخدام الموقع يعني موافقتك على النسخة المحدّثة. راجع أيضًا [إخلاء المسؤولية](/ar/page/disclaimer).",
+      "en": "## Terms of Use\n\nBy using NetSec Atlas you agree to the following terms.\n\n### Using the content\n\n- Content is provided for educational and informational purposes.\n- You may quote our content for non-commercial purposes with attribution and a link to the original page.\n- Copying or republishing full articles without prior permission is not allowed.\n\n### Responsible use\n\n- Security techniques are explained for defence and learning only. Do not use any information to test systems you do not own or are not authorised in writing to test.\n- Apply changes to production systems only after testing them in a lab and taking a backup.\n\n### Tools\n\nTools are provided as is, without warranty. Review the results before relying on them in production.\n\n### External links\n\nThe site may link to other websites; we are not responsible for their content or policies.\n\n### Changes\n\nWe may update these terms from time to time; continuing to use the site means you accept the updated version. See also our [disclaimer](/en/page/disclaimer)."
+    },
+    "updatedAt": "2026-11-19",
+    "showInFooter": true
   },
   {
     "id": "page-gen-04",
@@ -48,39 +114,15 @@
       "ar": "إخلاء المسؤولية",
       "en": "Disclaimer"
     },
-    "content": {
-      "ar": "## إخلاء المسؤولية\n\nالمحتوى إرشادي وليس استشارة مهنية ملزمة.\n\nنحدّث هذه الصفحة عند الحاجة.",
-      "en": "## Disclaimer\n\nContent is informational, not binding professional advice.\n\nThis page is updated as needed."
-    },
-    "updatedAt": "2026-08-02",
-    "showInFooter": false
-  },
-  {
-    "id": "page-gen-05",
-    "slug": "editorial-policy",
-    "title": {
-      "ar": "السياسة التحريرية",
-      "en": "Editorial Policy"
+    "description": {
+      "ar": "حدود مسؤولية NetSec Atlas عن استخدام المحتوى والأدوات.",
+      "en": "The limits of NetSec Atlas responsibility for using its content and tools."
     },
     "content": {
-      "ar": "## السياسة التحريرية\n\nمعايير الدقة والحياد وتصحيح الأخطاء.\n\nنحدّث هذه الصفحة عند الحاجة.",
-      "en": "## Editorial Policy\n\nAccuracy, fairness, and corrections standards.\n\nThis page is updated as needed."
+      "ar": "## إخلاء المسؤولية\n\n- المحتوى في NetSec Atlas إرشادي وتعليمي، ولا يُعد استشارة مهنية ملزمة.\n- نبذل جهدنا لتكون المعلومات دقيقة ومحدّثة، لكن التقنيات وإصدارات المنتجات تتغيّر باستمرار؛ لذلك ارجع دائمًا إلى الوثائق الرسمية للمورّد قبل تطبيق أي إعداد.\n- أنت المسؤول عن أي تغيير تطبّقه على أنظمتك. اختبر في بيئة تجريبية وخذ نسخة احتياطية أولًا.\n- أسماء المنتجات والعلامات التجارية المذكورة مملوكة لأصحابها، وذكرها لا يعني وجود شراكة أو رعاية ما لم يُذكر ذلك صراحة.\n- المقارنات تعبّر عن تقييمنا وقت الكتابة وقد تختلف النتائج حسب بيئتك واحتياجاتك.",
+      "en": "## Disclaimer\n\n- Content on NetSec Atlas is educational guidance, not binding professional advice.\n- We work to keep information accurate and current, but technologies and product versions change constantly, so always check the vendor's official documentation before applying any configuration.\n- You are responsible for any change you apply to your systems. Test in a lab and take a backup first.\n- Product names and trademarks belong to their owners; mentioning them does not imply partnership or sponsorship unless stated explicitly.\n- Comparisons reflect our assessment at the time of writing; results may differ for your environment and requirements."
     },
-    "updatedAt": "2026-08-02",
-    "showInFooter": false
-  },
-  {
-    "id": "page-gen-06",
-    "slug": "contact",
-    "title": {
-      "ar": "تواصل معنا",
-      "en": "Contact"
-    },
-    "content": {
-      "ar": "## تواصل معنا\n\nللتواصل والاقتراحات والإبلاغ عن خطأ.\n\nنحدّث هذه الصفحة عند الحاجة.",
-      "en": "## Contact\n\nContact, suggestions, and corrections.\n\nThis page is updated as needed."
-    },
-    "updatedAt": "2026-08-02",
+    "updatedAt": "2026-11-19",
     "showInFooter": true
   },
   {
@@ -90,11 +132,15 @@
       "ar": "ساهم معنا",
       "en": "Contribute"
     },
-    "content": {
-      "ar": "## ساهم معنا\n\nكيف ترشح موضوعًا أو تشارك بخبرة.\n\nنحدّث هذه الصفحة عند الحاجة.",
-      "en": "## Contribute\n\nHow to suggest topics or contribute expertise.\n\nThis page is updated as needed."
+    "description": {
+      "ar": "كيف تقترح موضوعًا أو تشارك بخبرتك في الشبكات والأمن مع قراء NetSec Atlas.",
+      "en": "How to suggest a topic or share your networking and security expertise with NetSec Atlas readers."
     },
-    "updatedAt": "2026-08-02",
+    "content": {
+      "ar": "## ساهم معنا\n\nنرحّب بمساهمات المهندسين والمتخصصين الذين يريدون مشاركة خبرتهم العملية.\n\n### ما الذي نبحث عنه؟\n\n- حلول لمشكلات واجهتها فعليًا في بيئة عمل حقيقية.\n- أدلة تكوين خطوة بخطوة مع توضيح المتطلبات والمخاطر.\n- مقارنات مبنية على تجربة أو معايير واضحة.\n\n### إرشادات\n\n- يجب أن يكون المحتوى أصليًا وغير منشور في مكان آخر.\n- اذكر المصادر الرسمية التي اعتمدت عليها.\n- لا تُدرج بيانات حساسة أو معلومات تخص أنظمة مؤسستك.\n\nلإرسال فكرة أو مسودة، تواصل معنا عبر [صفحة التواصل](/ar/page/contact).",
+      "en": "## Contribute\n\nWe welcome contributions from engineers and specialists who want to share practical experience.\n\n### What we are looking for\n\n- Fixes for problems you have actually faced in a real environment.\n- Step-by-step configuration guides that explain prerequisites and risks.\n- Comparisons based on hands-on experience or clear criteria.\n\n### Guidelines\n\n- Content must be original and not published elsewhere.\n- Cite the official sources you relied on.\n- Do not include sensitive data or details about your organisation's systems.\n\nTo send an idea or a draft, reach us via the [contact page](/en/page/contact)."
+    },
+    "updatedAt": "2026-11-19",
     "showInFooter": false
   },
   {
@@ -104,25 +150,15 @@
       "ar": "الإعلان",
       "en": "Advertising"
     },
-    "content": {
-      "ar": "## الإعلان\n\nخيارات الإعلان والشراكات المناسبة.\n\nنحدّث هذه الصفحة عند الحاجة.",
-      "en": "## Advertising\n\nAdvertising options and partnerships.\n\nThis page is updated as needed."
+    "description": {
+      "ar": "خيارات الإعلان والشراكات في NetSec Atlas وكيفية التواصل بشأنها.",
+      "en": "Advertising and partnership options on NetSec Atlas and how to enquire."
     },
-    "updatedAt": "2026-08-02",
+    "content": {
+      "ar": "## الإعلان\n\nيعرض NetSec Atlas إعلانات عبر Google AdSense، ونرحّب بالشراكات المناسبة لجمهورنا من مهندسي الشبكات وفرق الأمن ومسؤولي الأنظمة.\n\n### مبادئنا في الإعلان\n\n- يُميَّز أي محتوى مدفوع أو برعاية بوضوح.\n- لا تؤثر الإعلانات أو الرعايات على نتائج المقارنات أو التقييمات التحريرية.\n- نقبل فقط المنتجات والخدمات ذات الصلة بالشبكات والأمن وتقنية المعلومات.\n\nللاستفسار عن الإعلان أو الشراكات، تواصل معنا عبر [صفحة التواصل](/ar/page/contact).",
+      "en": "## Advertising\n\nNetSec Atlas shows ads through Google AdSense, and we welcome partnerships that are relevant to our audience of network engineers, security teams and system administrators.\n\n### Our advertising principles\n\n- Any paid or sponsored content is clearly labelled.\n- Ads and sponsorships do not influence our comparisons or editorial assessments.\n- We only accept products and services related to networking, security and IT.\n\nFor advertising or partnership enquiries, reach us via the [contact page](/en/page/contact)."
+    },
+    "updatedAt": "2026-11-19",
     "showInFooter": false
-  },
-  {
-    "id": "page-gen-09",
-    "slug": "about",
-    "title": {
-      "ar": "من نحن",
-      "en": "About Us"
-    },
-    "content": {
-      "ar": "## من نحن\n\nرؤى تقنية منصة عربية/إنجليزية للشروحات والمقارنات.\n\nنحدّث هذه الصفحة عند الحاجة.",
-      "en": "## About Us\n\nTechnical Insights is a bilingual guides and comparisons platform.\n\nThis page is updated as needed."
-    },
-    "updatedAt": "2026-08-02",
-    "showInFooter": true
   }
 ]

@@ -7,6 +7,8 @@ import { useSEO } from '@/hooks/useSEO';
 import { ArticleCard } from '@/components/ArticleCard';
 import { AdawatyTools } from '@/components/AdawatyTools';
 import { adawatyLinksForArticle } from '@/data/adawaty';
+import { markdownToHtml } from '@/lib/markdown';
+import { getRelatedArticles, getAdjacentArticles } from '@/lib/relatedContent';
 
 export default function ArticleDetail() {
   const [, params] = useRoute('/article/:slug');
@@ -44,9 +46,10 @@ export default function ArticleDetail() {
     article.author?.name?.en ||
     'NetSec Atlas';
 
-  const related = allArticles
-    .filter(a => a.categoryId === article.categoryId && a.id !== article.id)
-    .slice(0, 3);
+  // Internal linking: topical neighbours (shared tags / subcategory /
+  // category) plus previous/next in the same category.
+  const related = getRelatedArticles(article, allArticles, 6);
+  const { previous, next } = getAdjacentArticles(article, allArticles);
 
   const adawatyLinks = adawatyLinksForArticle({
     categoryId: article.categoryId,
@@ -94,15 +97,8 @@ export default function ArticleDetail() {
 
           <div
             className="prose prose-invert max-w-none prose-headings:text-foreground prose-p:text-muted-foreground prose-a:text-primary"
-            dangerouslySetInnerHTML={{
-              __html: (article.body[language] || '')
-                .replace(/^## (.+)$/gm, '<h2>$1</h2>')
-                .replace(/^### (.+)$/gm, '<h3>$1</h3>')
-                .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-                .replace(/\n\n/g, '</p><p>')
-                .replace(/^(?!<h)/, '<p>')
-                .replace(/(?<!>)$/, '</p>'),
-            }}
+            // markdownToHtml escapes all source text before formatting.
+            dangerouslySetInnerHTML={{ __html: markdownToHtml(article.body[language] || '') }}
           />
 
           {article.tags?.length > 0 && (
@@ -113,6 +109,26 @@ export default function ArticleDetail() {
                 </span>
               ))}
             </div>
+          )}
+
+          {(previous || next) && (
+            <nav
+              aria-label={language === 'ar' ? 'التنقل بين المقالات' : 'Article navigation'}
+              className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-10"
+            >
+              {previous ? (
+                <Link href={`/article/${previous.slug}`} rel="prev" className="block rounded-lg border border-border p-4 hover:border-primary transition-colors">
+                  <span className="block text-xs text-muted-foreground mb-1">{language === 'ar' ? 'المقال السابق' : 'Previous article'}</span>
+                  <span className="font-medium">{previous.title[language]}</span>
+                </Link>
+              ) : <span />}
+              {next && (
+                <Link href={`/article/${next.slug}`} rel="next" className="block rounded-lg border border-border p-4 hover:border-primary transition-colors">
+                  <span className="block text-xs text-muted-foreground mb-1">{language === 'ar' ? 'المقال التالي' : 'Next article'}</span>
+                  <span className="font-medium">{next.title[language]}</span>
+                </Link>
+              )}
+            </nav>
           )}
 
           <AdawatyTools links={adawatyLinks} />

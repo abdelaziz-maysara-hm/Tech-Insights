@@ -63,6 +63,33 @@ function ScrollToTop() {
   return null;
 }
 
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+  }
+}
+
+/**
+ * Sends a GA4 page_view on every client-side route change. No-op unless the
+ * build injected gtag (VITE_GA_MEASUREMENT_ID, see vite.config.ts).
+ */
+function AnalyticsPageViews() {
+  const [pathname] = useLocation();
+  useEffect(() => {
+    if (typeof window === 'undefined' || typeof window.gtag !== 'function') return;
+    // Let route-level useSEO() update document.title first.
+    const timer = window.setTimeout(() => {
+      window.gtag?.('event', 'page_view', {
+        page_location: window.location.href,
+        page_path: window.location.pathname,
+        page_title: document.title,
+      });
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, [pathname]);
+  return null;
+}
+
 function GlobalSEO() {
   useSEO();
   return null;
@@ -73,6 +100,7 @@ function Router() {
     <div className="min-h-[100dvh] flex flex-col font-sans">
       <ScrollToTop />
       <GlobalSEO />
+      <AnalyticsPageViews />
       <Navbar />
       <main className="flex-1">
         <Suspense fallback={<RouteFallback />}>

@@ -135,7 +135,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'reviews',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=11'
     },
     date: '2024-02-15',
@@ -158,7 +158,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'mobile',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=5'
     },
     date: '2024-03-01',
@@ -181,7 +181,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'cybersecurity',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=33'
     },
     date: '2024-04-10',
@@ -203,7 +203,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'laptops',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=44'
     },
     date: '2024-03-20',
@@ -226,7 +226,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'ai',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=11'
     },
     date: '2024-04-05',
@@ -249,7 +249,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'windows',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=59'
     },
     date: '2024-04-12',
@@ -271,7 +271,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'howto',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=5'
     },
     date: '2024-02-28',
@@ -293,7 +293,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'reviews',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=33'
     },
     date: '2024-04-15',
@@ -316,7 +316,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'laptops',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=19'
     },
     date: '2024-04-10',
@@ -338,7 +338,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'howto',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=20'
     },
     date: '2024-04-11',
@@ -360,7 +360,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'ai',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=21'
     },
     date: '2024-04-12',
@@ -382,7 +382,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'reviews',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=22'
     },
     date: '2024-04-13',
@@ -404,7 +404,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'windows',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=23'
     },
     date: '2024-04-14',
@@ -426,7 +426,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'cybersecurity',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=24'
     },
     date: '2024-04-15',
@@ -448,7 +448,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'mobile',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=25'
     },
     date: '2024-04-16',
@@ -470,7 +470,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'laptops',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=26'
     },
     date: '2024-04-17',
@@ -492,7 +492,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'howto',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=27'
     },
     date: '2024-04-18',
@@ -514,7 +514,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'ai',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=28'
     },
     date: '2024-04-19',
@@ -536,7 +536,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'reviews',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=29'
     },
     date: '2024-04-20',
@@ -558,7 +558,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'windows',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=30'
     },
     date: '2024-04-21',
@@ -580,7 +580,7 @@ export const mockArticles: Article[] = [
     body: fullBody,
     categoryId: 'cybersecurity',
     author: {
-      name: { ar: 'فريق رؤى تقنية', en: 'Technical Insights Team' },
+      name: { ar: 'فريق NetSec Atlas', en: 'NetSec Atlas Team' },
       avatar: 'https://i.pravatar.cc/150?img=31'
     },
     date: '2024-04-22',

@@ -38,7 +38,14 @@ jobs:
       - name: Build GitHub Pages preview
         env:
           BASE_PATH: /
+          # Optional; set under Settings → Secrets and variables → Actions → Variables.
+          VITE_GA_MEASUREMENT_ID: ${{ vars.GA_MEASUREMENT_ID }}
+          VITE_GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION }}
+          VITE_BING_SITE_VERIFICATION: ${{ vars.BING_SITE_VERIFICATION }}
         run: pnpm --filter @workspace/techpulse-ar run build
+
+      - name: Verify built pages (static content, RSS links, sitemap URLs)
+        run: pnpm --filter @workspace/techpulse-ar run test:build-output
 
       - name: Keep the preview on the GitHub Pages project URL
         run: rm -f artifacts/techpulse-ar/dist/public/CNAME

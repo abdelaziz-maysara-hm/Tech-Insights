@@ -1,4 +1,6 @@
 {
+  "publishUnreviewedTranslations": true,
+  "publishUnreviewedTranslationsNote": "When true, English (and Arabic) versions of articles, comparisons and pages are published, prerendered, listed in the sitemap and linked with reciprocal hreflang even if translationStatus is 'unreviewed'. Items marked translationStatus 'invalid' are always excluded. Set to false to return to Arabic-only content URLs.",
   "reviewedContentRoutes": [],
   "eligibleDiscoveryRoutes": [
     "/",

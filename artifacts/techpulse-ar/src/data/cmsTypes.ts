@@ -16,6 +16,8 @@ export interface CmsPage {
   id: string;
   slug: string;
   title: BilingualText;
+  /** Optional meta description (used for <meta name="description">). */
+  description?: BilingualText;
   content: BilingualText;
   updatedAt: string;
   showInFooter?: boolean;

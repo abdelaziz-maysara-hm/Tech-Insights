@@ -2,6 +2,21 @@
 
 Significant NetSec Atlas milestones are recorded here. Historical Technical Insights generator notes remain below for operational context.
 
+## SEO indexing fixes: static content, English URLs, RSS, internal links, site pages
+
+- **Crawlable static HTML for every route.** The prerender now writes the full page content (article body, comparison table, tool guide, listings, breadcrumbs, related links, site navigation) into `<div id="root">`, not only `<head>` metadata. `main.tsx` keeps it on screen until React has rendered the route, then swaps it, so there is no blank flash.
+- **No more trailing-slash redirects.** Each route is also written as `<route>.html`, which GitHub Pages serves with HTTP 200 at the exact canonical URL (previously every canonical URL 301-redirected to a `/` variant).
+- **English content URLs published.** `publishUnreviewedTranslations: true` in `hreflang-policy.json` publishes `/en/article|comparison|page/*` (213 URLs) with reciprocal hreflang; the sitemap grows from 275 to 488 URLs. Set it to `false` to revert to Arabic-only content URLs.
+- **RSS fixed.** Feed item links pointed to `/article/<slug>` (404). They now use `/ar/article/<slug>`; new `/ar/rss.xml` and `/en/rss.xml` feeds; pages advertise the feed for their language.
+- **Legacy URLs forward.** Meta-refresh + canonical stubs at every un-prefixed legacy path (`/article/<slug>`, `/comparisons`, …) send visitors and crawlers to the `/ar/` canonical.
+- **Structured data.** Article JSON-LD gains `dateModified`, `mainEntityOfPage`, `wordCount`, `keywords`, `articleSection`; new BreadcrumbList on all routes and FAQPage on tool pages; `og:locale:alternate` and `article:published_time`.
+- **Internal linking.** Related articles are ranked by shared tags, subcategory and category (6 per article, at least 3 for every article) and articles get previous/next links, in both the React UI and the static HTML.
+- **Safe Markdown rendering.** New shared `src/lib/markdown.ts` (escapes all source text; supports lists, code blocks, tables, links). Replaces the ad-hoc regex renderer that injected raw body HTML (the XSS article quotes `<script>` tags) and fixes static pages that showed literal `##`.
+- **Real site pages.** About, Contact, Editorial policy, Privacy (incl. the AdSense cookie disclosure), Cookies, Terms, Disclaimer, Contribute and Advertising rewritten in Arabic and English with meta descriptions. The contact email is a clearly marked TODO.
+- **Brand cleanup.** Article author `فريق رؤى تقنية / Technical Insights Team` → `فريق NetSec Atlas / NetSec Atlas Team`; footer social icons that linked to `#` are hidden until configured in `src/config/site.ts`; the non-functional newsletter form is replaced with an RSS subscribe link.
+- **Analytics / verification hooks.** Optional `GA_MEASUREMENT_ID`, `GOOGLE_SITE_VERIFICATION`, `BING_SITE_VERIFICATION` repository variables (see README); GA4 page views on SPA navigation.
+- Tests: new `test:static-content` and `test:build-output`; sitemap/hreflang/phase4e tests now derive expected counts from content and policy.
+
 ## Phase 7 — Batch 1: Client-Side Network & Email-Security Web Tools
 
 - Added the first four browser-only web tools at `/{ar,en}/tools/:slug`, all bilingual and running fully client-side (no backend, no network calls, nothing the user types leaves the browser):

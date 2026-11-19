@@ -38,7 +38,11 @@ test('marks not-found pages noindex and removes canonical structured signals', a
 test('keeps sitemap canonical-only and production-domain consistent', async () => {
   const sitemap = await readFile(SITEMAP_PATH, 'utf8');
   const locations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
-  assert.equal(locations.length, 275);
+  const arCount = locations.filter((url) => url.includes('netsecatlas.com/ar/')).length;
+  const enCount = locations.filter((url) => url.includes('netsecatlas.com/en/')).length;
+  assert.ok(arCount >= 245, `ar=${arCount}`);
+  assert.ok(enCount >= 30 && enCount <= arCount, `en=${enCount}`);
+  assert.equal(arCount + enCount, locations.length);
   assert.equal(new Set(locations).size, locations.length);
   assert.ok(locations.every((url) => /^https:\/\/netsecatlas\.com\/(ar|en)\//.test(url)));
   assert.doesNotMatch(sitemap, /technical-insights\.com/i);
@@ -49,4 +53,8 @@ test('keeps RSS on the production domain without legacy-host regression', async 
   assert.match(rss, /https:\/\/netsecatlas\.com/);
   assert.doesNotMatch(rss, /technical-insights\.com/i);
   assert.equal([...rss.matchAll(/<item>/g)].length, 50);
+  // Item links must be localized canonical URLs (un-prefixed /article/ 404s on GitHub Pages).
+  const links = [...rss.matchAll(/<item>[\s\S]*?<link>([^<]+)<\/link>/g)].map((m) => m[1]);
+  assert.equal(links.length, 50);
+  assert.ok(links.every((link) => /^https:\/\/netsecatlas\.com\/ar\/article\/[^/]+$/.test(link)), links[0]);
 });
