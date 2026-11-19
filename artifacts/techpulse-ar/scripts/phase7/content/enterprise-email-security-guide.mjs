@@ -60,7 +60,7 @@ selector1._domainkey.example.com.  CNAME  selector1-example-com._domainkey.examp
 
 ### DMARC — السياسة التي تربط كل شيء
 
-يربط DMARC (المعيار RFC 7489) بين SPF وDKIM وحقل From الظاهر، ويطلب **المحاذاة (Alignment)**: يجب أن يتطابق نطاق SPF أو نطاق توقيع DKIM مع نطاق From. كما يحدد ما يفعله المستقبل بالرسائل الفاشلة، ويرسل لك تقارير.
+يربط DMARC (المعيار RFC 9989 الصادر في مايو 2026، والذي حل محل RFC 7489) بين SPF وDKIM وحقل From الظاهر، ويطلب **المحاذاة (Alignment)**: يجب أن يتطابق نطاق SPF أو نطاق توقيع DKIM مع نطاق From. كما يحدد ما يفعله المستقبل بالرسائل الفاشلة، ويرسل لك تقارير.
 
 \`\`\`text
 _dmarc.example.com.  TXT  "v=DMARC1; p=none; rua=mailto:dmarc-reports@example.com; fo=1"
@@ -170,7 +170,7 @@ _dmarc.example.com.  TXT  "v=DMARC1; p=none; rua=mailto:dmarc-reports@example.co
 
 - [RFC 7208: Sender Policy Framework (SPF)](https://datatracker.ietf.org/doc/html/rfc7208)
 - [RFC 6376: DomainKeys Identified Mail (DKIM) Signatures](https://datatracker.ietf.org/doc/html/rfc6376)
-- [RFC 7489: Domain-based Message Authentication, Reporting, and Conformance (DMARC)](https://datatracker.ietf.org/doc/html/rfc7489)
+- [RFC 9989: Domain-based Message Authentication, Reporting, and Conformance (DMARC)](https://www.rfc-editor.org/rfc/rfc9989)
 - [RFC 8461: SMTP MTA Strict Transport Security (MTA-STS)](https://datatracker.ietf.org/doc/html/rfc8461)
 - [Google: Email sender guidelines](https://support.google.com/a/answer/81126)
 - [Microsoft Learn: Set up DMARC to validate the From address domain](https://learn.microsoft.com/en-us/defender-office-365/email-authentication-dmarc-configure)
@@ -217,7 +217,7 @@ selector1._domainkey.example.com.  CNAME  selector1-example-com._domainkey.examp
 
 ### DMARC — the policy that ties it together
 
-DMARC (RFC 7489) links SPF and DKIM to the visible From domain and requires **alignment**: the SPF domain or the DKIM signing domain must match the From domain. It also tells receivers what to do with failing mail and sends you reports.
+DMARC (RFC 9989, published May 2026 to replace RFC 7489) links SPF and DKIM to the visible From domain and requires **alignment**: the SPF domain or the DKIM signing domain must match the From domain. It also tells receivers what to do with failing mail and sends you reports.
 
 \`\`\`text
 _dmarc.example.com.  TXT  "v=DMARC1; p=none; rua=mailto:dmarc-reports@example.com; fo=1"
@@ -327,7 +327,7 @@ Not always. The built-in protection in higher plans is strong when tuned well. A
 
 - [RFC 7208: Sender Policy Framework (SPF)](https://datatracker.ietf.org/doc/html/rfc7208)
 - [RFC 6376: DomainKeys Identified Mail (DKIM) Signatures](https://datatracker.ietf.org/doc/html/rfc6376)
-- [RFC 7489: Domain-based Message Authentication, Reporting, and Conformance (DMARC)](https://datatracker.ietf.org/doc/html/rfc7489)
+- [RFC 9989: Domain-based Message Authentication, Reporting, and Conformance (DMARC)](https://www.rfc-editor.org/rfc/rfc9989)
 - [RFC 8461: SMTP MTA Strict Transport Security (MTA-STS)](https://datatracker.ietf.org/doc/html/rfc8461)
 - [Google: Email sender guidelines](https://support.google.com/a/answer/81126)
 - [Microsoft Learn: Set up DMARC to validate the From address domain](https://learn.microsoft.com/en-us/defender-office-365/email-authentication-dmarc-configure)

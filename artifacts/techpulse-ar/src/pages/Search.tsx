@@ -5,21 +5,12 @@ import { useSEO } from '@/hooks/useSEO';
 import { useAllArticles } from '@/hooks/useAllArticles';
 import { Search as SearchIcon } from 'lucide-react';
 import type { Category } from '@/data/mockData';
+import { ACTIVE_CATEGORIES } from '@/lib/activeCategories';
 import { rankArticles } from '@/lib/searchRanking';
 import { Link } from 'wouter';
 import { searchWebTools } from '@/data/webTools';
 
-const CATEGORIES: Category[] = [
-  'cybersecurity',
-  'mobile',
-  'laptops',
-  'howto',
-  'ai',
-  'reviews',
-  'windows',
-  'comparisons',
-  'technology',
-];
+const CATEGORIES: Category[] = ACTIVE_CATEGORIES;
 
 export default function Search() {
   const { language, t } = useLanguage();

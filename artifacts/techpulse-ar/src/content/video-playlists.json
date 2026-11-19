@@ -16,6 +16,11 @@
     },
     "pillarArticle": "enterprise-network-security-guide",
     "relatedArticles": [
+      "fortigate-initial-setup-enterprise-guide",
+      "palo-alto-nat-types-examples",
+      "ipsec-site-to-site-fortigate-palo-alto",
+      "ztna-fortigate-forticlient-ems",
+      "firewall-misconfigurations-audit",
       "fortios-ssl-vpn-tunnel-mode-removal-ipsec-migration",
       "forticlient-error-7200-fix",
       "fortigate-ssl-vpn-checklist",
@@ -106,6 +111,9 @@
     },
     "pillarArticle": "soc-incident-response-guide",
     "relatedArticles": [
+      "wazuh-sysmon-free-soc-lab",
+      "wazuh-custom-rule-brute-force",
+      "mitre-attack-to-detections",
       "windows-security-event-ids-soc",
       "how-siem-actually-works",
       "log-retention-siem-basics",
@@ -145,6 +153,8 @@
     },
     "pillarArticle": "active-directory-identity-security-guide",
     "relatedArticles": [
+      "entra-conditional-access-baseline",
+      "microsoft-365-security-settings",
       "kerberoasting-detection-prevention",
       "kerberos-authentication-explained",
       "active-directory-complete-setup-guide",
@@ -181,6 +191,7 @@
     },
     "pillarArticle": "endpoint-vulnerability-management-guide",
     "relatedArticles": [
+      "nessus-essentials-first-scan",
       "kes-12-exclusions-kaspersky-security-center",
       "kaspersky-security-center-tagging",
       "how-edr-actually-works",
@@ -217,6 +228,7 @@
     },
     "pillarArticle": "enterprise-email-security-guide",
     "relatedArticles": [
+      "company-email-spam-spf-dmarc-diagnosis",
       "dmarc-rollout-none-to-reject",
       "spf-dkim-dmarc-email-basics",
       "email-security-gateway-basics",
@@ -256,6 +268,7 @@
     },
     "pillarArticle": "enterprise-network-security-guide",
     "relatedArticles": [
+      "network-security-engineer-roadmap-2027",
       "vulnerability-scanning-vs-penetration-testing",
       "authentication-vs-authorization-explained",
       "tls-handshake-explained"

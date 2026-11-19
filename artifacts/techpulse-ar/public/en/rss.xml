@@ -8,6 +8,168 @@
     <lastBuildDate>Thu, 19 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://netsecatlas.com/en/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Deploying ZTNA with FortiGate and FortiClient EMS</title>
+      <link>https://netsecatlas.com/en/article/ztna-fortigate-forticlient-ems</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/ztna-fortigate-forticlient-ems</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>How Fortinet ZTNA fits together: EMS certificates and posture tags, the FortiGate access proxy and policy, a first protected app, and a sane migration path off VPN.</description>
+      <category>ztna</category>
+      <category>zero-trust</category>
+      <category>fortigate</category>
+      <category>forticlient-ems</category>
+      <category>remote-access</category>
+    </item>
+    <item>
+      <title>Build a Free Home SOC Lab with Wazuh and Sysmon</title>
+      <link>https://netsecatlas.com/en/article/wazuh-sysmon-free-soc-lab</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/wazuh-sysmon-free-soc-lab</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Stand up Wazuh, ship Sysmon telemetry from a Windows VM, fire safe attack simulations and practise triage like a SOC analyst, all on free software.</description>
+      <category>wazuh</category>
+      <category>sysmon</category>
+      <category>soc</category>
+      <category>lab</category>
+      <category>siem</category>
+      <category>detection</category>
+    </item>
+    <item>
+      <title>Writing a Custom Wazuh Rule to Catch Brute-Force Logins</title>
+      <link>https://netsecatlas.com/en/article/wazuh-custom-rule-brute-force</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/wazuh-custom-rule-brute-force</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Build correlation rules in Wazuh that flag SSH and RDP password guessing at thresholds that fit your environment, test them with wazuh-logtest and wire them to active response.</description>
+      <category>wazuh</category>
+      <category>detection-engineering</category>
+      <category>brute-force</category>
+      <category>ssh</category>
+      <category>rdp</category>
+      <category>siem</category>
+    </item>
+    <item>
+      <title>Palo Alto NAT Explained with Worked Examples (SNAT, DNAT, U-Turn)</title>
+      <link>https://netsecatlas.com/en/article/palo-alto-nat-types-examples</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/palo-alto-nat-types-examples</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Worked PAN-OS NAT examples: DIPP for outbound, static and destination NAT for published servers, U-turn hairpinning, and the pre-NAT/post-NAT rule that trips everyone up.</description>
+      <category>palo-alto</category>
+      <category>pan-os</category>
+      <category>nat</category>
+      <category>firewall</category>
+      <category>dnat</category>
+      <category>snat</category>
+    </item>
+    <item>
+      <title>Network Security Engineer Roadmap for 2027: What to Learn, in Order</title>
+      <link>https://netsecatlas.com/en/article/network-security-engineer-roadmap-2027</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/network-security-engineer-roadmap-2027</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>A staged, lab-first learning plan for aspiring network security engineers: fundamentals, one firewall in depth, VPN and identity, logging, cloud and automation, plus where certifications fit.</description>
+      <category>career</category>
+      <category>roadmap</category>
+      <category>network-security</category>
+      <category>certifications</category>
+      <category>learning-path</category>
+    </item>
+    <item>
+      <title>Your First Vulnerability Scan with Nessus Essentials</title>
+      <link>https://netsecatlas.com/en/article/nessus-essentials-first-scan</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/nessus-essentials-first-scan</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Install the free Nessus Essentials scanner, run an unauthenticated and a credentialed scan on lab hosts, and turn the results into a sensible fix list.</description>
+      <category>nessus</category>
+      <category>vulnerability-scanning</category>
+      <category>tenable</category>
+      <category>credentialed-scan</category>
+      <category>lab</category>
+    </item>
+    <item>
+      <title>Turning MITRE ATT&amp;CK into Working Detections: A Practical Method</title>
+      <link>https://netsecatlas.com/en/article/mitre-attack-to-detections</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/mitre-attack-to-detections</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Pick the ATT&amp;CK techniques that matter to you, map them to the logs you actually have, write and test detections, and track coverage honestly instead of colouring in a matrix.</description>
+      <category>mitre-attack</category>
+      <category>detection-engineering</category>
+      <category>soc</category>
+      <category>sigma</category>
+      <category>siem</category>
+    </item>
+    <item>
+      <title>15 Microsoft 365 Security Settings to Check Today</title>
+      <link>https://netsecatlas.com/en/article/microsoft-365-security-settings</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/microsoft-365-security-settings</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Fifteen Microsoft 365 settings that shut the most common doors attackers use, grouped by identity, admin roles, email, sharing and auditing, with where to find each one.</description>
+      <category>microsoft-365</category>
+      <category>entra-id</category>
+      <category>exchange-online</category>
+      <category>hardening</category>
+      <category>defender-for-office-365</category>
+    </item>
+    <item>
+      <title>Site-to-Site IPsec Between FortiGate and Palo Alto: Build and Troubleshoot</title>
+      <link>https://netsecatlas.com/en/article/ipsec-site-to-site-fortigate-palo-alto</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/ipsec-site-to-site-fortigate-palo-alto</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>A route-based IKEv2 tunnel between FortiOS and PAN-OS: a shared parameter sheet, both configurations, proxy-ID pitfalls and the debug commands that find the fault.</description>
+      <category>ipsec</category>
+      <category>site-to-site</category>
+      <category>fortigate</category>
+      <category>palo-alto</category>
+      <category>ikev2</category>
+      <category>vpn</category>
+    </item>
+    <item>
+      <title>FortiGate Initial Setup for Production: A Step-by-Step Build</title>
+      <link>https://netsecatlas.com/en/article/fortigate-initial-setup-enterprise-guide</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/fortigate-initial-setup-enterprise-guide</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Take a new FortiGate from factory defaults to production: firmware path, admin lockdown, interfaces and zones, routing, policy design, logging and backups.</description>
+      <category>fortigate</category>
+      <category>fortios</category>
+      <category>firewall</category>
+      <category>hardening</category>
+      <category>initial-setup</category>
+    </item>
+    <item>
+      <title>Common Firewall Misconfigurations and How to Audit for Them</title>
+      <link>https://netsecatlas.com/en/article/firewall-misconfigurations-audit</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/firewall-misconfigurations-audit</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Ten firewall mistakes that show up in almost every audit, from any-any rules and exposed admin interfaces to missing egress filtering, plus a quarterly review routine that catches them.</description>
+      <category>firewall</category>
+      <category>audit</category>
+      <category>misconfiguration</category>
+      <category>rulebase</category>
+      <category>hardening</category>
+    </item>
+    <item>
+      <title>A Baseline Conditional Access Policy Set for Microsoft Entra ID</title>
+      <link>https://netsecatlas.com/en/article/entra-conditional-access-baseline</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/entra-conditional-access-baseline</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>The Conditional Access policies every Entra ID tenant should start with: MFA for admins and users, legacy auth blocked, Azure management covered, break-glass accounts and a safe rollout.</description>
+      <category>entra-id</category>
+      <category>conditional-access</category>
+      <category>mfa</category>
+      <category>microsoft-365</category>
+      <category>identity</category>
+      <category>zero-trust</category>
+    </item>
+    <item>
+      <title>Why Your Company Email Goes to Spam: Diagnosing SPF, DKIM and DMARC</title>
+      <link>https://netsecatlas.com/en/article/company-email-spam-spf-dmarc-diagnosis</link>
+      <guid isPermaLink="true">https://netsecatlas.com/en/article/company-email-spam-spf-dmarc-diagnosis</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>A methodical way to find out why your mail lands in junk: read Authentication-Results, test SPF, DKIM and DMARC alignment, check reputation, and meet Gmail and Outlook sender rules.</description>
+      <category>email</category>
+      <category>spf</category>
+      <category>dkim</category>
+      <category>dmarc</category>
+      <category>deliverability</category>
+      <category>troubleshooting</category>
+    </item>
+    <item>
       <title>Key Windows Security Event IDs for SOC Teams: What to Monitor and Why</title>
       <link>https://netsecatlas.com/en/article/windows-security-event-ids-soc</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/windows-security-event-ids-soc</guid>
@@ -67,11 +229,11 @@
       <category>troubleshooting</category>
     </item>
     <item>
-      <title>Exploited Vulnerabilities Roundup — August 2026</title>
+      <title>Summer 2026 Security Roundup: SonicWall, N-central, Azure and Rails</title>
       <link>https://netsecatlas.com/en/article/exploited-vulnerabilities-roundup-august-2026</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/exploited-vulnerabilities-roundup-august-2026</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Five security events from early August 2026 in one place: what happened, who is affected, what to do now, and the shared lessons for IT teams.</description>
+      <description>Two actively exploited bugs (SonicWall SMA1000, N-able N-central), a huge Azure CLI password spray, and two serious flaws fixed before exploitation (Cosmos DB, Rails), with what to do about each.</description>
       <category>news</category>
       <category>vulnerability</category>
       <category>roundup</category>
@@ -203,14 +365,16 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Printer Not Working or Printing Correctly? Common Fixes</title>
+      <title>Office Printing for IT Teams: Spooler, Drivers, Network Printers and PrintNightmare</title>
       <link>https://netsecatlas.com/en/article/printer-not-working-fixes</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/printer-not-working-fixes</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Printer problems are among the most time-wasting situations, especially when you&apos;re in a hurry. Here are common fixes for the most frequent home and office printer issues.</description>
-      <category>printer</category>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>A support-desk method for office printing problems that also closes the security gaps: spooler fixes, network printers, Point and Print after PrintNightmare, and where to disable the service.</description>
+      <category>printing</category>
+      <category>print-spooler</category>
+      <category>printnightmare</category>
       <category>troubleshooting</category>
-      <category>guide</category>
+      <category>windows-server</category>
     </item>
     <item>
       <title>Forgot Your Important Account Password? Safe Recovery Steps</title>
@@ -397,11 +561,11 @@
       <category>guide</category>
     </item>
     <item>
-      <title>How SIEM Actually Works: The Difference Between Simple Log Collection and Real Value</title>
+      <title>How a SIEM Works: From Raw Logs to an Alert Worth Answering</title>
       <link>https://netsecatlas.com/en/article/how-siem-actually-works</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/how-siem-actually-works</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
-      <description>5 core components (collection, normalization, correlation, alerting, reporting), and an Impossible Travel scenario illustrating real value.</description>
+      <description>What a SIEM actually does between collecting logs and paging an analyst: parsing, normalisation, correlation and tuning, with a worked example of a real detection.</description>
       <category>siem</category>
       <category>security-operations</category>
       <category>correlation</category>
@@ -417,151 +581,6 @@
       <category>endpoint-security</category>
       <category>malware</category>
       <category>guide</category>
-    </item>
-    <item>
-      <title>Understanding PKI and the Chain of Trust: How You Know a Certificate Is Actually Real</title>
-      <link>https://netsecatlas.com/en/article/pki-certificate-authority-explained</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/pki-certificate-authority-explained</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-      <description>The public/private key pair, the chain of trust from Root CA to intermediate certificates, certificate types (DV/OV/EV), and why the untrusted certificate warning is genuinely dangerous.</description>
-      <category>pki</category>
-      <category>certificates</category>
-      <category>ssl</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Supply Chain Attacks: When the Risk Comes from a Trusted Vendor</title>
-      <link>https://netsecatlas.com/en/article/supply-chain-attacks-third-party-risk</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/supply-chain-attacks-third-party-risk</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description>3 real documented examples of risk points in detail, and why your own trust in the vendor is the weapon being exploited.</description>
-      <category>supply-chain</category>
-      <category>third-party-risk</category>
-      <category>security</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>PowerShell for System Administrators: From Basics to Automation</title>
-      <link>https://netsecatlas.com/en/article/powershell-sysadmin-complete-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/powershell-sysadmin-complete-guide</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description>From basic commands to writing real automation scripts, with common mistakes and their fixes.</description>
-      <category>powershell</category>
-      <category>automation</category>
-      <category>windows-server</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Building an Insider Risk Programme</title>
-      <link>https://netsecatlas.com/en/article/insider-risk-program-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/insider-risk-program-guide</guid>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-      <description>3 different insider threat categories, real behavioral warning signs, and why balancing security against trust is so delicate.</description>
-      <category>insider-threat</category>
-      <category>risk-management</category>
-      <category>hr-security</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>The Secure Software Development Lifecycle (SSDLC): Security at Every Stage</title>
-      <link>https://netsecatlas.com/en/article/secure-sdlc-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/secure-sdlc-guide</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-      <description>The six phases and integrating security into each, DevSecOps and linking scanning to CI/CD, and why fixing security at the end is very costly.</description>
-      <category>ssdlc</category>
-      <category>devsecops</category>
-      <category>secure-coding</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Understanding Kerberos: How Authentication Actually Works in Active Directory</title>
-      <link>https://netsecatlas.com/en/article/kerberos-authentication-explained</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/kerberos-authentication-explained</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-      <description>The step-by-step process, why time synchronization is critical, and the most common advanced attacks (Pass-the-Ticket and Golden Ticket) for awareness.</description>
-      <category>kerberos</category>
-      <category>active-directory</category>
-      <category>authentication</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Setting Up and Managing Active Directory from Scratch, Step by Step</title>
-      <link>https://netsecatlas.com/en/article/active-directory-complete-setup-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/active-directory-complete-setup-guide</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
-      <description>A complete reference guide: from initial installation through OU design, Group Policy, security, and the most common errors with their fixes.</description>
-      <category>active-directory</category>
-      <category>windows-server</category>
-      <category>group-policy</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Data Classification: Not Every File Needs the Same Protection Level</title>
-      <link>https://netsecatlas.com/en/article/data-classification-basics</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/data-classification-basics</guid>
-      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-      <description>A detailed four-level classification system, and why trying to classify everything at once from day one is the most common practical mistake that fails the whole project.</description>
-      <category>data-classification</category>
-      <category>compliance</category>
-      <category>governance</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Certificate Expiry Monitoring: Avoiding the Embarrassing Outage</title>
-      <link>https://netsecatlas.com/en/article/certificate-expiry-monitoring</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/certificate-expiry-monitoring</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <description>Why automatic renewal (ACME/Let&apos;s Encrypt) is the ideal solution, alternative steps if renewal is manual, and a quick verification command for any site.</description>
-      <category>ssl</category>
-      <category>certificates</category>
-      <category>monitoring</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Enterprise AI Image Generation: Data, Risk, and Publishing Controls</title>
-      <link>https://netsecatlas.com/en/article/how-ai-image-generation-works</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/how-ai-image-generation-works</guid>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <description>A practical workflow for protecting data, reviewing rights, detecting impersonation, and approving generated images before publication.</description>
-      <category>generative-ai</category>
-      <category>data-privacy</category>
-      <category>deepfake</category>
-      <category>content-provenance</category>
-      <category>governance</category>
-    </item>
-    <item>
-      <title>How LLMs Work in Enterprise IT: A Practical Guide to Trust and Risk</title>
-      <link>https://netsecatlas.com/en/article/how-large-language-models-work</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/how-large-language-models-work</guid>
-      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-      <description>A practical explanation of tokens, context windows, and RAG—and why LLM output needs evidence and security controls.</description>
-      <category>llm</category>
-      <category>ai-security</category>
-      <category>rag</category>
-      <category>data-privacy</category>
-      <category>technical-validation</category>
-    </item>
-    <item>
-      <title>Dual Control: Why a Sensitive Operation Needs Two People&apos;s Approval</title>
-      <link>https://netsecatlas.com/en/article/dual-control-critical-operations</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/dual-control-critical-operations</guid>
-      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
-      <description>3 angles on why this principle genuinely matters, real application examples, and why a fast approval mechanism is essential for successful implementation.</description>
-      <category>dual-control</category>
-      <category>access-control</category>
-      <category>insider-threat</category>
-      <category>guide</category>
-    </item>
-    <item>
-      <title>Writing Safe AI Prompts for Technical Troubleshooting: An Engineer’s Template</title>
-      <link>https://netsecatlas.com/en/article/effective-ai-prompting-guide</link>
-      <guid isPermaLink="true">https://netsecatlas.com/en/article/effective-ai-prompting-guide</guid>
-      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
-      <description>A structured diagnostic prompt that separates facts from assumptions, starts read-only, and requires risks, verification, and rollback.</description>
-      <category>ai-security</category>
-      <category>troubleshooting</category>
-      <category>change-safety</category>
-      <category>data-privacy</category>
     </item>
   </channel>
 </rss>

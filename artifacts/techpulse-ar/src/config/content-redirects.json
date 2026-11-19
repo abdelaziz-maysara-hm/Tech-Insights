@@ -1,5 +1,5 @@
 {
-  "_note": "Permanent content redirects (identity path -> identity path, language-less). Prerender writes meta-refresh + canonical stubs at /ar, /en and legacy un-prefixed paths; the SPA redirects client-side. Phase 7 (2026-11-19): off-topic consumer content and merged short articles.",
+  "_note": "Permanent content redirects (identity path -> identity path, language-less). Prerender writes meta-refresh + canonical stubs at /ar, /en and legacy un-prefixed paths; the SPA redirects client-side. Phase 7 (2026-11-19): off-topic consumer content and merged short articles. Phase 8 (2026-11-19): chatgpt-vs-claude (consumer AI comparison) redirected to the professional AI-use guide.",
   "redirects": {
     "/article/ios-vs-android-choosing-guide": "/article/byod-policy-security-guide",
     "/article/phone-storage-full-fixes": "/article/byod-policy-security-guide",
@@ -33,6 +33,7 @@
     "/comparison/pixel-9-vs-nothing-phone-3": "/comparisons",
     "/comparison/macbook-air-m3-vs-dell-xps-13": "/comparisons",
     "/comparison/ps5-vs-xbox-series-x": "/comparisons",
-    "/comparison/apple-watch-10-vs-galaxy-watch-7": "/comparisons"
+    "/comparison/apple-watch-10-vs-galaxy-watch-7": "/comparisons",
+    "/comparison/chatgpt-vs-claude": "/article/chatgpt-study-without-harm"
   }
 }

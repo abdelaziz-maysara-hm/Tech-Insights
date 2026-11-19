@@ -42,7 +42,8 @@ Validated baseline on `main` after Phase 3 commit `4524d8f548cc5ed3e20b038ba3aac
 - **Localization:** `src/context/LanguageContext.tsx`; bilingual fields use `{ ar, en }`.
 - **SEO:** centralized site identity in `src/config/site.ts`; runtime metadata in `src/hooks/useSEO.ts`.
 - **Sitemap/RSS:** `scripts/generate-sitemap.mjs` and `scripts/generate-rss.mjs`; generated outputs are `public/sitemap.xml` and `public/rss.xml`.
-- **Content generation:** `scripts/generator/` and `scripts/generate-content.mjs`.
+- **Content:** hand-edited JSON in `src/content/` (articles, comparisons, pages, videos, playlists). Repeatable content batches live in `scripts/phase7/` (`apply-content.mjs` is idempotent and only adds or updates the records it owns). The old bulk generator (`scripts/generator/`) was removed in phase 8: nothing in build, deploy or tests used it, and it could overwrite hand edits.
+- **Article bodies:** `scripts/generate-article-bodies.mjs` writes `public/content/articles/<slug>.json` at build/dev time; article pages fetch only their own body.
 - **Deployment:** Vercel config is `artifacts/techpulse-ar/vercel.json`. It sets the SPA rewrites, and reserves `/api/cms/*`. The CMS API is under `artifacts/techpulse-ar/api/`. Deployment configuration must be verified before launch; README deployment/domain text is legacy and not authoritative.
 
 ## Phased delivery
@@ -95,7 +96,7 @@ Required before any content, in order:
 1. Extend `mockData.ts` with an `AlternativesPage` type (own schema: a target product, a list of 5-10 ranked alternatives with brief per-item rationale and a citation, not a 2-way spec table).
 2. Fill known vendor-registry gaps for whichever product the first page targets. Confirmed gap: **CrowdStrike is not yet in `src/data/taxonomy/vendors.ts`**, despite already being referenced in two REWORK comparisons (`crowdstrike-falcon-vs-microsoft-defender`, `crowdstrike-falcon-vs-microsoft-sentinel`) -- add it (and any other vendor the first alternatives page needs) before the page can link a proper vendor ID.
 3. New page component + route (e.g. `/alternatives/:slug`).
-4. Sitemap/RSS generator coverage, following the existing Comparisons pattern already in `scripts/generator/`.
+4. Sitemap/RSS generator coverage, following the existing Comparisons pattern in `scripts/generate-sitemap.mjs`.
 5. Cross-linking: an alternatives page should link out to the site's own "vs" comparison page for each listed alternative where one already exists.
 
 Every claim about a listed alternative (features, pricing tier, review scores) must cite a real, checkable source (G2/PeerSpot/vendor docs) -- this content type has zero tolerance for invented specifics, per the North star rule above. Treat this as its own multi-batch effort (schema+infra batch, then content batches), not a single session's work.

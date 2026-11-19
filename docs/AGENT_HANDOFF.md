@@ -54,7 +54,8 @@ Do not assume `pnpm run validate` exists. Run phase-specific checks explicitly.
 ## Operational rules
 
 - Preserve the React/Vite/TypeScript and content-generation architecture.
-- Do not edit `public/sitemap.xml`, `public/rss.xml`, `src/content/articles-index.json`, or `dist/` manually; update their source and regenerate.
+- Do not edit `public/sitemap.xml`, `public/rss.xml`, `src/content/articles-index.json`, `public/content/articles/`, or `dist/` manually; update their source and regenerate.
+- Phase 8: the bulk content generator (`scripts/generator/`, `generate:*` scripts, `collections.json`, `GENERATION_REPORT.json`) was deleted. Edit `src/content/*.json` directly or add a module under `scripts/phase8/content/` (new articles) or `scripts/phase8/english/` (independent English rewrites) and run `node scripts/phase7/apply-content.mjs && node scripts/phase8/apply-content.mjs` (in that order). Article bodies for phase 8 live as Markdown in `scripts/phase8/md/<slug>.<lang>.md`. `translationStatus: 'reviewed'` is set only for records whose English was rewritten as an independent piece.
 - Do not delete/rewrite legacy content without the Phase 3 audit and owner-approved SEO/redirect decision.
 - Explicit article metadata overrides inference; absence falls back to `src/lib/contentDiscovery.ts`.
 - Do not fabricate vendor commands, configurations, scores, specifications, references, or SEO metrics.

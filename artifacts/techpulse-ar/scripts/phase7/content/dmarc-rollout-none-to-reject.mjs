@@ -54,14 +54,15 @@ _dmarc.example.com.  TXT  "v=DMARC1; p=none; rua=mailto:dmarc@example.com; fo=1"
 
 ## المرحلة 3: الحجر التدريجي (quarantine)
 
-عندما تصل نسبة الرسائل الشرعية الناجحة إلى ما يقارب 100٪ لعدة أسابيع:
+عندما تصل نسبة الرسائل الشرعية الناجحة إلى ما يقارب 100٪ لعدة أسابيع، انشر السياسة مع وسم الاختبار أولًا:
 
 \`\`\`text
-_dmarc.example.com.  TXT  "v=DMARC1; p=quarantine; pct=25; rua=mailto:dmarc@example.com"
+_dmarc.example.com.  TXT  "v=DMARC1; p=quarantine; t=y; rua=mailto:dmarc@example.com"
 \`\`\`
 
-- يطبق وسم **pct** السياسة على نسبة من الرسائل الفاشلة فقط. ارفع النسبة تدريجيًا: 25 ثم 50 ثم 100، مع مراقبة التقارير وشكاوى المستخدمين بين كل خطوة.
-- ملاحظة: مسودة التحديث القادمة لمعيار DMARC (المعروفة بـDMARCbis) تقترح استبدال pct بوسم اختبار مختلف؛ تابع دعم المزودين قبل الاعتماد عليه في المستقبل.
+- في **RFC 9989** (مايو 2026، الذي حل محل RFC 7489) أُزيل وسم **pct** وحل محله وسم الاختبار **t**. مع \`t=y\` يطبق المستقبِل سياسة أدنى بدرجة: \`quarantine\` تُعامل كـ\`none\`، و\`reject\` تُعامل كـ\`quarantine\`، مع استمرار التقارير.
+- راقب التقارير أسبوعين على الأقل، ثم احذف \`t=y\` (أو اجعله \`t=n\`) لتطبيق quarantine فعليًا.
+- السبب الرسمي للإزالة: التطبيق الفعلي لقيم pct بين 0 و100 لم يكن دقيقًا عند المستقبلين. بعض المستقبلين قد يظلون يقرؤون \`pct\` القديم، لكن لا تبنِ خطة التدرج عليه.
 
 ## المرحلة 4: الرفض (reject)
 
@@ -108,7 +109,7 @@ _dmarc.parked-example.com.  TXT  "v=DMARC1; p=reject"
 
 ## المراجع
 
-- [RFC 7489: DMARC](https://datatracker.ietf.org/doc/html/rfc7489)
+- [RFC 9989: DMARC](https://www.rfc-editor.org/rfc/rfc9989)
 - [Google Workspace Admin Help: Set up DMARC](https://support.google.com/a/answer/2466580)
 - [Microsoft Learn: Set up DMARC to validate the From address domain](https://learn.microsoft.com/en-us/defender-office-365/email-authentication-dmarc-configure)
 - [Google: Email sender guidelines](https://support.google.com/a/answer/81126)
@@ -148,16 +149,17 @@ Tips:
 - **Watch SPF's 10-lookup limit** as you add services. Check with the [SPF record analyzer](/tools/spf-record-analyzer).
 - **Subdomains:** the sp tag sets the subdomain policy; if absent, subdomains inherit the main domain's policy.
 
-## Phase 3: gradual quarantine
+## Phase 3: quarantine, tested first
 
-Once legitimate mail has passed at close to 100% for several weeks:
+Once legitimate mail has passed at close to 100% for several weeks, publish the policy with the testing flag:
 
 \`\`\`text
-_dmarc.example.com.  TXT  "v=DMARC1; p=quarantine; pct=25; rua=mailto:dmarc@example.com"
+_dmarc.example.com.  TXT  "v=DMARC1; p=quarantine; t=y; rua=mailto:dmarc@example.com"
 \`\`\`
 
-- The **pct** tag applies the policy to a share of failing messages only. Raise it gradually — 25, then 50, then 100 — watching reports and user complaints between steps.
-- Note: the upcoming revision of the DMARC standard (known as DMARCbis) proposes replacing pct with a different testing tag; check provider support before relying on it in future.
+- **RFC 9989** (May 2026, replacing RFC 7489) removed the **pct** tag and introduced the testing tag **t**. With \`t=y\`, receivers apply one level below your policy: \`quarantine\` is treated as \`none\`, \`reject\` as \`quarantine\`. Reporting continues as normal.
+- Watch reports for at least two weeks, then remove \`t=y\` (or set \`t=n\`) to enforce quarantine.
+- Why pct went: receivers rarely applied values between 0 and 100 accurately. Some may still honour a legacy \`pct\`, but don't build your ramp on it.
 
 ## Phase 4: reject
 
@@ -204,7 +206,7 @@ The record you publish protects your own domain. DMARC checks on inbound mail ha
 
 ## References
 
-- [RFC 7489: DMARC](https://datatracker.ietf.org/doc/html/rfc7489)
+- [RFC 9989: DMARC](https://www.rfc-editor.org/rfc/rfc9989)
 - [Google Workspace Admin Help: Set up DMARC](https://support.google.com/a/answer/2466580)
 - [Microsoft Learn: Set up DMARC to validate the From address domain](https://learn.microsoft.com/en-us/defender-office-365/email-authentication-dmarc-configure)
 - [Google: Email sender guidelines](https://support.google.com/a/answer/81126)

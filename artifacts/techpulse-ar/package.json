@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "sitemap": "node scripts/generate-sitemap.mjs",
-    "dev": "vite --config vite.config.ts --host 0.0.0.0",
-    "build": "node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs && vite build --config vite.config.ts && node scripts/seo-prerender.mjs",
+    "dev": "node scripts/generate-article-bodies.mjs && vite --config vite.config.ts --host 0.0.0.0",
+    "build": "node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs && node scripts/generate-article-bodies.mjs && vite build --config vite.config.ts && node scripts/seo-prerender.mjs",
     "build:server": "node build-server.mjs",
     "build:render": "pnpm run build && pnpm run build:server",
     "start:render": "node dist/render-server.mjs",
@@ -40,13 +40,8 @@
     "test:phase5b-3": "node --test scripts/phase5b-batch3.test.mjs",
     "apply:phase5b-4": "node scripts/apply-phase5b-batch4.mjs",
     "test:phase5b-4": "node --test scripts/phase5b-batch4.test.mjs",
-    "generate": "node scripts/generator/index.mjs",
-    "generate:articles": "node scripts/generator/index.mjs --type=articles",
-    "generate:videos": "node scripts/generator/index.mjs --type=videos",
-    "generate:comparisons": "node scripts/generator/index.mjs --type=comparisons",
-    "generate:collections": "node scripts/generator/index.mjs --type=collections",
-    "generate:pages": "node scripts/generator/index.mjs --type=pages",
-    "test:phase7": "node --test scripts/phase7-content.test.mjs"
+    "test:phase7": "node --test scripts/phase7-content.test.mjs",
+    "test:phase8": "node --test scripts/phase8-content.test.mjs"
   },
   "devDependencies": {
     "@hookform/resolvers": "^3.10.0",

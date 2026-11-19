@@ -47,8 +47,19 @@ jobs:
       - name: Verify built pages (static content, RSS links, sitemap URLs)
         run: pnpm --filter @workspace/techpulse-ar run test:build-output
 
-      - name: Keep the preview on the GitHub Pages project URL
-        run: rm -f artifacts/techpulse-ar/dist/public/CNAME
+      - name: Content and SEO checks
+        run: |
+          pnpm --filter @workspace/techpulse-ar run test:phase7
+          pnpm --filter @workspace/techpulse-ar run test:phase8
+          pnpm --filter @workspace/techpulse-ar run test:seo-prerender
+
+      # The custom domain is configured in Settings -> Pages (build type:
+      # GitHub Actions). Keep CNAME in the artifact as well so the domain is
+      # documented in the deployed site and survives any switch back to
+      # branch-based Pages. Fail loudly if it ever goes missing or changes.
+      - name: Verify custom domain (CNAME) is present
+        run: |
+          test "$(tr -d '[:space:]' < artifacts/techpulse-ar/dist/public/CNAME)" = "netsecatlas.com"
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

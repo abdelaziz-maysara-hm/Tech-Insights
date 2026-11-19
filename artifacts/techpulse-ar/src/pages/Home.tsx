@@ -1,4 +1,5 @@
 import { mockComparisons } from '@/data/mockData';
+import { ACTIVE_CATEGORIES } from '@/lib/activeCategories';
 import { cmsComparisons } from '@/data/comparisons';
 import { useLanguage } from '@/context/LanguageContext';
 import { ArticleCard } from '@/components/ArticleCard';
@@ -69,7 +70,7 @@ export default function Home() {
       <section className="border-y border-border bg-muted/30 py-6 mb-12">
         <div className="container mx-auto px-4">
           <div className="flex gap-4 overflow-x-auto pb-2 scrollbar-hide snap-x">
-            {['cybersecurity', 'mobile', 'laptops', 'ai', 'howto', 'windows'].map((cat) => (
+            {ACTIVE_CATEGORIES.map((cat) => (
               <Link
                 key={cat}
                 href={`/articles?c=${cat}`}

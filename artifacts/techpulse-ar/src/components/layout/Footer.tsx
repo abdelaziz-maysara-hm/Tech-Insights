@@ -1,4 +1,5 @@
 import { Link } from 'wouter';
+import { ACTIVE_CATEGORIES } from '@/lib/activeCategories';
 import { useLanguage } from '@/context/LanguageContext';
 import { Twitter, Facebook, Instagram, Youtube, Linkedin, Rss, ArrowUp } from 'lucide-react';
 import { SITE } from '@/config/site';
@@ -63,10 +64,10 @@ export function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">{t('categories')}</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><Link href="/articles?c=mobile" className="hover:text-primary">{t('mobile')}</Link></li>
-              <li><Link href="/articles?c=laptops" className="hover:text-primary">{t('laptops')}</Link></li>
-              <li><Link href="/articles?c=ai" className="hover:text-primary">{t('ai')}</Link></li>
-              <li><Link href="/articles?c=cybersecurity" className="hover:text-primary">{t('cybersecurity')}</Link></li>
+              {ACTIVE_CATEGORIES.map((cat) => (
+                <li key={cat}><Link href={`/articles?c=${cat}`} className="hover:text-primary">{t(cat)}</Link></li>
+              ))}
+              <li><Link href="/videos" className="hover:text-primary">{language === 'ar' ? 'مكتبة الفيديو' : 'Video library'}</Link></li>
             </ul>
           </div>
 

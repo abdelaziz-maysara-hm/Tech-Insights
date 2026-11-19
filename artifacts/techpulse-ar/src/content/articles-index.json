@@ -1,5 +1,639 @@
 [
   {
+    "id": "art-p8-013",
+    "slug": "ztna-fortigate-forticlient-ems",
+    "title": {
+      "ar": "تطبيق ZTNA باستخدام FortiGate وFortiClient EMS: من التصميم إلى أول سياسة",
+      "en": "Deploying ZTNA with FortiGate and FortiClient EMS"
+    },
+    "excerpt": {
+      "ar": "كيف يعمل ZTNA عند Fortinet: دور EMS والشهادات ووسوم الحالة الأمنية، إعداد ZTNA Server وسياسة الوصول على FortiGate، وخطة الانتقال من VPN.",
+      "en": "How Fortinet ZTNA fits together: EMS certificates and posture tags, the FortiGate access proxy and policy, a first protected app, and a sane migration path off VPN."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "vpn-remote",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1728756666032-d0b5552b6384?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8Y3liZXJzZWN1cml0eSUyMG5ldHdvcmslMjBzaGllbGR8ZW58MXwwfHx8MTc4NTg3MjE0N3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ztna",
+      "zero-trust",
+      "fortigate",
+      "forticlient-ems",
+      "remote-access"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [
+      "zero-trust",
+      "vpn"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "fortinet"
+    ],
+    "productIds": [
+      "fortigate",
+      "forticlient-ems"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "reviewed"
+  },
+  {
+    "id": "art-p8-012",
+    "slug": "wazuh-sysmon-free-soc-lab",
+    "title": {
+      "ar": "مختبر SOC مجاني في البيت باستخدام Wazuh وSysmon",
+      "en": "Build a Free Home SOC Lab with Wazuh and Sysmon"
+    },
+    "excerpt": {
+      "ar": "خطوات بناء مختبر مراقبة أمنية مجاني: خادم Wazuh، وكيل على Windows مع Sysmon، توليد أحداث هجوم آمنة، وقراءة التنبيهات كما يفعل محلل SOC.",
+      "en": "Stand up Wazuh, ship Sysmon telemetry from a Windows VM, fire safe attack simulations and practise triage like a SOC analyst, all on free software."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "wazuh",
+      "sysmon",
+      "soc",
+      "lab",
+      "siem",
+      "detection"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "siem-soc",
+      "threat-detection",
+      "endpoint-security"
+    ],
+    "contentType": "how-to",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "reviewed"
+  },
+  {
+    "id": "art-p8-011",
+    "slug": "wazuh-custom-rule-brute-force",
+    "title": {
+      "ar": "كتابة قاعدة Wazuh مخصصة لكشف هجمات التخمين (Brute Force)",
+      "en": "Writing a Custom Wazuh Rule to Catch Brute-Force Logins"
+    },
+    "excerpt": {
+      "ar": "كيف تكتب قاعدة ترابط في Wazuh لكشف محاولات تخمين كلمات المرور على SSH وRDP بعتبة تناسب بيئتك، وتختبرها بـwazuh-logtest، وتربطها بالاستجابة التلقائية.",
+      "en": "Build correlation rules in Wazuh that flag SSH and RDP password guessing at thresholds that fit your environment, test them with wazuh-logtest and wire them to active response."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "wazuh",
+      "detection-engineering",
+      "brute-force",
+      "ssh",
+      "rdp",
+      "siem"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "siem-soc",
+      "threat-detection"
+    ],
+    "contentType": "how-to",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "reviewed"
+  },
+  {
+    "id": "art-p8-010",
+    "slug": "palo-alto-nat-types-examples",
+    "title": {
+      "ar": "أنواع NAT في Palo Alto بأمثلة عملية: Source وDestination وU-Turn",
+      "en": "Palo Alto NAT Explained with Worked Examples (SNAT, DNAT, U-Turn)"
+    },
+    "excerpt": {
+      "ar": "شرح أنواع NAT في PAN-OS بأمثلة: DIPP للإنترنت، Static للخوادم، Destination NAT للنشر، وU-Turn، مع القاعدة الذهبية لربط NAT بسياسة الأمان.",
+      "en": "Worked PAN-OS NAT examples: DIPP for outbound, static and destination NAT for published servers, U-turn hairpinning, and the pre-NAT/post-NAT rule that trips everyone up."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1614064548237-096f735f344f?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8ZmlyZXdhbGwlMjBuZXR3b3JrJTIwc2VjdXJpdHl8ZW58MXwwfHx8MTc4NTg3MjEyN3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "palo-alto",
+      "pan-os",
+      "nat",
+      "firewall",
+      "dnat",
+      "snat"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [
+      "firewalls",
+      "network-security"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "palo-alto"
+    ],
+    "productIds": [
+      "pan-os"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "reviewed"
+  },
+  {
+    "id": "art-p8-009",
+    "slug": "network-security-engineer-roadmap-2027",
+    "title": {
+      "ar": "خارطة طريق مهندس أمن الشبكات 2027: ماذا تتعلم وبأي ترتيب",
+      "en": "Network Security Engineer Roadmap for 2027: What to Learn, in Order"
+    },
+    "excerpt": {
+      "ar": "خطة تعلم عملية على مراحل لمن يريد العمل كمهندس أمن شبكات: الأساسيات، جدار ناري واحد بعمق، VPN والهوية، السجلات، السحابة والأتمتة، مع مختبرات وشهادات اختيارية.",
+      "en": "A staged, lab-first learning plan for aspiring network security engineers: fundamentals, one firewall in depth, VPN and identity, logging, cloud and automation, plus where certifications fit."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YXVkaXQlMjBkb2N1bWVudHMlMjBvZmZpY2V8ZW58MXwwfHx8MTc4NTg5ODQ2Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "career",
+      "roadmap",
+      "network-security",
+      "certifications",
+      "learning-path"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [
+      "network-security",
+      "firewalls"
+    ],
+    "contentType": "guide",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "reviewed"
+  },
+  {
+    "id": "art-p8-008",
+    "slug": "nessus-essentials-first-scan",
+    "title": {
+      "ar": "أول فحص ثغرات باستخدام Nessus Essentials: من التثبيت إلى قراءة التقرير",
+      "en": "Your First Vulnerability Scan with Nessus Essentials"
+    },
+    "excerpt": {
+      "ar": "تثبيت Nessus Essentials المجاني، الفرق بين الفحص العادي والفحص بصلاحيات، تشغيل أول فحص بأمان، وقراءة النتائج وترتيب الإصلاح.",
+      "en": "Install the free Nessus Essentials scanner, run an unauthenticated and a credentialed scan on lab hosts, and turn the results into a sensible fix list."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1562813733-b31f71025d54?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8aGFja2VyJTIwY29kZSUyMHRlcm1pbmFsJTIwZGFya3xlbnwxfDB8fHwxNzg1ODk4NDYzfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "nessus",
+      "vulnerability-scanning",
+      "tenable",
+      "credentialed-scan",
+      "lab"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "vulnerability-management"
+    ],
+    "contentType": "how-to",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "reviewed"
+  },
+  {
+    "id": "art-p8-007",
+    "slug": "mitre-attack-to-detections",
+    "title": {
+      "ar": "من MITRE ATT&CK إلى قواعد كشف فعلية: منهج عملي لفرق SOC",
+      "en": "Turning MITRE ATT&CK into Working Detections: A Practical Method"
+    },
+    "excerpt": {
+      "ar": "كيف تختار تقنيات ATT&CK المهمة لبيئتك، وتربطها بمصادر السجلات، وتكتب قاعدة كشف وتختبرها، وتتابع التغطية دون أن تتحول المصفوفة إلى لوحة ألوان بلا معنى.",
+      "en": "Pick the ATT&CK techniques that matter to you, map them to the logs you actually have, write and test detections, and track coverage honestly instead of colouring in a matrix."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "concepts",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "mitre-attack",
+      "detection-engineering",
+      "soc",
+      "sigma",
+      "siem"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "siem-soc",
+      "threat-detection"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "reviewed"
+  },
+  {
+    "id": "art-p8-006",
+    "slug": "microsoft-365-security-settings",
+    "title": {
+      "ar": "15 إعدادًا أمنيًا في Microsoft 365 يجب ضبطها الآن",
+      "en": "15 Microsoft 365 Security Settings to Check Today"
+    },
+    "excerpt": {
+      "ar": "قائمة عملية بخمسة عشر إعدادًا في Microsoft 365 تغلق أكثر طرق الاختراق شيوعًا: الهوية والمسؤولين، البريد، المشاركة، والتدقيق، مع مكان كل إعداد.",
+      "en": "Fifteen Microsoft 365 settings that shut the most common doors attackers use, grouped by identity, admin roles, email, sharing and auditing, with where to find each one."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8ZW1haWwlMjBpbmJveCUyMHNlY3VyaXR5fGVufDF8MHx8fDE3ODU4NzIxNDh8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "microsoft-365",
+      "entra-id",
+      "exchange-online",
+      "hardening",
+      "defender-for-office-365"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "iam-pam",
+      "email-security",
+      "cloud"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "reviewed"
+  },
+  {
+    "id": "art-p8-005",
+    "slug": "ipsec-site-to-site-fortigate-palo-alto",
+    "title": {
+      "ar": "نفق IPsec بين FortiGate وPalo Alto: إعداد كامل واستكشاف الأعطال",
+      "en": "Site-to-Site IPsec Between FortiGate and Palo Alto: Build and Troubleshoot"
+    },
+    "excerpt": {
+      "ar": "إعداد نفق IPsec IKEv2 قائم على التوجيه بين FortiGate وPalo Alto: جدول المعاملات المشتركة، الإعداد على الطرفين، Proxy-ID، وأوامر التشخيص.",
+      "en": "A route-based IKEv2 tunnel between FortiOS and PAN-OS: a shared parameter sheet, both configurations, proxy-ID pitfalls and the debug commands that find the fault."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "vpn-remote",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1603985529862-9e12198c9a60?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8dnBuJTIwcHJpdmFjeSUyMG5ldHdvcmt8ZW58MXwwfHx8MTc4NTg3MjEzNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ipsec",
+      "site-to-site",
+      "fortigate",
+      "palo-alto",
+      "ikev2",
+      "vpn"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [
+      "vpn",
+      "firewalls"
+    ],
+    "contentType": "how-to",
+    "vendorIds": [
+      "fortinet",
+      "palo-alto"
+    ],
+    "productIds": [
+      "fortigate",
+      "pan-os"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "reviewed"
+  },
+  {
+    "id": "art-p8-004",
+    "slug": "fortigate-initial-setup-enterprise-guide",
+    "title": {
+      "ar": "إعداد FortiGate من الصفر لبيئة الشركات: خطوة بخطوة",
+      "en": "FortiGate Initial Setup for Production: A Step-by-Step Build"
+    },
+    "excerpt": {
+      "ar": "من أول دخول إلى أول سياسة: تحديث FortiOS، تأمين واجهة الإدارة، الواجهات والمناطق، التوجيه، السياسات، ملفات الحماية، السجلات والنسخ الاحتياطي.",
+      "en": "Take a new FortiGate from factory defaults to production: firmware path, admin lockdown, interfaces and zones, routing, policy design, logging and backups."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1683322499436-f4383dd59f5a?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMGZpcmV3YWxsJTIwc2VydmVyfGVufDF8MHx8fDE3ODU4NzIxMjl8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "fortigate",
+      "fortios",
+      "firewall",
+      "hardening",
+      "initial-setup"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [
+      "firewalls",
+      "network-security"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "fortinet"
+    ],
+    "productIds": [
+      "fortigate"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "reviewed"
+  },
+  {
+    "id": "art-p8-003",
+    "slug": "firewall-misconfigurations-audit",
+    "title": {
+      "ar": "أخطاء إعداد الجدران النارية الأكثر شيوعًا وكيف تراجعها",
+      "en": "Common Firewall Misconfigurations and How to Audit for Them"
+    },
+    "excerpt": {
+      "ar": "عشرة أخطاء نجدها في مراجعات الجدران النارية: قواعد any-any، قواعد ظل وغير مستخدمة، إدارة مكشوفة، غياب التسجيل وتصفية الخروج، ومنهج مراجعة ربع سنوي عملي.",
+      "en": "Ten firewall mistakes that show up in almost every audit, from any-any rules and exposed admin interfaces to missing egress filtering, plus a quarterly review routine that catches them."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YXVkaXQlMjBkb2N1bWVudHMlMjBvZmZpY2V8ZW58MXwwfHx8MTc4NTg5ODQ2Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "firewall",
+      "audit",
+      "misconfiguration",
+      "rulebase",
+      "hardening"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "networking"
+    ],
+    "topicIds": [
+      "firewalls",
+      "network-security"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "fortinet",
+      "palo-alto"
+    ],
+    "productIds": [
+      "fortigate",
+      "pan-os"
+    ],
+    "technicalStatus": "needs-review",
+    "translationStatus": "reviewed"
+  },
+  {
+    "id": "art-p8-002",
+    "slug": "entra-conditional-access-baseline",
+    "title": {
+      "ar": "سياسات Conditional Access الأساسية في Entra ID: البداية الصحيحة",
+      "en": "A Baseline Conditional Access Policy Set for Microsoft Entra ID"
+    },
+    "excerpt": {
+      "ar": "مجموعة السياسات الأساسية التي تبدأ بها أي مؤسسة في Entra ID: MFA للمسؤولين والجميع، حظر المصادقة القديمة، حسابات الطوارئ، ووضع Report-only قبل التفعيل.",
+      "en": "The Conditional Access policies every Entra ID tenant should start with: MFA for admins and users, legacy auth blocked, Azure management covered, break-glass accounts and a safe rollout."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "identity",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "entra-id",
+      "conditional-access",
+      "mfa",
+      "microsoft-365",
+      "identity",
+      "zero-trust"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "iam-pam",
+      "zero-trust"
+    ],
+    "contentType": "guide",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "reviewed"
+  },
+  {
+    "id": "art-p8-001",
+    "slug": "company-email-spam-spf-dmarc-diagnosis",
+    "title": {
+      "ar": "لماذا يصل بريد شركتك إلى Spam؟ تشخيص SPF وDKIM وDMARC خطوة بخطوة",
+      "en": "Why Your Company Email Goes to Spam: Diagnosing SPF, DKIM and DMARC"
+    },
+    "excerpt": {
+      "ar": "طريقة منهجية لمعرفة سبب وصول رسائل شركتك إلى البريد المزعج: قراءة رأس Authentication-Results، فحص SPF وDKIM وDMARC، السمعة، ومتطلبات Gmail وMicrosoft.",
+      "en": "A methodical way to find out why your mail lands in junk: read Authentication-Results, test SPF, DKIM and DMARC alignment, check reputation, and meet Gmail and Outlook sender rules."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1683117927786-f146451082fb?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8M3x8ZW1haWwlMjBpbmJveCUyMHNlY3VyaXR5fGVufDF8MHx8fDE3ODU4NzIxNDh8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "email",
+      "spf",
+      "dkim",
+      "dmarc",
+      "deliverability",
+      "troubleshooting"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "troubleshooting"
+    ],
+    "topicIds": [
+      "email-security",
+      "dns"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "reviewed"
+  },
+  {
     "id": "art-p7-012",
     "slug": "windows-security-event-ids-soc",
     "title": {
@@ -250,12 +884,12 @@
     "id": "art-p7-007",
     "slug": "exploited-vulnerabilities-roundup-august-2026",
     "title": {
-      "ar": "ملخص الثغرات المستغلة — أغسطس 2026: SonicWall وN-central وAzure",
-      "en": "Exploited Vulnerabilities Roundup — August 2026"
+      "ar": "ملخص أمني لصيف 2026: SonicWall وN-central وAzure وRails",
+      "en": "Summer 2026 Security Roundup: SonicWall, N-central, Azure and Rails"
     },
     "excerpt": {
-      "ar": "خمسة أحداث أمنية من أوائل أغسطس 2026 في مكان واحد: ما حدث، ومن يتأثر، وماذا تفعل الآن، مع الدروس المشتركة لفرق تقنية المعلومات.",
-      "en": "Five security events from early August 2026 in one place: what happened, who is affected, what to do now, and the shared lessons for IT teams."
+      "ar": "خمسة أحداث أمنية من يوليو وأغسطس 2026: ثغرتان مستغلتان في SonicWall وN-central، حملة رش كلمات مرور عبر Azure CLI، وثغرتان أُصلحتا قبل الاستغلال في Cosmos DB وRails.",
+      "en": "Two actively exploited bugs (SonicWall SMA1000, N-able N-central), a huge Azure CLI password spray, and two serious flaws fixed before exploitation (Cosmos DB, Rails), with what to do about each."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "news-updates",
@@ -291,7 +925,7 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "reviewed"
   },
   {
     "id": "art-p7-006",
@@ -673,11 +1307,11 @@
     "slug": "palo-alto-security-policy-basics",
     "title": {
       "ar": "أساسيات Security Policy في Palo Alto: القواعد والترتيب والمناطق",
-      "en": "Palo Alto Security Policy Basics: Rules, Order and Zones"
+      "en": "Palo Alto Security Policy Basics: Zones, Rule Order and App-ID"
     },
     "excerpt": {
       "ar": "الترتيب الصحيح خطوة بخطوة لبناء سياسة أمان قوية: المناطق، App-ID، User-ID، Security Profiles، وأشهر الأخطاء التي تضعف الحماية.",
-      "en": "The correct step-by-step order for building a strong security policy: zones, App-ID, User-ID, Security Profiles, and the most common mistakes that weaken protection."
+      "en": "How PAN-OS evaluates security rules, a rulebase layout that stays readable, App-ID done right, and the mistakes that quietly open your firewall."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -689,7 +1323,7 @@
       "avatar": ""
     },
     "date": "2022-06-15",
-    "readTime": 10,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1614064548237-096f735f344f?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8ZmlyZXdhbGwlMjBuZXR3b3JrJTIwc2VjdXJpdHl8ZW58MXwwfHx8MTc4NTg3MjEyN3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "palo-alto",
@@ -711,7 +1345,7 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "reviewed"
   },
   {
     "id": "art-gen-0004",
@@ -1414,11 +2048,11 @@
     "slug": "vlan-basics-why-segment",
     "title": {
       "ar": "أساسيات VLAN: لماذا وكيف تقسّم الشبكة",
-      "en": "VLAN Basics: Why and How to Segment a Network"
+      "en": "VLANs Explained: Segmenting a Flat Network Without the Headaches"
     },
     "excerpt": {
       "ar": "خطوات إعداد VLAN تفصيلية (Access/Trunk، Inter-VLAN Routing)، وأشهر 3 أخطاء بتضيّع فايدة التقسيم بالكامل.",
-      "en": "Detailed VLAN setup steps (Access/Trunk, Inter-VLAN Routing), and the 3 most common mistakes that waste segmentation's entire benefit."
+      "en": "Why a flat network turns one infected laptop into a company-wide incident, how VLANs and trunks work, a practical segmentation plan, and the mistakes that undo it."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -1430,7 +2064,7 @@
       "avatar": ""
     },
     "date": "2025-03-06",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8bmV0d29yayUyMHN3aXRjaCUyMGNhYmxlc3xlbnwxfDB8fHwxNzg1ODcyMTUwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "vlan",
@@ -1450,7 +2084,7 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "reviewed"
   },
   {
     "id": "art-gen-0022",
@@ -1845,11 +2479,11 @@
     "slug": "windows-event-viewer-security-logs",
     "title": {
       "ar": "قراءة سجلات الأمان في Event Viewer بذكاء",
-      "en": "Reading Windows Security Logs in Event Viewer Effectively"
+      "en": "Reading the Windows Security Log in Event Viewer: What to Look For"
     },
     "excerpt": {
       "ar": "شرح تفصيلي لأهم 5 Event IDs، ليه 1102 أقوى علامة تحذير على الإطلاق، واستراتيجية مراقبة عملية.",
-      "en": "A detailed breakdown of the 5 key Event IDs, why 1102 is the strongest warning sign of all, and a practical monitoring strategy."
+      "en": "Cut through the noise of the Windows Security log: the event IDs that matter, filters and custom views that save time, and a short daily routine for admins without a SIEM."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -1861,7 +2495,7 @@
       "avatar": ""
     },
     "date": "2025-09-22",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1740560051549-cc6799220d48?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NHx8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "event-viewer",
@@ -1879,7 +2513,7 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "reviewed"
   },
   {
     "id": "art-gen-0032",
@@ -3030,11 +3664,11 @@
     "slug": "spf-dkim-dmarc-email-basics",
     "title": {
       "ar": "أساسيات SPF وDKIM وDMARC لمنع انتحال نطاق بريدك",
-      "en": "SPF, DKIM and DMARC Basics: Stopping Email Domain Spoofing"
+      "en": "SPF, DKIM and DMARC Explained: Stop People Spoofing Your Domain"
     },
     "excerpt": {
       "ar": "إزاي كل سجل بيشتغل تقنيًا بالتفصيل، وليه البدء بوضع مراقبة DMARC (p=none) أهم خطوة لتجنب كارثة عملية.",
-      "en": "How each record technically works in detail, and why starting DMARC in monitor mode (p=none) is the most important step to avoid a practical disaster."
+      "en": "Why email lets anyone claim to be you, what SPF, DKIM and DMARC each prove, how alignment ties them together, and the order to deploy them safely."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -3046,7 +3680,7 @@
       "avatar": ""
     },
     "date": "2026-02-02",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1683117927786-f146451082fb?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8M3x8ZW1haWwlMjBpbmJveCUyMHNlY3VyaXR5fGVufDF8MHx8fDE3ODU4NzIxNDh8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "email-security",
@@ -3065,7 +3699,7 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "reviewed"
   },
   {
     "id": "art-gen-0060",
@@ -3799,11 +4433,11 @@
     "slug": "kerberos-authentication-explained",
     "title": {
       "ar": "فهم Kerberos: كيف تعمل المصادقة فعليًا في Active Directory",
-      "en": "Understanding Kerberos: How Authentication Actually Works in Active Directory"
+      "en": "Kerberos in Active Directory, Explained for Admins and Defenders"
     },
     "excerpt": {
       "ar": "تسلسل العملية خطوة بخطوة، ليه مزامنة الوقت حرجة جدًا، وأشهر الهجمات المتقدمة (Pass-the-Ticket وGolden Ticket) للوعي.",
-      "en": "The step-by-step process, why time synchronization is critical, and the most common advanced attacks (Pass-the-Ticket and Golden Ticket) for awareness."
+      "en": "How Kerberos tickets work in Active Directory (AS, TGS and AP exchanges), why clocks and SPNs matter, and which attacks abuse it, with the events and settings that defend it."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -3815,7 +4449,7 @@
       "avatar": ""
     },
     "date": "2026-06-02",
-    "readTime": 11,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "kerberos",
@@ -3839,7 +4473,7 @@
       "active-directory"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "reviewed"
   },
   {
     "id": "art-gen-0087",
@@ -4141,11 +4775,11 @@
     "slug": "how-siem-actually-works",
     "title": {
       "ar": "كيف يعمل SIEM فعليًا: الفرق بين مجرد تجميع السجلات والقيمة الحقيقية",
-      "en": "How SIEM Actually Works: The Difference Between Simple Log Collection and Real Value"
+      "en": "How a SIEM Works: From Raw Logs to an Alert Worth Answering"
     },
     "excerpt": {
       "ar": "5 مكونات أساسية (جمع، تطبيع، ربط، تنبيه، تقارير)، وسيناريو Impossible Travel يوضّح القيمة الحقيقية.",
-      "en": "5 core components (collection, normalization, correlation, alerting, reporting), and an Impossible Travel scenario illustrating real value."
+      "en": "What a SIEM actually does between collecting logs and paging an analyst: parsing, normalisation, correlation and tuning, with a worked example of a real detection."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -4157,7 +4791,7 @@
       "avatar": ""
     },
     "date": "2026-06-11",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "siem",
@@ -4177,7 +4811,7 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "reviewed"
   },
   {
     "id": "art-gen-0096",
@@ -4833,14 +5467,14 @@
     "id": "art-gen-0125",
     "slug": "printer-not-working-fixes",
     "title": {
-      "ar": "الطابعة مش بتشتغل أو مش بتطبع صح؟ الحلول الشائعة",
-      "en": "Printer Not Working or Printing Correctly? Common Fixes"
+      "ar": "استكشاف أعطال الطباعة في الشركات وتأمينها: Spooler والتعريفات والطابعات الشبكية",
+      "en": "Office Printing for IT Teams: Spooler, Drivers, Network Printers and PrintNightmare"
     },
     "excerpt": {
-      "ar": "مشاكل الطباعة من أكتر المواقف اللي بتضيّع وقت، خصوصًا في لحظة مستعجلة. إليك الحلول الشائعة لأشهر مشاكل الطابعات المنزلية والمكتبية.",
-      "en": "Printer problems are among the most time-wasting situations, especially when you're in a hurry. Here are common fixes for the most frequent home and office printer issues."
+      "ar": "منهج لمحترفي الدعم: تحديد نطاق العطل، خدمة Print Spooler، الطابعات الشبكية، سياسات Point and Print بعد PrintNightmare، وتعطيل الخدمة حيث لا حاجة لها.",
+      "en": "A support-desk method for office printing problems that also closes the security gaps: spooler fixes, network printers, Point and Print after PrintNightmare, and where to disable the service."
     },
-    "categoryId": "howto",
+    "categoryId": "windows",
     "subcategoryId": "guides-tips",
     "author": {
       "name": {
@@ -4849,15 +5483,34 @@
       },
       "avatar": ""
     },
-    "date": "2026-07-29",
-    "readTime": 5,
+    "date": "2026-11-19",
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
-      "printer",
+      "printing",
+      "print-spooler",
+      "printnightmare",
       "troubleshooting",
-      "guide"
+      "windows-server"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "translationStatus": "reviewed",
+    "domainIds": [
+      "infrastructure",
+      "troubleshooting"
+    ],
+    "topicIds": [
+      "windows-server",
+      "network-troubleshooting"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [
+      "windows-server"
+    ],
+    "technicalStatus": "needs-review"
   }
 ]

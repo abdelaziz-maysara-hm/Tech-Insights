@@ -5,6 +5,7 @@ import { Search as SearchIcon } from 'lucide-react';
 import { useAllArticles } from '@/hooks/useAllArticles';
 import { getSubcategories } from '@/data/subcategories';
 import { Category } from '@/data/mockData';
+import { ACTIVE_CATEGORIES } from '@/lib/activeCategories';
 
 export default function Articles() {
   const { language, t } = useLanguage();
@@ -13,7 +14,7 @@ export default function Articles() {
   const [activeSubTab, setActiveSubTab] = useState<string>('all');
   const [search, setSearch] = useState('');
 
-  const categories = ['all', 'cybersecurity', 'mobile', 'laptops', 'howto', 'ai', 'reviews', 'windows'];
+  const categories: string[] = ['all', ...ACTIVE_CATEGORIES];
   const subcategories = activeTab !== 'all' ? getSubcategories(activeTab as Category) : [];
 
   useEffect(() => {

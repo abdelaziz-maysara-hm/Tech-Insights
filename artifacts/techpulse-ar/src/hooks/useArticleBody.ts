@@ -1,28 +1,35 @@
 import { useEffect, useState } from 'react';
-import { Article } from '@/data/mockData';
+import { Article, BilingualText } from '@/data/mockData';
+import articlesIndexJson from '@/content/articles-index.json';
+
+const index = articlesIndexJson as unknown as Omit<Article, 'body'>[];
 
 /**
- * Fetches ONE article's full data (including body) by slug, via a dynamic
- * import of the full articles.json. Vite code-splits this into its own
- * chunk, so the body text of every article is not part of the main bundle
- * or any listing page's bundle -- only a visitor who actually opens an
- * article detail page downloads the full content file, once.
+ * Loads ONE article: metadata from the (already bundled) article index and
+ * the body from /content/articles/<slug>.json, a small per-article file
+ * written at build time by scripts/generate-article-bodies.mjs. Visitors no
+ * longer download every article's body to read one.
  */
 export function useArticleBody(slug: string | undefined) {
   const [article, setArticle] = useState<Article | null | undefined>(undefined);
 
   useEffect(() => {
-    if (!slug) {
+    const meta = slug ? index.find((a) => a.slug === slug) : undefined;
+    if (!slug || !meta) {
       setArticle(null);
       return;
     }
     let cancelled = false;
     setArticle(undefined);
-    import('@/content/articles.json').then((mod) => {
-      if (cancelled) return;
-      const all = mod.default as unknown as Article[];
-      setArticle(all.find((a) => a.slug === slug) ?? null);
-    });
+    const base = (import.meta.env.BASE_URL || '/').replace(/\/?$/, '/');
+    fetch(`${base}content/articles/${encodeURIComponent(slug)}.json`)
+      .then((res) => (res.ok ? res.json() : Promise.reject(new Error(String(res.status)))))
+      .then((data: { body: BilingualText }) => {
+        if (!cancelled) setArticle({ ...(meta as Article), body: data.body });
+      })
+      .catch(() => {
+        if (!cancelled) setArticle(null);
+      });
     return () => {
       cancelled = true;
     };

@@ -31,7 +31,7 @@ export const PLAYLISTS = [
       en: 'Start with FortiGate policy and routing basics, then move to remote access. Note that FortiOS 7.6.3 removed SSL VPN tunnel mode, so the IPsec migration video follows the SSL VPN one directly. The last section covers Palo Alto NAT, the most common source of configuration mistakes.',
     },
     pillarArticle: 'enterprise-network-security-guide',
-    relatedArticles: ['fortios-ssl-vpn-tunnel-mode-removal-ipsec-migration', 'forticlient-error-7200-fix', 'fortigate-ssl-vpn-checklist', 'palo-alto-security-policy-basics', 'forcepoint-ssl-vpn-radius', 'zero-trust-explained-practically'],
+    relatedArticles: ['fortigate-initial-setup-enterprise-guide', 'palo-alto-nat-types-examples', 'ipsec-site-to-site-fortigate-palo-alto', 'ztna-fortigate-forticlient-ems', 'firewall-misconfigurations-audit', 'fortios-ssl-vpn-tunnel-mode-removal-ipsec-migration', 'forticlient-error-7200-fix', 'fortigate-ssl-vpn-checklist', 'palo-alto-security-policy-basics', 'forcepoint-ssl-vpn-radius', 'zero-trust-explained-practically'],
     externalPlaylists: [],
   },
   {
@@ -63,7 +63,7 @@ export const PLAYLISTS = [
       en: 'Build a small lab (Wazuh plus a Windows host running Sysmon) and watch in order: the SOC role, log collection, reading events and mapping them to ATT&CK, and finally responding to a real ransomware incident.',
     },
     pillarArticle: 'soc-incident-response-guide',
-    relatedArticles: ['windows-security-event-ids-soc', 'how-siem-actually-works', 'log-retention-siem-basics', 'ransomware-first-hour-response', 'incident-response-tabletop-exercises', 'how-edr-actually-works'],
+    relatedArticles: ['wazuh-sysmon-free-soc-lab', 'wazuh-custom-rule-brute-force', 'mitre-attack-to-detections', 'windows-security-event-ids-soc', 'how-siem-actually-works', 'log-retention-siem-basics', 'ransomware-first-hour-response', 'incident-response-tabletop-exercises', 'how-edr-actually-works'],
     externalPlaylists: [],
   },
   {
@@ -79,7 +79,7 @@ export const PLAYLISTS = [
       en: 'Identity is the new security perimeter. The playlist starts with Arabic basics, explains Kerberos as a prerequisite for Kerberoasting, covers defence with tiering, and ends with cloud identity through Conditional Access.',
     },
     pillarArticle: 'active-directory-identity-security-guide',
-    relatedArticles: ['kerberoasting-detection-prevention', 'kerberos-authentication-explained', 'active-directory-complete-setup-guide', 'group-policy-basics-for-sysadmins', 'windows-local-admin-password-rotation', '2fa-practical-guide'],
+    relatedArticles: ['entra-conditional-access-baseline', 'microsoft-365-security-settings', 'kerberoasting-detection-prevention', 'kerberos-authentication-explained', 'active-directory-complete-setup-guide', 'group-policy-basics-for-sysadmins', 'windows-local-admin-password-rotation', '2fa-practical-guide'],
     externalPlaylists: [],
   },
   {
@@ -95,7 +95,7 @@ export const PLAYLISTS = [
       en: 'The playlist covers both sides of protection: the endpoint platform (EDR/EPP) that prevents and detects, and the vulnerability programme that shrinks the attack surface. The Kaspersky videos complement our KES 12 exclusions article.',
     },
     pillarArticle: 'endpoint-vulnerability-management-guide',
-    relatedArticles: ['kes-12-exclusions-kaspersky-security-center', 'kaspersky-security-center-tagging', 'how-edr-actually-works', 'understanding-cvss-score', 'vulnerability-scanning-vs-penetration-testing', 'windows-patch-management-strategy'],
+    relatedArticles: ['nessus-essentials-first-scan', 'kes-12-exclusions-kaspersky-security-center', 'kaspersky-security-center-tagging', 'how-edr-actually-works', 'understanding-cvss-score', 'vulnerability-scanning-vs-penetration-testing', 'windows-patch-management-strategy'],
     externalPlaylists: [],
   },
   {
@@ -111,7 +111,7 @@ export const PLAYLISTS = [
       en: 'Watch this playlist, then check your own domain with the site\'s SPF and DMARC analyzers. The order is deliberate: concepts, policies, Microsoft 365 implementation, then the SOC analyst view.',
     },
     pillarArticle: 'enterprise-email-security-guide',
-    relatedArticles: ['dmarc-rollout-none-to-reject', 'spf-dkim-dmarc-email-basics', 'email-security-gateway-basics', 'phishing-spot-before-click', 'owasp-top-10-overview', 'web-application-firewall-waf-guide'],
+    relatedArticles: ['company-email-spam-spf-dmarc-diagnosis', 'dmarc-rollout-none-to-reject', 'spf-dkim-dmarc-email-basics', 'email-security-gateway-basics', 'phishing-spot-before-click', 'owasp-top-10-overview', 'web-application-firewall-waf-guide'],
     externalPlaylists: [],
     tools: ['spf-record-analyzer', 'dmarc-record-analyzer'],
   },
@@ -128,7 +128,7 @@ export const PLAYLISTS = [
       en: 'You do not need every certification. The suggested order: networking (CCNA), then Security+, then Linux, then specialise. The full CCNA playlists are linked at the bottom of the page.',
     },
     pillarArticle: 'enterprise-network-security-guide',
-    relatedArticles: ['vulnerability-scanning-vs-penetration-testing', 'authentication-vs-authorization-explained', 'tls-handshake-explained'],
+    relatedArticles: ['network-security-engineer-roadmap-2027', 'vulnerability-scanning-vs-penetration-testing', 'authentication-vs-authorization-explained', 'tls-handshake-explained'],
     externalPlaylists: ['PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ', 'PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P'],
   },
 ];

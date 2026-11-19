@@ -118,8 +118,14 @@ function Router() {
       <ContentRedirect />
       <GlobalSEO />
       <AnalyticsPageViews />
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:start-2 focus:z-[100] focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground"
+      >
+        Skip to content / تخطَّ إلى المحتوى
+      </a>
       <Navbar />
-      <main className="flex-1">
+      <main id="main-content" tabIndex={-1} className="flex-1 focus:outline-none">
         <Suspense fallback={<RouteFallback />}>
           <Switch>
             <Route path="/" component={Home} />
