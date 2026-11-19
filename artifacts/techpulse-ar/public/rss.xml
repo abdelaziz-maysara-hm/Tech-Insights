@@ -354,11 +354,11 @@
       <category>vpn</category>
     </item>
     <item>
-      <title>OWASP Top 10: نظرة عامة على أخطر ثغرات تطبيقات الويب</title>
+      <title>OWASP Top 10 إصدار 2025: أخطر عشر مخاطر في تطبيقات الويب وإزاي تتعامل معاها</title>
       <link>https://netsecatlas.com/ar/article/owasp-top-10-overview</link>
       <guid isPermaLink="true">https://netsecatlas.com/ar/article/owasp-top-10-overview</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>أهم الفئات بالتفصيل (Broken Access Control، Injection، Cryptographic Failures)، وليه القائمة بتتغيّر وإزاي تستخدمها عمليًا.</description>
+      <description>شرح عملي لقائمة OWASP Top 10:2025 بالترتيب، من فشل التحكم في الوصول لحد سوء التعامل مع الحالات الاستثنائية، مع مثال حقن SQL وإزاي تستخدم القائمة كأداة أولويات مش كـ Checklist.</description>
       <category>owasp</category>
       <category>web-security</category>
       <category>secure-design</category>

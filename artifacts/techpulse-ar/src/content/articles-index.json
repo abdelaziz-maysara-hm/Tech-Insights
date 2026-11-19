@@ -752,11 +752,11 @@
     "slug": "kerberoasting-detection-prevention",
     "title": {
       "ar": "هجوم Kerberoasting: كيف يعمل وكيف تكشفه وتمنعه",
-      "en": "Kerberoasting: How It Works, How to Detect and Prevent It"
+      "en": "Kerberoasting Explained: Spotting Service-Ticket Abuse and Shutting It Down"
     },
     "excerpt": {
       "ar": "لماذا تستطيع أي حساب في النطاق مهاجمة حسابات الخدمة، وكيف تكشف الهجوم بالحدث 4769، وكيف تمنعه بـgMSA وكلمات مرور طويلة وتشفير AES.",
-      "en": "Why any domain account can attack service accounts, how to detect it with event 4769, and how to prevent it with gMSAs, long passwords and AES."
+      "en": "How any domain user can request service tickets and crack service-account passwords offline, why RC4 makes it easier, how to detect it with event 4769 and honey SPNs, and the fixes that make it impractical (gMSA, long passwords, AES)."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -768,7 +768,7 @@
       "avatar": ""
     },
     "date": "2026-11-19",
-    "readTime": 4,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "kerberos",
@@ -795,18 +795,19 @@
       "active-directory"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p7-009",
     "slug": "fortios-ssl-vpn-tunnel-mode-removal-ipsec-migration",
     "title": {
       "ar": "إلغاء SSL VPN Tunnel Mode في FortiOS 7.6.3: خطة الترحيل إلى IPsec VPN",
-      "en": "SSL VPN Tunnel Mode Removed in FortiOS 7.6.3: A Migration Plan to IPsec VPN"
+      "en": "FortiOS 7.6.3 Drops SSL VPN Tunnel Mode: Planning Your Move to IPsec"
     },
     "excerpt": {
       "ar": "ما الذي تغيّر في FortiOS 7.6.3، ولماذا يجب الترحيل قبل الترقية، وكيف تنقل المستخدمين والمجموعات والسياسات إلى IPsec عبر TCP 443 خطوة بخطوة.",
-      "en": "What changed in FortiOS 7.6.3, why you must migrate before upgrading, and how to move users, groups and policies to IPsec over TCP 443 step by step."
+      "en": "What Fortinet removed in FortiOS 7.6.3, why IPsec over TCP 443 is the replacement, and a step-by-step migration that builds IPsec before the upgrade so remote users never lose access."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "vpn-remote",
@@ -818,7 +819,7 @@
       "avatar": ""
     },
     "date": "2026-11-19",
-    "readTime": 4,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1603985529862-9e12198c9a60?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8dnBuJTIwcHJpdmFjeSUyMG5ldHdvcmt8ZW58MXwwfHx8MTc4NTg3MjEzNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "fortinet",
@@ -844,7 +845,8 @@
       "fortigate"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p7-008",
@@ -949,11 +951,11 @@
     "slug": "dmarc-rollout-none-to-reject",
     "title": {
       "ar": "تطبيق DMARC من p=none إلى p=reject: خطة مرحلية",
-      "en": "Rolling Out DMARC from p=none to p=reject: A Phased Plan"
+      "en": "DMARC from p=none to p=reject Without Breaking Your Own Email"
     },
     "excerpt": {
       "ar": "خطة عملية من أربع مراحل: الجرد والمراقبة، إصلاح المحاذاة، quarantine بنسبة تدريجية، ثم reject، مع أمثلة سجلات DNS وأخطاء شائعة.",
-      "en": "A practical four-phase plan: inventory and monitoring, fixing alignment, gradual quarantine, then reject — with DNS record examples and common pitfalls."
+      "en": "A phased DMARC rollout under RFC 9989: monitor with aggregate reports, fix every legitimate sender's alignment, test quarantine with t=y, then enforce reject, plus lock down parked domains on day one."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -989,7 +991,8 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p7-005",
@@ -1244,11 +1247,11 @@
     "slug": "2fa-practical-guide",
     "title": {
       "ar": "المصادقة الثنائية (2FA): دليل عملي لحماية حساباتك وطرقها مقارنة",
-      "en": "Two-Factor Authentication (2FA): A Practical Guide and Methods Compared"
+      "en": "Choosing Two-Factor Authentication Methods: SMS, Apps, Push and Security Keys Compared"
     },
     "excerpt": {
       "ar": "كل أنواع المصادقة الثنائية، إزاي تفعّلها صح، وأشهر الهجمات اللي بتستهدفها وإزاي تحمي نفسك منها.",
-      "en": "Every type of two-factor authentication, how to set it up correctly, and the common attacks targeting it with how to protect yourself."
+      "en": "Why passwords need a second factor, how SMS codes, authenticator apps, push approvals and FIDO2 security keys or passkeys compare on phishing resistance and usability, and a rollout order for personal and business accounts."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1275,7 +1278,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0002",
@@ -5095,11 +5099,11 @@
     "id": "art-gen-0100",
     "slug": "owasp-top-10-overview",
     "title": {
-      "ar": "OWASP Top 10: نظرة عامة على أخطر ثغرات تطبيقات الويب",
+      "ar": "OWASP Top 10 إصدار 2025: أخطر عشر مخاطر في تطبيقات الويب وإزاي تتعامل معاها",
       "en": "The OWASP Top 10 (2025) for Busy Teams: What Each Risk Means in Practice"
     },
     "excerpt": {
-      "ar": "أهم الفئات بالتفصيل (Broken Access Control، Injection، Cryptographic Failures)، وليه القائمة بتتغيّر وإزاي تستخدمها عمليًا.",
+      "ar": "شرح عملي لقائمة OWASP Top 10:2025 بالترتيب، من فشل التحكم في الوصول لحد سوء التعامل مع الحالات الاستثنائية، مع مثال حقن SQL وإزاي تستخدم القائمة كأداة أولويات مش كـ Checklist.",
       "en": "A plain-English tour of the OWASP Top 10:2025, from broken access control to mishandled exceptional conditions, with a worked SQL injection example and advice on using the list without treating it as a checklist."
     },
     "categoryId": "cybersecurity",

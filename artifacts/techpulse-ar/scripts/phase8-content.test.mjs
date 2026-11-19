@@ -116,3 +116,12 @@ test('dist: per-article body files, default OG image, CNAME', { skip: !existsSyn
   const assets = readdirSync(`${dist}assets`);
   assert.ok(!assets.some((f) => /^articles-.*\.js$/.test(f)), 'full articles chunk should be gone');
 });
+
+test('OWASP article covers the 2025 Top 10 in both languages', () => {
+  const a = articles.find((x) => x.slug === 'owasp-top-10-overview');
+  for (const lang of ['ar', 'en']) {
+    assert.match(a.body[lang], /2025/, lang);
+    assert.match(a.body[lang], /Software Supply Chain Failures/, lang);
+    assert.match(a.body[lang], /Mishandling of Exceptional Conditions/, lang);
+  }
+});
