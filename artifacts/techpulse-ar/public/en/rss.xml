@@ -170,11 +170,11 @@
       <category>troubleshooting</category>
     </item>
     <item>
-      <title>Key Windows Security Event IDs for SOC Teams: What to Monitor and Why</title>
+      <title>The Windows Security Event IDs a SOC Should Actually Watch</title>
       <link>https://netsecatlas.com/en/article/windows-security-event-ids-soc</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/windows-security-event-ids-soc</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Reference table of key Windows security events — logons, accounts and groups, Kerberos, processes, services, scheduled tasks, log clearing — and the audit policy they need.</description>
+      <description>A focused set of Windows and domain controller event IDs that expose real attack steps (password spraying, Kerberoasting, privilege changes, new services, log clearing), the audit settings they depend on, and starter detection rules.</description>
       <category>windows</category>
       <category>event-logs</category>
       <category>soc</category>
@@ -182,11 +182,11 @@
       <category>detection</category>
     </item>
     <item>
-      <title>KES 12 Exclusions in Kaspersky Security Center: Safe Setup and XML Import</title>
+      <title>Exclusions in Kaspersky Endpoint Security 12 via KSC: Narrow, Documented and Importable</title>
       <link>https://netsecatlas.com/en/article/kes-12-exclusions-kaspersky-security-center</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/kes-12-exclusions-kaspersky-security-center</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>The difference between scan exclusions and trusted applications in KES 12, how to add them in policy, import them as XML, and avoid dangerous blind spots.</description>
+      <description>When an exclusion is justified, how scan exclusions differ from trusted applications in KES 12 for Windows, how to manage them centrally in a KSC policy, a reliable XML import workflow, and the paths you should never exclude.</description>
       <category>kaspersky</category>
       <category>kes</category>
       <category>kaspersky-security-center</category>
@@ -218,11 +218,11 @@
       <category>migration</category>
     </item>
     <item>
-      <title>FortiClient Error -7200 in SSL VPN: Causes and Fixes</title>
+      <title>FortiClient Error -7200 Explained: A Gateway-First Troubleshooting Guide</title>
       <link>https://netsecatlas.com/en/article/forticlient-error-7200-fix</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/forticlient-error-7200-fix</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Error -7200 rarely means a wrong password. The real causes in order — tunnel mode after FortiOS 7.6.3, portals, cipher strength, certificates — plus debug commands.</description>
+      <description>Error -7200 is rarely about the password. Work through the real causes in order (FortiOS 7.6.3 tunnel-mode removal, portal and IP pool, cipher strength, SAML, certificates) with the FortiGate debug commands that prove each one.</description>
       <category>fortinet</category>
       <category>forticlient</category>
       <category>ssl-vpn</category>
