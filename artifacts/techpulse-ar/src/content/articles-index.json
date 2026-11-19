@@ -1673,11 +1673,11 @@
     "slug": "chatgpt-study-without-harm",
     "title": {
       "ar": "استخدام مساعدات الذكاء الاصطناعي في التدريب التقني بأمان: دليل عملي",
-      "en": "Using AI Assistants Safely for Technical Training: A Practical Guide"
+      "en": "Learning Technical Skills with AI Assistants, Safely"
     },
     "excerpt": {
       "ar": "منهج عملي للاستفادة من مساعدات AI في تعلّم الشبكات والأمن وإدارة الأنظمة دون تسريب بيانات أو تنفيذ أوامر غير موثوقة.",
-      "en": "A practical workflow for learning networking, security, and systems administration with AI without leaking data or running unverified commands."
+      "en": "How IT and security staff can use ChatGPT-style assistants to learn faster without leaking data or running commands they don't understand: what to share, how to verify, and where to practise."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1689,7 +1689,7 @@
       "avatar": ""
     },
     "date": "2024-06-24",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1684369175833-4b445ad6bfb5?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGNoYXRib3R8ZW58MXwwfHx8MTc4NTg3MjEzOXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "ai-security",
@@ -1711,7 +1711,8 @@
     "productIds": [],
     "difficulty": "beginner",
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0013",
@@ -4049,11 +4050,11 @@
     "slug": "windows-local-admin-password-rotation",
     "title": {
       "ar": "تدوير كلمة مرور المسؤول المحلي بـWindows LAPS",
-      "en": "Local Admin Password Rotation with Windows LAPS: Why It Matters"
+      "en": "Windows LAPS: Unique, Rotating Local Admin Passwords on Every Machine"
     },
     "excerpt": {
       "ar": "إزاي LAPS بيقفل ثغرة الانتشار الجانبي تقنيًا، وليه صلاحية قراءة كلمات المرور المخزّنة أهم نقطة في التطبيق كله.",
-      "en": "How LAPS technically closes the lateral-movement gap, and why the stored-password read permission is the most important point in the whole implementation."
+      "en": "Why one shared local admin password lets attackers hop across a whole fleet, how Windows LAPS fixes it with per-device rotated passwords stored in AD or Entra ID, and how to deploy it safely."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -4065,7 +4066,7 @@
       "avatar": ""
     },
     "date": "2026-06-18",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1654588831193-0285dab84d5a?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NHx8cGFzc3dvcmQlMjBzZWN1cml0eSUyMHdpbmRvd3N8ZW58MXwwfHx8MTc4NTg3MjE4Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "laps",
@@ -4083,18 +4084,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0075",
     "slug": "honeypot-deception-basics",
     "title": {
       "ar": "الفخاخ الرقمية (Honeypots): كيف تكتشف المهاجم قبل ما يوصل لأي حاجة حقيقية",
-      "en": "Honeypots: Catching an Attacker Before They Reach Anything Real"
+      "en": "Honeypots and Deception: Catching Intruders with Bait They Can't Resist"
     },
     "excerpt": {
       "ar": "الفرق بين Low-Interaction وHigh-Interaction بالتفصيل، خطوات بداية عملية، ونصيحة العزل الصارم الأساسية.",
-      "en": "The Low-Interaction vs High-Interaction difference in detail, practical starting steps, and the essential strict-isolation advice."
+      "en": "How honeypots, honey accounts and honeytokens produce high-confidence alerts, low versus high interaction options, cheap ways to start, and the isolation rules that keep bait from becoming a risk."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -4106,7 +4108,7 @@
       "avatar": ""
     },
     "date": "2026-02-06",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "honeypot",
@@ -4122,18 +4124,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0076",
     "slug": "security-awareness-training-metrics",
     "title": {
       "ar": "قياس فعالية تدريب الوعي الأمني: مقاييس أهم من نسبة النقر",
-      "en": "Measuring Security Awareness Training: Metrics Beyond Click Rate"
+      "en": "Measuring Security Awareness: Metrics That Show Real Behaviour Change"
     },
     "excerpt": {
       "ar": "نسبة اللي وقعوا في محاكاة التصيد مؤشر واحد بس، وممكن يضلّلك لو اعتمدت عليه بس.",
-      "en": "The phishing-simulation click rate is just one signal, and can be misleading if it's all you track."
+      "en": "Why completion rates and click rates alone mislead, the behavioural and operational metrics that tell you whether training is working, and how to report them to leadership."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -4145,7 +4148,7 @@
       "avatar": ""
     },
     "date": "2026-03-13",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "security-awareness",
@@ -4163,18 +4166,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0077",
     "slug": "air-gapped-networks-explained",
     "title": {
       "ar": "الشبكات المعزولة فيزيائيًا (Air-Gapped): متى تحتاجها فعلًا",
-      "en": "Air-Gapped Networks: When You Actually Need One"
+      "en": "Air-Gapped Networks: When Total Isolation Is Worth the Pain"
     },
     "excerpt": {
       "ar": "متى التعقيد الإضافي يستاهل فعليًا، وليه النقل عبر وسائط فيزيائية (زي Stuxnet) هو نقطة الضعف الحقيقية.",
-      "en": "When the extra complexity is genuinely worth it, and why physical media transfer (like Stuxnet) is the real weak point."
+      "en": "What a real air gap is, where it's justified (industrial control, classified and backup systems), how air gaps get bridged in practice, and the operational controls that keep isolation meaningful."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
@@ -4186,7 +4190,7 @@
       "avatar": ""
     },
     "date": "2026-03-20",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "air-gap",
@@ -4205,18 +4209,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0078",
     "slug": "cloud-storage-misconfiguration-risks",
     "title": {
       "ar": "أخطاء إعداد التخزين السحابي: السبب الأشهر لتسريب البيانات",
-      "en": "Cloud Storage Misconfiguration: The Most Common Cause of Data Leaks"
+      "en": "Misconfigured Cloud Storage: How Buckets Leak Data and How to Lock Them Down"
     },
     "excerpt": {
       "ar": "ليه معظم التسريبات الضخمة مش نتيجة هجوم متطور، و5 خطوات وقاية تفصيلية من الإعداد الافتراضي للمراجعة الدورية.",
-      "en": "Why most massive leaks aren't the result of a sophisticated attack, and 5 detailed prevention steps from default settings to periodic review."
+      "en": "The common mistakes behind exposed S3 buckets, Azure blobs and shared drives (public access, broad links, leaked keys), and the guardrails, scans and monitoring that prevent them."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -4228,7 +4233,7 @@
       "avatar": ""
     },
     "date": "2026-04-27",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "cloud-security",
@@ -4249,18 +4254,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0079",
     "slug": "api-rate-limiting-basics",
     "title": {
       "ar": "تحديد معدل الطلبات (Rate Limiting): حماية الـAPI من الإغراق",
-      "en": "API Rate Limiting: Protecting Your API from Being Overwhelmed"
+      "en": "API Rate Limiting: Keeping Abuse, Scraping and Overload in Check"
     },
     "excerpt": {
       "ar": "4 استراتيجيات تحديد بالتفصيل (Fixed Window, Token Bucket)، وأين تطبّق التحديد فنيًا (Gateway مقابل التطبيق نفسه).",
-      "en": "4 detailed limiting strategies (fixed window, token bucket), and where to technically implement it (gateway vs the application itself)."
+      "en": "Why APIs need request limits, the common algorithms (fixed window, sliding window, token bucket), what to limit by, how to respond with HTTP 429, and where to enforce it."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
@@ -4272,7 +4278,7 @@
       "avatar": ""
     },
     "date": "2026-05-07",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "api-security",
@@ -4290,18 +4296,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0080",
     "slug": "dual-control-critical-operations",
     "title": {
       "ar": "مبدأ الرقابة المزدوجة (Dual Control): ليه عملية حساسة محتاجة موافقة شخصين",
-      "en": "Dual Control: Why a Sensitive Operation Needs Two People's Approval"
+      "en": "Dual Control: Requiring Two People for Operations That Can't Be Undone"
     },
     "excerpt": {
       "ar": "3 زوايا ليه المبدأ ده مهم فعليًا، أمثلة تطبيق واقعية، وليه آلية الموافقة السريعة أساسية لنجاح التطبيق.",
-      "en": "3 angles on why this principle genuinely matters, real application examples, and why a fast approval mechanism is essential for successful implementation."
+      "en": "The four-eyes principle applied to IT: which operations deserve a second approver, how it defends against mistakes, insiders and stolen accounts, and how to implement it without slowing everything down."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -4313,7 +4320,7 @@
       "avatar": ""
     },
     "date": "2026-05-14",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1559163330-c30bac8c5031?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "dual-control",
@@ -4329,18 +4336,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0081",
     "slug": "threat-modeling-stride-basics",
     "title": {
       "ar": "نمذجة التهديدات بطريقة STRIDE: فكّر زي المهاجم قبل ما تبني",
-      "en": "Threat Modeling with STRIDE: Think Like an Attacker Before You Build"
+      "en": "Threat Modeling with STRIDE: Finding Design Flaws Before You Build"
     },
     "excerpt": {
       "ar": "الست فئات بالتفصيل مع أمثلة حقيقية، مثال تطبيقي كامل (نظام تسجيل دخول)، ومتى تطبّق STRIDE عمليًا.",
-      "en": "The six categories in detail with real examples, a complete applied example (a login system), and when to apply STRIDE practically."
+      "en": "A practical walkthrough of STRIDE threat modeling: drawing a data-flow diagram, applying the six threat categories, choosing mitigations, and fitting it into normal development and change work."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
@@ -4352,7 +4360,7 @@
       "avatar": ""
     },
     "date": "2026-06-21",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "threat-modeling",
@@ -4368,7 +4376,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0082",
@@ -4681,11 +4690,11 @@
     "slug": "how-edr-actually-works",
     "title": {
       "ar": "كيف يعمل EDR فعليًا: الفرق الجوهري عن مضاد الفيروسات التقليدي",
-      "en": "How EDR Actually Works: The Fundamental Difference from Traditional Antivirus"
+      "en": "How EDR Works and Why It Isn't Just Better Antivirus"
     },
     "excerpt": {
       "ar": "التحليل السلوكي بدل التوقيعات الثابتة، ليه EDR بيكتشف الهجمات بدون ملفات، وقيوده الواقعية.",
-      "en": "Behavioral analysis instead of fixed signatures, why EDR catches fileless attacks, and its realistic limitations."
+      "en": "What endpoint detection and response records, how it detects attacks that signature antivirus misses, the response actions it gives analysts, and what it takes to run one well."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "endpoint",
@@ -4697,7 +4706,7 @@
       "avatar": ""
     },
     "date": "2026-06-10",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "edr",
@@ -4717,18 +4726,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0092",
     "slug": "container-security-basics-guide",
     "title": {
       "ar": "أساسيات أمان الحاويات (Container Security): من الصورة إلى التشغيل",
-      "en": "Container Security Basics: From Image to Runtime"
+      "en": "Securing Containers from Build to Runtime"
     },
     "excerpt": {
       "ar": "4 مخاطر أساسية مختلفة عن أمان الأجهزة الافتراضية التقليدي، و5 خطوات حماية عملية من فحص الصور لسياسات الشبكة.",
-      "en": "4 core risks different from traditional VM security, and 5 practical protection steps from image scanning to network policies."
+      "en": "The container security layers that matter: trusted images, least-privilege runtime settings, Kubernetes access control and network policies, secrets handling, and runtime monitoring."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -4740,7 +4750,7 @@
       "avatar": ""
     },
     "date": "2026-06-17",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "containers",
@@ -4759,18 +4769,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0093",
     "slug": "byod-policy-security-guide",
     "title": {
       "ar": "سياسة BYOD (استخدام الأجهزة الشخصية للعمل): الضوابط والأمان",
-      "en": "BYOD Policy (Bring Your Own Device): Controls and Security"
+      "en": "BYOD Without Regret: Policy and Controls for Personal Devices at Work"
     },
     "excerpt": {
       "ar": "3 مخاطر أساسية، الفرق بين MDM وMAM (لماذا الأخير أكثر توازنًا)، وعناصر سياسة عملية موثّقة.",
-      "en": "3 core risks, the MDM vs MAM difference (why the latter is more balanced), and elements of a practical documented policy."
+      "en": "Deciding what personal phones and laptops may access, MAM versus full MDM enrolment, the minimum security requirements, privacy boundaries, and what happens when a device is lost or an employee leaves."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -4782,7 +4793,7 @@
       "avatar": ""
     },
     "date": "2026-06-24",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "byod",
@@ -4802,18 +4813,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0094",
     "slug": "secure-sdlc-guide",
     "title": {
       "ar": "دورة تطوير البرمجيات الآمنة (SSDLC): الأمان في كل مرحلة",
-      "en": "The Secure Software Development Lifecycle (SSDLC): Security at Every Stage"
+      "en": "Building Security into the Software Lifecycle, Stage by Stage"
     },
     "excerpt": {
       "ar": "الستة مراحل ودمج الأمان في كل واحدة، DevSecOps وربط الفحص بـCI/CD، وليه إصلاح الأمان في الآخر مكلف جدًا.",
-      "en": "The six phases and integrating security into each, DevSecOps and linking scanning to CI/CD, and why fixing security at the end is very costly."
+      "en": "What a secure software development lifecycle looks like in practice: requirements, design and threat modeling, secure coding, automated testing in CI, release controls, and handling vulnerabilities after launch."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
@@ -4825,7 +4837,7 @@
       "avatar": ""
     },
     "date": "2026-06-04",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "ssdlc",
@@ -4843,7 +4855,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0095",
@@ -4894,11 +4907,11 @@
     "slug": "web-application-firewall-waf-guide",
     "title": {
       "ar": "جدار حماية تطبيقات الويب (WAF): كيف يعمل ومتى تحتاجه",
-      "en": "Web Application Firewalls (WAF): How They Work and When You Need One"
+      "en": "Web Application Firewalls: What a WAF Blocks and When It's Worth Deploying"
     },
     "excerpt": {
       "ar": "الفرق الجوهري عن جدار الحماية الشبكي التقليدي، 4 أنواع هجمات بيحميك منها، ووضعي المراقبة والحجب بالتفصيل.",
-      "en": "The fundamental difference from a traditional network firewall, 4 attack types it protects against, and the monitor vs blocking modes in detail."
+      "en": "How WAFs inspect HTTP traffic with signatures, rule sets and anomaly scoring, deployment options from cloud to on-prem, tuning without breaking the app, and why a WAF complements secure code rather than replacing it."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -4910,7 +4923,7 @@
       "avatar": ""
     },
     "date": "2026-06-18",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "waf",
@@ -4931,18 +4944,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0097",
     "slug": "data-loss-prevention-dlp-guide",
     "title": {
       "ar": "منع تسريب البيانات (DLP): القنوات والسياسات والتطبيق",
-      "en": "Data Loss Prevention (DLP): Channels, Policies and Rollout"
+      "en": "Data Loss Prevention (DLP): Covering the Channels Without Drowning in Alerts"
     },
     "excerpt": {
       "ar": "4 طرق كشف بيانات حساسة بالتفصيل، 3 نقاط تطبيق رئيسية (شبكة/جهاز/سحابة)، وأشهر تحدي عملي (التنبيهات الكاذبة).",
-      "en": "4 detailed sensitive-data detection methods, 3 main application points (network/endpoint/cloud), and the most common practical challenge (false positives)."
+      "en": "Where data leaves an organisation (email, endpoints, cloud, web), how DLP detects sensitive content, and a phased rollout from audit to enforcement that users will tolerate."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -4954,7 +4968,7 @@
       "avatar": ""
     },
     "date": "2026-06-25",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "dlp",
@@ -4978,7 +4992,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0098",
@@ -5026,11 +5041,11 @@
     "slug": "authentication-vs-authorization-explained",
     "title": {
       "ar": "المصادقة مقابل التفويض (Authentication vs Authorization): الفرق بأمثلة",
-      "en": "Authentication vs Authorization: The Difference, with Examples"
+      "en": "Authentication vs Authorization: Who You Are Versus What You May Do"
     },
     "excerpt": {
       "ar": "الفرق الجوهري بين 'مين إنت' و'مسموح لك تعمل إيه'، نماذج RBAC/ABAC/ACL، ومثال عملي يوضّح ليه الخلط بينهم يسبب ثغرات حقيقية.",
-      "en": "The fundamental difference between 'who are you' and 'what are you allowed to do', RBAC/ABAC/ACL models, and a practical example showing why confusing them causes real vulnerabilities."
+      "en": "A clear explanation of authentication and authorization with everyday IT examples, how protocols like Kerberos, OAuth 2.0, OpenID Connect and SAML fit, and the common bugs when the two are confused."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -5042,7 +5057,7 @@
       "avatar": ""
     },
     "date": "2026-06-12",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "authentication",
@@ -5060,7 +5075,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0100",
@@ -5236,11 +5252,11 @@
     "slug": "zero-day-vulnerabilities-explained",
     "title": {
       "ar": "ثغرات يوم الصفر (Zero-Day): ما هي وكيف تستعد لها",
-      "en": "Zero-Day Vulnerabilities: What They Are and How to Prepare"
+      "en": "Zero-Day Vulnerabilities: What They Are and How to Be Ready"
     },
     "excerpt": {
       "ar": "دورة الحياة الكاملة من الاكتشاف للتصحيح، ليه الحماية التقليدية عاجزة تمامًا عن اكتشافها، و3 استراتيجيات دفاعية عملية رغم استحالة المنع الكامل.",
-      "en": "The complete lifecycle from discovery to patching, why traditional protection is entirely unable to detect it, and 3 practical defensive strategies despite total prevention being impossible."
+      "en": "What makes a vulnerability a zero-day, how they're found, traded and exploited, why edge devices are frequent targets, and the resilience measures that limit damage before a patch exists."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
@@ -5252,7 +5268,7 @@
       "avatar": ""
     },
     "date": "2026-06-27",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "zero-day",
@@ -5272,7 +5288,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0107",
@@ -5295,7 +5312,7 @@
       "avatar": ""
     },
     "date": "2026-05-14",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "ai-security",
@@ -5318,7 +5335,8 @@
     "productIds": [],
     "difficulty": "intermediate",
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0111",
@@ -5341,7 +5359,7 @@
       "avatar": ""
     },
     "date": "2026-05-15",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "llm",
@@ -5364,7 +5382,8 @@
     "productIds": [],
     "difficulty": "intermediate",
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0115",
@@ -5387,7 +5406,7 @@
       "avatar": ""
     },
     "date": "2026-05-16",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "generative-ai",
@@ -5409,7 +5428,8 @@
     "productIds": [],
     "difficulty": "intermediate",
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0125",
