@@ -1368,11 +1368,11 @@
     "slug": "forcepoint-ssl-vpn-radius",
     "title": {
       "ar": "إعداد Forcepoint SSL VPN مع RADIUS خطوة بخطوة",
-      "en": "Setting Up Forcepoint SSL VPN with RADIUS, Step by Step"
+      "en": "Forcepoint NGFW VPN Client Users with RADIUS (NPS): Configuration and Troubleshooting"
     },
     "excerpt": {
       "ar": "دليل تفصيلي كامل لربط Forcepoint NGFW SSL VPN مع RADIUS من SMC، مع أشهر الأخطاء وخطوات التحقق.",
-      "en": "A complete detailed guide to connecting Forcepoint NGFW SSL VPN with RADIUS from SMC, with common errors and verification steps."
+      "en": "Connecting Forcepoint NGFW mobile VPN authentication to a RADIUS server such as Microsoft NPS from the SMC: server and method elements, the access rule that ties them to the VPN, and how to troubleshoot failed logins."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "vpn-remote",
@@ -1384,7 +1384,7 @@
       "avatar": ""
     },
     "date": "2022-09-22",
-    "readTime": 10,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMHNlY3VyaXR5JTIwZmlyZXdhbGx8ZW58MXwwfHx8MTc4NTg3MjEyOHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "forcepoint",
@@ -1408,18 +1408,19 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0005",
     "slug": "fortigate-ssl-vpn-checklist",
     "title": {
       "ar": "إعداد FortiGate SSL VPN خطوة بخطوة (مع تنبيه FortiOS 7.6.3)",
-      "en": "Setting Up FortiGate SSL VPN Step by Step (with the FortiOS 7.6.3 Caveat)"
+      "en": "FortiGate SSL VPN Setup Checklist for FortiOS 7.4 and Early 7.6 (Before Tunnel Mode Goes)"
     },
     "excerpt": {
       "ar": "الخطوات الخمس المترابطة لإعداد SSL VPN صح من أول مرة، مع تشخيص أشهر الأعطال الشائعة.",
-      "en": "The five interconnected steps to set up SSL VPN correctly the first time, with diagnosis of the most common failures."
+      "en": "The five pieces a working FortiGate SSL VPN needs on releases that still have tunnel mode, the usual reasons it fails, a hardening list, and what changes from FortiOS 7.6.3 onward."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "vpn-remote",
@@ -1457,7 +1458,8 @@
       "fortigate"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0006",
@@ -1719,11 +1721,11 @@
     "slug": "kaspersky-security-center-tagging",
     "title": {
       "ar": "تنظيم الأجهزة في Kaspersky Security Center بالوسوم (Tags)",
-      "en": "Organising Devices in Kaspersky Security Center with Tags"
+      "en": "Device Tags in Kaspersky Security Center: Auto-Tagging, Profiles and Selections"
     },
     "excerpt": {
       "ar": "الفرق بين Administration Groups وTags، خطوات تطبيق عملية كاملة، وأشهر أخطاء التصنيف اللي بتلغي الفايدة.",
-      "en": "The difference between Administration Groups and Tags, complete practical implementation steps, and the most common tagging mistakes that eliminate the benefit."
+      "en": "How tags complement administration groups in KSC, how to create automatic tagging rules, and how to use tags in policy profile activation, device selections and reports, with a naming scheme that stays clean."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "endpoint",
@@ -1735,7 +1737,7 @@
       "avatar": ""
     },
     "date": "2024-09-04",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1751448555253-f39c06e29d82?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YW50aXZpcnVzJTIwZW5kcG9pbnQlMjBzZWN1cml0eXxlbnwxfDB8fHwxNzg1ODcyMTQwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "kaspersky",
@@ -1759,7 +1761,8 @@
       "ksc"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0014",
@@ -4384,11 +4387,11 @@
     "slug": "active-directory-complete-setup-guide",
     "title": {
       "ar": "إعداد وإدارة Active Directory من الصفر: خطوة بخطوة",
-      "en": "Setting Up and Managing Active Directory from Scratch, Step by Step"
+      "en": "Building an Active Directory Domain from Scratch: Install, Structure, Secure"
     },
     "excerpt": {
       "ar": "دليل مرجعي متكامل: من التثبيت الأول لتصميم OU وGroup Policy والأمان وأشهر الأخطاء وحلولها.",
-      "en": "A complete reference guide: from initial installation through OU design, Group Policy, security, and the most common errors with their fixes."
+      "en": "A step-by-step path for a new AD DS domain: planning names and DNS, installing and promoting domain controllers, designing OUs, first Group Policies, day-one security settings and fixes for the classic errors."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -4400,7 +4403,7 @@
       "avatar": ""
     },
     "date": "2026-06-01",
-    "readTime": 14,
+    "readTime": 5,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "active-directory",
@@ -4425,18 +4428,19 @@
       "active-directory"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0083",
     "slug": "powershell-sysadmin-complete-guide",
     "title": {
       "ar": "PowerShell لمديري الأنظمة: من الأساسيات إلى الأتمتة",
-      "en": "PowerShell for System Administrators: From Basics to Automation"
+      "en": "PowerShell for Sysadmins: From First Commands to Reliable Automation"
     },
     "excerpt": {
       "ar": "من الأوامر الأساسية لكتابة سكريبتات حقيقية للأتمتة، مع أشهر الأخطاء وحلولها.",
-      "en": "From basic commands to writing real automation scripts, with common mistakes and their fixes."
+      "en": "The core ideas that make PowerShell different (cmdlets, objects, the pipeline), everyday commands for services, processes, files and AD, a first real script with logging and error handling, and the mistakes to avoid."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -4448,7 +4452,7 @@
       "avatar": ""
     },
     "date": "2026-06-08",
-    "readTime": 13,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "powershell",
@@ -4466,18 +4470,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0085",
     "slug": "wireshark-network-analysis-complete-guide",
     "title": {
       "ar": "تحليل حركة الشبكة باستخدام Wireshark: الفلاتر وحالات عملية",
-      "en": "Network Traffic Analysis with Wireshark: Filters and Practical Cases"
+      "en": "Wireshark for Troubleshooting and Security: Capture Smart, Filter Fast"
     },
     "excerpt": {
       "ar": "فلاتر الالتقاط والعرض بالتفصيل، سيناريوهات تشخيص حقيقية (بطء، DNS مشبوه، فشل TLS)، ونصيحة أمان مهمة قبل الاستخدام.",
-      "en": "Capture and display filters in detail, real diagnostic scenarios (slowness, suspicious DNS, TLS failures), and an important safety note before use."
+      "en": "Where to capture, capture versus display filters, the filters admins use most, following streams, reading TLS traffic, and real cases from slow applications to suspicious beaconing."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -4489,7 +4494,7 @@
       "avatar": ""
     },
     "date": "2026-06-22",
-    "readTime": 11,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "wireshark",
@@ -4509,7 +4514,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0086",
@@ -4564,11 +4570,11 @@
     "slug": "pki-certificate-authority-explained",
     "title": {
       "ar": "فهم PKI وسلسلة الثقة: كيف تعرف أن الشهادة حقيقية فعلًا",
-      "en": "Understanding PKI and the Chain of Trust: How You Know a Certificate Is Actually Real"
+      "en": "PKI and the Chain of Trust: How a Certificate Proves Who's on the Other End"
     },
     "excerpt": {
       "ar": "زوج المفاتيح العام/الخاص، سلسلة الثقة من Root CA للشهادة الوسيطة، أنواع الشهادات (DV/OV/EV)، وليه تحذير الشهادة غير الموثوقة خطير فعلًا.",
-      "en": "The public/private key pair, the chain of trust from Root CA to intermediate certificates, certificate types (DV/OV/EV), and why the untrusted certificate warning is genuinely dangerous."
+      "en": "How public key infrastructure works: key pairs, certificate authorities, root and intermediate certificates, chain validation, revocation, and the operational basics of running an internal CA."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -4580,7 +4586,7 @@
       "avatar": ""
     },
     "date": "2026-06-09",
-    "readTime": 10,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "pki",
@@ -4600,18 +4606,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0088",
     "slug": "disaster-recovery-plan-basics",
     "title": {
       "ar": "أساسيات خطة التعافي من الكوارث (DRP): RTO وRPO والاختبار",
-      "en": "Disaster Recovery Plan (DRP) Basics: RTO, RPO and Testing"
+      "en": "Disaster Recovery Planning: Setting RTO and RPO and Proving You Can Hit Them"
     },
     "excerpt": {
       "ar": "الفرق بين النسخ الاحتياطي وخطة DR كاملة، مقياسا RTO/RPO موضّحان بالمثال، ومستويات الاستراتيجية من الأرخص للأسرع.",
-      "en": "The difference between backup and a full DR plan, RTO/RPO metrics explained with examples, and strategy tiers from cheapest to fastest."
+      "en": "How to build a disaster recovery plan that works: business impact analysis, recovery time and recovery point objectives, recovery tiers, runbooks, and the testing that turns a document into a capability."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -4623,7 +4630,7 @@
       "avatar": ""
     },
     "date": "2026-06-16",
-    "readTime": 10,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "disaster-recovery",
@@ -4643,18 +4650,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0089",
     "slug": "nmap-network-scanning-complete-guide",
     "title": {
       "ar": "فحص الشبكة باستخدام Nmap: الأوامر الأساسية والاستخدام المسؤول",
-      "en": "Network Scanning with Nmap: Core Commands and Responsible Use"
+      "en": "Nmap for Network Admins: Core Scans, Useful Options and Staying Authorised"
     },
     "excerpt": {
       "ar": "أنواع الفحص الأساسية بأوامر حقيقية، 3 استخدامات عملية شائعة، وتحذير قانوني مهم قبل أي استخدام.",
-      "en": "Core scan types with real commands, 3 common practical use cases, and an important legal warning before any use."
+      "en": "Practical Nmap usage for inventory and security checks: host discovery, port and service scans, OS detection, NSE scripts, output formats, timing, and the authorisation rules you must follow."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -4666,7 +4674,7 @@
       "avatar": ""
     },
     "date": "2026-06-23",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "nmap",
@@ -4683,7 +4691,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0091",
@@ -5000,11 +5009,11 @@
     "slug": "insider-risk-program-guide",
     "title": {
       "ar": "بناء برنامج لإدارة مخاطر التهديد الداخلي",
-      "en": "Building an Insider Risk Programme"
+      "en": "Building an Insider Risk Programme That Staff Can Live With"
     },
     "excerpt": {
       "ar": "3 فئات مختلفة للتهديد الداخلي، علامات تحذيرية سلوكية حقيقية، وليه التوازن بين الأمان والثقة حساس جدًا.",
-      "en": "3 different insider threat categories, real behavioral warning signs, and why balancing security against trust is so delicate."
+      "en": "How to set up a formal insider risk programme: governance with HR and legal, risk indicators, the joiner-mover-leaver process, proportionate monitoring, investigation rules and measuring results."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -5016,7 +5025,7 @@
       "avatar": ""
     },
     "date": "2026-06-05",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "insider-threat",
@@ -5034,7 +5043,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0099",
@@ -5083,11 +5093,11 @@
     "slug": "owasp-top-10-overview",
     "title": {
       "ar": "OWASP Top 10: نظرة عامة على أخطر ثغرات تطبيقات الويب",
-      "en": "OWASP Top 10: An Overview of the Most Critical Web Application Risks"
+      "en": "The OWASP Top 10 (2025) for Busy Teams: What Each Risk Means in Practice"
     },
     "excerpt": {
       "ar": "أهم الفئات بالتفصيل (Broken Access Control، Injection، Cryptographic Failures)، وليه القائمة بتتغيّر وإزاي تستخدمها عمليًا.",
-      "en": "Key categories in detail (Broken Access Control, Injection, Cryptographic Failures), and why the list changes and how to use it practically."
+      "en": "A plain-English tour of the OWASP Top 10:2025, from broken access control to mishandled exceptional conditions, with a worked SQL injection example and advice on using the list without treating it as a checklist."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
@@ -5117,18 +5127,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0101",
     "slug": "understanding-cvss-score",
     "title": {
       "ar": "فهم درجة CVSS: كيف تقرأ خطورة الثغرة صح",
-      "en": "Understanding the CVSS Score: How to Correctly Read Vulnerability Severity"
+      "en": "Reading CVSS Scores Properly: What the Number Hides and What to Add"
     },
     "excerpt": {
       "ar": "4 مكونات أساسية بتشكّل الدرجة، ليه السياق أهم من الرقم المجرد، ودور قوائم KEV في تحديد الأولوية الحقيقية.",
-      "en": "4 core components forming the score, why context matters more than the raw number, and the KEV list's role in determining real priority."
+      "en": "How CVSS base metrics are built (attack vector, complexity, privileges, user interaction, impact), what changed in CVSS 4.0, and how to combine the score with exploitation data (KEV, EPSS) and your own exposure."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
@@ -5140,7 +5151,7 @@
       "avatar": ""
     },
     "date": "2026-06-26",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "cvss",
@@ -5160,18 +5171,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0103",
     "slug": "immutable-backups-ransomware-defense",
     "title": {
       "ar": "النسخ الاحتياطية غير القابلة للتعديل: خط الدفاع الأخير ضد الفدية",
-      "en": "Immutable Backups: Ransomware's Last Line of Defence"
+      "en": "Immutable Backups: Making Sure Ransomware Can't Delete Your Way Back"
     },
     "excerpt": {
       "ar": "ليه المهاجمين بيستهدفون النسخ الاحتياطية نفسها عمدًا، وإزاي القفل التقني على مستوى التخزين مختلف جذريًا عن مجرد صلاحيات الوصول.",
-      "en": "Why attackers deliberately target backups themselves, and how a technical storage-level lock differs fundamentally from just access permissions."
+      "en": "Why attackers target backups first, how immutability works (object lock, WORM, hardened repositories), choosing retention, the compliance-versus-governance trade-off, and testing restores."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -5183,7 +5195,7 @@
       "avatar": ""
     },
     "date": "2026-06-13",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "backup",
@@ -5204,18 +5216,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0104",
     "slug": "tls-handshake-explained",
     "title": {
       "ar": "فهم TLS Handshake: ماذا يحدث فعلًا خلف القفل الأخضر",
-      "en": "Understanding the TLS Handshake: What Actually Happens Behind the Green Lock"
+      "en": "The TLS Handshake Step by Step: What Happens Before the Padlock Appears"
     },
     "excerpt": {
       "ar": "5 خطوات Handshake بالتفصيل، ليه TLS 1.3 أسرع تقنيًا، وإزاي فهم العملية بيخليك تشخّص مشاكل TLS بثقة.",
-      "en": "The 5 handshake steps in detail, why TLS 1.3 is technically faster, and how understanding the process lets you diagnose TLS problems confidently."
+      "en": "How a TLS 1.3 connection is set up (Client Hello, key exchange, certificate verification, Finished), what changed from TLS 1.2, and how to troubleshoot common handshake failures."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
@@ -5227,7 +5240,7 @@
       "avatar": ""
     },
     "date": "2026-06-20",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "tls",
@@ -5245,7 +5258,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0105",
