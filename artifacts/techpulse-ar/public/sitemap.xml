@@ -510,6 +510,222 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://netsecatlas.com/ar/article/tls-certificate-errors-troubleshooting</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/tls-certificate-errors-troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/tls-certificate-errors-troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/tls-certificate-errors-troubleshooting" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/article/tls-certificate-errors-troubleshooting</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/tls-certificate-errors-troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/tls-certificate-errors-troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/tls-certificate-errors-troubleshooting" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/article/subnetting-cheat-sheet-cidr</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/subnetting-cheat-sheet-cidr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/subnetting-cheat-sheet-cidr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/subnetting-cheat-sheet-cidr" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/article/subnetting-cheat-sheet-cidr</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/subnetting-cheat-sheet-cidr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/subnetting-cheat-sheet-cidr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/subnetting-cheat-sheet-cidr" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/article/stp-loop-broadcast-storm-troubleshooting</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/stp-loop-broadcast-storm-troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/stp-loop-broadcast-storm-troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/stp-loop-broadcast-storm-troubleshooting" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/article/stp-loop-broadcast-storm-troubleshooting</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/stp-loop-broadcast-storm-troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/stp-loop-broadcast-storm-troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/stp-loop-broadcast-storm-troubleshooting" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/article/ssh-hardening-linux-servers</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/ssh-hardening-linux-servers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/ssh-hardening-linux-servers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/ssh-hardening-linux-servers" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/article/ssh-hardening-linux-servers</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/ssh-hardening-linux-servers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/ssh-hardening-linux-servers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/ssh-hardening-linux-servers" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/article/secure-rdp-brute-force-protection</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/secure-rdp-brute-force-protection" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/secure-rdp-brute-force-protection" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/secure-rdp-brute-force-protection" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/article/secure-rdp-brute-force-protection</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/secure-rdp-brute-force-protection" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/secure-rdp-brute-force-protection" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/secure-rdp-brute-force-protection" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/article/powershell-network-troubleshooting-commands</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/powershell-network-troubleshooting-commands" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/powershell-network-troubleshooting-commands" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/powershell-network-troubleshooting-commands" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/article/powershell-network-troubleshooting-commands</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/powershell-network-troubleshooting-commands" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/powershell-network-troubleshooting-commands" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/powershell-network-troubleshooting-commands" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/article/ip-address-conflict-troubleshooting</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/ip-address-conflict-troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/ip-address-conflict-troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/ip-address-conflict-troubleshooting" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/article/ip-address-conflict-troubleshooting</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/ip-address-conflict-troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/ip-address-conflict-troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/ip-address-conflict-troubleshooting" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/article/fortigate-debug-flow-troubleshooting</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/fortigate-debug-flow-troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/fortigate-debug-flow-troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/fortigate-debug-flow-troubleshooting" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/article/fortigate-debug-flow-troubleshooting</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/fortigate-debug-flow-troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/fortigate-debug-flow-troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/fortigate-debug-flow-troubleshooting" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/article/email-header-analysis-phishing</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/email-header-analysis-phishing" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/email-header-analysis-phishing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/email-header-analysis-phishing" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/article/email-header-analysis-phishing</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/email-header-analysis-phishing" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/email-header-analysis-phishing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/email-header-analysis-phishing" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/article/dns-troubleshooting-nslookup-dig</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/dns-troubleshooting-nslookup-dig" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/dns-troubleshooting-nslookup-dig" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/dns-troubleshooting-nslookup-dig" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/article/dns-troubleshooting-nslookup-dig</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/dns-troubleshooting-nslookup-dig" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/dns-troubleshooting-nslookup-dig" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/dns-troubleshooting-nslookup-dig" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/article/common-network-ports-cheat-sheet</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/common-network-ports-cheat-sheet" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/common-network-ports-cheat-sheet" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/common-network-ports-cheat-sheet" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/article/common-network-ports-cheat-sheet</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/common-network-ports-cheat-sheet" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/common-network-ports-cheat-sheet" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/common-network-ports-cheat-sheet" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/article/ad-account-lockout-source-event-4740</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/ad-account-lockout-source-event-4740" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/ad-account-lockout-source-event-4740" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/ad-account-lockout-source-event-4740" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/article/ad-account-lockout-source-event-4740</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/ad-account-lockout-source-event-4740" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/ad-account-lockout-source-event-4740" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/article/ad-account-lockout-source-event-4740" />
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://netsecatlas.com/ar/article/ztna-fortigate-forticlient-ems</loc>
     <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/ztna-fortigate-forticlient-ems" />
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/ztna-fortigate-forticlient-ems" />

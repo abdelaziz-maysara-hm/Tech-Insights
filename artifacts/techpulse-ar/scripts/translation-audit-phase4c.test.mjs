@@ -22,7 +22,7 @@ test('records the owner translation-quality finding', () => {
 });
 
 test('preserves the complete known content inventory', () => {
-  assert.equal(report.byType.articles.evaluated, 123); // Phase 7: +12 new, -28 merged/retired; Phase 8: +13 new; Phase 9: -3 redirected
+  assert.equal(report.byType.articles.evaluated, 135); // Phase 7: +12 new, -28 merged/retired; Phase 8: +13 new; Phase 9: -3 redirected, +12 new
   assert.equal(report.byType.comparisons.evaluated, 69); // Phase 8: chatgpt-vs-claude redirected
   assert.equal(report.byType.staticPages.evaluated, 10);
 });

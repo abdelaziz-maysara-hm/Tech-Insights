@@ -1,5 +1,576 @@
 [
   {
+    "id": "art-p8-022",
+    "slug": "tls-certificate-errors-troubleshooting",
+    "title": {
+      "ar": "تشخيص أخطاء شهادات TLS: السلسلة الناقصة والاسم الخاطئ والانتهاء باستخدام openssl",
+      "en": "Troubleshooting TLS Certificate Errors with openssl s_client"
+    },
+    "excerpt": {
+      "ar": "الأسباب الخمسة الأكثر شيوعًا لأخطاء الشهادات، وكيف تكشفها بالأمر openssl s_client مع ‎-servername و‎-showcerts، وطريقة الإصلاح لكل حالة.",
+      "en": "Diagnose the five most common certificate errors (missing chain, name mismatch, expiry, untrusted CA, clock) using openssl s_client and fix each one."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "tls",
+      "ssl",
+      "certificates",
+      "openssl",
+      "troubleshooting"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "troubleshooting"
+    ],
+    "topicIds": [
+      "pki-certificates"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
+  },
+  {
+    "id": "art-p8-021",
+    "slug": "subnetting-cheat-sheet-cidr",
+    "title": {
+      "ar": "مرجع تقسيم الشبكات CIDR: جدول البادئات وحيلة حجم الكتلة بسرعة",
+      "en": "Subnetting Cheat Sheet: CIDR Prefixes, Masks and the Block-Size Trick"
+    },
+    "excerpt": {
+      "ar": "جدول كامل للبادئات من /8 إلى /32 مع الأقنعة وعدد الأجهزة، وطريقة حساب الشبكة الفرعية ذهنيًا في ثوانٍ، ونطاقات RFC 1918 الخاصة.",
+      "en": "A printable CIDR table from /8 to /32 with masks and host counts, a mental block-size method for subnetting in seconds, and the RFC 1918 private ranges."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8bmV0d29yayUyMHN3aXRjaCUyMGNhYmxlc3xlbnwxfDB8fHwxNzg1ODcyMTUwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "subnetting",
+      "cidr",
+      "ipv4",
+      "networking",
+      "cheat-sheet"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "networking"
+    ],
+    "topicIds": [
+      "routing-switching",
+      "dhcp-ipam"
+    ],
+    "contentType": "reference",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
+  },
+  {
+    "id": "art-p8-020",
+    "slug": "stp-loop-broadcast-storm-troubleshooting",
+    "title": {
+      "ar": "حل حلقات الشبكة وعواصف البث: STP وBPDU Guard وStorm Control",
+      "en": "Network Loops and Broadcast Storms: STP, BPDU Guard and Storm Control"
+    },
+    "excerpt": {
+      "ar": "كيف تكتشف حلقة الطبقة الثانية من رسائل MACFLAP وارتفاع المعالج، وتعزلها بسرعة، ثم تمنع تكرارها بـPortFast وBPDU Guard وتحديد Root Bridge.",
+      "en": "Spot a Layer 2 loop from MAC flapping and CPU spikes, isolate it fast, then prevent repeats with PortFast, BPDU Guard, a fixed root bridge and storm control."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMG1vbml0b3JpbmclMjBkYXNoYm9hcmR8ZW58MXwwfHx8MTc4NTg3MjE1MXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "stp",
+      "spanning-tree",
+      "broadcast-storm",
+      "cisco",
+      "switching"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "networking",
+      "troubleshooting"
+    ],
+    "topicIds": [
+      "routing-switching",
+      "network-troubleshooting"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
+  },
+  {
+    "id": "art-p8-019",
+    "slug": "ssh-hardening-linux-servers",
+    "title": {
+      "ar": "تقوية SSH على خوادم لينكس: المفاتيح والإعدادات الآمنة دون أن تُغلق على نفسك",
+      "en": "SSH Hardening for Linux Servers: Keys, sshd_config and Safe Rollout"
+    },
+    "excerpt": {
+      "ar": "إعدادات sshd_config الأهم، مفاتيح ed25519 والمفاتيح المادية، قاعدة أول قيمة تفوز في sshd_config.d، والاختبار بـsshd -t قبل إعادة التشغيل.",
+      "en": "Harden OpenSSH safely: ed25519 and hardware-backed keys, the key sshd_config settings, the first-value-wins rule in sshd_config.d, and testing with sshd -t."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "endpoint",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bGFwdG9wJTIwaG9tZSUyMG9mZmljZSUyMHdvcmt8ZW58MXwwfHx8MTc4NTg3MjE4MXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ssh",
+      "linux",
+      "hardening",
+      "sshd-config",
+      "keys"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "infrastructure"
+    ],
+    "topicIds": [
+      "endpoint-security",
+      "iam-pam"
+    ],
+    "contentType": "how-to",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
+  },
+  {
+    "id": "art-p8-018",
+    "slug": "secure-rdp-brute-force-protection",
+    "title": {
+      "ar": "حماية RDP من هجمات التخمين: سبع ضوابط عملية لخوادم ويندوز",
+      "en": "Protect RDP from Brute-Force Attacks: Seven Practical Controls"
+    },
+    "excerpt": {
+      "ar": "لماذا يُعد RDP المكشوف على الإنترنت هدفًا دائمًا، وكيف تحميه بالـVPN أو ZTNA وNLA والقفل والمراقبة، مع قائمة تدقيق ومراجعة بعد التعرّض.",
+      "en": "Why internet-exposed RDP gets hammered and how to lock it down with VPN or ZTNA, NLA, lockout policy, MFA and monitoring, plus a checklist and exposure review."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8cmVtb3RlJTIwZGVza3RvcCUyMGNvbXB1dGVyJTIwc2NyZWVufGVufDF8MHx8fDE3ODU4NzIxNDB8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "rdp",
+      "brute-force",
+      "remote-desktop",
+      "hardening",
+      "windows"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity",
+      "infrastructure"
+    ],
+    "topicIds": [
+      "windows-server",
+      "zero-trust",
+      "endpoint-security"
+    ],
+    "contentType": "how-to",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
+  },
+  {
+    "id": "art-p8-017",
+    "slug": "powershell-network-troubleshooting-commands",
+    "title": {
+      "ar": "أوامر PowerShell لتشخيص الشبكة: Test-NetConnection وما بعده",
+      "en": "PowerShell Network Troubleshooting Commands Every Admin Should Know"
+    },
+    "excerpt": {
+      "ar": "أهم أوامر PowerShell لتشخيص الشبكة مرتبة حسب السؤال: الإعدادات، الوصول للمنفذ، DNS، المنافذ المستمعة، الجدار الناري، وسكربت فحص سريع.",
+      "en": "The PowerShell cmdlets that answer real network questions: configuration, port reachability, DNS, listening ports, firewall state, and a one-screen health check."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 3,
+    "heroImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "powershell",
+      "test-netconnection",
+      "networking",
+      "troubleshooting",
+      "windows"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "networking",
+      "troubleshooting"
+    ],
+    "topicIds": [
+      "network-troubleshooting",
+      "windows-server"
+    ],
+    "contentType": "reference",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
+  },
+  {
+    "id": "art-p8-010",
+    "slug": "ip-address-conflict-troubleshooting",
+    "title": {
+      "ar": "حل تعارض عناوين IP: كيف تجد الجهاز المكرر وتمنع المشكلة",
+      "en": "IP Address Conflict Troubleshooting: Find the Duplicate and Stop Repeats"
+    },
+    "excerpt": {
+      "ar": "من الحدث 4199 في ويندوز إلى عنوان MAC ومنفذ المحول وسجلات DHCP، ثم الإصلاح بالحجوزات وDHCP Snooping وDynamic ARP Inspection.",
+      "en": "Go from Windows event 4199 to the other MAC, switch port and DHCP lease, then fix it for good with reservations, DHCP snooping and Dynamic ARP Inspection."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1691435828932-911a7801adfb?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMHNlcnZlciUyMHJvb218ZW58MXwwfHx8MTc4NTg3MjE1NXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ip-conflict",
+      "dhcp",
+      "arp",
+      "dhcp-snooping",
+      "troubleshooting"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "networking",
+      "troubleshooting"
+    ],
+    "topicIds": [
+      "dhcp-ipam",
+      "network-troubleshooting"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
+  },
+  {
+    "id": "art-p8-008",
+    "slug": "fortigate-debug-flow-troubleshooting",
+    "title": {
+      "ar": "تشخيص FortiGate بأمر debug flow: لماذا تُسقط الحركة وكيف تقرأ المخرجات",
+      "en": "FortiGate Debug Flow: Find Why Traffic Is Dropped, Step by Step"
+    },
+    "excerpt": {
+      "ar": "تسلسل أوامر diagnose debug flow الصحيح، تفسير رسائل المخرجات مثل policy 0، تأثير تسريع NP6 وNP7، واستخدام sniffer لتأكيد مسار الحزم.",
+      "en": "The correct diagnose debug flow sequence, how to read its messages (policy 0 means implicit deny), the NP offload caveat, and confirming paths with the sniffer."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1683322499436-f4383dd59f5a?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMGZpcmV3YWxsJTIwc2VydmVyfGVufDF8MHx8fDE3ODU4NzIxMjl8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "fortigate",
+      "debug-flow",
+      "troubleshooting",
+      "firewall",
+      "sniffer"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "networking",
+      "troubleshooting"
+    ],
+    "topicIds": [
+      "firewalls",
+      "network-troubleshooting"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [
+      "fortinet"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
+  },
+  {
+    "id": "art-p8-005",
+    "slug": "email-header-analysis-phishing",
+    "title": {
+      "ar": "تحليل رأس البريد الإلكتروني لكشف التصيد: From وReturn-Path وAuthentication-Results",
+      "en": "Email Header Analysis for Phishing: Reading Received and Auth Results"
+    },
+    "excerpt": {
+      "ar": "اقرأ رأس الرسالة المشبوهة كمحلل: الفرق بين From وReply-To وReturn-Path، تتبع سطور Received، وتفسير نتائج SPF وDKIM وDMARC.",
+      "en": "Read a suspicious message like an analyst: From vs Reply-To vs Return-Path, tracing Received lines, and interpreting SPF, DKIM and DMARC verdicts."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1557200134-90327ee9fafa?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8cGhpc2hpbmclMjBlbWFpbCUyMHdhcm5pbmd8ZW58MXwwfHx8MTc4NTg3MjEyNHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "email",
+      "phishing",
+      "headers",
+      "spf",
+      "dmarc"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "email-security"
+    ],
+    "contentType": "how-to",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
+  },
+  {
+    "id": "art-p8-004",
+    "slug": "dns-troubleshooting-nslookup-dig",
+    "title": {
+      "ar": "تشخيص مشكلات DNS باستخدام nslookup وdig وResolve-DnsName",
+      "en": "DNS Troubleshooting with nslookup, dig and Resolve-DnsName"
+    },
+    "excerpt": {
+      "ar": "منهجية عملية لحل مشكلات أسماء النطاقات: اختبار خادم محدد، تتبع التفويض بـdig +trace، وتفسير أكواد الاستجابة مثل NXDOMAIN وSERVFAIL.",
+      "en": "A practical method for name-resolution problems: query a specific server, follow delegation with dig +trace, and decode NXDOMAIN, SERVFAIL and REFUSED."
+    },
+    "categoryId": "howto",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NXx8bmV0d29yayUyMGRvbWFpbiUyMHNlcnZlcnxlbnwxfDB8fHwxNzg1ODcyMTQyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "dns",
+      "nslookup",
+      "dig",
+      "resolve-dnsname",
+      "troubleshooting"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "networking",
+      "troubleshooting"
+    ],
+    "topicIds": [
+      "dns",
+      "network-troubleshooting"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
+  },
+  {
+    "id": "art-p8-002",
+    "slug": "common-network-ports-cheat-sheet",
+    "title": {
+      "ar": "مرجع منافذ الشبكة الشائعة TCP وUDP وكيف تعرف ما يستمع على جهازك",
+      "en": "Common Network Ports Cheat Sheet: TCP/UDP Numbers Admins Should Know"
+    },
+    "excerpt": {
+      "ar": "جداول المنافذ الأكثر استخدامًا للويب والبريد والدليل النشط والإدارة عن بعد وقواعد البيانات، مع أوامر كشف المنافذ المفتوحة على ويندوز ولينكس.",
+      "en": "The ports you meet daily, grouped by web, mail, Active Directory, remote admin and databases, plus commands to list listening ports on Windows and Linux."
+    },
+    "categoryId": "cybersecurity",
+    "subcategoryId": "network-security",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 5,
+    "heroImage": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YXVkaXQlMjBkb2N1bWVudHMlMjBvZmZpY2V8ZW58MXwwfHx8MTc4NTg5ODQ2Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "ports",
+      "tcp",
+      "udp",
+      "firewall",
+      "cheat-sheet"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "networking",
+      "cybersecurity"
+    ],
+    "topicIds": [
+      "firewalls",
+      "network-security"
+    ],
+    "contentType": "reference",
+    "vendorIds": [],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
+  },
+  {
+    "id": "art-p8-001",
+    "slug": "ad-account-lockout-source-event-4740",
+    "title": {
+      "ar": "تتبع مصدر قفل حسابات Active Directory عبر الحدث 4740 خطوة بخطوة",
+      "en": "Find the Source of AD Account Lockouts with Event 4740 and PowerShell"
+    },
+    "excerpt": {
+      "ar": "كيف تجد الجهاز الذي يقفل حساب المستخدم: الاستعلام من PDC Emulator عن الحدث 4740، أكواد الفشل 4625 و4771، والأسباب الشائعة مثل كلمات المرور المحفوظة.",
+      "en": "Locate the device locking a user out: query the PDC emulator for event 4740, decode 4625 and 4771 failures, and clear stale saved credentials and spraying."
+    },
+    "categoryId": "windows",
+    "subcategoryId": "guides-tips",
+    "author": {
+      "name": {
+        "ar": "فريق NetSec Atlas",
+        "en": "NetSec Atlas Team"
+      },
+      "avatar": ""
+    },
+    "date": "2026-11-19",
+    "readTime": 4,
+    "heroImage": "https://images.unsplash.com/photo-1740560051549-cc6799220d48?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NHx8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
+    "tags": [
+      "active-directory",
+      "account-lockout",
+      "event-4740",
+      "powershell",
+      "troubleshooting"
+    ],
+    "isFeatured": false,
+    "isTrending": false,
+    "domainIds": [
+      "infrastructure",
+      "troubleshooting"
+    ],
+    "topicIds": [
+      "active-directory",
+      "iam-pam"
+    ],
+    "contentType": "troubleshooting",
+    "vendorIds": [
+      "microsoft"
+    ],
+    "productIds": [],
+    "technicalStatus": "needs-review",
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
+  },
+  {
     "id": "art-p8-013",
     "slug": "ztna-fortigate-forticlient-ems",
     "title": {
