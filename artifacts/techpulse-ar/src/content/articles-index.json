@@ -3162,11 +3162,11 @@
     "slug": "cloud-vs-onprem-backup-considerations",
     "title": {
       "ar": "النسخ الاحتياطي السحابي مقابل المحلي: اعتبارات عملية غير التكلفة",
-      "en": "Cloud vs On-Prem Backup: Practical Considerations Beyond Cost"
+      "en": "Cloud or On-Prem Backup? The Questions That Matter More Than Price"
     },
     "excerpt": {
       "ar": "5 عوامل مقارنة تفصيلية (سرعة، سيادة بيانات، اعتماد إنترنت، حماية كارثية، تكلفة كاملة)، واستراتيجية هجينة عملية.",
-      "en": "5 detailed comparison factors (speed, data sovereignty, internet dependency, disaster protection, total cost), and a practical hybrid strategy."
+      "en": "Comparing cloud and on-premises backup on restore speed, bandwidth, ransomware resilience, sovereignty and operations, and why most organisations end up with a hybrid."
     },
     "categoryId": "technology",
     "subcategoryId": "guides-tips",
@@ -3178,7 +3178,7 @@
       "avatar": ""
     },
     "date": "2026-02-19",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1667372283496-893f0b1e7c16?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8M3x8YmFja3VwJTIwZGF0YSUyMHN0b3JhZ2UlMjBkaXNrfGVufDF8MHx8fDE3ODU4NzIxNDR8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "backup",
@@ -3199,18 +3199,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0047",
     "slug": "vulnerability-scanning-vs-penetration-testing",
     "title": {
       "ar": "فحص الثغرات مقابل اختبار الاختراق: الفرق ومتى تحتاج كلًا منهما",
-      "en": "Vulnerability Scanning vs Penetration Testing: The Difference and When You Need Each"
+      "en": "Vulnerability Scans vs Penetration Tests: Different Jobs, Both Needed"
     },
     "excerpt": {
       "ar": "الفرق العملي في النتائج بمثال واضح، أشهر خطأ (الاعتماد على واحد بس)، وإزاي يكمّلوا بعض في استراتيجية واحدة.",
-      "en": "The practical difference in results with a clear example, the most common mistake (relying on just one), and how they complement each other in one strategy."
+      "en": "What automated scanning finds and misses, what a human-led penetration test adds, how often to do each, and how to scope a pen test you'll actually learn from."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -3222,7 +3223,7 @@
       "avatar": ""
     },
     "date": "2026-03-26",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1562813733-b31f71025d54?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8aGFja2VyJTIwY29kZSUyMHRlcm1pbmFsJTIwZGFya3xlbnwxfDB8fHwxNzg1ODk4NDYzfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "penetration-testing",
@@ -3242,18 +3243,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0048",
     "slug": "dns-security-filtering-dnssec",
     "title": {
       "ar": "أمان DNS: من تصفية المواقع الضارة إلى DNSSEC",
-      "en": "DNS Security: From Malicious Site Filtering to DNSSEC"
+      "en": "DNS Security in Practice: Protective Filtering, Logging and DNSSEC"
     },
     "excerpt": {
       "ar": "ليه كل اتصال بيمر من DNS بدون استثناء، إزاي فلترة DNS بتشتغل فعليًا، والفرق الجوهري بين الطبقتين.",
-      "en": "Why every connection passes through DNS without exception, how DNS filtering actually works, and the fundamental difference between both layers."
+      "en": "How attackers use DNS, how protective DNS blocks malicious domains, why DNS logs are gold during investigations, and what DNSSEC does (and doesn't) protect."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -3265,7 +3267,7 @@
       "avatar": ""
     },
     "date": "2026-04-06",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NXx8bmV0d29yayUyMGRvbWFpbiUyMHNlcnZlcnxlbnwxfDB8fHwxNzg1ODcyMTQyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "dns",
@@ -3286,18 +3288,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0049",
     "slug": "bitlocker-disk-encryption-basics",
     "title": {
       "ar": "تشفير الأقراص بـ BitLocker: أساسيات لازم تعرفها",
-      "en": "Disk Encryption with BitLocker: Basics You Need to Know"
+      "en": "BitLocker Essentials for IT: TPM, Recovery Keys and Central Management"
     },
     "excerpt": {
       "ar": "دور TPM في تأمين العملية بالتفصيل، خطوات تفعيل موسّعة، وليه نسيان حفظ مفتاح الاستعادة كارثة حقيقية مش مجرد إزعاج.",
-      "en": "TPM's role in securing the process in detail, expanded activation steps, and why forgetting to save the recovery key is a genuine disaster, not just an inconvenience."
+      "en": "What BitLocker protects against, how TPM and startup PINs work, where recovery keys must live, and how to enforce encryption with Intune or Group Policy."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -3309,7 +3312,7 @@
       "avatar": ""
     },
     "date": "2026-05-13",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8ZW5jcnlwdGlvbiUyMHBhZGxvY2slMjBoYXJkJTIwZHJpdmV8ZW58MXwwfHx8MTc4NTg5ODQ2NHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "bitlocker",
@@ -3329,18 +3332,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0050",
     "slug": "windows-firewall-advanced-rules",
     "title": {
       "ar": "قواعد Windows Firewall المتقدمة: أكتر من مجرد تشغيل/إيقاف",
-      "en": "Advanced Windows Firewall Rules: More Than Just On/Off"
+      "en": "Windows Defender Firewall Beyond On and Off: Rules That Limit Lateral Movement"
     },
     "excerpt": {
       "ar": "ليه القواعد الصادرة مهمة بنفس قدر الواردة، 4 قواعد عملية تفصيلية، والخطأ الشائع فعليًا (تعطيل مؤقت بينسى تفعيله).",
-      "en": "Why outbound rules matter as much as inbound, 4 detailed practical rules, and the actual common mistake (a temporary disable that never gets re-enabled)."
+      "en": "Using profiles, scoped inbound rules, outbound control and central management to make the built-in Windows firewall stop attackers moving between machines."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -3352,7 +3356,7 @@
       "avatar": ""
     },
     "date": "2025-12-20",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1614064548237-096f735f344f?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8ZmlyZXdhbGwlMjBzaGllbGQlMjBuZXR3b3JrJTIwY29tcHV0ZXJ8ZW58MXwwfHx8MTc4NTg5ODQ2NXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "windows-firewall",
@@ -3373,18 +3377,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0051",
     "slug": "phishing-simulation-training-programs",
     "title": {
       "ar": "برامج محاكاة التصيد الإلكتروني: كيف تصمم برنامجًا فعالًا",
-      "en": "Phishing Simulation Programs: How to Design One That Works"
+      "en": "Running Phishing Simulations That Change Behaviour, Not Just Scores"
     },
     "excerpt": {
       "ar": "ليه العقاب بيعكس النتيجة، 4 مبادئ تصميم بالتفصيل، وسيناريو يوضّح ليه قياس النجاح مش بس نسبة الوقوع.",
-      "en": "Why punishment backfires, 4 design principles in detail, and a scenario showing why measuring success isn't just click rate."
+      "en": "How to design an ethical, useful phishing simulation programme: baselines, realistic scenarios, instant teachable moments, measuring reports instead of clicks, and what to avoid."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -3396,7 +3401,7 @@
       "avatar": ""
     },
     "date": "2026-01-27",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1762330474207-ae7280bdef66?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8M3x8cGhpc2hpbmclMjBlbWFpbCUyMHdhcm5pbmd8ZW58MXwwfHx8MTc4NTg3MjEyNHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "phishing",
@@ -3414,18 +3419,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0052",
     "slug": "cross-site-scripting-xss-basics",
     "title": {
       "ar": "ثغرات XSS: كيف يسرق موقع بسيط بيانات المستخدم",
-      "en": "XSS Vulnerabilities: How a Simple Site Can Steal User Data"
+      "en": "Cross-Site Scripting (XSS): How Injected Scripts Hijack Users, and How to Stop Them"
     },
     "excerpt": {
       "ar": "3 أنواع XSS بالتفصيل (Stored/Reflected/DOM-based)، 4 طرق حماية عملية، ومثال كامل يوضّح آلية السرقة خطوة بخطوة.",
-      "en": "3 XSS types in detail (Stored/Reflected/DOM-based), 4 practical protections, and a complete example showing the theft mechanism step by step."
+      "en": "Reflected, stored and DOM-based XSS explained with simple examples, what an attacker can do with it, and the defences that work: output encoding, safe frameworks, CSP and cookie flags."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
@@ -3437,7 +3443,7 @@
       "avatar": ""
     },
     "date": "2026-02-07",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8Y29kZSUyMGluamVjdGlvbiUyMHByb2dyYW1taW5nJTIwc2NyZWVufGVufDF8MHx8fDE3ODU4OTg0NjZ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "xss",
@@ -3455,18 +3461,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0053",
     "slug": "windows-server-core-vs-desktop-experience",
     "title": {
       "ar": "Windows Server Core مقابل Desktop Experience: أيهما تختار؟",
-      "en": "Windows Server Core vs Desktop Experience: Which Should You Choose?"
+      "en": "Server Core or Desktop Experience? Picking the Right Windows Server Install"
     },
     "excerpt": {
       "ar": "3 مميزات Server Core بالتفصيل، استراتيجية انتقال تدريجي عملية، وأداة Windows Admin Center كجسر بين الاتنين.",
-      "en": "3 Server Core advantages in detail, a practical gradual transition strategy, and Windows Admin Center as a bridge between both."
+      "en": "How the two installation options differ in attack surface, patching, resource use and management, which roles suit each, and why the choice must be made at install time."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -3478,7 +3485,7 @@
       "avatar": ""
     },
     "date": "2026-03-14",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1782094673136-5198a372980c?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8c2VydmVyJTIwcmFjayUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc4NTg3MjE0Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "windows-server",
@@ -3502,18 +3509,19 @@
       "windows-server"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0054",
     "slug": "api-key-management-best-practices",
     "title": {
       "ar": "إدارة مفاتيح API بأمان: أخطاء شائعة وحلول بسيطة",
-      "en": "Secure API Key Management: Common Mistakes and Simple Fixes"
+      "en": "API Keys Done Right: Stop Leaking Secrets in Code and Logs"
     },
     "excerpt": {
       "ar": "ليه مسح المفتاح من الكود مش كافٍ إطلاقًا (طبيعة Git)، 4 ممارسات أساسية بالتفصيل، ونصيحة المراجعة الدورية للمفاتيح النشطة.",
-      "en": "Why removing the key from code alone isn't enough at all (Git's nature), 4 core practices in detail, and advice on periodically reviewing active keys."
+      "en": "How API keys and tokens leak (Git history, front-end code, logs, CI variables), and the practices that contain the damage: secret managers, scoping, rotation and scanning."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
@@ -3525,7 +3533,7 @@
       "avatar": ""
     },
     "date": "2026-04-21",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YXBpJTIwY29kZSUyMGRldmVsb3BlciUyMHNjcmVlbnxlbnwxfDB8fHwxNzg1ODk4NDY3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "api-security",
@@ -3543,18 +3551,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0055",
     "slug": "physical-security-server-room-basics",
     "title": {
       "ar": "الأمان المادي لغرفة الخوادم: أساسيات يتجاهلها كثيرون",
-      "en": "Physical Security for the Server Room: Overlooked Basics"
+      "en": "Server Room Physical Security: The Basics Everyone Skips"
     },
     "excerpt": {
       "ar": "ليه أي حد يوصل فيزيائيًا للسيرفر يقدر يتجاوز الحماية الرقمية، و5 أساسيات عملية بالتفصيل.",
-      "en": "Why anyone with physical server access can bypass digital protection, and 5 practical basics in detail."
+      "en": "Access control, visitor handling, cameras, environmental monitoring, power and fire protection, and the console and media risks that physical access creates."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -3566,7 +3575,7 @@
       "avatar": ""
     },
     "date": "2026-05-01",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1680992046626-418f7e910589?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8c2VydmVyJTIwcm9vbSUyMGxvY2tlZCUyMGRvb3J8ZW58MXwwfHx8MTc4NTg5ODQ2OHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "physical-security",
@@ -3585,18 +3594,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0056",
     "slug": "supply-chain-attacks-third-party-risk",
     "title": {
       "ar": "هجمات سلسلة التوريد: عندما يأتي الخطر من مورّد موثوق",
-      "en": "Supply Chain Attacks: When the Risk Comes from a Trusted Vendor"
+      "en": "Supply Chain Attacks: Managing the Risk That Arrives Through Trusted Vendors"
     },
     "excerpt": {
       "ar": "3 أمثلة حقيقية موثّقة لنقاط الخطر بالتفصيل، وليه ثقتك في المورّد نفسها هي السلاح المُستغل.",
-      "en": "3 real documented examples of risk points in detail, and why your own trust in the vendor is the weapon being exploited."
+      "en": "How attackers compromise software updates, service providers and open-source packages to reach many victims at once, and the vendor-risk and technical controls that limit the damage."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
@@ -3608,7 +3618,7 @@
       "avatar": ""
     },
     "date": "2026-06-08",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1606185540834-d6e7483ee1a4?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8c2hpcHBpbmclMjBsb2dpc3RpY3MlMjBjaGFpbiUyMG5ldHdvcmt8ZW58MXwwfHx8MTc4NTg5ODQ2OXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "supply-chain",
@@ -3626,18 +3636,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0057",
     "slug": "container-image-security-scanning",
     "title": {
       "ar": "فحص أمان صور الحاويات (Container Images) قبل النشر",
-      "en": "Scanning Container Images for Security Before Deployment"
+      "en": "Scanning Container Images Before They Ship: A Practical Pipeline"
     },
     "excerpt": {
       "ar": "إزاي أدوات الفحص بتشتغل فعليًا، 4 خطوات عملية تفصيلية، وليه الفحص لمرة واحدة وقت البناء بس مش كافٍ.",
-      "en": "How scanning tools actually work, 4 detailed practical steps, and why one-time build-time scanning alone isn't enough."
+      "en": "What image scanners look for (vulnerable packages, secrets, misconfigurations), where to scan in the pipeline, how to set sensible gates, and how to keep base images lean and current."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -3649,7 +3660,7 @@
       "avatar": ""
     },
     "date": "2025-12-15",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "containers",
@@ -3667,18 +3678,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0058",
     "slug": "guest-wifi-network-isolation",
     "title": {
       "ar": "عزل شبكة الضيوف (Guest Wi-Fi): إعداد بسيط بفايدة كبيرة",
-      "en": "Guest Wi-Fi Isolation: A Simple Setup with a Big Payoff"
+      "en": "Guest Wi-Fi Done Properly: Isolation, Limits and a Simple Setup"
     },
     "excerpt": {
       "ar": "5 خطوات إعداد تفصيلية بدل 4، وليه مشاركة كلمة المرور الداخلية بتلغي الفايدة كاملة بغض النظر عن باقي الإعدادات.",
-      "en": "5 detailed setup steps up from 4, and why sharing the internal password eliminates the entire benefit regardless of other settings."
+      "en": "Why visitors and personal devices must never share the staff network, how to build a guest network with VLAN separation and client isolation, and the settings that keep it from becoming a liability."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -3690,7 +3702,7 @@
       "avatar": ""
     },
     "date": "2026-01-22",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1645725677294-ed0843b97d5c?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8d2lmaSUyMHJvdXRlciUyMHdpcmVsZXNzJTIwc2lnbmFsfGVufDF8MHx8fDE3ODU4OTg0NzB8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "wifi",
@@ -3710,7 +3722,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0059",
@@ -3760,11 +3773,11 @@
     "slug": "cyber-insurance-what-it-covers",
     "title": {
       "ar": "التأمين ضد المخاطر السيبرانية: ما الذي يغطيه فعليًا",
-      "en": "Cyber Insurance: What It Actually Covers"
+      "en": "Cyber Insurance Explained: What's Covered, What's Not, and What Insurers Expect"
     },
     "excerpt": {
       "ar": "3 أشياء غالبًا مش مغطاة (وأهمها الفدية نفسها)، والسؤال الأهم عن الحد الأدنى الأمني اللي لازم تسأله قبل الشراء.",
-      "en": "3 things often not covered (most importantly the ransom itself), and the most important security-baseline question to ask before buying."
+      "en": "First-party and third-party cover, common exclusions, the security controls underwriters now require, and how IT should prepare for the application and a claim."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "concepts",
@@ -3776,7 +3789,7 @@
       "avatar": ""
     },
     "date": "2026-03-09",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1772588627327-1eeddcf73c11?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8YXVkaXQlMjBkb2N1bWVudHMlMjBvZmZpY2V8ZW58MXwwfHx8MTc4NTg3MjE1OHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "cyber-insurance",
@@ -3794,18 +3807,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0061",
     "slug": "it-change-management-process-basics",
     "title": {
       "ar": "عملية إدارة التغيير في IT: ليه أي تعديل محتاج توثيق",
-      "en": "IT Change Management: Why Every Change Needs Documentation"
+      "en": "IT Change Management Without the Bureaucracy: Why Every Change Gets Written Down"
     },
     "excerpt": {
       "ar": "4 عناصر أساسية بالتفصيل، ليه المبالغة في التعقيد من أول يوم أخطر من عدم وجود عملية أصلًا، ونصيحة التطبيق التدريجي.",
-      "en": "4 core elements in detail, why over-complicating from day one is more dangerous than having no process at all, and gradual implementation advice."
+      "en": "How a lightweight change process prevents outages and helps investigations: change types, what a change record needs, approvals, rollback plans and post-change review."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
@@ -3817,7 +3831,7 @@
       "avatar": ""
     },
     "date": "2026-04-16",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8b2ZmaWNlJTIwbWVldGluZyUyMHdoaXRlYm9hcmQlMjBwbGFubmluZ3xlbnwxfDB8fHwxNzg1ODk4NDcyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "change-management",
@@ -3826,18 +3840,19 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0062",
     "slug": "data-classification-basics",
     "title": {
       "ar": "تصنيف البيانات: مش كل الملفات محتاجة نفس مستوى الحماية",
-      "en": "Data Classification: Not Every File Needs the Same Protection Level"
+      "en": "Data Classification Made Practical: Matching Protection to Sensitivity"
     },
     "excerpt": {
       "ar": "نظام تصنيف بأربع مستويات بالتفصيل، وليه محاولة تصنيف كل شيء دفعة واحدة من أول يوم أشهر خطأ عملي يفشل المشروع كله.",
-      "en": "A detailed four-level classification system, and why trying to classify everything at once from day one is the most common practical mistake that fails the whole project."
+      "en": "How to define a few clear classification levels, label data with minimal friction, tie each level to concrete handling rules, and use labels to drive DLP and access controls."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -3849,7 +3864,7 @@
       "avatar": ""
     },
     "date": "2026-05-23",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1695388474402-ed805a890d8d?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8YXVkaXQlMjBkb2N1bWVudHMlMjBvZmZpY2V8ZW58MXwwfHx8MTc4NTg5ODQ2Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "data-classification",
@@ -3865,18 +3880,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0065",
     "slug": "windows-task-scheduler-automation",
     "title": {
       "ar": "أتمتة المهام بـ Task Scheduler: أكتر من مجرد تذكيرات",
-      "en": "Task Automation with Task Scheduler: More Than Just Reminders"
+      "en": "Automating Admin Work with Windows Task Scheduler (Securely)"
     },
     "excerpt": {
       "ar": "3 استخدامات عملية بالتفصيل، خطوات إنشاء مهمة صحيحة، وليه استخدام حساب المستخدم الشخصي أشهر سبب فشل صامت.",
-      "en": "3 practical uses in detail, correct task creation steps, and why using a personal user account is the most common cause of silent failure."
+      "en": "Building reliable scheduled tasks for scripts and maintenance: triggers, run-as accounts, gMSAs, PowerShell creation, logging, and why attackers also love scheduled tasks."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -3888,7 +3904,7 @@
       "avatar": ""
     },
     "date": "2026-03-17",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1679269241012-f7640862d242?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8d2luZG93cyUyMGNvbXB1dGVyJTIwY2xvY2t8ZW58MXwwfHx8MTc4NTg3MjE3OHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "task-scheduler",
@@ -3897,18 +3913,19 @@
       "guide"
     ],
     "isFeatured": false,
-    "isTrending": false
+    "isTrending": false,
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0066",
     "slug": "insider-threat-detection-basics",
     "title": {
       "ar": "التهديد الداخلي (Insider Threat): مؤشرات الاكتشاف المبكر",
-      "en": "Insider Threats: Not Every Risk Comes from Outside"
+      "en": "Insider Threats: Spotting Risk That Already Has a Login"
     },
     "excerpt": {
       "ar": "الفرق الجوهري بين تهديد متعمد وغير متعمد، 3 علامات تحذيرية سلوكية تستاهل انتباه حقيقي بالتفصيل.",
-      "en": "The fundamental difference between deliberate and unintentional threats, 3 behavioral warning signs deserving genuine attention in detail."
+      "en": "The three kinds of insider risk (malicious, negligent, compromised), the warning signs in logs and behaviour, and the controls that detect problems while respecting privacy."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -3920,7 +3937,7 @@
       "avatar": ""
     },
     "date": "2026-03-24",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8b2ZmaWNlJTIwZW1wbG95ZWUlMjBjb21wdXRlcnxlbnwxfDB8fHwxNzg1ODcyMTc5fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "insider-threat",
@@ -3938,18 +3955,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0067",
     "slug": "sd-wan-basics-explained",
     "title": {
       "ar": "SD-WAN بدون تعقيد: ما المشكلات التي يحلها فعليًا",
-      "en": "SD-WAN Without the Jargon: What It Actually Solves"
+      "en": "SD-WAN in Plain Terms: What It Fixes for Multi-Site Networks"
     },
     "excerpt": {
       "ar": "إزاي التوجيه الذكي حسب نوع التطبيق بيشتغل، وليه الخلط بين إدارة الشبكة والأمان غلط شائع خطير.",
-      "en": "If you have multiple branches, the traditional way of connecting them is costly and inflexible -- SD-WAN is a practical alternative."
+      "en": "How SD-WAN steers traffic across broadband, LTE and MPLS links based on application and link quality, the operational benefits, the security considerations, and how it relates to SASE."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -3961,7 +3979,7 @@
       "avatar": ""
     },
     "date": "2026-04-04",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1667264501379-c1537934c7ab?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NHx8bmV0d29yayUyMGNhYmxlcyUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc4NTg3MjE4MHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "sd-wan",
@@ -3979,18 +3997,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0068",
     "slug": "secure-remote-work-checklist",
     "title": {
       "ar": "قائمة تحقق للعمل عن بُعد الآمن: 12 ضابطًا لفرق تقنية المعلومات",
-      "en": "A Secure Remote Work Checklist: 12 Controls for IT Teams"
+      "en": "Secure Remote Work: A 12-Point Control Checklist for IT Teams"
     },
     "excerpt": {
       "ar": "اثنا عشر ضابطًا عمليًا لتأمين الموظفين عن بُعد: الوصول الآمن وMFA، حماية الجهاز وتشفيره، التحديثات، الشبكة المنزلية، النسخ الاحتياطي، والاستجابة عند فقدان جهاز.",
-      "en": "Twelve practical controls for remote staff: secure access and MFA, device protection and encryption, updates, home networks, backups and lost devices."
+      "en": "Twelve controls that cover identity, devices, access, data and people for staff working from home or on the road, in priority order, with notes on how to verify each one."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -4022,7 +4041,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0069",

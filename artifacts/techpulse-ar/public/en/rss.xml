@@ -344,11 +344,11 @@
       <category>identity</category>
     </item>
     <item>
-      <title>A Secure Remote Work Checklist: 12 Controls for IT Teams</title>
+      <title>Secure Remote Work: A 12-Point Control Checklist for IT Teams</title>
       <link>https://netsecatlas.com/en/article/secure-remote-work-checklist</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/secure-remote-work-checklist</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Twelve practical controls for remote staff: secure access and MFA, device protection and encryption, updates, home networks, backups and lost devices.</description>
+      <description>Twelve controls that cover identity, devices, access, data and people for staff working from home or on the road, in priority order, with notes on how to verify each one.</description>
       <category>remote-work</category>
       <category>security-checklist</category>
       <category>vpn</category>
@@ -562,11 +562,11 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Supply Chain Attacks: When the Risk Comes from a Trusted Vendor</title>
+      <title>Supply Chain Attacks: Managing the Risk That Arrives Through Trusted Vendors</title>
       <link>https://netsecatlas.com/en/article/supply-chain-attacks-third-party-risk</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/supply-chain-attacks-third-party-risk</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description>3 real documented examples of risk points in detail, and why your own trust in the vendor is the weapon being exploited.</description>
+      <description>How attackers compromise software updates, service providers and open-source packages to reach many victims at once, and the vendor-risk and technical controls that limit the damage.</description>
       <category>supply-chain</category>
       <category>third-party-risk</category>
       <category>security</category>
