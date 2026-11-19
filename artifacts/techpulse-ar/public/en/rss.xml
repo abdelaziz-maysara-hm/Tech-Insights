@@ -323,11 +323,11 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Setting Up FortiGate SSL VPN Step by Step (with the FortiOS 7.6.3 Caveat)</title>
+      <title>FortiGate SSL VPN Setup Checklist for FortiOS 7.4 and Early 7.6 (Before Tunnel Mode Goes)</title>
       <link>https://netsecatlas.com/en/article/fortigate-ssl-vpn-checklist</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/fortigate-ssl-vpn-checklist</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>The five interconnected steps to set up SSL VPN correctly the first time, with diagnosis of the most common failures.</description>
+      <description>The five pieces a working FortiGate SSL VPN needs on releases that still have tunnel mode, the usual reasons it fails, a hardening list, and what changes from FortiOS 7.6.3 onward.</description>
       <category>fortinet</category>
       <category>fortigate</category>
       <category>ssl-vpn</category>
@@ -354,11 +354,11 @@
       <category>vpn</category>
     </item>
     <item>
-      <title>OWASP Top 10: An Overview of the Most Critical Web Application Risks</title>
+      <title>The OWASP Top 10 (2025) for Busy Teams: What Each Risk Means in Practice</title>
       <link>https://netsecatlas.com/en/article/owasp-top-10-overview</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/owasp-top-10-overview</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Key categories in detail (Broken Access Control, Injection, Cryptographic Failures), and why the list changes and how to use it practically.</description>
+      <description>A plain-English tour of the OWASP Top 10:2025, from broken access control to mishandled exceptional conditions, with a worked SQL injection example and advice on using the list without treating it as a checklist.</description>
       <category>owasp</category>
       <category>web-security</category>
       <category>secure-design</category>
@@ -388,11 +388,11 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Understanding the CVSS Score: How to Correctly Read Vulnerability Severity</title>
+      <title>Reading CVSS Scores Properly: What the Number Hides and What to Add</title>
       <link>https://netsecatlas.com/en/article/understanding-cvss-score</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/understanding-cvss-score</guid>
       <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
-      <description>4 core components forming the score, why context matters more than the raw number, and the KEV list&apos;s role in determining real priority.</description>
+      <description>How CVSS base metrics are built (attack vector, complexity, privileges, user interaction, impact), what changed in CVSS 4.0, and how to combine the score with exploitation data (KEV, EPSS) and your own exposure.</description>
       <category>cvss</category>
       <category>vulnerability-management</category>
       <category>security</category>
@@ -421,21 +421,21 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Network Scanning with Nmap: Core Commands and Responsible Use</title>
+      <title>Nmap for Network Admins: Core Scans, Useful Options and Staying Authorised</title>
       <link>https://netsecatlas.com/en/article/nmap-network-scanning-complete-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/nmap-network-scanning-complete-guide</guid>
       <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Core scan types with real commands, 3 common practical use cases, and an important legal warning before any use.</description>
+      <description>Practical Nmap usage for inventory and security checks: host discovery, port and service scans, OS detection, NSE scripts, output formats, timing, and the authorisation rules you must follow.</description>
       <category>nmap</category>
       <category>network-scanning</category>
       <category>guide</category>
     </item>
     <item>
-      <title>Network Traffic Analysis with Wireshark: Filters and Practical Cases</title>
+      <title>Wireshark for Troubleshooting and Security: Capture Smart, Filter Fast</title>
       <link>https://netsecatlas.com/en/article/wireshark-network-analysis-complete-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/wireshark-network-analysis-complete-guide</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Capture and display filters in detail, real diagnostic scenarios (slowness, suspicious DNS, TLS failures), and an important safety note before use.</description>
+      <description>Where to capture, capture versus display filters, the filters admins use most, following streams, reading TLS traffic, and real cases from slow applications to suspicious beaconing.</description>
       <category>wireshark</category>
       <category>network-analysis</category>
       <category>guide</category>
@@ -452,11 +452,11 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Understanding the TLS Handshake: What Actually Happens Behind the Green Lock</title>
+      <title>The TLS Handshake Step by Step: What Happens Before the Padlock Appears</title>
       <link>https://netsecatlas.com/en/article/tls-handshake-explained</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/tls-handshake-explained</guid>
       <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
-      <description>The 5 handshake steps in detail, why TLS 1.3 is technically faster, and how understanding the process lets you diagnose TLS problems confidently.</description>
+      <description>How a TLS 1.3 connection is set up (Client Hello, key exchange, certificate verification, Finished), what changed from TLS 1.2, and how to troubleshoot common handshake failures.</description>
       <category>tls</category>
       <category>https</category>
       <category>encryption</category>
@@ -496,22 +496,22 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Disaster Recovery Plan (DRP) Basics: RTO, RPO and Testing</title>
+      <title>Disaster Recovery Planning: Setting RTO and RPO and Proving You Can Hit Them</title>
       <link>https://netsecatlas.com/en/article/disaster-recovery-plan-basics</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/disaster-recovery-plan-basics</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
-      <description>The difference between backup and a full DR plan, RTO/RPO metrics explained with examples, and strategy tiers from cheapest to fastest.</description>
+      <description>How to build a disaster recovery plan that works: business impact analysis, recovery time and recovery point objectives, recovery tiers, runbooks, and the testing that turns a document into a capability.</description>
       <category>disaster-recovery</category>
       <category>backup</category>
       <category>business-continuity</category>
       <category>guide</category>
     </item>
     <item>
-      <title>Immutable Backups: Ransomware&apos;s Last Line of Defence</title>
+      <title>Immutable Backups: Making Sure Ransomware Can&apos;t Delete Your Way Back</title>
       <link>https://netsecatlas.com/en/article/immutable-backups-ransomware-defense</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/immutable-backups-ransomware-defense</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Why attackers deliberately target backups themselves, and how a technical storage-level lock differs fundamentally from just access permissions.</description>
+      <description>Why attackers target backups first, how immutability works (object lock, WORM, hardened repositories), choosing retention, the compliance-versus-governance trade-off, and testing restores.</description>
       <category>backup</category>
       <category>ransomware</category>
       <category>disaster-recovery</category>
@@ -551,11 +551,11 @@
       <category>guide</category>
     </item>
     <item>
-      <title>Understanding PKI and the Chain of Trust: How You Know a Certificate Is Actually Real</title>
+      <title>PKI and the Chain of Trust: How a Certificate Proves Who&apos;s on the Other End</title>
       <link>https://netsecatlas.com/en/article/pki-certificate-authority-explained</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/pki-certificate-authority-explained</guid>
       <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-      <description>The public/private key pair, the chain of trust from Root CA to intermediate certificates, certificate types (DV/OV/EV), and why the untrusted certificate warning is genuinely dangerous.</description>
+      <description>How public key infrastructure works: key pairs, certificate authorities, root and intermediate certificates, chain validation, revocation, and the operational basics of running an internal CA.</description>
       <category>pki</category>
       <category>certificates</category>
       <category>ssl</category>
@@ -573,11 +573,11 @@
       <category>guide</category>
     </item>
     <item>
-      <title>PowerShell for System Administrators: From Basics to Automation</title>
+      <title>PowerShell for Sysadmins: From First Commands to Reliable Automation</title>
       <link>https://netsecatlas.com/en/article/powershell-sysadmin-complete-guide</link>
       <guid isPermaLink="true">https://netsecatlas.com/en/article/powershell-sysadmin-complete-guide</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-      <description>From basic commands to writing real automation scripts, with common mistakes and their fixes.</description>
+      <description>The core ideas that make PowerShell different (cmdlets, objects, the pipeline), everyday commands for services, processes, files and AD, a first real script with logging and error handling, and the mistakes to avoid.</description>
       <category>powershell</category>
       <category>automation</category>
       <category>windows-server</category>
