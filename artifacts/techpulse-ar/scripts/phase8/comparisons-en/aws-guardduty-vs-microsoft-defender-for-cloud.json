@@ -1,0 +1,22 @@
+{
+  "title": "Amazon GuardDuty or Microsoft Defender for Cloud: Cloud Threat Detection Compared",
+  "excerpt": "GuardDuty is AWS's native threat detection service; Defender for Cloud is Microsoft's cloud security platform covering Azure, AWS and Google Cloud. Your cloud footprint largely decides between them.",
+  "verdict": "GuardDuty is the clearer, simpler choice if your workloads are mostly on AWS. Defender for Cloud fits better when you run several clouds and want unified posture management and threat protection across them.",
+  "specs": {
+    "spec1": {
+      "label": "Depth within AWS",
+      "device1Value": "Native and specialised for AWS",
+      "device2Value": "Supports AWS, but its home platform is Azure"
+    },
+    "spec2": {
+      "label": "Multi-cloud coverage",
+      "device1Value": "Limited outside AWS",
+      "device2Value": "Covers Azure, AWS and Google Cloud together"
+    },
+    "spec3": {
+      "label": "Turning it on",
+      "device1Value": "Very simple, close to one click per account",
+      "device2Value": "Needs somewhat more setup depending on scope"
+    }
+  }
+}

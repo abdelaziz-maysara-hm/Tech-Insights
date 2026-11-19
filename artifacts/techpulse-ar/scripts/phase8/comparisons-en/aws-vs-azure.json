@@ -1,0 +1,17 @@
+{
+  "title": "AWS or Azure: Choosing a Primary Cloud for an Enterprise",
+  "excerpt": "The two largest public clouds compared on what usually decides the matter for IT teams: breadth and maturity of services, and how easily each fits an organisation already running Microsoft identity and productivity tools.",
+  "verdict": "AWS offers the broadest and most mature catalogue of cloud services and is a strong general-purpose choice. Azure is the natural fit for organisations already built on Active Directory and Microsoft 365, where integration is simpler and licensing benefits can lower cost.",
+  "specs": {
+    "spec1": {
+      "label": "Breadth and maturity of services",
+      "device1Value": "The longest-running platform with the widest range of services",
+      "device2Value": "Growing fast and particularly strong for Microsoft workloads"
+    },
+    "spec2": {
+      "label": "Integration with the Microsoft enterprise stack",
+      "device1Value": "Possible, but needs extra setup",
+      "device2Value": "Very smooth with Active Directory, Entra ID and Microsoft 365"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "GitLab or GitHub: Where Should Your Code Live?",
+  "excerpt": "Both host Git repositories and run CI/CD, but their strengths differ. GitLab is known for self-hosting and an all-in-one DevOps platform; GitHub is home to the largest open-source community.",
+  "verdict": "GitLab is the stronger option if you need mature self-hosting or want planning, CI/CD and security in one platform. GitHub is the better choice for working with the open-source world and for its large ecosystem of Actions and integrations.",
+  "specs": {
+    "spec1": {
+      "label": "Self-hosting",
+      "device1Value": "Mature self-hosted editions, including a free one",
+      "device2Value": "Self-hosting needs GitHub Enterprise Server, which is paid"
+    },
+    "spec2": {
+      "label": "Built-in CI/CD",
+      "device1Value": "Deeply integrated and mature for many years",
+      "device2Value": "GitHub Actions is strong and easy to use, though newer"
+    },
+    "spec3": {
+      "label": "Community and open-source reach",
+      "device1Value": "Large, but smaller than GitHub",
+      "device2Value": "By far the largest home for open-source projects"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Rclone or rsync: Syncing Files to the Cloud vs Between Servers",
+  "excerpt": "rsync is the classic tool for efficient file copying between local systems and over SSH; Rclone brings a similar experience to dozens of cloud storage services. Many administrators keep both.",
+  "verdict": "Choose Rclone when your files move to and from cloud storage such as S3-compatible buckets, Google Drive or OneDrive. Choose rsync for fast, efficient copies between servers or local disks, where its delta-transfer algorithm is hard to beat.",
+  "specs": {
+    "spec1": {
+      "label": "Cloud storage support",
+      "device1Value": "Talks directly to dozens of cloud storage services",
+      "device2Value": "Designed for local filesystems and SSH transfers"
+    },
+    "spec2": {
+      "label": "History and stability",
+      "device1Value": "Younger, but mature for its purpose",
+      "device2Value": "One of the oldest and most proven sync tools on Unix-like systems"
+    },
+    "spec3": {
+      "label": "Speed for large local files",
+      "device1Value": "Good, but not its specialty",
+      "device2Value": "Highly optimised, sending only the changed parts of files"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Forcepoint Email Security or Proofpoint Email Protection: Data Protection vs Broad Email Defence",
+  "excerpt": "Two email security gateways compared for organisations that must stop inbound threats and control outbound data. Forcepoint has long emphasised data loss prevention; Proofpoint is one of the most widely deployed email security vendors.",
+  "verdict": "Forcepoint is a strong choice for sensitive sectors such as government and finance where controlling outbound data is the top priority. Proofpoint is the more widely deployed general-purpose email security platform and the safer default for most businesses focused on inbound phishing and malware.",
+  "specs": {
+    "spec1": {
+      "label": "Data loss prevention",
+      "device1Value": "A long-standing core strength",
+      "device2Value": "Also capable, but not its main focus"
+    },
+    "spec2": {
+      "label": "Market presence and community",
+      "device1Value": "Smaller",
+      "device2Value": "Much wider deployment in email security"
+    },
+    "spec3": {
+      "label": "Track record in government and finance",
+      "device1Value": "Strong and long established in these sectors",
+      "device2Value": "Widely used across sectors, including these"
+    }
+  }
+}

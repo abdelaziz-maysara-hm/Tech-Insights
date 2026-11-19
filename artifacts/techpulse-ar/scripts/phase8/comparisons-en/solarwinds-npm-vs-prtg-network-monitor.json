@@ -1,0 +1,22 @@
+{
+  "title": "SolarWinds NPM or PRTG Network Monitor: Choosing a Network Monitoring Tool",
+  "excerpt": "Two established commercial network monitoring platforms. SolarWinds Network Performance Monitor targets large, complex networks; PRTG from Paessler is known for quick setup and sensor-based pricing.",
+  "verdict": "SolarWinds NPM is the stronger option for large, complex enterprise networks that need deep monitoring. PRTG is faster to deploy and easier to budget for, which suits mid-sized teams.",
+  "specs": {
+    "spec1": {
+      "label": "Depth for large enterprise networks",
+      "device1Value": "Very strong in complex enterprise environments",
+      "device2Value": "Also strong, and simpler day to day"
+    },
+    "spec2": {
+      "label": "Pricing clarity",
+      "device1Value": "Several products and licence models; can be complex",
+      "device2Value": "Straightforward pricing based on the number of sensors"
+    },
+    "spec3": {
+      "label": "Time to first results",
+      "device1Value": "Large deployments need careful planning",
+      "device2Value": "One of the quickest tools to get running"
+    }
+  }
+}

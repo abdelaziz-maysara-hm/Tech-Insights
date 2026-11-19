@@ -1,0 +1,22 @@
+{
+  "title": "Veeam Backup & Replication or Acronis Cyber Protect: Enterprise Backup vs All-in-One Protection",
+  "excerpt": "Two popular backup platforms with different goals. Veeam focuses on deep backup and recovery for virtualised infrastructure; Acronis combines backup with anti-malware and endpoint management in one agent.",
+  "verdict": "Veeam is the stronger option for larger organisations with complex virtual environments that need enterprise-grade backup, replication and recovery testing. Acronis suits small businesses that want backup and anti-malware in one simpler tool and one console.",
+  "specs": {
+    "spec1": {
+      "label": "Main focus",
+      "device1Value": "Deep, enterprise-grade backup and recovery",
+      "device2Value": "Backup combined with anti-malware in a single product"
+    },
+    "spec2": {
+      "label": "Large virtualised environments",
+      "device1Value": "Among the most mature options for this use case",
+      "device2Value": "Supported, but less specialised for large virtual estates"
+    },
+    "spec3": {
+      "label": "Fit for small businesses with limited IT staff",
+      "device1Value": "Takes more expertise to use fully",
+      "device2Value": "Designed to be simple for small teams to run"
+    }
+  }
+}

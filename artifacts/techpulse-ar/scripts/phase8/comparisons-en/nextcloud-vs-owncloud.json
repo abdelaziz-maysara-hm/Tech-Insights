@@ -1,0 +1,22 @@
+{
+  "title": "Nextcloud or ownCloud: Self-Hosted File Sharing Compared",
+  "excerpt": "Nextcloud began as a fork of ownCloud, and both let you run file sharing and collaboration on your own servers. They have since diverged in pace, community and enterprise focus.",
+  "verdict": "Nextcloud is currently the more popular and faster-moving project and suits most self-hosting needs. ownCloud remains a sound option for enterprises that prioritise stability and specific compliance features.",
+  "specs": {
+    "spec1": {
+      "label": "Development pace and new features",
+      "device1Value": "Adds features faster, with the larger community",
+      "device2Value": "Slower, with a focus on enterprise stability"
+    },
+    "spec2": {
+      "label": "Ease of self-hosting",
+      "device1Value": "Extensive documentation that beginners can follow",
+      "device2Value": "Also good, but better suited to experienced teams"
+    },
+    "spec3": {
+      "label": "Advanced enterprise features",
+      "device1Value": "Available and expanding",
+      "device2Value": "Historically stronger on enterprise compliance features"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "pfSense or OPNsense: Choosing an Open-Source Firewall",
+  "excerpt": "Two FreeBSD-based firewall distributions with a shared history: OPNsense began as a fork of pfSense. They do similar jobs, so the choice comes down to release cadence, interface and the add-ons you rely on.",
+  "verdict": "You can build a solid firewall with either. pfSense suits you if you depend on particular packages from its long-established ecosystem or have existing expertise. OPNsense is the better pick if you value a frequent, predictable release schedule, a modern interface and an open development process.",
+  "specs": {
+    "spec1": {
+      "label": "Project history and community",
+      "device1Value": "The older project, historically more widely used",
+      "device2Value": "A fork of pfSense that emphasises openness and regular releases"
+    },
+    "spec2": {
+      "label": "Release frequency",
+      "device1Value": "Comparatively slower",
+      "device2Value": "Ships updates and new features more often"
+    },
+    "spec3": {
+      "label": "Add-on ecosystem",
+      "device1Value": "Historically larger selection of packages",
+      "device2Value": "Smaller, but growing quickly"
+    }
+  }
+}

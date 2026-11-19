@@ -1,0 +1,22 @@
+{
+  "title": "Burp Suite or Nikto: Deep Web App Testing vs Quick Server Scanning",
+  "excerpt": "Burp Suite is an interactive toolkit for in-depth web application testing; Nikto is a fast, free command-line scanner for common web server issues. They suit different stages of a test.",
+  "verdict": "Burp Suite is the tool for genuinely deep web application penetration testing. Nikto is a quick, free first pass that flags common misconfigurations and outdated software before you dig deeper with more powerful tools. Scan only systems you are authorised to test.",
+  "specs": {
+    "spec1": {
+      "label": "Depth of testing",
+      "device1Value": "Deep, interactive testing guided by the tester",
+      "device2Value": "Fast automated checks with little manual input"
+    },
+    "spec2": {
+      "label": "Speed of a first scan",
+      "device1Value": "Slower, because it goes deeper",
+      "device2Value": "Very fast for a general web server check"
+    },
+    "spec3": {
+      "label": "Cost",
+      "device1Value": "The Professional edition is paid",
+      "device2Value": "Free and open source"
+    }
+  }
+}

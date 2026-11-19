@@ -1,0 +1,22 @@
+{
+  "title": "Kaspersky Endpoint Security or Bitdefender GravityZone for Small and Mid-Sized Businesses",
+  "excerpt": "Two endpoint protection suites popular with smaller organisations, compared on central management, how much they slow devices down and the strength of local partners and support.",
+  "verdict": "Both protect small and mid-sized businesses well. Kaspersky has a stronger partner and support presence in Arabic-speaking markets and a mature management console in Kaspersky Security Center. Bitdefender tends to place among the lightest products in repeated independent performance tests and has a modern console that is quick to learn. Check whether either vendor faces procurement restrictions in your country or sector before deciding.",
+  "specs": {
+    "spec1": {
+      "label": "Central management",
+      "device1Value": "Kaspersky Security Center is mature and very widely deployed",
+      "device2Value": "The GravityZone console is modern and easy to learn"
+    },
+    "spec2": {
+      "label": "Impact on device performance",
+      "device1Value": "Fairly light",
+      "device2Value": "Among the lightest in independent testing"
+    },
+    "spec3": {
+      "label": "Local availability and support",
+      "device1Value": "Strong presence in the region",
+      "device2Value": "Available, with fewer local partners"
+    }
+  }
+}

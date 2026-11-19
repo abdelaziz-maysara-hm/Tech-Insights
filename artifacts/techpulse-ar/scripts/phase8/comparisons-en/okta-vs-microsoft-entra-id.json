@@ -1,0 +1,22 @@
+{
+  "title": "Okta or Microsoft Entra ID: Which Identity Platform Fits Your Estate?",
+  "excerpt": "Both are long-standing leaders in workforce identity and single sign-on. The real choice is between a vendor-neutral identity platform and the identity layer built into Microsoft 365, and that depends on how Microsoft-centric your organisation is.",
+  "verdict": "Okta suits diverse, multi-cloud environments that are not built around Microsoft, thanks to its vendor-neutral design and very large integration catalogue. Entra ID is the natural and usually cheaper choice for Microsoft 365 organisations, since Entra ID P1 is included in Microsoft 365 E3. When assessing any identity vendor, include its security track record: Okta disclosed a breach of its customer support system in October 2023 that affected a small share of customers. It did not compromise the core identity service, but it is a fair factor in the risk review.",
+  "specs": {
+    "spec1": {
+      "label": "Vendor neutrality",
+      "device1Value": "Designed from the start to work across vendors",
+      "device2Value": "Strongest inside the Microsoft 365 ecosystem"
+    },
+    "spec2": {
+      "label": "Ready-made application integrations",
+      "device1Value": "A very large catalogue and a core focus",
+      "device2Value": "Also large and growing quickly"
+    },
+    "spec3": {
+      "label": "Pricing",
+      "device1Value": "Sold and priced as a separate product",
+      "device2Value": "Often included in or discounted with Microsoft 365 plans"
+    }
+  }
+}

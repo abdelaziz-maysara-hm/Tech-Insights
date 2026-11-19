@@ -1,0 +1,22 @@
+{
+  "title": "Duo Security or Microsoft Authenticator: Choosing an MFA Approach",
+  "excerpt": "A comparison for organisations rolling out multi-factor authentication: a vendor-neutral MFA platform from Cisco against the authenticator built into the Microsoft identity stack.",
+  "verdict": "Duo fits diverse environments that are not centred on Microsoft, since it works with many identity providers, VPNs and applications. Microsoft Authenticator is the obvious and cheaper choice for Microsoft 365 and Entra ID organisations, where it is already part of the licence.",
+  "specs": {
+    "spec1": {
+      "label": "Vendor neutrality",
+      "device1Value": "Fully vendor-neutral; works with many identity providers",
+      "device2Value": "Strongest inside the Microsoft ecosystem"
+    },
+    "spec2": {
+      "label": "Initial setup",
+      "device1Value": "Quick, straightforward setup",
+      "device2Value": "Very fast if you already use Entra ID"
+    },
+    "spec3": {
+      "label": "Cost",
+      "device1Value": "Separate plans with published pricing",
+      "device2Value": "Usually included in Microsoft 365 and Entra ID licensing"
+    }
+  }
+}

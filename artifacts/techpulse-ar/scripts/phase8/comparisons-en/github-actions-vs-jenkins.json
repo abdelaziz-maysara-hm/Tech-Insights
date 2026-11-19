@@ -1,0 +1,22 @@
+{
+  "title": "GitHub Actions or Jenkins: Choosing a CI/CD Platform",
+  "excerpt": "GitHub Actions is built into GitHub; Jenkins is the long-standing self-hosted automation server. The comparison covers setup effort, flexibility and cost.",
+  "verdict": "For most modern projects hosted on GitHub, Actions is faster to adopt and simpler to maintain. Jenkins remains the stronger choice when you need complete control and customisation, or your code does not live on GitHub.",
+  "specs": {
+    "spec1": {
+      "label": "Setup",
+      "device1Value": "Built into GitHub and quick to start",
+      "device2Value": "Needs its own server to install and maintain"
+    },
+    "spec2": {
+      "label": "Flexibility and customisation",
+      "device1Value": "Good, but tied to the GitHub platform",
+      "device2Value": "Almost unlimited, with a very large plugin ecosystem"
+    },
+    "spec3": {
+      "label": "Cost for a small open-source project",
+      "device1Value": "Free minutes on GitHub-hosted runners",
+      "device2Value": "Free software, but you pay for and run the hosting"
+    }
+  }
+}

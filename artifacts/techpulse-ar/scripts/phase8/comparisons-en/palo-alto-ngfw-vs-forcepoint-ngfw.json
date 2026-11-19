@@ -1,0 +1,27 @@
+{
+  "title": "Palo Alto NGFW or Forcepoint NGFW: Application Control vs Built-In Data Protection",
+  "excerpt": "Both are enterprise next-generation firewalls, but they start from different places. Palo Alto is built around identifying applications and users for fine-grained policy; Forcepoint has long treated data loss prevention as part of the firewall rather than an add-on.",
+  "verdict": "Pick Palo Alto if you want the larger user community, broad integration with other security tools and very granular application-level policy. Pick Forcepoint if data loss prevention is a core requirement, as it often is in government and finance, or if you prefer its management model. Review sites show Palo Alto with a much larger base of user reviews and a slightly higher average rating, but that reflects market reach more than quality; both are established enterprise products. Neither vendor publishes list prices, so get quotes for your real throughput and subscription bundle before comparing cost.",
+  "specs": {
+    "spec1": {
+      "label": "Size of the user and support community",
+      "device1Value": "Much larger, with far more published user reviews",
+      "device2Value": "Smaller, with fewer published reviews"
+    },
+    "spec2": {
+      "label": "Central policy management",
+      "device1Value": "Panorama is capable but licensed separately",
+      "device2Value": "Security Management Center (SMC) is comprehensive and often included"
+    },
+    "spec3": {
+      "label": "Data loss prevention",
+      "device1Value": "Offered as an add-on service",
+      "device2Value": "A long-standing core strength"
+    },
+    "spec4": {
+      "label": "Cost",
+      "device1Value": "Higher",
+      "device2Value": "Usually more competitive"
+    }
+  }
+}

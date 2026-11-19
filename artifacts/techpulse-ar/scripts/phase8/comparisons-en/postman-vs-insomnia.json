@@ -1,0 +1,22 @@
+{
+  "title": "Postman or Insomnia: Choosing an API Client",
+  "excerpt": "Two popular tools for building and testing APIs. Postman has grown into a full API platform; Insomnia stays lighter and more focused.",
+  "verdict": "Postman is the more complete option for larger teams that need automated testing, monitoring, documentation and shared workspaces. Insomnia suits individual developers and small teams who want a fast, lightweight client without the extra complexity.",
+  "specs": {
+    "spec1": {
+      "label": "Range of features",
+      "device1Value": "Much broader: automated tests, monitors and documentation",
+      "device2Value": "Simpler and lighter, focused on the essentials"
+    },
+    "spec2": {
+      "label": "Performance and resource use",
+      "device1Value": "Heavier, given everything it includes",
+      "device2Value": "Noticeably lighter and quicker"
+    },
+    "spec3": {
+      "label": "Team collaboration",
+      "device1Value": "Very strong, with shared workspaces",
+      "device2Value": "Good, but simpler"
+    }
+  }
+}

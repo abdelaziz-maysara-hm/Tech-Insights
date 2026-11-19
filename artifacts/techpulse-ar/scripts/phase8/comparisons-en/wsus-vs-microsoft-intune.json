@@ -1,0 +1,22 @@
+{
+  "title": "WSUS or Microsoft Intune: Managing Windows Updates On-Premises or in the Cloud",
+  "excerpt": "WSUS has distributed Windows updates inside corporate networks for many years; Intune manages updates for devices wherever they are. Microsoft announced in 2024 that WSUS is deprecated, with no new features planned, which makes this decision more pressing.",
+  "verdict": "WSUS can still serve a small environment where every device stays on the local network, but it is no longer being developed. Intune, with Windows Update for Business policies, is the practical choice for remote devices and mixed fleets, and the direction Microsoft is investing in.",
+  "specs": {
+    "spec1": {
+      "label": "Cost",
+      "device1Value": "Free with Windows Server",
+      "device2Value": "Requires Intune licensing, standalone or in Microsoft 365 plans"
+    },
+    "spec2": {
+      "label": "Managing devices away from the office",
+      "device1Value": "Very limited without a VPN",
+      "device2Value": "Designed to manage devices anywhere"
+    },
+    "spec3": {
+      "label": "Control over when updates install",
+      "device1Value": "Good control through approval groups",
+      "device2Value": "More flexible control through cloud update rings and policies"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Twingate or a Traditional VPN Client: Zero Trust Access for Remote Teams",
+  "excerpt": "Twingate grants remote users access to specific resources rather than the whole network. A traditional VPN client usually connects users to the network as a whole. This comparison weighs security, effort and cost.",
+  "verdict": "Twingate is the stronger choice for security and ease of management for modern remote teams, since it applies least-privilege access per resource without exposing a VPN gateway to the internet. A traditional VPN can still be the cheaper option for a very small team that is comfortable running its own server.",
+  "specs": {
+    "spec1": {
+      "label": "Setup for a remote team",
+      "device1Value": "Quick cloud-based setup without complex infrastructure",
+      "device2Value": "Requires a VPN server to set up and maintain"
+    },
+    "spec2": {
+      "label": "Least-privilege access",
+      "device1Value": "Grants access only to specific resources by design",
+      "device2Value": "Often gives access to the whole internal network"
+    },
+    "spec3": {
+      "label": "Cost for a very small team",
+      "device1Value": "A limited free plan is available",
+      "device2Value": "Mainly the cost of the server, often with no per-user fees"
+    }
+  }
+}

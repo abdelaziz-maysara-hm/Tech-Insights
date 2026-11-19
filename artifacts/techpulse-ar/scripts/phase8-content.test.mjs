@@ -125,3 +125,8 @@ test('OWASP article covers the 2025 Top 10 in both languages', () => {
     assert.match(a.body[lang], /Mishandling of Exceptional Conditions/, lang);
   }
 });
+
+test('every article and comparison has an independent English edition', () => {
+  assert.deepEqual(articles.filter((a) => a.englishEdition !== 'independent').map((a) => a.slug), []);
+  assert.deepEqual(comparisons.filter((c) => c.englishEdition !== 'independent').map((c) => c.slug), []);
+});

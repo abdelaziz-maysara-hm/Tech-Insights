@@ -1,0 +1,22 @@
+{
+  "title": "VMware vSphere or Proxmox VE: Rethinking Virtualisation After the Broadcom Licensing Changes",
+  "excerpt": "Many organisations are reviewing their hypervisor after Broadcom changed VMware licensing. This comparison sets the established enterprise platform against the open-source alternative that has gained the most attention.",
+  "verdict": "vSphere still makes sense for large organisations with the budget, existing skills and support contracts, and workloads that depend on its ecosystem. Proxmox VE is a capable, fast-growing alternative with no licence fee and optional paid support, and it is well worth a pilot for small and mid-sized environments, especially those facing higher VMware renewal costs.",
+  "specs": {
+    "spec1": {
+      "label": "Cost",
+      "device1Value": "Commercial licensing, restructured after the Broadcom acquisition",
+      "device2Value": "Free and open source, with optional paid support subscriptions"
+    },
+    "spec2": {
+      "label": "Enterprise maturity and stability",
+      "device1Value": "The long-standing enterprise standard",
+      "device2Value": "Very good and growing fast, but less common in large enterprises"
+    },
+    "spec3": {
+      "label": "Running it with a small team",
+      "device1Value": "Powerful tooling, but licensing is complex",
+      "device2Value": "Simple, direct web interface"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "BitLocker or VeraCrypt: Disk Encryption for Business and Personal Use",
+  "excerpt": "BitLocker is built into Windows and managed centrally; VeraCrypt is open source and runs on several operating systems. The comparison looks at management, platform support and transparency.",
+  "verdict": "BitLocker is the right choice for Windows fleets in Active Directory or Intune environments, where keys can be escrowed and policies enforced centrally. VeraCrypt suits individuals and cross-platform users who want open-source, independently audited encryption and can manage their own keys.",
+  "specs": {
+    "spec1": {
+      "label": "Windows and directory integration",
+      "device1Value": "Built in, with central control through Group Policy, AD and Intune",
+      "device2Value": "Open source, without built-in enterprise management"
+    },
+    "spec2": {
+      "label": "Platform support",
+      "device1Value": "Windows only",
+      "device2Value": "Windows, macOS and Linux"
+    },
+    "spec3": {
+      "label": "Transparency and independent audit",
+      "device1Value": "Closed source",
+      "device2Value": "Open source and independently audited"
+    }
+  }
+}

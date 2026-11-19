@@ -1,0 +1,22 @@
+{
+  "title": "CrowdStrike Falcon or Microsoft Defender for Endpoint: Best-of-Breed or Bundled?",
+  "excerpt": "An endpoint security comparison for organisations weighing a specialist EDR against the protection included with Microsoft licensing: performance across platforms, threat hunting strength and real cost.",
+  "verdict": "CrowdStrike is the better pick when endpoint protection is a priority in its own right and you want a specialist platform with strong threat hunting. Defender is hard to beat on value if you already pay for Microsoft 365 E5, where it is included, and it performs especially well on Windows.",
+  "specs": {
+    "spec1": {
+      "label": "Performance across operating systems",
+      "device1Value": "Lightweight agent designed for many platforms",
+      "device2Value": "Built into Windows, where it performs particularly well"
+    },
+    "spec2": {
+      "label": "Threat hunting depth",
+      "device1Value": "Among the strongest in independent assessments",
+      "device2Value": "Much improved in recent years, still slightly behind"
+    },
+    "spec3": {
+      "label": "Cost",
+      "device1Value": "Higher as a standalone purchase",
+      "device2Value": "Often included with Microsoft 365 E5"
+    }
+  }
+}

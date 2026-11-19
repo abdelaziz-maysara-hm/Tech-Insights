@@ -1,0 +1,17 @@
+{
+  "title": "CrowdStrike Falcon or SentinelOne Singularity: Cloud-Led vs Autonomous EDR",
+  "excerpt": "Two leading endpoint protection platforms with different philosophies: CrowdStrike leans on central cloud analytics and threat intelligence, while SentinelOne emphasises autonomous detection and response on the device itself.",
+  "verdict": "CrowdStrike is the safer choice if you want the largest deployment base, the widest pool of experienced staff and mature managed services. SentinelOne is a strong alternative, especially if on-device automated response and built-in ransomware rollback matter to you. Weigh vendor reliability as well as detection: in July 2024 a faulty CrowdStrike content update crashed roughly 8.5 million Windows devices worldwide, a reminder that any agent running with kernel-level privileges needs staged update controls. When vendors quote MITRE ATT&CK Evaluation results, remember that MITRE publishes raw data and does not rank or score products.",
+  "specs": {
+    "spec1": {
+      "label": "Approach to automated response",
+      "device1Value": "Strong, with heavy use of cloud analytics",
+      "device2Value": "Emphasises autonomous response on the endpoint"
+    },
+    "spec2": {
+      "label": "Market presence and scale",
+      "device1Value": "The largest deployment base in the enterprise market",
+      "device2Value": "Growing quickly, but smaller"
+    }
+  }
+}

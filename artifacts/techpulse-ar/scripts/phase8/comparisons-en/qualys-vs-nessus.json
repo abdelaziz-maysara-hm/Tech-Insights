@@ -1,0 +1,22 @@
+{
+  "title": "Qualys or Nessus: Choosing a Vulnerability Scanner",
+  "excerpt": "Qualys is a cloud platform for vulnerability management across large estates; Nessus, from Tenable, is one of the most widely used scanners. The right pick depends on your size and how much you need beyond scanning.",
+  "verdict": "Qualys is the stronger option for large organisations that need broad, centrally managed visibility across complex infrastructure. Nessus is easier to start with and better suited to small and mid-sized security teams that want accurate scanning without a large platform rollout.",
+  "specs": {
+    "spec1": {
+      "label": "Deployment model",
+      "device1Value": "Mostly cloud-based",
+      "device2Value": "Runs on-premises or alongside Tenable cloud products"
+    },
+    "spec2": {
+      "label": "Getting started with a small team",
+      "device1Value": "Takes more planning upfront",
+      "device2Value": "One of the easiest scanners to get running"
+    },
+    "spec3": {
+      "label": "Enterprise reporting",
+      "device1Value": "Very strong for large, multi-system estates",
+      "device2Value": "Very good and simpler for smaller teams"
+    }
+  }
+}

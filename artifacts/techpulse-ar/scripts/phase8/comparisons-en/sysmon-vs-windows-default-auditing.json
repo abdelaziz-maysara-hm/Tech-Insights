@@ -1,0 +1,22 @@
+{
+  "title": "Sysmon or Built-In Windows Auditing: How Much Endpoint Logging Do You Need?",
+  "excerpt": "Windows has native security auditing; Sysmon, from Microsoft Sysinternals, adds much richer event data. This comparison explains what each gives a SOC and when the extra detail is worth it.",
+  "verdict": "Sysmon gives far more detail, such as process hashes, network connections and parent-child process chains, and pays off when a SIEM is analysing the data. Built-in auditing is a reasonable starting point, but on its own it is rarely enough for a real investigation. Most mature environments run both.",
+  "specs": {
+    "spec1": {
+      "label": "Level of detail",
+      "device1Value": "Very rich, including file hashes and network connections",
+      "device2Value": "Basic coverage of common events"
+    },
+    "spec2": {
+      "label": "Setup",
+      "device1Value": "Needs installing plus a configuration file",
+      "device2Value": "Built in and enabled through policy"
+    },
+    "spec3": {
+      "label": "SIEM integration",
+      "device1Value": "Widely supported by SIEM products",
+      "device2Value": "Supported, but with less detailed data"
+    }
+  }
+}

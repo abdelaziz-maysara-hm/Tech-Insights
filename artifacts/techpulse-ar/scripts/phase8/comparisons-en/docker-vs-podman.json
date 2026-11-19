@@ -1,0 +1,22 @@
+{
+  "title": "Docker or Podman: Container Engines Compared",
+  "excerpt": "Docker made containers mainstream; Podman offers a daemonless, rootless-first alternative with largely compatible commands. The choice comes down to ecosystem familiarity versus security defaults.",
+  "verdict": "Docker remains the most widely used and best-documented option. Podman is a strong alternative when running containers without root privileges and without a central daemon matters to you, and its Docker-compatible commands make switching straightforward.",
+  "specs": {
+    "spec1": {
+      "label": "Background daemon",
+      "device1Value": "Uses a long-running daemon, traditionally with root privileges",
+      "device2Value": "Daemonless, with rootless containers supported"
+    },
+    "spec2": {
+      "label": "Maturity and ease of use",
+      "device1Value": "The most widely used, with the most documentation",
+      "device2Value": "Newer, with Docker-compatible commands that ease the move"
+    },
+    "spec3": {
+      "label": "Security defaults",
+      "device1Value": "Rootless mode is available but needs extra setup",
+      "device2Value": "Designed to run rootless by default"
+    }
+  }
+}

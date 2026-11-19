@@ -1,0 +1,22 @@
+{
+  "title": "Wireshark or tcpdump: Capturing and Analysing Network Traffic",
+  "excerpt": "Two essential packet tools that work well together. tcpdump captures traffic from the command line almost anywhere; Wireshark provides deep, visual analysis.",
+  "verdict": "Wireshark is the better tool for detailed analysis and for learning, thanks to its graphical interface and protocol dissectors. tcpdump is indispensable for capturing on remote or headless servers; a common workflow is to capture with tcpdump and analyse the file in Wireshark.",
+  "specs": {
+    "spec1": {
+      "label": "Graphical analysis",
+      "device1Value": "A rich graphical interface for inspecting packets",
+      "device2Value": "Command line only"
+    },
+    "spec2": {
+      "label": "Use on headless servers",
+      "device1Value": "Limited; captures are usually copied to a desktop for analysis",
+      "device2Value": "Ideal: lightweight and available on almost any server"
+    },
+    "spec3": {
+      "label": "Learning curve for beginners",
+      "device1Value": "Easier, thanks to the visual display",
+      "device2Value": "Steeper; requires knowing filter syntax"
+    }
+  }
+}

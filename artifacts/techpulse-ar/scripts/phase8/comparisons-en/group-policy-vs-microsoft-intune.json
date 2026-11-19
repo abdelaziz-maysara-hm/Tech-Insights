@@ -1,0 +1,22 @@
+{
+  "title": "Group Policy or Microsoft Intune: Managing Devices On-Premises vs From the Cloud",
+  "excerpt": "Group Policy has managed domain-joined Windows PCs for decades; Intune manages devices wherever they are. This comparison helps decide which to use, or how to split the work between them.",
+  "verdict": "Group Policy remains a sensible, cost-free choice for a purely on-premises Windows estate where devices stay on the corporate network. Intune becomes essential once you have remote workers, devices that rarely connect to the office, or macOS, iOS and Android to manage. Many organisations run both during a gradual move to cloud management.",
+  "specs": {
+    "spec1": {
+      "label": "Managing devices away from the office network",
+      "device1Value": "Very limited without a VPN",
+      "device2Value": "Designed to manage devices anywhere with internet access"
+    },
+    "spec2": {
+      "label": "Cost for a small Active Directory environment",
+      "device1Value": "Effectively free, as part of Windows Server",
+      "device2Value": "Requires Intune licensing, standalone or through Microsoft 365 plans"
+    },
+    "spec3": {
+      "label": "Support for macOS, iOS and Android",
+      "device1Value": "None",
+      "device2Value": "Full cross-platform support"
+    }
+  }
+}

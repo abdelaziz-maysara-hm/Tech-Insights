@@ -1,0 +1,22 @@
+{
+  "title": "Snort or Suricata: Choosing an Open-Source IDS/IPS",
+  "excerpt": "Two leading open-source intrusion detection and prevention engines. Snort has the longest history and largest community; Suricata was designed from the start for multi-threaded performance and broad protocol parsing.",
+  "verdict": "Snort remains a strong choice with a huge community and plenty of learning material, and Snort 3 added multi-threaded packet processing. Suricata is often the better fit for high-throughput networks on modern multi-core hardware and for teams that want rich protocol logging built in.",
+  "specs": {
+    "spec1": {
+      "label": "Multi-threaded performance",
+      "device1Value": "Historically single-threaded; Snort 3 added multi-threading",
+      "device2Value": "Built for multi-threaded processing from the start"
+    },
+    "spec2": {
+      "label": "History and adoption",
+      "device1Value": "The oldest and most widely adopted, with a huge community",
+      "device2Value": "Younger, but growing fast"
+    },
+    "spec3": {
+      "label": "Modern protocol parsing",
+      "device1Value": "Good, sometimes with extra plugins",
+      "device2Value": "Deeper built-in parsing of newer protocols and applications"
+    }
+  }
+}

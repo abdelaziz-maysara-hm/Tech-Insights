@@ -1,0 +1,22 @@
+{
+  "title": "Palo Alto NGFW or Check Point: Choosing Between Two Long-Standing Firewall Leaders",
+  "excerpt": "Both vendors are long-established in enterprise firewalls. This comparison focuses on what tends to decide the purchase: intrusion prevention heritage, how licensing works and how strongly each is investing in cloud security.",
+  "verdict": "Palo Alto has the clearer cloud strategy and a licensing model most teams find easier to follow. Check Point remains a sound choice, particularly for teams that have built years of in-house expertise around it, where switching would cost more than it saves.",
+  "specs": {
+    "spec1": {
+      "label": "Intrusion prevention heritage",
+      "device1Value": "Strong, though established more recently",
+      "device2Value": "One of the oldest and best-known names in the market"
+    },
+    "spec2": {
+      "label": "How simple licensing is",
+      "device1Value": "Fairly straightforward",
+      "device2Value": "Can be complex because features are licensed as separate software blades"
+    },
+    "spec3": {
+      "label": "Cloud security investment",
+      "device1Value": "Strong and visible (Prisma Cloud)",
+      "device2Value": "Present, but less prominent in its positioning"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Grafana or Kibana: Dashboards Across Many Sources vs Deep Log Search",
+  "excerpt": "Grafana visualises data from many different backends; Kibana is the interface for the Elastic Stack. Which one fits depends on where your data lives and what you do with it.",
+  "verdict": "Grafana is the better choice for unified dashboards and alerting across many data sources such as Prometheus, SQL databases and cloud monitoring. Kibana is stronger when your data is already in Elasticsearch and full-text log search is central to the job.",
+  "specs": {
+    "spec1": {
+      "label": "Supported data sources",
+      "device1Value": "A very wide range, including Prometheus and SQL databases",
+      "device2Value": "Built mainly around Elasticsearch"
+    },
+    "spec2": {
+      "label": "Dashboards and alerting",
+      "device1Value": "One of its core strengths",
+      "device2Value": "Also strong, especially with Elasticsearch data"
+    },
+    "spec3": {
+      "label": "Full-text log search",
+      "device1Value": "Possible, but not its main strength",
+      "device2Value": "One of the best tools for full-text log search"
+    }
+  }
+}

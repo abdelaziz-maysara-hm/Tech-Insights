@@ -1,0 +1,22 @@
+{
+  "title": "Auth0 or Firebase Authentication: Adding Sign-In to Your App",
+  "excerpt": "Auth0, now part of Okta, is a highly customisable identity platform; Firebase Authentication, from Google, offers fast, ready-made sign-in for web and mobile apps. Complexity and scale decide between them.",
+  "verdict": "Auth0 is the stronger choice for businesses that need complex, customised authentication flows and enterprise identity features. Firebase Authentication is faster and cheaper for simple web and mobile apps that need sign-in working quickly.",
+  "specs": {
+    "spec1": {
+      "label": "Flexibility and custom flows",
+      "device1Value": "Very flexible for complex enterprise scenarios",
+      "device2Value": "Simpler and faster, but less flexible for complex cases"
+    },
+    "spec2": {
+      "label": "Integrating into a simple mobile app",
+      "device1Value": "Good, though a little more involved",
+      "device2Value": "One of the quickest options, especially for app developers"
+    },
+    "spec3": {
+      "label": "Cost as users grow",
+      "device1Value": "Costs rise noticeably with user numbers",
+      "device2Value": "A generous free allowance, even at larger scale"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "CrowdStrike Falcon or Microsoft Sentinel: EDR Platform vs Cloud SIEM",
+  "excerpt": "These products are often compared but do different jobs. Falcon protects endpoints; Sentinel is a cloud SIEM that collects and correlates data from across your environment. Many organisations use both.",
+  "verdict": "Choose CrowdStrike when endpoint protection is the priority and you want a focused, quick-to-deploy platform. Choose Sentinel when you need security monitoring across cloud, network and applications in one place, especially in a Microsoft-centric estate. The two can be integrated so endpoint alerts feed the SIEM.",
+  "specs": {
+    "spec1": {
+      "label": "Main job",
+      "device1Value": "Endpoint protection (EDR/XDR)",
+      "device2Value": "Security monitoring across many data sources (cloud SIEM)"
+    },
+    "spec2": {
+      "label": "Microsoft ecosystem integration",
+      "device1Value": "Good, through APIs and connectors",
+      "device2Value": "Native, as part of the Microsoft security stack"
+    },
+    "spec3": {
+      "label": "Getting started quickly",
+      "device1Value": "Direct, focused deployment",
+      "device2Value": "Needs broader planning because it covers more"
+    }
+  }
+}
