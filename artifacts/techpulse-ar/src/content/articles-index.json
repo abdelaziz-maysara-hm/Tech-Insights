@@ -1505,11 +1505,11 @@
     "slug": "ad-powershell-daily-tasks",
     "title": {
       "ar": "مهام Active Directory اليومية بـPowerShell: أوامر جاهزة للاستخدام",
-      "en": "Daily Active Directory Tasks with PowerShell: Ready-to-Use Commands"
+      "en": "Everyday Active Directory Work in PowerShell: Commands Worth Keeping"
     },
     "excerpt": {
       "ar": "أوامر عملية كاملة للاستعلام والإنشاء والإدارة، سكريبتات دفعية جاهزة، ونصائح أمان أساسية قبل تشغيل أي سكريبت.",
-      "en": "Complete practical commands for querying, creating, and managing accounts, ready-made bulk scripts, and essential safety tips before running any script."
+      "en": "Tested ActiveDirectory module one-liners for the jobs that fill a sysadmin's week: finding and unlocking users, resetting passwords, group membership, stale accounts and quick reports."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -1521,7 +1521,7 @@
       "avatar": ""
     },
     "date": "2023-05-16",
-    "readTime": 11,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1744868562210-fffb7fa882d9?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8c2VydmVyJTIwcm9vbSUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc4NTg3MjEzMnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "active-directory",
@@ -1544,7 +1544,8 @@
       "active-directory"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0008",
@@ -1764,11 +1765,11 @@
     "slug": "rdp-multi-user-rds-licensing",
     "title": {
       "ar": "تفعيل RDP متعدد المستخدمين وترخيص RDS بشكل صحيح",
-      "en": "Enabling Multi-User RDP and Licensing RDS Correctly"
+      "en": "Multiple Users on One Windows Server over RDP: Doing RDS Properly"
     },
     "excerpt": {
       "ar": "الفرق الجوهري بين RDP وRDS، خطوات إعداد تفصيلية، الفرق بين Per User وPer Device، وأشهر أخطاء الترخيص.",
-      "en": "The fundamental RDP vs RDS difference, detailed setup steps, Per User vs Per Device explained, and the most common licensing mistakes."
+      "en": "Why Windows Server allows only two admin RDP sessions by default, how to deploy the Remote Desktop Session Host role and licensing, and why patching termsrv.dll is a bad idea."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "vpn-remote",
@@ -1780,7 +1781,7 @@
       "avatar": ""
     },
     "date": "2024-12-11",
-    "readTime": 10,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8cmVtb3RlJTIwZGVza3RvcCUyMGNvbXB1dGVyJTIwc2NyZWVufGVufDF8MHx8fDE3ODU4NzIxNDB8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "rdp",
@@ -1799,18 +1800,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0015",
     "slug": "windows-server-evaluation-to-standard",
     "title": {
       "ar": "تحويل Windows Server من Evaluation إلى Standard بدون إعادة تثبيت",
-      "en": "Converting Windows Server from Evaluation to Standard Without Reinstalling"
+      "en": "Moving Windows Server from Evaluation to a Licensed Edition In Place"
     },
     "excerpt": {
       "ar": "ليه المشكلة دي بتحصل، خطوات DISM التفصيلية كاملة، وأشهر أخطاء التحويل اللي بتسبب مشاكل غير متوقعة.",
-      "en": "Why this problem happens, complete detailed DISM steps, and the most common conversion mistakes that cause unexpected problems."
+      "en": "How to check whether a server is running an evaluation build, convert it to Standard or Datacenter with DISM and a valid key, and the limits that stop the conversion."
     },
     "categoryId": "windows",
     "subcategoryId": "guides-tips",
@@ -1822,7 +1824,7 @@
       "avatar": ""
     },
     "date": "2025-02-18",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1762163516269-3c143e04175c?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8c2VydmVyJTIwcmFjayUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc4NTg3MjE0Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "windows-server",
@@ -1846,18 +1848,19 @@
       "windows-server"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0016",
     "slug": "dns-reverse-lookup-zone-setup",
     "title": {
       "ar": "إعداد منطقة DNS العكسية (Reverse Lookup Zone) في Windows Server",
-      "en": "Setting Up a DNS Reverse Lookup Zone in Windows Server"
+      "en": "Creating a Reverse Lookup Zone on Windows Server DNS"
     },
     "excerpt": {
       "ar": "ليه PTR مهم فعليًا، خطوات إنشاء المنطقة العكسية بالتفصيل، أوامر تحقق حقيقية، وأشهر مشاكل الإعداد وحلولها.",
-      "en": "Why PTR actually matters, detailed reverse zone creation steps, real verification commands, and the most common setup problems with fixes."
+      "en": "Why PTR records matter for logs, mail and troubleshooting, how to create an AD-integrated reverse zone for IPv4, and how to keep PTR records populated automatically."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -1869,7 +1872,7 @@
       "avatar": ""
     },
     "date": "2025-05-25",
-    "readTime": 9,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMGRvbWFpbiUyMHNlcnZlcnxlbnwxfDB8fHwxNzg1ODcyMTQyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "dns",
@@ -1889,18 +1892,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0017",
     "slug": "group-policy-basics-for-sysadmins",
     "title": {
       "ar": "أساسيات Group Policy لمديري الأنظمة: الربط والوراثة والتشخيص",
-      "en": "Group Policy Fundamentals for Sysadmins: Linking, Inheritance and Troubleshooting"
+      "en": "Group Policy That Behaves: Linking, Precedence and Troubleshooting"
     },
     "excerpt": {
       "ar": "ترتيب تطبيق السياسات LSDOU بالتفصيل، Security Filtering وWMI Filtering، أدوات التشخيص الأساسية، وأشهر الأخطاء وحلولها.",
-      "en": "The LSDOU application order in detail, Security and WMI Filtering, essential diagnostic tools, and the most common mistakes with their fixes."
+      "en": "How GPOs apply (LSDOU order, inheritance, enforcement, security filtering), design habits that keep policy readable, and the tools to find out why a setting didn't apply."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -1912,7 +1916,7 @@
       "avatar": ""
     },
     "date": "2025-08-05",
-    "readTime": 11,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1649433391420-542fcd3835ea?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8d2luZG93cyUyMHNlcnZlciUyMGl0JTIwYWRtaW58ZW58MXwwfHx8MTc4NTg3MjE0M3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "group-policy",
@@ -1933,18 +1937,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0018",
     "slug": "backup-3-2-1-rule-practical",
     "title": {
       "ar": "قاعدة النسخ الاحتياطي 3-2-1: الدليل العملي الكامل",
-      "en": "The 3-2-1 Backup Rule: The Complete Practical Guide"
+      "en": "The 3-2-1 Backup Rule in Practice: From Slogan to Working Setup"
     },
     "excerpt": {
       "ar": "شرح القاعدة بالتفصيل، تطبيقها بميزانيات مختلفة، أشهر أخطاء النسخ الاحتياطي، وليه اختبار الاستعادة أهم خطوة في الموضوع كله.",
-      "en": "The rule explained in detail, applying it on different budgets, common backup mistakes, and why restore testing is the most important step of all."
+      "en": "Three copies, two media, one offsite, and why ransomware pushed the rule to 3-2-1-1-0. How to apply it to servers, Microsoft 365 and laptops, and how to prove restores work."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1956,7 +1961,7 @@
       "avatar": ""
     },
     "date": "2025-10-12",
-    "readTime": 10,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1601737487795-dab272f52420?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YmFja3VwJTIwZGF0YSUyMHN0b3JhZ2UlMjBkaXNrfGVufDF8MHx8fDE3ODU4NzIxNDR8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "backup",
@@ -1976,7 +1981,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0019",
@@ -2553,11 +2559,11 @@
     "slug": "wifi-6-vs-wifi-5-practical",
     "title": {
       "ar": "Wi-Fi 6 مقابل Wi-Fi 5: هل تستحق الترقية في الشركة؟",
-      "en": "Wi-Fi 6 vs Wi-Fi 5: Is the Upgrade Worth It for a Business?"
+      "en": "Wi-Fi 6 or Wi-Fi 5 for the Office: When the Upgrade Pays Off"
     },
     "excerpt": {
       "ar": "تقنية OFDMA الجوهرية بالتفصيل، 4 سيناريوهات تستاهل الترقية فعليًا، ونصيحة عملية قبل الشراء.",
-      "en": "The core OFDMA technology in detail, 4 scenarios where upgrading is genuinely worth it, and practical advice before buying."
+      "en": "What 802.11ax actually changes (OFDMA, MU-MIMO, BSS colouring, WPA3), where it helps a business network, and when better design beats new access points."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
@@ -2569,7 +2575,7 @@
       "avatar": ""
     },
     "date": "2025-11-02",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1752742111841-f490c48aa668?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Nnx8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "wifi",
@@ -2589,18 +2595,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0033",
     "slug": "dark-web-monitoring-basics",
     "title": {
       "ar": "مراقبة الدارك ويب لبيانات شركتك: هل تحتاجها فعلًا؟",
-      "en": "Dark Web Monitoring for Your Company's Data: Do You Really Need It?"
+      "en": "Dark Web Monitoring for Business: What It Tells You and What It Doesn't"
     },
     "excerpt": {
       "ar": "الفرق الجوهري بين اكتشاف ومنع، 3 معايير لتحديد قيمة الاستثمار، وليه التنبيه بدون خطة استجابة استثمار ضائع.",
-      "en": "The core difference between detection and prevention, 3 criteria for assessing investment value, and why an alert without a response plan is wasted investment."
+      "en": "How credential and data-leak monitoring works, which alerts are worth acting on, the limits of these services, and cheaper options to try first."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -2612,7 +2619,7 @@
       "avatar": ""
     },
     "date": "2025-12-09",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1768224656445-33d078c250b7?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8N3x8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "dark-web",
@@ -2630,18 +2637,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0034",
     "slug": "ssd-vs-hdd-server-storage",
     "title": {
       "ar": "SSD مقابل HDD في تخزين الخوادم: الأمر لا يتعلق بالسرعة فقط",
-      "en": "SSD vs HDD for Server Storage: It's Not Just About Speed"
+      "en": "SSD or HDD in the Server Room: Choosing by Workload, Not Just Speed"
     },
     "excerpt": {
       "ar": "4 عوامل مقارنة حقيقية غير السرعة، استراتيجية الهجين (Hybrid) العملية، وسيناريو تطبيقي واضح.",
-      "en": "4 real comparison factors beyond speed, the practical hybrid strategy, and a clear applied scenario."
+      "en": "Where SSDs earn their price (databases, VMs, boot), where HDDs still win (capacity, backups, archives), and the endurance, RAID and data-destruction details that matter in servers."
     },
     "categoryId": "howto",
     "subcategoryId": "guides-tips",
@@ -2653,7 +2661,7 @@
       "avatar": ""
     },
     "date": "2026-02-16",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1760199789455-49098afd02f0?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8OHx8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "storage",
@@ -2671,18 +2679,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0035",
     "slug": "least-privilege-principle-practical",
     "title": {
       "ar": "مبدأ أقل الصلاحيات (Least Privilege): تطبيقه دون فوضى",
-      "en": "The Least Privilege Principle: Rolling It Out Without Chaos"
+      "en": "Least Privilege in Practice: Cutting Access Without Breaking the Business"
     },
     "excerpt": {
       "ar": "ليه الصلاحيات بتتراكم مع الوقت، 5 خطوات تطبيق آمن بالتفصيل، وأشهر 3 أخطاء بتخلق مقاومة للمشروع كله.",
-      "en": "Why permissions accumulate over time, 5 detailed safe rollout steps, and the 3 most common mistakes that create resistance to the whole project."
+      "en": "Why excess rights turn small incidents into big ones, and a staged approach: admin accounts first, then groups, service accounts and regular access reviews."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -2694,7 +2703,7 @@
       "avatar": ""
     },
     "date": "2026-03-23",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1782338936796-0ebf0a6a1068?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8OXx8Y3liZXJzZWN1cml0eSUyMHRlY2hub2xvZ3klMjBuZXR3b3JrfGVufDF8MHx8fDE3ODU4NzIxMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "least-privilege",
@@ -2712,18 +2721,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0036",
     "slug": "ransomware-first-hour-response",
     "title": {
       "ar": "أول ساعة بعد اكتشاف هجوم فدية: ماذا تفعل بالضبط",
-      "en": "The First Hour After Discovering Ransomware: Exactly What to Do"
+      "en": "Ransomware Discovered: What to Do in the First Hour"
     },
     "excerpt": {
       "ar": "خطوات فورية بالترتيب الصحيح، وأشهر 3 أخطاء بتزود الضرر بدل ما تقلله.",
-      "en": "Immediate steps in the correct order, and the 3 most common mistakes that increase damage instead of reducing it."
+      "en": "A first-hour playbook for IT teams: isolate without destroying evidence, protect backups and identity, start communication and logging, and avoid the moves that make recovery harder."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -2735,7 +2745,7 @@
       "avatar": ""
     },
     "date": "2025-09-03",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/flagged/photo-1560854350-13c0b47a3180?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8M3x8cmFuc29td2FyZSUyMGN5YmVyJTIwYXR0YWNrJTIwd2FybmluZ3xlbnwxfDB8fHwxNzg1ODcyMTYxfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "ransomware",
@@ -2753,18 +2763,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0037",
     "slug": "cloud-cost-optimization-basics",
     "title": {
       "ar": "تقليل فاتورة السحابة: خطوات عملية قبل المفاجأة",
-      "en": "Cutting Your Cloud Bill: Practical Steps Before the Surprise"
+      "en": "Taming the Cloud Bill: Practical Savings Before It Surprises You"
     },
     "excerpt": {
       "ar": "4 أسباب شائعة للفاتورة العالية غير المتوقعة، وخطوات تحكم عملية من التنبيهات لخصومات الالتزام طويل المدى.",
-      "en": "4 common causes of an unexpectedly high bill, and practical control steps from budget alerts to long-term commitment discounts."
+      "en": "Where cloud spend leaks (idle resources, oversized instances, storage and egress), the quick wins, commitment discounts, and the tagging and budget alerts that keep it under control."
     },
     "categoryId": "technology",
     "subcategoryId": "guides-tips",
@@ -2776,7 +2787,7 @@
       "avatar": ""
     },
     "date": "2025-11-10",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1782330300479-02550a1a3c7a?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8Mnx8Y2xvdWQlMjBjb21wdXRpbmclMjBkYXRhJTIwY2VudGVyfGVufDF8MHx8fDE3ODU4NzIxNjJ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "cloud",
@@ -2796,18 +2807,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0038",
     "slug": "printer-security-overlooked-risk",
     "title": {
       "ar": "أمان الطابعات: الخطر الذي ينساه معظم مديري الأنظمة",
-      "en": "Printer Security: The Risk Most Sysadmins Forget"
+      "en": "Network Printers: The Security Blind Spot on Most Networks"
     },
     "excerpt": {
       "ar": "3 مخاطر ملموسة (تسريب مستندات، تحرك جانبي، إغراق طباعة)، و5 خطوات حماية تفصيلية.",
-      "en": "Networked printers become an easy entry point when they don't get the same security attention as everything else."
+      "en": "Why multifunction printers are full network computers with storage and credentials, how attackers abuse them, and a hardening checklist for IT teams."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "endpoint",
@@ -2819,7 +2831,7 @@
       "avatar": ""
     },
     "date": "2025-12-17",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8b2ZmaWNlJTIwcHJpbnRlciUyMHNjYW5uZXJ8ZW58MXwwfHx8MTc4NTg3MjE2M3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "printers",
@@ -2840,18 +2852,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0039",
     "slug": "browser-isolation-basics",
     "title": {
       "ar": "عزل المتصفح (Browser Isolation): طبقة حماية إضافية بسيطة",
-      "en": "Browser Isolation: A Simple Extra Protection Layer"
+      "en": "Remote Browser Isolation: An Extra Layer Between Users and the Web"
     },
     "excerpt": {
       "ar": "ليه التقنية دي فعّالة ضد هجمات يوم الصفر غير المكتشفة، و3 معايير لتحديد إذا كان الاستثمار يستاهل.",
-      "en": "Why this technology is effective against undetected zero-day attacks, and 3 criteria for assessing if the investment is worth it."
+      "en": "How browser isolation keeps web code off the endpoint, the different approaches (pixel streaming, DOM reconstruction, local sandboxes), where it fits, and its trade-offs."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "endpoint",
@@ -2863,7 +2876,7 @@
       "avatar": ""
     },
     "date": "2026-01-24",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8d2ViJTIwYnJvd3NlciUyMGxhcHRvcHxlbnwxfDB8fHwxNzg1ODcyMTY2fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "browser-isolation",
@@ -2883,18 +2896,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0040",
     "slug": "shadow-it-risk-management",
     "title": {
       "ar": "الـShadow IT: إدارة استخدام الأدوات غير المعتمدة",
-      "en": "Shadow IT: Managing the Use of Unapproved Tools"
+      "en": "Shadow IT: Finding Unapproved Tools and Bringing Them Under Control"
     },
     "excerpt": {
       "ar": "ليه المنع الكامل بيغيّر مكان المخاطرة مش بيلغيها، واستراتيجية عملية من الاكتشاف لتصنيف المخاطر.",
-      "en": "Why total prohibition just moves the risk instead of eliminating it, and a practical strategy from discovery to risk classification."
+      "en": "Why staff adopt tools IT didn't approve, the data and access risks that follow, how to discover shadow SaaS and AI use, and a governance approach that doesn't drive it further underground."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -2906,7 +2920,7 @@
       "avatar": ""
     },
     "date": "2026-03-04",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8b2ZmaWNlJTIwdGVhbSUyMGxhcHRvcCUyMHdvcmt8ZW58MXwwfHx8MTc4NTg3MjE2N3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "shadow-it",
@@ -2924,18 +2938,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0041",
     "slug": "usb-device-control-policy",
     "title": {
       "ar": "سياسة التحكم في أجهزة USB: أمان دون تعطيل العمل",
-      "en": "USB Device Control Policy: Security Without Blocking Work"
+      "en": "Controlling USB Devices Without Stopping People Working"
     },
     "excerpt": {
       "ar": "4 مستويات تحكم متدرّج بدل المنع الكامل، وخطوات تطبيق عملية عبر Group Policy.",
-      "en": "4 levels of graduated control instead of total blocking, and practical implementation steps via Group Policy."
+      "en": "The risks removable media still carries, the options from read-only to allow-lists by device ID, how to roll out device control with Intune, Group Policy or your EDR, and how to handle exceptions."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "endpoint",
@@ -2947,7 +2962,7 @@
       "avatar": ""
     },
     "date": "2026-04-11",
-    "readTime": 7,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1551818014-7c8ace9c1b5c?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8dXNiJTIwZmxhc2glMjBkcml2ZSUyMGNvbXB1dGVyfGVufDF8MHx8fDE3ODU4NzIxNjh8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "usb",
@@ -2968,18 +2983,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0042",
     "slug": "certificate-expiry-monitoring",
     "title": {
       "ar": "مراقبة انتهاء صلاحية الشهادات: تجنب الانقطاع المحرج",
-      "en": "Certificate Expiry Monitoring: Avoiding the Embarrassing Outage"
+      "en": "Never Again Surprised by an Expired Certificate: Monitoring That Works"
     },
     "excerpt": {
       "ar": "ليه التجديد التلقائي (ACME/Let's Encrypt) الحل الأمثل، خطوات بديلة لو التجديد يدوي، وأمر تحقق سريع لأي موقع.",
-      "en": "Why automatic renewal (ACME/Let's Encrypt) is the ideal solution, alternative steps if renewal is manual, and a quick verification command for any site."
+      "en": "Why certificate expiry still causes major outages, how to build an inventory, automate renewal with ACME, monitor what can't be automated, and prepare for much shorter TLS lifetimes."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -2991,7 +3007,7 @@
       "avatar": ""
     },
     "date": "2026-05-18",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1618060932014-4deda4932554?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NHx8c3NsJTIwY2VydGlmaWNhdGUlMjBwYWRsb2NrJTIwd2Vic2l0ZXxlbnwxfDB8fHwxNzg1ODcyMTY5fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "ssl",
@@ -3011,18 +3027,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0043",
     "slug": "incident-response-tabletop-exercises",
     "title": {
       "ar": "تمارين المحاكاة (Tabletop Exercises): تدرّب قبل ما يحصل فعلًا",
-      "en": "Tabletop Exercises: Practice Before It Actually Happens"
+      "en": "Tabletop Exercises: Rehearse the Incident Before It's Real"
     },
     "excerpt": {
       "ar": "5 خطوات تنظيم تفصيلية بدل 4، وليه اكتشاف الفجوة أثناء التمرين أرخص بكثير من اكتشافها وسط أزمة حقيقية.",
-      "en": "5 detailed organizing steps up from 4, and why discovering a gap during the exercise is far cheaper than mid-actual-crisis."
+      "en": "How to plan and run a discussion-based incident exercise: picking a scenario, who to invite, writing injects, facilitating honestly, and turning findings into fixes."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -3034,7 +3051,7 @@
       "avatar": ""
     },
     "date": "2025-11-25",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1782330300409-f6c1ae5f64cb?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MTB8fGN5YmVyc2VjdXJpdHklMjB0ZWNobm9sb2d5JTIwbmV0d29ya3xlbnwxfDB8fHwxNzg1ODcyMTM3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "incident-response",
@@ -3050,18 +3067,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0044",
     "slug": "nist-password-guidelines-vs-old-rules",
     "title": {
       "ar": "إرشادات NIST لكلمات المرور: لماذا لم يعد التعقيد هو الحل",
-      "en": "NIST Password Guidelines: Why Complexity Rules Stopped Being the Answer"
+      "en": "Why NIST Dropped Complexity Rules and Forced Resets for Passwords"
     },
     "excerpt": {
       "ar": "ليه القواعد القديمة كانت غلط من الأساس، 4 توصيات NIST بالتفصيل، ومثال عملي يوضّح الفرق الحقيقي في القوة.",
-      "en": "Why the old rules were wrong from the start, 4 detailed NIST recommendations, and a practical example showing the real difference in strength."
+      "en": "What NIST SP 800-63B now says about password length, composition rules, expiry, blocklists and hints, why the old rules backfired, and how to update an organisation's policy."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -3073,7 +3091,7 @@
       "avatar": ""
     },
     "date": "2025-12-05",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1634224143538-ce0221abf732?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8M3x8cGFzc3dvcmQlMjBzZWN1cml0eSUyMGxvY2t8ZW58MXwwfHx8MTc4NTg3MjEzMnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "passwords",
@@ -3091,18 +3109,19 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0045",
     "slug": "network-access-control-nac-basics",
     "title": {
       "ar": "التحكم في الوصول للشبكة (NAC): مين يقدر يتصل أصلًا؟",
-      "en": "Network Access Control (NAC): Who's Even Allowed to Connect?"
+      "en": "Network Access Control (NAC): Deciding What May Connect, and How Far"
     },
     "excerpt": {
       "ar": "سيناريو عملي يوضّح القيمة الحقيقية، 4 خطوات بداية تفصيلية، وليه التفعيل الصارم المفاجئ أشهر خطأ.",
-      "en": "A practical scenario illustrating real value, 4 detailed starting steps, and why sudden strict enforcement is the most common mistake."
+      "en": "What NAC adds on top of 802.1X (device profiling, posture checks, dynamic VLANs and quarantine), how it handles printers and IoT, and a rollout path that starts with visibility."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -3114,7 +3133,7 @@
       "avatar": ""
     },
     "date": "2026-01-12",
-    "readTime": 8,
+    "readTime": 3,
     "heroImage": "https://images.unsplash.com/photo-1682559736721-c2e77ff4c650?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8NHx8bmV0d29yayUyMGFjY2VzcyUyMGNvbnRyb2wlMjBzZXJ2ZXJ8ZW58MXwwfHx8MTc4NTg3MjE3MHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "nac",
@@ -3135,7 +3154,8 @@
     "vendorIds": [],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0046",
