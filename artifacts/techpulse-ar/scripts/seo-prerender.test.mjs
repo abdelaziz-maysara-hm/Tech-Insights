@@ -177,7 +177,7 @@ test('canonical equals og:url and quality gate', () => {
 test('inject preserves vite assets and sets lang/dir', () => {
   const seo = resolveRouteSeo('/ar/', makeIndexes());
   const html = injectSeoIntoShell(shell, seo);
-  assert.match(html, /<html lang="ar" dir="rtl">/);
+  assert.match(html, /<html lang="ar" dir="rtl"[^>]*>/);
   assert.ok(html.includes('src="/assets/index-TEST.js"'));
   assert.ok(html.includes('href="/assets/index-TEST.css"'));
 });

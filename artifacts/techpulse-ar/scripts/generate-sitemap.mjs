@@ -9,6 +9,7 @@ const today = new Date().toISOString().slice(0, 10);
 const policy = JSON.parse(readFileSync(join(root, 'src/config/hreflang-policy.json'), 'utf8'));
 const eligibleDiscoveryRoutes = new Set(policy.eligibleDiscoveryRoutes);
 const reviewedContentRoutes = new Set(policy.reviewedContentRoutes);
+const publishUnreviewedTranslations = policy.publishUnreviewedTranslations === true;
 
 function loadJson(relativePath) {
   try {
@@ -63,6 +64,7 @@ const routes = [
   })),
   ...articles.filter((item) => item?.slug).map((item) => ({
     path: `/article/${item.slug}`,
+    translatable: true,
     priority: item.isFeatured ? '0.9' : '0.8',
     changefreq: 'weekly',
     lastmod: typeof item.date === 'string' ? item.date.slice(0, 10) : today,
@@ -70,6 +72,7 @@ const routes = [
   })),
   ...comparisons.filter((item) => item?.slug).map((item) => ({
     path: `/comparison/${item.slug}`,
+    translatable: true,
     priority: '0.85',
     changefreq: 'weekly',
     lastmod: typeof item.date === 'string' ? item.date.slice(0, 10) : today,
@@ -77,6 +80,7 @@ const routes = [
   })),
   ...pages.filter((item) => item?.slug).map((item) => ({
     path: `/page/${item.slug}`,
+    translatable: true,
     priority: '0.55',
     changefreq: 'monthly',
     lastmod: typeof item.updatedAt === 'string' ? item.updatedAt.slice(0, 10) : today,
@@ -89,7 +93,10 @@ const entries = [];
 for (const route of uniqueRoutes) {
   const eligible = eligibleDiscoveryRoutes.has(route.path)
     || route.translationStatus === 'reviewed'
-    || reviewedContentRoutes.has(route.path);
+    || reviewedContentRoutes.has(route.path)
+    || (publishUnreviewedTranslations
+      && route.translatable === true
+      && route.translationStatus !== 'invalid');
   const languages = eligible ? ['ar', 'en'] : ['ar'];
   for (const language of languages) entries.push({ ...route, language, eligible });
 }

@@ -4,6 +4,7 @@ import { useSEO } from '@/hooks/useSEO';
 import pagesJson from '@/content/pages.json';
 import { CmsPage } from '@/data/cmsTypes';
 import NotFound from '@/pages/not-found';
+import { markdownToHtml } from '@/lib/markdown';
 
 const cmsPages = pagesJson as unknown as CmsPage[];
 
@@ -12,20 +13,24 @@ export default function PageDetail() {
   const { language } = useLanguage();
   const page = cmsPages.find((p) => p.slug === slug);
 
-  useSEO({ title: page?.title[language], translationStatus: page?.translationStatus });
+  useSEO({
+    title: page?.title[language],
+    description: page?.description?.[language],
+    translationStatus: page?.translationStatus,
+  });
 
   if (!page) return <NotFound />;
 
-  const paragraphs = page.content[language].split('\n').filter(Boolean);
+  // The page title is rendered as <h1>; drop a duplicated leading "## Title".
+  const html = markdownToHtml((page.content[language] || '').replace(/^##\s+.+\n+/, ''));
 
   return (
     <div className="container mx-auto px-4 py-16 max-w-3xl">
       <h1 className="text-3xl md:text-4xl font-bold mb-8 text-gradient inline-block">{page.title[language]}</h1>
-      <div className="prose prose-invert max-w-none space-y-4 leading-relaxed text-foreground/90">
-        {paragraphs.map((p, i) => (
-          <p key={i}>{p}</p>
-        ))}
-      </div>
+      <div
+        className="prose prose-invert max-w-none leading-relaxed text-foreground/90 prose-a:text-primary"
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
     </div>
   );
 }

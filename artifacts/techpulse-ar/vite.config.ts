@@ -73,12 +73,58 @@ function cmsDevApiPlugin(): Plugin {
   };
 }
 
+/**
+ * Optional search-console verification + Google Analytics 4, configured by
+ * build-time env vars (set them as GitHub repository *variables*; see
+ * .github/workflows/deploy-pages.yml). Nothing is injected when unset.
+ *
+ *   VITE_GA_MEASUREMENT_ID         e.g. G-XXXXXXXXXX
+ *   VITE_GOOGLE_SITE_VERIFICATION  content of Google's HTML-tag verification meta
+ *   VITE_BING_SITE_VERIFICATION    content of Bing Webmaster msvalidate.01 meta
+ *
+ * The tags land in dist/public/index.html, which the SEO prerender copies to
+ * every route, so they are present in the static HTML of every page.
+ */
+export function seoIntegrationsPlugin(env: NodeJS.ProcessEnv = process.env): Plugin {
+  const gaId = (env.VITE_GA_MEASUREMENT_ID || '').trim();
+  const googleVerification = (env.VITE_GOOGLE_SITE_VERIFICATION || '').trim();
+  const bingVerification = (env.VITE_BING_SITE_VERIFICATION || '').trim();
+  const token = /^[A-Za-z0-9_-]{8,128}$/;
+  return {
+    name: 'netsecatlas-seo-integrations',
+    transformIndexHtml() {
+      const tags: { tag: string; attrs?: Record<string, string | boolean>; children?: string; injectTo: 'head' }[] = [];
+      if (googleVerification && token.test(googleVerification)) {
+        tags.push({ tag: 'meta', attrs: { name: 'google-site-verification', content: googleVerification }, injectTo: 'head' });
+      }
+      if (bingVerification && token.test(bingVerification)) {
+        tags.push({ tag: 'meta', attrs: { name: 'msvalidate.01', content: bingVerification }, injectTo: 'head' });
+      }
+      if (gaId && /^G-[A-Z0-9]{4,20}$/.test(gaId)) {
+        tags.push({
+          tag: 'script',
+          attrs: { async: true, src: `https://www.googletagmanager.com/gtag/js?id=${gaId}` },
+          injectTo: 'head',
+        });
+        // page_view events are sent by <AnalyticsPageViews/> on every SPA route change.
+        tags.push({
+          tag: 'script',
+          children: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${gaId}',{send_page_view:false});`,
+          injectTo: 'head',
+        });
+      }
+      return tags;
+    },
+  };
+}
+
 export default defineConfig({
   base: basePath,
   plugins: [
     react(),
     tailwindcss(),
     cmsDevApiPlugin(),
+    seoIntegrationsPlugin(),
   ],
   resolve: {
     alias: {

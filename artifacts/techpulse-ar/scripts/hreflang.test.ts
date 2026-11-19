@@ -7,17 +7,25 @@ import {
   isHreflangEligible,
   replaceHreflangLinks,
 } from '../src/lib/hreflang.ts';
+import policy from '../src/config/hreflang-policy.json' with { type: 'json' };
 
-test('keeps current content states ineligible', () => {
-  assert.equal(isHreflangEligible('/ar/article/2fa-practical-guide'), false);
-  assert.equal(isHreflangEligible('/en/comparison/iphone-16-vs-galaxy-s25'), false);
-  assert.equal(isHreflangEligible('/page/privacy'), false);
+const publishUnreviewed = policy.publishUnreviewedTranslations === true;
+
+test('content routes follow the publishUnreviewedTranslations policy switch', () => {
+  assert.equal(isHreflangEligible('/ar/article/2fa-practical-guide'), publishUnreviewed);
+  assert.equal(isHreflangEligible('/en/comparison/iphone-16-vs-galaxy-s25'), publishUnreviewed);
+  assert.equal(isHreflangEligible('/page/privacy'), publishUnreviewed);
 });
 
-test('allows only an explicit reviewed content fixture', () => {
+test('reviewed is always eligible, invalid never, unreviewed per policy', () => {
   assert.equal(isHreflangEligible('/article/reviewed-fixture', 'reviewed'), true);
-  assert.equal(isHreflangEligible('/article/review-fixture', 'unreviewed'), false);
+  assert.equal(isHreflangEligible('/article/review-fixture', 'unreviewed'), publishUnreviewed);
   assert.equal(isHreflangEligible('/article/invalid-fixture', 'invalid'), false);
+});
+
+test('the policy switch never opens non-content routes such as search or videos', () => {
+  assert.equal(isHreflangEligible('/search', 'unreviewed'), false);
+  assert.equal(isHreflangEligible('/videos', 'unreviewed'), false);
 });
 
 test('creates reciprocal production alternates and Arabic x-default', () => {

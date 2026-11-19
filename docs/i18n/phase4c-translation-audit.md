@@ -15,10 +15,10 @@
 | --- | ---: | ---: | ---: | ---: |
 | articles | 129 | 0 (0.0%) | 127 (98.4%) | 2 (1.6%) |
 | comparisons | 75 | 0 (0.0%) | 74 (98.7%) | 1 (1.3%) |
-| staticPages | 9 | 0 (0.0%) | 5 (55.6%) | 4 (44.4%) |
+| staticPages | 9 | 0 (0.0%) | 6 (66.7%) | 3 (33.3%) |
 | dynamicDiscoveryPages | 28 | 0 (0.0%) | 28 (100.0%) | 0 (0.0%) |
 
-**Total:** 241 evaluated; 0 valid; 234 review; 7 invalid.
+**Total:** 241 evaluated; 0 valid; 235 review; 6 invalid.
 
 ## Important distinction
 
@@ -34,6 +34,5 @@ Only the third state, combined with passing automated checks, is eligible for VA
 - `article:powershell-sysadmin-complete-guide` — Structural or language validation failed: arabic-side-not-predominantly-arabic.
 - `comparison:ansible-vs-powershell-dsc` — Structural or language validation failed: arabic-side-not-predominantly-arabic.
 - `static-page:disclaimer` — Structural or language validation failed: missing-or-trivial-title.
-- `static-page:contact` — Structural or language validation failed: missing-or-trivial-title.
 - `static-page:contribute` — Structural or language validation failed: missing-or-trivial-title.
 - `static-page:advertising` — Structural or language validation failed: missing-or-trivial-title.

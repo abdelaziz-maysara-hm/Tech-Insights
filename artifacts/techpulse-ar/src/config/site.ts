@@ -13,6 +13,17 @@ export const SITE = {
     'معرفة عملية في الشبكات والأمن وتقنية المعلومات لمتخصصي الأمن السيبراني ومهندسي الشبكات ومسؤولي الأنظمة وفرق البنية التحتية. استكشاف الأعطال، أدلة عملية، مقارنات وأدوات احترافية.',
   defaultAuthorEn: 'NetSec Atlas',
   defaultAuthorAr: 'NetSec Atlas',
+  /**
+   * Public social profiles. Leave a value empty to hide its footer icon.
+   * TODO(owner): add the real profile URLs, e.g. 'https://x.com/<handle>'.
+   */
+  social: {
+    x: '',
+    linkedin: '',
+    facebook: '',
+    instagram: '',
+    youtube: '',
+  },
   organization: {
     name: 'NetSec Atlas',
     url: 'https://netsecatlas.com',

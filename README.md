@@ -2,7 +2,7 @@
 
 Bilingual Arabic/English tech magazine site with a Git-based admin CMS.
 
-- **Live domain:** [https://technical-insights.com](https://technical-insights.com)
+- **Live domain:** [https://netsecatlas.com](https://netsecatlas.com) (GitHub Pages, deployed by `.github/workflows/deploy-pages.yml` on every push to `main`)
 - **Admin panel:** `/admin`
 - **Main app:** `artifacts/techpulse-ar`
 
@@ -71,7 +71,32 @@ Admin API in dev is served by Vite middleware at `/cms/api/*` (see `vite.config.
 
 - **Vercel:** root points at monorepo; serverless function lives at `artifacts/techpulse-ar/api/cms/[...path].ts`
 - **Netlify:** see `netlify.toml` + `netlify/functions/cms-api.ts`
-- Domain CNAME is `technical-insights.com`
+- Production is GitHub Pages with the custom domain `netsecatlas.com` (set in the repository Pages settings)
+
+## SEO build pipeline (GitHub Pages)
+
+`pnpm --filter @workspace/techpulse-ar run build` runs:
+
+1. `scripts/generate-sitemap.mjs` → `public/sitemap.xml` (every `/ar/` and `/en/` URL with reciprocal hreflang).
+2. `scripts/generate-rss.mjs` → `public/rss.xml`, `public/ar/rss.xml`, `public/en/rss.xml` (links use `/ar/article/<slug>` / `/en/article/<slug>`).
+3. `vite build`.
+4. `scripts/seo-prerender.mjs` → for every sitemap URL writes `<route>.html` (served with HTTP 200, no trailing-slash redirect) and `<route>/index.html`, each containing route-specific meta, canonical, hreflang, JSON-LD (Article / BreadcrumbList / FAQPage / WebApplication) **and the full page content as static HTML** (`scripts/seo-static-content.mjs`). React replaces it once the route is ready. It also writes meta-refresh redirect stubs for legacy un-prefixed URLs (`/article/<slug>` → `/ar/article/<slug>`), a crawlable root page and a `noindex` `404.html`.
+
+English content URLs are controlled by `publishUnreviewedTranslations` in `artifacts/techpulse-ar/src/config/hreflang-policy.json` (`true` = publish and index English versions of articles, comparisons and pages; items with `translationStatus: "invalid"` are always excluded; `false` = Arabic-only content URLs as before).
+
+Post-build checks: `pnpm --filter @workspace/techpulse-ar run test:build-output`.
+
+### Analytics and search-engine verification (optional)
+
+Set these as GitHub **repository variables** (Settings → Secrets and variables → Actions → Variables). Nothing is injected when they are empty.
+
+| Variable | Example | Effect |
+|----------|---------|--------|
+| `GA_MEASUREMENT_ID` | `G-XXXXXXXXXX` | Adds Google Analytics 4 (`gtag.js`); SPA route changes send `page_view` events |
+| `GOOGLE_SITE_VERIFICATION` | token from Search Console "HTML tag" method | Adds `<meta name="google-site-verification">` |
+| `BING_SITE_VERIFICATION` | token from Bing Webmaster Tools | Adds `<meta name="msvalidate.01">` |
+
+A Search Console HTML-file verification (`googlec09262aa424a656e.html`) is already served from `public/`.
 
 ## Security tips
 

@@ -11,6 +11,8 @@ export type HreflangAlternate = {
 
 const REVIEWED_CONTENT_ROUTES = new Set<string>(policy.reviewedContentRoutes);
 const ELIGIBLE_DISCOVERY_ROUTES = new Set<string>(policy.eligibleDiscoveryRoutes);
+const PUBLISH_UNREVIEWED_TRANSLATIONS = policy.publishUnreviewedTranslations === true;
+const TRANSLATABLE_CONTENT_ROUTE = /^\/(article|comparison|page)\/[^/]+$/;
 
 function pathnameOnly(value: string): string {
   const raw = /^https?:\/\//i.test(value) ? new URL(value).pathname : value;
@@ -37,7 +39,12 @@ export function isHreflangEligible(
   routePath: string,
   translationStatus = getTranslationStatus(routePath),
 ): boolean {
-  return isDiscoveryRouteHreflangEligible(routePath) || translationStatus === 'reviewed';
+  if (isDiscoveryRouteHreflangEligible(routePath) || translationStatus === 'reviewed') return true;
+  return (
+    PUBLISH_UNREVIEWED_TRANSLATIONS &&
+    translationStatus !== 'invalid' &&
+    TRANSLATABLE_CONTENT_ROUTE.test(getCanonicalRouteIdentity(routePath))
+  );
 }
 
 export function getHreflangAlternates(

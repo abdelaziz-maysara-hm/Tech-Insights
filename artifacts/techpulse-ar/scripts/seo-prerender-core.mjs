@@ -190,6 +190,11 @@ export function loadContentIndexes() {
     domainsById: new Map(domains.map((d) => [d.id, d])),
     reviewedContentRoutes: new Set(policy.reviewedContentRoutes || []),
     eligibleDiscoveryRoutes: new Set(policy.eligibleDiscoveryRoutes || []),
+    publishUnreviewedTranslations: policy.publishUnreviewedTranslations === true,
+    articles,
+    comparisons,
+    pages,
+    webTools,
   };
 }
 
@@ -207,11 +212,26 @@ export function detectLocale(pathname) {
   return 'ar';
 }
 
+export function contentItemForIdentity(identity, indexes) {
+  const m = identity.match(/^\/(article|comparison|page)\/([^/]+)$/);
+  if (!m) return null;
+  const map =
+    m[1] === 'article'
+      ? indexes.articlesBySlug
+      : m[1] === 'comparison'
+        ? indexes.comparisonsBySlug
+        : indexes.pagesBySlug;
+  return map?.get(m[2]) ?? null;
+}
+
 export function isHreflangEligibleForRoute(identity, indexes) {
-  return (
-    indexes.eligibleDiscoveryRoutes.has(identity) ||
-    indexes.reviewedContentRoutes.has(identity)
-  );
+  if (indexes.eligibleDiscoveryRoutes.has(identity) || indexes.reviewedContentRoutes.has(identity)) {
+    return true;
+  }
+  const item = contentItemForIdentity(identity, indexes);
+  if (!item) return false;
+  if (item.translationStatus === 'reviewed') return true;
+  return indexes.publishUnreviewedTranslations === true && item.translationStatus !== 'invalid';
 }
 
 export function buildHreflangAlternates(identity, eligible) {
@@ -290,7 +310,9 @@ export function resolveRouteSeo(pathname, indexes) {
       return {
         ...base,
         title: pickLocalized(item.title, lang),
-        description: lang === 'ar' ? SITE.descriptionAr : SITE.descriptionEn,
+        description:
+          pickLocalized(item.description, lang) ||
+          (lang === 'ar' ? SITE.descriptionAr : SITE.descriptionEn),
         source: 'page',
       };
     }
