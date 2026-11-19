@@ -16,7 +16,7 @@
  *
  * Idempotent: it only overwrites the fields it owns. No bulk generation.
  */
-import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { dirname, join } from 'node:path';
 import { REPURPOSE_ARTICLES, REPURPOSE_COMPARISONS } from './repurpose.mjs';
@@ -131,7 +131,7 @@ for (const slug of ['exploited-vulnerabilities-roundup-august-2026']) {
   if (bySlug.get(slug)) bySlug.get(slug).englishEdition = 'independent';
 }
 let comparisonsRewritten = 0;
-for (const file of readdirSync(join(here, 'comparisons-en')).filter((f) => f.endsWith('.json')).sort()) {
+for (const file of (existsSync(join(here, 'comparisons-en')) ? readdirSync(join(here, 'comparisons-en')) : []).filter((f) => f.endsWith('.json')).sort()) {
   const slug = file.replace(/\.json$/, '');
   const c = comparisons.find((x) => x.slug === slug);
   if (!c) throw new Error(`comparison rewrite: missing ${slug}`);
