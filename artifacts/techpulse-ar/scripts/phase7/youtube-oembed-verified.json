@@ -1,0 +1,392 @@
+{
+ "verifiedAt": "2026-11-19",
+ "method": "GET https://www.youtube.com/oembed?url=<watch-or-playlist-url>&format=json",
+ "videos": {
+  "1pMQGhSbAis": {
+   "title": "Setting up IPSec VPN in FortiOS 7.2",
+   "author": "Fortinet Video Library",
+   "authorUrl": "https://www.youtube.com/@fortinetvideolibrary",
+   "oembedStatus": 200
+  },
+  "L4nP3TiDHoo": {
+   "title": "SSL VPN Full Tunnel Setup for Remote Users",
+   "author": "Fortinet Video Library",
+   "authorUrl": "https://www.youtube.com/@fortinetvideolibrary",
+   "oembedStatus": 200
+  },
+  "llBD5EVbWGc": {
+   "title": "Fortinet ends SSL-VPN Support from FORTIOS 7.6.3 Onwards! Are You Ready?",
+   "author": "CybowPoint",
+   "authorUrl": "https://www.youtube.com/@CybowPoint",
+   "oembedStatus": 200
+  },
+  "LldfWVbC17w": {
+   "title": "Getting Started with ZTNA",
+   "author": "Fortinet Video Library",
+   "authorUrl": "https://www.youtube.com/@fortinetvideolibrary",
+   "oembedStatus": 200
+  },
+  "xqL2LqDP0gw": {
+   "title": "ZTNA Overview",
+   "author": "Fortinet Video Library",
+   "authorUrl": "https://www.youtube.com/@fortinetvideolibrary",
+   "oembedStatus": 200
+  },
+  "36wU22YqrGw": {
+   "title": "Configure a Firewall Policy for a PC to Access Internet | FortiGate",
+   "author": "Fortinet",
+   "authorUrl": "https://www.youtube.com/@fortinet",
+   "oembedStatus": 200
+  },
+  "bSVqTERvTeY": {
+   "title": "How to setup Static Route on FortiGate",
+   "author": "Fortinet Video Library",
+   "authorUrl": "https://www.youtube.com/@fortinetvideolibrary",
+   "oembedStatus": 200
+  },
+  "Ahrao6kBg8w": {
+   "title": "Tutorial: Understanding the NAT/Security Policy Configuration",
+   "author": "Palo Alto Networks LIVEcommunity",
+   "authorUrl": "https://www.youtube.com/@PaloAltoNetworksLiveCommunity",
+   "oembedStatus": 200
+  },
+  "zLqsSuOVzzU": {
+   "title": "Tutorial: Network Address Translation",
+   "author": "Palo Alto Networks LIVEcommunity",
+   "authorUrl": "https://www.youtube.com/@PaloAltoNetworksLiveCommunity",
+   "oembedStatus": 200
+  },
+  "Bdbn1pbe74o": {
+   "title": "Video Tutorial: How to Configure U-Turn NAT",
+   "author": "Palo Alto Networks LIVEcommunity",
+   "authorUrl": "https://www.youtube.com/@PaloAltoNetworksLiveCommunity",
+   "oembedStatus": 200
+  },
+  "3ycUby-VCoY": {
+   "title": "FortiGate Firewall شرح بالعربي",
+   "author": "Information Technology",
+   "authorUrl": "https://www.youtube.com/@FREE4ARAB1",
+   "oembedStatus": 200
+  },
+  "hvIatX1UpBw": {
+   "title": "01-Palo Alto Firewall (Introduction) By Eng-Mostafa El Lathy | Arabic",
+   "author": "Information Technology",
+   "authorUrl": "https://www.youtube.com/@FREE4ARAB1",
+   "oembedStatus": 200
+  },
+  "U2gX3ff0jnE": {
+   "title": "52- FortiOS 7.4 to 7.6: Migrate from SSL VPN to IPsec VPN | FortiGate Step-by-Step (Full Guide 2026)",
+   "author": "IT LEARNING LABS",
+   "authorUrl": "https://www.youtube.com/@IT-Learning-Labs",
+   "oembedStatus": 200
+  },
+  "MmwF1oHOvmg": {
+   "title": "What are VLANs? -- the simplest explanation",
+   "author": "Practical Networking",
+   "authorUrl": "https://www.youtube.com/@PracticalNetworking",
+   "oembedStatus": 200
+  },
+  "Fmq1E1Qr2W4": {
+   "title": "Native VLAN - the DEFINITIVE illustration",
+   "author": "Practical Networking",
+   "authorUrl": "https://www.youtube.com/@PracticalNetworking",
+   "oembedStatus": 200
+  },
+  "cjFzOnm6u1g": {
+   "title": "Free CCNA | VLANs (Part 1) | Day 16 | CCNA 200-301 Complete Course",
+   "author": "Jeremy's IT Lab",
+   "authorUrl": "https://www.youtube.com/@JeremysITLab",
+   "oembedStatus": 200
+  },
+  "SdC3ppnanAE": {
+   "title": "How 802.1X works",
+   "author": "CBT Nuggets",
+   "authorUrl": "https://www.youtube.com/@cbtnuggets",
+   "oembedStatus": 200
+  },
+  "OU-A2EmVrKQ": {
+   "title": "Learn Wireshark! Tutorial for BEGINNERS",
+   "author": "Chris Greer",
+   "authorUrl": "https://www.youtube.com/@ChrisGreer",
+   "oembedStatus": 200
+  },
+  "4t4kBkMsDbQ": {
+   "title": "Nmap Tutorial to find Network Vulnerabilities",
+   "author": "NetworkChuck",
+   "authorUrl": "https://www.youtube.com/@NetworkChuck",
+   "oembedStatus": 200
+  },
+  "F2PXe_o7KqM": {
+   "title": "How Nmap really works // And how to catch it // Stealth scan vs TCP scan // Wireshark analysis",
+   "author": "David Bombal",
+   "authorUrl": "https://www.youtube.com/@davidbombal",
+   "oembedStatus": 200
+  },
+  "S7MNX_UD7vY": {
+   "title": "FREE CCNA // What is a Network? // Day 0",
+   "author": "NetworkChuck",
+   "authorUrl": "https://www.youtube.com/@NetworkChuck",
+   "oembedStatus": 200
+  },
+  "oIRkXulqJA4": {
+   "title": "how the OSI model works on YouTube (Application and Transport Layers) // FREE CCNA // EP 5",
+   "author": "NetworkChuck",
+   "authorUrl": "https://www.youtube.com/@NetworkChuck",
+   "oembedStatus": 200
+  },
+  "3QhU9jd03a0": {
+   "title": "Computer Networks: Crash Course Computer Science #28",
+   "author": "CrashCourse",
+   "authorUrl": "https://www.youtube.com/@crashcourse",
+   "oembedStatus": 200
+  },
+  "acsfdeJQ3Cs": {
+   "title": "شرح مفصل عن الفيلان وأهميتها داخل الشبكة (VLAN)",
+   "author": "Chabakat Arab | شبكات عرب",
+   "authorUrl": "https://www.youtube.com/@chabakatarab",
+   "oembedStatus": 200
+  },
+  "UOsm5fPCPSs": {
+   "title": "شرح أداة وايرشارك Wireshark بالعربية| معرفة خبايا الشبكة واسرارها",
+   "author": "Anas Education",
+   "authorUrl": "https://www.youtube.com/@Anas_Education",
+   "oembedStatus": 200
+  },
+  "AYgXr1dynKU": {
+   "title": "Understanding the OSI Model - CompTIA Network+ N10-009 - 1.1",
+   "author": "Professor Messer",
+   "authorUrl": "https://www.youtube.com/@professormesser",
+   "oembedStatus": 200
+  },
+  "3CaG2GI1kn0": {
+   "title": "you need this FREE CyberSecurity tool",
+   "author": "NetworkChuck",
+   "authorUrl": "https://www.youtube.com/@NetworkChuck",
+   "oembedStatus": 200
+  },
+  "7Gn1GY5CIxg": {
+   "title": "Wazuh gives visibility to EVERYTHING",
+   "author": "John Hammond",
+   "authorUrl": "https://www.youtube.com/@_JohnHammond",
+   "oembedStatus": 200
+  },
+  "EXsKJ9kIc6s": {
+   "title": "Where's the 4624? - Logon Events vs. Account Logons",
+   "author": "13Cubed",
+   "authorUrl": "https://www.youtube.com/@13Cubed",
+   "oembedStatus": 200
+  },
+  "kESndPO5Fig": {
+   "title": "Learning Sysmon - What is Sysmon? (Video 1)",
+   "author": "TrustedSec",
+   "authorUrl": "https://www.youtube.com/@TrustedSecTV",
+   "oembedStatus": 200
+  },
+  "MlGc44dfFBg": {
+   "title": "Learning Sysmon - Installation (Video 2)",
+   "author": "TrustedSec",
+   "authorUrl": "https://www.youtube.com/@TrustedSecTV",
+   "oembedStatus": 200
+  },
+  "Yxv1suJYMI8": {
+   "title": "MITRE ATT&CK® Framework",
+   "author": "mitrecorp (The MITRE Corporation)",
+   "authorUrl": "https://www.youtube.com/@mitrecorp",
+   "oembedStatus": 200
+  },
+  "LCec9K0aAkM": {
+   "title": "Introduction To The MITRE ATT&CK Framework",
+   "author": "HackerSploit",
+   "authorUrl": "https://www.youtube.com/@HackerSploit",
+   "oembedStatus": 200
+  },
+  "0M55onu7mVI": {
+   "title": "Handling Ransomware Incidents: What YOU Need to Know!",
+   "author": "SANS Digital Forensics and Incident Response",
+   "authorUrl": "https://www.youtube.com/@SANSForensics",
+   "oembedStatus": 200
+  },
+  "7MFGVyco1yM": {
+   "title": "Ransomware Incident Response - The Real-World Story of a Ransomware Attack",
+   "author": "FIRST",
+   "authorUrl": "https://www.youtube.com/@FIRSTdotorg",
+   "oembedStatus": 200
+  },
+  "vu2w1_-SjYQ": {
+   "title": "Security Operation Center (SOC) شرح بالعربي",
+   "author": "Information Technology",
+   "authorUrl": "https://www.youtube.com/@FREE4ARAB1",
+   "oembedStatus": 200
+  },
+  "tRCvagjqx3c": {
+   "title": "Learn Active Directory Kerberoasting",
+   "author": "John Hammond",
+   "authorUrl": "https://www.youtube.com/@_JohnHammond",
+   "oembedStatus": 200
+  },
+  "5N242XcKAsM": {
+   "title": "Kerberos Authentication Explained | A deep dive",
+   "author": "Destination Certification",
+   "authorUrl": "https://www.youtube.com/@destcert",
+   "oembedStatus": 200
+  },
+  "OPwR2UFDYR0": {
+   "title": "How to Secure Active Directory (AD Tiering) - Tutorial 15 min",
+   "author": "Truesec",
+   "authorUrl": "https://www.youtube.com/@TruesecPlay",
+   "oembedStatus": 200
+  },
+  "ffMAw2IVO7A": {
+   "title": "What is conditional access? | Microsoft Entra ID",
+   "author": "Microsoft Azure",
+   "authorUrl": "https://www.youtube.com/@MicrosoftAzure",
+   "oembedStatus": 200
+  },
+  "BUI5LZPoHAs": {
+   "title": "New Conditional Access policy plans in Microsoft Entra",
+   "author": "Microsoft Mechanics",
+   "authorUrl": "https://www.youtube.com/@MSFTMechanics",
+   "oembedStatus": 200
+  },
+  "W8U1Ihi0l54": {
+   "title": "Microsoft Entra Conditional Access Made Easy Complete Beginner Guide 2026",
+   "author": "Andy Malone MVP",
+   "authorUrl": "https://www.youtube.com/@AndyMaloneMVP",
+   "oembedStatus": 200
+  },
+  "VT0BPy2XGvk": {
+   "title": "شرح Windows Server و Active Directory من الصفر",
+   "author": "Mohammed Haidar",
+   "authorUrl": "https://www.youtube.com/@mhd.haidar",
+   "oembedStatus": 200
+  },
+  "YFPyTPDfZeY": {
+   "title": "Microsoft Defender for Endpoint Overview",
+   "author": "Microsoft Security",
+   "authorUrl": "https://www.youtube.com/@MicrosoftSecurity",
+   "oembedStatus": 200
+  },
+  "lT6Px9zJM3s": {
+   "title": "Nessus Tutorial for Beginners: Vulnerability Management (PUT THIS ON YOUR RESUME!)",
+   "author": "Josh Madakor",
+   "authorUrl": "https://www.youtube.com/@JoshMadakor",
+   "oembedStatus": 200
+  },
+  "kXecHO6ESqY": {
+   "title": "Nessus Essentials: Beginners Guide to Running Scans",
+   "author": "Cyb3r_0verwatch",
+   "authorUrl": "https://www.youtube.com/@Cyb3r_0verwatch",
+   "oembedStatus": 200
+  },
+  "2zIQSzf7hQk": {
+   "title": "CertMike Explains CVSS",
+   "author": "Mike Chapple",
+   "authorUrl": "https://www.youtube.com/@CertMike",
+   "oembedStatus": 200
+  },
+  "oSyEGkX6sX0": {
+   "title": "CVE and CVSS explained | Security Detail",
+   "author": "Red Hat",
+   "authorUrl": "https://www.youtube.com/@redhat",
+   "oembedStatus": 200
+  },
+  "EtKWayHXMIE": {
+   "title": "Part 1: How to install Kaspersky Security Center",
+   "author": "Kaspersky",
+   "authorUrl": "https://www.youtube.com/@Kaspersky",
+   "oembedStatus": 200
+  },
+  "AKqBH-3dVW4": {
+   "title": "تنصيب كاسبرسكي Kaspersky Security center خطوة بخطوة",
+   "author": "SafeTech | التقنيات الامنة",
+   "authorUrl": "https://www.youtube.com/@Safe.Tech22",
+   "oembedStatus": 200
+  },
+  "fNzpcB7ODxQ": {
+   "title": "Ethical Hacking in 12 Hours - Full Course - Learn to Hack!",
+   "author": "The Cyber Mentors",
+   "authorUrl": "https://www.youtube.com/@TCMSecurityAcademy",
+   "oembedStatus": 200
+  },
+  "Q8NUW3CZRvw": {
+   "title": "CertMike Explains DMARC, DKIM and SPF",
+   "author": "Mike Chapple",
+   "authorUrl": "https://www.youtube.com/@CertMike",
+   "oembedStatus": 200
+  },
+  "RzHxR72Rpk4": {
+   "title": "DMARC Policy Explained: p=none, p=quarantine, p=reject",
+   "author": "PowerDMARC",
+   "authorUrl": "https://www.youtube.com/@powerdmarc",
+   "oembedStatus": 200
+  },
+  "sJ-5URX19d4": {
+   "title": "Microsoft 365 SPF, DKIM and DMARC; Improve Your Email Security!",
+   "author": "Jonathan Edwards",
+   "authorUrl": "https://www.youtube.com/@bearded365guy",
+   "oembedStatus": 200
+  },
+  "Yg3QL8To6uQ": {
+   "title": "SPF, DKIM, DMARC was never so simple! // EasyDMARC",
+   "author": "Christian Lempa",
+   "authorUrl": "https://www.youtube.com/@christianlempa",
+   "oembedStatus": 200
+  },
+  "hryt-rCLJUA": {
+   "title": "OWASP Top 10 2021 - The List and How You Should Use It",
+   "author": "Cyber Citadel",
+   "authorUrl": "https://www.youtube.com/@CyberCitadel",
+   "oembedStatus": 200
+  },
+  "AzE0K_T1niw": {
+   "title": "Phishing Course for SOC Analysts - Part 2 Email Header Analysis & Authentication (SPF, DKIM, DMARC)",
+   "author": "Ahmed Farouk",
+   "authorUrl": "https://www.youtube.com/@ahmed.moh.farou2",
+   "oembedStatus": 200
+  },
+  "STM3EUvL7wg": {
+   "title": "Security Controls - CompTIA Security+ SY0-701 - 1.1",
+   "author": "Professor Messer",
+   "authorUrl": "https://www.youtube.com/@professormesser",
+   "oembedStatus": 200
+  },
+  "SBcDGb9l6yo": {
+   "title": "The CIA Triad - CompTIA Security+ SY0-701 - 1.2",
+   "author": "Professor Messer",
+   "authorUrl": "https://www.youtube.com/@professormesser",
+   "oembedStatus": 200
+  },
+  "sWbUDq4S6Y8": {
+   "title": "Introduction to Linux – Full Course for Beginners",
+   "author": "freeCodeCamp.org",
+   "authorUrl": "https://www.youtube.com/@freecodecamp",
+   "oembedStatus": 200
+  },
+  "dyKg_bQOXfU": {
+   "title": "00- Security+ (SY0-601) Course Introduction -  عربي",
+   "author": "Netriders - نت رايدرز",
+   "authorUrl": "https://www.youtube.com/@NetridersAcad",
+   "oembedStatus": 200
+  },
+  "inWWhr5tnEA": {
+   "title": "What Is Cyber Security | How It Works? | Cyber Security In 7 Minutes | Cyber Security | Simplilearn",
+   "author": "Simplilearn",
+   "authorUrl": "https://www.youtube.com/@SimplilearnOfficial",
+   "oembedStatus": 200
+  }
+ },
+ "playlists": {
+  "PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ": {
+   "title": "Free CCNA v1.1 200-301 | Complete Course 2026",
+   "author": "Jeremy's IT Lab",
+   "authorUrl": "https://www.youtube.com/@JeremysITLab",
+   "oembedStatus": 200
+  },
+  "PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P": {
+   "title": "FREE CCNA 200-301 // Complete Course // NetworkChuck 2025",
+   "author": "NetworkChuck",
+   "authorUrl": "https://www.youtube.com/@NetworkChuck",
+   "oembedStatus": 200
+  }
+ }
+}

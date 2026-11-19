@@ -49,6 +49,8 @@ const articles = loadJson('src/content/articles.json');
 const comparisons = loadJson('src/content/comparisons.json');
 const pages = loadJson('src/content/pages.json');
 const webTools = loadJson('src/content/web-tools.json');
+const videos = loadJson('src/content/videos.json');
+const playlists = loadJson('src/content/video-playlists.json');
 const vendorRoutes = policy.eligibleDiscoveryRoutes
   .filter((path) => path.startsWith('/vendors/'))
   .map((path) => ({ path, priority: '0.8', changefreq: 'weekly' }));
@@ -78,6 +80,20 @@ const routes = [
     lastmod: typeof item.date === 'string' ? item.date.slice(0, 10) : today,
     translationStatus: item.translationStatus,
   })),
+  ...playlists.filter((item) => item?.slug).map((item) => ({
+    path: `/videos/${item.slug}`,
+    bilingual: true,
+    priority: '0.8',
+    changefreq: 'weekly',
+    lastmod: typeof item.updatedAt === 'string' ? item.updatedAt.slice(0, 10) : today,
+  })),
+  ...videos.filter((item) => item?.slug).map((item) => ({
+    path: `/video/${item.slug}`,
+    bilingual: true,
+    priority: '0.6',
+    changefreq: 'monthly',
+    lastmod: typeof item.date === 'string' ? item.date.slice(0, 10) : today,
+  })),
   ...pages.filter((item) => item?.slug).map((item) => ({
     path: `/page/${item.slug}`,
     translatable: true,
@@ -91,7 +107,8 @@ const routes = [
 const uniqueRoutes = [...new Map(routes.map((route) => [route.path, route])).values()];
 const entries = [];
 for (const route of uniqueRoutes) {
-  const eligible = eligibleDiscoveryRoutes.has(route.path)
+  const eligible = route.bilingual === true
+    || eligibleDiscoveryRoutes.has(route.path)
     || route.translationStatus === 'reviewed'
     || reviewedContentRoutes.has(route.path)
     || (publishUnreviewedTranslations
@@ -130,3 +147,40 @@ writeFileSync(join(outputDirectory, 'sitemap.xml'), xml, 'utf8');
 const arCount = entries.filter((entry) => entry.language === 'ar').length;
 const enCount = entries.filter((entry) => entry.language === 'en').length;
 console.log(`[sitemap] wrote ${entries.length} canonical URLs (${arCount} ar, ${enCount} en) → public/sitemap.xml`);
+
+// ---------------------------------------------------------------------------
+// Video sitemap (Google video extension). One <url> per localized video page.
+// Only fields we actually know are emitted (no invented upload dates).
+// ---------------------------------------------------------------------------
+function isoSeconds(text) {
+  if (!text) return null;
+  const parts = String(text).split(':').map(Number);
+  while (parts.length < 3) parts.unshift(0);
+  return parts[0] * 3600 + parts[1] * 60 + parts[2];
+}
+
+const videoBody = videos
+  .filter((v) => v?.slug && /^[\w-]{11}$/.test(v.youtubeId || ''))
+  .flatMap((v) => ['ar', 'en'].map((language) => {
+    const loc = localizedUrl(`/video/${v.slug}`, language);
+    const seconds = isoSeconds(v.durationText);
+    const title = (v.title && v.title[language]) || v.originalTitle;
+    const description = (v.description && v.description[language]) || title;
+    return `  <url>
+    <loc>${escapeXml(loc)}</loc>
+    <video:video>
+      <video:thumbnail_loc>${escapeXml(`https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg`)}</video:thumbnail_loc>
+      <video:title>${escapeXml(title)}</video:title>
+      <video:description>${escapeXml(description.slice(0, 2048))}</video:description>
+      <video:player_loc>${escapeXml(`https://www.youtube-nocookie.com/embed/${v.youtubeId}`)}</video:player_loc>${seconds ? `
+      <video:duration>${seconds}</video:duration>` : ''}
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="${escapeXml(v.channel?.url || '')}">${escapeXml(v.channel?.name || '')}</video:uploader>
+    </video:video>
+  </url>`;
+  }))
+  .join('\n');
+
+const videoXml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">\n${videoBody}\n</urlset>\n`;
+writeFileSync(join(outputDirectory, 'video-sitemap.xml'), videoXml, 'utf8');
+console.log(`[sitemap] wrote ${videos.length * 2} video entries → public/video-sitemap.xml`);

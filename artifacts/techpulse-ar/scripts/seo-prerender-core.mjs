@@ -78,10 +78,10 @@ const SECTION_META = {
     },
   },
   '/videos': {
-    title: { ar: 'فيديو', en: 'Videos' },
+    title: { ar: 'مكتبة الفيديو: قوائم تشغيل في الشبكات والأمن', en: 'Video Library: Network & Security Playlists' },
     description: {
-      ar: 'مقاطع فيديو تقنية عملية.',
-      en: 'Practical technical videos.',
+      ar: 'قوائم تشغيل مرتبة حسب مسارات التعلم في جدران الحماية والشبكات وSOC والهوية وأمن البريد، مع ملخصات وملاحظات ومقالات مرتبطة.',
+      en: 'Playlists ordered as learning tracks for firewalls, networking, SOC, identity and email security, with summaries, notes and related articles.',
     },
   },
   '/search': {
@@ -132,6 +132,14 @@ function loadJson(relativePath) {
   }
 }
 
+function loadRedirects() {
+  try {
+    return JSON.parse(readFileSync(join(root, 'src/config/content-redirects.json'), 'utf8')).redirects || {};
+  } catch {
+    return {};
+  }
+}
+
 function loadPolicy() {
   try {
     return JSON.parse(readFileSync(join(root, 'src/config/hreflang-policy.json'), 'utf8'));
@@ -172,6 +180,8 @@ export function loadContentIndexes() {
   const comparisons = loadJson('src/content/comparisons.json');
   const pages = loadJson('src/content/pages.json');
   const webTools = loadJson('src/content/web-tools.json');
+  const videos = loadJson('src/content/videos.json');
+  const playlists = loadJson('src/content/video-playlists.json');
   const policy = loadPolicy();
   let vendors = [];
   let domains = [];
@@ -186,6 +196,11 @@ export function loadContentIndexes() {
     comparisonsBySlug: new Map(comparisons.map((c) => [c.slug, c])),
     pagesBySlug: new Map(pages.map((p) => [p.slug, p])),
     toolsBySlug: new Map(webTools.map((t) => [t.slug, t])),
+    videosBySlug: new Map(videos.map((v) => [v.slug, v])),
+    playlistsBySlug: new Map(playlists.map((p) => [p.slug, p])),
+    videos,
+    playlists,
+    redirects: loadRedirects(),
     vendorsById: new Map(vendors.map((v) => [v.id, v])),
     domainsById: new Map(domains.map((d) => [d.id, d])),
     reviewedContentRoutes: new Set(policy.reviewedContentRoutes || []),
@@ -225,6 +240,8 @@ export function contentItemForIdentity(identity, indexes) {
 }
 
 export function isHreflangEligibleForRoute(identity, indexes) {
+  // Video hub, playlist and video pages are authored in both languages.
+  if (/^\/(videos|videos\/[^/]+|video\/[^/]+)$/.test(identity)) return true;
   if (indexes.eligibleDiscoveryRoutes.has(identity) || indexes.reviewedContentRoutes.has(identity)) {
     return true;
   }
@@ -325,6 +342,29 @@ export function resolveRouteSeo(pathname, indexes) {
         title: pickLocalized(tool.title, lang),
         description: pickLocalized(tool.metaDescription, lang),
         source: 'tool',
+      };
+    }
+  }
+  if ((m = identity.match(/^\/videos\/([^/]+)$/))) {
+    const playlist = indexes.playlistsBySlug?.get(m[1]);
+    if (playlist) {
+      return {
+        ...base,
+        title: `${pickLocalized(playlist.title, lang)} — ${lang === 'ar' ? 'قائمة تشغيل' : 'Playlist'}`,
+        description: pickLocalized(playlist.description, lang),
+        source: 'playlist',
+      };
+    }
+  }
+  if ((m = identity.match(/^\/video\/([^/]+)$/))) {
+    const video = indexes.videosBySlug?.get(m[1]);
+    if (video) {
+      return {
+        ...base,
+        title: pickLocalized(video.title, lang),
+        description: pickLocalized(video.description, lang),
+        image: `https://i.ytimg.com/vi/${video.youtubeId}/hqdefault.jpg`,
+        source: 'video',
       };
     }
   }

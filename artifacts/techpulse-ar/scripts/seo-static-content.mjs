@@ -9,9 +9,18 @@
  * sitemap route. React's createRoot() replaces it on mount, so the live UI is
  * unchanged for visitors with JavaScript.
  */
-import { markdownToHtml } from '../src/lib/markdown.ts';
+import { localizeInternalLinks, markdownToHtml } from '../src/lib/markdown.ts';
 import { getRelatedArticles, getAdjacentArticles } from '../src/lib/relatedContent.ts';
 import { SITE, escapeHtml, escapeAttr, pickLocalized } from './seo-prerender-core.mjs';
+import {
+  playlistForArticle,
+  videosForPlaylist,
+  youtubeThumb,
+  youtubeWatchUrl,
+  youtubePlaylistUrl,
+  totalDurationSeconds,
+  formatTotal,
+} from '../src/lib/videoLibrary.ts';
 
 const UI = {
   home: { ar: 'الرئيسية', en: 'Home' },
@@ -21,7 +30,21 @@ const UI = {
   guides: { ar: 'أدلة', en: 'Guides' },
   tools: { ar: 'أدوات', en: 'Tools' },
   vendors: { ar: 'الموردون', en: 'Vendors' },
-  videos: { ar: 'فيديو', en: 'Videos' },
+  videos: { ar: 'مكتبة الفيديو', en: 'Video library' },
+  playlist: { ar: 'قائمة التشغيل', en: 'Playlist' },
+  watchPlaylist: { ar: 'شاهد قائمة التشغيل المرتبطة', en: 'Watch the related playlist' },
+  summary: { ar: 'ملخص', en: 'Summary' },
+  notes: { ar: 'ملاحظات NetSec Atlas حول الموضوع', en: 'NetSec Atlas notes on the topic' },
+  howTo: { ar: 'كيف تستخدم هذه القائمة', en: 'How to use this playlist' },
+  contents: { ar: 'محتوى القائمة', en: 'Playlist contents' },
+  readAlong: { ar: 'اقرأ مع القائمة', en: 'Read alongside' },
+  fullCourses: { ar: 'دورات كاملة على يوتيوب', en: 'Full courses on YouTube' },
+  watchOnYoutube: { ar: 'شاهد على يوتيوب', en: 'Watch on YouTube' },
+  channel: { ar: 'القناة', en: 'Channel' },
+  prevLesson: { ar: 'الدرس السابق', en: 'Previous lesson' },
+  nextLesson: { ar: 'الدرس التالي', en: 'Next lesson' },
+  relatedArticles: { ar: 'مقالات مرتبطة', en: 'Related articles' },
+  originalTitle: { ar: 'العنوان الأصلي', en: 'Original title' },
   categories: { ar: 'الأقسام', en: 'Categories' },
   related: { ar: 'مقالات ذات صلة', en: 'Related articles' },
   latest: { ar: 'أحدث المقالات', en: 'Latest articles' },
@@ -48,7 +71,7 @@ const CATEGORY = {
   comparisons: { ar: 'مقارنات', en: 'Comparisons' },
 };
 
-const NAV = ['/articles', '/comparisons', '/troubleshooting', '/guides', '/tools', '/vendors'];
+const NAV = ['/articles', '/comparisons', '/troubleshooting', '/guides', '/tools', '/vendors', '/videos'];
 const NAV_KEY = {
   '/articles': 'articles',
   '/comparisons': 'comparisons',
@@ -158,6 +181,15 @@ export function breadcrumbTrail(identity, seo, indexes) {
     trail.push([t('vendors', lang), '/vendors'], [seo.title, null]);
   } else if (identity.startsWith('/tools/')) {
     trail.push([t('tools', lang), '/tools'], [seo.title, null]);
+  } else if (identity.startsWith('/videos/')) {
+    const playlist = indexes.playlistsBySlug?.get(identity.slice(8));
+    trail.push([t('videos', lang), '/videos'], [playlist ? pickLocalized(playlist.title, lang) : seo.title, null]);
+  } else if (identity.startsWith('/video/')) {
+    const video = indexes.videosBySlug?.get(identity.slice(7));
+    const playlist = video && indexes.playlistsBySlug?.get(video.playlist);
+    trail.push([t('videos', lang), '/videos']);
+    if (playlist) trail.push([pickLocalized(playlist.title, lang), `/videos/${playlist.slug}`]);
+    trail.push([seo.title, null]);
   } else if (identity !== '/') {
     trail.push([seo.title, null]);
   }
@@ -193,7 +225,7 @@ function siteFooter(lang, indexes) {
 
 function renderArticle(article, seo, indexes) {
   const lang = seo.lang;
-  const body = markdownToHtml(pickLocalized(article.body, lang));
+  const body = localizeInternalLinks(markdownToHtml(pickLocalized(article.body, lang)), lang);
   const related = getRelatedArticles(article, indexes.articles || [], 6);
   const { previous, next } = getAdjacentArticles(article, indexes.articles || []);
   const author = pickLocalized(article.author?.name, lang) || SITE.name;
@@ -221,7 +253,112 @@ function renderArticle(article, seo, indexes) {
     pickLocalized(article.excerpt, lang),
   )}</strong></p><div class="max-w-none">${body}</div>${tags ? `<ul>${tags}</ul>` : ''}${
     adjacent ? `<nav aria-label="article navigation">${adjacent}</nav>` : ''
-  }</article>${related.length ? `<section class="max-w-3xl mx-auto"><h2>${escapeHtml(t('related', lang))}</h2>${articleList(related, lang)}</section>` : ''}`;
+  }${articlePlaylistBox(article, lang, indexes)}</article>${related.length ? `<section class="max-w-3xl mx-auto"><h2>${escapeHtml(t('related', lang))}</h2>${articleList(related, lang)}</section>` : ''}`;
+}
+
+function articlePlaylistBox(article, lang, indexes) {
+  const playlist = playlistForArticle(article.slug, indexes.playlists || []);
+  if (!playlist) return '';
+  const items = videosForPlaylist(playlist, indexes.videos || []);
+  if (!items.length) return '';
+  return `<aside><h2>${escapeHtml(t('watchPlaylist', lang))}</h2><p><a href="${escapeAttr(
+    localizedHref(`/videos/${playlist.slug}`, lang),
+  )}">${escapeHtml(pickLocalized(playlist.title, lang))}</a></p><ol>${items
+    .slice(0, 4)
+    .map((v) => `<li><a href="${escapeAttr(localizedHref(`/video/${v.slug}`, lang))}">${escapeHtml(pickLocalized(v.title, lang))}</a></li>`)
+    .join('')}</ol></aside>`;
+}
+
+function articleLinks(slugs, lang, indexes) {
+  return slugs
+    .map((slug) => indexes.articlesBySlug.get(slug))
+    .filter(Boolean)
+    .map((a) => `<li><a href="${escapeAttr(localizedHref(`/article/${a.slug}`, lang))}">${escapeHtml(pickLocalized(a.title, lang))}</a></li>`)
+    .join('');
+}
+
+function staticVideoFacade(video, lang) {
+  const title = pickLocalized(video.title, lang);
+  return `<p><a href="${escapeAttr(youtubeWatchUrl(video.youtubeId))}" rel="noopener noreferrer"><img src="${escapeAttr(
+    youtubeThumb(video.youtubeId),
+  )}" alt="${escapeAttr(title)}" width="480" height="360" loading="lazy" /></a></p>`;
+}
+
+function renderVideoHub(seo, indexes) {
+  const lang = seo.lang;
+  const items = (indexes.playlists || [])
+    .map((p) => {
+      const vids = videosForPlaylist(p, indexes.videos || []);
+      return `<li><h2><a href="${escapeAttr(localizedHref(`/videos/${p.slug}`, lang))}">${escapeHtml(
+        pickLocalized(p.title, lang),
+      )}</a></h2><p>${escapeHtml(pickLocalized(p.description, lang))}</p><p>${vids.length} ${lang === 'ar' ? 'فيديو' : 'videos'}</p></li>`;
+    })
+    .join('');
+  return `<section class="max-w-5xl mx-auto"><h1>${escapeHtml(seo.title)}</h1><p>${escapeHtml(seo.description)}</p><ul>${items}</ul></section>`;
+}
+
+function renderPlaylist(playlist, seo, indexes) {
+  const lang = seo.lang;
+  const vids = videosForPlaylist(playlist, indexes.videos || []);
+  const list = vids
+    .map(
+      (v) =>
+        `<li><a href="${escapeAttr(localizedHref(`/video/${v.slug}`, lang))}">${escapeHtml(pickLocalized(v.title, lang))}</a> — ${escapeHtml(
+          v.channel.name,
+        )}${v.durationText ? ` · ${escapeHtml(v.durationText)}` : ''}</li>`,
+    )
+    .join('');
+  const pillar = indexes.articlesBySlug.get(playlist.pillarArticle);
+  const external = (playlist.externalPlaylists || [])
+    .map((p) => `<li><a href="${escapeAttr(youtubePlaylistUrl(p.youtubePlaylistId))}" rel="noopener noreferrer">${escapeHtml(p.title)} — ${escapeHtml(p.channel.name)}</a></li>`)
+    .join('');
+  const tools = (playlist.tools || [])
+    .map((slug) => indexes.toolsBySlug?.get(slug))
+    .filter(Boolean)
+    .map((tool) => `<li><a href="${escapeAttr(localizedHref(`/tools/${tool.slug}`, lang))}">${escapeHtml(pickLocalized(tool.title, lang))}</a></li>`)
+    .join('');
+  return `<article class="max-w-3xl mx-auto"><h1>${escapeHtml(pickLocalized(playlist.title, lang))}</h1><p>${escapeHtml(
+    pickLocalized(playlist.description, lang),
+  )}</p><p>${vids.length} ${lang === 'ar' ? 'فيديو' : 'videos'} · ${escapeHtml(formatTotal(totalDurationSeconds(vids), lang))}+</p>${
+    vids[0] ? staticVideoFacade(vids[0], lang) : ''
+  }<h2>${escapeHtml(t('howTo', lang))}</h2><p>${escapeHtml(pickLocalized(playlist.intro, lang))}</p>${
+    pillar ? `<p><a href="${escapeAttr(localizedHref(`/article/${pillar.slug}`, lang))}">${escapeHtml(pickLocalized(pillar.title, lang))}</a></p>` : ''
+  }<h2>${escapeHtml(t('contents', lang))}</h2><ol>${list}</ol><h2>${escapeHtml(t('readAlong', lang))}</h2><ul>${articleLinks(
+    playlist.relatedArticles || [],
+    lang,
+    indexes,
+  )}${tools}</ul>${external ? `<h2>${escapeHtml(t('fullCourses', lang))}</h2><ul>${external}</ul>` : ''}</article>`;
+}
+
+function renderVideo(video, seo, indexes) {
+  const lang = seo.lang;
+  const playlist = indexes.playlistsBySlug?.get(video.playlist);
+  const vids = playlist ? videosForPlaylist(playlist, indexes.videos || []) : [];
+  const index = vids.findIndex((v) => v.slug === video.slug);
+  const previous = index > 0 ? vids[index - 1] : null;
+  const next = index >= 0 && index < vids.length - 1 ? vids[index + 1] : null;
+  const notes = (video.notes?.[lang] || []).map((n) => `<li>${escapeHtml(n)}</li>`).join('');
+  const related = playlist ? [playlist.pillarArticle, ...(playlist.relatedArticles || [])].slice(0, 6) : [];
+  const nav = [
+    previous ? `<a rel="prev" href="${escapeAttr(localizedHref(`/video/${previous.slug}`, lang))}">${escapeHtml(t('prevLesson', lang))}: ${escapeHtml(pickLocalized(previous.title, lang))}</a>` : '',
+    next ? `<a rel="next" href="${escapeAttr(localizedHref(`/video/${next.slug}`, lang))}">${escapeHtml(t('nextLesson', lang))}: ${escapeHtml(pickLocalized(next.title, lang))}</a>` : '',
+  ]
+    .filter(Boolean)
+    .join(' | ');
+  return `<article class="max-w-3xl mx-auto"><h1>${escapeHtml(seo.title)}</h1><p>${escapeHtml(t('channel', lang))}: <a href="${escapeAttr(
+    video.channel.url,
+  )}" rel="noopener noreferrer">${escapeHtml(video.channel.name)}</a>${video.durationText ? ` · ${escapeHtml(video.durationText)}` : ''}</p>${staticVideoFacade(
+    video,
+    lang,
+  )}<p>${escapeHtml(t('originalTitle', lang))}: <span dir="auto">${escapeHtml(video.originalTitle)}</span> · <a href="${escapeAttr(
+    youtubeWatchUrl(video.youtubeId),
+  )}" rel="noopener noreferrer">${escapeHtml(t('watchOnYoutube', lang))}</a></p><h2>${escapeHtml(t('summary', lang))}</h2><p>${escapeHtml(
+    pickLocalized(video.description, lang),
+  )}</p>${notes ? `<h2>${escapeHtml(t('notes', lang))}</h2><ul>${notes}</ul>` : ''}${
+    related.length ? `<h2>${escapeHtml(t('relatedArticles', lang))}</h2><ul>${articleLinks(related, lang, indexes)}</ul>` : ''
+  }${playlist ? `<p><a href="${escapeAttr(localizedHref(`/videos/${playlist.slug}`, lang))}">${escapeHtml(t('playlist', lang))}: ${escapeHtml(pickLocalized(playlist.title, lang))}</a></p>` : ''}${
+    nav ? `<nav aria-label="playlist navigation">${nav}</nav>` : ''
+  }</article>`;
 }
 
 function renderComparison(item, seo, indexes) {
@@ -379,6 +516,12 @@ export function renderStaticBody(identity, seo, indexes) {
     main = renderPage(indexes.pagesBySlug.get(m[1]), seo);
   } else if ((m = identity.match(/^\/tools\/([^/]+)$/)) && indexes.toolsBySlug?.get(m[1])) {
     main = renderTool(indexes.toolsBySlug.get(m[1]), seo);
+  } else if ((m = identity.match(/^\/videos\/([^/]+)$/)) && indexes.playlistsBySlug?.get(m[1])) {
+    main = renderPlaylist(indexes.playlistsBySlug.get(m[1]), seo, indexes);
+  } else if ((m = identity.match(/^\/video\/([^/]+)$/)) && indexes.videosBySlug?.get(m[1])) {
+    main = renderVideo(indexes.videosBySlug.get(m[1]), seo, indexes);
+  } else if (identity === '/videos') {
+    main = renderVideoHub(seo, indexes);
   } else {
     main = renderListing(identity, seo, indexes);
   }

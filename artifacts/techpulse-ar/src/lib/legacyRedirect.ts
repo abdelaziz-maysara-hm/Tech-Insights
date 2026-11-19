@@ -24,6 +24,8 @@ const LEGACY_DYNAMIC_ROUTES = [
   /^\/vendors\/[^/]+\/?$/,
   /^\/domain\/[^/]+\/?$/,
   /^\/tools\/[^/]+\/?$/,
+  /^\/videos\/[^/]+\/?$/,
+  /^\/video\/[^/]+\/?$/,
 ];
 
 function normalizeLegacyPath(pathname: string, basePath = ''): string {

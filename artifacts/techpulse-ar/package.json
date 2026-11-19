@@ -45,7 +45,8 @@
     "generate:videos": "node scripts/generator/index.mjs --type=videos",
     "generate:comparisons": "node scripts/generator/index.mjs --type=comparisons",
     "generate:collections": "node scripts/generator/index.mjs --type=collections",
-    "generate:pages": "node scripts/generator/index.mjs --type=pages"
+    "generate:pages": "node scripts/generator/index.mjs --type=pages",
+    "test:phase7": "node --test scripts/phase7-content.test.mjs"
   },
   "devDependencies": {
     "@hookform/resolvers": "^3.10.0",

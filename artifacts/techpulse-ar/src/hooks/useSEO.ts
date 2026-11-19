@@ -137,8 +137,9 @@ export function useSEO({
         url,
         datePublished: datePublished || undefined,
         author: {
-          '@type': 'Person',
+          '@type': 'Organization',
           name: authorName || (language === 'ar' ? SITE.defaultAuthorAr : SITE.defaultAuthorEn),
+          url: `${SITE.url}/${language}/page/team`,
         },
         publisher: {
           '@type': 'Organization',

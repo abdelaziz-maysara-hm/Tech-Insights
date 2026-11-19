@@ -16,9 +16,9 @@ test('records the owner translation-quality finding', () => {
 });
 
 test('preserves the complete known content inventory', () => {
-  assert.equal(report.byType.articles.evaluated, 129);
-  assert.equal(report.byType.comparisons.evaluated, 75);
-  assert.equal(report.byType.staticPages.evaluated, 9);
+  assert.equal(report.byType.articles.evaluated, 113); // Phase 7: +12 new, -28 merged/retired
+  assert.equal(report.byType.comparisons.evaluated, 70);
+  assert.equal(report.byType.staticPages.evaluated, 10);
 });
 
 test('provides a reason and confidence for every classified pair', () => {

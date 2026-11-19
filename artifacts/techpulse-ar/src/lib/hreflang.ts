@@ -13,6 +13,8 @@ const REVIEWED_CONTENT_ROUTES = new Set<string>(policy.reviewedContentRoutes);
 const ELIGIBLE_DISCOVERY_ROUTES = new Set<string>(policy.eligibleDiscoveryRoutes);
 const PUBLISH_UNREVIEWED_TRANSLATIONS = policy.publishUnreviewedTranslations === true;
 const TRANSLATABLE_CONTENT_ROUTE = /^\/(article|comparison|page)\/[^/]+$/;
+/** Video hub, playlist and video pages are authored in both languages. */
+const BILINGUAL_VIDEO_ROUTE = /^\/(videos|videos\/[^/]+|video\/[^/]+)$/;
 
 function pathnameOnly(value: string): string {
   const raw = /^https?:\/\//i.test(value) ? new URL(value).pathname : value;
@@ -40,6 +42,7 @@ export function isHreflangEligible(
   translationStatus = getTranslationStatus(routePath),
 ): boolean {
   if (isDiscoveryRouteHreflangEligible(routePath) || translationStatus === 'reviewed') return true;
+  if (BILINGUAL_VIDEO_ROUTE.test(getCanonicalRouteIdentity(routePath))) return true;
   return (
     PUBLISH_UNREVIEWED_TRANSLATIONS &&
     translationStatus !== 'invalid' &&

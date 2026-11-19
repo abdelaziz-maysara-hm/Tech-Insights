@@ -27,6 +27,7 @@ import {
 } from './seo-prerender-core.mjs';
 import { renderStaticBody, breadcrumbTrail, localizedHref, toolFaqJsonLd } from './seo-static-content.mjs';
 import { countWords } from '../src/lib/markdown.ts';
+import { videoObjectJsonLd, playlistItemListJsonLd, videosForPlaylist } from '../src/lib/videoLibrary.ts';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -105,9 +106,12 @@ export function injectSeoIntoShell(shellHtml, seo, extras = {}) {
       description: desc,
       url: seo.canonical,
       inLanguage: seo.lang === 'ar' ? 'ar' : 'en',
+      // Bylines are the editorial team, not an individual: describe them
+      // honestly as an Organization with a real team page.
       author: {
-        '@type': 'Person',
+        '@type': 'Organization',
         name: seo.authorName || (seo.lang === 'ar' ? SITE.defaultAuthorAr : SITE.defaultAuthorEn),
+        url: `${SITE.url}/${seo.lang}/page/team`,
       },
       publisher: {
         '@type': 'Organization',
@@ -248,6 +252,35 @@ export function buildRouteExtras(pathname, seo, indexes) {
   if ((m = identity.match(/^\/tools\/([^/]+)$/))) {
     extras.jsonLd.push(['jsonld-faq', toolFaqJsonLd(indexes.toolsBySlug?.get(m[1]), seo.lang)]);
   }
+  if ((m = identity.match(/^\/video\/([^/]+)$/))) {
+    const video = indexes.videosBySlug?.get(m[1]);
+    if (video) extras.jsonLd.push(['jsonld-video', videoObjectJsonLd(video, seo.lang, seo.canonical)]);
+  }
+  if ((m = identity.match(/^\/videos\/([^/]+)$/))) {
+    const playlist = indexes.playlistsBySlug?.get(m[1]);
+    if (playlist) {
+      extras.jsonLd.push([
+        'jsonld-playlist',
+        playlistItemListJsonLd(playlist, videosForPlaylist(playlist, indexes.videos || []), seo.lang, SITE.url),
+      ]);
+    }
+  }
+  if (identity === '/videos') {
+    extras.jsonLd.push([
+      'jsonld-video-hub',
+      {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        name: seo.title,
+        itemListElement: (indexes.playlists || []).map((p, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          url: `${SITE.url}/${seo.lang}/videos/${p.slug}`,
+          name: pickLocalized(p.title, seo.lang),
+        })),
+      },
+    ]);
+  }
   return extras;
 }
 
@@ -307,6 +340,30 @@ export function writeLegacyRedirects({ distPublic, routes }) {
     writeFileSync(outPath, stub, 'utf8');
     writeExtensionlessTwin(distPublic, m[1], stub);
     written += 1;
+  }
+  return written;
+}
+
+/**
+ * Removed or merged content (src/config/content-redirects.json): write a
+ * meta-refresh + canonical stub at /ar/<old>, /en/<old> and the legacy
+ * un-prefixed /<old>, each pointing at the localized replacement. Never
+ * overwrites a real page.
+ */
+export function writeContentRedirects({ distPublic, redirects }) {
+  let written = 0;
+  for (const [from, to] of Object.entries(redirects || {})) {
+    const fromRel = from.replace(/^\/+|\/+$/g, '');
+    if (!fromRel) continue;
+    for (const [prefix, lang] of [['ar/', 'ar'], ['en/', 'en'], ['', 'ar']]) {
+      const outPath = resolveRouteIndexPath(distPublic, `${prefix}${fromRel}`);
+      if (!outPath || existsSync(outPath)) continue;
+      mkdirSync(dirname(outPath), { recursive: true });
+      const stub = legacyRedirectHtml(`/${lang}${to === '/' ? '/' : to}`);
+      writeFileSync(outPath, stub, 'utf8');
+      writeExtensionlessTwin(distPublic, `${prefix}${fromRel}`, stub);
+      written += 1;
+    }
   }
   return written;
 }
@@ -407,6 +464,8 @@ function main() {
     );
   }
   const legacyWritten = writeLegacyRedirects({ distPublic, routes: result.routes });
+  const contentRedirects = writeContentRedirects({ distPublic, redirects: indexes.redirects });
+  console.log(`[seo-prerender] content redirect stubs=${contentRedirects}`);
   const notFoundHtml = shellHtml.replace(
     /<meta\s+name=["']robots["'][^>]*>/i,
     '<meta name="robots" content="noindex, follow" />',
