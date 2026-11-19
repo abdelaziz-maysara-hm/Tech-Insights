@@ -999,11 +999,11 @@
     "slug": "enterprise-email-security-guide",
     "title": {
       "ar": "أمن البريد المؤسسي: الدليل الشامل لـSPF وDKIM وDMARC والتصيد",
-      "en": "Enterprise Email Security: The Complete Guide to SPF, DKIM and DMARC"
+      "en": "Enterprise Email Security: The Complete Guide to SPF, DKIM, DMARC and Inbound Defence"
     },
     "excerpt": {
       "ar": "كيف تحمي نطاقك ومستخدميك: مصادقة البريد بـSPF وDKIM وDMARC، متطلبات Gmail وYahoo وOutlook للمرسلين، MTA-STS، بوابات البريد، والتوعية بالتصيد.",
-      "en": "How to protect your domain and users: SPF, DKIM and DMARC authentication, Gmail, Yahoo and Outlook sender requirements, MTA-STS, mail gateways and phishing awareness."
+      "en": "A working plan for securing corporate email end to end: authenticating your own domain with SPF, DKIM and DMARC, filtering what arrives, protecting mailboxes from takeover and handling a reported phish from first click to closure."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1015,7 +1015,7 @@
       "avatar": ""
     },
     "date": "2026-11-19",
-    "readTime": 7,
+    "readTime": 9,
     "heroImage": "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8ZW1haWwlMjBpbmJveCUyMHNlY3VyaXR5fGVufDF8MHx8fDE3ODU4NzIxNDh8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "email-security",
@@ -1041,18 +1041,19 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p7-004",
     "slug": "endpoint-vulnerability-management-guide",
     "title": {
       "ar": "أمن الأجهزة الطرفية وإدارة الثغرات: الدليل الشامل",
-      "en": "Endpoint Security and Vulnerability Management: The Complete Guide"
+      "en": "Endpoint Security and Vulnerability Management: The Complete Guide to Hardening, EDR and Patching"
     },
     "excerpt": {
       "ar": "كيف تبني برنامجًا متكاملًا: جرد الأصول، حماية الأجهزة الطرفية وEDR، الاستثناءات الآمنة، فحص الثغرات، تحديد الأولويات بـCVSS وEPSS وقائمة KEV، والترقيع.",
-      "en": "Build an integrated programme: asset inventory, endpoint protection and EDR, safe exclusions, scanning, CVSS/EPSS/KEV prioritisation and patching."
+      "en": "How to run endpoint protection and vulnerability management as one programme: building an accurate asset inventory, hardening devices, using EPP and EDR well, prioritising flaws with KEV and EPSS instead of CVSS alone, and patching on deadlines you can actually meet."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "endpoint",
@@ -1064,7 +1065,7 @@
       "avatar": ""
     },
     "date": "2026-11-19",
-    "readTime": 7,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "endpoint-security",
@@ -1089,18 +1090,19 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p7-003",
     "slug": "active-directory-identity-security-guide",
     "title": {
       "ar": "أمن Active Directory والهوية: الدليل الشامل",
-      "en": "Active Directory and Identity Security: The Complete Guide"
+      "en": "Active Directory and Identity Security: The Complete Guide to Protecting Your Domain"
     },
     "excerpt": {
       "ar": "لماذا يستهدف المهاجمون Active Directory أولًا، وكيف تحميه: نموذج المستويات، حسابات الخدمة، Kerberos، LAPS، سياسات المجموعات، والمراقبة.",
-      "en": "Why attackers go after Active Directory first and how to protect it: the tier model, service accounts, Kerberos, LAPS, Group Policy and monitoring."
+      "en": "A defender's plan for Active Directory: how attackers climb from one workstation to Domain Admin, and the controls that stop them, from tiered administration, gMSAs and Windows LAPS to AD CS template reviews, the event IDs worth alerting on and a tested forest recovery."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "identity",
@@ -1112,7 +1114,7 @@
       "avatar": ""
     },
     "date": "2026-11-19",
-    "readTime": 7,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "active-directory",
@@ -1140,18 +1142,19 @@
       "active-directory"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p7-002",
     "slug": "soc-incident-response-guide",
     "title": {
       "ar": "مركز العمليات الأمنية والاستجابة للحوادث: الدليل الشامل",
-      "en": "SOC and Incident Response: The Complete Guide"
+      "en": "SOC and Incident Response: The Complete Guide to Detection, Triage and Recovery"
     },
     "excerpt": {
       "ar": "كيف تبني قدرة رصد واستجابة واقعية: مصادر السجلات، الـSIEM، قواعد الكشف، مراحل الاستجابة وفق NIST، كتيبات التشغيل، والمقاييس التي تهم الإدارة.",
-      "en": "How to build a realistic detection and response capability: log sources, SIEM, detection rules, NIST response phases, playbooks and the metrics that matter."
+      "en": "How to build security operations that catch real attacks and an incident response process that holds up under pressure: choosing log sources, writing detections, triaging alerts, running the response lifecycle from NIST SP 800-61 Rev. 3, and measuring whether any of it works."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "guides-tips",
@@ -1163,7 +1166,7 @@
       "avatar": ""
     },
     "date": "2026-11-19",
-    "readTime": 7,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "soc",
@@ -1187,18 +1190,19 @@
     ],
     "productIds": [],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-p7-001",
     "slug": "enterprise-network-security-guide",
     "title": {
       "ar": "أمن الشبكات المؤسسية: الدليل الشامل للجدران النارية والـVPN",
-      "en": "Enterprise Network Security: The Complete Guide"
+      "en": "Enterprise Network Security: The Complete Guide to Segmentation, Access Control and Remote Access"
     },
     "excerpt": {
       "ar": "مرجع عملي لتصميم شبكة مؤسسية آمنة: طبقات الحماية، سياسات الجدار الناري، الوصول عن بُعد بعد إلغاء SSL VPN Tunnel Mode، التقسيم بالـVLAN، والمراقبة.",
-      "en": "Design a secure enterprise network: defense layers, firewall policy, remote access after SSL VPN tunnel mode removal, segmentation and monitoring."
+      "en": "A practical design for securing a corporate network: a hardened perimeter, internal segmentation, 802.1X access control, remote access after the FortiOS SSL VPN tunnel-mode removal, firewall policy you can maintain, the infrastructure services everyone forgets, and a 90-day plan."
     },
     "categoryId": "cybersecurity",
     "subcategoryId": "network-security",
@@ -1210,7 +1214,7 @@
       "avatar": ""
     },
     "date": "2026-11-19",
-    "readTime": 7,
+    "readTime": 8,
     "heroImage": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?ixid=M3wxMDE3MDkyfDB8MXxzZWFyY2h8MXx8YXVkaXQlMjBkb2N1bWVudHMlMjBvZmZpY2V8ZW58MXwwfHx8MTc4NTg5ODQ2Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=450&q=80",
     "tags": [
       "network-security",
@@ -1240,7 +1244,8 @@
       "fortigate"
     ],
     "technicalStatus": "needs-review",
-    "translationStatus": "unreviewed"
+    "translationStatus": "unreviewed",
+    "englishEdition": "independent"
   },
   {
     "id": "art-gen-0001",
