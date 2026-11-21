@@ -21,6 +21,8 @@ public class MainForm : Form
         tabs.TabPages.Add(MakeEncodingTab());
         tabs.TabPages.Add(MakePasswordTab());
         tabs.TabPages.Add(MakeIpTab());
+        tabs.TabPages.Add(MakeMacTab());
+        tabs.TabPages.Add(MakeTimestampTab());
         tabs.TabPages.Add(MakeAboutTab());
         Controls.Add(tabs);
     }
@@ -227,8 +229,51 @@ public class MainForm : Form
     static TabPage MakeAboutTab()
     {
         var page = new TabPage("About");
-        var label = new Label { Dock = DockStyle.Fill, TextAlign = ContentAlignment.MiddleCenter, Text = "NetSec Atlas Tools\n\nSubnet, VLSM, Range, Ports, Hash, Encoding, Password, IP.\nNothing leaves your machine.\n\nnetsecatlas.com" };
+        var label = new Label { Dock = DockStyle.Fill, TextAlign = ContentAlignment.MiddleCenter, Text = "NetSec Atlas Tools\n\nSubnet, VLSM, Range, Ports, Hash, Encoding, Password, IP, MAC, Timestamp.\nNothing leaves your machine.\n\nnetsecatlas.com" };
         page.Controls.Add(label);
         return page;
+    
+    static TabPage MakeMacTab()
+    {
+        var page = new TabPage("MAC");
+        var panel = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 2, Padding = new Padding(12) };
+        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 80));
+        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
+        var input = new TextBox { Dock = DockStyle.Fill, Text = "00:50:56:00:00:01" };
+        var result = new TextBox { Dock = DockStyle.Fill, Font = new Font("Segoe UI", 12), ReadOnly = true };
+        void Lookup() { result.Text = MacLookup.Lookup(input.Text); }
+        input.TextChanged += (_, _) => Lookup();
+        panel.Controls.Add(new Label { Text = "MAC:", AutoSize = true, Anchor = AnchorStyles.Left }, 0, 0);
+        panel.Controls.Add(input, 1, 0);
+        panel.Controls.Add(result, 0, 1);
+        panel.SetColumnSpan(result, 2);
+        panel.RowStyles.Add(new RowStyle(SizeType.Absolute, 36));
+        panel.RowStyles.Add(new RowStyle(SizeType.Absolute, 40));
+        page.Controls.Add(panel);
+        Lookup();
+        return page;
     }
+
+    static TabPage MakeTimestampTab()
+    {
+        var page = new TabPage("Time");
+        var panel = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 2, Padding = new Padding(12) };
+        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 80));
+        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
+        var input = new TextBox { Dock = DockStyle.Fill, Text = DateTimeOffset.Now.ToUnixTimeSeconds().ToString() };
+        var result = new TextBox { Dock = DockStyle.Fill, Multiline = true, ReadOnly = true, Font = new Font("Consolas", 11) };
+        void Convert() { result.Text = TimestampTool.Convert(input.Text); }
+        input.TextChanged += (_, _) => Convert();
+        panel.Controls.Add(new Label { Text = "Input:", AutoSize = true, Anchor = AnchorStyles.Left }, 0, 0);
+        panel.Controls.Add(input, 1, 0);
+        panel.Controls.Add(result, 0, 1);
+        panel.SetColumnSpan(result, 2);
+        panel.RowStyles.Add(new RowStyle(SizeType.Absolute, 36));
+        panel.RowStyles.Add(new RowStyle(SizeType.Percent, 100));
+        page.Controls.Add(panel);
+        Convert();
+        return page;
+    }
+
+}
 }
