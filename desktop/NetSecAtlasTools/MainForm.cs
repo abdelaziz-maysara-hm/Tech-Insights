@@ -20,6 +20,8 @@ public class MainForm : Form
         tabs.TabPages.Add(MakePortsTab());
         tabs.TabPages.Add(MakeHashTab());
         tabs.TabPages.Add(MakeEncodingTab());
+        tabs.TabPages.Add(MakePasswordTab());
+        tabs.TabPages.Add(MakeIpTab());
         tabs.TabPages.Add(MakeAboutTab());
 
         Controls.Add(tabs);
@@ -221,9 +223,72 @@ public class MainForm : Form
         {
             Dock = DockStyle.Fill,
             TextAlign = ContentAlignment.MiddleCenter,
-            Text = "NetSec Atlas Tools\n\nSubnet, VLSM, Range, Ports, Hash, Encoding.\nNothing leaves your machine.\n\nnetsecatlas.com"
+            Text = "NetSec Atlas Tools\n\nSubnet, VLSM, Range, Ports, Hash, Encoding, Password, IP.\nNothing leaves your machine.\n\nnetsecatlas.com"
         };
         page.Controls.Add(label);
         return page;
+    
+    static TabPage MakePasswordTab()
+    {
+        var page = new TabPage("Password");
+        var panel = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 2, Padding = new Padding(12) };
+        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 100));
+        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
+
+        var length = new NumericUpDown { Minimum = 4, Maximum = 128, Value = 16, Dock = DockStyle.Left, Width = 80 };
+        var lower = new CheckBox { Text = "a-z", Checked = true, AutoSize = true };
+        var upper = new CheckBox { Text = "A-Z", Checked = true, AutoSize = true };
+        var digits = new CheckBox { Text = "0-9", Checked = true, AutoSize = true };
+        var symbols = new CheckBox { Text = "!@#", Checked = true, AutoSize = true };
+        var result = new TextBox { Dock = DockStyle.Fill, Font = new Font("Consolas", 12), ReadOnly = true };
+        var gen = new Button { Text = "Generate", AutoSize = true };
+
+        var checks = new FlowLayoutPanel { Dock = DockStyle.Fill };
+        checks.Controls.AddRange(new Control[] { lower, upper, digits, symbols });
+
+        void Generate() { result.Text = PasswordTool.Generate((int)length.Value, lower.Checked, upper.Checked, digits.Checked, symbols.Checked); }
+        gen.Click += (_, _) => Generate();
+
+        panel.Controls.Add(new Label { Text = "Length:", AutoSize = true, Anchor = AnchorStyles.Left }, 0, 0);
+        panel.Controls.Add(length, 1, 0);
+        panel.Controls.Add(new Label { Text = "Include:", AutoSize = true, Anchor = AnchorStyles.Left }, 0, 1);
+        panel.Controls.Add(checks, 1, 1);
+        panel.Controls.Add(gen, 0, 2);
+        panel.Controls.Add(result, 1, 2);
+
+        panel.RowStyles.Add(new RowStyle(SizeType.Absolute, 36));
+        panel.RowStyles.Add(new RowStyle(SizeType.Absolute, 36));
+        panel.RowStyles.Add(new RowStyle(SizeType.Absolute, 40));
+
+        page.Controls.Add(panel);
+        Generate();
+        return page;
     }
+
+    static TabPage MakeIpTab()
+    {
+        var page = new TabPage("IP");
+        var panel = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 2, Padding = new Padding(12) };
+        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 100));
+        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
+
+        var input = new TextBox { Dock = DockStyle.Fill, Text = "192.168.1.1" };
+        var result = new TextBox { Dock = DockStyle.Fill, Multiline = true, ReadOnly = true, Font = new Font("Consolas", 11) };
+
+        void Convert() { result.Text = IpConverter.Convert(input.Text); }
+        input.TextChanged += (_, _) => Convert();
+
+        panel.Controls.Add(new Label { Text = "IP / Dec / Hex:", AutoSize = true, Anchor = AnchorStyles.Left }, 0, 0);
+        panel.Controls.Add(input, 1, 0);
+        panel.Controls.Add(result, 0, 1);
+        panel.SetColumnSpan(result, 2);
+        panel.RowStyles.Add(new RowStyle(SizeType.Absolute, 36));
+        panel.RowStyles.Add(new RowStyle(SizeType.Percent, 100));
+
+        page.Controls.Add(panel);
+        Convert();
+        return page;
+    }
+
+}
 }
