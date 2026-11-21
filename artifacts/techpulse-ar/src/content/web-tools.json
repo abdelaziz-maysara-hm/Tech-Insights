@@ -206,6 +206,86 @@
     ]
   },
   {
+    "slug": "common-ports-lookup",
+    "category": "networking",
+    "updated": "2026-11-21",
+    "keywords": [
+      "ports",
+      "tcp",
+      "udp",
+      "ssh",
+      "rdp",
+      "https",
+      "منافذ",
+      "منفذ",
+      "شبكة"
+    ],
+    "title": {
+      "ar": "مرجع المنافذ الشائعة",
+      "en": "Common Ports Lookup"
+    },
+    "metaDescription": {
+      "ar": "ابحث في أشهر منافذ TCP وUDP المستخدمة في الشبكات والأمن. يعمل داخل المتصفح.",
+      "en": "Search the most common TCP and UDP ports used in networking and security. Runs in your browser."
+    },
+    "summary": {
+      "ar": "ابحث برقم المنفذ أو اسم الخدمة لتعرف الغرض منه بسرعة.",
+      "en": "Search by port number or service name to see what it is for."
+    },
+    "intro": {
+      "ar": [
+        "معرفة المنافذ الشائعة توفر وقتًا عند قراءة قواعد الجدار الناري، أو تحليل سجلات الاتصال، أو كتابة سياسات أمان.",
+        "هذه الأداة تعرض قائمة بالمنافذ الأكثر استخدامًا في بيئات الشبكات والأمن، مع إمكانية البحث السريع."
+      ],
+      "en": [
+        "Knowing common ports saves time when reading firewall rules, analyzing connection logs, or writing security policies.",
+        "This tool lists the ports most frequently seen in network and security environments, with quick search."
+      ]
+    },
+    "howTo": {
+      "ar": [
+        "اكتب رقم المنفذ أو جزء من اسم الخدمة.",
+        "راجع البروتوكول والوصف.",
+        "استخدم القائمة كمرجع سريع أثناء العمل."
+      ],
+      "en": [
+        "Type a port number or part of a service name.",
+        "Check the protocol and description.",
+        "Use the list as a quick reference while working."
+      ]
+    },
+    "notes": {
+      "ar": [
+        "القائمة ليست شاملة لكل المنافذ المسجلة، لكنها تغطي الأكثر شيوعًا في العمل اليومي.",
+        "كل شيء يعمل محليًا في المتصفح."
+      ],
+      "en": [
+        "The list is not every registered port, but it covers the ones most commonly seen in daily work.",
+        "Everything runs locally in the browser."
+      ]
+    },
+    "faq": {
+      "ar": [
+        {
+          "q": "هل القائمة كاملة؟",
+          "a": "لا، هي مختصرة على المنافذ التي يصادفها مهندسو الشبكات والأمن بكثرة."
+        }
+      ],
+      "en": [
+        {
+          "q": "Is the list exhaustive?",
+          "a": "No. It focuses on the ports network and security engineers encounter most often."
+        }
+      ]
+    },
+    "references": [
+      {
+        "label": "IANA Service Name and Transport Protocol Port Number Registry",
+        "url": "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml"
+      }
+    ]
+  },
+  {
     "slug": "ip-range-to-cidr-wildcard",
     "category": "networking",
     "updated": "2026-10-27",
