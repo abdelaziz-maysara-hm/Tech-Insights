@@ -227,6 +227,7 @@ public class MainForm : Form
         };
         page.Controls.Add(label);
         return page;
+    }
     
     static TabPage MakePasswordTab()
     {
