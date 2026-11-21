@@ -3,7 +3,16 @@
     "slug": "vlsm-subnet-calculator",
     "category": "networking",
     "updated": "2026-10-27",
-    "keywords": ["vlsm", "subnet", "subnetting", "cidr", "ipv4", "تقسيم الشبكات", "سابنت", "الشبكات الفرعية"],
+    "keywords": [
+      "vlsm",
+      "subnet",
+      "subnetting",
+      "cidr",
+      "ipv4",
+      "تقسيم الشبكات",
+      "سابنت",
+      "الشبكات الفرعية"
+    ],
     "title": {
       "ar": "حاسبة VLSM لتقسيم شبكات IPv4",
       "en": "VLSM Subnet Calculator (IPv4)"
@@ -54,29 +63,243 @@
     },
     "faq": {
       "ar": [
-        { "q": "ما الفرق بين VLSM وFLSM؟", "a": "في FLSM تُقسَّم الشبكة إلى أجزاء متساوية الحجم مهما كان احتياج كل قسم، أما VLSM فتمنح كل قسم القناع المناسب لحجمه، فيقل الهدر وتبقى مساحة أكبر للتوسع." },
-        { "q": "لماذا تبدأ الحاسبة بالأقسام الأكبر؟", "a": "لأن الكتلة الأكبر تحتاج حدًا محاذيًا لحجمها. تخصيص الكبير أولًا يضمن أن كل كتلة تالية تقع تلقائيًا على حد صحيح، فلا تظهر فجوات أو تداخلات." },
-        { "q": "ماذا يعني «لا تتسع الخطة»؟", "a": "مجموع الكتل المطلوبة بعد التقريب لأقرب قوة للعدد 2 أكبر من الشبكة الأم. استخدم شبكة أم أكبر (بادئة أصغر) أو قلّل عدد الأجهزة المطلوبة." },
-        { "q": "هل تدعم الحاسبة IPv6؟", "a": "لا، هذه الأداة مخصصة لـ IPv4. في IPv6 تُستخدم عادةً شبكات /64 للأقسام ولا توجد الحاجة نفسها لتوفير العناوين." }
+        {
+          "q": "ما الفرق بين VLSM وFLSM؟",
+          "a": "في FLSM تُقسَّم الشبكة إلى أجزاء متساوية الحجم مهما كان احتياج كل قسم، أما VLSM فتمنح كل قسم القناع المناسب لحجمه، فيقل الهدر وتبقى مساحة أكبر للتوسع."
+        },
+        {
+          "q": "لماذا تبدأ الحاسبة بالأقسام الأكبر؟",
+          "a": "لأن الكتلة الأكبر تحتاج حدًا محاذيًا لحجمها. تخصيص الكبير أولًا يضمن أن كل كتلة تالية تقع تلقائيًا على حد صحيح، فلا تظهر فجوات أو تداخلات."
+        },
+        {
+          "q": "ماذا يعني «لا تتسع الخطة»؟",
+          "a": "مجموع الكتل المطلوبة بعد التقريب لأقرب قوة للعدد 2 أكبر من الشبكة الأم. استخدم شبكة أم أكبر (بادئة أصغر) أو قلّل عدد الأجهزة المطلوبة."
+        },
+        {
+          "q": "هل تدعم الحاسبة IPv6؟",
+          "a": "لا، هذه الأداة مخصصة لـ IPv4. في IPv6 تُستخدم عادةً شبكات /64 للأقسام ولا توجد الحاجة نفسها لتوفير العناوين."
+        }
       ],
       "en": [
-        { "q": "When should I use VLSM instead of equal-size subnets?", "a": "Whenever segments differ noticeably in size — user VLANs, server farms, management networks and point-to-point links. Equal-size subnetting is simpler to read but burns address space quickly in RFC 1918 plans that must later merge with other sites." },
-        { "q": "Why are the subnets allocated largest-first?", "a": "A /25 must start on a multiple of 128, a /26 on a multiple of 64, and so on. Allocating the biggest blocks first guarantees every later, smaller block is already aligned, which keeps the plan gap-free and summarizable." },
-        { "q": "What does the \"wasted\" column mean?", "a": "It is the difference between the usable addresses in the chosen block and the hosts you asked for. Some waste is unavoidable because block sizes are powers of two; large numbers usually mean a requirement sits just above a boundary." },
-        { "q": "Does it handle /31 links?", "a": "Not automatically. RFC 3021 allows /31 on point-to-point links, but support varies by platform and feature, so the tool keeps the conservative /30 sizing." }
+        {
+          "q": "When should I use VLSM instead of equal-size subnets?",
+          "a": "Whenever segments differ noticeably in size — user VLANs, server farms, management networks and point-to-point links. Equal-size subnetting is simpler to read but burns address space quickly in RFC 1918 plans that must later merge with other sites."
+        },
+        {
+          "q": "Why are the subnets allocated largest-first?",
+          "a": "A /25 must start on a multiple of 128, a /26 on a multiple of 64, and so on. Allocating the biggest blocks first guarantees every later, smaller block is already aligned, which keeps the plan gap-free and summarizable."
+        },
+        {
+          "q": "What does the \"wasted\" column mean?",
+          "a": "It is the difference between the usable addresses in the chosen block and the hosts you asked for. Some waste is unavoidable because block sizes are powers of two; large numbers usually mean a requirement sits just above a boundary."
+        },
+        {
+          "q": "Does it handle /31 links?",
+          "a": "Not automatically. RFC 3021 allows /31 on point-to-point links, but support varies by platform and feature, so the tool keeps the conservative /30 sizing."
+        }
       ]
     },
     "references": [
-      { "label": "RFC 4632 — Classless Inter-domain Routing (CIDR)", "url": "https://www.rfc-editor.org/rfc/rfc4632" },
-      { "label": "RFC 1878 — Variable Length Subnet Table For IPv4", "url": "https://www.rfc-editor.org/rfc/rfc1878" },
-      { "label": "RFC 3021 — Using 31-Bit Prefixes on IPv4 Point-to-Point Links", "url": "https://www.rfc-editor.org/rfc/rfc3021" }
+      {
+        "label": "RFC 4632 — Classless Inter-domain Routing (CIDR)",
+        "url": "https://www.rfc-editor.org/rfc/rfc4632"
+      },
+      {
+        "label": "RFC 1878 — Variable Length Subnet Table For IPv4",
+        "url": "https://www.rfc-editor.org/rfc/rfc1878"
+      },
+      {
+        "label": "RFC 3021 — Using 31-Bit Prefixes on IPv4 Point-to-Point Links",
+        "url": "https://www.rfc-editor.org/rfc/rfc3021"
+      }
+    ]
+  },
+  {
+    "slug": "subnet-calculator",
+    "category": "networking",
+    "updated": "2026-11-21",
+    "keywords": [
+      "subnet",
+      "cidr",
+      "netmask",
+      "ipv4",
+      "calculator",
+      "حاسبة",
+      "شبكة فرعية",
+      "قناع"
+    ],
+    "title": {
+      "ar": "حاسبة الشبكة الفرعية IPv4",
+      "en": "IPv4 Subnet Calculator"
+    },
+    "metaDescription": {
+      "ar": "احسب عنوان الشبكة والقناع والبث ونطاق العناوين الصالحة لأي كتلة CIDR. يعمل داخل المتصفح فقط.",
+      "en": "Calculate network address, mask, broadcast and usable range for any CIDR block. Runs entirely in your browser."
+    },
+    "summary": {
+      "ar": "أدخل كتلة CIDR واحصل فورًا على كل تفاصيل الشبكة الفرعية.",
+      "en": "Enter a CIDR block and instantly see full subnet details."
+    },
+    "intro": {
+      "ar": [
+        "معرفة حدود الشبكة الفرعية ضروري عند كتابة قواعد الجدار الناري، أو إعداد VLAN، أو مراجعة خطط العناوين. الحساب اليدوي ممكن لكنه بطيء وسهل الخطأ.",
+        "هذه الحاسبة تقبل عنوانًا مع بادئة أو قناع عشري، وتعرض عنوان الشبكة والقناع وقناع Wildcard وعنوان البث ونطاق العناوين الصالحة وعددها."
+      ],
+      "en": [
+        "Knowing exact subnet boundaries is essential when writing firewall rules, designing VLANs, or reviewing address plans. Doing the math by hand is slow and error-prone.",
+        "This calculator accepts an address with a prefix length or a dotted mask, and shows the network address, netmask, wildcard mask, broadcast, usable range, and host counts."
+      ]
+    },
+    "howTo": {
+      "ar": [
+        "اكتب الشبكة بصيغة CIDR مثل 192.168.1.0/24، أو بقناع عشري مثل 10.1.2.0/255.255.255.0.",
+        "يمكنك إدخال أي عنوان داخل الشبكة؛ ستُحسب الحدود تلقائيًا.",
+        "انسخ النتيجة واستخدمها في إعدادات الأجهزة أو التوثيق."
+      ],
+      "en": [
+        "Type the network as CIDR (192.168.1.0/24) or with a dotted mask (10.1.2.0/255.255.255.0).",
+        "Any address inside the block works; the tool normalizes it to the network boundaries.",
+        "Copy the result for device configs or documentation."
+      ]
+    },
+    "notes": {
+      "ar": [
+        "الشبكات /31 تعامل وفق RFC 3021 (العنوانان صالحان)، و/32 عنوان مضيف واحد.",
+        "كل الحسابات تتم محليًا في المتصفح ولا تُرسل أي بيانات."
+      ],
+      "en": [
+        "/31 networks follow RFC 3021 (both addresses usable). /32 is a single host route.",
+        "All calculation runs locally in the browser; nothing is sent to a server."
+      ]
+    },
+    "faq": {
+      "ar": [
+        {
+          "q": "ما الفرق بين هذه الحاسبة وحاسبة VLSM؟",
+          "a": "هذه الحاسبة تعرض تفاصيل شبكة واحدة موجودة. حاسبة VLSM تقسم شبكة أم إلى عدة شبكات فرعية بأحجام مختلفة حسب الحاجة."
+        },
+        {
+          "q": "هل تدعم IPv6؟",
+          "a": "لا، هذه الأداة مخصصة لـ IPv4."
+        }
+      ],
+      "en": [
+        {
+          "q": "How is this different from the VLSM calculator?",
+          "a": "This tool shows details of one existing network. The VLSM calculator splits a parent block into multiple variable-sized subnets based on host requirements."
+        },
+        {
+          "q": "Does it support IPv6?",
+          "a": "No, this tool is for IPv4 only."
+        }
+      ]
+    },
+    "references": [
+      {
+        "label": "RFC 4632 — Classless Inter-domain Routing (CIDR)",
+        "url": "https://www.rfc-editor.org/rfc/rfc4632"
+      },
+      {
+        "label": "RFC 3021 — Using 31-Bit Prefixes on IPv4 Point-to-Point Links",
+        "url": "https://www.rfc-editor.org/rfc/rfc3021"
+      }
+    ]
+  },
+  {
+    "slug": "common-ports-lookup",
+    "category": "networking",
+    "updated": "2026-11-21",
+    "keywords": [
+      "ports",
+      "tcp",
+      "udp",
+      "ssh",
+      "rdp",
+      "https",
+      "منافذ",
+      "منفذ",
+      "شبكة"
+    ],
+    "title": {
+      "ar": "مرجع المنافذ الشائعة",
+      "en": "Common Ports Lookup"
+    },
+    "metaDescription": {
+      "ar": "ابحث في أشهر منافذ TCP وUDP المستخدمة في الشبكات والأمن. يعمل داخل المتصفح.",
+      "en": "Search the most common TCP and UDP ports used in networking and security. Runs in your browser."
+    },
+    "summary": {
+      "ar": "ابحث برقم المنفذ أو اسم الخدمة لتعرف الغرض منه بسرعة.",
+      "en": "Search by port number or service name to see what it is for."
+    },
+    "intro": {
+      "ar": [
+        "معرفة المنافذ الشائعة توفر وقتًا عند قراءة قواعد الجدار الناري، أو تحليل سجلات الاتصال، أو كتابة سياسات أمان.",
+        "هذه الأداة تعرض قائمة بالمنافذ الأكثر استخدامًا في بيئات الشبكات والأمن، مع إمكانية البحث السريع."
+      ],
+      "en": [
+        "Knowing common ports saves time when reading firewall rules, analyzing connection logs, or writing security policies.",
+        "This tool lists the ports most frequently seen in network and security environments, with quick search."
+      ]
+    },
+    "howTo": {
+      "ar": [
+        "اكتب رقم المنفذ أو جزء من اسم الخدمة.",
+        "راجع البروتوكول والوصف.",
+        "استخدم القائمة كمرجع سريع أثناء العمل."
+      ],
+      "en": [
+        "Type a port number or part of a service name.",
+        "Check the protocol and description.",
+        "Use the list as a quick reference while working."
+      ]
+    },
+    "notes": {
+      "ar": [
+        "القائمة ليست شاملة لكل المنافذ المسجلة، لكنها تغطي الأكثر شيوعًا في العمل اليومي.",
+        "كل شيء يعمل محليًا في المتصفح."
+      ],
+      "en": [
+        "The list is not every registered port, but it covers the ones most commonly seen in daily work.",
+        "Everything runs locally in the browser."
+      ]
+    },
+    "faq": {
+      "ar": [
+        {
+          "q": "هل القائمة كاملة؟",
+          "a": "لا، هي مختصرة على المنافذ التي يصادفها مهندسو الشبكات والأمن بكثرة."
+        }
+      ],
+      "en": [
+        {
+          "q": "Is the list exhaustive?",
+          "a": "No. It focuses on the ports network and security engineers encounter most often."
+        }
+      ]
+    },
+    "references": [
+      {
+        "label": "IANA Service Name and Transport Protocol Port Number Registry",
+        "url": "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml"
+      }
     ]
   },
   {
     "slug": "ip-range-to-cidr-wildcard",
     "category": "networking",
     "updated": "2026-10-27",
-    "keywords": ["ip range", "cidr", "wildcard mask", "acl", "ospf", "netmask", "نطاق عناوين", "قناع البدل", "قوائم التحكم"],
+    "keywords": [
+      "ip range",
+      "cidr",
+      "wildcard mask",
+      "acl",
+      "ospf",
+      "netmask",
+      "نطاق عناوين",
+      "قناع البدل",
+      "قوائم التحكم"
+    ],
     "title": {
       "ar": "تحويل نطاق IP إلى CIDR وقناع Wildcard",
       "en": "IP Range to CIDR & Wildcard Mask Converter"
@@ -127,27 +350,63 @@
     },
     "faq": {
       "ar": [
-        { "q": "لماذا ينتج النطاق أكثر من كتلة واحدة؟", "a": "كتلة CIDR يجب أن يكون حجمها قوة للعدد 2 وأن تبدأ من عنوان يقبل القسمة على حجمها. إذا لم يحقق النطاق هذين الشرطين فلا بد من تقسيمه إلى عدة كتل، والأداة تختار أقل عدد ممكن منها." },
-        { "q": "هل أستخدم القناع العادي أم قناع Wildcard؟", "a": "يعتمد على الجهاز: قوائم ACL وأوامر network في OSPF على Cisco IOS تستخدم قناع Wildcard، بينما معظم الجدران النارية ومجموعات الأمان السحابية تقبل صيغة CIDR مباشرة." },
-        { "q": "هل يمكن استخدام كتلة أكبر بدلًا من عدة كتل؟", "a": "يمكن، لكنها ستسمح بعناوين خارج النطاق المطلوب. هذا قرار أمني يجب أن يكون مقصودًا، والأداة تعطيك التغطية الدقيقة فقط." }
+        {
+          "q": "لماذا ينتج النطاق أكثر من كتلة واحدة؟",
+          "a": "كتلة CIDR يجب أن يكون حجمها قوة للعدد 2 وأن تبدأ من عنوان يقبل القسمة على حجمها. إذا لم يحقق النطاق هذين الشرطين فلا بد من تقسيمه إلى عدة كتل، والأداة تختار أقل عدد ممكن منها."
+        },
+        {
+          "q": "هل أستخدم القناع العادي أم قناع Wildcard؟",
+          "a": "يعتمد على الجهاز: قوائم ACL وأوامر network في OSPF على Cisco IOS تستخدم قناع Wildcard، بينما معظم الجدران النارية ومجموعات الأمان السحابية تقبل صيغة CIDR مباشرة."
+        },
+        {
+          "q": "هل يمكن استخدام كتلة أكبر بدلًا من عدة كتل؟",
+          "a": "يمكن، لكنها ستسمح بعناوين خارج النطاق المطلوب. هذا قرار أمني يجب أن يكون مقصودًا، والأداة تعطيك التغطية الدقيقة فقط."
+        }
       ],
       "en": [
-        { "q": "Why does one range turn into several CIDR blocks?", "a": "A CIDR block must be a power-of-two size and start on a multiple of that size. Ranges that don't meet both conditions have to be split; the tool always returns the minimum number of blocks that cover the range exactly." },
-        { "q": "Netmask or wildcard — which one does my device want?", "a": "Cisco IOS access lists and OSPF network statements take wildcard masks. Most firewalls, Linux tooling and cloud security groups take CIDR notation. Both forms are shown so you can paste whichever applies." },
-        { "q": "Can I just use one bigger block instead?", "a": "You can, but it will permit addresses outside the requested range. Over-broad rules are a common audit finding, so widen a rule only as a deliberate decision." },
-        { "q": "What is 0.0.0.0/0?", "a": "It covers the entire IPv4 space. If a range expands to it, double-check the input before using the result in a permit rule." }
+        {
+          "q": "Why does one range turn into several CIDR blocks?",
+          "a": "A CIDR block must be a power-of-two size and start on a multiple of that size. Ranges that don't meet both conditions have to be split; the tool always returns the minimum number of blocks that cover the range exactly."
+        },
+        {
+          "q": "Netmask or wildcard — which one does my device want?",
+          "a": "Cisco IOS access lists and OSPF network statements take wildcard masks. Most firewalls, Linux tooling and cloud security groups take CIDR notation. Both forms are shown so you can paste whichever applies."
+        },
+        {
+          "q": "Can I just use one bigger block instead?",
+          "a": "You can, but it will permit addresses outside the requested range. Over-broad rules are a common audit finding, so widen a rule only as a deliberate decision."
+        },
+        {
+          "q": "What is 0.0.0.0/0?",
+          "a": "It covers the entire IPv4 space. If a range expands to it, double-check the input before using the result in a permit rule."
+        }
       ]
     },
     "references": [
-      { "label": "RFC 4632 — Classless Inter-domain Routing (CIDR)", "url": "https://www.rfc-editor.org/rfc/rfc4632" },
-      { "label": "RFC 1918 — Address Allocation for Private Internets", "url": "https://www.rfc-editor.org/rfc/rfc1918" }
+      {
+        "label": "RFC 4632 — Classless Inter-domain Routing (CIDR)",
+        "url": "https://www.rfc-editor.org/rfc/rfc4632"
+      },
+      {
+        "label": "RFC 1918 — Address Allocation for Private Internets",
+        "url": "https://www.rfc-editor.org/rfc/rfc1918"
+      }
     ]
   },
   {
     "slug": "spf-record-analyzer",
     "category": "email-security",
     "updated": "2026-10-27",
-    "keywords": ["spf", "rfc 7208", "dns lookup limit", "permerror", "email authentication", "include", "سجل SPF", "البريد الإلكتروني"],
+    "keywords": [
+      "spf",
+      "rfc 7208",
+      "dns lookup limit",
+      "permerror",
+      "email authentication",
+      "include",
+      "سجل SPF",
+      "البريد الإلكتروني"
+    ],
     "title": {
       "ar": "محلل سجل SPF",
       "en": "SPF Record Analyzer"
@@ -198,28 +457,68 @@
     },
     "faq": {
       "ar": [
-        { "q": "ما الفرق بين ‎-all و‎~all؟", "a": "‎-all تعني fail صريحًا لأي مرسل غير مدرج، بينما ‎~all تعني softfail، أي أن الرسالة مشبوهة لكنها لا تُرفض عادةً بسببها وحدها. كثير من النطاقات تبدأ بـ ‎~all ثم تنتقل إلى ‎-all بعد التأكد من إدراج كل المرسلين." },
-        { "q": "لماذا تحذّر الأداة من ptr؟", "a": "ينص RFC 7208 على أنه لا ينبغي نشر آلية ptr، لأنها بطيئة وغير موثوقة وتستهلك عمليات DNS إضافية. استبدلها بـ ip4 أو ip6 أو a." },
-        { "q": "تجاوزت حد العشر عمليات، ماذا أفعل؟", "a": "احذف خدمات الإرسال التي لم تعد تستخدمها، واستبدل include بعناوين ip4 وip6 حين تكون ثابتة وموثّقة من المزوّد، أو انقل بعض المرسلين إلى نطاق فرعي له سجل SPF خاص به." },
-        { "q": "هل يكفي SPF وحده لحماية النطاق؟", "a": "لا. SPF يتحقق من عنوان المغلّف وليس من عنوان From الذي يراه المستخدم. يجب أن يُستخدم مع DKIM ومع سياسة DMARC لربط النتيجة بالنطاق الظاهر." }
+        {
+          "q": "ما الفرق بين ‎-all و‎~all؟",
+          "a": "‎-all تعني fail صريحًا لأي مرسل غير مدرج، بينما ‎~all تعني softfail، أي أن الرسالة مشبوهة لكنها لا تُرفض عادةً بسببها وحدها. كثير من النطاقات تبدأ بـ ‎~all ثم تنتقل إلى ‎-all بعد التأكد من إدراج كل المرسلين."
+        },
+        {
+          "q": "لماذا تحذّر الأداة من ptr؟",
+          "a": "ينص RFC 7208 على أنه لا ينبغي نشر آلية ptr، لأنها بطيئة وغير موثوقة وتستهلك عمليات DNS إضافية. استبدلها بـ ip4 أو ip6 أو a."
+        },
+        {
+          "q": "تجاوزت حد العشر عمليات، ماذا أفعل؟",
+          "a": "احذف خدمات الإرسال التي لم تعد تستخدمها، واستبدل include بعناوين ip4 وip6 حين تكون ثابتة وموثّقة من المزوّد، أو انقل بعض المرسلين إلى نطاق فرعي له سجل SPF خاص به."
+        },
+        {
+          "q": "هل يكفي SPF وحده لحماية النطاق؟",
+          "a": "لا. SPF يتحقق من عنوان المغلّف وليس من عنوان From الذي يراه المستخدم. يجب أن يُستخدم مع DKIM ومع سياسة DMARC لربط النتيجة بالنطاق الظاهر."
+        }
       ],
       "en": [
-        { "q": "Should I end with -all or ~all?", "a": "-all asks receivers to treat unlisted senders as fail; ~all marks them softfail, which is usually weighed rather than rejected outright. With DMARC enforcement in place the practical difference shrinks, but -all is the clearer statement once every legitimate sender is listed." },
-        { "q": "Why is ptr flagged?", "a": "RFC 7208 says the ptr mechanism SHOULD NOT be published. It is slow, depends on reverse DNS you may not control, and burns lookups. Use ip4, ip6 or a instead." },
-        { "q": "My record has more than 10 lookups. How do I fix it?", "a": "Remove senders you no longer use, replace includes with the provider's documented ip4/ip6 ranges where they are stable, or move some senders to a subdomain with its own SPF record. Be cautious with automated flattening services: provider ranges change, and a stale flat record silently breaks mail." },
-        { "q": "Does a valid SPF record stop spoofing of my From address?", "a": "Not by itself. SPF authenticates the envelope sender (MAIL FROM), not the visible From header. DMARC is what ties SPF and DKIM results to the From domain." }
+        {
+          "q": "Should I end with -all or ~all?",
+          "a": "-all asks receivers to treat unlisted senders as fail; ~all marks them softfail, which is usually weighed rather than rejected outright. With DMARC enforcement in place the practical difference shrinks, but -all is the clearer statement once every legitimate sender is listed."
+        },
+        {
+          "q": "Why is ptr flagged?",
+          "a": "RFC 7208 says the ptr mechanism SHOULD NOT be published. It is slow, depends on reverse DNS you may not control, and burns lookups. Use ip4, ip6 or a instead."
+        },
+        {
+          "q": "My record has more than 10 lookups. How do I fix it?",
+          "a": "Remove senders you no longer use, replace includes with the provider's documented ip4/ip6 ranges where they are stable, or move some senders to a subdomain with its own SPF record. Be cautious with automated flattening services: provider ranges change, and a stale flat record silently breaks mail."
+        },
+        {
+          "q": "Does a valid SPF record stop spoofing of my From address?",
+          "a": "Not by itself. SPF authenticates the envelope sender (MAIL FROM), not the visible From header. DMARC is what ties SPF and DKIM results to the From domain."
+        }
       ]
     },
     "references": [
-      { "label": "RFC 7208 — Sender Policy Framework (SPF)", "url": "https://www.rfc-editor.org/rfc/rfc7208" },
-      { "label": "RFC 9989 — DMARC", "url": "https://www.rfc-editor.org/rfc/rfc9989" }
+      {
+        "label": "RFC 7208 — Sender Policy Framework (SPF)",
+        "url": "https://www.rfc-editor.org/rfc/rfc7208"
+      },
+      {
+        "label": "RFC 9989 — DMARC",
+        "url": "https://www.rfc-editor.org/rfc/rfc9989"
+      }
     ]
   },
   {
     "slug": "dmarc-record-analyzer",
     "category": "email-security",
     "updated": "2026-10-27",
-    "keywords": ["dmarc", "rfc 9989", "dmarcbis", "rua", "np", "t=y", "email security", "سياسة DMARC", "انتحال البريد"],
+    "keywords": [
+      "dmarc",
+      "rfc 9989",
+      "dmarcbis",
+      "rua",
+      "np",
+      "t=y",
+      "email security",
+      "سياسة DMARC",
+      "انتحال البريد"
+    ],
     "title": {
       "ar": "محلل ومولّد سجل DMARC",
       "en": "DMARC Record Analyzer & Generator"
@@ -272,22 +571,55 @@
     },
     "faq": {
       "ar": [
-        { "q": "هل ما زال الوسم pct يعمل؟", "a": "وفق RFC 9989 أصبح pct وسمًا تاريخيًا، والمستقبِلات التي تطبق المواصفة الجديدة تتجاهله وتطبق السياسة على كل الرسائل الفاشلة. السجل لا يصبح غير صالح بسببه، لكن استخدم t=y بدلًا منه أثناء الاختبار." },
-        { "q": "ما فائدة np؟", "a": "يحدد السياسة للرسائل التي تستخدم نطاقًا فرعيًا غير موجود أصلًا في DNS. هذه النطاقات لا ترسل بريدًا شرعيًا عادةً، لذلك يمكن غالبًا جعل np=reject حتى قبل تشديد p." },
-        { "q": "لماذا تنبّه الأداة عند غياب rua؟", "a": "بدون rua لن تصلك تقارير مجمّعة، فلن تعرف من يرسل باسم نطاقك ولن تستطيع رفع السياسة بأمان." },
-        { "q": "متى أنتقل إلى p=reject؟", "a": "بعد أن تظهر التقارير لفترة كافية أن كل مصادر البريد الشرعية متوافقة عبر SPF أو DKIM. الانتقال المبكر قد يمنع وصول رسائل حقيقية مثل الفواتير أو أنظمة التذاكر." }
+        {
+          "q": "هل ما زال الوسم pct يعمل؟",
+          "a": "وفق RFC 9989 أصبح pct وسمًا تاريخيًا، والمستقبِلات التي تطبق المواصفة الجديدة تتجاهله وتطبق السياسة على كل الرسائل الفاشلة. السجل لا يصبح غير صالح بسببه، لكن استخدم t=y بدلًا منه أثناء الاختبار."
+        },
+        {
+          "q": "ما فائدة np؟",
+          "a": "يحدد السياسة للرسائل التي تستخدم نطاقًا فرعيًا غير موجود أصلًا في DNS. هذه النطاقات لا ترسل بريدًا شرعيًا عادةً، لذلك يمكن غالبًا جعل np=reject حتى قبل تشديد p."
+        },
+        {
+          "q": "لماذا تنبّه الأداة عند غياب rua؟",
+          "a": "بدون rua لن تصلك تقارير مجمّعة، فلن تعرف من يرسل باسم نطاقك ولن تستطيع رفع السياسة بأمان."
+        },
+        {
+          "q": "متى أنتقل إلى p=reject؟",
+          "a": "بعد أن تظهر التقارير لفترة كافية أن كل مصادر البريد الشرعية متوافقة عبر SPF أو DKIM. الانتقال المبكر قد يمنع وصول رسائل حقيقية مثل الفواتير أو أنظمة التذاكر."
+        }
       ],
       "en": [
-        { "q": "Is my pct=25 rollout still honored?", "a": "Not by receivers implementing RFC 9989: pct is historic and is ignored, so the published policy applies to all failing mail. The record stays valid, but replace staged pct rollouts with t=y while testing." },
-        { "q": "What should np be set to?", "a": "np covers subdomains that do not exist in DNS, which should never send legitimate mail. Many domains can publish np=reject early, independent of how far p has progressed. If np is absent, sp (or p) applies to them." },
-        { "q": "Do I still need sp?", "a": "Only if existing subdomains need a different policy from the parent. If sp is absent, p applies to them. sp is ignored on records published at subdomains." },
-        { "q": "Why does the tool suggest a mailto: URI for rua?", "a": "Receivers that send reports must support mailto:, while other URI schemes may be ignored. If the report mailbox is on another domain, that domain must also authorize receiving your reports, as described in RFC 9990." }
+        {
+          "q": "Is my pct=25 rollout still honored?",
+          "a": "Not by receivers implementing RFC 9989: pct is historic and is ignored, so the published policy applies to all failing mail. The record stays valid, but replace staged pct rollouts with t=y while testing."
+        },
+        {
+          "q": "What should np be set to?",
+          "a": "np covers subdomains that do not exist in DNS, which should never send legitimate mail. Many domains can publish np=reject early, independent of how far p has progressed. If np is absent, sp (or p) applies to them."
+        },
+        {
+          "q": "Do I still need sp?",
+          "a": "Only if existing subdomains need a different policy from the parent. If sp is absent, p applies to them. sp is ignored on records published at subdomains."
+        },
+        {
+          "q": "Why does the tool suggest a mailto: URI for rua?",
+          "a": "Receivers that send reports must support mailto:, while other URI schemes may be ignored. If the report mailbox is on another domain, that domain must also authorize receiving your reports, as described in RFC 9990."
+        }
       ]
     },
     "references": [
-      { "label": "RFC 9989 — Domain-Based Message Authentication, Reporting, and Conformance (DMARC)", "url": "https://www.rfc-editor.org/rfc/rfc9989" },
-      { "label": "RFC 9990 — DMARC Aggregate Reporting", "url": "https://www.rfc-editor.org/rfc/rfc9990" },
-      { "label": "RFC 9991 — DMARC Failure Reporting", "url": "https://www.rfc-editor.org/rfc/rfc9991" }
+      {
+        "label": "RFC 9989 — Domain-Based Message Authentication, Reporting, and Conformance (DMARC)",
+        "url": "https://www.rfc-editor.org/rfc/rfc9989"
+      },
+      {
+        "label": "RFC 9990 — DMARC Aggregate Reporting",
+        "url": "https://www.rfc-editor.org/rfc/rfc9990"
+      },
+      {
+        "label": "RFC 9991 — DMARC Failure Reporting",
+        "url": "https://www.rfc-editor.org/rfc/rfc9991"
+      }
     ]
   }
 ]
