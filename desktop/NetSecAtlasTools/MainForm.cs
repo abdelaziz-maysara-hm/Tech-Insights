@@ -8,7 +8,7 @@ public class MainForm : Form
     public MainForm()
     {
         Text = "NetSec Atlas Tools";
-        Size = new Size(940, 700);
+        Size = new Size(960, 720);
         StartPosition = FormStartPosition.CenterScreen;
         Font = new Font("Segoe UI", 10);
 
@@ -18,6 +18,8 @@ public class MainForm : Form
         tabs.TabPages.Add(MakeVlsmTab());
         tabs.TabPages.Add(MakeRangeTab());
         tabs.TabPages.Add(MakePortsTab());
+        tabs.TabPages.Add(MakeHashTab());
+        tabs.TabPages.Add(MakeEncodingTab());
         tabs.TabPages.Add(MakeAboutTab());
 
         Controls.Add(tabs);
@@ -27,7 +29,7 @@ public class MainForm : Form
     {
         var page = new TabPage("Subnet");
         var panel = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 2, Padding = new Padding(12) };
-        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 160));
+        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 140));
         panel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
 
         var input = new TextBox { Dock = DockStyle.Fill, Text = "192.168.1.0/24" };
@@ -52,7 +54,7 @@ public class MainForm : Form
     {
         var page = new TabPage("VLSM");
         var panel = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 2, Padding = new Padding(12) };
-        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 160));
+        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 140));
         panel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
 
         var baseBox = new TextBox { Dock = DockStyle.Fill, Text = "192.168.1.0/24" };
@@ -78,15 +80,15 @@ public class MainForm : Form
         baseBox.TextChanged += (_, _) => Calculate();
         segments.TextChanged += (_, _) => Calculate();
 
-        panel.Controls.Add(new Label { Text = "Parent network:", AutoSize = true, Anchor = AnchorStyles.Left }, 0, 0);
+        panel.Controls.Add(new Label { Text = "Parent:", AutoSize = true, Anchor = AnchorStyles.Left }, 0, 0);
         panel.Controls.Add(baseBox, 1, 0);
-        panel.Controls.Add(new Label { Text = "Segments (name hosts):", AutoSize = true, Anchor = AnchorStyles.Left }, 0, 1);
+        panel.Controls.Add(new Label { Text = "Segments:", AutoSize = true, Anchor = AnchorStyles.Left }, 0, 1);
         panel.Controls.Add(segments, 1, 1);
         panel.Controls.Add(result, 0, 2);
         panel.SetColumnSpan(result, 2);
 
         panel.RowStyles.Add(new RowStyle(SizeType.Absolute, 32));
-        panel.RowStyles.Add(new RowStyle(SizeType.Absolute, 140));
+        panel.RowStyles.Add(new RowStyle(SizeType.Absolute, 120));
         panel.RowStyles.Add(new RowStyle(SizeType.Percent, 100));
 
         page.Controls.Add(panel);
@@ -96,9 +98,9 @@ public class MainForm : Form
 
     static TabPage MakeRangeTab()
     {
-        var page = new TabPage("Range → CIDR");
+        var page = new TabPage("Range");
         var panel = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 2, Padding = new Padding(12) };
-        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 160));
+        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 140));
         panel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
 
         var input = new TextBox { Dock = DockStyle.Fill, Text = "192.168.1.10 - 192.168.1.50" };
@@ -122,20 +124,18 @@ public class MainForm : Form
     static TabPage MakePortsTab()
     {
         var page = new TabPage("Ports");
-        var search = new TextBox { Dock = DockStyle.Top, PlaceholderText = "Search port or name (443, ssh, rdp...)" };
+        var search = new TextBox { Dock = DockStyle.Top, PlaceholderText = "Search (443, ssh, rdp...)" };
         var list = new ListView { Dock = DockStyle.Fill, View = View.Details, FullRowSelect = true };
         list.Columns.Add("Port", 70);
-        list.Columns.Add("Protocol", 90);
-        list.Columns.Add("Name", 140);
-        list.Columns.Add("Description", 400);
-
-        var ports = CommonPorts.All;
+        list.Columns.Add("Protocol", 80);
+        list.Columns.Add("Name", 120);
+        list.Columns.Add("Description", 380);
 
         void Refresh()
         {
             list.Items.Clear();
             var q = search.Text.Trim().ToLowerInvariant();
-            foreach (var p in ports)
+            foreach (var p in CommonPorts.All)
             {
                 if (q.Length == 0 || p.Port.ToString().Contains(q) || p.Name.ToLowerInvariant().Contains(q) || p.Description.ToLowerInvariant().Contains(q))
                     list.Items.Add(new ListViewItem(new[] { p.Port.ToString(), p.Protocol, p.Name, p.Description }));
@@ -149,6 +149,71 @@ public class MainForm : Form
         return page;
     }
 
+    static TabPage MakeHashTab()
+    {
+        var page = new TabPage("Hash");
+        var panel = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 1, Padding = new Padding(12) };
+
+        var input = new TextBox { Dock = DockStyle.Fill, Multiline = true, Font = new Font("Consolas", 10), Text = "hello" };
+        var result = new TextBox { Dock = DockStyle.Fill, Multiline = true, ReadOnly = true, Font = new Font("Consolas", 10) };
+
+        void Calculate() { result.Text = HashTool.Compute(input.Text); }
+        input.TextChanged += (_, _) => Calculate();
+
+        panel.Controls.Add(new Label { Text = "Text:", AutoSize = true }, 0, 0);
+        panel.Controls.Add(input, 0, 1);
+        panel.Controls.Add(result, 0, 2);
+        panel.RowStyles.Add(new RowStyle(SizeType.Absolute, 24));
+        panel.RowStyles.Add(new RowStyle(SizeType.Absolute, 100));
+        panel.RowStyles.Add(new RowStyle(SizeType.Percent, 100));
+
+        page.Controls.Add(panel);
+        Calculate();
+        return page;
+    }
+
+    static TabPage MakeEncodingTab()
+    {
+        var page = new TabPage("Encode");
+        var panel = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 2, Padding = new Padding(12) };
+        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50));
+        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50));
+
+        var input = new TextBox { Dock = DockStyle.Fill, Multiline = true, Font = new Font("Consolas", 10), Text = "hello" };
+        var result = new TextBox { Dock = DockStyle.Fill, Multiline = true, Font = new Font("Consolas", 10) };
+
+        var mode = new ComboBox { Dock = DockStyle.Top, DropDownStyle = ComboBoxStyle.DropDownList };
+        mode.Items.AddRange(new object[] { "Text → Base64", "Base64 → Text", "Text → Hex", "Hex → Text" });
+        mode.SelectedIndex = 0;
+
+        void Convert()
+        {
+            var text = input.Text;
+            result.Text = mode.SelectedIndex switch
+            {
+                0 => EncodingTool.ToBase64(text),
+                1 => EncodingTool.FromBase64(text),
+                2 => EncodingTool.ToHex(text),
+                3 => EncodingTool.FromHex(text),
+                _ => ""
+            };
+        }
+
+        mode.SelectedIndexChanged += (_, _) => Convert();
+        input.TextChanged += (_, _) => Convert();
+
+        panel.Controls.Add(mode, 0, 0);
+        panel.SetColumnSpan(mode, 2);
+        panel.Controls.Add(input, 0, 1);
+        panel.Controls.Add(result, 1, 1);
+        panel.RowStyles.Add(new RowStyle(SizeType.Absolute, 32));
+        panel.RowStyles.Add(new RowStyle(SizeType.Percent, 100));
+
+        page.Controls.Add(panel);
+        Convert();
+        return page;
+    }
+
     static TabPage MakeAboutTab()
     {
         var page = new TabPage("About");
@@ -156,7 +221,7 @@ public class MainForm : Form
         {
             Dock = DockStyle.Fill,
             TextAlign = ContentAlignment.MiddleCenter,
-            Text = "NetSec Atlas Tools\n\nLocal desktop utilities for network and security work.\nNothing leaves your machine.\n\nnetsecatlas.com"
+            Text = "NetSec Atlas Tools\n\nSubnet, VLSM, Range, Ports, Hash, Encoding.\nNothing leaves your machine.\n\nnetsecatlas.com"
         };
         page.Controls.Add(label);
         return page;
