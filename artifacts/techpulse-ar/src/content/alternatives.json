@@ -1,0 +1,118 @@
+[
+  {
+    "id": "alt-fortigate",
+    "slug": "fortigate-alternatives",
+    "product": "FortiGate",
+    "vendor": "fortinet",
+    "title": {
+      "ar": "أفضل بدائل FortiGate للشركات",
+      "en": "Best FortiGate Alternatives for Enterprise"
+    },
+    "excerpt": {
+      "ar": "مقارنة عملية بين Palo Alto، Cisco FTD، وCheck Point كبدائل لـ FortiGate.",
+      "en": "Practical comparison of Palo Alto, Cisco FTD, and Check Point as FortiGate alternatives."
+    },
+    "alternatives": [
+      {
+        "name": "Palo Alto Networks",
+        "product": "PAN-OS",
+        "summary": {
+          "ar": "جدار ناري من الجيل التالي مع App-ID وUser-ID. أقوى في الرؤية والتقارير.",
+          "en": "Next-gen firewall with App-ID and User-ID. Stronger visibility and reporting."
+        },
+        "pros": {
+          "ar": ["رؤية تطبيقات أفضل", "تقارير مفصلة", "WildFire للتهديدات"],
+          "en": ["Better application visibility", "Detailed reporting", "WildFire threat intel"]
+        },
+        "cons": {
+          "ar": ["أغلى تكلفة", "منحنى تعلم أطول"],
+          "en": ["Higher cost", "Steeper learning curve"]
+        },
+        "comparisonSlug": "fortigate-vs-palo-alto"
+      },
+      {
+        "name": "Cisco",
+        "product": "FTD / Firepower",
+        "summary": {
+          "ar": "حل متكامل مع بنية Cisco الموجودة. مناسب للبيئات اللي عندها Cisco كتير.",
+          "en": "Integrated with existing Cisco infrastructure. Good for Cisco-heavy environments."
+        },
+        "pros": {
+          "ar": ["تكامل مع Cisco", "دعم فني موحد"],
+          "en": ["Cisco ecosystem integration", "Unified support"]
+        },
+        "cons": {
+          "ar": ["واجهة أقل وضوحاً", "أداء أضعف في بعض السيناريوهات"],
+          "en": ["Less intuitive interface", "Weaker performance in some scenarios"]
+        }
+      },
+      {
+        "name": "Check Point",
+        "product": "Quantum",
+        "summary": {
+          "ar": "جدار ناري ناضج مع تركيز على الأمن. مناسب للبيئات اللي تحتاج امتثال قوي.",
+          "en": "Mature firewall with security focus. Good for compliance-heavy environments."
+        },
+        "pros": {
+          "ar": ["أمن قوي", "امتثال جيد"],
+          "en": ["Strong security", "Good compliance"]
+        },
+        "cons": {
+          "ar": ["تكلفة عالية", "واجهة قديمة نسبياً"],
+          "en": ["High cost", "Relatively dated interface"]
+        }
+      }
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "id": "alt-palo-alto",
+    "slug": "palo-alto-alternatives",
+    "product": "Palo Alto",
+    "vendor": "palo-alto",
+    "title": {
+      "ar": "أفضل بدائل Palo Alto Networks",
+      "en": "Best Palo Alto Networks Alternatives"
+    },
+    "excerpt": {
+      "ar": "خيارات أقل تكلفة من Palo Alto مع أداء مقارب.",
+      "en": "Lower-cost options than Palo Alto with comparable performance."
+    },
+    "alternatives": [
+      {
+        "name": "Fortinet",
+        "product": "FortiGate",
+        "summary": {
+          "ar": "أرخص تكلفة مع أداء عالي. مناسب للبيئات اللي تحتاج قيمة مقابل السعر.",
+          "en": "Lower cost with high performance. Good for value-conscious deployments."
+        },
+        "pros": {
+          "ar": ["أرخص", "أداء عالي", "سهل الإدارة"],
+          "en": ["Lower cost", "High performance", "Easier management"]
+        },
+        "cons": {
+          "ar": ["رؤية أقل تفصيلاً", "تقارير أضعف"],
+          "en": ["Less detailed visibility", "Weaker reporting"]
+        },
+        "comparisonSlug": "fortigate-vs-palo-alto"
+      },
+      {
+        "name": "Sophos",
+        "product": "XG Firewall",
+        "summary": {
+          "ar": "حل متكامل مع endpoint protection. مناسب للشركات الصغيرة والمتوسطة.",
+          "en": "Integrated with endpoint protection. Good for SMB."
+        },
+        "pros": {
+          "ar": ["تكامل مع endpoint", "سهل الاستخدام"],
+          "en": ["Endpoint integration", "Easy to use"]
+        },
+        "cons": {
+          "ar": ["أقل مناسبة للبيئات الكبيرة"],
+          "en": ["Less suitable for large enterprises"]
+        }
+      }
+    ],
+    "date": "2026-11-21"
+  }
+]
