@@ -90,6 +90,7 @@ export default function Home() {
             { href: '/comparisons', ar: 'مقارنات', en: 'Comparisons', desc_ar: 'جداول تساعدك تختار', desc_en: 'Tables that help you choose' },
             { href: '/guides', ar: 'أدلة عملية', en: 'Practical Guides', desc_ar: 'مسارات تنفيذ واضحة للمحترفين', desc_en: 'Clear implementation paths for professionals' },
             { href: '/tools', ar: 'أدوات', en: 'Tools', desc_ar: 'أدوات شبكات وأمن مهنية', desc_en: 'Professional network and security tools' },
+            { href: '/alternatives', ar: 'بدائل', en: 'Alternatives', desc_ar: 'أفضل البدائل للمنتجات الشائعة', desc_en: 'Best alternatives to popular products' },
           ].map((item) => (
             <Link key={item.href} href={item.href} className="block p-5 rounded-xl border border-border bg-card hover:border-primary/60 hover:shadow-md transition-all">
               <h3 className="font-bold text-lg mb-1">{language === 'ar' ? item.ar : item.en}</h3>
