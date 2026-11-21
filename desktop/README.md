@@ -5,6 +5,7 @@ Windows desktop utilities written in C# (.NET 8 WinForms).
 ## Tools included
 
 - **Subnet Calculator** — network, mask, wildcard, broadcast, usable range
+- **VLSM Calculator** — split a parent block into variable-sized subnets
 - **Common Ports Lookup** — searchable list of frequently used ports
 
 ## Build a single-file EXE
@@ -24,8 +25,3 @@ bin/Release/net8.0-windows/win-x64/publish/NetSecAtlasTools.exe
 
 Copy that file anywhere and run it. No installer needed. Nothing is sent over the network.
 
-## Next tools to add
-
-- VLSM calculator
-- SPF / DMARC record helpers
-- Certificate PEM decoder

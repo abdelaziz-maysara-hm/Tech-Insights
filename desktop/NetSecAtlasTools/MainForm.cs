@@ -8,13 +8,14 @@ public class MainForm : Form
     public MainForm()
     {
         Text = "NetSec Atlas Tools";
-        Size = new Size(900, 650);
+        Size = new Size(920, 680);
         StartPosition = FormStartPosition.CenterScreen;
         Font = new Font("Segoe UI", 10);
 
         var tabs = new TabControl { Dock = DockStyle.Fill };
 
         tabs.TabPages.Add(MakeSubnetTab());
+        tabs.TabPages.Add(MakeVlsmTab());
         tabs.TabPages.Add(MakePortsTab());
         tabs.TabPages.Add(MakeAboutTab());
 
@@ -23,7 +24,7 @@ public class MainForm : Form
 
     static TabPage MakeSubnetTab()
     {
-        var page = new TabPage("Subnet Calculator");
+        var page = new TabPage("Subnet");
         var panel = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 2, Padding = new Padding(12) };
         panel.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 160));
         panel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
@@ -33,15 +34,8 @@ public class MainForm : Form
 
         void Calculate()
         {
-            try
-            {
-                var info = SubnetCalculator.Calculate(input.Text.Trim());
-                result.Text = info.ToString();
-            }
-            catch (Exception ex)
-            {
-                result.Text = "Error: " + ex.Message;
-            }
+            try { result.Text = SubnetCalculator.Calculate(input.Text.Trim()).ToString(); }
+            catch (Exception ex) { result.Text = "Error: " + ex.Message; }
         }
 
         input.TextChanged += (_, _) => Calculate();
@@ -58,9 +52,61 @@ public class MainForm : Form
         return page;
     }
 
+    static TabPage MakeVlsmTab()
+    {
+        var page = new TabPage("VLSM");
+        var panel = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 2, Padding = new Padding(12) };
+        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 160));
+        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
+
+        var baseBox = new TextBox { Dock = DockStyle.Fill, Text = "192.168.1.0/24" };
+        var segments = new TextBox
+        {
+            Dock = DockStyle.Fill,
+            Multiline = true,
+            Font = new Font("Consolas", 10),
+            Text = "Users 100\nServers 50\nManagement 10\nWAN 2"
+        };
+        var result = new TextBox { Dock = DockStyle.Fill, Multiline = true, ReadOnly = true, ScrollBars = ScrollBars.Vertical, Font = new Font("Consolas", 10) };
+
+        void Calculate()
+        {
+            try
+            {
+                var reqs = new List<(string, int)>();
+                foreach (var line in segments.Lines)
+                {
+                    var parts = line.Trim().Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                    if (parts.Length >= 2 && int.TryParse(parts[^1], out var hosts))
+                        reqs.Add((string.Join(" ", parts[..^1]), hosts));
+                }
+                result.Text = VlsmCalculator.Calculate(baseBox.Text.Trim(), reqs);
+            }
+            catch (Exception ex) { result.Text = "Error: " + ex.Message; }
+        }
+
+        baseBox.TextChanged += (_, _) => Calculate();
+        segments.TextChanged += (_, _) => Calculate();
+
+        panel.Controls.Add(new Label { Text = "Parent network:", AutoSize = true, Anchor = AnchorStyles.Left }, 0, 0);
+        panel.Controls.Add(baseBox, 1, 0);
+        panel.Controls.Add(new Label { Text = "Segments (name hosts):", AutoSize = true, Anchor = AnchorStyles.Left }, 0, 1);
+        panel.Controls.Add(segments, 1, 1);
+        panel.Controls.Add(result, 0, 2);
+        panel.SetColumnSpan(result, 2);
+
+        panel.RowStyles.Add(new RowStyle(SizeType.Absolute, 32));
+        panel.RowStyles.Add(new RowStyle(SizeType.Absolute, 140));
+        panel.RowStyles.Add(new RowStyle(SizeType.Percent, 100));
+
+        page.Controls.Add(panel);
+        Calculate();
+        return page;
+    }
+
     static TabPage MakePortsTab()
     {
-        var page = new TabPage("Common Ports");
+        var page = new TabPage("Ports");
         var search = new TextBox { Dock = DockStyle.Top, PlaceholderText = "Search port or name (443, ssh, rdp...)" };
         var list = new ListView { Dock = DockStyle.Fill, View = View.Details, FullRowSelect = true };
         list.Columns.Add("Port", 70);
