@@ -9,6 +9,7 @@ import NotFound from '@/pages/not-found';
 const TOOL_COMPONENTS: Record<string, LazyExoticComponent<ComponentType>> = {
   'vlsm-subnet-calculator': lazy(() => import('@/components/tools/VlsmCalculator')),
   'subnet-calculator': lazy(() => import('@/components/tools/SubnetCalculator')),
+  'common-ports-lookup': lazy(() => import('@/components/tools/PortLookup')),
   'ip-range-to-cidr-wildcard': lazy(() => import('@/components/tools/RangeToCidr')),
   'spf-record-analyzer': lazy(() => import('@/components/tools/SpfAnalyzer')),
   'dmarc-record-analyzer': lazy(() => import('@/components/tools/DmarcAnalyzer')),
