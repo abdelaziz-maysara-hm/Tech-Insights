@@ -2,10 +2,6 @@ name: Build Desktop Tools
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'desktop/**'
 
 jobs:
   build:
@@ -23,23 +19,9 @@ jobs:
           cd desktop/NetSecAtlasTools
           dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -o ${{ github.workspace }}/publish
 
-      - name: Create Release
-        uses: softprops/action-gh-release@v2
+      - name: Upload EXE
+        uses: actions/upload-artifact@v4
         with:
-          tag_name: desktop-v1.0
-          name: NetSec Atlas Tools v1.0
-          body: |
-            Ready-to-run Windows desktop tools.
-
-            **Included**
-            - Subnet Calculator
-            - VLSM Calculator
-            - Common Ports Lookup
-
-            Download `NetSecAtlasTools.exe`, run it. No install needed.
-          files: |
-            publish/NetSecAtlasTools.exe
-          draft: false
-          prerelease: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          name: NetSecAtlasTools
+          path: publish/NetSecAtlasTools.exe
+          retention-days: 7
