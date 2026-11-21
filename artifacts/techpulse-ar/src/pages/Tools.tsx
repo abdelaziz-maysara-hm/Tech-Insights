@@ -7,6 +7,18 @@ import { WEB_TOOLS, WEB_TOOL_CATEGORY_LABELS } from '@/data/webTools';
 
 const APPS = [
   {
+    id: 'netsec-tools',
+    title: 'NetSec Atlas Tools',
+    body: {
+      ar: 'حاسبة شبكة فرعية، VLSM، ومرجع المنافذ الشائعة. يعمل على الجهاز من غير إنترنت.',
+      en: 'Subnet calculator, VLSM, and common ports lookup. Runs locally with no internet.',
+    },
+    hotkey: '—',
+    save: '—',
+    download:
+      'https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/download/desktop-v1.0/NetSecAtlasTools.exe',
+  },
+  {
     id: 'capture',
     title: 'Atlas Capture',
     body: {
@@ -102,9 +114,11 @@ export default function Tools() {
           <article key={app.id} className="rounded-xl border border-border bg-card p-6">
             <h2 className="text-lg font-bold">{app.title}</h2>
             <p className="text-sm text-muted-foreground mt-2">{app.body[language]}</p>
-            <p className="mt-3 text-xs text-muted-foreground">
-              {ar ? 'اختصار' : 'Hotkey'}: {app.hotkey}
-            </p>
+            {app.hotkey !== '—' && (
+              <p className="mt-3 text-xs text-muted-foreground">
+                {ar ? 'اختصار' : 'Hotkey'}: {app.hotkey}
+              </p>
+            )}
             <a
               href={app.download}
               className="mt-5 inline-flex min-h-10 items-center rounded-md bg-primary px-4 text-sm font-semibold text-primary-foreground"
@@ -163,12 +177,20 @@ export default function Tools() {
         <h3 className="mt-8 text-lg font-semibold">{ar ? '٢. ويندوز SmartScreen' : '2. Windows SmartScreen'}</h3>
         <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
           {ar
-            ? 'ويندوز ممكن يقول "Windows protected your PC". اضغط More info ثم Run anyway. البرنامج Portable ومش محتاج صلاحيات أدمن.'
+            ? 'ويندوز ممكن يقول \"Windows protected your PC\". اضغط More info ثم Run anyway. البرنامج Portable ومش محتاج صلاحيات أدمن.'
             : 'Windows may say “Windows protected your PC”. Click More info, then Run anyway. The app is portable and does not need admin rights.'}
         </p>
 
         <h3 className="mt-8 text-lg font-semibold">{ar ? '٣. الاستخدام' : '3. How to use each app'}</h3>
         <div className="mt-4 space-y-4 text-sm leading-relaxed">
+          <ManualApp
+            title="NetSec Atlas Tools"
+            body={
+              ar
+                ? 'حمّل الملف وشغّله. فيه حاسبة شبكة فرعية، VLSM، ومرجع منافذ. مفيش تثبيت.'
+                : 'Download and run. Includes subnet calculator, VLSM, and ports lookup. No install.'
+            }
+          />
           <ManualApp
             title="Atlas Capture"
             body={
@@ -215,7 +237,7 @@ export default function Tools() {
         <p className="mt-3 text-sm text-muted-foreground">
           {ar
             ? 'الافتراضي: مجلد المستخدم AtlasRecordings (مش Documents). من Screen اضغط Change folder أو Open Folder. بعد الإيقاف يسألك يفتح الملف.'
-            : 'Default: %USERPROFILE%\AtlasRecordings (not Documents). In Screen use Change folder or Open Folder. After Stop it offers to reveal the file.'}
+            : 'Default: %USERPROFILE%\\AtlasRecordings (not Documents). In Screen use Change folder or Open Folder. After Stop it offers to reveal the file.'}
         </p>
 
         <h3 className="mt-8 text-lg font-semibold">{ar ? '٥. لو حاجة وقفت' : '5. If something fails'}</h3>
