@@ -16,7 +16,7 @@ const APPS = [
     hotkey: '—',
     save: '—',
     download:
-      'https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/download/desktop-v1.2/NetSecAtlasTools.exe',
+      'https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/download/desktop-v1.3/NetSecAtlasTools.exe',
   },
   {
     id: 'capture',
