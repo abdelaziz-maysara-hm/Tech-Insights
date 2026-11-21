@@ -12,7 +12,7 @@ public static class IpConverter
             var o = input.Split('.').Select(int.Parse).ToArray();
             if (o.Length != 4 || o.Any(x => x < 0 || x > 255)) return "Invalid IP.";
             uint v = (uint)((o[0] << 24) | (o[1] << 16) | (o[2] << 8) | o[3]);
-            return $"Decimal: {v}\nHex:     0x{v:X8}\nBinary:  {Convert.ToString(v, 2).PadLeft(32, '0')}";
+            return $"Decimal: {v}\nHex:     0x{v:X8}\nBinary:  {System.Convert.ToString(v, 2).PadLeft(32, '0')}";
         }
 
         if (uint.TryParse(input, out var dec))
