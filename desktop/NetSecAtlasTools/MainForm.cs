@@ -8,7 +8,7 @@ public class MainForm : Form
     public MainForm()
     {
         Text = "NetSec Atlas Tools";
-        Size = new Size(920, 680);
+        Size = new Size(940, 700);
         StartPosition = FormStartPosition.CenterScreen;
         Font = new Font("Segoe UI", 10);
 
@@ -16,6 +16,7 @@ public class MainForm : Form
 
         tabs.TabPages.Add(MakeSubnetTab());
         tabs.TabPages.Add(MakeVlsmTab());
+        tabs.TabPages.Add(MakeRangeTab());
         tabs.TabPages.Add(MakePortsTab());
         tabs.TabPages.Add(MakeAboutTab());
 
@@ -32,12 +33,7 @@ public class MainForm : Form
         var input = new TextBox { Dock = DockStyle.Fill, Text = "192.168.1.0/24" };
         var result = new TextBox { Dock = DockStyle.Fill, Multiline = true, ReadOnly = true, ScrollBars = ScrollBars.Vertical, Font = new Font("Consolas", 10) };
 
-        void Calculate()
-        {
-            try { result.Text = SubnetCalculator.Calculate(input.Text.Trim()).ToString(); }
-            catch (Exception ex) { result.Text = "Error: " + ex.Message; }
-        }
-
+        void Calculate() { try { result.Text = SubnetCalculator.Calculate(input.Text.Trim()).ToString(); } catch (Exception ex) { result.Text = "Error: " + ex.Message; } }
         input.TextChanged += (_, _) => Calculate();
 
         panel.Controls.Add(new Label { Text = "Network (CIDR):", AutoSize = true, Anchor = AnchorStyles.Left }, 0, 0);
@@ -60,13 +56,7 @@ public class MainForm : Form
         panel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
 
         var baseBox = new TextBox { Dock = DockStyle.Fill, Text = "192.168.1.0/24" };
-        var segments = new TextBox
-        {
-            Dock = DockStyle.Fill,
-            Multiline = true,
-            Font = new Font("Consolas", 10),
-            Text = "Users 100\nServers 50\nManagement 10\nWAN 2"
-        };
+        var segments = new TextBox { Dock = DockStyle.Fill, Multiline = true, Font = new Font("Consolas", 10), Text = "Users 100\nServers 50\nManagement 10\nWAN 2" };
         var result = new TextBox { Dock = DockStyle.Fill, Multiline = true, ReadOnly = true, ScrollBars = ScrollBars.Vertical, Font = new Font("Consolas", 10) };
 
         void Calculate()
@@ -104,6 +94,31 @@ public class MainForm : Form
         return page;
     }
 
+    static TabPage MakeRangeTab()
+    {
+        var page = new TabPage("Range → CIDR");
+        var panel = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 2, Padding = new Padding(12) };
+        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 160));
+        panel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
+
+        var input = new TextBox { Dock = DockStyle.Fill, Text = "192.168.1.10 - 192.168.1.50" };
+        var result = new TextBox { Dock = DockStyle.Fill, Multiline = true, ReadOnly = true, ScrollBars = ScrollBars.Vertical, Font = new Font("Consolas", 10) };
+
+        void Calculate() { try { result.Text = RangeToCidr.Convert(input.Text); } catch (Exception ex) { result.Text = "Error: " + ex.Message; } }
+        input.TextChanged += (_, _) => Calculate();
+
+        panel.Controls.Add(new Label { Text = "Range or CIDR:", AutoSize = true, Anchor = AnchorStyles.Left }, 0, 0);
+        panel.Controls.Add(input, 1, 0);
+        panel.Controls.Add(result, 0, 1);
+        panel.SetColumnSpan(result, 2);
+        panel.RowStyles.Add(new RowStyle(SizeType.Absolute, 36));
+        panel.RowStyles.Add(new RowStyle(SizeType.Percent, 100));
+
+        page.Controls.Add(panel);
+        Calculate();
+        return page;
+    }
+
     static TabPage MakePortsTab()
     {
         var page = new TabPage("Ports");
@@ -122,13 +137,8 @@ public class MainForm : Form
             var q = search.Text.Trim().ToLowerInvariant();
             foreach (var p in ports)
             {
-                if (q.Length == 0 ||
-                    p.Port.ToString().Contains(q) ||
-                    p.Name.ToLowerInvariant().Contains(q) ||
-                    p.Description.ToLowerInvariant().Contains(q))
-                {
+                if (q.Length == 0 || p.Port.ToString().Contains(q) || p.Name.ToLowerInvariant().Contains(q) || p.Description.ToLowerInvariant().Contains(q))
                     list.Items.Add(new ListViewItem(new[] { p.Port.ToString(), p.Protocol, p.Name, p.Description }));
-                }
             }
         }
 
@@ -146,10 +156,7 @@ public class MainForm : Form
         {
             Dock = DockStyle.Fill,
             TextAlign = ContentAlignment.MiddleCenter,
-            Text = "NetSec Atlas Tools\n\n" +
-                   "Local desktop utilities for network and security work.\n" +
-                   "Nothing leaves your machine.\n\n" +
-                   "netsecatlas.com"
+            Text = "NetSec Atlas Tools\n\nLocal desktop utilities for network and security work.\nNothing leaves your machine.\n\nnetsecatlas.com"
         };
         page.Controls.Add(label);
         return page;
