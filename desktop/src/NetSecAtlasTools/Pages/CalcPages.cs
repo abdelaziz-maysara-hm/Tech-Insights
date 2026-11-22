@@ -35,13 +35,13 @@ public abstract class CalcPage : ToolPage
 
     protected override UIElement BuildBody()
     {
-        var in1 = U.Input(Input1, mono: true).Aid("input"); in1.Width = 420;
+        var in1 = U.Input(Input1, mono: true).Aid("input"); in1.Width = 420; in1.HorizontalAlignment = HorizontalAlignment.Left;
         in1.TextChanged += (_, _) => Input1 = in1.Text;
         in1.KeyDown += (_, e) => { if (e.Key == System.Windows.Input.Key.Enter && Label2 is null) Run(); };
         var form = U.Stack(U.P(Label1, U.Muted), in1);
         if (Label2 is { } l2)
         {
-            var in2 = U.Input(Input2, multiline: Multiline2, height: 130, mono: true).Aid("input2"); in2.Width = 420;
+            var in2 = U.Input(Input2, multiline: Multiline2, height: 130, mono: true).Aid("input2"); in2.Width = 420; in2.HorizontalAlignment = HorizontalAlignment.Left;
             in2.TextChanged += (_, _) => Input2 = in2.Text;
             form.Children.Add(U.P(l2, U.Muted)); form.Children.Add(in2);
         }
@@ -73,7 +73,7 @@ public sealed class VlsmPage : CalcPage
     protected override string Compute(string a, string b)
     {
         var rows = VlsmCalculator.Plan(a, VlsmCalculator.ParseRequests(b));
-        var lines = rows.Select(r => $"{r.Name,-14} {r.Network + "/" + r.Prefix,-18} {r.FirstUsable} - {r.LastUsable,-16} {Tr.T("bcast", "بث")} {r.Broadcast,-16} {Tr.T("hosts", "أجهزة")} {r.Hosts}/{r.Capacity}");
+        var lines = rows.Select(r => $"{r.Name,-14} {r.Network + "/" + r.Prefix,-19} {r.FirstUsable + " - " + r.LastUsable,-34} {Tr.T("bcast", "بث")} {r.Broadcast,-16} {Tr.T("hosts", "أجهزة")} {r.Hosts}/{r.Capacity}");
         return string.Join("\n", lines);
     }
 }
