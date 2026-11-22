@@ -74,9 +74,10 @@ public static class U
         return t;
     }
 
-    public static StackPanel Row(params UIElement[] children)
+    /// <summary>Horizontal row that wraps to the next line when the window is narrow.</summary>
+    public static WrapPanel Row(params UIElement[] children)
     {
-        var s = new StackPanel { Orientation = Orientation.Horizontal, Margin = new Thickness(0, 0, 0, 8) };
+        var s = new WrapPanel { Orientation = Orientation.Horizontal, Margin = new Thickness(0, 0, 0, 8) };
         foreach (var c in children) s.Children.Add(c);
         return s;
     }

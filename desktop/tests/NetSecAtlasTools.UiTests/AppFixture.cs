@@ -73,7 +73,13 @@ public sealed class AppFixture : IDisposable
     /// <summary>Extra screenshot through UI Automation (the app also saves its own rendering after each sample).</summary>
     public void Capture(string name)
     {
-        try { FlaUI.Core.Capturing.Capture.Element(Main).ToFile(Path.Combine(ShotDir, "uia", name + ".png")); } catch { }
+        try
+        {
+            var dir = Path.Combine(ShotDir, "uia");
+            Directory.CreateDirectory(dir);
+            FlaUI.Core.Capturing.Capture.Element(Main).ToFile(Path.Combine(dir, name + ".png"));
+        }
+        catch (Exception ex) { Console.WriteLine($"capture {name}: {ex.Message}"); }
     }
 
     public bool Alive => !App.HasExited;

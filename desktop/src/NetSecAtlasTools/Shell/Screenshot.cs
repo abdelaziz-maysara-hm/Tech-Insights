@@ -18,6 +18,8 @@ public static class Screenshot
         using (var ctx = dv.RenderOpen())
         {
             ctx.DrawRectangle(Brushes.White, null, new Rect(0, 0, width, height));
+            // Right-to-left windows are mirrored by the window itself, not by its content: flip back so Arabic reads correctly.
+            if (w.FlowDirection == FlowDirection.RightToLeft) ctx.PushTransform(new MatrixTransform(-1, 0, 0, 1, width, 0));
             ctx.DrawRectangle(new VisualBrush(root), null, new Rect(0, 0, width, height));
         }
         rtb.Render(dv);
