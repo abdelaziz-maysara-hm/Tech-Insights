@@ -454,6 +454,42 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://netsecatlas.com/ar/alternatives/fortigate-alternatives</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/alternatives/fortigate-alternatives" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/alternatives/fortigate-alternatives" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/alternatives/fortigate-alternatives" />
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/alternatives/fortigate-alternatives</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/alternatives/fortigate-alternatives" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/alternatives/fortigate-alternatives" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/alternatives/fortigate-alternatives" />
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/alternatives/palo-alto-alternatives</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/alternatives/palo-alto-alternatives" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/alternatives/palo-alto-alternatives" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/alternatives/palo-alto-alternatives" />
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/alternatives/palo-alto-alternatives</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/alternatives/palo-alto-alternatives" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/alternatives/palo-alto-alternatives" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/alternatives/palo-alto-alternatives" />
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://netsecatlas.com/ar/article/tls-certificate-errors-troubleshooting</loc>
     <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/article/tls-certificate-errors-troubleshooting" />
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/article/tls-certificate-errors-troubleshooting" />

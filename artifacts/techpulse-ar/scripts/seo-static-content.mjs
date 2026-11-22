@@ -29,6 +29,9 @@ const UI = {
   troubleshooting: { ar: 'استكشاف الأعطال', en: 'Troubleshooting' },
   guides: { ar: 'أدلة', en: 'Guides' },
   tools: { ar: 'أدوات', en: 'Tools' },
+  alternatives: { ar: 'بدائل', en: 'Alternatives' },
+  pros: { ar: 'المزايا', en: 'Pros' },
+  cons: { ar: 'العيوب', en: 'Cons' },
   vendors: { ar: 'الموردون', en: 'Vendors' },
   videos: { ar: 'مكتبة الفيديو', en: 'Video library' },
   playlist: { ar: 'قائمة التشغيل', en: 'Playlist' },
@@ -71,13 +74,14 @@ const CATEGORY = {
   comparisons: { ar: 'مقارنات', en: 'Comparisons' },
 };
 
-const NAV = ['/articles', '/comparisons', '/troubleshooting', '/guides', '/tools', '/vendors', '/videos'];
+const NAV = ['/articles', '/comparisons', '/troubleshooting', '/guides', '/tools', '/alternatives', '/vendors', '/videos'];
 const NAV_KEY = {
   '/articles': 'articles',
   '/comparisons': 'comparisons',
   '/troubleshooting': 'troubleshooting',
   '/guides': 'guides',
   '/tools': 'tools',
+  '/alternatives': 'alternatives',
   '/vendors': 'vendors',
   '/videos': 'videos',
   '/categories': 'categories',
@@ -181,6 +185,8 @@ export function breadcrumbTrail(identity, seo, indexes) {
     trail.push([t('vendors', lang), '/vendors'], [seo.title, null]);
   } else if (identity.startsWith('/tools/')) {
     trail.push([t('tools', lang), '/tools'], [seo.title, null]);
+  } else if (identity.startsWith('/alternatives/')) {
+    trail.push([t('alternatives', lang), '/alternatives'], [seo.title, null]);
   } else if (identity.startsWith('/videos/')) {
     const playlist = indexes.playlistsBySlug?.get(identity.slice(8));
     trail.push([t('videos', lang), '/videos'], [playlist ? pickLocalized(playlist.title, lang) : seo.title, null]);
@@ -473,6 +479,17 @@ function renderListing(identity, seo, indexes) {
       .join('');
     return `<section class="max-w-5xl mx-auto">${head}<ul>${tools}</ul></section>`;
   }
+  if (identity === '/alternatives') {
+    const items = (indexes.alternatives || [])
+      .map(
+        (item) =>
+          `<li><a href="${escapeAttr(localizedHref(`/alternatives/${item.slug}`, lang))}">${escapeHtml(
+            pickLocalized(item.title, lang),
+          )}</a> — ${escapeHtml(pickLocalized(item.excerpt, lang))}</li>`,
+      )
+      .join('');
+    return `<section class="max-w-5xl mx-auto">${head}<ul>${items}</ul></section>`;
+  }
   if (identity === '/vendors') {
     const vendors = [...(indexes.vendorsById?.values() || [])]
       .filter((v) => indexes.eligibleDiscoveryRoutes.has(`/vendors/${v.id}`))
@@ -498,6 +515,28 @@ function renderListing(identity, seo, indexes) {
   return `<section class="max-w-5xl mx-auto">${head}${articleList(list.slice(0, limit), lang)}</section>`;
 }
 
+
+function renderAlternative(item, seo) {
+  const lang = seo.lang;
+  const rows = (item.alternatives || [])
+    .map((alt) => {
+      const link = alt.comparisonSlug
+        ? ` <a href="${escapeAttr(localizedHref(`/comparison/${alt.comparisonSlug}`, lang))}">${escapeHtml(
+            lang === 'ar' ? 'المقارنة التفصيلية' : 'Detailed comparison',
+          )}</a>`
+        : '';
+      const pros = (alt.pros?.[lang] || []).map((x) => `<li>${escapeHtml(x)}</li>`).join('');
+      const cons = (alt.cons?.[lang] || []).map((x) => `<li>${escapeHtml(x)}</li>`).join('');
+      return `<article><h2>${escapeHtml(alt.name)} — ${escapeHtml(alt.product || '')}</h2><p>${escapeHtml(
+        pickLocalized(alt.summary, lang),
+      )}</p><h3>${escapeHtml(t('pros', lang))}</h3><ul>${pros}</ul><h3>${escapeHtml(t('cons', lang))}</h3><ul>${cons}</ul>${link}</article>`;
+    })
+    .join('');
+  return `<article class="max-w-3xl mx-auto"><h1>${escapeHtml(pickLocalized(item.title, lang))}</h1><p>${escapeHtml(
+    pickLocalized(item.excerpt, lang),
+  )}</p>${rows}</article>`;
+}
+
 /**
  * Returns the inner HTML for <div id="root"> for one route.
  * @param {string} identity language-less route, e.g. /article/foo
@@ -514,6 +553,8 @@ export function renderStaticBody(identity, seo, indexes) {
     main = renderComparison(indexes.comparisonsBySlug.get(m[1]), seo, indexes);
   } else if ((m = identity.match(/^\/page\/([^/]+)$/)) && indexes.pagesBySlug.get(m[1])) {
     main = renderPage(indexes.pagesBySlug.get(m[1]), seo);
+  } else if ((m = identity.match(/^\/alternatives\/([^/]+)$/)) && indexes.alternativesBySlug?.get(m[1])) {
+    main = renderAlternative(indexes.alternativesBySlug.get(m[1]), seo);
   } else if ((m = identity.match(/^\/tools\/([^/]+)$/)) && indexes.toolsBySlug?.get(m[1])) {
     main = renderTool(indexes.toolsBySlug.get(m[1]), seo);
   } else if ((m = identity.match(/^\/videos\/([^/]+)$/)) && indexes.playlistsBySlug?.get(m[1])) {

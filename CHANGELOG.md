@@ -3,6 +3,7 @@
 ## 21–22 November 2026 (Cairo): owner desktop tools, alternatives, deploy fix
 
 - **Owner work (21 Nov):** WinForms desktop app in `desktop/NetSecAtlasTools` shipped as [v1.0–v1.3](https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/tag/desktop-v1.3) (ten tools). Web tools added in PR #18 were then removed the same day (tools live on adawaty.tools and in the desktop app). Alternatives section started (FortiGate and Palo Alto pages, nav, home card).
+- **Alternatives pages prerendered (22 Nov, follow-up):** list and detail URLs are in the sitemap and prerendered so GitHub Pages serves them with the correct titles (the first docs PR only added the list route, so detail pages 404ed).
 - **Deploy was broken** after the web-tools removal (`Search.tsx` and some tests still imported the deleted files), so `/alternatives` never went live. Fixed on 22 Nov without reverting owner work: stale imports removed, old `/tools/<slug>` URLs redirect to `/tools`, `/alternatives` added to the sitemap and hreflang policy.
 - **Docs:** README now has a project-status / changelog section; forward plan lives in `docs/ROADMAP.md`.
 - A separate WPF suite remains in [netsecatlas-apps](https://github.com/abdelaziz-maysara-hm/netsecatlas-apps) (11 apps, CI green, no GitHub Release tag yet). Details in the roadmap.
