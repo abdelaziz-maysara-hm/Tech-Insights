@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>NetSecAtlasTools</AssemblyName>
+    <RootNamespace>NetSecAtlasTools</RootNamespace>
+    <Title>NetSec Atlas Tools</Title>
+    <Description>Free network and security tools for Windows in one program.</Description>
+    <ApplicationManifest>..\..\build\app.manifest</ApplicationManifest>
+    <ApplicationIcon>..\..\build\atlas.ico</ApplicationIcon>
+    <RuntimeIdentifiers>win-x64;win-arm64</RuntimeIdentifiers>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <DebugType Condition="'$(Configuration)' == 'Release'">none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NetSecAtlas.Core\NetSecAtlas.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="10.0.0" />
+    <PackageReference Include="System.Diagnostics.EventLog" Version="10.0.0" />
+    <PackageReference Include="System.DirectoryServices" Version="10.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="atlas.png" />
+    <Compile Include="..\..\build\GlobalUsings.cs" Link="GlobalUsings.cs" />
+  </ItemGroup>
+</Project>

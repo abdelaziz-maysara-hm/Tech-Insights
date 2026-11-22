@@ -1,0 +1,117 @@
+name: desktop-ci
+
+# NetSec Atlas Tools (desktop/): unit tests, single-file publish, launch smoke test and UI automation
+# on real Windows (x64 and ARM64). A release is created only when every test job passes.
+on:
+  push:
+    branches: [main]
+    paths: ['desktop/**', '.github/workflows/desktop-ci.yml']
+    tags: ['desktop-v*']
+  pull_request:
+    paths: ['desktop/**', '.github/workflows/desktop-ci.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  DOTNET_NOLOGO: true
+  DOTNET_CLI_TELEMETRY_OPTOUT: true
+
+jobs:
+  test:
+    name: test (${{ matrix.rid }})
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - rid: win-x64
+            os: windows-latest
+            asset: NetSecAtlasTools.exe
+          - rid: win-arm64
+            os: windows-11-arm
+            asset: NetSecAtlasTools-arm64.exe
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 60
+    defaults:
+      run:
+        shell: pwsh
+        working-directory: desktop
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Unit tests
+        run: dotnet test tests/NetSecAtlas.Core.Tests -c Release --logger "trx;LogFileName=unit-${{ matrix.rid }}.trx" --results-directory ../test-results
+
+      - name: Publish single-file exe
+        run: |
+          dotnet publish src/NetSecAtlasTools -c Release -r ${{ matrix.rid }} --self-contained true -p:PublishSingleFile=true -o ../obj-publish
+          New-Item -ItemType Directory -Force -Path ../dist | Out-Null
+          Copy-Item ../obj-publish/NetSecAtlasTools.exe ../dist/${{ matrix.asset }}
+          Get-ChildItem ../dist | Format-Table Name, Length
+
+      - name: Launch smoke test
+        run: ./build/smoke.ps1 -Exe ../dist/${{ matrix.asset }} -Out ../screenshots/${{ matrix.rid }}
+
+      - name: UI automation tests (every tool)
+        env:
+          NSA_EXE: ${{ github.workspace }}/dist/${{ matrix.asset }}
+          NSA_SHOTS: ${{ github.workspace }}/screenshots/${{ matrix.rid }}
+        run: dotnet test tests/NetSecAtlasTools.UiTests -c Release --logger "trx;LogFileName=ui-${{ matrix.rid }}.trx" --logger "console;verbosity=normal" --results-directory ../test-results
+
+      - name: App log
+        if: always()
+        run: if (Test-Path "$env:TEMP/NetSecAtlasTools.log") { Get-Content "$env:TEMP/NetSecAtlasTools.log" } else { "no log" }
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test-results-${{ matrix.rid }}
+          path: test-results/
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: screenshots-${{ matrix.rid }}
+          path: screenshots/
+          if-no-files-found: warn
+      - uses: actions/upload-artifact@v4
+        with:
+          name: exe-${{ matrix.rid }}
+          path: dist/${{ matrix.asset }}
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/desktop-v')
+    needs: test
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: art
+      - name: Collect assets and checksums
+        run: |
+          mkdir -p rel
+          cp art/exe-win-x64/NetSecAtlasTools.exe art/exe-win-arm64/NetSecAtlasTools-arm64.exe rel/
+          (cd art/screenshots-win-x64 && zip -qr ../../rel/screenshots.zip .)
+          cd rel && sha256sum NetSecAtlasTools.exe NetSecAtlasTools-arm64.exe > SHA256SUMS.txt && cat SHA256SUMS.txt
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          V="${GITHUB_REF_NAME#desktop-v}"
+          cat > notes.md <<NOTES
+          **NetSec Atlas Tools ${V}**: the 11 NetSec Atlas apps and the 10 NetSecAtlasTools calculators merged into one Windows program (18 tools, Arabic and English).
+
+          - \`NetSecAtlasTools.exe\`: Windows 10/11 x64 (most PCs)
+          - \`NetSecAtlasTools-arm64.exe\`: Windows on ARM (Snapdragon laptops)
+
+          Single file, no install, no .NET needed. Every build passed unit tests, a launch test and UI automation of every tool on x64 and ARM64 before this release was created.
+
+          **Not code-signed yet**, so Windows SmartScreen may show "Windows protected your PC". Check the SHA-256 against \`SHA256SUMS.txt\`, then click *More info* → *Run anyway*.
+          Verify in PowerShell: \`Get-FileHash .\\NetSecAtlasTools.exe -Algorithm SHA256\`
+          NOTES
+          gh release create "$GITHUB_REF_NAME" rel/* --repo "$GITHUB_REPOSITORY" --title "NetSec Atlas Tools v${V}" --notes-file notes.md
