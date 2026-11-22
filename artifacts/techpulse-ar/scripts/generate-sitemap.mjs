@@ -50,6 +50,7 @@ const articles = loadJson('src/content/articles.json');
 const comparisons = loadJson('src/content/comparisons.json');
 const pages = loadJson('src/content/pages.json');
 const webTools = loadJson('src/content/web-tools.json');
+const alternatives = loadJson('src/content/alternatives.json');
 const videos = loadJson('src/content/videos.json');
 const playlists = loadJson('src/content/video-playlists.json');
 const vendorRoutes = policy.eligibleDiscoveryRoutes
@@ -64,6 +65,13 @@ const routes = [
     priority: '0.8',
     changefreq: 'monthly',
     lastmod: typeof item.updated === 'string' ? item.updated.slice(0, 10) : today,
+  })),
+  ...alternatives.filter((item) => item?.slug).map((item) => ({
+    path: `/alternatives/${item.slug}`,
+    bilingual: true,
+    priority: '0.8',
+    changefreq: 'weekly',
+    lastmod: typeof item.date === 'string' ? item.date.slice(0, 10) : today,
   })),
   ...articles.filter((item) => item?.slug).map((item) => ({
     path: `/article/${item.slug}`,

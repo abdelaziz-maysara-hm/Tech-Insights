@@ -9,6 +9,7 @@ const articles = readJson('../src/content/articles.json');
 const comparisons = readJson('../src/content/comparisons.json');
 const pages = readJson('../src/content/pages.json');
 const webTools = []; // on-site web tools were removed 2026-11-21; calculators live in the desktop app / Adawaty
+const alternatives = readJson('../src/content/alternatives.json');
 
 const locations = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 const arLocations = locations.filter((location) => location.startsWith('https://netsecatlas.com/ar/'));
@@ -24,8 +25,8 @@ const englishContent = contentItems.filter((item) =>
 // Phase 7: every playlist and video page is published in both languages.
 const videoRoutes = JSON.parse(readFileSync(new URL('../src/content/videos.json', import.meta.url), 'utf8')).length
   + JSON.parse(readFileSync(new URL('../src/content/video-playlists.json', import.meta.url), 'utf8')).length;
-const expectedAr = BASE_ROUTES + vendorHubs + webTools.length + contentItems.length + videoRoutes;
-const expectedEn = policy.eligibleDiscoveryRoutes.length + englishContent.length + videoRoutes;
+const expectedAr = BASE_ROUTES + vendorHubs + webTools.length + alternatives.length + contentItems.length + videoRoutes;
+const expectedEn = policy.eligibleDiscoveryRoutes.length + englishContent.length + alternatives.length + videoRoutes;
 
 test('emits only unique localized production canonical locations', () => {
   assert.equal(arLocations.length, expectedAr);

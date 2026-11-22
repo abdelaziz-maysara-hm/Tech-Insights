@@ -63,6 +63,13 @@ const SECTION_META = {
       en: 'Practical engineering tools for networking, security and IT.',
     },
   },
+  '/alternatives': {
+    title: { ar: 'بدائل المنتجات', en: 'Product Alternatives' },
+    description: {
+      ar: 'بدائل عملية للمنتجات الشائعة في الشبكات والأمن.',
+      en: 'Practical alternatives to popular network and security products.',
+    },
+  },
   '/vendors': {
     title: { ar: 'الموردون', en: 'Vendors' },
     description: {
@@ -180,6 +187,7 @@ export function loadContentIndexes() {
   const comparisons = loadJson('src/content/comparisons.json');
   const pages = loadJson('src/content/pages.json');
   const webTools = loadJson('src/content/web-tools.json');
+  const alternatives = loadJson('src/content/alternatives.json');
   const videos = loadJson('src/content/videos.json');
   const playlists = loadJson('src/content/video-playlists.json');
   const policy = loadPolicy();
@@ -196,6 +204,7 @@ export function loadContentIndexes() {
     comparisonsBySlug: new Map(comparisons.map((c) => [c.slug, c])),
     pagesBySlug: new Map(pages.map((p) => [p.slug, p])),
     toolsBySlug: new Map(webTools.map((t) => [t.slug, t])),
+    alternativesBySlug: new Map(alternatives.map((t) => [t.slug, t])),
     videosBySlug: new Map(videos.map((v) => [v.slug, v])),
     playlistsBySlug: new Map(playlists.map((p) => [p.slug, p])),
     videos,
@@ -210,6 +219,7 @@ export function loadContentIndexes() {
     comparisons,
     pages,
     webTools,
+    alternatives,
   };
 }
 
@@ -242,6 +252,7 @@ export function contentItemForIdentity(identity, indexes) {
 export function isHreflangEligibleForRoute(identity, indexes) {
   // Video hub, playlist and video pages are authored in both languages.
   if (/^\/(videos|videos\/[^/]+|video\/[^/]+)$/.test(identity)) return true;
+  if (/^\/alternatives(\/[^/]+)?$/.test(identity)) return true;
   if (indexes.eligibleDiscoveryRoutes.has(identity) || indexes.reviewedContentRoutes.has(identity)) {
     return true;
   }
@@ -331,6 +342,18 @@ export function resolveRouteSeo(pathname, indexes) {
           pickLocalized(item.description, lang) ||
           (lang === 'ar' ? SITE.descriptionAr : SITE.descriptionEn),
         source: 'page',
+      };
+    }
+  }
+  if ((m = identity.match(/^\/alternatives\/([^/]+)$/))) {
+    const item = indexes.alternativesBySlug?.get(m[1]);
+    if (item) {
+      return {
+        ...base,
+        title: pickLocalized(item.title, lang),
+        description: pickLocalized(item.excerpt, lang) || (lang === 'ar' ? SITE.descriptionAr : SITE.descriptionEn),
+        datePublished: item.date || '',
+        source: 'alternative',
       };
     }
   }
