@@ -1,0 +1,64 @@
+{
+  "_note": "NetSec Atlas Tools (desktop/ in this repo). Used by /tools and by the prerender (static body + SoftwareApplication JSON-LD). Downloads are copied from the latest GitHub release into /downloads/ by deploy-pages.yml.",
+  "name": "NetSec Atlas Tools",
+  "version": "2.0.0",
+  "repo": "https://github.com/abdelaziz-maysara-hm/Tech-Insights",
+  "releasesUrl": "https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases",
+  "downloads": {
+    "x64": "/downloads/NetSecAtlasTools.exe",
+    "arm64": "/downloads/NetSecAtlasTools-arm64.exe",
+    "sums": "/downloads/SHA256SUMS.txt"
+  },
+  "requirements": {
+    "ar": "ويندوز 10 أو 11 (x64 أو ARM64). ملف واحد، من غير تثبيت ومن غير .NET.",
+    "en": "Windows 10 or 11 (x64 or ARM64). One file, no install, no .NET needed."
+  },
+  "summary": {
+    "ar": "برنامج واحد فيه 18 أداة للشبكات والأمان: فحص أمان الجهاز، بصمة الملفات، كلمات المرور، الواي فاي، تشخيص الشبكة، Ping، مقارنة DNS، المنافذ، حاسبات الشبكات، تتبع قفل حسابات AD، شهادات TLS، رؤوس البريد والمزيد. عربي وإنجليزي، ومن غير أي تتبع.",
+    "en": "One program with 18 network and security tools: PC security check, file hashes, passwords, Wi-Fi, network troubleshooting, ping, DNS benchmark, ports, subnet calculators, AD lockout tracing, TLS certificates, email headers and more. Arabic and English, no telemetry."
+  },
+  "categories": [
+    {
+      "id": "everyday",
+      "title": { "ar": "الأمان اليومي", "en": "Everyday security" },
+      "tools": [
+        { "ar": "فحص صحة الأمان", "en": "Security Health Check", "dar": "فحص للقراءة فقط لمضاد الفيروسات والجدار الناري والتحديثات وBitLocker وSMBv1 وRDP مع درجة من 100.", "den": "Read-only check of antivirus, firewall, updates, BitLocker, SMBv1, RDP and more, with a score out of 100." },
+        { "ar": "فاحص البصمة (Hash)", "en": "Hash Checker", "dar": "MD5 وSHA-1 وSHA-256 وSHA-512 لأي ملف أو نص، مقارنة مع البصمة المنشورة أو ملف SHA256SUMS، وقائمة الزر الأيمن.", "den": "MD5, SHA-1, SHA-256 and SHA-512 for any file or text, compare with a published hash or SHA256SUMS, Explorer right-click menu." },
+        { "ar": "كلمات المرور", "en": "Passwords", "dar": "مولّد كلمات مرور قوية، تقدير القوة على جهازك، وفحص التسريب (يرسل 5 أحرف فقط من البصمة).", "den": "Strong password generator, offline strength estimate and breach check that sends only 5 hash characters." },
+        { "ar": "فاحص Wi-Fi", "en": "Wi-Fi Checker", "dar": "الشبكات القريبة والقنوات وقوة الإشارة وتقييم الحماية.", "den": "Nearby networks, channels, signal and a security rating." }
+      ]
+    },
+    {
+      "id": "network",
+      "title": { "ar": "الشبكات", "en": "Networking" },
+      "tools": [
+        { "ar": "مشخّص الشبكة", "en": "Network Troubleshooter", "dar": "خطوة بخطوة: الكارت، البوابة، DNS، الإنترنت، المنفذ والمسار مع تقرير.", "den": "Step by step: adapter, gateway, DNS, internet, port and route, with a report." },
+        { "ar": "مراقب Ping", "en": "Ping Monitor", "dar": "زمن الاستجابة والتذبذب وفقد الحزم مع الوقت وتصدير CSV.", "den": "Latency, jitter and packet loss over time, CSV export." },
+        { "ar": "مقارنة خوادم DNS", "en": "DNS Benchmark", "dar": "قارن سرعة وثبات خوادم DNS من اتصالك أنت.", "den": "Compare DNS resolver speed and reliability from your own connection." },
+        { "ar": "المنافذ والخدمات", "en": "Ports & Services", "dar": "ما الذي يستمع على جهازك وأي برنامج يملكه، اختبار منافذ جهاز آخر، ومرجع المنافذ الشائعة.", "den": "What is listening and which program owns it, remote port tests, and a common-ports reference." },
+        { "ar": "حاسبة الشبكات الفرعية", "en": "Subnet Calculator", "dar": "الشبكة والقناع وWildcard والبث ونطاق العناوين.", "den": "Network, mask, wildcard, broadcast and usable range." },
+        { "ar": "مخطط VLSM", "en": "VLSM Planner", "dar": "قسّم شبكة إلى شبكات فرعية بالحجم المناسب.", "den": "Split one block into right-sized subnets." },
+        { "ar": "تحويل المدى إلى CIDR", "en": "Range → CIDR", "dar": "حوّل مدى عناوين إلى أقل عدد من كتل CIDR.", "den": "Turn an IP range into the fewest CIDR blocks." },
+        { "ar": "محوّل عناوين IP", "en": "IP Converter", "dar": "IPv4 بين المنقوط والعشري والست عشري والثنائي.", "den": "IPv4 between dotted, decimal, hex and binary." },
+        { "ar": "معرفة مصنّع MAC", "en": "MAC Vendor Lookup", "dar": "الشركة المصنّعة من عنوان MAC بدون إنترنت.", "den": "Vendor from a MAC address, offline." }
+      ]
+    },
+    {
+      "id": "admin",
+      "title": { "ar": "الإدارة والبريد", "en": "Admin & email" },
+      "tools": [
+        { "ar": "متتبع قفل حسابات AD", "en": "AD Lockout Tracer", "dar": "ابحث في أحداث 4740 و4625 و4771 على وحدات التحكم لتعرف مصدر قفل الحساب.", "den": "Search 4740/4625/4771 events across domain controllers to find what locks an account." },
+        { "ar": "فاحص انتهاء شهادات TLS", "en": "TLS Certificate Checker", "dar": "افحص تاريخ الانتهاء والاسم والسلسلة لقائمة مواقع مع تصدير CSV.", "den": "Expiry, name and chain checks for a list of hosts, CSV export." },
+        { "ar": "محلل رؤوس البريد", "en": "Email Header Analyzer", "dar": "SPF وDKIM وDMARC ومسار التسليم وعلامات التصيد، على جهازك.", "den": "SPF, DKIM, DMARC, delivery path and phishing signs, analysed on your PC." }
+      ]
+    },
+    {
+      "id": "utils",
+      "title": { "ar": "أدوات مساعدة", "en": "Utilities" },
+      "tools": [
+        { "ar": "ترميز وفك ترميز", "en": "Encode / Decode", "dar": "Base64 وHex وURL.", "den": "Base64, Hex and URL." },
+        { "ar": "محوّل الطوابع الزمنية", "en": "Timestamp Converter", "dar": "وقت Unix (ثوانٍ أو ميلي ثانية) إلى تاريخ والعكس.", "den": "Unix time (seconds or milliseconds) to a date and back." }
+      ]
+    }
+  ]
+}

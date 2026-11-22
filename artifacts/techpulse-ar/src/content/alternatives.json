@@ -28,7 +28,7 @@
           "ar": ["أغلى تكلفة", "منحنى تعلم أطول"],
           "en": ["Higher cost", "Steeper learning curve"]
         },
-        "comparisonSlug": "fortigate-vs-palo-alto"
+        "comparisonSlug": "palo-alto-ngfw-vs-fortinet-fortigate"
       },
       {
         "name": "Cisco",
@@ -94,7 +94,7 @@
           "ar": ["رؤية أقل تفصيلاً", "تقارير أضعف"],
           "en": ["Less detailed visibility", "Weaker reporting"]
         },
-        "comparisonSlug": "fortigate-vs-palo-alto"
+        "comparisonSlug": "palo-alto-ngfw-vs-fortinet-fortigate"
       },
       {
         "name": "Sophos",

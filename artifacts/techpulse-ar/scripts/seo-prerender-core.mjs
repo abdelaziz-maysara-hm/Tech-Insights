@@ -57,10 +57,10 @@ const SECTION_META = {
     },
   },
   '/tools': {
-    title: { ar: 'أدوات', en: 'Tools' },
+    title: { ar: 'NetSec Atlas Tools: 18 أداة شبكات وأمان لويندوز', en: 'NetSec Atlas Tools: 18 Network & Security Tools for Windows' },
     description: {
-      ar: 'أدوات هندسية عملية للشبكات والأمن وتقنية المعلومات.',
-      en: 'Practical engineering tools for networking, security and IT.',
+      ar: 'برنامج مجاني لويندوز فيه 18 أداة: فحص أمان الجهاز، البصمة، كلمات المرور، DNS، المنافذ، الشبكات الفرعية، شهادات TLS ورؤوس البريد. مع تطبيقات Atlas للتصوير والتسجيل وPDF.',
+      en: 'Free Windows program with 18 tools: PC security check, hashes, passwords, DNS, ports, subnets, TLS certificates and email headers. Plus Atlas capture, recording and PDF apps.',
     },
   },
   '/alternatives': {
@@ -188,6 +188,10 @@ export function loadContentIndexes() {
   const pages = loadJson('src/content/pages.json');
   const webTools = loadJson('src/content/web-tools.json');
   const alternatives = loadJson('src/content/alternatives.json');
+  let desktopProgram = null;
+  try {
+    desktopProgram = JSON.parse(readFileSync(join(root, 'src/content/desktop-program.json'), 'utf8'));
+  } catch {}
   const videos = loadJson('src/content/videos.json');
   const playlists = loadJson('src/content/video-playlists.json');
   const policy = loadPolicy();
@@ -205,6 +209,7 @@ export function loadContentIndexes() {
     pagesBySlug: new Map(pages.map((p) => [p.slug, p])),
     toolsBySlug: new Map(webTools.map((t) => [t.slug, t])),
     alternativesBySlug: new Map(alternatives.map((t) => [t.slug, t])),
+    desktopProgram,
     videosBySlug: new Map(videos.map((v) => [v.slug, v])),
     playlistsBySlug: new Map(playlists.map((p) => [p.slug, p])),
     videos,

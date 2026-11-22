@@ -272,6 +272,30 @@ export function buildRouteExtras(pathname, seo, indexes) {
       ]);
     }
   }
+  if (identity === '/tools' && indexes.desktopProgram) {
+    const p = indexes.desktopProgram;
+    extras.jsonLd.push([
+      'jsonld-software',
+      {
+        '@context': 'https://schema.org',
+        '@type': 'SoftwareApplication',
+        name: p.name,
+        softwareVersion: p.version,
+        description: pickLocalized(p.summary, seo.lang),
+        url: `${seo.canonical}#netsec-atlas-tools`,
+        downloadUrl: `${SITE.url}${p.downloads.x64}`,
+        operatingSystem: 'Windows 10, Windows 11',
+        processorRequirements: 'x64, ARM64',
+        applicationCategory: 'UtilitiesApplication',
+        inLanguage: ['ar', 'en'],
+        isAccessibleForFree: true,
+        license: 'https://opensource.org/licenses/MIT',
+        offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+        featureList: p.categories.flatMap((c) => c.tools.map((t) => (seo.lang === 'ar' ? t.ar : t.en))),
+        publisher: { '@type': 'Organization', name: SITE.organization.name, url: SITE.organization.url },
+      },
+    ]);
+  }
   if (identity === '/videos') {
     extras.jsonLd.push([
       'jsonld-video-hub',
@@ -478,6 +502,25 @@ function main() {
     '<meta name="robots" content="noindex, follow" />',
   );
   writeFileSync(join(distPublic, '404.html'), notFoundHtml, 'utf8');
+  // Search is query-driven, so it stays out of the sitemap and hreflang, but
+  // /ar/search and /en/search must still be real pages (the navbar and the
+  // WebSite SearchAction point there). Write a noindex page for any missing.
+  let searchPages = 0;
+  for (const lang of ['ar', 'en']) {
+    const out = join(distPublic, lang, 'search', 'index.html');
+    if (existsSync(out)) continue;
+    const pathname = `/${lang}/search`;
+    const seo = resolveRouteSeo(pathname, indexes);
+    const html = injectSeoIntoShell(shellHtml, seo, buildRouteExtras(pathname, seo, indexes)).replace(
+      /<meta\s+name=["']robots["'][^>]*>/i,
+      '<meta name="robots" content="noindex, follow" />',
+    );
+    mkdirSync(dirname(out), { recursive: true });
+    writeFileSync(out, html, 'utf8');
+    writeExtensionlessTwin(distPublic, `${lang}/search`, html);
+    searchPages += 1;
+  }
+  console.log(`[seo-prerender] search pages=${searchPages}`);
   console.log(`[seo-prerender] legacy redirect stubs=${legacyWritten}`);
 
   console.log(
