@@ -1,5 +1,5 @@
 {
-  "_note": "Permanent content redirects (identity path -> identity path, language-less). Prerender writes meta-refresh + canonical stubs at /ar, /en and legacy un-prefixed paths; the SPA redirects client-side. Phase 7 (2026-11-19): off-topic consumer content and merged short articles. Phase 8 (2026-11-19): chatgpt-vs-claude (consumer AI comparison) redirected to the professional AI-use guide. Phase 9 (2026-11-19): consumer how-to articles (cloud storage, home Wi-Fi, password recovery) redirected; the three AI articles were already reworked for enterprise IT in phase 5B and stay to the closest IT-security page.",
+  "_note": "Permanent content redirects (identity path -> identity path, language-less). Prerender writes meta-refresh + canonical stubs at /ar, /en and legacy un-prefixed paths; the SPA redirects client-side. Phase 7 (2026-11-19): off-topic consumer content and merged short articles. Phase 8 (2026-11-19): chatgpt-vs-claude (consumer AI comparison) redirected to the professional AI-use guide. Phase 9 (2026-11-19): consumer how-to articles (cloud storage, home Wi-Fi, password recovery) redirected; the three AI articles were already reworked for enterprise IT in phase 5B and stay to the closest IT-security page. Desktop (2026-11-22): /programs (linked from the old netsecatlas-apps README) and /downloads (folder of the exe files) point to /tools, the NetSec Atlas Tools page.",
   "redirects": {
     "/article/ios-vs-android-choosing-guide": "/article/byod-policy-security-guide",
     "/article/phone-storage-full-fixes": "/article/byod-policy-security-guide",
@@ -41,6 +41,8 @@
     "/tools/vlsm-subnet-calculator": "/tools",
     "/tools/ip-range-to-cidr-wildcard": "/tools",
     "/tools/spf-record-analyzer": "/tools",
-    "/tools/dmarc-record-analyzer": "/tools"
+    "/tools/dmarc-record-analyzer": "/tools",
+    "/programs": "/tools",
+    "/downloads": "/tools"
   }
 }

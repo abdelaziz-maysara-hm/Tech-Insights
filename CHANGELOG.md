@@ -1,5 +1,13 @@
 # Changelog
 
+## 22 November 2026 (Cairo): one desktop program, direct downloads, 404 audit
+
+- **NetSec Atlas Tools 2.0** ([PR #22](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/22), release [desktop-v2.0](https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/tag/desktop-v2.0)): the WinForms NetSecAtlasTools 1.3 (10 tools) and the 11 WPF apps from netsecatlas-apps merged into one WPF program in `desktop/` (.NET 10 LTS): 18 tools, 4 categories, Arabic/English, single-file x64 and ARM64. Duplicates folded in (text hash into Hash Checker, password generator into Passwords, common ports into Ports & Services). Bugs fixed while porting: `/0` subnet size, a range ending at 255.255.255.255 looped forever, the generator could omit a selected character type.
+- **Tests before release:** new `desktop-ci.yml` on `windows-latest` and `windows-11-arm`: 67 unit tests, a launch smoke test, 32 FlaUI UI tests that open every tool and run it, English and Arabic screenshots. The release job runs only after all of them pass. Replaces the manual `build-desktop.yml`.
+- **Site:** `/tools` leads with the program (tool list, x64/ARM64/SHA256SUMS buttons with the `download` attribute, SmartScreen note), prerendered static list and SoftwareApplication JSON-LD. `deploy-pages.yml` copies the latest release files into `/downloads/` (same-domain direct download) and re-deploys after each `desktop-v*` release. `/programs` and `/downloads` redirect to `/tools`.
+- **404 audit** (all 623 sitemap URLs plus every internal link on those pages, Arabic and English, plus links in the React source and content JSON): `/ar|en/comparison/fortigate-vs-palo-alto` (linked from both alternatives pages) now points to the real comparison `palo-alto-ngfw-vs-fortinet-fortigate`; `/en/search` had no page (a noindex page is now written for both languages); `/ar|en/programs` (linked from the netsecatlas-apps README) redirect to `/tools`. Program links inside the app that pointed to four articles that do not exist were changed to existing articles.
+- netsecatlas-apps README marked as superseded ([PR #2](https://github.com/abdelaziz-maysara-hm/netsecatlas-apps/pull/2)); repository kept.
+
 ## 21–22 November 2026 (Cairo): owner desktop tools, alternatives, deploy fix
 
 - **Owner work (21 Nov):** WinForms desktop app in `desktop/NetSecAtlasTools` shipped as [v1.0–v1.3](https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/tag/desktop-v1.3) (ten tools). Web tools added in PR #18 were then removed the same day (tools live on adawaty.tools and in the desktop app). Alternatives section started (FortiGate and Palo Alto pages, nav, home card).

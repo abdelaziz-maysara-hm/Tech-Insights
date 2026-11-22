@@ -16,8 +16,9 @@ Live site: [https://netsecatlas.com](https://netsecatlas.com) — practical Arab
 - **المحتوى المنشور:** 135 مقالًا و69 مقارنة، لكل منها نسخة عربية ونسخة إنجليزية مكتوبة بشكل مستقل (ليست ترجمة حرفية). لم يراجع أي نص بشريًا بعد (`humanReviewed=0`، و`translationStatus` ليس `reviewed`).
 - **الموقع الحي قبل إصلاح 22 نوفمبر:** المقالات والمقارنات والفيديوهات وصفحة التطبيقات `/tools` تعمل. صفحات **البدائل** `/alternatives` كانت موجودة في `main` منذ 21 نوفمبر لكن **لم تُنشر** لأن عملية البناء فشلت بعد حذف أدوات الويب (تفاصيل الإصلاح أدناه).
 - **أدوات المتصفح داخل هذا الموقع أُزيلت** في 21 نوفمبر (المالك لديه موقع أدوات منفصل: [adawaty.tools](https://adawaty.tools)). الروابط القديمة مثل `/tools/spf-record-analyzer` تُحوَّل الآن إلى صفحة التطبيقات `/tools` حتى لا تظهر 404.
-- **تطبيقات ويندوز على صفحة** `/tools`: تطبيقات Atlas (لقطة، حافظة، PDF، تسجيل) من مستودع [atlas-recorders](https://github.com/abdelaziz-maysara-hm/atlas-recorders)، وكذلك **NetSec Atlas Tools v1.3** (تطبيق WinForms بعشر أدوات، مبني داخل هذا المستودع تحت `desktop/`).
-- **مجموعة أخرى من البرامج (WPF، 11 برنامجًا)** في مستودع منفصل: [netsecatlas-apps](https://github.com/abdelaziz-maysara-hm/netsecatlas-apps). البناء والاختبارات نجحت في 19 نوفمبر، لكن **لا يوجد GitHub Release بعد** (وظيفة الإطلاق تنتظر وسمًا مثل `v0.1.0`)، وصفحات `/programs` على الموقع **لم تُنشر بعد**. التفاصيل في [docs/ROADMAP.md](docs/ROADMAP.md).
+- **برنامج ويندوز واحد: NetSec Atlas Tools 2.0** (22 نوفمبر). دُمج تطبيق WinForms (v1.3، عشر أدوات) مع برامج WPF الأحد عشر في برنامج واحد فيه **18 أداة** بالعربي والإنجليزي، تحت `desktop/`. كل إصدار يمر باختبارات وحدات واختبار تشغيل واختبار واجهة آلي لكل أداة على ويندوز x64 وARM64 قبل النشر. الإصدار: [desktop-v2.0](https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/tag/desktop-v2.0). التحميل المباشر من الموقع: `https://netsecatlas.com/downloads/NetSecAtlasTools.exe` (و`NetSecAtlasTools-arm64.exe` و`SHA256SUMS.txt`).
+- **صفحة** `/tools` تبدأ الآن بالبرنامج (قائمة الأدوات وأزرار تحميل مباشر)، ثم تطبيقات Atlas (لقطة، حافظة، PDF، تسجيل) من [atlas-recorders](https://github.com/abdelaziz-maysara-hm/atlas-recorders).
+- مستودع [netsecatlas-apps](https://github.com/abdelaziz-maysara-hm/netsecatlas-apps) أصبح **مستبدلًا** (مذكور في ملف README الخاص به) ولم يُحذف.
 - مولّد المقالات الآلي (generator) **محذوف**. إضافة المحتوى تتم يدويًا كما هو موضّح أدناه.
 
 الخطة القادمة كلها في ملف منفصل: **[docs/ROADMAP.md](docs/ROADMAP.md)**.
@@ -69,7 +70,14 @@ Dates below are Africa/Cairo (UTC+2).
 
 في 19 نوفمبر 2026 (12:40–12:41 القاهرة) أُنشئ المستودع العام [netsecatlas-apps](https://github.com/abdelaziz-maysara-hm/netsecatlas-apps) (ترخيص MIT، .NET 10 LTS، WPF، واجهة عربي/إنجليزي مع RTL). فيه 11 برنامجًا وطبقة منطق مشتركة واختبارات. سير عمل GitHub Actions نجح في البناء والاختبار ونشر ملفات exe لـ x64 وARM64، لكن **خطوة إنشاء الإصدار تُتخطى ما لم يُدفع وسم `v*`**، لذلك لا توجد ملفات للتحميل من صفحة Releases بعد. صفحة البرامج على الموقع غير مكتملة (انظر الخطة).
 
-هذا المستودع **منفصل** عن تطبيق WinForms ذي العشر أدوات في `desktop/` أعلاه.
+هذا المستودع **منفصل** عن تطبيق WinForms ذي العشر أدوات في `desktop/` أعلاه. (في 22 نوفمبر دُمج الاثنان، انظر القسم التالي.)
+
+### 22 نوفمبر 2026: برنامج واحد (NetSec Atlas Tools 2.0) وفحص روابط 404
+
+| PR | ماذا أُنجز |
+| --- | --- |
+| [#22](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/22) | دمج تطبيق WinForms (v1.3) وبرامج WPF الأحد عشر في برنامج WPF واحد (.NET 10 LTS) تحت `desktop/`: 18 أداة في 4 أقسام، عربي/إنجليزي، ملف واحد x64 وARM64. حُذف المكرر (البصمة، مولّد كلمات المرور، قائمة المنافذ صارت داخل الأدوات الأكبر). أُصلحت أخطاء في حاسبات 1.x (‏`/0`، ومدى ينتهي بـ 255.255.255.255 كان لا ينتهي). اختبارات: 67 اختبار وحدات، اختبار تشغيل، و32 اختبار واجهة (FlaUI) تفتح كل أداة وتشغّلها، على `windows-latest` و`windows-11-arm`. سير العمل الجديد `desktop-ci.yml` لا ينشئ إصدارًا إلا بعد نجاح كل الاختبارات، وحلّ محل `build-desktop.yml`. |
+| [#23](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/23) | صفحة `/tools` للبرنامج الموحّد مع تحميل مباشر من نفس النطاق (`/downloads/`)، وSoftwareApplication JSON-LD، ونص ثابت قابل للزحف. سير النشر ينسخ ملفات آخر إصدار إلى `/downloads/` ويعيد النشر بعد كل إصدار `desktop-v*`. إصلاح روابط 404 (التفاصيل في CHANGELOG). |
 
 ---
 
@@ -82,16 +90,17 @@ Dates below are Africa/Cairo (UTC+2).
 | `artifacts/techpulse-ar/src/content/` | البيانات المنشورة: `articles.json`، `comparisons.json`، الفيديو، الصفحات الثابتة |
 | `artifacts/techpulse-ar/scripts/phase7/` و`scripts/phase8/` | **مصدر** المحتوى الجديد وإعادة الكتابة (يُمرَّر عبر سكربتات التطبيق ثم يُكتب إلى JSON) |
 | `artifacts/techpulse-ar/src/config/` | سياسة hreflang، تحويلات المحتوى، إعدادات SEO |
-| `desktop/NetSecAtlasTools/` | تطبيق WinForms (v1.3) الذي يحمّله الزائر من `/tools` |
-| `.github/workflows/deploy-pages.yml` | بناء الموقع ونشره |
-| `.github/workflows/build-desktop.yml` | بناء `NetSecAtlasTools.exe` وإرفاقه بالإصدار |
+| `desktop/` | برنامج NetSec Atlas Tools (WPF، 18 أداة) والاختبارات. التفاصيل في [desktop/README.md](desktop/README.md) |
+| `artifacts/techpulse-ar/src/content/desktop-program.json` | بيانات البرنامج المعروضة في `/tools` (الأدوات، روابط التحميل، الإصدار) |
+| `.github/workflows/deploy-pages.yml` | بناء الموقع ونشره، ونسخ ملفات آخر إصدار للبرنامج إلى `/downloads/` |
+| `.github/workflows/desktop-ci.yml` | اختبارات البرنامج على ويندوز x64 وARM64، ثم الإصدار عند وسم `desktop-v*` |
 
 المسارات العامة للموقع (كل منها له `/ar/` و`/en/`):
 
 - `/` الصفحة الرئيسية، `/articles`، `/article/:slug`
 - `/comparisons`، `/comparison/:slug`
 - `/videos`، `/videos/:playlist`، `/video/:slug`
-- `/tools` تحميل تطبيقات ويندوز + رابط إلى أداتي
+- `/tools` برنامج NetSec Atlas Tools (تحميل مباشر) وتطبيقات Atlas + رابط إلى أداتي. `/programs` و`/downloads` يحوّلان إلى `/tools`
 - `/alternatives`، `/alternatives/:slug`
 - `/guides`، `/troubleshooting`، `/vendors`، `/domain/:domain`، `/search`، `/categories`
 - `/page/about` و`/page/contact`

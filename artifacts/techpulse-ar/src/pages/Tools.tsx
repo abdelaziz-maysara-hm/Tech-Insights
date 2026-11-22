@@ -1,21 +1,10 @@
 import { useLanguage } from '@/context/LanguageContext';
 import { useSEO } from '@/hooks/useSEO';
 import { ADAWATY_ORIGIN, ADAWATY_SECURITY } from '@/data/adawaty';
-import { ExternalLink } from 'lucide-react';
+import { Download, ExternalLink, ShieldCheck } from 'lucide-react';
+import program from '@/content/desktop-program.json';
 
 const APPS = [
-  {
-    id: 'netsec-tools',
-    title: 'NetSec Atlas Tools',
-    body: {
-      ar: 'حاسبة شبكة فرعية، VLSM، تحويل النطاق إلى CIDR، المنافذ، البصمة، الترميز، مولّد كلمات المرور، تحويل IP، بحث MAC، وتحويل الوقت. يعمل على الجهاز من غير إنترنت.',
-      en: 'Subnet and VLSM calculators, range-to-CIDR, ports, file hash, encoding, password generator, IP converter, MAC vendor lookup and timestamp conversion. Runs locally with no internet.',
-    },
-    hotkey: '—',
-    save: '—',
-    download:
-      'https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/download/desktop-v1.3/NetSecAtlasTools.exe',
-  },
   {
     id: 'capture',
     title: 'Atlas Capture',
@@ -83,17 +72,88 @@ export default function Tools() {
   const ar = language === 'ar';
 
   useSEO({
-    title: ar ? 'تطبيقات Atlas — التحميل والدليل' : 'Atlas Apps — download and setup',
+    title: ar ? 'NetSec Atlas Tools وتطبيقات Atlas — تحميل مجاني لويندوز' : 'NetSec Atlas Tools and Atlas apps — free Windows downloads',
     description: ar
-      ? 'حمّل تطبيقات Atlas لويندوز: لقطة، حافظة، PDF، تسجيل شاشة وصوت. دليل الإعداد والاستخدام.'
-      : 'Download Atlas Windows apps: capture, clipboard, PDF, screen and sound. Setup and usage guide.',
+      ? 'حمّل NetSec Atlas Tools: برنامج واحد فيه 18 أداة شبكات وأمان لويندوز (فحص الأمان، البصمة، كلمات المرور، DNS، المنافذ، الشبكات الفرعية، شهادات TLS). وتطبيقات Atlas للتصوير والتسجيل وPDF.'
+      : 'Download NetSec Atlas Tools: one Windows program with 18 network and security tools (security check, hashes, passwords, DNS, ports, subnets, TLS certificates), plus Atlas capture, recording and PDF apps.',
     path: '/tools',
   });
 
   return (
     <div className="container mx-auto px-4 py-12 min-h-[60vh]">
-      <div className="max-w-3xl mb-10">
-        <h1 className="text-3xl md:text-4xl font-bold mb-3">{ar ? 'تطبيقات Atlas' : 'Atlas Apps'}</h1>
+      <section id="netsec-atlas-tools" className="mb-14 scroll-mt-24 rounded-2xl border border-border bg-card p-6 md:p-8">
+        <div className="flex items-start gap-3">
+          <ShieldCheck className="mt-1 h-7 w-7 shrink-0 text-primary" aria-hidden />
+          <div>
+            <h1 className="text-3xl md:text-4xl font-bold">{program.name}</h1>
+            <p className="mt-1 text-sm text-muted-foreground">
+              {ar ? 'الإصدار' : 'Version'} {program.version} · {ar ? 'مجاني ومفتوح المصدر' : 'Free and open source'}
+            </p>
+          </div>
+        </div>
+        <p className="mt-4 max-w-3xl text-muted-foreground">{program.summary[language]}</p>
+
+        <div className="mt-6 flex flex-wrap gap-3">
+          <a
+            href={program.downloads.x64}
+            download
+            className="inline-flex min-h-11 items-center gap-2 rounded-md bg-primary px-5 text-sm font-semibold text-primary-foreground"
+          >
+            <Download className="h-4 w-4" aria-hidden />
+            {ar ? 'تحميل لويندوز (x64)' : 'Download for Windows (x64)'}
+          </a>
+          <a
+            href={program.downloads.arm64}
+            download
+            className="inline-flex min-h-11 items-center gap-2 rounded-md border border-border px-5 text-sm font-medium"
+          >
+            <Download className="h-4 w-4" aria-hidden />
+            {ar ? 'ويندوز ARM64' : 'Windows ARM64'}
+          </a>
+          <a href={program.downloads.sums} download className="inline-flex min-h-11 items-center px-2 text-sm text-primary hover:underline">
+            SHA256SUMS.txt
+          </a>
+        </div>
+        <p className="mt-3 text-xs text-muted-foreground">
+          {program.requirements[language]}{' '}
+          {ar
+            ? 'ARM64 لأجهزة Snapdragon. لو مش عارف، اختار x64.'
+            : 'ARM64 is for Snapdragon laptops. If unsure, pick x64.'}
+        </p>
+
+        <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2">
+          {program.categories.map((cat) => (
+            <div key={cat.id}>
+              <h2 className="text-base font-bold">{cat.title[language]}</h2>
+              <ul className="mt-2 space-y-2 text-sm">
+                {cat.tools.map((tool) => (
+                  <li key={tool.en}>
+                    <span className="font-semibold">{ar ? tool.ar : tool.en}</span>
+                    <span className="text-muted-foreground"> — {ar ? tool.dar : tool.den}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-8 rounded-lg bg-muted/50 p-4 text-sm text-muted-foreground leading-relaxed">
+          <p>
+            {ar
+              ? 'البرنامج لسه مش موقّع رقميًا، فويندوز ممكن يقول "Windows protected your PC": اضغط More info ثم Run anyway. قبلها اتأكد من البصمة: في PowerShell اكتب Get-FileHash .\\NetSecAtlasTools.exe وقارنها بملف SHA256SUMS.txt.'
+              : 'The program is not code-signed yet, so Windows may say "Windows protected your PC": click More info, then Run anyway. Check the hash first: in PowerShell run Get-FileHash .\\NetSecAtlasTools.exe and compare it with SHA256SUMS.txt.'}
+          </p>
+          <p className="mt-2">
+            {ar ? 'كل إصدار بيعدّي اختبارات تلقائية على ويندوز (x64 وARM64) قبل النشر. ' : 'Every release passes automated tests on Windows (x64 and ARM64) before it is published. '}
+            <a href={program.releasesUrl} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+              {ar ? 'الإصدارات والكود المصدري' : 'Releases and source code'}
+            </a>
+          </p>
+        </div>
+      </section>
+
+      <div className="max-w-3xl mb-8">
+        <h2 className="text-2xl font-bold mb-3">{ar ? 'تطبيقات Atlas' : 'Atlas Apps'}</h2>
         <p className="text-muted-foreground">
           {ar
             ? 'نسخة EXE لويندوز. فك الضغط، شغّل الملف. من غير Python ولا Setup.'
@@ -102,7 +162,6 @@ export default function Tools() {
         <a href="#manual" className="inline-block mt-4 text-sm font-medium text-primary hover:underline">
           {ar ? 'دليل الإعداد والاستخدام ↓' : 'Setup and usage guide ↓'}
         </a>
-
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -117,6 +176,7 @@ export default function Tools() {
             )}
             <a
               href={app.download}
+              download
               className="mt-5 inline-flex min-h-10 items-center rounded-md bg-primary px-4 text-sm font-semibold text-primary-foreground"
             >
               {ar ? 'تحميل ويندوز' : 'Download for Windows'}
@@ -157,8 +217,8 @@ export default function Tools() {
             title="NetSec Atlas Tools"
             body={
               ar
-                ? 'حمّل الملف وشغّله. عشر أدوات في نافذة واحدة: الشبكات، البصمة، الترميز، كلمات المرور والمزيد. مفيش تثبيت.'
-                : 'Download and run. Ten tools in one window: networking, hashing, encoding, passwords and more. No install.'
+                ? 'حمّل الملف وشغّله، مفيش تثبيت. 18 أداة في نافذة واحدة مقسمة لأقسام على الجنب. زر "جرّب مثالًا" يملأ مثال ويشغّل الأداة. بيفتكر اللغة.'
+                : 'Download and run, no install. 18 tools in one window, grouped on the left. "Try a sample" fills an example and runs the tool. It remembers your language.'
             }
           />
           <ManualApp

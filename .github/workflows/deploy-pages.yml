@@ -6,6 +6,10 @@ on:
     paths:
       - "artifacts/techpulse-ar/**"
       - ".github/workflows/deploy-pages.yml"
+  # Re-deploy after a desktop release so /downloads/ serves the new exe.
+  workflow_run:
+    workflows: [desktop-ci]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -19,7 +23,10 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && startsWith(github.event.workflow_run.head_branch, 'desktop-v'))
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -43,6 +50,20 @@ jobs:
           VITE_GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION }}
           VITE_BING_SITE_VERIFICATION: ${{ vars.BING_SITE_VERIFICATION }}
         run: pnpm --filter @workspace/techpulse-ar run build
+
+      # Same-domain downloads: copy the latest desktop release assets into
+      # /downloads/ so the site's download buttons save the file directly.
+      - name: Add NetSec Atlas Tools downloads (latest release)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          out=artifacts/techpulse-ar/dist/public/downloads
+          mkdir -p "$out"
+          gh release download --repo "$GITHUB_REPOSITORY" --pattern 'NetSecAtlasTools*.exe' --pattern 'SHA256SUMS.txt' --dir "$out" --clobber \
+            || echo "::warning::could not download desktop release assets"
+          ls -la "$out"
+          test -s "$out/NetSecAtlasTools.exe"
+          if [ -f "$out/SHA256SUMS.txt" ]; then (cd "$out" && sha256sum -c SHA256SUMS.txt); fi
 
       - name: Verify built pages (static content, RSS links, sitemap URLs)
         run: pnpm --filter @workspace/techpulse-ar run test:build-output

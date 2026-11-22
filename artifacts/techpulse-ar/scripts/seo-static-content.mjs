@@ -469,15 +469,25 @@ function renderListing(identity, seo, indexes) {
     return `<section class="max-w-5xl mx-auto">${head}${comparisonList(comparisons, lang)}</section>`;
   }
   if (identity === '/tools') {
-    const tools = (indexes.webTools || [])
+    const p = indexes.desktopProgram;
+    if (!p) return `<section class="max-w-5xl mx-auto">${head}</section>`;
+    const ar = lang === 'ar';
+    const cats = p.categories
       .map(
-        (tool) =>
-          `<li><a href="${escapeAttr(localizedHref(`/tools/${tool.slug}`, lang))}">${escapeHtml(
-            pickLocalized(tool.title, lang),
-          )}</a> — ${escapeHtml(pickLocalized(tool.metaDescription, lang))}</li>`,
+        (c) =>
+          `<h2>${escapeHtml(pickLocalized(c.title, lang))}</h2><ul>${c.tools
+            .map((t) => `<li><strong>${escapeHtml(ar ? t.ar : t.en)}</strong> — ${escapeHtml(ar ? t.dar : t.den)}</li>`)
+            .join('')}</ul>`,
       )
       .join('');
-    return `<section class="max-w-5xl mx-auto">${head}<ul>${tools}</ul></section>`;
+    const downloads = `<p><a href="${escapeAttr(p.downloads.x64)}" download>${escapeHtml(
+      ar ? 'تحميل لويندوز (x64)' : 'Download for Windows (x64)',
+    )}</a> · <a href="${escapeAttr(p.downloads.arm64)}" download>${escapeHtml(ar ? 'ويندوز ARM64' : 'Windows ARM64')}</a> · <a href="${escapeAttr(
+      p.downloads.sums,
+    )}" download>SHA256SUMS.txt</a></p>`;
+    return `<section class="max-w-5xl mx-auto">${head}<section id="netsec-atlas-tools"><h2>${escapeHtml(p.name)} ${escapeHtml(
+      p.version,
+    )}</h2><p>${escapeHtml(pickLocalized(p.summary, lang))}</p>${downloads}<p>${escapeHtml(pickLocalized(p.requirements, lang))}</p>${cats}</section></section>`;
   }
   if (identity === '/alternatives') {
     const items = (indexes.alternatives || [])
