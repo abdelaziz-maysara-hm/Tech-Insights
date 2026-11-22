@@ -77,7 +77,7 @@ Dates below are Africa/Cairo (UTC+2).
 | PR | ماذا أُنجز |
 | --- | --- |
 | [#22](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/22) | دمج تطبيق WinForms (v1.3) وبرامج WPF الأحد عشر في برنامج WPF واحد (.NET 10 LTS) تحت `desktop/`: 18 أداة في 4 أقسام، عربي/إنجليزي، ملف واحد x64 وARM64. حُذف المكرر (البصمة، مولّد كلمات المرور، قائمة المنافذ صارت داخل الأدوات الأكبر). أُصلحت أخطاء في حاسبات 1.x (‏`/0`، ومدى ينتهي بـ 255.255.255.255 كان لا ينتهي). اختبارات: 67 اختبار وحدات، اختبار تشغيل، و32 اختبار واجهة (FlaUI) تفتح كل أداة وتشغّلها، على `windows-latest` و`windows-11-arm`. سير العمل الجديد `desktop-ci.yml` لا ينشئ إصدارًا إلا بعد نجاح كل الاختبارات، وحلّ محل `build-desktop.yml`. |
-| (هذا الـ PR) | صفحة `/tools` للبرنامج الموحّد مع تحميل مباشر من نفس النطاق (`/downloads/`)، وSoftwareApplication JSON-LD، ونص ثابت قابل للزحف. سير النشر ينسخ ملفات آخر إصدار إلى `/downloads/` ويعيد النشر بعد كل إصدار `desktop-v*`. إصلاح روابط 404 (التفاصيل في CHANGELOG). |
+| [#23](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/23) | صفحة `/tools` للبرنامج الموحّد مع تحميل مباشر من نفس النطاق (`/downloads/`)، وSoftwareApplication JSON-LD، ونص ثابت قابل للزحف. سير النشر ينسخ ملفات آخر إصدار إلى `/downloads/` ويعيد النشر بعد كل إصدار `desktop-v*`. إصلاح روابط 404 (التفاصيل في CHANGELOG). |
 
 ---
 
