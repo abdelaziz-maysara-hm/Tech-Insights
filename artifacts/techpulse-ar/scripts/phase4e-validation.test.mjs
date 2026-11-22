@@ -11,7 +11,7 @@ const RSS_PATH = new URL('../public/rss.xml', import.meta.url);
 const expectedRoutes = [
   '/', '/articles', '/article/:slug', '/comparisons', '/comparison/:slug',
   '/videos', '/categories', '/search', '/page/:slug', '/troubleshooting',
-  '/guides', '/tools', '/tools/:slug', '/vendors/:vendor', '/vendors', '/domain/:domain',
+  '/guides', '/tools', '/alternatives', '/alternatives/:slug', '/vendors/:vendor', '/vendors', '/domain/:domain',
 ];
 
 test('keeps the complete route surface with the catch-all last', async () => {

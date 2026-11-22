@@ -8,14 +8,14 @@ const policy = readJson('../src/config/hreflang-policy.json');
 const articles = readJson('../src/content/articles.json');
 const comparisons = readJson('../src/content/comparisons.json');
 const pages = readJson('../src/content/pages.json');
-const webTools = readJson('../src/content/web-tools.json');
+const webTools = []; // on-site web tools were removed 2026-11-21; calculators live in the desktop app / Adawaty
 
 const locations = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 const arLocations = locations.filter((location) => location.startsWith('https://netsecatlas.com/ar/'));
 const enLocations = locations.filter((location) => location.startsWith('https://netsecatlas.com/en/'));
 
 // 13 fixed sections + vendor hubs from policy + tools + every content item.
-const BASE_ROUTES = 13;
+const BASE_ROUTES = 14; // + /alternatives
 const vendorHubs = policy.eligibleDiscoveryRoutes.filter((p) => p.startsWith('/vendors/')).length;
 const contentItems = [...articles, ...comparisons, ...pages].filter((item) => item?.slug);
 const englishContent = contentItems.filter((item) =>

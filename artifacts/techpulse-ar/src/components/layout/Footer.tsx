@@ -77,6 +77,7 @@ export function Footer() {
               <li><Link href="/articles" className="hover:text-primary">{t('articles')}</Link></li>
               <li><Link href="/troubleshooting" className="hover:text-primary">{language === 'ar' ? 'استكشاف الأعطال' : 'Troubleshooting'}</Link></li>
               <li><Link href="/guides" className="hover:text-primary">{language === 'ar' ? 'أدلة' : 'Guides'}</Link></li>
+              <li><Link href="/alternatives" className="hover:text-primary">{language === 'ar' ? 'بدائل' : 'Alternatives'}</Link></li>
               <li><Link href="/tools" className="hover:text-primary">{language === 'ar' ? 'تطبيقات Atlas' : 'Atlas Apps'}</Link></li>
               <li><a href="https://adawaty.tools/categories/security-network/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">{language === 'ar' ? 'أدوات الأمن — أدواتي' : 'Security tools — Adawaty'}</a></li>
               <li><Link href="/vendors" className="hover:text-primary">{language === 'ar' ? 'الموردون' : 'Vendors'}</Link></li>

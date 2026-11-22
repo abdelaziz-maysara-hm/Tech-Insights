@@ -97,6 +97,22 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://netsecatlas.com/ar/alternatives</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/alternatives" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/alternatives" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/alternatives" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/alternatives</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/alternatives" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/alternatives" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/alternatives" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://netsecatlas.com/ar/vendors</loc>
     <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/vendors" />
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/vendors" />
@@ -435,78 +451,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/vendors/sophos" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/vendors/sophos" />
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://netsecatlas.com/ar/tools/vlsm-subnet-calculator</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools/vlsm-subnet-calculator" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools/vlsm-subnet-calculator" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools/vlsm-subnet-calculator" />
-    <lastmod>2026-10-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://netsecatlas.com/en/tools/vlsm-subnet-calculator</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools/vlsm-subnet-calculator" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools/vlsm-subnet-calculator" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools/vlsm-subnet-calculator" />
-    <lastmod>2026-10-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://netsecatlas.com/ar/tools/ip-range-to-cidr-wildcard</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools/ip-range-to-cidr-wildcard" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools/ip-range-to-cidr-wildcard" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools/ip-range-to-cidr-wildcard" />
-    <lastmod>2026-10-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://netsecatlas.com/en/tools/ip-range-to-cidr-wildcard</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools/ip-range-to-cidr-wildcard" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools/ip-range-to-cidr-wildcard" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools/ip-range-to-cidr-wildcard" />
-    <lastmod>2026-10-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://netsecatlas.com/ar/tools/spf-record-analyzer</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools/spf-record-analyzer" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools/spf-record-analyzer" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools/spf-record-analyzer" />
-    <lastmod>2026-10-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://netsecatlas.com/en/tools/spf-record-analyzer</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools/spf-record-analyzer" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools/spf-record-analyzer" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools/spf-record-analyzer" />
-    <lastmod>2026-10-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://netsecatlas.com/ar/tools/dmarc-record-analyzer</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools/dmarc-record-analyzer" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools/dmarc-record-analyzer" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools/dmarc-record-analyzer" />
-    <lastmod>2026-10-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://netsecatlas.com/en/tools/dmarc-record-analyzer</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools/dmarc-record-analyzer" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools/dmarc-record-analyzer" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools/dmarc-record-analyzer" />
-    <lastmod>2026-10-27</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -5410,7 +5354,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/page/team" />
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/page/team" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/page/team" />
-    <lastmod>2026-11-19</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.55</priority>
   </url>
@@ -5419,7 +5363,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/page/team" />
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/page/team" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/page/team" />
-    <lastmod>2026-11-19</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.55</priority>
   </url>

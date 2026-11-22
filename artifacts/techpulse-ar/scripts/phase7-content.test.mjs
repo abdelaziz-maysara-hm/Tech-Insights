@@ -99,12 +99,14 @@ test('dist: video pages, playlists, video sitemap and redirect stubs', { skip: !
 });
 
 test('internal links in article bodies resolve to live content', () => {
-  const tools = new Set(readJson('../src/content/web-tools.json').map((t) => t.slug));
+  let tools = new Set();
+  try { tools = new Set(readJson('../src/content/web-tools.json').map((t) => t.slug)); } catch { /* removed 2026-11-21 */ }
+  const toolRedirects = readJson('../src/config/content-redirects.json').redirects || {};
   const broken = [];
   for (const a of articles) {
     for (const lang of ['ar', 'en']) {
       for (const [, type, slug] of a.body[lang].matchAll(/\]\(\/(article|tools)\/([^)#\s]+)\)/g)) {
-        const ok = type === 'article' ? articleSlugs.has(slug) : tools.has(slug);
+        const ok = type === 'article' ? articleSlugs.has(slug) : tools.has(slug) || Boolean(toolRedirects[`/tools/${slug}`]);
         if (!ok) broken.push(`${a.slug} (${lang}) -> /${type}/${slug}`);
       }
     }

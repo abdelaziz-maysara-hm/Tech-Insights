@@ -77,9 +77,13 @@ export default function VideoPlaylist() {
                 {related.map((a) => (
                   <li key={a.slug}><Link href={`/article/${a.slug}`} className="text-primary hover:underline">{a.title[lang]}</Link></li>
                 ))}
-                {(playlist.tools || []).map((tool) => (
-                  <li key={tool}><Link href={`/tools/${tool}`} className="text-primary hover:underline">{tool === 'spf-record-analyzer' ? (lang === 'ar' ? 'أداة تحليل سجل SPF' : 'SPF record analyzer') : (lang === 'ar' ? 'أداة تحليل سجل DMARC' : 'DMARC record analyzer')}</Link></li>
-                ))}
+                {(playlist.tools || []).length > 0 && (
+                  <li>
+                    <a href="https://adawaty.tools/categories/security-network/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                      {lang === 'ar' ? 'أدوات الأمن والشبكات على أدواتي' : 'Security and network tools on Adawaty'}
+                    </a>
+                  </li>
+                )}
               </ul>
             </section>
           )}

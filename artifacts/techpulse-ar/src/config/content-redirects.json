@@ -37,6 +37,10 @@
     "/comparison/chatgpt-vs-claude": "/article/chatgpt-study-without-harm",
     "/article/how-cloud-storage-actually-works": "/article/cloud-storage-misconfiguration-risks",
     "/article/wifi-connection-problems-fixes": "/article/wifi-6-vs-wifi-5-practical",
-    "/article/forgotten-password-account-recovery": "/article/password-manager-start"
+    "/article/forgotten-password-account-recovery": "/article/password-manager-start",
+    "/tools/vlsm-subnet-calculator": "/tools",
+    "/tools/ip-range-to-cidr-wildcard": "/tools",
+    "/tools/spf-record-analyzer": "/tools",
+    "/tools/dmarc-record-analyzer": "/tools"
   }
 }
