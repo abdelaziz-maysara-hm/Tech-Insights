@@ -2,15 +2,14 @@ import { useLanguage } from '@/context/LanguageContext';
 import { useSEO } from '@/hooks/useSEO';
 import { ADAWATY_ORIGIN, ADAWATY_SECURITY } from '@/data/adawaty';
 import { ExternalLink } from 'lucide-react';
-import { Link } from 'wouter';
 
 const APPS = [
   {
     id: 'netsec-tools',
     title: 'NetSec Atlas Tools',
     body: {
-      ar: 'حاسبة شبكة فرعية، VLSM، ومرجع المنافذ الشائعة. يعمل على الجهاز من غير إنترنت.',
-      en: 'Subnet calculator, VLSM, and common ports lookup. Runs locally with no internet.',
+      ar: 'حاسبة شبكة فرعية، VLSM، تحويل النطاق إلى CIDR، المنافذ، البصمة، الترميز، مولّد كلمات المرور، تحويل IP، بحث MAC، وتحويل الوقت. يعمل على الجهاز من غير إنترنت.',
+      en: 'Subnet and VLSM calculators, range-to-CIDR, ports, file hash, encoding, password generator, IP converter, MAC vendor lookup and timestamp conversion. Runs locally with no internet.',
     },
     hotkey: '—',
     save: '—',
@@ -158,8 +157,8 @@ export default function Tools() {
             title="NetSec Atlas Tools"
             body={
               ar
-                ? 'حمّل الملف وشغّله. فيه حاسبة شبكة فرعية، VLSM، ومرجع منافذ. مفيش تثبيت.'
-                : 'Download and run. Includes subnet calculator, VLSM, and ports lookup. No install.'
+                ? 'حمّل الملف وشغّله. عشر أدوات في نافذة واحدة: الشبكات، البصمة، الترميز، كلمات المرور والمزيد. مفيش تثبيت.'
+                : 'Download and run. Ten tools in one window: networking, hashing, encoding, passwords and more. No install.'
             }
           />
           <ManualApp

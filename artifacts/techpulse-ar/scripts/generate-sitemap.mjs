@@ -36,6 +36,7 @@ const baseRoutes = [
   { path: '/troubleshooting', priority: '0.9', changefreq: 'daily' },
   { path: '/guides', priority: '0.9', changefreq: 'weekly' },
   { path: '/tools', priority: '0.85', changefreq: 'weekly' },
+  { path: '/alternatives', priority: '0.85', changefreq: 'weekly' },
   { path: '/vendors', priority: '0.85', changefreq: 'weekly' },
   { path: '/domain/cybersecurity', priority: '0.85', changefreq: 'weekly' },
   { path: '/domain/networking', priority: '0.85', changefreq: 'weekly' },
