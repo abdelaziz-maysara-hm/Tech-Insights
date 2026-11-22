@@ -69,7 +69,7 @@ public sealed class PasswordCheckPage : ToolPage
                 U.P(Tr.T("Uses the Have I Been Pwned Pwned Passwords range API (k-anonymity): the PC sends the first 5 characters of the SHA-1 hash and compares the returned list locally. The password itself never leaves this PC.",
                          "يستخدم واجهة Pwned Passwords من Have I Been Pwned بطريقة k-anonymity: يرسل الجهاز أول 5 أحرف من بصمة SHA-1 فقط ويقارن القائمة المُعادة محليًا. كلمة المرور نفسها لا تغادر جهازك."), U.Muted),
                 U.Row(U.AsyncBtn(Tr.T("Check breaches", "افحص التسريبات"), CheckBreachAsync, true).Aid("run")),
-                _breach is null ? new TextBlock() : U.FindingRow(_breachLevel, _breach, "").Aid("result"))),
+                _breach is null ? new TextBlock() : U.FindingRow(_breachLevel, _breach, "", automationId: "result"))),
             U.Row(U.Link(Tr.T("How to make passwords you can remember", "كيف تنشئ كلمات مرور يسهل تذكرها"), Links.Article("nist-password-guidelines-vs-old-rules")),
                   new TextBlock { Width = 20 }, U.Link(Tr.T("Start using a password manager", "ابدأ باستخدام مدير كلمات المرور"), Links.Article("password-manager-start")))));
     }

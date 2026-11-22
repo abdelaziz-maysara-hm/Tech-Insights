@@ -138,6 +138,7 @@ public sealed class MainWindow : Window
         // Navigation.
         var nav = new ListBox { Width = 250, BorderThickness = new Thickness(0), Background = Brushes.White, Padding = new Thickness(0, 6, 0, 6) }.Aid("nav");
         ScrollViewer.SetHorizontalScrollBarVisibility(nav, ScrollBarVisibility.Disabled);
+        VirtualizingPanel.SetIsVirtualizing(nav, false); // 19 items: keep all of them in the UI Automation tree
         foreach (var group in _pages.GroupBy(p => p.Category))
         {
             if (group.Key.Length > 0)

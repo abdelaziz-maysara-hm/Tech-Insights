@@ -107,7 +107,7 @@ public static class U
     }
 
     /// <summary>Finding row: badge + title + detail (+ optional link).</summary>
-    public static UIElement FindingRow(Level level, string title, string detail, string? linkText = null, string? url = null)
+    public static UIElement FindingRow(Level level, string title, string detail, string? linkText = null, string? url = null, string? automationId = null)
     {
         var g = new Grid { Margin = new Thickness(0, 0, 0, 8) };
         g.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(100) });
@@ -115,7 +115,9 @@ public static class U
         var badge = Badge(level); badge.HorizontalAlignment = HorizontalAlignment.Left; badge.VerticalAlignment = VerticalAlignment.Top;
         g.Children.Add(badge);
         var s = new StackPanel();
-        s.Children.Add(new TextBlock { Text = title, FontWeight = FontWeights.SemiBold, TextWrapping = TextWrapping.Wrap });
+        var t = new TextBlock { Text = title, FontWeight = FontWeights.SemiBold, TextWrapping = TextWrapping.Wrap };
+        if (automationId != null) t.Aid(automationId);
+        s.Children.Add(t);
         if (detail.Length > 0) s.Children.Add(new TextBlock { Text = detail, TextWrapping = TextWrapping.Wrap, Foreground = Muted });
         if (url != null) s.Children.Add(Link(linkText ?? url, url));
         Grid.SetColumn(s, 1); g.Children.Add(s);
