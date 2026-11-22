@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/NetSecAtlas.Core/NetSecAtlas.Core.csproj" />
+    <Project Path="src/NetSecAtlasTools/NetSecAtlasTools.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/NetSecAtlas.Core.Tests/NetSecAtlas.Core.Tests.csproj" />
+    <Project Path="tests/NetSecAtlasTools.UiTests/NetSecAtlasTools.UiTests.csproj" />
+  </Folder>
+</Solution>
