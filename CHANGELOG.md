@@ -1,6 +1,6 @@
 # Changelog
 
-## 23 November 2026 (Cairo): sitemap updates on every publish
+## 23 November 2026 (Cairo): sitemap updates on every publish ([PR #24](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/24))
 
 - **Rule:** every publish regenerates `sitemap.xml`, `video-sitemap.xml` and the RSS feeds from the actual content and app routes (articles, comparisons, pages, videos/playlists, alternatives, `/tools`, vendor and domain hubs, and any new static route declared in `App.tsx`). Do not edit the sitemap by hand.
 - **lastmod:** each URL uses the item's `updatedAt`/`updated`/`date`, or the git commit that last changed that item (or the relevant source file for section pages). The build clock is never applied to every URL. Hub pages such as `/tools` pick up the date of the latest program/page change. Video entries also carry `lastmod` and `video:publication_date` when a real date exists.
