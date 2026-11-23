@@ -30,6 +30,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          # Full history so sitemap <lastmod> can use each item's git date.
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v7
@@ -100,3 +103,40 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+  notify-indexnow:
+    needs: deploy
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Wait until GitHub Pages is serving this deploy
+        run: |
+          set +e
+          key=13a10f8dd925f0cae8bb47017b2b8ba2
+          for i in $(seq 1 24); do
+            code=$(curl -sS -o /tmp/indexnow-key.txt -w "%{http_code}" "https://netsecatlas.com/${key}.txt" || echo 000)
+            robots=$(curl -sS "https://netsecatlas.com/ar/search" | grep -o 'name="robots" content="[^"]*"' | head -1)
+            search_hits=$(curl -sS "https://netsecatlas.com/sitemap.xml" | grep -c "/search" || true)
+            echo "wait $i: key_http=$code robots=$robots search_in_sitemap=$search_hits"
+            if [ "$code" = "200" ] && [ "$(tr -d '[:space:]' < /tmp/indexnow-key.txt)" = "$key" ] && echo "$robots" | grep -q noindex && [ "$search_hits" = "0" ]; then
+              echo "live site is current"
+              exit 0
+            fi
+            sleep 15
+          done
+          echo "::warning::Pages did not show the new sitemap within the wait window; IndexNow will still be attempted"
+          exit 0
+
+      - name: Submit published URLs to IndexNow
+        working-directory: artifacts/techpulse-ar
+        run: node scripts/indexnow.mjs --sitemap https://netsecatlas.com/sitemap.xml

@@ -1,6 +1,6 @@
 # خارطة طريق NetSec Atlas / Roadmap
 
-آخر تحديث: 22 نوفمبر 2026 (توقيت القاهرة، UTC+2).  
+آخر تحديث: 23 نوفمبر 2026 (توقيت القاهرة، UTC+2).  
 هذا ملف الخطة. سجل ما تم إنجازه موجود في [README.md](../README.md) و[CHANGELOG.md](../CHANGELOG.md).
 
 This is the forward plan. Completed work is listed in the README and changelog.
@@ -16,7 +16,7 @@ This is the forward plan. Completed work is listed in the README and changelog.
 - **الإصدار:** [desktop-v2.0](https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/tag/desktop-v2.0): `NetSecAtlasTools.exe` (x64) و`NetSecAtlasTools-arm64.exe` و`SHA256SUMS.txt` و`screenshots.zip`. نفس اسم الملف ونفس أسلوب الوسوم القديم، فرابط `releases/latest/download/NetSecAtlasTools.exe` ما زال يعمل.
 - **التحميل من الموقع:** مباشر من نفس النطاق: `https://netsecatlas.com/downloads/NetSecAtlasTools.exe`. سير النشر ينسخ ملفات آخر إصدار إلى `/downloads/` ويعيد النشر تلقائيًا بعد أي إصدار `desktop-v*` ناجح.
 - **الاختبارات قبل كل إصدار** (`.github/workflows/desktop-ci.yml`، على `windows-latest` و`windows-11-arm`): 67 اختبار وحدات، اختبار تشغيل (النافذة تظهر وتبقى تعمل، ووضع اللقطة يخرج بنجاح)، و32 اختبار واجهة FlaUI تفتح كل أداة وتشغّل مثالها وتتحقق من النتيجة، مع لقطات شاشة عربي وإنجليزي. الإصدار لا يُنشأ إلا إذا نجح كل ذلك.
-- **مستودع netsecatlas-apps:** مذكور فيه أنه مستبدل، ومحفوظ للتاريخ. لم يُحذف ولم يُؤرشف (يحتاج موافقة المالك إن أراد ذلك).
+- **مستودع netsecatlas-apps:** مذكور فيه أنه مستبدل، ومحفوظ للتاريخ. بطلب المالك في 23 نوفمبر: يُترك كما هو، **لا يُؤرشف**.
 - **صفحات `/programs` غير المكتملة:** لم تُستكمل؛ صفحة `/tools` صارت صفحة البرنامج، و`/programs` و`/downloads` يحوّلان إليها. العمل غير المكتمل ما زال محفوظًا في `git stash` محليًا فقط.
 
 ### الخطوات التالية للبرامج
@@ -32,7 +32,7 @@ This is the forward plan. Completed work is listed in the README and changelog.
 - فتح حساب Microsoft Store إن أراد النشر هناك.
 - شراء شهادة توقيع OV (أو قبول SmartScreen مؤقتًا مع عرض SHA-256 بوضوح، كما هو الآن).
 - تقرير الإنذارات الكاذبة إلى Microsoft Defender عند ظهورها.
-- قرار أرشفة مستودع `netsecatlas-apps` على GitHub (اختياري).
+- (أُلغي) أرشفة مستودع `netsecatlas-apps`: المالك طلب تركه كما هو.
 
 ---
 
@@ -64,7 +64,8 @@ This is the forward plan. Completed work is listed in the README and changelog.
 
 ## 3) الموقع التقني / Site follow-ups
 
-- التحقق بعد كل نشر أن `/ar/alternatives` و`/en/alternatives` و`/tools` تعمل (أُصلح كسر البناء في 22 نوفمبر لهذا السبب).
+- **قاعدة: كل نشر يحدّث خريطة الموقع تلقائيًا.** `sitemap.xml` و`video-sitemap.xml` وRSS تُولَّد في `pnpm run build` من المقالات والمقارنات والفيديو والبدائل و`/tools` ومسارات التطبيق الجديدة. `<lastmod>` من تاريخ تحديث العنصر أو آخر commit في git (سير النشر يستخدم `fetch-depth: 0` لهذا). صفحات noindex مثل `/search` والتحويلات فقط تُستبعد. اختبار `test:build-output` يفشل إذا نقصت صفحة قابلة للفهرسة من الخريطة أو إذا ذكرت الخريطة رابط تحويل أو noindex (ما لن يكون 200 مفهرسًا). لا تُحرَّر الخريطة يدويًا.
+- التحقق بعد كل نشر أن `/ar/alternatives` و`/en/alternatives` و`/tools` تعمل (أُصلح كسر البناء في 22 نوفمبر لهذا السبب)، وأن الخريطة الحيّة تضمّها ولا تضم `/search`.
 - إعادة صياغة روابط المقالات التي ما زالت تشير إلى `/tools/spf-record-analyzer` ونظائرها، لتشير إلى أداة حقيقية على أداتي متى وُجدت، أو إلى تطبيق سطح المكتب للحسابات الشبكية. حاليًا هذه الروابط تُحوَّل إلى `/tools` حتى لا تُكسر.
 - صفحة `/tools`: تم توحيدها في 22 نوفمبر (البرنامج الموحّد أولًا، ثم تطبيقات Atlas، ثم أداتي).
 - فحص الروابط (404) تم في 22 نوفمبر على كل روابط خريطة الموقع وكل الروابط الداخلية عربي وإنجليزي. يُعاد بعد كل دفعة محتوى كبيرة.
@@ -79,7 +80,9 @@ This is the forward plan. Completed work is listed in the README and changelog.
 - متغيرات GitHub: `GA_MEASUREMENT_ID`، `GOOGLE_SITE_VERIFICATION`، `BING_SITE_VERIFICATION`.
 - ملف تحقق Search Console موجود في `public/googlec09262aa424a656e.html`.
 
-عندما يريد المالك: إضافة الموقع في Search Console، تأكيد التحقق، إرسال `https://netsecatlas.com/sitemap.xml`، وربط GA4 إن رغب. لا تُخترع أحجام بحث.
+بعد كل نشر ناجح يُرسل IndexNow (Bing والشركاء) تلقائيًا بقائمة روابط الخريطة. الملف `https://netsecatlas.com/13a10f8dd925f0cae8bb47017b2b8ba2.txt` هو مفتاح IndexNow (عام عمدًا).
+
+عندما يريد المالك: إضافة الموقع في Search Console، تأكيد التحقق، إرسال `https://netsecatlas.com/sitemap.xml` (مرة، ثم Google يزورها بعد التحديثات)، وربط GA4 إن رغب. لا تُخترع أحجام بحث.
 
 ---
 

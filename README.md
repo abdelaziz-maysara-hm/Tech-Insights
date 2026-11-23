@@ -11,14 +11,15 @@ Live site: [https://netsecatlas.com](https://netsecatlas.com) — practical Arab
 
 ## الحالة الآن / Where things stand
 
-**آخر تحديث لهذا الملف: 22 نوفمبر 2026 (توقيت القاهرة، UTC+2).**
+**آخر تحديث لهذا الملف: 23 نوفمبر 2026 (توقيت القاهرة، UTC+2).**
 
 - **المحتوى المنشور:** 135 مقالًا و69 مقارنة، لكل منها نسخة عربية ونسخة إنجليزية مكتوبة بشكل مستقل (ليست ترجمة حرفية). لم يراجع أي نص بشريًا بعد (`humanReviewed=0`، و`translationStatus` ليس `reviewed`).
 - **الموقع الحي قبل إصلاح 22 نوفمبر:** المقالات والمقارنات والفيديوهات وصفحة التطبيقات `/tools` تعمل. صفحات **البدائل** `/alternatives` كانت موجودة في `main` منذ 21 نوفمبر لكن **لم تُنشر** لأن عملية البناء فشلت بعد حذف أدوات الويب (تفاصيل الإصلاح أدناه).
 - **أدوات المتصفح داخل هذا الموقع أُزيلت** في 21 نوفمبر (المالك لديه موقع أدوات منفصل: [adawaty.tools](https://adawaty.tools)). الروابط القديمة مثل `/tools/spf-record-analyzer` تُحوَّل الآن إلى صفحة التطبيقات `/tools` حتى لا تظهر 404.
 - **برنامج ويندوز واحد: NetSec Atlas Tools 2.0** (22 نوفمبر). دُمج تطبيق WinForms (v1.3، عشر أدوات) مع برامج WPF الأحد عشر في برنامج واحد فيه **18 أداة** بالعربي والإنجليزي، تحت `desktop/`. كل إصدار يمر باختبارات وحدات واختبار تشغيل واختبار واجهة آلي لكل أداة على ويندوز x64 وARM64 قبل النشر. الإصدار: [desktop-v2.0](https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/tag/desktop-v2.0). التحميل المباشر من الموقع: `https://netsecatlas.com/downloads/NetSecAtlasTools.exe` (و`NetSecAtlasTools-arm64.exe` و`SHA256SUMS.txt`).
 - **صفحة** `/tools` تبدأ الآن بالبرنامج (قائمة الأدوات وأزرار تحميل مباشر)، ثم تطبيقات Atlas (لقطة، حافظة، PDF، تسجيل) من [atlas-recorders](https://github.com/abdelaziz-maysara-hm/atlas-recorders).
-- مستودع [netsecatlas-apps](https://github.com/abdelaziz-maysara-hm/netsecatlas-apps) أصبح **مستبدلًا** (مذكور في ملف README الخاص به) ولم يُحذف.
+- مستودع [netsecatlas-apps](https://github.com/abdelaziz-maysara-hm/netsecatlas-apps) أصبح **مستبدلًا** (مذكور في ملف README الخاص به) ولم يُحذف. بطلب المالك (23 نوفمبر) يُترك كما هو، **دون أرشفة**.
+- **قاعدة SEO:** مع كل نشر يُحدَّث تلقائيًا `sitemap.xml` و`video-sitemap.xml` وRSS من المحتوى والمسارات الفعلية. لا تُحرَّر خريطة الموقع يدويًا. `<lastmod>` يأتي من تاريخ تحديث العنصر أو آخر commit لمسه في git، وليس من وقت البناء. صفحات noindex مثل `/search` وصفحات التحويل فقط لا تُدرج. اختبار البناء يفشل إذا سقطت صفحة قابلة للفهرسة من الخريطة أو إذا ذكرت الخريطة رابطًا غير 200. بعد كل نشر يُرسل IndexNow لمحركات البحث الشريكة.
 - مولّد المقالات الآلي (generator) **محذوف**. إضافة المحتوى تتم يدويًا كما هو موضّح أدناه.
 
 الخطة القادمة كلها في ملف منفصل: **[docs/ROADMAP.md](docs/ROADMAP.md)**.
@@ -79,6 +80,12 @@ Dates below are Africa/Cairo (UTC+2).
 | [#22](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/22) | دمج تطبيق WinForms (v1.3) وبرامج WPF الأحد عشر في برنامج WPF واحد (.NET 10 LTS) تحت `desktop/`: 18 أداة في 4 أقسام، عربي/إنجليزي، ملف واحد x64 وARM64. حُذف المكرر (البصمة، مولّد كلمات المرور، قائمة المنافذ صارت داخل الأدوات الأكبر). أُصلحت أخطاء في حاسبات 1.x (‏`/0`، ومدى ينتهي بـ 255.255.255.255 كان لا ينتهي). اختبارات: 67 اختبار وحدات، اختبار تشغيل، و32 اختبار واجهة (FlaUI) تفتح كل أداة وتشغّلها، على `windows-latest` و`windows-11-arm`. سير العمل الجديد `desktop-ci.yml` لا ينشئ إصدارًا إلا بعد نجاح كل الاختبارات، وحلّ محل `build-desktop.yml`. |
 | [#23](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/23) | صفحة `/tools` للبرنامج الموحّد مع تحميل مباشر من نفس النطاق (`/downloads/`)، وSoftwareApplication JSON-LD، ونص ثابت قابل للزحف. سير النشر ينسخ ملفات آخر إصدار إلى `/downloads/` ويعيد النشر بعد كل إصدار `desktop-v*`. إصلاح روابط 404 (التفاصيل في CHANGELOG). |
 
+### 23 نوفمبر 2026: خريطة الموقع تُحدَّث مع كل نشر
+
+| PR | ماذا أُنجز |
+| --- | --- |
+| [#24](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/24) | `sitemap.xml` و`video-sitemap.xml` وRSS تُولَّد في كل بناء من المحتوى والمسارات الحقيقية (المقالات، الفيديو، البدائل، `/tools`، وأي مسار جديد في التطبيق). `<lastmod>` دقيق لكل عنصر. استبعاد `/search` (كانت العربية مدرجة بالخطأ وكانت الصفحة قابلة للفهرسة). اختبار يغطي كل صفحة prerender قابلة للفهرسة، ورفض روابط التحويل أو غير 200. IndexNow بعد النشر. قاعدة موثّقة: كل نشر يحدّث الخريطة تلقائيًا. مستودع netsecatlas-apps يُترك كما هو (بدون أرشفة). |
+
 ---
 
 ## هيكل الموقع والمستودع / How the site is structured
@@ -92,7 +99,8 @@ Dates below are Africa/Cairo (UTC+2).
 | `artifacts/techpulse-ar/src/config/` | سياسة hreflang، تحويلات المحتوى، إعدادات SEO |
 | `desktop/` | برنامج NetSec Atlas Tools (WPF، 18 أداة) والاختبارات. التفاصيل في [desktop/README.md](desktop/README.md) |
 | `artifacts/techpulse-ar/src/content/desktop-program.json` | بيانات البرنامج المعروضة في `/tools` (الأدوات، روابط التحميل، الإصدار) |
-| `.github/workflows/deploy-pages.yml` | بناء الموقع ونشره، ونسخ ملفات آخر إصدار للبرنامج إلى `/downloads/` |
+| `.github/workflows/deploy-pages.yml` | بناء الموقع ونشره، ونسخ ملفات آخر إصدار للبرنامج إلى `/downloads/`، ثم إشعار IndexNow |
+| `artifacts/techpulse-ar/scripts/generate-sitemap.mjs` و`sitemap-core.mjs` | توليد `sitemap.xml` و`video-sitemap.xml` من المحتوى والمسارات في كل بناء |
 | `.github/workflows/desktop-ci.yml` | اختبارات البرنامج على ويندوز x64 وARM64، ثم الإصدار عند وسم `desktop-v*` |
 
 المسارات العامة للموقع (كل منها له `/ar/` و`/en/`):
@@ -145,7 +153,7 @@ node scripts/translation-audit-phase4c.mjs
 ```
 
 6. اربط المقال من مقالات أقدم ذات صلة عندما يناسب. تحقّق من كل رابط خارجي. لا تخترع أرقام بحث أو اعتمادات للمؤلف. تاريخ المقال يكون يوم الإضافة الفعلي (لا ترجع التاريخ للخلف).
-7. فرع → طلب دمج → بعد نجاح البناء ادفع إلى `main` (النشر يتم تلقائيًا) ثم تحقق من الصفحتين `/ar/article/<slug>` و`/en/article/<slug>` على الموقع الحي.
+7. فرع → طلب دمج → بعد نجاح البناء ادفع إلى `main` (النشر يتم تلقائيًا) ثم تحقق من الصفحتين `/ar/article/<slug>` و`/en/article/<slug>` على الموقع الحي. **لا تعدّل `sitemap.xml` يدويًا** — خريطة الموقع وRSS يُعاد بناؤهما تلقائيًا مع كل نشر من المحتوى الجديد.
 
 التصنيفات والمواضيع والموردون المسموح بهم موثّقون في الاختبارات ووحدات المرحلة 8 الحالية؛ انسخ وحدة موجودة عند الشك.
 
@@ -163,7 +171,9 @@ pnpm install
 pnpm --filter @workspace/techpulse-ar run dev
 ```
 
-البناء (`pnpm --filter @workspace/techpulse-ar run build`) ينفّذ: خريطة الموقع، RSS، ملفات أجسام المقالات، Vite، ثم `seo-prerender` (HTML ثابت لكل رابط في الخريطة + تحويلات للروابط القديمة غير المسبوقة بلغة).
+البناء (`pnpm --filter @workspace/techpulse-ar run build`) ينفّذ: خريطة الموقع، RSS، ملفات أجسام المقالات، Vite، ثم `seo-prerender` (HTML ثابت لكل رابط في الخريطة + تحويلات للروابط القديمة غير المسبوقة بلغة). **كل نشر يحدّث الخريطة تلقائيًا.** تاريخ `<lastmod>` من تاريخ العنصر أو git، وصفحات مثل `/search` لا تُدرج. بعد نجاح النشر يُرسل إشعار IndexNow.
+
+للتحقق محليًا: `pnpm --filter @workspace/techpulse-ar run test:sitemap` بعد توليد الخريطة، و`test:build-output` بعد البناء الكامل.
 
 **تحليلات والتحقق من محركات البحث (اختياري، عندما يريد المالك):** متغيرات المستودع `GA_MEASUREMENT_ID` و`GOOGLE_SITE_VERIFICATION` و`BING_SITE_VERIFICATION`. ملف تحقق Search Console `googlec09262aa424a656e.html` موجود أصلًا في `public/`. لا تُحقَن أي شيفرة عندما تكون المتغيرات فارغة.
 

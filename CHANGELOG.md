@@ -1,5 +1,14 @@
 # Changelog
 
+## 23 November 2026 (Cairo): sitemap updates on every publish ([PR #24](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/24))
+
+- **Rule:** every publish regenerates `sitemap.xml`, `video-sitemap.xml` and the RSS feeds from the actual content and app routes (articles, comparisons, pages, videos/playlists, alternatives, `/tools`, vendor and domain hubs, and any new static route declared in `App.tsx`). Do not edit the sitemap by hand.
+- **lastmod:** each URL uses the item's `updatedAt`/`updated`/`date`, or the git commit that last changed that item (or the relevant source file for section pages). The build clock is never applied to every URL. Hub pages such as `/tools` pick up the date of the latest program/page change. Video entries also carry `lastmod` and `video:publication_date` when a real date exists.
+- **Exclusions:** noindex pages (`/search`) and redirect-only identities (`/programs`, `/downloads`, retired article slugs) stay out of the sitemap. `/ar/search` had been listed and prerendered as `index, follow`; both language search pages are now noindex and omitted from the sitemap (623 → 622 URLs). `/tools` and the alternatives pages were already present.
+- **CI:** `test:build-output` fails if any prerendered indexable page is missing from the sitemap, or if the sitemap lists a redirect, a noindex page, or a URL with no built 200 file. `test:sitemap` asserts lastmod, the exclusions, and that `/tools` and `/alternatives` are listed in both languages. Deploy checkout uses `fetch-depth: 0` so git dates work in CI.
+- **IndexNow:** after a successful production deploy the workflow waits for GitHub Pages and submits the live sitemap URLs to the IndexNow API (non-blocking if the endpoint is down).
+- netsecatlas-apps is left as it is (not archived), per the owner.
+
 ## 22 November 2026 (Cairo): one desktop program, direct downloads, 404 audit
 
 - **NetSec Atlas Tools 2.0** ([PR #22](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/22), release [desktop-v2.0](https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/tag/desktop-v2.0)): the WinForms NetSecAtlasTools 1.3 (10 tools) and the 11 WPF apps from netsecatlas-apps merged into one WPF program in `desktop/` (.NET 10 LTS): 18 tools, 4 categories, Arabic/English, single-file x64 and ARM64. Duplicates folded in (text hash into Hash Checker, password generator into Passwords, common ports into Ports & Services). Bugs fixed while porting: `/0` subnet size, a range ending at 255.255.255.255 looped forever, the generator could omit a selected character type.

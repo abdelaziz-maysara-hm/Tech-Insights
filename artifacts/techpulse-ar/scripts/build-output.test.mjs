@@ -3,7 +3,7 @@
  * Verifies what GitHub Pages will actually serve.
  */
 import assert from 'node:assert/strict';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import test from 'node:test';
 import { fileURLToPath } from 'node:url';
@@ -77,4 +77,75 @@ test('root page is crawlable and 404 page is noindex', () => {
   assert.match(root, /<link rel="canonical" href="https:\/\/netsecatlas.com\/ar\/" \/>/);
   assert.ok(textOf(root).length > 500);
   assert.match(read('404.html'), /<meta name="robots" content="noindex, follow" \/>/);
+});
+
+
+function walkHtml(dir, rel = '') {
+  const out = [];
+  for (const ent of readdirSync(dir, { withFileTypes: true })) {
+    if (ent.name === 'downloads' || ent.name === 'assets' || ent.name === 'icons' || ent.name.startsWith('.')) continue;
+    const next = rel ? `${rel}/${ent.name}` : ent.name;
+    if (ent.isDirectory()) out.push(...walkHtml(join(dir, ent.name), next));
+    else if (ent.name.endsWith('.html')) out.push(next);
+  }
+  return out;
+}
+
+function isRedirectStub(html) {
+  return /http-equiv=["']refresh["']/i.test(html) || /<script>location\.replace\(/.test(html);
+}
+
+function robotsContent(html) {
+  const m = html.match(/<meta\s+name=["']robots["']\s+content=["']([^"']+)["']/i);
+  return m ? m[1].toLowerCase() : '';
+}
+
+function canonicalHref(html) {
+  const m = html.match(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i);
+  return m ? m[1] : '';
+}
+
+test('search pages exist in both languages and are noindex', () => {
+  for (const lang of ['ar', 'en']) {
+    const html = read(`${lang}/search/index.html`);
+    assert.match(robotsContent(html), /noindex/);
+    assert.ok(!isRedirectStub(html));
+  }
+});
+
+test('IndexNow key file is deployed at the site root', () => {
+  const key = '13a10f8dd925f0cae8bb47017b2b8ba2';
+  assert.equal(read(`${key}.txt`).trim(), key);
+});
+
+test('prerendered indexable pages are all listed in the sitemap', () => {
+  const xml = read('sitemap.xml');
+  const sitemap = new Set([...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]));
+  const indexable = new Set();
+  for (const rel of walkHtml(dist)) {
+    if (rel === '404.html') continue;
+    const html = read(rel);
+    if (isRedirectStub(html)) continue;
+    if (/\bnoindex\b/.test(robotsContent(html))) continue;
+    const canonical = canonicalHref(html);
+    if (!/^https:\/\/netsecatlas\.com\/(ar|en)\//.test(canonical)) continue;
+    indexable.add(canonical);
+  }
+  const missing = [...indexable].filter((url) => !sitemap.has(url)).sort();
+  assert.equal(missing.length, 0, `indexable pages missing from sitemap: ${missing.slice(0, 20).join(', ')}`);
+});
+
+test('every sitemap URL is a 200 indexable prerendered page, not a redirect or noindex', () => {
+  const xml = read('sitemap.xml');
+  const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+  assert.ok(!urls.some((u) => u.includes('/search')));
+  for (const url of urls) {
+    const { pathname } = new URL(url);
+    const file = servedFile(pathname);
+    assert.ok(existsSync(join(dist, file)), `sitemap URL has no built file (would not be 200): ${url}`);
+    const html = read(file);
+    assert.ok(!isRedirectStub(html), `sitemap lists a redirect-only URL: ${url}`);
+    assert.ok(!/\bnoindex\b/.test(robotsContent(html)), `sitemap lists a noindex URL: ${url}`);
+    assert.match(html, /<meta name="robots" content="index, follow" \/>/);
+  }
 });

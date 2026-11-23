@@ -79,7 +79,7 @@ export function injectSeoIntoShell(shellHtml, seo, extras = {}) {
   const desc = seo.description || (seo.lang === 'ar' ? SITE.descriptionAr : SITE.descriptionEn);
   const tags = [];
   tags.push(`<meta name="description" content="${escapeAttr(desc)}" />`);
-  tags.push(`<meta name="robots" content="index, follow" />`);
+  tags.push(`<meta name="robots" content="${escapeAttr(seo.robots || "index, follow")}" />`);
   tags.push(`<link rel="canonical" href="${escapeAttr(seo.canonical)}" />`);
   for (const alt of seo.alternates) {
     tags.push(
@@ -505,12 +505,13 @@ function main() {
   // Search is query-driven, so it stays out of the sitemap and hreflang, but
   // /ar/search and /en/search must still be real pages (the navbar and the
   // WebSite SearchAction point there). Write a noindex page for any missing.
+  // Always rewrite search as noindex, even if a stale sitemap caused a first
+  // pass to emit index,follow (search is query-driven and stays out of the sitemap).
   let searchPages = 0;
   for (const lang of ['ar', 'en']) {
     const out = join(distPublic, lang, 'search', 'index.html');
-    if (existsSync(out)) continue;
     const pathname = `/${lang}/search`;
-    const seo = resolveRouteSeo(pathname, indexes);
+    const seo = { ...resolveRouteSeo(pathname, indexes), robots: 'noindex, follow' };
     const html = injectSeoIntoShell(shellHtml, seo, buildRouteExtras(pathname, seo, indexes)).replace(
       /<meta\s+name=["']robots["'][^>]*>/i,
       '<meta name="robots" content="noindex, follow" />',
