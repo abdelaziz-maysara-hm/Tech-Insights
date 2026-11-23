@@ -258,6 +258,13 @@ export function isHreflangEligibleForRoute(identity, indexes) {
   // Video hub, playlist and video pages are authored in both languages.
   if (/^\/(videos|videos\/[^/]+|video\/[^/]+)$/.test(identity)) return true;
   if (/^\/alternatives(\/[^/]+)?$/.test(identity)) return true;
+  if (/^\/vendors\/[^/]+$/.test(identity) && indexes.vendorsById?.has(identity.slice('/vendors/'.length))) {
+    return true;
+  }
+  if (/^\/domain\/[^/]+$/.test(identity) && indexes.domainsById?.has(identity.slice('/domain/'.length))) {
+    // Domain.tsx only serves cybersecurity, networking and infrastructure.
+    return ['cybersecurity', 'networking', 'infrastructure'].includes(identity.slice('/domain/'.length));
+  }
   if (indexes.eligibleDiscoveryRoutes.has(identity) || indexes.reviewedContentRoutes.has(identity)) {
     return true;
   }
@@ -302,6 +309,7 @@ export function resolveRouteSeo(pathname, indexes) {
     datePublished: '',
     authorName: '',
     source: 'fallback',
+    robots: identity === '/search' ? 'noindex, follow' : 'index, follow',
   };
 
   let m;

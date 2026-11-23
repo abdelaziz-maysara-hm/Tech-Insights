@@ -29,6 +29,7 @@
     "test:phase4e": "node --test scripts/phase4e-validation.test.mjs",
     "test:web-tools": "node --test scripts/web-tools.test.mjs",
     "rss": "node scripts/generate-rss.mjs",
+    "indexnow": "node scripts/indexnow.mjs",
     "audit:phase3": "node scripts/content-audit-phase3.mjs",
     "apply:phase5a": "node scripts/apply-phase5a-metadata.mjs",
     "test:phase5a": "node --test scripts/phase5a-metadata.test.mjs",
