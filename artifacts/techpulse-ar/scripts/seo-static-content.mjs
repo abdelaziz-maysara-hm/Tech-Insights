@@ -243,7 +243,7 @@ function renderArticle(article, seo, indexes) {
   const heroSrc = sizedHero(article.heroImage, 800, 450);
   const srcset = heroSrcSet(article.heroImage);
   const hero = article.heroImage
-    ? `<img src="${escapeAttr(heroSrc)}"${srcset ? ` srcset="${escapeAttr(srcset)}" sizes="(max-width: 768px) 100vw, 768px"` : ''} alt="${escapeAttr(seo.title)}" width="800" height="450" loading="eager" decoding="async" />`
+    ? `<img src="${escapeAttr(heroSrc)}"${srcset ? ` srcset="${escapeAttr(srcset)}" sizes="100vw"` : ''} alt="${escapeAttr(seo.title)}" width="800" height="450" loading="eager" decoding="sync" fetchpriority="high" />`
     : '';
   const adjacent = [
     previous

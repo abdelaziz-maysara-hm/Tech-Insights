@@ -3,7 +3,7 @@ import type { ArticleListItem } from '@/data/mockData';
 import { useLanguage } from '@/context/LanguageContext';
 import { Clock, PlayCircle } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import { heroSrcSet, sizedHero } from '@/lib/images';
+import { HERO_SIZES_FEATURED, heroSrcSet, sizedHero } from '@/lib/images';
 
 
 function authorName(article: ArticleListItem, language: 'ar' | 'en'): string {
@@ -41,13 +41,13 @@ export function ArticleCard({ article, featured = false, className }: ArticleCar
         <img
           src={sizedHero(article.heroImage, 1200, 675)}
           srcSet={heroSrcSet(article.heroImage)}
-          sizes="100vw"
+          sizes={HERO_SIZES_FEATURED}
           alt={article.title[language]}
           className="w-full h-[400px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
           width={1200}
           height={675}
           loading="eager"
-          decoding="async"
+          decoding="sync"
           fetchPriority="high"
           onError={handleHeroError}
         />

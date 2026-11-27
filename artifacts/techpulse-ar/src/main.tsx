@@ -13,6 +13,10 @@ const container = document.getElementById("root")!;
  * the static HTML on screen in-flow and paint React in an absolutely
  * positioned layer, then swap in one frame without collapsing the document
  * with display:none (that was a major CLS source).
+ *
+ * Swap as soon as the lazy route has committed: a 6s fallback was showing
+ * up as 4–5s of LCP render delay, because Lighthouse then attributed LCP
+ * to the new <img> at swap time.
  */
 function keepPrerenderUntilAppIsReady(root: HTMLElement) {
   const prerendered = root.querySelector<HTMLElement>("[data-prerendered]");
@@ -59,13 +63,14 @@ function keepPrerenderUntilAppIsReady(root: HTMLElement) {
   const isReady = () => {
     const main = root.querySelector("main");
     if (!main || main.querySelector('[aria-busy="true"]')) return false;
-    return (main.textContent ?? "").trim().length > 80;
+    return Boolean(main.querySelector("h1, h2, img")) || (main.textContent ?? "").trim().length > 40;
   };
   const observer = new MutationObserver(() => {
     if (isReady()) reveal();
   });
   observer.observe(root, { childList: true, subtree: true, characterData: true });
-  const fallback = window.setTimeout(reveal, 6000);
+  // Last resort only — do not wait this long on the happy path.
+  const fallback = window.setTimeout(reveal, 2500);
 }
 
 function mount(root: HTMLElement) {

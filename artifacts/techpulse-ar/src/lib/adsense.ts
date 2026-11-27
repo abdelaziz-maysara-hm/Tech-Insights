@@ -33,6 +33,6 @@ export function scheduleAdSense(): void {
   };
   events.forEach((ev) => window.addEventListener(ev, onInteract, { once: true, passive: true }));
 
-  const ric = window.requestIdleCallback ?? ((cb: () => void) => window.setTimeout(cb, 3500));
-  ric(() => load(), { timeout: 4000 });
+  const ric = window.requestIdleCallback ?? ((cb: () => void) => window.setTimeout(cb, 10000));
+  ric(() => load(), { timeout: 10000 });
 }
