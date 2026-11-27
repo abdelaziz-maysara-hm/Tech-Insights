@@ -74,8 +74,8 @@ export default function Tools() {
   useSEO({
     title: ar ? 'NetSec Atlas Tools وتطبيقات Atlas — تحميل مجاني لويندوز' : 'NetSec Atlas Tools and Atlas apps — free Windows downloads',
     description: ar
-      ? 'حمّل NetSec Atlas Tools: برنامج واحد فيه 18 أداة شبكات وأمان لويندوز (فحص الأمان، البصمة، كلمات المرور، DNS، المنافذ، الشبكات الفرعية، شهادات TLS). وتطبيقات Atlas للتصوير والتسجيل وPDF.'
-      : 'Download NetSec Atlas Tools: one Windows program with 18 network and security tools (security check, hashes, passwords, DNS, ports, subnets, TLS certificates), plus Atlas capture, recording and PDF apps.',
+      ? 'حمّل NetSec Atlas Tools: برنامج واحد فيه 27 أداة شبكات وأمان لويندوز (فحص الأمان، البصمة، سمعة الملفات، كلمات المرور، DNS، تتبع المسار، RDAP، JWT، الشبكات الفرعية، شهادات TLS). وتطبيقات Atlas للتصوير والتسجيل وPDF.'
+      : 'Download NetSec Atlas Tools: one Windows program with 27 network and security tools (security check, hashes, file reputation, passwords, DNS, traceroute, RDAP, JWT, subnets, TLS certificates), plus Atlas capture, recording and PDF apps.',
     path: '/tools',
   });
 
@@ -145,7 +145,7 @@ export default function Tools() {
           </p>
           <p className="mt-2">
             {ar ? 'كل إصدار بيعدّي اختبارات تلقائية على ويندوز (x64 وARM64) قبل النشر. ' : 'Every release passes automated tests on Windows (x64 and ARM64) before it is published. '}
-            <a href={program.releasesUrl} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+            <a href={program.releasesUrl} target="_blank" rel="noopener noreferrer" className="text-primary underline">
               {ar ? 'الإصدارات والكود المصدري' : 'Releases and source code'}
             </a>
           </p>
@@ -217,8 +217,8 @@ export default function Tools() {
             title="NetSec Atlas Tools"
             body={
               ar
-                ? 'حمّل الملف وشغّله، مفيش تثبيت. 18 أداة في نافذة واحدة مقسمة لأقسام على الجنب. زر "جرّب مثالًا" يملأ مثال ويشغّل الأداة. بيفتكر اللغة.'
-                : 'Download and run, no install. 18 tools in one window, grouped on the left. "Try a sample" fills an example and runs the tool. It remembers your language.'
+                ? 'حمّل الملف وشغّله، مفيش تثبيت. 27 أداة في نافذة واحدة مقسمة لأقسام على الجنب. زر "جرّب مثالًا" يملأ مثال ويشغّل الأداة. بيفتكر اللغة.'
+                : 'Download and run, no install. 27 tools in one window, grouped on the left. "Try a sample" fills an example and runs the tool. It remembers your language.'
             }
           />
           <ManualApp

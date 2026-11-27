@@ -68,9 +68,14 @@ public static class NetDoctor
         catch (Exception ex) { return (false, 0, ex.GetBaseException().Message); }
     }
 
-    public static async Task<List<string>> TraceAsync(string host, int maxHops = 20, int timeoutMs = 1500, CancellationToken ct = default)
+    public sealed record TraceHop(int Ttl, string Address, long? RttMs, string Status, bool Reached)
     {
-        var hops = new List<string>();
+        public string Line => $"{Ttl,2}  {Address,-40} {(RttMs is { } ms ? $"{ms} ms" : "")}".TrimEnd();
+    }
+
+    public static async Task<List<TraceHop>> TraceHopsAsync(string host, int maxHops = 20, int timeoutMs = 1500, CancellationToken ct = default)
+    {
+        var hops = new List<TraceHop>();
         using var p = new Ping();
         var data = new byte[32];
         for (int ttl = 1; ttl <= maxHops && !ct.IsCancellationRequested; ttl++)
@@ -78,12 +83,39 @@ public static class NetDoctor
             var sw = Stopwatch.StartNew();
             PingReply r;
             try { r = await p.SendPingAsync(host, timeoutMs, data, new PingOptions(ttl, true)).ConfigureAwait(false); }
-            catch { hops.Add($"{ttl,2}  *"); break; }
+            catch
+            {
+                hops.Add(new TraceHop(ttl, "*", null, Tr.T("error", "خطأ"), false));
+                break;
+            }
+            var reached = r.Status == IPStatus.Success;
             var addr = r.Status is IPStatus.TtlExpired or IPStatus.Success ? r.Address?.ToString() ?? "*" : "*";
-            hops.Add($"{ttl,2}  {addr,-40} {(addr == "*" ? "" : $"{sw.ElapsedMilliseconds} ms")}");
-            if (r.Status == IPStatus.Success) break;
+            long? ms = addr == "*" ? null : sw.ElapsedMilliseconds;
+            var status = r.Status switch
+            {
+                IPStatus.Success => Tr.T("reached", "وصل"),
+                IPStatus.TtlExpired => Tr.T("hop", "قفزة"),
+                IPStatus.TimedOut => Tr.T("timeout", "انتهت المهلة"),
+                _ => r.Status.ToString(),
+            };
+            hops.Add(new TraceHop(ttl, addr, ms, status, reached));
+            if (reached) break;
         }
         return hops;
+    }
+
+    public static async Task<List<string>> TraceAsync(string host, int maxHops = 20, int timeoutMs = 1500, CancellationToken ct = default)
+        => (await TraceHopsAsync(host, maxHops, timeoutMs, ct).ConfigureAwait(false)).Select(h => h.Line).ToList();
+
+    public static string FormatHops(IEnumerable<TraceHop> hops)
+    {
+        var list = hops.ToList();
+        var sb = new StringBuilder();
+        sb.AppendLine(Tr.T($"Hops: {list.Count}", $"القفزات: {list.Count}"));
+        foreach (var h in list) sb.AppendLine(h.Line);
+        if (list.Count > 0 && !list[^1].Reached) sb.AppendLine(Tr.T("Did not reach the target (ICMP may be blocked, or max hops too low).", "لم نصل إلى الهدف (قد يكون ICMP محجوبًا، أو الحد الأقصى للقفزات منخفضًا)."));
+        else if (list.Count > 0) sb.AppendLine(Tr.T("Reached the target.", "تم الوصول إلى الهدف."));
+        return sb.ToString().TrimEnd();
     }
 
     /// <summary>Turns raw observations into ordered findings. Pure function, unit tested.</summary>

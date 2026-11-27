@@ -6,6 +6,7 @@ import { useTheme } from '@/context/ThemeContext';
 import { useAllArticles } from '@/hooks/useAllArticles';
 import { navigate } from 'wouter/use-browser-location';
 import { getEquivalentLocalizedPath } from '@/lib/localizedRouting';
+import { sizedHero } from '@/lib/images';
 
 export function Navbar() {
   const { language, setLanguage, t } = useLanguage();
@@ -84,7 +85,7 @@ export function Navbar() {
                     {searchResults.map(article => (
                       <li key={article.id}>
                         <Link href={`/article/${article.slug}`} className="flex items-center gap-3 p-3 hover:bg-muted transition-colors">
-                          <img src={article.heroImage} alt="" className="w-12 h-12 object-cover rounded" />
+                          <img src={sizedHero(article.heroImage, 96, 96)} alt="" className="w-12 h-12 object-cover rounded" width={48} height={48} loading="lazy" decoding="async" />
                           <div className="flex-1 min-w-0">
                             <p className="text-sm font-medium truncate">{article.title[language]}</p>
                             <p className="text-xs text-muted-foreground truncate">{t(article.categoryId)}</p>
@@ -110,12 +111,12 @@ export function Navbar() {
 
         {/* Actions */}
         <div className="flex items-center gap-2">
-          <button 
+          <button
+            type="button"
             onClick={toggleLanguage}
             className="p-2 rounded-full hover:bg-muted transition-colors flex items-center gap-1 font-semibold text-sm"
-            aria-label="Toggle language"
           >
-            <Globe className="h-4 w-4" />
+            <Globe className="h-4 w-4" aria-hidden />
             <span>{language === 'ar' ? 'EN' : 'عربي'}</span>
           </button>
           

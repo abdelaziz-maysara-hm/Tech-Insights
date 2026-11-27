@@ -1,6 +1,6 @@
 # NetSec Atlas Tools (desktop)
 
-One Windows program with **18 network and security tools**, in Arabic and English. Version **2.0** merges the earlier NetSecAtlasTools 1.x calculators (WinForms) and the 11 NetSec Atlas apps (WPF, previously in [netsecatlas-apps](https://github.com/abdelaziz-maysara-hm/netsecatlas-apps)) into a single WPF app on .NET 10 LTS.
+One Windows program with **27 network and security tools**, in Arabic and English. Version **2.0** merged the earlier NetSecAtlasTools 1.x calculators (WinForms) and the 11 NetSec Atlas apps (WPF, previously in [netsecatlas-apps](https://github.com/abdelaziz-maysara-hm/netsecatlas-apps)) into a single WPF app on .NET 10 LTS. Version **2.1** adds nine tools: file/URL reputation (public lookup links only), startup and persistence viewer, Wi-Fi QR codes, RDAP lookup, public IP and location, traceroute, certificate/CSR decoder, JWT decoder and a regex tester.
 
 **Download:** [netsecatlas.com/en/tools](https://netsecatlas.com/en/tools) (direct `.exe` download) or [Releases](https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/latest). One file, no install, no .NET needed. x64 and ARM64. Check the SHA-256 against `SHA256SUMS.txt`:
 
@@ -18,6 +18,9 @@ Get-FileHash .\NetSecAtlasTools.exe -Algorithm SHA256
 | | Hash Checker (files **and text**, SHA256SUMS, Explorer menu) | WPF app + 1.x Hash | none |
 | | Passwords (**generator**, strength, breach check) | WPF app + 1.x Password generator | api.pwnedpasswords.com, 5-char prefix, only when you press it |
 | | Wi-Fi Checker | WPF app | none (local scan) |
+| | File / URL Reputation | 2.1 | browser links only (VirusTotal, urlscan); hash is local |
+| | Startup & Persistence | 2.1 | none (read-only) |
+| | Wi-Fi QR Code | 2.1 | none |
 | Networking | Network Troubleshooter | WPF app | the target you enter |
 | | Ping Monitor | WPF app | ICMP to your hosts |
 | | DNS Benchmark | WPF app | DNS queries |
@@ -27,17 +30,23 @@ Get-FileHash .\NetSecAtlasTools.exe -Algorithm SHA256
 | | Range → CIDR | 1.x | none |
 | | IP Converter | 1.x | none |
 | | MAC Vendor Lookup | 1.x | none |
+| | RDAP Lookup | 2.1 | rdap.org (no API key) |
+| | Public IP & Location | 2.1 | ipify and ipwho.is (no API key) |
+| | Traceroute | 2.1 | ICMP to the host you enter |
 | Admin & email | AD Lockout Tracer | WPF app | your domain controllers |
 | | TLS Certificate Checker | WPF app | the hosts you list |
 | | Email Header Analyzer | WPF app | none |
+| | Certificate / CSR Decoder | 2.1 | none |
 | Utilities | Encode / Decode (Base64, Hex, **URL**) | 1.x | none |
 | | Timestamp Converter (seconds **and milliseconds**) | 1.x | none |
+| | JWT Decoder | 2.1 | none |
+| | Regex Tester | 2.1 | none |
 
 Duplicates removed: the 1.x hash, password generator and port list now live inside Hash Checker, Passwords and Ports & Services.
 
 Fixes found while porting 1.x: `/0` returned a wrong block size (32-bit shift wrap), a range ending at `255.255.255.255` never finished, and the password generator could leave out a selected character type.
 
-Command line: `NetSecAtlasTools.exe [file] [--lang ar|en] [--tool <id>] [--demo]`. A file path opens it in Hash Checker (used by the Explorer menu). Tool ids: `healthcheck hashchecker passwordcheck wificheck netdoctor pingmonitor dnsbench portcheck subnet vlsm range ipconvert mac lockouttracer certexpiry headeranalyzer encoding timestamp`.
+Command line: `NetSecAtlasTools.exe [file] [--lang ar|en] [--tool <id>] [--demo]`. A file path opens it in Hash Checker (used by the Explorer menu). Tool ids: `healthcheck hashchecker passwordcheck wificheck reputation startup wifiqr netdoctor pingmonitor dnsbench portcheck subnet vlsm range ipconvert mac rdap publicip traceroute lockouttracer certexpiry headeranalyzer certdecode encoding timestamp jwt regex`.
 
 Privacy: no telemetry, no ads, no accounts. Only the language choice is saved (`%APPDATA%\NetSecAtlas\settings.txt`).
 
@@ -74,7 +83,7 @@ Release: push a tag `desktop-vX.Y` (e.g. `git tag desktop-v2.1 && git push origi
 
 ## بالعربي
 
-**NetSec Atlas Tools** برنامج واحد لويندوز فيه 18 أداة شبكات وأمان بالعربي والإنجليزي. الإصدار 2.0 دمج برنامج NetSecAtlasTools 1.x (الحاسبات) مع برامج NetSec Atlas الأحد عشر في برنامج واحد، وحذف المكرر (البصمة ومولد كلمات المرور وقائمة المنافذ بقت جوه الأدوات الأكبر).
+**NetSec Atlas Tools** برنامج واحد لويندوز فيه 27 أداة شبكات وأمان بالعربي والإنجليزي. الإصدار 2.0 دمج برنامج NetSecAtlasTools 1.x (الحاسبات) مع برامج NetSec Atlas الأحد عشر. الإصدار 2.1 أضاف تسع أدوات: سمعة الملفات (روابط عامة فقط)، بدء التشغيل، QR للواي فاي، RDAP، عنوان IP العام، تتبع المسار، فك الشهادات، فك JWT، ومختبر التعبيرات المنتظمة.
 
 التحميل من [netsecatlas.com/ar/tools](https://netsecatlas.com/ar/tools) مباشرة. ملف واحد من غير تثبيت. كل إصدار بيعدي اختبارات وحدات واختبار تشغيل واختبار واجهة لكل أداة على x64 وARM64 قبل ما يتنشر.
 

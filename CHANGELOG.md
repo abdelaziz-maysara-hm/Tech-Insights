@@ -1,5 +1,11 @@
 # Changelog
 
+## 27 November 2026 (Cairo): NetSec Atlas Tools 2.1 and site polish ([PR #26](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/26), release tag pending)
+
+- **Desktop 2.1** (nine new tools, 18 → 27). Core logic and unit tests (79, including 12 new) run on Linux; WPF pages, ToolRegistry, version 2.1.0, UI test coverage and a T25 check for JWT/regex/Wi-Fi QR. Chosen tools and reasons are in `docs/ROADMAP.md#phase-2-1`. Public endpoints only (rdap.org, ipify, ipwho.is); reputation uses local hashes and public VirusTotal/urlscan links, nothing is uploaded and no API key is required. JWT decode only (signatures are not verified). Startup viewer is read-only. Windows x64/ARM64 CI, the `desktop-v2.1` tag, and `/downloads/` verification are still pending — do not tag until `desktop-ci` is green on both architectures.
+- **Site:** `/tools` list, Arabic/English copy, prerender meta and SoftwareApplication JSON-LD say 27 tools and version 2.1.0 (goes live with this merge; the exe stays 2.0 until the tag).
+- **Lighthouse (mobile, before scores on the live 2.0 site, 27 Nov):** home 68/73 performance (AR/EN), 92 a11y, 79 best practices, 100/92 SEO; article 65/53, 94, 79, 100; video 79/69, 94, 79, 100; /tools 77/77, 89, 79, 100; alternatives 90/93, 93, 79, 100. Fixes in this change: footer “back to top” name, language button accessible name matches the visible EN/عربي label, comparison device names are no longer skipped-level headings, home “Read more” links name the section, in-paragraph tools link is underlined, Unsplash thumbs request a fitting size with srcset on heroes, unused Tajawal font dropped, font weights reduced, language font applied from `html[lang]` so it does not wait for JS. After scores will be recaptured once this is deployed. AdSense third-party cookies still limit the best-practices score.
+
 ## 23 November 2026 (Cairo): sitemap updates on every publish ([PR #24](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/24))
 
 - **Rule:** every publish regenerates `sitemap.xml`, `video-sitemap.xml` and the RSS feeds from the actual content and app routes (articles, comparisons, pages, videos/playlists, alternatives, `/tools`, vendor and domain hubs, and any new static route declared in `App.tsx`). Do not edit the sitemap by hand.

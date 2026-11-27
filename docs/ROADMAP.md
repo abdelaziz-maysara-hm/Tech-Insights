@@ -62,10 +62,10 @@ Started: 27 November 2026 (Africa/Cairo, UTC+2). Checkboxes below should be tick
 
 #### قائمة تنفيذ البرنامج / Desktop implementation
 
-- [ ] المنطق في `desktop/src/NetSecAtlas.Core/` مع اختبارات وحدات (قابلة للتشغيل على لينكس حيث لا تحتاج واجهة ويندوز)
-- [ ] صفحات WPF في `Pages/`، عربي/إنجليزي، وتسجيلها في `Shell/ToolRegistry.cs` مع `OnDemoAsync` لكل أداة
-- [ ] رفع الإصدار إلى **2.1.0** في `desktop/Directory.Build.props` و`artifacts/techpulse-ar/src/content/desktop-program.json`
-- [ ] تحديث جدول الأدوات ومعرّفات سطر الأوامر في `desktop/README.md`
+- [x] المنطق في `desktop/src/NetSecAtlas.Core/` مع اختبارات وحدات (قابلة للتشغيل على لينكس حيث لا تحتاج واجهة ويندوز) — 79 اختبارًا نجحت محليًا على لينكس (67 سابقة + 12 جديدة)
+- [x] صفحات WPF في `Pages/`، عربي/إنجليزي، وتسجيلها في `Shell/ToolRegistry.cs` مع `OnDemoAsync` لكل أداة
+- [x] رفع الإصدار إلى **2.1.0** في `desktop/Directory.Build.props` و`artifacts/techpulse-ar/src/content/desktop-program.json`
+- [x] تحديث جدول الأدوات ومعرّفات سطر الأوامر في `desktop/README.md`
 
 #### اختبارات إلزامية قبل الإصدار / Mandatory tests before release
 
@@ -83,7 +83,7 @@ Started: 27 November 2026 (Africa/Cairo, UTC+2). Checkboxes below should be tick
 
 - [ ] بعد اخضرار CI: `git tag desktop-v2.1 && git push origin desktop-v2.1` (لا يُعاد الوسم بصمت إن فشل شيء؛ يُفحص السبب أولًا)
 - [ ] التحقق أن صفحة الإصدار تحتوي `NetSecAtlasTools.exe` و`NetSecAtlasTools-arm64.exe` و`SHA256SUMS.txt` و`screenshots.zip`
-- [ ] تحديث صفحة `/tools`: قائمة الأدوات الجديدة، العدد (18 → 27)، و`SoftwareApplication` بالإصدار 2.1.0 (في `desktop-program.json` و`Tools.tsx` ونصوص SEO التي تقول «18 أداة»)
+- [x] تحديث صفحة `/tools`: قائمة الأدوات الجديدة، العدد (18 → 27)، و`SoftwareApplication` بالإصدار 2.1.0 (في `desktop-program.json` و`Tools.tsx` ونصوص SEO التي تقول «18 أداة») — في الشيفرة، يُنشر مع الدمج
 - [ ] دمج تغييرات الموقع؛ سير `deploy-pages.yml` ينسخ ملفات آخر إصدار إلى `https://netsecatlas.com/downloads/`
 - [ ] التحقق الحي: التحميل مباشر (200 و`application/octet-stream` أو مرفق)، والملفات تطابق `SHA256SUMS.txt`، وJSON-LD يظهر 2.1.0
 
@@ -93,13 +93,13 @@ Started: 27 November 2026 (Africa/Cairo, UTC+2). Checkboxes below should be tick
 
 تمريرة Lighthouse (أداء، وصول، SEO) على القوالب الأساسية بالعربي والإنجليزي: الرئيسية، مقال، فيديو، `/tools`، `/alternatives`. تُعالَج المشاكل الحقيقية فقط:
 
-- [ ] رصد نتائج **قبل** التعديل (قبل / after سيُذكر في التقرير)
-- [ ] أحجام الصور والتحميل الكسول (lazy loading)
-- [ ] CLS (انزياح التخطيط)
-- [ ] طول العناوين وأوصاف الميتا أو تكرارها
-- [ ] نصوص بديلة (alt) الناقصة
-- [ ] اتساق canonical وhreflang
-- [ ] صلاحية البيانات المنظمة (JSON-LD)
+- [x] رصد نتائج **قبل** التعديل (موبايل، 27 نوفمبر 2026، توقيت القاهرة): الصفحة الرئيسية 68/73 (ع/إن) أداء، 92 وصول، 79 أفضل ممارسات، 100/92 SEO؛ المقال 65/53، 94، 79، 100؛ الفيديو 79/69، 94، 79، 100؛ `/tools` 77/77، 89، 79، 100؛ البدائل 90/93، 93، 79، 100
+- [x] أحجام الصور والتحميل الكسول (lazy loading): مصغرات Unsplash تطلب حجمًا مناسبًا، وsrcset للصور الكبيرة، وأبعاد width/height على البطاقات
+- [x] CLS (انزياح التخطيط): الخط حسب `html[lang]` من أول رسم (بدون انتظار JS)، إسقاط خط Tajawal غير المستخدم، وتقليل الأوزان. التحقق بعد النشر ما زال مطلوبًا
+- [x] طول العناوين وأوصاف الميتا أو تكرارها: أوصاف `/tools` حُدّثت (27 أداة). روابط «اقرأ المزيد» على الرئيسية صارت «المزيد من المقالات/المقارنات/الفيديوهات» (كانت تخفّض SEO الإنجليزية). لا تكرار جديد في العناوين ظهر في الرصد
+- [x] نصوص بديلة (alt) الناقصة: رصد Lighthouse نجح على القوالب الخمسة؛ لا صور بدون alt
+- [x] اتساق canonical وhreflang: رصد Lighthouse نجح على القوالب الخمسة (AR/EN)
+- [x] صلاحية البيانات المنظمة (JSON-LD): رصد Lighthouse لم يسجّل خطأ؛ SoftwareApplication محدّث إلى 2.1.0 في الشيفرة
 - [ ] رصد نتائج **بعد** التعديل وكتابة المقارنة
 
 ---
