@@ -104,7 +104,7 @@ jobs:
         run: |
           V="${GITHUB_REF_NAME#desktop-v}"
           cat > notes.md <<NOTES
-          **NetSec Atlas Tools ${V}**: the 11 NetSec Atlas apps and the 10 NetSecAtlasTools calculators merged into one Windows program (18 tools, Arabic and English).
+          **NetSec Atlas Tools ${V}**: one Windows program with 27 network and security tools, in Arabic and English. Version 2.0 merged the 11 NetSec Atlas apps and the 10 NetSecAtlasTools calculators (18 tools). Version 2.1 added nine tools (file/URL reputation, startup viewer, Wi-Fi QR, RDAP, public IP, traceroute, certificate/CSR decoder, JWT decoder, regex tester).
 
           - \`NetSecAtlasTools.exe\`: Windows 10/11 x64 (most PCs)
           - \`NetSecAtlasTools-arm64.exe\`: Windows on ARM (Snapdragon laptops)
