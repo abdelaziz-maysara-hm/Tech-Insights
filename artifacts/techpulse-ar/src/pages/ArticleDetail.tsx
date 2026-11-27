@@ -12,6 +12,7 @@ import { getRelatedArticles, getAdjacentArticles } from '@/lib/relatedContent';
 import { LiteYouTube } from '@/components/video/LiteYouTube';
 import { libraryPlaylists, libraryVideos } from '@/data/videoLibrary';
 import { playlistForArticle, videosForPlaylist } from '@/lib/videoLibrary';
+import { heroSrcSet, sizedHero } from '@/lib/images';
 
 export default function ArticleDetail() {
   const [, params] = useRoute('/article/:slug');
@@ -66,7 +67,7 @@ export default function ArticleDetail() {
   return (
     <div className="min-h-screen pb-20">
       <div className="relative h-[40vh] md:h-[50vh] overflow-hidden">
-        <img src={article.heroImage} alt={article.title[language]} className="w-full h-full object-cover" />
+        <img src={sizedHero(article.heroImage, 1200, 675)} srcSet={heroSrcSet(article.heroImage)} sizes="100vw" alt={article.title[language]} className="w-full h-full object-cover" width={1200} height={675} decoding="async" fetchPriority="high" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 container mx-auto px-4 pb-8">
           <span className="inline-block bg-primary text-primary-foreground text-xs font-bold px-3 py-1 rounded-full mb-4">

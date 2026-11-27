@@ -23,9 +23,12 @@ export function ComparisonCard({ comparison, className }: { comparison: Comparis
             src={comparison.device1Image} 
             alt={comparison.device1Name} 
             className="w-24 h-32 object-contain mb-3 drop-shadow-xl group-hover:scale-105 transition-transform"
+            width={96}
+            height={128}
             loading="lazy"
+            decoding="async"
           />
-          <h4 className="font-bold text-sm md:text-base leading-tight">{comparison.device1Name}</h4>
+          <p className="font-bold text-sm md:text-base leading-tight">{comparison.device1Name}</p>
         </div>
 
         {/* VS Badge */}
@@ -46,9 +49,12 @@ export function ComparisonCard({ comparison, className }: { comparison: Comparis
             src={comparison.device2Image} 
             alt={comparison.device2Name} 
             className="w-24 h-32 object-contain mb-3 drop-shadow-xl group-hover:scale-105 transition-transform"
+            width={96}
+            height={128}
             loading="lazy"
+            decoding="async"
           />
-          <h4 className="font-bold text-sm md:text-base leading-tight">{comparison.device2Name}</h4>
+          <p className="font-bold text-sm md:text-base leading-tight">{comparison.device2Name}</p>
         </div>
       </div>
       

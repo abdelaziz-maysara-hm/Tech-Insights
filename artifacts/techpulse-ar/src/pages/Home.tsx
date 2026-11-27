@@ -7,6 +7,7 @@ import { ComparisonCard } from '@/components/ComparisonCard';
 import { Link } from 'wouter';
 import { PlayCircle, ArrowLeft, ArrowRight } from 'lucide-react';
 import { useAllArticles } from '@/hooks/useAllArticles';
+import { sizedHero } from '@/lib/images';
 
 export default function Home() {
   const { language, t } = useLanguage();
@@ -52,10 +53,13 @@ export default function Home() {
                     {index + 1}
                   </span>
                   <img
-                    src={article.heroImage}
+                    src={sizedHero(article.heroImage, 128, 128)}
                     alt={article.title[language]}
                     className="w-16 h-16 rounded-lg object-cover shrink-0"
+                    width={64}
+                    height={64}
                     loading="lazy"
+                    decoding="async"
                   />
                   <h3 className="font-semibold text-sm leading-snug line-clamp-2 group-hover:text-primary transition-colors">
                     {article.title[language]}
@@ -109,7 +113,7 @@ export default function Home() {
                 <h2 className="text-2xl font-bold">{t('latestArticles')}</h2>
               </div>
               <Link href="/articles" className="text-primary font-medium hover:underline flex items-center gap-1">
-                {t('readMore')}
+                {language === 'ar' ? 'المزيد من المقالات' : 'More articles'}
                 {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
               </Link>
             </div>
@@ -127,7 +131,7 @@ export default function Home() {
                 <h2 className="text-2xl font-bold">{t('comparisons')}</h2>
               </div>
               <Link href="/comparisons" className="text-primary font-medium hover:underline flex items-center gap-1">
-                {t('readMore')}
+                {language === 'ar' ? 'المزيد من المقارنات' : 'More comparisons'}
                 {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
               </Link>
             </div>
@@ -149,14 +153,14 @@ export default function Home() {
                 <h2 className="text-2xl font-bold">{t('videoSpotlight')}</h2>
               </div>
               <Link href="/videos" className="text-primary font-medium hover:underline flex items-center gap-1">
-                {t('readMore')}
+                {language === 'ar' ? 'المزيد من الفيديوهات' : 'More videos'}
                 {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
               </Link>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {videoArticles.map(article => (
                 <Link key={article.id} href={`/article/${article.slug}`} className="group relative rounded-xl overflow-hidden aspect-[16/9] block">
-                  <img src={article.heroImage} alt={article.title[language]} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+                  <img src={sizedHero(article.heroImage, 800, 450)} alt={article.title[language]} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" width={800} height={450} loading="lazy" decoding="async" />
                   <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors flex items-center justify-center">
                     <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center text-white shadow-lg transform group-hover:scale-110 transition-transform">
                       <PlayCircle className="w-8 h-8 ml-1" />

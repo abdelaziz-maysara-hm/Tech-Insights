@@ -17,6 +17,7 @@ Live site: [https://netsecatlas.com](https://netsecatlas.com) — practical Arab
 - **الموقع الحي قبل إصلاح 22 نوفمبر:** المقالات والمقارنات والفيديوهات وصفحة التطبيقات `/tools` تعمل. صفحات **البدائل** `/alternatives` كانت موجودة في `main` منذ 21 نوفمبر لكن **لم تُنشر** لأن عملية البناء فشلت بعد حذف أدوات الويب (تفاصيل الإصلاح أدناه).
 - **أدوات المتصفح داخل هذا الموقع أُزيلت** في 21 نوفمبر (المالك لديه موقع أدوات منفصل: [adawaty.tools](https://adawaty.tools)). الروابط القديمة مثل `/tools/spf-record-analyzer` تُحوَّل الآن إلى صفحة التطبيقات `/tools` حتى لا تظهر 404.
 - **برنامج ويندوز واحد: NetSec Atlas Tools 2.0** (22 نوفمبر). دُمج تطبيق WinForms (v1.3، عشر أدوات) مع برامج WPF الأحد عشر في برنامج واحد فيه **18 أداة** بالعربي والإنجليزي، تحت `desktop/`. كل إصدار يمر باختبارات وحدات واختبار تشغيل واختبار واجهة آلي لكل أداة على ويندوز x64 وARM64 قبل النشر. الإصدار: [desktop-v2.0](https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/tag/desktop-v2.0). التحميل المباشر من الموقع: `https://netsecatlas.com/downloads/NetSecAtlasTools.exe` (و`NetSecAtlasTools-arm64.exe` و`SHA256SUMS.txt`).
+- **الإصدار 2.1 قيد التنفيذ** (27 نوفمبر): تسع أدوات جديدة (المجموع 27). الخطة والصناديق في [docs/ROADMAP.md#phase-2-1](docs/ROADMAP.md#phase-2-1). الموقع الحي يبقى على 2.0 حتى تنجح اختبارات ويندوز ويُوضع الوسم `desktop-v2.1`.
 - **صفحة** `/tools` تبدأ الآن بالبرنامج (قائمة الأدوات وأزرار تحميل مباشر)، ثم تطبيقات Atlas (لقطة، حافظة، PDF، تسجيل) من [atlas-recorders](https://github.com/abdelaziz-maysara-hm/atlas-recorders).
 - مستودع [netsecatlas-apps](https://github.com/abdelaziz-maysara-hm/netsecatlas-apps) أصبح **مستبدلًا** (مذكور في ملف README الخاص به) ولم يُحذف. بطلب المالك (23 نوفمبر) يُترك كما هو، **دون أرشفة**.
 - **قاعدة SEO:** مع كل نشر يُحدَّث تلقائيًا `sitemap.xml` و`video-sitemap.xml` وRSS من المحتوى والمسارات الفعلية. لا تُحرَّر خريطة الموقع يدويًا. `<lastmod>` يأتي من تاريخ تحديث العنصر أو آخر commit لمسه في git، وليس من وقت البناء. صفحات noindex مثل `/search` وصفحات التحويل فقط لا تُدرج. اختبار البناء يفشل إذا سقطت صفحة قابلة للفهرسة من الخريطة أو إذا ذكرت الخريطة رابطًا غير 200. بعد كل نشر يُرسل IndexNow لمحركات البحث الشريكة.
@@ -85,6 +86,13 @@ Dates below are Africa/Cairo (UTC+2).
 | PR | ماذا أُنجز |
 | --- | --- |
 | [#24](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/24) | `sitemap.xml` و`video-sitemap.xml` وRSS تُولَّد في كل بناء من المحتوى والمسارات الحقيقية (المقالات، الفيديو، البدائل، `/tools`، وأي مسار جديد في التطبيق). `<lastmod>` دقيق لكل عنصر. استبعاد `/search` (كانت العربية مدرجة بالخطأ وكانت الصفحة قابلة للفهرسة). اختبار يغطي كل صفحة prerender قابلة للفهرسة، ورفض روابط التحويل أو غير 200. IndexNow بعد النشر. قاعدة موثّقة: كل نشر يحدّث الخريطة تلقائيًا. مستودع netsecatlas-apps يُترك كما هو (بدون أرشفة). |
+| [#25](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/25) | قائمة المرحلة الحالية في `docs/ROADMAP.md#phase-2-1` (أدوات 2.1 المرشحة والمختارة، الاختبارات، الإصدار، تحسين الموقع) مع رابط من README. |
+
+### 27 نوفمبر 2026: أدوات 2.1 وتحسين Lighthouse (لم يُنشر الإصدار بعد)
+
+| PR | ماذا أُنجز |
+| --- | --- |
+| (هذا الفرع) | NetSec Atlas Tools 2.1: تسع أدوات جديدة (سمعة الملفات بروابط عامة فقط، بدء التشغيل، QR للواي فاي، RDAP، IP العام، تتبع المسار، فك الشهادات، فك JWT، مختبر regex). الاختبارات الآلية على ويندوز والتعليم `desktop-v2.1` ما زالا منتظرين. صفحة `/tools` ونصوص SEO حُدّثت إلى 27 أداة والإصدار 2.1.0. تحسينات Lighthouse: أسماء أزرار، ترتيب العناوين، روابط أوضح، أحجام صور Unsplash، وخطوط أقل. |
 
 ---
 
@@ -97,7 +105,7 @@ Dates below are Africa/Cairo (UTC+2).
 | `artifacts/techpulse-ar/src/content/` | البيانات المنشورة: `articles.json`، `comparisons.json`، الفيديو، الصفحات الثابتة |
 | `artifacts/techpulse-ar/scripts/phase7/` و`scripts/phase8/` | **مصدر** المحتوى الجديد وإعادة الكتابة (يُمرَّر عبر سكربتات التطبيق ثم يُكتب إلى JSON) |
 | `artifacts/techpulse-ar/src/config/` | سياسة hreflang، تحويلات المحتوى، إعدادات SEO |
-| `desktop/` | برنامج NetSec Atlas Tools (WPF، 18 أداة) والاختبارات. التفاصيل في [desktop/README.md](desktop/README.md) |
+| `desktop/` | برنامج NetSec Atlas Tools (WPF، 27 أداة في 2.1) والاختبارات. التفاصيل في [desktop/README.md](desktop/README.md) |
 | `artifacts/techpulse-ar/src/content/desktop-program.json` | بيانات البرنامج المعروضة في `/tools` (الأدوات، روابط التحميل، الإصدار) |
 | `.github/workflows/deploy-pages.yml` | بناء الموقع ونشره، ونسخ ملفات آخر إصدار للبرنامج إلى `/downloads/`، ثم إشعار IndexNow |
 | `artifacts/techpulse-ar/scripts/generate-sitemap.mjs` و`sitemap-core.mjs` | توليد `sitemap.xml` و`video-sitemap.xml` من المحتوى والمسارات في كل بناء |

@@ -57,10 +57,10 @@ const SECTION_META = {
     },
   },
   '/tools': {
-    title: { ar: 'NetSec Atlas Tools: 18 أداة شبكات وأمان لويندوز', en: 'NetSec Atlas Tools: 18 Network & Security Tools for Windows' },
+    title: { ar: 'NetSec Atlas Tools: 27 أداة شبكات وأمان لويندوز', en: 'NetSec Atlas Tools: 27 Network & Security Tools for Windows' },
     description: {
-      ar: 'برنامج مجاني لويندوز فيه 18 أداة: فحص أمان الجهاز، البصمة، كلمات المرور، DNS، المنافذ، الشبكات الفرعية، شهادات TLS ورؤوس البريد. مع تطبيقات Atlas للتصوير والتسجيل وPDF.',
-      en: 'Free Windows program with 18 tools: PC security check, hashes, passwords, DNS, ports, subnets, TLS certificates and email headers. Plus Atlas capture, recording and PDF apps.',
+      ar: 'برنامج مجاني لويندوز فيه 27 أداة: فحص أمان الجهاز، البصمة، سمعة الملفات، كلمات المرور، DNS، تتبع المسار، RDAP، JWT، الشبكات الفرعية، شهادات TLS ورؤوس البريد. مع تطبيقات Atlas للتصوير والتسجيل وPDF.',
+      en: 'Free Windows program with 27 tools: PC security check, hashes, file reputation, passwords, DNS, traceroute, RDAP, JWT, subnets, TLS certificates and email headers. Plus Atlas capture, recording and PDF apps.',
     },
   },
   '/alternatives': {

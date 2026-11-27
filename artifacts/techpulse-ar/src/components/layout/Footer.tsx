@@ -113,8 +113,8 @@ export function Footer() {
             © {new Date().getFullYear()} NetSec Atlas. {language === 'ar' ? 'جميع الحقوق محفوظة.' : 'All rights reserved.'}
           </p>
           <div className="flex items-center gap-4">
-            <button onClick={scrollToTop} className="bg-muted p-2 rounded-full text-muted-foreground hover:text-primary hover:bg-muted/80 transition-colors">
-              <ArrowUp className="h-4 w-4" />
+            <button type="button" onClick={scrollToTop} className="bg-muted p-2 rounded-full text-muted-foreground hover:text-primary hover:bg-muted/80 transition-colors" aria-label={language === 'ar' ? 'العودة إلى أعلى الصفحة' : 'Back to top'}>
+              <ArrowUp className="h-4 w-4" aria-hidden />
             </button>
           </div>
         </div>

@@ -27,6 +27,9 @@ public static class ToolRegistry
             (Everyday, new HashChecker.HashCheckerPage()),
             (Everyday, new PasswordCheck.PasswordCheckPage()),
             (Everyday, new WifiCheck.WifiCheckPage()),
+            (Everyday, new ReputationPage()),
+            (Everyday, new StartupPage()),
+            (Everyday, new WifiQrPage()),
             (Network, new NetDoctor.NetDoctorPage()),
             (Network, new PingMonitor.PingMonitorPage()),
             (Network, new DnsBench.DnsBenchPage()),
@@ -36,11 +39,17 @@ public static class ToolRegistry
             (Network, new RangePage()),
             (Network, new IpConvertPage()),
             (Network, new MacPage()),
+            (Network, new RdapPage()),
+            (Network, new PublicIpPage()),
+            (Network, new TraceroutePage()),
             (Admin, new LockoutTracer.LockoutTracerPage()),
             (Admin, new CertExpiry.CertExpiryPage()),
             (Admin, new HeaderAnalyzer.HeaderAnalyzerPage()),
+            (Admin, new CertDecodePage()),
             (Utils, new EncodingPage()),
             (Utils, new TimestampPage()),
+            (Utils, new JwtPage()),
+            (Utils, new RegexPage()),
         };
         foreach (var (cat, page) in list) page.Category = cat;
         return list.Select(x => x.page).ToList();

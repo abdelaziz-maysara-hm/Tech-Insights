@@ -11,9 +11,12 @@ public class UiTests(AppFixture f)
     public static TheoryData<string, int> Tools => new()
     {
         { "healthcheck", 90 }, { "hashchecker", 120 }, { "passwordcheck", 60 }, { "wificheck", 30 },
+        { "reputation", 120 }, { "startup", 30 }, { "wifiqr", 20 },
         { "netdoctor", 180 }, { "pingmonitor", 60 }, { "dnsbench", 240 }, { "portcheck", 90 },
         { "subnet", 20 }, { "vlsm", 20 }, { "range", 20 }, { "ipconvert", 20 }, { "mac", 20 },
-        { "lockouttracer", 30 }, { "certexpiry", 120 }, { "headeranalyzer", 20 }, { "encoding", 20 }, { "timestamp", 20 },
+        { "rdap", 60 }, { "publicip", 60 }, { "traceroute", 90 },
+        { "lockouttracer", 30 }, { "certexpiry", 120 }, { "headeranalyzer", 20 }, { "certdecode", 20 },
+        { "encoding", 20 }, { "timestamp", 20 }, { "jwt", 20 }, { "regex", 20 },
     };
 
     [Fact]
@@ -60,6 +63,34 @@ public class UiTests(AppFixture f)
         var text = "";
         FlaUI.Core.Tools.Retry.WhileFalse(() => expected.All((text = f.ResultText()).Contains), TimeSpan.FromSeconds(10));
         foreach (var e in expected) Assert.Contains(e, text);
+    }
+
+    [Fact]
+    public void T25_NewOfflineToolsGiveCorrectAnswers()
+    {
+        const string jwt = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZGEiLCJuYW1lIjoiTmV0U2VjIEF0bGFzIiwiaWF0IjoxNzY0MjQwMDAwLCJleHAiOjQwNzA5MTg4MDB9.c2ln";
+        f.Open("jwt");
+        f.SetText("input", jwt);
+        f.Click("run");
+        FlaUI.Core.Tools.Retry.WhileFalse(() => f.ResultText().Contains("HS256"), TimeSpan.FromSeconds(10));
+        var jwtText = f.ResultText();
+        Assert.Contains("HS256", jwtText);
+        Assert.Contains("NetSec Atlas", jwtText);
+        Assert.Contains("not verified", jwtText, StringComparison.OrdinalIgnoreCase);
+
+        f.Open("regex");
+        f.SetText("input", @"\b(?<ip>(?:\d{1,3}\.){3}\d{1,3})\b");
+        f.SetText("input2", "gateway 192.168.1.1");
+        f.Click("run");
+        FlaUI.Core.Tools.Retry.WhileFalse(() => f.ResultText().Contains("192.168.1.1"), TimeSpan.FromSeconds(10));
+        Assert.Contains("192.168.1.1", f.ResultText());
+
+        f.Open("wifiqr");
+        f.SetText("input", "Guest-Office");
+        f.SetText("input2", "Correct-Horse-Battery");
+        f.Click("run");
+        FlaUI.Core.Tools.Retry.WhileFalse(() => f.ResultText().Contains("WIFI:"), TimeSpan.FromSeconds(10));
+        Assert.Contains("WIFI:T:WPA;S:Guest-Office;", f.ResultText());
     }
 
     [Fact]
@@ -117,7 +148,7 @@ public class UiTests(AppFixture f)
         f.Click("lang");
         FlaUI.Core.Tools.Retry.WhileFalse(() => f.ToolTitle == "حاسبة الشبكات الفرعية", TimeSpan.FromSeconds(10));
         Assert.Equal("حاسبة الشبكات الفرعية", f.ToolTitle);
-        foreach (var id in new[] { "subnet", "healthcheck", "passwordcheck", "portcheck", "headeranalyzer", "lockouttracer", "hashchecker", "home" })
+        foreach (var id in new[] { "subnet", "healthcheck", "passwordcheck", "portcheck", "headeranalyzer", "lockouttracer", "hashchecker", "jwt", "wifiqr", "reputation", "home" })
         {
             f.Open(id);
             if (id != "home") Assert.Equal("done", f.RunSample(120));

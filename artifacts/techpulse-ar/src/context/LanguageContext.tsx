@@ -96,13 +96,6 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     document.documentElement.dir = language === 'ar' ? 'rtl' : 'ltr';
     document.documentElement.lang = language;
-    
-    // Switch font families
-    if (language === 'ar') {
-      document.body.style.fontFamily = 'var(--font-cairo)';
-    } else {
-      document.body.style.fontFamily = 'var(--font-inter)';
-    }
   }, [language]);
 
   const setLanguage = (lang: Language) => {

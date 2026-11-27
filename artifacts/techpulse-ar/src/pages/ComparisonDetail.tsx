@@ -47,7 +47,7 @@ export default function ComparisonDetail() {
                     <span className="text-[10px] font-bold uppercase">{t('winner')}</span>
                   </div>
                 )}
-                <img src={comp.device1Image} alt={comp.device1Name} className="h-64 object-contain drop-shadow-2xl" />
+                <img src={comp.device1Image} alt={comp.device1Name} className="h-64 object-contain drop-shadow-2xl" width={256} height={256} decoding="async" />
               </div>
               <h2 className="text-2xl font-bold mt-6 text-center">{comp.device1Name}</h2>
             </div>
@@ -68,7 +68,7 @@ export default function ComparisonDetail() {
                     <span className="text-[10px] font-bold uppercase">{t('winner')}</span>
                   </div>
                 )}
-                <img src={comp.device2Image} alt={comp.device2Name} className="h-64 object-contain drop-shadow-2xl" />
+                <img src={comp.device2Image} alt={comp.device2Name} className="h-64 object-contain drop-shadow-2xl" width={256} height={256} decoding="async" />
               </div>
               <h2 className="text-2xl font-bold mt-6 text-center">{comp.device2Name}</h2>
             </div>

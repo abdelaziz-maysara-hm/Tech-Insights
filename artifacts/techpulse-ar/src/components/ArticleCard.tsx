@@ -3,6 +3,7 @@ import type { ArticleListItem } from '@/data/mockData';
 import { useLanguage } from '@/context/LanguageContext';
 import { Clock, PlayCircle } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { heroSrcSet, sizedHero } from '@/lib/images';
 
 
 function authorName(article: ArticleListItem, language: 'ar' | 'en'): string {
@@ -38,7 +39,9 @@ export function ArticleCard({ article, featured = false, className }: ArticleCar
       <Link href={`/article/${article.slug}`} className={cn("group block relative overflow-hidden rounded-2xl glow-effect", className)}>
         <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/40 to-transparent z-10" />
         <img
-          src={article.heroImage}
+          src={sizedHero(article.heroImage, 1200, 675)}
+          srcSet={heroSrcSet(article.heroImage)}
+          sizes="100vw"
           alt={article.title[language]}
           className="w-full h-[400px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
           width={1200}
@@ -87,9 +90,13 @@ export function ArticleCard({ article, featured = false, className }: ArticleCar
     <Link href={`/article/${article.slug}`} className={cn("group flex flex-col bg-card rounded-xl border border-border overflow-hidden hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/5", className)}>
       <div className="relative aspect-video overflow-hidden">
         <img
-          src={article.heroImage}
+          src={sizedHero(article.heroImage, 800, 450)}
+          srcSet={heroSrcSet(article.heroImage)}
+          sizes="(max-width: 768px) 100vw, 50vw"
           alt={article.title[language]}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          width={800}
+          height={450}
           loading="lazy"
           decoding="async"
           onError={handleHeroError}
