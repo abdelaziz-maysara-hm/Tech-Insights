@@ -34,3 +34,17 @@ export function heroSrcSet(url: string | undefined): string | undefined {
     return undefined;
   }
 }
+
+export const HERO_SIZES_ARTICLE = '100vw';
+export const HERO_SIZES_FEATURED = '(max-width: 1023px) 100vw, 66vw';
+
+/** Typical mobile 2x candidate, plus a srcset the preload can share with the <img>. */
+export function heroPreload(
+  url: string | undefined,
+  sizes: string = HERO_SIZES_ARTICLE,
+): { href: string; srcSet?: string; sizes: string } | null {
+  if (!url) return null;
+  const href = sizedHero(url, 800, 450);
+  if (!href) return null;
+  return { href, srcSet: heroSrcSet(url), sizes };
+}

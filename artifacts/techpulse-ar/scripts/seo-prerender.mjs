@@ -28,6 +28,7 @@ import {
 import { renderStaticBody, breadcrumbTrail, localizedHref, toolFaqJsonLd } from './seo-static-content.mjs';
 import { countWords } from '../src/lib/markdown.ts';
 import { videoObjectJsonLd, playlistItemListJsonLd, videosForPlaylist } from '../src/lib/videoLibrary.ts';
+import { HERO_SIZES_ARTICLE, HERO_SIZES_FEATURED, heroPreload } from '../src/lib/images.ts';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -46,6 +47,94 @@ export {
   resolveRouteSeo,
   fullDocumentTitle,
 } from './seo-prerender-core.mjs';
+
+
+function featuredArticle(indexes) {
+  const list = indexes.articles || [...(indexes.articlesBySlug?.values() || [])];
+  return list.find((a) => a.isFeatured) || list[0] || null;
+}
+
+function lcpImagePreloadTag(url, sizes = HERO_SIZES_ARTICLE) {
+  if (!url) return null;
+  if (/ytimg\.com/.test(url) || !/unsplash\.com/.test(url)) {
+    return `<link rel="preload" as="image" href="${escapeAttr(url)}" fetchpriority="high" />`;
+  }
+  const p = heroPreload(url, sizes);
+  if (!p) return null;
+  const srcset = p.srcSet ? ` imagesrcset="${escapeAttr(p.srcSet)}"` : '';
+  const sizesAttr = p.srcSet ? ` imagesizes="${escapeAttr(p.sizes)}"` : '';
+  return `<link rel="preload" as="image" href="${escapeAttr(p.href)}" fetchpriority="high"${srcset}${sizesAttr} />`;
+}
+
+function inlineStylesheets(html) {
+  return html.replace(/<link\b[^>]*rel=["']stylesheet["'][^>]*>/gi, (tag) => {
+    const href = tag.match(/href=["']([^"']+)["']/);
+    if (!href) return tag;
+    const urlPath = href[1].split('?')[0].replace(/^\//, '');
+    if (urlPath.includes('://') || urlPath.includes('..')) return tag;
+    const filePath = join(root, 'dist', 'public', urlPath);
+    if (!existsSync(filePath)) return tag;
+    const css = readFileSync(filePath, 'utf8').replace(/<\/style/gi, '<\\/style');
+    return `<style data-critical="1">${css}</style>`;
+  });
+}
+
+let manifestCache;
+function loadViteManifest() {
+  if (manifestCache !== undefined) return manifestCache;
+  const candidates = [
+    join(root, 'dist', 'public', '.vite', 'manifest.json'),
+    join(root, 'dist', 'public', 'manifest.json'),
+  ];
+  const found = candidates.find((p) => existsSync(p));
+  manifestCache = found ? JSON.parse(readFileSync(found, 'utf8')) : null;
+  return manifestCache;
+}
+
+function modulePreloadTags(canonical, html = '') {
+  const manifest = loadViteManifest();
+  if (!manifest || !canonical) return [];
+  let path = '';
+  try {
+    path = new URL(canonical).pathname;
+  } catch {
+    return [];
+  }
+  const srcKey = /\/(ar|en)\/?$/.test(path) || path === '/'
+    ? 'src/pages/Home.tsx'
+    : /\/article\//.test(path)
+      ? 'src/pages/ArticleDetail.tsx'
+      : null;
+  if (!srcKey) return [];
+  const entry = Object.values(manifest).find((e) => e && e.src && (e.src === srcKey || String(e.src).endsWith(srcKey)));
+  if (!entry?.file) return [];
+
+  const already = new Set();
+  for (const tag of html.matchAll(/<link\b[^>]*rel=["']modulepreload["'][^>]*>/gi)) {
+    const href = tag[0].match(/href=["']([^"']+)["']/);
+    if (href) already.add(href[1].replace(/^\//, ''));
+  }
+
+  // Only the route chunk (plus the small ArticleCard used by the home LCP
+  // image). Walking every static import would also preload 200KB+ data
+  // chunks (comparisons, videoLibrary) that compete with the LCP image.
+  const files = new Set([entry.file]);
+  for (const id of entry.imports || []) {
+    const item = manifest[id];
+    if (!item?.file) continue;
+    const src = String(item.src || item.name || id);
+    if (src.endsWith('src/components/ArticleCard.tsx') || /ArticleCard/.test(src)) {
+      files.add(item.file);
+    }
+  }
+
+  return [...files]
+    .filter((f) => {
+      const rel = String(f).replace(/^\//, '');
+      return !already.has(rel) && !already.has('/' + rel);
+    })
+    .map((f) => `<link rel="modulepreload" href="${escapeAttr('/' + String(f).replace(/^\//, ''))}" />`);
+}
 
 export function injectSeoIntoShell(shellHtml, seo, extras = {}) {
   let html = shellHtml;
@@ -201,6 +290,9 @@ export function injectSeoIntoShell(shellHtml, seo, extras = {}) {
     if (data) tags.push(`<script type="application/ld+json" id="${escapeAttr(id)}">${safeJsonLd(data)}</script>`);
   }
 
+  html = html.replace(/<link\b[^>]*rel=["']preload["'][^>]*as=["']font["'][^>]*>\s*/gi, '');
+  html = html.replace(/<link\b[^>]*as=["']font["'][^>]*rel=["']preload["'][^>]*>\s*/gi, '');
+
   // Self-hosted fonts: preload the 400 weight for this language so
   // font-display: optional can use it on first paint.
   if (seo.lang === 'ar') {
@@ -209,10 +301,13 @@ export function injectSeoIntoShell(shellHtml, seo, extras = {}) {
   } else {
     tags.push('<link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />');
   }
-  // LCP image for article/video templates (YouTube thumbs and unsplash heroes).
-  if (seo.image && (seo.type === 'article' || /\/(article|video)\//.test(seo.canonical || ''))) {
-    tags.push(`<link rel="preload" as="image" href="${escapeAttr(seo.image)}" fetchpriority="high" />`);
+  if (!/images\.unsplash\.com/.test(html)) {
+    tags.push('<link rel="preconnect" href="https://images.unsplash.com" crossorigin />');
   }
+  const lcpUrl = extras.lcpImage || ((seo.type === 'article' || /\/(article|video)\//.test(seo.canonical || '')) ? seo.image : '');
+  const lcpTag = lcpUrl ? lcpImagePreloadTag(lcpUrl, extras.lcpSizes || HERO_SIZES_ARTICLE) : null;
+  if (lcpTag) tags.push(lcpTag);
+  tags.push(...modulePreloadTags(seo.canonical, html));
 
   // Language-specific RSS feed discovery link.
   html = html.replace(
@@ -231,6 +326,7 @@ export function injectSeoIntoShell(shellHtml, seo, extras = {}) {
   const injection = tags.map((t) => `    ${t}`).join('\n') + '\n';
   if (/<\/head>/i.test(html)) html = html.replace(/<\/head>/i, `${injection}</head>`);
   else html = injection + html;
+  html = inlineStylesheets(html);
   return html;
 }
 
@@ -262,6 +358,13 @@ export function buildRouteExtras(pathname, seo, indexes) {
     jsonLd: [],
   };
   let m;
+  if (identity === '/' || seo.source === 'home') {
+    const featured = featuredArticle(indexes);
+    if (featured?.heroImage) {
+      extras.lcpImage = featured.heroImage;
+      extras.lcpSizes = HERO_SIZES_FEATURED;
+    }
+  }
   if ((m = identity.match(/^\/article\/([^/]+)$/))) {
     const article = indexes.articlesBySlug.get(m[1]);
     if (article) {
@@ -270,6 +373,10 @@ export function buildRouteExtras(pathname, seo, indexes) {
         keywords: Array.isArray(article.tags) ? article.tags : [],
         section: article.categoryId || '',
       };
+      if (article.heroImage) {
+        extras.lcpImage = article.heroImage;
+        extras.lcpSizes = HERO_SIZES_ARTICLE;
+      }
     }
   }
   if ((m = identity.match(/^\/tools\/([^/]+)$/))) {
