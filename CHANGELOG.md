@@ -1,6 +1,6 @@
 # Changelog
 
-## 27 November 2026 (Cairo): NetSec Atlas Tools 2.1 and site polish (release tag pending)
+## 27 November 2026 (Cairo): NetSec Atlas Tools 2.1 and site polish ([PR #26](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/26), release tag pending)
 
 - **Desktop 2.1** (nine new tools, 18 → 27). Core logic and unit tests (79, including 12 new) run on Linux; WPF pages, ToolRegistry, version 2.1.0, UI test coverage and a T25 check for JWT/regex/Wi-Fi QR. Chosen tools and reasons are in `docs/ROADMAP.md#phase-2-1`. Public endpoints only (rdap.org, ipify, ipwho.is); reputation uses local hashes and public VirusTotal/urlscan links, nothing is uploaded and no API key is required. JWT decode only (signatures are not verified). Startup viewer is read-only. Windows x64/ARM64 CI, the `desktop-v2.1` tag, and `/downloads/` verification are still pending — do not tag until `desktop-ci` is green on both architectures.
 - **Site:** `/tools` list, Arabic/English copy, prerender meta and SoftwareApplication JSON-LD say 27 tools and version 2.1.0 (goes live with this merge; the exe stays 2.0 until the tag).
