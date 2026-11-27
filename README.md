@@ -11,7 +11,7 @@ Live site: [https://netsecatlas.com](https://netsecatlas.com) — practical Arab
 
 ## الحالة الآن / Where things stand
 
-**آخر تحديث لهذا الملف: 27 نوفمبر 2026 (توقيت القاهرة، UTC+2).**
+**آخر تحديث لهذا الملف: 28 نوفمبر 2026، 1:30 صباحًا (توقيت القاهرة، UTC+2).**
 
 - **المحتوى المنشور:** 135 مقالًا و69 مقارنة، لكل منها نسخة عربية ونسخة إنجليزية مكتوبة بشكل مستقل (ليست ترجمة حرفية). لم يراجع أي نص بشريًا بعد (`humanReviewed=0`، و`translationStatus` ليس `reviewed`).
 - **الموقع الحي قبل إصلاح 22 نوفمبر:** المقالات والمقارنات والفيديوهات وصفحة التطبيقات `/tools` تعمل. صفحات **البدائل** `/alternatives` كانت موجودة في `main` منذ 21 نوفمبر لكن **لم تُنشر** لأن عملية البناء فشلت بعد حذف أدوات الويب (تفاصيل الإصلاح أدناه).
@@ -24,7 +24,7 @@ Live site: [https://netsecatlas.com](https://netsecatlas.com) — practical Arab
 - مولّد المقالات الآلي (generator) **محذوف**. إضافة المحتوى تتم يدويًا كما هو موضّح أدناه.
 - **مكتبة الفيديو (27 نوفمبر مساءً، [PR #29](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/29)):** 82 فيديو في 10 قوائم تشغيل (كانت 60 في 7). أُضيفت قوائم Wi-Fi وTLS/الشهادات وتقسيم الشبكات، مع بحث وتصفية و«شاهد التالي». كل معرّف يوتيوب موثّق عبر oEmbed. الحي: 672 رابطًا في الخريطة، **164** مدخل فيديو، وزحف 682/682 بلا روابط مكسورة. التفاصيل: [docs/ROADMAP.md#phase-perf-videos](docs/ROADMAP.md#phase-perf-videos).
 
-الخطة القادمة كلها في ملف منفصل: **[docs/ROADMAP.md](docs/ROADMAP.md)**. مرحلة أداء الموبايل وتوسيع الفيديو ([PR #29](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/29)) مكتملة من حيث الهدف الإلزامي: لا صفحة من العشر تحت خط أساس 2.0 بعد النشر، وCLS الوسيط 0. ثلاث صفحات ما زالت تحت الهدف المثالي 85+ (الرئيسية العربية 75، المقال ع 75 وإن 72). الصناديق والتفاصيل: [docs/ROADMAP.md#phase-perf-videos](docs/ROADMAP.md#phase-perf-videos). مرحلة 2.1 مكتملة: [docs/ROADMAP.md#phase-2-1](docs/ROADMAP.md#phase-2-1).
+الخطة القادمة كلها في ملف منفصل: **[docs/ROADMAP.md](docs/ROADMAP.md)**. المرحلة الجارية (28 نوفمبر): [رفع LCP للرئيسية والمقال إلى 85+](docs/ROADMAP.md#phase-lcp-85). مرحلة أداء الموبايل وتوسيع الفيديو مكتملة ([PR #29](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/29)): لا صفحة تحت خط أساس 2.0، وبقيت ثلاث صفحات تحت 85+ (الرئيسية ع 75، المقال ع 75 وإن 72). مرحلة 2.1 مكتملة: [docs/ROADMAP.md#phase-2-1](docs/ROADMAP.md#phase-2-1).
 
 ---
 
@@ -192,4 +192,4 @@ pnpm --filter @workspace/techpulse-ar run dev
 
 ## الخطة / Plan
 
-الملف **[docs/ROADMAP.md](docs/ROADMAP.md)** فيه: ما تبقّى من عمل البرامج، رزنامة المحتوى، المراجعة البشرية، حساب Microsoft Store وتوقيع الشيفرة، Search Console/GA، وأفكار لاحقة. **المرحلة الحالية** (صناديق للمتابعة): [أداء الموبايل وتوسيع صفحة الفيديو](docs/ROADMAP.md#phase-perf-videos). مرحلة 2.1 مكتملة: [docs/ROADMAP.md#phase-2-1](docs/ROADMAP.md#phase-2-1).
+الملف **[docs/ROADMAP.md](docs/ROADMAP.md)** فيه: ما تبقّى من عمل البرامج، رزنامة المحتوى، المراجعة البشرية، حساب Microsoft Store وتوقيع الشيفرة، Search Console/GA، وأفكار لاحقة. **المرحلة الحالية** (صناديق للمتابعة): [رفع LCP للرئيسية والمقال إلى 85+](docs/ROADMAP.md#phase-lcp-85). مرحلة الفيديو والأداء مكتملة: [docs/ROADMAP.md#phase-perf-videos](docs/ROADMAP.md#phase-perf-videos). مرحلة 2.1 مكتملة: [docs/ROADMAP.md#phase-2-1](docs/ROADMAP.md#phase-2-1).
