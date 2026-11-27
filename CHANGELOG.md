@@ -1,10 +1,26 @@
 # Changelog
 
-## 27 November 2026 (Cairo): NetSec Atlas Tools 2.1 and site polish ([PR #26](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/26), release tag pending)
+## 27 November 2026 (Cairo): NetSec Atlas Tools 2.1 released and site polish ([PR #26](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/26), release [desktop-v2.1](https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/tag/desktop-v2.1))
 
-- **Desktop 2.1** (nine new tools, 18 → 27). Core logic and unit tests (79, including 12 new) run on Linux; WPF pages, ToolRegistry, version 2.1.0, UI test coverage and a T25 check for JWT/regex/Wi-Fi QR. Chosen tools and reasons are in `docs/ROADMAP.md#phase-2-1`. Public endpoints only (rdap.org, ipify, ipwho.is); reputation uses local hashes and public VirusTotal/urlscan links, nothing is uploaded and no API key is required. JWT decode only (signatures are not verified). Startup viewer is read-only. Windows x64/ARM64 CI, the `desktop-v2.1` tag, and `/downloads/` verification are still pending — do not tag until `desktop-ci` is green on both architectures.
-- **Site:** `/tools` list, Arabic/English copy, prerender meta and SoftwareApplication JSON-LD say 27 tools and version 2.1.0 (goes live with this merge; the exe stays 2.0 until the tag).
-- **Lighthouse (mobile, before scores on the live 2.0 site, 27 Nov):** home 68/73 performance (AR/EN), 92 a11y, 79 best practices, 100/92 SEO; article 65/53, 94, 79, 100; video 79/69, 94, 79, 100; /tools 77/77, 89, 79, 100; alternatives 90/93, 93, 79, 100. Fixes in this change: footer “back to top” name, language button accessible name matches the visible EN/عربي label, comparison device names are no longer skipped-level headings, home “Read more” links name the section, in-paragraph tools link is underlined, Unsplash thumbs request a fitting size with srcset on heroes, unused Tajawal font dropped, font weights reduced, language font applied from `html[lang]` so it does not wait for JS. After scores will be recaptured once this is deployed. AdSense third-party cookies still limit the best-practices score.
+- **Desktop 2.1** (nine new tools, 18 → 27). Chosen tools and reasons are in `docs/ROADMAP.md#phase-2-1`. Public endpoints only (rdap.org, ipify, ipwho.is); reputation uses local hashes and public VirusTotal/urlscan links (nothing uploaded, no API key). JWT decode only (signatures are not verified). Startup viewer is read-only.
+- **Windows CI (both architectures, required before the tag):** unit tests **79/79**, FlaUI UI tests **42/42** (every tool, including the nine new ones), plus the launch smoke test. PR runs [46039605585](https://github.com/abdelaziz-maysara-hm/Tech-Insights/actions/runs/46039605585) and [46039573813](https://github.com/abdelaziz-maysara-hm/Tech-Insights/actions/runs/46039573813) were green; the tag run [46040551674](https://github.com/abdelaziz-maysara-hm/Tech-Insights/actions/runs/46040551674) was green and created the release. Screenshots: `/workspace/screenshots` and a stable copy in `/workspace/screenshots-v21` (78 PNGs per architecture).
+- **Live downloads verified** (27 Nov, Africa/Cairo): `https://netsecatlas.com/downloads/NetSecAtlasTools.exe` (61,842,968 bytes, SHA-256 `959ad379806d0cb8c40ae76b726cab82cf11eb35bd4fea85000dbef7eda02c1b`) and `NetSecAtlasTools-arm64.exe` (57,995,376 bytes, SHA-256 `82d2e84a281a1b2e80fb86db3767d3406307e9cac3c05277c80e5369db11d617`) return HTTP 200 with `application/octet-stream` and match `SHA256SUMS.txt`. `/ar/tools` and `/en/tools` JSON-LD `softwareVersion` is 2.1.0. Both `/tools` URLs are in the live sitemap with lastmod 2026-11-27 (622 URLs). Re-crawl of 622 sitemap URLs plus 10 extra internal links: **632/632 HTTP 200, 0 broken**.
+- **Lighthouse mobile, before (live 2.0) → after (live 2.1 site), 27 Nov:**
+
+  | Page | Perf | a11y | BP | SEO |
+  |---|---|---|---|---|
+  | Home AR | 68 → 57 | 92 → 100 | 79 → 79 | 100 → 100 |
+  | Home EN | 73 → 75 | 92 → 100 | 79 → 79 | 92 → 100 |
+  | Article AR | 65 → 61 | 94 → 100 | 79 → 79 | 100 → 100 |
+  | Article EN | 53 → 72 | 94 → 100 | 79 → 79 | 100 → 100 |
+  | Video AR | 79 → 80 | 94 → 100 | 79 → 79 | 100 → 100 |
+  | Video EN | 69 → 68 | 94 → 100 | 79 → 79 | 100 → 100 |
+  | /tools AR | 77 → 57 | 89 → 100 | 79 → 79 | 100 → 100 |
+  | /tools EN | 77 → 74 | 89 → 100 | 79 → 79 | 100 → 100 |
+  | Alternatives AR | 90 → 79 | 93 → 100 | 79 → 79 | 100 → 100 |
+  | Alternatives EN | 93 → 79 | 93 → 100 | 79 → 79 | 100 → 100 |
+
+  Accessibility and SEO issues that were fixed: footer “back to top” name, language button name matches the visible EN/عربي label, comparison device names are not skipped-level headings, home links say “More articles/comparisons/videos”, in-paragraph tools link is underlined. Image thumbs request a fitting size; unused Tajawal was dropped. Best-practices stays 79 because of AdSense third-party cookies. Performance and CLS remain mixed (font swap and replacing prerendered HTML when React starts); that is not fully resolved.
 
 ## 23 November 2026 (Cairo): sitemap updates on every publish ([PR #24](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/24))
 
