@@ -1,9 +1,117 @@
 # خارطة طريق NetSec Atlas / Roadmap
 
-آخر تحديث: 23 نوفمبر 2026 (توقيت القاهرة، UTC+2).  
+آخر تحديث: 27 نوفمبر 2026 (توقيت القاهرة، UTC+2).  
 هذا ملف الخطة. سجل ما تم إنجازه موجود في [README.md](../README.md) و[CHANGELOG.md](../CHANGELOG.md).
 
 This is the forward plan. Completed work is listed in the README and changelog.
+
+---
+
+<a id="phase-2-1"></a>
+
+## المرحلة الحالية / Current phase (27 نوفمبر 2026): أدوات 2.1 وتحسين الموقع
+
+آخر تحديث لهذه المرحلة: 27 نوفمبر 2026 (توقيت القاهرة، UTC+2).  
+Started: 27 November 2026 (Africa/Cairo, UTC+2). Checkboxes below should be ticked as each item finishes, so anyone can pick the work up mid-stream.
+
+**قيود سارية / Constraints still in effect**
+
+- المقالات ما زالت موقوفة: لا تُكتب مقالات جديدة في هذه المرحلة. Articles are still paused; do not write any.
+- مستودع [netsecatlas-apps](https://github.com/abdelaziz-maysara-hm/netsecatlas-apps) يُترك كما هو، **بدون أرشفة**.
+- لا تُخترع أحجام بحث أو أرقام غير مُتحقَّق منها. Justify tool choices qualitatively only.
+- البرنامج الحالي: [desktop-v2.0](https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/tag/desktop-v2.0)، 18 أداة. الهدف: إصدار **desktop-v2.1** ثم تحسين الموقع (بدون مقالات).
+
+---
+
+### 1) أدوات desktop-v2.1 / New tools
+
+إضافة 6–10 أدوات عامة مفيدة للشبكات والأمان وتقنية المعلومات، لا تغطيها الأدوات الثماني عشرة الحالية. عربي/إنجليزي، وتندرج في أقسام الشريط الجانبي الحالية (الأمان اليومي، الشبكات، الإدارة والبريد، أدوات مساعدة).
+
+#### المرشحون والقرار / Candidates and decisions
+
+| مرشح / Candidate | القرار / Decision | السبب / Why |
+|---|---|---|
+| مساعد سمعة ملف/رابط (روابط VirusTotal العامة فقط، بدون مفتاح API) | **تُضاف** (`reputation`) | تكملة لفاحص البصمة: الحساب محليًا، والفتح في المتصفح فقط، بدون إرسال الملف من البرنامج |
+| فك JWT | **تُضاف** (`jwt`) | حاجة يومية لفك الرأس والحمولة ورؤية الانتهاء، بدون تحقق توقيع (لا مفاتيح) |
+| فك شهادة / طلب CSR | **تُضاف** (`certdecode`) | فاحص TLS الحالي يتصل بالمضيف؛ هذه الأداة تفسّر شهادة أو CSR ملصقة بدون شبكة |
+| بحث WHOIS / RDAP | **تُضاف** (`rdap`) | RDAP عام وبدون مفتاح؛ بديل حديث لـ WHOIS لنطاق أو عنوان |
+| عنوان IP العام والموقع التقريبي | **تُضاف** (`publicip`) | سؤال متكرر عند ضبط جدار ناري أو VPN؛ مصادر HTTPS معروفة وبدون مفتاح |
+| تتبع المسار (traceroute) مع عرض القفزات | **تُضاف** (`traceroute`) | مشخّص الشبكة فيه تتبع نصي داخل تقرير أطول؛ هنا أداة مخصّصة بجدول قفزات وعرض بصري |
+| عارض الاتصالات المفتوحة / المنافذ المستمعة (مثل netstat مع اسم العملية) | **لا** | موجودة أصلًا داخل «المنافذ والخدمات» (استماع + اتصالات قائمة + اسم العملية) |
+| عارض برامج بدء التشغيل / الثبات (persistence) | **تُضاف** (`startup`) | فحص الصحة لا يعرض مفاتيح Run ومجلد Startup؛ العرض للقراءة فقط (بدون حذف) |
+| ماحية ملفات / حذف آمن (file shredder) | **لا** | مؤجلة عمدًا لخطر الإنذار الكاذب من مضادات الفيروسات، حتى يتم توقيع الشيفرة (انظر أعلاه) |
+| مولّد QR لشبكة Wi-Fi | **تُضاف** (`wifiqr`) | عملي لمكتب أو شبكة ضيوف: صيغة `WIFI:T:…` المعيارية |
+| مولّد MAC/UUID عشوائي | مؤجّل (أولوية أقل) | مفيد للمختبرات لكن أضعف من التسعة المختارة؛ يمكن إضافته لاحقًا |
+| مختبر تعبيرات منتظمة (regex) | **تُضاف** (`regex`) | عمل يومي لمديري الأنظمة عند فحص السجلات والقواعد، ويعمل بدون إنترنت |
+| اختبار سرعة (speed test) | **لا** | لا توجد واجهة رسمية مجانية يمكن استخدامها بوضوح دون مخالفة شروط الخدمة |
+| فاحص ملف Base64/Hex | **لا** (تغطية جزئية) | «ترميز وفك ترميز» يغطي النص؛ لا داعي لأداة منفصلة في هذا الإصدار |
+
+**التسعة المختارة (18 → 27 أداة)** — مع معرّف مستقر لـ `--tool` والاختبارات ولقطات الشاشة:
+
+| القسم / Category | المعرّف / Id | الأداة / Tool |
+|---|---|---|
+| Everyday | `reputation` | File / URL reputation (public lookup links only) |
+| Everyday | `startup` | Startup & persistence viewer (read-only) |
+| Everyday | `wifiqr` | Wi-Fi QR generator |
+| Networking | `rdap` | RDAP lookup (domain or IP) |
+| Networking | `publicip` | Public IP & geolocation |
+| Networking | `traceroute` | Traceroute with visual hops |
+| Admin & email | `certdecode` | Certificate / CSR decoder |
+| Utilities | `jwt` | JWT decoder |
+| Utilities | `regex` | Regex tester |
+
+#### قائمة تنفيذ البرنامج / Desktop implementation
+
+- [ ] المنطق في `desktop/src/NetSecAtlas.Core/` مع اختبارات وحدات (قابلة للتشغيل على لينكس حيث لا تحتاج واجهة ويندوز)
+- [ ] صفحات WPF في `Pages/`، عربي/إنجليزي، وتسجيلها في `Shell/ToolRegistry.cs` مع `OnDemoAsync` لكل أداة
+- [ ] رفع الإصدار إلى **2.1.0** في `desktop/Directory.Build.props` و`artifacts/techpulse-ar/src/content/desktop-program.json`
+- [ ] تحديث جدول الأدوات ومعرّفات سطر الأوامر في `desktop/README.md`
+
+#### اختبارات إلزامية قبل الإصدار / Mandatory tests before release
+
+قاعدة المالك: لا إصدار إلا بعد نجاح كل هذا على ويندوز **x64** (`windows-latest`) و**ARM64** (`windows-11-arm`) عبر `.github/workflows/desktop-ci.yml`:
+
+- [ ] اختبارات الوحدات (الجديدة + القديمة) ناجحة على المعماريّتين
+- [ ] اختبار التشغيل (`smoke.ps1`): النافذة تظهر وتبقى تعمل، ووضع اللقطة يخرج بنجاح بالعربي والإنجليزي
+- [ ] اختبارات واجهة FlaUI تفتح **كل** أداة (القديمة والجديدة) وتشغّل مثالها وتتحقق من النتيجة
+- [ ] لقطات الشاشة تُنزَّل إلى `/workspace/screenshots`
+- [ ] الإصدار لا يُنشأ إلا إذا نجح كل ما سبق (هذا هو سلوك `desktop-ci.yml` عند الوسم `desktop-v*`)
+
+---
+
+### 2) الإصدار والتحميل / Release and downloads
+
+- [ ] بعد اخضرار CI: `git tag desktop-v2.1 && git push origin desktop-v2.1` (لا يُعاد الوسم بصمت إن فشل شيء؛ يُفحص السبب أولًا)
+- [ ] التحقق أن صفحة الإصدار تحتوي `NetSecAtlasTools.exe` و`NetSecAtlasTools-arm64.exe` و`SHA256SUMS.txt` و`screenshots.zip`
+- [ ] تحديث صفحة `/tools`: قائمة الأدوات الجديدة، العدد (18 → 27)، و`SoftwareApplication` بالإصدار 2.1.0 (في `desktop-program.json` و`Tools.tsx` ونصوص SEO التي تقول «18 أداة»)
+- [ ] دمج تغييرات الموقع؛ سير `deploy-pages.yml` ينسخ ملفات آخر إصدار إلى `https://netsecatlas.com/downloads/`
+- [ ] التحقق الحي: التحميل مباشر (200 و`application/octet-stream` أو مرفق)، والملفات تطابق `SHA256SUMS.txt`، وJSON-LD يظهر 2.1.0
+
+---
+
+### 3) تحسين الموقع (بدون مقالات) / Site polish (no articles)
+
+تمريرة Lighthouse (أداء، وصول، SEO) على القوالب الأساسية بالعربي والإنجليزي: الرئيسية، مقال، فيديو، `/tools`، `/alternatives`. تُعالَج المشاكل الحقيقية فقط:
+
+- [ ] رصد نتائج **قبل** التعديل (قبل / after سيُذكر في التقرير)
+- [ ] أحجام الصور والتحميل الكسول (lazy loading)
+- [ ] CLS (انزياح التخطيط)
+- [ ] طول العناوين وأوصاف الميتا أو تكرارها
+- [ ] نصوص بديلة (alt) الناقصة
+- [ ] اتساق canonical وhreflang
+- [ ] صلاحية البيانات المنظمة (JSON-LD)
+- [ ] رصد نتائج **بعد** التعديل وكتابة المقارنة
+
+---
+
+### 4) أعمال ختامية / Housekeeping
+
+- [ ] خريطة الموقع تتحدث تلقائيًا مع كل نشر؛ لا صفحات ويب جديدة متوقعة للأدوات (الأدوات داخل البرنامج). التحقق أن `/tools` ما زالت في الخريطة الحيّة
+- [ ] إعادة زحف بعد النشر: صفر روابط 404
+- [ ] تحديث سجل README و`CHANGELOG.md` وصناديق هذا القسم
+- [ ] الدمج بعد نجاح الاختبارات، ثم التحقق الحي
+
+**ما يحتاج المالك:** توقيع الشيفرة / SmartScreen، وحساب Microsoft Store إن رغب (لم يتغير). Search Console ما زال اختياريًا كما في القسم 4.
 
 ---
 
@@ -22,7 +130,7 @@ This is the forward plan. Completed work is listed in the README and changelog.
 ### الخطوات التالية للبرامج
 
 1. **مقال مرافق** (عربي + إنجليزي) يشرح البرنامج وأهم 5 أدوات، وروابط من المقالات القديمة ذات الصلة (البصمة، كلمات المرور، DNS، المنافذ، قفل الحسابات). مؤجل حاليًا بطلب المالك (لا مقالات الآن).
-2. **إصدار جديد:** عدّل الكود تحت `desktop/`، ارفع رقم `Version` في `desktop/Directory.Build.props` و`version` في `artifacts/techpulse-ar/src/content/desktop-program.json`، ثم `git tag desktop-v2.1 && git push origin desktop-v2.1`.
+2. **إصدار desktop-v2.1 (قيد التنفيذ):** الخطة التفصيلية وصناديق المتابعة في [المرحلة الحالية](#phase-2-1). بعد نجاح الاختبارات: ارفع `Version` إلى 2.1.0 ثم `git tag desktop-v2.1 && git push origin desktop-v2.1`.
 3. **النشر على Microsoft Store** يحتاج حساب المالك (التسجيل للأفراد مجاني عبر [storedeveloper.microsoft.com](https://storedeveloper.microsoft.com)). التغليف المقترح: MSIX، والمتجر يعيد التوقيع فيزيل تحذير SmartScreen لمستخدمي المتجر.
 4. **توقيع الشيفرة للتحميل المباشر:** غير متوفر حاليًا. Azure Artifact Signing للأفراد في الولايات المتحدة وكندا فقط، فالأنسب للمالك في مصر شهادة OV (~150–300 دولار/سنة). شهادات EV منذ 2024 لم تعد تتخطى SmartScreen فورًا. SignPath Foundation قد ترفض أدوات «المسح» مثل فاحص المنافذ. السمعة تُبنى مع الوقت حتى بعد التوقيع.
 5. أدوات أُجِّلت عمدًا لارتفاع خطر الإنذار الكاذب: ضبط الخصوصية، المشفّر/الماحي، ماسح الشبكة المحلية، فاحص التصلب، فرز السجلات. تُعاد بعد التوقيع.
