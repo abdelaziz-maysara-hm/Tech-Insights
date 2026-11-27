@@ -23,7 +23,7 @@ Live site: [https://netsecatlas.com](https://netsecatlas.com) — practical Arab
 - **قاعدة SEO:** مع كل نشر يُحدَّث تلقائيًا `sitemap.xml` و`video-sitemap.xml` وRSS من المحتوى والمسارات الفعلية. لا تُحرَّر خريطة الموقع يدويًا. `<lastmod>` يأتي من تاريخ تحديث العنصر أو آخر commit لمسه في git، وليس من وقت البناء. صفحات noindex مثل `/search` وصفحات التحويل فقط لا تُدرج. اختبار البناء يفشل إذا سقطت صفحة قابلة للفهرسة من الخريطة أو إذا ذكرت الخريطة رابطًا غير 200. بعد كل نشر يُرسل IndexNow لمحركات البحث الشريكة.
 - مولّد المقالات الآلي (generator) **محذوف**. إضافة المحتوى تتم يدويًا كما هو موضّح أدناه.
 
-الخطة القادمة كلها في ملف منفصل: **[docs/ROADMAP.md](docs/ROADMAP.md)**. المرحلة الجارية (27 نوفمبر): [أدوات NetSec Atlas Tools 2.1 وتحسين الموقع](docs/ROADMAP.md#phase-2-1) — قائمة أدوات مرشحة ومختارة، اختبارات الإصدار، خطوات التحميل، وتحسينات Lighthouse، مع صناديق يمكن المتابعة منها.
+الخطة القادمة كلها في ملف منفصل: **[docs/ROADMAP.md](docs/ROADMAP.md)**. المرحلة الجارية (27 نوفمبر مساءً): [أداء الموبايل وتوسيع صفحة الفيديو](docs/ROADMAP.md#phase-perf-videos) — إصلاح تراجع Lighthouse، توسيع الفيديوهات والقوائم، ثم التحقق الحي، مع صناديق يمكن المتابعة منها. مرحلة 2.1 مكتملة: [docs/ROADMAP.md#phase-2-1](docs/ROADMAP.md#phase-2-1).
 
 ---
 
@@ -191,4 +191,4 @@ pnpm --filter @workspace/techpulse-ar run dev
 
 ## الخطة / Plan
 
-الملف **[docs/ROADMAP.md](docs/ROADMAP.md)** فيه: ما تبقّى من عمل البرامج، رزنامة المحتوى، المراجعة البشرية، حساب Microsoft Store وتوقيع الشيفرة، Search Console/GA، وأفكار لاحقة. **المرحلة الحالية** (صناديق للمتابعة): [أدوات 2.1 وتحسين الموقع](docs/ROADMAP.md#phase-2-1).
+الملف **[docs/ROADMAP.md](docs/ROADMAP.md)** فيه: ما تبقّى من عمل البرامج، رزنامة المحتوى، المراجعة البشرية، حساب Microsoft Store وتوقيع الشيفرة، Search Console/GA، وأفكار لاحقة. **المرحلة الحالية** (صناديق للمتابعة): [أداء الموبايل وتوسيع صفحة الفيديو](docs/ROADMAP.md#phase-perf-videos). مرحلة 2.1 مكتملة: [docs/ROADMAP.md#phase-2-1](docs/ROADMAP.md#phase-2-1).
