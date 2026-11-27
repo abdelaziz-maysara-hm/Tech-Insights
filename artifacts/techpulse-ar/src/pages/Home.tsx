@@ -1,13 +1,13 @@
-import { mockComparisons } from '@/data/mockData';
+import { lazy, Suspense } from 'react';
 import { ACTIVE_CATEGORIES } from '@/lib/activeCategories';
-import { cmsComparisons } from '@/data/comparisons';
 import { useLanguage } from '@/context/LanguageContext';
 import { ArticleCard } from '@/components/ArticleCard';
-import { ComparisonCard } from '@/components/ComparisonCard';
 import { Link } from 'wouter';
 import { PlayCircle, ArrowLeft, ArrowRight } from 'lucide-react';
 import { useAllArticles } from '@/hooks/useAllArticles';
 import { sizedHero } from '@/lib/images';
+
+const HomeComparisons = lazy(() => import('@/components/HomeComparisons'));
 
 export default function Home() {
   const { language, t } = useLanguage();
@@ -18,8 +18,6 @@ export default function Home() {
   const trendingArticles = allArticles.filter(a => a.isTrending).slice(0, 3);
   const latestArticles = allArticles.filter(a => !a.isFeatured && !a.isTrending).slice(0, 6);
   const videoArticles = allArticles.filter(a => a.youtubeVideoId).slice(0, 3);
-  const allComparisons = cmsComparisons?.length ? cmsComparisons : mockComparisons;
-  const latestComparisons = allComparisons.slice(0, 3);
 
   return (
     <div className="min-h-screen pb-20">
@@ -125,21 +123,9 @@ export default function Home() {
           </div>
 
           <div>
-            <div className="flex items-center justify-between mb-8">
-              <div className="flex items-center gap-2">
-                <span className="w-2 h-8 bg-secondary rounded-full inline-block"></span>
-                <h2 className="text-2xl font-bold">{t('comparisons')}</h2>
-              </div>
-              <Link href="/comparisons" className="text-primary font-medium hover:underline flex items-center gap-1">
-                {language === 'ar' ? 'المزيد من المقارنات' : 'More comparisons'}
-                {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
-              </Link>
-            </div>
-            <div className="flex flex-col gap-6">
-              {latestComparisons.map(c => (
-                <ComparisonCard key={c.id} comparison={c} />
-              ))}
-            </div>
+            <Suspense fallback={null}>
+              <HomeComparisons />
+            </Suspense>
           </div>
         </div>
       </section>

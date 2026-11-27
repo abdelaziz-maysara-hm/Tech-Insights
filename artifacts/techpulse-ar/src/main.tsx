@@ -63,14 +63,18 @@ function keepPrerenderUntilAppIsReady(root: HTMLElement) {
   const isReady = () => {
     const main = root.querySelector("main");
     if (!main || main.querySelector('[aria-busy="true"]')) return false;
-    return Boolean(main.querySelector("h1, h2, img")) || (main.textContent ?? "").trim().length > 40;
+    // Do not reveal a loading skeleton — that would tear down the prerendered
+    // LCP image before the route has painted its own hero.
+    return Boolean(main.querySelector("h1, h2, img"));
   };
   const observer = new MutationObserver(() => {
     if (isReady()) reveal();
   });
   observer.observe(root, { childList: true, subtree: true, characterData: true });
-  // Last resort only — do not wait this long on the happy path.
-  const fallback = window.setTimeout(reveal, 2500);
+  if (isReady()) reveal();
+  // Last resort only. An early timeout used to reveal the Suspense fallback
+  // and retarget LCP to a hero that appeared several seconds later.
+  const fallback = window.setTimeout(reveal, 8000);
 }
 
 function mount(root: HTMLElement) {
