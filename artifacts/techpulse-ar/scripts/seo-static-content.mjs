@@ -48,6 +48,9 @@ const UI = {
   prevLesson: { ar: 'الدرس السابق', en: 'Previous lesson' },
   nextLesson: { ar: 'الدرس التالي', en: 'Next lesson' },
   relatedArticles: { ar: 'مقالات مرتبطة', en: 'Related articles' },
+  relatedTools: { ar: 'أداة مرتبطة', en: 'Related tool' },
+  watchNext: { ar: 'شاهد التالي', en: 'Watch next' },
+  onThisSite: { ar: 'على الموقع', en: 'On this site' },
   originalTitle: { ar: 'العنوان الأصلي', en: 'Original title' },
   categories: { ar: 'الأقسام', en: 'Categories' },
   related: { ar: 'مقالات ذات صلة', en: 'Related articles' },
@@ -286,6 +289,26 @@ function articleLinks(slugs, lang, indexes) {
     .join('');
 }
 
+function desktopToolAnchor(englishName) {
+  return englishName
+    .toLowerCase()
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+function toolLinks(anchors, lang, indexes) {
+  const titles = indexes.desktopToolsByAnchor || new Map();
+  return (anchors || [])
+    .filter(Boolean)
+    .map((anchor) => {
+      const title = titles.get(anchor);
+      const label = title ? pickLocalized(title, lang) : anchor;
+      return `<li><a href="${escapeAttr(localizedHref('/tools', lang))}#${escapeAttr(anchor)}">${escapeHtml(label)}</a></li>`;
+    })
+    .join('');
+}
+
 function staticVideoFacade(video, lang) {
   const title = pickLocalized(video.title, lang);
   return `<p><a href="${escapeAttr(youtubeWatchUrl(video.youtubeId))}" rel="noopener noreferrer"><img src="${escapeAttr(
@@ -321,11 +344,7 @@ function renderPlaylist(playlist, seo, indexes) {
   const external = (playlist.externalPlaylists || [])
     .map((p) => `<li><a href="${escapeAttr(youtubePlaylistUrl(p.youtubePlaylistId))}" rel="noopener noreferrer">${escapeHtml(p.title)} — ${escapeHtml(p.channel.name)}</a></li>`)
     .join('');
-  const tools = (playlist.tools || [])
-    .map((slug) => indexes.toolsBySlug?.get(slug))
-    .filter(Boolean)
-    .map((tool) => `<li><a href="${escapeAttr(localizedHref(`/tools/${tool.slug}`, lang))}">${escapeHtml(pickLocalized(tool.title, lang))}</a></li>`)
-    .join('');
+  const tools = toolLinks(playlist.tools || [], lang, indexes);
   return `<article class="max-w-3xl mx-auto"><h1>${escapeHtml(pickLocalized(playlist.title, lang))}</h1><p>${escapeHtml(
     pickLocalized(playlist.description, lang),
   )}</p><p>${vids.length} ${lang === 'ar' ? 'فيديو' : 'videos'} · ${escapeHtml(formatTotal(totalDurationSeconds(vids), lang))}+</p>${
@@ -347,10 +366,15 @@ function renderVideo(video, seo, indexes) {
   const previous = index > 0 ? vids[index - 1] : null;
   const next = index >= 0 && index < vids.length - 1 ? vids[index + 1] : null;
   const notes = (video.notes?.[lang] || []).map((n) => `<li>${escapeHtml(n)}</li>`).join('');
-  const related = playlist ? [playlist.pillarArticle, ...(playlist.relatedArticles || [])].slice(0, 6) : [];
+  const related = video.relatedArticles?.length
+    ? video.relatedArticles
+    : playlist
+      ? [playlist.pillarArticle, ...(playlist.relatedArticles || [])]
+      : [];
+  const toolsHtml = toolLinks([...(video.relatedTools || []), ...((playlist && playlist.tools) || [])], lang, indexes);
   const nav = [
     previous ? `<a rel="prev" href="${escapeAttr(localizedHref(`/video/${previous.slug}`, lang))}">${escapeHtml(t('prevLesson', lang))}: ${escapeHtml(pickLocalized(previous.title, lang))}</a>` : '',
-    next ? `<a rel="next" href="${escapeAttr(localizedHref(`/video/${next.slug}`, lang))}">${escapeHtml(t('nextLesson', lang))}: ${escapeHtml(pickLocalized(next.title, lang))}</a>` : '',
+    next ? `<a rel="next" href="${escapeAttr(localizedHref(`/video/${next.slug}`, lang))}">${escapeHtml(t('watchNext', lang))}: ${escapeHtml(pickLocalized(next.title, lang))}</a>` : '',
   ]
     .filter(Boolean)
     .join(' | ');
@@ -359,12 +383,18 @@ function renderVideo(video, seo, indexes) {
   )}" rel="noopener noreferrer">${escapeHtml(video.channel.name)}</a>${video.durationText ? ` · ${escapeHtml(video.durationText)}` : ''}</p>${staticVideoFacade(
     video,
     lang,
-  )}<p>${escapeHtml(t('originalTitle', lang))}: <span dir="auto">${escapeHtml(video.originalTitle)}</span> · <a href="${escapeAttr(
+  )}${
+    next
+      ? `<p><a rel="next" href="${escapeAttr(localizedHref(`/video/${next.slug}`, lang))}">${escapeHtml(t('watchNext', lang))}: ${escapeHtml(pickLocalized(next.title, lang))}</a></p>`
+      : ''
+  }<p>${escapeHtml(t('originalTitle', lang))}: <span dir="auto">${escapeHtml(video.originalTitle)}</span> · <a href="${escapeAttr(
     youtubeWatchUrl(video.youtubeId),
   )}" rel="noopener noreferrer">${escapeHtml(t('watchOnYoutube', lang))}</a></p><h2>${escapeHtml(t('summary', lang))}</h2><p>${escapeHtml(
     pickLocalized(video.description, lang),
   )}</p>${notes ? `<h2>${escapeHtml(t('notes', lang))}</h2><ul>${notes}</ul>` : ''}${
-    related.length ? `<h2>${escapeHtml(t('relatedArticles', lang))}</h2><ul>${articleLinks(related, lang, indexes)}</ul>` : ''
+    related.length || toolsHtml
+      ? `<h2>${escapeHtml(t('onThisSite', lang))}</h2><ul>${articleLinks(related, lang, indexes)}${toolsHtml}</ul>`
+      : ''
   }${playlist ? `<p><a href="${escapeAttr(localizedHref(`/videos/${playlist.slug}`, lang))}">${escapeHtml(t('playlist', lang))}: ${escapeHtml(pickLocalized(playlist.title, lang))}</a></p>` : ''}${
     nav ? `<nav aria-label="playlist navigation">${nav}</nav>` : ''
   }</article>`;

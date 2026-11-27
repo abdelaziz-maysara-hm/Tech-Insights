@@ -31,12 +31,43 @@ test('every embedded YouTube ID was verified via oEmbed', () => {
 
 test('playlists reference existing videos and articles', () => {
   const videoSlugs = new Set(videos.map((v) => v.slug));
-  assert.equal(playlists.length, 7);
+  assert.equal(playlists.length, 10);
   for (const p of playlists) {
     assert.ok(p.videos.length >= 5, p.slug);
     p.videos.forEach((slug) => assert.ok(videoSlugs.has(slug), `${p.slug} -> ${slug}`));
     if (p.pillarArticle) assert.ok(articleSlugs.has(p.pillarArticle), `${p.slug} pillar ${p.pillarArticle}`);
     p.relatedArticles.forEach((slug) => assert.ok(articleSlugs.has(slug), `${p.slug} related ${slug}`));
+  }
+});
+
+test('video descriptions are unique and related links resolve', () => {
+  let desktop = { categories: [] };
+  try { desktop = readJson('../src/content/desktop-program.json'); } catch { /* optional */ }
+  const toolAnchors = new Set();
+  for (const cat of desktop.categories || []) {
+    for (const tool of cat.tools || []) {
+      toolAnchors.add(tool.en.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''));
+    }
+  }
+  for (const lang of ['ar', 'en']) {
+    const descriptions = videos.map((v) => v.description[lang]);
+    assert.equal(new Set(descriptions).size, descriptions.length, `duplicate ${lang} video descriptions`);
+  }
+  for (const v of videos) {
+    assert.ok(v.description.ar && v.description.en, v.slug);
+    for (const slug of v.relatedArticles || []) {
+      assert.ok(articleSlugs.has(slug), `${v.slug} related article ${slug}`);
+    }
+    for (const anchor of v.relatedTools || []) {
+      assert.ok(toolAnchors.has(anchor), `${v.slug} related tool ${anchor}`);
+    }
+  }
+  const stale = ['spf-record-analyzer', 'dmarc-record-analyzer'];
+  for (const p of playlists) {
+    for (const tool of p.tools || []) {
+      assert.ok(!stale.includes(tool), `${p.slug} stale tool ${tool}`);
+      assert.ok(toolAnchors.has(tool), `${p.slug} unknown tool ${tool}`);
+    }
   }
 });
 

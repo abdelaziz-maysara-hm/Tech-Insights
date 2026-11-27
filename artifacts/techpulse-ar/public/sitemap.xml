@@ -5,7 +5,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/" />
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -14,7 +14,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/" />
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -59,7 +59,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/videos" />
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/videos" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/videos" />
-    <lastmod>2026-11-19</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -68,7 +68,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/videos" />
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/videos" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/videos" />
-    <lastmod>2026-11-19</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -131,7 +131,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools" />
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools" />
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -140,7 +140,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/tools" />
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/tools" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/tools" />
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -4235,7 +4235,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/videos/network-fundamentals" />
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/videos/network-fundamentals" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/videos/network-fundamentals" />
-    <lastmod>2026-11-19</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4244,7 +4244,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/videos/network-fundamentals" />
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/videos/network-fundamentals" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/videos/network-fundamentals" />
-    <lastmod>2026-11-19</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4271,7 +4271,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/videos/identity-active-directory" />
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/videos/identity-active-directory" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/videos/identity-active-directory" />
-    <lastmod>2026-11-19</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4280,7 +4280,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/videos/identity-active-directory" />
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/videos/identity-active-directory" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/videos/identity-active-directory" />
-    <lastmod>2026-11-19</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4335,6 +4335,60 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/videos/certifications-career" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/videos/certifications-career" />
     <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/videos/wifi-wireless</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/videos/wifi-wireless" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/videos/wifi-wireless" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/videos/wifi-wireless" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/videos/wifi-wireless</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/videos/wifi-wireless" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/videos/wifi-wireless" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/videos/wifi-wireless" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/videos/tls-certificates</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/videos/tls-certificates" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/videos/tls-certificates" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/videos/tls-certificates" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/videos/tls-certificates</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/videos/tls-certificates" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/videos/tls-certificates" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/videos/tls-certificates" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/videos/subnetting</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/videos/subnetting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/videos/subnetting" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/videos/subnetting" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/videos/subnetting</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/videos/subnetting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/videos/subnetting" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/videos/subnetting" />
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4753,6 +4807,42 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://netsecatlas.com/ar/video/wireshark-4-introduction-gerald-combs</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/wireshark-4-introduction-gerald-combs" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/wireshark-4-introduction-gerald-combs" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/wireshark-4-introduction-gerald-combs" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/wireshark-4-introduction-gerald-combs</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/wireshark-4-introduction-gerald-combs" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/wireshark-4-introduction-gerald-combs" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/wireshark-4-introduction-gerald-combs" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/google-what-is-dns</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/google-what-is-dns" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/google-what-is-dns" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/google-what-is-dns" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/google-what-is-dns</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/google-what-is-dns" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/google-what-is-dns" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/google-what-is-dns" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://netsecatlas.com/ar/video/soc-explained-arabic</loc>
     <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/soc-explained-arabic" />
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/soc-explained-arabic" />
@@ -5055,6 +5145,60 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/conditional-access-beginner-guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/conditional-access-beginner-guide" />
     <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/windows-laps-enhancements-roadmap</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/windows-laps-enhancements-roadmap" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/windows-laps-enhancements-roadmap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/windows-laps-enhancements-roadmap" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/windows-laps-enhancements-roadmap</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/windows-laps-enhancements-roadmap" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/windows-laps-enhancements-roadmap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/windows-laps-enhancements-roadmap" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/windows-laps-smart-card-policy</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/windows-laps-smart-card-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/windows-laps-smart-card-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/windows-laps-smart-card-policy" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/windows-laps-smart-card-policy</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/windows-laps-smart-card-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/windows-laps-smart-card-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/windows-laps-smart-card-policy" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/computerphile-how-passkeys-work</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/computerphile-how-passkeys-work" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/computerphile-how-passkeys-work" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/computerphile-how-passkeys-work" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/computerphile-how-passkeys-work</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/computerphile-how-passkeys-work" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/computerphile-how-passkeys-work" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/computerphile-how-passkeys-work" />
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -5415,6 +5559,312 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/practical-ethical-hacking-full-course" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/practical-ethical-hacking-full-course" />
     <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/cisco-what-is-wifi-6</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/cisco-what-is-wifi-6" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/cisco-what-is-wifi-6" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/cisco-what-is-wifi-6" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/cisco-what-is-wifi-6</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/cisco-what-is-wifi-6" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/cisco-what-is-wifi-6" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/cisco-what-is-wifi-6" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/cisco-wifi-6e-explained</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/cisco-wifi-6e-explained" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/cisco-wifi-6e-explained" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/cisco-wifi-6e-explained" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/cisco-wifi-6e-explained</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/cisco-wifi-6e-explained" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/cisco-wifi-6e-explained" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/cisco-wifi-6e-explained" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/cisco-ise-guest-access-basics</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/cisco-ise-guest-access-basics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/cisco-ise-guest-access-basics" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/cisco-ise-guest-access-basics" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/cisco-ise-guest-access-basics</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/cisco-ise-guest-access-basics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/cisco-ise-guest-access-basics" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/cisco-ise-guest-access-basics" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/professor-messer-wireless-security-settings</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/professor-messer-wireless-security-settings" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/professor-messer-wireless-security-settings" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/professor-messer-wireless-security-settings" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/professor-messer-wireless-security-settings</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/professor-messer-wireless-security-settings" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/professor-messer-wireless-security-settings" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/professor-messer-wireless-security-settings" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/professor-messer-wireless-attacks</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/professor-messer-wireless-attacks" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/professor-messer-wireless-attacks" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/professor-messer-wireless-attacks" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/professor-messer-wireless-attacks</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/professor-messer-wireless-attacks" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/professor-messer-wireless-attacks" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/professor-messer-wireless-attacks" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/computerphile-tls-introduction</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/computerphile-tls-introduction" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/computerphile-tls-introduction" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/computerphile-tls-introduction" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/computerphile-tls-introduction</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/computerphile-tls-introduction" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/computerphile-tls-introduction" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/computerphile-tls-introduction" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/computerphile-tls-handshake</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/computerphile-tls-handshake" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/computerphile-tls-handshake" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/computerphile-tls-handshake" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/computerphile-tls-handshake</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/computerphile-tls-handshake" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/computerphile-tls-handshake" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/computerphile-tls-handshake" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/computerphile-public-key-cryptography</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/computerphile-public-key-cryptography" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/computerphile-public-key-cryptography" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/computerphile-public-key-cryptography" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/computerphile-public-key-cryptography</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/computerphile-public-key-cryptography" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/computerphile-public-key-cryptography" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/computerphile-public-key-cryptography" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/computerphile-tls-private-key-mistake</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/computerphile-tls-private-key-mistake" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/computerphile-tls-private-key-mistake" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/computerphile-tls-private-key-mistake" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/computerphile-tls-private-key-mistake</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/computerphile-tls-private-key-mistake" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/computerphile-tls-private-key-mistake" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/computerphile-tls-private-key-mistake" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/professor-messer-certificates</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/professor-messer-certificates" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/professor-messer-certificates" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/professor-messer-certificates" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/professor-messer-certificates</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/professor-messer-certificates" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/professor-messer-certificates" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/professor-messer-certificates" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/subnetting-mastery-part-1-what-is-subnetting</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-1-what-is-subnetting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/subnetting-mastery-part-1-what-is-subnetting" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-1-what-is-subnetting" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/subnetting-mastery-part-1-what-is-subnetting</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-1-what-is-subnetting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/subnetting-mastery-part-1-what-is-subnetting" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-1-what-is-subnetting" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/subnetting-mastery-part-2-cheat-sheet</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-2-cheat-sheet" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/subnetting-mastery-part-2-cheat-sheet" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-2-cheat-sheet" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/subnetting-mastery-part-2-cheat-sheet</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-2-cheat-sheet" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/subnetting-mastery-part-2-cheat-sheet" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-2-cheat-sheet" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/subnetting-mastery-part-3-solve-any-problem</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-3-solve-any-problem" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/subnetting-mastery-part-3-solve-any-problem" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-3-solve-any-problem" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/subnetting-mastery-part-3-solve-any-problem</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-3-solve-any-problem" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/subnetting-mastery-part-3-solve-any-problem" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-3-solve-any-problem" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/subnetting-mastery-part-4-practice</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-4-practice" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/subnetting-mastery-part-4-practice" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-4-practice" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/subnetting-mastery-part-4-practice</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-4-practice" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/subnetting-mastery-part-4-practice" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-4-practice" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/subnetting-mastery-part-5-time-saving-tricks</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-5-time-saving-tricks" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/subnetting-mastery-part-5-time-saving-tricks" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-5-time-saving-tricks" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/subnetting-mastery-part-5-time-saving-tricks</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-5-time-saving-tricks" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/subnetting-mastery-part-5-time-saving-tricks" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-5-time-saving-tricks" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/subnetting-mastery-part-6-slash-17-to-24</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-6-slash-17-to-24" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/subnetting-mastery-part-6-slash-17-to-24" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-6-slash-17-to-24" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/subnetting-mastery-part-6-slash-17-to-24</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-6-slash-17-to-24" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/subnetting-mastery-part-6-slash-17-to-24" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-6-slash-17-to-24" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/subnetting-mastery-part-7-slash-1-to-16</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-7-slash-1-to-16" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/subnetting-mastery-part-7-slash-1-to-16" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-7-slash-1-to-16" />
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/subnetting-mastery-part-7-slash-1-to-16</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-7-slash-1-to-16" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://netsecatlas.com/en/video/subnetting-mastery-part-7-slash-1-to-16" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://netsecatlas.com/ar/video/subnetting-mastery-part-7-slash-1-to-16" />
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
