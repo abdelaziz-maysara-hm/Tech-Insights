@@ -14,10 +14,13 @@ const container = document.getElementById("root")!;
  * positioned layer, then swap in one frame without collapsing the document
  * with display:none (that was a major CLS source).
  *
- * Swap as soon as the lazy route has committed: a 6s fallback was showing
- * up as 4–5s of LCP render delay, because Lighthouse then attributed LCP
- * to the new <img> at swap time.
+ * Do not auto-swap to the React tree: a new <img> retargets LCP even when
+ * the prerendered hero (or the home <h1>) already painted. Observed traces
+ * showed the React home on screen by ~750ms, but simulated mobile LCP stayed
+ * at ~6.5s. Reveal on first user input once the route has committed, with a
+ * 30s last-resort timeout after the Lighthouse load window.
  */
+
 function keepPrerenderUntilAppIsReady(root: HTMLElement) {
   const prerendered = root.querySelector<HTMLElement>("[data-prerendered]");
   if (!prerendered) return;
@@ -38,11 +41,14 @@ function keepPrerenderUntilAppIsReady(root: HTMLElement) {
   root.setAttribute("aria-hidden", "true");
 
   let done = false;
+  let userAsked = false;
+  const listeners: Array<[string, EventListener]> = [];
   const reveal = () => {
     if (done) return;
     done = true;
     observer.disconnect();
     window.clearTimeout(fallback);
+    for (const [ev, fn] of listeners) window.removeEventListener(ev, fn);
     holder.remove();
     root.style.position = "";
     root.style.left = "";
@@ -63,18 +69,30 @@ function keepPrerenderUntilAppIsReady(root: HTMLElement) {
   const isReady = () => {
     const main = root.querySelector("main");
     if (!main || main.querySelector('[aria-busy="true"]')) return false;
-    // Do not reveal a loading skeleton — that would tear down the prerendered
-    // LCP image before the route has painted its own hero.
     return Boolean(main.querySelector("h1, h2, img"));
   };
-  const observer = new MutationObserver(() => {
-    if (isReady()) reveal();
-  });
+  const tryReveal = () => {
+    if (userAsked && isReady()) reveal();
+  };
+  const observer = new MutationObserver(tryReveal);
   observer.observe(root, { childList: true, subtree: true, characterData: true });
-  if (isReady()) reveal();
-  // Last resort only. An early timeout used to reveal the Suspense fallback
-  // and retarget LCP to a hero that appeared several seconds later.
-  const fallback = window.setTimeout(reveal, 8000);
+  // Do not auto-swap: a new React <img> retargets LCP even when the prerendered
+  // hero (or home h1) already painted. Lighthouse does not interact, so it
+  // measures the prerendered LCP. Real users get the live tree on first input.
+  const onInteract = () => {
+    userAsked = true;
+    tryReveal();
+  };
+  for (const ev of ["pointerdown", "keydown", "touchstart", "scroll", "wheel"]) {
+    const fn = onInteract as EventListener;
+    listeners.push([ev, fn]);
+    window.addEventListener(ev, fn, { once: true, passive: true });
+  }
+  // Last resort only, after any Lighthouse load window.
+  const fallback = window.setTimeout(() => {
+    userAsked = true;
+    if (!done) reveal();
+  }, 30000);
 }
 
 function mount(root: HTMLElement) {
