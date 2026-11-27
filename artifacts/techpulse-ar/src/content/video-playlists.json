@@ -28,6 +28,14 @@
       "forcepoint-ssl-vpn-radius",
       "zero-trust-explained-practically"
     ],
+    "topics": [
+      "firewalls",
+      "vpn"
+    ],
+    "vendors": [
+      "Fortinet",
+      "Palo Alto Networks"
+    ],
     "externalPlaylists": [],
     "videos": [
       "fortigate-firewall-policy-internet-access",
@@ -67,7 +75,22 @@
       "network-access-control-nac-basics",
       "network-segmentation-compliance",
       "wireshark-network-analysis-complete-guide",
-      "nmap-network-scanning-complete-guide"
+      "nmap-network-scanning-complete-guide",
+      "dns-troubleshooting-nslookup-dig"
+    ],
+    "topics": [
+      "networking",
+      "wireshark",
+      "dns"
+    ],
+    "vendors": [
+      "Practical Networking",
+      "Professor Messer",
+      "Chris Greer"
+    ],
+    "tools": [
+      "dns-benchmark",
+      "tls-certificate-checker"
     ],
     "externalPlaylists": [
       {
@@ -90,9 +113,11 @@
       "wireshark-beginners-tutorial",
       "wireshark-arabic-explained",
       "nmap-tutorial-vulnerabilities",
-      "how-nmap-really-works"
+      "how-nmap-really-works",
+      "wireshark-4-introduction-gerald-combs",
+      "google-what-is-dns"
     ],
-    "updatedAt": "2026-11-19"
+    "updatedAt": "2026-11-27"
   },
   {
     "slug": "soc-incident-response",
@@ -120,6 +145,15 @@
       "ransomware-first-hour-response",
       "incident-response-tabletop-exercises",
       "how-edr-actually-works"
+    ],
+    "topics": [
+      "soc",
+      "siem"
+    ],
+    "vendors": [
+      "Wazuh",
+      "MITRE",
+      "SANS"
     ],
     "externalPlaylists": [],
     "videos": [
@@ -162,6 +196,19 @@
       "windows-local-admin-password-rotation",
       "2fa-practical-guide"
     ],
+    "topics": [
+      "identity",
+      "active-directory",
+      "windows"
+    ],
+    "vendors": [
+      "Microsoft",
+      "Computerphile"
+    ],
+    "tools": [
+      "ad-lockout-tracer",
+      "passwords"
+    ],
     "externalPlaylists": [],
     "videos": [
       "windows-server-active-directory-arabic",
@@ -170,9 +217,12 @@
       "active-directory-tiering",
       "what-is-conditional-access",
       "conditional-access-policy-plans",
-      "conditional-access-beginner-guide"
+      "conditional-access-beginner-guide",
+      "windows-laps-enhancements-roadmap",
+      "windows-laps-smart-card-policy",
+      "computerphile-how-passkeys-work"
     ],
-    "updatedAt": "2026-11-19"
+    "updatedAt": "2026-11-27"
   },
   {
     "slug": "endpoint-vulnerability",
@@ -199,6 +249,14 @@
       "vulnerability-scanning-vs-penetration-testing",
       "windows-patch-management-strategy"
     ],
+    "topics": [
+      "endpoint",
+      "vulnerability"
+    ],
+    "vendors": [
+      "Microsoft",
+      "Kaspersky"
+    ],
     "externalPlaylists": [],
     "videos": [
       "microsoft-defender-for-endpoint-overview",
@@ -223,8 +281,8 @@
       "en": "SPF, DKIM and DMARC from basics to p=reject, phishing header analysis, and the OWASP Top 10."
     },
     "intro": {
-      "ar": "شاهد هذه القائمة ثم افحص دومينك بأداتي تحليل SPF وDMARC في الموقع. الترتيب مقصود: المفاهيم، ثم السياسات، ثم التطبيق في Microsoft 365، ثم منظور محلل SOC.",
-      "en": "Watch this playlist, then check your own domain with the site's SPF and DMARC analyzers. The order is deliberate: concepts, policies, Microsoft 365 implementation, then the SOC analyst view."
+      "ar": "شاهد هذه القائمة ثم افحص ترويسات بريدك بأداة تحليل ترويسة البريد في برنامج NetSec Atlas Tools. الترتيب مقصود: المفاهيم، ثم السياسات، ثم التطبيق في Microsoft 365، ثم منظور محلل SOC.",
+      "en": "Watch this playlist, then inspect headers from your own mailbox with the Email Header Analyzer in NetSec Atlas Tools. The order is deliberate: concepts, policies, Microsoft 365 implementation, then the SOC analyst view."
     },
     "pillarArticle": "enterprise-email-security-guide",
     "relatedArticles": [
@@ -236,11 +294,18 @@
       "owasp-top-10-overview",
       "web-application-firewall-waf-guide"
     ],
-    "externalPlaylists": [],
-    "tools": [
-      "spf-record-analyzer",
-      "dmarc-record-analyzer"
+    "topics": [
+      "email",
+      "web"
     ],
+    "vendors": [
+      "PowerDMARC",
+      "Microsoft"
+    ],
+    "tools": [
+      "email-header-analyzer"
+    ],
+    "externalPlaylists": [],
     "videos": [
       "certmike-dmarc-dkim-spf",
       "spf-dkim-dmarc-christian-lempa",
@@ -273,6 +338,14 @@
       "authentication-vs-authorization-explained",
       "tls-handshake-explained"
     ],
+    "topics": [
+      "career",
+      "certifications"
+    ],
+    "vendors": [
+      "Professor Messer",
+      "NetworkChuck"
+    ],
     "externalPlaylists": [
       {
         "youtubePlaylistId": "PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ",
@@ -301,5 +374,147 @@
       "practical-ethical-hacking-full-course"
     ],
     "updatedAt": "2026-11-19"
+  },
+  {
+    "slug": "wifi-wireless",
+    "pillar": "P1",
+    "title": {
+      "ar": "Wi-Fi والشبكات اللاسلكية",
+      "en": "Wi-Fi and wireless networks"
+    },
+    "description": {
+      "ar": "من Wi-Fi 6 و6E إلى وصول الضيوف في Cisco ISE وإعدادات الحماية والهجمات اللاسلكية في Security+.",
+      "en": "From Wi-Fi 6 and 6E to Cisco ISE guest access, plus Security+ wireless settings and attacks."
+    },
+    "intro": {
+      "ar": "ابدأ بفهم المعيار من Cisco، ثم نطاق 6 GHz، ثم عزل الضيوف، وأخيرًا ضوابط الحماية والهجمات. افحص شبكتك بفاحص Wi-Fi في البرنامج واقرأ مقارنة Wi-Fi 6 مع Wi-Fi 5.",
+      "en": "Start with the standard from Cisco, then the 6 GHz band, then guest isolation, and finish with controls and attacks. Survey your network with the Wi-Fi Checker and read our Wi-Fi 6 vs Wi-Fi 5 article."
+    },
+    "pillarArticle": "wifi-6-vs-wifi-5-practical",
+    "relatedArticles": [
+      "guest-wifi-network-isolation",
+      "802-1x-certificate-authentication",
+      "home-router-security-basics",
+      "network-access-control-nac-basics"
+    ],
+    "topics": [
+      "wifi",
+      "wireless"
+    ],
+    "vendors": [
+      "Cisco",
+      "Professor Messer"
+    ],
+    "tools": [
+      "wi-fi-checker",
+      "wi-fi-qr-code"
+    ],
+    "externalPlaylists": [],
+    "videos": [
+      "cisco-what-is-wifi-6",
+      "cisco-wifi-6e-explained",
+      "cisco-ise-guest-access-basics",
+      "professor-messer-wireless-security-settings",
+      "professor-messer-wireless-attacks"
+    ],
+    "updatedAt": "2026-11-27"
+  },
+  {
+    "slug": "tls-certificates",
+    "pillar": "P1",
+    "title": {
+      "ar": "TLS والشهادات الرقمية",
+      "en": "TLS and digital certificates"
+    },
+    "description": {
+      "ar": "من مفهوم TLS والمصافحة إلى المفتاح العام وأخطاء المفتاح الخاص، ثم الشهادات في منهج Security+.",
+      "en": "From the idea of TLS and the handshake to public keys, private-key mistakes, and Security+ certificates."
+    },
+    "intro": {
+      "ar": "شاهد المقدمة ثم المصافحة ثم التشفير بالمفتاح العام. استخدم فاحص شهادات TLS وDecoder الشهادات في NetSec Atlas Tools على خادم تملكه، واقرأ مقال مصافحة TLS ومقال تشخيص أخطاء الشهادات.",
+      "en": "Watch the introduction, then the handshake, then public-key cryptography. Use the TLS Certificate Checker and Certificate / CSR Decoder in NetSec Atlas Tools against a server you own, and read our TLS handshake and certificate-error articles."
+    },
+    "pillarArticle": "tls-handshake-explained",
+    "relatedArticles": [
+      "tls-certificate-errors-troubleshooting",
+      "pki-certificate-authority-explained",
+      "certificate-expiry-monitoring",
+      "802-1x-certificate-authentication"
+    ],
+    "topics": [
+      "tls",
+      "certificates"
+    ],
+    "vendors": [
+      "Computerphile",
+      "Professor Messer"
+    ],
+    "tools": [
+      "tls-certificate-checker",
+      "certificate-csr-decoder"
+    ],
+    "externalPlaylists": [],
+    "videos": [
+      "computerphile-tls-introduction",
+      "computerphile-tls-handshake",
+      "computerphile-public-key-cryptography",
+      "computerphile-tls-private-key-mistake",
+      "professor-messer-certificates"
+    ],
+    "updatedAt": "2026-11-27"
+  },
+  {
+    "slug": "subnetting",
+    "pillar": "P1",
+    "title": {
+      "ar": "تقسيم الشبكات CIDR",
+      "en": "IPv4 subnetting and CIDR"
+    },
+    "description": {
+      "ar": "سلسلة Subnetting Mastery كاملة (7 أجزاء) من Practical Networking، من المفهوم حتى البادئات الواسعة، مع ورقة الغش والتمارين.",
+      "en": "The complete seven-part Subnetting Mastery series from Practical Networking, from the idea of subnetting through wide prefixes, with the cheat sheet and drills."
+    },
+    "intro": {
+      "ar": "شاهد الأجزاء بالترتيب وحل التمارين قبل سماع الإجابة. أبقِ حاسبة الشبكات الفرعية وVLSM Planner مفتوحتين، وراجع مقال مرجع CIDR في الموقع. القائمة الرسمية الكاملة على يوتيوب مرتبطة في أسفل الصفحة.",
+      "en": "Watch the parts in order and solve the drills before you hear the answer. Keep the Subnet Calculator and VLSM Planner open, and use our CIDR cheat-sheet article. The official full YouTube playlist is linked at the bottom of the page."
+    },
+    "pillarArticle": "subnetting-cheat-sheet-cidr",
+    "relatedArticles": [
+      "ip-address-conflict-troubleshooting",
+      "vlan-basics-why-segment",
+      "common-network-ports-cheat-sheet"
+    ],
+    "topics": [
+      "subnetting",
+      "networking"
+    ],
+    "vendors": [
+      "Practical Networking"
+    ],
+    "tools": [
+      "subnet-calculator",
+      "vlsm-planner",
+      "range-cidr"
+    ],
+    "externalPlaylists": [
+      {
+        "youtubePlaylistId": "PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE",
+        "title": "Subnetting Mastery",
+        "channel": {
+          "name": "Practical Networking",
+          "url": "/@PracticalNetworking"
+        }
+      }
+    ],
+    "videos": [
+      "subnetting-mastery-part-1-what-is-subnetting",
+      "subnetting-mastery-part-2-cheat-sheet",
+      "subnetting-mastery-part-3-solve-any-problem",
+      "subnetting-mastery-part-4-practice",
+      "subnetting-mastery-part-5-time-saving-tricks",
+      "subnetting-mastery-part-6-slash-17-to-24",
+      "subnetting-mastery-part-7-slash-1-to-16"
+    ],
+    "updatedAt": "2026-11-27"
   }
 ]

@@ -24,6 +24,8 @@ export interface LibraryVideo {
   position: number;
   date: string;
   categoryId?: string;
+  relatedArticles?: string[];
+  relatedTools?: string[];
 }
 
 export interface ExternalPlaylist {
@@ -42,6 +44,8 @@ export interface LibraryPlaylist {
   relatedArticles: string[];
   externalPlaylists: ExternalPlaylist[];
   tools?: string[];
+  topics?: string[];
+  vendors?: string[];
   videos: string[];
   updatedAt: string;
 }
@@ -138,4 +142,65 @@ export function playlistItemListJsonLd(
       name: v.title[lang],
     })),
   };
+}
+
+export const TOPIC_LABELS: Record<string, Bilingual> = {
+  firewalls: { ar: 'جدران الحماية', en: 'Firewalls' },
+  vpn: { ar: 'VPN', en: 'VPN' },
+  networking: { ar: 'الشبكات', en: 'Networking' },
+  wireshark: { ar: 'Wireshark', en: 'Wireshark' },
+  dns: { ar: 'DNS', en: 'DNS' },
+  soc: { ar: 'SOC', en: 'SOC' },
+  siem: { ar: 'SIEM', en: 'SIEM' },
+  identity: { ar: 'الهوية', en: 'Identity' },
+  'active-directory': { ar: 'Active Directory', en: 'Active Directory' },
+  windows: { ar: 'ويندوز', en: 'Windows' },
+  endpoint: { ar: 'الأجهزة الطرفية', en: 'Endpoint' },
+  vulnerability: { ar: 'الثغرات', en: 'Vulnerability' },
+  email: { ar: 'البريد', en: 'Email' },
+  web: { ar: 'الويب', en: 'Web' },
+  career: { ar: 'المسار المهني', en: 'Career' },
+  certifications: { ar: 'الشهادات', en: 'Certifications' },
+  wifi: { ar: 'Wi-Fi', en: 'Wi-Fi' },
+  wireless: { ar: 'لاسلكي', en: 'Wireless' },
+  tls: { ar: 'TLS', en: 'TLS' },
+  certificates: { ar: 'الشهادات الرقمية', en: 'Certificates' },
+  subnetting: { ar: 'تقسيم الشبكات', en: 'Subnetting' },
+};
+
+export function topicLabel(topic: string, lang: Lang): string {
+  return TOPIC_LABELS[topic]?.[lang] || topic;
+}
+
+export function uniqueTopics(playlists: LibraryPlaylist[]): string[] {
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const p of playlists) {
+    for (const t of p.topics || []) {
+      if (!seen.has(t)) {
+        seen.add(t);
+        out.push(t);
+      }
+    }
+  }
+  return out;
+}
+
+export function videoMatchesQuery(video: LibraryVideo, query: string): boolean {
+  const q = query.trim().toLowerCase();
+  if (!q) return true;
+  const hay = [
+    video.title.ar,
+    video.title.en,
+    video.originalTitle,
+    video.description.ar,
+    video.description.en,
+    video.channel.name,
+    video.slug,
+    ...(video.notes.ar || []),
+    ...(video.notes.en || []),
+  ]
+    .join(' ')
+    .toLowerCase();
+  return hay.includes(q);
 }

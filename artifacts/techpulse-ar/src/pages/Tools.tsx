@@ -3,6 +3,7 @@ import { useSEO } from '@/hooks/useSEO';
 import { ADAWATY_ORIGIN, ADAWATY_SECURITY } from '@/data/adawaty';
 import { Download, ExternalLink, ShieldCheck } from 'lucide-react';
 import program from '@/content/desktop-program.json';
+import { toolAnchor } from '@/lib/toolAnchors';
 
 const APPS = [
   {
@@ -123,11 +124,11 @@ export default function Tools() {
 
         <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2">
           {program.categories.map((cat) => (
-            <div key={cat.id}>
+            <div key={cat.id} id={`tools-${cat.id}`} className="scroll-mt-24">
               <h2 className="text-base font-bold">{cat.title[language]}</h2>
               <ul className="mt-2 space-y-2 text-sm">
                 {cat.tools.map((tool) => (
-                  <li key={tool.en}>
+                  <li key={tool.en} id={toolAnchor(tool.en)} className="scroll-mt-24">
                     <span className="font-semibold">{ar ? tool.ar : tool.en}</span>
                     <span className="text-muted-foreground"> — {ar ? tool.dar : tool.den}</span>
                   </li>

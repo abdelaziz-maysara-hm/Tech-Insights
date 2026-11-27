@@ -643,6 +643,62 @@
     </video:video>
   </url>
   <url>
+    <loc>https://netsecatlas.com/ar/video/wireshark-4-introduction-gerald-combs</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/3HdKhen0Gqw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>مقدمة Wireshark 4.0 مع مؤسس المشروع Gerald Combs</video:title>
+      <video:description>جلسة من مؤتمر SharkFest الرسمي يقدّم فيها Gerald Combs (مؤسس Wireshark) وRoland Knall واجهة الإصدار 4.0 والتغييرات التي تهم محللي الشبكة.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/3HdKhen0Gqw</video:player_loc>
+      <video:duration>1117</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@WireSharkFest">SharkFest Wireshark Developer and User Conference</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/wireshark-4-introduction-gerald-combs</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/3HdKhen0Gqw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Introduction to Wireshark 4.0 with founder Gerald Combs</video:title>
+      <video:description>An official SharkFest session in which Wireshark founder Gerald Combs and Roland Knall walk through the Wireshark 4.0 interface and the changes that matter to network analysts.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/3HdKhen0Gqw</video:player_loc>
+      <video:duration>1117</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@WireSharkFest">SharkFest Wireshark Developer and User Conference</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/google-what-is-dns</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/X-pgKykKHfs/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>ما هو DNS؟ درس من شهادة Google لدعم تقنية المعلومات</video:title>
+      <video:description>درس رسمي من سلسلة Grow with Google (شهادة دعم تقنية المعلومات) يشرح نظام أسماء النطاقات وكيف تحل الأسماء إلى عناوين.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/X-pgKykKHfs</video:player_loc>
+      <video:duration>2180</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@growwithgoogle">Grow with Google</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/google-what-is-dns</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/X-pgKykKHfs/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>What is DNS? A lesson from the Google IT Support Certificate</video:title>
+      <video:description>An official Grow with Google lesson from the IT Support Certificate that explains the Domain Name System and how names resolve to addresses.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/X-pgKykKHfs</video:player_loc>
+      <video:duration>2180</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@growwithgoogle">Grow with Google</video:uploader>
+    </video:video>
+  </url>
+  <url>
     <loc>https://netsecatlas.com/ar/video/soc-explained-arabic</loc>
     <lastmod>2026-11-19</lastmod>
     <video:video>
@@ -1116,6 +1172,90 @@
       <video:publication_date>2026-11-19</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
       <video:uploader info="https://www.youtube.com/@AndyMaloneMVP">Andy Malone MVP</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/windows-laps-enhancements-roadmap</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/0SlHW0oVJfQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>تحسينات Windows LAPS وخارطة الطريق (Windows At Work)</video:title>
+      <video:description>جلسة من قناة Windows At Work التابعة لمايكروسوفت عن تحسينات Windows LAPS وخارطة طريقها لدوران كلمة مرور المسؤول المحلي.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/0SlHW0oVJfQ</video:player_loc>
+      <video:duration>1426</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@WindowsAtWork">Windows At Work</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/windows-laps-enhancements-roadmap</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/0SlHW0oVJfQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Windows LAPS enhancements and roadmap (Windows At Work)</video:title>
+      <video:description>A Microsoft Windows At Work session on Windows LAPS enhancements and the roadmap for rotating the local administrator password.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/0SlHW0oVJfQ</video:player_loc>
+      <video:duration>1426</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@WindowsAtWork">Windows At Work</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/windows-laps-smart-card-policy</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/fSLOspp8CHs/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>دمج Windows LAPS مع سياسة البطاقات الذكية فقط</video:title>
+      <video:description>جلسة قصيرة من Windows At Work توضح كيف يعمل LAPS عندما تُفرض سياسة الدخول بالبطاقة الذكية فقط.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/fSLOspp8CHs</video:player_loc>
+      <video:duration>521</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@WindowsAtWork">Windows At Work</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/windows-laps-smart-card-policy</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/fSLOspp8CHs/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Windows LAPS integration with a smart-card-only policy</video:title>
+      <video:description>A short Windows At Work session showing how LAPS works when a smart-card-only sign-in policy is enforced.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/fSLOspp8CHs</video:player_loc>
+      <video:duration>521</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@WindowsAtWork">Windows At Work</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/computerphile-how-passkeys-work</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/xYfiOnufBSk/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>كيف تعمل مفاتيح المرور Passkeys (Computerphile)</video:title>
+      <video:description>شرح من قناة Computerphile لآلية مفاتيح المرور (Passkeys) وكيف تستبدل كلمة المرور بمفتاح عام/خاص على الجهاز.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/xYfiOnufBSk</video:player_loc>
+      <video:duration>1147</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Computerphile">Computerphile</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/computerphile-how-passkeys-work</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/xYfiOnufBSk/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>How passkeys work (Computerphile)</video:title>
+      <video:description>A Computerphile explanation of how passkeys work and how they replace a password with a device-held public/private key pair.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/xYfiOnufBSk</video:player_loc>
+      <video:duration>1147</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Computerphile">Computerphile</video:uploader>
     </video:video>
   </url>
   <url>
@@ -1668,6 +1808,482 @@
       <video:publication_date>2026-11-19</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
       <video:uploader info="https://www.youtube.com/@TCMSecurityAcademy">The Cyber Mentors</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/cisco-what-is-wifi-6</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/mscDQc3eCRY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>ما هو Wi-Fi 6؟ (Cisco Tech Talk)</video:title>
+      <video:description>حلقة رسمية قصيرة من Cisco Tech Talk تشرح معيار Wi-Fi 6 (802.11ax) وما الذي يميّزه عن الأجيال السابقة.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/mscDQc3eCRY</video:player_loc>
+      <video:duration>316</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Cisco">Cisco</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/cisco-what-is-wifi-6</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/mscDQc3eCRY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>What is Wi-Fi 6? (Cisco Tech Talk)</video:title>
+      <video:description>A short official Cisco Tech Talk that explains the Wi-Fi 6 (802.11ax) standard and how it differs from earlier generations.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/mscDQc3eCRY</video:player_loc>
+      <video:duration>316</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Cisco">Cisco</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/cisco-wifi-6e-explained</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/1WZeP_jdl4Y/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>شرح Wi-Fi 6E من خبراء Cisco</video:title>
+      <video:description>شرح رسمي من خبراء Cisco لنطاق 6 GHz في Wi-Fi 6E وما الذي يضيفه من سعة وزمن انتقال أقل.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/1WZeP_jdl4Y</video:player_loc>
+      <video:duration>549</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Cisco">Cisco</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/cisco-wifi-6e-explained</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/1WZeP_jdl4Y/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Wi-Fi 6E explained by Cisco experts</video:title>
+      <video:description>An official Cisco expert video on the 6 GHz band in Wi-Fi 6E and the extra capacity and lower latency it can add.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/1WZeP_jdl4Y</video:player_loc>
+      <video:duration>549</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Cisco">Cisco</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/cisco-ise-guest-access-basics</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/MOIpRLpfGvo/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>أساسيات وصول الضيوف في Cisco ISE (الجزء الأول)</video:title>
+      <video:description>جلسة رسمية مطوّلة من قناة Cisco Identity عن إعداد وصول ضيوف Wi-Fi عبر Cisco ISE، من البوابة إلى السياسات.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/MOIpRLpfGvo</video:player_loc>
+      <video:duration>3673</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@CiscoIdentity">Cisco Identity</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/cisco-ise-guest-access-basics</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/MOIpRLpfGvo/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Cisco ISE guest access basics, part I</video:title>
+      <video:description>A longer official Cisco Identity session on setting up Wi-Fi guest access in Cisco ISE, from the portal to the policies.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/MOIpRLpfGvo</video:player_loc>
+      <video:duration>3673</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@CiscoIdentity">Cisco Identity</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/professor-messer-wireless-security-settings</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/KaqKoKNEKnE/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>إعدادات أمان الشبكات اللاسلكية (Security+ SY0-701)</video:title>
+      <video:description>درس رسمي من Professor Messer ضمن منهج Security+ SY0-701 عن إعدادات حماية الشبكات اللاسلكية مثل WPA2/WPA3 و802.1X.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/KaqKoKNEKnE</video:player_loc>
+      <video:duration>654</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@professormesser">Professor Messer</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/professor-messer-wireless-security-settings</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/KaqKoKNEKnE/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Wireless security settings (Security+ SY0-701)</video:title>
+      <video:description>An official Professor Messer Security+ SY0-701 lesson on wireless security settings, including WPA2/WPA3 and 802.1X.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/KaqKoKNEKnE</video:player_loc>
+      <video:duration>654</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@professormesser">Professor Messer</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/professor-messer-wireless-attacks</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/tSLqrKhUvts/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>هجمات الشبكات اللاسلكية (Security+ SY0-701)</video:title>
+      <video:description>درس Professor Messer عن أنواع هجمات Wi-Fi التي يغطيها منهج SY0-701، من نقاط الوصول المزيفة إلى التشويش.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/tSLqrKhUvts</video:player_loc>
+      <video:duration>475</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@professormesser">Professor Messer</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/professor-messer-wireless-attacks</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/tSLqrKhUvts/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Wireless attacks (Security+ SY0-701)</video:title>
+      <video:description>A Professor Messer lesson on the Wi-Fi attacks covered by SY0-701, from rogue access points to jamming.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/tSLqrKhUvts</video:player_loc>
+      <video:duration>475</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@professormesser">Professor Messer</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/computerphile-tls-introduction</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/0TLDTodL7Lc/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>مقدمة في أمان طبقة النقل TLS (Computerphile)</video:title>
+      <video:description>مقدمة من Computerphile لبروتوكول TLS: لماذا نُشفّر النقل وكيف يبني الطرفان قناة موثوقة قبل تبادل البيانات.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/0TLDTodL7Lc</video:player_loc>
+      <video:duration>933</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Computerphile">Computerphile</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/computerphile-tls-introduction</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/0TLDTodL7Lc/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Transport Layer Security (TLS) explained (Computerphile)</video:title>
+      <video:description>A Computerphile introduction to TLS: why transport is encrypted and how two parties build a trusted channel before they exchange data.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/0TLDTodL7Lc</video:player_loc>
+      <video:duration>933</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Computerphile">Computerphile</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/computerphile-tls-handshake</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/86cQJ0MMses/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>شرح مصافحة TLS (Computerphile)</video:title>
+      <video:description>شرح من Computerphile لخطوات مصافحة TLS وكيف يتفق العميل والخادم على المفاتيح بعد التحقق من الشهادة.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/86cQJ0MMses</video:player_loc>
+      <video:duration>1019</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Computerphile">Computerphile</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/computerphile-tls-handshake</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/86cQJ0MMses/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>The TLS handshake explained (Computerphile)</video:title>
+      <video:description>A Computerphile walkthrough of the TLS handshake and how the client and server agree on keys after the certificate is checked.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/86cQJ0MMses</video:player_loc>
+      <video:duration>1019</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Computerphile">Computerphile</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/computerphile-public-key-cryptography</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/GSIDS_lvRv4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>التشفير بالمفتاح العام (Computerphile)</video:title>
+      <video:description>درس قصير من Computerphile عن زوج المفتاح العام/الخاص: التشفير والتوقيع ولماذا لا تكفي كلمة سر مشتركة على الإنترنت.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/GSIDS_lvRv4</video:player_loc>
+      <video:duration>380</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Computerphile">Computerphile</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/computerphile-public-key-cryptography</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/GSIDS_lvRv4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Public key cryptography (Computerphile)</video:title>
+      <video:description>A short Computerphile lesson on public/private key pairs: encryption, signing, and why a shared secret is not enough on the internet.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/GSIDS_lvRv4</video:player_loc>
+      <video:duration>380</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Computerphile">Computerphile</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/computerphile-tls-private-key-mistake</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/NDgS__J1U-M/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>خطأ المفتاح الخاص في TLS (Computerphile)</video:title>
+      <video:description>حلقة Computerphile تناقش خطر اختيار مفتاح خاص ضعيف أو متوقع، عبر مثال تعليمي لمفتاح TLS ذي قيمة صغيرة جدًا.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/NDgS__J1U-M</video:player_loc>
+      <video:duration>1476</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Computerphile">Computerphile</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/computerphile-tls-private-key-mistake</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/NDgS__J1U-M/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>The TLS private key mistake (Computerphile)</video:title>
+      <video:description>A Computerphile episode on the risk of a weak or predictable private key, using a teaching example of a TLS key set to a tiny value.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/NDgS__J1U-M</video:player_loc>
+      <video:duration>1476</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@Computerphile">Computerphile</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/professor-messer-certificates</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/cLa94BZH_9s/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>الشهادات الرقمية (Security+ SY0-701)</video:title>
+      <video:description>درس Professor Messer من منهج SY0-701 عن الشهادات الرقمية: كيف تربط هوية بمفتاح عام عبر سلطة التصديق.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/cLa94BZH_9s</video:player_loc>
+      <video:duration>878</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@professormesser">Professor Messer</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/professor-messer-certificates</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/cLa94BZH_9s/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Digital certificates (Security+ SY0-701)</video:title>
+      <video:description>A Professor Messer SY0-701 lesson on digital certificates and how they bind an identity to a public key through a certificate authority.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/cLa94BZH_9s</video:player_loc>
+      <video:duration>878</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@professormesser">Professor Messer</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/subnetting-mastery-part-1-what-is-subnetting</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/BWZ-MHIhqjM/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>ما هو تقسيم الشبكات؟ (الجزء 1 من 7)</video:title>
+      <video:description>الجزء الأول من سلسلة Subnetting Mastery الرسمية على قناة Practical Networking: ما هو التقسيم ولماذا نستخدمه.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/BWZ-MHIhqjM</video:player_loc>
+      <video:duration>517</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/subnetting-mastery-part-1-what-is-subnetting</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/BWZ-MHIhqjM/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>What is subnetting? (part 1 of 7)</video:title>
+      <video:description>Part 1 of the official Subnetting Mastery series on the Practical Networking channel: what subnetting is and why we use it.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/BWZ-MHIhqjM</video:player_loc>
+      <video:duration>517</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/subnetting-mastery-part-2-cheat-sheet</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ljS07YTEJ2I/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>رسم ورقة الغش لتقسيم الشبكات (الجزء 2 من 7)</video:title>
+      <video:description>جزء قصير يبني ورقة المرجع التي تعتمد عليها بقية سلسلة Practical Networking.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/ljS07YTEJ2I</video:player_loc>
+      <video:duration>118</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/subnetting-mastery-part-2-cheat-sheet</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ljS07YTEJ2I/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Drawing the subnetting cheat sheet (part 2 of 7)</video:title>
+      <video:description>A short part that builds the reference sheet the rest of the Practical Networking series uses.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/ljS07YTEJ2I</video:player_loc>
+      <video:duration>118</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/subnetting-mastery-part-3-solve-any-problem</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/5-wlfAdcmFQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>حل مسائل التقسيم بسرعة (الجزء 3 من 7)</video:title>
+      <video:description>الجزء الثالث يحوّل ورقة المرجع إلى طريقة سريعة لحل مسائل التقسيم في أقل من دقيقة.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/5-wlfAdcmFQ</video:player_loc>
+      <video:duration>370</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/subnetting-mastery-part-3-solve-any-problem</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/5-wlfAdcmFQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Solve subnetting problems quickly (part 3 of 7)</video:title>
+      <video:description>Part 3 turns the reference sheet into a method for solving subnetting problems in under a minute.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/5-wlfAdcmFQ</video:player_loc>
+      <video:duration>370</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/subnetting-mastery-part-4-practice</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/SM0kdVfhxZ0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>أمثلة تدريبية على التقسيم (الجزء 4 من 7)</video:title>
+      <video:description>أمثلة محلولة من Practical Networking لتطبيق طريقة الأجزاء السابقة على مسائل واقعية.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/SM0kdVfhxZ0</video:player_loc>
+      <video:duration>594</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/subnetting-mastery-part-4-practice</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/SM0kdVfhxZ0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Subnetting practice examples (part 4 of 7)</video:title>
+      <video:description>Worked examples from Practical Networking that apply the earlier method to realistic problems.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/SM0kdVfhxZ0</video:player_loc>
+      <video:duration>594</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/subnetting-mastery-part-5-time-saving-tricks</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Pj_ubhpi0WQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>حِيَل لتسريع حساب التقسيم (الجزء 5 من 7)</video:title>
+      <video:description>الجزء الخامس يضيف حيلًا لاختصار الحساب بعد أن أصبحت الطريقة الأساسية ثابتة.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Pj_ubhpi0WQ</video:player_loc>
+      <video:duration>512</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/subnetting-mastery-part-5-time-saving-tricks</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Pj_ubhpi0WQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Time-saving subnetting tricks (part 5 of 7)</video:title>
+      <video:description>Part 5 adds shortcuts that trim the arithmetic once the core method is solid.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Pj_ubhpi0WQ</video:player_loc>
+      <video:duration>512</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/subnetting-mastery-part-6-slash-17-to-24</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/p-6BVEbb9q0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>التقسيم في النطاق /17 إلى /24 (الجزء 6 من 7)</video:title>
+      <video:description>تطبيق الطريقة على البادئات من /17 إلى /24، وهي الأكثر شيوعًا في شبكات الحرم والشبكات المحلية.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/p-6BVEbb9q0</video:player_loc>
+      <video:duration>391</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/subnetting-mastery-part-6-slash-17-to-24</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/p-6BVEbb9q0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Subnetting in the /17–/24 range (part 6 of 7)</video:title>
+      <video:description>The method applied to prefixes from /17 to /24, the range you will see most often on campus and LAN networks.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/p-6BVEbb9q0</video:player_loc>
+      <video:duration>391</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/ar/video/subnetting-mastery-part-7-slash-1-to-16</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/OQ-r_IfeB8c/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>التقسيم في النطاق /1 إلى /16 (الجزء 7 من 7)</video:title>
+      <video:description>الجزء الأخير يغطي البادئات الأوسع من /16، الشائعة في التوزيع وملخصات التوجيه.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/OQ-r_IfeB8c</video:player_loc>
+      <video:duration>319</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://netsecatlas.com/en/video/subnetting-mastery-part-7-slash-1-to-16</loc>
+    <lastmod>2026-11-27</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/OQ-r_IfeB8c/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Subnetting in the /1–/16 range (part 7 of 7)</video:title>
+      <video:description>The final part covers prefixes wider than /16, common in allocation and route summaries.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/OQ-r_IfeB8c</video:player_loc>
+      <video:duration>319</video:duration>
+      <video:publication_date>2026-11-27</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@PracticalNetworking">Practical Networking</video:uploader>
     </video:video>
   </url>
 </urlset>

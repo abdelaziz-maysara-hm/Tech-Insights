@@ -201,17 +201,33 @@ export function injectSeoIntoShell(shellHtml, seo, extras = {}) {
     if (data) tags.push(`<script type="application/ld+json" id="${escapeAttr(id)}">${safeJsonLd(data)}</script>`);
   }
 
+  // Self-hosted fonts: preload the 400 weight for this language so
+  // font-display: optional can use it on first paint.
+  if (seo.lang === 'ar') {
+    tags.push('<link rel="preload" href="/fonts/cairo-arabic-400-normal.woff2" as="font" type="font/woff2" crossorigin />');
+    tags.push('<link rel="preload" href="/fonts/cairo-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />');
+  } else {
+    tags.push('<link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />');
+  }
+  // LCP image for article/video templates (YouTube thumbs and unsplash heroes).
+  if (seo.image && (seo.type === 'article' || /\/(article|video)\//.test(seo.canonical || ''))) {
+    tags.push(`<link rel="preload" as="image" href="${escapeAttr(seo.image)}" fetchpriority="high" />`);
+  }
+
   // Language-specific RSS feed discovery link.
   html = html.replace(
     /<link\s+rel=["']alternate["']\s+type=["']application\/rss\+xml["'][^>]*>/i,
     `<link rel="alternate" type="application/rss+xml" title="${escapeAttr(SITE.name)} RSS" href="/${seo.lang}/rss.xml" />`,
   );
 
-  // Crawlable static body (replaced by React's createRoot on mount).
+  // Crawlable static body. React keeps it on screen, then swaps to the app.
   if (extras.bodyHtml) {
     html = html.replace(/<div id="root">\s*<\/div>/i, () => `<div id="root">${extras.bodyHtml}</div>`);
   }
 
+  html = html.replace(/<link[^>]+fonts\.googleapis\.com[^>]*>\s*/gi, '');
+  html = html.replace(/<link[^>]+fonts\.gstatic\.com[^>]*>\s*/gi, '');
+  html = html.replace(/<script[^>]+adsbygoogle\.js[^>]*>\s*<\/script>\s*/gi, '');
   const injection = tags.map((t) => `    ${t}`).join('\n') + '\n';
   if (/<\/head>/i.test(html)) html = html.replace(/<\/head>/i, `${injection}</head>`);
   else html = injection + html;

@@ -4,10 +4,16 @@
  * Refuses to emit any video whose ID is not in the oEmbed-verified list.
  */
 import { readFileSync, writeFileSync } from 'node:fs';
-import { VIDEO_ROWS } from './videos-data.mjs';
+import { NEW_VIDEO_SLUGS, VIDEO_RELATED, VIDEO_ROWS } from './videos-data.mjs';
 
 const verified = JSON.parse(readFileSync(new URL('./youtube-oembed-verified.json', import.meta.url), 'utf8'));
 const ADDED = '2026-11-19';
+const ADDED_NEW = '2026-11-27';
+
+function addedDate(slug) {
+  return NEW_VIDEO_SLUGS.has(slug) ? ADDED_NEW : ADDED;
+}
+
 
 function isoDuration(text) {
   if (!text) return null;
@@ -32,6 +38,8 @@ export const PLAYLISTS = [
     },
     pillarArticle: 'enterprise-network-security-guide',
     relatedArticles: ['fortigate-initial-setup-enterprise-guide', 'palo-alto-nat-types-examples', 'ipsec-site-to-site-fortigate-palo-alto', 'ztna-fortigate-forticlient-ems', 'firewall-misconfigurations-audit', 'fortios-ssl-vpn-tunnel-mode-removal-ipsec-migration', 'forticlient-error-7200-fix', 'fortigate-ssl-vpn-checklist', 'palo-alto-security-policy-basics', 'forcepoint-ssl-vpn-radius', 'zero-trust-explained-practically'],
+    topics: ['firewalls', 'vpn'],
+    vendors: ['Fortinet', 'Palo Alto Networks'],
     externalPlaylists: [],
   },
   {
@@ -47,7 +55,10 @@ export const PLAYLISTS = [
       en: 'This playlist is the foundation for the other tracks. Watch it in order, practise each part in Packet Tracer or a virtual lab, then use the site\'s VLSM calculator to plan addressing per VLAN.',
     },
     pillarArticle: 'enterprise-network-security-guide',
-    relatedArticles: ['vlan-basics-why-segment', '802-1x-certificate-authentication', 'network-access-control-nac-basics', 'network-segmentation-compliance', 'wireshark-network-analysis-complete-guide', 'nmap-network-scanning-complete-guide'],
+    relatedArticles: ['vlan-basics-why-segment', '802-1x-certificate-authentication', 'network-access-control-nac-basics', 'network-segmentation-compliance', 'wireshark-network-analysis-complete-guide', 'nmap-network-scanning-complete-guide', 'dns-troubleshooting-nslookup-dig'],
+    topics: ['networking', 'wireshark', 'dns'],
+    vendors: ['Practical Networking', 'Professor Messer', 'Chris Greer'],
+    tools: ['dns-benchmark', 'tls-certificate-checker'],
     externalPlaylists: ['PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ'],
   },
   {
@@ -64,6 +75,8 @@ export const PLAYLISTS = [
     },
     pillarArticle: 'soc-incident-response-guide',
     relatedArticles: ['wazuh-sysmon-free-soc-lab', 'wazuh-custom-rule-brute-force', 'mitre-attack-to-detections', 'windows-security-event-ids-soc', 'how-siem-actually-works', 'log-retention-siem-basics', 'ransomware-first-hour-response', 'incident-response-tabletop-exercises', 'how-edr-actually-works'],
+    topics: ['soc', 'siem'],
+    vendors: ['Wazuh', 'MITRE', 'SANS'],
     externalPlaylists: [],
   },
   {
@@ -80,6 +93,9 @@ export const PLAYLISTS = [
     },
     pillarArticle: 'active-directory-identity-security-guide',
     relatedArticles: ['entra-conditional-access-baseline', 'microsoft-365-security-settings', 'kerberoasting-detection-prevention', 'kerberos-authentication-explained', 'active-directory-complete-setup-guide', 'group-policy-basics-for-sysadmins', 'windows-local-admin-password-rotation', '2fa-practical-guide'],
+    topics: ['identity', 'active-directory', 'windows'],
+    vendors: ['Microsoft', 'Computerphile'],
+    tools: ['ad-lockout-tracer', 'passwords'],
     externalPlaylists: [],
   },
   {
@@ -96,6 +112,8 @@ export const PLAYLISTS = [
     },
     pillarArticle: 'endpoint-vulnerability-management-guide',
     relatedArticles: ['nessus-essentials-first-scan', 'kes-12-exclusions-kaspersky-security-center', 'kaspersky-security-center-tagging', 'how-edr-actually-works', 'understanding-cvss-score', 'vulnerability-scanning-vs-penetration-testing', 'windows-patch-management-strategy'],
+    topics: ['endpoint', 'vulnerability'],
+    vendors: ['Microsoft', 'Kaspersky'],
     externalPlaylists: [],
   },
   {
@@ -107,13 +125,15 @@ export const PLAYLISTS = [
       en: 'SPF, DKIM and DMARC from basics to p=reject, phishing header analysis, and the OWASP Top 10.',
     },
     intro: {
-      ar: 'شاهد هذه القائمة ثم افحص دومينك بأداتي تحليل SPF وDMARC في الموقع. الترتيب مقصود: المفاهيم، ثم السياسات، ثم التطبيق في Microsoft 365، ثم منظور محلل SOC.',
-      en: 'Watch this playlist, then check your own domain with the site\'s SPF and DMARC analyzers. The order is deliberate: concepts, policies, Microsoft 365 implementation, then the SOC analyst view.',
+      ar: 'شاهد هذه القائمة ثم افحص ترويسات بريدك بأداة تحليل ترويسة البريد في برنامج NetSec Atlas Tools. الترتيب مقصود: المفاهيم، ثم السياسات، ثم التطبيق في Microsoft 365، ثم منظور محلل SOC.',
+      en: 'Watch this playlist, then inspect headers from your own mailbox with the Email Header Analyzer in NetSec Atlas Tools. The order is deliberate: concepts, policies, Microsoft 365 implementation, then the SOC analyst view.',
     },
     pillarArticle: 'enterprise-email-security-guide',
     relatedArticles: ['company-email-spam-spf-dmarc-diagnosis', 'dmarc-rollout-none-to-reject', 'spf-dkim-dmarc-email-basics', 'email-security-gateway-basics', 'phishing-spot-before-click', 'owasp-top-10-overview', 'web-application-firewall-waf-guide'],
+    topics: ['email', 'web'],
+    vendors: ['PowerDMARC', 'Microsoft'],
+    tools: ['email-header-analyzer'],
     externalPlaylists: [],
-    tools: ['spf-record-analyzer', 'dmarc-record-analyzer'],
   },
   {
     slug: 'certifications-career',
@@ -129,7 +149,66 @@ export const PLAYLISTS = [
     },
     pillarArticle: 'enterprise-network-security-guide',
     relatedArticles: ['network-security-engineer-roadmap-2027', 'vulnerability-scanning-vs-penetration-testing', 'authentication-vs-authorization-explained', 'tls-handshake-explained'],
+    topics: ['career', 'certifications'],
+    vendors: ['Professor Messer', 'NetworkChuck'],
     externalPlaylists: ['PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ', 'PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P'],
+  },
+  {
+    slug: 'wifi-wireless',
+    pillar: 'P1',
+    title: { ar: 'Wi-Fi والشبكات اللاسلكية', en: 'Wi-Fi and wireless networks' },
+    description: {
+      ar: 'من Wi-Fi 6 و6E إلى وصول الضيوف في Cisco ISE وإعدادات الحماية والهجمات اللاسلكية في Security+.',
+      en: 'From Wi-Fi 6 and 6E to Cisco ISE guest access, plus Security+ wireless settings and attacks.',
+    },
+    intro: {
+      ar: 'ابدأ بفهم المعيار من Cisco، ثم نطاق 6 GHz، ثم عزل الضيوف، وأخيرًا ضوابط الحماية والهجمات. افحص شبكتك بفاحص Wi-Fi في البرنامج واقرأ مقارنة Wi-Fi 6 مع Wi-Fi 5.',
+      en: 'Start with the standard from Cisco, then the 6 GHz band, then guest isolation, and finish with controls and attacks. Survey your network with the Wi-Fi Checker and read our Wi-Fi 6 vs Wi-Fi 5 article.',
+    },
+    pillarArticle: 'wifi-6-vs-wifi-5-practical',
+    relatedArticles: ['guest-wifi-network-isolation', '802-1x-certificate-authentication', 'home-router-security-basics', 'network-access-control-nac-basics'],
+    topics: ['wifi', 'wireless'],
+    vendors: ['Cisco', 'Professor Messer'],
+    tools: ['wi-fi-checker', 'wi-fi-qr-code'],
+    externalPlaylists: [],
+  },
+  {
+    slug: 'tls-certificates',
+    pillar: 'P1',
+    title: { ar: 'TLS والشهادات الرقمية', en: 'TLS and digital certificates' },
+    description: {
+      ar: 'من مفهوم TLS والمصافحة إلى المفتاح العام وأخطاء المفتاح الخاص، ثم الشهادات في منهج Security+.',
+      en: 'From the idea of TLS and the handshake to public keys, private-key mistakes, and Security+ certificates.',
+    },
+    intro: {
+      ar: 'شاهد المقدمة ثم المصافحة ثم التشفير بالمفتاح العام. استخدم فاحص شهادات TLS وDecoder الشهادات في NetSec Atlas Tools على خادم تملكه، واقرأ مقال مصافحة TLS ومقال تشخيص أخطاء الشهادات.',
+      en: 'Watch the introduction, then the handshake, then public-key cryptography. Use the TLS Certificate Checker and Certificate / CSR Decoder in NetSec Atlas Tools against a server you own, and read our TLS handshake and certificate-error articles.',
+    },
+    pillarArticle: 'tls-handshake-explained',
+    relatedArticles: ['tls-certificate-errors-troubleshooting', 'pki-certificate-authority-explained', 'certificate-expiry-monitoring', '802-1x-certificate-authentication'],
+    topics: ['tls', 'certificates'],
+    vendors: ['Computerphile', 'Professor Messer'],
+    tools: ['tls-certificate-checker', 'certificate-csr-decoder'],
+    externalPlaylists: [],
+  },
+  {
+    slug: 'subnetting',
+    pillar: 'P1',
+    title: { ar: 'تقسيم الشبكات CIDR', en: 'IPv4 subnetting and CIDR' },
+    description: {
+      ar: 'سلسلة Subnetting Mastery كاملة (7 أجزاء) من Practical Networking، من المفهوم حتى البادئات الواسعة، مع ورقة الغش والتمارين.',
+      en: 'The complete seven-part Subnetting Mastery series from Practical Networking, from the idea of subnetting through wide prefixes, with the cheat sheet and drills.',
+    },
+    intro: {
+      ar: 'شاهد الأجزاء بالترتيب وحل التمارين قبل سماع الإجابة. أبقِ حاسبة الشبكات الفرعية وVLSM Planner مفتوحتين، وراجع مقال مرجع CIDR في الموقع. القائمة الرسمية الكاملة على يوتيوب مرتبطة في أسفل الصفحة.',
+      en: 'Watch the parts in order and solve the drills before you hear the answer. Keep the Subnet Calculator and VLSM Planner open, and use our CIDR cheat-sheet article. The official full YouTube playlist is linked at the bottom of the page.',
+    },
+    pillarArticle: 'subnetting-cheat-sheet-cidr',
+    relatedArticles: ['ip-address-conflict-troubleshooting', 'vlan-basics-why-segment', 'common-network-ports-cheat-sheet'],
+    topics: ['subnetting', 'networking'],
+    vendors: ['Practical Networking'],
+    tools: ['subnet-calculator', 'vlsm-planner', 'range-cidr'],
+    externalPlaylists: ['PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE'],
   },
 ];
 
@@ -141,6 +220,8 @@ for (const playlist of PLAYLISTS) {
     const [slug, youtubeId, , duration, language, , titleAr, titleEn, summaryAr, summaryEn, notesAr, notesEn] = row;
     const v = verified.videos[youtubeId];
     if (!v || v.oembedStatus !== 200) throw new Error(`unverified video ${youtubeId}`);
+    const related = VIDEO_RELATED[slug] || {};
+    const date = addedDate(slug);
     videos.push({
       id: `vid-${slug}`,
       slug,
@@ -155,8 +236,10 @@ for (const playlist of PLAYLISTS) {
       language: language || undefined,
       playlist: playlist.slug,
       position: index + 1,
-      date: ADDED,
+      date,
       categoryId: 'cybersecurity',
+      relatedArticles: related.articles || [],
+      relatedTools: related.tools || [],
     });
     playlist.videos.push(slug);
   });
@@ -165,7 +248,7 @@ for (const playlist of PLAYLISTS) {
     if (!p) throw new Error(`unverified playlist ${id}`);
     return { youtubePlaylistId: id, title: p.title, channel: { name: p.author, url: p.authorUrl } };
   });
-  playlist.updatedAt = ADDED;
+  playlist.updatedAt = (playlist.videos || []).some((slug) => NEW_VIDEO_SLUGS.has(slug)) ? ADDED_NEW : ADDED;
 }
 
 const root = new URL('../../src/content/', import.meta.url);

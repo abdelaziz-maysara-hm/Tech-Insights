@@ -34,7 +34,9 @@
     "playlist": "firewalls-vpn",
     "position": 1,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-fortigate-static-route-setup",
@@ -71,7 +73,9 @@
     "playlist": "firewalls-vpn",
     "position": 2,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-fortigate-ssl-vpn-full-tunnel",
@@ -108,7 +112,9 @@
     "playlist": "firewalls-vpn",
     "position": 3,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-fortigate-ipsec-vpn-fortios-7-2",
@@ -145,7 +151,9 @@
     "playlist": "firewalls-vpn",
     "position": 4,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-fortigate-ssl-vpn-to-ipsec-migration",
@@ -182,7 +190,9 @@
     "playlist": "firewalls-vpn",
     "position": 5,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-fortinet-ztna-overview",
@@ -219,7 +229,9 @@
     "playlist": "firewalls-vpn",
     "position": 6,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-fortinet-ztna-getting-started",
@@ -256,7 +268,9 @@
     "playlist": "firewalls-vpn",
     "position": 7,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-palo-alto-nat-tutorial",
@@ -293,7 +307,9 @@
     "playlist": "firewalls-vpn",
     "position": 8,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-palo-alto-nat-security-policy",
@@ -330,7 +346,9 @@
     "playlist": "firewalls-vpn",
     "position": 9,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-palo-alto-u-turn-nat",
@@ -367,7 +385,9 @@
     "playlist": "firewalls-vpn",
     "position": 10,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-fortigate-arabic-full-course",
@@ -404,7 +424,9 @@
     "playlist": "firewalls-vpn",
     "position": 11,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-palo-alto-arabic-introduction",
@@ -441,7 +463,9 @@
     "playlist": "firewalls-vpn",
     "position": 12,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-computer-networks-crash-course",
@@ -478,7 +502,9 @@
     "playlist": "network-fundamentals",
     "position": 1,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-osi-model-network-plus",
@@ -515,7 +541,9 @@
     "playlist": "network-fundamentals",
     "position": 2,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-what-are-vlans",
@@ -552,7 +580,9 @@
     "playlist": "network-fundamentals",
     "position": 3,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-native-vlan-explained",
@@ -589,7 +619,9 @@
     "playlist": "network-fundamentals",
     "position": 4,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-ccna-vlans-part-1",
@@ -626,7 +658,9 @@
     "playlist": "network-fundamentals",
     "position": 5,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-vlan-arabic-explained",
@@ -663,7 +697,9 @@
     "playlist": "network-fundamentals",
     "position": 6,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-how-8021x-works",
@@ -700,7 +736,9 @@
     "playlist": "network-fundamentals",
     "position": 7,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-wireshark-beginners-tutorial",
@@ -737,7 +775,9 @@
     "playlist": "network-fundamentals",
     "position": 8,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-wireshark-arabic-explained",
@@ -774,7 +814,9 @@
     "playlist": "network-fundamentals",
     "position": 9,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-nmap-tutorial-vulnerabilities",
@@ -811,7 +853,9 @@
     "playlist": "network-fundamentals",
     "position": 10,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-how-nmap-really-works",
@@ -848,7 +892,97 @@
     "playlist": "network-fundamentals",
     "position": 11,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
+  },
+  {
+    "id": "vid-wireshark-4-introduction-gerald-combs",
+    "slug": "wireshark-4-introduction-gerald-combs",
+    "youtubeId": "3HdKhen0Gqw",
+    "title": {
+      "ar": "مقدمة Wireshark 4.0 مع مؤسس المشروع Gerald Combs",
+      "en": "Introduction to Wireshark 4.0 with founder Gerald Combs"
+    },
+    "originalTitle": "Introduction to Wireshark 4.0 with Gerald Combs & Roland Knall",
+    "description": {
+      "ar": "جلسة من مؤتمر SharkFest الرسمي يقدّم فيها Gerald Combs (مؤسس Wireshark) وRoland Knall واجهة الإصدار 4.0 والتغييرات التي تهم محللي الشبكة.",
+      "en": "An official SharkFest session in which Wireshark founder Gerald Combs and Roland Knall walk through the Wireshark 4.0 interface and the changes that matter to network analysts."
+    },
+    "notes": {
+      "ar": [
+        "ابدأ بفلتر عرض ضيق (مثل dns أو tls) قبل الغوص في كل الحزم.",
+        "Follow TCP Stream يختصر إعادة تجميع جلسة واحدة.",
+        "استخدم الآلة الحاسبة وفاحص الشهادات في NetSec Atlas Tools جنبًا إلى جنب مع الأسر التي تحفظها."
+      ],
+      "en": [
+        "Start with a narrow display filter (such as dns or tls) before reading every packet.",
+        "Follow TCP Stream rebuilds a single session quickly.",
+        "Use the certificate checker in NetSec Atlas Tools alongside captures you keep."
+      ]
+    },
+    "channel": {
+      "name": "SharkFest Wireshark Developer and User Conference",
+      "url": "https://www.youtube.com/@WireSharkFest"
+    },
+    "duration": "PT18M37S",
+    "durationText": "18:37",
+    "language": "en",
+    "playlist": "network-fundamentals",
+    "position": 12,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "wireshark-network-analysis-complete-guide"
+    ],
+    "relatedTools": [
+      "tls-certificate-checker"
+    ]
+  },
+  {
+    "id": "vid-google-what-is-dns",
+    "slug": "google-what-is-dns",
+    "youtubeId": "X-pgKykKHfs",
+    "title": {
+      "ar": "ما هو DNS؟ درس من شهادة Google لدعم تقنية المعلومات",
+      "en": "What is DNS? A lesson from the Google IT Support Certificate"
+    },
+    "originalTitle": "Networking Services: What is DNS? | Google IT Support Certificate",
+    "description": {
+      "ar": "درس رسمي من سلسلة Grow with Google (شهادة دعم تقنية المعلومات) يشرح نظام أسماء النطاقات وكيف تحل الأسماء إلى عناوين.",
+      "en": "An official Grow with Google lesson from the IT Support Certificate that explains the Domain Name System and how names resolve to addresses."
+    },
+    "notes": {
+      "ar": [
+        "تسلسل الحل: المحلّل ثم جذر ثم TLD ثم الخادم الموثوق.",
+        "سجل A وAAAA للعنوان، وMX للبريد، وTXT لسياسات مثل SPF.",
+        "افحص الدومين بأداة DNS Benchmark وRDAP في برنامج NetSec Atlas Tools."
+      ],
+      "en": [
+        "Resolution walks resolver, then root, TLD and authoritative servers.",
+        "A and AAAA hold addresses, MX holds mail hosts, and TXT holds policies such as SPF.",
+        "Check a domain with the DNS Benchmark and RDAP tools in NetSec Atlas Tools."
+      ]
+    },
+    "channel": {
+      "name": "Grow with Google",
+      "url": "https://www.youtube.com/@growwithgoogle"
+    },
+    "duration": "PT36M20S",
+    "durationText": "36:20",
+    "language": "en",
+    "playlist": "network-fundamentals",
+    "position": 13,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "dns-troubleshooting-nslookup-dig",
+      "dns-security-filtering-dnssec"
+    ],
+    "relatedTools": [
+      "dns-benchmark",
+      "rdap-lookup"
+    ]
   },
   {
     "id": "vid-soc-explained-arabic",
@@ -885,7 +1019,9 @@
     "playlist": "soc-incident-response",
     "position": 1,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-wazuh-free-security-tool",
@@ -922,7 +1058,9 @@
     "playlist": "soc-incident-response",
     "position": 2,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-wazuh-visibility-john-hammond",
@@ -959,7 +1097,9 @@
     "playlist": "soc-incident-response",
     "position": 3,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-learning-sysmon-what-is-sysmon",
@@ -996,7 +1136,9 @@
     "playlist": "soc-incident-response",
     "position": 4,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-learning-sysmon-installation",
@@ -1033,7 +1175,9 @@
     "playlist": "soc-incident-response",
     "position": 5,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-windows-logon-events-4624",
@@ -1070,7 +1214,9 @@
     "playlist": "soc-incident-response",
     "position": 6,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-mitre-attack-framework-official",
@@ -1107,7 +1253,9 @@
     "playlist": "soc-incident-response",
     "position": 7,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-mitre-attack-introduction-hackersploit",
@@ -1144,7 +1292,9 @@
     "playlist": "soc-incident-response",
     "position": 8,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-sans-handling-ransomware-incidents",
@@ -1181,7 +1331,9 @@
     "playlist": "soc-incident-response",
     "position": 9,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-first-ransomware-incident-response-story",
@@ -1218,7 +1370,9 @@
     "playlist": "soc-incident-response",
     "position": 10,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-windows-server-active-directory-arabic",
@@ -1255,7 +1409,9 @@
     "playlist": "identity-active-directory",
     "position": 1,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-kerberos-authentication-deep-dive",
@@ -1292,7 +1448,9 @@
     "playlist": "identity-active-directory",
     "position": 2,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-learn-kerberoasting",
@@ -1329,7 +1487,9 @@
     "playlist": "identity-active-directory",
     "position": 3,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-active-directory-tiering",
@@ -1366,7 +1526,9 @@
     "playlist": "identity-active-directory",
     "position": 4,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-what-is-conditional-access",
@@ -1403,7 +1565,9 @@
     "playlist": "identity-active-directory",
     "position": 5,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-conditional-access-policy-plans",
@@ -1440,7 +1604,9 @@
     "playlist": "identity-active-directory",
     "position": 6,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-conditional-access-beginner-guide",
@@ -1477,7 +1643,139 @@
     "playlist": "identity-active-directory",
     "position": 7,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
+  },
+  {
+    "id": "vid-windows-laps-enhancements-roadmap",
+    "slug": "windows-laps-enhancements-roadmap",
+    "youtubeId": "0SlHW0oVJfQ",
+    "title": {
+      "ar": "تحسينات Windows LAPS وخارطة الطريق (Windows At Work)",
+      "en": "Windows LAPS enhancements and roadmap (Windows At Work)"
+    },
+    "originalTitle": "Windows LAPS: enhancements and roadmap",
+    "description": {
+      "ar": "جلسة من قناة Windows At Work التابعة لمايكروسوفت عن تحسينات Windows LAPS وخارطة طريقها لدوران كلمة مرور المسؤول المحلي.",
+      "en": "A Microsoft Windows At Work session on Windows LAPS enhancements and the roadmap for rotating the local administrator password."
+    },
+    "notes": {
+      "ar": [
+        "LAPS يخزّن كلمة مرور المسؤول المحلي في Active Directory أو Entra ID ويدورها تلقائيًا.",
+        "امنع استخدام حساب مسؤول محلي مشترك واحد على كل الأجهزة.",
+        "راجع مقالنا عن دوران كلمة مرور المسؤول المحلي بعد مشاهدة الجلسة."
+      ],
+      "en": [
+        "LAPS stores and rotates the local administrator password in Active Directory or Entra ID.",
+        "Do not reuse one shared local admin password on every device.",
+        "Read our local-admin password rotation article after the session."
+      ]
+    },
+    "channel": {
+      "name": "Windows At Work",
+      "url": "https://www.youtube.com/@WindowsAtWork"
+    },
+    "duration": "PT23M46S",
+    "durationText": "23:46",
+    "language": "en",
+    "playlist": "identity-active-directory",
+    "position": 8,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "windows-local-admin-password-rotation"
+    ],
+    "relatedTools": [
+      "ad-lockout-tracer"
+    ]
+  },
+  {
+    "id": "vid-windows-laps-smart-card-policy",
+    "slug": "windows-laps-smart-card-policy",
+    "youtubeId": "fSLOspp8CHs",
+    "title": {
+      "ar": "دمج Windows LAPS مع سياسة البطاقات الذكية فقط",
+      "en": "Windows LAPS integration with a smart-card-only policy"
+    },
+    "originalTitle": "Windows LAPS: Integration with smart-card-only policy",
+    "description": {
+      "ar": "جلسة قصيرة من Windows At Work توضح كيف يعمل LAPS عندما تُفرض سياسة الدخول بالبطاقة الذكية فقط.",
+      "en": "A short Windows At Work session showing how LAPS works when a smart-card-only sign-in policy is enforced."
+    },
+    "notes": {
+      "ar": [
+        "سياسات البطاقة الذكية فقط تمنع الدخول بكلمة المرور لحسابات معيّنة، لذا تحتاج مسار استرداد موثّقًا.",
+        "اختبر حساب الاسترداد في مختبر قبل تعميم السياسة.",
+        "لا تعطّل LAPS على أجهزة الإدارة في الطبقة صفر."
+      ],
+      "en": [
+        "Smart-card-only policies block password sign-in for targeted accounts, so you need a documented recovery path.",
+        "Test the recovery account in a lab before you enforce the policy widely.",
+        "Do not disable LAPS on tier-0 admin devices."
+      ]
+    },
+    "channel": {
+      "name": "Windows At Work",
+      "url": "https://www.youtube.com/@WindowsAtWork"
+    },
+    "duration": "PT8M41S",
+    "durationText": "8:41",
+    "language": "en",
+    "playlist": "identity-active-directory",
+    "position": 9,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "windows-local-admin-password-rotation"
+    ],
+    "relatedTools": [
+      "ad-lockout-tracer"
+    ]
+  },
+  {
+    "id": "vid-computerphile-how-passkeys-work",
+    "slug": "computerphile-how-passkeys-work",
+    "youtubeId": "xYfiOnufBSk",
+    "title": {
+      "ar": "كيف تعمل مفاتيح المرور Passkeys (Computerphile)",
+      "en": "How passkeys work (Computerphile)"
+    },
+    "originalTitle": "How Passkeys Work - Computerphile",
+    "description": {
+      "ar": "شرح من قناة Computerphile لآلية مفاتيح المرور (Passkeys) وكيف تستبدل كلمة المرور بمفتاح عام/خاص على الجهاز.",
+      "en": "A Computerphile explanation of how passkeys work and how they replace a password with a device-held public/private key pair."
+    },
+    "notes": {
+      "ar": [
+        "Passkey = مفتاح خاص لا يغادر الجهاز ومفتاح عام يُسجَّل لدى الموقع.",
+        "العبارة \"مقاومة للتصيد\" لا تغني عن التحقق من عنوان الموقع قبل الموافقة.",
+        "اجمعها مع MFA المقاوم للتصيد في دليل المصادقة الثنائية لدينا."
+      ],
+      "en": [
+        "A passkey keeps the private key on the device and registers the public key with the site.",
+        "Phishing resistance still requires you to check the site you are approving.",
+        "Pair this with the phishing-resistant MFA advice in our 2FA guide."
+      ]
+    },
+    "channel": {
+      "name": "Computerphile",
+      "url": "https://www.youtube.com/@Computerphile"
+    },
+    "duration": "PT19M7S",
+    "durationText": "19:07",
+    "language": "en",
+    "playlist": "identity-active-directory",
+    "position": 10,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "2fa-practical-guide",
+      "authentication-vs-authorization-explained"
+    ],
+    "relatedTools": [
+      "passwords"
+    ]
   },
   {
     "id": "vid-microsoft-defender-for-endpoint-overview",
@@ -1514,7 +1812,9 @@
     "playlist": "endpoint-vulnerability",
     "position": 1,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-kaspersky-security-center-install-part-1",
@@ -1551,7 +1851,9 @@
     "playlist": "endpoint-vulnerability",
     "position": 2,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-kaspersky-security-center-install-arabic",
@@ -1588,7 +1890,9 @@
     "playlist": "endpoint-vulnerability",
     "position": 3,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-certmike-explains-cvss",
@@ -1625,7 +1929,9 @@
     "playlist": "endpoint-vulnerability",
     "position": 4,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-red-hat-cve-and-cvss",
@@ -1662,7 +1968,9 @@
     "playlist": "endpoint-vulnerability",
     "position": 5,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-nessus-essentials-running-scans",
@@ -1699,7 +2007,9 @@
     "playlist": "endpoint-vulnerability",
     "position": 6,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-nessus-vulnerability-management-tutorial",
@@ -1736,7 +2046,9 @@
     "playlist": "endpoint-vulnerability",
     "position": 7,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-certmike-dmarc-dkim-spf",
@@ -1773,7 +2085,9 @@
     "playlist": "email-web-security",
     "position": 1,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-spf-dkim-dmarc-christian-lempa",
@@ -1810,7 +2124,9 @@
     "playlist": "email-web-security",
     "position": 2,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-dmarc-policy-none-quarantine-reject",
@@ -1847,7 +2163,9 @@
     "playlist": "email-web-security",
     "position": 3,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-microsoft-365-spf-dkim-dmarc",
@@ -1884,7 +2202,9 @@
     "playlist": "email-web-security",
     "position": 4,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-phishing-email-header-analysis-soc",
@@ -1920,7 +2240,9 @@
     "playlist": "email-web-security",
     "position": 5,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-owasp-top-10-2021-overview",
@@ -1957,7 +2279,9 @@
     "playlist": "email-web-security",
     "position": 6,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-ccna-day-0-what-is-a-network",
@@ -1994,7 +2318,9 @@
     "playlist": "certifications-career",
     "position": 1,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-ccna-osi-model-episode",
@@ -2031,7 +2357,9 @@
     "playlist": "certifications-career",
     "position": 2,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-security-plus-sy0-701-security-controls",
@@ -2068,7 +2396,9 @@
     "playlist": "certifications-career",
     "position": 3,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-security-plus-sy0-701-cia-triad",
@@ -2105,7 +2435,9 @@
     "playlist": "certifications-career",
     "position": 4,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-netriders-security-plus-sy0-601-intro-arabic",
@@ -2142,7 +2474,9 @@
     "playlist": "certifications-career",
     "position": 5,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-linux-full-course-beginners",
@@ -2179,7 +2513,9 @@
     "playlist": "certifications-career",
     "position": 6,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
   },
   {
     "id": "vid-practical-ethical-hacking-full-course",
@@ -2216,6 +2552,750 @@
     "playlist": "certifications-career",
     "position": 7,
     "date": "2026-11-19",
-    "categoryId": "cybersecurity"
+    "categoryId": "cybersecurity",
+    "relatedArticles": [],
+    "relatedTools": []
+  },
+  {
+    "id": "vid-cisco-what-is-wifi-6",
+    "slug": "cisco-what-is-wifi-6",
+    "youtubeId": "mscDQc3eCRY",
+    "title": {
+      "ar": "ما هو Wi-Fi 6؟ (Cisco Tech Talk)",
+      "en": "What is Wi-Fi 6? (Cisco Tech Talk)"
+    },
+    "originalTitle": "Cisco Tech Talk: \"What is Wi-Fi 6?”",
+    "description": {
+      "ar": "حلقة رسمية قصيرة من Cisco Tech Talk تشرح معيار Wi-Fi 6 (802.11ax) وما الذي يميّزه عن الأجيال السابقة.",
+      "en": "A short official Cisco Tech Talk that explains the Wi-Fi 6 (802.11ax) standard and how it differs from earlier generations."
+    },
+    "notes": {
+      "ar": [
+        "Wi-Fi 6 يحسّن الكفاءة في البيئات المزدحمة عبر OFDMA وMU-MIMO.",
+        "جهاز العميل ونقطة الوصول يجب أن يدعما المعيار لتحصل على الفائدة.",
+        "راجع مقارنة Wi-Fi 6 وWi-Fi 5 في الموقع قبل ترقية نقاط الوصول."
+      ],
+      "en": [
+        "Wi-Fi 6 improves efficiency in busy airspace with OFDMA and MU-MIMO.",
+        "Both the client and the access point must support the standard to see the benefit.",
+        "Read our Wi-Fi 6 vs Wi-Fi 5 article before you refresh access points."
+      ]
+    },
+    "channel": {
+      "name": "Cisco",
+      "url": "https://www.youtube.com/@Cisco"
+    },
+    "duration": "PT5M16S",
+    "durationText": "5:16",
+    "language": "en",
+    "playlist": "wifi-wireless",
+    "position": 1,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "wifi-6-vs-wifi-5-practical"
+    ],
+    "relatedTools": [
+      "wi-fi-checker"
+    ]
+  },
+  {
+    "id": "vid-cisco-wifi-6e-explained",
+    "slug": "cisco-wifi-6e-explained",
+    "youtubeId": "1WZeP_jdl4Y",
+    "title": {
+      "ar": "شرح Wi-Fi 6E من خبراء Cisco",
+      "en": "Wi-Fi 6E explained by Cisco experts"
+    },
+    "originalTitle": "Wi-Fi 6E Explained by Cisco Experts | Unlock Faster, More Reliable Connectivity",
+    "description": {
+      "ar": "شرح رسمي من خبراء Cisco لنطاق 6 GHz في Wi-Fi 6E وما الذي يضيفه من سعة وزمن انتقال أقل.",
+      "en": "An official Cisco expert video on the 6 GHz band in Wi-Fi 6E and the extra capacity and lower latency it can add."
+    },
+    "notes": {
+      "ar": [
+        "6E يفتح نطاق 6 GHz، وهو أقل ازدحامًا من 2.4 و5 GHz.",
+        "تأكد من التنظيمات المحلية وأن الأجهزة تدعم 6 GHz قبل الشراء.",
+        "افحص الشبكات القريبة بقناة Wi-Fi Checker في NetSec Atlas Tools."
+      ],
+      "en": [
+        "6E opens the 6 GHz band, which is less crowded than 2.4 and 5 GHz.",
+        "Check local regulations and client support for 6 GHz before you buy.",
+        "Survey nearby networks with the Wi-Fi Checker in NetSec Atlas Tools."
+      ]
+    },
+    "channel": {
+      "name": "Cisco",
+      "url": "https://www.youtube.com/@Cisco"
+    },
+    "duration": "PT9M9S",
+    "durationText": "9:09",
+    "language": "en",
+    "playlist": "wifi-wireless",
+    "position": 2,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "wifi-6-vs-wifi-5-practical"
+    ],
+    "relatedTools": [
+      "wi-fi-checker"
+    ]
+  },
+  {
+    "id": "vid-cisco-ise-guest-access-basics",
+    "slug": "cisco-ise-guest-access-basics",
+    "youtubeId": "MOIpRLpfGvo",
+    "title": {
+      "ar": "أساسيات وصول الضيوف في Cisco ISE (الجزء الأول)",
+      "en": "Cisco ISE guest access basics, part I"
+    },
+    "originalTitle": "Cisco ISE Guest Access Basics, Part I",
+    "description": {
+      "ar": "جلسة رسمية مطوّلة من قناة Cisco Identity عن إعداد وصول ضيوف Wi-Fi عبر Cisco ISE، من البوابة إلى السياسات.",
+      "en": "A longer official Cisco Identity session on setting up Wi-Fi guest access in Cisco ISE, from the portal to the policies."
+    },
+    "notes": {
+      "ar": [
+        "افصل شبكة الضيوف عن شبكة الموظفين (VLAN أو سياسة جدار حماية).",
+        "حدد مدة الجلسة وما إذا كان التسجيل يحتاج موافقة.",
+        "اقرأ مقال عزل شبكة الضيوف في الموقع قبل نسخ الإعداد إلى الإنتاج."
+      ],
+      "en": [
+        "Keep the guest network off the staff network with a VLAN or a firewall policy.",
+        "Set a session lifetime and decide whether registration needs approval.",
+        "Read our guest Wi-Fi isolation article before you copy the design into production."
+      ]
+    },
+    "channel": {
+      "name": "Cisco Identity",
+      "url": "https://www.youtube.com/@CiscoIdentity"
+    },
+    "duration": "PT1H1M13S",
+    "durationText": "1:01:13",
+    "language": "en",
+    "playlist": "wifi-wireless",
+    "position": 3,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "guest-wifi-network-isolation",
+      "network-access-control-nac-basics"
+    ],
+    "relatedTools": [
+      "wi-fi-checker"
+    ]
+  },
+  {
+    "id": "vid-professor-messer-wireless-security-settings",
+    "slug": "professor-messer-wireless-security-settings",
+    "youtubeId": "KaqKoKNEKnE",
+    "title": {
+      "ar": "إعدادات أمان الشبكات اللاسلكية (Security+ SY0-701)",
+      "en": "Wireless security settings (Security+ SY0-701)"
+    },
+    "originalTitle": "Wireless Security Settings - CompTIA Security+ SY0-701 - 4.1",
+    "description": {
+      "ar": "درس رسمي من Professor Messer ضمن منهج Security+ SY0-701 عن إعدادات حماية الشبكات اللاسلكية مثل WPA2/WPA3 و802.1X.",
+      "en": "An official Professor Messer Security+ SY0-701 lesson on wireless security settings, including WPA2/WPA3 and 802.1X."
+    },
+    "notes": {
+      "ar": [
+        "تجنّب WEP وWPA-Personal القديم على أي شبكة إنتاج.",
+        "WPA3-Enterprise مع 802.1X أفضل من مفتاح مشترك واحد.",
+        "اربط هذا الدرس بمقال 802.1X في الموقع."
+      ],
+      "en": [
+        "Do not run WEP or legacy WPA-Personal on a production network.",
+        "WPA3-Enterprise with 802.1X is stronger than one shared passphrase.",
+        "Pair this lesson with our 802.1X article."
+      ]
+    },
+    "channel": {
+      "name": "Professor Messer",
+      "url": "https://www.youtube.com/@professormesser"
+    },
+    "duration": "PT10M54S",
+    "durationText": "10:54",
+    "language": "en",
+    "playlist": "wifi-wireless",
+    "position": 4,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "802-1x-certificate-authentication",
+      "wifi-6-vs-wifi-5-practical"
+    ],
+    "relatedTools": [
+      "wi-fi-checker"
+    ]
+  },
+  {
+    "id": "vid-professor-messer-wireless-attacks",
+    "slug": "professor-messer-wireless-attacks",
+    "youtubeId": "tSLqrKhUvts",
+    "title": {
+      "ar": "هجمات الشبكات اللاسلكية (Security+ SY0-701)",
+      "en": "Wireless attacks (Security+ SY0-701)"
+    },
+    "originalTitle": "Wireless Attacks - CompTIA Security+ SY0-701 - 2.4",
+    "description": {
+      "ar": "درس Professor Messer عن أنواع هجمات Wi-Fi التي يغطيها منهج SY0-701، من نقاط الوصول المزيفة إلى التشويش.",
+      "en": "A Professor Messer lesson on the Wi-Fi attacks covered by SY0-701, from rogue access points to jamming."
+    },
+    "notes": {
+      "ar": [
+        "نقطة وصول مزيفة بنفس الاسم (evil twin) أداة تصيد شائعة.",
+        "عطّل WPS وتحقق من الشبكات المخفية بأسماء مشابهة لشبكتك.",
+        "فاحص Wi-Fi في البرنامج يعرض الشبكات والقنوات القريبة للقراءة فقط."
+      ],
+      "en": [
+        "An evil twin (a rogue AP with your SSID) is a common phishing tool.",
+        "Disable WPS and watch for look-alike SSIDs.",
+        "The Wi-Fi Checker in the desktop program lists nearby networks and channels, read-only."
+      ]
+    },
+    "channel": {
+      "name": "Professor Messer",
+      "url": "https://www.youtube.com/@professormesser"
+    },
+    "duration": "PT7M55S",
+    "durationText": "7:55",
+    "language": "en",
+    "playlist": "wifi-wireless",
+    "position": 5,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "guest-wifi-network-isolation",
+      "home-router-security-basics"
+    ],
+    "relatedTools": [
+      "wi-fi-checker"
+    ]
+  },
+  {
+    "id": "vid-computerphile-tls-introduction",
+    "slug": "computerphile-tls-introduction",
+    "youtubeId": "0TLDTodL7Lc",
+    "title": {
+      "ar": "مقدمة في أمان طبقة النقل TLS (Computerphile)",
+      "en": "Transport Layer Security (TLS) explained (Computerphile)"
+    },
+    "originalTitle": "Transport Layer Security (TLS) - Computerphile",
+    "description": {
+      "ar": "مقدمة من Computerphile لبروتوكول TLS: لماذا نُشفّر النقل وكيف يبني الطرفان قناة موثوقة قبل تبادل البيانات.",
+      "en": "A Computerphile introduction to TLS: why transport is encrypted and how two parties build a trusted channel before they exchange data."
+    },
+    "notes": {
+      "ar": [
+        "TLS يحمي السرية والسلامة ويثبت هوية الخادم عبر الشهادة.",
+        "HTTPS هو HTTP فوق TLS، وليست طبقة منفصلة باسم SSL في المتصفحات الحديثة.",
+        "بعد هذا الفيديو شاهد درس المصافحة ثم مقالنا عن مصافحة TLS."
+      ],
+      "en": [
+        "TLS protects confidentiality and integrity and proves the server identity with a certificate.",
+        "HTTPS is HTTP over TLS; modern browsers no longer speak a separate SSL layer.",
+        "Watch the handshake lesson next, then our TLS handshake article."
+      ]
+    },
+    "channel": {
+      "name": "Computerphile",
+      "url": "https://www.youtube.com/@Computerphile"
+    },
+    "duration": "PT15M33S",
+    "durationText": "15:33",
+    "language": "en",
+    "playlist": "tls-certificates",
+    "position": 1,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "tls-handshake-explained"
+    ],
+    "relatedTools": [
+      "tls-certificate-checker"
+    ]
+  },
+  {
+    "id": "vid-computerphile-tls-handshake",
+    "slug": "computerphile-tls-handshake",
+    "youtubeId": "86cQJ0MMses",
+    "title": {
+      "ar": "شرح مصافحة TLS (Computerphile)",
+      "en": "The TLS handshake explained (Computerphile)"
+    },
+    "originalTitle": "TLS Handshake Explained - Computerphile",
+    "description": {
+      "ar": "شرح من Computerphile لخطوات مصافحة TLS وكيف يتفق العميل والخادم على المفاتيح بعد التحقق من الشهادة.",
+      "en": "A Computerphile walkthrough of the TLS handshake and how the client and server agree on keys after the certificate is checked."
+    },
+    "notes": {
+      "ar": [
+        "المصافحة تتفاوض على الإصدار والحزمة التشفيرية ثم تشتق مفاتيح الجلسة.",
+        "فشل التحقق من الاسم أو السلسلة يظهر أخطاء الشهادة في المتصفح.",
+        "استخدم فاحص شهادات TLS في NetSec Atlas Tools لمقارنة ما يقدّمه الخادم."
+      ],
+      "en": [
+        "The handshake negotiates the version and cipher suite, then derives session keys.",
+        "A bad name or a broken chain is what browsers report as a certificate error.",
+        "Use the TLS Certificate Checker in NetSec Atlas Tools to compare what the server presents."
+      ]
+    },
+    "channel": {
+      "name": "Computerphile",
+      "url": "https://www.youtube.com/@Computerphile"
+    },
+    "duration": "PT16M59S",
+    "durationText": "16:59",
+    "language": "en",
+    "playlist": "tls-certificates",
+    "position": 2,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "tls-handshake-explained",
+      "tls-certificate-errors-troubleshooting"
+    ],
+    "relatedTools": [
+      "tls-certificate-checker"
+    ]
+  },
+  {
+    "id": "vid-computerphile-public-key-cryptography",
+    "slug": "computerphile-public-key-cryptography",
+    "youtubeId": "GSIDS_lvRv4",
+    "title": {
+      "ar": "التشفير بالمفتاح العام (Computerphile)",
+      "en": "Public key cryptography (Computerphile)"
+    },
+    "originalTitle": "Public Key Cryptography - Computerphile",
+    "description": {
+      "ar": "درس قصير من Computerphile عن زوج المفتاح العام/الخاص: التشفير والتوقيع ولماذا لا تكفي كلمة سر مشتركة على الإنترنت.",
+      "en": "A short Computerphile lesson on public/private key pairs: encryption, signing, and why a shared secret is not enough on the internet."
+    },
+    "notes": {
+      "ar": [
+        "المفتاح العام يُنشر، والخاص يبقى سرًا؛ عكس ذلك يكسر الثقة.",
+        "التوقيع بالمفتاح الخاص يُتحقق منه بالمفتاح العام.",
+        "هذا الأساس لشهادات TLS ولمفاتيح المرور (Passkeys)."
+      ],
+      "en": [
+        "The public key is published; the private key stays secret — swapping that breaks trust.",
+        "A signature made with the private key is checked with the public key.",
+        "This is the foundation for TLS certificates and for passkeys."
+      ]
+    },
+    "channel": {
+      "name": "Computerphile",
+      "url": "https://www.youtube.com/@Computerphile"
+    },
+    "duration": "PT6M20S",
+    "durationText": "6:20",
+    "language": "en",
+    "playlist": "tls-certificates",
+    "position": 3,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "pki-certificate-authority-explained"
+    ],
+    "relatedTools": [
+      "certificate-csr-decoder"
+    ]
+  },
+  {
+    "id": "vid-computerphile-tls-private-key-mistake",
+    "slug": "computerphile-tls-private-key-mistake",
+    "youtubeId": "NDgS__J1U-M",
+    "title": {
+      "ar": "خطأ المفتاح الخاص في TLS (Computerphile)",
+      "en": "The TLS private key mistake (Computerphile)"
+    },
+    "originalTitle": "The Private Key Mistake! (TLS Key set to \"4\") - Computerphile",
+    "description": {
+      "ar": "حلقة Computerphile تناقش خطر اختيار مفتاح خاص ضعيف أو متوقع، عبر مثال تعليمي لمفتاح TLS ذي قيمة صغيرة جدًا.",
+      "en": "A Computerphile episode on the risk of a weak or predictable private key, using a teaching example of a TLS key set to a tiny value."
+    },
+    "notes": {
+      "ar": [
+        "قوة الشهادة لا تغني عن مفتاح خاص طويل وعشوائي مولَّد على الجهاز.",
+        "لا تنسخ المفتاح الخاص عبر البريد ولا تضعه في مستودع عام.",
+        "فك الشهادة بأداة Certificate / CSR Decoder دون رفع المفتاح الخاص."
+      ],
+      "en": [
+        "A trusted certificate is worthless if the private key is short or predictable.",
+        "Do not email a private key or commit it to a public repository.",
+        "Decode the certificate with the Certificate / CSR Decoder; never upload the private key."
+      ]
+    },
+    "channel": {
+      "name": "Computerphile",
+      "url": "https://www.youtube.com/@Computerphile"
+    },
+    "duration": "PT24M36S",
+    "durationText": "24:36",
+    "language": "en",
+    "playlist": "tls-certificates",
+    "position": 4,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "pki-certificate-authority-explained",
+      "tls-certificate-errors-troubleshooting"
+    ],
+    "relatedTools": [
+      "certificate-csr-decoder"
+    ]
+  },
+  {
+    "id": "vid-professor-messer-certificates",
+    "slug": "professor-messer-certificates",
+    "youtubeId": "cLa94BZH_9s",
+    "title": {
+      "ar": "الشهادات الرقمية (Security+ SY0-701)",
+      "en": "Digital certificates (Security+ SY0-701)"
+    },
+    "originalTitle": "Certificates - CompTIA Security+ SY0-701 - 1.4",
+    "description": {
+      "ar": "درس Professor Messer من منهج SY0-701 عن الشهادات الرقمية: كيف تربط هوية بمفتاح عام عبر سلطة التصديق.",
+      "en": "A Professor Messer SY0-701 lesson on digital certificates and how they bind an identity to a public key through a certificate authority."
+    },
+    "notes": {
+      "ar": [
+        "السلسلة يجب أن تصل إلى جذر موثوق، مع كل الشهادات الوسيطة.",
+        "راقب تاريخ الانتهاء وrevocation (CRL أو OCSP).",
+        "اقرأ مقال PKI ومقال مراقبة انتهاء الشهادات في الموقع."
+      ],
+      "en": [
+        "The chain must reach a trusted root, including every intermediate.",
+        "Watch expiry and revocation (CRL or OCSP).",
+        "Read our PKI article and the certificate-expiry monitoring article."
+      ]
+    },
+    "channel": {
+      "name": "Professor Messer",
+      "url": "https://www.youtube.com/@professormesser"
+    },
+    "duration": "PT14M38S",
+    "durationText": "14:38",
+    "language": "en",
+    "playlist": "tls-certificates",
+    "position": 5,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "pki-certificate-authority-explained",
+      "certificate-expiry-monitoring"
+    ],
+    "relatedTools": [
+      "certificate-csr-decoder",
+      "tls-certificate-checker"
+    ]
+  },
+  {
+    "id": "vid-subnetting-mastery-part-1-what-is-subnetting",
+    "slug": "subnetting-mastery-part-1-what-is-subnetting",
+    "youtubeId": "BWZ-MHIhqjM",
+    "title": {
+      "ar": "ما هو تقسيم الشبكات؟ (الجزء 1 من 7)",
+      "en": "What is subnetting? (part 1 of 7)"
+    },
+    "originalTitle": "What is Subnetting? - Subnetting Mastery - Part 1 of 7",
+    "description": {
+      "ar": "الجزء الأول من سلسلة Subnetting Mastery الرسمية على قناة Practical Networking: ما هو التقسيم ولماذا نستخدمه.",
+      "en": "Part 1 of the official Subnetting Mastery series on the Practical Networking channel: what subnetting is and why we use it."
+    },
+    "notes": {
+      "ar": [
+        "التقسيم يقسم شبكة كبيرة إلى كتل أصغر بحدود قناع واضحة.",
+        "CIDR يكتب القناع كبادئة مثل /24.",
+        "افتح حاسبة الشبكات الفرعية في NetSec Atlas Tools أثناء المتابعة."
+      ],
+      "en": [
+        "Subnetting splits a larger network into smaller blocks with a clear mask boundary.",
+        "CIDR writes the mask as a prefix, such as /24.",
+        "Keep the Subnet Calculator in NetSec Atlas Tools open while you watch."
+      ]
+    },
+    "channel": {
+      "name": "Practical Networking",
+      "url": "https://www.youtube.com/@PracticalNetworking"
+    },
+    "duration": "PT8M37S",
+    "durationText": "8:37",
+    "language": "en",
+    "playlist": "subnetting",
+    "position": 1,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "subnetting-cheat-sheet-cidr"
+    ],
+    "relatedTools": [
+      "subnet-calculator"
+    ]
+  },
+  {
+    "id": "vid-subnetting-mastery-part-2-cheat-sheet",
+    "slug": "subnetting-mastery-part-2-cheat-sheet",
+    "youtubeId": "ljS07YTEJ2I",
+    "title": {
+      "ar": "رسم ورقة الغش لتقسيم الشبكات (الجزء 2 من 7)",
+      "en": "Drawing the subnetting cheat sheet (part 2 of 7)"
+    },
+    "originalTitle": "Drawing the Cheat Sheet - Subnetting Mastery - Part 2 of 7",
+    "description": {
+      "ar": "جزء قصير يبني ورقة المرجع التي تعتمد عليها بقية سلسلة Practical Networking.",
+      "en": "A short part that builds the reference sheet the rest of the Practical Networking series uses."
+    },
+    "notes": {
+      "ar": [
+        "ارسم الورقة بيدك مرة واحدة حتى تثبت أحجام الكتل.",
+        "حيلة حجم الكتلة تختصر الحساب في الامتحان والعمل.",
+        "قارن الورقة بمرجع CIDR في مقالنا."
+      ],
+      "en": [
+        "Draw the sheet by hand once so the block sizes stick.",
+        "The block-size trick shortens the arithmetic in exams and on the job.",
+        "Compare the sheet with the CIDR reference in our article."
+      ]
+    },
+    "channel": {
+      "name": "Practical Networking",
+      "url": "https://www.youtube.com/@PracticalNetworking"
+    },
+    "duration": "PT1M58S",
+    "durationText": "1:58",
+    "language": "en",
+    "playlist": "subnetting",
+    "position": 2,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "subnetting-cheat-sheet-cidr"
+    ],
+    "relatedTools": [
+      "subnet-calculator"
+    ]
+  },
+  {
+    "id": "vid-subnetting-mastery-part-3-solve-any-problem",
+    "slug": "subnetting-mastery-part-3-solve-any-problem",
+    "youtubeId": "5-wlfAdcmFQ",
+    "title": {
+      "ar": "حل مسائل التقسيم بسرعة (الجزء 3 من 7)",
+      "en": "Solve subnetting problems quickly (part 3 of 7)"
+    },
+    "originalTitle": "How to solve ANY Subnetting Problems in 60 seconds or less - Subnetting Mastery - Part 3 of 7",
+    "description": {
+      "ar": "الجزء الثالث يحوّل ورقة المرجع إلى طريقة سريعة لحل مسائل التقسيم في أقل من دقيقة.",
+      "en": "Part 3 turns the reference sheet into a method for solving subnetting problems in under a minute."
+    },
+    "notes": {
+      "ar": [
+        "حدد حجم الكتلة من البادئة ثم أوجد بداية النطاق ونهايته.",
+        "العنوان الأول والأخير ليسا دائمًا صالحين للمضيف (شبكة وبث).",
+        "تحقق من إجابتك بحاسبة الشبكات الفرعية ثم بـ VLSM Planner للشبكات المتعددة."
+      ],
+      "en": [
+        "Read the block size from the prefix, then find the start and end of the range.",
+        "The first and last addresses are not always usable hosts (network and broadcast).",
+        "Check your answer with the Subnet Calculator, then VLSM Planner for several networks."
+      ]
+    },
+    "channel": {
+      "name": "Practical Networking",
+      "url": "https://www.youtube.com/@PracticalNetworking"
+    },
+    "duration": "PT6M10S",
+    "durationText": "6:10",
+    "language": "en",
+    "playlist": "subnetting",
+    "position": 3,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "subnetting-cheat-sheet-cidr"
+    ],
+    "relatedTools": [
+      "subnet-calculator",
+      "vlsm-planner"
+    ]
+  },
+  {
+    "id": "vid-subnetting-mastery-part-4-practice",
+    "slug": "subnetting-mastery-part-4-practice",
+    "youtubeId": "SM0kdVfhxZ0",
+    "title": {
+      "ar": "أمثلة تدريبية على التقسيم (الجزء 4 من 7)",
+      "en": "Subnetting practice examples (part 4 of 7)"
+    },
+    "originalTitle": "Practice Examples - Subnetting Mastery - Part 4 of 7",
+    "description": {
+      "ar": "أمثلة محلولة من Practical Networking لتطبيق طريقة الأجزاء السابقة على مسائل واقعية.",
+      "en": "Worked examples from Practical Networking that apply the earlier method to realistic problems."
+    },
+    "notes": {
+      "ar": [
+        "أوقف الفيديو وحل كل مثال قبل سماع الإجابة.",
+        "اكتب النطاق والقناع وعدد المضيفين في كل مرة.",
+        "حوّل النطاق إلى CIDR بأداة Range → CIDR في البرنامج."
+      ],
+      "en": [
+        "Pause and solve each example before you hear the answer.",
+        "Write down the range, the mask and the host count every time.",
+        "Convert a range to CIDR with the Range → CIDR tool in the program."
+      ]
+    },
+    "channel": {
+      "name": "Practical Networking",
+      "url": "https://www.youtube.com/@PracticalNetworking"
+    },
+    "duration": "PT9M54S",
+    "durationText": "9:54",
+    "language": "en",
+    "playlist": "subnetting",
+    "position": 4,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "subnetting-cheat-sheet-cidr"
+    ],
+    "relatedTools": [
+      "subnet-calculator",
+      "range-cidr"
+    ]
+  },
+  {
+    "id": "vid-subnetting-mastery-part-5-time-saving-tricks",
+    "slug": "subnetting-mastery-part-5-time-saving-tricks",
+    "youtubeId": "Pj_ubhpi0WQ",
+    "title": {
+      "ar": "حِيَل لتسريع حساب التقسيم (الجزء 5 من 7)",
+      "en": "Time-saving subnetting tricks (part 5 of 7)"
+    },
+    "originalTitle": "Time-Saving Tricks for Subnetting - Subnetting Mastery - Part 5 of 7",
+    "description": {
+      "ar": "الجزء الخامس يضيف حيلًا لاختصار الحساب بعد أن أصبحت الطريقة الأساسية ثابتة.",
+      "en": "Part 5 adds shortcuts that trim the arithmetic once the core method is solid."
+    },
+    "notes": {
+      "ar": [
+        "الحيل لا تغني عن فهم الحدود؛ راجع ناتجك إذا كان النطاق يتجاوز كتلة البادئة.",
+        "في العمل استخدم الحاسبة للتدقيق، وفي الامتحان استخدم الورقة.",
+        "أبقِ مقال مرجع CIDR مفتوحًا بجانب الفيديو."
+      ],
+      "en": [
+        "Shortcuts do not replace knowing the boundaries; re-check if a range crosses a prefix block.",
+        "At work, use the calculator to verify; in an exam, use the sheet.",
+        "Keep our CIDR cheat-sheet article open beside the video."
+      ]
+    },
+    "channel": {
+      "name": "Practical Networking",
+      "url": "https://www.youtube.com/@PracticalNetworking"
+    },
+    "duration": "PT8M32S",
+    "durationText": "8:32",
+    "language": "en",
+    "playlist": "subnetting",
+    "position": 5,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "subnetting-cheat-sheet-cidr"
+    ],
+    "relatedTools": [
+      "subnet-calculator"
+    ]
+  },
+  {
+    "id": "vid-subnetting-mastery-part-6-slash-17-to-24",
+    "slug": "subnetting-mastery-part-6-slash-17-to-24",
+    "youtubeId": "p-6BVEbb9q0",
+    "title": {
+      "ar": "التقسيم في النطاق /17 إلى /24 (الجزء 6 من 7)",
+      "en": "Subnetting in the /17–/24 range (part 6 of 7)"
+    },
+    "originalTitle": "Subnetting in the /17 - /24 range - Subnetting Mastery - Part 6 of 7",
+    "description": {
+      "ar": "تطبيق الطريقة على البادئات من /17 إلى /24، وهي الأكثر شيوعًا في شبكات الحرم والشبكات المحلية.",
+      "en": "The method applied to prefixes from /17 to /24, the range you will see most often on campus and LAN networks."
+    },
+    "notes": {
+      "ar": [
+        "/24 = 256 عنوانًا و/16 = 65536؛ احفظ هذه المرتكزات.",
+        "تقسيم /24 إلى /26 يعطيك أربع كتل من 64 عنوانًا.",
+        "استخدم VLSM Planner عندما تختلف أحجام الأقسام."
+      ],
+      "en": [
+        "A /24 is 256 addresses and a /16 is 65,536; memorize those anchors.",
+        "Splitting a /24 into /26 yields four blocks of 64 addresses.",
+        "Use VLSM Planner when the sections are different sizes."
+      ]
+    },
+    "channel": {
+      "name": "Practical Networking",
+      "url": "https://www.youtube.com/@PracticalNetworking"
+    },
+    "duration": "PT6M31S",
+    "durationText": "6:31",
+    "language": "en",
+    "playlist": "subnetting",
+    "position": 6,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "subnetting-cheat-sheet-cidr"
+    ],
+    "relatedTools": [
+      "subnet-calculator",
+      "vlsm-planner"
+    ]
+  },
+  {
+    "id": "vid-subnetting-mastery-part-7-slash-1-to-16",
+    "slug": "subnetting-mastery-part-7-slash-1-to-16",
+    "youtubeId": "OQ-r_IfeB8c",
+    "title": {
+      "ar": "التقسيم في النطاق /1 إلى /16 (الجزء 7 من 7)",
+      "en": "Subnetting in the /1–/16 range (part 7 of 7)"
+    },
+    "originalTitle": "Subnetting in the /1 - /16 range - Subnetting Mastery - Part 7 of 7",
+    "description": {
+      "ar": "الجزء الأخير يغطي البادئات الأوسع من /16، الشائعة في التوزيع وملخصات التوجيه.",
+      "en": "The final part covers prefixes wider than /16, common in allocation and route summaries."
+    },
+    "notes": {
+      "ar": [
+        "ملخص التوجيه (summary) يجب أن يغطي الكتل تمامًا دون تسريب نطاقات غير مملوكة.",
+        "في IPv4 العام هذه البادئات تُدار عبر السجلات الإقليمية (RDAP).",
+        "افحص تخصيصًا عامًا بأداة RDAP Lookup في البرنامج."
+      ],
+      "en": [
+        "A route summary must cover the blocks exactly without leaking space you do not own.",
+        "On the public IPv4 internet these prefixes are managed through the RIRs (RDAP).",
+        "Look up a public allocation with the RDAP Lookup tool in the program."
+      ]
+    },
+    "channel": {
+      "name": "Practical Networking",
+      "url": "https://www.youtube.com/@PracticalNetworking"
+    },
+    "duration": "PT5M19S",
+    "durationText": "5:19",
+    "language": "en",
+    "playlist": "subnetting",
+    "position": 7,
+    "date": "2026-11-27",
+    "categoryId": "cybersecurity",
+    "relatedArticles": [
+      "subnetting-cheat-sheet-cidr"
+    ],
+    "relatedTools": [
+      "rdap-lookup",
+      "subnet-calculator"
+    ]
   }
 ]

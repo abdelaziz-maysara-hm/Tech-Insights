@@ -6,6 +6,7 @@ import { useJsonLd } from '@/hooks/useJsonLd';
 import { useAllArticles } from '@/hooks/useAllArticles';
 import { SITE } from '@/config/site';
 import { libraryPlaylists, libraryVideos } from '@/data/videoLibrary';
+import { desktopToolByAnchor, toolsHref } from '@/lib/toolAnchors';
 import { LiteYouTube } from '@/components/video/LiteYouTube';
 import {
   formatTotal,
@@ -77,13 +78,19 @@ export default function VideoPlaylist() {
                 {related.map((a) => (
                   <li key={a.slug}><Link href={`/article/${a.slug}`} className="text-primary hover:underline">{a.title[lang]}</Link></li>
                 ))}
-                {(playlist.tools || []).length > 0 && (
-                  <li>
-                    <a href="https://adawaty.tools/categories/security-network/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-                      {lang === 'ar' ? 'أدوات الأمن والشبكات على أدواتي' : 'Security and network tools on Adawaty'}
-                    </a>
-                  </li>
-                )}
+                {(playlist.tools || []).map((anchor) => {
+                  const tool = desktopToolByAnchor(anchor);
+                  return (
+                    <li key={anchor}>
+                      <Link href={toolsHref(anchor)} className="text-primary hover:underline">
+                        {tool ? tool.title[lang] : anchor}
+                      </Link>
+                      <span className="text-muted-foreground">
+                        {lang === 'ar' ? ' في برنامج NetSec Atlas Tools' : ' in NetSec Atlas Tools'}
+                      </span>
+                    </li>
+                  );
+                })}
               </ul>
             </section>
           )}

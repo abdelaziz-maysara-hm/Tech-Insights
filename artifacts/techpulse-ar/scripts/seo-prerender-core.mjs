@@ -182,6 +182,14 @@ export function parseTaxonomyDefs(source) {
   });
 }
 
+function desktopToolAnchor(englishName) {
+  return String(englishName)
+    .toLowerCase()
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
 export function loadContentIndexes() {
   const articles = loadJson('src/content/articles.json');
   const comparisons = loadJson('src/content/comparisons.json');
@@ -210,6 +218,11 @@ export function loadContentIndexes() {
     toolsBySlug: new Map(webTools.map((t) => [t.slug, t])),
     alternativesBySlug: new Map(alternatives.map((t) => [t.slug, t])),
     desktopProgram,
+    desktopToolsByAnchor: new Map(
+      (desktopProgram?.categories || []).flatMap((cat) =>
+        (cat.tools || []).map((tool) => [desktopToolAnchor(tool.en), { ar: tool.ar, en: tool.en }]),
+      ),
+    ),
     videosBySlug: new Map(videos.map((v) => [v.slug, v])),
     playlistsBySlug: new Map(playlists.map((p) => [p.slug, p])),
     videos,
