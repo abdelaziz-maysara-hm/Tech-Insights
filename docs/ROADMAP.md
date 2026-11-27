@@ -93,7 +93,7 @@ Started: 27 November 2026 evening (Africa/Cairo, UTC+2). Tick the boxes as each 
 - [ ] التحقق الحي: إعادة زحف بصفر روابط مكسورة
 - [ ] عدد روابط `video-sitemap.xml` الحي يطابق الفيديوهات المنشورة (عربي + إنجليزي) — المتوقع 164 بعد النشر
 - [ ] رصد Lighthouse بعد النشر (وسيط 3 تشغيلات) ومقارنته بما سبق
-- [x] تحديث README و`CHANGELOG.md` وصناديق هذا القسم (سيُستكمل بعد الرصد الحي ورقم طلب الدمج)
+- [x] تحديث README و`CHANGELOG.md` وصناديق هذا القسم (سيُستكمل بعد الرصد الحي وطلب الدمج [#29](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/29))
 
 ---
 
