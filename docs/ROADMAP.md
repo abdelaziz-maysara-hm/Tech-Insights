@@ -1,6 +1,6 @@
 # خارطة طريق NetSec Atlas / Roadmap
 
-آخر تحديث: 28 نوفمبر 2026، 1:40 صباحًا (توقيت القاهرة، UTC+2).  
+آخر تحديث: 28 نوفمبر 2026، 1:50 صباحًا (توقيت القاهرة، UTC+2).  
 هذا ملف الخطة. سجل ما تم إنجازه موجود في [README.md](../README.md) و[CHANGELOG.md](../CHANGELOG.md).
 
 This is the forward plan. Completed work is listed in the README and changelog.
@@ -11,7 +11,7 @@ This is the forward plan. Completed work is listed in the README and changelog.
 
 ## المرحلة الحالية / Current phase (28 نوفمبر 2026): رفع LCP للرئيسية والمقال إلى 85+
 
-آخر تحديث لهذه المرحلة: 28 نوفمبر 2026، 1:40 صباحًا (توقيت القاهرة، UTC+2).  
+آخر تحديث لهذه المرحلة: 28 نوفمبر 2026، 1:50 صباحًا (توقيت القاهرة، UTC+2).  
 Started: 28 November 2026, 1:30am (Africa/Cairo, UTC+2). Tick the boxes as each item finishes, so anyone can continue mid-stream.
 
 **قيود سارية / Constraints**
@@ -70,6 +70,7 @@ Started: 28 November 2026, 1:30am (Africa/Cairo, UTC+2). Tick the boxes as each 
 - [x] جافاسكربت: `Home` و`ArticleDetail` بقيا `React.lazy` حتى لا يكبر مدخل الصفحات السبع؛ `modulepreload` لجزء المسار (و`ArticleCard` الصغير في الرئيسية) من `manifest.json`. AdSense يبقى عند التفاعل، ومهلة الخمول من 4 ث إلى 10 ث
 - [x] `hydrateRoot` لشجرة `<App />` الكاملة غير آمن في هذا المرور: الـprerender ما زال شجرة مبسطة قابلة للزحف وليست `renderToString(<App />)`. بدلاً من ذلك: الاستبدال يتم فور ظهور `h1`/`h2`/`img` أو نص قصير بعد زوال `aria-busy`، والمهلة الاحتياطية 2.5 ث لا 6 ث
 - [ ] رصد **بعد** الإصلاح (وسيط 3 تشغيلات على الصفحات العشر). النجاح = الثلاث صفحات 85+ ولا انخفاض في أداء أي من السبع الأخرى عن خط الأساس أعلاه
+  - رصد حي بعد [PR #32](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/32) (28 نوفمبر ~01:50 القاهرة): الرئيسية ع **73** (LCP 6.5 ث)، المقال ع **74** (6.6 ث)، المقال إن **75** (6.4 ث) — لم يصل 85+ لأن `Home` كان ينتظر جزء المقارنات (~210 كيلو) و`ArticleDetail` كان يخفي الـhero حتى يصل JSON المتن. متابعة في هذا الفرع: رسم الـhero فوراً من بيانات الفهرس، وتحميل المقارنات/المتن/videoLibrary بشكل كسول، وإبقاء الـprerender حتى يظهر `h1`/`img` الحقيقي.
 
 ---
 
