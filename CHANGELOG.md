@@ -6,8 +6,22 @@
 - **Performance changes in this build:** self-hosted Cairo and Inter woff2 subsets (SIL OFL) with language-specific preloads, `font-display: optional`, and metric fallbacks; Google Fonts removed from the critical path; AdSense (`ca-pub-9572691438076734`) loads on first interaction or `requestIdleCallback` (4s timeout); prerender swap no longer uses `display:none`; `hydrateRoot` is used when `#root[data-hydrate="app"]` is present (full App markup hydration is still a follow-up because today's prerender is a simplified crawlable tree); LCP image preload on article and video prerender pages. Routes were already code-split with `React.lazy`.
 - **Videos: 60 → 82 in 7 → 10 playlists.** Every new and existing YouTube ID was checked with `https://www.youtube.com/oembed` (HTTP 200). New playlists: `wifi-wireless` (5; Cisco + Professor Messer), `tls-certificates` (5; Computerphile + Professor Messer), `subnetting` (7-part Practical Networking Subnetting Mastery, plus the official YouTube playlist). Additions to existing playlists: official SharkFest Wireshark 4.0 with Gerald Combs and Grow with Google DNS (`network-fundamentals` 11→13); Microsoft Windows At Work LAPS sessions and Computerphile passkeys (`identity-active-directory` 7→10). FortiGate, Palo Alto and VPN stay in `firewalls-vpn`. No thin Windows-only or pfSense playlist (too few verified official videos to meet the five-video playlist minimum).
 - **Video pages:** unique AR/EN descriptions, VideoObject JSON-LD, a related article and/or a `/tools#…` link (desktop tool anchors added). Hub filters: topic, vendor/channel, language, and search. Playlist pages and a “Watch next” card plus a playlist sidebar. Stale SPF/DMARC web-tool IDs removed from the email playlist (those tools were removed earlier); the Email Header Analyzer in NetSec Atlas Tools is linked instead.
-- **Sitemaps:** the existing publish pipeline now emits **672** canonical URLs and **164** video-sitemap entries (82×2). Live crawl and live sitemap counts are still to be checked after deploy.
-- **Tests:** typecheck, production build, and the full `runtests.sh` suite (including phase7, sitemap, prerender, arabic integrity) passed locally.
+- **Sitemaps and live crawl** (after deploy, 27 Nov ≈ 22:54 Cairo): live `sitemap.xml` has **672** URLs; live `video-sitemap.xml` has **164** `<video:video>` entries (82×2). Re-crawl of 672 sitemap URLs plus 10 extra internal links: **682/682 HTTP 200, 0 broken**. Deploy run: [46066625878](https://github.com/abdelaziz-maysara-hm/Tech-Insights/actions/runs/46066625878).
+- **Tests:** typecheck, production build, and the full `runtests.sh` suite (including phase7, sitemap, prerender, arabic integrity) passed locally. The GitHub Pages build job (content and SEO checks included) was green.
+- **Lighthouse mobile after (live site after #29, median of 3, 27 Nov ≈ 23:00 Cairo), vs 2.0 baseline → 2.1-before median → after:** all ten pages are above their 2.0 performance baseline; median CLS is 0 everywhere; a11y 100, SEO 100, best-practices 79 (AdSense cookies). The soft 85+ target is missed on Home AR (75), Article AR (75) and Article EN (72), where LCP is still about 6.5s.
+
+  | Page | 2.0 | Before (2.1 median) | After |
+  |---|---|---|---|
+  | Home AR | 68 | 71 | **75** |
+  | Home EN | 73 | 72 | **97** |
+  | Article AR | 65 | 62 | **75** |
+  | Article EN | 53 | 54 | **72** |
+  | Video AR | 79 | 80 | **96** |
+  | Video EN | 69 | 68 | **95** |
+  | /tools AR | 77 | 59 | **98** |
+  | /tools EN | 77 | 72 | **98** |
+  | Alternatives AR | 90 | 84 | **98** |
+  | Alternatives EN | 93 | 72 | **98** |
 
 
 ## 27 November 2026 (Cairo): NetSec Atlas Tools 2.1 released and site polish ([PR #26](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/26), release [desktop-v2.1](https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/tag/desktop-v2.1))
