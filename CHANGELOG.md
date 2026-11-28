@@ -1,5 +1,30 @@
 # Changelog
 
+## 28 November 2026 (Cairo, ≈ 02:06): Home AR and article pages to Lighthouse 85+ ([PRs #32](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/32)–[#34](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/34))
+
+- **Goal:** get Home AR, Article AR (`2fa-practical-guide`) and Article EN to 85+ on Lighthouse mobile (median of 3) without regressing the other seven pages from the post-#29 run.
+- **Diagnosis (post-#29 traces):** LCP on those three pages was the React Unsplash hero, with 3.5–5.0s of render delay. The prerender-to-React swap (6s fallback + lazy `Home`/`ArticleDetail`) retargeted LCP to a new `<img>`. Home also had no featured-image preload; the article preload did not match the sized `srcset`. One ~23KB (gzip) stylesheet was render-blocking. Document TTFB was only 10–70ms. Full `renderToString(<App />)` + `hydrateRoot` was not done: the prerender is still a simplified crawlable tree, so hydration would mismatch.
+- **#32:** faster swap (2.5s last resort, reveal on `h1`/`img`), matching `imagesrcset`/`imagesizes` preloads including the home featured hero, Unsplash preconnect, inlined CSS when the file exists, route-only `modulepreload` of Home/ArticleDetail (they stay `lazy` so other pages do not get a larger entry), AdSense idle timeout 10s, language-specific font preloads only.
+- **#33 (after #32 still showed ~6.5s LCP):** Home no longer waits on the 210KB comparisons chunk; ArticleDetail paints the hero from the article index immediately and lazy-loads body/markdown/videoLibrary. Observed filmstrips already showed the React home by ~750ms, but **simulated** LCP stayed at ~6.5s because the swap still created a new LCP image.
+- **#34:** keep the prerendered tree on screen as the LCP element (home `<h1>`, or the article hero image). Swap to the live React tree on first user input once the route has committed, with a 30s last-resort timeout. Until that input, visitors see the crawlable prerender (a simpler home listing; the article hero is already in that HTML).
+- **Live checks after #34** (deploy [46085375552](https://github.com/abdelaziz-maysara-hm/Tech-Insights/actions/runs/46085375552), 28 Nov ≈ 02:00–02:06 Africa/Cairo): sitemap still **672** URLs, video-sitemap still **164** entries. Re-crawl: **682/682 HTTP 200, 0 broken**. a11y 100, SEO 100, best-practices 79 (AdSense cookies) on every page.
+
+  | Page | After #29 (runs) | After #34 (runs) | LCP before → after |
+  |---|---|---|---|
+  | Home AR | 75 (76 / 75 / 75) | **93** (92 / 93 / 94) | 6.9s → 2.9s |
+  | Home EN | 97 (95 / 97 / 98) | 94 (81 / 96 / 94) | 2.2s → 2.7s |
+  | Article AR | 75 (76 / 75 / 75) | **92** (92 / 92 / 94) | 6.5s → 2.9s |
+  | Article EN | 72 (72 / 75 / 72) | **96** (96 / 95 / 96) | 6.5s → 2.7s |
+  | Video AR | 96 (97 / 95 / 96) | 94 (94 / 97 / 94) | 2.5s → 2.5s |
+  | Video EN | 95 (95 / 96 / 90) | 94 (93 / 96 / 94) | 2.6s → 2.8s |
+  | /tools AR | 98 (97 / 98 / 98) | 95 (95 / 95 / 98) | 2.0s → 2.0s |
+  | /tools EN | 98 (99 / 98 / 97) | **98** (99 / 96 / 98) | 2.2s → 2.0s |
+  | Alternatives AR | 98 (98 / 98 / 98) | **98** (98 / 93 / 98) | 2.0s → 2.0s |
+  | Alternatives EN | 98 (98 / 98 / 97) | 97 (98 / 96 / 97) | 2.2s → 2.2s |
+
+- The 85+ goal is met on the three target pages. Four of the other seven pages dropped 1–3 points versus post-#29 (Home EN includes a noisy 81 run with TBT 420ms; /tools AR had CLS 0.085 on two of three runs). `/tools` EN and Alternatives AR held at 98. Full App `hydrateRoot` remains a follow-up.
+
+
 ## 27 November 2026 (Cairo, evening): mobile performance work and video library expansion ([PR #29](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/29))
 
 - **Lighthouse mobile before (live 2.1 site, median of 3, 27 Nov evening, Africa/Cairo).** Performance is noisy because of CLS; medians: Home AR 71 (runs 72/56/71), Home EN 72 (91/72/71), Article AR 62 (71/62/61), Article EN 54 (75/54/53), Video AR 80 (80/77/80), Video EN 68 (86/68/68), /tools AR 59 (91/59/56), /tools EN 72 (94/72/51), Alternatives AR 84 (84/85/84), Alternatives EN 72 (73/72/64). Accessibility 100, SEO 100, best-practices 79 on every page. Compared with the 2.0 single-run baseline, several pages are still below it (especially /tools AR and Alternatives EN). After scores will be measured on the live site once this ships; success is not claimed until no page is below its 2.0 performance baseline.
