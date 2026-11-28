@@ -11,7 +11,7 @@ Live site: [https://netsecatlas.com](https://netsecatlas.com) — practical Arab
 
 ## الحالة الآن / Where things stand
 
-**آخر تحديث لهذا الملف: 28 نوفمبر 2026، 1:30 صباحًا (توقيت القاهرة، UTC+2).**
+**آخر تحديث لهذا الملف: 28 نوفمبر 2026، 2:10 صباحًا (توقيت القاهرة، UTC+2).**
 
 - **المحتوى المنشور:** 135 مقالًا و69 مقارنة، لكل منها نسخة عربية ونسخة إنجليزية مكتوبة بشكل مستقل (ليست ترجمة حرفية). لم يراجع أي نص بشريًا بعد (`humanReviewed=0`، و`translationStatus` ليس `reviewed`).
 - **الموقع الحي قبل إصلاح 22 نوفمبر:** المقالات والمقارنات والفيديوهات وصفحة التطبيقات `/tools` تعمل. صفحات **البدائل** `/alternatives` كانت موجودة في `main` منذ 21 نوفمبر لكن **لم تُنشر** لأن عملية البناء فشلت بعد حذف أدوات الويب (تفاصيل الإصلاح أدناه).
@@ -24,7 +24,7 @@ Live site: [https://netsecatlas.com](https://netsecatlas.com) — practical Arab
 - مولّد المقالات الآلي (generator) **محذوف**. إضافة المحتوى تتم يدويًا كما هو موضّح أدناه.
 - **مكتبة الفيديو (27 نوفمبر مساءً، [PR #29](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/29)):** 82 فيديو في 10 قوائم تشغيل (كانت 60 في 7). أُضيفت قوائم Wi-Fi وTLS/الشهادات وتقسيم الشبكات، مع بحث وتصفية و«شاهد التالي». كل معرّف يوتيوب موثّق عبر oEmbed. الحي: 672 رابطًا في الخريطة، **164** مدخل فيديو، وزحف 682/682 بلا روابط مكسورة. التفاصيل: [docs/ROADMAP.md#phase-perf-videos](docs/ROADMAP.md#phase-perf-videos).
 
-الخطة القادمة كلها في ملف منفصل: **[docs/ROADMAP.md](docs/ROADMAP.md)**. المرحلة الجارية (28 نوفمبر): [رفع LCP للرئيسية والمقال إلى 85+](docs/ROADMAP.md#phase-lcp-85). مرحلة أداء الموبايل وتوسيع الفيديو مكتملة ([PR #29](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/29)): لا صفحة تحت خط أساس 2.0، وبقيت ثلاث صفحات تحت 85+ (الرئيسية ع 75، المقال ع 75 وإن 72). مرحلة 2.1 مكتملة: [docs/ROADMAP.md#phase-2-1](docs/ROADMAP.md#phase-2-1).
+الخطة القادمة كلها في ملف منفصل: **[docs/ROADMAP.md](docs/ROADMAP.md)**. مرحلة رفع LCP إلى 85+ ([docs/ROADMAP.md#phase-lcp-85](docs/ROADMAP.md#phase-lcp-85)، PRs #32–#34): الرئيسية ع 75→**93**، المقال ع 75→**92**، المقال إن 72→**96** (وسيط 3، موبايل، 28 نوفمبر ≈ 02:06 القاهرة). بعض الصفحات السبع الأخرى انخفضت 1–3 نقاط عن رصد بعد #29 (التفاصيل في الجدول أدناه وفي الخارطة). مرحلة أداء الموبايل وتوسيع الفيديو مكتملة ([PR #29](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/29)). مرحلة 2.1 مكتملة: [docs/ROADMAP.md#phase-2-1](docs/ROADMAP.md#phase-2-1).
 
 ---
 
@@ -94,6 +94,32 @@ Dates below are Africa/Cairo (UTC+2).
 | PR | ماذا أُنجز |
 | --- | --- |
 | [#26](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/26) | NetSec Atlas Tools 2.1: تسع أدوات جديدة (سمعة الملفات بروابط عامة فقط، بدء التشغيل، QR للواي فاي، RDAP، IP العام، تتبع المسار، فك الشهادات، فك JWT، مختبر regex). نجاح CI على win-x64 وwin-arm64 (79 اختبار وحدات، 42 واجهة، واختبار تشغيل). الوسم [desktop-v2.1](https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/tag/desktop-v2.1) والتحميل من `/downloads/` مع تطابق SHA-256. صفحة `/tools` وJSON-LD بالإصدار 2.1.0. تحسينات Lighthouse: الوصول 100 وSEO 100 على القوالب الخمسة بعد النشر. |
+
+### 28 نوفمبر 2026: رفع LCP للرئيسية والمقال إلى 85+ ([PRs #32](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/32)–[#34](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/34))
+
+| PR | ماذا أُنجز |
+| --- | --- |
+| [#31](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/31) | قائمة المرحلة الحالية في `docs/ROADMAP.md#phase-lcp-85`. |
+| [#32](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/32) | تسريع استبدال الـprerender، preload يطابق `srcset` (بما فيها صورة الرئيسية)، CSS مضمّن، `modulepreload` لأجزاء المسار فقط، وتأجيل AdSense للخمول 10 ث. |
+| [#33](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/33) | رسم hero المقال من الفهرس فوراً، وتحميل المقارنات/المتن/videoLibrary بشكل كسول. |
+| [#34](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/34) | إبقاء HTML الجاهز على الشاشة حتى أول تفاعل حتى لا يُعاد تعيين LCP إلى `img` جديد في React. |
+
+رصد Lighthouse موبايل (وسيط 3) بعد #34، 28 نوفمبر ≈ 02:06 القاهرة، مقابل بعد #29:
+
+| الصفحة | بعد #29 | بعد #34 (التشغيلات) | LCP قبل → بعد |
+|---|---|---|---|
+| الرئيسية ع | 75 | **93** (92 / 93 / 94) | 6.9 ث → 2.9 ث |
+| الرئيسية إن | 97 | 94 (81 / 96 / 94) | 2.2 ث → 2.7 ث |
+| المقال ع | 75 | **92** (92 / 92 / 94) | 6.5 ث → 2.9 ث |
+| المقال إن | 72 | **96** (96 / 95 / 96) | 6.5 ث → 2.7 ث |
+| الفيديو ع | 96 | 94 (94 / 97 / 94) | 2.5 ث → 2.5 ث |
+| الفيديو إن | 95 | 94 (93 / 96 / 94) | 2.6 ث → 2.8 ث |
+| `/tools` ع | 98 | 95 (95 / 95 / 98) | 2.0 ث → 2.0 ث |
+| `/tools` إن | 98 | **98** (99 / 96 / 98) | 2.2 ث → 2.0 ث |
+| البدائل ع | 98 | **98** (98 / 93 / 98) | 2.0 ث → 2.0 ث |
+| البدائل إن | 98 | 97 (98 / 96 / 97) | 2.2 ث → 2.2 ث |
+
+الوصول 100 وSEO 100 وأفضل ممارسات 79 على كل الصفحات. الخريطة ما زالت 672 رابطاً و164 مدخل فيديو. زحف حي: 682/682 HTTP 200، صفر روابط مكسورة. الثلاث المستهدفة بلغت 85+. أربع من الصفحات السبع انخفضت 1–3 نقاط (تشغيل الرئيسية إن 81 كان مرتفع TBT 420ms). حتى أول نقرة أو تمرير يرى الزائر HTML الجاهز (قائمة أبسط في الرئيسية؛ صورة المقال موجودة فيه).
 
 ---
 
@@ -192,4 +218,4 @@ pnpm --filter @workspace/techpulse-ar run dev
 
 ## الخطة / Plan
 
-الملف **[docs/ROADMAP.md](docs/ROADMAP.md)** فيه: ما تبقّى من عمل البرامج، رزنامة المحتوى، المراجعة البشرية، حساب Microsoft Store وتوقيع الشيفرة، Search Console/GA، وأفكار لاحقة. **المرحلة الحالية** (صناديق للمتابعة): [رفع LCP للرئيسية والمقال إلى 85+](docs/ROADMAP.md#phase-lcp-85). مرحلة الفيديو والأداء مكتملة: [docs/ROADMAP.md#phase-perf-videos](docs/ROADMAP.md#phase-perf-videos). مرحلة 2.1 مكتملة: [docs/ROADMAP.md#phase-2-1](docs/ROADMAP.md#phase-2-1).
+الملف **[docs/ROADMAP.md](docs/ROADMAP.md)** فيه: ما تبقّى من عمل البرامج، رزنامة المحتوى، المراجعة البشرية، حساب Microsoft Store وتوقيع الشيفرة، Search Console/GA، وأفكار لاحقة. مرحلة LCP 85+: [docs/ROADMAP.md#phase-lcp-85](docs/ROADMAP.md#phase-lcp-85). مرحلة الفيديو والأداء مكتملة: [docs/ROADMAP.md#phase-perf-videos](docs/ROADMAP.md#phase-perf-videos). مرحلة 2.1 مكتملة: [docs/ROADMAP.md#phase-2-1](docs/ROADMAP.md#phase-2-1).
