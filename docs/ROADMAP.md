@@ -1,6 +1,6 @@
 # خارطة طريق NetSec Atlas / Roadmap
 
-آخر تحديث: 28 نوفمبر 2026، 3:00 صباحًا (توقيت القاهرة، UTC+2).  
+آخر تحديث: 28 نوفمبر 2026، 3:20 صباحًا (توقيت القاهرة، UTC+2).  
 هذا ملف الخطة. سجل ما تم إنجازه موجود في [README.md](../README.md) و[CHANGELOG.md](../CHANGELOG.md).
 
 This is the forward plan. Completed work is listed in the README and changelog.
@@ -9,9 +9,9 @@ This is the forward plan. Completed work is listed in the README and changelog.
 
 <a id="phase-app-ssr"></a>
 
-## المرحلة الحالية / Current phase (28 نوفمبر 2026): ترطيب شجرة `<App />` الحقيقية
+## مرحلة مكتملة / Completed phase (28 نوفمبر 2026): ترطيب شجرة `<App />` الحقيقية
 
-آخر تحديث لهذه المرحلة: 28 نوفمبر 2026، 3:00 صباحًا (توقيت القاهرة، UTC+2).  
+آخر تحديث لهذه المرحلة: 28 نوفمبر 2026، 3:20 صباحًا (توقيت القاهرة، UTC+2). اكتملت بعد [PR #39](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/39).  
 Started: 28 November 2026, 2:29am (Africa/Cairo, UTC+2). Tick the boxes as each item finishes, so anyone can continue mid-stream.
 
 **قيود سارية / Constraints**
@@ -78,10 +78,10 @@ Started: 28 November 2026, 2:29am (Africa/Cairo, UTC+2). Tick the boxes as each 
 
 ### 4) متبقٍّ بعد الترطيب / Leftover after hydration
 
-التنفيذ والتحقق الحي مكتملان، لكن هدف الأداء لم يُبلغ بالكامل لأن المختبر صار يقيس تطبيق React بعد الترطيب بدل الشجرة المبسطة التي كان #34 يُبقيها حتى أول نقرة.
+- [x] إعادة الرئيسية العربية إلى **85+** — [PR #39](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/39)، رصد 28 نوفمبر ≈ 03:20 القاهرة: وسيط **91** (92 / 90 / 91)، LCP 3.1 ث. بلا إعادة الاستبدال عند أول تفاعل.
+- [x] استعادة الرئيسية الإنجليزية نحو 94: وسيط **92** (91 / 92 / 94)، LCP 2.9 ث (كانت 86 / 3.7 ث بعد #37، وكانت 94 بعد #34).
 
-- [ ] إعادة الرئيسية العربية إلى **85+** (الوسيط بعد #37: **84** — 84 / 89 / 82، LCP 3.5 ث مقابل 2.9 ث بعد #34) **دون** إعادة الاستبدال عند أول تفاعل
-- [ ] محاولة استعادة انخفاض الرئيسية الإنجليزية (86 مقابل 94) إن أمكن بنفس القيود
+كل الصفحات العشر **85+**. اختبار الترطيب 18/18. الخريطة 672 وvideo-sitemap 164. زحف حي 690/690، صفر روابط مكسورة.
 
 ---
 
@@ -411,7 +411,7 @@ Started: 27 November 2026 (Africa/Cairo, UTC+2). Checkboxes below should be tick
 2. **إصدار desktop-v2.1 (تم في 27 نوفمبر 2026):** التفاصيل في [المرحلة المكتملة](#phase-2-1). الإصدار: [desktop-v2.1](https://github.com/abdelaziz-maysara-hm/Tech-Insights/releases/tag/desktop-v2.1). التحميل: `https://netsecatlas.com/downloads/NetSecAtlasTools.exe`.
 2ب. **أداء الموبايل وتوسيع الفيديو (مكتمل، #29/#30):** [التفاصيل](#phase-perf-videos).
 2ج. **رفع LCP إلى 85+ (مكتمل، #32–#35):** [التفاصيل](#phase-lcp-85). الثلاث صفحات المستهدفة بلغت 85+؛ بعض الصفحات الأخرى انخفضت 1–3 نقاط.
-2د. **ترطيب شجرة App الحقيقية (المرحلة الحالية):** الخطة وصناديق المتابعة في [المرحلة الحالية](#phase-app-ssr). المقالات ما زالت موقوفة.
+2د. **ترطيب شجرة App الحقيقية (مكتملة):** الخطة والنتيجة في [#phase-app-ssr](#phase-app-ssr) (PRs #37 و#39). المقالات ما زالت موقوفة.
 3. **النشر على Microsoft Store** يحتاج حساب المالك (التسجيل للأفراد مجاني عبر [storedeveloper.microsoft.com](https://storedeveloper.microsoft.com)). التغليف المقترح: MSIX، والمتجر يعيد التوقيع فيزيل تحذير SmartScreen لمستخدمي المتجر.
 4. **توقيع الشيفرة للتحميل المباشر:** غير متوفر حاليًا. Azure Artifact Signing للأفراد في الولايات المتحدة وكندا فقط، فالأنسب للمالك في مصر شهادة OV (~150–300 دولار/سنة). شهادات EV منذ 2024 لم تعد تتخطى SmartScreen فورًا. SignPath Foundation قد ترفض أدوات «المسح» مثل فاحص المنافذ. السمعة تُبنى مع الوقت حتى بعد التوقيع.
 5. أدوات أُجِّلت عمدًا لارتفاع خطر الإنذار الكاذب: ضبط الخصوصية، المشفّر/الماحي، ماسح الشبكة المحلية، فاحص التصلب، فرز السجلات. تُعاد بعد التوقيع.

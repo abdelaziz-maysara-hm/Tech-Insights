@@ -1,5 +1,28 @@
 # Changelog
 
+## 28 November 2026 (Cairo, ≈ 03:20): Recover Home LCP after App hydration ([PR #39](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/39))
+
+- **Goal:** get Home AR back to 85+ (ideally 90+) and recover Home EN toward 94, keeping `hydrateRoot` of the real `<App />` tree. No first-input swap.
+- Stopped preloading `HomeComparisons` before hydration so the home LCP image no longer contends with the 214KB comparisons catalog. The island stays `React.lazy`; the prerendered HTML remains until the chunk loads.
+- The home island now ships only the three visible cards (`src/content/home-comparisons.json`, ~15KB gzip 5.5KB) instead of the full catalog. A generator + test keep the slice in sync. `/comparisons` still uses the full data.
+- AdSense loads on first user input, or after 30s as a last resort. Removed `requestIdleCallback`, which was firing immediately in lab tools after hydration and inflating TBT.
+- Hydration CI: 18/18 passed locally and on the Pages deploy, zero mismatches or console errors.
+- Live crawl: **690/690 HTTP 200**, 0 broken. Sitemap still 672 URLs; video-sitemap still 164 entries.
+- Lighthouse mobile, median of 3, 28 November ≈ 03:20 Cairo, vs after #37 (≈ 03:00) and after #34 (≈ 02:06). Accessibility 100 and SEO 100 on every page. **All ten pages are 85+.** Home AR **91** (92 / 90 / 91), Home EN **92** (91 / 92 / 94). Best-practices is 100 in this run because AdSense no longer loads during the lab audit (it waits for input or 30s); real users who interact still get ads.
+
+| Page | After #34 (runs) | After #37 (runs) | After #39 (runs) | LCP #37 → #39 |
+|---|---|---|---|---|
+| Home AR | **93** (92 / 93 / 94) | **84** (84 / 89 / 82) | **91** (92 / 90 / 91) | 3.5s → 3.1s |
+| Home EN | 94 (81 / 96 / 94) | **86** (86 / 87 / 85) | **92** (91 / 92 / 94) | 3.7s → 2.9s |
+| Article AR | **92** (92 / 92 / 94) | **93** (93 / 89 / 93) | **93** (93 / 93 / 92) | 3.0s → 3.1s |
+| Article EN | **96** (96 / 95 / 96) | **95** (96 / 95 / 92) | **92** (92 / 92 / 95) | 2.7s → 3.0s |
+| Video AR | 94 (94 / 97 / 94) | 94 (97 / 90 / 94) | 92 (89 / 92 / 94) | 2.9s → 3.0s |
+| Video EN | 94 (93 / 96 / 94) | 92 (91 / 94 / 92) | 94 (94 / 94 / 93) | 2.7s → 2.9s |
+| `/tools` AR | 95 (95 / 95 / 98) | 94 (94 / 97 / 94) | 97 (97 / 97 / 98) | 2.2s → 2.0s |
+| `/tools` EN | 98 (99 / 96 / 98) | 96 (98 / 96 / 94) | 98 (98 / 99 / 98) | 2.1s → 2.0s |
+| Alternatives AR | 98 (98 / 93 / 98) | 98 (98 / 98 / 98) | 98 (98 / 98 / 98) | 2.0s → 2.0s |
+| Alternatives EN | 97 (98 / 96 / 97) | 97 (97 / 98 / 95) | 97 (97 / 97 / 98) | 2.2s → 2.1s |
+
 ## 28 November 2026 (Cairo, ≈ 02:47): Prerender the real `<App />` tree and hydrateRoot
 
 - **Goal:** prerender the real `<App />` tree per route and `hydrateRoot` so markup matches, with no simplified-tree swap and no wait for first input. Articles remain paused; netsecatlas-apps is unchanged.
