@@ -3,7 +3,7 @@
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import {
   extractLocUrls,
   pathnameFromProductionUrl,
@@ -315,9 +315,17 @@ export function injectSeoIntoShell(shellHtml, seo, extras = {}) {
     `<link rel="alternate" type="application/rss+xml" title="${escapeAttr(SITE.name)} RSS" href="/${seo.lang}/rss.xml" />`,
   );
 
-  // Crawlable static body. React keeps it on screen, then swaps to the app.
+  // Real <App /> HTML (hydrateRoot) or the crawlable static fallback used in unit tests.
+  if (typeof extras.headHtml === 'string' && extras.headHtml.trim()) {
+    tags.push(extras.headHtml.trim());
+  }
   if (extras.bodyHtml) {
-    html = html.replace(/<div id="root">\s*<\/div>/i, () => `<div id="root">${extras.bodyHtml}</div>`);
+    const hydrateAttr = extras.hydrateApp ? ' data-hydrate="app"' : '';
+    const dataScript = inlineSsrDataScript(extras.ssrData);
+    html = html.replace(
+      /<div id="root">\s*<\/div>/i,
+      () => `${dataScript}<div id="root"${hydrateAttr}>${extras.bodyHtml}</div>`,
+    );
   }
 
   html = html.replace(/<link[^>]+fonts\.googleapis\.com[^>]*>\s*/gi, '');
@@ -328,6 +336,55 @@ export function injectSeoIntoShell(shellHtml, seo, extras = {}) {
   else html = injection + html;
   html = inlineStylesheets(html);
   return html;
+}
+
+
+/** React 19 hoists image preloads to the start of the SSR stream. Move them to <head>. */
+export function splitSsrMarkup(markup) {
+  const links = [];
+  let rest = String(markup || '');
+  const re = /^\s*(<link\b[^>]*>)\s*/i;
+  while (true) {
+    const m = rest.match(re);
+    if (!m) break;
+    links.push(m[1]);
+    rest = rest.slice(m[0].length);
+  }
+  return { headHtml: links.join('\n'), bodyHtml: rest };
+}
+
+export function inlineSsrDataScript(data) {
+  if (!data) return '';
+  return `<script>window.__NSS_DATA__=${JSON.stringify(data).replace(/</g, '\\u003c')}</script>`;
+}
+
+function ssrDataForPath(pathname, indexes) {
+  const identity = routeIdentityFromPathname(pathname);
+  const m = identity.match(/^\/article\/([^/]+)$/);
+  if (!m) return undefined;
+  const article = indexes.articlesBySlug?.get(m[1]);
+  if (!article?.body) return undefined;
+  return { article };
+}
+
+/**
+ * Unit tests omit renderBody and keep the static crawlable body.
+ * Production passes renderApp() so #root is the real <App /> tree.
+ */
+export async function buildPrerenderExtras(pathname, seo, indexes, renderBody) {
+  const extras = buildRouteExtras(pathname, seo, indexes);
+  if (typeof renderBody !== 'function') return extras;
+  const data = ssrDataForPath(pathname, indexes);
+  const markup = await renderBody(pathname, { data });
+  if (typeof markup !== 'string' || !markup.trim()) {
+    throw new Error(`[seo-prerender] empty SSR markup for ${pathname}`);
+  }
+  const split = splitSsrMarkup(markup);
+  extras.bodyHtml = split.bodyHtml;
+  extras.headHtml = split.headHtml;
+  extras.hydrateApp = true;
+  if (data) extras.ssrData = data;
+  return extras;
 }
 
 export function assertSeoQuality(seo, pathname) {
@@ -522,7 +579,7 @@ export function writeContentRedirects({ distPublic, redirects }) {
   return written;
 }
 
-export function prerenderSeoRoutes({ distPublic, sitemapXml, shellHtml, indexes }) {
+export async function prerenderSeoRoutes({ distPublic, sitemapXml, shellHtml, indexes, renderBody }) {
   const urls = extractLocUrls(sitemapXml);
   const result = {
     sitemapUrls: urls.length,
@@ -562,7 +619,11 @@ export function prerenderSeoRoutes({ distPublic, sitemapXml, shellHtml, indexes 
       continue;
     }
 
-    const html = injectSeoIntoShell(shellHtml, seo, buildRouteExtras(pathname, seo, indexes));
+    const extras = await buildPrerenderExtras(pathname, seo, indexes, renderBody);
+    const html = injectSeoIntoShell(shellHtml, seo, extras);
+    if (result.written > 0 && result.written % 50 === 0) {
+      console.log(`[seo-prerender] written ${result.written}/${urls.length}`);
+    }
     const outPath =
       relativeDir === ''
         ? join(distPublic, 'index.html')
@@ -587,7 +648,38 @@ function isMainModule() {
   return entry === fileURLToPath(import.meta.url);
 }
 
-function main() {
+async function loadRenderBody() {
+  const ssrPath = join(root, 'dist', 'ssr', 'entry-server.js');
+  if (!existsSync(ssrPath)) {
+    console.error('[seo-prerender] missing dist/ssr/entry-server.js — run build:ssr first');
+    process.exit(1);
+  }
+  const { renderApp } = await import(pathToFileURL(ssrPath).href);
+  if (typeof renderApp !== 'function') {
+    console.error('[seo-prerender] dist/ssr/entry-server.js does not export renderApp');
+    process.exit(1);
+  }
+  return (pathname, { data } = {}) => renderApp(pathname, { data });
+}
+
+async function writeNoindexPage({ distPublic, shellHtml, indexes, renderBody, pathname, relativeDir }) {
+  const seo = { ...resolveRouteSeo(pathname, indexes), robots: 'noindex, follow' };
+  const extras = await buildPrerenderExtras(pathname, seo, indexes, renderBody);
+  let html = injectSeoIntoShell(shellHtml, seo, extras);
+  html = html.replace(
+    /<meta\s+name=["']robots["'][^>]*>/i,
+    '<meta name="robots" content="noindex, follow" />',
+  );
+  const out = relativeDir
+    ? join(distPublic, ...relativeDir.split('/'), 'index.html')
+    : join(distPublic, 'index.html');
+  mkdirSync(dirname(out), { recursive: true });
+  writeFileSync(out, html, 'utf8');
+  if (relativeDir) writeExtensionlessTwin(distPublic, relativeDir, html);
+  return html;
+}
+
+async function main() {
   const distPublic = join(root, 'dist', 'public');
   const shellPath = join(distPublic, 'index.html');
   if (!existsSync(shellPath)) {
@@ -602,53 +694,74 @@ function main() {
     process.exit(1);
   }
 
+  const renderBody = await loadRenderBody();
   const shellHtml = readFileSync(shellPath, 'utf8');
   const indexes = loadContentIndexes();
   const xml = readFileSync(sitemapPath, 'utf8');
-  const result = prerenderSeoRoutes({ distPublic, sitemapXml: xml, shellHtml, indexes });
+  const started = Date.now();
+  const result = await prerenderSeoRoutes({
+    distPublic,
+    sitemapXml: xml,
+    shellHtml,
+    indexes,
+    renderBody,
+  });
 
   if (!result.routes.some((r) => r.path === '')) {
     // Root "/" → crawlable Arabic home (canonical /ar/); the SPA then
     // client-redirects to /ar/ as before.
     const homeSeo = resolveRouteSeo('/ar/', indexes);
-    writeFileSync(
-      shellPath,
-      injectSeoIntoShell(shellHtml, homeSeo, buildRouteExtras('/ar/', homeSeo, indexes)),
-      'utf8',
-    );
+    const extras = await buildPrerenderExtras('/ar/', homeSeo, indexes, renderBody);
+    writeFileSync(shellPath, injectSeoIntoShell(shellHtml, homeSeo, extras), 'utf8');
   }
   const legacyWritten = writeLegacyRedirects({ distPublic, routes: result.routes });
   const contentRedirects = writeContentRedirects({ distPublic, redirects: indexes.redirects });
   console.log(`[seo-prerender] content redirect stubs=${contentRedirects}`);
-  const notFoundHtml = shellHtml.replace(
+
+  // GitHub Pages serves a single 404.html for every missing path (AR or EN),
+  // so it must not use hydrateRoot — the client path would not match the
+  // prerendered language. createRoot can then render the right language.
+  // Sample /ar/__404__ and /en/__404__ pages below are hydrated and noindex.
+  const notFoundSeo = { ...resolveRouteSeo('/ar/__404__', indexes), robots: 'noindex, follow' };
+  const notFoundExtras = await buildPrerenderExtras('/ar/__404__', notFoundSeo, indexes, renderBody);
+  notFoundExtras.hydrateApp = false;
+  let notFoundHtml = injectSeoIntoShell(shellHtml, notFoundSeo, notFoundExtras);
+  notFoundHtml = notFoundHtml.replace(
     /<meta\s+name=["']robots["'][^>]*>/i,
     '<meta name="robots" content="noindex, follow" />',
   );
   writeFileSync(join(distPublic, '404.html'), notFoundHtml, 'utf8');
-  // Search is query-driven, so it stays out of the sitemap and hreflang, but
-  // /ar/search and /en/search must still be real pages (the navbar and the
-  // WebSite SearchAction point there). Write a noindex page for any missing.
-  // Always rewrite search as noindex, even if a stale sitemap caused a first
-  // pass to emit index,follow (search is query-driven and stays out of the sitemap).
+
   let searchPages = 0;
   for (const lang of ['ar', 'en']) {
-    const out = join(distPublic, lang, 'search', 'index.html');
-    const pathname = `/${lang}/search`;
-    const seo = { ...resolveRouteSeo(pathname, indexes), robots: 'noindex, follow' };
-    const html = injectSeoIntoShell(shellHtml, seo, buildRouteExtras(pathname, seo, indexes)).replace(
-      /<meta\s+name=["']robots["'][^>]*>/i,
-      '<meta name="robots" content="noindex, follow" />',
-    );
-    mkdirSync(dirname(out), { recursive: true });
-    writeFileSync(out, html, 'utf8');
-    writeExtensionlessTwin(distPublic, `${lang}/search`, html);
+    await writeNoindexPage({
+      distPublic,
+      shellHtml,
+      indexes,
+      renderBody,
+      pathname: `/${lang}/search`,
+      relativeDir: `${lang}/search`,
+    });
     searchPages += 1;
   }
   console.log(`[seo-prerender] search pages=${searchPages}`);
+
+  for (const lang of ['ar', 'en']) {
+    await writeNoindexPage({
+      distPublic,
+      shellHtml,
+      indexes,
+      renderBody,
+      pathname: `/${lang}/__404__`,
+      relativeDir: `${lang}/__404__`,
+    });
+  }
+  console.log('[seo-prerender] hydrated 404 samples=/ar/__404__ /en/__404__');
   console.log(`[seo-prerender] legacy redirect stubs=${legacyWritten}`);
 
+  const elapsed = ((Date.now() - started) / 1000).toFixed(1);
   console.log(
-    `[seo-prerender] sitemap=${result.sitemapUrls} written=${result.written} specific=${result.withSpecificMeta} fallback=${result.withFallbackMeta} rejected=${result.rejected.length} qualityFails=${result.qualityFailures.length}`,
+    `[seo-prerender] sitemap=${result.sitemapUrls} written=${result.written} specific=${result.withSpecificMeta} fallback=${result.withFallbackMeta} rejected=${result.rejected.length} qualityFails=${result.qualityFailures.length} ${elapsed}s`,
   );
   if (result.qualityFailures.length) {
     for (const item of result.qualityFailures.slice(0, 5)) {
@@ -659,5 +772,8 @@ function main() {
 }
 
 if (isMainModule()) {
-  main();
+  main().catch((err) => {
+    console.error('[seo-prerender]', err);
+    process.exit(1);
+  });
 }

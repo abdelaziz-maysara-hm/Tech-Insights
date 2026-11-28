@@ -6,6 +6,12 @@ import {
   stripLanguagePrefix,
 } from '@/lib/localizedRouting';
 
+const pathnameOf = (router?: RouterObject) => {
+  if (router?.ssrPath) return router.ssrPath;
+  if (typeof window !== 'undefined') return window.location.pathname;
+  return '';
+};
+
 const useLocalizedLocation: BaseLocationHook = (router: RouterObject) => {
   const [browserPath] = useBrowserLocation(router);
   const language = detectLanguageFromPath(browserPath, router.base);
@@ -20,8 +26,7 @@ const useLocalizedLocation: BaseLocationHook = (router: RouterObject) => {
 };
 
 useLocalizedLocation.hrefs = (href, router?: RouterObject) => {
-  if (typeof window === 'undefined') return href;
-  const language = detectLanguageFromPath(window.location.pathname, router?.base);
+  const language = detectLanguageFromPath(pathnameOf(router), router?.base);
   return language ? localizePath(href, language, router?.base) : href;
 };
 

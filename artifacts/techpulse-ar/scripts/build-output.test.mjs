@@ -11,7 +11,8 @@ import { fileURLToPath } from 'node:url';
 const dist = fileURLToPath(new URL('../dist/public/', import.meta.url));
 const read = (rel) => readFileSync(join(dist, rel), 'utf8');
 const textOf = (html) => {
-  const start = html.indexOf('<div id="root">');
+  const m = html.match(/<div id="root"[^>]*>/);
+  const start = m ? html.indexOf(m[0]) : -1;
   return html.slice(start).replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 };
 
@@ -41,6 +42,7 @@ test('every sitemap URL resolves to a prerendered file with real body content', 
     const html = read(file);
     assert.match(html, new RegExp(`<link rel="canonical" href="${url.replace(/[.?]/g, '\\$&')}" />`), url);
     assert.ok(textOf(html).length > 150, `thin static body for ${url}`);
+    assert.match(html, /id="root" data-hydrate="app"/, `missing data-hydrate for ${url}`);
   }
 });
 
@@ -49,8 +51,8 @@ test('article pages contain the full article text in static HTML (ar and en)', (
     const html = read(`${lang}/article/2fa-practical-guide.html`);
     assert.match(html, new RegExp(`<html lang="${lang}"`));
     assert.ok(textOf(html).split(' ').length > 400);
-    assert.match(html, /<h1>/);
-    assert.match(html, /<h2>/);
+    assert.match(html, /<h1[\s>]/);
+    assert.match(html, /<h2[\s>]/);
   }
 });
 

@@ -1,34 +1,41 @@
-import { lazy, Suspense, useEffect } from 'react';
+import { Suspense, useEffect } from 'react';
 import { Route, Switch, Router as WouterRouter, useLocation } from 'wouter';
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
-import { LanguageProvider } from '@/context/LanguageContext';
+import { LanguageProvider, type Language } from '@/context/LanguageContext';
 import { ThemeProvider } from '@/context/ThemeContext';
 import { useSEO } from '@/hooks/useSEO';
 import { useLocalizedLocation } from '@/hooks/useLocalizedLocation';
 import { getLegacyRedirectTarget } from '@/lib/legacyRedirect';
 import { getContentRedirectTarget } from '@/lib/contentRedirects';
+import {
+  Alternatives,
+  AlternativeDetail,
+  ArticleDetail,
+  Articles,
+  Categories,
+  ComparisonDetail,
+  Comparisons,
+  DomainPage,
+  Guides,
+  Home,
+  NotFound,
+  PageDetail,
+  Search,
+  Tools,
+  Troubleshooting,
+  VendorDetail,
+  Vendors,
+  VideoDetail,
+  VideoPlaylist,
+  Videos,
+} from '@/routeTable';
 
-const Home = lazy(() => import('@/pages/Home'));
-const Articles = lazy(() => import('@/pages/Articles'));
-const ArticleDetail = lazy(() => import('@/pages/ArticleDetail'));
-const Comparisons = lazy(() => import('@/pages/Comparisons'));
-const ComparisonDetail = lazy(() => import('@/pages/ComparisonDetail'));
-const Videos = lazy(() => import('@/pages/Videos'));
-const VideoPlaylist = lazy(() => import('@/pages/VideoPlaylist'));
-const VideoDetail = lazy(() => import('@/pages/VideoDetail'));
-const Categories = lazy(() => import('@/pages/Categories'));
-const Search = lazy(() => import('@/pages/Search'));
-const PageDetail = lazy(() => import('@/pages/PageDetail'));
-const Troubleshooting = lazy(() => import('@/pages/Troubleshooting'));
-const Guides = lazy(() => import('@/pages/Guides'));
-const Tools = lazy(() => import('@/pages/Tools'));
-const Alternatives = lazy(() => import('@/pages/Alternatives'));
-const AlternativeDetail = lazy(() => import('@/pages/AlternativeDetail'));
-const VendorDetail = lazy(() => import('@/pages/VendorDetail'));
-const Vendors = lazy(() => import('@/pages/Vendors'));
-const DomainPage = lazy(() => import('@/pages/Domain'));
-const NotFound = lazy(() => import('@/pages/not-found'));
+export type AppSsrProps = {
+  ssrPath?: string;
+  ssrSearch?: string;
+  language?: Language;
+};
 
 function RouteFallback() {
   return (
@@ -157,14 +164,16 @@ function Router() {
   );
 }
 
-function App() {
+function App({ ssrPath, ssrSearch, language }: AppSsrProps = {}) {
   return (
     <ThemeProvider defaultTheme="dark">
-      <LanguageProvider>
+      <LanguageProvider initialLanguage={language}>
         <LegacyRouteRedirect />
         <WouterRouter
           base={import.meta.env.BASE_URL.replace(/\/$/, '')}
           hook={useLocalizedLocation}
+          ssrPath={ssrPath}
+          ssrSearch={ssrSearch}
         >
           <Router />
         </WouterRouter>

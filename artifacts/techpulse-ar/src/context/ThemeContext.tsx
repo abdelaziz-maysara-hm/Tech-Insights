@@ -26,12 +26,23 @@ export function ThemeProvider({
   storageKey = "vite-ui-theme",
   ...props
 }: ThemeProviderProps) {
-  const [theme, setTheme] = useState<Theme>(
-    () => (localStorage.getItem(storageKey) as Theme) || defaultTheme
-  );
+  // First render must match the prerendered tree (always defaultTheme).
+  // Read any saved preference only after hydration.
+  const [theme, setTheme] = useState<Theme>(defaultTheme);
 
   useEffect(() => {
-    const root = window.document.documentElement;
+    try {
+      const saved = localStorage.getItem(storageKey) as Theme | null;
+      if (saved === "dark" || saved === "light" || saved === "system") {
+        setTheme(saved);
+      }
+    } catch {
+      /* private mode */
+    }
+  }, [storageKey]);
+
+  useEffect(() => {
+    const root = document.documentElement;
 
     root.classList.remove("light", "dark");
 
@@ -50,9 +61,13 @@ export function ThemeProvider({
 
   const value = {
     theme,
-    setTheme: (theme: Theme) => {
-      localStorage.setItem(storageKey, theme);
-      setTheme(theme);
+    setTheme: (next: Theme) => {
+      try {
+        localStorage.setItem(storageKey, next);
+      } catch {
+        /* private mode */
+      }
+      setTheme(next);
     },
   };
 

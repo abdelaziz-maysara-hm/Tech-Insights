@@ -20,6 +20,7 @@ import {
   isHreflangEligibleForRoute,
   pickLocalized,
   prerenderSeoRoutes,
+  splitSsrMarkup,
   resolveRouteSeo,
   routeIdentityFromPathname,
   safeJsonLd,
@@ -182,7 +183,7 @@ test('inject preserves vite assets and sets lang/dir', () => {
   assert.ok(html.includes('href="/assets/index-TEST.css"'));
 });
 
-test('prerenderSeoRoutes writes all sitemap paths and keeps unknown out', () => {
+test('prerenderSeoRoutes writes all sitemap paths and keeps unknown out', async () => {
   const dir = mkdtempSync(join(tmpdir(), 'nsa-seo-'));
   try {
     const distPublic = join(dir, 'public');
@@ -197,7 +198,7 @@ test('prerenderSeoRoutes writes all sitemap paths and keeps unknown out', () => 
       <url><loc>https://netsecatlas.com/en/article/sample-article</loc></url>
       <url><loc>https://evil.example/ar/</loc></url>
     </urlset>`;
-    const result = prerenderSeoRoutes({
+    const result = await prerenderSeoRoutes({
       distPublic,
       sitemapXml: xml,
       shellHtml: shell,
@@ -215,6 +216,8 @@ test('prerenderSeoRoutes writes all sitemap paths and keeps unknown out', () => 
     );
     assert.ok(articleHtml.includes('عنوان عربي'));
     assert.ok(articleHtml.includes('application/ld+json'));
+    assert.ok(!articleHtml.includes('data-hydrate="app"'), 'unit tests omit renderBody and must stay on the static body');
+    assert.ok(!articleHtml.includes('__NSS_DATA__'));
     assert.ok(!existsSync(join(distPublic, 'unknown', 'index.html')));
   } finally {
     rmSync(dir, { recursive: true, force: true });
@@ -252,4 +255,35 @@ test('web tool routes resolve localized metadata, alternates and WebApplication 
   const html = injectSeoIntoShell(shell, en);
   assert.match(html, /"@type":"WebApplication"/);
   assert.equal(resolveRouteSeo('/ar/tools/missing', indexes).source, 'fallback');
+});
+
+test('splitSsrMarkup moves leading preload links out of the body', () => {
+  const markup = '<link rel="preload" as="image" href="/a.jpg" /><link rel="preload" as="image" href="/b.jpg" /><div>app</div>';
+  const split = splitSsrMarkup(markup);
+  assert.ok(split.headHtml.includes('href="/a.jpg"'));
+  assert.ok(split.headHtml.includes('href="/b.jpg"'));
+  assert.equal(split.bodyHtml, '<div>app</div>');
+});
+
+test('injectSeoIntoShell marks #root for hydrateRoot and inlines SSR data', () => {
+  const html = injectSeoIntoShell(shell, {
+    lang: 'ar',
+    dir: 'rtl',
+    title: 'اختبار',
+    description: 'وصف',
+    canonical: 'https://netsecatlas.com/ar/article/sample-article',
+    alternates: [],
+    type: 'article',
+    robots: 'index, follow',
+    source: 'article',
+  }, {
+    bodyHtml: '<main><h1>مقال</h1></main>',
+    hydrateApp: true,
+    ssrData: { article: { slug: 'sample-article', body: { ar: '<em>x</em>' } } },
+  });
+  assert.ok(html.includes('id="root" data-hydrate="app"'));
+  assert.ok(html.includes('window.__NSS_DATA__='));
+  assert.ok(html.includes('\\u003cem>x\\u003c/em>'));
+  assert.equal(html.includes('<em>x</em>'), false);
+  assert.ok(html.includes('<main><h1>مقال</h1></main>'));
 });
