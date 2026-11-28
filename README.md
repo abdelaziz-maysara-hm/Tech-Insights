@@ -11,7 +11,7 @@ Live site: [https://netsecatlas.com](https://netsecatlas.com) — practical Arab
 
 ## الحالة الآن / Where things stand
 
-**آخر تحديث لهذا الملف: 28 نوفمبر 2026، 3:46 صباحًا (توقيت القاهرة، UTC+2).**
+**آخر تحديث لهذا الملف: 28 نوفمبر 2026، 4:15 صباحًا (توقيت القاهرة، UTC+2).**
 
 - **المحتوى المنشور:** 135 مقالًا و69 مقارنة، لكل منها نسخة عربية ونسخة إنجليزية مكتوبة بشكل مستقل (ليست ترجمة حرفية). لم يراجع أي نص بشريًا بعد (`humanReviewed=0`، و`translationStatus` ليس `reviewed`).
 - **الموقع الحي قبل إصلاح 22 نوفمبر:** المقالات والمقارنات والفيديوهات وصفحة التطبيقات `/tools` تعمل. صفحات **البدائل** `/alternatives` كانت موجودة في `main` منذ 21 نوفمبر لكن **لم تُنشر** لأن عملية البناء فشلت بعد حذف أدوات الويب (تفاصيل الإصلاح أدناه).
@@ -24,7 +24,7 @@ Live site: [https://netsecatlas.com](https://netsecatlas.com) — practical Arab
 - مولّد المقالات الآلي (generator) **محذوف**. إضافة المحتوى تتم يدويًا كما هو موضّح أدناه.
 - **مكتبة الفيديو (27 نوفمبر مساءً، [PR #29](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/29)):** 82 فيديو في 10 قوائم تشغيل (كانت 60 في 7). أُضيفت قوائم Wi-Fi وTLS/الشهادات وتقسيم الشبكات، مع بحث وتصفية و«شاهد التالي». كل معرّف يوتيوب موثّق عبر oEmbed. الحي: 672 رابطًا في الخريطة، **164** مدخل فيديو، وزحف 682/682 بلا روابط مكسورة. التفاصيل: [docs/ROADMAP.md#phase-perf-videos](docs/ROADMAP.md#phase-perf-videos).
 
-الخطة القادمة كلها في ملف منفصل: **[docs/ROADMAP.md](docs/ROADMAP.md)**. المرحلة الحالية: الربط الداخلي والصفحات اليتيمة ([docs/ROADMAP.md#phase-internal-links](docs/ROADMAP.md#phase-internal-links)). بلا مقالات جديدة. مرحلة ترطيب شجرة App الحقيقية مكتملة ([docs/ROADMAP.md#phase-app-ssr](docs/ROADMAP.md#phase-app-ssr)، PRs #37 و#39): الصفحة تكتمل قبل أي إدخال، وكل الصفحات العشر **85+** بعد استعادة الرئيسية (ع **91**، إن **92**). مرحلة رفع LCP إلى 85+ السابقة: [docs/ROADMAP.md#phase-lcp-85](docs/ROADMAP.md#phase-lcp-85)، PRs #32–#34. مرحلة أداء الموبايل وتوسيع الفيديو مكتملة ([PR #29](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/29)). مرحلة 2.1 مكتملة: [docs/ROADMAP.md#phase-2-1](docs/ROADMAP.md#phase-2-1).
+الخطة القادمة كلها في ملف منفصل: **[docs/ROADMAP.md](docs/ROADMAP.md)**. مرحلة الربط الداخلي والصفحات اليتيمة مكتملة ([docs/ROADMAP.md#phase-internal-links](docs/ROADMAP.md#phase-internal-links)، PRs #41 و#42): صفر صفحات يتيمة، عمق النقر ≤3، والخريطة **722** رابطاً بعد 25 محور موضوع. كل الصفحات العشر ما زالت **85+**. بلا مقالات جديدة. مرحلة ترطيب شجرة App الحقيقية مكتملة ([docs/ROADMAP.md#phase-app-ssr](docs/ROADMAP.md#phase-app-ssr)، PRs #37 و#39). مرحلة رفع LCP إلى 85+ السابقة: [docs/ROADMAP.md#phase-lcp-85](docs/ROADMAP.md#phase-lcp-85)، PRs #32–#34. مرحلة أداء الموبايل وتوسيع الفيديو مكتملة ([PR #29](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/29)). مرحلة 2.1 مكتملة: [docs/ROADMAP.md#phase-2-1](docs/ROADMAP.md#phase-2-1).
 
 ---
 
@@ -117,6 +117,30 @@ Dates below are Africa/Cairo (UTC+2).
 | البدائل إن | 97 (98 / 96 / 97) | 97 (97 / 98 / 95) | 97 (97 / 97 / 98) | 2.2 ث → 2.1 ث |
 
 الوصول 100 وSEO 100 على كل الصفحات. أفضل ممارسات **100** في هذا الرصد لأن AdSense لا يُحمَّل أثناء اختبار المختبر (ينتظر تفاعلاً أو 30 ث)؛ الزائر الحقيقي الذي يتفاعل ما زال يرى الإعلانات. الخريطة ما زالت 672 رابطاً و164 مدخل فيديو. زحف حي: **690/690 HTTP 200**، صفر روابط مكسورة. اختبار الترطيب 18/18. **كل الصفحات العشر 85+.** الرئيسية ع عادت إلى 91 (كانت 84)، والرئيسية إن إلى 92 (كانت 86). المقال إن والفيديو ع انخفضا نقطتين أو ثلاثاً عن #37 وما زالا فوق 85.
+
+### 28 نوفمبر 2026: الربط الداخلي والصفحات اليتيمة ([PR #42](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/42))
+
+| PR | ماذا أُنجز |
+| --- | --- |
+| [#41](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/41) | قائمة المرحلة الحالية في `docs/ROADMAP.md#phase-internal-links` مع خط أساس رسم الروابط. |
+| [#42](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/42) | محاور موضوع، فتات خبز وBreadcrumbList، كتل «ذات صلة» عبر الأنواع، جمل ربط بين المقالات القديمة والدفعة 10، وفحص CI للأيتام وعمق النقر. |
+
+رصد Lighthouse موبايل (وسيط 3) بعد #42، 28 نوفمبر ≈ 04:15 القاهرة، مقابل بعد #39 (≈ 03:20):
+
+| الصفحة | بعد #39 (التشغيلات) | بعد #42 (التشغيلات) | LCP #39 → #42 |
+|---|---|---|---|
+| الرئيسية ع | **91** (92 / 90 / 91) | **91** (86 / 91 / 91) | 3.1 ث → 3.2 ث |
+| الرئيسية إن | **92** (91 / 92 / 94) | **88** (95 / 88 / 88) | 2.9 ث → 3.1 ث |
+| المقال ع | **93** (93 / 93 / 92) | **88** (88 / 88 / 87) | 3.1 ث → 3.5 ث |
+| المقال إن | **92** (92 / 92 / 95) | **95** (95 / 96 / 89) | 3.0 ث → 2.7 ث |
+| الفيديو ع | 92 (89 / 92 / 94) | 89 (87 / 93 / 89) | 3.0 ث → 3.1 ث |
+| الفيديو إن | 94 (94 / 94 / 93) | 91 (91 / 91 / 95) | 2.9 ث → 3.1 ث |
+| `/tools` ع | 97 (97 / 97 / 98) | 97 (98 / 96 / 97) | 2.0 ث → 2.1 ث |
+| `/tools` إن | 98 (98 / 99 / 98) | 97 (97 / 97 / 97) | 2.0 ث → 2.1 ث |
+| البدائل ع | 98 (98 / 98 / 98) | 97 (97 / 97 / 98) | 2.0 ث → 2.1 ث |
+| البدائل إن | 97 (97 / 97 / 98) | 97 (97 / 98 / 97) | 2.1 ث → 2.1 ث |
+
+الوصول 100 وSEO 100 على كل الصفحات. أفضل ممارسات **100** في هذا الرصد لأن AdSense لا يُحمَّل أثناء اختبار المختبر (ينتظر تفاعلاً أو 30 ث). **كل الصفحات العشر 85+.** انخفضت الرئيسية إن إلى 88 والمقال ع إلى 88 عن #39 وبقيتا فوق 85؛ المقال إن ارتفع إلى 95. الخريطة **722** رابطاً (25 محور موضوع × لغتين أُضيفا إلى 672) و`video-sitemap` 164. زحف حي: **740/740 HTTP 200**، صفر روابط مكسورة (722 من الخريطة + 18 رابطاً داخلياً إضافياً). رسم الروابط: صفر يتيم، صفر شبه يتيم، عمق نقر أقصى 3، صفر صفحات غير قابلة للوصول. اختبار الترطيب 18/18.
 
 ### 28 نوفمبر 2026: ترطيب شجرة App الحقيقية ([PR #37](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/37))
 
@@ -265,4 +289,4 @@ pnpm --filter @workspace/techpulse-ar run dev
 
 ## الخطة / Plan
 
-الملف **[docs/ROADMAP.md](docs/ROADMAP.md)** فيه: ما تبقّى من عمل البرامج، رزنامة المحتوى، المراجعة البشرية، حساب Microsoft Store وتوقيع الشيفرة، Search Console/GA، وأفكار لاحقة. المرحلة الحالية: الربط الداخلي والصفحات اليتيمة ([docs/ROADMAP.md#phase-internal-links](docs/ROADMAP.md#phase-internal-links)). مرحلة ترطيب شجرة App مكتملة: [docs/ROADMAP.md#phase-app-ssr](docs/ROADMAP.md#phase-app-ssr). مرحلة LCP 85+ مكتملة: [docs/ROADMAP.md#phase-lcp-85](docs/ROADMAP.md#phase-lcp-85). مرحلة الفيديو والأداء مكتملة: [docs/ROADMAP.md#phase-perf-videos](docs/ROADMAP.md#phase-perf-videos). مرحلة 2.1 مكتملة: [docs/ROADMAP.md#phase-2-1](docs/ROADMAP.md#phase-2-1).
+الملف **[docs/ROADMAP.md](docs/ROADMAP.md)** فيه: ما تبقّى من عمل البرامج، رزنامة المحتوى، المراجعة البشرية، حساب Microsoft Store وتوقيع الشيفرة، Search Console/GA، وأفكار لاحقة. مرحلة الربط الداخلي مكتملة: [docs/ROADMAP.md#phase-internal-links](docs/ROADMAP.md#phase-internal-links). مرحلة ترطيب شجرة App مكتملة: [docs/ROADMAP.md#phase-app-ssr](docs/ROADMAP.md#phase-app-ssr). مرحلة LCP 85+ مكتملة: [docs/ROADMAP.md#phase-lcp-85](docs/ROADMAP.md#phase-lcp-85). مرحلة الفيديو والأداء مكتملة: [docs/ROADMAP.md#phase-perf-videos](docs/ROADMAP.md#phase-perf-videos). مرحلة 2.1 مكتملة: [docs/ROADMAP.md#phase-2-1](docs/ROADMAP.md#phase-2-1).

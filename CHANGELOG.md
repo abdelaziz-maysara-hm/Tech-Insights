@@ -1,5 +1,31 @@
 # Changelog
 
+## 28 November 2026 (Cairo, ≈ 04:15): Internal linking, topic hubs, and orphan CI ([PR #42](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/42))
+
+- **Goal:** every indexable page has ≥3 contextual inbound links (links inside `<main>`, excluding nav/footer/sitemap) and click depth ≤3 from home. No new articles.
+- Topic hubs at `/topic/:id` for the 25 taxonomy topics that have content. Sitemap is now **722** URLs (361 AR + 361 EN); video-sitemap stays **164**.
+- Visible breadcrumbs and JSON-LD `BreadcrumbList` on every page type. Tag/topic-driven related blocks link articles, videos/playlists, desktop tools (`/tools#anchor`), alternatives, comparisons and vendors so new content links itself.
+- Home, categories and domain pages now link `/categories` and `/domain/*` (those four URLs were previously unreachable even via nav/footer). Legal pages cross-link in the body. Comparisons and vendors use an adjacent wrap plus related links.
+- Short bilingual linking sentences connect older articles with the batch-10 set where the topics are actually related (VLAN ↔ CIDR/STP, Windows events ↔ lockout 4740, PowerShell guide ↔ network commands, and similar pairs).
+- CI: `test:internal-links` builds a graph from `dist` and fails on new orphans (0–1 contextual inbound, home exempt) or all-links depth >3. Hooked into `deploy-pages.yml`. Hydration stayed 18/18.
+- Live crawl after deploy: **740/740 HTTP 200**, 0 broken (722 sitemap + 18 extra same-origin links).
+- After graph (361 indexable URLs per language): 0 orphans, 0 near-orphans, 0 pages below 3 inbound (were 7 / 91 / 102). Max click depth **3**, 0 unreachable (were 4).
+- Lighthouse mobile, median of 3, 28 November ≈ 04:15 Cairo, vs after #39 (≈ 03:20). Accessibility 100 and SEO 100 on every page. **All ten pages are 85+.** Best-practices is 100 in this run because AdSense waits for input or 30s; real users who interact still get ads. Home EN fell to **88** (was 92) and Article AR to **88** (was 93); both stay above 85. Article EN rose to **95**.
+
+| Page | After #39 (runs) | After #42 (runs) | LCP #39 → #42 |
+|---|---|---|---|
+| Home AR | **91** (92 / 90 / 91) | **91** (86 / 91 / 91) | 3.1s → 3.2s |
+| Home EN | **92** (91 / 92 / 94) | **88** (95 / 88 / 88) | 2.9s → 3.1s |
+| Article AR | **93** (93 / 93 / 92) | **88** (88 / 88 / 87) | 3.1s → 3.5s |
+| Article EN | **92** (92 / 92 / 95) | **95** (95 / 96 / 89) | 3.0s → 2.7s |
+| Video AR | 92 (89 / 92 / 94) | 89 (87 / 93 / 89) | 3.0s → 3.1s |
+| Video EN | 94 (94 / 94 / 93) | 91 (91 / 91 / 95) | 2.9s → 3.1s |
+| `/tools` AR | 97 (97 / 97 / 98) | 97 (98 / 96 / 97) | 2.0s → 2.1s |
+| `/tools` EN | 98 (98 / 99 / 98) | 97 (97 / 97 / 97) | 2.0s → 2.1s |
+| Alternatives AR | 98 (98 / 98 / 98) | 97 (97 / 97 / 98) | 2.0s → 2.1s |
+| Alternatives EN | 97 (97 / 97 / 98) | 97 (97 / 98 / 97) | 2.1s → 2.1s |
+
+
 ## 28 November 2026 (Cairo, ≈ 03:20): Recover Home LCP after App hydration ([PR #39](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/39))
 
 - **Goal:** get Home AR back to 85+ (ideally 90+) and recover Home EN toward 94, keeping `hydrateRoot` of the real `<App />` tree. No first-input swap.
