@@ -7,7 +7,24 @@
 - Removed the first-input swap from `main.tsx`. Theme, language, and link hrefs are SSR-safe: the first paint uses the default theme and the URL language; `localStorage` applies after hydration.
 - SEO injection (title, meta, canonical, hreflang, JSON-LD) is unchanged. `sitemap.xml` is still 672 URLs and `video-sitemap.xml` is still 164 entries; RSS generation is unchanged. Search stays noindex. GitHub Pages `404.html` is a complete NotFound tree without `hydrateRoot` (one file is served for every missing path, AR or EN). Hydrated noindex samples live at `/ar/__404__` and `/en/__404__`.
 - New `pnpm test:hydration` check: after a production build, serves `dist/public`, loads AR and EN samples of home, article, comparison, video, playlist, `/tools`, alternatives, search, and 404 in headless Chrome, and fails on hydration mismatches or console errors. Local run: 18/18 passed, zero mismatches.
-- Lighthouse after-scores (median of 3 on the same 10 pages) will be recorded after the live deploy.
+- Live verify after deploy (28 November ≈ 03:00 Cairo): crawl **690/690 HTTP 200**, 0 broken (672 sitemap URLs plus 18 extra same-origin links from the fuller App tree; previously 682/682 after #34). `sitemap.xml` is still 672 URLs and `video-sitemap.xml` is still 164 entries. The hydration check also passed on GitHub Actions during the Pages deploy.
+- Screenshots of the complete App tree before any input: `/workspace/screenshots/app-ssr/home-ar-before-input.png` and `/workspace/screenshots/app-ssr/article-ar-before-input.png`.
+- Lighthouse mobile, median of 3, 28 November ≈ 03:00 Cairo, vs post-#34 (≈ 02:06). Accessibility 100, SEO 100, best-practices 79 on every page.
+
+| Page | After #34 (runs) | After #37 (runs) | LCP #34 → #37 |
+|---|---|---|---|
+| Home AR | **93** (92 / 93 / 94) | **84** (84 / 89 / 82) | 2.9s → 3.5s |
+| Home EN | 94 (81 / 96 / 94) | **86** (86 / 87 / 85) | 2.7s → 3.7s |
+| Article AR | **92** (92 / 92 / 94) | **93** (93 / 89 / 93) | 2.9s → 3.0s |
+| Article EN | **96** (96 / 95 / 96) | **95** (96 / 95 / 92) | 2.7s → 2.7s |
+| Video AR | 94 (94 / 97 / 94) | 94 (97 / 90 / 94) | 2.5s → 2.9s |
+| Video EN | 94 (93 / 96 / 94) | 92 (91 / 94 / 92) | 2.8s → 2.7s |
+| `/tools` AR | 95 (95 / 95 / 98) | 94 (94 / 97 / 94) | 2.0s → 2.2s |
+| `/tools` EN | 98 (99 / 96 / 98) | 96 (98 / 96 / 94) | 2.0s → 2.1s |
+| Alternatives AR | 98 (98 / 93 / 98) | 98 (98 / 98 / 98) | 2.0s → 2.0s |
+| Alternatives EN | 97 (98 / 96 / 97) | 97 (97 / 98 / 95) | 2.2s → 2.2s |
+
+- Honest miss: **Home AR is below the 85+ bar** (median **84**). Home EN stayed 85+ but dropped 8 points (86 vs 94). Lighthouse now measures the hydrated App (JS + hydration) instead of the frozen simplified prerender that #34 kept on screen until first input. Recovering Home AR (without bringing the first-input swap back) is leftover in the current phase.
 
 ## 28 November 2026 (Cairo, ≈ 02:06): Home AR and article pages to Lighthouse 85+ ([PRs #32](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/32)–[#34](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/34))
 
