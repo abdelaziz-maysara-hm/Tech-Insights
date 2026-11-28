@@ -1,17 +1,18 @@
-import { mockComparisons } from '@/data/mockData';
-import { cmsComparisons } from '@/data/comparisons';
+import type { Comparison } from '@/data/mockData';
+import homeComparisonsJson from '@/content/home-comparisons.json';
 import { useLanguage } from '@/context/LanguageContext';
 import { ComparisonCard } from '@/components/ComparisonCard';
 import { Link } from 'wouter';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 
+const latestComparisons = homeComparisonsJson as unknown as Comparison[];
+
 /** Below-the-fold home comparisons. Isolated so Home can paint the LCP card
- *  without waiting to download the 200KB+ comparisons data chunk. */
+ *  without waiting to download the 200KB+ comparisons catalog. The JSON
+ *  here is only the three cards on the home island. */
 export default function HomeComparisons() {
   const { language, t } = useLanguage();
   const isRtl = language === 'ar';
-  const allComparisons = cmsComparisons?.length ? cmsComparisons : mockComparisons;
-  const latestComparisons = allComparisons.slice(0, 3);
 
   return (
     <div>
