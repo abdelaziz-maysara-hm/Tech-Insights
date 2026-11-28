@@ -4,7 +4,9 @@ import { ArticleCard } from '@/components/ArticleCard';
 import { AdawatyTools } from '@/components/AdawatyTools';
 import { adawatyLinksForArticle } from '@/data/adawaty';
 import { localizeInternalLinks, markdownToHtml } from '@/lib/markdown';
-import { getRelatedArticles, getAdjacentArticles } from '@/lib/relatedContent';
+import { getRelatedArticles, getAdjacentArticles, getRelatedGraph } from '@/lib/relatedContent';
+import { RelatedLinks } from '@/components/RelatedLinks';
+import { siteCatalogs } from '@/lib/siteCatalogs';
 import { LiteYouTube } from '@/components/video/LiteYouTube';
 import { libraryPlaylists, libraryVideos } from '@/data/videoLibrary';
 import { playlistForArticle, videosForPlaylist } from '@/lib/videoLibrary';
@@ -21,6 +23,7 @@ export default function ArticleBelowFold({ article, allArticles }: Props) {
   const { language, t } = useLanguage();
   const related = getRelatedArticles(article, allArticles, 6);
   const { previous, next } = getAdjacentArticles(article, allArticles);
+  const crossRelated = getRelatedGraph(article, siteCatalogs(), 3);
   const playlist = playlistForArticle(article.slug, libraryPlaylists);
   const playlistVideos = playlist ? videosForPlaylist(playlist, libraryVideos) : [];
   const adawatyLinks = adawatyLinksForArticle({
@@ -93,6 +96,7 @@ export default function ArticleBelowFold({ article, allArticles }: Props) {
       )}
 
       <AdawatyTools links={adawatyLinks} />
+      <RelatedLinks groups={crossRelated} language={language === 'ar' ? 'ar' : 'en'} exclude={['articles']} />
       </div>
 
       {related.length > 0 && (

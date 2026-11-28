@@ -1,8 +1,13 @@
-import { useParams } from 'wouter';
+import { useParams, Link } from 'wouter';
 import { cmsComparisons } from '@/data/comparisons';
 import { useLanguage } from '@/context/LanguageContext';
 import { Crown } from 'lucide-react';
 import { useSEO } from '@/hooks/useSEO';
+import { PageBreadcrumbs } from '@/components/PageBreadcrumbs';
+import { RelatedLinks } from '@/components/RelatedLinks';
+import { breadcrumbTrailFor } from '@/lib/breadcrumbs';
+import { getAdjacentLoop, getRelatedGraph } from '@/lib/relatedContent';
+import { siteCatalogs } from '@/lib/siteCatalogs';
 
 export default function ComparisonDetail() {
   const { slug } = useParams();
@@ -17,10 +22,16 @@ export default function ComparisonDetail() {
   }
 
   const specKeys = Object.keys(comp.specs) as Array<keyof typeof comp.specs>;
+  const lang = language === 'ar' ? 'ar' : 'en';
+  const ordered = cmsComparisons.slice().sort((a, b) => String(a.date ?? '').localeCompare(String(b.date ?? '')) || a.slug.localeCompare(b.slug));
+  const { previous, next } = getAdjacentLoop(comp, ordered);
+  const related = getRelatedGraph(comp, siteCatalogs(), 3);
+  const crumbs = breadcrumbTrailFor(`/comparison/${comp.slug}`, { lang, title: comp.title[lang] });
 
   return (
     <>
       <div className="container mx-auto px-4 py-12">
+        <PageBreadcrumbs items={crumbs} />
         <div className="text-center max-w-4xl mx-auto mb-16">
           <span className="bg-primary/20 text-primary px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
             {t('comparisons')}
@@ -127,6 +138,30 @@ export default function ComparisonDetail() {
               {comp.verdict[language]}
             </p>
           </div>
+        </div>
+
+        {(previous || next) && (
+          <nav
+            aria-label={lang === 'ar' ? 'مقارنات مجاورة' : 'Nearby comparisons'}
+            className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-12 max-w-4xl mx-auto"
+          >
+            {previous ? (
+              <Link href={`/comparison/${previous.slug}`} rel="prev" className="block rounded-lg border border-border p-4 hover:border-primary transition-colors">
+                <span className="block text-xs text-muted-foreground mb-1">{lang === 'ar' ? 'مقارنة سابقة' : 'Previous comparison'}</span>
+                <span className="font-medium">{previous.title[lang]}</span>
+              </Link>
+            ) : <span />}
+            {next && (
+              <Link href={`/comparison/${next.slug}`} rel="next" className="block rounded-lg border border-border p-4 hover:border-primary transition-colors">
+                <span className="block text-xs text-muted-foreground mb-1">{lang === 'ar' ? 'مقارنة تالية' : 'Next comparison'}</span>
+                <span className="font-medium">{next.title[lang]}</span>
+              </Link>
+            )}
+          </nav>
+        )}
+
+        <div className="max-w-4xl mx-auto">
+          <RelatedLinks groups={related} language={lang} />
         </div>
       </div>
     </>

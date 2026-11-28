@@ -23,6 +23,7 @@ const loaders = {
   VendorDetail: () => import('@/pages/VendorDetail'),
   Vendors: () => import('@/pages/Vendors'),
   DomainPage: () => import('@/pages/Domain'),
+  TopicPage: () => import('@/pages/Topic'),
   NotFound: () => import('@/pages/not-found'),
   HomeComparisons: () => import('@/components/HomeComparisons'),
   ArticleBelowFold: () => import('@/components/ArticleBelowFold'),
@@ -47,6 +48,7 @@ export const AlternativeDetail = lazy(loaders.AlternativeDetail) as LazyExoticCo
 export const VendorDetail = lazy(loaders.VendorDetail) as LazyExoticComponent<ComponentType>;
 export const Vendors = lazy(loaders.Vendors) as LazyExoticComponent<ComponentType>;
 export const DomainPage = lazy(loaders.DomainPage) as LazyExoticComponent<ComponentType>;
+export const TopicPage = lazy(loaders.TopicPage) as LazyExoticComponent<ComponentType>;
 export const NotFound = lazy(loaders.NotFound) as LazyExoticComponent<ComponentType>;
 
 const exact: Record<string, Loader[]> = {
@@ -73,6 +75,7 @@ const patterned: Array<{ test: (id: string) => boolean; load: Loader[] }> = [
   { test: (id) => /^\/alternatives\/[^/]+$/.test(id), load: [loaders.AlternativeDetail] },
   { test: (id) => /^\/vendors\/[^/]+$/.test(id), load: [loaders.VendorDetail] },
   { test: (id) => /^\/domain\/[^/]+$/.test(id), load: [loaders.DomainPage] },
+  { test: (id) => /^\/topic\/[^/]+$/.test(id), load: [loaders.TopicPage] },
 ];
 
 /** Preload the page chunk before hydrateRoot. Home does not preload

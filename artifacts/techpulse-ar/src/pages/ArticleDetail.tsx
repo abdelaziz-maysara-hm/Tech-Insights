@@ -6,6 +6,8 @@ import { useArticleBody } from '@/hooks/useArticleBody';
 import { Clock } from 'lucide-react';
 import { useSEO } from '@/hooks/useSEO';
 import { HERO_SIZES_ARTICLE, heroSrcSet, sizedHero } from '@/lib/images';
+import { PageBreadcrumbs } from '@/components/PageBreadcrumbs';
+import { breadcrumbTrailFor } from '@/lib/breadcrumbs';
 
 const ArticleBelowFold = lazy(() => import('@/components/ArticleBelowFold'));
 
@@ -72,6 +74,13 @@ export default function ArticleDetail() {
 
       <div className="container mx-auto px-4 py-10">
         <div className="max-w-3xl mx-auto">
+          <PageBreadcrumbs
+            items={breadcrumbTrailFor(`/article/${display.slug}`, {
+              lang: language === 'ar' ? 'ar' : 'en',
+              title: display.title[language],
+              article: display,
+            })}
+          />
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">{display.excerpt[language]}</p>
         </div>
         {article?.body && (

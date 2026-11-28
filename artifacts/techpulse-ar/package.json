@@ -25,6 +25,7 @@
     "test:hydration": "node --test scripts/hydration-check.mjs",
     "test:static-content": "node --test scripts/seo-static-content.test.mjs scripts/home-comparisons.test.mjs",
     "test:build-output": "node --test scripts/build-output.test.mjs",
+    "test:internal-links": "node --test scripts/internal-links.test.mjs && node scripts/internal-link-graph.mjs --ci",
     "check:bundle-budget": "node scripts/check-bundle-budget.mjs",
     "test:bundle-budget": "node scripts/check-bundle-budget.mjs",
     "test:redirects": "node --test scripts/legacy-redirect.test.ts",

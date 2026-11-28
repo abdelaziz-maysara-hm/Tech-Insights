@@ -71,6 +71,9 @@ jobs:
       - name: Verify built pages (static content, RSS links, sitemap URLs)
         run: pnpm --filter @workspace/techpulse-ar run test:build-output
 
+      - name: Internal link graph (orphans and click depth)
+        run: pnpm --filter @workspace/techpulse-ar run test:internal-links
+
       - name: Content and SEO checks
         run: |
           pnpm --filter @workspace/techpulse-ar run test:phase7

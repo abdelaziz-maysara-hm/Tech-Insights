@@ -17,6 +17,7 @@ import {
   ComparisonDetail,
   Comparisons,
   DomainPage,
+  TopicPage,
   Guides,
   Home,
   NotFound,
@@ -155,6 +156,7 @@ function Router() {
             <Route path="/vendors/:vendor" component={VendorDetail} />
             <Route path="/vendors" component={Vendors} />
             <Route path="/domain/:domain" component={DomainPage} />
+            <Route path="/topic/:topic" component={TopicPage} />
             <Route component={NotFound} />
           </Switch>
         </Suspense>

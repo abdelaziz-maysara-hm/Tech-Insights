@@ -5,6 +5,8 @@ import { useLanguage } from '@/context/LanguageContext';
 import { ComparisonCard } from '@/components/ComparisonCard';
 import { useSEO } from '@/hooks/useSEO';
 import { getSubcategories } from '@/data/subcategories';
+import { PageBreadcrumbs } from '@/components/PageBreadcrumbs';
+import { breadcrumbTrailFor } from '@/lib/breadcrumbs';
 
 export default function Comparisons() {
   const { language, t } = useLanguage();
@@ -31,6 +33,7 @@ export default function Comparisons() {
 
   return (
     <div className="container mx-auto px-4 py-12">
+      <PageBreadcrumbs items={breadcrumbTrailFor('/comparisons', { lang: language === 'ar' ? 'ar' : 'en', title: t('comparisons') })} />
       <div className="text-center max-w-3xl mx-auto mb-10">
         <h1 className="text-4xl font-bold mb-4 text-gradient inline-block">{t('comparisons')}</h1>
         <p className="text-lg text-muted-foreground">

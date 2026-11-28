@@ -93,6 +93,12 @@ export default function Home() {
             { href: '/guides', ar: 'أدلة عملية', en: 'Practical Guides', desc_ar: 'مسارات تنفيذ واضحة للمحترفين', desc_en: 'Clear implementation paths for professionals' },
             { href: '/tools', ar: 'أدوات', en: 'Tools', desc_ar: 'أدوات شبكات وأمن مهنية', desc_en: 'Professional network and security tools' },
             { href: '/alternatives', ar: 'بدائل', en: 'Alternatives', desc_ar: 'أفضل البدائل للمنتجات الشائعة', desc_en: 'Best alternatives to popular products' },
+            { href: '/categories', ar: 'الأقسام والمحاور', en: 'Categories and topics', desc_ar: 'تصنيفات المقالات ومحاور الأمن والشبكات', desc_en: 'Article categories and security or networking topics' },
+            { href: '/domain/cybersecurity', ar: 'الأمن السيبراني', en: 'Cybersecurity', desc_ar: 'نقاط النهاية، الهوية، وكشف التهديدات', desc_en: 'Endpoint, identity and threat detection' },
+            { href: '/domain/networking', ar: 'الشبكات', en: 'Networking', desc_ar: 'الجدران النارية وVPN وDNS والتوجيه', desc_en: 'Firewalls, VPN, DNS and routing' },
+            { href: '/domain/infrastructure', ar: 'البنية التحتية', en: 'Infrastructure', desc_ar: 'ويندوز، Active Directory، والسحابة', desc_en: 'Windows, Active Directory and the cloud' },
+            { href: '/vendors', ar: 'الموردون', en: 'Vendors', desc_ar: 'صفحات الموردين والمنتجات', desc_en: 'Vendor and product hubs' },
+            { href: '/page/about', ar: 'عن الموقع', en: 'About the site', desc_ar: 'من نحن والسياسة التحريرية', desc_en: 'Who we are and how we write' },
           ].map((item) => (
             <Link key={item.href} href={item.href} className="block p-5 rounded-xl border border-border bg-card hover:border-primary/60 hover:shadow-md transition-all">
               <h3 className="font-bold text-lg mb-1">{language === 'ar' ? item.ar : item.en}</h3>

@@ -11,6 +11,7 @@
  */
 import { localizeInternalLinks, markdownToHtml } from '../src/lib/markdown.ts';
 import { getRelatedArticles, getAdjacentArticles } from '../src/lib/relatedContent.ts';
+import { breadcrumbTrailFor } from '../src/lib/breadcrumbs.ts';
 import { SITE, escapeHtml, escapeAttr, pickLocalized } from './seo-prerender-core.mjs';
 import { heroSrcSet, sizedHero } from '../src/lib/images.ts';
 import {
@@ -174,37 +175,17 @@ function breadcrumbs(trail, lang) {
 
 /** BreadcrumbList JSON-LD items for a route (absolute URLs). */
 export function breadcrumbTrail(identity, seo, indexes) {
-  const lang = seo.lang;
-  const trail = [[t('home', lang), '/']];
+  const lang = seo.lang === 'en' ? 'en' : 'ar';
+  const ctx = { lang, title: seo.title };
   let m;
   if ((m = identity.match(/^\/article\/([^/]+)$/))) {
-    trail.push([t('articles', lang), '/articles']);
-    const article = indexes.articlesBySlug.get(m[1]);
-    const cat = article?.categoryId && CATEGORY[article.categoryId]?.[lang];
-    if (cat) trail.push([cat, `/articles?c=${article.categoryId}`]);
-    trail.push([seo.title, null]);
-  } else if (identity.startsWith('/comparison/')) {
-    trail.push([t('comparisons', lang), '/comparisons'], [seo.title, null]);
-  } else if (identity.startsWith('/vendors/')) {
-    trail.push([t('vendors', lang), '/vendors'], [seo.title, null]);
-  } else if (identity.startsWith('/tools/')) {
-    trail.push([t('tools', lang), '/tools'], [seo.title, null]);
-  } else if (identity.startsWith('/alternatives/')) {
-    trail.push([t('alternatives', lang), '/alternatives'], [seo.title, null]);
-  } else if (identity.startsWith('/videos/')) {
-    const playlist = indexes.playlistsBySlug?.get(identity.slice(8));
-    trail.push([t('videos', lang), '/videos'], [playlist ? pickLocalized(playlist.title, lang) : seo.title, null]);
-  } else if (identity.startsWith('/video/')) {
-    const video = indexes.videosBySlug?.get(identity.slice(7));
+    ctx.article = indexes.articlesBySlug?.get(m[1]);
+  } else if ((m = identity.match(/^\/video\/([^/]+)$/))) {
+    const video = indexes.videosBySlug?.get(m[1]);
     const playlist = video && indexes.playlistsBySlug?.get(video.playlist);
-    trail.push([t('videos', lang), '/videos']);
-    if (playlist) trail.push([pickLocalized(playlist.title, lang), `/videos/${playlist.slug}`]);
-    trail.push([seo.title, null]);
-  } else if (identity !== '/') {
-    trail.push([seo.title, null]);
+    if (playlist) ctx.playlist = playlist;
   }
-  // query-string crumbs are not canonical URLs; keep them as plain labels
-  return trail.map(([label, id]) => [label, id && id.includes('?') ? null : id]);
+  return breadcrumbTrailFor(identity, ctx).map((item) => [item.label, item.href]);
 }
 
 function siteHeader(identity, lang, otherLangAvailable) {

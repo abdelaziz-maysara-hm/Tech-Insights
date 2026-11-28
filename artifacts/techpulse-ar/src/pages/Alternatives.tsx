@@ -2,6 +2,8 @@ import { useLanguage } from '@/context/LanguageContext';
 import { useSEO } from '@/hooks/useSEO';
 import { Link } from 'wouter';
 import alternativesData from '@/content/alternatives.json';
+import { PageBreadcrumbs } from '@/components/PageBreadcrumbs';
+import { breadcrumbTrailFor } from '@/lib/breadcrumbs';
 
 interface Alternative {
   id: string;
@@ -27,6 +29,7 @@ export default function Alternatives() {
 
   return (
     <div className="container mx-auto px-4 py-12 min-h-[60vh]">
+      <PageBreadcrumbs items={breadcrumbTrailFor('/alternatives', { lang: ar ? 'ar' : 'en', title: ar ? 'بدائل المنتجات' : 'Product Alternatives' })} />
       <div className="max-w-3xl mb-10">
         <h1 className="text-3xl md:text-4xl font-bold mb-3">
           {ar ? 'بدائل المنتجات' : 'Product Alternatives'}

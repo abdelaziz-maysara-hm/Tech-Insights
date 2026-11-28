@@ -1,7 +1,12 @@
 import { useRoute, Link } from 'wouter';
 import { useLanguage } from '@/context/LanguageContext';
 import { useSEO } from '@/hooks/useSEO';
-import { getVendor } from '@/data/taxonomy';
+import { getVendor, VENDORS } from '@/data/taxonomy';
+import { PageBreadcrumbs } from '@/components/PageBreadcrumbs';
+import { RelatedLinks } from '@/components/RelatedLinks';
+import { breadcrumbTrailFor } from '@/lib/breadcrumbs';
+import { getAdjacentLoop, getRelatedGraph } from '@/lib/relatedContent';
+import { siteCatalogs } from '@/lib/siteCatalogs';
 import { useAllArticles } from '@/hooks/useAllArticles';
 import { filterByVendor } from '@/lib/contentDiscovery';
 import { ArticleCard } from '@/components/ArticleCard';
@@ -43,20 +48,19 @@ export default function VendorDetail() {
   }
 
   const name = (vendor.shortLabel ?? vendor.label)[language];
+  const lang = language === 'ar' ? 'ar' : 'en';
+  const vendorRows = VENDORS.map((v) => ({ slug: v.id, title: v.label }));
+  const { previous, next } = getAdjacentLoop({ slug: vendor.id, title: vendor.label }, vendorRows);
+  const crossRelated = getRelatedGraph(
+    { slug: vendor.id, vendorIds: [vendor.id], vendor: vendor.id, title: vendor.label, tags: [vendor.id, vendor.label.en] },
+    siteCatalogs(),
+    4,
+  );
+  const crumbs = breadcrumbTrailFor(`/vendors/${vendor.id}`, { lang, title: name });
 
   return (
     <div className="container mx-auto px-4 py-12 min-h-[60vh]">
-      <nav className="text-sm text-muted-foreground mb-6 flex flex-wrap gap-2 items-center">
-        <Link href="/" className="hover:text-primary">
-          {language === 'ar' ? 'الرئيسية' : 'Home'}
-        </Link>
-        <span>/</span>
-        <Link href="/vendors" className="hover:text-primary">
-          {language === 'ar' ? 'الموردون' : 'Vendors'}
-        </Link>
-        <span>/</span>
-        <span className="text-foreground">{name}</span>
-      </nav>
+      <PageBreadcrumbs items={crumbs} />
 
       <div className="max-w-3xl mb-10">
         <h1 className="text-3xl md:text-4xl font-bold mb-3">{name}</h1>
@@ -99,6 +103,28 @@ export default function VendorDetail() {
           </div>
         )}
       </section>
+
+      {(previous || next) && (
+        <nav
+          aria-label={lang === 'ar' ? 'موردون مجاورون' : 'Nearby vendors'}
+          className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-12"
+        >
+          {previous ? (
+            <Link href={`/vendors/${previous.slug}`} className="block rounded-lg border border-border p-4 hover:border-primary transition-colors">
+              <span className="block text-xs text-muted-foreground mb-1">{lang === 'ar' ? 'المورد السابق' : 'Previous vendor'}</span>
+              <span className="font-medium">{previous.title[lang]}</span>
+            </Link>
+          ) : <span />}
+          {next && (
+            <Link href={`/vendors/${next.slug}`} className="block rounded-lg border border-border p-4 hover:border-primary transition-colors">
+              <span className="block text-xs text-muted-foreground mb-1">{lang === 'ar' ? 'المورد التالي' : 'Next vendor'}</span>
+              <span className="font-medium">{next.title[lang]}</span>
+            </Link>
+          )}
+        </nav>
+      )}
+
+      <RelatedLinks groups={crossRelated} language={lang} />
     </div>
   );
 }

@@ -6,6 +6,8 @@ import { useAllArticles } from '@/hooks/useAllArticles';
 import { getSubcategories } from '@/data/subcategories';
 import { Category } from '@/data/mockData';
 import { ACTIVE_CATEGORIES } from '@/lib/activeCategories';
+import { PageBreadcrumbs } from '@/components/PageBreadcrumbs';
+import { breadcrumbTrailFor } from '@/lib/breadcrumbs';
 
 export default function Articles() {
   const { language, t } = useLanguage();
@@ -40,6 +42,7 @@ export default function Articles() {
 
   return (
     <div className="container mx-auto px-4 py-12">
+      <PageBreadcrumbs items={breadcrumbTrailFor('/articles', { lang: language === 'ar' ? 'ar' : 'en', title: t('articles') })} />
       <div className="max-w-4xl mx-auto mb-12">
         <h1 className="text-4xl font-bold mb-6 text-center">{t('articles')}</h1>
         

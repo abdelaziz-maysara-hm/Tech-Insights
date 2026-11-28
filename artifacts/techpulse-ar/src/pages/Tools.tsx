@@ -4,6 +4,8 @@ import { ADAWATY_ORIGIN, ADAWATY_SECURITY } from '@/data/adawaty';
 import { Download, ExternalLink, ShieldCheck } from 'lucide-react';
 import program from '@/content/desktop-program.json';
 import { toolAnchor } from '@/lib/toolAnchors';
+import { PageBreadcrumbs } from '@/components/PageBreadcrumbs';
+import { breadcrumbTrailFor } from '@/lib/breadcrumbs';
 
 const APPS = [
   {
@@ -82,6 +84,7 @@ export default function Tools() {
 
   return (
     <div className="container mx-auto px-4 py-12 min-h-[60vh]">
+      <PageBreadcrumbs items={breadcrumbTrailFor('/tools', { lang: ar ? 'ar' : 'en', title: ar ? 'أدوات' : 'Tools' })} />
       <section id="netsec-atlas-tools" className="mb-14 scroll-mt-24 rounded-2xl border border-border bg-card p-6 md:p-8">
         <div className="flex items-start gap-3">
           <ShieldCheck className="mt-1 h-7 w-7 shrink-0 text-primary" aria-hidden />

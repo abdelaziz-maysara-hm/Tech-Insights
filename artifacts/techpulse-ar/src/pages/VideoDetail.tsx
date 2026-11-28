@@ -7,6 +7,11 @@ import { useAllArticles } from '@/hooks/useAllArticles';
 import { SITE } from '@/config/site';
 import { libraryPlaylists, libraryVideos } from '@/data/videoLibrary';
 import { LiteYouTube } from '@/components/video/LiteYouTube';
+import { PageBreadcrumbs } from '@/components/PageBreadcrumbs';
+import { RelatedLinks } from '@/components/RelatedLinks';
+import { breadcrumbTrailFor } from '@/lib/breadcrumbs';
+import { getRelatedGraph } from '@/lib/relatedContent';
+import { siteCatalogs } from '@/lib/siteCatalogs';
 import { desktopToolByAnchor, toolsHref } from '@/lib/toolAnchors';
 import { videoObjectJsonLd, videosForPlaylist, youtubeThumb, youtubeWatchUrl } from '@/lib/videoLibrary';
 
@@ -49,16 +54,19 @@ export default function VideoDetail() {
   const related = primaryArticles.filter((a) => (seen.has(a.slug) ? false : (seen.add(a.slug), true))).slice(0, 6);
   const toolAnchors = [...(video.relatedTools || []), ...(playlist.tools || [])];
   const tools = [...new Set(toolAnchors)].map((anchor) => desktopToolByAnchor(anchor)).filter((t): t is NonNullable<typeof t> => Boolean(t));
+  const crossRelated = getRelatedGraph(video, siteCatalogs(), 3);
 
   return (
     <div className="container mx-auto px-4 py-10">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2 max-w-3xl">
-          <nav aria-label="breadcrumb" className="text-sm text-muted-foreground mb-6">
-            <Link href="/videos" className="hover:text-primary">{lang === 'ar' ? 'مكتبة الفيديو' : 'Video library'}</Link>
-            <span className="mx-2">/</span>
-            <Link href={`/videos/${playlist.slug}`} className="hover:text-primary">{playlist.title[lang]}</Link>
-          </nav>
+          <PageBreadcrumbs
+            items={breadcrumbTrailFor(`/video/${video.slug}`, {
+              lang,
+              title: video.title[lang],
+              playlist: { slug: playlist.slug, title: playlist.title },
+            })}
+          />
           <h1 className="text-2xl md:text-3xl font-bold mb-3">{video.title[lang]}</h1>
           <p className="text-sm text-muted-foreground mb-6">
             {lang === 'ar' ? 'القناة: ' : 'Channel: '}
@@ -178,6 +186,7 @@ export default function VideoDetail() {
           </ol>
         </aside>
       </div>
+      <RelatedLinks groups={crossRelated} language={lang} exclude={['videos']} />
     </div>
   );
 }

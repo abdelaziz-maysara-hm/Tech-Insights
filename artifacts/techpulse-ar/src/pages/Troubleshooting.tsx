@@ -4,6 +4,8 @@ import { ArticleCard } from '@/components/ArticleCard';
 import { useSEO } from '@/hooks/useSEO';
 import { filterTroubleshooting } from '@/lib/contentDiscovery';
 import { Link } from 'wouter';
+import { PageBreadcrumbs } from '@/components/PageBreadcrumbs';
+import { breadcrumbTrailFor } from '@/lib/breadcrumbs';
 
 export default function Troubleshooting() {
   const { language, t } = useLanguage();
@@ -21,6 +23,7 @@ export default function Troubleshooting() {
 
   return (
     <div className="container mx-auto px-4 py-12 min-h-[60vh]">
+      <PageBreadcrumbs items={breadcrumbTrailFor('/troubleshooting', { lang: language === 'ar' ? 'ar' : 'en', title: language === 'ar' ? 'استكشاف الأخطاء وإصلاحها' : 'Troubleshooting' })} />
       <div className="max-w-3xl mb-10">
         <p className="text-sm font-semibold text-primary mb-2">
           {language === 'ar' ? 'ركيزة أساسية' : 'Core pillar'}
@@ -33,6 +36,11 @@ export default function Troubleshooting() {
             ? 'محتوى موجّه للمشكلة: أعراض، بيئة، أسباب محتملة، تشخيص وحل. لا نحشو صفحات عامة.'
             : 'Problem-oriented content: symptoms, environment, likely causes, diagnosis and resolution — not generic filler.'}
         </p>
+        <div className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm">
+          <Link href="/categories" className="text-primary hover:underline">{t('categories')}</Link>
+          <Link href="/guides" className="text-primary hover:underline">{language === 'ar' ? 'أدلة' : 'Guides'}</Link>
+          <Link href="/articles" className="text-primary hover:underline">{t('articles')}</Link>
+        </div>
       </div>
 
       {items.length > 0 ? (

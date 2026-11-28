@@ -64,6 +64,10 @@ export function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">{t('categories')}</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
+              <li><Link href="/categories" className="hover:text-primary">{t('categories')}</Link></li>
+              <li><Link href="/domain/cybersecurity" className="hover:text-primary">{language === 'ar' ? 'الأمن السيبراني' : 'Cybersecurity'}</Link></li>
+              <li><Link href="/domain/networking" className="hover:text-primary">{language === 'ar' ? 'الشبكات' : 'Networking'}</Link></li>
+              <li><Link href="/domain/infrastructure" className="hover:text-primary">{language === 'ar' ? 'البنية التحتية' : 'Infrastructure'}</Link></li>
               {ACTIVE_CATEGORIES.map((cat) => (
                 <li key={cat}><Link href={`/articles?c=${cat}`} className="hover:text-primary">{t(cat)}</Link></li>
               ))}

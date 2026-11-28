@@ -30,3 +30,7 @@ export function desktopToolByAnchor(anchor: string): DesktopToolRef | undefined 
 export function toolsHref(anchor?: string): string {
   return anchor ? `/tools#${anchor}` : '/tools';
 }
+
+export function allDesktopTools(): DesktopToolRef[] {
+  return TOOLS;
+}
