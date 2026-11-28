@@ -1,6 +1,6 @@
 # خارطة طريق NetSec Atlas / Roadmap
 
-آخر تحديث: 28 نوفمبر 2026، 3:00 صباحًا (توقيت القاهرة، UTC+2).  
+آخر تحديث: 28 نوفمبر 2026، 3:20 صباحًا (توقيت القاهرة، UTC+2).  
 هذا ملف الخطة. سجل ما تم إنجازه موجود في [README.md](../README.md) و[CHANGELOG.md](../CHANGELOG.md).
 
 This is the forward plan. Completed work is listed in the README and changelog.
@@ -9,9 +9,9 @@ This is the forward plan. Completed work is listed in the README and changelog.
 
 <a id="phase-app-ssr"></a>
 
-## المرحلة الحالية / Current phase (28 نوفمبر 2026): ترطيب شجرة `<App />` الحقيقية
+## مرحلة مكتملة / Completed phase (28 نوفمبر 2026): ترطيب شجرة `<App />` الحقيقية
 
-آخر تحديث لهذه المرحلة: 28 نوفمبر 2026، 3:00 صباحًا (توقيت القاهرة، UTC+2).  
+آخر تحديث لهذه المرحلة: 28 نوفمبر 2026، 3:20 صباحًا (توقيت القاهرة، UTC+2). اكتملت بعد [PR #39](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/39).  
 Started: 28 November 2026, 2:29am (Africa/Cairo, UTC+2). Tick the boxes as each item finishes, so anyone can continue mid-stream.
 
 **قيود سارية / Constraints**
@@ -78,10 +78,10 @@ Started: 28 November 2026, 2:29am (Africa/Cairo, UTC+2). Tick the boxes as each 
 
 ### 4) متبقٍّ بعد الترطيب / Leftover after hydration
 
-التنفيذ والتحقق الحي مكتملان، لكن هدف الأداء لم يُبلغ بالكامل لأن المختبر صار يقيس تطبيق React بعد الترطيب بدل الشجرة المبسطة التي كان #34 يُبقيها حتى أول نقرة.
+- [x] إعادة الرئيسية العربية إلى **85+** — [PR #39](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/39)، رصد 28 نوفمبر ≈ 03:20 القاهرة: وسيط **91** (92 / 90 / 91)، LCP 3.1 ث. بلا إعادة الاستبدال عند أول تفاعل.
+- [x] استعادة الرئيسية الإنجليزية نحو 94: وسيط **92** (91 / 92 / 94)، LCP 2.9 ث (كانت 86 / 3.7 ث بعد #37، وكانت 94 بعد #34).
 
-- [ ] إعادة الرئيسية العربية إلى **85+** (الوسيط بعد #37: **84** — 84 / 89 / 82، LCP 3.5 ث مقابل 2.9 ث بعد #34) **دون** إعادة الاستبدال عند أول تفاعل
-- [ ] محاولة استعادة انخفاض الرئيسية الإنجليزية (86 مقابل 94) إن أمكن بنفس القيود
+كل الصفحات العشر **85+**. اختبار الترطيب 18/18. الخريطة 672 وvideo-sitemap 164. زحف حي 690/690، صفر روابط مكسورة.
 
 ---
 
