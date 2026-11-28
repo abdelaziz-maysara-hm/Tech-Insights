@@ -8,6 +8,11 @@ import { SITE } from '@/config/site';
 import { libraryPlaylists, libraryVideos } from '@/data/videoLibrary';
 import { desktopToolByAnchor, toolsHref } from '@/lib/toolAnchors';
 import { LiteYouTube } from '@/components/video/LiteYouTube';
+import { PageBreadcrumbs } from '@/components/PageBreadcrumbs';
+import { RelatedLinks } from '@/components/RelatedLinks';
+import { breadcrumbTrailFor } from '@/lib/breadcrumbs';
+import { getRelatedGraph } from '@/lib/relatedContent';
+import { siteCatalogs } from '@/lib/siteCatalogs';
 import {
   formatTotal,
   playlistItemListJsonLd,
@@ -48,11 +53,9 @@ export default function VideoPlaylist() {
 
   return (
     <div className="container mx-auto px-4 py-10">
-      <nav aria-label="breadcrumb" className="text-sm text-muted-foreground mb-6">
-        <Link href="/videos" className="hover:text-primary">{lang === 'ar' ? 'مكتبة الفيديو' : 'Video library'}</Link>
-        <span className="mx-2">/</span>
-        <span>{playlist.title[lang]}</span>
-      </nav>
+      <PageBreadcrumbs
+        items={breadcrumbTrailFor(`/videos/${playlist.slug}`, { lang, title: playlist.title[lang] })}
+      />
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2">
           <h1 className="text-3xl font-bold mb-3">{playlist.title[lang]}</h1>
@@ -130,6 +133,7 @@ export default function VideoPlaylist() {
           </ol>
         </aside>
       </div>
+      <RelatedLinks groups={getRelatedGraph(playlist, siteCatalogs(), 3)} language={lang} exclude={['playlists']} />
     </div>
   );
 }

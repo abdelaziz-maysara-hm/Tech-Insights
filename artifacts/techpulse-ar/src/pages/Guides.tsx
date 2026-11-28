@@ -4,6 +4,8 @@ import { ArticleCard } from '@/components/ArticleCard';
 import { useSEO } from '@/hooks/useSEO';
 import { filterGuides } from '@/lib/contentDiscovery';
 import { Link } from 'wouter';
+import { PageBreadcrumbs } from '@/components/PageBreadcrumbs';
+import { breadcrumbTrailFor } from '@/lib/breadcrumbs';
 
 export default function Guides() {
   const { language, t } = useLanguage();
@@ -21,6 +23,7 @@ export default function Guides() {
 
   return (
     <div className="container mx-auto px-4 py-12 min-h-[60vh]">
+      <PageBreadcrumbs items={breadcrumbTrailFor('/guides', { lang: language === 'ar' ? 'ar' : 'en', title: language === 'ar' ? 'الأدلة والشروحات' : 'Guides' })} />
       <div className="max-w-3xl mb-10">
         <h1 className="text-3xl md:text-4xl font-bold mb-3">
           {language === 'ar' ? 'الأدلة والشروحات' : 'Guides'}
@@ -36,6 +39,11 @@ export default function Guides() {
         >
           {language === 'ar' ? 'دليل تطبيقات Atlas' : 'Atlas apps setup guide'}
         </Link>
+        <div className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm">
+          <Link href="/categories" className="text-primary hover:underline">{t('categories')}</Link>
+          <Link href="/troubleshooting" className="text-primary hover:underline">{language === 'ar' ? 'استكشاف الأعطال' : 'Troubleshooting'}</Link>
+          <Link href="/articles" className="text-primary hover:underline">{t('articles')}</Link>
+        </div>
       </div>
 
       {items.length > 0 ? (

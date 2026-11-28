@@ -8,6 +8,7 @@ import { execFileSync } from 'node:child_process';
 import { existsSync, readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { indexableTopicIds } from '../src/lib/topicContent.ts';
 
 export const SITE = 'https://netsecatlas.com';
 export const INDEXNOW_KEY = '13a10f8dd925f0cae8bb47017b2b8ba2';
@@ -219,6 +220,7 @@ function routeMeta(path, extra = {}) {
   if (path.startsWith('/page/')) return { priority: '0.55', changefreq: 'monthly', ...extra };
   if (path.startsWith('/vendors/')) return { priority: '0.8', changefreq: 'weekly', ...extra };
   if (path.startsWith('/domain/')) return { priority: '0.85', changefreq: 'weekly', ...extra };
+  if (path.startsWith('/topic/')) return { priority: '0.8', changefreq: 'weekly', ...extra };
   return { priority: '0.7', changefreq: 'weekly', ...extra };
 }
 
@@ -394,6 +396,23 @@ export function collectIndexableRoutes() {
     add(path, {
       ...routeMeta(path),
       lastmod: gitLastCommitDate([repoPath('src/data/taxonomy/domains.ts'), repoPath('src/pages/Domain.tsx')]),
+      languages: ['ar', 'en'],
+      eligible: true,
+    });
+  }
+
+  const topicIds = indexableTopicIds({ articles, comparisons, playlists, alternatives });
+  for (const id of topicIds) {
+    const path = `/topic/${id}`;
+    add(path, {
+      ...routeMeta(path),
+      lastmod: gitLastCommitDate([
+        repoPath('src/data/taxonomy/topics.ts'),
+        repoPath('src/pages/Topic.tsx'),
+        repoPath('src/content/articles.json'),
+        repoPath('src/content/comparisons.json'),
+        repoPath('src/content/video-playlists.json'),
+      ]),
       languages: ['ar', 'en'],
       eligible: true,
     });

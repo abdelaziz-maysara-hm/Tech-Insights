@@ -4,6 +4,8 @@ import { useSEO } from '@/hooks/useSEO';
 import { VENDORS } from '@/data/taxonomy';
 import { useAllArticles } from '@/hooks/useAllArticles';
 import { filterByVendor } from '@/lib/contentDiscovery';
+import { PageBreadcrumbs } from '@/components/PageBreadcrumbs';
+import { breadcrumbTrailFor } from '@/lib/breadcrumbs';
 
 export default function Vendors() {
   const { language } = useLanguage();
@@ -20,6 +22,7 @@ export default function Vendors() {
 
   return (
     <div className="container mx-auto px-4 py-12 min-h-[60vh]">
+      <PageBreadcrumbs items={breadcrumbTrailFor('/vendors', { lang: language === 'ar' ? 'ar' : 'en', title: language === 'ar' ? 'الشركات والمنتجات' : 'Vendors' })} />
       <div className="max-w-3xl mb-10">
         <h1 className="text-3xl md:text-4xl font-bold mb-3">
           {language === 'ar' ? 'الشركات والمنتجات' : 'Vendors'}
@@ -29,6 +32,11 @@ export default function Vendors() {
             ? 'صفحات موردين تعتمد على البيانات — بدون محتوى وهمي. يظهر المحتوى الموجود عند تطابقه.'
             : 'Data-driven vendor hubs — no fabricated content. Existing matching articles surface automatically.'}
         </p>
+        <div className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm">
+          <Link href="/categories" className="text-primary hover:underline">{language === 'ar' ? 'الأقسام' : 'Categories'}</Link>
+          <Link href="/comparisons" className="text-primary hover:underline">{language === 'ar' ? 'مقارنات' : 'Comparisons'}</Link>
+          <Link href="/alternatives" className="text-primary hover:underline">{language === 'ar' ? 'بدائل' : 'Alternatives'}</Link>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">

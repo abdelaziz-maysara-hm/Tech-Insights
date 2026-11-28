@@ -2,6 +2,11 @@ import { useLanguage } from '@/context/LanguageContext';
 import { useSEO } from '@/hooks/useSEO';
 import { useParams, Link } from 'wouter';
 import alternativesData from '@/content/alternatives.json';
+import { PageBreadcrumbs } from '@/components/PageBreadcrumbs';
+import { RelatedLinks } from '@/components/RelatedLinks';
+import { breadcrumbTrailFor } from '@/lib/breadcrumbs';
+import { getRelatedGraph } from '@/lib/relatedContent';
+import { siteCatalogs } from '@/lib/siteCatalogs';
 
 interface AltItem {
   name: string;
@@ -46,9 +51,12 @@ export default function AlternativeDetail() {
 
   return (
     <div className="container mx-auto px-4 py-12 min-h-[60vh] max-w-4xl">
-      <Link href="/alternatives" className="text-sm text-primary hover:underline">
-        {ar ? '← كل البدائل' : '← All alternatives'}
-      </Link>
+      <PageBreadcrumbs
+        items={breadcrumbTrailFor(`/alternatives/${alt.slug}`, {
+          lang: ar ? 'ar' : 'en',
+          title: alt.title[language],
+        })}
+      />
 
       <h1 className="text-3xl md:text-4xl font-bold mt-4 mb-3">{alt.title[language]}</h1>
       <p className="text-muted-foreground mb-8">{alt.excerpt[language]}</p>
@@ -95,6 +103,11 @@ export default function AlternativeDetail() {
           </article>
         ))}
       </div>
+
+      <RelatedLinks
+        groups={getRelatedGraph(alt, siteCatalogs(), 3)}
+        language={ar ? 'ar' : 'en'}
+      />
     </div>
   );
 }

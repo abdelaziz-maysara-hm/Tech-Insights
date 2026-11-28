@@ -5,6 +5,9 @@ import pagesJson from '@/content/pages.json';
 import { CmsPage } from '@/data/cmsTypes';
 import NotFound from '@/pages/not-found';
 import { markdownToHtml } from '@/lib/markdown';
+import { PageBreadcrumbs } from '@/components/PageBreadcrumbs';
+import { RelatedSitePages } from '@/components/RelatedLinks';
+import { breadcrumbTrailFor } from '@/lib/breadcrumbs';
 
 const cmsPages = pagesJson as unknown as CmsPage[];
 
@@ -24,13 +27,18 @@ export default function PageDetail() {
   // The page title is rendered as <h1>; drop a duplicated leading "## Title".
   const html = markdownToHtml((page.content[language] || '').replace(/^##\s+.+\n+/, ''));
 
+  const lang = language === 'ar' ? 'ar' : 'en';
+  const crumbs = breadcrumbTrailFor(`/page/${page.slug}`, { lang, title: page.title[lang], pageSlug: page.slug });
+
   return (
     <div className="container mx-auto px-4 py-16 max-w-3xl">
+      <PageBreadcrumbs items={crumbs} />
       <h1 className="text-3xl md:text-4xl font-bold mb-8 text-gradient inline-block">{page.title[language]}</h1>
       <div
         className="prose prose-invert max-w-none leading-relaxed text-foreground/90 prose-a:text-primary"
         dangerouslySetInnerHTML={{ __html: html }}
       />
+      <RelatedSitePages currentSlug={page.slug} language={lang} />
     </div>
   );
 }

@@ -158,10 +158,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 584,
-          "enWords": 773,
-          "lengthRatio": 0.755,
-          "arLanguageShare": 0.708,
+          "arWords": 607,
+          "enWords": 797,
+          "lengthRatio": 0.762,
+          "arLanguageShare": 0.709,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -250,10 +250,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 524,
-          "enWords": 759,
+          "arWords": 541,
+          "enWords": 784,
           "lengthRatio": 0.69,
-          "arLanguageShare": 0.721,
+          "arLanguageShare": 0.717,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -388,10 +388,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 544,
-          "enWords": 578,
-          "lengthRatio": 0.941,
-          "arLanguageShare": 0.569,
+          "arWords": 578,
+          "enWords": 620,
+          "lengthRatio": 0.932,
+          "arLanguageShare": 0.575,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -526,10 +526,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 643,
-          "enWords": 607,
-          "lengthRatio": 0.944,
-          "arLanguageShare": 0.556,
+          "arWords": 664,
+          "enWords": 631,
+          "lengthRatio": 0.95,
+          "arLanguageShare": 0.558,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -549,10 +549,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 721,
-          "enWords": 773,
-          "lengthRatio": 0.933,
-          "arLanguageShare": 0.743,
+          "arWords": 743,
+          "enWords": 801,
+          "lengthRatio": 0.928,
+          "arLanguageShare": 0.738,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -572,10 +572,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 573,
-          "enWords": 576,
-          "lengthRatio": 0.995,
-          "arLanguageShare": 0.8,
+          "arWords": 592,
+          "enWords": 599,
+          "lengthRatio": 0.988,
+          "arLanguageShare": 0.789,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -618,10 +618,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 576,
-          "enWords": 643,
-          "lengthRatio": 0.896,
-          "arLanguageShare": 0.658,
+          "arWords": 592,
+          "enWords": 667,
+          "lengthRatio": 0.888,
+          "arLanguageShare": 0.661,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -641,10 +641,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 827,
-          "enWords": 807,
-          "lengthRatio": 0.976,
-          "arLanguageShare": 0.683,
+          "arWords": 846,
+          "enWords": 828,
+          "lengthRatio": 0.979,
+          "arLanguageShare": 0.684,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -779,10 +779,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 636,
-          "enWords": 653,
-          "lengthRatio": 0.974,
-          "arLanguageShare": 0.7,
+          "arWords": 654,
+          "enWords": 671,
+          "lengthRatio": 0.975,
+          "arLanguageShare": 0.699,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -940,10 +940,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 362,
-          "enWords": 445,
-          "lengthRatio": 0.813,
-          "arLanguageShare": 0.882,
+          "arWords": 382,
+          "enWords": 473,
+          "lengthRatio": 0.808,
+          "arLanguageShare": 0.867,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -1009,10 +1009,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 536,
-          "enWords": 538,
-          "lengthRatio": 0.996,
-          "arLanguageShare": 0.748,
+          "arWords": 556,
+          "enWords": 564,
+          "lengthRatio": 0.986,
+          "arLanguageShare": 0.74,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -1055,10 +1055,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": false,
-          "arWords": 325,
-          "enWords": 437,
-          "lengthRatio": 0.744,
-          "arLanguageShare": 0.485,
+          "arWords": 360,
+          "enWords": 480,
+          "lengthRatio": 0.75,
+          "arLanguageShare": 0.492,
           "enLanguageShare": 1,
           "signals": [
             "arabic-side-not-predominantly-arabic"
@@ -1195,10 +1195,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 409,
-          "enWords": 449,
+          "arWords": 430,
+          "enWords": 472,
           "lengthRatio": 0.911,
-          "arLanguageShare": 0.794,
+          "arLanguageShare": 0.787,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -1241,10 +1241,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 347,
-          "enWords": 425,
-          "lengthRatio": 0.816,
-          "arLanguageShare": 0.772,
+          "arWords": 367,
+          "enWords": 451,
+          "lengthRatio": 0.814,
+          "arLanguageShare": 0.757,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -1356,10 +1356,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 386,
-          "enWords": 593,
-          "lengthRatio": 0.651,
-          "arLanguageShare": 0.876,
+          "arWords": 427,
+          "enWords": 647,
+          "lengthRatio": 0.66,
+          "arLanguageShare": 0.843,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -1471,10 +1471,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 329,
-          "enWords": 374,
-          "lengthRatio": 0.88,
-          "arLanguageShare": 0.824,
+          "arWords": 350,
+          "enWords": 408,
+          "lengthRatio": 0.858,
+          "arLanguageShare": 0.813,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -1586,10 +1586,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 332,
-          "enWords": 518,
-          "lengthRatio": 0.641,
-          "arLanguageShare": 0.943,
+          "arWords": 348,
+          "enWords": 539,
+          "lengthRatio": 0.646,
+          "arLanguageShare": 0.915,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -1839,10 +1839,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 332,
-          "enWords": 375,
-          "lengthRatio": 0.885,
-          "arLanguageShare": 0.818,
+          "arWords": 350,
+          "enWords": 397,
+          "lengthRatio": 0.882,
+          "arLanguageShare": 0.798,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -1977,10 +1977,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 399,
-          "enWords": 394,
-          "lengthRatio": 0.987,
-          "arLanguageShare": 0.939,
+          "arWords": 418,
+          "enWords": 419,
+          "lengthRatio": 0.998,
+          "arLanguageShare": 0.914,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -2230,10 +2230,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 381,
-          "enWords": 536,
-          "lengthRatio": 0.711,
-          "arLanguageShare": 0.89,
+          "arWords": 398,
+          "enWords": 558,
+          "lengthRatio": 0.713,
+          "arLanguageShare": 0.875,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -2621,10 +2621,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": false,
-          "arWords": 522,
-          "enWords": 462,
-          "lengthRatio": 0.885,
-          "arLanguageShare": 0.543,
+          "arWords": 534,
+          "enWords": 479,
+          "lengthRatio": 0.897,
+          "arLanguageShare": 0.542,
           "enLanguageShare": 1,
           "signals": [
             "arabic-side-not-predominantly-arabic"
@@ -2646,10 +2646,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 407,
-          "enWords": 406,
-          "lengthRatio": 0.998,
-          "arLanguageShare": 0.809,
+          "arWords": 425,
+          "enWords": 425,
+          "lengthRatio": 1,
+          "arLanguageShare": 0.797,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -2692,10 +2692,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 424,
-          "enWords": 449,
-          "lengthRatio": 0.944,
-          "arLanguageShare": 0.862,
+          "arWords": 444,
+          "enWords": 475,
+          "lengthRatio": 0.935,
+          "arLanguageShare": 0.85,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -2738,10 +2738,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 377,
-          "enWords": 400,
-          "lengthRatio": 0.943,
-          "arLanguageShare": 0.903,
+          "arWords": 396,
+          "enWords": 426,
+          "lengthRatio": 0.93,
+          "arLanguageShare": 0.89,
           "enLanguageShare": 1,
           "signals": []
         }
@@ -3037,10 +3037,10 @@
         "metrics": {
           "fieldComplete": true,
           "automatedCandidate": true,
-          "arWords": 467,
-          "enWords": 504,
-          "lengthRatio": 0.927,
-          "arLanguageShare": 0.91,
+          "arWords": 486,
+          "enWords": 528,
+          "lengthRatio": 0.92,
+          "arLanguageShare": 0.89,
           "enLanguageShare": 1,
           "signals": []
         }

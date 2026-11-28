@@ -15,6 +15,8 @@ import {
   videosForPlaylist,
   youtubeThumb,
 } from '@/lib/videoLibrary';
+import { PageBreadcrumbs } from '@/components/PageBreadcrumbs';
+import { breadcrumbTrailFor } from '@/lib/breadcrumbs';
 
 export default function Videos() {
   const { language } = useLanguage();
@@ -83,6 +85,7 @@ export default function Videos() {
 
   return (
     <div className="container mx-auto px-4 py-12">
+      <PageBreadcrumbs items={breadcrumbTrailFor('/videos', { lang: lang, title: lang === 'ar' ? 'مكتبة الفيديو' : 'Video library' })} />
       <header className="max-w-3xl mx-auto mb-8 text-center">
         <h1 className="text-3xl md:text-4xl font-bold mb-4">{title}</h1>
         <p className="text-muted-foreground leading-relaxed">{description}</p>
