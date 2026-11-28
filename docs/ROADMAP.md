@@ -1,6 +1,6 @@
 # خارطة طريق NetSec Atlas / Roadmap
 
-آخر تحديث: 28 نوفمبر 2026، 2:30 صباحًا (توقيت القاهرة، UTC+2).  
+آخر تحديث: 28 نوفمبر 2026، 2:47 صباحًا (توقيت القاهرة، UTC+2).  
 هذا ملف الخطة. سجل ما تم إنجازه موجود في [README.md](../README.md) و[CHANGELOG.md](../CHANGELOG.md).
 
 This is the forward plan. Completed work is listed in the README and changelog.
@@ -11,7 +11,7 @@ This is the forward plan. Completed work is listed in the README and changelog.
 
 ## المرحلة الحالية / Current phase (28 نوفمبر 2026): ترطيب شجرة `<App />` الحقيقية
 
-آخر تحديث لهذه المرحلة: 28 نوفمبر 2026، 2:30 صباحًا (توقيت القاهرة، UTC+2).  
+آخر تحديث لهذه المرحلة: 28 نوفمبر 2026، 2:47 صباحًا (توقيت القاهرة، UTC+2).  
 Started: 28 November 2026, 2:29am (Africa/Cairo, UTC+2). Tick the boxes as each item finishes, so anyone can continue mid-stream.
 
 **قيود سارية / Constraints**
@@ -50,19 +50,19 @@ Started: 28 November 2026, 2:29am (Africa/Cairo, UTC+2). Tick the boxes as each 
 ### 1) التشخيص والتجهيز / Diagnose and set up
 
 - [x] قائمة هذه المرحلة في الخارطة (هذا القسم) حتى يمكن المتابعة من المنتصف
-- [ ] حصر مصادر اختلاف الترطيب: `ThemeProvider`/`LanguageProvider` و`localStorage`/`window`، `useArticleBody` الذي يجلب المتن بعد الرسم، `React.lazy` وSuspense، ووصلة wouter في الخادم
-- [ ] تصميم إدخال الخادم: مسار ثابت (StaticRouter أو `ssrPath`) وبيانات مضمَّنة لكل مسار يحتاج متنًا (مثل جسم المقال)
+- [x] حصر مصادر اختلاف الترطيب: `ThemeProvider`/`LanguageProvider` و`localStorage`/`window`، `useArticleBody` الذي يجلب المتن بعد الرسم، `React.lazy` وSuspense، ووصلة wouter في الخادم
+- [x] تصميم إدخال الخادم: مسار ثابت (StaticRouter أو `ssrPath`) وبيانات مضمَّنة لكل مسار يحتاج متنًا (مثل جسم المقال)
 
 ---
 
 ### 2) التنفيذ / Implement
 
-- [ ] بناء حزمة SSR واستدعاؤها من `seo-prerender` لكل مسار: `renderToString` أو `renderToPipeableStream` لشجرة `<App />` الحقيقية
-- [ ] تضمين البيانات اللازمة في الـHTML حتى أول رسم في الخادم والعميل متطابق
-- [ ] `hydrateRoot` على `#root` بعد تحميل جزء المسار مسبقًا؛ إزالة كود الاستبدال عند أول تفاعل من `main.tsx`
-- [ ] الإبقاء على حقن SEO الحالي (title/meta/canonical/hreflang/JSON-LD) والتحقق أن مخرجات الخريطة وRSS لم تتغيّر بغير قصد
-- [ ] اختبار CI: بناء، خدمة الملفات، فتح صفحات عيّنة بلا رأس، والفشل عند أخطاء hydration أو أخطاء console
-- [ ] صفر اختلاف ترطيب على: الرئيسية، مقال، مقارنة، فيديو، قائمة تشغيل، `/tools`، بدائل، بحث (noindex)، 404 — عربي وإنجليزي
+- [x] بناء حزمة SSR واستدعاؤها من `seo-prerender` لكل مسار: `renderToString` أو `renderToPipeableStream` لشجرة `<App />` الحقيقية
+- [x] تضمين البيانات اللازمة في الـHTML حتى أول رسم في الخادم والعميل متطابق
+- [x] `hydrateRoot` على `#root` بعد تحميل جزء المسار مسبقًا؛ إزالة كود الاستبدال عند أول تفاعل من `main.tsx`
+- [x] الإبقاء على حقن SEO الحالي (title/meta/canonical/hreflang/JSON-LD) والتحقق أن مخرجات الخريطة وRSS لم تتغيّر بغير قصد
+- [x] اختبار CI: بناء، خدمة الملفات، فتح صفحات عيّنة بلا رأس، والفشل عند أخطاء hydration أو أخطاء console
+- [x] صفر اختلاف ترطيب على: الرئيسية، مقال، مقارنة، فيديو، قائمة تشغيل، `/tools`، بدائل، بحث (noindex)، 404 — عربي وإنجليزي
 
 ---
 

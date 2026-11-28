@@ -60,18 +60,30 @@ const translations: Record<string, Record<Language, string>> = {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-export function LanguageProvider({ children }: { children: React.ReactNode }) {
+export function LanguageProvider({
+  children,
+  initialLanguage,
+}: {
+  children: React.ReactNode;
+  /** Used during SSR so English routes do not fall back to `ar`. */
+  initialLanguage?: Language;
+}) {
   const basePath = import.meta.env.BASE_URL.replace(/\/$/, '');
-  const getUrlLanguage = () =>
-    typeof window === 'undefined'
-      ? null
-      : detectLanguageFromPath(window.location.pathname, basePath);
+  const getUrlLanguage = (): Language | null => {
+    if (typeof window === 'undefined') return initialLanguage ?? null;
+    return detectLanguageFromPath(window.location.pathname, basePath);
+  };
   const [language, setLanguageState] = useState<Language>(() => {
     const urlLanguage = getUrlLanguage();
     if (urlLanguage) return urlLanguage;
+    if (initialLanguage) return initialLanguage;
     if (typeof localStorage === 'undefined') return 'ar';
-    const saved = localStorage.getItem('techpulse_lang');
-    return saved === 'ar' || saved === 'en' ? saved : 'ar';
+    try {
+      const saved = localStorage.getItem('techpulse_lang');
+      return saved === 'ar' || saved === 'en' ? saved : 'ar';
+    } catch {
+      return 'ar';
+    }
   });
 
   useEffect(() => {

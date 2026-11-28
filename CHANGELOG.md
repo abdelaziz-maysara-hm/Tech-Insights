@@ -1,5 +1,14 @@
 # Changelog
 
+## 28 November 2026 (Cairo, ≈ 02:47): Prerender the real `<App />` tree and hydrateRoot
+
+- **Goal:** prerender the real `<App />` tree per route and `hydrateRoot` so markup matches, with no simplified-tree swap and no wait for first input. Articles remain paused; netsecatlas-apps is unchanged.
+- Production prerender now calls `renderToPipeableStream(<App />)` (`ssrPath` / `ssrSearch`, `onAllReady`) via a Vite SSR bundle (`dist/ssr/entry-server.js`). Article bodies are inlined as `window.__NSS_DATA__`. The client preloads the matching lazy route chunk, then `hydrateRoot`s `#root[data-hydrate="app"]`.
+- Removed the first-input swap from `main.tsx`. Theme, language, and link hrefs are SSR-safe: the first paint uses the default theme and the URL language; `localStorage` applies after hydration.
+- SEO injection (title, meta, canonical, hreflang, JSON-LD) is unchanged. `sitemap.xml` is still 672 URLs and `video-sitemap.xml` is still 164 entries; RSS generation is unchanged. Search stays noindex. GitHub Pages `404.html` is a complete NotFound tree without `hydrateRoot` (one file is served for every missing path, AR or EN). Hydrated noindex samples live at `/ar/__404__` and `/en/__404__`.
+- New `pnpm test:hydration` check: after a production build, serves `dist/public`, loads AR and EN samples of home, article, comparison, video, playlist, `/tools`, alternatives, search, and 404 in headless Chrome, and fails on hydration mismatches or console errors. Local run: 18/18 passed, zero mismatches.
+- Lighthouse after-scores (median of 3 on the same 10 pages) will be recorded after the live deploy.
+
 ## 28 November 2026 (Cairo, ≈ 02:06): Home AR and article pages to Lighthouse 85+ ([PRs #32](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/32)–[#34](https://github.com/abdelaziz-maysara-hm/Tech-Insights/pull/34))
 
 - **Goal:** get Home AR, Article AR (`2fa-practical-guide`) and Article EN to 85+ on Lighthouse mobile (median of 3) without regressing the other seven pages from the post-#29 run.
