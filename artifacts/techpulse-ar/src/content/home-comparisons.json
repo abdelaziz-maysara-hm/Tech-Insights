@@ -1,0 +1,290 @@
+[
+  {
+    "id": "cmp-gen-0004",
+    "slug": "thinkpad-x1-vs-hp-elitebook",
+    "title": {
+      "ar": "ThinkPad X1 ضد HP EliteBook لأسطول الشركة: مقارنة من زاوية الأمن والإدارة",
+      "en": "ThinkPad X1 vs HP EliteBook for a Corporate Fleet: Security and Manageability"
+    },
+    "excerpt": {
+      "ar": "مقارنة لفرق تقنية المعلومات: حماية البرامج الثابتة، إدارة BIOS عن بُعد، تحديث التعريفات على نطاق واسع، والدعم. الفرق الحقيقي في أدوات الإدارة وعقد الدعم أكثر من العتاد.",
+      "en": "A fleet-buyer comparison for IT and security teams: firmware protection, remote BIOS management, driver updates at scale and support. Tooling and the support contract matter more than the chassis."
+    },
+    "device1Name": "ThinkPad X1",
+    "device2Name": "HP EliteBook",
+    "device1Image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&h=500&q=80",
+    "device2Image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=400&h=500&q=80",
+    "date": "2026-11-19",
+    "categoryId": "comparisons",
+    "subcategoryId": "laptops-pcs",
+    "heroImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=450&q=80",
+    "overallWinner": 0,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "حماية البرامج الثابتة (Firmware)",
+          "en": "Firmware protection"
+        },
+        "device1Value": {
+          "ar": "ضمن حزمة Lenovo ThinkShield، مع BIOS قادر على التعافي الذاتي في الطرز التجارية",
+          "en": "Part of Lenovo ThinkShield, with self-healing BIOS on commercial models"
+        },
+        "device2Value": {
+          "ar": "HP Sure Start ضمن HP Wolf Security لاكتشاف تلف BIOS واستعادته",
+          "en": "HP Sure Start (HP Wolf Security) detects and recovers a corrupted BIOS"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 0
+      },
+      "spec2": {
+        "label": {
+          "ar": "إدارة إعدادات BIOS عن بُعد",
+          "en": "Remote BIOS configuration"
+        },
+        "device1Value": {
+          "ar": "عبر WMI وأدوات Lenovo للمسؤولين، وتكامل مع Intune وأدوات النشر",
+          "en": "Via WMI and Lenovo admin tooling, integrates with Intune and deployment tools"
+        },
+        "device2Value": {
+          "ar": "عبر HP BIOS Configuration Utility وأدوات HP للإدارة، مع تكامل مع Intune",
+          "en": "Via HP BIOS Configuration Utility and HP manageability tools, integrates with Intune"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 0
+      },
+      "spec3": {
+        "label": {
+          "ar": "تحديث التعريفات والـBIOS على نطاق واسع",
+          "en": "Driver and BIOS updates at scale"
+        },
+        "device1Value": {
+          "ar": "أدوات Lenovo التجارية (مثل Commercial Vantage وSystem Update) وحزم تحديث لأدوات النشر",
+          "en": "Lenovo commercial tools (Commercial Vantage, System Update) and update packs for deployment tools"
+        },
+        "device2Value": {
+          "ar": "HP Image Assistant وحزم التعريفات لأدوات النشر",
+          "en": "HP Image Assistant and driver packs for deployment tools"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 0
+      },
+      "spec4": {
+        "label": {
+          "ar": "ما يجب اشتراطه في أي طراز",
+          "en": "Non-negotiables for either model"
+        },
+        "device1Value": {
+          "ar": "TPM 2.0 وSecure Boot وBitLocker، ودعم Windows Hello for Business، ومعالج بميزات إدارة إن احتجتها",
+          "en": "TPM 2.0, Secure Boot, BitLocker, Windows Hello for Business support, and vPro-class manageability if you need it"
+        },
+        "device2Value": {
+          "ar": "المتطلبات نفسها؛ تحقق منها في مواصفات الطراز المحدد وليس السلسلة",
+          "en": "Same list; verify it per SKU, not per product line"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 0
+      }
+    },
+    "verdict": {
+      "ar": "من زاوية الأمن والإدارة الطرازان متقاربان جدًا: كلاهما يوفر حماية للبرامج الثابتة وأدوات لإدارة BIOS وتحديثه عن بُعد. اختر حسب أدوات الإدارة التي يعرفها فريقك وعقد الدعم المحلي، ثم اشترط TPM 2.0 وتشفير BitLocker وتكامل Intune في كل طراز. راجع أيضًا دليل BitLocker لدينا.",
+      "en": "For security and manageability the two are very close: both offer firmware protection plus remote BIOS and update tooling. Choose on the management tools your team already runs and local support terms, then require TPM 2.0, BitLocker and Intune integration on every SKU. See our BitLocker guide for the encryption side."
+    },
+    "englishEdition": "independent"
+  },
+  {
+    "id": "cmp-gen-0005",
+    "slug": "palo-alto-ngfw-vs-fortinet-fortigate",
+    "title": {
+      "ar": "Palo Alto NGFW ضد Fortinet FortiGate",
+      "en": "Palo Alto NGFW or Fortinet FortiGate: Which Firewall Fits Your Organisation?"
+    },
+    "excerpt": {
+      "ar": "Palo Alto أقوى في عمق تحليل التطبيقات والتهديدات المتقدمة، مناسب لمؤسسات كبيرة بميزانية أعلى. FortiGate بيقدّم قيمة أعلى",
+      "en": "Two of the most widely deployed next-generation firewalls, compared on what changes day-to-day operations: depth of application control, how hard each is to run with a small team, total cost and throughput with TLS inspection switched on."
+    },
+    "device1Name": "Palo Alto NGFW",
+    "device2Name": "Fortinet FortiGate",
+    "device1Image": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
+    "device2Image": "https://cdn.simpleicons.org/fortinet/EE3124",
+    "date": "2022-09-02",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "عمق فحص التطبيقات (App-ID)",
+          "en": "How deeply it identifies applications"
+        },
+        "device1Value": {
+          "ar": "App-ID من الأنضج في السوق",
+          "en": "App-ID is one of the most mature application engines available"
+        },
+        "device2Value": {
+          "ar": "قوي، مع تكامل جيد مع باقي منتجات Fortinet",
+          "en": "Capable, and well integrated with the rest of the Fortinet Security Fabric"
+        },
+        "device1Score": 9,
+        "device2Score": 7,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "سهولة الإدارة للفرق الصغيرة",
+          "en": "Running it with a small team"
+        },
+        "device1Value": {
+          "ar": "منحنى تعلم أعلى نسبيًا",
+          "en": "Takes longer to learn well"
+        },
+        "device2Value": {
+          "ar": "واجهة FortiManager أسهل غالبًا للفرق الصغيرة",
+          "en": "FortiManager and the FortiGate GUI are usually quicker for small teams to pick up"
+        },
+        "device1Score": 6,
+        "device2Score": 8,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "التكلفة الإجمالية",
+          "en": "Total cost of ownership"
+        },
+        "device1Value": {
+          "ar": "مرتفعة عادة (تراخيص + دعم)",
+          "en": "Generally higher once licences and support are added"
+        },
+        "device2Value": {
+          "ar": "أقل غالبًا لنفس مستوى الحماية",
+          "en": "Generally lower for similar protection"
+        },
+        "device1Score": 5,
+        "device2Score": 8,
+        "winner": 2
+      },
+      "spec4": {
+        "label": {
+          "ar": "الأداء تحت فحص SSL الكامل",
+          "en": "Throughput with full TLS inspection"
+        },
+        "device1Value": {
+          "ar": "قوي على الأجهزة المخصصة لهذا الحمل",
+          "en": "Strong when the appliance is sized for that load"
+        },
+        "device2Value": {
+          "ar": "قوي أيضًا بفضل معالجات SPU المخصصة",
+          "en": "Also strong, helped by Fortinet's purpose-built security processors (SPUs)"
+        },
+        "device1Score": 8,
+        "device2Score": 8,
+        "winner": 0
+      }
+    },
+    "verdict": {
+      "ar": "Palo Alto أقوى في عمق تحليل التطبيقات والتهديدات المتقدمة، مناسب لمؤسسات كبيرة بميزانية أعلى. FortiGate بيقدّم قيمة أعلى مقابل السعر وإدارة أسهل، مناسب أكتر للشركات المتوسطة.",
+      "en": "Choose Palo Alto when application-level control and advanced threat analysis are the priority and the budget can carry higher licensing and support costs, which is typical of larger enterprises. Choose FortiGate when price-to-performance and simpler day-to-day management matter more, which suits most mid-sized organisations. Either way, size the appliance for the throughput you will see with full TLS inspection enabled, not the headline firewall figure."
+    },
+    "englishEdition": "independent"
+  },
+  {
+    "id": "cmp-gen-0006",
+    "slug": "palo-alto-ngfw-vs-forcepoint-ngfw",
+    "title": {
+      "ar": "Palo Alto NGFW ضد Forcepoint NGFW",
+      "en": "Palo Alto NGFW or Forcepoint NGFW: Application Control vs Built-In Data Protection"
+    },
+    "excerpt": {
+      "ar": "Palo Alto NGFW وForcepoint NGFW جدار حماية من الجيل التالي (Next-Generation Firewall) موجّهان للمؤسسات، لكن بفلسفتين مختلفتين: Palo Alto مبني حول App-ID وUser-ID لفرض سياسات دقيقة على مستوى التطبيق، بينما Forcepoint بيركّز تاريخيًا على منع تسريب البيانات (DLP) المدمج كجزء أساسي من الجدار نفسه، مش إضافة منفصلة.",
+      "en": "Both are enterprise next-generation firewalls, but they start from different places. Palo Alto is built around identifying applications and users for fine-grained policy; Forcepoint has long treated data loss prevention as part of the firewall rather than an add-on."
+    },
+    "device1Name": "Palo Alto NGFW",
+    "device2Name": "Forcepoint NGFW",
+    "device1Image": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
+    "device2Image": "https://www.google.com/s2/favicons?domain=forcepoint.com&sz=128",
+    "date": "2022-11-09",
+    "categoryId": "comparisons",
+    "subcategoryId": "network-security",
+    "heroImage": "https://cdn.simpleicons.org/paloaltonetworks/FA582D",
+    "overallWinner": 2,
+    "specs": {
+      "spec1": {
+        "label": {
+          "ar": "حجم السوق ومجتمع الدعم",
+          "en": "Size of the user and support community"
+        },
+        "device1Value": {
+          "ar": "أوسع بكثير -- 155 مراجعة موثقة على G2 بتقييم 4.5/5",
+          "en": "Much larger, with far more published user reviews"
+        },
+        "device2Value": {
+          "ar": "أضيق -- 35 مراجعة موثقة على G2 بتقييم 4.4/5",
+          "en": "Smaller, with fewer published reviews"
+        },
+        "device1Score": 9,
+        "device2Score": 6,
+        "winner": 1
+      },
+      "spec2": {
+        "label": {
+          "ar": "إدارة السياسات المركزية",
+          "en": "Central policy management"
+        },
+        "device1Value": {
+          "ar": "Panorama قوي لكن يحتاج تراخيص إضافية",
+          "en": "Panorama is capable but licensed separately"
+        },
+        "device2Value": {
+          "ar": "SMC (Security Management Center) شامل ومضمّن غالبًا",
+          "en": "Security Management Center (SMC) is comprehensive and often included"
+        },
+        "device1Score": 7,
+        "device2Score": 8,
+        "winner": 2
+      },
+      "spec3": {
+        "label": {
+          "ar": "التركيز على منع فقدان البيانات",
+          "en": "Data loss prevention"
+        },
+        "device1Value": {
+          "ar": "متاح كإضافة",
+          "en": "Offered as an add-on service"
+        },
+        "device2Value": {
+          "ar": "تاريخيًا من نقاط قوة Forcepoint الأساسية",
+          "en": "A long-standing core strength"
+        },
+        "device1Score": 7,
+        "device2Score": 9,
+        "winner": 2
+      },
+      "spec4": {
+        "label": {
+          "ar": "التكلفة",
+          "en": "Cost"
+        },
+        "device1Value": {
+          "ar": "مرتفعة",
+          "en": "Higher"
+        },
+        "device2Value": {
+          "ar": "تنافسية أكثر عادة",
+          "en": "Usually more competitive"
+        },
+        "device1Score": 5,
+        "device2Score": 7,
+        "winner": 2
+      }
+    },
+    "verdict": {
+      "ar": "وفق مراجعات مستخدمين حقيقية على منصة G2 (بتاريخ 2026)، حصل Palo Alto NGFW على تقييم 4.5 من 5 (155 مراجعة) مقابل 4.4 من 5 لـForcepoint NGFW (35 مراجعة) — يعكس ده حجم قاعدة المستخدمين والدعم الأوسع لصالح Palo Alto. لكن هذا لا يعني أفضلية مطلقة: اختر Palo Alto لو أولويتك مجتمع دعم أكبر، تكامل واسع مع أدوات أمنية أخرى، وسياسات دقيقة على مستوى التطبيق. اختر Forcepoint لو منع تسريب البيانات (DLP) أولوية جوهرية عندك (خصوصًا في القطاعين الحكومي والمالي)، أو لو بتدوّر على نموذج ترخيص أبسط نسبيًا. كلا المنتجين مصنّف ضمن قادة السوق في تقييمات Gartner وG2 لجدران الحماية من الجيل التالي، والفارق الحقيقي بينهم عملي أكتر منه في الجودة العامة. من ناحية التسعير والترخيص، مراجعات مؤسسية مستقلة (PeerSpot، 2026) بتوصف Forcepoint بأنها أكثر فعالية من ناحية التكلفة مع خيارات أجهزة مرنة، رغم إن هيكل الترخيص بتاعها معقّد نسبيًا؛ بينما Palo Alto بتوصف بأنها أغلى مع رسوم ترخيص مرتفعة، لكن مبرَّرة للمؤسسات الكبيرة بفضل قيمتها الأمنية الأوسع. لا يوجد لدى أي من المنتجين تسعير معلَن حاليًا، لذا يُنصح بطلب عرض سعر مبني على معدل النقل الفعلي وحزمة الاشتراك المطلوبة قبل مقارنة التكلفة الإجمالية للملكية.",
+      "en": "Pick Palo Alto if you want the larger user community, broad integration with other security tools and very granular application-level policy. Pick Forcepoint if data loss prevention is a core requirement, as it often is in government and finance, or if you prefer its management model. Review sites show Palo Alto with a much larger base of user reviews and a slightly higher average rating, but that reflects market reach more than quality; both are established enterprise products. Neither vendor publishes list prices, so get quotes for your real throughput and subscription bundle before comparing cost."
+    },
+    "englishEdition": "independent"
+  }
+]

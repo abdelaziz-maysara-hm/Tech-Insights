@@ -50,7 +50,7 @@ export const DomainPage = lazy(loaders.DomainPage) as LazyExoticComponent<Compon
 export const NotFound = lazy(loaders.NotFound) as LazyExoticComponent<ComponentType>;
 
 const exact: Record<string, Loader[]> = {
-  '/': [loaders.Home, loaders.HomeComparisons],
+  '/': [loaders.Home],
   '/articles': [loaders.Articles],
   '/comparisons': [loaders.Comparisons],
   '/videos': [loaders.Videos],
@@ -75,8 +75,10 @@ const patterned: Array<{ test: (id: string) => boolean; load: Loader[] }> = [
   { test: (id) => /^\/domain\/[^/]+$/.test(id), load: [loaders.DomainPage] },
 ];
 
-/** Preload the lazy route module (and below-the-fold companions) so hydrateRoot
- *  does not paint a Suspense fallback that would mismatch the prerendered tree. */
+/** Preload the page chunk before hydrateRoot. Home does not preload
+ *  HomeComparisons so the 200KB+ catalog is not on the LCP path; that
+ *  island stays lazy and the prerendered HTML remains until it loads.
+ *  Article pages still preload ArticleBelowFold so the body hydrates with the hero. */
 export function preloadRoute(pathname: string, basePath: string): Promise<unknown[]> {
   const identity = stripLanguagePrefix(pathname, basePath) || '/';
   const found = exact[identity] ?? patterned.find((p) => p.test(identity))?.load ?? [loaders.NotFound];

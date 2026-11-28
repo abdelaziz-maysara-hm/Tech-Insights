@@ -6,7 +6,7 @@
   "scripts": {
     "sitemap": "node scripts/generate-sitemap.mjs",
     "dev": "node scripts/generate-article-bodies.mjs && vite --config vite.config.ts --host 0.0.0.0",
-    "build": "node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs && node scripts/generate-article-bodies.mjs && vite build --config vite.config.ts && node scripts/build-ssr.mjs && node scripts/seo-prerender.mjs",
+    "build": "node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs && node scripts/generate-article-bodies.mjs && node scripts/generate-home-comparisons.mjs && vite build --config vite.config.ts && node scripts/build-ssr.mjs && node scripts/seo-prerender.mjs",
     "build:server": "node build-server.mjs",
     "build:render": "pnpm run build && pnpm run build:server",
     "start:render": "node dist/render-server.mjs",
@@ -23,7 +23,7 @@
     "build:ssr": "node scripts/build-ssr.mjs",
     "test:seo-prerender": "node --test scripts/seo-prerender.test.mjs",
     "test:hydration": "node --test scripts/hydration-check.mjs",
-    "test:static-content": "node --test scripts/seo-static-content.test.mjs",
+    "test:static-content": "node --test scripts/seo-static-content.test.mjs scripts/home-comparisons.test.mjs",
     "test:build-output": "node --test scripts/build-output.test.mjs",
     "check:bundle-budget": "node scripts/check-bundle-budget.mjs",
     "test:bundle-budget": "node scripts/check-bundle-budget.mjs",
